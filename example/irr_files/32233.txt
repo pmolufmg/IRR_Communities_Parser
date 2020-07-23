@@ -1,0 +1,25 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS32233
+as-name:       PERSONA
+descr:         Bragg Communications branded as EastLink (Western)
+admin-c:       ANS2-ARIN
+tech-c:        ATS22-ARIN
+import:        from AS32233:AS-CUSTOMERS   accept <^AS32233:AS-CUSTOMERS+$>
+import:        from AS32233:AS-TRANSIT   accept ANY AND NOT fltr-bogons
+export:        to AS32233:AS-CUSTOMERS   announce ANY AND NOT fltr-bogons
+export:        to AS32233:AS-TRANSIT   announce AS-EASTLINK-WESTERN
+remarks:       Customer Communities
+               32233:80 Sets Eastlink local-pref to 80 (backup)
+               32233:100 Sets Eastlink local-pref to 100 (transit default)
+               32233:120 Sets Eastlink local-pref to 120 (peering default)
+               32233:130 Sets Eastlink local-pref to 130 (customer default)
+               32233:150 Sets Eastlink local-pref to 150
+               32233:999 Blackholes a host prefix (/32s only)
+notify:        radb-admin@eastlink.ca
+mnt-by:        MAINT-AS11260
+changed:       larry.brinton@corp.eastlink.ca 20171211  #15:18:06Z
+source:        RADB
+
+

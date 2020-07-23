@@ -1,0 +1,51 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS31074
+as-name:       ALPHABANK-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS9050 action pref=100; accept ANY
+import:        from AS8708 action pref=100; accept ANY
+export:        to AS9050 announce AS31074
+export:        to AS8708 announce AS31074
+remarks:       -----------------------------------------------------------
+remarks:       Alpha Bank filters out inbound prefixes longer than /24
+remarks:       
+remarks:       Communities definitions
+remarks:       -----------------------------------------------------------
+remarks:       31074:80   Set local preference to 80 inside AlphaBank
+remarks:       31074:120  Set local preference to 120 inside AlphaBank (*)
+remarks:       31074:1000 Announce to upstreams (*)
+remarks:       31074:1001 Prepend 1*33971 when announcing to upstreams (*)
+remarks:       31074:1002 Prepend 2*33971 when announcing to upstreams (*)
+remarks:       31074:1003 Prepend 3*33971 when announcing to upstreams (*)
+remarks:       31074:2000 Announce to peers
+remarks:       31074:2001 Prepend 1*33971 when announcing to peers
+remarks:       31074:2002 Prepend 2*33971 when announcing to peers
+remarks:       31074:2003 Prepend 3*33971 when announcing to peers
+remarks:       (*) only group partners can use this community
+remarks:       
+remarks:       Default local preference
+remarks:       ------------------------------------------------------------
+remarks:       Partners   110
+remarks:       Transit    101
+remarks:       Peers      100
+remarks:       Backup      80
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       Peering issues: peering@alphabank.ro
+remarks:       ------------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        peering@alphabank.ro
+mnt-by:        ALPHA-RO-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

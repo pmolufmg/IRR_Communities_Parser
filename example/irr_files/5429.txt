@@ -1,0 +1,111 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS5429
+as-name:       IIP-NET-AS5429
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+member-of:     AS-IIPNET
+import:        from AS3267 action pref=100; accept ANY
+import:        from AS25478 action pref=100; accept ANY
+import:        from AS39792 action pref=100; accept ANY
+import:        from AS50384 action pref=120; accept ANY
+import:        from AS29076 action pref=120; accept ANY
+import:        from AS8631 action pref=150; accept ANY
+import:        from AS13105 action pref=150; accept AS-LUKOIL
+import:        from AS2820 action pref=150; accept AS-ELVIS
+import:        from AS5537 action pref=150; accept AS-GARANTPARK
+import:        from AS28968 action pref=150; accept AS-EUT
+import:        from AS13238 action pref=150; accept AS-COMPTEK
+import:        from AS5467 action pref=150; accept AS-MIPT
+import:        from AS8491 action pref=150; accept AS-BSH
+import:        from AS28917 action pref=150; accept AS-FIORD
+import:        from AS34352 action pref=150; accept AS-MCN
+import:        from AS30733 action pref=150; accept AS-GLOBUS
+import:        from AS30733 action pref=200; accept ANY
+import:        from AS25530 action pref=300; accept AS25530
+import:        from AS41892 action pref=300; accept AS41892
+import:        from AS51831 action pref=300; accept AS51831
+import:        from AS52184 action pref=300; accept AS52184
+import:        from AS56930 action pref=300; accept AS-CLARUSTELECOM
+import:        from AS56935 action pref=300; accept AS56935
+import:        from AS57627 action pref=300; accept AS-ILBITTEL
+import:        from AS29233 action pref=300; accept AS29233
+import:        from AS199906 action pref=300; accept AS199906
+export:        to AS3267 announce AS-IIPNET
+export:        to AS25478 announce AS-IIPNET
+export:        to AS39792 announce AS-IIPNET
+export:        to AS50384 announce AS-IIPNET
+export:        to AS29076 announce AS-IIPNET
+export:        to AS8631 announce AS-IIPNET-MSK-IX
+export:        to AS13105 announce AS-IIPNET-MSK-IX
+export:        to AS2820 announce AS-IIPNET-MSK-IX
+export:        to AS5537 announce AS-IIPNET-MSK-IX
+export:        to AS28968 announce AS-IIPNET-MSK-IX
+export:        to AS13238 announce AS-IIPNET-MSK-IX
+export:        to AS5467 announce AS-IIPNET-MSK-IX
+export:        to AS8491 announce AS-IIPNET-MSK-IX
+export:        to AS28917 announce AS-IIPNET-MSK-IX
+export:        to AS34352 announce AS-IIPNET-MSK-IX
+export:        to AS30733 announce AS-IIPNET-MSK-IX
+export:        to AS30733 announce AS-IIPNET
+export:        to AS25530 announce ANY
+export:        to AS41892 announce ANY
+export:        to AS51831 announce ANY
+export:        to AS52184 announce ANY
+export:        to AS56930 announce ANY
+export:        to AS56935 announce ANY
+export:        to AS57627 announce ANY
+export:        to AS29233 announce ANY
+export:        to AS199906 announce ANY
+remarks:       South Moscow Backbone Network
+remarks:       Telecommunication Center UMOS
+remarks:       --------------------------------------------
+remarks:       Uplinks
+remarks:       
+remarks:       
+remarks:       
+remarks:       --------------------------------------------
+remarks:       Peers
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       --------------------------------------------
+remarks:       Clients
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Looking glass: http://noc.iip.net/lg/
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Communities for prefix control
+remarks:       
+remarks:       5429:100 Do not advertise to any uplink or peer.
+remarks:       This has priority over all the following communities.
+remarks:       
+remarks:       5429:50xn Controls advertisement to direction "x"
+remarks:       where directions are:
+remarks:       x = 0 clients and peers
+remarks:       x = 1 uplink to AS3267 (RUNNet)
+remarks:       x = 2 uplink to AS39792 (Anders)
+remarks:       x = 3 uplink to AS29076 (Filanco)
+remarks:       x = 4 uplink to AS50384 (W-IX)
+remarks:       x = 5 uplink to AS25478 (iHome)
+remarks:       and values of "n" define possible actions:
+remarks:       n = 0 do not advertise
+remarks:       n = 1,2,4,6 add n prepends
+remarks:       
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        AS5558-MNT
+source:        RIPE
+
+

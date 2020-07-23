@@ -1,0 +1,121 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS48191'
+
+% Abuse contact for 'AS48191' is 'info@logostech.it'
+
+aut-num:        AS48191
+as-name:        ASN-4ISP
+org:            ORG-LTS3-RIPE
+remarks:
+remarks:        For abuse please write ONLY to:
+remarks:        mailto:abuse@4isp.it
+remarks:
+remarks:        *******************
+remarks:        * BGP communities *
+remarks:        *******************
+remarks:        48191:666 Bogon route
+remarks:        48191:10000 Our prefix
+remarks:        48191:10001 Customers prefix
+remarks:        48191:10005 Prefix from Fastweb
+remarks:        48191:10006 Prefix from Retelit
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:        48191:65666 Set as blackhole
+remarks:        48191:65001 Don't announce outside
+remarks:        48191:65002 Don't announce to Retelit
+remarks:        48191:65003 Don't announce to Fastweb
+remarks:
+remarks:
+remarks:
+remarks:        *******************
+remarks:        * Main Peering *
+remarks:        *******************
+import:         from AS41606 accept ANY
+import:         from AS28716 accept ANY
+import:         from AS6939 accept ANY
+import:         from AS29632 accept ANY
+export:         to AS41606 announce AS48191
+export:         to AS41606 announce AS48191:AS-OUT
+export:         to AS28716 announce AS48191:AS-OUT
+export:         to AS6939 announce AS48191:AS-OUT
+export:         to AS29632 announce AS48191:AS-OUT
+remarks:
+remarks:        *******************
+remarks:        * Transit Peering *
+remarks:        *******************
+import:         from AS44942 action pref=30; accept ANY
+import:         from AS28929 action pref=30; accept ANY
+export:         to AS44942 announce ANY
+export:         to AS28929 announce AS48191:AS-OUT
+remarks:
+remarks:        *********************
+remarks:        * Customers Peering *
+remarks:        *********************
+import:         from AS48500 accept AS48500
+import:         from AS48667 accept AS48667
+export:         to AS48500 announce ANY
+export:         to AS48667 announce ANY
+remarks:
+admin-c:        DD2522-RIPE
+tech-c:         DD2522-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-LOGOS
+created:        2008-10-23T08:32:27Z
+last-modified:  2018-09-04T10:36:41Z
+source:         RIPE # Filtered
+
+organisation:   ORG-LTS3-RIPE
+org-name:       Logos Technologies S.r.l.
+org-type:       LIR
+address:        Via Giovanni Felisati, 61
+address:        30174
+address:        Mestre
+address:        ITALY
+phone:          +39 (041)0999611
+admin-c:        DD2522-RIPE
+abuse-c:        AR15828-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-LOGOS
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-LOGOS
+created:        2006-06-23T12:04:22Z
+last-modified:  2016-07-11T07:35:40Z
+source:         RIPE # Filtered
+
+person:         Denis Dulcetta
+address:        Logos Technologies S.r.l.
+                via Felisati, 29
+                Mestre - Venezia
+                ITALY
+phone:          +39 041 0999611
+mnt-by:         MNT-LOGOS
+nic-hdl:        DD2522-RIPE
+created:        2006-09-12T14:46:21Z
+last-modified:  2006-09-12T14:46:21Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

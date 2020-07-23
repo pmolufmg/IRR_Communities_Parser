@@ -1,0 +1,399 @@
+aut-num:        AS6799
+as-name:        OTENET-GR
+descr:          Athens - Greece
+org:            ORG-OSTO1-RIPE
+remarks:        +---------------------------------+
+remarks:        |General enquiries: noc@otenet.gr |
+remarks:        |Abuse & Spam: abuse@ote.gr |
+remarks:        |DNS & RIPE: hostmaster@otenet.gr |
+remarks:        +---------------------------------+
+remarks:        +====================================================+
+remarks:        | ROUTING POLICY for OTENET (AS6799) |
+remarks:        +====================================================+
+remarks:        +----------------------------------------------------+
+remarks:        | UPSTREAM PEERINGS |
+remarks:        +----------------------------------------------------+
+remarks:        === OTEGlobe ===
+import:         from AS12713 action pref=100; accept ANY
+export:         to AS12713 announce AS-OTENET
+mp-import:      afi ipv6.unicast from AS12713 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS12713 announce AS-OTENET-V6
+remarks:        +----------------------------------------------------+
+remarks:        | GR-IX PEERINGS (Greece Internet Exchange - Athens) |
+remarks:        +----------------------------------------------------+
+remarks:        === GR-IX ===
+import:         from AS199399 action pref=200; accept AS199399:AS-TO-AIX
+export:         to AS199399 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS199399 action pref=200; accept AS199399:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS199399 announce AS-OTENET-V6
+remarks:        === K-ROOT ===
+import:         from AS25152 action pref=200; accept RS-KROOT-GRNET
+export:         to AS25152 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS25152 action pref=200; accept RS-KROOT-GRNET
+mp-export:      afi ipv6.unicast to AS25152 announce AS-OTENET-V6
+remarks:        === VERISIGN J-ROOT ===
+import:         from AS26415 action pref=200; accept AS26415
+export:         to AS26415 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS26415 action pref=200; accept AS26415
+mp-export:      afi ipv6.unicast to AS26415 announce AS-OTENET-V6
+remarks:        === AS112 ROOTSERV ===
+import:         from AS112 action pref=200; accept AS112
+export:         to AS112 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS112 action pref=200; accept AS112
+mp-export:      afi ipv6.unicast to AS112 announce AS-OTENET-V6
+remarks:        === GR-ANYCAST-DNS-CLOUD ===
+import:         from AS48053 action pref=200; accept AS48053
+export:         to AS48053 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS48053 action pref=200; accept AS48053
+mp-export:      afi ipv6.unicast to AS48053 announce AS-OTENET-V6
+remarks:        === MICROSOFT ===
+import:         from AS8075 action pref=200; accept AS-MICROSOFT
+export:         to AS8075 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS8075 action pref=200; accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 announce AS-OTENET-V6
+remarks:        === NETIX ===
+import:         from AS57463 action pref=200; accept AS-NETIX-NET
+export:         to AS57463 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS57463 action pref=200; accept AS-NETIX-NET
+mp-export:      afi ipv6.unicast to AS57463 announce AS-OTENET-V6
+remarks:        === CLOUDFLARE ===
+import:         from AS13335 action pref=200; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS13335 action pref=200; accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS-OTENET-V6
+remarks:        === O3B ===
+import:         from AS60725 action pref=200; accept AS-O3B-GR
+export:         to AS60725 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS60725 action pref=200; accept AS-O3B-GR
+mp-export:      afi ipv6.unicast to AS60725 announce AS-OTENET-V6
+remarks:        === GRNET ===
+import:         from AS5408 action pref=200; accept AS5408:AS-TO-AIX
+export:         to AS5408 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS5408 action pref=200; accept AS5408:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS5408 announce AS-OTENET-V6
+remarks:        === HOL ===
+import:         from AS3329 action pref=200; accept AS3329:AS-TO-AIX
+export:         to AS3329 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3329 action pref=200; accept AS3329:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS3329 announce AS-OTENET-V6
+remarks:        === FORTHNET ===
+import:         from AS1241 action pref=200; accept AS1241:AS-TO-AIX
+export:         to AS1241 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS1241 action pref=200; accept AS1241:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS1241 announce AS-OTENET-V6
+remarks:        === CYTA ===
+import:         from AS6866 action pref=200; accept AS-CYTAHELLAS
+export:         to AS6866 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6866 action pref=200; accept AS-CYTAHELLAS
+mp-export:      afi ipv6.unicast to AS6866 announce AS-OTENET-V6
+remarks:        === CYTA CYPRUS ===
+import:         from AS6866 action pref=200; accept AS-CYTANET
+export:         to AS6866 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6866 action pref=200; accept AS-CYTANET
+mp-export:      afi ipv6.unicast to AS6866 announce AS-OTENET-V6
+remarks:        === WIND ===
+import:         from AS25472 action pref=200; accept AS25472:AS-TO-AIX
+export:         to AS25472 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS25472 action pref=200; accept AS25472:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS25472 announce AS-OTENET-V6
+remarks:        === MEDNAUTILUS ===
+import:         from AS198477 action pref=200; accept AS198477:AS-TO-AIX
+export:         to AS198477 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS198477 action pref=200; accept AS198477:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS198477 announce AS-OTENET-V6
+remarks:        === ERT ===
+import:         from AS50148 action pref=200; accept AS50148
+export:         to AS50148 announce AS6799:AS-TO-AIX
+remarks:        === LAMDAHELLIX ===
+import:         from AS56910 action pref=200; accept AS56910:AS-TO-AIX
+export:         to AS56910 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS56910 action pref=200; accept AS56910:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS56910 announce AS-OTENET-V6
+remarks:        === DATAWAYS ===
+import:         from AS15544 action pref=200; accept AS15544:AS-TO-AIX
+export:         to AS15544 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS15544 action pref=200; accept AS15544:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS15544 announce AS-OTENET-V6
+remarks:        === MODULUS ===
+import:         from AS201494 action pref=200; accept AS201494:AS-TO-AIX
+export:         to AS201494 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS201494 action pref=200; accept AS201494:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS201494 announce AS-OTENET-V6
+remarks:        === CONNECTICORE ===
+import:         from AS197580 action pref=200; accept AS197580:AS-TO-AIX
+export:         to AS197580 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS197580 action pref=200; accept AS197580:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS197580 announce AS-OTENET-V6
+remarks:        === INALAN ===
+import:         from AS200736 action pref=200; accept AS200736
+export:         to AS200736 announce AS6799:AS-TO-AIX
+remarks:        === SKROUTZ ===
+import:         from AS202042 action pref=200; accept AS202042:AS-TO-AIX
+export:         to AS202042 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS202042 action pref=200; accept AS202042:AS-TO-AIX
+mp-export:      afi ipv6.unicast to AS202042 announce AS-OTENET-V6
+remarks:        === EETT ===
+import:         from AS203348 action pref=200; accept AS203348
+export:         to AS203348 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS203348 action pref=200; accept AS203348
+mp-export:      afi ipv6.unicast to AS203348 announce AS-OTENET-V6
+remarks:        === HOSTMEIN ===
+import:         from AS50520 action pref=200; accept as-set-hostmein-grix-1
+export:         to AS50520 announce AS6799:AS-TO-AIX
+remarks:        === SYNAPSECOM ===
+import:         from AS8280 action pref=200; accept AS-SYNAPSECOM
+export:         to AS8280 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS8280 action pref=200; accept AS-SYNAPSECOM
+mp-export:      afi ipv6.unicast to AS8280 announce AS-OTENET-V6
+remarks:        === RIOTGAMES ===
+import:         from AS6507 action pref=200; accept AS-RIOT
+export:         to AS6507 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6507 action pref=200; accept AS-RIOT
+mp-export:      afi ipv6.unicast to AS6507 announce AS-OTENET-V6
+remarks:        === TOPHOST ===
+import:         from AS199246 action pref=200; accept AS199246
+export:         to AS199246 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS199246 action pref=200; accept AS199246
+mp-export:      afi ipv6.unicast to AS199246 announce AS-OTENET-V6
+remarks:        === HCN ===
+import:         from AS57794 action pref=200; accept AS-HCN
+export:         to AS57794 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS57794 action pref=200; accept AS-HCN
+mp-export:      afi ipv6.unicast to AS57794 announce AS-OTENET-V6
+remarks:        === CYNET ===
+import:         from AS3268 action pref=200; accept AS-CYNET
+export:         to AS3268 announce AS6799:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3268 action pref=200; accept AS-CYNET
+mp-export:      afi ipv6.unicast to AS3268 announce AS-OTENET-V6
+remarks:        === MICROBASE ===
+import:         from AS196945 action pref=200; accept AS196945
+export:         to AS196945 announce AS6799:AS-TO-AIX
+remarks:        +----------------------------------------------------+
+remarks:        | CUSTOMER PEERINGS |
+remarks:        +----------------------------------------------------+
+remarks:        === NBG ===
+import:         from AS6674 action pref=201; accept AS6674
+export:         to AS6674 announce ANY
+remarks:        === TEE ===
+import:         from AS8396 action pref=201; accept AS8396
+export:         to AS8396 announce ANY
+remarks:        === ALPHABANK ===
+import:         from AS9128 action pref=201; accept AS9128
+export:         to AS9128 announce ANY
+remarks:        === DELTA ===
+import:         from AS12391 action pref=201; accept AS12391
+export:         to AS12391 announce ANY
+remarks:        === DATABANK ===
+import:         from AS15414 action pref=201; accept AS15414
+export:         to AS15414 announce ANY
+remarks:        === EUROPEANDYNAMICS ===
+import:         from AS15430 action pref=201; accept AS15430
+export:         to AS15430 announce ANY
+remarks:        === EFG_EUROBANK ===
+import:         from AS15439 action pref=201; accept AS15439
+export:         to AS15439 announce ANY
+remarks:        === MILLENNIUMBANK ===
+import:         from AS15604 action pref=201; accept AS15604
+export:         to AS15604 announce ANY
+remarks:        === SINGULAR ===
+import:         from AS20506 action pref=201; accept AS20506
+export:         to AS20506 announce ANY
+remarks:        === ANTENNA ===
+import:         from AS24735 action pref=201; accept AS24735
+export:         to AS24735 announce ANY
+remarks:        === PIRAEUSBANK ===
+import:         from AS28953 action pref=201; accept AS28953
+export:         to AS28953 announce ANY
+remarks:        === ABVASSILOPOULOS ===
+import:         from AS28969 action pref=201; accept AS28969
+export:         to AS28969 announce ANY
+remarks:        === LYCOS ===
+import:         from AS29052 action pref=201; accept AS29052
+export:         to AS29052 announce ANY
+remarks:        === ASDA ===
+import:         from AS29229 action pref=201; accept AS29229
+export:         to AS29229 announce ANY
+remarks:        === TITAN ===
+import:         from AS29353 action pref=201; accept AS29353
+export:         to AS29353 announce ANY
+remarks:        === BNB ===
+import:         from AS31443 action pref=201; accept AS31443
+export:         to AS31443 announce ANY
+remarks:        === INTERAMERICAN ===
+import:         from AS34239 action pref=201; accept AS34239
+export:         to AS34239 announce ANY
+remarks:        === INTRASOFTINTL ===
+import:         from AS35446 action pref=201; accept AS35446
+export:         to AS35446 announce ANY
+remarks:        === ADG ===
+import:         from AS35472 action pref=201; accept AS35472
+export:         to AS35472 announce ANY
+remarks:        === SYZEFXIS ===
+import:         from AS35506 action pref=201; accept AS35506
+export:         to AS35506 announce ANY
+remarks:        === EUROBANKCARDS ===
+import:         from AS39062 action pref=201; accept AS39062
+export:         to AS39062 announce ANY
+remarks:        === TAXTAM ===
+import:         from AS39929 action pref=201; accept AS39929
+export:         to AS39929 announce ANY
+remarks:        === BANK_OF_GREECE ===
+import:         from AS41125 action pref=201; accept AS41125
+export:         to AS41125 announce ANY
+remarks:        === ATTICABANK ===
+import:         from AS41579 action pref=201; accept AS41579
+export:         to AS41579 announce ANY
+remarks:        === CREDICOM ===
+import:         from AS42365 action pref=201; accept AS42365
+export:         to AS42365 announce ANY
+remarks:        === MEB ===
+import:         from AS44036 action pref=201; accept AS44036
+export:         to AS44036 announce ANY
+remarks:        === BANKOFCYPRUS ===
+import:         from AS48168 action pref=201; accept AS48168
+export:         to AS48168 announce ANY
+remarks:        === KTIMATOLOGIO ===
+import:         from AS50501 action pref=201; accept AS50501
+export:         to AS50501 announce ANY
+remarks:        === INTERWORKS ===
+import:         from AS50919 action pref=201; accept AS50919
+export:         to AS50919 announce ANY
+remarks:        === AEROPORIAAIGAIOY ===
+import:         from AS51537 action pref=201; accept AS51537
+export:         to AS51537 announce ANY
+remarks:        === NEUROPUBLIC ===
+import:         from AS60723 action pref=201; accept AS60723
+export:         to AS60723 announce ANY
+remarks:        === IRISPRINTING ===
+import:         from AS199141 action pref=201; accept AS199141
+export:         to AS199141 announce ANY
+remarks:        === LANCOM ===
+import:         from AS199081 action pref=201; accept AS199081
+export:         to AS199081 announce ANY
+remarks:        === ERGOHELLAS ===
+import:         from AS60911 action pref=201; accept AS60911
+export:         to AS60911 announce ANY
+remarks:        === AIA ===
+import:         from AS199370 action pref=201; accept AS199370
+export:         to AS199370 announce ANY
+remarks:        === INTRAKOM ===
+import:         from AS3260 action pref=201; accept AS3260
+export:         to AS3260 announce ANY
+remarks:        === COSMOTE ===
+import:         from AS29247 action pref=201; accept AS29247
+export:         to AS29247 announce ANY
+mp-import:      afi ipv6.unicast from AS29247 action pref=201; accept AS29247
+mp-export:      afi ipv6.unicast to AS29247 announce ANY
+remarks:        === CHIPITA ===
+import:         from AS200540 action pref=201; accept AS200540
+export:         to AS200540 announce ANY
+remarks:        ===OPAP ===
+import:         from AS201293 action pref=201; accept AS201293
+export:         to AS201293 announce ANY
+remarks:        === MASOUTIS ===
+import:         from AS203780 action pref=201; accept AS203780
+export:         to AS203780 announce ANY
+remarks:        ===HELLAS-SAT===
+import:         from AS41697 action pref=201; accept AS41697
+export:         to AS41697 announce ANY
+remarks:        ===DIAS===
+import:         from AS29241 action pref=201; accept AS29241
+export:         to AS29241 announce ANY
+remarks:        remarks: === PARLIAMENT ===
+import:         from AS201374 action pref=201; accept AS201374
+export:         to AS201374 announce ANY
+remarks:        remarks: === VILLAGEROADSHOW ===
+import:         from AS34780 action pref=201; accept AS34780
+export:         to AS34780 announce ANY
+remarks:        remarks: === DELTA-VIVARTIA ===
+import:         from AS24849 action pref=201; accept AS24849
+export:         to AS24849 announce ANY
+remarks:        remarks: === EUROLIFE ===
+import:         from AS206697 action pref=201; accept AS206697
+export:         to AS206697 announce ANY
+remarks:        remarks: === KARABATSOS ===
+import:         from AS201827 action pref=201; accept AS201827
+export:         to AS201827 announce ANY
+remarks:        ======================================================
+remarks:        The following BGP policy is applied to all customers
+remarks:        - Private reserved networks and private AS numbers
+remarks:        are not accepted and always filtered.
+remarks:        - Prefixes longer than a /24 are not accepted.
+remarks:        - Prefixes not matching import policy are rejected.
+remarks:        Customers must always have a valid route obect.
+remarks:        - Prefix limit is placed upon the number of prefixes
+remarks:        received including a percentage amount for future
+remarks:        growth.
+remarks:        - We honor well known communities no-export
+remarks:        no-advertise.
+remarks:        =====================================================
+remarks:        +====================================================+
+remarks:        | Local Preference set at ingress |
+remarks:        +====================================================+
+remarks:        Local preference 201: OTE Customers
+remarks:        Local preference 200: GRIX Primary
+remarks:        Local preference 199: GRIX Secondary
+remarks:        Local preference 100: Upstreams
+remarks:        +====================================================+
+remarks:        | Customer Communities applied at ingress |
+remarks:        +====================================================+
+remarks:        Community Node
+remarks:        ---------- ----------------------
+remarks:        6799:2100 Athens K1
+remarks:        6799:2101 Athens K2
+remarks:        6799:2109 Athens Kx
+remarks:        6799:2110 Athens N1
+remarks:        6799:2111 Athens N2
+remarks:        6799:2119 Athens Nx
+remarks:        6799:2310 Thessalonica T1
+remarks:        6799:2311 Thessalonica T2
+remarks:        6799:2319 Thessalonica Tx
+remarks:        +====================================================+
+remarks:        | Public Peering Communities applied at ingress |
+remarks:        +====================================================+
+remarks:        Community Node
+remarks:        ---------- ----------------------
+remarks:        6799:3000 GRIX primary peering
+remarks:        6799:3001 GRIX secondary peering
+remarks:        +====================================================+
+remarks:        | Customer Traffic Engineering |
+remarks:        +====================================================+
+remarks:        Community Action
+remarks:        ---------- ----------------------
+remarks:        6799:4080 Local preference = 80
+remarks:        6799:4150 Local preference = 150
+remarks:        6799:8080 Local preference at AS12713 = 80
+remarks:        6799:8600 Local preference at AS12713 = 600
+remarks:        6799:5001 prepend 1x to all upstreams and peers
+remarks:        6799:5002 prepend 2x to all upstreams and peers
+remarks:        6799:5003 prepend 3x to all upstreams and peers
+remarks:        6799:5004 prepend 4x to all upstreams and peers
+remarks:        6799:5009 do not announce at all upstreams and peers
+remarks:        6799:5011 prepend 1x to all GRIX peers
+remarks:        6799:5012 prepend 2x to all GRIX peers
+remarks:        6799:5013 prepend 3x to all GRIX peers
+remarks:        6799:5014 prepend 4x to all GRIX peers
+remarks:        6799:5019 do not announce to all GRIX peers
+remarks:        6799:5021 prepend 1x to all upstreams
+remarks:        6799:5022 prepend 2x to all upstreams
+remarks:        6799:5023 prepend 3x to all upstreams
+remarks:        6799:5024 prepend 4x to all upstreams
+remarks:        6799:5029 do not announce to all upstreams
+remarks:        =====================================================
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+notify:         achilles@otenet.gr
+mnt-by:         OTE-ADMIN-MNT
+mnt-routes:     OTE-ADMIN-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-07-02T11:37:17Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

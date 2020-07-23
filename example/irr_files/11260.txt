@@ -1,0 +1,49 @@
+aut-num:        AS11260
+as-name:        EastLink
+descr:          Bragg Communications branded as EastLink
+import:         from AS11260:AS-PEERING   accept ANY AND NOT fltr-bogons
+import:         from AS11260:AS-TRANSIT   accept ANY AND NOT fltr-bogons
+import:         from AS11260:AS-CUSTOMERS   accept <^AS11260:AS-CUSTOMERS+$>
+mp-import:      afi ipv6.unicast from AS11260:AS-PEERING   accept ANY
+mp-import:      afi ipv6.unicast from AS11260:AS-TRANSIT   accept ANY
+mp-import:      afi ipv6.unicast from AS11260:AS-CUSTOMERS   accept <^AS11260:AS-CUSTOMERS+$>
+export:         to AS11260:AS-PEERING   announce AS-EASTLINK
+export:         to AS21357   announce AS-EASTLINK
+export:         to AS11260:AS-CUSTOMERS   announce ANY AND NOT fltr-bogons
+export:         to AS11260:AS-TRANSIT   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS11666   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS6939   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS3257   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS15169   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS8111   announce ANY
+mp-export:      afi ipv6.unicast to AS3356   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS6453   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS7992   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS8075   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS23307   announce ANY
+mp-export:      afi ipv6.unicast to AS11468   announce ANY
+mp-export:      afi ipv6.unicast to AS8001   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS19752   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS14116   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS23184   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS21548   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS20161   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS21724   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS2914   announce AS-EASTLINK
+mp-export:      afi ipv6.unicast to AS44432   announce ANY
+mp-export:      afi ipv6.unicast to AS44735   announce ANY
+mp-export:      afi ipv6.unicast to AS33230   announce ANY
+mp-export:      afi ipv6.unicast to AS30396   announce ANY
+admin-c:        ANS2-ARIN
+tech-c:         ATS22-ARIN
+remarks:        Customer Communities
+                11260:80  Sets Eastlink local-pref to 80 (backup)
+                11260:100 Sets Eastlink local-pref to 100 (transit default)
+                11260:120 Sets Eastlink local-pref to 120 (peering default)
+                11260:130 Sets Eastlink local-pref to 130 (customer default)
+                11260:150 Sets Eastlink local-pref to 150
+                11260:999 Blackholes a host prefix (/32s only)
+notify:         radb-admin@eastlink.ca
+mnt-by:         MAINT-AS11260
+changed:        larry.brinton@corp.eastlink.ca 20130415  #13:05:28Z
+source:         RADB

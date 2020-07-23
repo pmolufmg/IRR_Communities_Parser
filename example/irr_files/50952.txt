@@ -1,0 +1,1434 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS50952'
+
+% Abuse contact for 'AS50952' is 'admin@dataix.ru'
+
+aut-num:        AS50952
+as-name:        DataIX-AS
+org:            ORG-PL103-RIPE
+descr:          Peering Ltd.
+remarks:        ------------------------------------------------
+remarks:        **** Abuse, Security issues: tech@dataix.ru ****
+remarks:        **** Customer support issues: noc@dataix.ru ****
+remarks:        ------------------------------------------------
+remarks:        --------------Uplinks(technical usage)----------
+remarks:        - GlobalNet
+import:         from AS31500 accept ANY
+export:         to AS31500 announce AS50952
+remarks:        ---------------- IX Customers ------------------
+remarks:        IX support BGP community strings listed below
+remarks:        Community that we add automaticaly (Regional)
+remarks:        50952:21000 - Prefix received in St.petersburg(Ru)
+remarks:        50952:21001 - Prefix received in Moscow(Ru)
+remarks:        50952:21003 - Prefix received in Ekaterinburg(Ru)
+remarks:        50952:21002 - Prefix received in Novosibirsk(Ru)
+remarks:        50952:21006 - Prefix received in Samara(Ru)
+remarks:        50952:21007 - Prefix received in Ufa(Ru)
+remarks:        50952:21100 - Prefix received in Kiev(Ua)
+remarks:        50952:21102 - Prefix received in Odessa(Ua)
+remarks:        50952:21101 - Prefix received in Kharkov(Ua)
+remarks:        50952:21050 - Prefix received in Frankfurt(Eu)
+remarks:        50952:21150 - Prefix received in Akkol(Kz)
+remarks:        ------------------------------------------------
+remarks:        Traffic management communities
+remarks:        0:<peer-as> - Do not announce prefix to a peer with AS <peer-as>
+remarks:        50952:<peer-as> - Announce prefix to a peer with AS <peer-as>
+remarks:        0:50952 - Do not announce prefix to anyone
+remarks:        0:666 - Blackhole community (/32 prefixes only)
+remarks:        50952:50952 - Announce prefix to everyone (default)
+remarks:        50952:0 - Set local preference 0
+remarks:        50952:50 - Set local preference 50
+remarks:        50952:80 - Set local preference 80
+remarks:        ---------------- -------------------------------
+remarks:        32Bit ASN - 16Bit ASN for BGP commumity
+remarks:        196750 - 64501
+remarks:        196739 - 64502
+remarks:        196673 - 64503
+remarks:        196678 - 64504
+remarks:        198459 - 64505
+remarks:        205216 - 64505
+remarks:        197888 - 64506
+remarks:        202103 - 64507
+remarks:        196879 - 64508
+remarks:        198610 - 64509
+remarks:        197235 - 64510
+remarks:        197708 - 64511
+remarks:        201499 - 64512
+remarks:        199524 - 64513
+remarks:        200161 - 64514
+remarks:        199948 - 64515
+remarks:        199599 - 64516
+remarks:        199860 - 64517
+remarks:        200000 - 64518
+remarks:        198295 - 64519
+remarks:        201008 - 64520
+remarks:        197080 - 64521
+remarks:        200015 - 64522
+remarks:        196691 - 64523
+remarks:        262254 - 64524
+remarks:        197556 - 64525
+remarks:        201469 - 64526
+remarks:        200487 - 64527
+remarks:        205226 - 64528
+remarks:        198227 - 64529
+remarks:        198342 - 64530
+remarks:        196709 - 64531
+remarks:        197482 - 64532
+remarks:        203703 - 64533
+remarks:        203674 - 64534
+remarks:        202058 - 64535
+remarks:        203387 - 64536
+remarks:        198297 - 64537
+remarks:        207056 - 64538
+remarks:        197309 - 64540
+remarks:        200976 - 64541
+remarks:        199008 - 64542
+remarks:        197394 - 64543
+remarks:        198580 - 64544
+remarks:        205998 - 64545
+remarks:        203196 - 64546
+remarks:        205717 - 64547
+remarks:        205278 - 64548
+remarks:        203004 - 64549
+remarks:        198592 - 64550
+remarks:        204354 - 64551
+remarks:        201588 - 64552
+remarks:        205569 - 64553
+remarks:        204272 - 64554
+remarks:        207085 - 64555
+remarks:        201211 - 64556
+remarks:        202306 - 64557
+remarks:        199866 - 64558
+remarks:        210033 - 64559
+remarks:        199805 - 65202
+remarks:        199728 - 65513
+remarks:
+import:         FROM AS28709 accept AS28709
+export:         TO AS28709 announce AS-DATAIX
+remarks:
+import:         FROM AS8369 accept AS-INTERSVYAZ
+export:         TO AS8369 announce AS-DATAIX
+remarks:
+import:         FROM AS5563 accept AS-URAL
+export:         TO AS5563 announce AS-DATAIX
+remarks:
+import:         FROM AS49218 accept AS-NTKS
+export:         TO AS49218 announce AS-DATAIX
+remarks:
+import:         FROM AS12668 accept AS-EXTRIM
+export:         TO AS12668 announce AS-DATAIX
+remarks:
+import:         FROM AS31200 accept AS31200
+export:         TO AS31200 announce AS-DATAIX
+remarks:
+import:         FROM AS57494 accept AS-ADMAN
+export:         TO AS57494 announce AS-DATAIX
+remarks:
+import:         FROM AS16300 accept AS-INTERTAX
+export:         TO AS16300 announce AS-DATAIX
+remarks:
+import:         FROM AS60600 accept AS-E1RU
+export:         TO AS60600 announce AS-DATAIX
+remarks:
+import:         FROM AS199728 accept AS199728
+export:         TO AS199728 announce AS-DATAIX
+remarks:
+import:         FROM AS199524 accept AS199524
+export:         TO AS199524 announce AS-DATAIX
+remarks:
+import:         FROM AS13094 accept AS-MILECOM-RS
+export:         TO AS13094 announce AS-DATAIX
+remarks:
+import:         FROM AS47872 accept AS-SOFIA-CONNECT
+export:         TO AS47872 announce AS-DATAIX
+remarks:
+import:         FROM AS20771 accept AS-DELTA
+export:         TO AS20771 announce AS-DATAIX
+remarks:
+import:         FROM AS51555 accept AS-3TCOM
+export:         TO AS51555 announce AS-DATAIX
+remarks:
+import:         FROM AS47541 accept AS-VKONTAKTE
+export:         TO AS47541 announce AS-DATAIX
+remarks:
+import:         FROM AS47542 accept AS-VKONTAKTE
+export:         TO AS47542 announce AS-DATAIX
+remarks:
+import:         FROM AS39608 accept AS-LANETUA
+export:         TO AS39608 announce AS-DATAIX
+remarks:
+import:         FROM AS6712 accept AS-FORMAT
+export:         TO AS6712 announce AS-DATAIX
+remarks:
+import:         FROM AS15772 accept AS-WNET
+export:         TO AS15772 announce AS-DATAIX
+remarks:
+import:         FROM AS6849 accept AS-UKRTELBT
+export:         TO AS6849 announce AS-DATAIX
+remarks:
+import:         FROM AS43554 accept AS-MYTRINITY
+export:         TO AS43554 announce AS-DATAIX
+remarks:
+import:         FROM AS34867 accept AS-COSMONOVA
+export:         TO AS34867 announce AS-DATAIX
+remarks:
+import:         FROM AS28773 accept AS-MASTER AS-GTU-V6
+export:         TO AS28773 announce AS-DATAIX
+remarks:
+import:         FROM AS8779 accept AS-IC
+export:         TO AS8779 announce AS-DATAIX
+remarks:
+import:         FROM AS25372 accept AS25372:AS-PEER
+export:         TO AS25372 announce AS-DATAIX
+remarks:
+import:         FROM AS31725 accept AS-SHTORM
+export:         TO AS31725 announce AS-DATAIX
+remarks:
+import:         FROM AS15497 accept AS-COLOCALL
+export:         TO AS15497 announce AS-DATAIX
+remarks:
+import:         FROM AS13121 accept AS-NAVIGATOR-UA
+export:         TO AS13121 announce AS-DATAIX
+remarks:
+import:         FROM AS12883 accept AS-UCOMLINE
+export:         TO AS12883 announce AS-DATAIX
+remarks:
+import:         FROM AS34700 accept AS-KHMAXNET
+export:         TO AS34700 announce AS-DATAIX
+remarks:
+import:         FROM AS6846 accept AS-UKRPACK-EXT
+export:         TO AS6846 announce AS-DATAIX
+remarks:
+import:         FROM AS21488 accept AS-EMPLOT
+export:         TO AS21488 announce AS-DATAIX
+remarks:
+import:         FROM AS16066 accept AS-TESTUA
+export:         TO AS16066 announce AS-DATAIX
+remarks:
+import:         FROM AS39399 accept AS-FENIXVT
+export:         TO AS39399 announce AS-DATAIX
+remarks:
+import:         FROM AS48239 accept AS-INFTECH
+export:         TO AS48239 announce AS-DATAIX
+remarks:
+import:         FROM AS6723 accept AS-SKIF
+export:         TO AS6723 announce AS-DATAIX
+remarks:
+import:         FROM AS6886 accept AS-INTS
+export:         TO AS6886 announce AS-DATAIX
+remarks:
+import:         FROM AS35144 accept AS-DREAM
+export:         TO AS35144 announce AS-DATAIX
+remarks:
+import:         FROM AS6876 accept AS-TENET-UA
+export:         TO AS6876 announce AS-DATAIX
+remarks:
+import:         FROM AS24703 accept AS-UNITED
+export:         TO AS24703 announce AS-DATAIX
+remarks:
+import:         FROM AS31343 accept AS-INTERTELECOM
+export:         TO AS31343 announce AS-DATAIX
+remarks:
+import:         FROM AS8359 accept AS8359:AS-UKRAINE
+export:         TO AS8359 announce AS-DATAIX
+remarks:
+import:         FROM AS44310 accept AS44310
+export:         TO AS44310 announce AS-DATAIX
+remarks:
+import:         FROM AS62206 accept AS-PITLINE AS-PITLINE-V6
+export:         TO AS62206 announce AS-DATAIX
+remarks:
+import:         FROM AS41691 accept AS-SUMTEL
+export:         TO AS41691 announce AS-DATAIX
+remarks:
+import:         FROM AS47438 accept AS-PSKOVLINE
+export:         TO AS47438 announce AS-DATAIX
+remarks:
+import:         FROM AS42518 accept AS-UNETCOMRU
+export:         TO AS42518 announce AS-DATAIX
+remarks:
+import:         FROM AS43267 accept AS-LINETEL
+export:         TO AS43267 announce AS-DATAIX
+remarks:
+import:         FROM AS29329 accept AS-NODEX
+export:         TO AS29329 announce AS-DATAIX
+remarks:
+import:         FROM AS44843 accept AS-OBTEL
+export:         TO AS44843 announce AS-DATAIX
+remarks:
+import:         FROM AS42775 accept AS-CELLMEDIA
+export:         TO AS42775 announce AS-DATAIX
+remarks:
+import:         FROM AS50258 accept AS-TEYLA
+export:         TO AS50258 announce AS-DATAIX
+remarks:
+import:         FROM AS8595 accept AS-WESTCALL-MSK
+export:         TO AS8595 announce AS-DATAIX
+remarks:
+import:         FROM AS39046 accept AS-THEOREMA
+export:         TO AS39046 announce AS-DATAIX
+remarks:
+import:         FROM AS35000 accept AS-PROMETEY AS-PROMETEY-V6
+export:         TO AS35000 announce AS-DATAIX
+remarks:
+import:         FROM AS60952 accept AS60952
+export:         TO AS60952 announce AS-DATAIX
+remarks:
+import:         FROM AS49505 accept AS-SELECTEL
+export:         TO AS49505 announce AS-DATAIX
+remarks:
+import:         FROM AS12418 accept AS-QUANTUM
+export:         TO AS12418 announce AS-DATAIX
+remarks:
+import:         FROM AS30968 accept AS30968
+export:         TO AS30968 announce AS-DATAIX
+remarks:
+import:         FROM AS13238 accept AS-YANDEX
+export:         TO AS13238 announce AS-DATAIX
+remarks:
+import:         FROM AS42668 accept AS-NEVALINK
+export:         TO AS42668 announce AS-DATAIX
+remarks:
+import:         FROM AS39102 accept AS-NNZ
+export:         TO AS39102 announce AS-DATAIX
+remarks:
+import:         FROM AS196750 accept AS196750
+export:         TO AS196750 announce AS-DATAIX
+remarks:
+import:         FROM AS39598 accept AS-TIERA
+export:         TO AS39598 announce AS-DATAIX
+remarks:
+import:         FROM AS48076 accept AS-OLYMP-TELECOM
+export:         TO AS48076 announce AS-DATAIX
+remarks:
+import:         FROM AS196739 accept AS196739
+export:         TO AS196739 announce AS-DATAIX
+remarks:
+import:         FROM AS44068 accept AS-ARBITAL
+export:         TO AS44068 announce AS-DATAIX
+remarks:
+import:         FROM AS44380 accept AS44380
+export:         TO AS44380 announce AS-DATAIX
+remarks:
+import:         FROM AS31277 accept AS-NEWLINESPB
+export:         TO AS31277 announce AS-DATAIX
+remarks:
+import:         FROM AS48416 accept AS-INFOLAN
+export:         TO AS48416 announce AS-DATAIX
+remarks:
+import:         FROM AS8492 accept AS-OBIT
+export:         TO AS8492 announce AS-DATAIX
+remarks:
+import:         FROM AS6858 accept AS-COMLINK
+export:         TO AS6858 announce AS-DATAIX
+remarks:
+import:         FROM AS24955 accept AS-UBN
+export:         TO AS24955 announce AS-DATAIX
+remarks:
+import:         FROM AS44882 accept AS-VSEVNET
+export:         TO AS44882 announce AS-DATAIX
+remarks:
+import:         FROM AS44030 accept AS-LENTEL AS-LENTEL-IPV6
+export:         TO AS44030 announce AS-DATAIX
+remarks:
+import:         FROM AS49722 accept AS49722
+export:         TO AS49722 announce AS-DATAIX
+remarks:
+import:         FROM AS31376 accept AS-SMART-C AS-SMART-V6
+export:         TO AS31376 announce AS-DATAIX
+remarks:
+import:         FROM AS57629 accept AS57629
+export:         TO AS57629 announce AS-DATAIX
+remarks:
+import:         FROM AS43362 accept AS43362
+export:         TO AS43362 announce AS-DATAIX
+remarks:
+import:         FROM AS48370 accept AS-WESTCOM
+export:         TO AS48370 announce AS-DATAIX
+remarks:
+import:         FROM AS2854 accept AS-ROSPRINT AS-OBSRUSSIA6
+export:         TO AS2854 announce AS-DATAIX
+remarks:
+import:         FROM AS44050 accept AS-PIN
+export:         TO AS44050 announce AS-DATAIX
+remarks:
+import:         FROM AS50538 accept AS50538
+export:         TO AS50538 announce AS-DATAIX
+remarks:
+import:         FROM AS59440 accept AS-LIGHTPORT
+export:         TO AS59440 announce AS-DATAIX
+remarks:
+import:         FROM AS5433 accept AS-ROKSON
+export:         TO AS5433 announce AS-DATAIX
+remarks:
+import:         FROM AS197888 accept AS197888
+export:         TO AS197888 announce AS-DATAIX
+remarks:
+import:         FROM AS198610 accept AS-BEGET
+export:         TO AS198610 announce AS-DATAIX
+remarks:
+import:         FROM AS41446 accept AS41446
+export:         TO AS41446 announce AS-DATAIX
+remarks:
+import:         FROM AS34879 accept AS-NGENIX
+export:         TO AS34879 announce AS-DATAIX
+remarks:
+import:         FROM AS50453 accept AS-FOTOSTRANA
+export:         TO AS50453 announce AS-DATAIX
+remarks:
+import:         FROM AS42339 accept AS-CHTP
+export:         TO AS42339 announce AS-DATAIX
+remarks:
+import:         FROM AS199805 accept AS-UGO AS199805
+export:         TO AS199805 announce AS-DATAIX
+remarks:
+import:         FROM AS199860 accept AS-SDN
+export:         TO AS199860 announce AS-DATAIX
+remarks:
+import:         FROM AS60265 accept AS60265
+export:         TO AS60265 announce AS-DATAIX
+remarks:
+import:         FROM AS52201 accept AS-TCTEL
+export:         TO AS52201 announce AS-DATAIX
+remarks:
+import:         FROM AS25532 accept AS-MASTERHOST
+export:         TO AS25532 announce AS-DATAIX
+remarks:
+import:         FROM AS42368 accept AS-LKS
+export:         TO AS42368 announce AS-DATAIX
+remarks:
+import:         FROM AS43727 accept AS-SETKT
+export:         TO AS43727 announce AS-DATAIX
+remarks:
+import:         FROM AS34123 accept AS-NETORN
+export:         TO AS34123 announce AS-DATAIX
+remarks:
+import:         FROM AS42511 accept AS-STATION
+export:         TO AS42511 announce AS-DATAIX
+remarks:
+import:         FROM AS39153 accept AS-SETEL
+export:         TO AS39153 announce AS-DATAIX
+remarks:
+import:         FROM AS42632 accept AS-MNOGOBYTE
+export:         TO AS42632 announce AS-DATAIX
+remarks:
+import:         FROM AS47764 accept AS-MAILRU
+export:         TO AS47764 announce AS-DATAIX
+remarks:
+import:         FROM AS48061 accept AS48061
+export:         TO AS48061 announce AS-DATAIX
+remarks:
+import:         FROM AS8641 accept AS-NAUKANET
+export:         TO AS8641 announce AS-DATAIX
+remarks:
+import:         FROM AS21453 accept AS-FLEX AS-FLEXV6
+export:         TO AS21453 announce AS-DATAIX
+remarks:
+import:         FROM AS49342 accept AS-SPEEDYLINE
+export:         TO AS49342 announce AS-DATAIX
+remarks:
+import:         FROM AS16083 accept AS-STACK AS-STACK6
+export:         TO AS16083 announce AS-DATAIX
+remarks:
+import:         FROM AS35297 accept AS-DL-WORLD
+export:         TO AS35297 announce AS-DATAIX
+remarks:
+import:         FROM AS12695 accept AS-DINET
+export:         TO AS12695 announce AS-DATAIX
+remarks:
+import:         FROM AS28968 accept AS-EUT
+export:         TO AS28968 announce AS-DATAIX
+remarks:
+import:         FROM AS58002 accept AS-SI
+export:         TO AS58002 announce AS-DATAIX
+remarks:
+import:         FROM AS8331 accept AS-RINET
+export:         TO AS8331 announce AS-DATAIX
+remarks:
+import:         FROM AS41802 accept AS-KVIDEX
+export:         TO AS41802 announce AS-DATAIX
+remarks:
+import:         FROM AS49063 accept AS-DTLN
+export:         TO AS49063 announce AS-DATAIX
+remarks:
+import:         FROM AS49813 accept AS-INN
+export:         TO AS49813 announce AS-DATAIX
+remarks:
+import:         FROM AS30833 accept AS-TNC
+export:         TO AS30833 announce AS-DATAIX
+remarks:
+import:         FROM AS9049 accept AS-ERTH
+export:         TO AS9049 announce AS-DATAIX
+remarks:
+import:         FROM AS205216 accept AS-MEGOGO
+export:         TO AS205216 announce AS-DATAIX
+remarks:
+import:         FROM AS35598 accept AS-ICNET
+export:         TO AS35598 announce AS-DATAIX
+remarks:
+import:         FROM AS50473 accept AS-ECO
+export:         TO AS50473 announce AS-DATAIX
+remarks:
+import:         FROM AS51028 accept AS-SVOLS
+export:         TO AS51028 announce AS-DATAIX
+remarks:
+import:         FROM AS50169 accept AS50169
+export:         TO AS50169 announce AS-DATAIX
+remarks:
+import:         FROM AS47119 accept AS47119
+export:         TO AS47119 announce AS-DATAIX
+remarks:
+import:         FROM AS47645 accept AS-SET-STC-NET
+export:         TO AS47645 announce AS-DATAIX
+remarks:
+import:         FROM AS13249 accept AS-ITS-WORLD
+export:         TO AS13249 announce AS-DATAIX
+remarks:
+import:         FROM AS48166 accept AS-FORTEX
+export:         TO AS48166 announce AS-DATAIX
+remarks:
+import:         FROM AS41268 accept AS-LANTA
+export:         TO AS41268 announce AS-DATAIX
+remarks:
+import:         FROM AS34602 accept AS-STARLNK
+export:         TO AS34602 announce AS-DATAIX
+remarks:
+import:         FROM AS44943 accept AS-RAMNET
+export:         TO AS44943 announce AS-DATAIX
+remarks:
+import:         FROM AS20655 accept AS-EST
+export:         TO AS20655 announce AS-DATAIX
+remarks:
+import:         FROM AS20731 accept AS-MEGATON
+export:         TO AS20731 announce AS-DATAIX
+remarks:
+import:         FROM AS57363 accept AS-CDNVIDEO
+export:         TO AS57363 announce AS-DATAIX
+remarks:
+import:         FROM AS24638 accept AS-RAMTEL
+export:         TO AS24638 announce AS-DATAIX
+remarks:
+import:         FROM AS44436 accept AS44436
+export:         TO AS44436 announce AS-DATAIX
+remarks:
+import:         FROM AS51408 accept AS-DNX
+export:         TO AS51408 announce AS-DATAIX
+remarks:
+import:         FROM AS6903 accept AS-ZENON
+export:         TO AS6903 announce AS-DATAIX
+remarks:
+import:         FROM AS24689 accept AS-ROSINTEL
+export:         TO AS24689 announce AS-DATAIX
+remarks:
+import:         FROM AS44670 accept AS44670
+export:         TO AS44670 announce AS-DATAIX
+remarks:
+import:         FROM AS44053 accept AS-UNILINK
+export:         TO AS44053 announce AS-DATAIX
+remarks:
+import:         FROM AS15895 accept AS15895:AS-ALL
+export:         TO AS15895 announce AS-DATAIX
+remarks:
+import:         FROM AS60299 accept AS-MMTS
+export:         TO AS60299 announce AS-DATAIX
+remarks:
+import:         FROM AS39134 accept AS-UNITEDNET
+export:         TO AS39134 announce AS-DATAIX
+remarks:
+import:         FROM AS35032 accept AS35032
+export:         TO AS35032 announce AS-DATAIX
+remarks:
+import:         FROM AS47542 accept AS47542
+export:         TO AS47542 announce AS-DATAIX
+remarks:
+import:         FROM AS47655 accept AS-SET-LINKINTEL
+export:         TO AS47655 announce AS-DATAIX
+remarks:
+import:         FROM AS49830 accept AS49830
+export:         TO AS49830 announce AS-DATAIX
+remarks:
+import:         FROM AS47196 accept AS47196
+export:         TO AS47196 announce AS-DATAIX
+remarks:
+import:         FROM AS199524 accept AS-GCORE
+export:         TO AS199524 announce AS-DATAIX
+remarks:
+import:         FROM AS48347 accept AS-MTW
+export:         TO AS48347 announce AS-DATAIX
+remarks:
+import:         FROM AS60388 accept AS-SIGMA-TELECOM
+export:         TO AS60388 announce AS-DATAIX
+remarks:
+import:         FROM AS48666 accept AS-MAROSNET
+export:         TO AS48666 announce AS-DATAIX
+remarks:
+import:         FROM AS61400 accept AS-NETRACK
+export:         TO AS61400 announce AS-DATAIX
+remarks:
+import:         FROM AS61170 accept AS-MOYO
+export:         TO AS61170 announce AS-DATAIX
+remarks:
+import:         FROM AS9198 accept AS-KAZTELECOMPEERS
+export:         TO AS9198 announce AS-DATAIX
+remarks:
+import:         FROM AS48654 accept AS-BALNET
+export:         TO AS48654 announce AS-DATAIX
+remarks:
+import:         FROM AS31059 accept AS-AVELACOM
+export:         TO AS31059 announce AS-DATAIX
+remarks:
+import:         FROM AS29226 accept AS-MASTERTEL
+export:         TO AS29226 announce AS-DATAIX
+remarks:
+import:         FROM AS24940 accept AS-HETZNER
+export:         TO AS24940 announce AS-DATAIX
+remarks:
+import:         FROM AS3261 accept AS-DIPT
+export:         TO AS3261 announce AS-DATAIX
+remarks:
+import:         FROM AS60764 accept AS-TKTEL
+export:         TO AS60764 announce AS-DATAIX
+remarks:
+import:         FROM AS197235 accept AS-SEVEREN-VOLGA
+export:         TO AS197235 announce AS-DATAIX
+remarks:
+import:         FROM AS197708 accept AS197708
+export:         TO AS197708 announce AS-DATAIX
+remarks:
+import:         FROM AS28709 accept AS-VKONTAKTE
+export:         TO AS28709 announce AS-DATAIX
+remarks:
+import:         FROM AS29076 accept AS29076
+export:         TO AS29076 announce AS-DATAIX
+remarks:
+import:         FROM AS200000 accept AS-DELTAX
+export:         TO AS200000 announce AS-DATAIX
+remarks:
+import:         FROM AS44020 accept AS-CLN
+export:         TO AS44020 announce AS-DATAIX
+remarks:
+import:         FROM AS12998 accept AS-BGN
+export:         TO AS12998 announce AS-DATAIX
+remarks:
+import:         FROM AS43139 accept AS-MAXIMUM AS-MAXIMUM-V6
+export:         TO AS43139 announce AS-DATAIX
+remarks:
+import:         FROM AS13335 accept AS13335
+export:         TO AS13335 announce AS-DATAIX
+remarks:
+import:         FROM AS49183 accept AS49183:AS-CUSTOMERS
+export:         TO AS49183 announce AS-DATAIX
+remarks:
+import:         FROM AS20764 accept AS-RASCOM
+export:         TO AS20764 announce AS-DATAIX
+remarks:
+import:         FROM AS59730 accept AS59730
+export:         TO AS59730 announce AS-DATAIX
+remarks:
+import:         FROM AS48964 accept AS-ENTERRA
+export:         TO AS48964 announce AS-DATAIX
+remarks:
+import:         FROM AS51343 accept AS-FORCELINE
+export:         TO AS51343 announce AS-DATAIX
+remarks:
+import:         FROM AS21257 accept AS-XUA
+export:         TO AS21257 announce AS-DATAIX
+remarks:
+import:         FROM AS6697 accept AS-BELPAK
+export:         TO AS6697 announce AS-DATAIX
+remarks:
+import:         FROM AS50581 accept AS-UTG-UA AS-UTG-V6
+export:         TO AS50581 announce AS-DATAIX
+remarks:
+import:         FROM AS51380 accept AS-GREY
+export:         TO AS51380 announce AS-DATAIX
+remarks:
+import:         FROM AS31415 accept AS-SVSCOMM
+export:         TO AS31415 announce AS-DATAIX
+remarks:
+import:         FROM AS3252 accept AS-FBRX
+export:         TO AS3252 announce AS-DATAIX
+remarks:
+import:         FROM AS196879 accept AS196879
+export:         TO AS196879 announce AS-DATAIX
+remarks:
+import:         FROM AS61316 accept AS-IPROSRV
+export:         TO AS61316 announce AS-DATAIX
+remarks:
+import:         FROM AS201499 accept AS201499
+export:         TO AS201499 announce AS-DATAIX
+remarks:
+import:         FROM AS50222 accept AS50222
+export:         TO AS50222 announce AS-DATAIX
+remarks:
+import:         FROM AS47211 accept AS-KOLPINONET
+export:         TO AS47211 announce AS-DATAIX
+remarks:
+import:         FROM AS25293 accept AS-KASSIR
+export:         TO AS25293 announce AS-DATAIX
+remarks:
+import:         FROM AS47363 accept AS47363
+export:         TO AS47363 announce AS-DATAIX
+remarks:
+import:         FROM AS43314 accept AS-DIANET
+export:         TO AS43314 announce AS-DATAIX
+remarks:
+import:         FROM AS33871 accept AS-NORCOM-KRSK
+export:         TO AS33871 announce AS-DATAIX
+remarks:
+import:         FROM AS41560 accept AS-UT-SVR
+export:         TO AS41560 announce AS-DATAIX
+remarks:
+import:         FROM AS62228 accept AS-DECISIONMARKETING
+export:         TO AS62228 announce AS-DATAIX
+remarks:
+import:         FROM AS42893 accept AS42893
+export:         TO AS42893 announce AS-DATAIX
+remarks:
+import:         FROM AS50167 accept AS-CTTELECOM
+export:         TO AS50167 announce AS-DATAIX
+remarks:
+import:         FROM AS3255 accept AS-UARNET
+export:         TO AS3255 announce AS-DATAIX
+remarks:
+import:         FROM AS42575 accept AS-M2C
+export:         TO AS42575 announce AS-DATAIX
+remarks:
+import:         FROM AS8926 accept AS-MOLDTELECOM
+export:         TO AS8926 announce AS-DATAIX
+remarks:
+import:         FROM AS200161 accept AS-DATAPRO
+export:         TO AS200161 announce AS-DATAIX
+remarks:
+import:         FROM AS56592 accept AS-TELEWEST-INET
+export:         TO AS56592 announce AS-DATAIX
+remarks:
+import:         FROM AS57073 accept AS57073
+export:         TO AS57073 announce AS-DATAIX
+remarks:
+import:         FROM AS39442 accept AS-UNICO
+export:         TO AS39442 announce AS-DATAIX
+remarks:
+import:         FROM AS12714 accept AS-TI
+export:         TO AS12714 announce AS-DATAIX
+remarks:
+import:         FROM AS25408 accept AS-WESTCALLSPB
+export:         TO AS25408 announce AS-DATAIX
+remarks:
+import:         FROM AS20807 accept AS-CREDOLINK
+export:         TO AS20807 announce AS-DATAIX
+remarks:
+import:         FROM AS45051 accept AS45051
+export:         TO AS45051 announce AS-DATAIX
+remarks:
+import:         FROM AS199599 accept AS-CIREX
+export:         TO AS199599 announce AS-DATAIX
+remarks:
+import:         FROM AS12737 accept AS-SET-RIGHTSIDE
+export:         TO AS12737 announce AS-DATAIX
+remarks:
+import:         FROM AS21030 accept AS-CDNNOW
+export:         TO AS21030 announce AS-DATAIX
+remarks:
+import:         FROM AS201008 accept AS201008
+export:         TO AS201008 announce AS-DATAIX
+remarks:
+import:         FROM AS48223 accept AS-SENATOR
+export:         TO AS48223 announce AS-DATAIX
+remarks:
+import:         FROM AS197080 accept AS197080
+export:         TO AS197080 announce AS-DATAIX
+remarks:
+import:         FROM AS43022 accept AS-UASEECH
+export:         TO AS43022 announce AS-DATAIX
+remarks:
+import:         FROM AS200015 accept AS-LIVETEX
+export:         TO AS200015 announce AS-DATAIX
+remarks:
+import:         FROM AS60165 accept AS60165
+export:         TO AS60165 announce AS-DATAIX
+remarks:
+import:         FROM AS61165 accept AS-KBPAUKNET
+export:         TO AS61165 announce AS-DATAIX
+remarks:
+import:         FROM AS60357 accept AS60357
+export:         TO AS60357 announce AS-DATAIX
+remarks:
+import:         FROM AS49588 accept AS-SDS
+export:         TO AS49588 announce AS-DATAIX
+remarks:
+import:         FROM AS50643 accept AS-LU
+export:         TO AS50643 announce AS-DATAIX
+remarks:
+import:         FROM AS41798 accept AS-TRANSKZ
+export:         TO AS41798 announce AS-DATAIX
+remarks:
+import:         FROM AS14061 accept AS14061
+export:         TO AS14061 announce AS-DATAIX
+remarks:
+import:         FROM AS50942 accept AS50942
+export:         TO AS50942 announce AS-DATAIX
+remarks:
+import:         FROM AS201469 accept AS201469
+export:         TO AS201469 announce AS-DATAIX
+remarks:
+import:         FROM AS41722 accept AS-MIRAN
+export:         TO AS41722 announce AS-DATAIX
+remarks:
+import:         FROM AS57864 accept AS-MEGABIT
+export:         TO AS57864 announce AS-DATAIX
+remarks:
+import:         FROM AS8342 accept AS-RT
+export:         TO AS8342 announce AS-DATAIX
+remarks:
+import:         FROM AS42331 accept AS-FREEHOST
+export:         TO AS42331 announce AS-DATAIX
+remarks:
+import:         FROM AS13188 accept AS13188
+export:         TO AS13188 announce AS-DATAIX
+remarks:
+import:         FROM AS41059 accept AS-T-CIX-INT AS-T-CIX-V6-INT
+export:         TO AS41059 announce AS-DATAIX
+remarks:
+import:         FROM AS25591 accept AS-BCLAN
+export:         TO AS25591 announce AS-DATAIX
+remarks:
+import:         FROM AS62066 accept AS62066
+export:         TO AS62066 announce AS-DATAIX
+remarks:
+import:         FROM AS56528 accept AS56528
+export:         TO AS56528 announce AS-DATAIX
+remarks:
+import:         FROM AS60771 accept AS-COMITEN
+export:         TO AS60771 announce AS-DATAIX
+remarks:
+import:         FROM AS200487 accept AS200487
+export:         TO AS200487 announce AS-DATAIX
+remarks:
+import:         FROM AS62356 accept AS62356
+export:         TO AS62356 announce AS-DATAIX
+remarks:
+import:         FROM AS198227 accept AS-NEWTELECOM
+export:         TO AS198227 announce AS-DATAIX
+remarks:
+import:         FROM AS35640 accept AS-MIGRAPH
+export:         TO AS35640 announce AS-DATAIX
+remarks:
+import:         FROM AS34056 accept AS-KIEVNET
+export:         TO AS34056 announce AS-DATAIX
+remarks:
+import:         FROM AS35213 accept AS-PCN
+export:         TO AS35213 announce AS-DATAIX
+remarks:
+import:         FROM AS52191 accept AS-LOCALKA AS-LOCALKA6
+export:         TO AS52191 announce AS-DATAIX
+remarks:
+import:         FROM AS48524 accept AS48524
+export:         TO AS48524 announce AS-DATAIX
+remarks:
+import:         FROM AS42396 accept AS-PPLNET
+export:         TO AS42396 announce AS-DATAIX
+remarks:
+import:         FROM AS15848 accept AS-RSVOSPB
+export:         TO AS15848 announce AS-DATAIX
+remarks:
+import:         FROM AS198342 accept AS198342
+export:         TO AS198342 announce AS-DATAIX
+remarks:
+import:         FROM AS60731 accept AS60731
+export:         TO AS60731 announce AS-DATAIX
+remarks:
+import:         FROM AS50340 accept AS-SELECTEL-MSK
+export:         TO AS50340 announce AS-DATAIX
+remarks:
+import:         FROM AS47522 accept AS-NETFORT
+export:         TO AS47522 announce AS-DATAIX
+remarks:
+import:         FROM AS49963 accept AS-BELRTS
+export:         TO AS49963 announce AS-DATAIX
+remarks:
+import:         FROM AS47513 accept AS47513
+export:         TO AS47513 announce AS-DATAIX
+remarks:
+import:         FROM AS13188 accept AS-BANKINFORM
+export:         TO AS13188 announce AS-DATAIX
+remarks:
+import:         FROM AS24700 accept AS-IPROSRV
+export:         TO AS24700 announce AS-DATAIX
+remarks:
+import:         FROM AS57724 accept AS-DDOS-GUARD
+export:         TO AS57724 announce AS-DATAIX
+remarks:
+import:         FROM AS51078 accept AS-ITEL
+export:         TO AS51078 announce AS-DATAIX
+remarks:
+import:         FROM AS41018 accept AS-OMNILANCE
+export:         TO AS41018 announce AS-DATAIX
+remarks:
+import:         FROM AS44128 accept AS44128
+export:         TO AS44128 announce AS-DATAIX
+remarks:
+import:         FROM AS47551 accept AS-MAYAK-P
+export:         TO AS47551 announce AS-DATAIX
+remarks:
+import:         FROM AS56694 accept AS-DHUB
+export:         TO AS56694 announce AS-DATAIX
+remarks:
+import:         FROM AS8449 accept AS-ELCAT AS-ELCAT-V6
+export:         TO AS8449 announce AS-DATAIX
+remarks:
+import:         FROM AS203674 accept AS203674
+export:         TO AS203674 announce AS-DATAIX
+remarks:
+import:         FROM AS24589 accept AS-TELENET-LATVIA
+export:         TO AS24589 announce AS-DATAIX
+remarks:
+import:         FROM AS31214 accept AS-TISDIALOG
+export:         TO AS31214 announce AS-DATAIX
+remarks:
+import:         FROM AS12555 accept AS-IMAQLIQ
+export:         TO AS12555 announce AS-DATAIX
+remarks:
+import:         FROM AS21156 accept AS-DATAGRUPARU
+export:         TO AS21156 announce AS-DATAIX
+remarks:
+import:         FROM AS41096 accept AS41096
+export:         TO AS41096 announce AS-DATAIX
+remarks:
+import:         FROM AS56689 accept AS-ELITEL
+export:         TO AS56689 announce AS-DATAIX
+remarks:
+import:         FROM AS7979 accept AS-SERVERSCOM
+export:         TO AS7979 announce AS-DATAIX
+remarks:
+import:         FROM AS56630 accept AS-MELBICOM
+export:         TO AS56630 announce AS-DATAIX
+remarks:
+import:         FROM AS44484 accept AS-XTRIM
+export:         TO AS44484 announce AS-DATAIX
+remarks:
+import:         FROM AS3267 accept AS-RUNNET
+export:         TO AS3267 announce AS-DATAIX
+remarks:
+import:         FROM AS59796 accept AS-STORMWALL-SET AS-STORMWALL-IPV6
+export:         TO AS59796 announce AS-DATAIX
+remarks:
+import:         FROM AS44267 accept AS-IREN
+export:         TO AS44267 announce AS-DATAIX
+remarks:
+import:         FROM AS198295 accept AS-RU-BCI
+export:         TO AS198295 announce AS-DATAIX
+remarks:
+import:         FROM AS2118 accept AS-RELCOM
+export:         TO AS2118 announce AS-DATAIX
+remarks:
+import:         FROM AS43567 accept AS43567
+export:         TO AS43567 announce AS-DATAIX
+remarks:
+import:         FROM AS13335 accept AS-CLOUDFLARE
+export:         TO AS13335 announce AS-DATAIX
+remarks:
+import:         FROM AS203703 accept AS203703
+export:         TO AS203703 announce AS-DATAIX
+remarks:
+import:         FROM AS16276 accept AS-OVH
+export:         TO AS16276 announce AS-DATAIX
+remarks:
+import:         FROM AS51230 accept AS-ROSINTEH
+export:         TO AS51230 announce AS-DATAIX
+remarks:
+import:         FROM AS12993 accept AS-DEAC
+export:         TO AS12993 announce AS-DATAIX
+remarks:
+import:         FROM AS41820 accept AS-PICS
+export:         TO AS41820 announce AS-DATAIX
+remarks:
+import:         FROM AS34527 accept AS-NETFORT
+export:         TO AS34527 announce AS-DATAIX
+remarks:
+import:         FROM AS203387 accept AS203387
+export:         TO AS203387 announce AS-DATAIX
+remarks:
+import:         FROM AS1299 accept AS-TELIANETRU
+export:         TO AS1299 announce AS-DATAIX
+remarks:
+import:         FROM AS197482 accept AS-2GIS
+export:         TO AS197482 announce AS-DATAIX
+remarks:
+import:         FROM AS25229 accept AS25229:AS-CUST
+export:         TO AS25229 announce AS-DATAIX
+remarks:
+import:         FROM AS32934 accept AS-FACEBOOK
+export:         TO AS32934 announce AS-DATAIX
+remarks:
+import:         FROM AS60280 accept AS-NTEC
+export:         TO AS60280 announce AS-DATAIX
+remarks:
+import:         FROM AS31133 accept AS-CDN-MEGAFON
+export:         TO AS31133 announce AS-DATAIX
+remarks:
+import:         FROM AS12722 accept AS-RECONN AS-RECONN-V6
+export:         TO AS12722 announce AS-DATAIX
+remarks:
+import:         FROM AS207056 accept AS-BONCH-IT
+export:         TO AS207056 announce AS-DATAIX
+remarks:
+import:         FROM AS50418 accept AS-NETSOL
+export:         TO AS50418 announce AS-DATAIX
+remarks:
+import:         FROM AS25482 accept AS25482:AS-CUSTOMERS
+export:         TO AS25482 announce AS-DATAIX
+remarks:
+import:         FROM AS48648 accept AS-KLNK AS-KLNK-V6
+export:         TO AS48648 announce AS-DATAIX
+remarks:
+import:         FROM AS49461 accept AS-KAMPOD
+export:         TO AS49461 announce AS-DATAIX
+remarks:
+import:         FROM AS25454 accept AS-ORANGEMD
+export:         TO AS25454 announce AS-DATAIX
+remarks:
+import:         FROM AS197309 accept AS-RSMEDIA
+export:         TO AS197309 announce AS-DATAIX
+remarks:
+import:         FROM AS8075 accept AS-MICROSOFT
+export:         TO AS8075 announce AS-DATAIX
+remarks:
+import:         FROM AS49120 accept AS-TOKS
+export:         TO AS49120 announce AS-DATAIX
+remarks:
+import:         FROM AS36040 accept AS36040
+export:         TO AS36040 announce AS-DATAIX
+remarks:
+import:         FROM AS15169 accept AS15169
+export:         TO AS15169 announce AS-DATAIX
+remarks:
+import:         FROM AS13194 accept AS-BITE
+export:         TO AS13194 announce AS-DATAIX
+remarks:
+import:         FROM AS47441 accept AS-TRUNKMOBILE
+export:         TO AS47441 announce AS-DATAIX
+remarks:
+import:         FROM AS15377 accept AS-FREGAT
+export:         TO AS15377 announce AS-DATAIX
+remarks:
+import:         FROM AS31272 accept AS-WILDPARK
+export:         TO AS31272 announce AS-DATAIX
+remarks:
+import:         FROM AS21497 accept AS-UMC-CUSTOMERS
+export:         TO AS21497 announce AS-DATAIX
+remarks:
+import:         FROM AS38984 accept AS38984
+export:         TO AS38984 announce AS-DATAIX
+remarks:
+import:         FROM AS31323 accept AS-UNNET AS-OYSTER6
+export:         TO AS31323 announce AS-DATAIX
+remarks:
+import:         FROM AS200976 accept AS-LIFESTREAM AS200976
+export:         TO AS200976 announce AS-DATAIX
+remarks:
+import:         FROM AS57091 accept AS-CNT-TEL AS57091
+export:         TO AS57091 announce AS-DATAIX
+remarks:
+import:         FROM AS47914 accept AS-IPHOME
+export:         TO AS47914 announce AS-DATAIX
+remarks:
+import:         FROM AS59701 accept AS-LYTZENIT
+export:         TO AS59701 announce AS-DATAIX
+remarks:
+import:         FROM AS57742 accept AS57742
+export:         TO AS57742 announce AS-DATAIX
+remarks:
+import:         FROM AS56534 accept AS-PIRIXINET
+export:         TO AS56534 announce AS-DATAIX
+remarks:
+import:         FROM AS44478 accept AS-ETALON
+export:         TO AS44478 announce AS-DATAIX
+remarks:
+import:         FROM AS42773 accept AS-CITYTELECOM-KRS
+export:         TO AS42773 announce AS-DATAIX
+remarks:
+import:         FROM AS48276 accept AS-SVCOM
+export:         TO AS48276 announce AS-DATAIX
+remarks:
+import:         FROM AS48722 accept AS-CRISTAL-NET
+export:         TO AS48722 announce AS-DATAIX
+remarks:
+import:         FROM AS41515 accept AS41515
+export:         TO AS41515 announce AS-DATAIX
+remarks:
+import:         FROM AS48117 accept AS48117
+export:         TO AS48117 announce AS-DATAIX
+remarks:
+import:         FROM AS45025 accept AS-EDN AS45025
+export:         TO AS45025 announce AS-DATAIX
+remarks:
+import:         FROM AS205998 accept AS-SKYTEL_AS-SET
+export:         TO AS205998 announce AS-DATAIX
+remarks:
+import:         FROM AS28910 accept AS-INTAL
+export:         TO AS28910 announce AS-DATAIX
+remarks:
+import:         FROM AS34569 accept AS-NETWORXBG
+export:         TO AS34569 announce AS-DATAIX
+remarks:
+import:         FROM AS51685 accept AS-MICRON-MEDIA
+export:         TO AS51685 announce AS-DATAIX
+remarks:
+import:         FROM AS35278 accept AS35278
+export:         TO AS35278 announce AS-DATAIX
+remarks:
+import:         FROM AS203196 accept AS203196
+export:         TO AS203196 announce AS-DATAIX
+remarks:
+import:         FROM AS42574 accept AS42574
+export:         TO AS42574 announce AS-DATAIX
+remarks:
+import:         FROM AS42676 accept AS-SMARTKOM
+export:         TO AS42676 announce AS-DATAIX
+remarks:
+import:         FROM AS8410 accept AS-NIR
+export:         TO AS8410 announce AS-DATAIX
+remarks:
+import:         FROM AS44067 accept AS-SET-LADOGATELECOM
+export:         TO AS44067 announce AS-DATAIX
+remarks:
+import:         FROM AS205717 accept AS-DENGA
+export:         TO AS205717 announce AS-DATAIX
+remarks:
+import:         FROM AS31257 accept AS-ORIONNET
+export:         TO AS31257 announce AS-DATAIX
+remarks:
+import:         FROM AS42105 accept AS42105
+export:         TO AS42105 announce AS-DATAIX
+remarks:
+import:         FROM AS49029 accept AS-PROLINK-EXT
+export:         TO AS49029 announce AS-DATAIX
+remarks:
+import:         FROM AS48641 accept AS-GRATUS
+export:         TO AS48641 announce AS-DATAIX
+remarks:
+import:         FROM AS44347 accept AS-SINT
+export:         TO AS44347 announce AS-DATAIX
+remarks:
+import:         FROM AS43317 accept AS-RNET
+export:         TO AS43317 announce AS-DATAIX
+remarks:
+import:         FROM AS52180 accept AS52180
+export:         TO AS52180 announce AS-DATAIX
+remarks:
+import:         FROM AS6768 accept AS-EUROTELE
+export:         TO AS6768 announce AS-DATAIX
+remarks:
+import:         FROM AS47626 accept AS-ARPNET61
+export:         TO AS47626 announce AS-DATAIX
+remarks:
+import:         FROM AS15738 accept AS-EXPRESSUA
+export:         TO AS15738 announce AS-DATAIX
+remarks:
+import:         FROM AS43656 accept AS43656
+export:         TO AS43656 announce AS-DATAIX
+remarks:
+import:         FROM AS58067 accept AS-CHTE
+export:         TO AS58067 announce AS-DATAIX
+remarks:
+import:         FROM AS205278 accept AS205278
+export:         TO AS205278 announce AS-DATAIX
+remarks:
+import:         FROM AS203004 accept AS203004
+export:         TO AS203004 announce AS-DATAIX
+remarks:
+import:         FROM AS45025 accept AS-EDN
+export:         TO AS45025 announce AS-DATAIX
+remarks:
+import:         FROM AS39900 accept AS39900
+export:         TO AS39900 announce AS-DATAIX
+remarks:
+import:         FROM AS15133 accept AS15133
+export:         TO AS15133 announce AS-DATAIX
+remarks:
+import:         FROM AS56864 accept AS56864
+export:         TO AS56864 announce AS-DATAIX
+remarks:
+import:         FROM AS51507 accept AS51507
+export:         TO AS51507 announce AS-DATAIX
+remarks:
+import:         FROM AS39438 accept AS-ITEL-KG
+export:         TO AS39438 announce AS-DATAIX
+remarks:
+import:         FROM AS62241 accept AS-FORESTNET
+export:         TO AS62241 announce AS-DATAIX
+remarks:
+import:         FROM AS43380 accept AS-DTEL-IX-EXT
+export:         TO AS43380 announce AS-DATAIX
+remarks:
+import:         FROM AS31500 accept AS-GLOBAL-NET AS-GLOBAL-NET-V6
+export:         TO AS31500 announce AS-DATAIX
+remarks:
+import:         FROM AS43404 accept AS-UCANET AS-UCANETV6
+export:         TO AS43404 announce AS-DATAIX
+remarks:
+import:         FROM AS44416 accept AS-SNS-SLAV
+export:         TO AS44416 announce AS-DATAIX
+remarks:
+import:         FROM AS29479 accept AS-TRANSDATA
+export:         TO AS29479 announce AS-DATAIX
+remarks:
+import:         FROM AS35810 accept AS-BIGTELECOM
+export:         TO AS35810 announce AS-DATAIX
+remarks:
+import:         FROM AS7713 accept AS7713:AS-TELKOM-TRANSIT
+export:         TO AS7713 announce AS-DATAIX
+remarks:
+import:         FROM AS51069 accept AS-DNEPRONET
+export:         TO AS51069 announce AS-DATAIX
+remarks:
+import:         FROM AS60470 accept AS60470
+export:         TO AS60470 announce AS-DATAIX
+remarks:
+import:         FROM AS32590 accept AS32590
+export:         TO AS32590 announce AS-DATAIX
+remarks:
+import:         FROM AS52060 accept AS-MAXIMA
+export:         TO AS52060 announce AS-DATAIX
+remarks:
+import:         FROM AS31148 accept AS-FNT
+export:         TO AS31148 announce AS-DATAIX
+remarks:
+import:         FROM AS205226 accept AS205226
+export:         TO AS205226 announce AS-DATAIX
+remarks:
+import:         FROM AS31287 accept AS-IPACCT
+export:         TO AS31287 announce AS-DATAIX
+remarks:
+import:         FROM AS198592 accept AS198592
+export:         TO AS198592 announce AS-DATAIX
+remarks:
+import:         FROM AS56679 accept AS56679
+export:         TO AS56679 announce AS-DATAIX
+remarks:
+import:         FROM AS58048 accept AS58048
+export:         TO AS58048 announce AS-DATAIX
+remarks:
+import:         FROM AS44814 accept AS-BTELOUT AS-BTELOUT-V6
+export:         TO AS44814 announce AS-DATAIX
+remarks:
+import:         FROM AS57456 accept AS-INTEKM
+export:         TO AS57456 announce AS-DATAIX
+remarks:
+import:         FROM AS204354 accept AS204354
+export:         TO AS204354 announce AS-DATAIX
+remarks:
+import:         FROM AS57498 accept AS57498
+export:         TO AS57498 announce AS-DATAIX
+remarks:
+import:         FROM AS47321 accept AS-IIF
+export:         TO AS47321 announce AS-DATAIX
+remarks:
+import:         FROM AS24482 accept AS-SGGS
+export:         TO AS24482 announce AS-DATAIX
+remarks:
+import:         FROM AS35104 accept AS-KTCPEERS
+export:         TO AS35104 announce AS-DATAIX
+remarks:
+import:         FROM AS62041 accept AS62041
+export:         TO AS62041 announce AS-DATAIX
+remarks:
+import:         FROM AS51092 accept AS-TVIPMEDIA
+export:         TO AS51092 announce AS-DATAIX
+remarks:
+import:         FROM AS8636 accept AS-MAX
+export:         TO AS8636 announce AS-DATAIX
+remarks:
+import:         FROM AS47481 accept AS47481
+export:         TO AS47481 announce AS-DATAIX
+remarks:
+import:         FROM AS29049 accept AS-AZERSATMEMBERS
+export:         TO AS29049 announce AS-DATAIX
+remarks:
+import:         FROM AS42291 accept AS-ISTANET
+export:         TO AS42291 announce AS-DATAIX
+remarks:
+import:         FROM AS21414 accept AS-RCNET AS-RCNET-V6
+export:         TO AS21414 announce AS-DATAIX
+remarks:
+import:         FROM AS60580 accept AS60580
+export:         TO AS60580 announce AS-DATAIX
+remarks:
+import:         FROM AS15493 accept AS-RUSCOMP
+export:         TO AS15493 announce AS-DATAIX
+remarks:
+import:         FROM AS12389 accept AS-ROSTELECOM
+export:         TO AS12389 announce AS-DATAIX
+remarks:
+import:         FROM AS50289 accept AS50289
+export:         TO AS50289 announce AS-DATAIX
+remarks:
+import:         FROM AS57424 accept AS-LINENEW
+export:         TO AS57424 announce AS-DATAIX
+remarks:
+import:         FROM AS201588 accept AS201588
+export:         TO AS201588 announce AS-DATAIX
+remarks:
+import:         FROM AS8416 accept AS8416
+export:         TO AS8416 announce AS-DATAIX
+remarks:
+import:         FROM AS35562 accept AS35562
+export:         TO AS35562 announce AS-DATAIX
+remarks:
+import:         FROM AS43205 accept AS-BULSATCOM
+export:         TO AS43205 announce AS-DATAIX
+remarks:
+import:         FROM AS49403 accept AS-AVK-WELLCOM
+export:         TO AS49403 announce AS-DATAIX
+remarks:
+import:         FROM AS41601 accept AS-OBLTELECOM
+export:         TO AS41601 announce AS-DATAIX
+remarks:
+import:         FROM AS57695 accept AS-MISAKA
+export:         TO AS57695 announce AS-DATAIX
+remarks:
+import:         FROM AS48399 accept AS-LINXDATACENTER
+export:         TO AS48399 announce AS-DATAIX
+remarks:
+import:         FROM AS205569 accept AS205569
+export:         TO AS205569 announce AS-DATAIX
+remarks:
+import:         FROM AS57186 accept AS57186
+export:         TO AS57186 announce AS-DATAIX
+remarks:
+import:         FROM AS62206 accept AS-PITLINE
+export:         TO AS62206 announce AS-DATAIX
+remarks:
+import:         FROM AS47244 accept AS-IXGATE
+export:         TO AS47244 announce AS-DATAIX
+remarks:
+import:         FROM AS49821 accept AS-BAZA35
+export:         TO AS49821 announce AS-DATAIX
+remarks:
+import:         FROM AS201211 accept AS-DRUGOYTEL
+export:         TO AS201211 announce AS-DATAIX
+remarks:
+import:         FROM AS44347 accept AS44347
+export:         TO AS44347 announce AS-DATAIX
+remarks:
+import:         FROM AS57976 accept AS-BLIZZARD
+export:         TO AS57976 announce AS-DATAIX
+remarks:
+import:         FROM AS12418 accept AS12418
+export:         TO AS12418 announce AS-DATAIX
+remarks:
+import:         FROM AS57583 accept AS57583
+export:         TO AS57583 announce AS-DATAIX
+remarks:
+import:         FROM AS20562 accept AS-OPENPEERING
+export:         TO AS20562 announce AS-DATAIX
+remarks:
+import:         FROM AS16302 accept AS-SUOMICOM
+export:         TO AS16302 announce AS-DATAIX
+remarks:
+import:         FROM AS29319 accept AS-IMSYS
+export:         TO AS29319 announce AS-DATAIX
+remarks:
+import:         FROM AS31430 accept AS-TEL-NET AS-TEL-NET-V6
+export:         TO AS31430 announce AS-DATAIX
+remarks:
+import:         FROM AS59947 accept AS-LLHOST-IX
+export:         TO AS59947 announce AS-DATAIX
+remarks:
+import:         FROM AS31514 accept AS-SET-INFOLINE
+export:         TO AS31514 announce AS-DATAIX
+remarks:
+import:         FROM AS199008 accept AS199008
+export:         TO AS199008 announce AS-DATAIX
+remarks:
+import:         FROM AS199866 accept AS199866
+export:         TO AS199866 announce AS-DATAIX
+remarks:
+import:         FROM AS210033 accept AS-IMPULSTEL
+export:         TO AS210033 announce AS-DATAIX
+remarks:
+import:         FROM AS48989 accept AS48989
+export:         TO AS48989 announce AS-DATAIX
+remarks:
+import:         FROM AS51520 accept AS-RH
+export:         TO AS51520 announce AS-DATAIX
+remarks:
+import:         FROM AS48940 accept AS-LINK-NET
+export:         TO AS48940 announce AS-DATAIX
+remarks:
+import:         FROM AS49340 accept AS49340
+export:         TO AS49340 announce AS-DATAIX
+remarks:
+import:         FROM AS50471 accept AS50471
+export:         TO AS50471 announce AS-DATAIX
+remarks:
+import:         FROM AS57700 accept AS57700
+export:         TO AS57700 announce AS-DATAIX
+remarks:
+admin-c:        DIXI-RIPE
+tech-c:         DIXI-RIPE
+remarks:        For information on status: attribute read https://www.ripe.net/data-tools/db/faq/faq-status-values-legacy-resources
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PEERING-MNT
+created:        2010-04-29T11:00:51Z
+last-modified:  2019-01-29T14:20:21Z
+source:         RIPE # Filtered
+
+organisation:   ORG-PL103-RIPE
+org-name:       Peering Ltd
+org-type:       LIR
+address:        Bolshoy Sampsonievksiy pr., b. 68 lit. N
+address:        194100
+address:        St.Petersburg
+address:        RUSSIAN FEDERATION
+phone:          +78126121104
+fax-no:         +78126121104
+abuse-c:        DIXI-RIPE
+mnt-ref:        PEERING-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PEERING-MNT
+admin-c:        DIXI-RIPE
+admin-c:        DIXI-RIPE
+created:        2010-04-14T10:20:19Z
+last-modified:  2017-09-08T16:59:17Z
+source:         RIPE # Filtered
+
+role:           DataIX Network Operations Center
+org:            ORG-PL103-RIPE
+address:        Bolshoy Sampsonievskiy, 68 lit. N
+address:        Saint-Petersburg, Russia
+admin-c:        OMG-RIPE
+tech-c:         OMG-RIPE
+tech-c:         RVA145-RIPE
+abuse-mailbox:  admin@dataix.ru
+nic-hdl:        DIXI-RIPE
+mnt-by:         PEERING-MNT
+created:        2015-07-15T13:53:23Z
+last-modified:  2018-01-17T09:36:15Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

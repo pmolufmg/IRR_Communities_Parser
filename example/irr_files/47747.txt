@@ -1,0 +1,76 @@
+aut-num:        AS47747
+as-name:        TMK-NET-AS
+org:            ORG-JTT3-RIPE
+remarks:        **********************************
+remarks:        **********Upstreams*********
+remarks:
+remarks:        **********Import*********
+import:         from AS47989 action pref=120; accept ANY
+import:         from AS9002 action pref=100; accept ANY
+import:         from AS8470 action pref=100; accept ANY
+import:         from AS20764 action pref=100; accept ANY
+remarks:        **********Export***********
+export:         to AS47989 announce AS-TMK
+export:         to AS9002 announce AS-TMK
+export:         to AS8470 announce AS-TMK
+export:         to AS20764 announce AS-TMK
+remarks:        ***************************
+remarks:
+remarks:        **********Customers********
+remarks:        ***************************
+remarks:        +-------------------------------------------------------
+remarks:        | MANAGEMENT COMMUNITIES
+remarks:        |
+remarks:        | New-style communities
+remarks:        |
+remarks:        | 47747:2XXY
+remarks:        | XX - Where to manage
+remarks:        | Y - Action
+remarks:        |
+remarks:        | XX =
+remarks:        | 00 - inside AS47747 (Y=0 and Y=9 is only applicable values)
+remarks:        | 01 - Reserved
+remarks:        | 02 - Reserved
+remarks:        | 03 - Reserved
+remarks:        | 04 - Reserved
+remarks:        | 06 - RETN as9002
+remarks:        | 07 - Makomnet as8470
+remarks:        | 08 ? Rascom AS20764
+remarks:        | Y =
+remarks:        | 0 - Don't announce (47747:2000 - do not announce to any upstream and customer)
+remarks:        | 1,2,3,4 - Set AS path prepend 1,2,3,4 times
+remarks:        | 9 - set the lowest Localpref(only inside AS47747)
+remarks:        +-------------------------------------------------------
+remarks:        | ROUTE ORIGIN TAGGING COMMUNITIES
+remarks:        |
+remarks:        | New-style communities
+remarks:        |
+remarks:        | 47747:11XX - AS47747 and BGP customer routes
+remarks:        |
+remarks:        | XX =
+remarks:        | 00 - All upstream operators
+remarks:        | 01 - Reserved
+remarks:        | 02 - Reserved
+remarks:        | 03 - Reserved
+remarks:        | 04 - Reserved
+remarks:        | 06 - Originated from AS9002
+remarks:        | 07 - Originated from AS8470
+remarks:        | 08 - Originated from AS20764
+remarks:        | 55 - Obtained from BGP customer
+remarks:        +-------------------------------------------------------
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TMK-NET-MNT
+mnt-routes:     TMK-NET-MNT
+created:        2008-08-13T11:34:31Z
+last-modified:  2016-04-21T15:12:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

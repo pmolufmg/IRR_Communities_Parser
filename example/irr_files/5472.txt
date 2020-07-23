@@ -1,0 +1,110 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5472'
+
+% Abuse contact for 'AS5472' is 'abuse@digitalsol.net'
+
+aut-num:        AS5472
+as-name:        BG-NEWIX-AS
+org:            ORG-DSO2-RIPE
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        Members can use BGP communities to control
+remarks:        which members receive their prefixes.
+remarks:
+remarks:        0:member-as do not announce to member-as
+remarks:        5472:member-as announce to member-as
+remarks:        0:5472 do not announce to any member
+remarks:        ---------------------------------------------------
+remarks:        BGP communities for 32-bit AS numbers.
+remarks:        Member: SYS M; AS204232; BGP Community (MEMBER-AS) 64704
+remarks:        ---------------------------------------------------
+remarks:        We filter the bogus networks like:
+remarks:        10.0.0.0/8
+remarks:        127.0.0.0/8
+remarks:        169.254.0.0/16
+remarks:        172.16.0.0/12
+remarks:        192.168.0.0/16
+remarks:        224.0.0.0/3
+remarks:        We also filter prefixes longer than /24.
+remarks:        ---------------------------------------------------
+remarks:        IPv4 Members
+remarks:        ---------------------------------------------------
+import:         from AS204232 accept AS204232 AS35428
+export:         to AS204232 announce AS-NEWIX
+import:         from AS34569 accept AS-NETWORXBG
+export:         to AS34569 announce AS-NEWIX
+import:         from AS48452 accept AS48452
+export:         to AS48452 announce AS-NEWIX
+admin-c:        PI1636-RIPE
+tech-c:         HK5389-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DIGITALSOL-MNT
+created:        2015-10-30T13:53:47Z
+last-modified:  2018-09-04T11:41:30Z
+source:         RIPE
+
+organisation:   ORG-DSO2-RIPE
+org-name:       DIGITAL SOLUTIONS OOD
+org-type:       LIR
+address:        11, Magnaurska Shkola Street, floor 1, ap. 109
+address:        1784
+address:        Sofia
+address:        BULGARIA
+phone:          +359 2 9743030
+admin-c:        PI1636-RIPE
+tech-c:         HK5389-RIPE
+abuse-c:        AR32970-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DIGITALSOL-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DIGITALSOL-MNT
+created:        2015-07-21T07:21:55Z
+last-modified:  2016-07-11T09:10:57Z
+source:         RIPE # Filtered
+
+person:         Hristo Kirov
+address:        11, Magnaurska Shkola Street, floor 1, ap. 109
+address:        1784
+address:        Sofia
+address:        BULGARIA
+phone:          +359 88 8646370
+nic-hdl:        HK5389-RIPE
+mnt-by:         DIGITALSOL-MNT
+created:        2015-07-21T07:21:54Z
+last-modified:  2015-11-25T13:44:58Z
+source:         RIPE # Filtered
+
+person:         Petar Iliev
+address:        11, Magnaurska Shkola Street, floor 1, ap. 109
+address:        1784
+address:        Sofia
+address:        BULGARIA
+phone:          +359 2 9743030
+nic-hdl:        PI1636-RIPE
+mnt-by:         DIGITALSOL-MNT
+created:        2015-07-21T07:21:54Z
+last-modified:  2015-07-21T07:21:55Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

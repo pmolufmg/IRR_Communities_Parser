@@ -1,0 +1,72 @@
+aut-num:        AS20552
+as-name:        HORYZONT
+org:            ORG-HTI1-RIPE
+import:         from AS8938 accept ANY
+import:         from AS5617 accept ANY
+import:         from AS33868 accept AS33868 AS42594 AS41835 AS29501
+import:         from AS9112 accept ANY
+import:         from AS5617 accept ANY
+import:         from AS50606 accept ANY
+import:         from AS3356 accept ANY
+import:         from AS44033 accept AS44033
+import:         from AS197031 accept AS197031
+import:         from AS1299 accept ANY
+import:         from AS9002 accept ANY
+export:         to AS44033 announce ANY
+export:         to AS8938 announce AS20552
+export:         to AS33868 announce ANY
+export:         to AS9112 announce AS-HTI2PIONIER
+export:         to AS5617 announce AS-HTI2TPNET
+export:         to AS50606 announce AS-HTI2VIRTUAOPERATOR
+export:         to AS3356 announce AS-HTI2LEVEL3
+export:         to AS5617 announce AS-HTI2TPNET
+export:         to AS197031 announce ANY
+export:         to AS1299 announce AS-HTI-CUSTOMERS
+export:         to AS9002 announce AS-HTI2RETN
+remarks:        ================================================
+remarks:        Communities used in AS20552
+remarks:        ================================================
+remarks:
+remarks:        Communities for specific peers are 20552:1ax :
+remarks:        x=0 - do not announce
+remarks:        x=1 - prepend 1 hop
+remarks:        x=2 - prepend 2 hops
+remarks:        x=3 - prepend 3 hops
+remarks:
+remarks:        TPSA 20552:103x
+remarks:        VIRTUAOPERATOR 20552:104x
+remarks:        TELIA 20552:105x
+remarks:        POL34 20552:106x
+remarks:        PIX 20552:107x
+remarks:        VECTRA 20552:108x
+remarks:        RETN 20552:110x
+remarks:
+remarks:        ================================================
+remarks:        customer traffic engineering communities - blackhole
+remarks:        20552:666 - blackhole traffic at our global upstreams
+remarks:
+remarks:        Traffic destined for /32 prefixes tagged with this
+remarks:        community will be discarded at ingress to the
+remarks:        network. The prefix must be permitted by the
+remarks:        customer existing ingress BGP filter.
+remarks:        noc@hti.pl needs to be contacted to allow this funcionality.
+remarks:
+remarks:        Please contact noc@hti.pl with any questions
+remarks:        regarding this functionality.
+remarks:        ================================================
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         HORYZONT-MNT
+mnt-routes:     HORYZONT-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2001-12-07T20:06:21Z
+last-modified:  2018-03-25T23:31:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,763 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15826 - AS15833'
+
+as-block:       AS15826 - AS15833
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15830'
+
+% Abuse contact for 'AS15830' is 'noc@eu.equinix.com'
+
+aut-num:        AS15830
+as-name:        TELECITY-LON
+status:         ASSIGNED
+mnt-lower:      TELECITY-MNT
+remarks:        {2001:0DB8::/32^+
+remarks:        +++++++++++++++++
+remarks:        + These are my upstreams
+remarks:        +++++++++++++++++
+remarks:
+import:         from AS1299 accept ANY
+import:         from AS3257 accept ANY
+import:         from AS3320 accept ANY
+import:         from AS3356 accept ANY
+import:         from AS3491 accept ANY
+import:         from AS6320 accept ANY
+import:         from AS8190 accept ANY
+import:         from AS8928 accept ANY
+import:         from AS34984 accept ANY
+export:         to AS1299 announce AS-TELECITYGROUP
+export:         to AS3257 announce AS-TELECITYGROUP
+export:         to AS3320 announce AS-TELECITYGROUP
+export:         to AS3356 announce AS-TELECITYGROUP
+export:         to AS3491 announce AS-TELECITYGROUP
+export:         to AS6320 announce AS-TELECITYGROUP
+export:         to AS8190 announce AS-TELECITYGROUP
+export:         to AS8928 announce AS-TELECITYGROUP
+export:         to AS34984 announce AS-EQUINIX-EU
+remarks:
+remarks:        +++++++++++++++++
+remarks:        + These are my Transit customers
+remarks:        +++++++++++++++++
+remarks:
+import:         from AS609 accept AS609
+import:         from AS51677 accept AS51677
+import:         from AS48579 accept AS-ELASTX
+import:         from AS62597 accept AS62597
+import:         from AS25048 accept AS25048
+import:         from AS30109 accept AS30109
+import:         from AS39550 accept AS39550
+import:         from AS7761 accept AS7761
+import:         from AS8442 accept AS-DIG
+import:         from AS8980 accept AS8980
+import:         from AS9188 accept AS-INFOSERVE
+import:         from AS12516 accept AS12516
+import:         from AS12808 accept AS12808
+import:         from AS12913 accept AS12913
+import:         from AS12975 accept AS12975
+import:         from AS60008 accept AS60008
+import:         from AS13100 accept AS13100
+import:         from AS13448 accept AS13448
+import:         from AS14075 accept AS14075
+import:         from AS14127 accept AS14127
+import:         from AS14610 accept AS14610
+import:         from AS39103 accept AS39103
+import:         from AS15663 accept AS15663
+import:         from AS16189 accept AS16189
+import:         from AS20179 accept AS20179
+import:         from AS20952 accept AS20952
+import:         from AS21160 accept AS21160
+import:         from AS21206 accept AS21206
+import:         from AS24650 accept AS24650
+import:         from AS24842 accept AS24842
+import:         from AS25485 accept AS25485
+import:         from AS26914 accept AS26914
+import:         from AS27822 accept AS27822
+import:         from AS29154 accept AS-TELECITYGROUP-FI
+import:         from AS29457 accept AS29457
+import:         from AS29605 accept AS29605
+import:         from AS30085 accept AS30085
+import:         from AS30588 accept AS30588
+import:         from AS30930 accept AS30930
+import:         from AS31028 accept AS31028
+import:         from AS31404 accept AS31404
+import:         from AS31943 accept AS31943
+import:         from AS32934 accept AS32934
+import:         from AS32980 accept AS32980
+import:         from AS33859 accept AS-PORTALPARTNERSHIP
+import:         from AS34929 accept AS34929
+import:         from AS34940 accept AS34940
+import:         from AS34973 accept AS34973
+import:         from AS34992 accept AS34992
+import:         from AS35315 accept AS35315
+import:         from AS35414 accept AS35414
+import:         from AS35806 accept AS35806
+import:         from AS35830 accept AS35830
+import:         from AS35834 accept AS35834
+import:         from AS205681 accept AS205681
+import:         from AS38616 accept AS38616
+import:         from AS38953 accept AS38953
+import:         from AS39157 accept AS39157
+import:         from AS39882 accept AS39882
+import:         from AS39905 accept AS39905
+import:         from AS41156 accept AS41156
+import:         from AS41342 accept AS41342
+import:         from AS41597 accept AS41597
+import:         from AS41628 accept AS41628
+import:         from AS42262 accept AS42262
+import:         from AS42456 accept AS42456
+import:         from AS42949 accept AS42949
+import:         from AS43328 accept AS43328
+import:         from AS43345 accept AS43345
+import:         from AS44086 accept AS44086
+import:         from AS44721 accept AS44721
+import:         from AS44933 accept AS44933
+import:         from AS47244 accept AS47244
+import:         from AS47265 accept AS47265
+import:         from AS48768 accept AS48768
+import:         from AS49216 accept AS49216
+import:         from AS50343 accept AS50343
+import:         from AS50845 accept AS50845
+import:         from AS50894 accept AS50894
+import:         from AS52129 accept AS52129
+import:         from AS57356 accept AS57356
+import:         from AS58202 accept AS58202
+import:         from AS197407 accept AS197407
+import:         from AS197981 accept AS197981
+import:         from AS199997 accept AS199997
+import:         from AS199391 accept AS199391
+import:         from AS202149 accept AS202149
+import:         from AS201204 accept AS201204
+import:         from AS203304 accept AS203304
+import:         from AS19551 accept AS19551
+import:         from AS10599 accept AS10599
+import:         from AS202455 accept AS202455
+import:         from AS53976 accept AS53976
+import:         from AS202459 accept AS202459
+import:         from AS210008 accept AS210008
+import:         from AS19137 accept AS19137
+export:         to AS609 announce ANY
+export:         to AS51677 announce ANY
+export:         to AS48579 announce ANY
+export:         to AS25048 announce ANY
+export:         to AS39103 announce ANY
+export:         to AS30109 announce ANY
+export:         to AS7761 announce ANY
+export:         to AS8442 announce ANY
+export:         to AS62597 announce ANY
+export:         to AS19551 announce ANY
+export:         to AS39550 announce ANY
+export:         to AS8980 announce ANY
+export:         to AS9188 announce ANY
+export:         to AS12516 announce ANY
+export:         to AS12808 announce ANY
+export:         to AS12913 announce ANY
+export:         to AS60008 announce ANY
+export:         to AS34007 announce ANY
+export:         to AS12975 announce ANY
+export:         to AS14127 announce ANY
+export:         to AS13100 announce ANY
+export:         to AS13448 announce ANY
+export:         to AS14075 announce ANY
+export:         to AS14610 announce ANY
+export:         to AS15663 announce ANY
+export:         to AS16189 announce ANY
+export:         to AS20179 announce ANY
+export:         to AS20952 announce ANY
+export:         to AS21160 announce ANY
+export:         to AS21206 announce ANY
+export:         to AS24650 announce ANY
+export:         to AS24842 announce ANY
+export:         to AS25048 announce ANY
+export:         to AS25485 announce ANY
+export:         to AS27822 announce ANY
+export:         to AS29154 announce ANY
+export:         to AS29457 announce ANY
+export:         to AS29605 announce ANY
+export:         to AS30085 announce ANY
+export:         to AS30930 announce ANY
+export:         to AS30588 announce ANY
+export:         to AS31028 announce ANY
+export:         to AS205681 announce ANY
+export:         to AS31404 announce ANY
+export:         to AS32934 announce ANY
+export:         to AS32980 announce ANY
+export:         to AS33859 announce ANY
+export:         to AS34929 announce ANY
+export:         to AS34940 announce ANY
+export:         to AS34973 announce ANY
+export:         to AS34992 announce ANY
+export:         to AS35315 announce ANY
+export:         to AS35414 announce ANY
+export:         to AS35806 announce ANY
+export:         to AS35830 announce ANY
+export:         to AS35834 announce ANY
+export:         to AS38616 announce ANY
+export:         to AS38953 announce ANY
+export:         to AS39157 announce ANY
+export:         to AS39882 announce ANY
+export:         to AS39905 announce ANY
+export:         to AS41156 announce ANY
+export:         to AS41342 announce ANY
+export:         to AS41597 announce ANY
+export:         to AS41628 announce ANY
+export:         to AS42262 announce ANY
+export:         to AS42456 announce ANY
+export:         to AS42949 announce ANY
+export:         to AS43328 announce ANY
+export:         to AS43345 announce ANY
+export:         to AS44086 announce ANY
+export:         to AS44721 announce ANY
+export:         to AS44933 announce ANY
+export:         to AS47244 announce ANY
+export:         to AS47265 announce ANY
+export:         to AS49216 announce ANY
+export:         to AS48768 announce ANY
+export:         to AS50343 announce ANY
+export:         to AS50845 announce ANY
+export:         to AS50894 announce ANY
+export:         to AS52129 announce ANY
+export:         to AS57356 announce ANY
+export:         to AS58202 announce ANY
+export:         to AS197407 announce ANY
+export:         to AS197981 announce ANY
+export:         to AS199997 announce ANY
+export:         to AS199391 announce ANY
+export:         to AS202149 announce ANY
+export:         to AS201204 announce ANY
+export:         to AS203304 announce ANY
+export:         to AS10599 announce ANY
+export:         to AS202455 announce ANY
+export:         to AS53976 announce ANY
+export:         to AS202459 announce ANY
+export:         to AS210008 announce ANY
+export:         to AS19137 announce ANY
+remarks:
+remarks:        ++++++++++
+remarks:        + These are my peers
+remarks:        ++++++++++
+remarks:
+import:         from AS62217 accept AS-62217
+import:         from AS21371 accept AS-EQUINIX-EU
+import:         from AS42 accept AS-PCH
+import:         from AS46489 accept AS46489
+import:         from AS39545 accept AS-FLUIDATA
+import:         from AS4651 accept AS-THIX
+import:         from AS41811 accept AS-CONVERGENCE
+import:         from AS609 accept AS609
+import:         from AS18106 accept AS18106
+import:         from AS29644 accept AS-AIRSPEED
+import:         from AS786 accept AS786
+import:         from AS855 accept AS-BELL-ALIANT
+import:         from AS1290 accept AS-PSINETUK
+import:         from AS2529 accept AS-DEMON
+import:         from AS13335 accept AS-13335
+import:         from AS2603 accept AS-NORDUNET
+import:         from AS2686 accept AS-IGNEMEA
+import:         from AS16164 accept AS-SOHONET
+import:         from AS2818 accept AS-BBC
+import:         from AS2906 accept AS-NFLX
+import:         from AS61215 accept AS-IIJ
+import:         from AS2914 accept AS2914
+import:         from AS3213 accept AS-BOGONS
+import:         from AS3246 accept AS-TDCSONG
+import:         from AS3249 accept AS-ESTPAK
+import:         from AS3549 accept AS-GBLX
+import:         from AS3741 accept AS3741
+import:         from AS3856 accept AS-PCH
+import:         from AS4004 accept AS-GLOBALONE-UK
+import:         from AS4589 accept AS-EASYNET
+import:         from AS5089 accept AS-NTLI
+import:         from AS5410 accept AS-T-ONLINEFRANCE
+import:         from AS5413 accept AS-PIPEX
+import:         from AS5427 accept AS-PRTL-EU
+import:         from AS5430 accept AS-FREENETDE
+import:         from AS5459 accept AS-LINX
+import:         from AS5524 accept AS-BREEDBANDNEDERLAND
+import:         from AS5552 accept AS5552
+import:         from AS5587 accept AS-BSVE
+import:         from AS6083 accept AS-POSIX
+import:         from AS6656 accept AS-STG
+import:         from AS6667 accept AS-EUNETIP
+import:         from AS6779 accept AS-ICLNET
+import:         from AS6805 accept AS-TDDE
+import:         from AS6871 accept AS-PLUSNETUK
+import:         from AS7575 accept AS7575
+import:         from AS8282 accept AS-FIDONET
+import:         from AS8330 accept AS-LONAP
+import:         from AS8419 accept AS-HOTCHILLI
+import:         from AS8422 accept AS-NETCOLOGNE
+import:         from AS8426 accept AS-CLARANET
+import:         from AS8447 accept AS-PTA
+import:         from AS8468 accept AS-ENTANET
+import:         from AS8546 accept AS-YOURCOMMS
+import:         from AS8553 accept AS-AVENSYS
+import:         from AS8586 accept AS-REDNET
+import:         from AS8607 accept AS-ATLAS
+import:         from AS8657 accept AS-CPRM
+import:         from AS8708 accept AS-RDSNET
+import:         from AS8714 accept AS8714
+import:         from AS8851 accept AS-INWEB
+import:         from AS8871 accept AS-CSI
+import:         from AS8912 accept AS-NETBENEFIT
+import:         from AS8966 accept AS-EMIX
+import:         from AS9031 accept AS-INTICONET
+import:         from AS9036 accept AS-NEURONNEXION
+import:         from AS9044 accept AS-SOLNET
+import:         from AS9145 accept AS-EWETEL
+import:         from AS9191 accept AS-NEWNET
+import:         from AS9318 accept AS9318
+import:         from AS12390 accept AS-KINGSTONUK
+import:         from AS12552 accept AS-IPO
+import:         from AS12654 accept AS12654
+import:         from AS12932 accept AS-TELETEXT
+import:         from AS13030 accept AS-INIT7
+import:         from AS13037 accept AS-ZEN
+import:         from AS13276 accept AS-MAGENTA
+import:         from AS13285 accept AS-OPAL
+import:         from AS13448 accept AS13448
+import:         from AS13680 accept AS-HGTN
+import:         from AS14492 accept AS14492
+import:         from AS14537 accept AS14537
+import:         from AS15169 accept AS-GOOGLE
+import:         from AS15290 accept AS-ALLSTREAM
+import:         from AS15395 accept AS15395
+import:         from AS15600 accept AS-FINECOM
+import:         from AS15635 accept AS-YAHOOEU
+import:         from AS16030 accept AS-ALTECOM
+import:         from AS16034 accept AS-KEME
+import:         from AS16082 accept AS-SPITFIRE
+import:         from AS16150 accept AS-CUSTOMERS
+import:         from AS16339 accept AS16339
+import:         from AS19318 accept AS19318
+import:         from AS20485 accept AS-TTK
+import:         from AS20547 accept AS-UKS
+import:         from AS20676 accept AS-QSC
+import:         from AS20679 accept AS-HSO
+import:         from AS20718 accept AS-ARSYSINTERNET
+import:         from AS20799 accept AS-DATANETUK
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS21396 accept AS-NETCONNEX
+import:         from AS22822 accept AS22822
+import:         from AS24931 accept AS-DEDIPOWER
+import:         from AS25041 accept AS-BRIGHTVIEW
+import:         from AS25061 accept AS-ANLX
+import:         from AS25074 accept AS-INETBONE
+import:         from AS25108 accept AS-BLACKCAT
+import:         from AS25180 accept AS-EXPONENTIAL-e
+import:         from AS25310 accept AS25310
+import:         from AS25369 accept AS-FOUR-U
+import:         from AS25388 accept AS-STREAM-COMM
+import:         from AS25462 accept AS-RETN
+import:         from AS25818 accept AS-CMCNETWORKS
+import:         from AS27822 accept AS32034
+import:         from AS28744 accept AS28744
+import:         from AS28792 accept AS-PUBLICINET
+import:         from AS29017 accept AS-GYRON
+import:         from AS29131 accept AS-RAPIDSWITCH
+import:         from AS29400 accept AS29400
+import:         from AS29550 accept AS29550
+import:         from AS29527 accept AS-OTHELLOTECH
+import:         from AS29636 accept AS-CATALYST2
+import:         from AS29668 accept AS-QUBE
+import:         from AS30740 accept AS-EXA
+import:         from AS30844 accept AS-ECS
+import:         from AS30914 accept AS-IOKO
+import:         from AS31084 accept AS-MAGRATHEA
+import:         from AS31216 accept AS-BSOCOM
+import:         from AS31458 accept AS-SMART
+import:         from AS31715 accept AS-NETRINO
+import:         from AS32787 accept AS32787
+import:         from AS33970 accept AS-OHTELE
+import:         from AS34066 accept AS-TELAPPLIANT
+import:         from AS34245 accept AS-MAGNETLOCAL
+import:         from AS34305 accept AS-EUROACCESS
+import:         from AS34419 accept AS-VODAFONE
+import:         from AS34695 accept AS34695
+import:         from AS34763 accept AS-VIRGINRADIO
+import:         from AS35028 accept AS-MULTIPLAY
+import:         from AS35591 accept AS-PROVIDERONE
+import:         from AS35751 accept AS-WFCS
+import:         from AS35825 accept AS35825
+import:         from AS36944 accept AS-TERTIARY
+import:         from AS39295 accept AS-SWITCHIP
+import:         from AS39326 accept AS-GOSCOMB
+import:         from AS39737 accept AS-NETVISIONTEL
+import:         from AS39779 accept AS-OPENPEERS
+import:         from AS39792 accept AS-ANDERS
+import:         from AS41012 accept AS-THECLOUD
+import:         from AS42455 accept AS-WIMANX
+import:         from AS43531 accept AS-IXREACH
+import:         from AS46786 accept AS-IPTRANSIT
+import:         from AS42459 accept AS-FOBUL
+import:         from AS8686 accept AS-NETERRA-INT
+import:         from AS42708 accept AS-PORTLANE
+import:         from AS33802 accept AS33802
+import:         from AS51684 accept AS-ASIACELL
+import:         from AS15366 accept AS-DNSNET
+import:         from AS35662 accept AS35662:AS-ORIGINS
+import:         from AS34288 accept AS34288:AS-IX:AS-LINX
+import:         from AS15802 accept AS-EITC-DU
+import:         from AS57413 accept AS-QVZ
+import:         from AS25180 accept AS-EXPONENTIAL-e
+import:         from AS39451 accept AS-MELBOURNE
+import:         from AS39326 accept AS-GOSCOMB
+import:         from AS49962 accept AS-ZERO
+import:         from AS12041 accept AS-AFILIAS-ANYCAST
+import:         from AS21321 accept AS-ALENTUSUK
+import:         from AS47447 accept AS-23MEDIA
+import:         from AS2134 accept AS-GSVNET
+import:         from AS48166 accept AS-FORTEX
+import:         from AS48166 accept AS-FORTEX-IPV6
+import:         from AS51929 accept AS-ITMASTAREN
+import:         from AS21345 accept AS-MESSAGELABSEUROPE
+import:         from AS43727 accept AS-SETKT
+import:         from AS41552 accept AS41552
+import:         from AS41230 accept AS-ASK4
+import:         from AS41678 accept AS-TIBUS
+import:         from AS8001 accept AS-NETACCESS
+import:         from AS51823 accept AS-MICROTALK
+import:         from AS50957 accept AS-MEMSET
+import:         from AS9583 accept AS9583
+import:         from AS33915 accept AS-TNF
+import:         from AS24218 accept AS-SET-GTI-PIP
+import:         from AS13213 accept AS-UK2NET
+import:         from AS17660 accept AS-DRUKNET
+import:         from AS29834 accept AS-USTR
+import:         from AS12496 accept AS-IDNET
+import:         from AS57228 accept AS-IMTECH-ICT-UK
+import:         from AS44788 accept AS-CRITEO-EU
+import:         from AS44788 accept AS-CRITEO-EU-V6
+import:         from AS2486 accept AS-AFNIC
+export:         to AS42 announce AS-TELECITYGROUP
+export:         to AS21371 announce AS-TELECITYGROUP
+export:         to AS62217 announce AS-TELECITYGROUP
+export:         to AS46489 announce AS-TELECITYGROUP
+export:         to AS4651 announce AS-TELECITYGROUP
+export:         to AS41811 announce AS-TELECITYGROUP
+export:         to AS786 announce AS-TELECITYGROUP
+export:         to AS1290 announce AS-TELECITYGROUP
+export:         to AS2134 announce AS-TELECITYGROUP
+export:         to AS2529 announce AS-TELECITYGROUP
+export:         to AS2686 announce AS-TELECITYGROUP
+export:         to AS2818 announce AS-TELECITYGROUP
+export:         to AS2906 announce AS-TELECITYGROUP
+export:         to AS2914 announce AS-TELECITYGROUP
+export:         to AS39326 announce AS-TELECITYGROUP
+export:         to AS3213 announce AS-TELECITYGROUP
+export:         to AS3246 announce AS-TELECITYGROUP
+export:         to AS3249 announce AS-TELECITYGROUP
+export:         to AS3549 announce AS-TELECITYGROUP
+export:         to AS3741 announce AS-TELECITYGROUP
+export:         to AS3856 announce AS-TELECITYGROUP
+export:         to AS4004 announce AS-TELECITYGROUP
+export:         to AS4589 announce AS-TELECITYGROUP
+export:         to AS5089 announce AS-TELECITYGROUP
+export:         to AS5410 announce AS-TELECITYGROUP
+export:         to AS5413 announce AS-TELECITYGROUP
+export:         to AS5427 announce AS-TELECITYGROUP
+export:         to AS29644 announce AS-TELECITYGROUP
+export:         to AS5430 announce AS-TELECITYGROUP
+export:         to AS16164 announce AS-TELECITYGROUP
+export:         to AS5459 announce AS-TELECITYGROUP
+export:         to AS5524 announce AS-TELECITYGROUP
+export:         to AS5552 announce AS-TELECITYGROUP
+export:         to AS5587 announce AS-TELECITYGROUP
+export:         to AS855 announce AS-TELECITYGROUP
+export:         to AS6083 announce AS-TELECITYGROUP
+export:         to AS6656 announce AS-TELECITYGROUP
+export:         to AS6667 announce AS-TELECITYGROUP
+export:         to AS13335 announce AS-TELECITYGROUP
+export:         to AS6779 announce AS-TELECITYGROUP
+export:         to AS6805 announce AS-TELECITYGROUP
+export:         to AS6871 announce AS-TELECITYGROUP
+export:         to AS7575 announce AS-TELECITYGROUP
+export:         to AS8190 announce AS-TELECITYGROUP
+export:         to AS8282 announce AS-TELECITYGROUP
+export:         to AS8330 announce AS-TELECITYGROUP
+export:         to AS8419 announce AS-TELECITYGROUP
+export:         to AS8422 announce AS-TELECITYGROUP
+export:         to AS8426 announce AS-TELECITYGROUP
+export:         to AS8447 announce AS-TELECITYGROUP
+export:         to AS8468 announce AS-TELECITYGROUP
+export:         to AS8546 announce AS-TELECITYGROUP
+export:         to AS8553 announce AS-TELECITYGROUP
+export:         to AS8586 announce AS-TELECITYGROUP
+export:         to AS8607 announce AS-TELECITYGROUP
+export:         to AS8657 announce AS-TELECITYGROUP
+export:         to AS8708 announce AS-TELECITYGROUP
+export:         to AS8714 announce AS-TELECITYGROUP
+export:         to AS8851 announce AS-TELECITYGROUP
+export:         to AS8871 announce AS-TELECITYGROUP
+export:         to AS8912 announce AS-TELECITYGROUP
+export:         to AS8966 announce AS-TELECITYGROUP
+export:         to AS9031 announce AS-TELECITYGROUP
+export:         to AS9044 announce AS-TELECITYGROUP
+export:         to AS9145 announce AS-TELECITYGROUP
+export:         to AS9191 announce AS-TELECITYGROUP
+export:         to AS9318 announce AS-TELECITYGROUP
+export:         to AS12390 announce AS-TELECITYGROUP
+export:         to AS12552 announce AS-TELECITYGROUP
+export:         to AS12654 announce AS-TELECITYGROUP
+export:         to AS12932 announce AS-TELECITYGROUP
+export:         to AS13030 announce AS-TELECITYGROUP
+export:         to AS13037 announce AS-TELECITYGROUP
+export:         to AS13276 announce AS-TELECITYGROUP
+export:         to AS13285 announce AS-TELECITYGROUP
+export:         to AS13448 announce AS-TELECITYGROUP
+export:         to AS13680 announce AS-TELECITYGROUP
+export:         to AS14492 announce AS-TELECITYGROUP
+export:         to AS14537 announce AS-TELECITYGROUP
+export:         to AS15169 announce AS-TELECITYGROUP
+export:         to AS15290 announce AS-TELECITYGROUP
+export:         to AS15395 announce AS-TELECITYGROUP
+export:         to AS15600 announce AS-TELECITYGROUP
+export:         to AS15635 announce AS-TELECITYGROUP
+export:         to AS16030 announce AS-TELECITYGROUP
+export:         to AS16034 announce AS-TELECITYGROUP
+export:         to AS16082 announce AS-TELECITYGROUP
+export:         to AS16150 announce AS-TELECITYGROUP
+export:         to AS16339 announce AS-TELECITYGROUP
+export:         to AS18106 announce AS-TELECITYGROUP
+export:         to AS19318 announce AS-TELECITYGROUP
+export:         to AS20485 announce AS-TELECITYGROUP
+export:         to AS20547 announce AS-TELECITYGROUP
+export:         to AS20676 announce AS-TELECITYGROUP
+export:         to AS20679 announce AS-TELECITYGROUP
+export:         to AS20718 announce AS-TELECITYGROUP
+export:         to AS20799 announce AS-TELECITYGROUP
+export:         to AS20940 announce AS-TELECITYGROUP
+export:         to AS21396 announce AS-TELECITYGROUP
+export:         to AS22822 announce AS-TELECITYGROUP
+export:         to AS24931 announce AS-TELECITYGROUP
+export:         to AS25041 announce AS-TELECITYGROUP
+export:         to AS25061 announce AS-TELECITYGROUP
+export:         to AS25074 announce AS-TELECITYGROUP
+export:         to AS25108 announce AS-TELECITYGROUP
+export:         to AS25180 announce AS-TELECITYGROUP
+export:         to AS25310 announce AS-TELECITYGROUP
+export:         to AS25369 announce AS-TELECITYGROUP
+export:         to AS25388 announce AS-TELECITYGROUP
+export:         to AS25462 announce AS-TELECITYGROUP
+export:         to AS28744 announce AS-TELECITYGROUP
+export:         to AS28792 announce AS-TELECITYGROUP
+export:         to AS29017 announce AS-TELECITYGROUP
+export:         to AS29131 announce AS-TELECITYGROUP
+export:         to AS29400 announce AS-TELECITYGROUP
+export:         to AS29550 announce AS-TELECITYGROUP
+export:         to AS29527 announce AS-TELECITYGROUP
+export:         to AS29636 announce AS-TELECITYGROUP
+export:         to AS29668 announce AS-TELECITYGROUP
+export:         to AS30740 announce AS-TELECITYGROUP
+export:         to AS30844 announce AS-TELECITYGROUP
+export:         to AS30914 announce AS-TELECITYGROUP
+export:         to AS31084 announce AS-TELECITYGROUP
+export:         to AS31216 announce AS-TELECITYGROUP
+export:         to AS31458 announce AS-TELECITYGROUP
+export:         to AS31715 announce AS-TELECITYGROUP
+export:         to AS32787 announce AS-TELECITYGROUP
+export:         to AS33970 announce AS-TELECITYGROUP
+export:         to AS34066 announce AS-TELECITYGROUP
+export:         to AS34245 announce AS-TELECITYGROUP
+export:         to AS34305 announce AS-TELECITYGROUP
+export:         to AS34419 announce AS-TELECITYGROUP
+export:         to AS34695 announce AS-TELECITYGROUP
+export:         to AS34763 announce AS-TELECITYGROUP
+export:         to AS35028 announce AS-TELECITYGROUP
+export:         to AS35591 announce AS-TELECITYGROUP
+export:         to AS35751 announce AS-TELECITYGROUP
+export:         to AS36944 announce AS-TELECITYGROUP
+export:         to AS39295 announce AS-TELECITYGROUP
+export:         to AS39326 announce AS-TELECITYGROUP
+export:         to AS39737 announce AS-TELECITYGROUP
+export:         to AS39779 announce AS-TELECITYGROUP
+export:         to AS41012 announce AS-TELECITYGROUP
+export:         to AS42455 announce AS-TELECITYGROUP
+export:         to AS42459 announce AS-TELECITYGROUP
+export:         to AS43531 announce AS-TELECITYGROUP
+export:         to AS9036 announce AS-TELECITYGROUP
+export:         to AS8686 announce AS-TELECITYGROUP
+export:         to AS42708 announce AS-TELECITYGROUP
+export:         to AS51684 announce AS-TELECITYGROUP
+export:         to AS15366 announce AS-TELECITYGROUP
+export:         to AS35662 announce AS-TELECITYGROUP
+export:         to AS34288 announce AS-TELECITYGROUP
+export:         to AS47447 announce AS-TELECITYGROUP
+export:         to AS57413 announce AS-TELECITYGROUP
+export:         to AS25180 announce AS-TELECITYGROUP
+export:         to AS49962 announce AS-TELECITYGROUP
+export:         to AS33802 announce ANY
+export:         to AS15802 announce AS-TELECITYGROUP
+export:         to AS39451 announce AS-TELECITYGROUP
+export:         to AS12041 announce AS-TELECITYGROUP
+export:         to AS21321 announce AS-TELECITYGROUP
+export:         to AS48166 announce AS-TELECITYGROUP
+export:         to AS51929 announce AS-TELECITYGROUP
+export:         to AS21345 announce AS-TELECITYGROUP
+export:         to AS5580 announce AS-TELECITYGROUP
+export:         to AS43727 announce AS-TELECITYGROUP
+export:         to AS41552 announce AS-TELECITYGROUP
+export:         to AS41230 announce AS-TELECITYGROUP
+export:         to AS41678 announce AS-TELECITYGROUP
+export:         to AS8001 announce AS-TELECITYGROUP
+export:         to AS51823 announce AS-TELECITYGROUP
+export:         to AS50957 announce AS-TELECITYGROUP
+export:         to AS9583 announce AS-TELECITYGROUP
+export:         to AS33915 announce AS-TELECITYGROUP
+export:         to AS24218 announce AS-TELECITYGROUP
+export:         to AS17660 announce AS-TELECITYGROUP
+export:         to AS29834 announce AS-TELECITYGROUP
+export:         to AS12496 announce AS-TELECITYGROUP
+export:         to AS57228 announce AS-TELECITYGROUP
+export:         to AS44788 announce AS-TELECITYGROUP
+export:         to AS2486 announce AS-TELECITYGROUP
+export:         to AS61215 announce AS-TELECITYGROUP
+export:         to AS39545 announce AS-TELECITYGROUP
+remarks:        TelecityGroup will not accept updates from Martian
+remarks:        networks.
+remarks:        +++++++++++++++++++++++++++++++++++
+remarks:        + Transit Customer Traffic Engineering Communities
+remarks:        +++++++++++++++++++++++++++++++++++
+remarks:        15830:30119 : Don't advertise to LINX peers
+remarks:        15830:30219 : Don't advertise to IXManchester peers
+remarks:        15830:30129 : Don't advertise to LoNAP peers
+remarks:        15830:30419 : Don't advertise to DE-CIX peers
+remarks:        15830:30519 : Don't advertise to AMS-IX peers
+remarks:        15830:30629 : Don't advertise to FRANCIX peers
+remarks:        15830:30719 : Don't advertise to MIX peers
+remarks:        15830:30819 : Don't advertise to STHX peers
+remarks:        ++++++++++++++++++++++++++++++++++
+remarks:        15830:40119 : Don't advertise to Level3 London
+remarks:        15830:40129 : Don't advertise to GTT London
+remarks:        15830:40139 : Don't advertise to Interoute London
+remarks:        15830:40149 : Don't advertise to PCCW London
+remarks:        15830:40159 : Don't advertise to Telia London
+remarks:        15830:40169 : Don't advertise to DTAG London
+remarks:        15830:40179 : Don't advertise to Zayo London
+remarks:        15830:40189 : Don't advertise to Cogent London
+remarks:        ++++++++++++++++++++++++++++++++++
+remarks:        15830:40111 : Prepend one AS to Level3 London
+remarks:        15830:40121 : Prepend one AS to GTT London
+remarks:        15830:40131 : Prepend one AS to Interoute London
+remarks:        15830:40141 : Prepend one AS to PCCW Access London
+remarks:        15830:40151 : Prepend one AS to Telia Lonon
+remarks:        15830:40161 : Prepend one AS to DTAG London
+remarks:        15830:40171 : Prepend one AS to Zayo London
+remarks:        15830:40181 : Prepend one AS to Cogent London
+remarks:        ++++++++++++++++++++++++++++++++++
+remarks:        15830:999 : Blackhole this /32 prefix
+remarks:        Blackhole service requires prior setup via eBGP
+remarks:        ++++++++++++++++++++++++++++++++++
+remarks:        15830:40429 : Don't advertise to GTT Frankfurt
+remarks:        15830:40419 : Don't advertise to Level3 Frankfurt
+remarks:        15830:40459 : Don't advertise to Telia Frankfurt
+remarks:        15830:40489 : Don't advertise to Cogent Frankfurt
+remarks:        ++++++++++++++++++++++++++++++++++
+remarks:        15830:40421 : Prepend one AS to GTT Frankfurt
+remarks:        15830:40411: Prepend one AS to Level3 Frankfurt
+remarks:        15830:40451 : Prepend one AS to Telia Frankfurt
+remarks:        15830:40481 : Prepend one AS to Cogent Frankfurt
+remarks:
+remarks:        ++++++++++++++++++++++++++++++++++
+remarks:        AMS-IX route-server policy
+remarks:        ++++++++++++++++++++++++++++++++++
+import:         from AS6777 accept AS-AMS-IX-RS-SETS
+export:         to AS6777 action community .= { 6777:6777}; announce AS-TELECITYGROUP
+remarks:        ++++++++++++++++++++++++++++++++++
+remarks:        15830:40639 : Don't advertise to GTT Paris
+remarks:        15830:40629 : Don't advertise to Level3 Paris
+remarks:        15830:40619 : Don't advertise to Telia Paris
+remarks:        15830:40649 : Don't advertise to Cogent Paris
+remarks:        ++++++++++++++++++++++++++++++++++
+remarks:        15830:40631 : Prepend one AS to GTT Paris
+remarks:        15830:40621: Prepend one AS to Level3 Paris
+remarks:        15830:40611 : Prepend one AS to Telia Paris
+remarks:        15830:40641 : Prepend one AS to Cogent Paris
+remarks:        ++++++++++++++++++++++++++++++++++
+org:            ORG-TP3-RIPE
+admin-c:        TA515-RIPE
+tech-c:         TT556-RIPE
+mnt-by:         TELECITY-MNT
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         EQUINIX-MNT
+created:        2002-09-08T12:45:12Z
+last-modified:  2019-01-17T21:55:27Z
+source:         RIPE
+
+organisation:   ORG-TP3-RIPE
+org-name:       TELECITYGROUP INTERNATIONAL LIMITED
+org-type:       LIR
+address:        11 Devonshire Square
+address:        EC2M 4YR
+address:        London
+address:        UNITED KINGDOM
+phone:          +44.845.373.2999
+mnt-ref:        EQUINIX-MNT
+mnt-ref:        TELECITY-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TELECITY-MNT
+admin-c:        IIA6-RIPE
+tech-c:         IIA6-RIPE
+abuse-c:        EAM62-RIPE
+created:        2004-04-17T12:22:20Z
+last-modified:  2017-12-07T13:20:06Z
+source:         RIPE # Filtered
+
+role:           Equinix (formerly Telecity) Admin-c
+address:        UK
+phone:          +44 207 0056958
+fax-no:         +44 207 5318750
+remarks:        +-------------------------------------------------
+remarks:        | All reports regarding these networks should be |
+remarks:        | sent to abuse-mailbox: If you report abuse |
+remarks:        | to any other address you will get no response. |
+remarks:        +-------------------------------------------------
+remarks:        trouble: In case of abuse email abuse-mailbox
+abuse-mailbox:  abuse@eu.equinix.com
+admin-c:        IIA6-RIPE
+tech-c:         IIA6-RIPE
+nic-hdl:        TA515-RIPE
+mnt-by:         EQUINIX-MNT
+created:        2002-09-03T17:08:18Z
+last-modified:  2018-02-26T15:17:34Z
+source:         RIPE # Filtered
+
+role:           Equinix (formerly Telecity) Tech-c
+address:        UK
+address:        E14 9GE
+phone:          +44 207 0056958
+fax-no:         +44 207 5318750
+remarks:        +-------------------------------------------------
+remarks:        | All reports regarding these networks should be |
+remarks:        | sent to abuse-mailbox: If you report abuse |
+remarks:        | to any other address you will get no response. |
+remarks:        +-------------------------------------------------
+remarks:        trouble: In case of abuse email abuse-mailbox:
+abuse-mailbox:  abuse@eu.equinix.com
+admin-c:        IIA6-RIPE
+tech-c:         IIA6-RIPE
+nic-hdl:        TT556-RIPE
+remarks:        Role to be used for tech-c function
+mnt-by:         EQUINIX-MNT
+created:        2002-09-03T16:56:48Z
+last-modified:  2018-02-26T15:18:30Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

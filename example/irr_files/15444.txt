@@ -1,0 +1,590 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS15444
+as-name:       EDGE-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS1299 action pref=100; accept ANY
+import:        from AS2914 action pref=100; accept ANY
+import:        from AS13076 action pref=100; accept ANY
+import:        from AS174 action pref=50; accept AS174:AS-COGENT
+import:        from AS553 action pref=50; accept AS-BELWUE
+import:        from AS680 action pref=50; accept AS-DFNTOWINISP
+import:        from AS786 action pref=50; accept AS-JANETPLUS
+import:        from AS2110 action pref=50; accept AS-IEUNET
+import:        from AS2529 action pref=50; accept AS-DEMON
+import:        from AS2611 action pref=50; accept AS-BELNET
+import:        from AS2686 action pref=50; accept AS-IGNEMEA
+import:        from AS2818 action pref=50; accept AS-BBC-LONDON
+import:        from AS2857 action pref=50; accept AS-RLP-NET
+import:        from AS3209 action pref=50; accept AS-ARCORGLOBAL
+import:        from AS3246 action pref=50; accept AS-TELEONEEUROPE
+import:        from AS3249 action pref=50; accept AS-ESTPAK
+import:        from AS3291 action pref=50; accept AS-PSINETEU
+import:        from AS3292 action pref=50; accept AS-TDCNET
+import:        from AS3303 action pref=50; accept AS-SWCMGLOBAL
+import:        from AS3327 action pref=50; accept AS-LINXTELECOM-DECIX
+import:        from AS3344 action pref=50; accept AS-KEWLIO
+import:        from AS3491 action pref=50; accept AS-CAIS
+import:        from AS3741 action pref=50; accept AS-IS
+import:        from AS4513 action pref=50; accept AS-GLOBIX
+import:        from AS4589 action pref=50; accept AS-EASYNET
+import:        from AS4766 action pref=50; accept AS-KORNET
+import:        from AS4788 action pref=50; accept AS4788 AS-TMNET-CUSTOMERS
+import:        from AS5089 action pref=50; accept AS-NTLI
+import:        from AS5388 action pref=50; accept AS-ENERGIS
+import:        from AS5409 action pref=50; accept AS-TPL
+import:        from AS5410 action pref=50; accept AS-T-ONLINEFRANCE
+import:        from AS5427 action pref=50; accept AS-PRTL-EU
+import:        from AS5430 action pref=50; accept AS-FREENETDE
+import:        from AS5459 action pref=50; accept AS-LINX
+import:        from AS5462 action pref=50; accept AS-CABLEINET
+import:        from AS5463 action pref=50; accept AS-PERCEVAL
+import:        from AS5466 action pref=50; accept AS-EIRCOM
+import:        from AS5503 action pref=50; accept AS-RMIFL
+import:        from AS5539 action pref=50; accept AS-SPACENET
+import:        from AS5552 action pref=50; accept AS-DIALNET
+import:        from AS5557 action pref=50; accept AS-ZOO
+import:        from AS5587 action pref=50; accept AS-BSVE
+import:        from AS5588 action pref=50; accept AS-GTS-CE
+import:        from AS5605 action pref=50; accept AS-NETUSE
+import:        from AS5631 action pref=50; accept AS-VITAL-GROUP
+import:        from AS6067 action pref=50; accept AS-ONYX
+import:        from AS6320 action pref=50; accept AS-TELECOMPLETE
+import:        from AS6327 action pref=50; accept AS-BIGPIPE
+import:        from AS6447 action pref=50; accept NOT ANY
+import:        from AS6461 action pref=50; accept AS-ABOVE
+import:        from AS6656 action pref=50; accept AS-STG
+import:        from AS6666 action pref=50; accept AS-HEADLIGHT
+import:        from AS6667 action pref=50; accept AS-JIPPII
+import:        from AS6695 action pref=50; accept AS-DECIX
+import:        from AS6717 action pref=50; accept AS6717
+import:        from AS6724 action pref=50; accept AS-STRATORZ
+import:        from AS6730 action pref=50; accept AS-GLOBAL
+import:        from AS6735 action pref=50; accept AS-SDTDECIX
+import:        from AS6774 action pref=50; accept AS-BELBONEMEMBERS
+import:        from AS6779 action pref=50; accept AS-ICLNET
+import:        from AS6805 action pref=50; accept AS-TDDE
+import:        from AS6871 action pref=50; accept AS-PLUSNETUK
+import:        from AS6911 action pref=50; accept AS-PRO-NET
+import:        from AS6939 action pref=50; accept AS-HURRICANE
+import:        from AS7575 action pref=50; accept AS7575:AS-CUSTOMER
+import:        from AS8001 action pref=50; accept AS-NAC
+import:        from AS8068 action pref=50; accept AS-MICROSOFTEU
+import:        from AS8075 action pref=50; accept AS-MICROSOFT
+import:        from AS8190 action pref=50; accept AS-VIATEL
+import:        from AS8210 action pref=50; accept AS-TELENOR
+import:        from AS8220 action pref=50; accept AS-COLT
+import:        from AS8250 action pref=50; accept AS-ZET
+import:        from AS8304 action pref=50; accept AS-ECRITEL
+import:        from AS8319 action pref=50; accept AS-IXNETHINKS
+import:        from AS8342 action pref=50; accept AS-8342:AS-RTCOMM-LINX-EXP
+import:        from AS8365 action pref=50; accept AS-MANDA
+import:        from AS8401 action pref=50; accept AS-MAILBOX
+import:        from AS8406 action pref=50; accept AS-XTML
+import:        from AS8419 action pref=50; accept AS-HOTCHILLI
+import:        from AS8422 action pref=50; accept AS-NETCOLOGNE
+import:        from AS8426 action pref=50; accept AS-CLARANET
+import:        from AS8447 action pref=50; accept AS-PTA
+import:        from AS8468 action pref=50; accept AS-ENTANET
+import:        from AS8514 action pref=50; accept AS-INODE
+import:        from AS8527 action pref=50; accept AS-INTERNET-FR
+import:        from AS8546 action pref=50; accept AS-YOURCOMMS
+import:        from AS8548 action pref=50; accept AS8548
+import:        from AS8553 action pref=50; accept AS-AVENSYS
+import:        from AS8554 action pref=50; accept AS-TAS
+import:        from AS8560 action pref=50; accept AS-SCHLUND
+import:        from AS8582 action pref=50; accept AS-SUPPORT
+import:        from AS8586 action pref=50; accept AS-REDNET
+import:        from AS8607 action pref=50; accept AS-ATLAS
+import:        from AS8638 action pref=50; accept AS-CITYKOM
+import:        from AS8642 action pref=50; accept AS-BREDBAND
+import:        from AS8657 action pref=50; accept AS-CPRM
+import:        from AS8665 action pref=50; accept AS-ISP-SERVICE
+import:        from AS8683 action pref=50; accept AS-NOMINET
+import:        from AS8708 action pref=50; accept AS-RDSNET
+import:        from AS8741 action pref=50; accept AS-ECORE
+import:        from AS8763 action pref=50; accept AS-DENIC
+import:        from AS8804 action pref=50; accept AS-IX-REGIONET
+import:        from AS8838 action pref=50; accept AS-QIX-LINX
+import:        from AS8844 action pref=50; accept AS-COMMUNITY
+import:        from AS8851 action pref=50; accept AS-INWEB
+import:        from AS8859 action pref=50; accept AS-OSN
+import:        from AS8881 action pref=50; accept AS-VT-TRANSIT
+import:        from AS8897 action pref=50; accept AS-MISTRAL
+import:        from AS8912 action pref=50; accept AS-NETBENEFIT
+import:        from AS8928 action pref=50; accept AS-INTEROUTE
+import:        from AS8966 action pref=50; accept AS-EMIX
+import:        from AS8975 action pref=50; accept AS-CLARANET
+import:        from AS9009 action pref=50; accept AS-REALROUTE
+import:        from AS9044 action pref=50; accept AS-SOLNET
+import:        from AS9063 action pref=50; accept AS-SAARGATE
+import:        from AS9066 action pref=50; accept AS-BCC
+import:        from AS9119 action pref=50; accept AS-SOFTNET
+import:        from AS9132 action pref=50; accept AS-MEDIASCAPE
+import:        from AS9145 action pref=50; accept AS-EWETEL
+import:        from AS9153 action pref=50; accept AS-BURSTFIRE
+import:        from AS9189 action pref=50; accept AS-ACCOM
+import:        from AS9191 action pref=50; accept AS-NEWNET
+import:        from AS9193 action pref=50; accept AS-CONXIONEU
+import:        from AS9211 action pref=50; accept AS-WORK
+import:        from AS9318 action pref=50; accept AS-HANARO
+import:        from AS10530 action pref=50; accept AS-INTERPACKET
+import:        from AS12306 action pref=50; accept AS-PLUSLINE
+import:        from AS12308 action pref=50; accept AS-INTERACTIVE
+import:        from AS12322 action pref=50; accept AS-PROXAD
+import:        from AS12337 action pref=50; accept AS-NORIS
+import:        from AS12390 action pref=50; accept AS-KINGSTONUK
+import:        from AS12399 action pref=50; accept AS-SPXS
+import:        from AS12407 action pref=50; accept AS-WESTEND
+import:        from AS12480 action pref=50; accept AS-ILK
+import:        from AS12496 action pref=50; accept AS-IDNETUK
+import:        from AS12513 action pref=50; accept AS-ECLIPSE
+import:        from AS12536 action pref=50; accept AS12536
+import:        from AS12611 action pref=50; accept AS-RKCOM
+import:        from AS12654 action pref=50; accept AS12654
+import:        from AS12703 action pref=50; accept AS12703
+import:        from AS12713 action pref=50; accept AS-OTEGLOBE
+import:        from AS12715 action pref=50; accept AS-JAZZTRANS
+import:        from AS12731 action pref=50; accept AS-IPHH
+import:        from AS12793 action pref=50; accept AS-ETELGROUP
+import:        from AS12859 action pref=50; accept AS-BIT
+import:        from AS12868 action pref=50; accept AS-DYNEGYEUROPE
+import:        from AS12897 action pref=50; accept AS-HEAGMEDIANET
+import:        from AS12932 action pref=50; accept AS-TELETEXT
+import:        from AS13005 action pref=50; accept AS-C2INTERNET
+import:        from AS13030 action pref=50; accept AS-INIT7
+import:        from AS13037 action pref=50; accept AS-ZEN
+import:        from AS13101 action pref=50; accept AS-TNG
+import:        from AS13122 action pref=50; accept AS-MANX
+import:        from AS13184 action pref=50; accept AS-HANSENET
+import:        from AS13193 action pref=50; accept AS-NERIM
+import:        from AS13213 action pref=50; accept AS13213
+import:        from AS13237 action pref=50; accept AS-LNCLINX
+import:        from AS13285 action pref=50; accept AS-OPAL
+import:        from AS13301 action pref=50; accept AS-UNITEDCOLO
+import:        from AS13768 action pref=50; accept AS-PEERONECUST
+import:        from AS15169 action pref=50; accept AS-GOOGLE
+import:        from AS15290 action pref=50; accept AS-ALLSTREAM
+import:        from AS15395 action pref=50; accept AS-RACKSPACE
+import:        from AS15409 action pref=50; accept AS-DXI-Networks
+import:        from AS15412 action pref=50; accept AS-FLAGP
+import:        from AS15435 action pref=50; accept AS-KABELFOON
+import:        from AS15436 action pref=50; accept AS-WITBE
+import:        from AS15517 action pref=50; accept AS-NETSTREAM-CH
+import:        from AS15533 action pref=50; accept AS-SASEUROPE
+import:        from AS15557 action pref=50; accept AS-LDCOMNET
+import:        from AS15598 action pref=50; accept AS-IPX
+import:        from AS15600 action pref=50; accept AS-LAN
+import:        from AS15606 action pref=50; accept AS-NASK
+import:        from AS15635 action pref=50; accept AS-YAHOOEU
+import:        from AS15667 action pref=50; accept AS15667
+import:        from AS15703 action pref=50; accept AS-TRUESERVER
+import:        from AS15772 action pref=50; accept AS-WNET
+import:        from AS15837 action pref=50; accept AS-RHEINMAIN
+import:        from AS15915 action pref=50; accept AS-IBERCOM
+import:        from AS15933 action pref=50; accept AS-HEADLIGHT
+import:        from AS15988 action pref=50; accept AS-AKHTERNET
+import:        from AS16030 action pref=50; accept AS-ALTECOM
+import:        from AS16034 action pref=50; accept AS-KEME
+import:        from AS16082 action pref=50; accept AS-SPITFIRE
+import:        from AS16097 action pref=50; accept AS-HLKOMM
+import:        from AS16128 action pref=50; accept AS-AGARIK
+import:        from AS16260 action pref=50; accept AS-XPOINT
+import:        from AS16276 action pref=50; accept AS-OVH
+import:        from AS16334 action pref=50; accept AS-I-NAP
+import:        from AS16339 action pref=50; accept AS16339
+import:        from AS16353 action pref=50; accept AS-MERULA
+import:        from AS20495 action pref=50; accept AS-WEDARE
+import:        from AS20500 action pref=50; accept AS-GRIFFIN
+import:        from AS20538 action pref=50; accept AS-BOGONS
+import:        from AS20547 action pref=50; accept AS-UKS
+import:        from AS20646 action pref=50; accept AS-CELOX
+import:        from AS20676 action pref=50; accept AS-QSC
+import:        from AS20679 action pref=50; accept AS-HSO
+import:        from AS20718 action pref=50; accept AS-ARSYSINTERNET
+import:        from AS20766 action pref=50; accept AS-GITOYEN
+import:        from AS20799 action pref=50; accept AS-DATANETUK
+import:        from AS20804 action pref=50; accept AS-TELENERGO-INT
+import:        from AS20834 action pref=50; accept AS-CALADAN
+import:        from AS20915 action pref=50; accept AS-100PERCENT
+import:        from AS20940 action pref=50; accept AS-AKAMAI
+import:        from AS20976 action pref=50; accept AS-DOMAINMASTER
+import:        from AS21099 action pref=50; accept AS-BARRYSWORLD-LINX
+import:        from AS21267 action pref=50; accept AS-IZR
+import:        from AS21356 action pref=50; accept AS-XPOINTML
+import:        from AS21371 action pref=50; accept AS-IXEUROPE
+import:        from AS21385 action pref=50; accept AS-TNIB
+import:        from AS21473 action pref=50; accept AS-MANET
+import:        from AS22822 action pref=50; accept AS-LLNW
+import:        from AS24851 action pref=50; accept AS-NETCETERA
+import:        from AS24886 action pref=50; accept AS-GRANADAINTERACTIVE
+import:        from AS24931 action pref=50; accept AS24931
+import:        from AS25048 action pref=50; accept AS-DSNETHOSTING
+import:        from AS25061 action pref=50; accept AS-ANLX
+import:        from AS25074 action pref=50; accept AS-INETBONE
+import:        from AS25108 action pref=50; accept AS-BLACKCAT
+import:        from AS25152 action pref=50; accept AS-KROOT-LINX
+import:        from AS25178 action pref=50; accept AS25178
+import:        from AS25180 action pref=50; accept AS-EXPONENTIAL-e
+import:        from AS25310 action pref=50; accept AS25310
+import:        from AS25394 action pref=50; accept AS-MK-NETZDIENSTE
+import:        from AS25462 action pref=50; accept AS-RETN
+import:        from AS25492 action pref=50; accept AS-BURSTFIRE
+import:        from AS25560 action pref=50; accept AS-RHTEC
+import:        from AS25577 action pref=50; accept AS-C4L
+import:        from AS25585 action pref=10; accept AS25585
+import:        from AS28753 action pref=50; accept AS-NETDIRECT
+import:        from AS28788 action pref=50; accept AS-UNILOGICNET
+import:        from AS28796 action pref=50; accept AS-XANTARA
+import:        from AS28855 action pref=50; accept AS-GALACSYS
+import:        from AS28986 action pref=50; accept AS-LOUDNCLEAR
+import:        from AS29006 action pref=50; accept AS-POBOX
+import:        from AS29055 action pref=50; accept AS-PRODIGY
+import:        from AS29075 action pref=50; accept AS-IELO
+import:        from AS29131 action pref=50; accept AS-RAPIDSWITCH
+import:        from AS29215 action pref=50; accept AS-VCOM
+import:        from AS29402 action pref=50; accept AS-CTN1
+import:        from AS29415 action pref=50; accept AS-OVANET
+import:        from AS29550 action pref=50; accept AS-POUNDHOST
+import:        from AS29565 action pref=10; accept AS29565
+import:        from AS29629 action pref=50; accept AS-ACCLD
+import:        from AS29668 action pref=50; accept AS-QUBE
+import:        from AS29686 action pref=50; accept AS-PROBENETWORKS
+import:        from AS30094 action pref=50; accept AS-GIGANEWS
+import:        from AS30740 action pref=50; accept AS-EXA
+import:        from AS31196 action pref=50; accept AS31196
+import:        from AS31216 action pref=50; accept AS-BSOCOM
+import:        from AS31235 action pref=50; accept AS31235
+import:        from AS31312 action pref=50; accept AS-VIDEONETWORKS
+import:        from AS31339 action pref=50; accept AS-REACTIVE
+import:        from AS31569 action pref=50; accept AS31569
+import:        from AS31632 action pref=10; accept AS31632
+import:        from AS31655 action pref=10; accept AS-GAMMA
+import:        from AS31715 action pref=50; accept AS-NETRINO
+import:        from AS33941 action pref=50; accept AS33941
+import:        from AS34033 action pref=50; accept AS34033
+import:        from AS34660 action pref=50; accept AS-IDAQ
+import:        from AS35228 action pref=50; accept AS35228
+import:        from AS39202 action pref=50; accept AS-GCAP
+import:        from AS39757 action pref=50; accept AS-UKGRID
+import:        from AS42973 action pref=10; accept AS42973
+export:        to AS1299 announce AS-NETSERVICES
+export:        to AS2914 announce AS-NETSERVICES
+export:        to AS13076 announce AS-NETSERVICES
+export:        to AS174 announce AS-NETSERVICES
+export:        to AS553 announce AS-NETSERVICES
+export:        to AS680 announce AS-NETSERVICES
+export:        to AS786 announce AS-NETSERVICES
+export:        to AS2110 announce AS-NETSERVICES
+export:        to AS2529 announce AS-NETSERVICES
+export:        to AS2611 announce AS-NETSERVICES
+export:        to AS2686 announce AS-NETSERVICES
+export:        to AS2818 announce AS-NETSERVICES
+export:        to AS2857 announce AS-NETSERVICES
+export:        to AS3209 announce AS-NETSERVICES
+export:        to AS3246 announce AS-NETSERVICES
+export:        to AS3249 announce AS-NETSERVICES
+export:        to AS3291 announce AS-NETSERVICES
+export:        to AS3292 announce AS-NETSERVICES
+export:        to AS3303 announce AS-NETSERVICES
+export:        to AS3327 announce AS-NETSERVICES
+export:        to AS3344 announce AS-NETSERVICES
+export:        to AS3491 announce AS-NETSERVICES
+export:        to AS3741 announce AS-NETSERVICES
+export:        to AS4513 announce AS-NETSERVICES
+export:        to AS4589 announce AS-NETSERVICES
+export:        to AS4766 announce AS-NETSERVICES
+export:        to AS4788 announce AS-NETSERVICES
+export:        to AS5089 announce AS-NETSERVICES
+export:        to AS5388 announce AS-NETSERVICES
+export:        to AS5409 announce AS-NETSERVICES
+export:        to AS5410 announce AS-NETSERVICES
+export:        to AS5427 announce AS-NETSERVICES
+export:        to AS5430 announce AS-NETSERVICES
+export:        to AS5459 announce AS-NETSERVICES
+export:        to AS5462 announce AS-NETSERVICES
+export:        to AS5463 announce AS-NETSERVICES
+export:        to AS5466 announce AS-NETSERVICES
+export:        to AS5503 announce AS-NETSERVICES
+export:        to AS5539 announce AS-NETSERVICES
+export:        to AS5552 announce AS-NETSERVICES
+export:        to AS5557 announce AS-NETSERVICES
+export:        to AS5587 announce AS-NETSERVICES
+export:        to AS5588 announce AS-NETSERVICES
+export:        to AS5605 announce AS-NETSERVICES
+export:        to AS5631 announce AS-NETSERVICES
+export:        to AS6067 announce AS-NETSERVICES
+export:        to AS6320 announce AS-NETSERVICES
+export:        to AS6327 announce AS-NETSERVICES
+export:        to AS6447 announce ANY
+export:        to AS6461 announce AS-NETSERVICES
+export:        to AS6656 announce AS-NETSERVICES
+export:        to AS6666 announce AS-NETSERVICES
+export:        to AS6667 announce AS-NETSERVICES
+export:        to AS6695 announce AS-NETSERVICES
+export:        to AS6717 announce AS-NETSERVICES
+export:        to AS6724 announce AS-NETSERVICES
+export:        to AS6730 announce AS-NETSERVICES
+export:        to AS6735 announce AS-NETSERVICES
+export:        to AS6774 announce AS-NETSERVICES
+export:        to AS6779 announce AS-NETSERVICES
+export:        to AS6805 announce AS-NETSERVICES
+export:        to AS6871 announce AS-NETSERVICES
+export:        to AS6911 announce AS-NETSERVICES
+export:        to AS6939 announce AS-NETSERVICES
+export:        to AS7575 announce AS-NETSERVICES
+export:        to AS8001 announce AS-NETSERVICES
+export:        to AS8068 announce AS-NETSERVICES
+export:        to AS8075 announce AS-NETSERVICES
+export:        to AS8190 announce AS-NETSERVICES
+export:        to AS8210 announce AS-NETSERVICES
+export:        to AS8220 announce AS-NETSERVICES
+export:        to AS8250 announce AS-NETSERVICES
+export:        to AS8304 announce AS-NETSERVICES
+export:        to AS8319 announce AS-NETSERVICES
+export:        to AS8342 announce AS-NETSERVICES
+export:        to AS8365 announce AS-NETSERVICES
+export:        to AS8401 announce AS-NETSERVICES
+export:        to AS8406 announce AS-NETSERVICES
+export:        to AS8419 announce AS-NETSERVICES
+export:        to AS8422 announce AS-NETSERVICES
+export:        to AS8426 announce AS-NETSERVICES
+export:        to AS8447 announce AS-NETSERVICES
+export:        to AS8468 announce AS-NETSERVICES
+export:        to AS8514 announce AS-NETSERVICES
+export:        to AS8527 announce AS-NETSERVICES
+export:        to AS8546 announce AS-NETSERVICES
+export:        to AS8548 announce AS-NETSERVICES
+export:        to AS8553 announce AS-NETSERVICES
+export:        to AS8554 announce AS-NETSERVICES
+export:        to AS8560 announce AS-NETSERVICES
+export:        to AS8582 announce AS-NETSERVICES
+export:        to AS8586 announce AS-NETSERVICES
+export:        to AS8607 announce AS-NETSERVICES
+export:        to AS8638 announce AS-NETSERVICES
+export:        to AS8642 announce AS-NETSERVICES
+export:        to AS8657 announce AS-NETSERVICES
+export:        to AS8665 announce AS-NETSERVICES
+export:        to AS8683 announce AS-NETSERVICES
+export:        to AS8708 announce AS-NETSERVICES
+export:        to AS8741 announce AS-NETSERVICES
+export:        to AS8763 announce AS-NETSERVICES
+export:        to AS8804 announce AS-NETSERVICES
+export:        to AS8838 announce AS-NETSERVICES
+export:        to AS8844 announce AS-NETSERVICES
+export:        to AS8851 announce AS-NETSERVICES
+export:        to AS8859 announce AS-NETSERVICES
+export:        to AS8881 announce AS-NETSERVICES
+export:        to AS8897 announce AS-NETSERVICES
+export:        to AS8912 announce AS-NETSERVICES
+export:        to AS8928 announce AS-NETSERVICES
+export:        to AS8966 announce AS-NETSERVICES
+export:        to AS8975 announce AS-NETSERVICES
+export:        to AS9009 announce AS-NETSERVICES
+export:        to AS9044 announce AS-NETSERVICES
+export:        to AS9063 announce AS-NETSERVICES
+export:        to AS9066 announce AS-NETSERVICES
+export:        to AS9119 announce AS-NETSERVICES
+export:        to AS9132 announce AS-NETSERVICES
+export:        to AS9145 announce AS-NETSERVICES
+export:        to AS9153 announce AS-NETSERVICES
+export:        to AS9189 announce AS-NETSERVICES
+export:        to AS9191 announce AS-NETSERVICES
+export:        to AS9193 announce AS-NETSERVICES
+export:        to AS9211 announce AS-NETSERVICES
+export:        to AS9318 announce AS-NETSERVICES
+export:        to AS10530 announce AS-NETSERVICES
+export:        to AS12306 announce AS-NETSERVICES
+export:        to AS12308 announce AS-NETSERVICES
+export:        to AS12322 announce AS-NETSERVICES
+export:        to AS12337 announce AS-NETSERVICES
+export:        to AS12390 announce AS-NETSERVICES
+export:        to AS12399 announce AS-NETSERVICES
+export:        to AS12407 announce AS-NETSERVICES
+export:        to AS12480 announce AS-NETSERVICES
+export:        to AS12496 announce AS-NETSERVICES
+export:        to AS12513 announce AS-NETSERVICES
+export:        to AS12536 announce AS-NETSERVICES
+export:        to AS12611 announce AS-NETSERVICES
+export:        to AS12654 announce AS-NETSERVICES
+export:        to AS12703 announce AS-NETSERVICES
+export:        to AS12713 announce AS-NETSERVICES
+export:        to AS12715 announce AS-NETSERVICES
+export:        to AS12731 announce AS-NETSERVICES
+export:        to AS12793 announce AS-NETSERVICES
+export:        to AS12859 announce AS-NETSERVICES
+export:        to AS12868 announce AS-NETSERVICES
+export:        to AS12897 announce AS-NETSERVICES
+export:        to AS12932 announce AS-NETSERVICES
+export:        to AS13005 announce AS-NETSERVICES
+export:        to AS13030 announce AS-NETSERVICES
+export:        to AS13037 announce AS-NETSERVICES
+export:        to AS13101 announce AS-NETSERVICES
+export:        to AS13122 announce AS-NETSERVICES
+export:        to AS13184 announce AS-NETSERVICES
+export:        to AS13193 announce AS-NETSERVICES
+export:        to AS13213 announce AS-NETSERVICES
+export:        to AS13237 announce AS-NETSERVICES
+export:        to AS13285 announce AS-NETSERVICES
+export:        to AS13301 announce AS-NETSERVICES
+export:        to AS13768 announce AS-NETSERVICES
+export:        to AS15169 announce AS-NETSERVICES
+export:        to AS15290 announce AS-NETSERVICES
+export:        to AS15395 announce AS-NETSERVICES
+export:        to AS15409 announce AS-NETSERVICES
+export:        to AS15412 announce AS-NETSERVICES
+export:        to AS15435 announce AS-NETSERVICES
+export:        to AS15436 announce AS-NETSERVICES
+export:        to AS15517 announce AS-NETSERVICES
+export:        to AS15533 announce AS-NETSERVICES
+export:        to AS15557 announce AS-NETSERVICES
+export:        to AS15598 announce AS-NETSERVICES
+export:        to AS15600 announce AS-NETSERVICES
+export:        to AS15606 announce AS-NETSERVICES
+export:        to AS15635 announce AS-NETSERVICES
+export:        to AS15667 announce AS-NETSERVICES
+export:        to AS15703 announce AS-NETSERVICES
+export:        to AS15772 announce AS-NETSERVICES
+export:        to AS15837 announce AS-NETSERVICES
+export:        to AS15915 announce AS-NETSERVICES
+export:        to AS15933 announce AS-NETSERVICES
+export:        to AS15988 announce AS-NETSERVICES
+export:        to AS16030 announce AS-NETSERVICES
+export:        to AS16034 announce AS-NETSERVICES
+export:        to AS16082 announce AS-NETSERVICES
+export:        to AS16097 announce AS-NETSERVICES
+export:        to AS16128 announce AS-NETSERVICES
+export:        to AS16260 announce AS-NETSERVICES
+export:        to AS16276 announce AS-NETSERVICES
+export:        to AS16334 announce AS-NETSERVICES
+export:        to AS16339 announce AS-NETSERVICES
+export:        to AS16353 announce AS-NETSERVICES
+export:        to AS20495 announce AS-NETSERVICES
+export:        to AS20500 announce AS-NETSERVICES
+export:        to AS20538 announce AS-NETSERVICES
+export:        to AS20547 announce AS-NETSERVICES
+export:        to AS20646 announce AS-NETSERVICES
+export:        to AS20676 announce AS-NETSERVICES
+export:        to AS20679 announce AS-NETSERVICES
+export:        to AS20718 announce AS-NETSERVICES
+export:        to AS20766 announce AS-NETSERVICES
+export:        to AS20799 announce AS-NETSERVICES
+export:        to AS20804 announce AS-NETSERVICES
+export:        to AS20834 announce AS-NETSERVICES
+export:        to AS20915 announce AS-NETSERVICES
+export:        to AS20940 announce AS-NETSERVICES
+export:        to AS20976 announce AS-NETSERVICES
+export:        to AS21099 announce AS-NETSERVICES
+export:        to AS21267 announce AS-NETSERVICES
+export:        to AS21356 announce AS-NETSERVICES
+export:        to AS21371 announce AS-NETSERVICES
+export:        to AS21385 announce AS-NETSERVICES
+export:        to AS21473 announce AS-NETSERVICES
+export:        to AS22822 announce AS-NETSERVICES
+export:        to AS24851 announce AS-NETSERVICES
+export:        to AS24886 announce AS-NETSERVICES
+export:        to AS24931 announce AS-NETSERVICES
+export:        to AS25048 announce AS-NETSERVICES
+export:        to AS25061 announce AS-NETSERVICES
+export:        to AS25074 announce AS-NETSERVICES
+export:        to AS25108 announce AS-NETSERVICES
+export:        to AS25152 announce AS-NETSERVICES
+export:        to AS25178 announce AS-NETSERVICES
+export:        to AS25180 announce AS-NETSERVICES
+export:        to AS25310 announce AS-NETSERVICES
+export:        to AS25394 announce AS-NETSERVICES
+export:        to AS25462 announce AS-NETSERVICES
+export:        to AS25492 announce AS-NETSERVICES
+export:        to AS25560 announce AS-NETSERVICES
+export:        to AS25577 announce AS-NETSERVICES
+export:        to AS25585 announce ANY
+export:        to AS28753 announce AS-NETSERVICES
+export:        to AS28788 announce AS-NETSERVICES
+export:        to AS28796 announce AS-NETSERVICES
+export:        to AS28855 announce AS-NETSERVICES
+export:        to AS28986 announce AS-NETSERVICES
+export:        to AS29006 announce AS-NETSERVICES
+export:        to AS29055 announce AS-NETSERVICES
+export:        to AS29075 announce AS-NETSERVICES
+export:        to AS29131 announce AS-NETSERVICES
+export:        to AS29215 announce AS-NETSERVICES
+export:        to AS29402 announce AS-NETSERVICES
+export:        to AS29415 announce AS-NETSERVICES
+export:        to AS29550 announce AS-NETSERVICES
+export:        to AS29565 announce ANY
+export:        to AS29629 announce AS-NETSERVICES
+export:        to AS29668 announce AS-NETSERVICES
+export:        to AS29686 announce AS-NETSERVICES
+export:        to AS30094 announce AS-NETSERVICES
+export:        to AS30740 announce AS-NETSERVICES
+export:        to AS31196 announce AS-NETSERVICES
+export:        to AS31216 announce AS-NETSERVICES
+export:        to AS31235 announce AS-NETSERVICES
+export:        to AS31312 announce AS-NETSERVICES
+export:        to AS31339 announce AS-NETSERVICES
+export:        to AS31569 announce AS-NETSERVICES
+export:        to AS31632 announce ANY
+export:        to AS31655 announce ANY
+export:        to AS31715 announce AS-NETSERVICES
+export:        to AS33941 announce ANY
+export:        to AS34033 announce AS-NETSERVICES
+export:        to AS34660 announce AS-NETSERVICES
+export:        to AS35228 announce AS-NETSERVICES
+export:        to AS39202 announce AS-NETSERVICES
+export:        to AS39757 announce AS-NETSERVICES
+export:        to AS42973 announce ANY
+remarks:       IPv4 unicast routing policy
+remarks:       end of IPv4 unicast routing policy
+remarks:       IPv4 multicast routing policy
+remarks:       end of IPv4 multicast routing policy
+remarks:       IPv6 unicast routing policy
+remarks:       end of IPv6 unicast routing policy
+remarks:       IPv6 multicast routing policy
+remarks:       end of IPv6 multicast routing policy
+remarks:       ===================================================
+remarks:       Present at DE-CIX, FreeIX, LINX, MaNAP and Xchangepoint.
+remarks:       Send peering requests to peering@netservicesplc.com
+remarks:       =
+remarks:       Community tags applied to received advertisements
+remarks:       -------------------------------------------------
+remarks:       15444:500 Peer route
+remarks:       15444:510 Transit route
+remarks:       15444:520 Customer route
+remarks:       15444:1000 MaNAP peer route
+remarks:       15444:1010 Xchangepoint MLP peer route
+remarks:       15444:1020 Xchangepoint non-MLP peer route
+remarks:       15444:1030 LINX peer route
+remarks:       15444:1040 DE-CIX peer route
+remarks:       15444:1050 FreeIX peer route
+remarks:       15444:1060 NL-IX peer route
+remarks:       15444:2040 Telia transit route
+remarks:       15444:2050 NTT/Verio transit route
+remarks:       15444:2060 C&W transit route
+remarks:       =
+remarks:       Community tags affecting outbound advertisements
+remarks:       ------------------------------------------------
+remarks:       15444:100 Must be set for a route to be advertised
+remarks:       (advertises everywhere by default)
+remarks:       15444:110 Do NOT advertise to any upstream transit providers
+remarks:       15444:120 Do NOT advertise to any peers
+remarks:       15444:200 Do NOT advertise to MaNAP peers
+remarks:       15444:220 Do NOT advertise to Xchangepoint peers
+remarks:       15444:230 Do NOT advertise to LINX peers
+remarks:       15444:240 Do NOT advertise to DE-CIX peers
+remarks:       15444:250 Do NOT advertise to FreeIX peers
+remarks:       15444:260 Do NOT advertise to NL-IX peers
+remarks:       ===================================================
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        INWEB-NOC
+source:        RIPE
+
+

@@ -1,0 +1,130 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21004 - AS21151'
+
+as-block:       AS21004 - AS21151
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS21141'
+
+% Abuse contact for 'AS21141' is 'abusemail@openstack.net.ua'
+
+aut-num:        AS21141
+as-name:        LIXP
+remarks:        peeringdb.com/ix/526
+org:            ORG-OL145-RIPE
+import:         from AS50297 accept AS50297
+import:         from AS62179 accept AS-ECOFON
+import:         from AS34120 accept AS34120
+import:         from AS39067 accept AS39067
+import:         from AS24645 accept AS24645
+import:         from AS15440 accept AS-ML
+export:         to AS50297 announce AS-LIXP
+export:         to AS62179 announce AS-LIXP
+export:         to AS34120 announce AS-LIXP
+export:         to AS39067 announce AS-LIXP
+export:         to AS24645 announce AS-LIXP
+export:         to AS15440 announce AS-LIXP
+import:         from AS202725 accept AS202725
+export:         to AS202725 announce AS-LIXP
+import:         from AS202085 accept AS202085
+export:         to AS202085 announce AS-LIXP
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-LIXP
+import:         from AS49602 accept AS49602
+export:         to AS25190 announce AS-LIXP
+import:         from AS25190 accept AS25190
+export:         to AS49602 announce AS-LIXP
+import:         from AS42979 accept AS-GLOBALCOM_LV
+export:         to AS42979 announce AS-LIXP
+import:         from AS198651 accept AS-HOSTLINE-LT
+export:         to AS198651 announce AS-LIXP
+import:         from AS15419 accept AS-TELECENTRAS
+export:         to AS15419 announce AS-LIXP
+import:         from AS61053 accept AS61053
+export:         to AS61053 announce AS-LIXP
+import:         from AS21412 accept AS21412
+export:         to AS21412 announce AS-LIXP
+import:         from AS205504 accept AS-FL
+export:         to AS205504 announce AS-LIXP
+import:         from AS30721 accept AS-SATGATE-LT
+export:         to AS30721 announce AS-LIXP
+import:         from AS43627 accept AS43627
+export:         to AS43627 announce AS-LIXP
+import:         from AS1257 accept AS-TELE2
+export:         to AS1257 announce AS-LIXP
+import:         from AS13335 accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-LIXP
+import:         from AS62282 accept AS-RACKRAY-DC
+export:         to AS62282 announce AS-LIXP
+import:         from AS56847 accept AS56847
+export:         to AS56847 announce AS-LIXP
+import:         from AS44246 accept AS44246
+export:         to AS44246 announce AS-LIXP
+import:         from AS6769 accept AS-INFOSTRUKTURA
+export:         to AS6769 announce AS-LIXP
+import:         from AS25152 accept AS25152
+export:         to AS25152 announce AS-LIXP
+import:         from AS33922 accept AS-NTT-LT
+export:         to AS33922 announce AS-LIXP
+admin-c:        LPNT1-RIPE
+remarks:        ----------------------------- BGP routing community -----------------------------
+remarks:        ***** 0:21141 - Do not announce routes to ALL peers *****
+remarks:        ***** 0:XXXX - Do not announce routes to peer with ASnum XXXX *****
+remarks:        ***** 21141:21141 - Announce routes to ALL peers *****
+remarks:        ***** 21141:XXXX - Announce routes ONLY to peer with ASnum XXXX *
+remarks:        ***** 21141:666 - BGP blackhole (only prefixes length /31-/32) *****
+remarks:        ---------------------- Looking glass: http://lg.lixp.lt -------------------------
+remarks:        --------------------------- Siandien bus gera diena! -----------------------------
+tech-c:         LPNT1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         OPENSTACK-MNT
+created:        2015-07-23T14:51:46Z
+last-modified:  2018-12-27T21:13:44Z
+source:         RIPE
+
+organisation:   ORG-OL145-RIPE
+org-name:       Openstack Ltd
+org-type:       LIR
+address:        Traktorostoiteley 89b, 144
+address:        61135
+address:        Kharkov
+address:        UKRAINE
+phone:          +380639797654
+admin-c:        KM5960-RIPE
+tech-c:         KM5960-RIPE
+abuse-c:        AR32980-RIPE
+mnt-ref:        OPENSTACK-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         OPENSTACK-MNT
+created:        2015-07-22T07:17:48Z
+last-modified:  2016-06-14T07:47:48Z
+source:         RIPE # Filtered
+
+person:         LIXP peering NOC TEAM
+address:        London
+phone:          +467666918722
+nic-hdl:        LPNT1-RIPE
+mnt-by:         OPENSTACK-MNT
+created:        2017-01-14T12:05:24Z
+last-modified:  2017-01-14T12:05:24Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

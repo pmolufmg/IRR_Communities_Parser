@@ -1,0 +1,100 @@
+aut-num:        AS38987
+as-name:        OST-AS
+org:            ORG-OSTw2-RIPE
+import:         from AS6939 accept ANY
+import:         from AS8545 accept ANY
+import:         from AS9002 accept ANY
+import:         from AS10310 accept ANY
+import:         from AS16276 accept AS-OVH
+import:         from AS20804 accept ANY
+import:         from AS31381 accept AS31381
+import:         from AS31604 accept AS31604
+import:         from AS42981 accept AS42981
+import:         from AS48850 accept ANY
+import:         from AS50606 accept ANY
+import:         from AS61027 accept ANY
+import:         from AS62047 accept ANY
+export:         to AS6939 announce AS-OST
+export:         to AS8545 announce AS-OST
+export:         to AS9002 announce AS-OST
+export:         to AS10310 announce AS-OST
+export:         to AS15169 announce AS-OST
+export:         to AS16276 announce AS-OST
+export:         to AS20804 announce AS-OST
+export:         to AS31381 announce ANY
+export:         to AS31604 announce ANY
+export:         to AS42981 announce ANY
+export:         to AS48850 announce AS-OST
+export:         to AS50606 announce AS-OST
+export:         to AS61027 announce AS-OST
+export:         to AS62047 announce AS-OST
+remarks:        -----------------------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT FOR AS38987 BGP PEERS:
+remarks:        Community Action
+remarks:        --------- -------------------------------------------------
+remarks:        38987:80 Set local preference path to 80
+remarks:        38987:120 Set local preference path to 120
+remarks:        Default local preference is set to 100
+remarks:        BGP COMMUNITIES APPLIED AT INGRESS
+remarks:        (to determine entry point of route)
+remarks:        Community Entry point of route
+remarks:        --------- -------------------------------------------------
+remarks:        38987:210 EPIX Katowice (AS62047)
+remarks:        38987:220 EWSCHOD-AS (AS61027)
+remarks:        38987:230 Hurricane Electric (AS6939) (peering in PLIX)
+remarks:        38987:240 VirtuaOperator (AS50606)
+remarks:        38987:250 PL-IX (AS8545)
+remarks:        38987:260 OVH (AS16276) (peering in PLIX)
+remarks:        38987:270 EXATEL (AS20804)
+remarks:        38987:290 RETN (AS9002)
+remarks:        38987:300 OATH Global Network (YAHOO) (AS10310) (peering in PLIX)
+remarks:        38987:310 EPIX Warszawa (AS48850)
+remarks:        -----------------------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT FOR AS38987 BGP CUSTOMERS:
+remarks:        Community Action
+remarks:        ----------------------------------------------------------
+remarks:        38987:90 Do not advertise to BGP uplinks
+remarks:        38987:98 Do not advertise to BGP peers
+remarks:        38987:99 Do not advertise anywhere
+remarks:        38987:1100 Do not advertise to EPIX (AS50607)
+remarks:        38987:110x Prepend x times [x=1..5] with AS38987 to EPIX (AS50607)
+remarks:        38987:2100 Do not advertise fo EWSCHOD-AS (AS61027)
+remarks:        38987:210x Prepend x times [x=1..5] with AS38987 to EWSCHOD-AS (AS61027)
+remarks:        38987:3100 Do not advertise to HE (AS6939)
+remarks:        38987:310x Prepend x times [x=1..5] with AS38987 to HE (AS6939)
+remarks:        38987:3200 Do not advertise to OATH (AS10310)
+remarks:        38987:320x Prepend x times 9x=1..5] with AS38987 to OATH (AS10310)
+remarks:        38987:4100 Do not advertise to VO (AS50606)
+remarks:        38987:410x Prepend x times [x=1..5] with AS38987 to VO (AS50606)
+remarks:        38987:5100 Do not advertise to PL-IX (AS8545)
+remarks:        38987:510x Prepend x times [x=1..5] with AS38987 to PL-IX (AS8545)
+remarks:        38987:6100 Do not advertise to OVH (AS16276)
+remarks:        38987:610x Prepend x times [x=1..5] with AS38987 to OVH (AS16276)
+remarks:        38987:7100 Do not advertise to EXATEL (AS20804)
+remarks:        38987:710x Prepend x times [x=1..5] with AS38987 to EXATEL (AS20804)
+remarks:        38987:9100 Do not advertise to OST Google Global Cache
+remarks:        38987:910x Prepend x times [x=1..5] with AS38987 to OST Google Global Cache
+remarks:        38987:10100 Do not advertise to Google (GGC) (AS15169)
+remarks:        38987:1010x Prepend x times [x=1..5] with AS38987 to Google (GGC) (AS15169)
+remarks:        38987:10120 Do not advertise to RETN (AS9002)
+remarks:        38987:1012x Prepend x times [x=1..5] with AS38987 to RETN (AS9002)
+remarks:        38987:10130 Do not advertise to EPIX Warszawa (AS48850)
+remarks:        38987:1013x Prepend x times [x=1..5] with AS38987 to EPIX Warszawa (AS48850)
+remarks:        -----------------------------------------------------------------
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+notify:         registry@ostnet.pl
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         OST-MNT
+mnt-routes:     OST-MNT
+created:        2005-11-23T16:17:55Z
+last-modified:  2018-07-17T07:06:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

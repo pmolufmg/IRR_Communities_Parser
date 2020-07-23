@@ -1,0 +1,50 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS20597
+as-name:       ELTEL-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS3216 action pref=100; accept ANY
+import:        from AS8402 action pref=100; accept AS-CORBINA
+import:        from AS13238 action pref=100; accept AS-YANDEX
+import:        from AS30968 action pref=100; accept AS-INFOBOX
+export:        to AS3216 announce AS-ELTEL
+export:        to AS8402 announce AS-ELTEL
+export:        to AS13238 announce AS-ELTEL
+export:        to AS30968 announce AS-ELTEL
+remarks:       -------------------------------
+remarks:       Communities sent to ebgp peers:
+remarks:       
+remarks:       20597:10000 - All uplinks
+remarks:       20597:10002 - Sovintel uplink
+remarks:       
+remarks:       20597:20597 - Direct peers
+remarks:       
+remarks:       20597:30000 - Customers
+remarks:       -------------------------------
+remarks:       Communities that may be accepted from ebgp peers
+remarks:       
+remarks:       20597:11000 - do not advertise to all uplinks
+remarks:       20597:11002 - do not advertise to Sovintel
+remarks:       
+remarks:       20597:11X00 - prepend to all peers X times
+remarks:       20597:11X02 - prepend to Sovintel X times
+remarks:       
+remarks:       X = 1, 2 or 5.
+remarks:       
+remarks:       Other communities ignored.
+remarks:       -------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        noc@spb.beeline.ru
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        ELTEL-RIPE-MNT
+source:        RIPE
+
+

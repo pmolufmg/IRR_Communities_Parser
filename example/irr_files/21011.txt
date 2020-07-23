@@ -1,0 +1,1532 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21004 - AS21151'
+
+as-block:       AS21004 - AS21151
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS21011'
+
+% Abuse contact for 'AS21011' is 'abuse@ip.datagroup.ua'
+
+aut-num:        AS21011
+as-name:        TOPNET
+org:            ORG-TL48-RIPE
+remarks:        TopNet, Kiev, Ukraine
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        Transits
+remarks:        ------------------------------------------------------------------------------------------
+import:         from AS5580  action pref=120; accept ANY # Hibernia Networks
+export:         to   AS5580  announce AS21011:AS-EXT
+import:         from AS3257  action pref=120; accept ANY # GTT
+export:         to   AS3257  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS3257 accept   ANY # GTT
+mp-export:      afi ipv6.unicast to   AS3257 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS5580 accept   ANY # Hibernia Networks
+mp-export:      afi ipv6.unicast to   AS5580 announce AS21011:AS-EXT
+import:         from AS21219  action  pref=120; accept ANY # Datagroup
+export:         to AS21219    announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS21219 accept   ANY # Datagroup
+mp-export:      afi ipv6.unicast to   AS21219 announce AS21011:AS-EXT
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        MSK-IX
+remarks:        ------------------------------------------------------------------------------------------
+import:         from AS8631  193.232.244.100    accept   AS-MSKROUTESERVER # RS1
+export:         to   AS8631  193.232.244.100    announce AS21011:AS-EXT
+import:         from AS8631  193.232.246.100    accept   AS-MSKROUTESERVER # RS2
+export:         to   AS8631  193.232.246.100    announce AS21011:AS-EXT
+import:         from AS3267  193.232.244.44     accept   AS-RUNNET # Runnet
+export:         to   AS3267  193.232.244.44     announce AS21011:AS-EXT
+import:         from AS8470  193.232.244.59     accept   AS-MACOMNET # Macomnet
+export:         to   AS8470  193.232.244.59     announce AS21011:AS-EXT
+import:         from AS8470  193.232.246.59     accept   AS-MACOMNET # Macomnet
+export:         to   AS8470  193.232.246.59     announce AS21011:AS-EXT
+import:         from AS21414 193.232.244.52     accept   AS-RCNET # Ruscomnet
+export:         to   AS21414 193.232.244.52     announce AS21011:AS-EXT
+import:         from AS21414 193.232.246.52     accept   AS-RCNET # Ruscomnet
+export:         to   AS21414 193.232.246.52     announce AS21011:AS-EXT
+import:         from AS48166 193.232.245.61     accept   AS-FORTEX # Fortex
+export:         to   AS48166 193.232.245.61     announce AS21011:AS-EXT
+import:         from AS48166 193.232.247.61     accept   AS-FORTEX # Fortex
+export:         to   AS48166 193.232.247.61     announce AS21011:AS-EXT
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        MSK-IX v6
+remarks:        ------------------------------------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS8631  2001:7F8:20:101::244:100 accept   AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to   AS8631  2001:7F8:20:101::244:100 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8631  2001:7F8:20:101::246:100 accept   AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to   AS8631  2001:7F8:20:101::246:100 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS21414 2001:7f8:20:101::244:52  accept   AS-RCNET-V6
+mp-export:      afi ipv6.unicast to   AS21414 2001:7f8:20:101::244:52  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS21414 2001:7f8:20:102::246:52  accept   AS-RCNET-V6
+mp-export:      afi ipv6.unicast to   AS21414 2001:7f8:20:102::246:52  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS48166 2001:7f8:20:101::245:61  accept   AS-FORTEX-IPV6
+mp-export:      afi ipv6.unicast to   AS48166 2001:7f8:20:101::245:61  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS48166 2001:7f8:20:102::247:61  accept   AS-FORTEX-IPV6
+mp-export:      afi ipv6.unicast to   AS48166 2001:7f8:20:102::247:61  announce AS21011:AS-EXT
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        Private peers
+remarks:        ------------------------------------------------------------------------------------------
+import:         from AS47764                   accept   AS-MAILRU # Mail.ru Corp
+export:         to   AS47764                   announce AS21011:AS-EXT
+import:         from AS12714                   accept   AS-TI # NetByNet
+export:         to   AS12714                   announce AS21011:AS-EXT
+import:         from AS31133                   accept   AS-MF-MGSM # MegaFon
+export:         to   AS31133                   announce AS21011:AS-EXT
+import:         from AS9049                    accept   AS-ERTH # CJSC ER-Telecom Holding
+export:         to   AS9049                    announce AS21011:AS-EXT
+import:         from AS49505                   accept   AS-SELECTEL # OOO Network of data-centers Selectel
+export:         to   AS49505                   announce AS21011:AS-EXT
+import:         from AS29076                   accept   AS-CITYTELECOM # Citytelecom
+export:         to   AS29076                   announce AS21011:AS-EXT
+import:         from AS8744                    accept   AS-WIMAX # Starttelecom
+export:         to   AS8744                    announce AS21011:AS-EXT
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        Private peers v6
+remarks:        ------------------------------------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS47764  accept   AS-MAILRU # Mail.ru Corp
+mp-export:      afi ipv6.unicast to   AS47764  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS9002   accept   AS-RETN6 # ReTN
+mp-export:      afi ipv6.unicast to   AS9002   announce AS21011:AS-EXT
+remarks:        -------------------------------------------------------------------------------------------
+remarks:        DE-CIX
+remarks:        -------------------------------------------------------------------------------------------
+import:         from AS6695   80.81.192.157      accept   AS-DECIX
+export:         to   AS6695   80.81.192.157      announce AS21011:AS-EXT # DE-CIX RS1
+export:         to   AS6695   80.81.193.157      announce AS21011:AS-EXT # DE-CIX RS2
+import:         from AS29208  80.81.192.217      accept   AS-DIALTELECOM # Dial Telecom
+export:         to   AS29208  80.81.192.217      announce AS21011:AS-EXT
+import:         from AS8966   80.81.192.228      accept   AS-EMIX # Emirates TelCo
+export:         to   AS8966   80.81.192.228      announce AS21011:AS-EXT
+import:         from AS8365   80.81.192.6        accept   AS-MANDA # Metropolitan Area Network
+export:         to   AS8365   80.81.192.6        announce AS21011:AS-EXT
+import:         from AS8365   80.81.193.6        accept   AS-MANDA # Metropolitan Area Network
+export:         to   AS8365   80.81.193.6        announce AS21011:AS-EXT
+import:         from AS12312  80.81.192.29       accept   AS-NACAMAR # nacamar GmbH
+export:         to   AS12312  80.81.192.29       announce AS21011:AS-EXT
+import:         from AS12312  80.81.193.29       accept   AS-NACAMAR # nacamar GmbH
+export:         to   AS12312  80.81.193.29       announce AS21011:AS-EXT
+import:         from AS15169  80.81.192.108      accept   AS-GOOGLE # Google
+export:         to   AS15169  80.81.192.108      announce AS21011:AS-EXT
+import:         from AS8972   80.81.193.21       accept   AS-BELLAXA # Bellaxa Networks
+export:         to   AS8972   80.81.193.21       announce AS21011:AS-EXT
+import:         from AS8586   80.81.192.34       accept   AS-REDNET # RedNet Ltd
+export:         to   AS8586   80.81.192.34       announce AS21011:AS-EXT
+import:         from AS34655  80.81.192.142      accept   AS-DOCLER # Docler Networks
+export:         to   AS34655  80.81.192.142      announce AS21011:AS-EXT
+import:         from AS20940  80.81.192.28       accept   AS-AKAMAI # Akamai Technologies AS
+export:         to   AS20940  80.81.192.28       announce AS21011:AS-EXT
+import:         from AS20940  80.81.192.168      accept   AS-AKAMAI # Akamai Technologies AS
+export:         to   AS20940  80.81.192.168      announce AS21011:AS-EXT
+import:         from AS8560   80.81.192.123      accept   AS-1AND1 # 1and1 Internet AG
+export:         to   AS8560   80.81.192.123      announce AS21011:AS-EXT
+import:         from AS8560   80.81.193.123      accept   AS-1AND1 # 1and1 Internet AG
+export:         to   AS8560   80.81.193.123      announce AS21011:AS-EXT
+import:         from AS42366  80.81.192.193      accept   AS-TERRATRANSIT # TerraTransit AG
+export:         to   AS42366  80.81.192.193      announce AS21011:AS-EXT
+import:         from AS41692  80.81.192.24       accept   AS-OPENCARRIER # OpenCarrier e.G.
+export:         to   AS41692  80.81.192.24       announce AS21011:AS-EXT
+import:         from AS6939   80.81.192.172      accept   AS-HURRICANE # Hurricane Electric
+export:         to   AS6939   80.81.192.172      announce AS21011:AS-EXT
+import:         from AS42     80.81.194.42       accept   AS-PCH # Packet Clearing House
+export:         to   AS42     80.81.194.42       announce AS21011:AS-EXT
+import:         from AS3856   80.81.195.42       accept   AS-PCH # Packet Clearing House
+export:         to   AS3856   80.81.195.42       announce AS21011:AS-EXT
+import:         from AS6805   80.81.193.89       accept   AS-TDDE # Telefonica Deutschland GmbH
+export:         to   AS6805   80.81.193.89       announce AS21011:AS-EXT
+import:         from AS6805   80.81.192.89       accept   AS-TDDE # Telefonica Deutschland GmbH
+export:         to   AS6805   80.81.192.89       announce AS21011:AS-EXT
+import:         from AS5588   80.81.192.81       accept   AS-GTS-CE # GTS Central Europe
+export:         to   AS5588   80.81.192.81       announce AS21011:AS-EXT
+import:         from AS21385  80.81.192.79       accept   AS-TNIB # Trusted Network GmbH
+export:         to   AS21385  80.81.192.79       announce AS21011:AS-EXT
+import:         from AS5605   80.81.192.17       accept   AS-NETUSE # NetUSE AG
+export:         to   AS5605   80.81.192.17       announce AS21011:AS-EXT
+import:         from AS8447   80.81.192.69       accept   AS-PTA # Telekom Austria TA AG
+export:         to   AS8447   80.81.192.69       announce AS21011:AS-EXT
+import:         from AS553    80.81.192.175      accept   AS-BELWUE # Belwue
+export:         to   AS553    80.81.192.175      announce AS21011:AS-EXT
+import:         from AS9063   80.81.192.100      accept   AS-SAARGATE # SaarGate ISP
+export:         to   AS9063   80.81.192.100      announce AS21011:AS-EXT
+import:         from AS9063   80.81.193.100      accept   AS-SAARGATE # SaarGate ISP
+export:         to   AS9063   80.81.193.100      announce AS21011:AS-EXT
+import:         from AS13030  80.81.192.67       accept   AS-INIT7 # init7
+export:         to   AS13030  80.81.192.67       announce AS21011:AS-EXT
+import:         from AS12308  80.81.192.189      accept   AS-IR # Iactive
+export:         to   AS12308  80.81.192.189      announce AS21011:AS-EXT
+import:         from AS22822  80.81.192.221      accept   AS22822 # Limelight Networks
+export:         to   AS22822  80.81.192.221      announce AS21011:AS-EXT
+import:         from AS22822  80.81.193.221      accept   AS22822 # Limelight Networks
+export:         to   AS22822  80.81.193.221      announce AS21011:AS-EXT
+import:         from AS19151  80.81.192.220      accept   AS-WVFIBER # WVFibe
+export:         to   AS19151  80.81.192.220      announce AS21011:AS-EXT
+import:         from AS12399  80.81.192.92       accept   AS-SPXS # ScanPlus GmbH
+export:         to   AS12399  80.81.192.92       announce AS21011:AS-EXT
+import:         from AS12399  80.81.193.92       accept   AS-SPXS # ScanPlus GmbH
+export:         to   AS12399  80.81.193.92       announce AS21011:AS-EXT
+import:         from AS44042  80.81.194.12       accept   AS-ROOT # root eSolutions
+export:         to   AS44042  80.81.194.12       announce AS21011:AS-EXT
+import:         from AS8972   80.81.193.21       accept   AS-PLUSSERVER # PlusServer
+export:         to   AS8972   80.81.193.21       announce AS21011:AS-EXT
+import:         from AS1267   80.81.192.215      accept   AS-INFOSTRADA # Wind/Infostrada
+export:         to   AS1267   80.81.192.215      announce AS21011:AS-EXT
+import:         from AS13101  80.81.192.83       accept   AS-TNG # TNG - THE NET
+export:         to   AS13101  80.81.192.83       announce AS21011:AS-EXT
+import:         from AS39912  80.81.192.116      accept   AS-I3B # Internetbreitband GmbH
+export:         to   AS39912  80.81.192.116      announce AS21011:AS-EXT
+import:         from AS12306  80.81.192.132      accept   AS-PLUSLINE # Plus.line AG
+export:         to   AS12306  80.81.192.132      announce AS21011:AS-EXT
+import:         from AS12306  80.81.193.132      accept   AS-PLUSLINE # Plus.line AG
+export:         to   AS12306  80.81.193.132      announce AS21011:AS-EXT
+import:         from AS12859  80.81.192.95       accept   AS-BIT # Bit BV
+export:         to   AS12859  80.81.192.95       announce AS21011:AS-EXT
+import:         from AS6724   80.81.192.110      accept   AS-STRATORZ # Strato Rechenzentrum AG
+export:         to   AS6724   80.81.192.110      announce AS21011:AS-EXT
+import:         from AS6724   80.81.193.110      accept   AS-STRATORZ # Strato Rechenzentrum AG
+export:         to   AS6724   80.81.193.110      announce AS21011:AS-EXT
+import:         from AS12989  80.81.192.224      accept   AS12989 # NightWinds
+export:         to   AS12989  80.81.192.224      announce AS21011:AS-EXT
+import:         from AS15598  80.81.192.32       accept   AS-IPX # IP Exchange GmbH
+export:         to   AS15598  80.81.192.32       announce AS21011:AS-EXT
+import:         from AS15598  80.81.193.32       accept   AS-IPX # IP Exchange GmbH
+export:         to   AS15598  80.81.193.32       announce AS21011:AS-EXT
+import:         from AS12611  80.81.192.52       accept   AS-RKOM # R-KOM GmbH
+export:         to   AS12611  80.81.192.52       announce AS21011:AS-EXT
+import:         from AS6667   80.81.192.144      accept   AS-EUNETIP RS-EUNETIP # Elisa Plc
+export:         to   AS6667   80.81.192.144      announce AS21011:AS-EXT
+import:         from AS12713  80.81.192.207      accept   AS-OTEGLOBE # 0teglobe
+export:         to   AS12713  80.81.192.207      announce AS21011:AS-EXT
+import:         from AS9119   80.81.192.99       accept   AS-SOFTNET # SoftNet
+export:         to   AS9119   80.81.192.99       announce AS21011:AS-EXT
+import:         from AS36408  80.81.192.65       accept   AS-PANTHER # Pantherexpress
+export:         to   AS36408  80.81.192.65       announce AS21011:AS-EXT
+import:         from AS13285  80.81.192.104      accept   AS-OPAL # Opal
+export:         to   AS13285  80.81.192.104      announce AS21011:AS-EXT
+import:         from AS15830  80.81.192.103      accept   AS-TELECITYLON # TeleCity
+export:         to   AS15830  80.81.192.103      announce AS21011:AS-EXT
+import:         from AS24724  80.81.192.227      accept   AS24724:AS-FOREIGN # ATM S.A.
+export:         to   AS24724  80.81.192.227      announce AS21011:AS-EXT
+import:         from AS8582   80.81.194.21       accept   AS8582 # News-Service Europe
+export:         to   AS8582   80.81.194.21       announce AS21011:AS-EXT
+import:         from AS5430   80.81.192.49       accept   AS-FREENETDE # FreeNet De
+export:         to   AS5430   80.81.192.49       announce AS21011:AS-TO-DECIX
+import:         from AS5430   80.81.193.49       accept   AS-FREENETDE # FreeNet De
+export:         to   AS5430   80.81.193.49       announce AS21011:AS-TO-DECIX
+import:         from AS16276  80.81.192.209      accept   AS-OVH # OVH
+export:         to   AS16276  80.81.192.209      announce AS21011:AS-EXT
+import:         from AS5089   80.81.192.5        accept   AS-NTLI # Virgin Media
+export:         to   AS5089   80.81.192.5        announce AS21011:AS-EXT
+import:         from AS34309  80.81.192.218      accept   AS-LINK11 # Link1.de
+export:         to   AS34309  80.81.192.218      announce AS21011:AS-EXT
+import:         from AS8879   80.81.192.149      accept   AS-DTS # DTS-Systeme
+export:         to   AS8879   80.81.192.149      announce AS21011:AS-EXT
+import:         from AS24739  80.81.194.23       accept   AS-SEVEREN-TELECOM # Severen Telecom
+export:         to   AS24739  80.81.194.23       announce AS21011:AS-EXT
+import:         from AS9505   80.81.192.231      accept   AS-TWIG # ChungHwa Telecom
+export:         to   AS9505   80.81.192.231      announce AS21011:AS-EXT
+import:         from AS31500  80.81.192.159      accept   AS-GLOBAL-NET # Electron Telecom
+export:         to   AS31500  80.81.192.159      announce AS21011:AS-EXT
+import:         from AS8648   80.81.192.42       accept   AS-KAMP # KAMP Netzwerkdienste
+export:         to   AS8648   80.81.192.42       announce AS21011:AS-EXT
+import:         from AS36408  80.81.194.4        accept   AS-CDNETWORKS-EU # CDNetworks Co
+export:         to   AS36408  80.81.194.4        announce AS21011:AS-EXT
+import:         from AS8468   80.81.192.238      accept   AS-ENTANET # Entanet
+export:         to   AS8468   80.81.192.238      announce AS21011:AS-EXT
+import:         from AS3248   80.81.192.85       accept   AS-SILAT # Silverserver
+export:         to   AS3248   80.81.192.85       announce AS21011:AS-EXT
+import:         from AS44066  80.81.194.3        accept   AS-FIRSTCOLO # First-Colo GmbH
+export:         to   AS44066  80.81.194.3        announce AS21011:AS-EXT
+import:         from AS9145   80.81.192.247      accept   AS-EWETEL # EWE TEL GmbH
+export:         to   AS9145   80.81.192.247      announce AS21011:AS-EXT
+import:         from AS12714  80.81.194.19       accept   AS-TI # netbynet
+export:         to   AS12714  80.81.194.19       announce AS21011:AS-EXT
+import:         from AS8763   80.81.192.37       accept   AS-DENIC # DENIC eG
+export:         to   AS8763   80.81.192.37       announce AS21011:AS-EXT
+import:         from AS8763   80.81.193.37       accept   AS-DENIC # DENIC eG
+export:         to   AS8763   80.81.193.37       announce AS21011:AS-EXT
+import:         from AS31529  80.81.192.176      accept   AS31529 # DENIC eG
+export:         to   AS31529  80.81.192.176      announce AS21011:AS-EXT
+import:         from AS8319   80.81.193.94       accept   AS-IXNETHINKS # NETHINKS
+export:         to   AS8319   80.81.193.94       announce AS21011:AS-EXT
+import:         from AS8442   80.81.192.235      accept   AS-DIG # DIG Digitale
+export:         to   AS8442   80.81.192.235      announce AS21011:AS-EXT
+import:         from AS24963  80.81.192.143      accept   AS-YACAST # Yacast Media
+export:         to   AS24963  80.81.192.143      announce AS21011:AS-EXT
+import:         from AS8422   80.81.192.212      accept   AS-NETCOLOGNE # Netcologne.de
+export:         to   AS8422   80.81.192.212      announce AS21011:AS-EXT
+import:         from AS8422   80.81.193.212      accept   AS-NETCOLOGNE # Netcologne.de
+export:         to   AS8422   80.81.193.212      announce AS21011:AS-EXT
+import:         from AS2857   80.81.192.8        accept   AS-RLP-NET # Universitaet Mainz
+export:         to   AS2857   80.81.192.8        announce AS21011:AS-EXT
+import:         from AS8359   80.81.192.78       accept   AS-MTU # Comstar
+export:         to   AS8359   80.81.192.78       announce AS21011:AS-EXT
+import:         from AS8359   80.81.193.78       accept   AS-MTU # Comstar
+export:         to   AS8359   80.81.193.78       announce AS21011:AS-EXT
+import:         from AS23148  80.81.192.190      accept   AS-TWW # Terremark.com
+export:         to   AS23148  80.81.192.190      announce AS21011:AS-EXT
+import:         from AS2818   80.81.192.59       accept   AS-BBC # BBC
+export:         to   AS2818   80.81.192.59       announce AS21011:AS-EXT
+import:         from AS8781   80.81.194.11       accept   AS-QTEL # Qatar Telecom
+export:         to   AS8781   80.81.194.11       announce AS21011:AS-EXT
+import:         from AS8717   80.81.192.229      accept   AS-SPNET # Spectrum Net Jsc
+export:         to   AS8717   80.81.192.229      announce AS21011:AS-EXT
+import:         from AS16097  80.81.192.91       accept   AS-HLKOMM # HL komm
+export:         to   AS16097  80.81.192.91       announce AS21011:AS-EXT
+import:         from AS47195  80.81.194.16       accept   AS-GAMEFORGE # aixit
+export:         to   AS47195  80.81.194.16       announce AS21011:AS-EXT
+import:         from AS16265  80.81.192.246      accept   AS-LEASEWEB # LeaseWeb
+export:         to   AS16265  80.81.192.246      announce AS21011:AS-EXT
+import:         from AS16265  80.81.193.246      accept   AS-LEASEWEB # LeaseWeb
+export:         to   AS16265  80.81.193.246      announce AS21011:AS-EXT
+import:         from AS8492   80.81.192.56       accept   AS-OBIT # OBIT
+export:         to   AS8492   80.81.192.56       announce AS21011:AS-EXT
+import:         from AS28753  80.81.192.147      accept   AS-NETDIRECT # Netdirekt.de
+export:         to   AS28753  80.81.192.147      announce AS21011:AS-EXT
+import:         from AS33891  80.81.192.187      accept   AS-CORE-BACKBONE # Core-backbone
+export:         to   AS33891  80.81.192.187      announce AS21011:AS-EXT
+import:         from AS33891  80.81.193.187      accept   AS-CORE-BACKBONE # Core-backbone
+export:         to   AS33891  80.81.193.187      announce AS21011:AS-EXT
+import:         from AS15444  80.81.192.71       accept   AS-NETSERVICES # Netservices
+export:         to   AS15444  80.81.192.71       announce AS21011:AS-EXT
+import:         from AS25074  80.81.192.200      accept   AS-INETBONE # Inetbone
+export:         to   AS25074  80.81.192.200      announce AS21011:AS-EXT
+import:         from AS20504  80.81.192.171      accept   AS-RTL # RTL
+export:         to   AS20504  80.81.192.171      announce AS21011:AS-EXT
+import:         from AS20504  80.81.193.171      accept   AS-RTL # RTL
+export:         to   AS20504  80.81.193.171      announce AS21011:AS-EXT
+import:         from AS32934  80.81.194.40       accept   AS32934 # Facebook, Inc
+export:         to   AS32934  80.81.194.40       announce AS21011:AS-EXT
+import:         from AS3249   80.81.192.197      accept   AS-ESTPAK # Elion Enterprises
+export:         to   AS3249   80.81.192.197      announce AS21011:AS-EXT
+import:         from AS3209   80.81.192.117      accept   AS-ARCOR # Arcor AG
+export:         to   AS3209   80.81.192.117      announce AS21011:AS-EXT
+import:         from AS3209   80.81.193.117      accept   AS-ARCOR # Arcor AG
+export:         to   AS3209   80.81.193.117      announce AS21011:AS-EXT
+import:         from AS42416  80.81.192.179      accept   AS-COMNET # Comnet international
+export:         to   AS42416  80.81.192.179      announce AS21011:AS-EXT
+import:         from AS12322  80.81.192.223      accept   AS-PROXAD # Proxad
+export:         to   AS12322  80.81.192.223      announce AS21011:AS-EXT
+import:         from AS6661   80.81.192.204      accept   AS-PTLU # P&T Luxembourg
+export:         to   AS6661   80.81.192.204      announce AS21011:AS-EXT
+import:         from AS3303   80.81.192.183      accept   AS-SWCMGLOBAL # IP-Plus Internet
+export:         to   AS3303   80.81.192.183      announce AS21011:AS-EXT
+import:         from AS3303   80.81.193.183      accept   AS-SWCMGLOBAL # IP-Plus Internet
+export:         to   AS3303   80.81.193.183      announce AS21011:AS-EXT
+import:         from AS31400  80.81.194.50       accept   AS-ACCELERATED # Accelerated IT
+export:         to   AS31400  80.81.194.50       announce AS21011:AS-EXT
+import:         from AS20495  80.81.192.122      accept   AS-WEDARE # We Dare BV
+export:         to   AS20495  80.81.192.122      announce AS21011:AS-EXT
+import:         from AS25286  80.81.192.202      accept   AS-IPERCAST # Ipercast
+export:         to   AS25286  80.81.192.202      announce AS21011:AS-EXT
+import:         from AS36622  80.81.192.245      accept   AS-GTLD # Verisign
+export:         to   AS36622  80.81.192.245      announce AS21011:AS-EXT
+import:         from AS12041  80.81.194.2        accept   AS12041:AS-AFILIAS # Afilias
+export:         to   AS12041  80.81.194.2        announce AS21011:AS-EXT
+import:         from AS48268  80.81.194.36       accept   AS-INTERFIBER # UPL Telecom
+export:         to   AS48268  80.81.194.36       announce AS21011:AS-EXT
+import:         from AS31025  80.81.194.46       accept   AS-IAG # IAG Peering GbR
+export:         to   AS31025  80.81.194.46       announce AS21011:AS-EXT
+import:         from AS20764  80.81.192.166      accept   AS-RASCOM # Rascom
+export:         to   AS20764  80.81.192.166      announce AS21011:AS-EXT
+import:         from AS30751  80.81.194.44       accept   AS-EUROTEL # Eurotel
+export:         to   AS30751  80.81.194.44       announce AS21011:AS-EXT
+import:         from AS5580   80.81.194.66       accept   AS-ATRATO # Atratoip
+export:         to   AS5580   80.81.194.66       announce AS21011:AS-EXT
+import:         from AS34224  80.81.192.77       accept   AS-NETERRA-BG # Neterra Ltd.
+export:         to   AS34224  80.81.192.77       announce AS21011:AS-EXT
+import:         from AS9116   80.81.194.65       accept   AS-GOLDEN # 012 Smile
+export:         to   AS9116   80.81.194.65       announce AS21011:AS-EXT
+import:         from AS1764   80.81.194.56       accept   AS-NEXTLAYER # Nextlayer
+export:         to   AS1764   80.81.194.56       announce AS21011:AS-EXT
+import:         from AS5577   80.81.194.12       accept   AS-ROOT # root eSolutions
+export:         to   AS5577   80.81.194.12       announce AS21011:AS-EXT
+import:         from AS8551   80.81.192.191      accept   AS-BEZEQINT # Bezeq International Ltd.
+export:         to   AS8551   80.81.192.191      announce AS21011:AS-EXT
+import:         from AS8551   80.81.193.191      accept   AS-BEZEQINT # Bezeq International Ltd.
+export:         to   AS8551   80.81.193.191      announce AS21011:AS-EXT
+import:         from AS6854   80.81.194.73       accept   AS-SYNTERRA # Synterra
+export:         to   AS6854   80.81.194.73       announce AS21011:AS-EXT
+import:         from AS4788   80.81.194.24       accept   AS-TMNET-CUSTOMERS # JMNOC IPCore
+export:         to   AS4788   80.81.194.24       announce AS21011:AS-EXT
+import:         from AS50384  80.81.194.83       accept   AS-W-IX # W-IX LTD
+export:         to   AS50384  80.81.194.83       announce AS21011:AS-EXT
+import:         from AS28917  80.81.194.28       accept   AS-FIORD # Fiord.ru
+export:         to   AS28917  80.81.194.28       announce AS21011:AS-EXT
+import:         from AS47869  80.81.192.7        accept   AS-NETROUTING # Netrouting
+export:         to   AS47869  80.81.192.7        announce AS21011:AS-EXT
+import:         from AS47869  80.81.193.7        accept   AS-NETROUTING # Netrouting
+export:         to   AS47869  80.81.193.7        announce AS21011:AS-EXT
+import:         from AS8708   80.81.194.91       accept   AS-RDSNET # Rdsnet
+export:         to   AS8708   80.81.194.91       announce AS21011:AS-EXT
+import:         from AS20676  80.81.192.41       accept   AS-QSC # QSC AG
+export:         to   AS20676  80.81.192.41       announce AS21011:AS-EXT
+import:         from AS49544  80.81.194.107      accept   AS-INTERACTIVE3D # Interactive 3D
+export:         to   AS49544  80.81.194.107      announce AS21011:AS-EXT
+import:         from AS8596   80.81.194.102      accept   AS-HOTZE # HOTZE hotze.com GmbH
+export:         to   AS8596   80.81.194.102      announce AS21011:AS-EXT
+import:         from AS41552  80.81.194.125      accept   AS-ECG # Marktplaats AS
+export:         to   AS41552  80.81.194.125      announce AS21011:AS-EXT
+import:         from AS16150  80.81.194.114      accept   AS-CUSTOMERS # Availo Networks / Port80
+export:         to   AS16150  80.81.194.114      announce AS21011:AS-EXT
+import:         from AS8781   80.81.194.11       accept   AS-QTEL-SET # Qatar Telecom
+export:         to   AS8781   80.81.194.11       announce AS21011:AS-EXT
+import:         from AS1248   80.81.194.17       accept   AS-NOK # Nokia Corporation
+export:         to   AS1248   80.81.194.17       announce AS21011:AS-EXT
+import:         from AS197612 80.81.194.219      accept   AS-LINKEDIN # Linkedin
+export:         to   AS197612 80.81.194.219      announce AS21011:AS-EXT
+import:         from AS12327  80.81.194.216      accept   AS-IDEAR4BUSINESS # idear4business interantional LTD
+export:         to   AS12327  80.81.194.216      announce AS21011:AS-EXT
+import:         from AS9009   80.81.192.165      accept   AS-GBXS # M247 Ltd
+export:         to   AS9009   80.81.192.165      announce AS21011:AS-EXT
+import:         from AS6730   80.81.192.141      accept   AS-GLOBAL # TDC Switzerland AG
+export:         to   AS6730   80.81.192.141      announce AS21011:AS-EXT
+import:         from AS25180  80.81.194.187      accept   AS25180 # Exponential-e Ltd
+export:         to   AS25180  80.81.194.187      announce AS21011:AS-EXT
+import:         from AS8426   80.81.192.86       accept   AS-CLARANET # Claranet UK Ltd
+export:         to   AS8426   80.81.192.86       announce AS21011:AS-EXT
+import:         from AS8426   80.81.193.86       accept   AS-CLARANET # Claranet UK Ltd
+export:         to   AS8426   80.81.193.86       announce AS21011:AS-EXT
+remarks:        -------------------------------------------------------------------------------------------
+remarks:        DE-CIX v6
+remarks:        -------------------------------------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS6695  2001:7F8::1A27:5051:C09D accept   AS-DECIX-V6
+mp-export:      afi ipv6.unicast to   AS6695  2001:7F8::1A27:5051:C09D announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6695  2001:7F8::1A27:5051:C19D accept   AS-DECIX-V6
+mp-export:      afi ipv6.unicast to   AS6695  2001:7F8::1A27:5051:C19D announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS29208 2001:7F8::7218:0:1 accept   AS-DIALTELECOM # Dialtelecom
+mp-export:      afi ipv6.unicast to   AS29208 2001:7F8::7218:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8365  2001:7F8::20AD:0:1 accept   AS-MANDA # Manda
+mp-export:      afi ipv6.unicast to   AS8365  2001:7F8::20AD:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8365  2001:7F8::20AD:0:2 accept   AS-MANDA # Manda
+mp-export:      afi ipv6.unicast to   AS8365  2001:7F8::20AD:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12312 2001:7F8::3018:0:2 accept   AS-NACAMAR # Nacamar
+mp-export:      afi ipv6.unicast to   AS12312 2001:7F8::3018:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8560  2001:7F8::2170:0:1 accept   AS-1AND1 # 1and1 Internet AG
+mp-export:      afi ipv6.unicast to   AS8560  2001:7F8::2170:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8560  2001:7F8::2170:0:2 accept   AS-1AND1 # 1and1 Internet AG
+mp-export:      afi ipv6.unicast to   AS8560  2001:7F8::2170:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS41692 2001:7F8::A2DC:0:1 accept   AS-OPENCARRIER6 # OpenCarrier
+mp-export:      afi ipv6.unicast to   AS41692 2001:7F8::A2DC:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6939  2001:7F8::1B1B:0:1 action pref=110; accept ANY # Hurricane
+mp-export:      afi ipv6.unicast to   AS6939  2001:7F8::1B1B:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS21385 2001:7F8::5389:0:1 accept   AS-TNIB # TNiB
+mp-export:      afi ipv6.unicast to   AS21385 2001:7F8::5389:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS553   2001:7F8::229:0:1  accept   AS-BELWUE # BELWUE
+mp-export:      afi ipv6.unicast to   AS553   2001:7F8::229:0:1  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS13030 2001:7F8::32E6:0:1 accept   AS-INIT7 # init7
+mp-export:      afi ipv6.unicast to   AS13030 2001:7F8::32E6:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS19151 2001:7F8::4ACF:0:1 accept   AS-WVFIBER # WVFiber
+mp-export:      afi ipv6.unicast to   AS19151 2001:7F8::4ACF:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS44042 2001:7F8::AC0A:0:1 accept   AS-ROOT # root eSolutions
+mp-export:      afi ipv6.unicast to   AS44042 2001:7F8::AC0A:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS39912 2001:7F8::9BE8:0:1 accept   AS-I3B # Internetbreitband GmbH
+mp-export:      afi ipv6.unicast to   AS39912 2001:7F8::9BE8:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12306 2001:7F8::3012:0:1 accept   AS-PLUSLINE6 # Plus.line AG
+mp-export:      afi ipv6.unicast to   AS12306 2001:7F8::3012:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12306 2001:7F8::3012:0:2 accept   AS-PLUSLINE6 # Plus.line AG
+mp-export:      afi ipv6.unicast to   AS12306 2001:7F8::3012:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12859 2001:7F8::323B:0:1 accept   AS-BIT6 # Bit BV
+mp-export:      afi ipv6.unicast to   AS12859 2001:7F8::323B:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6724  2001:7F8::1A44:0:1 accept   AS-STRATORZ # Strato Rechenzentrum AG
+mp-export:      afi ipv6.unicast to   AS6724  2001:7F8::1A44:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6724  2001:7F8::1A44:0:2 accept   AS-STRATORZ # Strato Rechenzentrum AG
+mp-export:      afi ipv6.unicast to   AS6724  2001:7F8::1A44:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12989 2001:7F8::32BD:0:1 accept   AS12989 # NightWinds
+mp-export:      afi ipv6.unicast to   AS12989 2001:7F8::32BD:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS15598 2001:7F8::3CEE:0:1 accept   AS-IPX-6 # IP Exchange GmbH
+mp-export:      afi ipv6.unicast to   AS15598 2001:7F8::3CEE:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS15598 2001:7F8::3CEE:0:2 accept   AS-IPX-6 # IP Exchange GmbH
+mp-export:      afi ipv6.unicast to   AS15598 2001:7F8::3CEE:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12611 2001:7F8::3143:0:1 accept   AS-RKOM # R-KOM GmbH
+mp-export:      afi ipv6.unicast to   AS12611 2001:7F8::3143:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6667  2001:7F8::1A0B:0:1 accept   AS-EUNETIP RS-EUNETIP
+mp-export:      afi ipv6.unicast to   AS6667  2001:7F8::1A0B:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS24724 2001:7F8::6094:0:1 accept   AS24724:AS-FOREIGN # ATM S.A.
+mp-export:      afi ipv6.unicast to   AS24724 2001:7F8::6094:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS5430  2001:7F8::1536:0:1 accept   AS-FREENETDE6 # FreeNet De
+mp-export:      afi ipv6.unicast to   AS5430  2001:7F8::1536:0:1 announce AS21011:AS-TO-DECIX
+mp-import:      afi ipv6.unicast from AS5430  2001:7F8::1536:0:2 accept   AS-FREENETDE6 # FreeNet De
+mp-export:      afi ipv6.unicast to   AS5430  2001:7F8::1536:0:2 announce AS21011:AS-TO-DECIX
+mp-import:      afi ipv6.unicast from AS34309 2001:7F8::8605:0:1 accept   AS-LINK11-V6 # Link1.de
+mp-export:      afi ipv6.unicast to   AS34309 2001:7F8::8605:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS25286 2001:7F8::62C6:0:1 accept   AS-IPERCAST # IPERCAST
+mp-export:      afi ipv6.unicast to   AS25286 2001:7F8::62C6:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8468  2001:7F8::2114:0:1 accept   AS-ENTANET # Entanet
+mp-export:      afi ipv6.unicast to   AS8468  2001:7F8::2114:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS3248  2001:7F8::CB0:0:1  accept   AS-SILAT-V6 # Silverserver
+mp-export:      afi ipv6.unicast to   AS3248  2001:7F8::CB0:0:1  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8763  2001:7F8::223B:0:1 accept   AS-DENIC # DENIC eG
+mp-export:      afi ipv6.unicast to   AS8763  2001:7F8::223B:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8763  2001:7F8::223B:0:2 accept   AS-DENIC # DENIC eG
+mp-export:      afi ipv6.unicast to   AS8763  2001:7F8::223B:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS31529 2001:7F8::7B29:0:1 accept   AS31529 # DENIC eG
+mp-export:      afi ipv6.unicast to   AS31529 2001:7F8::7B29:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8319  2001:7F8::207F:0:1 accept   AS-NETHINKS-V6 # NETHINKS
+mp-export:      afi ipv6.unicast to   AS8319  2001:7F8::207F:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8442  2001:7F8::20FA:0:1 accept   AS-DIG-IPV6 # DIG Digitale
+mp-export:      afi ipv6.unicast to   AS8442  2001:7F8::20FA:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8422  2001:7F8::20E6:0:2 accept   AS-NETCOLOGNE-V6 # Netcologne.de
+mp-export:      afi ipv6.unicast to   AS8422  2001:7F8::20E6:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8422  2001:7F8::20E6:0:2 accept   AS-NETCOLOGNE-V6 # Netcologne.de
+mp-export:      afi ipv6.unicast to   AS8422  2001:7F8::20E6:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS2857  2001:7F8::B29:0:1  accept   AS-RLP-NET # Universitaet Mainz
+mp-export:      afi ipv6.unicast to   AS2857  2001:7F8::B29:0:1  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8359  2001:7F8::20A7:0:1 accept   AS-MTU # Comstar
+mp-export:      afi ipv6.unicast to   AS8359  2001:7F8::20A7:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8359  2001:7F8::20A7:0:2 accept   AS-MTU # Comstar
+mp-export:      afi ipv6.unicast to   AS8359  2001:7F8::20A7:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8781  2001:7F8::224D:0:1 accept   AS-QTEL # Qatar Telecom
+mp-export:      afi ipv6.unicast to   AS8781  2001:7F8::224D:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8717  2001:7F8::220D:0:1 accept   AS-SPNET # Spectrum Net Jsc
+mp-export:      afi ipv6.unicast to   AS8717  2001:7F8::220D:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS16097 2001:7F8::3EE1:0:1 accept   AS-HLKOMM # HL komm
+mp-export:      afi ipv6.unicast to   AS16097 2001:7F8::3EE1:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS16265 2001:7F8::3F89:0:1 accept   AS-LEASEWEB # LeaseWeb
+mp-export:      afi ipv6.unicast to   AS16265 2001:7F8::3F89:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS16265 2001:7F8::3F89:0:2 accept   AS-LEASEWEB # LeaseWeb
+mp-export:      afi ipv6.unicast to   AS16265 2001:7F8::3F89:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS33891 2001:7F8::8463:0:1 accept   AS-CORE-BACKBONE # Core-backbone
+mp-export:      afi ipv6.unicast to   AS33891 2001:7F8::8463:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS33891 2001:7F8::8463:0:2 accept   AS-CORE-BACKBONE # Core-backbone
+mp-export:      afi ipv6.unicast to   AS33891 2001:7F8::8463:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS15444 2001:7F8::3C54:0:1 accept   AS-NETSERVICES # Netservices
+mp-export:      afi ipv6.unicast to   AS15444 2001:7F8::3C54:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS3249  2001:7F8::CB1:0:1  accept   AS-ESTPAK # Elion Enterprises
+mp-export:      afi ipv6.unicast to   AS3249  2001:7F8::CB1:0:1  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12322 2001:7F8::3022:0:1 accept   AS-PROXAD # Proxad
+mp-export:      afi ipv6.unicast to   AS12322 2001:7F8::3022:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS3303  2001:7F8::CE7:0:1  accept   AS-SWCMGLOBAL # IP-Plus Internet
+mp-export:      afi ipv6.unicast to   AS3303  2001:7F8::CE7:0:1  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12041 2001:7F8::2F09:0:1 accept   AS12041:AS-AFILIAS # Afilias
+mp-export:      afi ipv6.unicast to   AS12041 2001:7F8::2F09:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS5580  2001:7F8::15CC:0:1 accept   AS-ATRATO6 # Atratoip
+mp-export:      afi ipv6.unicast to   AS5580  2001:7F8::15CC:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS1764  2001:7F8::6E4:0:1  accept   AS-NEXTLAYER-V6 # Nextlayer
+mp-export:      afi ipv6.unicast to   AS1764  2001:7F8::6E4:0:1  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS5577  2001:7F8::15C9:0:1 accept   AS-ROOT # root eSolutions
+mp-export:      afi ipv6.unicast to   AS5577  2001:7F8::15C9:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8551  2001:7F8::2167:0:1 accept   AS-BEZEQINT # Bezeq International Ltd.
+mp-export:      afi ipv6.unicast to   AS8551  2001:7F8::2167:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8551  2001:7F8::2167:0:2 accept   AS-BEZEQINT # Bezeq International Ltd.
+mp-export:      afi ipv6.unicast to   AS8551  2001:7F8::2167:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS50384 2001:7f8::c4d0:0:1 accept   AS-W-IX-IPVSIX # W-IX LTD
+mp-export:      afi ipv6.unicast to   AS50384 2001:7f8::c4d0:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8075  2001:7f8::1f8b:0:1 accept   AS-MICROSOFT # Microsoft-V6
+mp-export:      afi ipv6.unicast to   AS8075  2001:7f8::1f8b:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8767  2001:7f8::223f:0:1 accept   AS-MNETDE # M-net Telekommunikations GmbH
+mp-export:      afi ipv6.unicast to   AS8767  2001:7f8::223f:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8767  2001:7f8::223f:0:2 accept   AS-MNETDE # M-net Telekommunikations GmbH
+mp-export:      afi ipv6.unicast to   AS8767  2001:7f8::223f:0:2 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8708  2001:7F8::2204:0:1 accept   AS-RDSNET # Rdsnet
+mp-export:      afi ipv6.unicast to   AS8708  2001:7F8::2204:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS20676 2001:7F8::50C4:0:1 accept   AS-QSC # QSC AG
+mp-export:      afi ipv6.unicast to   AS20676 2001:7F8::50C4:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS49544 2001:7f8::c188:0:1 accept   AS-INTERACTIVE3D # Interactive 3D
+mp-export:      afi ipv6.unicast to   AS49544 2001:7f8::c188:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8596  2001:7f8::2194:0:1 accept   AS-HOTZE-V6 # HOTZE hotze.com GmbH
+mp-export:      afi ipv6.unicast to   AS8596  2001:7f8::2194:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS41552 2001:7F8::A250:0:1 accept   AS-ECG # Marktplaats AS
+mp-export:      afi ipv6.unicast to   AS41552 2001:7F8::A250:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS16150 2001:7f8::3f16:0:1 accept   AS-CUSTOMERS # Availo Networks / Port80
+mp-export:      afi ipv6.unicast to   AS16150 2001:7f8::3f16:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8781  2001:7f8::224d:0:1 accept   AS-QTEL-SET # Qatar Telecom
+mp-export:      afi ipv6.unicast to   AS8781  2001:7f8::224d:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS1248  2001:7f8::4e0:0:1  accept   AS-NOK # Nokia Corporation
+mp-export:      afi ipv6.unicast to   AS1248  2001:7f8::4e0:0:1  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12327 2001:7f8::3027:0:1 accept   AS-IDEAR4BUSINESSV6 # idear4business interantional LTD
+mp-export:      afi ipv6.unicast to   AS12327 2001:7f8::3027:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS9009  2001:7f8::3027:0:1 accept   AS-GBXS6 # M247 Ltd
+mp-export:      afi ipv6.unicast to   AS9009  2001:7f8::3027:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6730  2001:7f8::1a4a:0:1 accept   AS-GLOBAL # TDC Switzerland AG
+mp-export:      afi ipv6.unicast to   AS6730  2001:7f8::1a4a:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS25180 2001:7f8::625c:0:1 accept   AS25180 # Exponential-e Ltd
+mp-export:      afi ipv6.unicast to   AS25180 2001:7f8::625c:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8426  2001:7F8::20EA:0:1 accept   AS-CLARANET # Claranet UK Ltd
+mp-export:      afi ipv6.unicast to   AS8426  2001:7F8::20EA:0:1 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8426  2001:7F8::20EA:0:2 accept   AS-CLARANET # Claranet UK Ltd
+mp-export:      afi ipv6.unicast to   AS8426  2001:7F8::20EA:0:2 announce AS21011:AS-EXT
+remarks:        -------------------------------------------------------------------------------------------
+remarks:        AMS-IX
+remarks:        -------------------------------------------------------------------------------------------
+import:         from AS1200   195.69.144.1      accept   AS1200 # AMS-IX Peering AS
+export:         to   AS1200   195.69.144.1      announce AS21011:AS-EXT
+import:         from AS1200   195.69.145.1      accept   AS1200 # AMS-IX Peering AS
+export:         to   AS1200   195.69.145.1      announce AS21011:AS-EXT
+import:         from AS6777   195.69.144.255    accept   AS-AMS-IX-RS # AMS-IX RS1
+export:         to   AS6777   195.69.144.255    announce AS21011:AS-EXT
+import:         from AS6777   195.69.145.0      accept   AS-AMS-IX-RS # AMS-IX RS2
+export:         to   AS6777   195.69.145.0      announce AS21011:AS-EXT
+import:         from AS41692  195.69.145.221    accept   AS-OPENCARRIER # Opencarrier
+export:         to   AS41692  195.69.145.221    announce AS21011:AS-EXT
+import:         from AS29073  195.69.145.224    accept   AS-ECATEL # Ecatel
+export:         to   AS29073  195.69.145.224    announce AS21011:AS-EXT
+import:         from AS6939   195.69.145.150    accept   AS-HURRICANE # Hurricane
+export:         to   AS6939   195.69.145.150    announce AS21011:AS-EXT
+import:         from AS6805   195.69.144.91     accept   AS-TDDE # Telefonica
+export:         to   AS6805   195.69.144.91     announce AS21011:AS-EXT
+import:         from AS6805   195.69.144.199    accept   AS-TDDE # Telefonica
+export:         to   AS6805   195.69.144.199    announce AS21011:AS-EXT
+import:         from AS5588   195.69.145.185    accept   AS-GTS-CE # GTS
+export:         to   AS5588   195.69.145.185    announce AS21011:AS-EXT
+import:         from AS8447   195.69.145.207    accept   AS-PTA # Telekom Austria TA AG
+export:         to   AS8447   195.69.145.207    announce AS21011:AS-EXT
+import:         from AS19151  195.69.145.58     accept   AS-WVFIBER # WVFiber
+export:         to   AS19151  195.69.145.58     announce AS21011:AS-EXT
+import:         from AS22822  195.69.145.133    accept   AS22822 # Limelight Networks
+export:         to   AS22822  195.69.145.133    announce AS21011:AS-EXT
+import:         from AS8586   195.69.144.132    accept   AS-REDNET # RedNet
+export:         to   AS8586   195.69.144.132    announce AS21011:AS-EXT
+import:         from AS12399  195.69.145.99     accept   AS-SPXS # ScanPlus GmbH
+export:         to   AS12399  195.69.145.99     announce AS21011:AS-EXT
+import:         from AS1267   195.69.145.236    accept   AS-INFOSTRADA # Wind/Infostrada
+export:         to   AS1267   195.69.145.236    announce AS21011:AS-EXT
+import:         from AS13101  195.69.145.119    accept   AS-TNG # TNG - THE NET
+export:         to   AS13101  195.69.145.119    announce AS21011:AS-EXT
+import:         from AS12306  195.69.144.161    accept   AS-PLUSLINE # Plus.line AG
+export:         to   AS12306  195.69.144.161    announce AS21011:AS-EXT
+import:         from AS12859  195.69.144.35     accept   AS-BIT # Bit BV
+export:         to   AS12859  195.69.144.35     announce AS21011:AS-EXT
+import:         from AS12859  195.69.144.200    accept   AS-BIT # Bit BV
+export:         to   AS12859  195.69.144.200    announce AS21011:AS-EXT
+import:         from AS12989  195.69.144.94     accept   AS12989 # NightWinds
+export:         to   AS12989  195.69.144.94     announce AS21011:AS-EXT
+import:         from AS15598  195.69.144.213    accept   AS-IPX # IP Exchange GmbH
+export:         to   AS15598  195.69.144.213    announce AS21011:AS-EXT
+import:         from AS6667   195.69.144.127    accept   AS-EUNETIP RS-EUNETIP # Elisa Plc
+export:         to   AS6667   195.69.144.127    announce AS21011:AS-EXT
+import:         from AS12713  195.69.144.179    accept   AS-OTEGLOBE # 0teglob
+export:         to   AS12713  195.69.144.179    announce AS21011:AS-EXT
+import:         from AS13285  195.69.145.34     accept   AS-OPAL # Opal
+export:         to   AS13285  195.69.145.34     announce AS21011:AS-EXT
+import:         from AS15830  195.69.144.113    accept   AS-TELECITYLON # TeleCity
+export:         to   AS15830  195.69.144.113    announce AS21011:AS-EXT
+import:         from AS8582   195.69.145.57     accept   AS8582 # News-Service Europe
+export:         to   AS8582   195.69.145.57     announce AS21011:AS-EXT
+import:         from AS16276  195.69.145.231    accept   AS-OVH # OVH
+export:         to   AS16276  195.69.145.231    announce AS21011:AS-EXT
+import:         from AS34309  195.69.145.111    accept   AS-LINK11 # Link1.de
+export:         to   AS34309  195.69.145.111    announce AS21011:AS-EXT
+import:         from AS34763  195.69.145.105    accept   AS-VIRGINRADIO # VirginRadio
+export:         to   AS34763  195.69.145.105    announce AS21011:AS-EXT
+import:         from AS9505   195.69.145.78     accept   AS-TWIG # ChungHwa Telecom
+export:         to   AS9505   195.69.145.78     announce AS21011:AS-EXT
+import:         from AS31500  195.69.145.157    accept   AS-GLOBAL-NET # Electron Telecom
+export:         to   AS31500  195.69.145.157    announce AS21011:AS-EXT
+import:         from AS36408  195.69.144.191    accept   AS-CDNETWORKS-EU # CDNetworks Co
+export:         to   AS36408  195.69.144.191    announce AS21011:AS-EXT
+import:         from AS8468   195.69.145.82     accept   AS-ENTANET # Entanet
+export:         to   AS8468   195.69.145.82     announce AS21011:AS-EXT
+import:         from AS9145   195.69.144.42     accept   AS-EWETEL # EWE TEL GmbH
+export:         to   AS9145   195.69.144.42     announce AS21011:AS-EXT
+import:         from AS42     195.69.144.250    accept   AS-PCH # PCH
+export:         to   AS42     195.69.144.250    announce AS21011:AS-EXT
+import:         from AS3856   195.69.145.250    accept   AS-PCH # PCH
+export:         to   AS3856   195.69.145.250    announce AS21011:AS-EXT
+import:         from AS31529  195.69.145.160    accept   AS31529 # DENIC eG
+export:         to   AS31529  195.69.145.160    announce AS21011:AS-EXT
+import:         from AS24963  195.69.145.93     accept   AS-YACAST # Yacast Media
+export:         to   AS24963  195.69.145.93     announce AS21011:AS-EXT
+import:         from AS8422   195.69.145.62     accept   AS-NETCOLOGNE # Netcologne.de
+export:         to   AS39792  195.69.144.119    announce AS21011:AS-EXT
+import:         from AS16097  195.69.145.114    accept   AS-HLKOMM # HL komm
+export:         to   AS16097  195.69.145.114    announce AS21011:AS-EXT
+import:         from AS8068   195.69.145.20     accept   AS-MICROSOFT # Microsoft
+export:         to   AS8068   195.69.145.20     announce AS21011:AS-EXT
+import:         from AS8068   195.69.145.21     accept   AS-MICROSOFT # Microsoft
+export:         to   AS8068   195.69.145.21     announce AS21011:AS-EXT
+import:         from AS25466  195.69.145.201    accept   AS-LIDERONET # Lidero Network AB
+export:         to   AS25466  195.69.145.201    announce AS21011:AS-EXT
+import:         from AS2119   195.69.145.192    accept   AS-TELENOR # Telenor
+export:         to   AS2119   195.69.145.192    announce AS21011:AS-EXT
+import:         from AS5390   195.69.144.70     accept   AS-EURONETNL # Online Breedband
+export:         to   AS5390   195.69.144.70     announce AS21011:AS-EXT
+import:         from AS5390   195.69.144.55     accept   AS-EURONETNL # Online Breedband
+export:         to   AS5390   195.69.144.55     announce AS21011:AS-EXT
+import:         from AS3249   195.69.145.181    accept   AS-ESTPAK # Elion Enterprises
+export:         to   AS3249   195.69.145.181    announce AS21011:AS-EXT
+import:         from AS15133  195.69.145.162    accept   AS-EDGECAST # EdgeCast Networks
+export:         to   AS15133  195.69.145.162    announce AS21011:AS-EXT
+import:         from AS40761  195.69.145.244    accept   AS40761 # New Frontier Technologies
+export:         to   AS40761  195.69.145.244    announce AS21011:AS-EXT
+import:         from AS40761  195.69.144.75     accept   AS40761 # New Frontier Technologies
+export:         to   AS40761  195.69.144.75     announce AS21011:AS-EXT
+import:         from AS25182  195.69.144.243    accept   AS-PUBLIEKEOMROEP # Publieke Omroep
+export:         to   AS25182  195.69.144.243    announce AS21011:AS-EXT
+import:         from AS25182  195.69.145.86     accept   AS-PUBLIEKEOMROEP # Publieke Omroep
+export:         to   AS25182  195.69.145.86     announce AS21011:AS-EXT
+import:         from AS28685  195.69.144.133    accept   AS-ROUTIT # Routit BV
+export:         to   AS28685  195.69.144.133    announce AS21011:AS-EXT
+import:         from AS13127  195.69.144.47     accept   AS-VERSATEL # Core Internet
+export:         to   AS13127  195.69.144.47     announce AS21011:AS-EXT
+import:         from AS13127  195.69.144.211    accept   AS-VERSATEL # Core Internet
+export:         to   AS13127  195.69.144.211    announce AS21011:AS-EXT
+import:         from AS12871  195.69.144.32     accept   AS-CONCEPTS # Concepts
+export:         to   AS12871  195.69.144.32     announce AS21011:AS-EXT
+import:         from AS12871  195.69.144.64     accept   AS-CONCEPTS # Concepts
+export:         to   AS12871  195.69.144.64     announce AS21011:AS-EXT
+import:         from AS8657   195.69.144.217    accept   AS-CPRM # PT Comunicac
+export:         to   AS8657   195.69.144.217    announce AS21011:AS-EXT
+import:         from AS15435  195.69.144.149    accept   AS-KABELFOON # CAIW Diensten
+export:         to   AS15435  195.69.144.149    announce AS21011:AS-EXT
+import:         from AS15435  195.69.145.173    accept   AS-KABELFOON # CAIW Diensten
+export:         to   AS15435  195.69.145.173    announce AS21011:AS-EXT
+import:         from AS12322  195.69.144.251    accept   AS-PROXAD # Proxad
+export:         to   AS12322  195.69.144.251    announce AS21011:AS-EXT
+import:         from AS2603   195.69.145.203    accept   AS-NORDUNET # Nordic University
+export:         to   AS2603   195.69.145.203    announce AS21011:AS-EXT
+import:         from AS6661   195.69.144.60     accept   AS-PTLU # P&T Luxembourg
+export:         to   AS6661   195.69.144.60     announce AS21011:AS-EXT
+import:         from AS3303   195.69.144.100    accept   AS-SWCMGLOBAL # IP-Plus Internet
+export:         to   AS3303   195.69.144.100    announce AS21011:AS-EXT
+import:         from AS41045  195.69.145.161    accept   AS-BUTLERNET # Butlernetworks
+export:         to   AS41045  195.69.145.161    announce AS21011:AS-EXT
+import:         from AS8897   195.69.144.249    accept   AS-MISTRAL # Kingston Communications
+export:         to   AS8897   195.69.144.249    announce AS21011:AS-EXT
+import:         from AS20495  195.69.144.107    accept   AS-WEDARE # We Dare BV
+export:         to   AS20495  195.69.144.107    announce AS21011:AS-EXT
+import:         from AS15542  195.69.145.43     accept   AS-ZEELANDNET # ZeelandNet
+export:         to   AS15542  195.69.145.43     announce AS21011:AS-EXT
+import:         from AS15542  195.69.145.125    accept   AS-ZEELANDNET # ZeelandNet
+export:         to   AS15542  195.69.145.125    announce AS21011:AS-EXT
+import:         from AS41690  195.69.144.164    accept   AS-DAILYMOTION # dailymotion.com
+export:         to   AS41690  195.69.144.164    announce AS21011:AS-EXT
+import:         from AS36623  195.69.145.232    accept   AS-GTLD # Verisign
+export:         to   AS36623  195.69.145.232    announce AS21011:AS-EXT
+import:         from AS12041  195.69.144.190    accept   AS12041:AS-AFILIAS # Afilias
+export:         to   AS12041  195.69.144.190    announce AS21011:AS-EXT
+import:         from AS20500  195.69.144.61     accept   AS-GRIFFIN # Griffin
+export:         to   AS20500  195.69.144.61     announce AS21011:AS-EXT
+import:         from AS3267   195.69.145.75     accept   AS-RUNNET # RUNNet
+export:         to   AS3267   195.69.145.75     announce AS21011:AS-EXT
+import:         from AS48268  195.69.145.193    accept   AS-INTERFIBER # UPL Telecom
+export:         to   AS48268  195.69.145.193    announce AS21011:AS-EXT
+import:         from AS20940  195.69.144.168    accept   AS-AKAMAI # Akamai
+export:         to   AS20940  195.69.144.168    announce AS21011:AS-EXT
+import:         from AS20940  195.69.145.208    accept   AS-AKAMAI # Akamai
+export:         to   AS20940  195.69.145.208    announce AS21011:AS-EXT
+import:         from AS16265  195.69.144.215    accept   AS-LEASEWEB # LeaseWeb
+export:         to   AS16265  195.69.144.215    announce AS21011:AS-EXT
+import:         from AS29076  195.69.145.246    accept   AS-CITYTELECOM # Citytelecom
+export:         to   AS29076  195.69.145.246    announce AS21011:AS-EXT
+import:         from AS35228  195.69.145.246    accept   AS35228 # O2
+export:         to   AS35228  195.69.145.246    announce AS21011:AS-EXT
+import:         from AS5577   195.69.145.240    accept   AS-ROOT # root eSolutions
+export:         to   AS5577   195.69.145.240    announce AS21011:AS-EXT
+import:         from AS23393  195.69.145.223    accept   AS-ISPRIME # ISPrime
+export:         to   AS23393  195.69.145.223    announce AS21011:AS-EXT
+import:         from AS20562  195.69.144.189    accept   AS-OPENPEERING # OpenPeering NOC
+export:         to   AS20562  195.69.144.189    announce AS21011:AS-EXT
+import:         from AS20562  195.69.145.197    accept   AS-OPENPEERING # OpenPeering NOC
+export:         to   AS20562  195.69.145.197    announce AS21011:AS-EXT
+import:         from AS42708  195.69.145.25     accept   AS-PORTLANE # Portlane
+export:         to   AS42708  195.69.145.25     announce AS21011:AS-EXT
+import:         from AS8708   195.69.144.51     accept   AS-RDSNET # Rdsnet
+export:         to   AS8708   195.69.144.51     announce AS21011:AS-EXT
+import:         from AS49544  195.69.144.162    accept   AS-INTERACTIVE3D # Interactive 3D
+export:         to   AS49544  195.69.144.162    announce AS21011:AS-EXT
+import:         from AS20857  195.69.144.244    accept   AS20857 # TransIP BV
+export:         to   AS20857  195.69.144.244    announce AS21011:AS-EXT
+import:         from AS41552  195.69.144.112    accept   AS-ECG # Marktplaats AS
+export:         to   AS41552  195.69.144.112    announce AS21011:AS-EXT
+import:         from AS41552  195.69.145.112    accept   AS-ECG # Marktplaats AS
+export:         to   AS41552  195.69.145.112    announce AS21011:AS-EXT
+import:         from AS6327   195.69.144.148    accept   AS-BIGPIPE # Shaw Communications Inc.
+export:         to   AS6327   195.69.144.148    announce AS21011:AS-EXT
+import:         from AS16150  195.69.145.52     accept   AS-CUSTOMERS # Availo Networks / Port80
+export:         to   AS16150  195.69.145.52     announce AS21011:AS-EXT
+import:         from AS12715  195.69.147.54     accept   AS-JAZZTRANS # JAZZNET Jazz Telecom S.A.
+export:         to   AS12715  195.69.147.54     announce AS21011:AS-EXT
+import:         from AS8781   195.69.145.120    accept   AS-QTEL-SET # Qatar Telecom
+export:         to   AS8781   195.69.145.120    announce AS21011:AS-EXT
+import:         from AS1248   195.69.145.238    accept   AS-NOK # Nokia Corporation
+export:         to   AS1248   195.69.145.238    announce AS21011:AS-EXT
+import:         from AS197612 195.69.147.185    accept   AS-LINKEDIN # Linkedin
+export:         to   AS197612 195.69.147.185    announce AS21011:AS-EXT
+import:         from AS12327  195.69.146.231    accept   AS-IDEAR4BUSINESS # idear4business interantional LTD
+export:         to   AS12327  195.69.146.231    announce AS21011:AS-EXT
+import:         from AS9009   195.69.144.63     accept   AS-GBXS # M247 Ltd
+export:         to   AS9009   195.69.144.63     announce AS21011:AS-EXT
+import:         from AS6730   195.69.144.116    accept   AS-GLOBAL # TDC Switzerland AG
+export:         to   AS6730   195.69.144.116    announce AS21011:AS-EXT
+import:         from AS34215  195.69.145.40     accept   AS-ATINET # Inet Technology Consultancy BV
+export:         to   AS34215  195.69.145.40     announce AS21011:AS-EXT
+import:         from AS50304  195.69.147.162    accept   AS-BLIX # BLIX SOLUTIONS AS
+export:         to   AS50304  195.69.147.162    announce AS21011:AS-EXT
+import:         from AS25180  195.69.146.52     accept   AS25180 # Exponential-e Ltd
+export:         to   AS25180  195.69.146.52     announce AS21011:AS-EXT
+import:         from AS8190   195.69.144.242    accept   AS-MDNX # MDNX
+export:         to   AS8190   195.69.144.242    announce AS21011:AS-EXT
+import:         from AS8426   195.69.144.82     accept   AS-CLARANET # Claranet UK Ltd
+export:         to   AS8426   195.69.144.82     announce AS21011:AS-EXT
+import:         from AS8426   195.69.145.228    accept   AS-CLARANET # Claranet UK Ltd
+export:         to   AS8426   195.69.145.228    announce AS21011:AS-EXT
+remarks:        -------------------------------------------------------------------------------------------
+remarks:        AMS-IX v6
+remarks:        -------------------------------------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS1200   2001:7F8:1::A500:1200:1   accept   AS1200 # AMS-IX Peering AS
+mp-export:      afi ipv6.unicast to   AS1200   2001:7F8:1::A500:1200:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS1200   2001:7F8:1::A500:1200:2   accept   AS1200 # AMS-IX Peering AS
+mp-export:      afi ipv6.unicast to   AS1200   2001:7F8:1::A500:1200:2   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6777   2001:7F8:1::A500:6777:1   accept   AS-AMS-IX-RS-V6 # AMS-IX RS1
+mp-export:      afi ipv6.unicast to   AS6777   2001:7F8:1::A500:6777:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6777   2001:7F8:1::A500:6777:2   accept   AS-AMS-IX-RS-V6 # AMS-IX RS2
+mp-export:      afi ipv6.unicast to   AS6777   2001:7F8:1::A500:6777:2   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS41692  2001:7F8:1::A504:1692:1   accept   AS-OPENCARRIER6 # OpenCarier
+mp-export:      afi ipv6.unicast to   AS41692  2001:7F8:1::A504:1692:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS29073  2001:7F8:1::A502:9073:1   accept   AS-ECATEL # Ecatel
+mp-export:      afi ipv6.unicast to   AS29073  2001:7F8:1::A502:9073:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6939   2001:7F8:1::A500:6939:1   accept   AS-HURRICANE # Hurricane electric
+mp-export:      afi ipv6.unicast to   AS6939   2001:7F8:1::A500:6939:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8586   2001:7F8:1::A500:8586:1   accept   AS-REDNET # RedNet
+mp-export:      afi ipv6.unicast to   AS8586   2001:7F8:1::A500:8586:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS19151  2001:7F8:1::A501:9151:1   accept   AS-WVFIBER # WVFiber
+mp-export:      afi ipv6.unicast to   AS19151  2001:7F8:1::A501:9151:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12859  2001:7F8:1::A501:2859:1   accept   AS-BIT6 # Bit BV
+mp-export:      afi ipv6.unicast to   AS12859  2001:7F8:1::A501:2859:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12859  2001:7F8:1::A501:2859:2   accept   AS-BIT6 # Bit BV
+mp-export:      afi ipv6.unicast to   AS12859  2001:7F8:1::A501:2859:2   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12989  2001:7F8:1::A501:2989:1   accept   AS12989 # NightWinds
+mp-export:      afi ipv6.unicast to   AS12989  2001:7F8:1::A501:2989:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS15598  2001:7F8:1::A501:5598:1   accept   AS-IPX-6 # IP Exchange GmbH
+mp-export:      afi ipv6.unicast to   AS15598  2001:7F8:1::A501:5598:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6667   2001:7F8:1::A500:6667:1   accept   AS-EUNETIP RS-EUNETIP
+mp-export:      afi ipv6.unicast to   AS6667   2001:7F8:1::A500:6667:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS5430   2001:7F8:1::A500:5430:1   accept   AS-FREENETDE6 # FreeNet De
+mp-export:      afi ipv6.unicast to   AS5430   2001:7F8:1::A500:5430:1   announce AS21011:AS-TO-DECIX
+mp-import:      afi ipv6.unicast from AS5430   2001:7F8:1::A500:5430:2   accept   AS-FREENETDE6 # FreeNet De
+mp-export:      afi ipv6.unicast to   AS5430   2001:7F8:1::A500:5430:2   announce AS21011:AS-TO-DECIX
+mp-import:      afi ipv6.unicast from AS34309  2001:7F8:1::A503:4309:1   accept   AS-LINK11-V6 # Link1.de
+mp-export:      afi ipv6.unicast to   AS34309  2001:7F8:1::A503:4309:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS34763  2001:7F8:1::A503:4763:1   accept   AS-VIRGINRADIO # VIRGINRADIO
+mp-export:      afi ipv6.unicast to   AS34763  2001:7F8:1::A503:4763:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8468   2001:7F8:1::A500:8468:1   accept   AS-ENTANET # Entanet
+mp-export:      afi ipv6.unicast to   AS8468   2001:7F8:1::A500:8468:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS31529  2001:7F8:1::A503:1529:1   accept   AS31529 # DENIC eG
+mp-export:      afi ipv6.unicast to   AS31529  2001:7F8:1::A503:1529:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS24963  2001:7F8:1::A502:4963:1   accept   AS-YACAST # Yacast Media
+mp-export:      afi ipv6.unicast to   AS24963  2001:7F8:1::A502:4963:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8422   2001:7F8:1::A500:8422:1   accept   AS-NETCOLOGNE-V6 # Netcologne.de
+mp-export:      afi ipv6.unicast to   AS8422   2001:7F8:1::A500:8422:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS16097  2001:7F8:1::A501:6097:1   accept   AS-HLKOMM # HL komm
+mp-export:      afi ipv6.unicast to   AS16097  2001:7F8:1::A501:6097:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS25466  2001:7F8:1::A502:5466:1   accept   AS-LIDERONET # Lidero Network AB
+mp-export:      afi ipv6.unicast to   AS25466  2001:7F8:1::A502:5466:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS3249   2001:7F8:1::A500:3249:1   accept   AS-ESTPAK # Elion Enterprises
+mp-export:      afi ipv6.unicast to   AS3249   2001:7F8:1::A500:3249:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS25182  2001:7F8:1::A502:5182:1   accept   AS-PUBLIEKEOMROEP # Publieke Omroep
+mp-export:      afi ipv6.unicast to   AS25182  2001:7F8:1::A502:5182:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS25182  2001:7F8:1::A502:5182:2   accept   AS-PUBLIEKEOMROEP # Publieke Omroep
+mp-export:      afi ipv6.unicast to   AS25182  2001:7F8:1::A502:5182:2   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12871  2001:7F8:1::A501:2871:1   accept   AS-CONCEPTS # Concepts
+mp-export:      afi ipv6.unicast to   AS12871  2001:7F8:1::A501:2871:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12872  2001:7F8:1::A501:2871:1   accept   AS-CONCEPTS # Concepts
+mp-export:      afi ipv6.unicast to   AS12872  2001:7F8:1::A501:2871:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8657   2001:7F8:1::A500:8657:1   accept   AS-CPRM-V6 # PT Comunicac
+mp-export:      afi ipv6.unicast to   AS8657   2001:7F8:1::A500:8657:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12322  2001:7F8:1::A501:2322:1   accept   AS-PROXAD # Proxad
+mp-export:      afi ipv6.unicast to   AS12322  2001:7F8:1::A501:2322:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS2603   2001:7F8:1::A500:2603:1   accept   AS-NORDUNET # Nordic University
+mp-export:      afi ipv6.unicast to   AS2603   2001:7F8:1::A500:2603:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS41045  2001:7F8:1::A504:1045:1   accept   AS-BUTLERNET # Butlernetworks
+mp-export:      afi ipv6.unicast to   AS41045  2001:7F8:1::A504:1045:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8897   2001:7F8:1::A500:8897:1   accept   AS-MISTRAL # Kingston Communications
+mp-export:      afi ipv6.unicast to   AS8897   2001:7F8:1::A500:8897:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS20495  2001:7F8:1::A502:495:1    accept   AS-WEDARE # We Dare BV
+mp-export:      afi ipv6.unicast to   AS20495  2001:7F8:1::A502:495:1    announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12041  2001:7F8:1::A501:2041:1   accept   AS12041:AS-AFILIAS # Afilias
+mp-export:      afi ipv6.unicast to   AS12041  2001:7F8:1::A501:2041:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS16265  2001:7F8:1::A501:6265:2   accept   AS-LEASEWEB # LeaseWeb
+mp-export:      afi ipv6.unicast to   AS16265  2001:7F8:1::A501:6265:2   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS5577   2001:7F8:1::A500:5577:1   accept   AS-ROOT # root eSolutions
+mp-export:      afi ipv6.unicast to   AS5577   2001:7F8:1::A500:5577:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS20562  2001:7f8:1::a502:562:1    accept   AS-OPENPEERING # OpenPeering NOC
+mp-export:      afi ipv6.unicast to   AS20562  2001:7f8:1::a502:562:1    announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS20562  2001:7f8:1::a502:562:2    accept   AS-OPENPEERING # OpenPeering NOC
+mp-export:      afi ipv6.unicast to   AS20562  2001:7f8:1::a502:562:2    announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS42708  2001:7f8:1::A504:2708:1   accept   AS-PORTLANE # Portlane
+mp-export:      afi ipv6.unicast to   AS42708  2001:7f8:1::A504:2708:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8708   2001:7F8:1::A500:8708:1   accept   AS-RDSNET # Rdsnet
+mp-export:      afi ipv6.unicast to   AS8708   2001:7F8:1::A500:8708:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS49544  2001:7f8:1::a504:9544:1   accept   AS-INTERACTIVE3D # Interactive 3D
+mp-export:      afi ipv6.unicast to   AS49544  2001:7f8:1::a504:9544:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS20857  2001:7f8:1::a502:857:1    accept   AS20857 # TransIP BV
+mp-export:      afi ipv6.unicast to   AS20857  2001:7f8:1::a502:857:1    announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS41552  2001:7F8:1::A504:1552:1   accept   AS-ECG # Marktplaats AS
+mp-export:      afi ipv6.unicast to   AS41552  2001:7F8:1::A504:1552:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS41552  2001:7F8:1::A504:1552:2   accept   AS-ECG # Marktplaats AS
+mp-export:      afi ipv6.unicast to   AS41552  2001:7F8:1::A504:1552:2   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6327   2001:7f8:1::a500:6327:1   accept   AS-BIGPIPE # Shaw Communications Inc.
+mp-export:      afi ipv6.unicast to   AS6327   2001:7f8:1::a500:6327:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS16150  2001:7F8:1::A501:6150:1   accept   AS-CUSTOMERS # Availo Networks / Port80
+mp-export:      afi ipv6.unicast to   AS16150  2001:7F8:1::A501:6150:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8781   2001:7F8:1::A500:8781:1   accept   AS-QTEL-SET # Qatar Telecom
+mp-export:      afi ipv6.unicast to   AS8781   2001:7F8:1::A500:8781:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS1248   2001:7f8:1::a500:1248:1   accept   AS-NOK # Nokia Corporation
+mp-export:      afi ipv6.unicast to   AS1248   2001:7f8:1::a500:1248:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS12327  2001:7f8:1::a501:2327:1   accept   AS-IDEAR4BUSINESSV6 # idear4business interantional LTD
+mp-export:      afi ipv6.unicast to   AS12327  2001:7f8:1::a501:2327:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS9009   2001:7F8:1::A500:9009:1   accept   AS-GBXS6 # M247 Ltd
+mp-export:      afi ipv6.unicast to   AS9009   2001:7F8:1::A500:9009:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS6730   2001:7F8:1::A500:6730:1   accept   AS-GLOBAL # TDC Switzerland AG
+mp-export:      afi ipv6.unicast to   AS6730   2001:7F8:1::A500:6730:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS25180  2001:7f8:1::a502:5180:1   accept   AS25180 # Exponential-e Ltd
+mp-export:      afi ipv6.unicast to   AS25180  2001:7f8:1::a502:5180:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8190   2001:7f8:1::A500:8190:1   accept   AS-MDNX # MDNX
+mp-export:      afi ipv6.unicast to   AS8190   2001:7f8:1::A500:8190:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8426   2001:7F8:1::A500:8426:1   accept   AS-CLARANET # Claranet UK Ltd
+mp-export:      afi ipv6.unicast to   AS8426   2001:7F8:1::A500:8426:1   announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8426   2001:7F8:1::A500:8426:2   accept   AS-CLARANET # Claranet UK Ltd
+mp-export:      afi ipv6.unicast to   AS8426   2001:7F8:1::A500:8426:2   announce AS21011:AS-EXT
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        UA peers and exchanges
+remarks:        ------------------------------------------------------------------------------------------
+import:         from AS15169 accept   AS-GOOGLE # Google
+export:         to   AS15169 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS15645 accept   AS-UAIX # UA-IX
+export:         to   AS15645 announce AS21011:AS-EXT
+import:         from AS59613 accept   AS-UBNIX # Giganet-IX
+export:         to   AS59613 announce AS21011:AS-EXT
+import:         from AS31210 accept   AS-DTEL-IX # DTEL-IX
+export:         to   AS31210 announce AS21011:AS-EXT
+import:         from AS25229 accept   AS25229:AS-CUST # Volia
+export:         to   AS25229 announce AS21011:AS-UA-KIEV
+import:         from AS21219 accept   AS-NEWLINE # DataGroup
+export:         to   AS21219 announce AS21011:AS-UA-KIEV
+import:         from AS8359  accept   AS-TSUA-PARITY # Comstar-UA
+export:         to   AS8359  announce AS21011:AS-UA-KIEV
+import:         from AS28761 accept   AS28761:AS-CUSTOMERS # CRIMEA-IX
+export:         to   AS28761 announce AS21011:AS-UA-KIEV
+import:         from AS8788  accept   AS-ADAM-UA # Adamant
+export:         to   AS8788  announce AS21011:AS-UA-KIEV
+import:         from AS3255  accept   AS-UARNET # UARNET
+export:         to   AS3255  announce AS21011:AS-UA-KIEV
+import:         from AS15738 accept   AS-EXPRESSUA # Express
+export:         to   AS15738 announce AS21011:AS-UA-KIEV
+import:         from AS39608 accept   AS-LANETUA # Lanet
+export:         to   AS39608 announce AS21011:AS-UA-KIEV
+import:         from AS15895 accept   AS15895:AS-ALL AS15895:AS-UAIX # Kyivstar
+export:         to   AS15895 announce AS21011:AS-UA-KIEV
+import:         from AS6849  accept   AS-UKRTELBT # Ukrtelecom
+export:         to   AS6849  announce AS21011:AS-EXT
+import:         from AS12963 accept   AS12963:AS-CUST2UP # Volz
+export:         to   AS12963 announce AS21011:AS-UA-KIEV
+import:         from AS44827 accept   AS44827 # Bravoport
+export:         to   AS44827 announce AS21011:AS-UA-KIEV
+import:         from AS13238 accept   AS-YANDEX # Yandex LLC
+export:         to   AS13238 announce AS21011:AS-UA
+import:         from AS6846 accept   AS-UKRPACK-EXT # Infocom JV
+export:         to   AS6846 announce AS21011:AS-EXT
+import:         from AS8856 accept   AS-UKRNET # UkrNet Ltd
+export:         to   AS8856 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS8359  accept   AS-MTU # Comstar-UA
+mp-export:      afi ipv6.unicast to   AS8359  announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS21219 accept   AS21219 # DataGroup
+mp-export:      afi ipv6.unicast to   AS21219 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS29632 accept   AS29632 # NetAssist
+mp-export:      afi ipv6.unicast to   AS29632 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS15645 accept   AS-UAIX-v6 # UA-IX
+mp-export:      afi ipv6.unicast to   AS15645 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS15895 accept   AS15895:AS-ALL-IPV6 # Kyivstar
+mp-export:      afi ipv6.unicast to   AS15895 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS59613 accept   AS-UBNIX # Giganet-IX
+mp-export:      afi ipv6.unicast to   AS59613 announce AS21011:AS-EXT
+mp-import:      afi ipv6.unicast from AS31210 accept   AS-DTEL-IX-V6 # DTEL-IX
+mp-export:      afi ipv6.unicast to   AS31210 announce AS21011:AS-EXT
+remarks:        -------------------------------------------------------------------------------------------
+remarks:        AS21011 Customers
+remarks:        -------------------------------------------------------------------------------------------
+import:         from AS30861 accept   AS30861 # BM-Group
+export:         to   AS30861 announce ANY
+import:         from AS8759  accept   AS8759 # LeoSoft
+export:         to   AS8759  announce {0.0.0.0/0}
+import:         from AS31598 accept   AS31598 # Colorit
+export:         to   AS31598 announce {0.0.0.0/0}
+import:         from AS21261 accept   AS21261 AS-STELS # Stels-Fito
+export:         to   AS21261 announce ANY
+import:         from AS35213 accept   AS35213:AS-CUSTOMERS # Pcn
+export:         to   AS35213 announce AS21011:AS-UA
+import:         from AS29187 accept   AS29187 # Compnet
+export:         to   AS29187 announce {0.0.0.0/0} AS-UAIX
+import:         from AS25150 accept   AS-DCTEL # DC-Tel
+export:         to   AS25150 announce ANY
+import:         from AS35795 accept   AS-VEDEKON # Vedekon
+export:         to   AS35795 announce AS21011:AS-UA
+import:         from AS35737 accept   AS-RIAD # Riad
+export:         to   AS35737 announce ANY
+import:         from AS34068 accept   AS34068 # INGOK
+export:         to   AS34068 announce ANY
+import:         from AS42727 accept   AS42727 # GTS
+export:         to   AS42727 announce {0.0.0.0/0}
+import:         from AS33997 accept   AS33997 AS35737 AS31664 # Darlics
+export:         to   AS33997 announce ANY
+import:         from AS25370 accept   AS-OMEGA91 # Kharkov Telecom
+export:         to   AS25370 announce AS21011:AS-UA
+import:         from AS43223 accept   AS43223 # Elro
+export:         to   AS43223 announce ANY
+import:         from AS31272 accept   AS-WILDPARK # WildPark
+export:         to   AS31272 announce AS21011:AS-UA
+import:         from AS43837 accept   AS43837 # BIT
+export:         to   AS43837 announce {0.0.0.0/0} AS-UAIX
+import:         from AS31664 accept   AS31664 # UnetCom
+export:         to   AS31664 announce ANY
+import:         from AS21411 accept   AS21411 # Itera
+export:         to   AS21411 announce {0.0.0.0/0} AS-UAIX
+import:         from AS35447 accept   AS35447 # NaukaNet@Kiev
+export:         to   AS35447 announce ANY
+import:         from AS43143 accept   AS43143 # Visicom
+export:         to   AS43143 announce {0.0.0.0/0} AS-UAIX
+import:         from AS39862 accept   AS39862 # Digicom
+export:         to   AS39862 announce ANY
+import:         from AS43078 accept   AS43078 # VTB
+export:         to   AS43078 announce {0.0.0.0/0}
+import:         from AS44538 accept   AS44538 # Algata
+export:         to   AS44538 announce {0.0.0.0/0}
+import:         from AS43067 accept   AS43067 # Pretcher
+export:         to   AS43067 announce ANY
+import:         from AS25372 accept   AS-ITCON # IT Consulting
+export:         to   AS25372 announce AS21011:AS-UA
+import:         from AS25372 accept   AS-ITCON # IT Consulting
+export:         to   AS25372 announce {0.0.0.0/0}
+import:         from AS30964 accept   AS30964 # IntroPro
+export:         to   AS30964 announce ANY
+import:         from AS8759  accept   AS8759 # Instityt Obdarovannoi Dytyni
+export:         to   AS8759  announce {0.0.0.0/0}
+import:         from AS47604 accept   AS47604 # Stecenko
+export:         to   AS47604 announce {0.0.0.0/0}
+import:         from AS41834 accept   AS41834 # MTI
+export:         to   AS41834 announce AS21011:AS-UA
+import:         from AS47919 accept   AS47919 # UkrGasBank
+export:         to   AS47919 announce {0.0.0.0/0} AS21011:AS-UA
+import:         from AS48438 accept   AS-CORBINA-UA # Corbina
+export:         to   AS48438 announce {0.0.0.0/0} AS21011:AS-UA
+import:         from AS48438 accept   AS-CORBINA-UA # Corbina
+export:         to   AS48438 announce {0.0.0.0/0}
+import:         from AS24681 accept   AS24681 # Sumix
+export:         to   AS24681 announce {0.0.0.0/0} AS21011:AS-UA
+import:         from AS47722 accept   AS47722 # Concorde Capital
+export:         to   AS47722 announce ANY
+import:         from AS47722 accept   AS47362 # Solomenka-Net
+export:         to   AS47722 announce {0.0.0.0/0}
+import:         from AS44336 accept   AS44336 # IRC.gov.ua
+export:         to   AS44336 announce {0.0.0.0/0} AS21011:AS-UA
+import:         from AS41510 accept   AS41510 # Uniqa.ua
+export:         to   AS41510 announce ANY
+import:         from AS48649 accept   AS48649 # NDU
+export:         to   AS48649 announce {0.0.0.0/0} AS21011:AS-UA
+import:         from AS48217 accept   AS48217 # SBRF
+export:         to   AS48217 announce {0.0.0.0/0} AS21011:AS-UA
+import:         from AS48509 accept   AS48509 # Smartline
+export:         to   AS48509 announce {0.0.0.0/0} AS21011:AS-UA
+import:         from AS47315 accept   AS47315 # NTN
+export:         to   AS47315 announce ANY
+import:         from AS48650 accept   AS48650 # Kpi-Service
+export:         to   AS48650 announce ANY
+import:         from AS49022 accept   AS49022 # TupolevaNet
+export:         to   AS49022 announce {0.0.0.0/0} AS21011:AS-UA
+import:         from AS43658 accept   AS43658 # Intraffic
+export:         to   AS43658 announce ANY
+import:         from AS31305 accept   AS31305 # DKM-Alba
+export:         to   AS31305 announce ANY
+import:         from AS8856  accept   AS-UKRNET # UkrNet
+export:         to   AS8856  announce ANY
+import:         from AS48045 accept   AS48045 # Flagman
+export:         to   AS48045 announce ANY
+import:         from AS41232 accept   AS41232 # Flagman
+export:         to   AS41232 announce ANY
+import:         from AS48334 accept   AS-UANETPOINT # NetPoint
+export:         to   AS48334 announce ANY
+import:         from AS42714 accept   AS42714 # Kichkas
+export:         to   AS42714 announce ANY
+import:         from AS42714 accept   AS42714 # Kichkas
+export:         to   AS42714 announce AS21011:AS-UA
+import:         from AS43819 accept   AS43819 # Watson
+export:         to   AS43819 announce ANY
+import:         from AS43819 accept   AS43819 # Watson
+export:         to   AS43819 announce AS21011:AS-UA
+import:         from AS49029 accept   AS49029 # Prolink
+export:         to   AS49029 announce {0.0.0.0/0}
+import:         from AS39049 accept   AS-LCOM # Lcom
+export:         to   AS39049 announce {0.0.0.0/0}
+import:         from AS41820 accept   AS-PICS # InfoComService
+export:         to   AS41820 announce ANY
+import:         from AS41820 accept   AS-PICS # InfoComService
+export:         to   AS41820 announce AS21011:AS-UA
+import:         from AS29067 accept   AS29067 # Hostmaster
+export:         to   AS29067 announce AS21011:AS-UA
+import:         from AS29067 accept   AS29067 # Hostmaster
+export:         to   AS29067 announce AS21011:AS-UA
+import:         from AS24725 accept   AS24725 # Hostmaster
+export:         to   AS24725 announce {0.0.0.0/0} AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS8258  accept   AS-VISTI # Elvisti
+export:         to   AS8258  announce ANY
+import:         from AS12773 accept   AS-SONIKO # Sonico
+export:         to   AS12773 announce ANY
+import:         from AS49327 accept   AS49327 # Telza
+export:         to   AS49327 announce ANY
+import:         from AS29491 accept   AS-TERABIT # Terabit
+export:         to   AS29491 announce ANY
+import:         from AS12872 accept   AS-MEGASTYLE # MegaStyle
+export:         to   AS12872 announce ANY
+import:         from AS21098 accept   AS-MHOST # UkrHosting
+export:         to   AS21098 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS35524 accept   AS-TD # E-Net
+export:         to   AS35524 announce ANY
+import:         from AS35524 accept   AS-TD-UA # E-Net
+export:         to   AS35524 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS39928 accept   AS-1PLUS1 # 1+1
+export:         to   AS39928 announce ANY
+import:         from AS41758 accept   AS41758 # DaNet
+export:         to   AS41758 announce ANY
+import:         from AS41758 accept   AS-PANTELECOM # PanTelecom
+export:         to   AS41758 announce ANY
+import:         from AS42982 accept   AS42982 # Finance.UA
+export:         to   AS42982 announce ANY
+import:         from AS39822 accept   AS39822 AS48081 AS47415 # Fobos
+export:         to   AS39822 announce {0.0.0.0/0}
+import:         from AS39822 accept   AS39822 AS48081 AS47415 # Fobos
+export:         to   AS39822 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS31000 accept   AS31000 # FLine
+export:         to   AS31000 announce {0.0.0.0/0}
+import:         from AS31000 accept   AS31000 # FLine
+export:         to   AS31000 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS48081 accept   AS48081 AS47415 # GOK
+export:         to   AS48081 announce {0.0.0.0/0}
+import:         from AS48081 accept   AS48081 AS47415 # GOK
+export:         to   AS48081 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS12963 accept   AS12963:AS-CUST2UP # Volz
+export:         to   AS12963 announce ANY
+import:         from AS34775 accept   AS-XCP # XCP
+export:         to   AS34775 announce ANY
+import:         from AS34775 accept   AS-XCP # XCP
+export:         to   AS34775 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS41600 accept   AS-SYNCHRON # SYNCHRON
+export:         to   AS41600 announce ANY
+import:         from AS41600 accept   AS-SYNCHRON # SYNCHRON
+export:         to   AS41600 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS21189 accept   AS-MOLS # Makeevka-Online
+export:         to   AS21189 announce ANY
+import:         from AS35602 accept   AS-ZOL # Omega Group
+export:         to   AS35602 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS28809 accept   AS-NAUKANET # Naukanet
+export:         to   AS28809 announce AS-UAIX
+import:         from AS49019 accept   AS-OLLIE # Ollie-Trans
+export:         to   AS49019 announce ANY
+import:         from AS49019 accept   AS-OLLIE # Ollie-Trans
+export:         to   AS49019 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS50494 accept   AS50494 # Starlink
+export:         to   AS50494 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS50494 accept   AS50494 # Starlink
+export:         to   AS50494 announce {0.0.0.0/0}
+import:         from AS43580 accept   AS43580 # MMG
+export:         to   AS43580 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS43580 accept   AS43580 # MMG
+export:         to   AS43580 announce {0.0.0.0/0}
+import:         from AS50808 accept   AS50808 # TechCom
+export:         to   AS50808 announce ANY
+import:         from AS47567 accept   AS47567 # BIS-Bank
+export:         to   AS47567 announce {0.0.0.0/0} AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS51314 accept   AS51314 # Teviant-MirTV
+export:         to   AS51314 announce ANY
+import:         from AS51314 accept   AS51314 # Teviant-MirTV
+export:         to   AS51314 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS44461 accept   AS44461 # GIOC-KMDA
+export:         to   AS44461 announce {0.0.0.0/0}
+import:         from AS47900 accept   AS47900 # ARTMASTER-3T
+export:         to   AS47900 announce {0.0.0.0/0}
+import:         from AS48439 accept   AS48439 # Innovations Center
+export:         to   AS48439 announce {0.0.0.0/0} AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS29685 accept   AS-OKNET # OKNET
+export:         to   AS29685 announce ANY
+import:         from AS29685 accept   AS-OKNET # OKNET
+export:         to   AS29685 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS34355 accept   AS34355 AS50730 # InfoSfera
+export:         to   AS34355 announce {0.0.0.0/0}
+import:         from AS34355 accept   AS34355 AS50730 # InfoSfera
+export:         to   AS34355 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS48385 accept   AS48385 # Infoaura
+export:         to   AS48385 announce {0.0.0.0/0}
+import:         from AS48385 accept   AS48385 # Infoaura
+export:         to   AS48385 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS39608 accept   AS39608 AS-LANETUA # Lanet
+export:         to   AS39608 announce ANY
+import:         from AS39608 accept   AS39608 AS-LANETUA # Lanet
+export:         to   AS39608 announce AS21011:AS-UA-KIEV
+import:         from AS50856 accept   AS50856 # Ini.Net
+export:         to   AS50856 announce ANY
+import:         from AS50856 accept   AS50856 # Ini.Net
+export:         to   AS50856 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS12438 accept   AS12438 # SunLine
+export:         to   AS12438 announce {0.0.0.0/0} AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS39027 accept   AS39027 # BatyevkaNet
+export:         to   AS39027 announce {0.0.0.0/0}
+import:         from AS39027 accept   AS39027 # BatyevkaNet
+export:         to   AS39027 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS43576 accept   AS-KUMIR # KumirTelecom
+export:         to   AS43576 announce ANY
+import:         from AS34814 accept   AS-DYTYNETS # Dytynets-Osnova
+export:         to   AS34814 announce ANY
+import:         from AS34814 accept   AS-DYTYNETS # Dytynets-Osnova
+export:         to   AS34814 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS12700 accept   AS-MN # Spektr-Tehnologii
+export:         to   AS12700 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS41967 accept   AS-TKS # Sumski telekomsystemy
+export:         to   AS41967 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS41967 accept   AS-TKS # Sumski telekomsystemy
+export:         to   AS41967 announce ANY
+import:         from AS49089 accept   AS49089 # Nicultcev
+export:         to   AS49089 announce ANY
+import:         from AS50842 accept   AS50842 # Secure Technologies
+export:         to   AS50842 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS50842 accept   AS50842 # Secure Technologies
+export:         to   AS50842 announce ANY
+import:         from AS6681  accept   AS6681 # Upload
+export:         to   AS6681  announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS6681  accept   AS6681 # Upload
+export:         to   AS6681  announce {0.0.0.0/0}
+import:         from AS25385 accept   AS25385 # Belcom
+export:         to   AS25385 announce {0.0.0.0/0}
+import:         from AS42918 accept   AS-K1TV # TV plus Kino
+export:         to   AS42918 announce ANY
+import:         from AS56756 accept   AS56756 # Netcracker
+export:         to   AS56756 announce {0.0.0.0/0}
+import:         from AS35067 accept   AS-PROKK # Prokk
+export:         to   AS35067 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS35067 accept   AS-PROKK # Prokk
+export:         to   AS35067 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS52095 accept   AS52095 # Itera
+export:         to   AS52095 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS52095 accept   AS52095 # Itera
+export:         to   AS52095 announce {0.0.0.0/0}
+import:         from AS39329 accept   AS39329 # Infopulse
+export:         to   AS39329 announce {0.0.0.0/0}
+import:         from AS13310 accept   AS13310:AS-EXT # Ukr-InterNet
+export:         to   AS13310 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS24621 accept   AS24621 # Stenos
+export:         to   AS24621 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS21261 accept   AS-STELS-IX-UA # Stels
+export:         to   AS21261 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS41781 accept   AS41781 # BestCard
+export:         to   AS41781 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS42474 accept   AS42474 # Upload
+export:         to   AS42474 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS43022 accept   AS-UASEECH # Seech-Infocom
+export:         to   AS43022 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS31148 accept   AS-FNT # FreeNET
+export:         to   AS31148 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS34476 accept   AS34476:AS-EXT # ICN
+export:         to   AS34476 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS39307 accept   AS39307:AS-CLIENTS # D-Com
+export:         to   AS39307 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS43078 accept   AS43078 # VTB Bank
+export:         to   AS43078 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS28809 accept   AS21011:AS-NAUKA # Nauka
+export:         to   AS28809 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS13188 accept   AS-BAZIS # BankInform
+export:         to   AS13188 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS42138 accept   AS42138 # Meta
+export:         to   AS42138 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS43310 accept   AS-HOMENET-KIEV # LVS
+export:         to   AS43310 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS34331 accept   AS-KIEVSETI # KievSeti
+export:         to   AS34331 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS43497 accept   AS43497 # NDIASB
+export:         to   AS43497 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS45043 accept   AS45043 AS43902 AS-HOMENET # HomeNet
+export:         to   AS45043 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS6789  accept   AS-CRELCOM # CrelCom
+export:         to   AS6789  announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS47753 accept   AS47753 # FinansIniciativa
+export:         to   AS47753 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS48229 accept   AS48229 # ICTV
+export:         to   AS48229 announce {0.0.0.0/0}
+import:         from AS25521 accept   AS-IPNETUA # IPnet
+export:         to   AS25521 announce {0.0.0.0/0}
+import:         from AS42896 accept   AS-ACSGROUP # KCT
+export:         to   AS42896 announce ANY
+import:         from AS30955 accept   AS-UHT # Alternet
+export:         to   AS30955 announce ANY
+import:         from AS44686 accept   AS44686 # KKS
+export:         to   AS44686 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS8254  accept   AS8254 # Business Solutions
+export:         to   AS8254  announce ANY
+import:         from AS35365 accept   AS-VICATV # VicaTV
+export:         to   AS35365 announce ANY
+import:         from AS21437 accept   AS-AVITI # Bigline
+export:         to   AS21437 announce ANY
+import:         from AS57601 accept   AS-GM # Global-Money
+export:         to   AS57601 announce ANY
+import:         from AS25155 accept   AS25155 # Briar
+export:         to   AS25155 announce {0.0.0.0/0}
+import:         from AS49204 accept   AS-ITT # ITT
+export:         to   AS49204 announce ANY
+import:         from AS39908 accept   AS39908 # Kvant
+export:         to   AS39908 announce {0.0.0.0/0}
+import:         from AS50843 accept   AS50843 # ITC-S
+export:         to   AS50843 announce ANY
+import:         from AS20539 accept   AS-RS # Radio-Systems-Sumy
+export:         to   AS20539 announce ANY
+import:         from AS48845 accept   AS48845 # Trans Digital
+export:         to   AS48845 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS48845 accept   AS48845 # Trans Digital
+export:         to   AS48845 announce {0.0.0.0/0}
+import:         from AS49889 accept   AS-CRYSTAL-TELECOM # CRYSTAL-TELECOM
+export:         to   AS49889 announce ANY
+import:         from AS31247 accept   AS31247 # Cyfral
+export:         to   AS31247 announce {0.0.0.0/0}
+import:         from AS30955 accept   AS-UHT # Alternet
+export:         to   AS30955 announce ANY
+import:         from AS51314 accept   AS51314 # Teviant-MirTV
+export:         to   AS51314 announce ANY
+import:         from AS43320 accept   AS-ASTRATELCOM # Astratelecom
+export:         to   AS43320 announce ANY
+import:         from AS25071 accept   AS-RADIOCOM # Radiocom
+export:         to   AS25071 announce ANY
+import:         from AS30954 accept   AS30954 # Radiokom-Kr
+export:         to   AS30954 announce {0.0.0.0/0}
+import:         from AS47725 accept   AS47725 # Teneta
+export:         to   AS47725 announce ANY
+import:         from AS46664 accept   AS-MTELUA # M-Tel
+export:         to   AS46664 announce ANY
+import:         from AS34056 accept   AS-KIEVNET # KievNet
+export:         to   AS34056 announce ANY
+import:         from AS25226 accept   AS25226 # Rombnet
+export:         to   AS25226 announce {0.0.0.0/0}
+import:         from AS39908 accept   AS39908 # Dpts Kvant
+export:         to   AS39908 announce {0.0.0.0/0}
+import:         from AS43139 accept   AS-MAXIMUM # Maximum-Net
+export:         to   AS43139 announce ANY
+import:         from AS51121 accept   AS51121 # Foboss-Net
+export:         to   AS51121 announce ANY
+import:         from AS42331 accept   AS-FREEHOST # Freehost
+export:         to   AS42331 announce ANY
+import:         from AS43017 accept   AS43017 # ProFIX
+export:         to   AS43017 announce {0.0.0.0/0}
+import:         from AS50380 accept   AS50380 # Lancom Ltd
+export:         to   AS50380 announce ANY
+import:         from AS34480 accept   AS34480 # GrandService
+export:         to   AS34480 announce ANY
+import:         from AS198253 accept   AS-MEGAPROSTIR-CUSTOMERS # Megaprostir
+export:         to   AS198253 announce {0.0.0.0/0}
+import:         from AS198253 accept   AS-MEGAPROSTIR-CUSTOMERS # Megaprostir
+export:         to   AS198253 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS197314 accept   AS-UNISOFT # Unisoft Ltd
+export:         to   AS197314 announce ANY
+import:         from AS51734 accept   AS51734 # 1GB LLC
+export:         to   AS51734 announce {0.0.0.0/0}
+import:         from AS30779 accept   AS-INET-UA # Cable-TV
+export:         to   AS30779 announce ANY
+import:         from AS44482 accept   AS-ZURBAGAN # Zurbagan
+export:         to   AS44482 announce {0.0.0.0/0}
+import:         from AS44482 accept   AS-ZURBAGAN # Zurbagan
+export:         to   AS44482 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS8641  accept   AS-NAUKANET # Naukanet
+export:         to   AS8641  announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS21228 accept   AS21228 # Vinasterisk
+export:         to   AS21228 announce {0.0.0.0/0}
+import:         from AS50361 accept   AS50361 # Mibank
+export:         to   AS50361 announce {0.0.0.0/0}
+import:         from AS197707  accept   AS197707 # Veko
+export:         to   AS197707  announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS197707 accept   AS197707 # Veko
+export:         to   AS197707 announce ANY
+import:         from AS34359  accept   AS-UA-LINK # NPF LINK Ltd
+export:         to   AS34359  announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS34359 accept   AS-UA-LINK # NPF LINK Ltd
+export:         to   AS34359 announce ANY
+import:         from AS51784  accept   AS51784 # X-City
+export:         to   AS51784  announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS51784 accept   AS51784 # X-City
+export:         to   AS51784 announce {0.0.0.0/0}
+import:         from AS198033 accept   AS198033 # Minfin
+export:         to   AS198033 announce ANY
+import:         from AS59485 accept   AS59485 # Vektor-M
+export:         to   AS59485 announce {0.0.0.0/0}
+import:         from AS59585 accept   AS59585 # Netrider-UA
+export:         to   AS59585 announce {0.0.0.0/0}
+import:         from AS39084 accept   AS-UTKC # Rinet
+export:         to   AS39084 announce ANY
+import:         from AS31556 accept   AS31556 # Arkada-X Ltd
+export:         to   AS31556 announce ANY
+import:         from AS58196 accept   AS58196 # Askon
+export:         to   AS58196 announce ANY
+import:         from AS35221 accept   AS-UMSN # Ukrainian Multiservice Network, Ltd
+export:         to   AS35221 announce ANY
+import:         from AS49063 accept   AS-DTLN # Dataline
+export:         to   AS49063 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS51972 accept   AS51972 # SIMTelecom
+export:         to   AS51972 announce {0.0.0.0/0}
+import:         from AS21500 accept   AS-TNSUA # Technaukservice, LLC
+export:         to   AS21500 announce ANY
+import:         from AS12788 accept   AS-NBI # National Bureau NBI
+export:         to   AS12788 announce ANY
+import:         from AS200049 accept  AS200049 # MBL International East Computerland-Kiev Ltd
+export:         to   AS200049 announce {0.0.0.0/0}
+import:         from AS31234 accept    AS-KRAM-UZH # KRAM Ltd
+export:         to   AS31234 announce  ANY
+import:         from AS57996 accept    AS57996 # Customer Atlant-SV(via KCT)
+export:         to   AS57996 announce  ANY
+import:         from AS39399 accept    AS-FENIXVT # Fenix VT
+export:         to   AS39399 announce  ANY
+import:         from AS49824 accept    AS49824 # PC "Astra-net"
+export:         to   AS49824 announce  ANY
+import:         from AS49824 accept   AS49824 # PC "Astra-net"
+export:         to   AS49824 announce AS21011:AS-UA-KIEV AS-UAIX
+import:         from AS198251 accept    AS-LEOTEL # LEOTEL Ltd.
+export:         to   AS198251 announce  ANY
+remarks:
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        AS21011 IPv6 Customers
+remarks:        ------------------------------------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS25372 accept   AS-ITCON # ITConsulting
+mp-export:      afi ipv6.unicast to   AS25372 announce ANY
+mp-import:      afi ipv6.unicast from AS31148 accept   AS-FNT # FreeNet
+mp-export:      afi ipv6.unicast to   AS31148 announce ANY
+mp-import:      afi ipv6.unicast from AS6789  accept   AS-CRELCOM-v6 # Crelcom
+mp-export:      afi ipv6.unicast to   AS6789  announce ANY
+mp-import:      afi ipv6.unicast from AS12872 accept   AS12872 # Megastyle
+mp-export:      afi ipv6.unicast to   AS12872 announce ANY
+mp-import:      afi ipv6.unicast from AS48229 accept   AS48229 # Starlight
+mp-export:      afi ipv6.unicast to   AS48229 announce ANY
+mp-import:      afi ipv6.unicast from AS42896 accept   AS-ACSGROUP6 # KCT
+mp-export:      afi ipv6.unicast to   AS42896 announce ANY
+mp-import:      afi ipv6.unicast from AS50310 accept   AS-BROV # Brov
+mp-export:      afi ipv6.unicast to   AS50310 announce ANY
+mp-import:      afi ipv6.unicast from AS24681 accept   AS24681 # Sumix
+mp-export:      afi ipv6.unicast to   AS24681 announce ANY
+mp-import:      afi ipv6.unicast from AS29067 accept   AS29067 # Hostmaster
+mp-export:      afi ipv6.unicast to   AS29067 announce {::/0}
+mp-import:      afi ipv6.unicast from AS29067 accept   AS29067 # Hostmaster
+mp-export:      afi ipv6.unicast to   AS29067 announce {::/0}
+mp-import:      afi ipv6.unicast from AS20144 accept   AS20144 # L-root
+mp-export:      afi ipv6.unicast to   AS20144 announce {::/0}
+mp-import:      afi ipv6.unicast from AS24725 accept   AS24725 # Hostmaster
+mp-export:      afi ipv6.unicast to   AS24725 announce {::/0}
+mp-import:      afi ipv6.unicast from AS8258 accept   AS-VISTI # Elvisti
+mp-export:      afi ipv6.unicast to   AS8258 announce ANY
+mp-import:      afi ipv6.unicast from AS42331 accept AS-FREEHOST # Freehost
+mp-export:      afi ipv6.unicast to   AS42331 announce ANY
+mp-import:      afi ipv6.unicast from AS47702 accept AS47702 # Discovery Ltd
+mp-export:      afi ipv6.unicast to   AS47702 announce ANY
+admin-c:        TNN1-RIPE
+tech-c:         TNN1-RIPE
+remarks:
+remarks:        ==========================================================================================
+remarks:
+remarks:        Communities applied at ingress
+remarks:
+remarks:        ==========================================================================================
+remarks:
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        country communities
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        21011:64804 - Ukraine
+remarks:        21011:64703 - Slovakia
+remarks:        21011:64276 - Germany
+remarks:        21011:64528 - Netherlands
+remarks:        21011:64643 - Russian Federation
+remarks:
+remarks:        ==========================================================================================
+remarks:
+remarks:        Communities accepted from customers
+remarks:
+remarks:        ==========================================================================================
+remarks:
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        customer TE communities - Prepending to AS21011 transits
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        65010:0   - announce to all uplinks.
+remarks:        65019:0   - not announce to all uplinks.
+remarks:        6501X:0   - announce to all uplinks with X=1,2,4 prepend, X=9 - not announce
+remarks:        6501X:YYY - announce to uplinks ASYYY with X=1,2,4 prepend, X=9 - not announce
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        customer TE communities - Prepending to AS21011 peers
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        65020:0   - announce to all peers.
+remarks:        65029:0   - not announce to all peers.
+remarks:        6502X:0   - announce to all peers with X=1,2,4 prepend, X=9 - not announce
+remarks:        6502X:YYY - announce to peer ASYYY with X=1,2,4 prepend, X=9 - not announce
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        customer TE communities - Local Preference
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        21011:1170      Set localpref to 170 (highest possible)
+remarks:        21011:1160      Set localpref to 160 (customer)
+remarks:        21011:1150      Set localpref to 150 (preferred private peering)
+remarks:        21011:1140      Set localpref to 140 (public peering)
+remarks:        21011:1130      Set localpref to 130 (backup private peering)
+remarks:        21011:1120      Set localpref to 120 (primary uplink)
+remarks:        21011:1110      Set localpref to 110 (backup uplink)
+remarks:        21011:1090      Set localpref to 90  (minimal,full backup)
+remarks:
+remarks:        ==========================================================================================
+remarks:        Looking glass - http://lg.topnet.ua
+remarks:        ==========================================================================================
+remarks:
+status:         ASSIGNED
+mnt-by:         TOPNET-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-01-24T14:02:17Z
+last-modified:  2017-11-15T09:16:30Z
+source:         RIPE
+
+organisation:   ORG-TL48-RIPE
+org-name:       "TOP NET" PJSC
+org-type:       LIR
+address:        31/33, Smolenskaya
+address:        03005
+address:        Kiev
+address:        UKRAINE
+phone:          +380445380008
+fax-no:         +380445380007
+admin-c:        CRF-RIPE
+admin-c:        SQV-RIPE
+abuse-c:        AR17455-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TOPNET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TOPNET-MNT
+created:        2005-12-07T11:11:12Z
+last-modified:  2019-01-24T15:48:34Z
+source:         RIPE # Filtered
+
+role:           TopNet NOC
+address:        31/33, Smolenskaya st
+address:        03005 Kiev
+address:        Ukraine
+remarks:        Office phone:
+phone:          +38044 538 0008
+remarks:        Tech Support phone:
+phone:          +38044 377 5575
+abuse-mailbox:  abuse@topnet.ua
+remarks:        Billing:                Vladimir.Krasnoshchok@datagroup.ua
+remarks:        Customer support:       support@topnet.ua
+remarks:        SPAM:                   abuse@topnet.ua
+remarks:        Routing and peering:    noc@topnet.ua
+remarks:        Mail:                   postmaster@topnet.ua
+remarks:        Network security:       security@topnet.ua
+tech-c:         SQV-RIPE
+tech-c:         CRF-RIPE
+tech-c:         AM2233-RIPE
+tech-c:         Vlas5-RIPE
+tech-c:         QBRO-RIPE
+nic-hdl:        TNN1-RIPE
+mnt-by:         TOPNET-MNT
+created:        2003-01-13T13:20:23Z
+last-modified:  2017-07-04T16:27:44Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

@@ -1,0 +1,141 @@
+aut-num:        AS25083
+as-name:        DECIX-PMO-AS
+descr:          DE-CIX Management GmbH
+descr:          DE-CIX Palermo
+descr:          IT
+org:            ORG-DtGI1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+notify:         notify-6695@de-cix.net
+mnt-by:         DECIX-MNT
+mnt-lower:      DECIX-MNT
+remarks:
+remarks:        You may use BGP (Extended) Communities to control
+remarks:        route advertisement via the Route Servers:
+remarks:
+remarks:        (25083:25083): Redistribute to all Route Server peers
+remarks:        (25083:$PEER-AS), (rt:25083:$PEER-AS): Redistribute to $PEER-AS
+remarks:        (0:$PEER-AS), (rt:0:$PEER-AS): Redistribute to all peers except $PEER-AS
+remarks:        (0:25083): Do not redistribute
+remarks:
+remarks:        If $PEER-AS uses a 2B ASN, you may use Standard or Extended Communities
+remarks:        If $PEER-AS uses a 4B ASN, you have to use Extended Communities
+remarks:
+remarks:        There are additional communities for controlling announcements:
+remarks:
+remarks:        65535:666  set community BLACKHOLE
+remarks:        25083:65281 set community NO-EXPORT
+remarks:        25083:65282 set community NO-ADVERTISE
+remarks:
+remarks:        For more information on Route Server control and Blackholing, please see:
+remarks:        https://portal.de-cix.net/home/documentation/routeserver-guides/
+remarks:        https://portal.de-cix.net/home/documentation/blackholing-guide/
+remarks:
+mp-import:      afi ipv6.unicast from AS6762   2001:7f8:32::1a6a:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS-SEABONE
+mp-export:      afi ipv6.unicast to   AS6762   2001:7f8:32::1a6a:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS6762   2001:7f8:32::1a6a:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS-SEABONE
+mp-export:      afi ipv6.unicast to   AS6762   2001:7f8:32::1a6a:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS6762   185.1.46.4                     at                   185.1.46.253 accept   AS-SEABONE
+export:         to   AS6762   185.1.46.4                     at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS6762   185.1.46.4                     at                   185.1.46.252 accept   AS-SEABONE
+export:         to   AS6762   185.1.46.4                     at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS7363   2001:7f8:32::1cc3:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS-YOMURA
+mp-export:      afi ipv6.unicast to   AS7363   2001:7f8:32::1cc3:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS7363   2001:7f8:32::1cc3:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS-YOMURA
+mp-export:      afi ipv6.unicast to   AS7363   2001:7f8:32::1cc3:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS7363   185.1.46.11                    at                   185.1.46.253 accept   AS-YOMURA
+export:         to   AS7363   185.1.46.11                    at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS7363   185.1.46.11                    at                   185.1.46.252 accept   AS-YOMURA
+export:         to   AS7363   185.1.46.11                    at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS7713   2001:7f8:32::1e21:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS7713:AS-TELKOM-TRANSIT
+mp-export:      afi ipv6.unicast to   AS7713   2001:7f8:32::1e21:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS7713   2001:7f8:32::1e21:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS7713:AS-TELKOM-TRANSIT
+mp-export:      afi ipv6.unicast to   AS7713   2001:7f8:32::1e21:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS7713   185.1.46.7                     at                   185.1.46.253 accept   AS7713:AS-TELKOM-TRANSIT
+export:         to   AS7713   185.1.46.7                     at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS7713   185.1.46.7                     at                   185.1.46.252 accept   AS7713:AS-TELKOM-TRANSIT
+export:         to   AS7713   185.1.46.7                     at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS12850  2001:7f8:32::1                 at         2001:7f8:32::61fb:fc:1 accept   AS-ENTER
+mp-export:      afi ipv6.unicast to   AS12850  2001:7f8:32::1                 at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS12850  2001:7f8:32::1                 at         2001:7f8:32::61fb:fd:1 accept   AS-ENTER
+mp-export:      afi ipv6.unicast to   AS12850  2001:7f8:32::1                 at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS12850  185.1.46.8                     at                   185.1.46.253 accept   AS-ENTER
+export:         to   AS12850  185.1.46.8                     at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS12850  185.1.46.8                     at                   185.1.46.252 accept   AS-ENTER
+export:         to   AS12850  185.1.46.8                     at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS15169  2001:7f8:32::3b41:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:7f8:32::3b41:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS15169  2001:7f8:32::3b41:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:7f8:32::3b41:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS15169  185.1.46.3                     at                   185.1.46.253 accept   AS-GOOGLE
+export:         to   AS15169  185.1.46.3                     at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS15169  185.1.46.3                     at                   185.1.46.252 accept   AS-GOOGLE
+export:         to   AS15169  185.1.46.3                     at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS16509  2001:7f8:32::407d:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS-AMAZON
+mp-export:      afi ipv6.unicast to   AS16509  2001:7f8:32::407d:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS16509  2001:7f8:32::407d:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS-AMAZON
+mp-export:      afi ipv6.unicast to   AS16509  2001:7f8:32::407d:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS16509  185.1.46.9                     at                   185.1.46.253 accept   AS-AMAZON
+export:         to   AS16509  185.1.46.9                     at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS16509  185.1.46.9                     at                   185.1.46.252 accept   AS-AMAZON
+export:         to   AS16509  185.1.46.9                     at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS22822  2001:7f8:32::5926:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS-LLNW
+mp-export:      afi ipv6.unicast to   AS22822  2001:7f8:32::5926:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS22822  2001:7f8:32::5926:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS-LLNW
+mp-export:      afi ipv6.unicast to   AS22822  2001:7f8:32::5926:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS22822  185.1.46.1                     at                   185.1.46.253 accept   AS-LLNW
+export:         to   AS22822  185.1.46.1                     at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS22822  185.1.46.1                     at                   185.1.46.252 accept   AS-LLNW
+export:         to   AS22822  185.1.46.1                     at                   185.1.46.252 announce AS-DECIX-PMO
+import:         from AS25083  185.1.46.249                   at                   185.1.46.252 accept   AS-NADA
+export:         to   AS25083  185.1.46.249                   at                   185.1.46.252 announce AS-DECIX-PMO
+import:         from AS25083  185.1.46.249                   at                   185.1.46.253 accept   AS-NADA
+export:         to   AS25083  185.1.46.249                   at                   185.1.46.253 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS25083  2001:7f8:32::61fb:f9:1         at         2001:7f8:32::61fb:fc:1 accept   AS-NADA
+mp-export:      afi ipv6.unicast to   AS25083  2001:7f8:32::61fb:f9:1         at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS25083  2001:7f8:32::61fb:f9:1         at         2001:7f8:32::61fb:fd:1 accept   AS-NADA
+mp-export:      afi ipv6.unicast to   AS25083  2001:7f8:32::61fb:f9:1         at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS32934  2001:7f8:32::80a6:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS-FACEBOOK
+mp-export:      afi ipv6.unicast to   AS32934  2001:7f8:32::80a6:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS32934  2001:7f8:32::80a6:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS-FACEBOOK
+mp-export:      afi ipv6.unicast to   AS32934  2001:7f8:32::80a6:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS32934  185.1.46.12                    at                   185.1.46.253 accept   AS-FACEBOOK
+export:         to   AS32934  185.1.46.12                    at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS32934  185.1.46.12                    at                   185.1.46.252 accept   AS-FACEBOOK
+export:         to   AS32934  185.1.46.12                    at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS37693  2001:7f8:32::933d:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS-SET-OOREDOO
+mp-export:      afi ipv6.unicast to   AS37693  2001:7f8:32::933d:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS37693  2001:7f8:32::933d:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS-SET-OOREDOO
+mp-export:      afi ipv6.unicast to   AS37693  2001:7f8:32::933d:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS37693  185.1.46.6                     at                   185.1.46.253 accept   AS-SET-OOREDOO
+export:         to   AS37693  185.1.46.6                     at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS37693  185.1.46.6                     at                   185.1.46.252 accept   AS-SET-OOREDOO
+export:         to   AS37693  185.1.46.6                     at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS42473  2001:7f8:32::a5e9:0:1          at         2001:7f8:32::61fb:fc:1 accept   AS-ANEXIA
+mp-export:      afi ipv6.unicast to   AS42473  2001:7f8:32::a5e9:0:1          at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS42473  2001:7f8:32::a5e9:0:1          at         2001:7f8:32::61fb:fd:1 accept   AS-ANEXIA
+mp-export:      afi ipv6.unicast to   AS42473  2001:7f8:32::a5e9:0:1          at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS42473  185.1.46.2                     at                   185.1.46.253 accept   AS-ANEXIA
+export:         to   AS42473  185.1.46.2                     at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS42473  185.1.46.2                     at                   185.1.46.252 accept   AS-ANEXIA
+export:         to   AS42473  185.1.46.2                     at                   185.1.46.252 announce AS-DECIX-PMO
+mp-import:      afi ipv6.unicast from AS196753 2001:7f8:32:0:3:91:0:1         at         2001:7f8:32::61fb:fc:1 accept   AS196753:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS196753 2001:7f8:32:0:3:91:0:1         at         2001:7f8:32::61fb:fc:1 announce AS-DECIX-PMO-V6
+mp-import:      afi ipv6.unicast from AS196753 2001:7f8:32:0:3:91:0:1         at         2001:7f8:32::61fb:fd:1 accept   AS196753:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS196753 2001:7f8:32:0:3:91:0:1         at         2001:7f8:32::61fb:fd:1 announce AS-DECIX-PMO-V6
+import:         from AS196753 185.1.46.13                    at                   185.1.46.253 accept   AS196753:AS-CUSTOMERS
+export:         to   AS196753 185.1.46.13                    at                   185.1.46.253 announce AS-DECIX-PMO
+import:         from AS196753 185.1.46.13                    at                   185.1.46.252 accept   AS196753:AS-CUSTOMERS
+export:         to   AS196753 185.1.46.13                    at                   185.1.46.252 announce AS-DECIX-PMO
+created:        2015-07-01T07:45:19Z
+last-modified:  2018-07-20T14:33:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

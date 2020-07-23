@@ -1,0 +1,164 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS21453
+as-name:       FLEX-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS1299 action pref=100; accept ANY
+import:        from AS20764 action pref=100; accept ANY
+import:        from AS12389 action pref=100; accept ANY
+import:        from AS25532 action pref=100; accept AS-MASTERHOST
+import:        from AS8641 action pref =100; accept ANY
+import:        from AS29076 action pref =100; accept ANY
+import:        from AS9002 action pref=100; accept ANY
+import:        from AS25478 action pref=100; accept ANY
+import:        from AS50384 action pref=100; accept ANY
+import:        from AS2820 action pref=101; accept AS-ELVIS
+import:        from AS3267 action pref=101; accept AS-RUNNET
+import:        from AS8470 action pref=101; accept AS-MACOMNET
+import:        from AS8557 action pref=101; accept AS-ELKATEL
+import:        from AS8631 action pref=101; accept AS-MSKROUTESERVER
+import:        from AS12695 action pref=101; accept AS-DINET
+import:        from AS13238 action pref=101; accept AS-YANDEX
+import:        from AS20483 action pref=101; accept AS20483:RS-ECNET
+import:        from AS20985 action pref=101; accept AS-ARTX
+import:        from AS9056 action pref=300; accept AS9056
+import:        from AS35271 action pref=300; accept AS35271
+import:        from AS41783 action pref=300; accept AS41783:AS-CUSTOMERS
+import:        from AS47321 action pref=300; accept AS47321
+import:        from AS48149 action pref=300; accept AS48149
+import:        from AS42002 action pref=300; accept AS42002
+import:        from AS34975 action pref=300; accept AS34975
+import:        from AS48939 action pref=300; accept AS-NTK
+import:        from AS48678 action pref=300; accept AS48678
+import:        from AS50289 action pref=300; accept AS-WELLCOMM
+import:        from AS48939 action pref=300; accept AS48939
+import:        from AS49608 action pref=300; accept AS49608
+import:        from AS51547 action pref=300; accept AS51547
+import:        from AS47564 action pref=300; accept AS47564
+import:        from AS57489 action pref=300; accept AS57489
+import:        from AS51230 action pref=300; accept AS-ROSINTEH
+import:        from AS50626 action pref=300; accept AS-ROSINTEH
+import:        from AS49893 action pref=300; accept AS-BITRACE
+import:        from AS44619 action pref=300; accept AS44619
+export:        to AS1299 announce AS-FLEX
+export:        to AS20764 announce AS-FLEX
+export:        to AS12389 announce AS-FLEX
+export:        to AS25532 announce AS-FLEX
+export:        to AS8641 announce AS-FLEX
+export:        to AS29076 announce AS-FLEX
+export:        to AS9002 announce AS-FLEX
+export:        to AS25478 announce AS-FLEX
+export:        to AS50384 announce AS-FLEX
+export:        to AS2820 announce AS-FLEX
+export:        to AS3267 announce AS-FLEX
+export:        to AS8470 announce AS-FLEX
+export:        to AS8557 announce AS-FLEX
+export:        to AS8631 announce AS-FLEX
+export:        to AS12695 announce AS-FLEX
+export:        to AS13238 announce AS-FLEX
+export:        to AS20483 announce AS-FLEX
+export:        to AS20985 announce AS-FLEX
+export:        to AS9056 announce ANY
+export:        to AS35271 announce ANY
+export:        to AS41783 announce ANY
+export:        to AS47321 announce ANY
+export:        to AS48149 announce ANY
+export:        to AS42002 announce ANY
+export:        to AS34975 announce ANY
+export:        to AS48939 announce ANY
+export:        to AS48678 announce ANY
+export:        to AS50289 announce ANY
+export:        to AS48939 announce ANY
+export:        to AS49608 announce ANY
+export:        to AS51547 announce ANY
+export:        to AS47564 announce ANY
+export:        to AS57489 announce ANY
+export:        to AS51230 announce ANY
+export:        to AS50626 announce ANY
+export:        to AS49893 announce ANY
+export:        to AS44619 announce ANY
+remarks:       -----------------------------
+remarks:       IPv4 routing policy
+remarks:       -----------------------------
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Upstream
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       TELIA-AS
+remarks:       RASCOM-AS
+remarks:       ROSTELECOM-AS
+remarks:       MASTERHOST-AS
+remarks:       NAUKANET-AS
+remarks:       CITYTELECOM-AS
+remarks:       RETN-AS
+remarks:       I-HOME
+remarks:       W-IX
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-
+remarks:       Peering
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-
+remarks:       Downstream
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-
+remarks:       PSN-AS
+remarks:       AVIEL-AS
+remarks:       ITAEC-AS
+remarks:       IIF-AS
+remarks:       ITKM-AS
+remarks:       SYMBIOS2-AS
+remarks:       AZIMUTR-AS
+remarks:       NTK-AS
+remarks:       BMB-AS
+remarks:       WELLCOMM-AS
+remarks:       NTK-AS
+remarks:       ALDIS-AS
+remarks:       GARASTEL-AS
+remarks:       TONUS-AS
+remarks:       TELECOM-USLUGI-AS
+remarks:       CIFRABAR-AS
+remarks:       RRS_LTD-AS
+remarks:       BITRACE-AS
+remarks:       IT-TELECOM-AS
+remarks:       -----------------------------
+remarks:       IPv6 routing policy
+remarks:       -----------------------------
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Upstream
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-
+remarks:       Peering
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-
+remarks:       Downstream
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-
+remarks:       ==========================================================
+remarks:       BGP community accepted only from customers
+remarks:       ==========================================================
+remarks:       21453:100x When advertising to MSK-IX peers
+remarks:       21453:110x When advertising to Telia
+remarks:       21453:120x When advertising to Rascom
+remarks:       21453:130x When advertising to CityTelecom
+remarks:       21453:140x When advertising to NSV
+remarks:       21453:150x When advertising to RT
+remarks:       21453:160x When advertising to MH
+remarks:       21453:170x When advertising to W-IX
+remarks:       21453:180x When advertising to DataIX
+remarks:       21453:190x When advertising to RETN
+remarks:       21453:200x When advertising to GlobalIX
+remarks:       ...x=0 - do not advertise
+remarks:       ...x=1,2 or 3 - prepend 21453 1,2 or 3 times
+remarks:       21453:0 Set localpref 50
+remarks:       21453:666 blackhole for /32
+remarks:       ==========================================================
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        FLEX-MNT
+source:        RIPE
+
+

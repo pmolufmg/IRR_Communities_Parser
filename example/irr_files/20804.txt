@@ -1,0 +1,221 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20804'
+
+% Abuse contact for 'AS20804' is 'abuse@exatel.pl'
+
+aut-num:        AS20804
+as-name:        ASN-TELENERGO
+org:            ORG-TS16-RIPE
+descr:          ul. PERKUNA 47, WARSZAWA
+descr:          POLAND
+import:         from AS5617 action pref=70; accept ANY
+import:         from AS8545 action pref=85; accept ANY
+import:         from AS44896 action pref=85; accept ANY
+import:         from AS29535 action pref=85; accept ANY
+import:         from AS50607 action pref=85; accept ANY
+import:         from AS6777 action pref=85; accept ANY
+import:         from AS24748 action pref=85; accept ANY
+import:         from AS2914 action pref=60; accept ANY
+import:         from AS56682 action pref=85; accept ANY
+import:         from AS15169 action pref=85; accept ANY
+import:         from AS21357 action pref=85; accept ANY
+import:         from AS16138 action pref=85; accept ANY
+import:         from AS1299 action pref=85; accept ANY
+import:         from AS6830 action pref=85; accept ANY
+import:         from AS8714 action pref=80; accept ANY
+import:         from AS34307 action pref=80; accept ANY
+import:         from AS6695 action pref=80; accept ANY
+import:         from AS31210 action pref=85; accept ANY
+import:         from AS8631 action pref=85; accept ANY
+import:         from AS63293 action pref=85; accept ANY
+export:         to AS8545 announce AS-EXATEL-INT
+export:         to AS5617 announce AS-EXATEL-PL
+export:         to AS44896 announce AS-EXATEL-INT
+export:         to AS29535 announce AS-EXATEL-PL
+export:         to AS50607 announce AS-EXATEL-PL
+export:         to AS6777 announce AS-EXATEL-INT
+export:         to AS24748 announce AS-EXATEL-INT
+export:         to AS2914 announce AS-EXATEL-INT
+export:         to AS15169 announce AS-EXATEL-INT
+export:         to AS21357 announce AS-EXATEL-INT
+export:         to AS56682 announce AS-EXATEL-PL
+export:         to AS16138 announce AS-EXATEL-PL
+export:         to AS1299 announce AS-EXATEL-INT
+export:         to AS6380 announce AS-EXATEL-INT
+export:         to AS8714 announce AS-EXATEL-INT
+export:         to AS34307 announce AS-EXATEL-INT
+export:         to AS6695 announce AS-EXATEL-INT
+export:         to AS31210 announce AS-EXATEL-INT
+export:         to AS8631 announce AS-EXATEL-INT
+export:         to AS63293 announce AS-EXATEL-INT
+admin-c:        TNRG1-RIPE
+tech-c:         TNRG1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-EXATEL
+remarks:        ----------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT FOR AS20804 BGP CUSTOMERS:
+remarks:
+remarks:        Community Action
+remarks:        ----------------------------------------------------
+remarks:        20804:50 Set local pref 50 (e.g. for backup routes)
+remarks:        20804:96 Don't advertise to global upstream providers
+remarks:        20804:97 Don't advertise to polish upstream providers
+remarks:        20804:98 Don't advertise to peering partners
+remarks:        20804:99 Don't advertise anywhere
+remarks:
+remarks:        20804:100 Don't advertise to POLPAK [AS5617]
+remarks:        20804:10x Prepend x times with AS20804 to POLPAK
+remarks:
+remarks:        20804:110 Don't advertise to INTERIA.PL [AS56682&AS16138]
+remarks:        20804:11x Prepend x times with AS20804 to INTERIA.PL
+remarks:
+remarks:        20804:120 Don't advertise to UPC POLSKA/LIBERTY GLOBAL [AS6830]
+remarks:        20804:12x Prepend x times with AS20804 to UPC POLSKA/LIBERTY GLOBAL
+remarks:
+remarks:        20804:200 Don't advertise to PL-IX X-NET [AS8545]
+remarks:        20804:20x Prepend x times with AS20804 to PL-IX
+remarks:
+remarks:        20804:220 Don't advertise to LINX-NET [AS8714]
+remarks:        20804:22x Prepend x times with AS20804 to LINX-NET
+remarks:
+remarks:        20804:310 Don't advertise to GOOGLE GLOBAL CACHE [AS15169]
+remarks:        20804:31x Prepend x times with AS20804 to GOOGLE GLOBAL CACHE
+remarks:
+remarks:        20804:320 Don't advertise to GOOGLE PEERING [AS15169]
+remarks:        20804:32x Prepend x times with AS20804 to GOOGLE PEERING
+remarks:
+remarks:        20804:330 Don't advertise to NL-IX [AS34307]
+remarks:        20804:33x Prepend x times with AS20804 to NL-IX
+remarks:
+remarks:        20804:400 Don't advertise to TP-IX [AS29535]
+remarks:        20804:40x Prepend x times with AS20804 to TP-IX
+remarks:
+remarks:        20804:410 Don't advertise to AKAMAI CACHE [AS21357]
+remarks:        20804:41x Prepend x times with AS20804 to AKAMAI CACHE
+remarks:
+remarks:        20804:420 Don't advertise to AS-DTEL-IX [AS31210]
+remarks:        20804:42x Prepend x times with AS20804 to AS-DTEL-IX
+remarks:
+remarks:        20804:430 Don't advertise to FACEBOOK-CACHE [AS63293]
+remarks:        20804:43x Prepend x times with AS20804 to FACEBOOK-CACHE
+remarks:
+remarks:        20804:510 Don't advertise to ONET [AS12990]
+remarks:        20804:51x Prepend x times with AS20804 to ONET
+remarks:
+remarks:        20804:510 Don't advertise to KRK-IX [AS30876]
+remarks:        20804:51x Prepend x times with AS20804 to KRK-IX
+remarks:
+remarks:        20804:600 Don't advertise to PIX [AS44896]
+remarks:        Poznan Internet Exchange
+remarks:        20804:60x Prepend x times with AS20804 to PIX
+remarks:
+remarks:        20804:70x Prepend x times with AS20804 to TELIA
+remarks:        20804:700 Don't advertise to TELIA [AS1299]
+remarks:
+remarks:        20804:710 Don't advertise to ATMAN [AS24748]
+remarks:        20804:71x Prepend x times with AS20804 to ATMAN
+remarks:
+remarks:        20804:800 Don't advertise to DE-CIX members
+remarks:        20804:80x Prepend x times with AS20804 to DE-CIX
+remarks:
+remarks:        20804:810 Don't advertise to AMS-IX members
+remarks:        20804:81x Prepend x times with AS20804 to AMS-IX
+remarks:
+remarks:        20804:910 Don't advertise to NTT Communication [AS2914]
+remarks:        20804:91x Prepend x times with AS20804 to NTT Communication
+remarks:
+remarks:        20804:920 Don't advertise to MSK-IX [AS8631]
+remarks:        20804:92x Prepend x times with AS20804 to MSK-IX
+remarks:        ***********************************************
+remarks:        20804:666 - blackhole (discard) traffic
+remarks:        ***********************************************
+remarks:        Customer traffic engineering communities - Blackhole
+remarks:        Traffic destined for any prefixes tagged with this
+remarks:        community will be discarded at ingress to the Exatel
+remarks:        network. The prefix must be one permitted by the
+remarks:        customer's existing ingress BGP filter. Exatel will accept only
+remarks:        /32 prefix with this community
+remarks:        ***********************************************
+remarks:        -------------------------------------------------------
+remarks:        All RFC1997 communities are supported.
+remarks:        -------------------------------------------------------
+remarks:        general information and customer care mailto:bok@exatel.pl
+remarks:        peering and BGP issues - mailto:bgp@exatel.pl
+remarks:        abuse and bug reports - mailto:abuse@exatel.pl
+remarks:        registry contact - mailto:registry@exatel.pl
+remarks:        ************************************
+created:        2002-08-29T08:21:34Z
+last-modified:  2019-01-14T12:06:55Z
+source:         RIPE
+
+organisation:   ORG-TS16-RIPE
+org-name:       Exatel S.A.
+org-type:       LIR
+address:        ul.Perkuna 47
+address:        04-164
+address:        Warszawa
+address:        POLAND
+phone:          +48223406050
+fax-no:         +48223406022
+admin-c:        IG346-RIPE
+abuse-c:        AE3653-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-EXATEL
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-EXATEL
+created:        2004-04-17T11:48:12Z
+last-modified:  2018-03-07T12:44:03Z
+source:         RIPE # Filtered
+
+role:           TELENERGO CORE IP NETWORK ADMINISTRATORS
+address:        Exatel S.A.
+address:        ul. Perkuna 47
+address:        04-164 Warszawa
+address:        POLAND
+phone:          +48 (22) 340 6050
+fax-no:         +48 (22) 340 6363
+remarks:        trouble: general information and customer care - mailto:bok@exatel.pl
+remarks:        trouble: peering and BGP issues - mailto:bgp@exatel.pl
+remarks:        trouble: abuse and bug reports - mailto:abuse@exatel.pl
+remarks:        trouble: registry contact - mailto:ripe@exatel.pl
+remarks:        Exatel Looking Glass: http://lg.exatel.pl/lg
+admin-c:        IG346-RIPE
+tech-c:         IG346-RIPE
+tech-c:         BP379-RIPE
+tech-c:         ML4998-RIPE
+tech-c:         JM2846-RIPE
+tech-c:         RA9071-RIPE
+nic-hdl:        TNRG1-RIPE
+mnt-by:         MNT-EXATEL
+created:        2002-11-27T16:48:25Z
+last-modified:  2017-10-17T08:49:11Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

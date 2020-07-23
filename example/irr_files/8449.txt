@@ -1,0 +1,105 @@
+aut-num:        AS8449
+as-name:        AS8449-ELCAT
+org:            ORG-JVf1-RIPE
+import:         from AS12997 action pref=100; accept ANY
+import:         from AS3216 action pref=100; accept ANY
+import:         from AS25478 action pref=100; accept ANY
+import:         from AS48887 action pref=100; accept AS48887
+import:         from AS47139 action pref=100; accept AS47139
+import:         from AS35168 action pref=100; accept ANY
+import:         from AS41329 action pref=200; accept AS41329
+import:         from AS48271 action pref=200; accept AS48271
+import:         from AS50251 action pref=200; accept AS50251
+import:         from AS39819 action pref=200; accept AS39819
+import:         from AS25035 action pref=200; accept AS25035
+import:         from AS50223 action pref=200; accept AS50223
+import:         from AS8511 action pref=200; accept AS-ASIAINFO
+import:         from AS59527 action pref=200; accept AS-ISPACE-KG
+import:         from AS8631 action pref=200; accept AS-MSKROUTESERVER
+import:         from AS57096 action pref=200; accept AS-GAT-PEERS
+import:         from AS24722 action pref=200; accept AS-BABILON
+import:         from AS8847 action pref=200; accept AS-TTLTJ
+import:         from AS43197 action pref=200; accept AS-TT-Mobile
+import:         from AS55330 action pref=200; accept AS-SET-55330
+import:         from AS44027 action pref=200; accept AS-SET-SATURN
+import:         from AS47782 action pref=200; accept AS47782
+import:         from AS41271 action pref=200; accept AS41271
+import:         from AS60515 action pref=200; accept AS60515
+import:         from AS12764 action pref=200; accept AS12764
+import:         from AS44027 action pref=200; accept AS44027
+import:         from AS197119 action pref=200; accept AS197119
+import:         from AS47237 action pref=300; accept AS47237
+import:         from AS47237 action pref=300; accept AS50251
+import:         from AS51346 action pref=300; accept AS-SET-TajikTelecom
+import:         from AS59684 action pref=300; accept AS59684
+import:         from AS28910 action pref=300; accept AS-INTAL
+import:         from AS61010 action pref=300; accept AS-IPNETPEERS-1
+import:         from AS35104  action pref=100; accept ANY
+mp-import:      afi ipv6.unicast from AS47237 accept AS47237
+mp-import:      afi ipv6.unicast from AS50223 accept AS-AS50223-v6-PEERS
+mp-import:      afi ipv6.unicast from AS35104 accept ANY
+export:         to AS3356 announce AS-ELCAT
+mp-export:      afi ipv6.unicast to AS3356 announce AS-ELCAT-v6
+mp-export:      afi ipv6.unicast to AS50223 announce ANY
+export:         to AS12997 announce AS-ELCAT
+export:         to AS3216 announce AS-ELCAT
+export:         to AS35168 announce AS-ELCAT
+export:         to AS50384 announce AS-ELCAT
+mp-export:      afi ipv6.unicast to AS50384 announce AS-ELCAT-v6
+export:         to AS25478 announce AS-ELCAT
+mp-export:      afi ipv6.unicast to AS25478 announce AS-ELCAT-v6
+export:         to AS8631 announce AS-ELCAT
+mp-export:      afi ipv6.unicast to AS8631 announce AS-ELCAT-v6
+export:         to AS41329 announce ANY
+export:         to AS48271 announce ANY
+export:         to AS50251 announce ANY
+export:         to AS39819 announce ANY
+export:         to AS50223 announce ANY
+export:         to AS59527 announce ANY
+export:         to AS57096 announce ANY
+export:         to AS48887 announce ANY
+export:         to AS47139 announce ANY
+export:         to AS24722 announce ANY
+export:         to AS47782 announce ANY
+export:         to AS41271 announce ANY
+export:         to AS60515 announce ANY
+export:         to AS8847 announce ANY
+export:         to AS8511 announce ANY
+export:         to AS43197 announce ANY
+export:         to AS12764 announce ANY
+export:         to AS25035 announce ANY
+export:         to AS197119 announce ANY
+export:         to AS55330 announce ANY
+export:         to AS50952 announce AS-ELCAT
+export:         to AS35104 announce AS-ELCAT
+export:         to AS51346 announce ANY
+export:         to AS61010 announce ANY
+export:         to AS28910 announce ANY
+export:         to AS59684 announce ANY
+mp-export:      afi ipv6.unicast to AS50952 announce AS-ELCAT-v6
+mp-export:      afi ipv6.unicast to AS35104  announce AS-ELCAT-v6
+export:         to AS47237 announce ANY
+export:         to AS51346 announce ANY
+mp-export:      afi ipv6.unicast to AS47237 announce ANY
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+notify:         hostmaster@elcat.kg
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ELCAT-RIPE-MNT
+mnt-routes:     ELCAT-RIPE-MNT
+mnt-routes:     KTNET-MNT
+remarks:        --------------------------------------------------
+remarks:        BGP community list:
+remarks:        8449:666 - blackhole.
+remarks:        -------------------------------------------------
+created:        2001-11-29T15:14:56Z
+last-modified:  2018-07-26T10:46:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

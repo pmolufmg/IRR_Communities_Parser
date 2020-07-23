@@ -1,0 +1,92 @@
+aut-num:        AS42739
+as-name:        FONE-ASN
+org:            ORG-FSzo2-RIPE
+remarks:        UPLINKS
+import:         from AS174 accept ANY
+import:         from AS2914 accept ANY
+import:         from AS8545 accept AS-PLIX
+import:         from AS12741 accept AS-NETIA
+import:         from AS24724 accept ANY
+import:         from AS5617 accept AS-TPNET
+import:         from AS29535 accept AS-TPIX
+import:         from AS44896 accept AS-PIX
+import:         from AS8354 accept ANY
+import:         from AS9002 accept ANY
+import:         from AS3257 accept ANY
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS48850 accept AS-KIKE
+import:         from AS24748 accept AS-THINX
+import:         from AS5588 accept AS-GTS-CE
+export:         to AS174 announce AS-HAWE-ALL
+export:         to AS2914 announce AS-HAWE-ALL
+export:         to AS8545 announce AS-HAWE-ALL
+export:         to AS12741 announce AS-HAWE-ALL
+export:         to AS24724 announce AS-HAWE-ALL
+export:         to AS5617 announce AS-HAWE-ALL
+export:         to AS29535 announce AS-HAWE-ALL
+export:         to AS44896 announce AS-HAWE-ALL
+export:         to AS8354 announce AS-HAWE-ALL
+export:         to AS9002 announce AS-HAWE-ALL
+export:         to AS3257 announce AS-HAWE-ALL
+export:         to AS6939 announce AS-HAWE-ALL
+export:         to AS48850 announce AS-HAWE-ALL
+export:         to AS24748 announce AS-HAWE-ALL
+export:         to AS5588 announce AS-HAWE-ALL
+remarks:        AS advertised by HAWE Telekom are listed in AS-HAWE-ALL
+remarks:        ____________________________________________________
+remarks:        COMMUNITY BGP
+remarks:        Location communities assigned by HAWE Telekom
+remarks:        42739:1001 - POP_Poznan
+remarks:        42739:1002 - POP_Warszawa
+remarks:        42739:1003 - POP_Szczecin
+remarks:        42739:1004 - POP_Sochaczew
+remarks:        42739:1005 - POP_Konin
+remarks:        42739:1006 - POP_Gdansk
+remarks:        42739:1007 - POP_Lublin
+remarks:        42739:1008 - POP_Zamosc
+remarks:        42739:1009 - POP_Rzeszow
+remarks:        42739:1010 - POP_Elbl?g
+remarks:        42739:1011 - POP_Olsztyn
+remarks:        42739:1012 - POP_Suwalki
+remarks:        42739:1013 - POP_Bialystok
+remarks:        42739:1014 - POP_Tarnow
+remarks:        42739:1015 - POP_Krakow
+remarks:        42739:1016 - POP_Gorzow
+remarks:        42739:1017 - POP_Biala_Podlaska
+remarks:        42739:1018 - POP_Katowice
+remarks:        ____________________________________________________
+remarks:        Communities accepted from customers
+remarks:        Traffic engineering communities
+remarks:        42739:10000 - Do not announce to GLOBAL UPLINKs
+remarks:        42739:10001 - Prepend 1x to GLOBAL UPLINKs
+remarks:        42739:10002 - Prepend 2x to GLOBAL UPLINKs
+remarks:        42739:10003 - Prepend 3x to GLOBAL UPLINKs
+remarks:        42739:20000 - Do not announce to TPSA
+remarks:        42739:20001 - Prepend 1x to TPSA
+remarks:        42739:20002 - Prepend 2x to TPSA
+remarks:        42739:20003 - Prepend 3x to TPSA
+remarks:        42739:50000 - Do not announce to Google Global Cache
+remarks:        42739:50001 - Prepend 1x to Google Global Cache
+remarks:        42739:50002 - Prepend 2x to Google Global Cache
+remarks:        42739:50003 - Prepend 3x to Google Global Cache
+remarks:        BLACKHOLE communities
+remarks:        42739:667 - block traffic origin from Cogent, GTT
+remarks:        42739:668 - block all traffic
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-FONE
+mnt-by:         MNT-HAWE
+mnt-routes:     MNT-FONE
+mnt-routes:     MNT-HAWE
+created:        2007-04-10T11:44:54Z
+last-modified:  2018-02-09T08:16:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

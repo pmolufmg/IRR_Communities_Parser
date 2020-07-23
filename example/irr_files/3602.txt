@@ -1,0 +1,50 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS3602
+as-name:       ASN-ROGERSTELECOM1
+descr:         Rogers Telecom Backbone Network
+admin-c:       NOC71-ORG-ARIN
+tech-c:        NOC71-ORG-ARIN
+import:        from AS-ANY  accept ANY AND NOT {0.0.0.0/0}
+export:        to AS3602:AS-UPSTREAMS  announce AS3602:AS-ROGERS
+               AND AS3602:RS-ROGERS
+export:        to AS3602:AS-PEERS  announce AS3602:AS-ROGERS
+               AND AS3602:RS-ROGERS
+export:        to AS3602:AS-CUSTOMERS  announce ANY
+remarks:       ............................................
+remarks:       . BGP ADMINS: bgpchange@rogerstelecom.net  .
+remarks:       .      ABUSE: abuse@rogerstelecom.net      .
+remarks:       .        NOC: noc@rogerstelecom.net        .
+remarks:       .                                          .
+remarks:       .    Looking                               .
+remarks:       .      Glass: http://ops.rogerstelecom.net .
+remarks:       ............................................
+remarks:       ...... BGP Communities (received) ..........
+remarks:       ..... to allow Customers to set the ........
+remarks:       ... following on the Rogers Telecom side ...
+remarks:       .                                          .
+remarks:       .   3602:70  set local preference 70       .
+remarks:       .   3602:80  set local preference 80       .
+remarks:       .   3602:90  set local preference 90       .
+remarks:       .   3602:110 set local preference 110      .
+remarks:       .   3602:666 /32 blackholing of a /32      .
+remarks:       .            on the customers network      .
+remarks:       ............................................
+remarks:       ........... BGP Communities (sent) .........
+remarks:       ........ to allow Customers/Peers to .......
+remarks:       . make decisions on their outbound traffic .
+remarks:       .                                          .
+remarks:       .   3602:65007 Customer Prefixes East      .
+remarks:       .   3602:65008 Customer Prefixes West      .
+remarks:       .   3602:65009 Upstream Prefixes East      .
+remarks:       .   3602:65010 Upstream Prefixes West      .
+remarks:       .   3602:65011 Private Peer Prefixes East  .
+remarks:       .   3602:65012 Private Peer Prefixes West  .
+remarks:       ............................................
+notify:        noc@rogerstelecom.net
+mnt-by:        MAINT-AS3602
+changed:       noc@rogerstelecom.net 20050824
+source:        ROGERS
+
+

@@ -1,0 +1,169 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS42383 - AS45055'
+
+as-block:       AS42383 - AS45055
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS44530'
+
+% Abuse contact for 'AS44530' is 'abuse@hopus.net'
+
+aut-num:        AS44530
+as-name:        HOPUS
+descr:          HOPUS SAS
+remarks:        --------------------------------------------------
+remarks:
+remarks:        http://hopus.net/
+remarks:        Meet networks that matter
+remarks:
+remarks:        --- BGP Communities ---
+remarks:
+remarks:        44530:1   HOPUS Internal route (should be accepted)
+remarks:        44530:2   learned on TeleHouse 2 Paris
+remarks:        44530:3   learned on Iliad DC3 MMR2 Vitry
+remarks:        44530:4   learned on Iliad DC3 MMR1 Vitry
+remarks:        44530:5   learned on Equinix PA2/PA3 St Denis
+remarks:        44530:6   learned on SFR Netcenter Lyon/Venissieux
+remarks:        44530:7   learned on Equinix GV1 Geneva
+remarks:        44530:8   learned on NIKHEF Amsterdam
+remarks:        44530:9   learned on InterXion FRA-3 Frankfurt
+remarks:        44530:10  learned on EvoSwitch AMS1 Amsterdam
+remarks:        44530:11  learned on InterXion MRS1 Marseille
+remarks:        44530:12  learned on SFR Netcenter CBV Courbevoie
+remarks:        44530:99  learned from a member (aka all members)
+remarks:
+remarks:        Origin country :
+remarks:        44530:1xyz  xyz is ISO 3166-1 numeric country code
+remarks:        44530:1250  Route learned in France
+remarks:        44530:1276  Route learned in Germany
+remarks:        44530:1528  Route learned in Netherlands
+remarks:        44530:1756  Route learned in Switzerland
+remarks:
+remarks:        Member settable communities :
+remarks:        44530:0     Blackhole
+remarks:        65535:666   Blackhole (RFC7999 compliant)
+remarks:        44530:65281 Reannonce with NO_EXPORT well-known comm.
+remarks:
+remarks:        --------------------------------------------------
+export:         to AS44530:AS-MEMBERS announce AS-HOPUS
+import:         from AS3215 accept AS44530:AS-ORANGE
+import:         from AS3303 accept AS-SWCMGLOBAL
+import:         from AS3320 accept AS3320:AS-DTAG
+import:         from AS4134 accept AS-CN
+import:         from AS5410 accept AS-BOUYGTEL-ISP
+import:         from AS6830 accept AS-AORTA
+import:         from AS8218 accept AS-NEOT
+import:         from AS8487 accept AS-PHIBEE-TELECOM
+import:         from AS8839 accept AS-SDV
+import:         from AS9036 accept AS-NEURONNEXION
+import:         from AS12322 accept AS-PROXAD
+import:         from AS12876 accept AS12876
+import:         from AS12956 accept AS-TDATANET
+import:         from AS15557 accept AS-LDCOMNET
+import:         from AS20766 accept AS-GITOYEN
+import:         from AS25091 accept AS-IP-MAX
+import:         from AS29075 accept AS-IELO
+import:         from AS29169 accept AS-GANDI
+import:         from AS29222 accept AS29222:AS-INFOMANIAK
+import:         from AS29467 accept AS-LUXNETWORK
+import:         from AS30889 accept AS-WAYCOM
+import:         from AS31216 accept AS-BSOCOM
+import:         from AS31564 accept AS-HEXAGLOBE
+import:         from AS33891 accept AS-CORE-BACKBONE
+import:         from AS34019 accept AS-HIVANE
+import:         from AS34177 accept AS-CELESTE
+import:         from AS35280 accept AS-ACORUS
+import:         from AS35393 accept AS-EUROWEB
+import:         from AS35625 accept AS-ATE
+import:         from AS39180 accept AS-LASOTEL
+import:         from AS39605 accept AS-IGUANE
+import:         from AS41157 accept AS-OXYMIUM
+import:         from AS41690 accept AS-DAILYMOTION
+import:         from AS41690 accept AS-DAILYMOTION
+import:         from AS43930 accept AS-FTVDN
+import:         from AS44141 accept AS-DEVCLIC
+import:         from AS44994 accept AS-IPEVA
+import:         from AS48526 accept AS-TANGO
+import:         from AS50032 accept AS-FOTOLIA
+import:         from AS50628 accept AS-LEONIX
+import:         from AS51269 accept AS-HEXATOM
+import:         from AS52075 accept AS-WIFIRST
+import:         from AS57928 accept AS-PRODWARE
+import:         from AS58453 accept AS58453:AS-AsiaASCUST
+import:         from AS59689 accept AS-KEYADE
+import:         from AS60032 accept AS-CoriolisCS
+import:         from AS60068 accept AS-CDN77
+import:         from AS60362 accept AS-ALWAYSDATA
+import:         from AS62000 accept AS-NETRIX
+import:         from AS64476 accept AS-BLADE
+import:         from AS64476 accept AS-BLADE
+import:         from AS199422 accept AS199422:AS-TRANSIT
+import:         from AS200780 accept AS-APPLIWAVE
+import:         from AS200995 accept AS-NSC-SOLUTIONS
+import:         from AS201675 accept AS201675
+import:         from AS202069 accept AS-COMUTO
+import:         from AS203698 accept AS-MOJI
+import:         from AS205801 accept AS-SYNALABS
+admin-c:        HOP
+tech-c:         HOP
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         HOPUS-MNT
+org:            ORG-AN38-RIPE
+status:         ASSIGNED
+created:        2008-02-01T11:00:36Z
+last-modified:  2019-02-11T13:18:28Z
+source:         RIPE
+
+organisation:   ORG-AN38-RIPE
+org-name:       HOPUS SAS
+org-type:       LIR
+address:        42 Rue Liandier
+address:        13008
+address:        Marseille
+address:        FRANCE
+phone:          +33181517128
+mnt-ref:        HOPUS-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         HOPUS-MNT
+abuse-c:        HOPA
+created:        2009-05-06T10:03:33Z
+last-modified:  2018-06-19T09:57:54Z
+source:         RIPE # Filtered
+admin-c:        JUL-FR
+admin-c:        PNL-FR
+admin-c:        CED-FR
+
+person:         HOPUS NOC
+address:        42 Rue Liandier
+address:        13008
+address:        Marseille
+phone:          +33 181517128
+nic-hdl:        HOP
+mnt-by:         HOPUS-MNT
+created:        2013-12-06T15:24:34Z
+last-modified:  2017-04-10T13:38:17Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

@@ -1,0 +1,221 @@
+aut-num:        AS12541
+as-name:        BTESPANA
+descr:          BT ES Datacenter and hosting ASN
+import:         from AS1273 accept ANY
+org:            ORG-BTS1-RIPE
+notify:         soporte.igs@bt.com
+import:         from AS1889 accept AS1889
+import:         from AS2129 accept AS2129
+import:         from AS3262 accept AS-SARENET
+import:         from AS4513 accept AS-GLOBIX
+import:         from AS6772 accept AS6772
+import:         from AS41994 accept AS41994
+import:         from AS8216 accept AS8216
+import:         from AS199272 accept AS199272
+import:         from AS8220 accept AS-COLT
+import:         from AS8404 accept AS-CABLECOM
+import:         from AS8761 accept AS-RETEBONE
+import:         from AS9052 accept AS9052
+import:         from AS9075 accept AS9075
+import:         from AS9094 accept AS9094
+import:         from AS9165 accept AS9165
+import:         from AS12350 accept AS-VTX
+import:         from AS12540 accept AS12540
+import:         from AS43919 accept AS43919
+import:         from AS12521 accept AS12521
+import:         from AS6739 accept AS-ONO-UPS
+import:         from AS12573 accept AS-WIDEXS
+import:         from AS13186 accept AS13186 AS16091
+import:         from AS15915 accept AS-IBERCOM
+import:         from AS15937 accept AS-15937
+import:         from AS16085 accept AS16085
+import:         from AS16225 accept AS16225
+import:         from AS16266 accept AS16266
+import:         from AS16338 accept AS-AUNANET
+import:         from AS16371 accept AS-ACENS
+import:         from AS17071 accept AS17071
+import:         from AS20560 accept AS20560
+import:         from AS20905 accept AS20905
+import:         from AS20921 accept AS20921
+import:         from AS20966 accept AS20966
+import:         from AS24644 accept AS24644
+import:         from AS25123 accept AS25123
+import:         from AS28871 accept AS28871 RS-ISP RS-HEADER
+import:         from AS31332 accept AS31332
+import:         from AS35167 accept AS35167
+import:         from AS20944 accept AS20944
+import:         from AS8928 accept AS-INTEROUTE
+import:         from AS41072 accept AS41072
+import:         from AS41089 accept AS41089
+import:         from AS42990 accept AS42990
+import:         from AS35171 accept AS35171
+import:         from AS44662 accept AS44662
+import:         from AS9094 accept AS9094
+import:         from AS49538 accept AS49538
+import:         from AS49600 accept AS49600
+import:         from AS203911 accept AS203911
+import:         from AS13205 accept AS13205
+import:         from AS51457 accept AS51457
+import:         from AS62017 accept AS62017
+import:         from AS25412 accept AS25412
+import:         from AS34721 accept AS34721
+import:         from AS59739 accept AS59739
+import:         from AS25261 accept AS25261
+export:         to AS13205 announce any
+export:         to AS1889 announce ANY
+export:         to AS2129 announce ANY
+export:         to AS203911 announce ANY
+export:         to AS3262 announce {0.0.0.0/0}
+export:         to AS6772 announce ANY
+export:         to AS6893 announce ANY
+export:         to AS8216 announce ANY
+export:         to AS8220 announce AS-CWEUROPE
+export:         to AS8404 announce AS-CWEUROPECH
+export:         to AS8761 announce AS-CWEUROPEES
+export:         to AS9075 announce ANY
+export:         to AS9165 announce ANY
+export:         to AS41994 announce ANY
+export:         to AS12350 announce ANY
+export:         to AS12521 announce ANY
+export:         to AS6739 announce AS-CWEUROPEES
+export:         to AS12540 announce ANY
+export:         to AS199272 announce ANY
+export:         to AS12573 announce AS-CWEUROPE
+export:         to AS13186 announce ANY
+export:         to AS15915 announce ANY
+export:         to AS15937 announce ANY
+export:         to AS16085 announce ANY
+export:         to AS16225 announce ANY
+export:         to AS16266 announce ANY
+export:         to AS16338 announce AS-CWEUROPEES
+export:         to AS43919 announce ANY
+export:         to AS16371 announce ANY
+export:         to AS17071 announce ANY
+export:         to AS20560 announce ANY
+export:         to AS20905 announce ANY
+export:         to AS20921 announce ANY
+export:         to AS20966 announce ANY
+export:         to AS24644 announce ANY
+export:         to AS25123 announce ANY
+export:         to AS9094 announce ANY
+export:         to AS28871 announce {0.0.0.0/0}
+export:         to AS31332 announce ANY
+export:         to AS35167 announce ANY
+export:         to AS20944 announce ANY
+export:         to AS8928 announce AS-BTIGS
+export:         to AS41072 announce ANY
+export:         to AS41089 announce ANY
+export:         to AS42990 announce ANY
+export:         to AS35171 announce ANY
+export:         to AS44662 announce ANY
+export:         to AS49538 announce ANY
+export:         to AS49600 announce ANY
+export:         to AS51457 announce ANY
+export:         to AS62017 announce ANY
+export:         to AS25412 announce ANY
+export:         to AS59739 announce ANY
+export:         to AS25261 announce ANY
+export:         to AS34721 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Customer GENERALITAT CATALUNYA >
+import:         from AS39551 action pref=100; accept AS-GENCAT
+export:         to AS39551 announce ANY
+mp-import:      afi ipv6.unicast from AS39551 accept AS-GENCAT
+mp-export:      afi ipv6.unicast to AS39551 announce any
+remarks:        ---------------------------------------------------------
+remarks:        < Customer NUMINTEC >
+import:         from AS57365 action pref=100; accept AS57365
+export:         to AS57365 announce ANY
+mp-import:      afi ipv6.unicast from AS57365 accept AS57365
+mp-export:      afi ipv6.unicast to AS57365 announce any
+remarks:        ---------------------------------------------------------
+remarks:        < Customer BTWWIDC-H Autonomous System >
+import:         from AS13205 action pref=100; accept AS13205
+export:         to AS13205 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Customer CELSA >
+import:         from AS8827 action pref=100; accept AS8827
+export:         to AS8827 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Customer MDEF>
+import:         from AS42211 action pref=100; accept AS42211
+export:         to AS42211 announce ANY
+remarks:        ---------------------------------------------------------
+remarks:        < Transit Policy >
+remarks:        +++ BT Telecomunicaciones
+mp-import:      afi ipv6.unicast from AS8903 accept any
+mp-export:      afi ipv6.unicast to AS8903 announce AS-BTIGS6
+remarks:        +++ C&W
+import:         from AS1273 accept any
+export:         to AS1273 announce AS-BTIGS
+mp-import:      afi ipv6.unicast from AS1273 accept any
+mp-export:      afi ipv6.unicast to AS1273 announce AS-BTIGS6
+remarks:        +++ COGENT
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-BTIGS
+remarks:        ++ END
+remarks:        ---------------------------------------------------------
+remarks:        Contacts:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ------------------------------------------
+remarks:        PEERING points:
+remarks:        Location AS
+remarks:        ~~~~~~~~~~~~~~~~
+remarks:        ESPANIX 8903(12541) ipv4 & ipv6
+remarks:        CATNIX 12541 ipv4 & 8903 ipv6
+remarks:        No longer present at the AMS-IX, VIX, MIX, BNIX, SFINX, DECIX or
+remarks:        CIXP.
+remarks:        ALL details can be found at http://as8903.peeringdb.com
+remarks:        BGP Community support definitions:
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remarks:        Communities to control route advertisements from the
+remarks:        CWEUROPE network
+remarks:        Community Definitions (NO LONGER APPLIED TO BT-IGS SPAIN)
+remarks:        12541:1100 do not announce to CWUSA (AS3561)
+remarks:        12541:1101 prepend (1x) when announced to CWUSA
+remarks:        12541:1102 prepend (2x) when announced to CWUSA
+remarks:        12541:1103 prepend (3x) when announced to CWUSA
+remarks:        12541:2040 do not announce to AMS-IX peers (Amsterdam)
+remarks:        12541:2041 prepend (1x) when announced to AMS-IX peers
+remarks:        12541:2042 prepend (2x) when announced to AMS-IX peers
+remarks:        12541:2043 prepend (3x) when announced to AMS-IX peers
+remarks:        12541:2100 do not announce to SFINX peers (Paris)
+remarks:        12541:2101 prepend (1x) when announced to SFINX peers
+remarks:        12541:2102 prepend (2x) when announced to SFINX peers
+remarks:        12541:2103 prepend (3x) when announced to SFINX peers
+remarks:        12541:2110 do not announce to ESPANIX peers (Madrid)
+remarks:        12541:2111 prepend (1x) when announced to ESPANIX peers
+remarks:        12541:2112 prepend (2x) when announced to ESPANIX peers
+remarks:        12541:2113 prepend (3x) when announced to ESPANIX peers
+remarks:        12541:2120 do not announce to BNIX peers (Brussels)
+remarks:        12541:2121 prepend (1x) when announced to BNIX peers
+remarks:        12541:2122 prepend (2x) when announced to BNIX peers
+remarks:        12541:2123 prepend (3x) when announced to BNIX peers
+remarks:        12541:2150 do not announce to TIX peers (Zurich)
+remarks:        12541:2151 prepend (1x) when announced to TIX peers
+remarks:        12541:2152 prepend (2x) when announced to TIX peers
+remarks:        12541:2153 prepend (3x) when announced to TIX peers
+remarks:        Communities to indicate the entrance point of the route
+remarks:        into the CWEUROPE network
+remarks:        Community Definitions
+remarks:        12541:3100 route learned from CWUSA
+remarks:        12541:4040 route learned from peer at AMS-IX
+remarks:        12541:4110 route learned from peer at ESPANIX
+remarks:        -------------------------------------------
+notify:         bt.igs.secondlevel@bt.com
+mnt-by:         BTIGS-MNT
+mnt-routes:     BTIGS-MNT
+mnt-routes:     CIP-MNT
+created:        2002-09-06T13:25:00Z
+last-modified:  2018-07-10T14:43:01Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,169 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS47989'
+
+% Abuse contact for 'AS47989' is 'lir@mosinfocom.ru'
+
+aut-num:        AS47989
+as-name:        MOSINFOCOM-AS
+descr:          Mosinfocom Llc
+org:            ORG-ML104-RIPE
+remarks:        --------------------------------------------
+remarks:        UPSTREAMS
+remarks:        --------------------------------------------
+import:         from AS8631 action pref=50; accept ANY
+export:         to AS8631 announce AS-MOSINFOCOM
+import:         from AS8470 action pref=200; accept ANY
+export:         to AS8470 announce AS-MOSINFOCOM
+import:         from AS20485 action pref=100; accept ANY
+export:         to AS20485 announce AS-MOSINFOCOM
+import:         from AS9002 action pref=110; accept ANY
+export:         to AS9002 announce AS-MOSINFOCOM
+import:         from AS12389 action pref=250; accept ANY
+export:         to AS12389 announce AS-MOSINFOCOM
+import:         from AS20764 action pref=100; accept ANY
+export:         to AS20764 announce AS-MOSINFOCOM
+descr:          ---
+descr:          PEERING at MSK-IX, SPB-IX and direct links:
+descr:          ---
+import:         from AS13335 accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-MOSINFOCOM
+import:         from AS15169 accept AS-GOOGLE
+export:         to AS15169 announce AS-MOSINFOCOM
+import:         from AS8075 accept AS-MICROSOFT
+export:         to AS8075 announce AS-MOSINFOCOM
+remarks:        --------------------------------------------
+remarks:        Customers
+remarks:        --------------------------------------------
+import:         from AS47747 action pref=20; accept ANY
+export:         to AS47747 announce AS-MOSINFOCOM
+import:         from AS56555 action pref=20; accept ANY
+export:         to AS56555 announce AS-MOSINFOCOM
+remarks:        --------------------------------------------
+remarks:        ***************************
+remarks:        +-------------------------------------------------------
+remarks:        | MANAGEMENT COMMUNITIES
+remarks:        |
+remarks:        | New-style communities
+remarks:        |
+remarks:        | 47989:2XXY
+remarks:        | XX - Where to manage
+remarks:        | Y - Action
+remarks:        |
+remarks:        | XX =
+remarks:        | 00 - inside AS47989 (Y=0 and Y=9 is only applicable values)
+remarks:        | 01 - Reserved
+remarks:        | 02 - Reserved
+remarks:        | 03 - Reserved
+remarks:        | 04 - Reserved
+remarks:        | 06 - RETN as9002
+remarks:        | 07 - Makomnet as8470
+remarks:        | 08 - Rascom as20764
+remarks:        | 09 - CloudFlare as13335
+remarks:        | 10 - Rostelecom AS12389
+remarks:        | 11 - Transtelecom AS20485
+remarks:        | 12 - Google AS15169
+remarks:        | 13 - Microsoft AS8075
+remarks:        | Y =
+remarks:        | 0 - Don't announce (47989:2000 - do not announce to any upstream and customer)
+remarks:        | 1,2,3,4 - Set AS path prepend 1,2,3,4 times
+remarks:        | 9 - set the lowest Localpref(only inside AS47989)
+remarks:        +-------------------------------------------------------
+remarks:        | ROUTE ORIGIN TAGGING COMMUNITIES
+remarks:        |
+remarks:        | New-style communities
+remarks:        |
+remarks:        | 47989:10XX - AS47989 and BGP customer routes
+remarks:        |
+remarks:        | XX =
+remarks:        | 00 - All upstream operators
+remarks:        | 01 - Reserved
+remarks:        | 02 - Reserved
+remarks:        | 03 - Reserved
+remarks:        | 04 - Reserved
+remarks:        | 06 - Originated from AS9002
+remarks:        | 07 - Originated from as8470
+remarks:        | 08 - Originated from as20764
+remarks:        | 09 - Originated from as13335
+remarks:        | 10 - Originated from AS12389
+remarks:        | 11 - Originated from AS20485
+remarks:        | 12 - Originated from AS15169
+remarks:        | 13 - Originated from AS8075
+remarks:        | 55 - Obtained from BGP customer
+remarks:        +-------------------------------------------------------
+admin-c:        MICN-RIPE
+tech-c:         MICN-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ------------------------------------------
+remarks:        We are filtering prefixes longer than /24
+remarks:        ------------------------------------------
+remarks:        ------------------------------------------
+remarks:        General questions: support@mosinfocom.ru<mailto:support@mosinfocom.ru> Spam, abuse: abuse@mosinfocom.ru<mailto:abuse@mosinfocom.ru> Routing, DNS, security: noc@mosinfocom.ru<mailto:noc@mosinfocom.ru>
+remarks:        ------------------------------------------
+remarks:
+mnt-by:         MOSINFOCOM-MNT
+created:        2008-09-25T11:44:26Z
+last-modified:  2018-09-04T10:35:54Z
+source:         RIPE
+
+organisation:   ORG-ML104-RIPE
+org-name:       Mosinfocom Llc
+org-type:       LIR
+address:        27 Aleksandr Solzhenitsyn str.
+address:        109004
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74959884788
+fax-no:         +74959884787
+admin-c:        VOS4-RIPE
+abuse-c:        AR16797-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MOSINFOCOM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MOSINFOCOM-MNT
+created:        2008-08-19T11:20:23Z
+last-modified:  2016-09-05T11:02:30Z
+source:         RIPE # Filtered
+
+role:           MOSINFOCOM NOC
+address:        27 Aleksandr Solzhenitsyn str. , Moscow, 109004, Russian Federation
+org:            ORG-ML104-RIPE
+phone:          +7 495 9884788
+fax-no:         +7 495 9884787
+abuse-mailbox:  abuse@mosinfocom.ru
+mnt-by:         MOSINFOCOM-MNT
+admin-c:        vos4-ripe
+tech-c:         zvk-ripe
+tech-c:         GMS2013-RIPE
+nic-hdl:        MICN-RIPE
+created:        2008-09-25T14:28:23Z
+last-modified:  2016-01-12T09:51:56Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

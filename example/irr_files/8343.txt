@@ -1,0 +1,150 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8343'
+
+% Abuse contact for 'AS8343' is 'noc@doris.ua'
+
+aut-num:        AS8343
+as-name:        DORIS-AS
+remarks:        Internet/VPN solutions
+remarks:        Mariupol, UA
+remarks:        ------------------------
+remarks:        Upstreams
+remarks:        ------------------------
+import:         from AS13249 action pref=130; accept ANY
+export:         to AS13249 announce AS-DORIS
+import:         from AS35320 action pref=130; accept ANY
+export:         to AS35320 announce AS-DORIS
+mp-import:      afi ipv6.unicast from AS13249 action pref=95; accept ANY
+mp-export:      afi ipv6.unicast to AS13249 announce AS-DORIS
+mp-import:      afi ipv6.unicast from AS35320 action pref=95; accept ANY
+mp-export:      afi ipv6.unicast to AS35320 announce AS-DORIS
+remarks:        ------------------------
+remarks:        IX
+remarks:        ------------------------
+import:         from AS15645 action pref=95; accept AS-UAIX
+export:         to AS15645 announce AS-DORIS
+import:         from AS31210 action pref=95; accept AS-DTEL-IX
+export:         to AS31210 announce AS-DORIS
+import:         from AS39902 action pref=95; accept AS-MRPL-IX
+export:         to AS39902 announce AS-DORIS
+import:         from AS50844 action pref=95; accept AS-EUNIC-IX
+export:         to AS50844 announce AS-DORIS
+import:         from AS50952 action pref=95; accept AS-DATAIX
+export:         to AS50952 announce AS-DORIS
+mp-import:      afi ipv6.unicast from AS15645 action pref=95; accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-DORIS
+mp-import:      afi ipv6.unicast from AS31210 action pref=95; accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-DORIS
+mp-import:      afi ipv6.unicast from AS50844 action pref=95; accept AS-EUNIC-IX
+mp-export:      afi ipv6.unicast to AS50844 announce AS-DORIS
+mp-import:      afi ipv6.unicast from AS50952 action pref=95; accept AS-DATAIX
+mp-export:      afi ipv6.unicast to AS50952 announce AS-DORIS
+remarks:        ------------------------
+remarks:        Customers
+remarks:        ------------------------
+import:         from AS39300 action pref=70; accept AS39300
+export:         to AS39300 announce ANY
+import:         from AS50576 action pref=70; accept AS-KRASNETUA
+export:         to AS50576 announce ANY
+import:         from AS50981 action pref=70; accept AS50981
+export:         to AS50981 announce ANY
+import:         from AS57025 action pref=70; accept AS57025
+export:         to AS57025 announce ANY
+import:         from AS203430 action pref=70; accept AS203430
+export:         to AS203430 announce ANY
+remarks:        ----------------------------------------------
+remarks:        * For BGP peering inquiries *
+remarks:        * send email to <bgp-peering@doris.ua> *
+remarks:        ----------------------------------------------
+remarks:        ** BGP communities for DORIS customers **
+remarks:        1. Communities controlling internal use of
+remarks:        customer routes by means of local preference:
+remarks:        All customer routes announced to DORIS will
+remarks:        receive a default local preference of 130.
+remarks:        community local-pref effect
+remarks:        8343:50 50 below everything, least prefered
+remarks:        8343:80 80 below peers
+remarks:        8343:110 110 below customer default
+remarks:        8343:150 150 above customer default, most prefered
+remarks:        2. Communities tagging the source of routes
+remarks:        community description
+remarks:        8343:[1-4][0-1] customer routes
+remarks:        3. Communities controlling external announcement
+remarks:        of customer routes :
+remarks:        community description
+remarks:        8343:2000x prepend x times (1-4) with 8343 to EuroTransTelecom (AS35320)
+remarks:        8343:2100x prepend x times (1-4) with 8343 to ITSystems (AS13249)
+remarks:        8343:2900x prepend x times (1-4) with 8343 to all upstreams
+remarks:        8343:3900x prepend x times (1-4) with 8343 to all IX'es
+remarks:        x = 0 don't announce
+remarks:        8343:666 blackhole routing (only for /32 prefixes)
+org:            ORG-JcD1-RIPE
+admin-c:        NCC8343-RIPE
+tech-c:         NCC8343-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8343-MNT
+created:        2002-02-19T09:03:18Z
+last-modified:  2018-09-04T09:51:27Z
+source:         RIPE # Filtered
+
+organisation:   ORG-JcD1-RIPE
+org-name:       Private joint-stock company (PrJSC) DORIS
+org-type:       LIR
+address:        Hakhimova str. 196
+address:        87525
+address:        Mariupol
+address:        UKRAINE
+phone:          +380503674782
+phone:          +380629541694
+phone:          +380503288976
+fax-no:         +380629529576
+admin-c:        NCC8343-RIPE
+admin-c:        MAD123-RIPE
+admin-c:        VA1985-RIPE
+abuse-c:        NCC8343-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8343-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8343-MNT
+created:        2004-04-17T12:08:56Z
+last-modified:  2018-12-10T13:30:19Z
+source:         RIPE # Filtered
+
+role:           DORIS NCC
+address:        JSC DORIS
+address:        Nakhimova str. 196
+address:        Ukraine, Mariupol
+phone:          +380952918963
+abuse-mailbox:  noc@doris.ua
+admin-c:        MAD123-RIPE
+admin-c:        VA1985-RIPE
+tech-c:         MAD123-RIPE
+tech-c:         VA1985-RIPE
+nic-hdl:        NCC8343-RIPE
+mnt-by:         AS8343-MNT
+created:        2006-03-12T13:29:55Z
+last-modified:  2015-04-24T13:06:17Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

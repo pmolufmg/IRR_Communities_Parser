@@ -1,0 +1,152 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS50639'
+
+% Abuse contact for 'AS50639' is 'abuse@net-art.cz'
+
+aut-num:        AS50639
+as-name:        ARS-AS
+org:            ORG-ARSJ1-RIPE
+remarks:        ===================================================
+remarks:        Upstreams
+remarks:        ---------------------------------------------------
+import:         from AS12389 accept ANY;
+export:         to AS12389 announce AS-ARSNET;
+import:         from AS2854 accept ANY;
+export:         to AS2854 announce AS-ARSNET;
+import:         from AS29304 accept ANY;
+export:         to AS29304 announce AS-ARSNET;
+remarks:
+remarks:        ===================================================
+remarks:        Downstreams
+remarks:        ---------------------------------------------------
+import:         from AS41275 accept AS41275;
+export:         to AS41275 announce ANY;
+remarks:        ===================================================
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        community applied on ingress
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        50639:31XX - Origin from public peers
+remarks:        50639:32XX - Origin from private peers
+remarks:
+remarks:        50639:40XX - Origin from Upstreams
+remarks:        50639:4001 - AS29304 (Satis)
+remarks:        50639:4002 - AS12389 (Rostelecom)
+remarks:        50639:4003 - AS2854 (Equant)
+remarks:        50639:4004 - AS3216 (Beeline)
+remarks:
+remarks:
+remarks:        inside community coloring
+remarks:
+remarks:        50639:601 - local (point-to-point and etc.)
+remarks:        50639:605 - aggregatable
+remarks:        50639:608 - te-aggregate
+remarks:        50639:609 - aggregate
+remarks:        50639:620 - customers
+remarks:        50639:623 - peers
+remarks:        50639:626 - transit
+remarks:        50639:631 - bogus
+remarks:        50639:666 - blackhole in AS50639 and Upstreams
+remarks:        50639:667 - blackhole in Upstreams
+remarks:
+remarks:
+remarks:        advertising community:
+remarks:
+remarks:        50639:5ZZX
+remarks:        50639:6AAX
+remarks:
+remarks:        where X=0     - advertise with no changes
+remarks:        X=1,2,4 or 6  - set prepend AS50639 1,2,4 or 6 times
+remarks:        X=7     - advertise with community no-export
+remarks:        X=9     - do not advertise
+remarks:
+remarks:        ZZ=00    - Hole World
+remarks:        01    - all upstreams
+remarks:        02    - all customers
+remarks:        03    - all peers
+remarks:
+remarks:        AA=01    - AS29304 (Satis)
+remarks:        02    - AS12389 (Rostelecom)
+remarks:        03    - AS2854 (Equant)
+remarks:        04    - AS3216 (Beeline)
+remarks:
+remarks:        ------------------------------------------------------
+remarks:        local preference for routes:
+remarks:        ------------------------------------------------------
+remarks:        1000 - local routes to aggregate
+remarks:        710 - customer preffered
+remarks:        700 - customer (default)
+remarks:        690 - customer backup
+remarks:        400 - customer backup
+remarks:        400 - peer route
+remarks:        390 - peer backup
+remarks:        300 - customer superbackup
+remarks:        200 - transite
+remarks:        190 - transite backup
+remarks:
+remarks:        ------------------------------------------------------
+remarks:        local preference control accepted from customers
+remarks:        ------------------------------------------------------
+remarks:        50639:171 - set local pref = 710
+remarks:        50639:169 - set local pref = 690
+remarks:        50639:140 - set local pref = 400
+remarks:        50639:130 - set local pref = 300
+remarks:
+remarks:        ======================================================
+admin-c:        MY700-RIPE
+tech-c:         MY700-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ARSNET-MNT
+created:        2010-03-01T14:22:34Z
+last-modified:  2018-09-04T10:48:54Z
+source:         RIPE
+sponsoring-org: ORG-NGs2-RIPE
+
+organisation:   ORG-ARSJ1-RIPE
+org-name:       Arctic Region Svyaz OJSC
+org-type:       OTHER
+address:        Lenina 20
+address:        Anadyr, 689000, Russia
+abuse-c:        AR27450-RIPE
+mnt-ref:        ARSNET-MNT
+mnt-by:         ARSNET-MNT
+created:        2010-02-17T21:08:47Z
+last-modified:  2017-10-30T15:30:44Z
+source:         RIPE # Filtered
+
+person:         Mikhail Yanovich
+address:        ISP/Telecom/Networks...
+address:        Moscow, Sadovnicheskaya 71
+address:        Moscow, Russia, 117534
+phone:          +7 910 400 37 24
+fax-no:         +7 910 400 37 24
+nic-hdl:        MY700-RIPE
+mnt-by:         YMM-MNT
+created:        2012-02-24T12:01:50Z
+last-modified:  2013-06-05T09:23:18Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

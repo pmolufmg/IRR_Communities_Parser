@@ -1,0 +1,491 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS24879 - AS24986'
+
+as-block:       AS24879 - AS24986
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:30Z
+last-modified:  2018-11-22T15:27:30Z
+source:         RIPE
+
+% Information related to 'AS24953'
+
+% Abuse contact for 'AS24953' is 'abuse@netplanet.at'
+
+aut-num:        AS24953
+as-name:        ASN-CARRIER66
+remarks:        NETPLANET MAIN AS
+descr:          AS MACRO: AS-24953 (customers)
+descr:          =========================
+org:            ORG-NG47-RIPE
+admin-c:        NH1024-RIPE
+tech-c:         NH1024-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+descr:          =========================
+remarks:        -------------------------------------------------------
+remarks:        Upstreams
+remarks:        -------------------------------------------------------
+remarks:        TINET
+import:         from AS3257 action pref=100; accept ANY
+export:         to AS3257 announce AS-24953
+remarks:        GBLX
+import:         from AS3549 action pref=100; accept ANY
+export:         to AS3549 announce AS-24953
+remarks:        -------------------------------------------------------
+remarks:        Peerings
+remarks:        -------------------------------------------------------
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-CARRIER66
+import:         from AS39912 action pref=100; accept ANY
+export:         to AS39912 announce AS-CARRIER66
+import:         from AS1120 action pref=100; accept ANY
+export:         to AS1120 announce AS-CARRIER66
+import:         from AS1257 action pref=100; accept ANY
+export:         to AS1257 announce AS-CARRIER66
+import:         from AS1853 action pref=100; accept ANY
+export:         to AS1853 announce AS-CARRIER66
+import:         from AS1901 action pref=100; accept ANY
+export:         to AS1901 announce AS-CARRIER66
+import:         from AS2686 action pref=100; accept ANY
+export:         to AS2686 announce AS-CARRIER66
+import:         from AS3209 action pref=100; accept ANY
+export:         to AS3209 announce AS-CARRIER66
+import:         from AS3212 action pref=100; accept ANY
+export:         to AS3212 announce AS-CARRIER66
+import:         from AS3257 action pref=100; accept ANY
+export:         to AS3257 announce AS-CARRIER66
+import:         from AS3330 action pref=100; accept ANY
+export:         to AS3330 announce AS-CARRIER66
+import:         from AS3856 action pref=100; accept ANY
+export:         to AS3856 announce AS-CARRIER66
+import:         from AS4589 action pref=100; accept ANY
+export:         to AS4589 announce AS-CARRIER66
+import:         from AS5385 action pref=100; accept ANY
+export:         to AS5385 announce AS-CARRIER66
+import:         from AS5403 action pref=100; accept ANY
+export:         to AS5403 announce AS-CARRIER66
+import:         from AS5418 action pref=100; accept ANY
+export:         to AS5418 announce AS-CARRIER66
+import:         from AS5423 action pref=100; accept ANY
+export:         to AS5423 announce AS-CARRIER66
+import:         from AS5424 action pref=100; accept ANY
+export:         to AS5424 announce AS-CARRIER66
+import:         from AS5430 action pref=100; accept AS-FREENETDE
+export:         to AS5430 announce AS-CARRIER66
+import:         from AS5483 action pref=100; accept ANY
+export:         to AS5483 announce AS-CARRIER66
+import:         from AS5521 action pref=100; accept ANY
+export:         to AS5521 announce AS-CARRIER66
+import:         from AS5588 action pref=100; accept ANY
+export:         to AS5588 announce AS-CARRIER66
+import:         from AS5605 action pref=100; accept ANY
+export:         to AS5605 announce AS-CARRIER66
+import:         from AS6453 action pref=100; accept ANY
+export:         to AS6453 announce AS-CARRIER66
+import:         from AS6666 action pref=100; accept ANY
+export:         to AS6666 announce AS-CARRIER66
+import:         from AS6720 action pref=100; accept ANY
+export:         to AS6720 announce AS-CARRIER66
+import:         from AS6798 action pref=100; accept ANY
+export:         to AS6798 announce AS-CARRIER66
+import:         from AS6805 action pref=100; accept ANY
+export:         to AS6805 announce AS-CARRIER66
+import:         from AS6830 action pref=100; accept ANY
+export:         to AS6830 announce AS-CARRIER66
+import:         from AS8245 action pref=100; accept ANY
+export:         to AS8245 announce AS-CARRIER66
+import:         from AS8339 action pref=100; accept ANY
+export:         to AS8339 announce AS-CARRIER66
+import:         from AS8387 action pref=100; accept ANY
+export:         to AS8387 announce AS-CARRIER66
+import:         from AS8404 action pref=100; accept ANY
+export:         to AS8404 announce AS-CARRIER66
+import:         from AS8412 action pref=100; accept ANY
+export:         to AS8412 announce AS-CARRIER66
+import:         from AS8422 action pref=100; accept ANY
+export:         to AS8422 announce AS-CARRIER66
+import:         from AS8437 action pref=100; accept ANY
+export:         to AS8437 announce AS-CARRIER66
+import:         from AS8445 action pref=100; accept ANY
+export:         to AS8445 announce AS-CARRIER66
+import:         from AS8447 action pref=100; accept ANY
+export:         to AS8447 announce AS-CARRIER66
+import:         from AS8514 action pref=100; accept ANY
+export:         to AS8514 announce AS-CARRIER66
+import:         from AS8559 action pref=100; accept ANY
+export:         to AS8559 announce AS-CARRIER66
+import:         from AS8586 action pref=100; accept ANY
+export:         to AS8586 announce AS-CARRIER66
+import:         from AS8591 action pref=100; accept ANY
+export:         to AS8591 announce AS-CARRIER66
+import:         from AS8608 action pref=100; accept ANY
+export:         to AS8608 announce AS-CARRIER66
+import:         from AS8687 action pref=100; accept ANY
+export:         to AS8687 announce AS-CARRIER66
+import:         from AS8805 action pref=100; accept ANY
+export:         to AS8805 announce AS-CARRIER66
+import:         from AS8893 action pref=100; accept ANY
+export:         to AS8893 announce AS-CARRIER66
+import:         from AS8897 action pref=100; accept ANY
+export:         to AS8897 announce AS-CARRIER66
+import:         from AS8918 action pref=100; accept ANY
+export:         to AS8918 announce AS-CARRIER66
+import:         from AS8928 action pref=100; accept ANY
+export:         to AS8928 announce AS-CARRIER66
+import:         from AS8935 action pref=100; accept ANY
+export:         to AS8935 announce AS-CARRIER66
+import:         from AS9150 action pref=100; accept ANY
+export:         to AS9150 announce AS-CARRIER66
+import:         from AS9119 action pref=100; accept ANY
+export:         to AS9119 announce AS-CARRIER66
+import:         from AS9211 action pref=100; accept ANY
+export:         to AS9211 announce AS-CARRIER66
+import:         from AS12399 action pref=100; accept ANY
+export:         to AS12399 announce AS-CARRIER66
+import:         from AS12401 action pref=100; accept ANY
+export:         to AS12401 announce AS-CARRIER66
+import:         from AS12414 action pref=100; accept ANY
+export:         to AS12414 announce AS-CARRIER66
+import:         from AS12485 action pref=100; accept ANY
+export:         to AS12485 announce AS-CARRIER66
+import:         from AS12547 action pref=100; accept ANY
+export:         to AS12547 announce AS-CARRIER66
+import:         from AS12558 action pref=100; accept ANY
+export:         to AS12558 announce AS-CARRIER66
+import:         from AS12577 action pref=100; accept ANY
+export:         to AS12577 announce AS-CARRIER66
+import:         from AS12558 action pref=100; accept ANY
+export:         to AS12558 announce AS-CARRIER66
+import:         from AS12605 action pref=100; accept ANY
+export:         to AS12605 announce AS-CARRIER66
+import:         from AS12635 action pref=100; accept ANY
+export:         to AS12635 announce AS-CARRIER66
+import:         from AS12654 action pref=100; accept ANY
+export:         to AS12654 announce AS-CARRIER66
+import:         from AS12731 action pref=100; accept ANY
+export:         to AS12731 announce AS-CARRIER66
+import:         from AS12793 action pref=100; accept ANY
+export:         to AS12793 announce AS-CARRIER66
+import:         from AS12822 action pref=100; accept ANY
+export:         to AS12822 announce AS-CARRIER66
+import:         from AS12859 action pref=100; accept ANY
+export:         to AS12859 announce AS-CARRIER66
+import:         from AS12895 action pref=100; accept ANY
+export:         to AS12895 announce AS-CARRIER66
+import:         from AS12902 action pref=100; accept ANY
+export:         to AS12902 announce AS-CARRIER66
+import:         from AS12923 action pref=100; accept ANY
+export:         to AS12923 announce AS-CARRIER66
+import:         from AS12971 action pref=100; accept ANY
+export:         to AS12971 announce AS-CARRIER66
+import:         from AS12989 action pref=100; accept ANY
+export:         to AS12989 announce AS-CARRIER66
+import:         from AS13030 action pref=100; accept ANY
+export:         to AS13030 announce AS-CARRIER66
+import:         from AS13046 action pref=100; accept ANY
+export:         to AS13046 announce AS-CARRIER66
+import:         from AS13064 action pref=100; accept ANY
+export:         to AS13064 announce AS-CARRIER66
+import:         from AS13135 action pref=100; accept ANY
+export:         to AS13135 announce AS-CARRIER66
+import:         from AS13646 action pref=100; accept ANY
+export:         to AS13646 announce AS-CARRIER66
+import:         from AS13101 action pref=100; accept ANY
+export:         to AS13101 announce ANY
+import:         from AS13184 action pref=100; accept AS-HANSENET
+export:         to AS13184 announce AS-CARRIER66
+import:         from AS13237 action pref=100; accept ANY
+export:         to AS13237 announce AS-CARRIER66
+import:         from AS15388 action pref=100; accept ANY
+export:         to AS15388 announce AS-CARRIER66
+import:         from AS15427 action pref=100; accept ANY
+export:         to AS15427 announce AS-CARRIER66
+import:         from AS15435 action pref=100; accept ANY
+export:         to AS15435 announce AS-CARRIER66
+import:         from AS15498 action pref=100; accept ANY
+export:         to AS15498 announce AS-CARRIER66
+import:         from AS15542 action pref=100; accept ANY
+export:         to AS15542 announce AS-CARRIER66
+import:         from AS15554 action pref=100; accept ANY
+export:         to AS15554 announce AS-CARRIER66
+import:         from AS15702 action pref=100; accept ANY
+export:         to AS15702 announce AS-CARRIER66
+import:         from AS16131 action pref=100; accept ANY
+export:         to AS16131 announce AS-CARRIER66
+import:         from AS16195 action pref=100; accept ANY
+export:         to AS16195 announce AS-CARRIER66
+import:         from AS16237 action pref=100; accept ANY
+export:         to AS16237 announce AS-CARRIER66
+import:         from AS16265 action pref=100; accept ANY
+export:         to AS16265 announce AS-CARRIER66
+import:         from AS16298 action pref=100; accept ANY
+export:         to AS16298 announce AS-CARRIER66
+import:         from AS16314 action pref=100; accept ANY
+export:         to AS16314 announce AS-CARRIER66
+import:         from AS16318 action pref=100; accept ANY
+export:         to AS16318 announce AS-CARRIER66
+import:         from AS16378 action pref=100; accept ANY
+export:         to AS16378 announce AS-CARRIER66
+import:         from AS20504 action pref=100; accept ANY
+export:         to AS20504 announce AS-CARRIER66
+import:         from AS20562 action pref=100; accept ANY
+export:         to AS20562 announce AS-CARRIER66
+import:         from AS20639 action pref=100; accept ANY
+export:         to AS20639 announce AS-CARRIER66
+import:         from AS20649 action pref=100; accept ANY
+export:         to AS20649 announce AS-CARRIER66
+import:         from AS20704 action pref=100; accept ANY
+export:         to AS20704 announce AS-CARRIER66
+import:         from AS20751 action pref=100; accept ANY
+export:         to AS20751 announce ANY
+import:         from AS20847 action pref=100; accept ANY
+export:         to AS20847 announce AS-CARRIER66
+import:         from AS20854 action pref=100; accept ANY
+export:         to AS20854 announce AS-CARRIER66
+import:         from AS20857 action pref=100; accept ANY
+export:         to AS20857 announce AS-CARRIER66
+import:         from AS20920 action pref=100; accept ANY
+export:         to AS20920 announce AS-CARRIER66
+import:         from AS20953 action pref=100; accept ANY
+export:         to AS20953 announce AS-CARRIER66
+import:         from AS20969 action pref=100; accept ANY
+export:         to AS20969 announce AS-CARRIER66
+import:         from AS21360 action pref=100; accept ANY
+export:         to AS21360 announce AS-CARRIER66
+import:         from AS21428 action pref=100; accept ANY
+export:         to AS21428 announce AS-CARRIER66
+import:         from AS24640 action pref=100; accept ANY
+export:         to AS24640 announce AS-CARRIER66
+import:         from AS24642 action pref=100; accept ANY
+export:         to AS24642 announce AS-CARRIER66
+import:         from AS24806 action pref=100; accept ANY
+export:         to AS24806 announce AS-CARRIER66
+import:         from AS24875 action pref=100; accept ANY
+export:         to AS24875 announce AS-CARRIER66
+import:         from AS24905 action pref=100; accept ANY
+export:         to AS24905 announce AS-CARRIER66
+import:         from AS24992 action pref=100; accept ANY
+export:         to AS24992 announce AS-CARRIER66
+import:         from AS25074 action pref=100; accept ANY
+export:         to AS25074 announce AS-CARRIER66
+import:         from AS25101 action pref=100; accept AS-EUINTERNET
+export:         to AS25101 announce ANY
+import:         from AS25151 action pref=100; accept ANY
+export:         to AS25151 announce AS-CARRIER66
+import:         from AS25152 action pref=100; accept ANY
+export:         to AS25152 announce AS-CARRIER66
+import:         from AS25182 action pref=100; accept ANY
+export:         to AS25182 announce AS-CARRIER66
+import:         from AS25232 action pref=100; accept ANY
+export:         to AS25232 announce AS-CARRIER66
+import:         from AS25255 action pref=100; accept ANY
+export:         to AS25255 announce AS-CARRIER66
+import:         from AS25433 action pref=100; accept ANY
+export:         to AS25433 announce AS-CARRIER66
+import:         from AS25459 action pref=100; accept ANY
+export:         to AS25459 announce AS-CARRIER66
+import:         from AS25542 action pref=100; accept ANY
+export:         to AS25542 announce AS-CARRIER66
+import:         from AS25596 action pref=100; accept ANY
+export:         to AS25596 announce AS-CARRIER66
+import:         from AS28685 action pref=100; accept ANY
+export:         to AS28685 announce AS-CARRIER66
+import:         from AS28747 action pref=100; accept ANY
+export:         to AS28747 announce AS-CARRIER66
+import:         from AS28760 action pref=100; accept ANY
+export:         to AS28760 announce AS-CARRIER66
+import:         from AS28788 action pref=100; accept ANY
+export:         to AS28788 announce AS-CARRIER66
+import:         from AS28857 action pref=100; accept AS28857
+export:         to AS28857 announce ANY
+import:         from AS28889 action pref=100; accept ANY
+export:         to AS28889 announce AS-CARRIER66
+import:         from AS28956 action pref=100; accept ANY
+export:         to AS28956 announce AS-CARRIER66
+import:         from AS29001 action pref=100; accept ANY
+export:         to AS29001 announce AS-CARRIER66
+import:         from AS29279 action pref=100; accept ANY
+export:         to AS29279 announce AS-CARRIER66
+import:         from AS29396 action pref=100; accept ANY
+export:         to AS29396 announce AS-CARRIER66
+import:         from AS29502 action pref=100; accept ANY
+export:         to AS29502 announce AS-CARRIER66
+import:         from AS29550 action pref=100; accept ANY
+export:         to AS29550 announce AS-CARRIER66
+import:         from AS29590 action pref=100; accept ANY
+export:         to AS29590 announce AS-CARRIER66
+import:         from AS30094 action pref=100; accept ANY
+export:         to AS30094 announce AS-CARRIER66
+import:         from AS30132 action pref=100; accept ANY
+export:         to AS30132 announce AS-CARRIER66
+import:         from AS31383 action pref=100; accept ANY
+export:         to AS31383 announce AS-CARRIER66
+import:         from AS31586 action pref=100; accept ANY
+export:         to AS31586 announce AS-CARRIER66
+import:         from AS31597 action pref=100; accept ANY
+export:         to AS31597 announce AS-CARRIER66
+import:         from AS31673 action pref=100; accept ANY
+export:         to AS31673 announce AS-CARRIER66
+import:         from AS31680 action pref=100; accept ANY
+export:         to AS31680 announce AS-CARRIER66
+import:         from AS34151 action pref=100; accept ANY
+export:         to AS34151 announce AS-CARRIER66
+import:         from AS34181 action pref=100; accept ANY
+export:         to AS34181 announce AS-CARRIER66
+import:         from AS34305 action pref=100; accept ANY
+export:         to AS34305 announce AS-CARRIER66
+import:         from AS34562 action pref=100; accept ANY
+export:         to AS34562 announce AS-CARRIER66
+import:         from AS35109 action pref=100; accept AS35109
+export:         to AS35109 announce AS-CARRIER66
+import:         from AS29551 action pref=100; accept ANY
+export:         to AS29551 announce ANY
+import:         from AS43556 action pref=100; accept AS-NETPLANET
+export:         to AS43556 announce AS-ANY
+remarks:        -------------------------------------------------------------------------
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS21385
+member-of:      AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS21385
+remarks:        -------------------------------------------------------------------------
+remarks:        Please send peering requests and changes to peering@carrier66.net
+remarks:        We are utilizing BGP route flap dampening according to the
+remarks:        policy recommendations of RIPE-229. For more information,
+remarks:        see http://www.ripe.net/ripe/docs/routeflap-damping.html
+remarks:        -------------------------------------------------------------------------
+remarks:        We are filtering announcements of prefixes longer than /24.
+remarks:        -------------------------------------------------------------------------
+remarks:        BGP COMMUNITY SYSTEM:
+remarks:        Community Action
+remarks:        =========== ======
+remarks:        inbound routes by entry point:
+remarks:        ---------------------------------------------------------------------------------------
+remarks:        24953:24953 route originated by AS24953
+remarks:        24953:1010 route originated by AS24953 - infra Vienna (VIE)
+remarks:        24953:1020 route originated by AS24953 - infra Hamburg (HAM)
+remarks:        24953:1030 route originated by AS24953 - infra Frankfurt (FFM)
+remarks:        24953:1040 route originated by AS24953 - infra Amsterdam (AMS)
+remarks:        24953:1100 route learned from transit
+remarks:        24953:1200 route learned from peering
+remarks:        24953:1900 route learned from customer w/ backup
+remarks:        24953:2000 route learned from customer
+remarks:        24953:1101 route learned from VIE Tiscali
+remarks:        24953:1102 route learned from VIE Cogent
+remarks:        24953:1111 route learned from HAM Tiscali
+remarks:        24953:1121 route learned from FFM Tiscali
+remarks:        24953:1201 route learned from VIE VIX
+remarks:        24953:1202 route learned from VIE cix.at
+remarks:        24953:1281 route learned from HAM WorkIX
+remarks:        24953:1282 route learned from HAM Hansenet
+remarks:        24953:1321 route learned from FFM DECIX
+remarks:        24953:1381 route learned from AMS AMSIX
+remarks:        24953:1401 route learned from AMS NLIX
+remarks:        24953:2001 - 2700 route learned from VIE customers
+remarks:        24953:2701 - 2800 route learned from HAM customers
+remarks:        24953:2801 - 2900 route learned from FFM customers
+remarks:        24953:2901 - 2999 route learned from AMS customers
+remarks:        outbound routes by us:
+remarks:        ---------------------------------------------------------------------------------------
+remarks:        24953:3100 route announced to transit
+remarks:        24953:3200 route announced to peering
+remarks:        24953:3101 route announced to VIE Tiscali
+remarks:        24953:3102 route announced to VIE Cogent
+remarks:        24953:3111 route announced to HAM Tiscali
+remarks:        24953:3121 route announced to FFM Tiscali
+remarks:        24953:3201 route announced to VIE VIX
+remarks:        24953:3202 route announced to VIE cix.at
+remarks:        24953:3281 route announced to HAM WorkIX
+remarks:        24953:3282 route announced to HAM Hansenet
+remarks:        24953:3321 route announced to FFM DECIX
+remarks:        24953:3381 route announced to AMS AMSIX
+remarks:        24953:3382 route announced to AMS NLIX
+remarks:        outbound routes - controllable by transit customer:
+remarks:        ---------------------------------------------------------------------------------------
+remarks:        n = 0 do not announce prefix
+remarks:        1 <= n <= 5 prepend n times to announcement
+remarks:        24953:666 blackhole this route
+remarks:        24953:667 blackhole this route (intern only)
+remarks:        24953:668 blackhole this route (extern only)
+remarks:        24953:64400 do not announce to Upstreams (Global)
+remarks:        24953:64500 do not announce to Peers (Global)
+remarks:        24953:6441n do not announce/prepend to AS3257 Tiscali
+remarks:        24953:6442n do not announce/prepend to AS174 Cogent
+remarks:        24953:6451n do not announce/prepend to VIX-Peers (VIE)
+remarks:        24953:6452n do not announce/prepend to DeCIX-Peers (FFM)
+remarks:        24953:6453n do not announce/prepend to AMSIX-Peers (AMS)
+remarks:        24953:6454n do not announce/prepend to NLIX-Peers (AMS)
+remarks:        24953:6455n do not announce/prepend to WorkIX-Peers (HAM)
+remarks:        24953:6456n do not announce/prepend to AS13184 HanseNet (HAM)
+remarks:        24953:6457n do not announce/prepend to AS5430 FreeNet ((HAM)
+remarks:        24953:6458n do not announce/prepend to AS174 Cogent (HAM)
+mnt-by:         MNT-NETPLANET
+created:        2002-09-21T02:22:28Z
+last-modified:  2018-11-30T12:17:08Z
+source:         RIPE
+
+organisation:   ORG-NG47-RIPE
+org-name:       NETPLANET GmbH
+org-type:       LIR
+address:        Louis-Haefliger-Gasse 10
+address:        1210
+address:        Wien
+address:        AUSTRIA
+phone:          +4313430343
+fax-no:         +4313430343800
+admin-c:        CHVO12-RIPE
+admin-c:        MRAM-RIPE
+admin-c:        JOWA12-RIPE
+abuse-c:        NH1024-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-NETPLANET
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-NETPLANET
+created:        2010-04-23T10:53:24Z
+last-modified:  2017-10-30T14:35:20Z
+source:         RIPE # Filtered
+
+role:           NETPLANET HOSTMASTER
+remarks:        -------------------------------
+address:        NETPLANET GmbH
+address:        Louis-Haefliger-Gasse 10
+address:        A-1210 Wien
+address:        AUSTRIA
+phone:          +43 1 3430343
+fax-no:         +43 1 3430343 800
+abuse-mailbox:  abuse@netplanet.at
+remarks:        -------------------------------
+org:            ORG-NA183-RIPE
+admin-c:        JOWA12-RIPE
+tech-c:         JOWA12-RIPE
+tech-c:         CHVO12-RIPE
+tech-c:         MRAM-RIPE
+nic-hdl:        NH1024-RIPE
+remarks:        -------------------------------
+remarks:        NETPLANET GmbH
+remarks:
+remarks:        24/7 NOC
+remarks:        +43 1 3430343 500
+remarks:        noc@netplanet.at
+remarks:        -------------------------------
+created:        2007-08-25T00:14:39Z
+last-modified:  2010-03-11T11:08:06Z
+source:         RIPE # Filtered
+mnt-by:         MNT-NETPLANET
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

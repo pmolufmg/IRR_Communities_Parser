@@ -1,0 +1,294 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS47541
+as-name:       VKONTAKTE-SPB-AS
+descr:         http://vk.com
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS174 action pref=100; accept ANY
+import:        from AS6762 action pref=100; accept ANY
+import:        from AS1273 action pref=100; accept ANY
+import:        from AS3356 action pref=100; accept ANY
+import:        from AS1299 action pref=100; accept ANY
+import:        from AS2914 action pref=100; accept ANY
+import:        from AS1200 action pref=110; accept AS-AMS-IX-RS AS-AMS-IX-RS-V6
+import:        from AS6777 action pref=110; accept AS-AMS-IX-RS AS-AMS-IX-RS-V6
+import:        from AS6695 action pref=110; accept AS-DECIX
+import:        from AS8714 action pref=110; accept AS-LINX
+import:        from AS52005 action pref=110; accept AS-NETNOD
+import:        from AS50952 action pref=150; accept AS-DATAIX
+import:        from AS8631 action pref=150; accept AS-MSKROUTESERVER
+import:        from AS43690 action pref=150; accept AS-SPBROUTESERVER
+import:        from AS31500 action pref=150; accept AS-GLOBAL-NET
+import:        from AS50384 action pref=150; accept AS-W-IX AS-W-IX-IPVSIX
+import:        from AS29076 action pref=150; accept AS-CITYTELECOM AND NOT AS-CLOUD-IX-M
+import:        from AS31133 action pref=150; accept AS-MF-IX
+import:        from AS13094 action pref=150; accept as-milecom-rs
+import:        from AS44843 action pref=150; accept AS-OBTEL
+import:        from AS3216 action pref=150; accept AS-SOVAM
+import:        from AS6697 action pref=150; accept AS-BELPAK
+import:        from AS8732 action pref=150; accept AS-COMCOR
+import:        from AS8359 action pref=150; accept ANY
+import:        from AS8402 action pref=150; accept AS-CORBINA
+import:        from AS21219 action pref=150; accept ANY
+import:        from AS9049 action pref=150; accept ANY
+import:        from AS35320 action pref=150; accept AS-ETT
+import:        from AS28917 action pref=150; accept AS-FIORD
+import:        from AS31133 action pref=150; accept AS-MF-MGSM
+import:        from AS12714 action pref=150; accept AS-TI^+
+import:        from AS8997 action pref=150; accept AS-SPBNIT
+import:        from AS20764 action pref=150; accept AS-RASCOM
+import:        from AS9002 action pref=150; accept AS-RETN AS-RETN6
+import:        from AS12389 action pref=150; accept AS-ROSTELECOM
+import:        from AS3267 action pref=150; accept ANY
+import:        from AS15378 action pref=150; accept ANY
+import:        from AS12958 action pref=150; accept ANY
+import:        from AS20485 action pref=150; accept AS-TTK
+import:        from AS13238 action pref=150; accept AS-YANDEX
+import:        from AS56534 action pref=150; accept AS-PIRIXNET
+import:        from AS35000 action pref=150; accept AS-PROMETEY AS-PROMETEY-V6
+import:        from AS39153 action pref=150; accept AS-SETEL
+import:        from AS8905 action pref=150; accept AS-DIGIT1
+import:        from AS43097 action pref=150; accept AS43097
+import:        from AS43727 action pref=150; accept AS-SETKT
+import:        from AS49505 action pref=150; accept AS-PAKT
+import:        from AS49505 action pref=150; accept AS-SELECTEL
+import:        from AS50817 action pref=150; accept AS-ST
+import:        from AS41691 action pref=150; accept AS-SUMTEL
+import:        from AS48076 action pref=150; accept AS-OLYMP-TELECOM
+import:        from AS25408 action pref=150; accept AS25408
+export:        to AS174 announce AS-VKONTAKTE
+export:        to AS6762 announce AS-VKONTAKTE
+export:        to AS1273 announce AS-VKONTAKTE
+export:        to AS3356 announce AS-VKONTAKTE
+export:        to AS1299 announce AS-VKONTAKTE
+export:        to AS2914 announce AS-VKONTAKTE
+export:        to AS1200 announce AS-VKONTAKTE
+export:        to AS6777 announce AS-VKONTAKTE
+export:        to AS6695 announce AS-VKONTAKTE
+export:        to AS8714 announce AS-VKONTAKTE
+export:        to AS52005 announce AS-VKONTAKTE
+export:        to AS50952 announce AS-VKONTAKTE
+export:        to AS8631 announce AS-VKONTAKTE
+export:        to AS43690 announce AS-VKONTAKTE
+export:        to AS31500 announce AS-VKONTAKTE
+export:        to AS50384 announce AS-VKONTAKTE
+export:        to AS29076 announce AS-VKONTAKTE
+export:        to AS31133 announce AS-VKONTAKTE
+export:        to AS313094 announce AS-VKONTAKTE
+export:        to AS44843 announce AS-VKONTAKTE
+export:        to AS3216 announce AS-VKONTAKTE
+export:        to AS6697 announce AS-VKONTAKTE
+export:        to AS8732 announce AS-VKONTAKTE
+export:        to AS8359 announce AS-VKONTAKTE
+export:        to AS8402 announce AS-VKONTAKTE
+export:        to AS21219 announce AS-VKONTAKTE
+export:        to AS9049 announce AS-VKONTAKTE
+export:        to AS35320 announce AS-VKONTAKTE
+export:        to AS28917 announce AS-VKONTAKTE
+export:        to AS31133 announce AS-VKONTAKTE
+export:        to AS12714 announce AS-VKONTAKTE
+export:        to AS8997 announce AS-VKONTAKTE
+export:        to AS20764 announce AS-VKONTAKTE
+export:        to AS9002 announce AS-VKONTAKTE
+export:        to AS12389 announce AS-VKONTAKTE
+export:        to AS3267 announce AS-VKONTAKTE
+export:        to AS15378 announce AS-VKONTAKTE
+export:        to AS12958 announce AS-VKONTAKTE
+export:        to AS20485 announce AS-VKONTAKTE
+export:        to AS13238 announce AS-VKONTAKTE
+export:        to AS56534 announce AS-VKONTAKTE
+export:        to AS35000 announce AS-VKONTAKTE
+export:        to AS39153 announce AS-VKONTAKTE
+export:        to AS8905 announce AS-VKONTAKTE
+export:        to AS43097 announce AS-VKONTAKTE
+export:        to AS43727 announce AS-VKONTAKTE
+export:        to AS49505 announce AS-VKONTAKTE
+export:        to AS49505 announce AS-VKONTAKTE
+export:        to AS50817 announce AS-VKONTAKTE
+export:        to AS41691 announce AS-VKONTAKTE
+export:        to AS48076 announce AS-VKONTAKTE
+export:        to AS425408 announce AS-VKONTAKTE
+remarks:       **********************************************************************
+remarks:       Abuse, Security issues noc@vk.com
+remarks:       Network, routing issues, peering requests ncc@corp.vk.com
+remarks:       VK.com users support https://vk.com/support
+remarks:       Requests sent to wrong address will be ignored
+remarks:       **********************************************************************
+remarks:       ---------------- Uplinks -----------------------
+remarks:       -- Cogent
+remarks:       -- Telecom Italia
+remarks:       -- Vodafone
+remarks:       -- Level3
+remarks:       -- Telia Sonera
+remarks:       -- NTT
+remarks:       ---------------- IX ----------------------------
+remarks:       -- AMS-IX
+remarks:       -- DE-CIX
+remarks:       -- LINX
+remarks:       -- Netnod
+remarks:       -- DataIX
+remarks:       -- MSK-IX
+remarks:       -- SPB-IX
+remarks:       -- GlobalnetIX
+remarks:       -- W-IX(Ihome)
+remarks:       -- Cloud-IX(Filanco)
+remarks:       -- Megafon-IX
+remarks:       -- Milecom-IX
+remarks:       -------------- Direct peers ---------------------
+remarks:       -- Amsterdam Telecom
+remarks:       -- Beeline
+remarks:       -- Beltelecom
+remarks:       -- Comcor
+remarks:       -- MTS
+remarks:       -- Corbina
+remarks:       -- Datagroup
+remarks:       -- Er-Telecom
+remarks:       -- EuroTransTelecom
+remarks:       -- Fiord
+remarks:       -- Megafon
+remarks:       -- NetByNet
+remarks:       -- Rostelecom (ex:North-West Telecom)
+remarks:       -- Rascom
+remarks:       -- RETN
+remarks:       -- Rostelecom
+remarks:       -- Runnet
+remarks:       -- Tele2
+remarks:       -- TransTeleKom
+remarks:       -- Yandex
+remarks:       -- Comfortel
+remarks:       -- Prometey
+remarks:       -- Setel
+remarks:       -- Cifra1
+remarks:       -- Webra
+remarks:       -- Kvant
+remarks:       -- Pakt
+remarks:       -- Selectel
+remarks:       -- Service Telecom
+remarks:       -- Summa Telecom
+remarks:       -- Olymp Telecom(SkyNet)
+remarks:       -- WestCall
+remarks:       ***********************************************
+remarks:       ----- Our BGP communities for managing traffic
+remarks:       
+remarks:       -- AS47541 community (Russia, St.Petersburg main vk)
+remarks:       WARNING! These communities are applicable to entire VK.com network
+remarks:       please use it carefully
+remarks:       47541:20 - deny import
+remarks:       47541:21 - prepend last AS to AS-PATH 1 time
+remarks:       47541:22 - prepend last AS to AS-PATH 2 times
+remarks:       47541:23 - prepend last AS to AS-PATH 3 times
+remarks:       
+remarks:       -- CDN vk
+remarks:       47541:20<CDN_NUM> - deny import
+remarks:       47541:21<CDN_NUM> - prepend last AS to AS-PATH 1 time
+remarks:       47541:22<CDN_NUM> - prepend last AS to AS-PATH 2 times
+remarks:       47541:23<CDN_NUM> - prepend last AS to AS-PATH 3 times
+remarks:       where <CDN_NUM> is
+remarks:       01 - Russia, Moscow
+remarks:       03 - Russia, Ekaterinburg
+remarks:       04 - Russia, Novosibirsk
+remarks:       05 - Russia, Khabarovsk
+remarks:       06 - Germany, Frankfurt
+remarks:       07 - Russia, Samara
+remarks:       08 - Kazahstan, Akkol
+remarks:       
+remarks:       Other CDN bgp communities
+remarks:       <AS_NUM>:20 - deny import
+remarks:       <AS_NUM>:21 - prepend last AS to AS-PATH 1 time
+remarks:       <AS_NUM>:22 - prepend last AS to AS-PATH 2 times
+remarks:       <AS_NUM>:23 - prepend last AS to AS-PATH 3 times
+remarks:       where <AS_NUM> is
+remarks:       47541 - Germany, Frankfurt and main VK in St.Petersburg(not cdn)
+remarks:       47542 - Russia, Moscow
+remarks:       28709 - Other CDNs
+remarks:       
+remarks:       ----- Our internal communities that we append to imported prefixes
+remarks:       47541:41100 - received from uplinks
+remarks:       47541:41106 - received from Telecom Italia
+remarks:       47541:41107 - received from Level3
+remarks:       47541:41108 - received from Cogent
+remarks:       47541:41109 - received from NTT
+remarks:       47541:41110 - received from Vodafone (ex:C&W)
+remarks:       47541:41111 - received from Telia
+remarks:       
+remarks:       47541:42100 - received from public (ix) peer
+remarks:       47541:42101 - MSKIX
+remarks:       47541:42102 - DE-CIX
+remarks:       47541:42103 - AMS-IX
+remarks:       47541:42104 - DataIX
+remarks:       47764:42105 - SPBIX
+remarks:       47764:42111 - CloudIX
+remarks:       47541:42114 - W-IX
+remarks:       47541:42115 - GlobalnetIX
+remarks:       47541:42116 - NETNOD-IX
+remarks:       47541:42117 - LINX
+remarks:       47541:42118 - MEGAFON-IX
+remarks:       47541:42119 - Milecom-IX
+remarks:       47541:42120 - EKT-IX
+remarks:       47541:42121 - NSK-IX
+remarks:       47541:42122 - GIGANET-IX
+remarks:       47541:42123 - RB-IX (Ufanet)
+remarks:       47541:42124 - SMR-IX
+remarks:       
+remarks:       47541:43100 - received from private (direct) peer
+remarks:       47541:43102 - Rostelecom(AS 12389)
+remarks:       47542:43108 - Rostelecom(AS 42610)
+remarks:       47541:43109 - Fiord(AS 28917)
+remarks:       47541:43110 - Megafon(AS 31133)
+remarks:       47541:43113 - ITregion (AS43966)
+remarks:       47541:43018 - Yandex(AS 13238)
+remarks:       47541:43119 - RunNet(AS 3267)
+remarks:       47541:43122 - Rascom (AS 20764)
+remarks:       47541:43123 - Rostelecom (AS 8997)
+remarks:       47541:43124 - EuroTransTelecom(AS 35320)
+remarks:       47541:43128 - NetByNet (AS 12714)
+remarks:       47541:43129 - MTS(AS 8359)
+remarks:       47541:43131 - DataGroup(AS 21219)
+remarks:       47541:43132 - TTK (AS 20485)
+remarks:       47541:43134 - Beeline(AS 3216)
+remarks:       47541:43148 - ErTelecom (AS 9049)
+remarks:       47541:43166 - Corbina(AS 8402)
+remarks:       47541:43153 - BelTelecom (AS 6697)
+remarks:       47541:43154 - Ucomline (AS 12883)
+remarks:       47541:43159 - Amsterdam Telecom (AS 44843)
+remarks:       47541:43168 - Comcor(AS 8732)
+remarks:       47541:43174 - Tele2(AS 15378, 12958)
+remarks:       47541:43179 - Comfortel(AS 56534)
+remarks:       47541:43180 - Retn(AS 9002)
+remarks:       47541:43181 - Prometey(AS 35000)
+remarks:       47541:43182 - MailRu (AS 47764)
+remarks:       47541:43183 - Setel (AS 39153)
+remarks:       47541:43184 - Cifra1 (AS 8905)
+remarks:       47541:43185 - Webra (AS 43097)
+remarks:       47541:43186 - Kvant (AS 43727)
+remarks:       47541:43187 - VK HQ
+remarks:       47541:43188 - PAKT (AS 39087)
+remarks:       47541:43189 - SELECTEL (AS 49505)
+remarks:       47541:43190 - IT-SYSTEMS (AS 13249)
+remarks:       47541:43191 - REDCOM (AS 8749)
+remarks:       47541:43192 - WEBRA (AS 16300)
+remarks:       47541:43193 - SIBSET (AS 34757)
+remarks:       47541:43194 - UARNET (AS 3255)
+remarks:       47541:43195 - Piter-IX (AS 50817)
+remarks:       47541:43196 - Digital Ocean (AS 14061)
+remarks:       47541:43197 - Ufanet (AS 24955)
+remarks:       47541:43198 - Miranda (AS 201776)
+remarks:       47541:43200 - Summa Telecom (AS 41691)
+remarks:       47541:43201 - Olymp Telecom/Skynet (AS 48076)
+remarks:       47541:43202 - Motiv (AS 31499)
+remarks:       47541:43203 - WestCall (AS25408)
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        ncc@corp.vk.com
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        VKONTAKTE-NET-MNT
+source:        RIPE
+
+

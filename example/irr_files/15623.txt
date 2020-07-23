@@ -1,0 +1,181 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS15623
+as-name:       CYBERLINK
+descr:         Cyberlink AG
+descr:         Bellerivestrasse 241
+descr:         8008 Zurich, Switzerland
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+remarks:       
+remarks:       ===================================================
+remarks:       Imports
+remarks:       ===================================================
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Transit
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Customers
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Peers
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       EQUINIX (SWISS)
+remarks:       
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       SWISSIX
+remarks:       
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       DE-CIX
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       AMS-IX
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       LINX
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Multiple IX
+remarks:       
+remarks:       
+remarks:       ===================================================
+remarks:       Exports
+remarks:       ===================================================
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Transit
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Customers
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Peers
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       EQUINIX (SWISS)
+remarks:       
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       SWISSIX
+remarks:       
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       DE-CIX
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       AMS-IX
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       LINX
+remarks:       
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       Multiple IX
+remarks:       
+remarks:       
+remarks:       ===================================================
+remarks:       Communities
+remarks:       ===================================================
+remarks:       
+remarks:       INBOUND
+remarks:       =======
+remarks:       
+remarks:       Transit:
+remarks:       15623:1000 route learned from any of the following Transit
+remarks:       15623:1001 route learned from Cogent @ Equinix, AS174
+remarks:       15623:1002 route learned from Cogent @ InterXion, AS174
+remarks:       15623:1012 route learned from Level 3 @ Equinix, AS3356
+remarks:       15623:1013 route learned from Level 3 @ InterXion, AS3356
+remarks:       
+remarks:       Public Peering:
+remarks:       15623:2000 route learned from any of the following Public Peering
+remarks:       (Switzerland)
+remarks:       15623:2001 route learned at Equinix Internet Exchange
+remarks:       15623:2002 route learned at SwissIX @ Equinix
+remarks:       15623:2003 route learned at SwissIX @ InterXion
+remarks:       (Europe)
+remarks:       15623:2011 route learned at DE-CIX (Frankfurt, Germany)
+remarks:       15623:2012 route learned at AMS-IX (Amsterdam, Netherlands)
+remarks:       15623:2013 route learned at LINX (London, England)
+remarks:       
+remarks:       Private Peering:
+remarks:       15623:2100 route learned from any of the following Private Peering
+remarks:       15623:2101 route learned from SWISSCOM @ Equinix, AS3303
+remarks:       15623:2102 route learned from SWISSCOM @ InterXion, AS3303
+remarks:       15623:2104 route learned from SUNRISE @ InterXion, AS6730
+remarks:       15623:2105 route learned from Init7 @ InterXion, AS13030
+remarks:       
+remarks:       OUTBOUND
+remarks:       ========
+remarks:       
+remarks:       always use this format to mark your prefix with one of our community
+remarks:       15623:XXXXD
+remarks:       XXXX stands for the upstream in the table above
+remarks:       D stands for one of the below appended digits [0-3]
+remarks:       
+remarks:       append one of the following digits to influence how we announce your
+remarks:       prefix to the outside world
+remarks:       0 -> do not announce to upstream
+remarks:       1 -> make AS_PATH +1 longer
+remarks:       2 -> make AS_PATH +2 longer
+remarks:       3 -> make AS_PATH +3 longer
+remarks:       
+remarks:       Examples: 15623:XXXXD
+remarks:       a) add community 15623:20000 will prohibit that we announce it to
+remarks:       any of our Public Peerings
+remarks:       b) add community 15623:21043 will make the AS_PATH +3 longer when we
+remarks:       announce it to SUNRISE
+remarks:       
+remarks:       Special: Blackhole Community
+remarks:       Blackhole will drop the traffic in our core, useful if you are DDoS attacked
+remarks:       To blackhole a prefix on our border routers, add the community 15623:666
+remarks:       If possible, please advertise a blackhole route as /32 or /128
+remarks:       
+remarks:       ===================================================
+remarks:       Looking Glass
+remarks:       ===================================================
+remarks:       
+remarks:       Our looking glass is available under http://lg.cyberlink.ch
+remarks:       
+remarks:       ---------------------------------------------------
+remarks:       
+remarks:       Where we peer: http://as15623.peeringdb.com
+remarks:       
+remarks:       Please send requests to peering@cyberlink.ch
+remarks:       ---------------------------------------------------
+remarks:       In case of troubles or abuse please write to
+remarks:       abuse@cyberlink.ch or admin@cyberlink.ch
+remarks:       ---------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        ripe@cyberlink.ch
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        CYBERLINK-MNT
+source:        RIPE
+
+

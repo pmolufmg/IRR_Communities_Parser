@@ -1,0 +1,455 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS12883
+as-name:       UCOMLINE
+descr:         PRIVATE JOINT-STOCK COMPANY "FARLEP-INVEST"
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS3356 action pref = 65433; accept ANY
+import:        from AS6762 action pref = 65433; accept ANY
+import:        from AS12389 action pref = 65245; accept ANY
+import:        from AS20485 action pref = 65245; accept ANY
+import:        from AS42 80.249.208.250 at 80.249.211.215 action pref = 65255; accept AS-PCH
+import:        from AS42 80.81.194.42 at 80.81.194.177 action pref = 65250; accept AS-PCH
+import:        from AS251 80.249.209.103 at 80.249.211.215 action pref = 65255; accept AS-KAIAGLOBAL
+import:        from AS714 80.249.211.160 at 80.249.211.215 action pref = 65235; accept AS714
+import:        from AS714 80.249.211.183 at 80.249.211.215 action pref = 65235; accept AS714
+import:        from AS714 80.81.193.202 at 80.81.194.177 action pref = 65235; accept AS714
+import:        from AS714 80.81.193.223 at 80.81.194.177 action pref = 65235; accept AS714
+import:        from AS714 80.81.194.161 at 80.81.194.177 action pref = 65235; accept AS714
+import:        from AS714 80.81.194.171 at 80.81.194.177 action pref = 65235; accept AS714
+import:        from AS2484 action pref = 65250; accept AS-AFNIC
+import:        from AS2603 80.249.209.203 at 80.249.211.215 action pref = 65255; accept AS-NORDUNET
+import:        from AS2603 80.81.192.241 at 80.81.194.177 action pref = 65250; accept AS-NORDUNET
+import:        from AS3202 62.221.34.74 at 62.221.34.73 action pref = 65225; accept AS-DS
+import:        from AS3202 62.221.34.78 at 62.221.34.77 action pref = 65225; accept AS-DS
+import:        from AS3249 80.81.192.197 at 80.81.194.177 action pref = 65250; accept AS-ESTPAK
+import:        from AS3249 80.249.209.181 at 80.249.211.215 action pref = 65255; accept AS-ESTPAK
+import:        from AS3267 action pref = 65245; accept AS-RUNNET
+import:        from AS3856 80.249.209.250 at 80.249.211.215 action pref = 65255; accept AS-PCH
+import:        from AS3856 80.81.195.42 at 80.81.194.177 action pref = 65250; accept AS-PCH
+import:        from AS6661 action pref = 65250; accept AS-PTLU
+import:        from AS6695 80.81.192.157 at 80.81.194.177 action pref = 65250; accept AS-DECIX
+import:        from AS6695 80.81.193.157 at 80.81.194.177 action pref = 65250; accept AS-DECIX
+import:        from AS6777 80.249.208.255 at 80.249.211.215 action pref = 65255; accept AS-AMS-IX-RS
+import:        from AS6777 80.249.209.0 at 80.249.211.215 action pref = 65255; accept AS-AMS-IX-RS
+import:        from AS6849 82.207.106.25 at 82.207.106.26 action pref = 65235; accept AS-UKRTELBT
+import:        from AS6849 213.179.249.77 at 213.179.249.78 action pref = 65235; accept AS-UKRTELBT
+import:        from AS6886 62.221.34.126 at 62.221.34.125 action pref = 65225; accept NOT ANY
+import:        from AS6939 80.249.209.150 at 80.249.211.215 action pref = 65255; accept AS-HURRICANE
+import:        from AS6939 80.81.192.172 at 80.81.194.177 action pref = 65250; accept AS-HURRICANE
+import:        from AS7342 80.249.209.232 at 80.249.211.215 action pref = 65255; accept AS-GTLD
+import:        from AS7342 80.81.192.245 at 80.81.194.177 action pref = 65250; accept AS-GTLD
+import:        from AS8365 80.81.192.6 at 80.81.194.177 action pref = 65250; accept AS-MANDA
+import:        from AS8447 80.81.192.69 at 80.81.194.177 action pref = 65250; accept AS-PTA
+import:        from AS8447 80.249.209.207 at 80.249.211.215 action pref = 65255; accept AS-PTA
+import:        from AS8545 195.182.218.99 at 195.182.219.114 action pref = 65255; accept AS-PLIX
+import:        from AS8545 195.182.218.100 at 195.182.219.114 action pref = 65255; accept AS-PLIX
+import:        from AS8551 80.81.192.191 at 80.81.194.177 action pref = 65250; accept AS-BEZEQINT
+import:        from AS8551 80.81.193.191 at 80.81.194.177 action pref = 65250; accept AS-BEZEQINT
+import:        from AS8551 80.249.209.46 at 80.249.211.215 action pref = 65255; accept AS-BEZEQINT
+import:        from AS8631 195.208.208.100 at 195.208.208.176 action pref = 65245; accept AS-MSKROUTESERVER
+import:        from AS8631 195.208.215.100 at 195.208.208.176 action pref = 65245; accept AS-MSKROUTESERVER
+import:        from AS8708 80.81.192.87 at 80.81.194.177 action pref = 65250; accept AS-RDSNET
+import:        from AS8708 80.249.208.51 at 80.249.211.215 action pref = 65255; accept AS-RDSNET
+import:        from AS8781 action pref = 65250; accept AS-QTEL-SET
+import:        from AS9050 80.81.192.54 at 80.81.194.177 action pref = 65250; accept AS-RTD
+import:        from AS9050 80.81.193.54 at 80.81.194.177 action pref = 65250; accept AS-RTD
+import:        from AS9050 80.249.209.180 at 80.249.211.215 action pref = 65255; accept AS-RTD
+import:        from AS12578 80.249.210.13 at 80.249.211.215 action pref = 65255; accept AS-LATTELEKOM
+import:        from AS12578 80.81.194.165 at 80.81.194.177 action pref = 65250; accept AS-LATTELEKOM
+import:        from AS12611 action pref = 65250; accept AS-RKOM
+import:        from AS13030 80.81.192.67 at 80.81.194.177 action pref = 65250; accept AS-INIT7
+import:        from AS13030 80.81.193.67 at 80.81.194.177 action pref = 65250; accept AS-INIT7
+import:        from AS13188 action pref = 65235; accept AS-BANKINFORM
+import:        from AS15169 accept NOT ANY
+import:        from AS15645 195.35.65.1 at 195.35.65.15 action pref = 65235; accept AS-UAIX AND NOT (AS-APEX^- AS50204^-)
+import:        from AS15645 195.35.65.11 at 195.35.65.15 action pref = 65235; accept AS-UAIX AND NOT (AS-APEX^- AS50204^-)
+import:        from AS15645 195.35.65.1 at 195.35.65.9 action pref = 65235; accept AS-UAIX
+import:        from AS15645 195.35.65.11 at 195.35.65.9 action pref = 65235; accept AS-UAIX
+import:        from AS15772 62.221.40.84 at 62.221.40.81 action pref = 65235; accept AS-WNET:AS-PP
+import:        from AS15772 62.221.34.106 at 62.221.34.105 action pref = 65235; accept AS-WNET:AS-PP
+import:        from AS16150 action pref = 65250; accept AS16150:AS-CUSTOMERS
+import:        from AS16509 80.249.210.217 at 80.249.211.215 action pref = 65255; accept AS-AMAZON
+import:        from AS16509 80.249.210.100 at 80.249.211.215 action pref = 65255; accept AS-AMAZON
+import:        from AS16509 80.81.194.152 at 80.81.194.177 action pref = 65250; accept AS-AMAZON
+import:        from AS20764 195.208.208.223 at 195.208.208.176 action pref = 65245; accept AS-RASCOM
+import:        from AS20833 action pref = 65225; accept {80.70.70.224/30} {80.70.70.240/30} {80.70.70.244/30} {195.24.242.160/28}
+import:        from AS21257 action pref = 65235; accept AS-XUA
+import:        from AS21257 action pref = 65235; accept AS-XUA
+import:        from AS28917 80.81.194.28 at 80.81.194.177 action pref = 65250; accept AS-FIORD
+import:        from AS28917 193.25.180.97 at 193.25.180.51 action pref = 65245; accept AS-FIORD
+import:        from AS28917 195.208.208.147 at 195.208.208.176 action pref = 65245; accept AS-FIORD
+import:        from AS30890 action pref = 65250; accept AS-EVOLVA
+import:        from AS31133 action pref = 65250; accept AS-MF-MGSM
+import:        from AS31210 193.25.180.255 at 193.25.180.51 action pref = 65235; accept AS-DTEL-IX AND NOT (AS-APEX^- AS50204^-)
+import:        from AS31210 193.25.181.0 at 193.25.180.51 action pref = 65235; accept AS-DTEL-IX AND NOT (AS-APEX^- AS50204^-)
+import:        from AS31210 193.25.180.255 at 193.25.180.56 action pref = 65235; accept AS-DTEL-IX
+import:        from AS31210 193.25.181.0 at 193.25.180.56 action pref = 65235; accept AS-DTEL-IX
+import:        from AS31252 80.81.194.32 at 80.81.194.177 action pref = 65250; accept AS-STARNET
+import:        from AS31252 80.81.195.32 at 80.81.194.177 action pref = 65250; accept AS-STARNET
+import:        from AS32590 80.81.193.63 at 80.81.194.177 action pref = 65250; accept AS-VALVE
+import:        from AS32934 80.81.194.40 at 80.81.194.177 action pref = 65250; accept AS32934
+import:        from AS32934 80.81.195.40 at 80.81.194.177 action pref = 65250; accept AS32934
+import:        from AS33891 action pref = 65250; accept AS-CORE-BACKBONE
+import:        from AS251 80.81.192.213 at 80.81.194.177 action pref = 65250; accept AS-KAIAGLOBAL
+import:        from AS34270 80.249.211.164 at 80.249.211.215 action pref = 65255; accept AS-INETC
+import:        from AS34867 action pref = 65225; accept AS-COSMONOVA
+import:        from AS35233 action pref = 65225; accept {195.80.231.0/24}
+import:        from AS35320 193.25.180.24 at 193.25.180.51 action pref = 65235; accept AS-ETT
+import:        from AS35320 62.221.34.86 at 62.221.34.85 action pref = 65235; accept AS-ETT
+import:        from AS36351 80.249.210.82 at 80.249.211.215 action pref = 65255; accept AS-SOFTLAYER
+import:        from AS36351 80.81.194.167 at 80.81.194.177 action pref = 65250; accept AS-SOFTLAYER
+import:        from AS36408 80.249.208.191 at 80.249.211.215 action pref = 65255; accept AS36408
+import:        from AS36408 80.81.192.65 at 80.81.194.177 action pref = 65250; accept AS36408
+import:        from AS36408 80.81.194.4 at 80.81.194.177 action pref = 65250; accept AS36408
+import:        from AS39743 80.249.210.43 at 80.249.211.215 action pref = 65255; accept AS-VOXILITY-SET
+import:        from AS39743 80.81.195.144 at 80.81.194.177 action pref = 65250; accept AS-VOXILITY-SET
+import:        from AS39792 195.208.208.136 at 195.208.208.176 action pref = 65245; accept AS-ANDERS
+import:        from AS41692 action pref = 65250; accept AS-OPENCARRIER
+import:        from AS42708 80.249.209.25 at 80.249.211.215 action pref = 65255; accept AS-PORTLANE
+import:        from AS42708 80.81.194.215 at 80.81.194.177 action pref = 65250; accept AS-PORTLANE
+import:        from AS44600 62.221.34.110 at 62.221.34.109 action pref = 65235; accept AS-GGT
+import:        from AS44600 62.221.34.118 at 62.221.34.117 action pref = 65235; accept AS-GGT
+import:        from AS47541 62.221.34.82 at 62.221.34.81 action pref = 65245; accept AS-VKONTAKTE
+import:        from AS47764 193.25.180.106 at 193.25.180.51 action pref = 65235; accept AS-MAILRU
+import:        from AS50952 178.18.230.100 at 178.18.230.47 action pref = 65245; accept AS-DATAIX
+import:        from AS50952 178.18.230.200 at 178.18.230.47 action pref = 65245; accept AS-DATAIX
+import:        from AS50952 178.18.224.100 at 178.18.224.94 action pref = 65245; accept AS-DATAIX
+import:        from AS50952 178.18.227.100 at 178.18.224.94 action pref = 65245; accept AS-DATAIX
+import:        from AS59613 185.1.62.1 at 185.1.62.110 action pref = 65245; accept AS-UBNIX AND NOT (AS-APEX^- AS50204^- AS41018^-)
+import:        from AS59613 185.1.62.2 at 185.1.62.110 action pref = 65245; accept AS-UBNIX AND NOT (AS-APEX^- AS50204^-)
+export:        to AS3356 announce AS-UCOMLINE
+export:        to AS6762 announce AS-UCOMLINE
+export:        to AS12389 announce AS-UCOMLINE
+export:        to AS20485 announce AS-UCOMLINE
+export:        to AS42 80.249.208.250 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS42 80.81.194.42 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS251 80.249.209.103 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS714 80.249.211.160 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS714 80.249.211.183 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS714 80.81.193.202 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS714 80.81.193.223 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS714 80.81.194.161 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS714 80.81.194.171 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS2484 announce AS-UCOMLINE
+export:        to AS2603 80.249.209.203 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS2603 80.81.192.241 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS3202 62.221.34.74 at 62.221.34.73 announce AS-UCOMLINE
+export:        to AS3202 62.221.34.78 at 62.221.34.77 announce AS-UCOMLINE
+export:        to AS3249 80.81.192.197 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS3249 80.249.209.181 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS3267 announce AS-UCOMLINE
+export:        to AS3856 80.249.209.250 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS3856 80.81.195.42 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS6661 announce AS-UCOMLINE
+export:        to AS6695 80.81.192.157 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS6695 80.81.193.157 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS6777 80.249.208.255 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS6777 80.249.209.0 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS6849 82.207.106.25 at 82.207.106.26 announce AS-UCOMLINE
+export:        to AS6849 213.179.249.77 at 213.179.249.78 announce AS-UCOMLINE
+export:        to AS6886 62.221.34.126 at 62.221.34.125 announce community.contains(12883:104) community.contains(12883:110) community.contains(12883:116)
+export:        to AS6939 80.249.209.150 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS6939 80.81.192.172 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS7342 80.249.209.232 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS7342 80.81.192.245 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS8365 80.81.192.6 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS8447 80.81.192.69 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS8447 80.249.209.207 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS8545 195.182.218.99 at 195.182.219.114 announce AS-UCOMLINE
+export:        to AS8545 195.182.218.100 at 195.182.219.114 announce AS-UCOMLINE
+export:        to AS8551 80.81.192.191 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS8551 80.81.193.191 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS8551 80.249.209.46 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS8631 195.208.208.100 at 195.208.208.176 announce AS-UCOMLINE
+export:        to AS8631 195.208.215.100 at 195.208.208.176 announce AS-UCOMLINE
+export:        to AS8708 80.81.192.87 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS8708 80.249.208.51 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS8781 announce AS-UCOMLINE
+export:        to AS9050 80.81.192.54 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS9050 80.81.193.54 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS9050 80.249.209.180 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS12578 80.249.210.13 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS12578 80.81.194.165 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS12611 announce AS-UCOMLINE
+export:        to AS13030 80.81.192.67 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS13030 80.81.193.67 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS13188 announce AS-UCOMLINE
+export:        to AS15169 announce AS-UCOMLINE
+export:        to AS15645 195.35.65.1 at 195.35.65.15 announce AS-UCOMLINE
+export:        to AS15645 195.35.65.11 at 195.35.65.15 announce AS-UCOMLINE
+export:        to AS15645 195.35.65.1 at 195.35.65.9 announce AS-UCOMLINE
+export:        to AS15645 195.35.65.11 at 195.35.65.9 announce AS-UCOMLINE
+export:        to AS15772 62.221.40.84 at 62.221.40.81 announce AS-UCOMLINE
+export:        to AS15772 62.221.34.106 at 62.221.34.105 announce AS-UCOMLINE
+export:        to AS16150 announce AS-UCOMLINE
+export:        to AS16509 80.249.210.217 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS16509 80.249.210.100 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS16509 80.81.194.152 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS20764 195.208.208.223 at 195.208.208.176 announce AS-UCOMLINE
+export:        to AS20833 announce {62.221.34.0/24} {93.178.205.0/24}
+export:        to AS21257 announce AS-UCOMLINE
+export:        to AS21257 announce AS-UCOMLINE
+export:        to AS28917 80.81.194.28 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS28917 193.25.180.97 at 193.25.180.51 announce AS-UCOMLINE
+export:        to AS28917 195.208.208.147 at 195.208.208.176 announce AS-UCOMLINE
+export:        to AS30890 announce AS-UCOMLINE
+export:        to AS31133 announce AS-UCOMLINE
+export:        to AS31210 193.25.180.255 at 193.25.180.51 announce AS-UCOMLINE
+export:        to AS31210 193.25.181.0 at 193.25.180.51 announce AS-UCOMLINE
+export:        to AS31210 193.25.180.255 at 193.25.180.56 announce AS-UCOMLINE
+export:        to AS31210 193.25.181.0 at 193.25.180.56 announce AS-UCOMLINE
+export:        to AS31252 80.81.194.32 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS31252 80.81.195.32 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS32590 80.81.193.63 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS32934 80.81.194.40 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS32934 80.81.195.40 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS33891 announce AS-UCOMLINE
+export:        to AS251 80.81.192.213 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS34270 80.249.211.164 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS34867 announce AS-UCOMLINE
+export:        to AS35233 announce {62.221.34.0/24}
+export:        to AS35320 193.25.180.24 at 193.25.180.51 announce AS-UCOMLINE
+export:        to AS35320 62.221.34.86 at 62.221.34.85 announce AS-UCOMLINE
+export:        to AS36351 80.249.210.82 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS36351 80.81.194.167 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS36408 80.249.208.191 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS36408 80.81.192.65 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS36408 80.81.194.4 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS39743 80.249.210.43 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS39743 80.81.195.144 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS39792 195.208.208.136 at 195.208.208.176 announce AS-UCOMLINE
+export:        to AS41692 announce AS-UCOMLINE
+export:        to AS42708 80.249.209.25 at 80.249.211.215 announce AS-UCOMLINE
+export:        to AS42708 80.81.194.215 at 80.81.194.177 announce AS-UCOMLINE
+export:        to AS44600 62.221.34.110 at 62.221.34.109 announce AS-UCOMLINE
+export:        to AS44600 62.221.34.118 at 62.221.34.117 announce AS-UCOMLINE
+export:        to AS47541 62.221.34.82 at 62.221.34.81 announce AS-UCOMLINE
+export:        to AS47764 193.25.180.106 at 193.25.180.51 announce AS-UCOMLINE
+export:        to AS50952 178.18.230.100 at 178.18.230.47 announce AS-UCOMLINE
+export:        to AS50952 178.18.230.200 at 178.18.230.47 announce AS-UCOMLINE
+export:        to AS50952 178.18.224.100 at 178.18.224.94 announce AS-UCOMLINE
+export:        to AS50952 178.18.227.100 at 178.18.224.94 announce AS-UCOMLINE
+export:        to AS59613 185.1.62.1 at 185.1.62.110 announce AS-UCOMLINE
+export:        to AS59613 185.1.62.1 at 185.1.62.110 announce AS-UCOMLINE
+remarks:       ********************************************************************
+remarks:       => Transits
+remarks:       ********************************************************************
+remarks:       ********************************************************************
+remarks:       => Peers
+remarks:       ********************************************************************
+remarks:       ********************************************************************
+remarks:       => Customer peerings are not described in this object
+remarks:       ********************************************************************
+remarks:       
+remarks:       ********************************************************************
+remarks:       Abuse reports to abuse@ucomline.net
+remarks:       Operational issues to noc@vegatele.com
+remarks:       ********************************************************************
+remarks:       
+remarks:       Note that the import/export designations above are a simplification
+remarks:       of our actual policies which cannot be properly described given the
+remarks:       limitations of RPSL.
+remarks:       
+remarks:       Note that the BGP community filtering scheme also conforms to
+remarks:       Internet-Draft <draft-ietf-grow-collection-communities>. Only
+remarks:       non-standart communities that are not covered by this document are
+remarks:       shown below.
+remarks:       
+remarks:       The following import actions are common to every FARLEP-INVEST
+remarks:       customer BGP session:
+remarks:       
+remarks:       + Advertisements tagged with our own "internal use only" communities
+remarks:       (ie the city/country/region/etc communities outlined below) will
+remarks:       have all of their communities stripped from them at ingress, and any
+remarks:       communities meant to affect suppression, prepending, etc are thus
+remarks:       ignored.
+remarks:       
+remarks:       + Prefixes not matching the per-peer import policy as documented
+remarks:       above are not permitted.
+remarks:       
+remarks:       + LocalPref for specific customers (community 12883:5) will be set
+remarks:       to 405 by default, subject to modification based on received
+remarks:       communities as outlined below.
+remarks:       
+remarks:       + LocalPref for the other customers will be set to 400 by default,
+remarks:       subject to modification based on received communities as outlined
+remarks:       below.
+remarks:       
+remarks:       The following import actions are common to every FARLEP-INVEST
+remarks:       non-customer peering session:
+remarks:       
+remarks:       + RFC1918 and other reserved networks and subnets are
+remarks:       not permited.
+remarks:       
+remarks:       + Prefixes shorter than /3 or longer than /24 are
+remarks:       not permited.
+remarks:       
+remarks:       + Prefixes not matching the per-peer import policy as documented
+remarks:       above are not permitted.
+remarks:       
+remarks:       ====================================================================
+remarks:       Communities applied at ingress
+remarks:       ====================================================================
+remarks:       --------------------------------------------------------------------
+remarks:       error type communities
+remarks:       --------------------------------------------------------------------
+remarks:       12883:999 - "internal use" communities received
+remarks:       --------------------------------------------------------------------
+remarks:       prefix type communities
+remarks:       --------------------------------------------------------------------
+remarks:       12883:1NN - Internal and Customer routes
+remarks:       12883:2NN - Peer routes
+remarks:       12883:5NN - <reserved>
+remarks:       12883:3NN - Transit routes
+remarks:       12883:4NN - Transit routes (European distributed)
+remarks:       
+remarks:       there NN is a POP number (see below)
+remarks:       --------------------------------------------------------------------
+remarks:       internal and customer communities, received in the given POP
+remarks:       --------------------------------------------------------------------
+remarks:       12883:101 - ods - Odessa
+remarks:       12883:102 - iev - Kiev
+remarks:       12883:103 - lwo - Lviv
+remarks:       12883:104 - dok - Donetsk
+remarks:       12883:105 - dnk - Dnepropetrovsk
+remarks:       12883:106 - khr - Kharkov
+remarks:       12883:107 - ozh - Zaporozhye
+remarks:       12883:108 - sip - Simferopol
+remarks:       12883:109 - nlv - Nikolaev
+remarks:       12883:110 - mpw - Mariupol
+remarks:       12883:111 - khe - Kherson
+remarks:       12883:112 - ifo - Ivano-Frankovsk
+remarks:       12883:113 - fra - Frankfurt
+remarks:       12883:114 - kwg - Krivoy Rog
+remarks:       12883:115 - uks - Sevastopol
+remarks:       12883:116 - vsg - Lugansk
+remarks:       12883:117 - vin - Vinnitsa
+remarks:       12883:118 - hmj - Khmelnitskiy
+remarks:       12883:119 - cej - Chernigov
+remarks:       12883:120 - cwc - Chernovtsy
+remarks:       12883:121 - tnl - Ternopil
+remarks:       12883:125 - sip-eup - Eupatoria
+remarks:       12883:126 - sip-yal - Yalta
+remarks:       12883:129 - iev-bts - Belaya Tserkov
+remarks:       12883:130 - rwn - Rovno
+remarks:       12883:131 - ztr - Zhitomir
+remarks:       12883:132 - plv - Poltava
+remarks:       12883:133 - udj - Uzhgorod
+remarks:       12883:134 - kgo - Kirovograd
+remarks:       12883:137 - umy - Sumy
+remarks:       12883:138 - ckc - Cherkassy
+remarks:       12883:139 - uck - Lutsk
+remarks:       --------------------------------------------------------------------
+remarks:       auxiliary POP/branch communities
+remarks:       --------------------------------------------------------------------
+remarks:       12883:602 - routes received from customers at CORE-0.kiev
+remarks:       12883:702 - routes received from customers at EDGE-3.kiev
+remarks:       --------------------------------------------------------------------
+remarks:       regional communities
+remarks:       --------------------------------------------------------------------
+remarks:       12883:100 - Europe
+remarks:       
+remarks:       ====================================================================
+remarks:       Communities accepted from customers
+remarks:       ====================================================================
+remarks:       --------------------------------------------------------------------
+remarks:       customer traffic engineering (TE) notes
+remarks:       --------------------------------------------------------------------
+remarks:       1. Communities allow suppress to neighbor AS, where
+remarks:       
+remarks:       + neighbor AS has a peering connection to FARLEP-INVEST,
+remarks:       
+remarks:       + neighbor AS is not a customer of FARLEP-INVEST.
+remarks:       
+remarks:       2. Communities allow prepend to neighbor AS, where
+remarks:       
+remarks:       + neighbor AS has a peering connection to FARLEP-INVEST,
+remarks:       
+remarks:       3. Blackhole implementation.
+remarks:       
+remarks:       The customer will need to ask for the "blackhole" feature
+remarks:       to be enabled on their BGP session.
+remarks:       
+remarks:       This will enable two sets of prefix filters on the routes
+remarks:       learnt from the customer:
+remarks:       
+remarks:       + the normal filter will match exactly the routes registered
+remarks:       in the IRRs,
+remarks:       
+remarks:       + the "blackhole" filter will match any host (/32 network),
+remarks:       that is contained within the normal set of routes.
+remarks:       --------------------------------------------------------------------
+remarks:       customer traffic engineering communities - Suppression
+remarks:       --------------------------------------------------------------------
+remarks:       64999:XXX - announce to AS XXX if 65000:0 is set
+remarks:       65000:0 - announce to customers but not to peers and transits
+remarks:       65000:XXX - do not announce to AS XXX
+remarks:       651NN:XXX - do not announce to AS XXX in NN POP
+remarks:       
+remarks:       Note: XXX means AS number, or:
+remarks:       65002 - all peers
+remarks:       65003 - all transits
+remarks:       65005 - all national peers
+remarks:       65006 - all international peers
+remarks:       --------------------------------------------------------------------
+remarks:       customer traffic engineering communities - Prepending
+remarks:       --------------------------------------------------------------------
+remarks:       65001:0 - prepend once to all neighbors
+remarks:       65001:XXX - prepend once to AS XXX
+remarks:       65002:0 - prepend twice to all neighbors
+remarks:       65002:XXX - prepend twice to AS XXX
+remarks:       65003:0 - prepend 3x to all neighbors
+remarks:       65003:XXX - prepend 3x to AS XXX
+remarks:       65004:0 - prepend 4x to all neighbors
+remarks:       65004:XXX - prepend 4x to AS XXX
+remarks:       65006:0 - prepend 6x to all neighbors
+remarks:       65006:XXX - prepend 6x to AS XXX
+remarks:       65008:0 - prepend 8x to all neighbors
+remarks:       65008:XXX - prepend 8x to AS XXX
+remarks:       
+remarks:       Note: XXX means AS number, or:
+remarks:       65001 - all customers
+remarks:       65002 - all peers
+remarks:       65003 - all transits
+remarks:       65005 - all national peers
+remarks:       65006 - all international peers
+remarks:       65007 - all russian peers and transits
+remarks:       
+remarks:       8x prpends also means that additional measures are taken
+remarks:       to make these routes the least prefered within peering AS(es)
+remarks:       --------------------------------------------------------------------
+remarks:       customer traffic engineering communities - LocalPref
+remarks:       --------------------------------------------------------------------
+remarks:       65200:70 - set local preference to 70
+remarks:       65200:80 - set local preference to 80
+remarks:       65200:90 - set local preference to 90
+remarks:       --------------------------------------------------------------------
+remarks:       customer traffic engineering communities - Blackhole
+remarks:       --------------------------------------------------------------------
+remarks:       65534:RRRRR - blackhole traffic at specific border router
+remarks:       65534:0 - blackhole traffic at any border router
+remarks:       
+remarks:       Traffic destined for any prefixes tagged with this community will be
+remarks:       discarded at ingress to the FARLEP-INVEST network. The prefix must
+remarks:       be one permitted by the customer's existing ingress BGP filter.
+remarks:       
+remarks:       Please contact noc@vegatele.com with any questions regarding this
+remarks:       functionality.
+remarks:       --------------------------------------------------------------------
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        lir.dbn@vegatele.com
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        VEGA-CORE-MNT
+source:        RIPE
+
+

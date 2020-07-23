@@ -1,0 +1,143 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS59392 - AS61439'
+
+as-block:       AS59392 - AS61439
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS60169'
+
+% Abuse contact for 'AS60169' is 'noc@ip.g-fit.de'
+
+aut-num:        AS60169
+as-name:        GFIT-AS
+org:            ORG-GGFI1-RIPE
+remarks:        ---------------------------------------------------------------
+import:         from AS702 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS702 announce AS60169:AS-GFIT
+import:         from AS3320 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS3320 announce AS60169:AS-GFIT
+remarks:        ---------------------------------------------------------------
+import:         from AS12611 accept AS-RKOM
+export:         to AS12611 announce ANY
+import:         from AS29413 accept AS-KOMRO
+export:         to AS29413 announce ANY
+import:         from AS47297 accept AS-TKLINDAU
+export:         to AS47297 announce ANY
+import:         from AS48284 accept AS-SWUTN
+export:         to AS48284 announce ANY
+import:         from AS57154 accept AS-SWKN
+export:         to AS57154 announce ANY
+remarks:        ---------------------------------------------------------------
+admin-c:        GFIT2-RIPE
+tech-c:         GFIT2-RIPE
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        we do not accept IPv4 routes more specific than /24
+remarks:
+remarks:        Peering requests etc. should be sent to: peering@ip.g-fit.de
+remarks:        Problem reports should be sent to: noc@ip.g-fit.de
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        BGP community definitions
+remarks:        =========================
+remarks:
+remarks:        Communities to control traffic
+remarks:        ------------------------------
+remarks:        60169:1xxy  Routes propagated to a transit provider
+remarks:        60169:2xxy  Routes propagated to public peers
+remarks:        60169:3xxy  Routes propagated to a private peer
+remarks:
+remarks:        60169:1000  do not announce to AS702     (Verizon Business EMEA)
+remarks:        60169:1001  prepend 1x when announced to AS702
+remarks:        60169:1002  prepend 2x when announced to AS702
+remarks:        60169:1003  prepend 3x when announced to AS702
+remarks:
+remarks:        60169:1100  do not announce to AS3320    (Deutsche Telekom AG)
+remarks:        60169:1101  prepend 1x when announced to AS3320
+remarks:        60169:1102  prepend 2x when announced to AS3320
+remarks:        60169:1103  prepend 3x when announced to AS3320
+remarks:
+remarks:        60169:2000  do not announce to DE-CIX peers
+remarks:        60169:2001  prepend 1x when announced to DE-CIX peers
+remarks:        60169:2002  prepend 2x when announced to DE-CIX peers
+remarks:        60169:2003  prepend 3x when announced to DE-CIX peers
+remarks:
+remarks:        60169:3000  do not announce to AS15169   (Google LLC)
+remarks:        60169:3001  prepend 1x when announced to AS15169
+remarks:        60169:3002  prepend 2x when announced to AS15169
+remarks:        60169:3003  prepend 3x when announced to AS15169
+remarks:
+remarks:        Communities tagged on inbound routes
+remarks:        ------------------------------------
+remarks:        60169:1xx  Routes learned from a transit provider
+remarks:        60169:2xx  Routes learned from public peers
+remarks:        60169:3xx  Routes learned from a private peer
+remarks:
+remarks:        60169:100  routes received from AS702   (Verizon Business EMEA)
+remarks:        60169:110  routes received from AS3320  (Deutsche Telekom AG)
+remarks:        60169:200  routes received from DE-CIX peers
+remarks:        60169:300  routes received from AS15169 (Google LLC)
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         GFIT-MNT
+created:        2013-09-11T06:37:04Z
+last-modified:  2018-09-04T11:22:06Z
+source:         RIPE # Filtered
+
+organisation:   ORG-GGFI1-RIPE
+org-name:       G-FIT Gesellschaft fuer innovative Telekommunikationsdienste mbH & Co. KG
+org-type:       LIR
+address:        Prinz-Ludwig-Str. 9
+address:        93055
+address:        Regensburg
+address:        GERMANY
+phone:          +499416985180
+fax-no:         +499416985200
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        GFIT-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+abuse-c:        GFIT-RIPE
+tech-c:         GFIT-RIPE
+created:        2013-09-02T13:47:58Z
+last-modified:  2017-10-30T15:33:11Z
+source:         RIPE # Filtered
+
+role:           G-FIT IP NOC
+address:        G-FIT GmbH & Co. KG
+address:        Prinz-Ludwig-Str. 9
+address:        93055 Regensburg
+phone:          +49 941 6985 180
+fax-no:         +49 941 6985 200
+admin-c:        AR4019-RIPE
+tech-c:         KE273-RIPE
+tech-c:         SMB1-RIPE
+tech-c:         AB27637-RIPE
+tech-c:         AS35007-RIPE
+abuse-mailbox:  noc@ip.g-fit.de
+nic-hdl:        GFIT2-RIPE
+mnt-by:         GFIT-MNT
+created:        2016-02-23T13:19:53Z
+last-modified:  2017-08-07T06:18:15Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

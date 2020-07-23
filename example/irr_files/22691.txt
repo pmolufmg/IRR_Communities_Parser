@@ -1,0 +1,626 @@
+aut-num:    AS22691
+as-name:    ISPNET-1
+descr:      ISPnet, Inc.
+admin-c:    RPT8-ARIN
+tech-c:     RPT8-ARIN
+remarks:    
+remarks:    AS42      woodynet.net/pch.net
+import:     from AS42 198.32.160.126   accept AS-PCH
+export:     to AS42 198.32.160.126   announce AS-ISPNET
+remarks:    
+remarks:    AS174     CogentCo.com
+import:     from AS174 38.103.64.228   accept ANY
+export:     to AS174 38.103.64.228   announce AS-ISPNET
+remarks:    
+remarks:    AS1248    Nokia.net
+import:     from AS1248 198.32.160.212   accept AS-NOK
+export:     to AS1248 198.32.160.212   announce AS-ISPNET
+remarks:    
+remarks:    AS1257    TELE2 Sverige AB / swip.net
+import:     from AS1257 198.32.160.140   accept AS-TELE2
+export:     to AS1257 198.32.160.140   announce AS-ISPNET
+remarks:    
+remarks:    AS1280   ISC New York - as peer
+import:     from AS1280 198.32.160.95   accept AS1280:AS-SET
+export:     to AS1280 198.32.160.95   announce AS-ISPNET
+remarks:    
+remarks:    AS1280  ISC New York - as customer
+import:     from AS1280 69.48.130.115   accept AS1280:AS-SET
+export:     to AS1280 69.48.130.115   announce ANY
+remarks:    
+remarks:    AS2119    telenor.net
+import:     from AS2119 198.32.160.192   accept AS-TELENOR
+export:     to AS2119 198.32.160.192   announce AS-ISPNET
+remarks:    
+remarks:    AS2603    NORDU.net
+import:     from AS2603 198.32.160.192   accept AS-NORDUNET
+export:     to AS2603 198.32.160.192   announce AS-ISPNET
+import:     from AS2603 206.51.30.192   accept AS-NORDUNET
+export:     to AS2603 206.51.30.192   announce AS-ISPNET
+remarks:    
+remarks:    AS2906    Netflix.com
+import:     from AS2906 198.32.160.90   accept AS-NFLX
+export:     to AS2906 198.32.160.90   announce AS-ISPNET
+remarks:    
+remarks:    AS2914    NTT/Verio
+import:     from AS2914 204.141.126.37   accept ANY and not RS-MARTIANS
+export:     to AS2914 204.141.126.37   announce AS-ISPNET
+import:     from AS2914 165.254.27.1   accept ANY and not RS-MARTIANS
+export:     to AS2914 165.254.27.1   announce AS-ISPNET
+remarks:    
+remarks:    AS3303    Swisscom ip-plus.net
+import:     from AS3303 198.32.160.176   accept AS-SWCMGLOBAL
+export:     to AS3303 198.32.160.176   announce AS-ISPNET
+remarks:    
+remarks:    AS3786    LG Dacom in Korea
+import:     from AS3786 198.32.160.76   accept AS-DACOM
+export:     to AS3786 198.32.160.76   announce AS-ISPNET
+remarks:    
+remarks:    AS3856    pch.net
+import:     from AS3856 198.32.160.127   accept AS3856
+export:     to AS3856 198.32.160.127   announce AS-ISPNET
+remarks:    
+remarks:    AS4181    tdstelecom.com
+import:     from AS4181 198.32.160.146   accept AS-TDS-TRANSIT
+export:     to AS4181 198.32.160.146   announce AS-ISPNET
+remarks:    
+remarks:    AS4565    megapath.com (aka Epoch or Netifice)
+import:     from AS4565 198.32.160.188   accept AS-EPOCH
+export:     to AS4565 198.32.160.188   announce AS-ISPNET
+remarks:    
+remarks:    AS5462    telewest.co.uk
+import:     from AS5462 198.32.160.101   accept AS-CABLEINET
+export:     to AS5462 198.32.160.101   announce AS-ISPNET
+remarks:    
+remarks:    AS5466    eircom.net
+import:     from AS5466 198.32.160.205   accept AS-EIRCOM
+export:     to AS5466 198.32.160.205   announce AS-ISPNET
+remarks:    
+remarks:    AS5580    Atrato IP Networks
+import:     from AS5580 198.32.160.39   accept AS-ATRATO
+export:     to AS5580 198.32.160.39   announce AS-ISPNET
+remarks:    
+remarks:    AS6128    CableVision cv.net
+import:     from AS6128 198.32.160.13   accept AS-CV
+export:     to AS6128 198.32.160.13   announce AS-ISPNET
+remarks:    
+remarks:    AS6327    ShawCable-BigPipe
+import:     from AS6327 198.32.160.68   accept AS-BIGPIPE
+export:     to AS6327 198.32.160.68   announce AS-ISPNET
+remarks:    
+remarks:    AS6407    Primustel Canada
+import:     from AS6407 198.32.160.89   accept AS-PRIMUS
+export:     to AS6407 198.32.160.89   announce AS-ISPNET
+remarks:    
+remarks:    AS6539    GT.CA - Group Telecom
+import:     from AS6539 198.32.160.78   accept AS-GT
+export:     to AS6539 198.32.160.78   announce AS-ISPNET
+remarks:    
+remarks:    AS6619    EUnet.fi
+import:     from AS6619 198.32.160.145   accept AS-SAMSUNGNETWORKS
+export:     to AS6619 198.32.160.145   announce AS-ISPNET
+remarks:    
+remarks:    AS6667    EUnet.fi
+import:     from AS6667 198.32.160.41   accept AS-EUNETIP
+export:     to AS6667 198.32.160.41   announce AS-ISPNET
+remarks:    
+remarks:    AS6730    Sunrise.Net
+import:     from AS6730 198.32.160.66   accept AS-GLOBAL
+export:     to AS6730 198.32.160.66   announce AS-ISPNET
+remarks:    
+remarks:    AS6774    belgacom-ics.net
+import:     from AS6774 198.32.160.202   accept AS-BELBONETOPEERS
+export:     to AS6774 198.32.160.202   announce AS-ISPNET
+remarks:    
+remarks:    AS6939    he.net - Hurricane Electric
+import:     from AS6939 198.32.160.61   accept AS-HURRICANE
+export:     to AS6939 198.32.160.61   announce AS-ISPNET
+import:     from AS6939 206.51.30.61   accept AS-HURRICANE
+export:     to AS6939 206.51.30.61   announce AS-ISPNET
+remarks:    
+remarks:    AS7270    net2phone.com
+import:     from AS7270 198.32.160.85   accept AS-N2PNET
+export:     to AS7270 198.32.160.85   announce AS-ISPNET
+remarks:    
+remarks:    AS7385    Integra Telecom
+import:     from AS7385 198.32.160.218   accept AS-INTEGRA
+export:     to AS7385 198.32.160.218   announce AS-ISPNET
+remarks:    
+remarks:    AS7311    Frontier Networks
+import:     from AS7311 198.32.160.133   accept AS-FRONTIERNET
+export:     to AS7311 198.32.160.133   announce AS-ISPNET
+remarks:    
+remarks:    AS7342   VeriSign
+import:     from AS7342 198.32.160.193   accept AS-GTLD
+export:     to AS7342 198.32.160.193   announce AS-ISPNET
+remarks:    
+remarks:    AS7902    pins.net
+import:     from AS7902 198.32.160.174   accept AS7902 AS14697
+export:     to AS7902 198.32.160.174   announce AS-ISPNET
+remarks:    
+remarks:    AS8001    Net Access Corporation
+import:     from AS8001 198.32.160.20   accept AS-NETACCESS and not RS-MARTIANS
+export:     to AS8001 198.32.160.20   announce AS-ISPNET
+remarks:    
+remarks:    AS8002    stealth.net
+import:     from AS8002 189.32.160.33   accept AS-STEALTH
+export:     to AS8002 198.32.160.33   announce AS-ISPNET
+remarks:    
+remarks:    AS8075    Microsoft MSN
+import:     from AS8075 198.32.160.191   accept AS-MICROSOFT
+export:     to AS8075 198.32.160.191   announce AS-ISPNET
+remarks:    
+remarks:    AS8121    Layer 42
+import:     from AS8121 198.32.160.215   accept AS-LAYER42
+export:     to AS8121 198.32.160.215   announce AS-ISPNET
+remarks:    
+remarks:    AS8190    Viatel IP Network
+import:     from AS8190 198.32.160.220   accept AS-VIATEL
+export:     to AS8190 198.32.160.220   announce AS-ISPNET
+remarks:    
+remarks:    AS8218    NeoTelecoms
+import:     from AS8218 198.32.160.44   accept AS-NEOT
+export:     to AS8218 198.32.160.44   announce AS-ISPNET
+remarks:    
+remarks:    AS8359    mtu.ru
+import:     from AS8359 198.32.160.200   accept AS-MTU
+export:     to AS8359 198.32.160.200   announce AS-ISPNET
+remarks:    
+remarks:    AS8426    clara.net
+import:     from AS8426 198.32.160.187   accept AS-CLARANET
+export:     to AS8426 198.32.160.187   announce AS-ISPNET
+remarks:    
+remarks:    AS8966    EMIX.NET.AU
+import:     from AS8966 198.32.160.45   accept AS-EMIX
+export:     to AS8966 198.32.160.45   announce AS-ISPNET
+remarks:    
+remarks:    AS9002 Real Time Network - retn.net
+import:     from AS9002 198.32.160.182   accept AS-RETN
+export:     to AS9002 198.32.160.182   announce AS-ISPNET
+remarks:    
+remarks:    AS10310   Yahoo
+import:     from AS10310 198.32.160.121   accept AS-YAHOO
+export:     to AS10310 198.32.160.121   announce AS-ISPNET
+remarks:    
+remarks:    AS10848   Tellurian Networks
+import:     from AS10848 198.32.160.108   accept AS-TELLURIAN
+export:     to AS10848 198.32.160.108   announce AS-ISPNET
+remarks:    
+remarks:    AS11243   atgnet.com
+import:     from AS11243 69.48.128.58   accept AS-ATG
+export:     to AS11243 69.48.128.58   announce ANY
+remarks:    
+remarks:    AS11383   xand.com
+import:     from AS11383 198.32.160.162   accept AS-XAND
+export:     to AS11383 198.32.160.162   announce AS-ISPNET
+remarks:    
+remarks:    AS11403   nyi.net
+import:     from AS11403 198.32.160.87   accept AS11403
+export:     to AS11403 198.32.160.87   announce AS-ISPNET
+remarks:    
+remarks:    AS11798   AceDataCenters
+import:     from AS11798 198.32.160.49   accept AS-ACEDATACENTERS
+export:     to AS11798 198.32.160.49   announce AS-ISPNET
+remarks:    
+remarks:    AS12124   thorn.net
+import:     from AS12124 198.32.160.62   accept AS-THORN
+export:     to AS12124 198.32.160.62   announce AS-ISPNET
+remarks:    
+remarks:    AS12552   ip-only.net
+import:     from AS12552 198.32.160.62   accept AS-IPO
+export:     to AS12552 198.32.160.62   announce AS-ISPNET
+remarks:    
+remarks:    AS12654   RIPE RIS (Routing Information Service)
+import:     from AS12654 198.32.160.99   accept AS12654:RS-RIS
+export:     to AS12654 198.32.160.99   announce ANY
+remarks:    
+remarks:    AS12989   eweka.nl
+import:     from AS12989 198.32.160.179   accept AS-EWEKA
+export:     to AS12989 198.32.160.179   announce AS-ISPNET
+remarks:    
+remarks:    AS13030   Init Seven AG, Zurich, Switzerland
+import:     from AS13030 198.32.160.103   accept AS-INIT7
+export:     to AS13030 198.32.160.103   announce AS-ISPNET
+remarks:    
+remarks:    AS13037   Zen Internet - zen.net.uk
+import:     from AS13037 198.32.160.145   accept AS-ZEN
+export:     to AS13037 198.32.160.145   announce AS-ISPNET
+remarks:    
+remarks:    AS13414   Twitter
+import:     from AS13414 198.32.160.56   accept AS-TWITTER
+export:     to AS13414 198.32.160.56   announce AS-ISPNET
+remarks:    
+remarks:    AS13445   WebEx Communications
+import:     from AS13445 198.32.160.37   accept AS13445
+export:     to AS13445 198.32.160.37   announce AS-ISPNET
+remarks:    
+remarks:    AS13538   NYIIX Route-Server
+import:     from AS13538 198.32.160.1   accept AS-NYIIX
+export:     to AS13538 198.32.160.1   announce AS-ISPNET
+import:     from AS13538 198.32.160.2   accept AS-NYIIX
+export:     to AS13538 198.32.160.2   announce AS-ISPNET
+remarks:    
+remarks:    AS13680   hostway.com
+import:     from AS13680 198.32.160.142   accept AS-HGTN
+export:     to AS13680 198.32.160.142   announce AS-ISPNET
+remarks:    
+remarks:    AS13768   peer1.net
+import:     from AS13768 198.32.160.65   accept AS-13768
+export:     to AS13768 198.32.160.65   announce AS-ISPNET
+remarks:    
+remarks:    AS13732   Axispoint
+import:     from AS13732 69.48.128.18   accept AS-AXISPOINT
+export:     to AS13732 69.48.128.18   announce ANY
+remarks:    
+remarks:    AS14116   Hostopia
+import:     from AS14116 198.32.160.58   accept AS-HOSTOPIA
+export:     to AS14116 198.32.160.58   announce AS-ISPNET
+remarks:    
+remarks:    AS14361   HopOne.Net
+import:     from AS14361 198.32.160.96   accept AS-HOPONE
+export:     to AS14361 198.32.160.96   announce AS-ISPNET
+remarks:    
+remarks:    AS14492   DataPipe.Net
+import:     from AS14492 198.32.160.111   accept AS-DATAPIPE
+export:     to AS14492 198.32.160.111   announce AS-ISPNET
+remarks:    
+remarks:    AS14672   Carroll.Net
+import:     from AS14672 216.44.16.8   accept AS-CARROLL-NET
+export:     to AS14672 216.44.16.8   announce ANY
+remarks:    
+remarks:    AS14717   Eze Castle Integration
+import:     from AS14717 198.32.160.181   accept AS14717:AS-CUSTOMERS
+export:     to AS14717 198.32.160.181   announce AS-ISPNET
+remarks:    
+remarks:    AS15133   EdgeCast Networks, Inc.
+import:     from AS15133 198.32.160.14   accept AS-EDGECAST
+export:     to AS15133 198.32.160.14   announce AS-ISPNET
+remarks:    
+remarks:    AS15149   AccessIT
+import:     from AS15149 198.32.160.167   accept AS15149
+export:     to AS15149 198.32.160.167   announce AS-ISPNET
+remarks:    
+remarks:    AS15412   FlagTelecom.Com
+import:     from AS15412 198.32.160.88   accept AS-FLAGP
+export:     to AS15412 198.32.160.88   announce AS-ISPNET
+remarks:    
+remarks:    AS16265   LeasedWeb BV
+import:     from AS16265 198.32.160.184   accept AS-LEASEWEB
+export:     to AS16265 198.32.160.184   announce AS-ISPNET
+remarks:    
+remarks:    AS16276   OVM
+import:     from AS16276 198.32.160.77   accept AS-OVH
+export:     to AS16276 198.32.160.77   announce AS-ISPNET
+remarks:    
+remarks:    AS16509   Amazon.com
+import:     from AS16509 198.32.160.64   accept AS-AMAZON
+export:     to AS15097 198.32.160.64   announce AS-ISPNET
+remarks:    
+remarks:    AS16637   MTN Network Solutions
+import:     from AS16637 198.32.160.165   accept AS-MTNNS
+export:     to AS16637 198.32.160.165   announce AS-ISPNET
+remarks:    
+remarks:    AS16810   Citrix.com
+import:     from AS16810 198.32.160.213   accept AS-CAVALIER
+export:     to AS16810 198.32.160.213   announce AS-ISPNET
+remarks:    
+remarks:    AS17169   VINCI Consulting
+import:     from AS17169 206.51.30.74   accept AS-VXNET
+export:     to AS17169 206.51.30.74   announce AS-ISPNET
+remarks:    
+remarks:    AS17304   Sterling Group
+import:     from AS17304 69.48.139.253   accept AS-STERLING
+export:     to AS17304 69.48.139.253   announce ANY
+remarks:    
+remarks:    AS18973   TAG Online
+import:     from AS18973 69.48.190.113   accept AS18973
+export:     to AS18973 69.48.190.113   announce ANY
+remarks:    
+remarks:    AS19128   TradeTheNews.com
+import:     from AS19128 198.32.160.170   accept AS19128
+export:     to AS19128 198.32.160.170   announce AS-ISPNET
+remarks:    
+remarks:    AS19151   BroadbandONE
+import:     from AS19151 198.32.160.137   accept AS-BBOI
+export:     to AS19151 198.32.160.137   announce AS-ISPNET
+remarks:    
+remarks:    AS19624   serverroom.us
+import:     from AS19624 199.224.14.30   accept AS-SERVERROOM
+export:     to AS19624 199.224.14.30   announce AS-ISPNET
+remarks:    
+remarks:    AS19750   Criteo
+import:     from AS19750 198.32.160.24   accept AS-CRITEO-USA
+export:     to AS19750 198.32.160.24   announce AS-ISPNET
+remarks:    
+remarks:    AS20225   TelJet Longhaul LLC
+import:     from AS20225 198.32.160.59   accept AS20225
+export:     to AS20225 198.32.160.59   announce AS-ISPNET
+remarks:    
+remarks:    AS20473   Choopa, LLC
+import:     from AS20473 198.32.160.157   accept AS-CHOOPA
+export:     to AS20473 198.32.160.157   announce AS-ISPNET
+remarks:    
+remarks:    AS20547   UKS Limited
+import:     from AS20547 198.32.160.222   accept AS-UKS
+export:     to AS20547 198.32.160.222   announce AS-ISPNET
+remarks:    
+remarks:    AS20940   Akamai
+import:     from AS20940 198.32.160.47   accept AS-AKAMAI
+export:     to AS20940 198.32.160.47   announce AS-ISPNET
+remarks:    
+remarks:    AS21781   Dalton School
+import:     from AS21781 69.48.189.29   accept AS-DALTON
+export:     to AS21781 69.48.189.29   announce ANY
+import:     from AS21781 69.48.128.90   accept AS-DALTON
+export:     to AS21781 69.48.128.90   announce ANY
+remarks:    
+remarks:    AS21788   Beanfield Technologies
+import:     from AS21788 198.32.160.221   accept AS-BURSTNET
+export:     to AS21788 198.32.160.221   announce AS-ISPNET
+remarks:    
+remarks:    AS21949   Beanfield Technologies
+import:     from AS21949 198.32.160.190   accept AS-BEANFIELD
+export:     to AS21949 198.32.160.190   announce AS-ISPNET
+remarks:    
+remarks:    AS22561   CenturyTel
+import:     from AS22561 198.32.160.19   accept AS22561
+export:     to AS22561 198.32.160.19   announce AS-ISPNET
+remarks:    
+remarks:    AS22773   Cox Communication
+import:     from AS22773 198.32.160.214   accept AS-COX-TRANSIT
+export:     to AS22773 198.32.160.214   announce AS-ISPNET
+remarks:    
+remarks:    AS22829   RNK Telecom
+import:     from AS22829 198.32.160.153   accept AS-RNK
+export:     to AS22829 198.32.160.153   announce AS-ISPNET
+remarks:    
+remarks:    AS22296   Cashman Computer Associates, LLC
+import:     from AS22296 199.224.14.22   accept AS-CASHMAN
+export:     to AS22296 199.224.14.22   announce ANY
+remarks:    
+remarks:    AS22633   Fisher Brothers
+import:     from AS22633 69.48.128.22   accept AS-FISHERBROTHERS
+export:     to AS22633 69.48.128.22   announce ANY
+remarks:    
+remarks:    AS22822   Limelightnetworks.com
+import:     from AS22822 198.32.160.132   accept AS-LLNW
+export:     to AS22822 198.32.160.132   announce AS-ISPNET
+remarks:    
+remarks:    AS23131   Starlan.Com
+import:     from AS23131 198.32.160.98   accept AS23131
+export:     to AS23131 198.32.160.98   announce AS-ISPNET
+remarks:    
+remarks:    AS23171   Manhattan College
+import:     from AS23171 198.32.160.216   accept AS23171
+export:     to AS23171 198.32.160.216   announce AS-ISPNET
+remarks:    
+remarks:    AS23148   Terremark.com
+import:     from AS23148 198.32.160.211   accept AS-TWW
+export:     to AS23148 198.32.160.211   announce AS-ISPNET
+remarks:    
+remarks:    AS23393   ISPrime, Inc.
+import:     from AS23393 198.32.160.82   accept AS-ISPRIME
+export:     to AS23393 198.32.160.82   announce AS-ISPNET
+remarks:    
+remarks:    AS23395   The Elias Sports Bureau
+import:     from AS23395 199.224.14.42   accept AS-ELIAS
+export:     to AS23395 199.224.14.42   announce ANY
+remarks:    
+remarks:    AS24753   Carrier2Carrier
+import:     from AS24753 192.30.160.31   accept AS24753
+export:     to AS24753 192.30.160.31   announce AS-ISPNET
+remarks:    
+remarks:    AS25180   Exponential-E
+import:     from AS25286 198.32.160.75   accept AS-EXPONENTIAL-e
+export:     to AS25286 198.32.160.75   announce AS-ISPNET
+remarks:    
+remarks:    AS25885   Bat Blue
+import:     from AS25885 69.48.190.121   accept AS-BatBlue
+export:     to AS25885 69.48.190.121   announce ANY
+remarks:    
+remarks:    AS26163   Datagram.com
+import:     from AS26163 198.32.160.163   accept AS-DATAGRAM
+export:     to AS26163 198.32.160.163   announce AS-ISPNET
+remarks:    
+remarks:    AS26282   Symantec.cloud
+import:     from AS26282 198.32.160.89   accept AS-MESSAGELABS
+export:     to AS26282 198.32.160.89   announce AS-ISPNET
+remarks:    
+remarks:    AS26632   Connetrix
+import:     from AS26632   accept AS26632
+export:     to AS26632   announce ANY
+remarks:    
+remarks:    AS26769   BandCon
+import:     from AS26769 198.32.160.224   accept AS-BANDCON
+export:     to AS26769 198.32.160.224   announce AS-ISPNET
+remarks:    
+remarks:    AS27345   SeeqPod
+import:     from AS27345 198.32.160.207   accept AS-SEEQPOD
+export:     to AS27345 198.32.160.207   announce AS-ISPNET
+remarks:    
+remarks:    AS27257   Webair Internet Development
+import:     from AS27257 198.32.160.100   accept AS27257
+export:     to AS27257 198.32.160.100   announce AS-ISPNET
+remarks:    
+remarks:    AS27552   TowardEX
+import:     from AS27552 198.32.160.208   accept AS-TOWARDEX
+export:     to AS27552 198.32.160.208   announce AS-ISPNET
+remarks:    
+remarks:    AS27486   MCF Software, LLC
+import:     from AS27486 69.48.128.10   accept AS-MCF
+export:     to AS27486 69.48.128.10   announce ANY
+remarks:    
+remarks:    AS29152   Decknet.fr
+import:     from AS29152 198.32.160.70   accept AS29152
+export:     to AS29152 198.32.160.70   announce AS-ISPNET
+remarks:    
+remarks:    AS29791   Voxel dot Net, Inc.
+import:     from AS29791 198.32.160.128   accept AS-VOXEL
+export:     to AS29791 198.32.160.128   announce AS-ISPNET
+remarks:    
+remarks:    AS29838   Atlantic Metro
+import:     from AS29838 198.32.160.107   accept AS-AMC
+export:     to AS29838 198.32.160.107   announce AS-ISPNET
+remarks:    
+remarks:    AS30361   Swiftwill
+import:     from AS30361 198.32.160.178   accept AS30361
+export:     to AS30361 198.32.160.178   announce AS-ISPNET
+remarks:    
+remarks:    AS30562   Scarsdale Schools District
+import:     from AS30562 69.48.155.254   accept AS-SCARSDALE-SCHOOLS
+export:     to AS30562 69.48.155.254   announce ANY
+remarks:    
+remarks:    AS30653   LIFE - Long Island Fiber Exchange (previously Exobit)
+import:     from AS30653 198.32.160.118   accept AS-LIFE
+export:     to AS30653 198.32.160.118   announce AS-ISPNET
+remarks:    
+remarks:    AS31500   gblnet.ru - Global Network Management
+import:     from AS31500 198.32.160.17   accept AS-GLOBAL-NET
+export:     to AS31500 198.32.160.17   announce AS-ISPNET
+remarks:    
+remarks:    AS31649   Russian Backbone Network
+import:     from AS31649 198.32.160.16   accept AS-RIPN-DNS
+export:     to AS31649 198.32.160.16   announce AS-ISPNET
+remarks:    
+remarks:    AS31800   dal.net
+import:     from AS31800 198.32.160.113   accept AS31800
+export:     to AS31800 198.32.160.113   announce AS-ISPNET
+remarks:    
+remarks:    AS31950   Data Network Solutions dnetit.com
+import:     from AS31950 204.8.196.217   accept AS-DNETIT
+export:     to AS31950 204.8.196.217   announce ANY
+remarks:    
+remarks:    AS32613   iWeb
+import:     from AS32613 198.32.160.23   accept AS-IWEB
+export:     to AS32613 198.32.160.23   announce AS-ISPNET
+remarks:    
+remarks:    AS32748   Steadfast Networks
+import:     from AS32748 198.32.160.217   accept AS-STEADFAST
+export:     to AS32748 198.32.160.217   announce AS-ISPNET
+remarks:    
+remarks:    AS33447   RPT Consulting
+import:     from AS33447   accept AS-RPT
+export:     to AS33447   announce ANY
+remarks:    
+remarks:    AS34305   Euroaccess International Carrier Services
+import:     from AS34305 198.32.160.177   accept AS-EUROACCESS
+export:     to AS34305 198.32.160.177   announce AS-ISPNET
+remarks:    
+remarks:    AS34948   Typhon
+import:     from AS34948 198.32.160.54   accept AS-TYPHON
+export:     to AS34948 198.32.160.54   announce AS-ISPNET
+remarks:    
+remarks:    AS36062   DoubleVerify.com
+import:     from AS36062 69.48.149.242   accept AS36062
+export:     to AS36062 69.48.149.242   announce ANY
+import:     from AS36062 69.48.149.246   accept AS36062
+export:     to AS36062 69.48.149.246   announce ANY
+remarks:    
+remarks:    AS36304   Health Plan Systems
+import:     from AS36304 199.224.9.132   accept AS36304
+export:     to AS36304 199.224.9.132   announce ANY
+remarks:    
+remarks:    AS36351   Softlayer
+import:     from AS36351 198.32.160.17   accept RS-SOFTLAYER
+export:     to AS36351 198.32.160.17   announce AS-ISPNET
+remarks:    
+remarks:    AS36481   Digital Edge - digitedge.com
+import:     from AS36481 199.224.9.132   accept AS-DIGITEDGE
+export:     to AS36481 199.224.9.132   announce ANY
+remarks:    
+remarks:    AS36481   Digital Edge - digitedge.com
+import:     from AS36481 199.224.9.254   accept AS-DIGITEDGE
+export:     to AS36481 199.224.9.254   announce ANY
+remarks:    
+remarks:    AS36692   Freedom Networks - opendns.com
+import:     from AS36692 198.32.160.166   accept AS-OPENDNS
+export:     to AS36692 198.32.160.166   announce AS-ISPNET
+remarks:    
+remarks:    AS39943   St Francis College
+import:     from AS39943 199.224.14.46   accept AS39943
+export:     to AS39943 199.224.14.46   announce ANY
+remarks:    
+remarks:    AS40362   The Chapin School
+import:     from AS40362 69.48.189.10   accept AS-CHAPIN
+export:     to AS40362 69.48.189.10   announce ANY
+remarks:    
+remarks:    AS44654   Media Network Services AS
+import:     from AS44654 198.32.160.57   accept AS-MNS
+export:     to AS44654 198.32.160.57   announce AS-ISPNET
+remarks:    
+remarks:    AS51297   alpari.org
+import:     from AS51297 69.48.149.251   accept AS51297
+export:     to AS51297 69.48.149.251   announce ANY
+remarks:    
+remarks:    AS52320   globenet.net
+import:     from AS52320 198.32.160.91   accept AS-GN
+export:     to AS52320 198.32.160.91   announce AS-ISPNET
+remarks:    
+remarks:    ================================================================
+remarks:    
+remarks:    Contacts
+remarks:    
+remarks:    Abuse / UCE reports: abuse@ispnetinc.net
+remarks:    Peering requests:    peering@ispnetinc.net
+remarks:    Security issues:     bob@tink.com
+remarks:    
+remarks:    ================================================================
+remarks:    
+remarks:    BGP communities on announcements from ISPnet to ISPnet customers
+remarks:    which indicate the origin of the announcement:
+remarks:    
+remarks:    22691:65020  ISPnet internal
+remarks:    22691:65030  ISPnet customer
+remarks:    22691:65040  ISPnet peer
+remarks:    22691:65050  ISPnet upstream provider
+remarks:    22691:65060  Exchange-point (e.g., nyiix, nycx)
+remarks:    
+remarks:    ISPnet conventions for ISPnet-internal use of local-preference
+remarks:    
+remarks:    140    customer (high)
+remarks:    130    customer (normal)
+remarks:    120    peer
+remarks:    110    upstream (high)
+remarks:    100    upstream (normal)
+remarks:    100    internal
+remarks:    070    upstream (low)
+remarks:    060    customer (low)
+remarks:    
+remarks:    BGP communities on announcements from ISPnet customers to ISPnet
+remarks:    to control ISPnet local-pref settings:
+remarks:    
+remarks:    22691:60     Set local-preference to 60
+remarks:    22691:130    Set local-preference to 130
+remarks:    22691:140    Set local-preference to 140
+remarks:    
+remarks:    BGP communities on announcements from ISPnet customers to ISPnet
+remarks:    to control ISPnet blackhole actions.  ISPnet will discard all
+remarks:    traffic to networks flagged as "blackhole".  This is typically
+remarks:    applied to single ip-addrs and to small subnets of customer nets.
+remarks:    
+remarks:    22691:64666  Blackhole
+remarks:    
+remarks:    BGP communities on announcements from ISPnet customers to ISPnet
+remarks:    to control how ISPnet passes on announcements to other nets:
+remarks:    
+remarks:    65500:x       Announce with defaults
+remarks:    65501:x       Prefix once
+remarks:    65502:x       Prefix twice
+remarks:    65503:x       Prefix thrice
+remarks:    65504:x       Set comumity to request peer set local-pref low
+remarks:    65505:x       Set comumity to request peer set local-pref medium
+remarks:    65506:x       Set comumity to request peer set local-pref high
+remarks:    65509:x       Do not announce
+remarks:    
+remarks:    Where
+remarks:    x = ASN       For peer ASN (e.g., 2914 for NTT/Verio)
+remarks:    x = 65000     Everyone
+remarks:    x = 65001     All upstreams
+remarks:    x = 65002     All peers
+remarks:    x = 65003     All customers
+remarks:    
+remarks:    
+notify:     bob@tink.com
+mnt-by:     MAINT-AS22691
+changed:    bob@tink.com 20130717
+source:     RADB

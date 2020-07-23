@@ -1,0 +1,139 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS49102'
+
+% Abuse contact for 'AS49102' is 'p.siwicki@connected.pl'
+
+aut-num:        AS49102
+as-name:        CONNECTED
+org:            ORG-Ks27-RIPE
+remarks:        -----------------------------------------
+remarks:        *** MAIN UPLINKS available in AS49102 ***
+remarks:        -----------------------------------------
+import:         from AS9002 action pref=100; accept ANY
+import:         from AS3257 action pref=100; accept ANY
+import:         from AS49831 action pref=100; accept ANY
+import:         from AS8545 action pref=100; accept ANY
+import:         from AS29535 action pref=100; accept ANY
+import:         from AS24748 action pref=100; accept ANY
+import:         from AS6830 action pref=100; accept ANY
+import:         from AS50607 action pref=100; accept ANY
+import:         from AS57811 action pref=100; accept ANY
+import:         from AS21357 action pref=100; accept ANY
+import:         from AS6939 action pref=100; accept ANY
+export:         to AS9002 announce AS-CONNECTED
+export:         to AS3257 announce AS-CONNECTED
+export:         to AS49831 announce AS-CONNECTED
+export:         to AS8545 announce AS-CONNECTED
+export:         to AS29535 announce AS-CONNECTED
+export:         to AS24748 announce AS-CONNECTED
+export:         to AS6830 announce AS-CONNECTED
+export:         to AS50607 announce AS-CONNECTED
+export:         to AS57811 announce AS-CONNECTED
+export:         to AS21357 announce AS-CONNECTED
+export:         to AS6939 announce AS-CONNECTED
+remarks:        ----------------------------------------
+remarks:        *** communities available in AS49102 ***
+remarks:        ----------------------------------------
+remarks:        communities for specific uplink
+remarks:        are in format where:
+remarks:
+remarks:        x=0 for "do not advertise"
+remarks:        x=1,2,3 for "prepend 1,2,3 times"
+remarks:        x=9 for "insane prepend 9 times"
+remarks:
+remarks:        BLACKHOLE:
+remarks:        49102:911 - BLACKHOLE
+remarks:
+remarks:
+remarks:        MAIN UPLINKS:
+remarks:        49102:111x - RETN
+remarks:        49102:222x - PL MIX (THINX, TPIX, PLIX)
+remarks:        49102:223x - THINX
+remarks:        49102:224x - TPIX
+remarks:        49102:225x - PLIX
+remarks:        49102:333x - CIX
+remarks:        49102:444x - EPIX
+remarks:        49102:555x - GTT (TINET)
+remarks:        49102:666x - HE
+remarks:
+remarks:        SELECTED PEERS:
+remarks:        49102:2001x - ATM SOFTWARE (CDN)
+remarks:        49102:2002x - AKAMAI
+remarks:        49102:2003x - INTERIA
+remarks:        49102:2004x - ONET
+remarks:        49102:2005x - UPC
+remarks:
+remarks:        OTHER:
+remarks:        49102:3001x - CRACOW LOCAL PEERS
+remarks:        49102:4001x - EPGLOBAL (EMERGENCY BACKUP)
+remarks:
+remarks:        communities updated on 2014-10-31 21:01 CET
+admin-c:        PS9000-RIPE
+tech-c:         PS9000-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         CONNECTED-MNT
+created:        2009-04-14T09:34:17Z
+last-modified:  2018-09-04T10:40:43Z
+source:         RIPE # Filtered
+
+organisation:   ORG-Ks27-RIPE
+org-name:       Connected sp. z o. o.
+org-type:       LIR
+address:        ul. Krolewska 57
+address:        30-081
+address:        Krakow
+address:        POLAND
+phone:          +48123121301
+fax-no:         +48123121302
+admin-c:        PS9000-RIPE
+abuse-c:        AR16390-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        CONNECTED-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         CONNECTED-MNT
+created:        2008-05-29T07:38:28Z
+last-modified:  2016-07-11T20:21:02Z
+source:         RIPE # Filtered
+
+person:         Piotr Siwicki
+org:            ORG-Ks27-RIPE
+address:        Connected sp. z o.o.
+address:        Krolewska 57
+address:        30-081 Krakow
+address:        POLAND
+phone:          +48 12 312 13 01
+fax-no:         +48 12 312 13 02
+nic-hdl:        PS9000-RIPE
+mnt-by:         CONNECTED-MNT
+created:        2008-06-02T19:49:24Z
+last-modified:  2017-10-30T22:01:14Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

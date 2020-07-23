@@ -1,0 +1,162 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS51862'
+
+% Abuse contact for 'AS51862' is 'abuse@profitbricks.com'
+
+aut-num:        AS51862
+as-name:        PROFITBRICKS-AS
+org:            ORG-PG49-RIPE
+remarks:
+remarks:        -------------------------------------------------------
+remarks:        UPSTREAMS
+remarks:        -------------------------------------------------------
+remarks:
+remarks:        1&1 Internet AG
+import:         from AS8560 accept ANY
+export:         to AS8560 announce AS-PROFITBRICKSDE
+remarks:
+remarks:        TelemaxX Telekommunikation GmbH
+import:         from AS12843 accept ANY
+export:         to AS12843 announce AS-PROFITBRICKSDE
+remarks:
+remarks:        Cogent Communications
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-PROFITBRICKSDE
+remarks:
+remarks:        Level(3) Communications
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-PROFITBRICKSDE
+remarks:
+remarks:        Core-Backbone
+import:         from AS33891 accept ANY
+export:         to AS33891 announce AS-PROFITBRICKSDE
+remarks:
+remarks:        -------------------------------------------------------
+remarks:        Peerings
+remarks:        -------------------------------------------------------
+import:         from AS6695 accept ANY
+export:         to AS6695 announce AS-PROFITBRICKSDE
+import:         from AS2603 accept AS-NORDUNET
+export:         to AS2603 announce AS-PROFITBRICKSDE
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-PROFITBRICKSDE
+import:         from AS6939 accept AS-HURRICANEV6
+export:         to AS6939 announce AS-PROFITBRICKSDE
+remarks:        -------------------------------------------------------
+remarks:        Please send spam and abuse inquiries *ONLY* to
+remarks:        <abuse@profitbricks.com>.
+remarks:
+remarks:        Peering Requests: peering@profitbricks.com
+remarks:        NOC Inquiries (NO ABUSE HANDLING!): noc@profitbricks.com
+remarks:        -------------------------------------------------------
+remarks:        AS51862 INFORMATION & COMMUNITIES
+remarks:        -------------------------------------------------------
+remarks:
+remarks:        * We will only accept prefixes up to /24 (IPv4) and
+remarks:        /48 (IPv6)
+remarks:        * Direct Peers may advertise up to 50 routes with a blackhole
+remarks:        community attached up to length /32 (IPv4) or /64 (IPv6)
+remarks:        * All your routes must have a valid ROA and being referenced
+remarks:        in your IRR AS-SET
+remarks:        * Please accept any route referenced in AS-PROFITBRICKSDE
+remarks:
+remarks:
+remarks:        Organization: Profitbricks GmBH
+remarks:        Type: NSP / Cloud IaaS
+remarks:        Peering Policy: Open
+remarks:        IRR Record: AS-PROFITBRICKSDE
+remarks:        PeeringDB: https://www.peeringdb.com/asn/51862
+remarks:
+remarks:
+remarks:        51862:101 DC FKB Prefixes
+remarks:        51862:102 DC LAS Prefixes (cf. AS54548)
+remarks:        51862:103 DC FRA Prefixes
+remarks:        51862:666 Blackhole Community
+remarks:
+remarks:        51862:200 Peering Routes
+remarks:        51862:201 Peering Routes learned at DE-CIX FRA
+remarks:        -------------------------------------------------------
+admin-c:        PBAC-RIPE
+tech-c:         PBHM-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-PFTBXNOC
+created:        2010-11-17T16:04:25Z
+last-modified:  2018-09-04T10:56:02Z
+source:         RIPE # Filtered
+
+organisation:   ORG-PG49-RIPE
+org-name:       Profitbricks GmbH
+org-type:       LIR
+address:        Greifswalder Str. 207
+address:        10405
+address:        Berlin
+address:        GERMANY
+phone:          +4930577008281
+fax-no:         +4930609856999
+admin-c:        PBVB-RIPE
+admin-c:        PBJK-RIPE
+admin-c:        AW2734-RIPE
+admin-c:        SP16618-RIPE
+mnt-ref:        PROFITBRICKS-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        STRATO-RZG-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PROFITBRICKS-MNT
+abuse-c:        PBHM-RIPE
+created:        2010-07-12T12:56:42Z
+last-modified:  2018-09-06T09:48:43Z
+source:         RIPE # Filtered
+
+role:           ProfitBricks Administrative Contact
+address:        ProfitBricks GmbH
+address:        Greifswalder Str. 207
+address:        D-10405 Berlin
+address:        GERMANY
+abuse-mailbox:  abuse@profitbricks.com
+admin-c:        AW2734-RIPE
+tech-c:         PBHM-RIPE
+nic-hdl:        PBAC-RIPE
+mnt-by:         PROFITBRICKS-MNT
+created:        2010-11-17T19:04:14Z
+last-modified:  2018-05-03T09:55:03Z
+source:         RIPE # Filtered
+
+role:           ProfitBricks Hostmaster
+address:        ProfitBricks GmbH
+address:        Greifswalder Str. 207
+address:        D-10405 Berlin
+phone:          +49-30-577 008 40
+abuse-mailbox:  abuse@profitbricks.com
+admin-c:        PBAC-RIPE
+tech-c:         PBJK-RIPE
+tech-c:         PBVB-RIPE
+tech-c:         SP16618-RIPE
+nic-hdl:        PBHM-RIPE
+mnt-by:         PROFITBRICKS-MNT
+created:        2010-11-17T19:06:39Z
+last-modified:  2017-07-25T08:22:56Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

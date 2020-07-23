@@ -1,0 +1,112 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15707 - AS15803'
+
+as-block:       AS15707 - AS15803
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15725'
+
+% Abuse contact for 'AS15725' is 'abuse@iks-jena.de'
+
+aut-num:        AS15725
+org:            ORG-IGJ1-RIPE
+as-name:        IKS
+descr:          Leutragraben 1
+descr:          07743 Jena
+descr:          Germany
+mp-export:      afi any.unicast to AS8881 announce AS-IKS
+mp-export:      afi any.unicast to AS196714 announce AS-IKS
+mp-export:      afi any.unicast to AS199284 announce AS-IKS
+mp-export:      afi any.unicast to AS204052 announce ANY
+mp-export:      afi ipv4.unicast to AS49885 announce ANY
+mp-import:      afi any.unicast from AS8881 accept ANY
+mp-import:      afi any.unicast from AS196714 accept ANY
+mp-import:      afi any.unicast from AS199284 accept ANY
+mp-import:      afi any.unicast from AS204052 accept AS204052
+mp-import:      afi ipv4.unicast from AS49885 accept AS49885
+remarks:        BGP Community support definitions:
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remarks:        15725:10 do not announce to AS199284
+remarks:        15725:1x prepend (x) when announced to AS199284
+remarks:        15725:20 do not announce to AS196714
+remarks:        15725:2x prepend (x) when announced to AS196714
+remarks:        15725:40 do not announce to AS8881
+remarks:        15725:4x prepend (x) when announced to AS8881
+remarks:        15725:60 do not announce to AS49885
+remarks:        15725:6x prepend (x) when announced to AS49885
+admin-c:        KU189-RIPE
+tech-c:         IKS-RIPE
+status:         ASSIGNED
+mnt-by:         IKS-MNT
+mnt-by:         RIPE-NCC-END-MNT
+mnt-lower:      IKS-MNT
+created:        2002-07-19T08:27:41Z
+last-modified:  2018-09-04T09:49:25Z
+source:         RIPE
+
+organisation:   ORG-IGJ1-RIPE
+org-name:       IKS Service GmbH
+org-type:       LIR
+address:        Leutragraben 1
+address:        07743
+address:        Jena
+address:        GERMANY
+phone:          +493641573570
+fax-no:         +493641573575
+admin-c:        LD26
+admin-c:        JS42
+admin-c:        KU189-RIPE
+abuse-c:        IKS-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        IKS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         IKS-MNT
+created:        2004-04-17T11:08:19Z
+last-modified:  2016-05-27T09:36:36Z
+source:         RIPE # Filtered
+
+role:           IKS Service GmbH Contact Role
+address:        IKS Service GmbH
+address:        Leutragraben 1
+address:        07743 Jena
+address:        Germany
+admin-c:        KU189-RIPE
+tech-c:         LD26
+tech-c:         JS42
+abuse-mailbox:  abuse@iks-jena.de
+nic-hdl:        IKS-RIPE
+mnt-by:         IKS-MNT
+created:        2008-07-04T14:05:14Z
+last-modified:  2015-12-11T08:14:28Z
+source:         RIPE # Filtered
+
+person:         Klaus Ulitzsch
+address:        IKS Service GmbH
+address:        Leutragraben 1
+address:        07743 Jena
+address:        Germany
+phone:          +49 3641 573570
+fax-no:         +49 3641 573575
+nic-hdl:        KU189-RIPE
+mnt-by:         IKS-MNT
+created:        2012-06-28T12:52:55Z
+last-modified:  2012-10-05T12:02:33Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

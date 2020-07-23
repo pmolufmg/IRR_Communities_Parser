@@ -1,0 +1,395 @@
+aut-num:        AS31500
+as-name:        GLOBALNET-AS
+remarks:        Global Network Managment Ltd
+remarks:        ------
+remarks:        [GlobalNet]
+remarks:        ------
+remarks:        AS-SET: AS-GLOBAL-NET
+remarks:        AS-SET v6: AS-GLOBAL-NET-V6
+remarks:        ------
+remarks:        Community advertising
+remarks:        ------
+remarks:        31500:580x Advertising to Runnet (AS3267)
+remarks:        31500:581x Advertising to Comcor (AS8732)
+remarks:        31500:582x Advertising to Vodafon (AS1273)
+remarks:        31500:583x Advertising to Level3 (AS3356)
+remarks:        31500:584x Advertising to Telecom Italia (AS6762)
+remarks:        31500:500x Advertising to MSK-IX
+remarks:        31500:520x Advertising to AMS-IX
+remarks:        31500:530x Advertising to LINX
+remarks:        31500:540x Advertising to DE-CIX
+remarks:        31500:550x Advertising to Netnod
+remarks:        31500:570x Advertising to DTEL-IX
+remarks:        ------
+remarks:        where:
+remarks:        x = 0 - 6; 0 - do not announce, 1 - 6 - number of prepends
+remarks:        ------
+remarks:        Community meaning
+remarks:        ------
+remarks:        31500:1000 - Moscow-IX RS peers
+remarks:        31500:1001 - Moscow-IX  direct peers
+remarks:        31500:1002 - Moscow private peers
+remarks:        31500:495 - Moscow prefixes
+remarks:        31500:812 - Saint-Petersburg prefixes
+remarks:        31500:2002 - Saint-Petersburg private peers
+remarks:        31500:1021 - DTEL-IX RS peers
+remarks:        31500:1020 - DTEL-IX direct peers
+remarks:        31500:3000 - AMS-IX RS peers
+remarks:        31500:3001 - AMS-IX direct peers
+remarks:        31500:3002 - AMS private peers
+remarks:        31500:3010 - LINX-IX RS peers
+remarks:        31500:3011 - LINX-IX direct peers
+remarks:        31500:3030 - DEC-IX RS peers
+remarks:        31500:3031 - DEC-IX direct peers
+remarks:        31500:3040 - Netnod-IX RS peers
+remarks:        31500:3041 - Netnod-IX direct peers
+remarks:        31500:8732 - Comcor (AS8732)
+remarks:        31500:3267 - Russian Universitet Network (AS3267)
+remarks:        31500:3356 - Level3 (AS3356)
+remarks:        31500:1273 - Vodafon (AS1273)
+remarks:        31500:6762 - Telecom Italia
+remarks:        31500:5555 - Customers
+remarks:        0:666 - Blackhole
+remarks:        ==================================
+remarks:        Routing and peering issue: noc@gblnet.net
+remarks:        Customer's support: noc@gblnet.net
+remarks:        Spam abuse: abuse@gblnet.net
+remarks:        ==================================
+remarks:
+remarks:        --------------------------------------------------------------------
+remarks:
+remarks:        ------
+remarks:        [Global-IX]
+remarks:        ------
+remarks:        AS-SET: AS-GLOBAL-IX
+remarks:        ------
+remarks:        Community advertising
+remarks:        ------
+remarks:        0:<Peering_AS> - Do not announce to Peering AS
+remarks:        31500:<Peering_AS> - Announce to Peering AS
+remarks:        0:666 - Blackhole
+remarks:        ==================================
+remarks:        Routing and peering issue: noc@global-ix.ru
+remarks:        Customer's support: noc@global-ix.ru
+remarks:        Spam abuse: abuse@global-ix.ru
+remarks:        ==================================
+remarks:
+remarks:        -------------- Uplinks (localpref 100) -----------------
+remarks:
+remarks:        --- Level3
+import:         from AS3356 accept any
+export:         to AS3356 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS3356 accept any
+mp-export:      afi ipv6.unicast to AS3356 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        --- Vodafon
+import:         from AS1273 accept any
+export:         to AS1273 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS1273 accept any
+mp-export:      afi ipv6.unicast to AS1273 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        --- Telecom Italia
+import:         from AS6762 accept any
+export:         to AS6762 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS6762 accept any
+mp-export:      afi ipv6.unicast to AS1273 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        -------------- Private Peers (localpref 160) -----------------
+remarks:
+remarks:        --- Comcor
+import:         from AS8732 accept any
+export:         to AS8732 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS8732 accept any
+mp-export:      afi ipv6.unicast to AS8732 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        --- RunNet
+import:         from AS3267 accept any
+export:         to AS3267 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS3267 accept any
+mp-export:      afi ipv6.unicast to AS3267 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        --- Rostelecom NW
+import:         from AS8997 accept AS-SPBNIT
+export:         to AS8997 announce AS-GLOBAL-NET
+remarks:
+remarks:        --- ER-Telecom Holding
+import:         from AS9049 accept AS-ERTH
+export:         to AS9049 announce AS-GLOBAL-NET
+remarks:
+remarks:        --- Rostelecom
+import:         from AS12389 accept AS-ROSTELECOM
+export:         to AS12389 announce AS-GLOBAL-NET
+remarks:
+remarks:        --- Akamai
+import:         from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce AS-GLOBAL-NET
+remarks:
+remarks:        --- Megafon
+import:         from AS31133 accept AS-MF-MGSM
+export:         to AS31133 announce AS-GLOBAL-NET
+remarks:
+remarks:        --- Prometey
+import:         from AS35000 accept AS-PROMETEY
+export:         to AS35000 announce AS-GLOBAL-NET
+remarks:
+remarks:        --- SkyNet
+import:         from AS48076 accept AS-OLYMP-TELECOM
+export:         to AS48076 announce AS-GLOBAL-NET
+remarks:
+remarks:        Name: Vkontakte
+import:         from AS47541 accept AS47541
+export:         to AS47541 announce AS-GLOBAL-NET
+remarks:
+remarks:        Name: Vkontakte2
+import:         from AS47542 accept AS47542
+export:         to AS47542 announce AS-GLOBAL-NET
+remarks:
+remarks:
+remarks:        -------------- Internet Exchanges Route Servers (localpref 130) -----------------
+remarks:
+remarks:        --- MSK-IX
+import:         from AS8631 accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS8631 accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        --- Netnod
+import:         from AS52005 accept AS-NETNOD
+export:         to AS52005 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS6777 accept AS-NETNOD
+mp-export:      afi ipv6.unicast to AS6777 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        --- SOL-IX
+import:         from AS25172 accept AS-SOLIX-RS
+export:         to AS25172 announce AS-GLOBAL-NET
+remarks:
+remarks:        --- AMS-IX
+import:         from AS6777 accept AS-AMS-IX-RS
+export:         to AS6777 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS6777 accept AS-AMS-IX-RS-V6
+mp-export:      afi ipv6.unicast to AS6777 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        --- DE-CIX
+import:         from AS6695 accept AS-DECIX
+export:         to AS6695 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:        --- LINX
+import:         from AS5459 accept AS-LINX
+export:         to AS5459 announce AS-GLOBAL-NET
+remarks:
+remarks:        --- DTEL-IX Route Server
+import:         from AS31210 accept AS-DTEL-IX
+export:         to AS31210 announce AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-GLOBAL-NET-v6
+remarks:
+remarks:
+remarks:        Too many imports/exports to list
+remarks:        Come to the office, have a cup of tea, and we'll tell you about our import/export list
+remarks:        http://gblnet.ru/lg
+remarks:
+remarks:        -------------- GlobalNet Customers (localpref 500) -----------------
+remarks:
+import:         from AS21314 accept AS21314
+import:         from AS24429 accept AS24429
+import:         from AS29613 accept AS29613
+import:         from AS34042 accept AS34042
+import:         from AS42065 accept AS42065
+import:         from AS42893 accept AS42893
+import:         from AS43865 accept AS43865
+import:         from AS44380 accept AS44380
+import:         from AS44640 accept AS44640
+import:         from AS44923 accept AS44923
+import:         from AS47333 accept AS47333
+import:         from AS47363 accept AS47363
+import:         from AS47914 accept AS47914
+import:         from AS48670 accept AS48670
+import:         from AS49340 accept AS49340
+import:         from AS49722 accept AS49722
+import:         from AS50448 accept AS50488
+import:         from AS57246 accept AS57246
+import:         from AS57439 accept AS57439
+import:         from AS57456 accept AS57456
+import:         from AS58042 accept AS58042
+import:         from AS59504 accept AS59504
+import:         from AS60265 accept AS60265
+import:         from AS60470 accept AS60470
+import:         from AS196879 accept AS196879
+import:         from AS197080 accept AS197080
+import:         from AS196739 accept AS196739
+import:         from AS199732 accept AS199732
+import:         from AS200172 accept AS200172
+import:         from AS201694 accept AS201694
+import:         from AS204941 accept AS204941
+import:         from AS16321 accept AS-AICONET
+import:         from AS44843 accept AS-AMSTEL
+import:         from AS44068 accept AS-ARBITAL
+import:         from AS198610 accept AS-BEGET
+import:         from AS60212 accept AS-BITECOM
+import:         from AS58042 accept AS-BONCH
+import:         from AS21030 accept AS-CDNNOW
+import:         from AS204941 accept AS-CGNET
+import:         from AS34892 accept AS-CHIL
+import:         from AS49345 accept AS-CLGP
+import:         from AS44020 accept AS-CLN
+import:         from AS6858 accept AS-COMLINK
+import:         from AS42839 accept AS-DCTV
+import:         from AS44816 accept AS-DELFINTELECOM
+import:         from AS8395 accept AS-EAST
+import:         from AS50911 accept AS-ELECTRON
+import:         from AS25520 accept AS-FUTURES
+import:         from AS60691 accept AS-GLAVSV-MAIN
+import:         from AS29319 accept AS-IMSYS
+import:         from AS48416 accept AS-INFOLAN
+import:         from AS43918 accept AS-ISPSYSTEM
+import:         from AS43966 accept AS-ITREGION
+import:         from AS47211 accept AS-KOLPINONET
+import:         from AS59516 accept AS-LANAMAR
+import:         from AS42765 accept AS-LINER
+import:         from AS42575 accept AS-M2C
+import:         from AS60299 accept AS-MMTS
+import:         from AS12690 accept AS-MKSNET
+import:         from AS48347 accept AS-MTW
+import:         from AS34123 accept AS-NETORN
+import:         from AS61400 accept AS-NETRACK
+import:         from AS31277 accept AS-NEWLINESPB
+import:         from AS43106 accept AS-NEVACOM
+import:         from AS34879 accept AS-NGENIX
+import:         from AS25189 accept AS-NLINE
+import:         from AS50113 accept AS-NTX
+import:         from AS25474 accept AS-OKB-TELECOM
+import:         from AS205540 accept AS-PAOTK
+import:         from AS8377 accept AS-PETERLINK
+import:         from AS44050 accept AS-PIN
+import:         from AS47133 accept AS-PL-NET
+import:         from AS47438 accept AS-PSKOVLINE
+import:         from AS12418 accept AS-QUANTUM
+import:         from AS21414 accept AS-RCNET
+import:         from AS6870 accept AS-RECONN
+import:         from AS43317 accept AS-RNET
+import:         from AS33842 accept AS-RU-CROSSTEL
+import:         from AS199860 accept AS-SDN
+import:         from AS60388 accept AS-SIGMA-TELECOM
+import:         from AS6679 accept AS-SKADI
+import:         from AS31376 accept AS-SMART-C
+import:         from AS42429 accept AS-TELERU
+import:         from AS39598 accept AS-TIERA
+import:         from AS47441 accept AS-TRUNKMOBILE
+import:         from AS57113 accept AS-TZ
+import:         from AS57113 accept AS-VIARTCOM
+import:         from AS44882 accept AS-VSEVNET
+import:         from AS48293 accept AS-UNIONTEL-RU
+import:         from AS31323 accept AS-UNNET
+import:         from AS51904 accept AS-UTEX
+remarks:
+export:         to AS21314 announce ANY
+export:         to AS24429 announce ANY
+export:         to AS29613 announce ANY
+export:         to AS34042 announce ANY
+export:         to AS42065 announce ANY
+export:         to AS42893 announce ANY
+export:         to AS43865 announce ANY
+export:         to AS44380 announce ANY
+export:         to AS44640 announce ANY
+export:         to AS44923 announce ANY
+export:         to AS47333 announce ANY
+export:         to AS47363 announce ANY
+export:         to AS47914 announce ANY
+export:         to AS48670 announce ANY
+export:         to AS49340 announce ANY
+export:         to AS49722 announce ANY
+export:         to AS50448 announce ANY
+export:         to AS57246 announce ANY
+export:         to AS57439 announce ANY
+export:         to AS57456 announce ANY
+export:         to AS58042 announce ANY
+export:         to AS59504 announce ANY
+export:         to AS60265 announce ANY
+export:         to AS60470 announce ANY
+export:         to AS196879 announce ANY
+export:         to AS197080 announce ANY
+export:         to AS196739 announce ANY
+export:         to AS199732 announce ANY
+export:         to AS200172 announce ANY
+export:         to AS201694 announce ANY
+export:         to AS204941 announce ANY
+export:         to AS16321 announce ANY
+export:         to AS44843 announce ANY
+export:         to AS44068 announce ANY
+export:         to AS198610 announce ANY
+export:         to AS60212 announce ANY
+export:         to AS58042 announce ANY
+export:         to AS21030 announce ANY
+export:         to AS204941 announce ANY
+export:         to AS34892 announce ANY
+export:         to AS49345 announce ANY
+export:         to AS44020 announce ANY
+export:         to AS6858 announce ANY
+export:         to AS42839 announce ANY
+export:         to AS44816 announce ANY
+export:         to AS8395 announce ANY
+export:         to AS50911 announce ANY
+export:         to AS25520 announce ANY
+export:         to AS60691 announce ANY
+export:         to AS29319 announce ANY
+export:         to AS48416 announce ANY
+export:         to AS43918 announce ANY
+export:         to AS43966 announce ANY
+export:         to AS47211 announce ANY
+export:         to AS59516 announce ANY
+export:         to AS42765 announce ANY
+export:         to AS42575 announce ANY
+export:         to AS60299 announce ANY
+export:         to AS12690 announce ANY
+export:         to AS48347 announce ANY
+export:         to AS34123 announce ANY
+export:         to AS61400 announce ANY
+export:         to AS31277 announce ANY
+export:         to AS43106 announce ANY
+export:         to AS34879 announce ANY
+export:         to AS25189 announce ANY
+export:         to AS50113 announce ANY
+export:         to AS25474 announce ANY
+export:         to AS205540 announce ANY
+export:         to AS8377 announce ANY
+export:         to AS44050 announce ANY
+export:         to AS47133 announce ANY
+export:         to AS47438 announce ANY
+export:         to AS12418 announce ANY
+export:         to AS21414 announce ANY
+export:         to AS6870 announce ANY
+export:         to AS43317 announce ANY
+export:         to AS33842 announce ANY
+export:         to AS199860 announce ANY
+export:         to AS60388 announce ANY
+export:         to AS6679 announce ANY
+export:         to AS31376 announce ANY
+export:         to AS42429 announce ANY
+export:         to AS39598 announce ANY
+export:         to AS47441 announce ANY
+export:         to AS57113 announce ANY
+export:         to AS57113 announce ANY
+export:         to AS44882 announce ANY
+export:         to AS48293 announce ANY
+export:         to AS31323 announce ANY
+export:         to AS51904 announce ANY
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+org:            ORG-ET23-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-routes:     MNT-GLOBAL-NET
+mnt-routes:     RUNNET-MNT
+mnt-by:         MNT-GLOBAL-NET
+created:        2004-05-28T15:16:04Z
+last-modified:  2018-02-27T07:43:56Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

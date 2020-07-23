@@ -1,0 +1,125 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12557 - AS13223'
+
+as-block:       AS12557 - AS13223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS13032'
+
+% Abuse contact for 'AS13032' is 'abuse@terabit.net.ua'
+
+aut-num:        AS13032
+as-name:        AS13032
+remarks:        UA.UNIV
+remarks:        Kiev, Ukraine
+org:            ORG-TSUo1-RIPE
+import:         from AS29491 action pref=40; accept ANY
+import:         from AS15645 action pref=50; accept AS-UAIX
+import:         from AS34189 action pref=50; accept AS-FIX
+import:         from AS12294 action pref=90; accept AS-TSUA
+import:         from AS29095 action pref=90; accept AS29095
+import:         from AS25526 action pref=90; accept AS25526
+import:         from AS31210 action pref=50; accept AS-DTEL-IX
+import:         from AS12687 action pref=100; accept ANY
+export:         to AS15645 announce AS-UNIV
+export:         to AS34189 announce AS-UNIV
+export:         to AS12294 announce AS-UNIV
+export:         to AS29095 announce ANY
+export:         to AS25526 announce ANY
+export:         to AS31210 announce AS-UNIV
+export:         to AS29491 announce AS-UNIV
+export:         to AS12687 announce AS13032
+default:        to AS29491 action pref=10; networks ANY
+admin-c:        KUN1-RIPE
+admin-c:        VM6386-RIPE
+tech-c:         KUN1-RIPE
+tech-c:         VM6386-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS13032-MNT
+remarks:        Community support
+remarks:        All prefixes will receive the following
+remarks:        communities and local preferences from us:
+remarks:        Community Localpref Description
+remarks:        =================================================
+remarks:        13032:100 200 Customers
+remarks:        13032:102 200 Customers with private AS
+remarks:        13032:101 100 Ukrainian peers
+remarks:        13032:104 20 World
+remarks:        Customer-modifiable communities:
+remarks:        Community Description
+remarks:        ====================================
+remarks:        13032:100 Customers
+remarks:        13032:200 World
+remarks:        13032:201 World + 1 prepend
+remarks:        13032:202 World + 2 prepend
+remarks:        13032:203 World + 3 prepend
+remarks:        13032:204 World + 9 prepend
+remarks:        13032:300 Ukr
+remarks:        13032:301 Ukr + 1 prepend
+remarks:        13032:302 Ukr + 2 prepend
+remarks:        13032:303 Ukr + 3 prepend
+remarks:        13032:304 Ukr + 9 prepend
+remarks:        Default customer community:
+remarks:        13032:100 13032:200 13032:300
+remarks:        Our BGP looking glass available at
+remarks:        http://titanic.uninet.kiev.ua/cgi-bin/cisco.cgi
+remarks:        =================================================
+created:        2002-09-18T18:34:14Z
+last-modified:  2018-06-10T18:32:31Z
+source:         RIPE
+sponsoring-org: ORG-KL71-RIPE
+
+organisation:   ORG-TSUo1-RIPE
+org-name:       Kyiv National Taras Shevchenko University
+org-type:       OTHER
+address:        Kyiv University,
+address:        Volodymyrska, 64 01033 Kyiv, UA
+abuse-c:        AR30112-RIPE
+admin-c:        RS12003-RIPE
+tech-c:         RS12003-RIPE
+mnt-ref:        AS13032-MNT
+mnt-by:         AS13032-MNT
+created:        2008-02-07T15:38:37Z
+last-modified:  2014-11-17T22:46:18Z
+source:         RIPE # Filtered
+
+role:           Taras Shevchenko Kiev University NOC
+address:        01033 Kiev, Ukraine Volodymyrska st, 64
+phone:          +380-44-5269347
+remarks:        trouble:      Abuse-related reports and troubles mail-to:abuse@univ.kiev.ua
+remarks:        trouble:      Routing-related reports and troubles mail-to:noc@univ.kiev.ua
+admin-c:        RS12003-RIPE
+tech-c:         RS12003-RIPE
+nic-hdl:        KUN1-RIPE
+mnt-by:         AS13032-MNT
+created:        2004-01-26T14:38:48Z
+last-modified:  2005-05-04T13:17:38Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@univ.kiev.ua
+
+person:         Vitalii Marianovskyi
+address:        Taras Shevchenko Kiev University, 01033 Kiev,Ukraine Volodymyrska st, 64
+phone:          +380-44-5213347
+nic-hdl:        VM6386-RIPE
+mnt-by:         VITALY-MNT
+created:        2017-06-08T08:59:04Z
+last-modified:  2018-06-09T06:00:33Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

@@ -1,0 +1,260 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS50989'
+
+% Abuse contact for 'AS50989' is 'abuse@prq.se'
+
+aut-num:        AS50989
+as-name:        SITABINFRA-NORDIC-AS
+org:            ORG-SI48-RIPE
+import:         from AS6939 192.121.80.162 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS6939 192.121.80.162 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS6939 192.121.80.162 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS8896 192.121.80.170 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS8896 192.121.80.170 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS8896 192.121.80.170 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS12552 192.121.80.169 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS12552 192.121.80.169 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS12552 192.121.80.169 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS13214 192.121.80.157 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS13214 192.121.80.157 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS13214 192.121.80.157 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS16186 192.121.80.172 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS16186 192.121.80.172 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS16186 192.121.80.172 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS25146 192.121.80.187 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS25146 192.121.80.187 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS25146 192.121.80.187 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS28908 192.121.80.176 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS28908 192.121.80.176 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS28908 192.121.80.176 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS31432 192.121.80.160 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS31432 192.121.80.160 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS31432 192.121.80.160 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS31432 192.121.80.163 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS31432 192.121.80.163 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS31432 192.121.80.163 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS33837 178.16.212.2 at 178.16.212.1 action pref = 120; accept AS-PRQ
+import:         from AS43893 192.121.80.154 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS43893 192.121.80.154 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS43893 192.121.80.154 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS43893 192.121.80.161 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS43893 192.121.80.161 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS43893 192.121.80.161 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS43948 192.121.80.182 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS43948 192.121.80.182 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS43948 192.121.80.182 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS43948 192.121.80.183 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS43948 192.121.80.183 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS43948 192.121.80.183 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS44581 192.121.80.148 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS44581 192.121.80.148 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS44581 192.121.80.148 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS49801 192.121.80.165 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS49801 192.121.80.165 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS49801 192.121.80.165 at 192.121.80.186 action pref = 120; accept ANY
+import:         from AS50986 192.121.80.177 at 192.121.80.178 action pref = 120; accept ANY
+import:         from AS50986 192.121.80.177 at 192.121.80.185 action pref = 120; accept ANY
+import:         from AS50986 192.121.80.177 at 192.121.80.186 action pref = 120; accept ANY
+export:         to AS6939 192.121.80.162 at 192.121.80.178 announce AS-I2B
+export:         to AS6939 192.121.80.162 at 192.121.80.185 announce AS-I2B
+export:         to AS6939 192.121.80.162 at 192.121.80.186 announce AS-I2B
+export:         to AS8896 192.121.80.170 at 192.121.80.178 announce AS-I2B
+export:         to AS8896 192.121.80.170 at 192.121.80.185 announce AS-I2B
+export:         to AS8896 192.121.80.170 at 192.121.80.186 announce AS-I2B
+export:         to AS12552 192.121.80.169 at 192.121.80.178 announce AS-I2B
+export:         to AS12552 192.121.80.169 at 192.121.80.185 announce AS-I2B
+export:         to AS12552 192.121.80.169 at 192.121.80.186 announce AS-I2B
+export:         to AS13214 192.121.80.157 at 192.121.80.178 announce AS-I2B
+export:         to AS13214 192.121.80.157 at 192.121.80.185 announce AS-I2B
+export:         to AS13214 192.121.80.157 at 192.121.80.186 announce AS-I2B
+export:         to AS16186 192.121.80.172 at 192.121.80.178 announce AS-I2B
+export:         to AS16186 192.121.80.172 at 192.121.80.185 announce AS-I2B
+export:         to AS16186 192.121.80.172 at 192.121.80.186 announce AS-I2B
+export:         to AS25146 192.121.80.187 at 192.121.80.178 announce AS-I2B
+export:         to AS25146 192.121.80.187 at 192.121.80.185 announce AS-I2B
+export:         to AS25146 192.121.80.187 at 192.121.80.186 announce AS-I2B
+export:         to AS28908 192.121.80.176 at 192.121.80.178 announce AS-I2B
+export:         to AS28908 192.121.80.176 at 192.121.80.185 announce AS-I2B
+export:         to AS28908 192.121.80.176 at 192.121.80.186 announce AS-I2B
+export:         to AS31432 192.121.80.160 at 192.121.80.178 announce AS-I2B
+export:         to AS31432 192.121.80.160 at 192.121.80.185 announce AS-I2B
+export:         to AS31432 192.121.80.160 at 192.121.80.186 announce AS-I2B
+export:         to AS31432 192.121.80.163 at 192.121.80.178 announce AS-I2B
+export:         to AS31432 192.121.80.163 at 192.121.80.185 announce AS-I2B
+export:         to AS31432 192.121.80.163 at 192.121.80.186 announce AS-I2B
+export:         to AS33837 178.16.212.2 at 178.16.212.1 announce ANY
+export:         to AS43893 192.121.80.154 at 192.121.80.178 announce AS-I2B
+export:         to AS43893 192.121.80.154 at 192.121.80.185 announce AS-I2B
+export:         to AS43893 192.121.80.154 at 192.121.80.186 announce AS-I2B
+export:         to AS43893 192.121.80.161 at 192.121.80.178 announce AS-I2B
+export:         to AS43893 192.121.80.161 at 192.121.80.185 announce AS-I2B
+export:         to AS43893 192.121.80.161 at 192.121.80.186 announce AS-I2B
+export:         to AS43948 192.121.80.182 at 192.121.80.178 announce AS-I2B
+export:         to AS43948 192.121.80.182 at 192.121.80.185 announce AS-I2B
+export:         to AS43948 192.121.80.182 at 192.121.80.186 announce AS-I2B
+export:         to AS43948 192.121.80.183 at 192.121.80.178 announce AS-I2B
+export:         to AS43948 192.121.80.183 at 192.121.80.185 announce AS-I2B
+export:         to AS43948 192.121.80.183 at 192.121.80.186 announce AS-I2B
+export:         to AS44581 192.121.80.148 at 192.121.80.178 announce AS-I2B
+export:         to AS44581 192.121.80.148 at 192.121.80.185 announce AS-I2B
+export:         to AS44581 192.121.80.148 at 192.121.80.186 announce AS-I2B
+export:         to AS49801 192.121.80.165 at 192.121.80.178 announce AS-I2B
+export:         to AS49801 192.121.80.165 at 192.121.80.185 announce AS-I2B
+export:         to AS49801 192.121.80.165 at 192.121.80.186 announce AS-I2B
+export:         to AS50986 192.121.80.177 at 192.121.80.178 announce AS-I2B
+export:         to AS50986 192.121.80.177 at 192.121.80.185 announce AS-I2B
+export:         to AS50986 192.121.80.177 at 192.121.80.186 announce AS-I2B
+import:         from AS42708 accept ANY
+export:         to AS42708 announce ANY
+import:         from AS43853 accept ANY
+export:         to AS43853 announce ANY
+import:         from AS197430 accept ANY
+export:         to AS197430 announce ANY
+mp-import:      afi ipv6.unicast from AS6939 2001:7F8:3E:0:A500:0:6939:1 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS6939 2001:7F8:3E:0:A500:0:6939:1 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS6939 2001:7F8:3E:0:A500:0:6939:1 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-import:      afi ipv6.unicast from AS12552 2001:7F8:3E:0:A500:1:2552:1 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS12552 2001:7F8:3E:0:A500:1:2552:1 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS12552 2001:7F8:3E:0:A500:1:2552:1 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-import:      afi ipv6.unicast from AS13214 2001:7F8:3E:0:A500:1:3214:1 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS13214 2001:7F8:3E:0:A500:1:3214:1 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS13214 2001:7F8:3E:0:A500:1:3214:1 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-import:      afi ipv6.unicast from AS16186 2001:7F8:3E:0:A500:1:6186:1 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS16186 2001:7F8:3E:0:A500:1:6186:1 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS16186 2001:7F8:3E:0:A500:1:6186:1 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-import:      afi ipv6.unicast from AS25146 2001:7F8:3E:0:A500:2:5146:1 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS25146 2001:7F8:3E:0:A500:2:5146:1 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS25146 2001:7F8:3E:0:A500:2:5146:1 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-import:      afi ipv6.unicast from AS33837 2A00:1C20::46:8:2:12 at 2A00:1C20::46:8:2:11 accept ANY;
+mp-import:      afi ipv6.unicast from AS43853 accept ANY;
+mp-import:      afi ipv6.unicast from AS197430 accept ANY;
+mp-import:      afi ipv6.unicast from AS43893 2001:7F8:3E:0:A500:4:3893:1 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS43893 2001:7F8:3E:0:A500:4:3893:1 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS43893 2001:7F8:3E:0:A500:4:3893:1 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-import:      afi ipv6.unicast from AS43893 2001:7F8:3E:0:A500:4:3893:2 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS43893 2001:7F8:3E:0:A500:4:3893:2 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS43893 2001:7F8:3E:0:A500:4:3893:2 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-import:      afi ipv6.unicast from AS43948 2001:7F8:3E:0:A500:4:3948:1 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS43948 2001:7F8:3E:0:A500:4:3948:1 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS43948 2001:7F8:3E:0:A500:4:3948:1 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-import:      afi ipv6.unicast from AS43948 2001:7F8:3E:0:A500:4:3948:2 at 2001:7F8:3E::A500:5:989:1 accept ANY;
+mp-import:      afi ipv6.unicast from AS43948 2001:7F8:3E:0:A500:4:3948:2 at 2001:7F8:3E::A500:5:989:2 accept ANY;
+mp-import:      afi ipv6.unicast from AS43948 2001:7F8:3E:0:A500:4:3948:2 at 2001:7F8:3E::A500:5:989:3 accept ANY;
+mp-export:      afi ipv6.unicast to AS6939 2001:7F8:3E:0:A500:0:6939:1 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS6939 2001:7F8:3E:0:A500:0:6939:1 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS6939 2001:7F8:3E:0:A500:0:6939:1 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS12552 2001:7F8:3E:0:A500:1:2552:1 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS12552 2001:7F8:3E:0:A500:1:2552:1 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS12552 2001:7F8:3E:0:A500:1:2552:1 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS13214 2001:7F8:3E:0:A500:1:3214:1 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS13214 2001:7F8:3E:0:A500:1:3214:1 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS13214 2001:7F8:3E:0:A500:1:3214:1 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS16186 2001:7F8:3E:0:A500:1:6186:1 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS16186 2001:7F8:3E:0:A500:1:6186:1 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS16186 2001:7F8:3E:0:A500:1:6186:1 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS25146 2001:7F8:3E:0:A500:2:5146:1 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS25146 2001:7F8:3E:0:A500:2:5146:1 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS25146 2001:7F8:3E:0:A500:2:5146:1 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS33837 2A00:1C20::46:8:2:12 at 2A00:1C20::46:8:2:11 announce ANY;
+mp-export:      afi ipv6.unicast to AS43853 announce ANY;
+mp-export:      afi ipv6.unicast to AS197430 announce ANY;
+mp-export:      afi ipv6.unicast to AS43893 2001:7F8:3E:0:A500:4:3893:1 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43893 2001:7F8:3E:0:A500:4:3893:1 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43893 2001:7F8:3E:0:A500:4:3893:1 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43893 2001:7F8:3E:0:A500:4:3893:2 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43893 2001:7F8:3E:0:A500:4:3893:2 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43893 2001:7F8:3E:0:A500:4:3893:2 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43948 2001:7F8:3E:0:A500:4:3948:1 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43948 2001:7F8:3E:0:A500:4:3948:1 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43948 2001:7F8:3E:0:A500:4:3948:1 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43948 2001:7F8:3E:0:A500:4:3948:2 at 2001:7F8:3E::A500:5:989:1 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43948 2001:7F8:3E:0:A500:4:3948:2 at 2001:7F8:3E::A500:5:989:2 announce AS-I2B;
+mp-export:      afi ipv6.unicast to AS43948 2001:7F8:3E:0:A500:4:3948:2 at 2001:7F8:3E::A500:5:989:3 announce AS-I2B;
+remarks:        -----------------------------------------------------------
+remarks:        This AS is present at the following IX points:
+remarks:        * STHIX (GE) in Stockholm/Sweden 192.121.80.{178,185,186}, 2001:7F8:3E::A500:5:989:{1,2,3}
+remarks:
+remarks:        -----------------------------------------------------------
+remarks:        The following communities is used for customer signalling
+remarks:
+remarks:        Pre-defined communities:
+remarks:        50989:1 Prepend x1 AS at edges of AS50989 to non-I2B peers
+remarks:        50989:2 Prepend x2 AS at edges of AS50989 to non-I2B peers
+remarks:        50989:3 Prepend x3 AS at edges of AS50989 to non-I2B peers
+remarks:        50989:11 Prepend x1 AS at edges of AS50989 to upstreams
+remarks:        50989:22 Prepend x2 AS at edges of AS50989 to upstreams
+remarks:        50989:33 Prepend x3 AS at edges of AS50989 to upstreams
+remarks:        50989:80 Set Local Pref 80 within AS50989
+remarks:        50989:120 Set Local Pref 120 within AS50989
+remarks:        50989:20 Announce only to I2B AS'es and I2B customers
+remarks:
+remarks:        I2B filters out rfc1918 prefixes, special use prefixes and {0.0.0.0/0}
+remarks:        -----------------------------------------------------------
+remarks:        ABUSE related questions should be mailed to abuse@i2b.se
+remarks:        Other questions may be directed to noc@i2b.se
+remarks:        For peering-requests mail peering@i2b.se
+remarks:        -----------------------------------------------------------
+admin-c:        IRr7-RIPE
+tech-c:         IRr7-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-SITAB
+created:        2010-05-10T12:29:39Z
+last-modified:  2018-09-04T10:50:48Z
+source:         RIPE
+sponsoring-org: ORG-FH17-RIPE
+
+organisation:   ORG-SI48-RIPE
+org-name:       SITAB Infrastruktur
+org-type:       OTHER
+address:        Box 1092, 172 22 Sundbyberg
+abuse-c:        AC29623-RIPE
+mnt-ref:        MNT-SITAB
+mnt-by:         MNT-SITAB
+created:        2009-11-18T22:50:13Z
+last-modified:  2018-05-10T15:44:16Z
+source:         RIPE # Filtered
+
+role:           I2B Registry role
+address:        Box 349
+address:        631 05 Eskilstuna
+address:        SWEDEN
+phone:          +46 8 590 90 000
+remarks:        trouble: Abuse mail: abuse@i2b.se
+admin-c:        FH939
+tech-c:         FH939
+nic-hdl:        IRr7-RIPE
+remarks:        I2B Registry
+mnt-by:         MNT-SITAB
+created:        2010-05-11T20:50:22Z
+last-modified:  2018-05-10T14:47:42Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@i2b.se
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

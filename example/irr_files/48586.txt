@@ -1,0 +1,173 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS48586'
+
+% Abuse contact for 'AS48586' is 'spam@dreamnet.su'
+
+aut-num:        AS48586
+as-name:        BAIKAL-IX-AS
+org:            ORG-LA1006-RIPE
+import:         from AS5547 accept AS-ORTEL
+import:         from AS59616 accept AS59616
+import:         from AS44267 accept AS-IREN
+import:         from AS47397 accept AS-BASE
+import:         from AS8506 accept AS8506
+import:         from AS203997 accept AS203997
+import:         from AS198086 accept AS198086
+import:         from AS58189 accept AS58189
+import:         from AS56969 accept AS56969
+import:         from AS21087 accept AS21087
+import:         from AS201135 accept AS201135
+import:         from AS47909 accept AS-BAIKAL
+import:         from AS49267 accept AS49267
+import:         from AS58187 accept AS58187
+import:         from AS61406 accept AS-RTATELECOM
+import:         from AS43274 accept AS-TELEOS-1
+import:         from AS31257 accept AS-ORIONNET
+import:         from AS60430 accept AS-RED-IX-PEERS
+import:         from AS207228 accept AS207228
+import:         from AS51034 accept AS-WEACOM
+import:         from AS56535 accept AS56535
+import:         from AS58087 accept AS58087
+import:         from AS58067 accept AS-CHTE
+import:         from AS200976 accept AS-LIFESTREAM
+export:         to AS5547 announce AS-BAIKAL-IX-PEERS
+export:         to AS201135 announce AS-BAIKAL-IX-PEERS
+export:         to AS47909 announce AS-BAIKAL-IX-PEERS
+export:         to AS21087 announce AS-BAIKAL-IX-PEERS
+export:         to AS56969 announce AS-BAIKAL-IX-PEERS
+export:         to AS58189 announce AS-BAIKAL-IX-PEERS
+export:         to AS198086 announce AS-BAIKAL-IX-PEERS
+export:         to AS203997 announce AS-BAIKAL-IX-PEERS
+export:         to AS8506 announce AS-BAIKAL-IX-PEERS
+export:         to AS47397 announce AS-BAIKAL-IX-PEERS
+export:         to AS44267 announce AS-BAIKAL-IX-PEERS
+export:         to AS59616 announce AS-BAIKAL-IX-PEERS
+export:         to AS49267 announce AS-BAIKAL-IX-PEERS
+export:         to AS58187 announce AS-BAIKAL-IX-PEERS
+export:         to AS61406 announce AS-BAIKAL-IX-PEERS
+export:         to AS43274 announce AS-BAIKAL-IX-PEERS
+export:         to AS31257 announce AS-BAIKAL-IX-PEERS
+export:         to AS60430 announce AS-BAIKAL-IX-PEERS
+export:         to AS207228 announce AS-BAIKAL-IX-PEERS
+export:         to AS51034 announce AS-BAIKAL-IX-PEERS
+export:         to AS56535 announce AS-BAIKAL-IX-PEERS
+export:         to AS58087 announce AS-BAIKAL-IX-PEERS
+export:         to AS58067 announce AS-BAIKAL-IX-PEERS
+export:         to AS200976 announce AS-BAIKAL-IX-PEERS
+remarks:        +============================+
+remarks:        BGP communities
+remarks:        +--------------------------------------------------+
+remarks:        Communities for prefix classification
+remarks:        +--------------------------------------------------+
+remarks:        Some inbound prefixes are marked with BGP communities which describe their source.
+remarks:
+remarks:        not used
+remarks:
+remarks:        +--------------------------------------------------+
+remarks:        Communities for BAIKAL-IX members
+remarks:        +--------------------------------------------------+
+remarks:
+remarks:        if peer-as < 65535 (16-bit ASn):
+remarks:        0:peer-as - do not announce to peer with ASn=peer-as
+remarks:        48586:peer-as - announce to peer with ASn=peer-as
+remarks:        0:48586 - do not announce to all members
+remarks:        1:peer-as - prepend LAST {YOUR_AS} 1 times when announce to peer with ASn=peer-as
+remarks:        2:peer-as - prepend LAST {YOUR_AS} 2 times when announce to peer with ASn=peer-as
+remarks:        3:peer-as - prepend LAST {YOUR_AS} 3 times when announce to peer with ASn=peer-as
+remarks:
+remarks:        if peer-as > 65535 (32-bit ASn) use BGP-extended-community:
+remarks:        ro:0:peer-as - do not announce to peer with ASn=peer-as
+remarks:        ro:48586:peer-as - announce to peer with ASn=peer-as
+remarks:        ro:0:48586 - do not announce to all members
+remarks:        ro:1:peer-as - prepend LAST {YOUR_AS} 1 times when announce to peer with ASn=peer-as
+remarks:        ro:2:peer-as - prepend LAST {YOUR_AS} 2 times when announce to peer with ASn=peer-as
+remarks:        ro:3:peer-as - prepend LAST {YOUR_AS} 3 times when announce to peer with ASn=peer-as
+remarks:
+remarks:        Notes:
+remarks:        Any other 48586:*,0-3:*,ro:48586:* and ro:0-3:* community removed on input.
+remarks:
+remarks:        +============================+
+admin-c:        ANO26-RIPE
+tech-c:         PAV222-RIPE
+tech-c:         YVZ8-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         dreamnet-mnt
+mnt-by:         baikalix-mnt
+created:        2016-03-01T10:53:06Z
+last-modified:  2018-11-14T04:19:06Z
+source:         RIPE
+sponsoring-org: ORG-DNL11-RIPE
+
+organisation:   ORG-LA1006-RIPE
+org-name:       LLC Zero Kilometer
+org-type:       OTHER
+address:        Tereshkovoy, d. 37, of. 23
+address:        664039
+address:        Ikrutsk
+address:        Russian Federation
+abuse-c:        AR35208-RIPE
+admin-c:        ANO26-RIPE
+admin-c:        YVZ8-RIPE
+tech-c:         PAV222-RIPE
+mnt-ref:        dreamnet-mnt
+mnt-by:         dreamnet-mnt
+created:        2016-07-11T08:00:03Z
+last-modified:  2017-05-19T02:47:57Z
+source:         RIPE # Filtered
+
+person:         Ashheulov Nikolaj Olegovich
+address:        664002 g. Irkutsk ul. Shpacheka 12/7
+phone:          +73952726200
+nic-hdl:        ANO26-RIPE
+mnt-by:         dreamnet-mnt
+created:        2015-01-19T10:48:10Z
+last-modified:  2015-01-20T14:09:05Z
+source:         RIPE # Filtered
+
+person:         Poljakov Aleksej Vladimirovich
+address:        664002 g. Irkutsk ul. Shpacheka 12/7
+phone:          +73952726200
+nic-hdl:        PAV222-RIPE
+mnt-by:         dreamnet-mnt
+created:        2015-01-19T10:54:17Z
+last-modified:  2015-01-20T14:09:47Z
+source:         RIPE # Filtered
+
+person:         Yaroslav V. Zverkov
+address:        Lermontova 130, build. 2, office 331
+address:        Irkutsk, Russia
+phone:          +73952506406 ext. 1102
+nic-hdl:        YVZ8-RIPE
+mnt-by:         BAIKAL-MNT
+created:        2016-11-17T10:48:35Z
+last-modified:  2016-11-17T10:48:35Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

@@ -1,0 +1,76 @@
+aut-num:        AS25505
+as-name:        CHEREDA-KV-AS
+descr:          Kyiv, Ukraine
+org:            ORG-GC14-RIPE
+remarks:        +---------------------------------------------------------
+remarks:        | Uplinks
+remarks:        +---------------------------------------------------------
+import:         from AS13249 action pref=100; accept ANY
+export:         to AS13249 announce AS25505:AS-CHEREDA-EXT
+import:         from AS35320 action pref=100; accept ANY
+export:         to AS35320 announce AS25505:AS-CHEREDA-EXT
+remarks:        +---------------------------------------------------------
+remarks:        | IXes
+remarks:        +---------------------------------------------------------
+import:         from AS15645 action pref=150; accept AS-UAIX
+export:         to AS15645 announce AS25505:AS-CHEREDA-IX
+import:         from AS31210 action pref=150; accept AS-DTEL-IX
+export:         to AS31210 announce AS25505:AS-CHEREDA-IX
+import:         from AS21011 action pref=150; accept AS21011:AS-UA-KIEV
+import:         from AS21011 action pref=150; accept AS-UAIX AS-UKRTELLC
+export:         to AS21011 announce AS25505:AS-CHEREDA-IX
+remarks:        +---------------------------------------------------------
+remarks:        | Peers
+remarks:        +---------------------------------------------------------
+import:         from AS24995 action pref=200; accept AS-MIK
+export:         to AS24995 announce AS25505:AS-CHEREDA
+remarks:        +---------------------------------------------------------
+remarks:        | Clients
+remarks:        +---------------------------------------------------------
+import:         from AS21312 action pref=200; accept ANY
+export:         to AS21312 announce AS25505:AS-CHEREDA-EXT
+import:         from AS42664 action pref=200; accept AS42664
+export:         to AS42664 announce {0.0.0.0/0}
+remarks:
+remarks:        +---------------------------------------------------------
+remarks:        | Community Setup Rules:
+remarks:        +---------------------------------------------------------
+remarks:        | 25505:050 setup on backup prefixes (class 05)
+remarks:        | 25505:100 setup on uplinks prefixes (class 10)
+remarks:        | 25505:150 setup on IX prefixes (class 15)
+remarks:        | 25505:200 setup on customers prefixes (class 20)
+remarks:
+remarks:        +---------------------------------------------------------
+remarks:        | Community Processing Rules:
+remarks:        +---------------------------------------------------------
+remarks:        | 25505:CCMMN
+remarks:        | where:
+remarks:        | CC - peer class (see above for details)
+remarks:        | MM - peer number (use 00 to specify any peer)
+remarks:        | N - peer rule:
+remarks:        | 1 - prepend 1 AS during advertising
+remarks:        | 2 - prepend 2 ASes during advertising
+remarks:        | 4 - prepend 4 ASes during advertising
+remarks:        | 6 - prepend 6 ASes during advertising
+remarks:        | 9 - do not advertise
+remarks:
+remarks:        Examles:
+remarks:        25505:10009 do not advertise to any uplink
+remarks:        25505:15004 prepend 4 ASes during advertising to any IX
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS25505-MNT
+mnt-routes:     AS25505-MNT
+created:        2002-12-12T09:45:43Z
+last-modified:  2017-11-15T09:20:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

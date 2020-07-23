@@ -1,0 +1,160 @@
+aut-num:        AS21056
+as-name:        ASN-WELCOMEITALIA
+org:            ORG-WIS2-RIPE
+remarks:        ===============================================================
+remarks:        Operational issues:ipnoc [at] welcomeitalia [dot] it
+remarks:        Spam and abuse issues:ipnoc [at] welcomeitalia [dot] it
+remarks:        ===============================================================
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Transit IPv4:
+remarks:        ---------------------------------------------------------------
+remarks:
+mp-import:      afi ipv4.unicast from AS1299 213.248.92.197 at 213.248.92.198 action community.append(21056:1299); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv4.unicast to AS1299 announce NOT community.contains(21056:65170); refine { to AS1299 announce AS-WELCOMEITALIA; }
+mp-import:      afi ipv4.unicast from AS3356 212.133.7.49 at 212.133.7.50 action community.append(21056:3356); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv4.unicast to AS3356 announce NOT community.contains(21056:65180); refine { to AS3356 announce AS-WELCOMEITALIA; }
+mp-import:      afi ipv4.unicast from AS12874 37.186.246.17 at 37.186.246.18 action community.append(21056:12874); pref=500; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv4.unicast to AS12874 announce NOT community.contains(21056:65190); refine { to AS12874 announce AS-WELCOMEITALIA; }
+mp-import:      afi ipv4.unicast from AS3269 31.199.18.153 at 31.199.18.154 action community.append(21056:3269); pref=500; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv4.unicast to AS3269 announce NOT community.contains(21056:62130); refine { to AS3269 announce AS-WELCOMEITALIA; }
+mp-import:      afi ipv4.unicast from AS6762 195.22.208.209 at 195.22.208.210 action community.append(21056:6762); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv4.unicast to AS6762 announce NOT community.contains(21056:62110); refine { to AS6762 announce AS-WELCOMEITALIA; }
+mp-import:      afi ipv4.unicast from AS3257 46.33.85.185 at 46.33.85.186 action community.append(21056:3257); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv4.unicast to AS3257 announce NOT community.contains(21056:62160); refine { to AS3257 announce AS-WELCOMEITALIA; }
+mp-default:     to AS3356
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Transit IPv6:
+remarks:        ---------------------------------------------------------------
+remarks:
+mp-import:      afi ipv6.unicast from AS174 2001:978:2:11::11 at 2001:978:2:11::12 action community.append(21056:174); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv6.unicast to AS174 announce NOT community.contains(21056:65120); refine { to AS174 announce AS-WELCOMEITALIA; }
+mp-import:      afi ipv6.unicast from AS1299 2001:2000:3080:24E::1 at 2001:2000:3080:24E::2 action community.append(21056:1299); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv6.unicast to AS1299 announce NOT community.contains(21056:65170); refine { to AS1299 announce AS-WELCOMEITALIA; }
+mp-import:      afi ipv6.unicast from AS6939 2001:470:15:105::1 at 2001:470:15:105::2 action community.append(21056:6939); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv6.unicast to AS6939 announce AS-WELCOMEITALIA;
+mp-import:      afi ipv6.unicast from AS3356 2001:1900:5:2:2::415D at 2001:1900:5:2:2::415E action community.append(21056:3356); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv6.unicast to AS3356 announce AS-WELCOMEITALIA;
+mp-import:      afi ipv6.unicast from AS6762 2001:41A8:20:2::155 at 2001:41A8:20:2::156 action community.append(21056:6762); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv6.unicast to AS6762 announce AS-WELCOMEITALIA;
+mp-import:      afi ipv6.unicast from AS3257 2001:668:0:3:FFFF:1:0:119 at 2001:668:0:3:FFFF:1:0:11A action community.append(21056:3257); pref=100; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv6.unicast to AS3257 announce AS-WELCOMEITALIA;
+mp-default:     to AS3356
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Peering at TIX exchange point IPv4:
+remarks:        ---------------------------------------------------------------
+remarks:
+mp-import:      afi ipv4.unicast from AS21056:PRNG-TIX action community.append(21056:65030); pref=80; accept ANY AND NOT fltr-martian;
+mp-export:      afi ipv4.unicast to AS21056:PRNG-TIX announce NOT community.contains(21056:65210); refine { to AS21056:PRNG-TIX announce AS-WELCOMEITALIA; }
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Peering at MIX exchange point IPv4:
+remarks:        ---------------------------------------------------------------
+remarks:
+mp-import:      afi ipv4.unicast from AS21056:PRNG-MIX action community.append(21056:65020); pref=80; accept NOT fltr-martian; refine { from AS65004 action community.append(21056:65025); accept ANY; }
+mp-export:      afi ipv4.unicast to AS21056:PRNG-MIX announce NOT community.contains(21056:65200); refine { to AS21056:PRNG-MIX announce AS-WELCOMEITALIA; }
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Peering at NAMEX exchange point IPv4:
+remarks:        ---------------------------------------------------------------
+remarks:
+mp-import:      afi ipv4.unicast from AS21056:PRNG-NAMEX action community.append(21056:65040); pref=80; accept NOT fltr-martian; refine { from AS196959 action community.append(21056:65045); accept ANY; }
+mp-export:      afi ipv4.unicast to AS21056:PRNG-NAMEX announce NOT community.contains(21056:65220); refine { to AS21056:PRNG-NAMEX announce AS-WELCOMEITALIA; }
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Customers IPv4:
+remarks:        ---------------------------------------------------------------
+remarks:
+mp-import:      afi ipv4.unicast from AS48862 80.93.131.26 at 80.93.131.25 action community.append(21056:65000); pref=50; accept AS48862
+mp-export:      afi ipv4.unicast to AS48862 announce ANY
+mp-import:      afi ipv4.unicast from AS198320 130.255.114.255 at 80.93.131.17 action community.append(21056:65000); pref=50; accept AS198320
+mp-export:      afi ipv4.unicast to AS198320 announce ANY
+mp-import:      afi ipv4.unicast from AS47242 80.93.131.229 at 80.93.131.230 action community.append(21056:65000); pref=50; accept AS47242
+mp-import:      afi ipv4.unicast from AS47242 80.93.131.238 at 80.93.131.237 action community.append(21056:65000); pref=50; accept AS47242
+mp-export:      afi ipv4.unicast to AS47242 announce ANY
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Customers IPv6:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        > IPv4 network
+remarks:        Welcome Italia filters out inbound prefixes longer than /24
+remarks:        > IPv6 network
+remarks:        Welcome Italia filters out inbound prefixes longer than /48
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Peering
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Peering requests peering [at] welcomeitalia [dot] it
+remarks:        Others information http://as21056.peeringdb.com/
+remarks:        ===============================================================
+remarks:        IXP Speed IP address Town Country
+remarks:        ===============================================================
+remarks:        MIX -- Link 1 -- 10 Gbps -- 217.29.66.43 -- Milan (IT)
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        NAMEX -- Link 1 -- 10 Gbps -- 193.201.28.41 -- Rome (IT)
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        TIX -- Link 1 -- 100 Mbps -- 193.42.140.23 -- Florence (IT)
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Communities used to tag inbound routes
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        21056:65000 Routes received from Customers
+remarks:        21056:65020 Routes received from peers at MIX IXP
+remarks:        21056:65025 Routes received from peers at MIX IXP RS
+remarks:        21056:65030 Routes received from peers at TIX IXP
+remarks:        21056:65040 Routes received from peers at NAMEX IXP
+remarks:        21056:65045 Routes received from peers at NAMEX IXP RS
+remarks:        21056:3356 Routes received from Level3 (AS3356)
+remarks:        21056:1299 Routes received from Telia Sonera (AS1299)
+remarks:        21056:174 Routes received from Cogent (AS174)
+remarks:        21056:6939 Routes received from Hurricane Electric (AS6939)
+remarks:        21056:12874 Routes received from Fastweb (AS12874)
+remarks:        21056:3269 Routes received from Telecom Italia (AS3269)
+remarks:        21056:6762 Routes received from Sparkle (AS6762)
+remarks:        21056:3257 Routes received from GTT (AS3257)
+remarks:        ---------------------------------------------------------------
+remarks:        Communities used to control routing announcements
+remarks:        ---------------------------------------------------------------
+remarks:        21056:6511x When advertising to Sparkle (AS6762)
+remarks:        21056:6513x When advertising to Telecom Italia (AS3269)
+remarks:        21056:6516x When advertising to GTT (AS3257)
+remarks:        21056:6517x When advertising to Telia Sonera (AS1299)
+remarks:        21056:6518x When advertising to Level3 (AS3356)
+remarks:        21056:6519x When advertising to Fastweb (AS12874)
+remarks:        21056:6520x When advertising to MIX members
+remarks:        21056:6521x When advertising to TIX members
+remarks:        21056:6222x When advertising to NAMEX members
+remarks:        ...x=0 - do not announce
+remarks:        ...x=1,2,3,4 - prepend 1,2,3,4 times
+remarks:        ...x=9 - set community no-export
+remarks:        21056:65310 Do not announce to upstreams
+remarks:        21056:65320 Do not announce to peers at any IXP
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         WELCOME-ITALIA-MNT
+mnt-routes:     WELCOME-ITALIA-MNT
+created:        2002-05-02T15:36:10Z
+last-modified:  2017-11-15T09:16:57Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

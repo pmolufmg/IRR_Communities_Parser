@@ -1,0 +1,53 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS8855
+as-name:       ASN-PROMO
+descr:         Merate (Lc), Italy
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS8220 accept ANY
+import:        from AS3269 accept ANY
+import:        from AS12797 accept ANY
+import:        from AS20836 accept ANY
+export:        to AS8220 announce AS-PROMOTION
+export:        to AS3269 announce AS-PROMOTION
+export:        to AS12797 announce AS-PROMOTION
+export:        to AS20836 announce AS-PROMOTION
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       MACROS IN USE: AS-PROMOTION - PROMO.iT S.r.l. routes
+remarks:       
+remarks:       Communities in use:
+remarks:       
+remarks:       == Route Tags ==
+remarks:       8855:0000 Routes announced by AS8855
+remarks:       8855:0001 Promo.it routes announced by AS8855
+remarks:       8855:0002 Customer routes announced by AS8855
+remarks:       
+remarks:       8855:1000 Route Learned from transit peers
+remarks:       8855:1001 Route Learned from AS20836 (CDLAN)
+remarks:       8855:1002 Route Learned from AS3269 (Telecom Italia)
+remarks:       
+remarks:       8855:3000 Customer routes
+remarks:       
+remarks:       == Internal Advertisement Control ==
+remarks:       8855:5000 Announce to Peerings
+remarks:       8855:5001 Announce to Transits
+remarks:       8855:666 Blackhole Route (accepted only from authorized customers)
+remarks:       
+remarks:       Contacts: noc@promo.it - +39 039 939 9939
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        PROMO-MNT
+source:        RIPE
+
+

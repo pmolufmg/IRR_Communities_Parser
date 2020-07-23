@@ -1,0 +1,56 @@
+aut-num:        AS6777
+as-name:        AMS-IX-RS
+org:            ORG-AIEB2-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+notify:         noc@ams-ix.net
+mnt-by:         RIPE-NCC-END-MNT
+mnt-routes:     AMS-IX-MNT
+mnt-by:         AMS-IX-MNT
+created:        2005-01-12T10:14:20Z
+last-modified:  2017-11-15T09:42:54Z
+source:         RIPE
+remarks:
+remarks:        This AS facilitates the AMS-IX Route Servers.
+remarks:        It does not originate any prefixes on its own.
+remarks:
+remarks:        There are two sets of route servers:
+remarks:        1. Legacy Route Servers
+remarks:        =======================
+remarks:        rs1.ams-ix.net is 80.249.208.255 and 2001:7F8:1::A500:6777:1
+remarks:        rs2.ams-ix.net is 80.249.209.0 and 2001:7F8:1::A500:6777:2
+remarks:
+remarks:        Falcon Route Servers
+remarks:        =======================
+remarks:        rs3.ams-ix.net is 80.249.210.255 and 2001:7F8:1::A500:6777:3
+remarks:        rs4.ams-ix.net is 80.249.211.0 and 2001:7F8:1::A500:6777:4
+remarks:        ---
+remarks:        BGP Communities recognised for both Legacy and Falcon Route Servers:
+remarks:        Do not announce to a certain peer: 0:peer-as
+remarks:        Announce to a certain peer: 6777:peer-as
+remarks:        Do not announce to any peer: 0:6777
+remarks:        Announce to all peers: 6777:6777
+remarks:        ---
+remarks:        All ASes participating in the Legacy Route Servers:
+remarks:        AS-AMS-IX-RS and AS-AMS-IX-RS-V6.
+remarks:        ---
+remarks:        All AS-SETs announced in the Legacy Route Servers:
+remarks:        AS-AMS-IX-RS-SETS (IPv4) and AS-AMS-IX-RS-SETS-V6 (IPv6)
+remarks:        ---
+remarks:        All ASes participating in the Falcon Route Servers:
+remarks:        AS-AMS-IX-RS-FALCON and AS-AMS-IX-RS-FALCON-V6
+remarks:        ---
+remarks:        All AS-SETs announced in the Falcon Route Servers:
+remarks:        AS-AMS-IX-RS-SETSFALCON and AS-AMS-IX-RS-SETSFALCON-V6
+remarks:        ---
+remarks:        Please visit https://www.ams-ix.net/ams-ix-route-servers/
+remarks:        for more information on the AMS-IX Route Servers
+remarks:        and details on the filtering options.
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

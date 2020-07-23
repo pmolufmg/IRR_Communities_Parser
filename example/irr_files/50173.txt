@@ -1,0 +1,184 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS50173'
+
+% Abuse contact for 'AS50173' is 'abuse@interoute.com'
+
+aut-num:        AS50173
+as-name:        VTESSE
+org:            ORG-VNL4-RIPE
+import:         from AS8928 action pref=100; accept ANY
+import:         from AS201126 action pref=900; accept AS201126
+import:         from AS8676 action pref=600; accept AS-PSYS
+import:         from AS8950 action pref=900; accept AS-LUK
+import:         from AS15961 action pref=900; accept AS15961
+import:         from AS24661 action pref=900; accept AS-COMPLETEDATA
+import:         from AS24976 action pref=900; accept AS24976
+import:         from AS34178 action pref=900; accept AS34178
+import:         from AS34737 action pref=900; accept AS34737
+import:         from AS42880 action pref=900; accept AS42880
+import:         from AS42880 action pref=900; accept AS198536
+import:         from AS44402 action pref=900; accept AS44402
+import:         from AS56474 action pref=900; accept AS56474
+import:         from AS58120 action pref=900; accept AS58120
+import:         from AS196646 action pref=900; accept AS196646
+import:         from AS198386 action pref=900; accept AS-ONI-UK
+import:         from AS199055 action pref=900; accept AS199055
+import:         from AS199269 action pref=900; accept AS199269
+import:         from AS200038 action pref=900; accept AS200038
+import:         from AS51055 action pref=900; accept AS51055
+import:         from AS201375 action pref=900; accept AS201375
+import:         from AS25030 action pref=900; accept AS25030
+export:         to AS51055 announce ANY
+export:         to AS25030 announce ANY
+export:         to AS8928 announce AS-VTESSE
+export:         to AS201126 announce ANY
+export:         to AS8950 announce ANY
+export:         to AS8676 announce AS-VTESSE
+export:         to AS15961 announce ANY
+export:         to AS24661 announce ANY
+export:         to AS24976 announce ANY
+export:         to AS34178 announce ANY
+export:         to AS34737 announce ANY
+export:         to AS42880 announce ANY
+export:         to AS44402 announce ANY
+export:         to AS56474 announce ANY
+export:         to AS58120 announce ANY
+export:         to AS196646 announce ANY
+export:         to AS198386 announce ANY
+export:         to AS199055 announce ANY
+export:         to AS199269 announce ANY
+export:         to AS200038 announce ANY
+export:         to AS201375 announce ANY
+remarks:        ---------IPv6----------
+mp-import:      afi ipv6 from AS8928 accept ANY
+mp-import:      afi ipv6 from AS8676 accept AS-PSYS
+mp-import:      afi ipv6 from AS15961 accept AS15961
+mp-import:      afi ipv6 from AS196646 accept AS58273
+mp-import:      afi ipv6 from AS199055 accept AS199055
+mp-import:      afi ipv6 from AS199269 accept AS199269
+mp-export:      afi ipv6 to AS8928 announce AS-VTESSE
+mp-export:      afi ipv6 to AS8676 announce AS-VTESSE
+mp-export:      afi ipv6 to AS15961 announce ANY
+mp-export:      afi ipv6 to AS196646 announce ANY
+mp-export:      afi ipv6 to AS199055 announce ANY
+mp-export:      afi ipv6 to AS199269 announce ANY
+remarks:        --------------------------------
+remarks:        Traffic engineering communities
+remarks:        for customer use.
+remarks:        Routes learned from customers are
+remarks:        assigned a localpref of 900 by default.
+remarks:        50173:501 - Set localpref to 850 (for backup)
+remarks:        50173:502 - Set localpref to 600 (same as peer)
+remarks:        50173:202 - Announce this route only to peers,
+remarks:        and not to any transit providers.
+remarks:        50173:520 - Do not announce to LINX peers
+remarks:        50173:620 - Prepend once to LINX peers
+remarks:        50173:720 - Prepend twice to LINX peers
+remarks:        50173:999 - Blackhole route (only accepted on
+remarks:        a /32 route from customers).
+remarks:        --------------------------------
+admin-c:        DO132-RIPE
+admin-c:        INTR1-RIPE
+tech-c:         DO132-RIPE
+tech-c:         VNNO1-RIPE
+tech-c:         INTR1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         VTESSE-MNT
+created:        2009-11-25T14:36:05Z
+last-modified:  2018-09-04T10:46:26Z
+source:         RIPE # Filtered
+
+organisation:   ORG-VNL4-RIPE
+org-name:       Interoute Vtesse Limited
+org-type:       LIR
+address:        25 Canada Square, Canary Wharf
+address:        E14 5LQ
+address:        London
+address:        UNITED KINGDOM
+phone:          +420225352111
+fax-no:         +420225352112
+abuse-c:        INTA2-RIPE
+mnt-ref:        VTESSE-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+admin-c:        ANT62-RIPE
+admin-c:        DO132-RIPE
+admin-c:        ASL3-RIPE
+created:        2009-11-09T13:43:18Z
+last-modified:  2018-05-17T14:12:19Z
+source:         RIPE # Filtered
+
+role:           Interoute IP Hostmaster
+address:        Interoute Communications Ltd.
+address:        25 Canada Square, Canary Wharf, 31st Floor
+address:        London, E14 5LQ
+admin-c:        ADAM1-RIPE
+admin-c:        ASL13-RIPE
+admin-c:        ANT62-RIPE
+tech-c:         ADAM1-RIPE
+tech-c:         ASL13-RIPE
+tech-c:         ANT62-RIPE
+nic-hdl:        INTR1-RIPE
+mnt-by:         INTEROUTE-MNTNR
+created:        2002-08-22T09:12:07Z
+last-modified:  2014-09-16T14:01:24Z
+source:         RIPE # Filtered
+
+role:           Vtesse Networks Network Operations
+address:        Interoute (Vtesse) Ltd
+address:        Unit A1 Belcon Industrial Estate
+address:        Geddings Road
+address:        Hoddesdon
+address:        Hertfordshire
+address:        UK
+address:        EN11 0NT
+phone:          +44 1992 532111
+nic-hdl:        VNNO1-RIPE
+admin-c:        DO132-RIPE
+admin-c:        ASL13-RIPE
+admin-c:        ANT62-RIPE
+tech-c:         DO132-RIPE
+tech-c:         ASL13-RIPE
+tech-c:         ANT62-RIPE
+mnt-by:         VTESSE-MNT
+created:        2010-09-21T15:19:21Z
+last-modified:  2016-04-05T15:27:08Z
+source:         RIPE # Filtered
+
+person:         Donald Onyuma
+address:        Interoute (Vtesse) Ltd
+address:        Geddings Road
+address:        Hoddesdon
+address:        Hertfordshire
+address:        UK
+address:        EN11 0NT
+phone:          +44 1992 532100
+nic-hdl:        DO132-RIPE
+mnt-by:         VTESSE-MNT
+created:        2009-11-17T11:03:36Z
+last-modified:  2016-01-13T14:33:32Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

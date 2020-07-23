@@ -1,0 +1,435 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS6735
+as-name:       SDTNET
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS42 action pref=100; accept AS-PCH
+import:        from AS174 action pref=100; accept ANY
+import:        from AS553 action pref=100; accept AS-BELWUE
+import:        from AS680 action pref=100; accept AS-DFNTOWINISP
+import:        from AS702 action pref=100; accept AS-UUNETEUDE
+import:        from AS714 action pref=100; accept AS-APPLE
+import:        from AS1140 action pref=100; accept AS1140
+import:        from AS1267 action pref=100; accept AS-INFOSTRADA
+import:        from AS1836 action pref=100; accept AS-TICCH
+import:        from AS2119 action pref=100; accept AS-TELENOR
+import:        from AS2484 action pref=100; accept AS2484
+import:        from AS2603 action pref=100; accept AS-NORDUNET
+import:        from AS2611 action pref=100; accept AS-BELNET
+import:        from AS2857 action pref=100; accept AS-RLP-NET
+import:        from AS2914 action pref=100; accept ANY
+import:        from AS3209 action pref=100; accept AS-ARCOR
+import:        from AS3223 action pref=100; accept AS-VOXILITY-SET
+import:        from AS3262 action pref=100; accept AS-SARENET
+import:        from AS3265 action pref=100; accept AS-ACCESSFORALL
+import:        from AS3292 action pref=100; accept AS-TELEDK
+import:        from AS3327 action pref=100; accept AS-LINXTELECOM-AMSIX AS-LINXTELECOM-DECIX
+import:        from AS3491 action pref=100; accept AS-CAIS
+import:        from AS3856 action pref=100; accept AS3856
+import:        from AS4589 action pref=100; accept AS-EASYNET
+import:        from AS4651 action pref=100; accept AS-THIX
+import:        from AS5089 action pref=100; accept AS-NTLI
+import:        from AS5430 action pref=100; accept AS-FREENETDE
+import:        from AS5466 action pref=100; accept AS-EIRCOM
+import:        from AS5539 action pref=100; accept AS-SPACENET
+import:        from AS5580 action pref=100; accept AS-ATRATO
+import:        from AS5588 action pref=100; accept AS-GTE-CE
+import:        from AS5605 action pref=100; accept AS-NETUSE
+import:        from AS6453 action pref=100; accept ANY
+import:        from AS6661 action pref=100; accept AS-PTLU
+import:        from AS6663 action pref=100; accept AS-STARNETSRO
+import:        from AS6666 action pref=100; accept AS-HEADLIGHT
+import:        from AS6667 action pref=100; accept AS-EUNETIP
+import:        from AS6677 action pref=100; accept AS-ICENET
+import:        from AS6695 action pref=100; accept AS-DECIX
+import:        from AS6730 action pref=100; accept AS-GLOBAL
+import:        from AS6774 action pref=100; accept AS-BELBONEMEMBERS
+import:        from AS6777 action pref=100; accept AS-AMS-IX-RS
+import:        from AS6805 action pref=100; accept AS-TDDE
+import:        from AS6830 action pref=100; accept AS-CHELLOBRB
+import:        from AS6939 action pref=100; accept AS-HURRICANE
+import:        from AS7342 action pref=100; accept AS-GTLD
+import:        from AS8075 action pref=100; accept AS-MICROSOFT
+import:        from AS8308 action pref=100; accept AS-NASK
+import:        from AS8319 action pref=100; accept AS-IXREGIO
+import:        from AS8359 action pref=100; accept AS-MTU
+import:        from AS8365 action pref=100; accept AS-MANDA
+import:        from AS8405 action pref=50; accept AS8405
+import:        from AS8422 action pref=100; accept AS-NETCOLOGNE
+import:        from AS8426 action pref=100; accept AS-CLARANET
+import:        from AS8447 action pref=100; accept AS-PTA
+import:        from AS8469 action pref=100; accept AS-NDH
+import:        from AS8560 action pref=100; accept AS-SCHLUND
+import:        from AS8582 action pref=100; accept AS-SUPPORT
+import:        from AS8648 action pref=100; accept AS-KAMP
+import:        from AS8657 action pref=100; accept AS-CPRM
+import:        from AS8708 action pref=100; accept AS-RDSNET
+import:        from AS8709 action pref=100; accept AS-EXODUSEURO
+import:        from AS8741 action pref=100; accept AS-ECORE
+import:        from AS8763 action pref=100; accept AS-DENIC
+import:        from AS8767 action pref=100; accept AS-MNETDE
+import:        from AS8804 action pref=100; accept AS-IX-REGIONET
+import:        from AS8820 action pref=100; accept AS-TAL
+import:        from AS8859 action pref=100; accept AS-OSN
+import:        from AS8881 action pref=100; accept AS-KOMTEL
+import:        from AS8897 action pref=100; accept AS-MISTRAL
+import:        from AS8966 action pref=100; accept AS-EMIX
+import:        from AS9044 action pref=100; accept AS-SOLNET
+import:        from AS9063 action pref=100; accept AS-SAARGATE
+import:        from AS9145 action pref=100; accept AS-EWETEL
+import:        from AS9150 action pref=100; accept AS-INTERCONNECT
+import:        from AS10310 action pref=100; accept AS-YAHOOEU
+import:        from AS12312 action pref=100; accept AS-NACAMAR
+import:        from AS12322 action pref=100; accept AS-PROXAD
+import:        from AS12337 action pref=100; accept AS-NORIS
+import:        from AS12399 action pref=100; accept AS-SPXS
+import:        from AS12414 action pref=100; accept AS-SOLCON
+import:        from AS12676 action pref=100; accept AS-NCORE
+import:        from AS12682 action pref=100; accept AS-LTT
+import:        from AS12713 action pref=100; accept AS-OTEGLOBE
+import:        from AS12731 action pref=100; accept AS-IPHH
+import:        from AS12859 action pref=100; accept AS-BIT
+import:        from AS12897 action pref=100; accept AS-HEAGMEDIANET
+import:        from AS12902 action pref=100; accept AS-LUNA
+import:        from AS13030 action pref=100; accept AS-INIT7
+import:        from AS13054 action pref=100; accept AS-FREINET
+import:        from AS13101 action pref=100; accept AS-TNG
+import:        from AS13122 action pref=100; accept AS-MANX
+import:        from AS13193 action pref=100; accept AS-NERIM
+import:        from AS13237 action pref=100; accept ANY
+import:        from AS13285 action pref=100; accept AS-OPAL
+import:        from AS13768 action pref=100; accept AS-PEERONECUST
+import:        from AS15169 action pref=100; accept AS-GOOGLE
+import:        from AS15435 action pref=100; accept AS-KABELFOON
+import:        from AS15542 action pref=100; accept AS-ZEELANDNET
+import:        from AS15557 action pref=100; accept AS-LDCOMNET
+import:        from AS15598 action pref=100; accept AS-IPX
+import:        from AS15600 action pref=100; accept AS-LAN
+import:        from AS15743 action pref=100; accept AS-IPH
+import:        from AS15772 action pref=100; accept AS-WNET
+import:        from AS15830 action pref=100; accept AS-TELECITYGROUP
+import:        from AS15837 action pref=100; accept AS-RHEINMAIN
+import:        from AS15933 action pref=100; accept AS-ITH
+import:        from AS16097 action pref=100; accept AS-HLKOMM
+import:        from AS16131 action pref=100; accept AS-GRAFIX-TRANSIT
+import:        from AS16276 action pref=100; accept AS-OVH
+import:        from AS16298 action pref=100; accept AS-INTERBOX
+import:        from AS19151 action pref=100; accept AS-WVFIBER
+import:        from AS20495 action pref=100; accept AS-WEDARE
+import:        from AS20562 action pref=100; accept AS-OPENPEERING
+import:        from AS20640 action pref=100; accept AS-TITANNET
+import:        from AS20676 action pref=100; accept AS-QSC
+import:        from AS20677 action pref=100; accept AS-IMOS
+import:        from AS20773 action pref=100; accept AS-HOSTEUROPE
+import:        from AS20804 action pref=100; accept AS-TELENERGO-INT
+import:        from AS20857 action pref=100; accept AS-TRANSIP
+import:        from AS20932 action pref=100; accept AS-IP-MAN
+import:        from AS20940 action pref=100; accept AS-AKAMAI
+import:        from AS20953 action pref=100; accept AS-INFO
+import:        from AS21155 action pref=100; accept AS-PROSERVE
+import:        from AS21263 action pref=100; accept AS-TELEDATA
+import:        from AS21336 action pref=100; accept AS-IR
+import:        from AS21385 action pref=100; accept AS-TNIB
+import:        from AS21409 action pref=100; accept AS-IKOULA
+import:        from AS21414 action pref=100; accept AS-RCNET
+import:        from AS21478 action pref=100; accept AS-PLEX
+import:        from AS22822 action pref=100; accept AS-LLNW
+import:        from AS23148 action pref=100; accept AS-TWW
+import:        from AS24167 action pref=100; accept AS-ASNET
+import:        from AS24586 action pref=100; accept AS-INTERMAX
+import:        from AS24587 action pref=100; accept AS-IO
+import:        from AS24642 action pref=100; accept AS-CAVEO
+import:        from AS24724 action pref=100; accept AS24724
+import:        from AS24875 action pref=100; accept AS-ISPSERVICES
+import:        from AS25459 action pref=100; accept AS-NEDZONE
+import:        from AS25560 action pref=100; accept AS-RHTEC
+import:        from AS28788 action pref=100; accept AS-UNILOGICNET
+import:        from AS28878 action pref=100; accept AS-SIGNET
+import:        from AS29208 action pref=100; accept AS-DIALTELECOM
+import:        from AS29396 action pref=100; accept AS-UNET
+import:        from AS29438 action pref=100; accept AS29438
+import:        from AS29550 action pref=100; accept AS-POUNDHOST
+import:        from AS29686 action pref=100; accept AS-PROBENETWORKS
+import:        from AS29791 action pref=100; accept AS-VOXEL
+import:        from AS30132 action pref=100; accept AS3557 AND { 192.5.5.0/24 }
+import:        from AS30781 action pref=100; accept AS-JAGUAR
+import:        from AS31122 action pref=100; accept AS-DIGIWEB
+import:        from AS31142 action pref=100; accept AS-KLEYREX-RS1
+import:        from AS31216 action pref=100; accept AS-BSOCOM
+import:        from AS31383 action pref=100; accept AS-COMPUTEL
+import:        from AS31400 action pref=100; accept AS-ACCELERATED
+import:        from AS31500 action pref=100; accept AS-ETELECOM-2
+import:        from AS31529 action pref=100; accept AS31529
+import:        from AS32787 action pref=100; accept AS-PROLE
+import:        from AS33843 action pref=100; accept ANY
+import:        from AS33873 action pref=100; accept AS-ARVATO
+import:        from AS34106 action pref=100; accept AS-TELEGRAAF
+import:        from AS34215 action pref=100; accept AS-ATINET
+import:        from AS34305 action pref=100; accept AS-EUROACCESS
+import:        from AS34419 action pref=100; accept AS-VODAFONE
+import:        from AS34655 action pref=100; accept AS-JASMIN
+import:        from AS34868 action pref=100; accept AS34868
+import:        from AS34968 action pref=100; accept AS-IUNXI
+import:        from AS35320 action pref=100; accept AS-ETT
+import:        from AS37100 action pref=100; accept AS-SEACOM
+import:        from AS39702 action pref=100; accept AS-SIT
+import:        from AS39913 action pref=50; accept AS39913
+import:        from AS41445 action pref=100; accept AS-NETGROUND
+import:        from AS41690 action pref=100; accept AS-DAILYMOTION
+import:        from AS41692 action pref=100; accept AS-OPENCARRIER
+import:        from AS43821 action pref=100; accept AS-WIKIMEDIA
+import:        from AS47692 action pref=100; accept AS-NESSUS
+import:        from AS47869 action pref=100; accept AS-NETROUTING
+import:        from AS51088 action pref=100; accept AS-A2B
+import:        from AS51324 action pref=100; accept AS-EXARING
+import:        from AS51391 action pref=100; accept AS-TOMMYBOWDITCH
+import:        from AS57344 action pref=100; accept AS-57344
+import:        from AS57976 action pref=100; accept AS57976
+import:        from AS60169 action pref=100; accept AS-RKOM AS-MNETDE
+import:        from AS60171 action pref=100; accept AS-SET-AFRIX
+import:        from AS61337 action pref=100; accept AS-GXT
+import:        from AS198781 action pref=100; accept AS-198781
+import:        from AS200753 action pref=100; accept AS-SNAPSERV
+import:        from AS201206 action pref=100; accept AS201206
+import:        from AS202526 action pref=100; accept AS202525
+import:        from AS205593 action pref=100; accept AS-TAKEN
+export:        to AS174 announce AS-SDT
+export:        to AS714 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS1836 announce AS-SDTDECIX
+export:        to AS2119 announce AS-SDTAMSIX
+export:        to AS2484 announce AS-SDTDECIX
+export:        to AS2603 announce AS-SDTAMSIX
+export:        to AS2914 announce AS-SDT
+export:        to AS3223 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to   AS4651 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS5580 announce AS-SDTAMSIX
+export:        to AS6453 announce AS-SDT
+export:        to AS6661 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS6677 announce AS-SDTAMSIX
+export:        to AS6830 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS7342 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS8075 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS8365 announce AS-SDTAMSIX AS-SDTDECIX AS-SDTKLEYREX
+export:        to AS8426 announce AS-SDTDECIX
+export:        to AS8767 announce AS-SDTDECIX AS-SDTAMSIX
+export:        to AS8966 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS9063 announce AS-SDT
+export:        to AS10310 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS12682 announce AS-SDT
+export:        to AS15169 announce AS-SDT
+export:        to AS15772 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS19151 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS20677 announce AS-SDT
+export:        to AS20773 announce AS-SDTDECIX
+export:        to AS21336 announce AS-SDTDECIX
+export:        to AS24167 announce AS-SDTAMSIX
+export:        to AS29791 announce AS-SDTAMSIX
+export:        to AS30781 announce AS-SDTAMSIX
+export:        to AS31122 announce AS-SDTAMSIX
+export:        to AS31400 announce AS-SDT
+export:        to AS31500 announce AS-SDTAMSIX
+export:        to AS31529 announce AS-SDTAMSIX
+export:        to AS32787 announce AS-SDTDECIX
+export:        to AS33873 announce AS-SDTDECIX
+export:        to AS34419 announce AS-SDTAMSIX
+export:        to AS34868 announce AS-SDTAMSIX
+export:        to AS37100 announce AS-SDTDECIX AS-SDTAMSIX
+export:        to AS39702 announce AS-SDTDECIX AS-SDTSIX
+export:        to AS41692 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS47692 announce AS-SDTDECIX
+export:        to AS47869 announce AS-SDTAMSIX
+export:        to AS51324 announce AS-SDTDECIX
+export:        to AS51391 announce AS-SDTKLEYREX
+export:        to AS57344 announce AS-SDTDECIX
+export:        to AS57976 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS60171 announce AS-SDTDECIX
+export:        to AS61337 announce AS-SDTKLEYREX
+export:        to AS198781 announce AS-SDTDECIX
+export:        to AS200753 announce AS-SDTKLEYREX
+export:        to AS201206 announce AS-SDTKLEYREX
+export:        to AS202526 announce ANY
+export:        to AS205593 announce AS-SDTKLEYREX
+export:        to AS42 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS553 announce AS-SDTSIX AS-SDTDECIX
+export:        to AS680 announce AS-SDTDECIX
+export:        to AS702 announce AS-SDTDECIX
+export:        to AS1140 announce AS-SDTAMSIX
+export:        to AS1267 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS2611 announce AS-SDTAMSIX
+export:        to AS2857 announce AS-SDTDECIX
+export:        to AS3209 announce AS-SDTDECIX
+export:        to AS3257 announce AS-SDTDECIX
+export:        to AS3262 announce AS-SDTAMSIX
+export:        to AS3265 announce AS-SDTAMSIX
+export:        to AS3292 announce AS-SDTDECIX
+export:        to AS3327 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS3491 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS3856 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS4589 announce AS-SDTAMSIX
+export:        to AS5089 announce AS-SDTDECIX
+export:        to AS5430 announce AS-SDTDECIX
+export:        to AS5466 announce AS-SDTDECIX
+export:        to AS5539 announce AS-SDTDECIX
+export:        to AS5588 announce AS-SDTDECIX
+export:        to AS5605 announce AS-SDTDECIX
+export:        to AS6663 announce AS-SDTDECIX
+export:        to AS6666 announce ANY
+export:        to AS6667 announce AS-SDTDECIX
+export:        to AS6695 announce AS-SDTDECIX
+export:        to AS6730 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS6774 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS6777 announce AS-SDTAMSIX
+export:        to AS6805 announce AS-SDTDECIX
+export:        to AS6939 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS8308 announce AS-SDTDECIX
+export:        to AS8319 announce AS-SDTDECIX
+export:        to AS8359 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS8405 announce ANY
+export:        to AS8422 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS8437 announce AS-SDTDECIX
+export:        to AS8468 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS8469 announce AS-SDTDECIX
+export:        to AS8560 announce AS-SDTDECIX
+export:        to AS8582 announce AS-SDTAMSIX
+export:        to AS8648 announce AS-SDTDECIX
+export:        to AS8657 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS8708 announce AS-SDTDECIX
+export:        to AS8709 announce AS-SDTDECIX
+export:        to AS8741 announce AS-SDTDECIX
+export:        to AS8763 announce AS-SDTDECIX
+export:        to AS8804 announce AS-SDTDECIX
+export:        to AS8820 announce AS-SDT
+export:        to AS8859 announce AS-SDTDECIX
+export:        to AS8881 announce AS-SDTDECIX
+export:        to AS8897 announce AS-SDTAMSIX
+export:        to AS9044 announce AS-SDTDECIX
+export:        to AS9145 announce AS-SDTDECIX
+export:        to AS9150 announce AS-SDTAMSIX
+export:        to AS12312 announce AS-SDTDECIX
+export:        to AS12322 announce AS-SDTAMSIX
+export:        to AS12337 announce AS-SDTDECIX
+export:        to AS12399 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS12414 announce AS-SDTAMSIX
+export:        to AS12676 announce AS-SDTDECIX
+export:        to AS12713 announce AS-SDTAMSIX
+export:        to AS12731 announce AS-SDTDECIX
+export:        to AS12859 announce AS-SDTAMSIX
+export:        to AS12897 announce AS-SDTDECIX
+export:        to AS12902 announce AS-SDTAMSIX
+export:        to AS13030 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS13054 announce AS-SDTDECIX
+export:        to AS13101 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS13122 announce AS-SDTDECIX
+export:        to AS13193 announce AS-SDTAMSIX
+export:        to AS13237 announce AS-SDT
+export:        to AS13285 announce AS-SDTDECIX
+export:        to AS13768 announce AS-SDTAMSIX
+export:        to AS15435 announce AS-SDTAMSIX
+export:        to AS15542 announce AS-SDTAMSIX
+export:        to AS15557 announce AS-SDTDECIX
+export:        to AS15598 announce AS-SDTDECIX
+export:        to AS15600 announce AS-SDTDECIX
+export:        to AS15635 announce AS-SDTAMSIX
+export:        to AS15743 announce AS-SDTDECIX
+export:        to AS15830 announce AS-SDTDECIX
+export:        to AS15837 announce AS-SDTDECIX
+export:        to AS15933 announce AS-SDTDECIX
+export:        to AS16097 announce AS-SDTDECIX
+export:        to AS16131 announce AS-SDTAMSIX
+export:        to AS16276 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS16298 announce AS-SDTAMSIX
+export:        to AS20495 announce AS-SDTAMSIX
+export:        to AS20562 announce AS-SDTAMSIX
+export:        to AS20640 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS20676 announce AS-SDTDECIX
+export:        to AS20804 announce AS-SDTDECIX
+export:        to AS20857 announce AS-SDTAMSIX
+export:        to AS20932 announce AS-SDTAMSIX
+export:        to AS20940 announce AS-SDTAMSIX AS-SDTDECIX AS-SDTKLEYREX
+export:        to AS20953 announce AS-SDTAMSIX
+export:        to AS21155 announce AS-SDTAMSIX
+export:        to AS21263 announce AS-SDTDECIX AS-SDTSIX
+export:        to AS21385 announce AS-SDTDECIX
+export:        to AS21409 announce AS-SDTAMSIX
+export:        to AS21414 announce AS-SDTDECIX
+export:        to AS21478 announce AS-SDTAMSIX
+export:        to AS22822 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS23148 announce AS-SDTAMSIX
+export:        to AS24586 announce AS-SDTAMSIX
+export:        to AS24587 announce AS-SDTAMSIX
+export:        to AS24642 announce AS-SDTAMSIX
+export:        to AS24724 announce AS-SDTDECIX
+export:        to AS24875 announce AS-SDTAMSIX
+export:        to AS25459 announce AS-SDTAMSIX
+export:        to AS25560 announce AS-SDTDECIX
+export:        to AS28788 announce AS-SDTAMSIX
+export:        to AS28878 announce AS-SDTAMSIX
+export:        to AS29208 announce AS-SDTDECIX
+export:        to AS29396 announce AS-SDTAMSIX
+export:        to AS29438 announce AS-SDTAMSIX
+export:        to AS29550 announce AS-SDTDECIX
+export:        to AS29686 announce AS-SDTDECIX
+export:        to AS30132 announce AS-SDTAMSIX
+export:        to AS31142 announce AS-SDTKLEYREX
+export:        to AS31216 announce AS-SDTAMSIX
+export:        to AS31383 announce AS-SDTAMSIX
+export:        to AS33843 announce ANY
+export:        to AS34106 announce AS-SDTAMSIX
+export:        to AS34215 announce AS-SDTAMSIX
+export:        to AS34305 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS34655 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS34968 announce AS-SDTAMSIX
+export:        to AS35320 announce AS-SDTDECIX
+export:        to AS39913 announce ANY
+export:        to AS41445 announce AS-SDTAMSIX
+export:        to AS41690 announce AS-SDTAMSIX AS-SDTDECIX
+export:        to AS43821 announce AS-SDTAMSIX
+export:        to AS51088 announce AS-SDTAMSIX
+export:        to AS60169 announce AS-SDTDECIX
+remarks:       We are currently available for public peering at
+remarks:       - AMS-IX, Amsterdam
+remarks:       - DE-CIX, Frankfurt
+remarks:       - KleyReX, Frankfurt
+remarks:       - S-IX, Stuttgart
+remarks:       Communities readable by customers
+remarks:       6735:10 received from Cogent
+remarks:       6735:20 received from NTT
+remarks:       6735:50 received from AMS-IX
+remarks:       6735:60 received from DE-CIX
+remarks:       6735:62 received from KleyReX
+remarks:       6735:70 received from S-IX
+remarks:       6735:90 SDT and customers
+remarks:       6735:91 received from private peer
+remarks:       Communities settable by customers
+remarks:       6735:100 no announcement to Cogent
+remarks:       6735:101 prepend 1 as to Cogent
+remarks:       6735:102 prepend 2 as to Cogent
+remarks:       6735:103 prepend 3 as to Cogent
+remarks:       6735:200 no announcement to Tata
+remarks:       6735:201 prepend 1 as to Tata
+remarks:       6735:202 prepend 2 as to Tata
+remarks:       6735:203 prepend 3 as to Tata
+remarks:       6735:300 no announcement to NTT
+remarks:       6735:301 prepend 1 as to NTT
+remarks:       6735:302 prepend 2 as to NTT
+remarks:       6735:303 prepend 3 as to NTT
+remarks:       6735:500 no announcement at AMS-IX
+remarks:       6735:600 no announcement at DE-CIX
+remarks:       6735:620 no announcement to KleyReX
+remarks:       6735:700 no announcement at S-IX
+remarks:       6735:910 no announcement to private peers
+remarks:       6735:950 no announcement to any peer
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        SDT-NOC
+source:        RIPE
+
+

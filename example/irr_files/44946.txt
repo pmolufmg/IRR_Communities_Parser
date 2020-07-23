@@ -1,0 +1,133 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS44946
+as-name:       DGINET-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS174   action pref=100; accept ANY
+import:        from AS2914  action pref=100; accept ANY
+export:        to AS174   announce AS-DGI
+export:        to AS2914  announce AS-DGI
+remarks:       
+remarks:       _____   ____   _
+remarks:       |  _ \ / ___| (_)
+remarks:       | | | | |  _  | |
+remarks:       | |_| | |_| | |_|     B G P   P O L I C Y
+remarks:       |____/ \____|
+remarks:       
+remarks:       ============================================================
+remarks:       | CONTACTS
+remarks:       
+remarks:       Abuse:      abuse@dg-i.net
+remarks:       Peering:    peering@dg-i.net
+remarks:       Operations: support@dg-i.net
+remarks:       
+remarks:       ============================================================
+remarks:       | IMPORT
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       : Policy
+remarks:       
+remarks:       * Only customers can send traffic engineering communities
+remarks:       * In case of conflicting traffic engineering communities
+remarks:       the most deprecating directive is chosen
+remarks:       * Customer prefixes with improper communities get their
+remarks:       communities stripped and are marked as error prefixes
+remarks:       * Peer prefixes always get their communities stripped
+remarks:       * All customer peering sessions are prefix-filtered
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       : Discard
+remarks:       
+remarks:       * RFC-1918 (IPv4) / RFC-4193 (IPv6) prefixes
+remarks:       * Host-loopback, link-local, and documentation prefixes
+remarks:       * Prefixes longer than 24 (IPv4) / 48 (IPv6)
+remarks:       * Prefixes with private AS numbers in their AS path
+remarks:       
+remarks:       ============================================================
+remarks:       | EXPORT
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       : Policy
+remarks:       
+remarks:       * Only native and customer prefixes are exported to non-
+remarks:       customer peers
+remarks:       * DG-i communities are removed
+remarks:       * Private AS numbers are removed from AS path
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       : Discard
+remarks:       
+remarks:       * RFC-1918 (IPv4) / RFC-4193 (IPv6) prefixes
+remarks:       * Host-loopback, link-local, and documentation prefixes
+remarks:       * Prefixes longer than 24 (IPv4) / 48 (IPv6)
+remarks:       
+remarks:       ============================================================
+remarks:       | BGP COMMUNITIES
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       : Prefix Type
+remarks:       
+remarks:       44946:201 - Native   (Local Preference = 120)
+remarks:       44946:202 - Customer (Local Preference = 120)
+remarks:       44946:203 - Peer     (Local Preference = 100)
+remarks:       44946:204 - Upstream (Local Preference = 100)
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       : Prefix Location
+remarks:       
+remarks:       . Region .
+remarks:       44946:401 - Europe
+remarks:       
+remarks:       . Country .
+remarks:       44946:501 - Germany
+remarks:       
+remarks:       . Data Center .
+remarks:       44946:1001 - DUS1 - Dusseldorf
+remarks:       44946:1002 - DUS4 - Dusseldorf
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       : Error
+remarks:       
+remarks:       44946:911 - Prefixes tagged with improper communities
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       : Traffic Engineering
+remarks:       
+remarks:       . Local Preference .
+remarks:       44946:80  - Backup - Local Preference =  80
+remarks:       44946:100 - Peer   - Local Preference = 100
+remarks:       
+remarks:       . Special Routing .
+remarks:       44946:9999 - Blackhole Traffic
+remarks:       
+remarks:       . Prefix Export .
+remarks:       65000:0               - Do not export to peers
+remarks:       65000:XXX ...         - Do not export to peer AS XXX
+remarks:       65000:0 65000:XXX ... - Do not export to peers except AS XXX
+remarks:       65001:0               - Prepend 1x to peers
+remarks:       65001:XXX ...         - Prepend 1x to peer AS XXX
+remarks:       65001:0 65001:XXX ... - Prepend 1x to peers except AS XXX
+remarks:       65002:0               - Prepend 2x to peers
+remarks:       65002:XXX ...         - Prepend 2x to peer AS XXX
+remarks:       65002:0 65002:XXX ... - Prepend 2x to peers except AS XXX
+remarks:       65003:0               - Prepend 3x to peers
+remarks:       65003:XXX ...         - Prepend 3x to peer AS XXX
+remarks:       65003:0 65003:XXX ... - Prepend 3x to peers except AS XXX
+remarks:       
+remarks:       Note: XXX = 65535 selects all DG-i customers
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        ripe.admin@dg-i.net
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        MG8916-MNT
+source:        RIPE
+
+

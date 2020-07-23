@@ -1,0 +1,156 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS34209'
+
+% Abuse contact for 'AS34209' is 'noc@eu.equinix.com'
+
+aut-num:        AS34209
+as-name:        Equinix
+remarks:        --------------------------------------------------------
+remarks:        BGP COMMUNITIES SUPPORTED
+remarks:        --------------------------------------------------------
+remarks:        Communities to determine entry point of route:
+remarks:        34209:2914 - NTT (IPv4)
+remarks:        34209:3257 - GTT (IPv4&IPv6)
+remarks:        34209:6453 - Tata Communications (IPv6)
+remarks:        34209:8545 - PLIX (IPv4, IPv6)
+remarks:        34209:5580 - Atrato IP Networks (IPv4)
+remarks:        34209:13030 - INIT7 (IPv4)
+remarks:        Traffic Control Communities
+remarks:        34209:11009 - do not announce to NTT
+remarks:        34209:1100[1-3] - prepend 1,2,3 times when announcing to NTT
+remarks:        34209:13009 - do not announce to GTT
+remarks:        34209:1300[1-3] - prepend 1,2,3 times when announcing to GTT
+remarks:        34209:15009 - do not announce to PLIX
+remarks:        34209:2300[1-3] - prepend 1,2,3 times when announcing to HENET
+remarks:        34209:23009 - do not announce to HENET
+remarks:        34209:2400[1-3] - prepend 1,2,3 times when announcing to ATRATO
+remarks:        34209:24009 - do not announce to ATRATO
+remarks:        34209:2500[1-3] - prepend 1,2,3 times when announcing to INIT7
+remarks:        34209:25009 - do not announce to INIT7
+remarks:        34209:2600[1-3] - prepend 1,2,3 times when announcing to NETIA
+remarks:        34209:26009 - do not announce to NETIA
+remarks:        34209:2700[1-3] - prepend 1,2,3 times when announcing to UPC
+remarks:        34209:27009 - do not announce to UPC
+remarks:        34209:666 - blackhole
+remarks:        --------------------------------------------------------
+import:         from AS2914 accept ANY
+export:         to AS2914 announce AS-PLIXDC
+import:         from AS3257 accept ANY
+export:         to AS3257 announce AS-PLIXDC
+import:         from AS8545 accept ANY
+export:         to AS8545 announce AS-PLIXDC
+import:         from AS5580 accept ANY
+export:         to AS5580 announce AS-PLIXDC
+import:         from AS13030 accept ANY
+export:         to AS13030 announce AS-PLIXDC
+remarks:        ------ CUSTOMERS ------
+import:         from AS48842 accept ANY
+export:         to AS48842 announce AS-PLIXDC
+import:         from AS34494 accept ANY
+export:         to AS34494 announce AS-PLIXDC
+import:         from AS196637 accept ANY
+export:         to AS196637 announce AS-PLIXDC
+import:         from AS20473 accept ANY
+export:         to AS20473 announce AS-PLIXDC
+import:         from AS34393 accept ANY
+export:         to AS34393 announce AS-PLIXDC
+import:         from AS35498 accept ANY
+export:         to AS35498 announce AS-PLIXDC
+import:         from AS42576 accept ANY
+export:         to AS42576 announce AS-PLIXDC
+import:         from AS20680 accept ANY
+export:         to AS20680 announce AS-PLIXDC
+import:         from AS41790 accept ANY
+export:         to AS41790 announce AS-PLIXDC
+import:         from AS41790 accept ANY
+export:         to AS41790 announce AS-PLIXDC
+import:         from AS198979 accept ANY
+export:         to AS198979 announce AS-PLIXDC
+org:            ORG-PDSz1-RIPE
+admin-c:        IIA6-RIPE
+tech-c:         IIA6-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         EQUINIX-MNT
+mnt-by:         MNT-PLIX
+created:        2004-11-19T10:25:52Z
+last-modified:  2018-09-04T10:05:50Z
+source:         RIPE
+
+organisation:   ORG-PDSz1-RIPE
+org-name:       Equinix (Poland) Sp. z o.o.
+org-type:       LIR
+address:        Al. Jerozolimskie 65/79
+address:        00-697
+address:        Warsaw
+address:        POLAND
+phone:          +48224273999
+fax-no:         +48226303999
+admin-c:        PN2248-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        EQUINIX-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         EQUINIX-MNT
+abuse-c:        EAM62-RIPE
+created:        2010-07-12T11:52:55Z
+last-modified:  2017-12-05T13:46:00Z
+source:         RIPE # Filtered
+
+role:           Equinix RIPE Admin
+remarks:        Equinix RIPE Admin
+address:        GB
+phone:          +44 (0)845 373 2999
+tech-c:         AF5664-RIPE
+tech-c:         AO1761-RIPE
+tech-c:         AP7480-RIPE
+tech-c:         BS13504-RIPE
+tech-c:         DH1304-RIPE
+tech-c:         HC795-RIPE
+tech-c:         JC4201-RIPE
+tech-c:         JS3905-RIPE
+tech-c:         MG12790-RIPE
+tech-c:         MK2403-RIPE
+tech-c:         MM26199-RIPE
+tech-c:         MM36274-RIPE
+tech-c:         PC6472-RIPE
+tech-c:         PM18053-RIPE
+tech-c:         PN2248-RIPE
+tech-c:         RG1911-RIPE
+tech-c:         RK2696-RIPE
+tech-c:         RV5551-RIPE
+tech-c:         SM11789-RIPE
+admin-c:        PC6472-RIPE
+nic-hdl:        IIA6-RIPE
+mnt-by:         EQUINIX-MNT
+mnt-by:         HRW-NOC
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-09-18T12:00:21Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

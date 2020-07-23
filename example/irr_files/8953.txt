@@ -1,0 +1,237 @@
+aut-num:        AS8953
+as-name:        ASN-ORANGE-ROMANIA
+org:            ORG-ORS1-RIPE
+remarks:        ---Upstreams---
+mp-import:      afi ipv4.unicast from AS1299 accept ANY
+mp-export:      afi ipv4.unicast to AS1299 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS6762 accept ANY
+mp-export:      afi ipv4.unicast to AS6762 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS6762 accept ANY
+mp-export:      afi ipv6.unicast to AS6762 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS5511 accept ANY
+mp-export:      afi ipv4.unicast to AS5511 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS5511 accept ANY
+mp-export:      afi ipv6.unicast to AS5511 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS6774 accept ANY
+mp-export:      afi ipv4.unicast to AS6774 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS6774 accept ANY
+mp-export:      afi ipv6.unicast to AS6774 announce AS-ORANGERO
+remarks:        ---Peerings---
+mp-import:      afi ipv4.unicast from AS20530 accept AS-ROMANIA
+mp-export:      afi ipv4.unicast to AS20530 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS20530 accept AS-ROMANIA
+mp-export:      afi ipv6.unicast to AS20530 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS8708 accept AS-RDSNET
+mp-export:      afi ipv4.unicast to AS8708 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS9050 accept AS-RTD
+mp-export:      afi ipv4.unicast to AS9050 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS5588 accept AS-GTS-CE
+mp-export:      afi ipv4.unicast to AS5588 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS5588 accept AS-GTS-CE
+mp-export:      afi ipv6.unicast to AS5588 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS49909 accept AS-DIRECTONE
+mp-export:      afi ipv4.unicast to AS49909 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS49909 accept AS-DIRECTONE
+mp-export:      afi ipv6.unicast to AS49909 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS39737 accept AS-NETVISIONTEL
+mp-export:      afi ipv4.unicast to AS39737 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS28809 accept AS-NAUKANET
+mp-export:      afi ipv4.unicast to AS28809 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS39107 accept AS-INTERLANRO
+mp-export:      afi ipv4.unicast to AS39107 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS39107 accept AS-INTERLANRO
+mp-export:      afi ipv6.unicast to AS39107 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS6830 accept AS-AORTARO
+mp-export:      afi ipv4.unicast to AS6830 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS6830 accept AS-AORTARO
+mp-export:      afi ipv6.unicast to AS6830 announce AS-ORANGERO
+mp-import:      afi ipv4.unicast from AS9009 accept AS-GBXS
+mp-export:      afi ipv4.unicast to AS9009 announce AS-ORANGERO
+mp-import:      afi ipv6.unicast from AS9009 accept AS-GBXS
+mp-export:      afi ipv6.unicast to AS9009 announce AS-ORANGERO
+remarks:        ---Customers---
+mp-import:      afi ipv4.unicast from AS25454 accept AS-ORANGEMD
+mp-export:      afi ipv4.unicast to AS25454 announce ANY
+mp-import:      afi ipv6.unicast from AS25454 accept AS-ORANGEMD
+mp-export:      afi ipv6.unicast to AS25454 announce ANY
+mp-import:      afi ipv4.unicast from AS8338 accept AS-EQUANTRO
+mp-export:      afi ipv4.unicast to AS8338 announce ANY
+mp-import:      afi ipv4.unicast from AS34794 accept AS34794
+mp-export:      afi ipv4.unicast to AS34794 announce ANY
+mp-import:      afi ipv4.unicast from AS43631 accept AS43631
+mp-export:      afi ipv4.unicast to AS43631 announce ANY
+mp-import:      afi ipv4.unicast from AS35210 accept AS35210
+mp-export:      afi ipv4.unicast to AS35210 announce ANY
+mp-import:      afi ipv4.unicast from AS12439 accept AS12439
+mp-export:      afi ipv4.unicast to AS12439 announce ANY
+mp-import:      afi ipv4.unicast from AS29098 accept AS29098
+mp-export:      afi ipv4.unicast to AS29098 announce ANY
+mp-import:      afi ipv4.unicast from AS15619 accept AS15619
+mp-export:      afi ipv4.unicast to AS15619 announce ANY
+mp-import:      afi ipv4.unicast from AS48930 accept AS48930
+mp-export:      afi ipv4.unicast to AS48930 announce ANY
+mp-import:      afi ipv4.unicast from AS48754 accept AS48754
+mp-export:      afi ipv4.unicast to AS48754 announce ANY
+mp-import:      afi ipv4.unicast from AS49496 accept AS49496
+mp-export:      afi ipv4.unicast to AS49496 announce ANY
+mp-import:      afi ipv4.unicast from AS39732 accept AS39732
+mp-export:      afi ipv4.unicast to AS39732 announce ANY
+mp-import:      afi ipv4.unicast from AS196783 accept AS196783
+mp-export:      afi ipv4.unicast to AS196783 announce ANY
+mp-import:      afi ipv4.unicast from AS44761 accept AS44761
+mp-export:      afi ipv4.unicast to AS44761 announce ANY
+mp-import:      afi ipv4.unicast from AS51240 accept AS51240
+mp-export:      afi ipv4.unicast to AS51240 announce ANY
+mp-import:      afi ipv4.unicast from AS51689 accept AS51689
+mp-export:      afi ipv4.unicast to AS51689 announce ANY
+mp-import:      afi ipv4.unicast from AS51654 accept AS51654
+mp-export:      afi ipv4.unicast to AS51654 announce ANY
+mp-import:      afi ipv4.unicast from AS51637 accept AS51637
+mp-export:      afi ipv4.unicast to AS51637 announce ANY
+mp-import:      afi ipv4.unicast from AS51325 accept AS51325
+mp-export:      afi ipv4.unicast to AS51325 announce ANY
+mp-import:      afi ipv4.unicast from AS43464 accept AS43464
+mp-export:      afi ipv4.unicast to AS43464 announce ANY
+mp-import:      afi ipv4.unicast from AS57177 accept AS57177
+mp-export:      afi ipv4.unicast to AS57177 announce ANY
+mp-import:      afi ipv4.unicast from AS31151 accept AS31151
+mp-export:      afi ipv4.unicast to AS31151 announce ANY
+mp-import:      afi ipv4.unicast from AS58043 accept AS58043
+mp-export:      afi ipv4.unicast to AS58043 announce ANY
+mp-import:      afi ipv4.unicast from AS43461 accept AS43461
+mp-export:      afi ipv4.unicast to AS43461 announce ANY
+mp-import:      afi ipv4.unicast from AS61348 accept AS61348
+mp-export:      afi ipv4.unicast to AS61348 announce ANY
+mp-import:      afi ipv4.unicast from AS28727 accept AS28727
+mp-export:      afi ipv4.unicast to AS28727 announce ANY
+mp-import:      afi ipv4.unicast from AS47230 accept AS47230
+mp-export:      afi ipv4.unicast to AS47230 announce ANY
+mp-import:      afi ipv4.unicast from AS60644 accept AS60644
+mp-export:      afi ipv4.unicast to AS60644 announce ANY
+mp-import:      afi ipv4.unicast from AS60303 accept AS60303
+mp-export:      afi ipv4.unicast to AS60303 announce ANY
+mp-import:      afi ipv4.unicast from AS43807 accept AS43807
+mp-export:      afi ipv4.unicast to AS43807 announce ANY
+mp-import:      afi ipv4.unicast from AS33971 accept AS33971 AS34130
+mp-export:      afi ipv4.unicast to AS33971 announce ANY
+mp-import:      afi ipv4.unicast from AS50209 accept AS50209
+mp-export:      afi ipv4.unicast to AS50209 announce ANY
+mp-import:      afi ipv4.unicast from AS12672 accept AS12672
+mp-export:      afi ipv4.unicast to AS12672 announce ANY
+mp-import:      afi ipv4.unicast from AS25536 accept AS25536
+mp-export:      afi ipv4.unicast to AS25536 announce ANY
+mp-import:      afi ipv4.unicast from AS39745 accept AS39745
+mp-export:      afi ipv4.unicast to AS39745 announce ANY
+mp-import:      afi ipv4.unicast from AS51885 accept AS51885
+mp-export:      afi ipv4.unicast to AS51885 announce ANY
+mp-import:      afi ipv4.unicast from AS51832 accept AS51832
+mp-export:      afi ipv4.unicast to AS51832 announce ANY
+mp-import:      afi ipv4.unicast from AS198914 accept AS198914
+mp-export:      afi ipv4.unicast to AS198914 announce ANY
+mp-import:      afi ipv4.unicast from AS25378 accept AS25378
+mp-export:      afi ipv4.unicast to AS25378 announce ANY
+mp-import:      afi ipv4.unicast from AS34022 accept AS34022
+mp-export:      afi ipv4.unicast to AS34022 announce ANY
+mp-import:      afi ipv4.unicast from AS34184 accept AS34184
+mp-export:      afi ipv4.unicast to AS34184 announce ANY
+mp-import:      afi ipv4.unicast from AS34451 accept AS34451
+mp-export:      afi ipv4.unicast to AS34451 announce ANY
+mp-import:      afi ipv4.unicast from AS38981 accept AS38981
+mp-export:      afi ipv4.unicast to AS38981 announce ANY
+mp-import:      afi ipv4.unicast from AS42426 accept AS42426
+mp-export:      afi ipv4.unicast to AS42426 announce ANY
+mp-import:      afi ipv4.unicast from AS43736 accept AS43736
+mp-export:      afi ipv4.unicast to AS43736 announce ANY
+mp-import:      afi ipv4.unicast from AS44184 accept AS44184
+mp-export:      afi ipv4.unicast to AS44184 announce ANY
+mp-import:      afi ipv4.unicast from AS49295 accept AS49295
+mp-export:      afi ipv4.unicast to AS49295 announce ANY
+mp-import:      afi ipv4.unicast from AS57326 accept AS57326
+mp-export:      afi ipv4.unicast to AS57326 announce ANY
+mp-import:      afi ipv4.unicast from AS48786 accept AS48786
+mp-export:      afi ipv4.unicast to AS48786 announce ANY
+mp-import:      afi ipv4.unicast from AS48095 accept AS48095
+mp-export:      afi ipv4.unicast to AS48095 announce ANY
+mp-import:      afi ipv4.unicast from AS62299 accept AS62299
+mp-export:      afi ipv4.unicast to AS62299 announce ANY
+mp-import:      afi ipv4.unicast from AS201387 accept AS201387
+mp-export:      afi ipv4.unicast to AS201387 announce ANY
+mp-import:      afi ipv4.unicast from AS42790 accept AS42790
+mp-export:      afi ipv4.unicast to AS42790 announce ANY
+mp-import:      afi ipv4.unicast from AS58175 accept AS58175
+mp-export:      afi ipv4.unicast to AS58175 announce ANY
+mp-import:      afi ipv4.unicast from AS41432 accept AS41432
+mp-export:      afi ipv4.unicast to AS41432 announce ANY
+mp-import:      afi ipv4.unicast from AS41492 accept AS41492
+mp-export:      afi ipv4.unicast to AS41492 announce ANY
+mp-import:      afi ipv4.unicast from AS39492 accept AS39492
+mp-export:      afi ipv4.unicast to AS39492 announce ANY
+mp-import:      afi ipv4.unicast from AS51712 accept AS51712
+mp-export:      afi ipv4.unicast to AS51712 announce ANY
+mp-import:      afi ipv4.unicast from AS44675 accept AS44675
+mp-export:      afi ipv4.unicast to AS44675 announce ANY
+mp-import:      afi ipv4.unicast from AS39105 accept AS39105
+mp-export:      afi ipv4.unicast to AS39105 announce ANY
+mp-import:      afi ipv4.unicast from AS31362 accept AS31362
+mp-export:      afi ipv4.unicast to AS31362 announce ANY
+mp-import:      afi ipv4.unicast from AS51709 accept AS51709
+mp-export:      afi ipv4.unicast to AS51709 announce ANY
+mp-import:      afi ipv4.unicast from AS50659 accept AS50659
+mp-export:      afi ipv4.unicast to AS50659 announce ANY
+mp-import:      afi ipv4.unicast from AS59735 accept AS59735
+mp-export:      afi ipv4.unicast to AS59735 announce ANY
+mp-import:      afi ipv4.unicast from AS56499 accept AS56499
+mp-export:      afi ipv4.unicast to AS56499 announce ANY
+mp-import:      afi ipv4.unicast from AS51441 accept AS51441
+mp-export:      afi ipv4.unicast to AS51441 announce ANY
+mp-import:      afi ipv4.unicast from AS35270 accept AS35270
+mp-export:      afi ipv4.unicast to AS35270 announce ANY
+mp-import:      afi ipv4.unicast from AS56432 accept AS56432
+mp-export:      afi ipv4.unicast to AS56432 announce ANY
+mp-import:      afi ipv4.unicast from AS200492 accept AS200492
+mp-export:      afi ipv4.unicast to AS200492 announce ANY
+mp-import:      afi ipv4.unicast from AS48074 accept AS-EVH
+mp-export:      afi ipv4.unicast to AS48074 announce ANY
+mp-import:      afi ipv4.unicast from AS60676 accept AS60676
+mp-export:      afi ipv4.unicast to AS60676 announce ANY
+mp-import:      afi ipv4.unicast from AS57444 accept AS57444
+mp-export:      afi ipv4.unicast to AS57444 announce ANY
+mp-import:      afi ipv4.unicast from AS30885 accept AS30885
+mp-export:      afi ipv4.unicast to AS30885 announce ANY
+remarks:        ---BGP policies---
+remarks:        We honor MED
+remarks:        Customer settable communities:
+remarks:        - 8953:1001 Prepend 8953 to international
+remarks:        - 8953:1002 Prepend 2 x 8953 to international
+remarks:        - 8953:1003 Prepend 3 x 8953 to international
+remarks:        - 8953:1009 Don't announce to international
+remarks:        - 8953:2001 Prepend 8953 to national peers
+remarks:        - 8953:2002 Prepend 2 x 8953 to national peers
+remarks:        - 8953:2003 Prepend 3 x 8953 to national peers
+remarks:        - 8953:2009 Don't announce to national peers
+remarks:        - 1001:AS Prepend 8953 to peer/upstream AS
+remarks:        - 1002:AS Prepend 2 x 8953 to peer/upstream AS
+remarks:        - 1003:AS Prepend 3 x 8953 to peer/upstream AS
+remarks:        - 1009:AS Don't announce to to peer/upstream AS
+remarks:        - 8953:666 Blackhole IPv4 /32 or IPv6 /128 (from own networks only)
+remarks:        - 8953:1050 Set lowest local preference in AS8953
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+notify:         registry@orange.com
+mnt-lower:      AS8953-MNT
+mnt-routes:     AS8953-MNT
+mnt-by:         AS8953-MNT
+created:        2002-04-19T10:12:09Z
+last-modified:  2018-08-10T09:19:07Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

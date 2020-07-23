@@ -1,0 +1,146 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS39737
+as-name:       NETVISION-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS2914 accept ANY
+import:        from AS3320 accept ANY
+import:        from AS6663 accept AS-STARNETSRO
+import:        from AS30890 accept AS-EVOLVA
+import:        from AS31313 accept AS-STS-RO
+import:        from AS12672 accept AS12672
+import:        from AS25409 accept AS-ALSYS
+import:        from AS34569 accept AS-NETWORXBG
+import:        from AS41850 accept AS41850
+import:        from AS34319 accept AS-DOTRO
+import:        from AS25278 accept AS25278
+import:        from AS39225 accept AS39225
+import:        from AS39734 accept AS39734
+import:        from AS31017 accept AS31017
+import:        from AS43215 accept AS43215
+import:        from AS31017 accept AS25340
+import:        from AS33906 accept AS33906
+import:        from AS35775 accept AS35775
+import:        from AS39225 accept AS39225
+import:        from AS43703 accept AS43703
+import:        from AS29523 accept AS-ASCONET
+import:        from AS42901 accept AS-STREAMNET
+import:        from AS28721 accept AS-OPENSYSRO
+import:        from AS39225 accept AS34962
+import:        from AS39474 accept AS39474
+import:        from AS31605 accept AS31605
+import:        from AS16156 accept AS16156
+import:        from AS25311 accept AS-FASTLINK
+import:        from AS34053 accept AS34053
+import:        from AS39543 accept AS39543
+import:        from AS41530 accept AS41530
+import:        from AS44626 accept AS44626
+import:        from AS33839 accept AS33839
+import:        from AS25454 accept AS-TELEMEDIA
+import:        from AS42603 accept AS42603
+import:        from AS34979 accept AS-INETSOL
+import:        from AS33875 accept AS-GOODNET
+import:        from AS33961 accept AS33961
+import:        from AS47721 accept AS47721
+import:        from AS42523 accept AS42523
+import:        from AS31252 accept AS-STARNET
+import:        from AS43938 accept AS43938
+import:        from AS44203 accept AS44203
+import:        from AS35626 accept AS35626
+import:        from AS20530 accept AS-ROMANIA
+import:        from AS34319 accept AS-INTERLANRO
+import:        from AS16170 accept AS-VIPNET
+import:        from AS42901 accept AS-STREAMNET
+import:        from AS43890 accept AS-NETSERV-RO
+import:        from AS35347 accept AS35347
+import:        from AS49909 accept AS-DIRECTONE
+import:        from AS57136 accept AS-VIVA
+import:        from AS16011 accept AS16011
+import:        from AS6777 accept ANY
+export:        to AS2914 announce AS-NETVISIONTEL
+export:        to AS3320 announce AS-NETVISIONTEL
+export:        to AS6663 announce AS-NETVISIONTEL
+export:        to AS30890 announce AS-NETVISIONTEL
+export:        to AS31313 announce ANY
+export:        to AS12672 announce ANY
+export:        to AS25409 announce ANY
+export:        to AS34569 announce ANY
+export:        to AS41850 announce ANY
+export:        to AS34319 announce ANY
+export:        to AS25278 announce ANY
+export:        to AS39225 announce ANY
+export:        to AS39734 announce ANY
+export:        to AS31017 announce ANY
+export:        to AS43215 announce ANY
+export:        to AS33906 announce ANY
+export:        to AS35775 announce ANY
+export:        to AS39225 announce ANY
+export:        to AS43703 announce ANY
+export:        to AS29523 announce ANY
+export:        to AS42901 announce ANY
+export:        to AS28721 announce ANY
+export:        to AS39474 announce ANY
+export:        to AS31605 announce ANY
+export:        to AS16156 announce ANY
+export:        to AS25311 announce ANY
+export:        to AS34053 announce ANY
+export:        to AS39543 announce ANY
+export:        to AS41530 announce ANY
+export:        to AS44626 announce ANY
+export:        to AS33839 announce ANY
+export:        to AS25454 announce ANY
+export:        to AS42603 announce ANY
+export:        to AS34979 announce ANY
+export:        to AS33875 announce ANY
+export:        to AS33961 announce ANY
+export:        to AS47721 announce ANY
+export:        to AS42523 announce ANY
+export:        to AS31252 announce ANY
+export:        to AS43938 announce ANY
+export:        to AS44203 announce ANY
+export:        to AS35626 announce ANY
+export:        to AS35347 announce ANY
+export:        to AS20530 announce AS-NETVISIONTEL
+export:        to AS34319 announce AS-NETVISIONTEL
+export:        to AS16170 announce AS-NETVISIONTEL
+export:        to AS42901 announce AS-NETVISIONTEL
+export:        to AS43890 announce AS-NETVISIONTEL
+export:        to AS49909 announce ANY
+export:        to AS57136 announce ANY
+export:        to AS16011 announce ANY
+export:        to AS6777 action community .= { 6777:6777 }; announce AS-NETVISIONTEL
+remarks:       ------------------------------------------------------------------
+remarks:       Communities definitions
+remarks:       ------------------------------------------------------------------
+remarks:       39737:30010 - no advertise to Upstreams
+remarks:       39737:3001x - prepend 'x' times to Upstreams
+remarks:       39737:30020 - no advertise to Peers
+remarks:       39737:3002x - prepend 'x' times to Peers
+remarks:       39737:30030 - set low pref
+remarks:       39737:66 - Prefix filtering
+remarks:       ------------------------------------------------------------------
+remarks:       Contact for Netvision Telecom:
+remarks:       ------------------------------------------------------------------
+remarks:       24x7 NOC: support@primetelecom.ro
+remarks:       abuse: abuse@primetelecom.ro
+remarks:       ------------------------------------------------------------------
+remarks:       We are currently available for peering at
+remarks:       - Bucharest RO, NxData (Dimitrie Pompei, Feper)
+remarks:       - Frankfurt DE, Ancotel (Kleyerstrasse 90)
+remarks:       Peering contact: peering@primetelecom.ro
+remarks:       ------------------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        ripe@netvisiontelecom.ro
+mnt-by:        NETVISION-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

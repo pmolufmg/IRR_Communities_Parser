@@ -1,0 +1,1019 @@
+aut-num:        AS15412
+as-name:        FLAG-AS
+descr:          Flag Telecom Global Internet AS
+descr:          London, UK
+descr:          Reliance Globalcom Limited
+import:         from AS42 action pref=100; accept AS-PCH
+import:         from AS195 action pref=100; accept AS-INTERACTIVE3D
+import:         from AS209 action pref=100; accept AS209
+import:         from AS226 action pref=100; accept AS226
+import:         from AS286 action pref=100; accept AS-KQ
+import:         from AS513 action pref=100; accept AS-AKAMAI
+import:         from AS703 action pref=100; accept AS-703
+import:         from AS714 action pref=100; accept AS714
+import:         from AS786 action pref=100; accept AS-JANET
+import:         from AS1103 action pref=100; accept AS-SURFNET
+import:         from AS1200 action pref=100; accept AS-AMS-IX-PEERS
+import:         from AS1257 action pref=100; accept AS-SWIPNET
+import:         from AS1273 action pref=100; accept AS1273
+import:         from AS1280 action pref=100; accept AS27319
+import:         from AS1290 action pref=100; accept AS-PSIVIA
+import:         from AS1299 action pref=100; accept AS1299
+import:         from AS2110 action pref=100; accept AS-IEUNET
+import:         from AS2119 action pref=100; accept AS2119
+import:         from AS2152 action pref=100; accept AS2152
+import:         from AS2483 action pref=100; accept AS2483
+import:         from AS2497 action pref=100; accept AS2497
+import:         from AS2516 action pref=100; accept AS2516
+import:         from AS2518 action pref=100; accept AS-MESH
+import:         from AS2519 action pref=100; accept AS-BTNIS
+import:         from AS2603 action pref=100; accept AS2603
+import:         from AS2611 action pref=100; accept AS-BELNET
+import:         from AS2635 action pref=100; accept AS2635
+import:         from AS2647 action pref=100; accept AS-EQUANT-NAM
+import:         from AS2686 action pref=100; accept AS2686
+import:         from AS2687 action pref=100; accept AS2687
+import:         from AS2818 action pref=100; accept AS-BBC
+import:         from AS2856 action pref=100; accept AS-BTTOLINX
+import:         from AS2906 action pref=100; accept AS2906
+import:         from AS2907 action pref=100; accept AS2907
+import:         from AS2914 action pref=100; accept ANY
+import:         from AS3209 action pref=100; accept AS-ARCORGLOBAL
+import:         from AS3216 action pref=100; accept AS3216
+import:         from AS3223 action pref=100; accept AS3223
+import:         from AS3257 action pref=100; accept AS-TINET
+import:         from AS3265 action pref=100; accept AS-ACCESSFORALL
+import:         from AS3292 action pref=100; accept AS-TELEDK
+import:         from AS3303 action pref=100; accept AS-SWCMGLOBAL
+import:         from AS3320 action pref=100; accept AS3320
+import:         from AS3356 action pref=100; accept ANY
+import:         from AS3462 action pref=100; accept AS3462
+import:         from AS3491 action pref=100; accept AS6431
+import:         from AS3549 action pref=100; accept AS3549
+import:         from AS3642 action pref=100; accept AS3642
+import:         from AS3741 action pref=100; accept AS3741
+import:         from AS3786 action pref=100; accept AS-DACOM
+import:         from AS3856 action pref=100; accept AS-PCH
+import:         from AS4004 action pref=100; accept AS-GLOBALONE-UK
+import:         from AS4181 action pref=100; accept AS4181
+import:         from AS4323 action pref=100; accept AS-TWTCNET
+import:         from AS4436 action pref=100; accept AS-NLAYER
+import:         from AS4538 action pref=100; accept AS4538
+import:         from AS4589 action pref=100; accept AS-EASYNET
+import:         from AS4635 action pref=100; accept AS4635
+import:         from AS4637 action pref=100; accept AS-REACH-CUSTOMERS
+import:         from AS4657 action pref=100; accept AS4657
+import:         from AS4675 action pref=100; accept AS4675
+import:         from AS4680 action pref=100; accept AS4680
+import:         from AS4685 action pref=100; accept AS4685
+import:         from AS4693 action pref=100; accept AS4693
+import:         from AS4694 action pref=100; accept AS4694
+import:         from AS4739 action pref=100; accept AS-4739
+import:         from AS4788 action pref=100; accept AS4788
+import:         from AS4837 action pref=100; accept ANY
+import:         from AS5089 action pref=100; accept AS-NTLI
+import:         from AS5390 action pref=100; accept AS-EURONET
+import:         from AS5400 action pref=100; accept AS-BT-EU
+import:         from AS5413 action pref=100; accept AS-PIPEX
+import:         from AS5459 action pref=100; accept AS5459
+import:         from AS5466 action pref=100; accept AS-EIRCOM
+import:         from AS5503 action pref=100; accept AS-RMIFL
+import:         from AS5580 action pref=100; accept AS-HIBERNIA
+import:         from AS5583 action pref=100; accept AS-GIPNL
+import:         from AS5588 action pref=100; accept AS-GTS-CE
+import:         from AS5631 action pref=100; accept AS-IPCENTA
+import:         from AS6079 action pref=100; accept AS-RCN
+import:         from AS6130 action pref=100; accept AS6130
+import:         from AS6327 action pref=100; accept AS-BIGPIPE
+import:         from AS6407 action pref=100; accept AS6407
+import:         from AS6453 action pref=100; accept AS6453
+import:         from AS6461 action pref=100; accept AS-ABOVE
+import:         from AS6661 action pref=100; accept AS6661
+import:         from AS6667 action pref=100; accept AS6667
+import:         from AS6730 action pref=100; accept AS-GLOBAL
+import:         from AS6762 action pref=100; accept AS6762
+import:         from AS6774 action pref=100; accept AS-BELBONETOPEERS
+import:         from AS6805 action pref=100; accept AS-TDDE
+import:         from AS6830 action pref=100; accept AS-AORTA
+import:         from AS6908 action pref=100; accept AS6908
+import:         from AS6939 action pref=100; accept AS6939
+import:         from AS7029 action pref=100; accept AS-WINDSTREAM
+import:         from AS7270 action pref=100; accept AS7270
+import:         from AS7342 action pref=100; accept AS36625
+import:         from AS7385 action pref=100; accept AS-INTEGRA
+import:         from AS7473 action pref=100; accept AS7473
+import:         from AS7506 action pref=100; accept AS7506
+import:         from AS7521 action pref=100; accept AS7521
+import:         from AS7522 action pref=100; accept AS-STCN
+import:         from AS7527 action pref=100; accept AS7527
+import:         from AS7575 action pref=100; accept AS7575
+import:         from AS8002 action pref=100; accept AS8002
+import:         from AS8075 action pref=100; accept AS8075
+import:         from AS8121 action pref=100; accept AS-LAYER42
+import:         from AS8190 action pref=100; accept AS-VIATEL
+import:         from AS8218 action pref=100; accept AS-NEOT
+import:         from AS8220 action pref=100; accept AS-COLT
+import:         from AS8308 action pref=100; accept AS-NASK
+import:         from AS8319 action pref=100; accept AS-IXREGIO
+import:         from AS8359 action pref=100; accept AS-MTU
+import:         from AS8365 action pref=100; accept AS-MANDA
+import:         from AS8422 action pref=100; accept AS-NETCOLOGNE
+import:         from AS8426 action pref=100; accept AS8426
+import:         from AS8468 action pref=100; accept AS-ENTANET
+import:         from AS8551 action pref=100; accept AS8551
+import:         from AS8553 action pref=100; accept AS-AVENSYS
+import:         from AS8560 action pref=100; accept AS-SCHLUND
+import:         from AS8648 action pref=100; accept AS-KAMP
+import:         from AS8657 action pref=100; accept AS-CPRM
+import:         from AS8674 action pref=100; accept AS8674
+import:         from AS8708 action pref=100; accept AS-RDSNET
+import:         from AS8714 action pref=100; accept AS8714
+import:         from AS8851 action pref=100; accept AS-INWEB
+import:         from AS8897 action pref=100; accept AS-MISTRAL
+import:         from AS8918 action pref=100; accept AS-CARRIERONE
+import:         from AS8928 action pref=100; accept AS-INTEROUTE
+import:         from AS8966 action pref=100; accept AS8966
+import:         from AS9002 action pref=100; accept AS-RETN
+import:         from AS9009 action pref=100; accept AS9009
+import:         from AS9044 action pref=100; accept AS-SOLNET
+import:         from AS9193 action pref=100; accept AS-CONXIONEU
+import:         from AS9246 action pref=100; accept AS-GTA
+import:         from AS9269 action pref=100; accept AS9269
+import:         from AS9293 action pref=100; accept AS9293
+import:         from AS9351 action pref=100; accept AS9351
+import:         from AS9365 action pref=100; accept AS9365
+import:         from AS9498 action pref=100; accept AS9498
+import:         from AS9505 action pref=100; accept AS9505
+import:         from AS9593 action pref=100; accept AS9593
+import:         from AS9595 action pref=100; accept AS-XEPHION
+import:         from AS9605 action pref=100; accept AS9605
+import:         from AS9615 action pref=100; accept AS9615
+import:         from AS9957 action pref=100; accept AS9957
+import:         from AS9989 action pref=100; accept AS-EQUINIX
+import:         from AS9993 action pref=100; accept AS9993
+import:         from AS9997 action pref=100; accept AS9997
+import:         from AS10010 action pref=100; accept AS10010
+import:         from AS10026 action pref=100; accept AS10026
+import:         from AS10099 action pref=100; accept AS10099
+import:         from AS10133 action pref=100; accept AS10133
+import:         from AS10310 action pref=100; accept AS10310
+import:         from AS10848 action pref=100; accept AS10848
+import:         from AS11164 action pref=100; accept AS-TR
+import:         from AS11383 action pref=100; accept AS11383
+import:         from AS11403 action pref=100; accept AS-IHNET
+import:         from AS12124 action pref=100; accept AS12124
+import:         from AS12200 action pref=100; accept AS12200
+import:         from AS12322 action pref=100; accept AS-PROXAD
+import:         from AS12389 action pref=100; accept AS12389
+import:         from AS12390 action pref=100; accept AS-KINGSTONUK
+import:         from AS12414 action pref=100; accept AS12414
+import:         from AS12496 action pref=100; accept AS-IDNETUK
+import:         from AS12611 action pref=100; accept AS-RKOM
+import:         from AS12871 action pref=100; accept AS12871
+import:         from AS12876 action pref=100; accept AS12876
+import:         from AS12902 action pref=100; accept AS-LUNA
+import:         from AS12989 action pref=100; accept AS-EWEKA
+import:         from AS13030 action pref=100; accept AS-INIT7
+import:         from AS13037 action pref=100; accept AS-ZEN
+import:         from AS13101 action pref=100; accept AS-TNG
+import:         from AS13122 action pref=100; accept AS-MANX
+import:         from AS13184 action pref=100; accept AS-MACRO
+import:         from AS13213 action pref=100; accept AS13213
+import:         from AS13237 action pref=100; accept AS-LAMBDANET
+import:         from AS13285 action pref=100; accept AS13285
+import:         from AS13335 action pref=100; accept AS13335
+import:         from AS13414 action pref=100; accept AS13414
+import:         from AS13768 action pref=100; accept AS-PEERONECUST
+import:         from AS14061 action pref=100; accept AS14061
+import:         from AS14361 action pref=100; accept AS14361
+import:         from AS14492 action pref=100; accept AS-DATAPIPE
+import:         from AS15133 action pref=100; accept AS15133
+import:         from AS15169 action pref=100; accept AS-Google
+import:         from AS15412 action pref=100; accept AS-FLAGP
+import:         from AS15426 action pref=100; accept AS-XENOSITE
+import:         from AS15435 action pref=100; accept AS-KABELFOON
+import:         from AS15436 action pref=100; accept AS-WITBE
+import:         from AS15557 action pref=100; accept AS15557
+import:         from AS15598 action pref=100; accept AS-IPX
+import:         from AS15600 action pref=100; accept AS-LAN
+import:         from AS15670 action pref=100; accept AS-BBNED-AMSIX1
+import:         from AS15703 action pref=100; accept AS-TURE
+import:         from AS15830 action pref=100; accept AS15830
+import:         from AS15879 action pref=100; accept AS-IONIP
+import:         from AS16097 action pref=100; accept AS-HLKOMM
+import:         from AS16265 action pref=100; accept AS-LEASEWEB
+import:         from AS16276 action pref=100; accept AS-OVH
+import:         from AS16353 action pref=100; accept AS-MERULA
+import:         from AS16509 action pref=100; accept AS32934
+import:         from AS16559 action pref=100; accept AS16559
+import:         from AS17511 action pref=100; accept AS-EO
+import:         from AS17534 action pref=100; accept AS17534
+import:         from AS17676 action pref=100; accept AS-GIGAINFRA
+import:         from AS17685 action pref=100; accept AS17685
+import:         from AS17941 action pref=100; accept AS17941
+import:         from AS18101 action pref=100; accept AS18101
+import:         from AS18106 action pref=100; accept AS-VIEWQWEST
+import:         from AS18260 action pref=100; accept AS18260
+import:         from AS18282 action pref=100; accept AS18282
+import:         from AS19151 action pref=100; accept AS-BBOI
+import:         from AS20473 action pref=100; accept AS20473
+import:         from AS20485 action pref=100; accept AS20485
+import:         from AS20495 action pref=100; accept AS20495
+import:         from AS20500 action pref=100; accept AS-TELECOMPLETE
+import:         from AS20562 action pref=100; accept AS-OPENPEERING
+import:         from AS20676 action pref=100; accept AS-QSC
+import:         from AS20773 action pref=100; accept AS20773
+import:         from AS20847 action pref=100; accept AS-INTROWEB
+import:         from AS20932 action pref=100; accept AS-IP-MAN
+import:         from AS20940 action pref=100; accept AS20940
+import:         from AS20953 action pref=100; accept AS-INFO
+import:         from AS21099 action pref=100; accept AS-BARRYSWORLD-LINX
+import:         from AS21221 action pref=100; accept AS21221
+import:         from AS21371 action pref=100; accept AS-IXEUROPE
+import:         from AS21385 action pref=100; accept AS-TNIB
+import:         from AS21392 action pref=100; accept AS-MUNTINTERNET
+import:         from AS21409 action pref=100; accept AS-IKOULA
+import:         from AS22691 action pref=100; accept AS22691
+import:         from AS22773 action pref=100; accept AS22773
+import:         from AS22822 action pref=100; accept AS22822
+import:         from AS23393 action pref=100; accept AS-ISPRIME
+import:         from AS23779 action pref=100; accept AS23779
+import:         from AS23816 action pref=100; accept AS23816
+import:         from AS24115 action pref=100; accept AS24115
+import:         from AS24249 action pref=100; accept AS24249
+import:         from AS24851 action pref=100; accept AS-NETCETERA
+import:         from AS24875 action pref=100; accept AS-ISPSERVICES
+import:         from AS24940 action pref=100; accept AS24940
+import:         from AS24963 action pref=100; accept AS-YACAST
+import:         from AS25074 action pref=100; accept AS-INETBONE
+import:         from AS25180 action pref=100; accept AS25180
+import:         from AS25560 action pref=100; accept AS-RHTEC
+import:         from AS27257 action pref=100; accept AS27257
+import:         from AS28788 action pref=100; accept AS28788
+import:         from AS29686 action pref=100; accept AS-PROBENETWORKS
+import:         from AS29748 action pref=100; accept AS-CARPATHIA
+import:         from AS29838 action pref=100; accept AS29838
+import:         from AS31216 action pref=100; accept AS-BSOCOM
+import:         from AS32590 action pref=100; accept AS32590
+import:         from AS32787 action pref=100; accept AS-PROLE
+import:         from AS32934 action pref=100; accept AS34934
+import:         from AS33597 action pref=100; accept AS33597
+import:         from AS33873 action pref=100; accept AS-ARVATO-V6
+import:         from AS33891 action pref=100; accept AS-CORE-BACKBONE
+import:         from AS34305 action pref=100; accept AS-EUROACCESS
+import:         from AS34968 action pref=100; accept AS-IUNXI
+import:         from AS36351 action pref=100; accept AS-SOFTLAYER
+import:         from AS36408 action pref=100; accept AS-CDNETWORKS
+import:         from AS38621 action pref=100; accept AS38621
+import:         from AS38895 action pref=100; accept AS-AMAZON
+import:         from AS39386 action pref=100; accept AS-IGW-SET
+import:         from AS39743 action pref=100; accept AS-VOXILITY-SET
+import:         from AS39832 action pref=100; accept AS-OPERA
+import:         from AS40428 action pref=100; accept AS40428
+import:         from AS40528 action pref=100; accept AS40528
+import:         from AS41095 action pref=100; accept AS-IPTP
+import:         from AS41690 action pref=100; accept AS-DAILYMOTION
+import:         from AS41913 action pref=100; accept AS-COMPUTERLINE
+import:         from AS43350 action pref=100; accept AS-NFORCE
+import:         from AS46489 action pref=100; accept AS46489
+import:         from AS46786 action pref=100; accept AS-IPTRANSIT
+import:         from AS47764 action pref=100; accept AS47764
+import:         from AS49544 action pref=100; accept AS-INTERACTIVE3D
+import:         from AS49572 action pref=100; accept AS-ICLNET
+import:         from AS49685 action pref=100; accept AS-ITIS
+import:         from AS54994 action pref=100; accept AS54994
+import:         from AS55967 action pref=100; accept AS55967
+import:         from AS58453 action pref=100; accept AS58453
+import:         from AS62567 action pref=100; accept AS62567
+import:         from AS65517 action pref=100; accept AS65517
+import:         from AS133165 action pref=100; accept AS133165
+import:         from AS201229 action pref=100; accept AS201229
+import:         from AS202018 action pref=100; accept AS202018
+import:         from AS202109 action pref=100; accept AS202019
+import:         from AS205988 action pref=100; accept AS205988
+export:         to AS42 announce AS-FLAGP
+export:         to AS195 announce AS-FLAGP
+export:         to AS209 announce AS-FLAGP
+export:         to AS226 announce AS-FLAGP
+export:         to AS286 announce AS-FLAGP
+export:         to AS513 announce AS-FLAGP
+export:         to AS703 announce AS-FLAGP
+export:         to AS714 announce AS-FLAGP
+export:         to AS786 announce AS-FLAGP
+export:         to AS1103 announce AS-FLAGP
+export:         to AS1200 announce AS-FLAGP
+export:         to AS1257 announce AS-FLAGP
+export:         to AS1273 announce AS-FLAGP
+export:         to AS1280 announce AS-FLAGP
+export:         to AS1290 announce AS-FLAGP
+export:         to AS1299 announce AS-FLAGT
+export:         to AS2110 announce AS-FLAGP
+export:         to AS2119 announce AS-FLAGP
+export:         to AS2152 announce AS-FLAGP
+export:         to AS2483 announce AS-FLAGP
+export:         to AS2497 announce AS-FLAGP
+export:         to AS2516 announce AS-FLAGP
+export:         to AS2518 announce AS-FLAGP
+export:         to AS2519 announce AS-FLAGP
+export:         to AS2603 announce AS-FLAGP
+export:         to AS2611 announce AS-FLAGP
+export:         to AS2635 announce AS-FLAGP
+export:         to AS2647 announce AS-FLAGP
+export:         to AS2686 announce AS-FLAGP
+export:         to AS2687 announce AS-FLAGP
+export:         to AS2818 announce AS-FLAGP
+export:         to AS2856 announce AS-FLAGP
+export:         to AS2906 announce AS-FLAGP
+export:         to AS2907 announce AS-FLAGP
+export:         to AS2914 announce AS-FLAGT
+export:         to AS3209 announce AS-FLAGP
+export:         to AS3216 announce AS-FLAGP
+export:         to AS3223 announce AS-FLAGP
+export:         to AS3257 announce AS-FLAGT
+export:         to AS3265 announce AS-FLAGP
+export:         to AS3292 announce AS-FLAGP
+export:         to AS3303 announce AS-FLAGP
+export:         to AS3320 announce AS-FLAGP
+export:         to AS3356 announce AS-FLAGT
+export:         to AS3462 announce AS-FLAGP
+export:         to AS3491 announce AS-FLAGP
+export:         to AS3549 announce AS-FLAGP
+export:         to AS3642 announce AS-FLAGP
+export:         to AS3741 announce AS-FLAGP
+export:         to AS3786 announce AS-FLAGP
+export:         to AS3856 announce AS-FLAGP
+export:         to AS4004 announce AS-FLAGP
+export:         to AS4181 announce AS-FLAGP
+export:         to AS4323 announce AS-FLAGP
+export:         to AS4436 announce AS-FLAGP
+export:         to AS4538 announce AS-FLAGP
+export:         to AS4589 announce AS-FLAGP
+export:         to AS4635 announce AS-FLAGP
+export:         to AS4637 announce AS-FLAGP
+export:         to AS4657 announce AS-FLAGP
+export:         to AS4675 announce AS-FLAGP
+export:         to AS4680 announce AS-FLAGP
+export:         to AS4685 announce AS-FLAGP
+export:         to AS4693 announce AS-FLAGP
+export:         to AS4694 announce AS-FLAGP
+export:         to AS4739 announce AS-FLAGP
+export:         to AS4788 announce AS-FLAGP
+export:         to AS4837 announce AS-FLAGT
+export:         to AS5089 announce AS-FLAGP
+export:         to AS5390 announce AS-FLAGP
+export:         to AS5400 announce AS-FLAGP
+export:         to AS5413 announce AS-FLAGP
+export:         to AS5459 announce AS-FLAGP
+export:         to AS5466 announce AS-FLAGP
+export:         to AS5503 announce AS-FLAGP
+export:         to AS5580 announce AS-FLAGP
+export:         to AS5583 announce AS-FLAGP
+export:         to AS5588 announce AS-FLAGP
+export:         to AS5631 announce AS-FLAGP
+export:         to AS6079 announce AS-FLAGP
+export:         to AS6130 announce AS-FLAGP
+export:         to AS6327 announce AS-FLAGP
+export:         to AS6407 announce AS-FLAGP
+export:         to AS6453 announce AS-FLAGP
+export:         to AS6461 announce AS-FLAGP
+export:         to AS6661 announce AS-FLAGP
+export:         to AS6667 announce AS-FLAGP
+export:         to AS6730 announce AS-FLAGP
+export:         to AS6762 announce AS-FLAGT
+export:         to AS6774 announce AS-FLAGP
+export:         to AS6805 announce AS-FLAGP
+export:         to AS6830 announce AS-FLAGP
+export:         to AS6908 announce AS-FLAGP
+export:         to AS6939 announce AS-FLAGP
+export:         to AS7029 announce AS-FLAGP
+export:         to AS7270 announce AS-FLAGP
+export:         to AS7342 announce AS-FLAGP
+export:         to AS7385 announce AS-FLAGP
+export:         to AS7473 announce AS-FLAGP
+export:         to AS7506 announce AS-FLAGP
+export:         to AS7521 announce AS-FLAGP
+export:         to AS7522 announce AS-FLAGP
+export:         to AS7527 announce AS-FLAGP
+export:         to AS7575 announce AS-FLAGP
+export:         to AS8002 announce AS-FLAGP
+export:         to AS8075 announce AS-FLAGP
+export:         to AS8121 announce AS-FLAGP
+export:         to AS8190 announce AS-FLAGP
+export:         to AS8218 announce AS-FLAGP
+export:         to AS8220 announce AS-FLAGP
+export:         to AS8308 announce AS-FLAGP
+export:         to AS8319 announce AS-FLAGP
+export:         to AS8359 announce AS-FLAGP
+export:         to AS8365 announce AS-FLAGP
+export:         to AS8422 announce AS-FLAGP
+export:         to AS8426 announce AS-FLAGP
+export:         to AS8468 announce AS-FLAGP
+export:         to AS8551 announce AS-FLAGP
+export:         to AS8553 announce AS-FLAGP
+export:         to AS8560 announce AS-FLAGP
+export:         to AS8648 announce AS-FLAGP
+export:         to AS8657 announce AS-FLAGP
+export:         to AS8674 announce AS-FLAGP
+export:         to AS8708 announce AS-FLAGP
+export:         to AS8714 announce AS-FLAGP
+export:         to AS8851 announce AS-FLAGP
+export:         to AS8897 announce AS-FLAGP
+export:         to AS8918 announce AS-FLAGP
+export:         to AS8928 announce AS-FLAGP
+export:         to AS8966 announce AS-FLAGP
+export:         to AS9002 announce AS-FLAGP
+export:         to AS9009 announce AS-FLAGP
+export:         to AS9044 announce AS-FLAGP
+export:         to AS9193 announce AS-FLAGP
+export:         to AS9246 announce AS-FLAGP
+export:         to AS9269 announce AS-FLAGP
+export:         to AS9293 announce AS-FLAGP
+export:         to AS9351 announce AS-FLAGP
+export:         to AS9365 announce AS-FLAGP
+export:         to AS9498 announce AS-FLAGP
+export:         to AS9505 announce AS-FLAGP
+export:         to AS9593 announce AS-FLAGP
+export:         to AS9595 announce AS-FLAGP
+export:         to AS9605 announce AS-FLAGP
+export:         to AS9615 announce AS-FLAGP
+export:         to AS9957 announce AS-FLAGP
+export:         to AS9989 announce AS-FLAGP
+export:         to AS9993 announce AS-FLAGP
+export:         to AS9997 announce AS-FLAGP
+export:         to AS10010 announce AS-FLAGP
+export:         to AS10026 announce AS-FLAGP
+export:         to AS10099 announce AS-FLAGP
+export:         to AS10133 announce AS-FLAGP
+export:         to AS10310 announce AS-FLAGP
+export:         to AS10848 announce AS-FLAGP
+export:         to AS11164 announce AS-FLAGP
+export:         to AS11383 announce AS-FLAGP
+export:         to AS11403 announce AS-FLAGP
+export:         to AS12124 announce AS-FLAGP
+export:         to AS12200 announce AS-FLAGP
+export:         to AS12322 announce AS-FLAGP
+export:         to AS12389 announce AS-FLAGP
+export:         to AS12390 announce AS-FLAGP
+export:         to AS12414 announce AS-FLAGP
+export:         to AS12496 announce AS-FLAGP
+export:         to AS12611 announce AS-FLAGP
+export:         to AS12871 announce AS-FLAGP
+export:         to AS12876 announce AS-FLAGP
+export:         to AS12902 announce AS-FLAGP
+export:         to AS12989 announce AS-FLAGP
+export:         to AS13030 announce AS-FLAGP
+export:         to AS13037 announce AS-FLAGP
+export:         to AS13101 announce AS-FLAGP
+export:         to AS13122 announce AS-FLAGP
+export:         to AS13184 announce AS-FLAGP
+export:         to AS13213 announce AS-FLAGP
+export:         to AS13237 announce AS-FLAGP
+export:         to AS13285 announce AS-FLAGP
+export:         to AS13335 announce AS-FLAGP
+export:         to AS13414 announce AS-FLAGP
+export:         to AS13768 announce AS-FLAGP
+export:         to AS14061 announce AS-FLAGP
+export:         to AS14361 announce AS-FLAGP
+export:         to AS14492 announce AS-FLAGP
+export:         to AS15133 announce AS-FLAGP
+export:         to AS15169 announce AS-FLAGP
+export:         to AS15412 announce AS-FLAGP
+export:         to AS15426 announce AS-FLAGP
+export:         to AS15435 announce AS-FLAGP
+export:         to AS15436 announce AS-FLAGP
+export:         to AS15557 announce AS-FLAGP
+export:         to AS15598 announce AS-FLAGP
+export:         to AS15600 announce AS-FLAGP
+export:         to AS15670 announce AS-FLAGP
+export:         to AS15703 announce AS-FLAGP
+export:         to AS15830 announce AS-FLAGP
+export:         to AS15879 announce AS-FLAGP
+export:         to AS16097 announce AS-FLAGP
+export:         to AS16265 announce AS-FLAGP
+export:         to AS16276 announce AS-FLAGP
+export:         to AS16353 announce AS-FLAGP
+export:         to AS16509 announce AS-FLAGP
+export:         to AS16559 announce AS-FLAGP
+export:         to AS17511 announce AS-FLAGP
+export:         to AS17534 announce AS-FLAGP
+export:         to AS17676 announce AS-FLAGP
+export:         to AS17685 announce AS-FLAGP
+export:         to AS17941 announce AS-FLAGP
+export:         to AS18101 announce AS-FLAGT
+export:         to AS18106 announce AS-FLAGP
+export:         to AS18260 announce AS-FLAGP
+export:         to AS18282 announce AS-FLAGP
+export:         to AS19151 announce AS-FLAGP
+export:         to AS20473 announce AS-FLAGP
+export:         to AS20485 announce AS-FLAGP
+export:         to AS20495 announce AS-FLAGP
+export:         to AS20500 announce AS-FLAGP
+export:         to AS20562 announce AS-FLAGP
+export:         to AS20676 announce AS-FLAGP
+export:         to AS20773 announce AS-FLAGP
+export:         to AS20847 announce AS-FLAGP
+export:         to AS20932 announce AS-FLAGP
+export:         to AS20940 announce AS-FLAGP
+export:         to AS20953 announce AS-FLAGP
+export:         to AS21099 announce AS-FLAGP
+export:         to AS21221 announce AS-FLAGP
+export:         to AS21371 announce AS-FLAGP
+export:         to AS21385 announce AS-FLAGP
+export:         to AS21392 announce AS-FLAGP
+export:         to AS21409 announce AS-FLAGP
+export:         to AS22691 announce AS-FLAGP
+export:         to AS22773 announce AS-FLAGP
+export:         to AS22822 announce AS-FLAGP
+export:         to AS23393 announce AS-FLAGP
+export:         to AS23779 announce AS-FLAGP
+export:         to AS23816 announce AS-FLAGP
+export:         to AS24115 announce AS-FLAGP
+export:         to AS24249 announce AS-FLAGP
+export:         to AS24851 announce AS-FLAGP
+export:         to AS24875 announce AS-FLAGP
+export:         to AS24940 announce AS-FLAGP
+export:         to AS24963 announce AS-FLAGP
+export:         to AS25074 announce AS-FLAGP
+export:         to AS25180 announce AS-FLAGP
+export:         to AS25560 announce AS-FLAGP
+export:         to AS27257 announce AS-FLAGP
+export:         to AS28788 announce AS-FLAGP
+export:         to AS29686 announce AS-FLAGP
+export:         to AS29748 announce AS-FLAGP
+export:         to AS29838 announce AS-FLAGP
+export:         to AS31216 announce AS-FLAGP
+export:         to AS32590 announce AS-FLAGP
+export:         to AS32787 announce AS-FLAGP
+export:         to AS32934 announce AS-FLAGP
+export:         to AS33597 announce AS-FLAGP
+export:         to AS33873 announce AS-FLAGP
+export:         to AS33891 announce AS-FLAGP
+export:         to AS34305 announce AS-FLAGP
+export:         to AS34968 announce AS-FLAGP
+export:         to AS36351 announce AS-FLAGP
+export:         to AS36408 announce AS-FLAGP
+export:         to AS38621 announce AS-FLAGP
+export:         to AS38895 announce AS-FLAGP
+export:         to AS39386 announce AS-FLAGP
+export:         to AS39743 announce AS-FLAGP
+export:         to AS39832 announce AS-FLAGP
+export:         to AS40428 announce AS-FLAGP
+export:         to AS40528 announce AS-FLAGP
+export:         to AS41095 announce AS-FLAGP
+export:         to AS41690 announce AS-FLAGP
+export:         to AS41913 announce AS-FLAGP
+export:         to AS43350 announce AS-FLAGP
+export:         to AS46489 announce AS-FLAGP
+export:         to AS46786 announce AS-FLAGP
+export:         to AS47764 announce AS-FLAGP
+export:         to AS49544 announce AS-FLAGP
+export:         to AS49572 announce AS-FLAGP
+export:         to AS49685 announce AS-FLAGP
+export:         to AS54994 announce AS-FLAGP
+export:         to AS55967 announce AS-FLAGP
+export:         to AS58453 announce AS-FLAGP
+export:         to AS62567 announce AS-FLAGP
+export:         to AS65517 announce AS-FLAGP
+export:         to AS133165 announce AS-FLAGP
+export:         to AS201229 announce AS-FLAGP
+export:         to AS202018 announce AS-FLAGP
+export:         to AS202109 announce AS-FLAGP
+export:         to AS205988 announce AS-FLAGP
+import:         from AS260 action pref=250; accept AS-XCONNECT24
+import:         from AS3087 action pref=250; accept AS3087
+import:         from AS3225 action pref=250; accept AS3225
+import:         from AS4704 action pref=250; accept AS4704
+import:         from AS4775 action pref=250; accept AS4775
+import:         from AS4780 action pref=250; accept AS-SEEDNET
+import:         from AS4804 action pref=250; accept AS4804
+import:         from AS4826 action pref=250; accept AS-VOCUS
+import:         from AS5416 action pref=250; accept AS-BATELCO-BH
+import:         from AS6412 action pref=250; accept AS-GNET-KW
+import:         from AS6517 action pref=250; accept AS-YIPES
+import:         from AS7568 action pref=250; accept AS-CSLOXINFO-TRANSIT
+import:         from AS8452 action pref=250; accept AS-TEDATA
+import:         from AS8529 action pref=250; accept AS-Omantel
+import:         from AS8697 action pref=250; accept AS-JTG
+import:         from AS8781 action pref=250; accept AS8781
+import:         from AS8888 action pref=250; accept AS8888
+import:         from AS9155 action pref=250; accept AS-QNET
+import:         from AS9299 action pref=250; accept AS-PLDT
+import:         from AS9304 action pref=250; accept AS-HUTCHCITY
+import:         from AS9318 action pref=250; accept AS-HANARO
+import:         from AS9381 action pref=250; accept AS-9381
+import:         from AS9848 action pref=250; accept AS-GNG
+import:         from AS9924 action pref=250; accept AS9924
+import:         from AS9957 action pref=250; accept AS-KINX-TRANSIT
+import:         from AS10098 action pref=250; accept AS10098
+import:         from AS10107 action pref=250; accept AS10107
+import:         from AS10133 action pref=250; accept AS10133
+import:         from AS10158 action pref=250; accept AS-KAKAO
+import:         from AS12486 action pref=250; accept AS12486
+import:         from AS12880 action pref=250; accept AS-TICIR
+import:         from AS15802 action pref=250; accept AS-EITC-DU
+import:         from AS15805 action pref=250; accept AS15805
+import:         from AS17685 action pref=250; accept AS-PLAYONLINE
+import:         from AS17709 action pref=250; accept AS-EBT
+import:         from AS17803 action pref=250; accept AS17803
+import:         from AS18097 action pref=250; accept AS18097
+import:         from AS18101 action pref=250; accept AS-RELIANCE
+import:         from AS19809 action pref=250; accept AS-VIRTELA-COMM
+import:         from AS23576 action pref=250; accept AS23576
+import:         from AS23749 action pref=250; accept AS-HKCOLO
+import:         from AS23930 action pref=250; accept AS23930
+import:         from AS23944 action pref=250; accept AS23944
+import:         from AS24016 action pref=250; accept AS24016:AS-ALL
+import:         from AS24157 action pref=250; accept AS24157
+import:         from AS24246 action pref=250; accept AS-PNAPHKG001
+import:         from AS24247 action pref=250; accept AS-PNAPSIN001
+import:         from AS24331 action pref=250; accept AS24331
+import:         from AS24627 action pref=250; accept AS24627
+import:         from AS24835 action pref=250; accept AS-RAYA
+import:         from AS26496 action pref=250; accept AS26496
+import:         from AS27285 action pref=250; accept AS27285
+import:         from AS29357 action pref=250; accept AS-OOREDOOKW
+import:         from AS29384 action pref=250; accept AS29384
+import:         from AS29664 action pref=250; accept AS29664
+import:         from AS30873 action pref=250; accept AS30873
+import:         from AS33788 action pref=250; accept AS-CANAR-TRANSIT
+import:         from AS35019 action pref=250; accept AS-35019
+import:         from AS35568 action pref=250; accept AS-35568
+import:         from AS35753 action pref=250; accept AS-ITC
+import:         from AS35819 action pref=250; accept AS35819
+import:         from AS35946 action pref=250; accept AS35946
+import:         from AS36131 action pref=250; accept AS36131
+import:         from AS37281 action pref=250; accept AS37281
+import:         from AS37906 action pref=250; accept AS-NETIRD-BACKUP
+import:         from AS38001 action pref=250; accept AS-NEWMEDIAEXPRESS
+import:         from AS38193 action pref=250; accept AS38193:AS-PEERS
+import:         from AS38565 action pref=250; accept AS38565
+import:         from AS38688 action pref=250; accept AS38688
+import:         from AS39273 action pref=250; accept AS39273
+import:         from AS41264 action pref=250; accept AS41264
+import:         from AS41690 action pref=250; accept AS-DAILYMOTION
+import:         from AS42781 action pref=250; accept AS-ZAJIL-KW
+import:         from AS45224 action pref=250; accept AS-LBNET
+import:         from AS45474 action pref=250; accept AS45474:AS-NEXUSGUARD
+import:         from AS45499 action pref=250; accept AS45499
+import:         from AS45572 action pref=250; accept AS-45572
+import:         from AS45629 action pref=250; accept AS45629
+import:         from AS45630 action pref=250; accept AS-FIBRECOMM-MY-IPT
+import:         from AS45899 action pref=250; accept AS45899
+import:         from AS45903 action pref=250; accept AS45903
+import:         from AS47254 action pref=250; accept AS-UDN
+import:         from AS48159 action pref=250; accept AS-TICIR
+import:         from AS48237 action pref=250; accept AS-MOBILY
+import:         from AS50710 action pref=250; accept AS-50710
+import:         from AS55355 action pref=250; accept AS55355
+import:         from AS55644 action pref=250; accept AS-IDEA
+import:         from AS55944 action pref=250; accept AS55944
+import:         from AS59268 action pref=250; accept AS59268
+import:         from AS59325 action pref=250; accept AS59325
+import:         from AS59605 action pref=250; accept AS-ZAINGP
+import:         from AS60045 action pref=250; accept AS-SET-KUBENET
+import:         from AS60051 action pref=250; accept AS-SCIS
+import:         from AS60924 action pref=250; accept AS-ORIXCOM
+import:         from AS63949 action pref=250; accept AS-LINODE
+import:         from AS63959 action pref=250; accept AS63959
+import:         from AS132388 action pref=250; accept AS132388
+import:         from AS132454 action pref=250; accept AS132454:AS-PTT
+import:         from AS132827 action pref=250; accept AS132827
+import:         from AS133334 action pref=250; accept AS133334
+import:         from AS133476 action pref=250; accept AS133476
+import:         from AS135607 action pref=250; accept AS135607
+import:         from AS136743 action pref=250; accept AS136743
+import:         from AS200700 action pref=250; accept AS200700
+import:         from AS202964 action pref=250; accept AS202964
+export:         to AS260 announce ANY
+export:         to AS3087 announce ANY
+export:         to AS3225 announce ANY
+export:         to AS4704 announce ANY
+export:         to AS4775 announce ANY
+export:         to AS4780 announce ANY
+export:         to AS4804 announce ANY
+export:         to AS4826 announce ANY
+export:         to AS5416 announce ANY
+export:         to AS6412 announce ANY
+export:         to AS6517 announce ANY
+export:         to AS7568 announce ANY
+export:         to AS8452 announce {0.0.0.0/0}
+export:         to AS8529 announce ANY
+export:         to AS8697 announce ANY
+export:         to AS8781 announce ANY
+export:         to AS8888 announce ANY
+export:         to AS9155 announce ANY
+export:         to AS9299 announce ANY
+export:         to AS9304 announce ANY
+export:         to AS9318 announce ANY
+export:         to AS9381 announce ANY
+export:         to AS9848 announce ANY
+export:         to AS9924 announce ANY
+export:         to AS9957 announce ANY
+export:         to AS10098 announce ANY
+export:         to AS10107 announce ANY
+export:         to AS10133 announce ANY
+export:         to AS10158 announce ANY
+export:         to AS12486 announce ANY
+export:         to AS12880 announce {0.0.0.0/0}
+export:         to AS15802 announce ANY
+export:         to AS15805 announce ANY
+export:         to AS17685 announce ANY
+export:         to AS17709 announce ANY
+export:         to AS17803 announce ANY
+export:         to AS18097 announce ANY
+export:         to AS18101 announce ANY
+export:         to AS19809 announce ANY
+export:         to AS23576 announce ANY
+export:         to AS23749 announce ANY
+export:         to AS23930 announce ANY
+export:         to AS23944 announce ANY
+export:         to AS24016 announce ANY
+export:         to AS24157 announce ANY
+export:         to AS24246 announce ANY
+export:         to AS24247 announce ANY
+export:         to AS24331 announce ANY
+export:         to AS24627 announce {0.0.0.0/0}
+export:         to AS24835 announce {0.0.0.0/0}
+export:         to AS26496 announce ANY
+export:         to AS27285 announce ANY
+export:         to AS29357 announce ANY
+export:         to AS29384 announce {0.0.0.0/0}
+export:         to AS29664 announce {0.0.0.0/0}
+export:         to AS30873 announce ANY
+export:         to AS33788 announce ANY
+export:         to AS35019 announce ANY
+export:         to AS35568 announce {0.0.0.0/0}
+export:         to AS35753 announce ANY
+export:         to AS35819 announce ANY
+export:         to AS35946 announce {0.0.0.0/0}
+export:         to AS36131 announce ANY
+export:         to AS37281 announce {0.0.0.0/0}
+export:         to AS37906 announce ANY
+export:         to AS38001 announce ANY
+export:         to AS38193 announce ANY
+export:         to AS38565 announce ANY
+export:         to AS38688 announce {0.0.0.0/0}
+export:         to AS39273 announce {0.0.0.0/0}
+export:         to AS41264 announce {0.0.0.0/0}
+export:         to AS41690 announce ANY
+export:         to AS42781 announce ANY
+export:         to AS45224 announce ANY
+export:         to AS45474 announce ANY
+export:         to AS45499 announce {0.0.0.0/0}
+export:         to AS45572 announce ANY
+export:         to AS45629 announce ANY
+export:         to AS45630 announce ANY
+export:         to AS45899 announce ANY
+export:         to AS45903 announce ANY
+export:         to AS47254 announce ANY
+export:         to AS48159 announce {0.0.0.0/0}
+export:         to AS48237 announce ANY
+export:         to AS50710 announce ANY
+export:         to AS55355 announce ANY
+export:         to AS55644 announce ANY
+export:         to AS55944 announce ANY
+export:         to AS59268 announce ANY
+export:         to AS59325 announce ANY
+export:         to AS59605 announce ANY
+export:         to AS60045 announce {0.0.0.0/0}
+export:         to AS60051 announce ANY
+export:         to AS60924 announce ANY
+export:         to AS63949 announce ANY
+export:         to AS63959 announce {0.0.0.0/0}
+export:         to AS132388 announce {0.0.0.0/0}
+export:         to AS132454 announce ANY
+export:         to AS132827 announce ANY
+export:         to AS133334 announce ANY
+export:         to AS133476 announce ANY
+export:         to AS135607 announce ANY
+export:         to AS136743 announce ANY
+export:         to AS200700 announce ANY
+export:         to AS202964 announce ANY
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:        =======================================================
+remarks:        The following BGP policy is common to all Flag customers:
+remarks:
+remarks:        Prefixes longer than a /24 are not accepted
+remarks:
+remarks:        Prefixes not matching the specified customer import policy are
+remarks:        rejected.  We accept Route Objects from any Registry mirrored
+remarks:        by RADB.
+remarks:
+remarks:        By default we advertise MED == igp metric
+remarks:
+remarks:        RFC1918 and other reserved networks and subnets are not
+remarks:        permitted
+remarks:
+remarks:        The following BGP policy is common to all Flag peers:
+remarks:
+remarks:        Prefixes longer than a /24 are not accepted
+remarks:
+remarks:        A max prefix threshold based upon the number of prefixes
+remarks:        received, with a percentage headroom, is applied and updated
+remarks:        daily. Sessions dropped for this reason are re-checked every
+remarks:        two hours.
+remarks:
+remarks:        MEDs are overwritten unless a special arrangement has been made
+remarks:
+remarks:        =======================================================
+remarks:        Communities Supported
+remarks:        =======================================================
+remarks:        Communities applied at ingress
+remarks:        =======================================================
+remarks:        15412:1xxx PoP
+remarks:        15412:1101 New York
+remarks:        15412:1201 Los Angeles
+remarks:        15412:1202 Palo Alto
+remarks:        15412:1301 Tokyo
+remarks:        15412:1311 Hong Kong
+remarks:        15412:1316 Singapore
+remarks:        15412:1321 Seoul
+remarks:        15412:1331 Singapore
+remarks:        15412:1341 Taipei
+remarks:        15412:1401 Cairo
+remarks:        15412:1411 Bahrain
+remarks:        15412:1402 Alexandria
+remarks:        15412:1412 Jeddah
+remarks:        15412:1413 Al Khobar
+remarks:        15412:1414 Dubai
+remarks:        15412:1415 Doha
+remarks:        15412:1431 Mumbai
+remarks:        15412:1432 Chennai
+remarks:        15412:1501 London
+remarks:        15412:1511 Paris
+remarks:        15412:1521 Madrid
+remarks:        15412:1531 Frankfurt
+remarks:        15412:1514 Amsterdam
+remarks:        =======================================================
+remarks:        15412:7xx Customer
+remarks:        15412:701 Aggregate
+remarks:        15412:702 Statically Routed
+remarks:        15412:703 BGP Routed
+remarks:        15412:705 BGP Routed (Suppress MED to upstreams)
+remarks:        =======================================================
+remarks:        15412:8xx Peer
+remarks:        15412:800 PRIVATE PEER
+remarks:        15412:801 PAIX
+remarks:        15412:802 NYIIX
+remarks:        15412:803 JPIX
+remarks:        15412:804 KINX
+remarks:        15412:805 HKIX
+remarks:        15412:806 LINX
+remarks:        15412:807 SFINX
+remarks:        15412:808 LAIX
+remarks:        15412:809 AMSIX
+remarks:        15412:810 DECIX
+remarks:        15412:813 JPNAP
+remarks:        15412:814 EQUINIX ASHBURN VA
+remarks:        15412:815 EQUINIX SINGAPORE
+remarks:        15412:816 EQUINIX TOKYO
+remarks:        15412:817 ANY2
+remarks:        15412:820 EQUINIX PARIS
+remarks:        15412:821 EQUINIX HONG KONG
+remarks:        15412:822 EQUINIX CHICAGO
+remarks:        15412:823 UAE-IX
+remarks:        15412:824 AMSIX-HK
+remarks:        15412:825 FRANCE-IX
+remarks:        15412:827 TPIX-TAIWAN
+remarks:        =======================================================
+remarks:        15412:9xx Upstream
+remarks:        15412:903 NTT/VERIO AS2914
+remarks:        15412:910 TELIASONERA AS1299
+remarks:        15412:913 TISPARKLE AS6762
+remarks:        =======================================================
+remarks:        BGP Communities available to customers for traffic engineering
+remarks:        =======================================================
+remarks:        Modify LocalPref
+remarks:
+remarks:        15412:80  = 80
+remarks:        15412:200 = 200 (e.g. backup link)
+remarks:        15412:300 = 300
+remarks:        Default (Customer/Transit/Peer) = 250/100/100
+remarks:        =======================================================
+remarks:        Suppression/Prepend
+remarks:        =======================================================
+remarks:        15412:4100 Do not announce to any upstream
+remarks:        =======================================================
+remarks:        15412:4130 Do not announce to NTT/Verio AS2914
+remarks:        15412:4131 Prepend 15412 to NTT/Verio AS2914
+remarks:        15412:4132 Prepend 15412 15412 to NTT/Verio AS2914
+remarks:        =======================================================
+remarks:        15412:4160 Do not announce to TELIASONERA AS1299
+remarks:        15412:4161 Prepend 15412 to TELIASONERA AS1299
+remarks:        15412:4162 Prepend 15412 15412 to TELIASONERA AS1299
+remarks:        =======================================================
+remarks:        15412:4190 Do not announce to TISPARKLE AS6762
+remarks:        15412:4191 Prepend 15412 to TISPARKLE AS6762
+remarks:        15412:4192 Prepend 15412 15412 to TISPARKLE AS6762
+remarks:        =======================================================
+remarks:        15412:4500 Do not announce to FLAG peers
+remarks:        =======================================================
+remarks:        15412:4510 Do not announce to PAIX Peers
+remarks:        15412:4511 Prepend 15412 to PAIX Peers
+remarks:        15412:4512 Prepend 15412 15412 to PAIX Peers
+remarks:        =======================================================
+remarks:        15412:4520 Do not announce to NYIIX Peers
+remarks:        15412:4521 Prepend 15412 to NYIIX Peers
+remarks:        15412:4522 Prepend 15412 15412 to NYIIX Peers
+remarks:        =======================================================
+remarks:        15412:4530 Do not announce to JPIX Peers
+remarks:        15412:4531 Prepend 15412 to JPIX Peers
+remarks:        15412:4532 Prepend 15412 15412 to JPIX Peers
+remarks:        =======================================================
+remarks:        15412:4540 Do not announce to KINX Peers
+remarks:        15412:4541 Prepend 15412 to KINX Peers
+remarks:        15412:4542 Prepend 15412 15412 to KINX Peers
+remarks:        =======================================================
+remarks:        15412:4550 Do not announce to HKIX Peers
+remarks:        15412:4551 Prepend 15412 to HKIX Peers
+remarks:        15412:4552 Prepend 15412 15412 to HKIX Peers
+remarks:        =======================================================
+remarks:        15412:4560 Do not announce to LINX Peers
+remarks:        15412:4561 Prepend 15412 to LINX Peers
+remarks:        15412:4562 Prepend 15412 15412 to LINX Peers
+remarks:        =======================================================
+remarks:        15412:4570 Do not announce to SFINX Peers
+remarks:        15412:4571 Prepend 15412 to SFINX Peers
+remarks:        15412:4572 Prepend 15412 15412 to SFINX Peers
+remarks:        =======================================================
+remarks:        15412:4580 Do not announce to LAIX Peers
+remarks:        15412:4581 Prepend 15412 to LAIX Peers
+remarks:        15412:4582 Prepend 15412 15412 to LAIX Peers
+remarks:        =======================================================
+remarks:        15412:4590 Do not announce to DECIX Peers
+remarks:        15412:4591 Prepend 15412 to DECIX Peers
+remarks:        15412:4592 Prepend 15412 15412 to DECIX Peers
+remarks:        =======================================================
+remarks:        15412:4600 Do not announce to AMSIX Peers
+remarks:        15412:4601 Prepend 15412 to AMSIX Peers
+remarks:        15412:4602 Prepend 15412 15412 to AMSIX Peers
+remarks:        =======================================================
+remarks:        15412:4610 Do not announce to EQUINIX ASHBURN peers
+remarks:        15412:4611 Prepend 15412 to EQUINIX ASHBURN peers
+remarks:        15412:4612 Prepend 15412 15412 to EQUINIX ASHBURN peers
+remarks:        =======================================================
+remarks:        15412:4620 Do not announce to JPNAP peers
+remarks:        15412:4621 Prepend 15412 to JPNAP peers
+remarks:        15412:4622 Prepend 15412 15412 to JPNAP peers
+remarks:        =======================================================
+remarks:        15412:4640 Do not announce to EQUINIX SINGAPORE peers
+remarks:        15412:4641 Prepend 15412 to EQUINIX SINGAPORE peers
+remarks:        15412:4642 Prepend 15412 15412 to EQUINIX SINGAPORE peers
+remarks:        =======================================================
+remarks:        15412:4660 Do not announce to EQUINIX TOKYO peers
+remarks:        15412:4661 Prepend 15412 to EQUINIX TOKYO peers
+remarks:        15412:4662 Prepend 15412 15412 to EQUINIX TOKYO peers
+remarks:        =======================================================
+remarks:        15412:4670 Do not announce to ANY2 peers
+remarks:        15412:4671 Prepend 15412 to ANY2 peers
+remarks:        15412:4672 Prepend 15412 15412 to ANY2 peers
+remarks:        =======================================================
+remarks:        15412:4690 Do not announce to EQUINIX CHICAGO peers
+remarks:        15412:4691 Prepend 15412 to EQUINIX CHICAGO peers
+remarks:        15412:4692 Prepend 15412 15412 to EQUINIX CHICAGO peers
+remarks:        =======================================================
+remarks:        15412:4700 Do not announce to EQUINIX PARIS peers
+remarks:        15412:4701 Prepend 15412 to EQUINIX PARIS peers
+remarks:        15412:4702 Prepend 15412 15412 to EQUINIX PARIS peers
+remarks:        =======================================================
+remarks:        15412:4710 Do not announce to EQUINIX HONGKONG peers
+remarks:        15412:4711 Prepend 15412 to EQUINIX HONGKONG peers
+remarks:        15412:4712 Prepend 15412 15412 to EQUINIX HONGKONG peers
+remarks:        =======================================================
+remarks:        15412:4720 Do not announce to UAE-IX peers
+remarks:        15412:4721 Prepend 15412 to UAE-IX peers
+remarks:        15412:4722 Prepend 15412 15412 to UAE-IX peers
+remarks:        =======================================================
+remarks:        15412:4730 Do not announce to AMSIX-HK peers
+remarks:        15412:4731 Prepend 15412 to AMSIX-HK peers
+remarks:        15412:4732 Prepend 15412 15412 to AMSIX-HK peers
+remarks:        =======================================================
+remarks:        15412:4740 Do not announce to FRANCE-IX peers
+remarks:        15412:4741 Prepend 15412 to FRANCE-IX peers
+remarks:        15412:4742 Prepend 15412 15412 to FRANCE-IX peers
+remarks:        =======================================================
+remarks:        15412:4750 Do not announce to TPIX-TAIWAN peers
+remarks:        15412:4751 Prepend 15412 to TPIX-TAIWAN peers
+remarks:        15412:4752 Prepend 15412 15412 to TPIX-TAIWAN peers
+remarks:        =======================================================
+remarks:        Looking Glass http://ubs.flagtel.com/lg
+remarks:
+remarks:        abuse reports to abuse@relianceglobalcom.com
+remarks:        peering contact peering@relianceglobalcom.com
+remarks:        technical support issues gnoc@relianceglobalcom.com
+remarks:        =======================================================
+org:            ORG-FT3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         FLAG-MNT
+created:        2002-09-18T12:13:05Z
+last-modified:  2018-07-16T22:40:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

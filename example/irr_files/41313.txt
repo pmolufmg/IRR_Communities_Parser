@@ -1,0 +1,141 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS40960 - AS42381'
+
+as-block:       AS40960 - AS42381
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS41313'
+
+% Abuse contact for 'AS41313' is 'abuse@novatel.bg'
+
+aut-num:        AS41313
+as-name:        NOVATEL-AS
+descr:          2 Kukush str., floor 1, office 102
+descr:          1309 Sofia, Bulgaria
+org:            ORG-NA318-RIPE
+remarks:        =============================================
+remarks:        BGP Communities accepted from customers
+remarks:        =============================================
+remarks:        Community Upstream Provider
+remarks:        41313:660x AS3320/DT
+remarks:        41313:661x AS5483/Magyar Telecom
+remarks:        41313:662x AS8928/Interoute
+remarks:        41313:663x AS2914/NTT
+remarks:        41313:664x DE-CIX
+remarks:        41313:666x AS1299/TeliaSonera
+remarks:        41313:667x AMS-IX
+remarks:        41313:669x Google
+remarks:        41313:700x T-CIX
+remarks:        41313:701x Facebook
+remarks:        Where "x" stands for:
+remarks:        1-3 prepend n times
+remarks:        9 do not advertise to upstream
+remarks:        =============================================
+remarks:        41313:20000 - Blackhole community for ipv4 and ipv6
+remarks:        =============================================
+import:         from AS5483 accept ANY
+import:         from AS15555 accept ANY
+import:         from AS3320 accept ANY
+import:         from AS8928 accept ANY
+import:         from AS56371 accept ANY
+import:         from AS1299 accept ANY
+import:         from AS2914 accept ANY
+import:         from AS6695 accept AS-DECIX
+import:         from AS6777 accept AS-AMS-IX-RS
+import:         from AS41059 accept any
+import:         from AS12756 accept ANY
+import:         from AS-NOVATEL accept AS-NOVATEL
+export:         to AS5483 announce AS-NOVATEL
+export:         to AS56371 announce AS-NOVATEL
+export:         to AS15555 announce AS-NOVATEL
+export:         to AS3320 announce AS-NOVATEL
+export:         to AS8928 announce AS-NOVATEL
+export:         to AS1299 announce AS-NOVATEL
+export:         to AS2914 announce AS-NOVATEL
+export:         to AS6695 announce AS-NOVATEL
+export:         to AS6777 announce AS-NOVATEL
+export:         to AS41059 announce AS-NOVATEL
+export:         to AS12756 announce AS-NOVATEL
+remarks:        =============================================
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+mp-import:      afi ipv6.unicast from AS8928 accept ANY
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-import:      afi ipv6.unicast from AS2914 accept ANY
+mp-import:      afi ipv6.unicast from AS6695 accept ANY
+mp-import:      afi ipv6.unicast from AS6777 accept ANY
+mp-import:      afi ipv6.unicast from AS41059 accept ANY
+mp-import:      afi ipv6.unicast from AS12756 accept ANY
+mp-export:      afi ipv6.unicast to AS3320 announce AS-NOVATEL-IPV6
+mp-export:      afi ipv6.unicast to AS8928 announce AS-NOVATEL-IPV6
+mp-export:      afi ipv6.unicast to AS1299 announce AS-NOVATEL-IPV6
+mp-export:      afi ipv6.unicast to AS2914 announce AS-NOVATEL-IPV6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-NOVATEL-IPV6
+mp-export:      afi ipv6.unicast to AS6777 announce AS-NOVATEL-IPV6
+mp-export:      afi ipv6.unicast to AS41059 announce AS-NOVATEL-IPV6
+mp-export:      afi ipv6.unicast to AS12756 announce AS-NOVATEL-IPV6
+remarks:        =============================================
+admin-c:        NVT34-RIPE
+tech-c:         NVT34-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NOVATEL-MNT
+mnt-by:         AS5483-MNT
+created:        2006-07-21T12:37:14Z
+last-modified:  2018-10-22T08:02:40Z
+source:         RIPE # Filtered
+
+organisation:   ORG-NA318-RIPE
+org-name:       "NOVATEL" EOOD
+org-type:       LIR
+address:        2 Kukush str, office 102
+address:        Sofia
+address:        1309
+address:        BULGARIA
+phone:          +35929860405
+fax-no:         +35929860406
+admin-c:        NVT34-RIPE
+tech-c:         NVT34-RIPE
+abuse-c:        NVAB-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        NOVATEL-MNT
+mnt-ref:        ITD-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NOVATEL-MNT
+created:        2009-02-24T11:09:06Z
+last-modified:  2017-12-15T12:40:09Z
+source:         RIPE # Filtered
+
+role:           Novatel LIR contacts
+address:        Sofia, Bulgaria
+nic-hdl:        NVT34-RIPE
+admin-c:        VKD325-RIPE
+tech-c:         VKD325-RIPE
+tech-c:         MH17045-RIPE
+tech-c:         BAT3-RIPE
+mnt-by:         NOVATEL-MNT
+created:        2017-12-14T08:47:20Z
+last-modified:  2018-03-20T14:33:13Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

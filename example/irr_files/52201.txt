@@ -1,0 +1,77 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS52201
+as-name:       TCTEL
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS20485 accept ANY
+import:        from AS31133 accept ANY
+import:        from AS31430 accept ANY
+import:        from AS8631 accept AS-MSKROUTESERVER
+import:        from AS15756 accept AS-CARAVANRUS
+import:        from AS50952 accept AS-DATAIX
+export:        to AS20485 announce AS-TCTEL
+export:        to AS31133 announce AS-TCTEL
+export:        to AS31430 announce AS-TCTEL
+export:        to AS8631 announce AS-TCTEL
+export:        to AS15756 announce AS-TCTEL
+export:        to AS50952 announce AS-TCTEL
+remarks:       Closed joint-stock company "Telecommunication company TEL"
+remarks:       ---------------------------------------------------------------
+remarks:       **** IPv4 Routing Policy ****
+remarks:       ---------------------------------------------------------------
+remarks:       Upstreams
+remarks:       ---------------------------------------------------------------
+remarks:       ---------------------------------------------------------------
+remarks:       MSK-IX peers
+remarks:       ---------------------------------------------------------------
+remarks:       ---------------------------------------------------------------
+remarks:       DATA-IX peers
+remarks:       ---------------------------------------------------------------
+remarks:       ---------------------------------------------------------------------------
+remarks:       BGP communities in advertisements fowrards downstream
+remarks:       ----------------------------------------------------------------------------
+remarks:       1.Route type:
+remarks:       52201:1xxx IX peers
+remarks:       Where xxx the route from:
+remarks:       001 - MSK-IX (AS8631)
+remarks:       002 - DataIX (AS50952)
+remarks:       2.Route type:
+remarks:       52201:2xxx upstream
+remarks:       Where xxx the route from:
+remarks:       430 - TEL (31430)
+remarks:       926 - PJSC MegaFon (AS31133)
+remarks:       784 - TRANSTELECOM (AS20485)
+remarks:       ----------------------------------------------------------------
+remarks:       BGP communities are accepted from downstream
+remarks:       ----------------------------------------------------------------
+remarks:       52201:50 Backup Community
+remarks:       52201:666 Blackhole Community ( /32 only )
+remarks:       52201:1xxxy Common, prepending to IX peers, where
+remarks:       xxx the route has been received IX peers
+remarks:       y = 0 do not advertise to 1xxx
+remarks:       y = 1,2,3 prepend a times 52201
+remarks:       52201:2xxxy Common, prepending to upstream , where
+remarks:       xxx the route has been received upstream
+remarks:       y = 0 do not advertise to 2xxx
+remarks:       y = 1,2,3 prepend a times 52201
+remarks:       ---------------------------------------------------------------
+remarks:       Contacts and URLs:
+remarks:       ---------------------------------------------------------------
+remarks:       Web Site http://hosting.tel.ru
+remarks:       Looking Glass http://lg.tel.ru
+remarks:       Routing issues noc@tel.ru
+remarks:       ---------------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        TEL-NET-MNT
+source:        RIPE
+
+

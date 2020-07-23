@@ -1,0 +1,143 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15965 - AS16057'
+
+as-block:       AS15965 - AS16057
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:26Z
+last-modified:  2018-11-22T15:27:26Z
+source:         RIPE
+
+% Information related to 'AS16020'
+
+% Abuse contact for 'AS16020' is 'abuse@spdop.ru'
+
+aut-num:        AS16020
+as-name:        TASCOM
+org:            ORG-OMct1-RIPE
+remarks:
+remarks:        ---------------------------------------------
+remarks:
+remarks:        UPLINKS:
+remarks:
+remarks:        PAO MGTS
+import:         from AS25513 94.29.127.153 at 217.26.6.14 action pref=90; accept AS25513 OR  {0.0.0.0/0}
+import:         from AS25513 94.29.127.157 at 217.26.6.15 action pref=120; accept AS25513 OR {0.0.0.0/0}
+export:         to AS25513 announce AS-TASCOM
+remarks:
+remarks:        ---------------------------------------------
+remarks:
+remarks:        PEERING PARTNERS:
+remarks:
+remarks:        RUNNET
+import:         from AS3267 action pref=500; accept AS-RUNNET
+export:         to AS3267 announce AS-TASCOM
+remarks:
+remarks:        ---------------------------------------------
+remarks:
+remarks:        CUSTOMERS:
+remarks:
+remarks:        GUM-AS (OJSC TRADING HOUSE GUM)
+import:         from AS49246 action pref=1000; accept AS49246
+export:         to AS49246 announce {0.0.0.0/0}
+remarks:
+remarks:        Green Telecom, LLC
+import:         from AS199502 action pref=1000; accept AS199502
+export:         to AS199502 announce {0.0.0.0/0}
+remarks:
+remarks:        ---------------------------------------------
+remarks:
+remarks:        NOTE: We drop all prefixes more specific then /25
+remarks:
+remarks:        NOTE: We remove all communities from incoming  announces except 25513:.*
+remarks:        and communities which describes below:
+remarks:
+remarks:        External communities which may be set by external peers when
+remarks:        talking to AS16020.
+remarks:
+remarks:        Community meaning:
+remarks:        -----
+remarks:        16020:8000 - BLACKHOLE - accept prefixes longer then /24
+remarks:        but forward traffic to Null 0.
+remarks:        Available only to AS16020 customers.
+remarks:
+remarks:        16020:8030 - BACKUP - set local preference to 30,
+remarks:        lowest value used in the network.
+remarks:        -----
+remarks:        16020:900x - when advertising to all uplinks
+remarks:        16020:910x - when advertising to all IXs
+remarks:        where
+remarks:        x=0 - do not advertise
+remarks:        x=1,2,3,4 or 5 - prepend 16020 1,2,3,4 or 5 times
+remarks:        -----
+remarks:
+remarks:        -----
+remarks:        Uplinks
+remarks:        16020:1xx00 - do not advertise...
+remarks:        16020:1xx0[1-5] - prepend 16020 1-5 times...
+remarks:
+remarks:        ...xx=00 - to PAO MGTS
+remarks:        -----
+remarks:
+admin-c:        USPD-RIPE
+tech-c:         USPD-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MGTS-USPD-MNT
+created:        2002-05-18T05:40:53Z
+last-modified:  2018-09-04T09:49:46Z
+source:         RIPE
+
+organisation:   ORG-OMct1-RIPE
+org-name:       OJS Moscow city telephone network
+org-type:       LIR
+address:        Khachaturiana str., 5
+address:        127562
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +7 4959500570
+fax-no:         +7 4959500598
+admin-c:        AVK103-RIPE
+admin-c:        RSG7-RIPE
+admin-c:        OB36-RIPE
+admin-c:        VMK
+admin-c:        AGS9167-RIPE
+mnt-ref:        MGTS-USPD-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MGTS-USPD-MNT
+abuse-c:        USPD-RIPE
+tech-c:         USPD-RIPE
+created:        2004-04-17T11:55:11Z
+last-modified:  2018-03-15T15:31:08Z
+source:         RIPE # Filtered
+
+role:           PJSC Moscow City Telephone Network NOC
+address:        USPD MGTS
+address:        Moscow, Russia
+address:        Khachaturyana 5
+admin-c:        AGS9167-RIPE
+admin-c:        AVK103-RIPE
+tech-c:         AVK103-RIPE
+tech-c:         VMK
+tech-c:         ANO3-RIPE
+abuse-mailbox:  abuse@spdop.ru
+nic-hdl:        USPD-RIPE
+mnt-by:         MGTS-USPD-MNT
+created:        2006-09-11T07:56:01Z
+last-modified:  2018-03-15T16:18:45Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

@@ -1,0 +1,210 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS60430
+as-name:       REDIX
+descr:         Webra LLC
+descr:         REDIX, Siberian Internet Exchange
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS5547 accept AS-ORTEL
+import:        from AS6662 accept AS-KTS
+import:        from AS9049 accept AS-ERTH
+import:        from AS12389 accept AS-ROSTELECOM
+import:        from AS12737 accept AS-SET-RIGHTSIDE
+import:        from AS12828 accept AS12828
+import:        from AS13238 accept AS-YANDEX
+import:        from AS16300 accept AS-INTERTAX
+import:        from AS20730 accept AS20730
+import:        from AS21030 accept AS21030
+import:        from AS21226 accept AS-4NET
+import:        from AS21483 accept AS-SOVINTEL-KRSK
+import:        from AS24811 accept AS-ZAO-KES
+import:        from AS24837 accept AS24837
+import:        from AS25549 accept AS-AVANTEL
+import:        from AS28709 accept AS-VKONTAKTE
+import:        from AS29071 accept AS29071
+import:        from AS30920 accept AS-MOBILON
+import:        from AS31205 accept AS31205
+import:        from AS31257 accept AS-ORIONNET
+import:        from AS31695 accept AS31695
+import:        from AS33871 accept AS-NORCOM-KRSK
+import:        from AS33991 accept AS-IGRA
+import:        from AS34757 accept AS-SIBSET
+import:        from AS35025 accept AS-TELECONNECT
+import:        from AS39785 accept AS39785
+import:        from AS39927 accept AS39927
+import:        from AS40995 accept AS40995
+import:        from AS41311 accept AS-CSIT
+import:        from AS41794 accept AS-SIBSET-BARN
+import:        from AS42048 accept AS42048
+import:        from AS42304 accept AS42304
+import:        from AS42773 accept AS-CITYTELECOM-KRS
+import:        from AS42895 accept AS42895
+import:        from AS43097 accept AS-WEBRA
+import:        from AS44267 accept AS-IESV
+import:        from AS44347 accept AS44347
+import:        from AS47433 accept AS47433
+import:        from AS47486 accept AS47486
+import:        from AS47963 accept AS47963
+import:        from AS48302 accept AS48302
+import:        from AS48507 accept AS-SIBMEDIAFON
+import:        from AS48586 accept AS-BAIKAL-IX-PEERS
+import:        from AS49039 accept AS49039
+import:        from AS49476 accept AS-MTT
+import:        from AS49813 accept AS49813
+import:        from AS50022 accept AS50022
+import:        from AS50147 accept AS50147
+import:        from AS50443 accept AS50443
+import:        from AS50923 accept AS-METRO-SET
+import:        from AS51067 accept AS51067
+import:        from AS51078 accept AS-ITEL
+import:        from AS51086 accept AS-Scatplus
+import:        from AS51416 accept AS-ENISEYNET
+import:        from AS51520 accept AS51520
+import:        from AS51612 accept AS51612
+import:        from AS51756 accept AS51756
+import:        from AS51838 accept AS51838
+import:        from AS56451 accept AS56451
+import:        from AS56969 accept AS56969
+import:        from AS57251 accept AS57251
+import:        from AS57261 accept AS57261
+import:        from AS57440 accept AS57440
+import:        from AS57629 accept AS57629
+import:        from AS58067 accept AS-CHTE
+import:        from AS58189 accept AS58189
+import:        from AS59508 accept AS-KL-NET
+import:        from AS59677 accept AS-KRASHOST
+import:        from AS59712 accept AS-RBIX
+import:        from AS59730 accept AS-CDNET-NSK
+import:        from AS61406 accept AS-RTATELECOM
+import:        from AS196812 accept AS196812
+import:        from AS197443 accept AS197443
+import:        from AS197482 accept AS-2GIS
+import:        from AS197888 accept AS197888
+import:        from AS198181 accept AS198181
+import:        from AS199534 accept AS-ENIFON
+import:        from AS200838 accept AS200838
+import:        from AS200945 accept AS200945
+import:        from AS202806 accept AS202806
+import:        from AS203139 accept AS203139
+export:        to AS5547 announce AS-RED-IX-PEERS
+export:        to AS6662 announce AS-RED-IX-PEERS
+export:        to AS9049 announce AS-RED-IX-PEERS
+export:        to AS12389 announce AS-RED-IX-PEERS
+export:        to AS12737 announce AS-RED-IX-PEERS
+export:        to AS12828 announce AS-RED-IX-PEERS
+export:        to AS13238 announce AS-RED-IX-PEERS
+export:        to AS16300 announce AS-RED-IX-PEERS
+export:        to AS20730 announce AS-RED-IX-PEERS
+export:        to AS21030 announce AS-RED-IX-PEERS
+export:        to AS21226 announce AS-RED-IX-PEERS
+export:        to AS21483 announce AS-RED-IX-PEERS
+export:        to AS24811 announce AS-RED-IX-PEERS
+export:        to AS24837 announce AS-RED-IX-PEERS
+export:        to AS25549 announce AS-RED-IX-PEERS
+export:        to AS28709 announce AS-RED-IX-PEERS
+export:        to AS29071 announce AS-RED-IX-PEERS
+export:        to AS30920 announce AS-RED-IX-PEERS
+export:        to AS31205 announce AS-RED-IX-PEERS
+export:        to AS31257 announce AS-RED-IX-PEERS
+export:        to AS31695 announce AS-RED-IX-PEERS
+export:        to AS33871 announce AS-RED-IX-PEERS
+export:        to AS33991 announce AS-RED-IX-PEERS
+export:        to AS34757 announce AS-RED-IX-PEERS
+export:        to AS35025 announce AS-RED-IX-PEERS
+export:        to AS39785 announce AS-RED-IX-PEERS
+export:        to AS39927 announce AS-RED-IX-PEERS
+export:        to AS40995 announce AS-RED-IX-PEERS
+export:        to AS41311 announce AS-RED-IX-PEERS
+export:        to AS41794 announce AS-RED-IX-PEERS
+export:        to AS42048 announce AS-RED-IX-PEERS
+export:        to AS42304 announce AS-RED-IX-PEERS
+export:        to AS42773 announce AS-RED-IX-PEERS
+export:        to AS42895 announce AS-RED-IX-PEERS
+export:        to AS43097 announce AS-RED-IX-PEERS
+export:        to AS44267 announce AS-RED-IX-PEERS
+export:        to AS44347 announce AS-RED-IX-PEERS
+export:        to AS47433 announce AS-RED-IX-PEERS
+export:        to AS47486 announce AS-RED-IX-PEERS
+export:        to AS47963 announce AS-RED-IX-PEERS
+export:        to AS48302 announce AS-RED-IX-PEERS
+export:        to AS48507 announce AS-RED-IX-PEERS
+export:        to AS48586 announce AS-RED-IX-PEERS
+export:        to AS49039 announce AS-RED-IX-PEERS
+export:        to AS49476 announce AS-RED-IX-PEERS
+export:        to AS49813 announce AS-RED-IX-PEERS
+export:        to AS50022 announce AS-RED-IX-PEERS
+export:        to AS50147 announce AS-RED-IX-PEERS
+export:        to AS50443 announce AS-RED-IX-PEERS
+export:        to AS50923 announce AS-RED-IX-PEERS
+export:        to AS51067 announce AS-RED-IX-PEERS
+export:        to AS51078 announce AS-RED-IX-PEERS
+export:        to AS51086 announce AS-RED-IX-PEERS
+export:        to AS51416 announce AS-RED-IX-PEERS
+export:        to AS51520 announce AS-RED-IX-PEERS
+export:        to AS51612 announce AS-RED-IX-PEERS
+export:        to AS51756 announce AS-RED-IX-PEERS
+export:        to AS51838 announce AS-RED-IX-PEERS
+export:        to AS56451 announce AS-RED-IX-PEERS
+export:        to AS56969 announce AS-RED-IX-PEERS
+export:        to AS57251 announce AS-RED-IX-PEERS
+export:        to AS57261 announce AS-RED-IX-PEERS
+export:        to AS57440 announce AS-RED-IX-PEERS
+export:        to AS57629 announce AS-RED-IX-PEERS
+export:        to AS58067 announce AS-RED-IX-PEERS
+export:        to AS58189 announce AS-RED-IX-PEERS
+export:        to AS59508 announce AS-RED-IX-PEERS
+export:        to AS59677 announce AS-RED-IX-PEERS
+export:        to AS59712 announce AS-RED-IX-PEERS
+export:        to AS59730 announce AS-RED-IX-PEERS
+export:        to AS61406 announce AS-RED-IX-PEERS
+export:        to AS196812 announce AS-RED-IX-PEERS
+export:        to AS197443 announce AS-RED-IX-PEERS
+export:        to AS197482 announce AS-RED-IX-PEERS
+export:        to AS197888 announce AS-RED-IX-PEERS
+export:        to AS198181 announce AS-RED-IX-PEERS
+export:        to AS199534 announce AS-RED-IX-PEERS
+export:        to AS200838 announce AS-RED-IX-PEERS
+export:        to AS200945 announce AS-RED-IX-PEERS
+export:        to AS202806 announce AS-RED-IX-PEERS
+export:        to AS203139 announce AS-RED-IX-PEERS
+remarks:       -----------------------------------------------------------
+remarks:       Informational communities
+remarks:       
+remarks:       60430:2001 - prefix received in Krasnoyarsk
+remarks:       60430:2002 - prefix received in Novosibirsk
+remarks:       60430:2003 - prefix received in Achinsk
+remarks:       60430:2004 - prefix received in Irkutsk
+remarks:       60430:2005 - prefix received in Abakan
+remarks:       -----------------------------------------------------------
+remarks:       BGP communities for control route advertisement
+remarks:       
+remarks:       0:$peer-as, rt:0:$peer-as - Do not announce prefix to a peer with AS $peer-as
+remarks:       60430:$peer-as, rt:60430:$peer-as - Announce prefix to a peer with AS $peer-as
+remarks:       0:60430 - Do not announce prefix to anyone
+remarks:       
+remarks:       1:$peer-as, rt,1,$peer-as - Prepend once when announcing this prefix to AS $peer-as
+remarks:       2:$peer-as, rt,2,$peer-as - Prepend twice when announcing this prefix to AS $peer-as
+remarks:       3:$peer-as, rt,3,$peer-as - Prepend three times when announcing this prefix to AS $peer-as
+remarks:       
+remarks:       60430:0 - Set local preference 0
+remarks:       60430:50 - Set local preference 50
+remarks:       60430:100 - Set local preference 100
+remarks:       -----------------------------------------------------------
+remarks:       Looking glass
+remarks:       http://lg.red-ix.ru/
+remarks:       -----------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        hostadm@webra.ru
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        WEBRA-MNT
+source:        RIPE
+
+

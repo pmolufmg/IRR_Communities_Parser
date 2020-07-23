@@ -1,0 +1,45 @@
+aut-num:        AS2588
+as-name:        LatnetServiss-AS
+org:            ORG-LA12-RIPE
+remarks:        LATNET ISP
+member-of:      AS-LATVIA
+remarks:        --------------------- uplinks ---------------------
+import:         from AS42979 accept ANY
+export:         to AS42979 announce AS-LATNET
+remarks:        -------Latvian Internet Exchange ------------------
+import:         from AS42480 accept AS-LATVIA
+export:         to AS42480 announce AS-LATNET
+remarks:        +--------------------------------------------------
+remarks:        |
+remarks:        | x=0 Announce as is
+remarks:        | x=1 Prepend +1
+remarks:        | x=2 Prepend +2
+remarks:        | x=3 Prepend +3
+remarks:        | x=4 Prepend +4
+remarks:        |
+remarks:        | 2588:400 Latvian Nets
+remarks:        | 2588:500 Announce to LIX (Latvian Internet Exchange)
+remarks:        | 2588:666 Don't announce (blackhole)
+remarks:        | 2588:70x Announce to uplinks with $x prepend
+remarks:        | 2588:900 Recieved from LIX (Latvian Internet Exchange)
+remarks:        |
+remarks:        | For more information please use the email address
+remarks:        | iproute (at) latnet (dot) lv
+remarks:        +--------------------------------------------------
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS2588-MNT
+mnt-lower:      LATNET-MNT
+created:        2002-08-15T10:57:35Z
+last-modified:  2016-04-20T13:10:00Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

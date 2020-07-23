@@ -1,0 +1,120 @@
+aut-num:    AS209
+as-name:    Qwest
+descr:      Qwest Communications AS 209
+admin-c:    Dave Nolen
+tech-c:     Dave Nolen
+mnt-by:     MAINT-QWEST
+changed:    david.nolen@qwest.com 20121205
+source:     RADB
+remarks:    =============================================
+remarks:    Qwest BGP Local Preference
+remarks:    ---------------------------------------------
+remarks:    Customer default = 100
+remarks:    Peer default     = 80
+remarks:    =============================================
+remarks:    Communities allowed from customers to alter
+remarks:    default local preference
+remarks:    ---------------------------------------------
+remarks:    209:90 = Set Local Pref to 90
+remarks:    209:80 = Set Local Pref to 80
+remarks:    209:70 = Set Local Pref to 70
+remarks:    
+remarks:    209:999 used for announcing routes greater
+remarks:    than /24 (will not be passed to peers)
+remarks:    May need to be arranged first
+remarks:    
+remarks:    209:0 Blackhole community for null routing
+remarks:    May need to be arranged prior to using.
+remarks:    
+remarks:    =============================================
+remarks:    
+remarks:    Traffic Engineering communities allowed from
+remarks:    customers to alter advertisements to
+remarks:    selected peers.  Advertisements can be
+remarks:    suppressed or pre-pended.
+remarks:    ---------------------------------------------
+remarks:    209:888 = Do not announce to peers
+remarks:    
+remarks:    209:64520       All peers
+remarks:    209:64530   ATT                   7018
+remarks:    209:64540   Sprint                1239
+remarks:    209:64550   Verizon (UUNet)        701
+remarks:    209:64560   Level 3               3356
+remarks:    209:64570   Savvis                3561
+remarks:    209:64580   NTT Verio             2914
+remarks:    209:64590   XO                    2828
+remarks:    209:64600   Global Crossing       3549
+remarks:    209:64610   AboveNet              6461
+remarks:    209:64630   France Telecom        5511
+remarks:    209:64640   China Telecom         4134
+remarks:    209:64650   Tata (Teleglobe)      6453
+remarks:    209:64660   Cogent                 174
+remarks:    209:64680   LG U-Plus (DACOM)     3786
+remarks:    209:64690   TeliaSonera           1299
+remarks:    209:64700   Reach                 4637
+remarks:    209:64710   Reach Japan           9225
+remarks:    209:64720   Tinet (Tiscali)       3257
+remarks:    209:64730   PCCW                  3491
+remarks:    209:64740   Deutsche Telekom      3320
+remarks:    209:64750   Telefonica           12956
+remarks:    209:64760   TW Telecom            4323
+remarks:    209:64770   China Unicom          4837
+remarks:    209:64780   PACNET               10026
+remarks:    209:64790   Reliance Globalcom   15412
+remarks:    209:64800   Cable Wireless        1273
+remarks:    209:64810   Telecom Italia        6762
+remarks:    
+remarks:    -Note that above communities currently apply only
+remarks:    to North America peering sessions.
+remarks:    
+remarks:    209:64xx0 do not announce to this peer
+remarks:    209:64xx1 prepend 209 once to this peer
+remarks:    209:64xx2 prepend 209 twice to this peer
+remarks:    209:64xx3 prepend 209 three times to this peer
+remarks:    209:64xx9 leak route to that peer. This is to be used in
+remarks:    conjunction with 209:888
+remarks:    
+remarks:    Timezone Traffic Engineering
+remarks:    
+remarks:    209:64990 do not announce to PST peers
+remarks:    209:64991 prepend once to PST peers
+remarks:    209:64992 prepend twice to PST peers
+remarks:    209:64993 prepend three times to PST peers
+remarks:    
+remarks:    209:64980 do not announce to CST peers
+remarks:    209:64981 prepend once to CST peers
+remarks:    209:64982 prepend twice to CST peers
+remarks:    209:64983 prepend three times to CST peers
+remarks:    
+remarks:    209:64970 do not announce to EST peers
+remarks:    209:64971 prepend once to EST peers
+remarks:    209:64972 prepend twice to EST peers
+remarks:    209:64973 prepend three times to EST peers
+remarks:    =============================================
+remarks:    
+remarks:    Communities customers receive from Qwest
+remarks:    ---------------------------------------------
+remarks:    209:209 = Qwest route/Qwest Customer
+remarks:    209:209 and 209:888 together = Customer learned route not
+remarks:    passed to peers
+remarks:    209:888 = Peer learned route
+remarks:    
+remarks:    POP origin communities
+remarks:    North America 209:1[1-4]..0_
+remarks:    PST      209:11..0_
+remarks:    MST      209:12..0_
+remarks:    CST      209:13..0_
+remarks:    EST      209:14..0_
+remarks:    
+remarks:    ASIA   209:2[2-5]..0_
+remarks:    Singapore 209:22..0_
+remarks:    Hong Kong 209:23..0_
+remarks:    Japan     209:24..0_
+remarks:    Sydney    209:25..0_
+remarks:    
+remarks:    Europe   209:41..0_
+remarks:    London    209:41010
+remarks:    =============================================
+remarks:    For questions or requests please consult with our NOC at
+remarks:    1-877-886-6515.
+remarks:    =============================================

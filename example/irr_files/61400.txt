@@ -1,0 +1,240 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS59392 - AS61439'
+
+as-block:       AS59392 - AS61439
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS61400'
+
+% Abuse contact for 'AS61400' is 'abuse@netrack.ru'
+
+aut-num:        AS61400
+as-name:        NETRACK-AS
+org:            ORG-LA521-RIPE
+remarks:        ---------------------------------------------------
+remarks:        Uplinks
+remarks:        ---------------------------------------------------
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS-NETRACK
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-NETRACK
+export:         to AS8359 announce AS-NETRACK
+import:         from AS8359 accept ANY
+import:         from AS29226 accept ANY
+export:         to AS29226 announce AS-NETRACK
+import:         from AS31133 accept ANY
+export:         to AS31133 announce AS-NETRACK
+import:         from AS31500 accept ANY
+export:         to AS31500 announce AS-NETRACK
+remarks:        ---------------------------------------------------
+remarks:        Peers:
+remarks:        ---------------------------------------------------
+import:         from AS9002 action pref=150; accept AS-RETN
+export:         to AS9002 announce AS-NETRACK
+import:         from AS31500 action pref=150; accept AS-GLOBALNET
+import:         from AS8631 action pref=150; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-NETRACK
+import:         from AS50952 action pref=150; accept ANY
+export:         to AS50952 announce AS-NETRACK
+import:         from AS60299 action pref=150; accept AS-MMTS
+export:         to AS60299 announce AS-NETRACK
+remarks:        ---------------------------------------------------
+remarks:        Downstreams
+remarks:        ---------------------------------------------------
+import:         from AS8603 action pref=200; accept AS8603
+import:         from AS21030 action pref=200; accept AS21030
+import:         from AS39317 action pref=200; accept AS39317
+import:         from AS39900 action pref=200; accept AS39900
+import:         from AS41775 action pref=200; accept AS41775
+import:         from AS42481 action pref=200; accept AS42481
+import:         from AS42762 action pref=200; accept AS42762
+import:         from AS44401 action pref=200; accept AS44401
+import:         from AS44670 action pref=200; accept AS44670
+import:         from AS47503 action pref=200; accept AS47503
+import:         from AS47723 action pref=200; accept AS47723
+import:         from AS47746 action pref=200; accept AS47746
+import:         from AS48708 action pref=200; accept AS48708
+import:         from AS49813 action pref=200; accept AS49813
+import:         from AS50113 action pref=200; accept AS-MAXHOSTING
+import:         from AS51444 action pref=200; accept AS51444
+import:         from AS56788 action pref=200; accept AS56788
+import:         from AS58045 action pref=200; accept AS58045
+import:         from AS59730 action pref=200; accept AS59730
+import:         from AS59811 action pref=200; accept AS59811
+import:         from AS60283 action pref=200; accept AS60283
+import:         from AS60580 action pref=200; accept AS60580
+import:         from AS61306 action pref=200; accept AS61306
+import:         from AS62222 action pref=200; accept AS62222
+import:         from AS62316 action pref=200; accept AS62316
+import:         from AS196678 action pref=200; accept AS196678
+import:         from AS199472 action pref=200; accept AS199472
+import:         from AS201183 action pref=200; accept AS201183
+import:         from AS199274 action pref=200; accept AS199274
+import:         from AS200107 action pref=200; accept AS200107
+import:         from AS200430 action pref=200; accept AS200430
+import:         from AS200457 action pref=200; accept AS200457
+import:         from AS200815 action pref=200; accept AS200815
+import:         from AS200952 action pref=200; accept AS200952
+import:         from AS201183 action pref=200; accept AS201183
+import:         from AS202532 action pref=200; accept AS202532
+import:         from AS204292 action pref=200; accept AS204292
+import:         from AS205675 action pref=200; accept AS205675
+import:         from AS198562 action pref=200; accept AS198562
+import:         from AS196780 action pref=200; accept AS196780
+import:         from AS59730 action pref=200; accept AS59730
+import:         from AS204703 action pref=200; accept AS204703
+remarks:        _____________________________________________________
+export:         to AS8603 announce ANY
+export:         to AS21030 announce ANY
+export:         to AS39317 announce ANY
+export:         to AS39900 announce ANY
+export:         to AS41775 announce ANY
+export:         to AS42481 announce ANY
+export:         to AS42762 announce ANY
+export:         to AS44670 announce ANY
+export:         to AS48708 announce ANY
+export:         to AS47723 announce ANY
+export:         to AS47746 announce ANY
+export:         to AS49813 announce ANY
+export:         to AS50113 announce ANY
+export:         to AS51444 announce ANY
+export:         to AS44401 announce ANY
+export:         to AS47503 announce ANY
+export:         to AS56788 announce ANY
+export:         to AS58045 announce ANY
+export:         to AS59730 announce ANY
+export:         to AS59811 announce ANY
+export:         to AS60283 announce ANY
+export:         to AS60580 announce ANY
+export:         to AS61306 announce ANY
+export:         to AS62222 announce ANY
+export:         to AS62316 announce ANY
+export:         to AS196678 announce ANY
+export:         to AS199472 announce ANY
+export:         to AS199274 announce ANY
+export:         to AS200430 announce ANY
+export:         to AS200457 announce ANY
+export:         to AS200815 announce ANY
+export:         to AS200952 announce ANY
+export:         to AS201183 announce ANY
+export:         to AS202532 announce ANY
+export:         to AS198562 announce ANY
+export:         to AS198562 announce ANY
+export:         to AS196780 announce ANY
+export:         to AS59730 announce ANY
+export:         to AS204703 announce ANY
+export:         to AS204292 announce ANY
+remarks:        ___________________________________________________
+remarks:        __________IPV4$___________________________________
+remarks:        __________^IPv6___________________________________
+remarks:        ___________________________________________________
+mp-import:      afi ipv6.unicast from AS201183 action pref=200; accept AS201183
+mp-export:      afi ipv6.unicast to AS201183 announce ANY
+mp-import:      afi ipv6.unicast from AS196678 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS196678 announce AS-NETRACK
+mp-import:      afi ipv6.unicast from AS200430 action pref=100; accept AS200430
+mp-export:      afi ipv6.unicast to AS200430 announce ANY
+mp-import:      afi ipv6.unicast from AS20485 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS20485 announce AS-NETRACK
+mp-import:      afi ipv6.unicast from AS8631 action pref=100; accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-NETRACK
+mp-import:      afi ipv6.unicast from AS62222 action pref=200; accept AS62222
+mp-export:      afi ipv6.unicast to AS62222 announce ANY
+mp-import:      afi ipv6.unicast from AS51218 action pref=200; accept AS51218
+mp-export:      afi ipv6.unicast to AS51218 announce ANY
+mp-import:      afi ipv6.unicast from AS8603 action pref=200; accept AS8603
+mp-export:      afi ipv6.unicast to AS8603 announce ANY
+mp-import:      afi ipv6.unicast from AS204703 action pref=200; accept AS204703
+mp-export:      afi ipv6.unicast to AS204703 announce ANY
+mp-import:      afi ipv6.unicast from AS204292 action pref=200; accept AS204292
+mp-export:      afi ipv6.unicast to AS204292 announce ANY
+remarks:        __________________________________________________
+remarks:        RTBH Community: 61400:666
+remarks:        Accepted /32 routes from downstreams with RTBH community
+remarks:        ___________________________________________________
+remarks:        advertising community (available for customers):
+remarks:        ___________________________________________________
+remarks:        to zone:
+remarks:
+remarks:        61400:5ZZX where
+remarks:        ZZ=00    - Whole World
+remarks:        ZZ=01    - all upstreams
+remarks:        ZZ=03    - all peers
+remarks:        ZZ=04    - MSK-IX
+remarks:        ZZ=05    - DATA-IX
+remarks:        ZZ=06    - he.net
+remarks:        ZZ=07    - EURASIA-IX
+remarks:        ZZ=08    - AS60299
+remarks:
+remarks:        to ASN
+remarks:
+remarks:        61400:6AAX where
+remarks:        AA=01    - AS31133    (Megafon)
+remarks:        AA=02    - AS8359     (MTS)
+remarks:        AA=03    - AS3356     (Level3)
+remarks:        AA=04    - AS29226    (Mastertel)
+remarks:        AA=05    - AS9002     (ReTN)
+remarks:        AA=06    - 31500      (GlobalNet)
+remarks:
+remarks:        X=0     - advertise with no changes
+remarks:        X=1,2,4 or 6  - set prepend AS61400 1,2,4 or 6 times
+remarks:        X=7     - advertise with community no-export
+remarks:        X=9     - do not advertise
+remarks:
+remarks:        Example: Community 61400:6014 will prepend AS61400 4 times to AS31133
+remarks:        Example: Community 61400:5039 will deny advertising of prefix to all
+remarks:        peers and exchanges
+remarks:
+remarks:        ___________________________________________________
+admin-c:        AK10080-RIPE
+tech-c:         AK10080-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NETRACK-MNT
+created:        2012-10-25T07:55:22Z
+last-modified:  2018-09-04T11:16:33Z
+source:         RIPE
+sponsoring-org: ORG-SL474-RIPE
+
+organisation:   ORG-LA521-RIPE
+org-name:       "Start" LLC
+org-type:       OTHER
+address:        109029, Russia, Moscow, P.O.  #  1
+mnt-ref:        NETRACK-MNT
+mnt-by:         NETRACK-MNT
+abuse-c:        NA4368-RIPE
+created:        2012-10-17T09:12:29Z
+last-modified:  2018-10-19T12:31:06Z
+source:         RIPE # Filtered
+
+person:         Alexander Kamendrovsky
+address:        Moscow, Russia
+phone:          +7 495 1234567
+nic-hdl:        AK10080-RIPE
+mnt-by:         NETRACK-MNT
+created:        2012-10-17T09:00:50Z
+last-modified:  2018-10-19T12:26:25Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

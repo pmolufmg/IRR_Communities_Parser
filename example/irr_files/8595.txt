@@ -1,0 +1,248 @@
+aut-num:        AS8595
+as-name:        WESTCALL-AS
+org:            ORG-WL4-RIPE
+remarks:        Moscow, Russia
+remarks:
+import:         from AS3216 accept ANY
+export:         to AS3216 announce AS-WESTCALL-MSK
+import:         from AS8732 accept ANY
+export:         to AS8732 announce AS-WESTCALL-MSK
+import:         from AS28917 accept ANY
+export:         to AS28917 announce AS-WESTCALL-MSK
+remarks:
+import:         from AS8631 accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-WESTCALL-MSK
+import:         from AS3249 accept AS-ESTPAK
+export:         to AS3249 announce AS-WESTCALL-MSK
+import:         from AS8470 accept AS-MACOMNET
+export:         to AS8470 announce AS-WESTCALL-MSK
+import:         from AS12578 accept AS-LATTELEKOM
+export:         to AS12578 announce AS-WESTCALL-MSK
+import:         from AS28917 accept AS-FIORD
+export:         to AS28917 announce AS-WESTCALL-MSK
+import:         from AS39792 accept AS-ANDERS
+export:         to AS39792 announce AS-WESTCALL-MSK
+remarks:
+import:         from AS8641 accept AS-NAUKANET
+export:         to AS8641 announce AS-WESTCALL-MSK
+import:         from AS13094 accept AS-MILECOM-RS
+export:         to AS13094 announce AS-WESTCALL-MSK
+import:         from AS15169 accept ANY
+export:         to AS15169 announce AS-WESTCALL-MSK
+import:         from AS16083 accept AS-STACK
+export:         to AS16083 announce AS-WESTCALL-MSK
+import:         from AS31500 accept ANY
+export:         to AS31500 announce AS-WESTCALL-MSK
+import:         from AS39221 accept AS-ITOOLABS
+export:         to AS39221 announce AS-WESTCALL-MSK
+import:         from AS50952 accept AS-DATAIX
+export:         to AS50952 announce AS-WESTCALL-MSK
+import:         from AS50384 accept AS-W-IX
+export:         to AS50384 announce AS-WESTCALL-MSK
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-WESTCALL-MSK
+import:         from AS203921 accept AS-ELBA-IX-ROUTESERVER
+export:         to AS203921 announce AS-WESTCALL-MSK
+remarks:
+import:         from AS12418 accept AS12418
+export:         to AS12418 announce ANY
+import:         from AS16262 accept AS-DELTA-LTD
+export:         to AS16262 announce ANY
+import:         from AS24829 accept AS-ASL
+export:         to AS24829 announce ANY
+import:         from AS25531 accept AS-INTINFORM
+export:         to AS25531 announce ANY
+import:         from AS28741 accept AS28741
+export:         to AS28741 announce ANY
+import:         from AS29053 accept AS-JSC-TELENET
+export:         to AS29053 announce ANY
+import:         from AS29124 accept AS-7SKY
+export:         to AS29124 announce ANY
+import:         from AS30768 accept AS30768
+export:         to AS30768 announce ANY
+import:         from AS30784 accept AS-ISKRATELECOM
+export:         to AS30784 announce ANY
+import:         from AS31370 accept AS-MOSLINE
+export:         to AS31370 announce ANY
+import:         from AS33902 accept AS-STARNETWORKS
+export:         to AS33902 announce ANY
+import:         from AS33987 accept AS33987
+export:         to AS33987 announce ANY
+import:         from AS34300 accept AS34300
+export:         to AS34300 announce ANY
+import:         from AS34832 accept AS34832
+export:         to AS34832 announce ANY
+import:         from AS34898 accept AS-SYMBIOS
+export:         to AS34898 announce ANY
+import:         from AS35571 accept AS35571
+export:         to AS35571 announce ANY
+import:         from AS41443 accept AS41443
+export:         to AS41443 announce ANY
+import:         from AS42583 accept AS42583
+export:         to AS42583 announce ANY
+import:         from AS42678 accept AS-MEGANET
+export:         to AS42678 announce ANY
+import:         from AS42696 accept AS42696
+export:         to AS42696 announce ANY
+import:         from AS43267 accept AS-LINETEL
+export:         to AS43267 announce ANY
+import:         from AS43319 accept AS43319
+export:         to AS43319 announce ANY
+import:         from AS43694 accept AS43694
+export:         to AS43694 announce ANY
+import:         from AS43917 accept AS43917
+export:         to AS43917 announce ANY
+import:         from AS44041 accept AS44041
+export:         to AS44041 announce ANY
+import:         from AS44199 accept AS44199
+export:         to AS44199 announce ANY
+import:         from AS44622 accept AS-MOSINTER
+export:         to AS44622 announce ANY
+import:         from AS47156 accept AS47156
+export:         to AS47156 announce ANY
+import:         from AS47251 accept AS47251 AS200343
+export:         to AS47251 announce ANY
+import:         from AS44759 accept AS44759
+export:         to AS44759 announce ANY
+import:         from AS47441 accept AS-TRUNKMOBILE
+export:         to AS47441 announce ANY
+import:         from AS47652 accept AS-SUPERJOB
+export:         to AS47652 announce ANY
+import:         from AS48050 accept AS48050
+export:         to AS48050 announce ANY
+import:         from AS48848 accept AS-MCM
+export:         to AS48848 announce ANY
+import:         from AS49058 accept AS-PRIMELINK
+export:         to AS49058 announce ANY
+import:         from AS49825 accept AS-LANTEK
+export:         to AS49825 announce ANY
+import:         from AS49870 accept AS49870
+export:         to AS49870 announce ANY
+import:         from AS50283 accept AS50283
+export:         to AS50283 announce ANY
+import:         from AS50513 accept AS50513
+export:         to AS50513 announce ANY
+import:         from AS50644 accept AS50644
+export:         to AS50644 announce ANY
+import:         from AS50713 accept AS-FWDTELECOM
+export:         to AS50713 announce ANY
+import:         from AS50946 accept AS50946
+export:         to AS50946 announce ANY
+import:         from AS51642 accept AS51642
+export:         to AS51642 announce ANY
+import:         from AS51831 accept AS51831
+export:         to AS51831 announce ANY
+import:         from AS51884 accept AS-TERATEL-SET
+export:         to AS51884 announce ANY
+import:         from AS51893 accept AS51893
+export:         to AS51893 announce ANY
+import:         from AS56483 accept AS56483
+export:         to AS56483 announce ANY
+import:         from AS56690 accept AS56690
+export:         to AS56690 announce ANY
+import:         from AS56930 accept AS-CLARUSTELECOM
+export:         to AS56930 announce ANY
+import:         from AS57186 accept AS57186
+export:         to AS57186 announce ANY
+import:         from AS57824 accept AS57824
+export:         to AS57824 announce ANY
+import:         from AS57867 accept AS57867
+export:         to AS57867 announce ANY
+import:         from AS58284 accept AS58284
+export:         to AS58284 announce ANY
+import:         from AS58091 accept AS58091
+export:         to AS58091 announce ANY
+import:         from AS60642 accept AS60642
+export:         to AS60642 announce ANY
+import:         from AS60691 accept AS60691
+export:         to AS60691 announce ANY
+import:         from AS60710 accept AS60710
+export:         to AS60710 announce ANY
+import:         from AS60771 accept AS60771
+export:         to AS60771 announce ANY
+import:         from AS60904 accept AS-ATSCOM
+export:         to AS60904 announce ANY
+import:         from AS61375 accept AS61375
+export:         to AS61375 announce ANY
+import:         from AS62115 accept AS62115
+export:         to AS62115 announce ANY
+import:         from AS62169 accept AS62169
+export:         to AS62169 announce ANY
+import:         from AS62410 accept AS62410
+export:         to AS62410 announce ANY
+import:         from AS62447 accept AS62447
+export:         to AS62447 announce ANY
+import:         from AS196641 accept AS196641
+export:         to AS196641 announce ANY
+import:         from AS197756 accept AS197756
+export:         to AS197756 announce ANY
+import:         from AS198062 accept AS198062
+export:         to AS198062 announce ANY
+import:         from AS198185 accept AS198185
+export:         to AS198185 announce ANY
+import:         from AS198643 accept AS198643
+export:         to AS198643 announce ANY
+import:         from AS198770 accept AS198770
+export:         to AS198770 announce ANY
+import:         from AS199078 accept AS199078
+export:         to AS199078 announce ANY
+import:         from AS200028 accept AS200028
+export:         to AS200028 announce ANY
+import:         from AS200662 accept AS200662
+export:         to AS200662 announce ANY
+import:         from AS203401 accept AS203401
+export:         to AS203401 announce ANY
+import:         from AS203504 accept AS203504
+export:         to AS203504 announce ANY
+import:         from AS204067 accept AS204067
+export:         to AS204067 announce ANY
+import:         from AS204117 accept AS204117
+export:         to AS204117 announce ANY
+import:         from AS204159 accept AS204159
+export:         to AS204159 announce ANY
+import:         from AS204848 accept AS204848
+export:         to AS204848 announce ANY
+import:         from AS207079 accept AS207079
+export:         to AS207079 announce ANY
+remarks:
+remarks:        # BGP COMMUNITIES:
+remarks:        #
+remarks:        #   advertising prefix control
+remarks:        #     8595:300x  all upstreams and peers
+remarks:        #     8595:310x   all peers
+remarks:        #     8595:311x    msk-ix
+remarks:        #     8595:312x    data-ix
+remarks:        #     8595:313x    peering
+remarks:        #     8595:316x    global-ix
+remarks:        #     8595:317x    elba-ix
+remarks:        #     8595:318x    w-ix
+remarks:        #     8595:350x   all upstreams
+remarks:        #     8595:351x    COMCOR
+remarks:        #     8595:352x    BEELINE
+remarks:        #     8595:354x    CITYTELECOM
+remarks:        #     8595:355x    FIORD
+remarks:        #     where
+remarks:        #       x=0     - do not announce
+remarks:        #       x=1     - announce
+remarks:        #       x=2,3,4 - prepend 1,2,3 times
+remarks:        #
+remarks:        #   8595:666 blackholing for /32 prefixes.
+remarks:        #
+remarks:        # Inbound prefixes longer than /24 are not accepted.
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8595-MNT
+notify:         noc-notify@west-call.com
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-08-13T08:27:23Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

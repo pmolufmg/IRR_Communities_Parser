@@ -1,0 +1,240 @@
+aut-num:        AS34087
+as-name:        NTE-BREDBAND
+remarks:        ---------------------------------------------------------------
+remarks:        This AS is present at TRDIX, Trondheim and NIX1 and FIXO, Oslo, Norway.
+remarks:        AMS-IX, Amsterdam. Private peering as available in, Trondheim, Oslo,
+remarks:        Stockholm and Amsterdam.
+remarks:        For peering requests and changes in existing peering.
+remarks:        Please send requests to: peering@nteb.no. Email subject must
+remarks:        include the word 'peering'
+remarks:        Spam and other abuse complaints: abuse@nteb.no
+remarks:        --------------------------------------------------------------
+remarks:
+descr:          NIX 1, Oslo, Norway
+remarks:
+import:         from AS31283 action pref=150; accept AS-FASTHOST
+export:         to AS-FASTHOST announce AS-NTE
+import:         from AS39787 action pref=150; accept AS-NO-TV2
+export:         to AS-NO-TV2 announce AS-NTE
+mp-import:      from AS41572 action pref=150; accept AS-HAFSLUND
+mp-export:      to AS-HAFSLUND announce AS-NTE
+import:         from AS15765 action pref=150; accept AS-MIMER-NIX1
+export:         to AS-MIMER-NIX1 announce AS-NTE
+mp-import:      from AS13243 action pref=150; accept AS-COMACE
+mp-export:      to AS-COMACE announce AS-NTE
+mp-import:      from AS224 action pref=150; accept AS-UNINETT
+mp-export:      to AS-UNINETT announce AS-NTE
+import:         from AS25148 action pref=150; accept AS-BASEFARM
+export:         to AS-BASEFARM announce AS-NTE
+import:         from AS16186 action pref=150; accept AS-SSC-NO
+export:         to AS-SSC-NO announce AS-NTE
+import:         from AS21201 action pref=150; accept AS-NETFONDS
+export:         to AS-NETFONDS announce AS-NTE
+mp-import:      from AS12552 action pref=150; accept AS-IPO
+mp-export:      to AS-IPO announce AS-NTE
+import:         from AS41164 action pref=150; accept AS-GET
+export:         to AS-GET announce AS-NTE
+import:         from AS15560 action pref=150; accept AS15560
+export:         to AS15560 announce AS-NTE
+import:         from AS29300 action pref=150; accept AS-DIRECTCONNECT
+export:         to AS-DIRECTCONNECT announce AS-NTE
+mp-import:      from AS2603 action pref=150; accept AS-NORDUNET
+mp-export:      to AS-NORDUNET announce AS-NTE
+import:         from AS42400 action pref=150; accept AS42400
+export:         to AS42400 announce AS-NTE
+mp-import:      from AS16175 action pref=150; accept AS-ITCONNECT
+mp-export:      to AS-ITCONNECT announce AS-NTE
+import:         from AS15688 action pref=150; accept AS15688
+export:         to AS15688 announce AS-NTE
+import:         from AS41741 action pref=150; accept AS41741
+export:         to AS41741 announce AS-NTE
+import:         from AS21293 action pref=150; accept AS21293
+export:         to AS21293 announce AS-NTE
+import:         from AS21171 action pref=150; accept AS-SCHIBSTED
+export:         to AS-SCHIBSTED announce AS-NTE
+mp-import:      from AS12996 action pref=150; accept AS12996
+mp-export:      to AS12996 announce AS-NTE
+import:         from AS25351 action pref=150; accept AS-BROADNET
+export:         to AS-BROADNET announce AS-NTE
+mp-import:      from AS30950 action pref=150; accept AS-BREDBANDSALLIANSEN
+mp-export:      to AS-BREDBANDSALLIANSEN announce AS-NTE
+import:         from AS13069 action pref=150; accept AS-DG
+export:         to AS-DG announce AS-NTE
+import:         from AS6667 action pref=150; accept AS-EUNETIP RS-EUNETIP
+export:         to AS6667 announce AS-NTE
+import:         from AS8473 action pref=150; accept AS-BAHNHOF
+export:         to AS-BAHNHOF announce AS-NTE
+import:         from AS31027 action pref=150; accept AS-NIANET
+export:         to AS-NIANET announce AS-NTE
+mp-import:      from AS8896 action pref=150; accept AS8896
+mp-export:      to AS8896 announce AS-NTE
+import:         from AS31726 action pref=150; accept AS31726
+export:         to AS31726 announce AS-NTE
+import:         from AS16150 action pref=150; accept AS16150:AS-CUSTOMERS
+export:         to AS16150:AS-CUSTOMERS announce AS-NTE
+import:         from AS47533 action pref=150; accept AS-BELLITSOLUTIONS
+export:         to AS-BELLITSOLUTIONS announce AS-NTE
+import:         from AS16265 action pref=150; accept AS-LEASEWEB
+export:         to AS-LEASEWEB announce AS-NTE
+import:         from AS39783 action pref=150; accept AS-OSLOISP
+export:         to AS-OSLOISP announce AS-NTE
+mp-import:      from AS8674 action pref=150; accept AS8674
+mp-export:      to AS8674 announce AS-NTE
+mp-import:      from AS5619 action pref=150; accept AS5619
+mp-export:      to AS5619 announce AS-NTE
+import:         from AS49788 action pref=150; accept AS-NEXTHOP
+export:         to AS-NEXTHOP announce AS-NTE
+mp-import:      from AS43646 action pref=150; accept AS43646
+mp-export:      to AS43646 announce AS-NTE
+mp-import:      from AS50272 action pref=150; accept AS-INTELLIT
+mp-export:      to AS-INTELLIT announce AS-NTE
+mp-import:      from AS199339 action pref=150; accept AS-INFRAGREEN
+mp-export:      to AS-INFRAGREEN announce AS-NTE
+mp-import:      from AS3292 action pref=150; accept AS-TDCNETNO
+mp-export:      to AS-TDCNETNO announce AS-NTE
+import:         from AS12929 action pref=150; accept As12929
+export:         to As12929 announce AS-NTE
+mp-import:      from AS15659 action pref=150; accept AS-NEXTGENTEL
+mp-export:      to AS-NEXTGENTEL announce AS-NTE
+mp-import:      from AS13335 action pref=150; accept AS13335
+mp-export:      to AS13335 announce AS-NTE
+mp-import:      from AS39029 action pref=150; accept AS-REDPILL-LINPRO
+mp-export:      to AS-REDPILL-LINPRO announce AS-NTE
+mp-import:      from AS56828 action pref=150; accept AS-NHN
+mp-export:      to AS-NHN announce AS-NTE
+import:         from AS42708 action pref=150; accept AS42708
+export:         to AS42708 announce AS-NTE
+mp-import:      from AS50270 action pref=150; accept AS50270
+mp-export:      to AS50270 announce AS-NTE
+mp-import:      from AS200781 action pref=150; accept AS-TAMPNET
+mp-export:      to AS-TAMPNET announce AS-NTE
+remarks:
+descr:          TRDIX, Trondheim, Norway
+remarks:
+mp-import:      from AS224 action pref=150; accept AS-UNINETT
+mp-export:      to AS-UNINETT announce AS-NTE
+mp-import:      from AS49455 action pref=150; accept AS49455
+mp-export:      to AS49455 announce AS-NTE
+mp-import:      from AS56828 action pref=150; accept AS-NHN
+mp-export:      to AS-NHN announce AS-NTE
+remarks:
+remarks:
+descr:          FIXO, Oslo, Norway
+mp-import:      from AS50304 action pref=150; accept AS-BLIX
+mp-export:      to AS-BLIX announce AS-NTE
+mp-import:      from AS49788 action pref=150; accept AS-NEXTHOP
+mp-export:      to AS-NEXTHOP announce AS-NTE
+mp-import:      from AS57202 action pref=150; accept AS57202
+mp-export:      to AS57202 announce AS-NTE
+import:         from AS13335 action pref=150; accept AS13335
+export:         to AS13335 announce AS-NTE
+mp-import:      from AS200781 action pref=150; accept AS-TAMPNET
+mp-export:      to AS-TAMPNET announce AS-NTE
+remarks:
+remarks:
+descr:          AMS-IX, Amsterdam.
+remarks:
+import:         from AS21478 action pref=150; accept AS-PLEX
+export:         to AS-PLEX announce AS-NTE
+mp-import:      from AS6939 action pref=150; accept AS-HURRICANE
+mp-export:      to AS-HURRICANE announce AS-NTE
+mp-import:      from AS133229 action pref=150; accept AS-HOSTPALACE
+mp-export:      to AS-HOSTPALACE announce AS-NTE
+mp-import:      from AS1200 action pref=150; accept AS1200
+mp-export:      to AS1200 announce AS-NTE
+mp-import:      from AS714 action pref=150; accept AS-APPLE
+mp-export:      to AS-APPLE announce AS-NTE
+mp-import:      from AS16509 action pref=150; accept AS-AMAZON
+mp-export:      to AS-AMAZON announce AS-NTE
+import:         from AS6777 accept ANY AND NOT <^[AS8359]>
+export:         to AS6777 action community .= { 6777:6777, 6777:8359 }; announce AS-NTE
+mp-import:      afi ipv6.unicast from AS6777 accept AS-AMS-IX-RS
+mp-export:      afi ipv6.unicast to AS6777 announce AS-NTE
+mp-import:      from AS8365 action pref=150; accept AS-MANDA
+mp-export:      to AS-MANDA announce AS-NTE
+mp-import:      from AS46489 action pref=150; accept AS-TWITCH
+mp-export:      to AS-TWITCH announce AS-NTE
+mp-import:      from AS8075 action pref=150; accept AS-MICROSOFT
+mp-export:      to AS-MICROSOFT announce AS-NTE
+mp-import:      from AS42 action pref=150; accept AS-PCH
+mp-export:      to AS-PCH announce AS-NTE
+mp-import:      from AS3856 action pref=150; accept AS-PCH
+mp-export:      to AS-PCH announce AS-NTE
+mp-import:      from AS39651 action pref=150; accept AS-COMHEM
+mp-export:      to AS-COMHEM announce AS-NTE
+mp-import:      from AS47065 action pref=150; accept AS-PEERING-TESTBED
+mp-export:      to AS-PEERING-TESTBED announce AS-NTE
+mp-import:      from AS15133 action pref=150; accept AS-EDGECAST
+mp-export:      to AS-EDGECAST  announce AS-NTE
+remarks:
+remarks:
+descr:          STHIX, Stockholm.
+remarks:
+import:         from AS57151 accept ANY
+export:         to AS57151 action community .= { 57151:57151 }; announce AS-NTE
+mp-import:      afi ipv6.unicast from AS57151 accept AS-STHIX
+mp-export:      afi ipv6.unicast to AS57151 announce AS-NTE
+mp-import:      from AS46489 action pref=150; accept AS-TWITCH
+mp-export:      to AS-TWITCH announce AS-NTE
+mp-import:      from AS2603 action pref=150; accept AS-NORDUNET
+mp-export:      to AS-NORDUNET announce AS-NTE
+mp-import:      from AS16086 action pref=150; accept AS16086
+mp-export:      to AS16086 announce AS-NTE
+mp-import:      from AS8075 action pref=150; accept AS-MICROSOFT
+mp-export:      to AS-MICROSOFT announce AS-NTE
+mp-import:      from AS39651 action pref=150; accept AS-COMHEM
+mp-export:      to AS-COMHEM announce AS-NTE
+mp-import:      from AS394354 action pref=150; accept AS394354
+mp-export:      to AS394354 announce AS-NTE
+remarks:
+descr:          Direct peers:
+remarks:
+mp-import:      from AS2119 action pref=150; accept AS-TELENOR
+mp-export:      to AS-TELENOR announce AS-NTE
+mp-import:      from AS16175 action pref=150; accept AS-SIGNAL
+mp-export:      to AS-SIGNAL announce AS-NTE
+mp-import:      from AS32934 action pref=150; accept AS-FACEBOOK
+mp-export:      to AS-FACEBOOK announce AS-NTE
+mp-import:      from AS2906 action pref=150; accept as-nflx
+mp-export:      to as-nflx announce AS-NTE
+remarks:
+descr:          Transits:
+remarks:
+import:         from AS29695 action pref=100; accept ANY
+export:         to AS29695 announce AS-NTE
+mp-import:      from AS3356 action pref=100; accept ANY
+mp-export:      to AS3356 announce AS-NTE
+mp-import:      from AS1299 action pref=100; accept ANY
+mp-export:      to AS1299 announce AS-NTE
+remarks:
+descr:          Transit customers:
+remarks:
+mp-import:      from AS62002 action pref=150; accept ANY
+mp-export:      to AS62002 announce ANY
+remarks:
+remarks:        --------------------------------------------------------------
+remarks:
+remarks:        Community values available for our customers:
+remarks:
+remarks:        34087:900  Do not announce to upstream providers
+remarks:        34087:1    Prepend once to upstream providers
+remarks:        34087:2    Prepend twice to upstream providers
+remarks:        34087:3    Prepend three times to upstream providers
+remarks:
+remarks:        --------------------------------------------------------------
+org:            ORG-NEF1-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NTE-MNT
+created:        2004-10-20T15:36:53Z
+last-modified:  2018-01-29T03:58:38Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,93 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS41435
+as-name:       UNDERNET-AS1
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS13249 action pref=120; accept ANY;
+import:        from AS29076 action pref=120; accept ANY;
+import:        from AS20764 action pref=120; accept ANY;
+import:        from AS28917 action pref=120; accept ANY;
+import:        from AS43668 action pref=120; accept ANY;
+import:        from AS59613 action pref=90; accept AS-UBNIX;
+import:        from AS31210 action pref=90; accept AS-DTEL-IX;
+import:        from AS15645 action pref=90; accept AS-UAIX;
+import:        from AS13188 action pref=80; accept AS-BANKINFORM;
+import:        from AS44600 action pref=80; accept AS-GGT;
+import:        from AS59536 action pref=80; accept AS-MIXMEDIA-IX;
+import:        from AS12998 action pref=80; accept AS-BGN-UA;
+import:        from AS57709 action pref=70; accept AS57709;
+import:        from AS51194 action pref=70; accept AS51194;
+import:        from AS56652 action pref=70; accept AS56652;
+import:        from AS57001 action pref=70; accept AS57001;
+import:        from AS58054 action pref=70; accept AS58054;
+import:        from AS50956 action pref=70; accept AS-KLNK;
+import:        from AS197901 action pref=70; accept AS197901;
+import:        from AS42546 action pref=70; accept AS-UOS;
+import:        from AS201184 action pref=70; accept AS201184;
+import:        from AS197901 action pref=70; accept AS197901;
+import:        from AS204541 action pref=70; accept AS204541;
+export:        to AS13249 announce AS-NETUNDER;
+export:        to AS29076 announce AS-NETUNDER;
+export:        to AS20764 announce AS-NETUNDER;
+export:        to AS28917 announce AS-NETUNDER;
+export:        to AS43668 announce AS-NETUNDER;
+export:        to AS59613 announce AS-NETUNDER;
+export:        to AS31210 announce AS-NETUNDER;
+export:        to AS15645 announce AS-NETUNDER;
+export:        to AS13188 announce AS-NETUNDER;
+export:        to AS44600 announce AS-NETUNDER;
+export:        to AS59536 announce AS-NETUNDER;
+export:        to AS12998 announce AS-NETUNDER;
+export:        to AS57709 announce ANY;
+export:        to AS51194 announce ANY;
+export:        to AS56652 announce ANY;
+export:        to AS57001 announce ANY;
+export:        to AS58054 announce ANY;
+export:        to AS50956 announce ANY;
+export:        to AS197901 announce ANY;
+export:        to AS42546 announce ANY;
+export:        to AS201184 announce ANY;
+export:        to AS197901 announce ANY;
+export:        to AS204541 announce ANY;
+remarks:       ===========================
+remarks:       IPv4
+remarks:       ===========================
+remarks:       ===========================
+remarks:       Uplinks
+remarks:       ===========================
+remarks:       ==========================
+remarks:       Exchange
+remarks:       ==========================
+remarks:       ==========================
+remarks:       Peers
+remarks:       ==========================
+remarks:       ==========================
+remarks:       Customers
+remarks:       ==========================
+remarks:       ===========================
+remarks:       IPv6
+remarks:       ===========================
+remarks:       ===========================
+remarks:       Uplinks
+remarks:       ===========================
+remarks:       ==========================
+remarks:       Exchange
+remarks:       ==========================
+remarks:       ----------------------------------------------
+remarks:       Customer TE communities - Blackhole (RFC7999)
+remarks:       ----------------------------------------------
+remarks:       41435:666 - blackhole (discard) traffic
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        NETUNDER-MNT
+source:        RIPE
+
+

@@ -1,0 +1,102 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS31430
+as-name:       TEL-NET-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS3216 accept ANY
+import:        from AS8732 accept ANY
+import:        from AS20764 accept ANY
+import:        from AS52201 accept ANY
+import:        from AS8631 accept AS-MSKROUTESERVER
+import:        from AS3267 accept AS-RUNNETIX
+import:        from AS6903 accept AS-ZENON
+import:        from AS13238 accept AS-YANDEX
+import:        from AS12958 accept AS-MCC
+import:        from AS5467 accept AS-MIPT
+import:        from AS50384 accept ANY
+import:        from AS203921 accept AS-ELBA-IX-ROUTESERVER
+import:        from AS8331 accept AS-RINET
+import:        from AS8641 accept AS-NAUKANET
+export:        to AS3216 announce AS-TEL-NET
+export:        to AS8732 announce AS-TEL-NET
+export:        to AS20764 announce AS-TEL-NET
+export:        to AS52201 announce ANY
+export:        to AS8631 announce AS-TEL-NET
+export:        to AS3267 announce AS-TEL-NET
+export:        to AS6903 announce AS-TEL-NET
+export:        to AS13238 announce AS-TEL-NET
+export:        to AS12958 announce AS-TEL-NET
+export:        to AS5467 announce AS-TEL-NET
+export:        to AS50384 announce AS-TEL-NET
+export:        to AS203921 announce AS-TEL-NET
+export:        to AS8331 announce AS-TEL-NET
+export:        to AS8641 announce AS-TEL-NET
+remarks:       --------------------------------------------------------------
+remarks:       **** IPv4 & IPv6 Routing Policy ****
+remarks:       ---------------------------------------------------------------
+remarks:       Upstreams
+remarks:       ---------------------------------------------------------------
+remarks:       ---------------------------------------------------------------
+remarks:       MSK-IX peers
+remarks:       ---------------------------------------------------------------
+remarks:       ---------------------------------------------------------------
+remarks:       Other IX
+remarks:       ---------------------------------------------------------------
+remarks:       W-IX
+remarks:       ----------------------------
+remarks:       ----------------------------
+remarks:       ELBA-IX
+remarks:       ---------------------------------------------------------------
+remarks:       Peers
+remarks:       ---------------------------------------------------------------
+remarks:       ----------------------------------------------------------------------------
+remarks:       BGP communities in advertisements forwards downstream
+remarks:       ----------------------------------------------------------------------------
+remarks:       1.Route type:
+remarks:       31430:1xxx IX peers
+remarks:       Where xxx the route from:
+remarks:       001 - MSK-IX (AS8631)
+remarks:       002 - W-IX (AS50384)
+remarks:       003 - ELBA-IX (AS203921)
+remarks:       2.Route type:
+remarks:       31430:2xxx upstream
+remarks:       Where xxx the route from:
+remarks:       201 - TKTEL (52201)
+remarks:       903 - BEELINE (AS3216)
+remarks:       732 - COMCOR (AS8732)
+remarks:       764 - RASCOM (AS20764)
+remarks:       -----------------------------------------------------------------
+remarks:       BGP communities are accepted from downstream
+remarks:       -----------------------------------------------------------------
+remarks:       31430:50 Backup Community
+remarks:       31430:666 Blackhole Community ( netmask /32 only )
+remarks:       31430:1xxxy Common, prepending to IX peers, where
+remarks:       xxx the route has been received IX peers
+remarks:       y = 0 do not advertise to 1xxx
+remarks:       y = 1,2,3 prepend a times 31430
+remarks:       31430:2xxxy Common, prepending to upstream , where
+remarks:       xxx the route has been received upstream
+remarks:       y = 0 do not advertise to 2xxx
+remarks:       y = 1,2,3 prepend a times 31430
+remarks:       ----------------------------------------------------------------
+remarks:       Contacts and URLs:
+remarks:       ---------------------------------------------------------------
+remarks:       Web Site http://www.tel.ru
+remarks:       Looking Glass http://lg.tel.ru
+remarks:       Routing issues noc@tel.ru
+remarks:       ---------------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        noc@tel.ru
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        TEL-NET-MNT
+source:        RIPE
+
+

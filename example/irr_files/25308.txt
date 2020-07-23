@@ -1,0 +1,280 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS25251 - AS25361'
+
+as-block:       AS25251 - AS25361
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:30Z
+last-modified:  2018-11-22T15:27:30Z
+source:         RIPE
+
+% Information related to 'AS25308'
+
+% Abuse contact for 'AS25308' is 'abusenew@citylan.ru'
+
+aut-num:        AS25308
+as-name:        CITYLAN-AS
+org:            ORG-CA33-RIPE
+remarks:        CityLanCom, ISP, Moscow, Russia
+remarks:        -----------------------------------------------------------
+import:         from   AS174 action pref = 200;  accept ANY
+import:         from   AS1299 action pref = 200;  accept ANY
+import:         from   AS2578 action pref = 90;  accept AS-DEMOS AS-RUDEMOS
+import:         from   AS2683 action pref = 90;  accept AS-RADIOMSU
+import:         from   AS2820 action pref = 50;  accept AS-ELVIS
+import:         from   AS2848 action pref = 90;  accept AS-MSURUNNET
+import:         from   AS2895 action pref = 90;  accept AS-FREENET
+import:         from   AS3216 action pref = 200;  accept ANY
+import:         from   AS3267 action pref = 90;  accept AS-RUNNETIX
+import:         from   AS3277 action pref = 90;  accept AS-RUSNETIX
+import:         from   AS3320 action pref = 200;  accept ANY
+import:         from   AS5467 action pref = 90;  accept AS-MIPT
+import:         from   AS5523 action pref = 90;  accept AS-RMT
+import:         from   AS6858 action pref = 90;  accept AS-COMLINK
+import:         from   AS6903 action pref = 90;  accept AS-ZENON
+import:         from   AS8241 action pref = 90;  accept AS-RELLINE
+import:         from   AS8359 action pref = 200;  accept ANY
+import:         from   AS8395 action pref = 50;  accept AS-EAST
+import:         from   AS8402 action pref = 200;  accept AS-CORBINA
+import:         from   AS8470 action pref = 90;  accept AS-MACOMNET
+import:         from   AS8471 action pref = 90;  accept AS-KANRIT
+import:         from   AS8492 action pref = 90;  accept AS-OBIT
+import:         from   AS8631 action pref = 100;  accept AS-MSKROUTESERVER
+import:         from   AS8744 action pref = 90;  accept AS-WIMAX
+import:         from   AS8905 action pref = 90;  accept AS8905
+import:         from   AS9206 action pref = 90;  accept AS-MAI
+import:         from   AS12389 action pref = 200;  accept ANY
+import:         from   AS12622 action pref = 50;  accept AS-COMINTERN
+import:         from   AS12714 action pref = 200;  accept ANY
+import:         from   AS12739 action pref = 50;  accept AS-NETLINE
+import:         from   AS12958 action pref = 90;  accept AS-MCC
+import:         from   AS12979 action pref = 90;  accept AS-TSINET
+import:         from   AS13105 action pref = 90;  accept AS-LUKOIL
+import:         from   AS13230 action pref = 90;  accept AS-NCPORT
+import:         from   AS13238 action pref = 90;  accept AS-YANDEX
+import:         from   AS13238 action pref = 90;  accept AS-YANDEX
+import:         from   AS13302 action pref = 90;  accept AS-LINKEYCUS
+import:         from   AS20483 action pref = 90;  accept AS-ECNET
+import:         from   AS20632 action pref = 90;  accept AS-PETERSTAR
+import:         from   AS20985 action pref = 90;  accept AS20985
+import:         from   AS21414 action pref = 90;  accept AS-RCNET
+import:         from   AS25474 action pref = 50;  accept AS-OKB
+import:         from   AS28870 action pref = 90;  accept AS-PLUS-IX
+import:         from   AS28917 action pref = 200;  accept ANY
+import:         from   AS28957 action pref = 50;  accept AS-AIRTON
+import:         from   AS28968 action pref = 90;  accept AS-EUT
+import:         from   AS29053 action pref = 90;  accept AS29053
+import:         from   AS29076 action pref = 90;  accept AS-CITYTELECOM
+import:         from   AS29329 action pref = 90;  accept AS-NODEX
+import:         from   AS29572 action pref = 50;  accept AS29572
+import:         from   AS29651 action pref = 90;  accept AS-CTCS
+import:         from   AS30124 action pref = 90;  accept AS30124
+import:         from   AS30768 action pref = 90;  accept AS30768
+import:         from   AS30833 action pref = 90;  accept AS-TNC
+import:         from   AS30854 action pref = 50;  accept AS30854
+import:         from   AS31444 action pref = 90;  accept AS-SEANET
+import:         from   AS31500 action pref = 90;  accept AS-ETELECOM-2
+import:         from   AS33902 action pref = 90;  accept AS-STARNETWORKS
+import:         from   AS33904 action pref = 90;  accept AS-INTELCOM
+import:         from   AS34139 action pref = 50;  accept AS34139
+import:         from   AS34300 action pref = 90;  accept AS34300
+import:         from   AS34352 action pref = 90;  accept AS-MCN
+import:         from   AS34456 action pref = 90;  accept AS-RCPEERS
+import:         from   AS34879 action pref = 90;  accept AS-NGENIX-MSK
+import:         from   AS35000 action pref = 90;  accept AS-PROMETEY-IX
+import:         from   AS35422 action pref = 90;  accept AS-PETERSTAR
+import:         from   AS35539 action pref = 90;  accept AS-INFOLINK
+import:         from   AS35750 action pref = 90;  accept AS35750
+import:         from   AS39102 action pref = 90;  accept AS39102
+import:         from   AS39792 action pref = 90;  accept AS-ANDERS
+import:         from   AS41095 action pref = 90;  accept AS-IPTP
+import:         from   AS41206 action pref = 50;  accept AS-COMMSOL
+import:         from   AS41225 action pref = 50;  accept AS41225
+import:         from   AS41349 action pref = 50;  accept AS-MVM
+import:         from   AS42056 action pref = 50; accept AS42056
+import:         from   AS42583 action pref = 90;  accept AS-ULCOMNET
+import:         from   AS42771 action pref = 50;  accept AS-TELIOS
+import:         from   AS42892 action pref = 50;  accept AS42892
+import:         from   AS43832 action pref = 90;  accept AS43832
+import:         from   AS48371 action pref = 50;  accept AS-WESTLAN
+import:         from   AS49346 action pref = 50;  accept AS49346
+import:         from   AS50044 action pref = 50; accept AS50044
+import:         from   AS50553 action pref = 50; accept AS50553
+import:         from   AS56806 action pref = 50; accept AS56806
+import:         from   AS41636 action pref = 50; accept AS41636
+export:         to     AS41636 announce ANY
+export:         to     AS174  announce        AS-CITYLAN
+export:         to     AS1299  announce        AS-CITYLAN
+export:         to     AS2578  announce        AS-CITYLAN
+export:         to     AS2683  announce        AS-CITYLAN
+export:         to     AS2820  announce        ANY
+export:         to     AS2848  announce        AS-CITYLAN
+export:         to     AS2895  announce        AS-CITYLAN
+export:         to     AS3216  announce        AS-CITYLAN
+export:         to     AS3267  announce        AS-CITYLAN
+export:         to     AS3277  announce        AS-CITYLAN
+export:         to     AS3320  announce        AS-CITYLAN
+export:         to     AS5467  announce        ANY
+export:         to     AS5523  announce        AS-CITYLAN
+export:         to     AS6858  announce        AS-CITYLAN
+export:         to     AS6903  announce        AS-CITYLAN
+export:         to     AS8241  announce        AS-CITYLAN
+export:         to     AS8359  announce        AS-CITYLAN
+export:         to     AS8395  announce        ANY
+export:         to     AS8402  announce        AS-CITYLAN
+export:         to     AS8470  announce        AS-CITYLAN
+export:         to     AS8471  announce        AS-CITYLAN
+export:         to     AS8492  announce        AS-CITYLAN
+export:         to     AS8631  announce        AS-CITYLAN
+export:         to     AS8744  announce        AS-CITYLAN
+export:         to     AS8905  announce        AS-CITYLAN
+export:         to     AS9206  announce        AS-CITYLAN
+export:         to     AS12389  announce        AS-CITYLAN
+export:         to     AS12622  announce        ANY
+export:         to     AS12714  announce        AS-CITYLAN
+export:         to     AS12739  announce        ANY
+export:         to     AS12958  announce        AS-CITYLAN
+export:         to     AS12979  announce        AS-CITYLAN
+export:         to     AS13105  announce        AS-CITYLAN
+export:         to     AS13230  announce        AS-CITYLAN
+export:         to     AS13238  announce        AS-CITYLAN
+export:         to     AS13238  announce        AS-CITYLAN
+export:         to     AS13302  announce        AS-CITYLAN
+export:         to     AS20483  announce        AS-CITYLAN
+export:         to     AS20632  announce        AS-CITYLAN
+export:         to     AS20985  announce        AS-CITYLAN
+export:         to     AS21414  announce        AS-CITYLAN
+export:         to     AS25474  announce        ANY
+export:         to     AS28870  announce        AS-CITYLAN
+export:         to     AS28917  announce        AS-CITYLAN
+export:         to     AS28957  announce        ANY
+export:         to     AS28968  announce        AS-CITYLAN
+export:         to     AS29053  announce        AS-CITYLAN
+export:         to     AS29076  announce        AS-CITYLAN
+export:         to     AS29329  announce        AS-CITYLAN
+export:         to     AS29651  announce        AS-CITYLAN
+export:         to     AS30124  announce        AS-CITYLAN
+export:         to     AS30768  announce        AS-CITYLAN
+export:         to     AS30833  announce        AS-CITYLAN
+export:         to     AS30854  announce        ANY
+export:         to     AS31444  announce        AS-CITYLAN
+export:         to     AS31500  announce        AS-CITYLAN
+export:         to     AS33902  announce        AS-CITYLAN
+export:         to     AS33904  announce        AS-CITYLAN
+export:         to     AS34139  announce        ANY
+export:         to     AS34300  announce        AS-CITYLAN
+export:         to     AS34352  announce        AS-CITYLAN
+export:         to     AS34456  announce        AS-CITYLAN
+export:         to     AS34879  announce        AS-CITYLAN
+export:         to     AS35000  announce        AS-CITYLAN
+export:         to     AS35422  announce        AS-CITYLAN
+export:         to     AS35539  announce        AS-CITYLAN
+export:         to     AS35750  announce        AS-CITYLAN
+export:         to     AS39792  announce        AS-CITYLAN
+export:         to     AS39102  announce        AS-CITYLAN
+export:         to     AS41095  announce        AS-CITYLAN
+export:         to     AS41225  announce        ANY
+export:         to     AS41349  announce        ANY
+export:         to     AS41842  announce        AS-CITYLAN
+export:         to     AS42056  announce        ANY
+export:         to     AS42583  announce        AS-CITYLAN
+export:         to     AS42771  announce        ANY
+export:         to     AS42892  announce        ANY
+export:         to     AS43832  announce        AS-CITYLAN
+export:         to     AS48371  announce        ANY
+export:         to     AS49206  announce        ANY
+export:         to     AS49346  announce        ANY
+export:         to     AS50044  announce        ANY
+export:         to     AS50553  announce        ANY
+export:         to     AS56806  announce        ANY
+remarks:        -----------------------------------------------------------
+admin-c:        CTLN1-RIPE
+tech-c:         CTLN1-RIPE
+remarks:        -----------------------------------------------------------
+remarks:        Community  Meaning
+remarks:        25308:12070 - do not advertise to MSK-IX route-server & private peers
+remarks:        25308:14010 - do not advertise to MSK-IX route-server
+remarks:        25308:14020 - do not advertise to MSK-IX private peers
+remarks:        25308:99    - set the local preference to lowest value used in the network (BACKUP)
+remarks:        -----------------------------------------------------------
+remarks:        Community  Meaning
+remarks:        25308:20000 - AS25308 own routes
+remarks:        25308:21000 - clients
+remarks:        25308:23000 - route from clients russian transit
+remarks:        25308:22010 - private peers in Moscow
+remarks:        25308:22050 - MSK-IX route-server
+remarks:        25308:24001 - DE-CIX route-server
+remarks:        25308:24010 - DE-CIX private peers
+remarks:        25308:10000 - uplinks:
+remarks:        25308:10001 - AS8359 (MTU, Comstar-direct)
+remarks:        25308:10002 - AS3216 (GoldenTelekom)
+remarks:        25308:10003 - AS1299 (TeliaSonera Moscow)
+remarks:        25308:10004 - AS8402 (Corbina)
+remarks:        25308:10005 - AS12714 (NetByNet)
+remarks:        25308:10006 - AS12389 (Rostelecom)
+remarks:        25308:10007 - AS3320 (Deutsches telekom AG)
+remarks:        25308:10008 - DE-CIX, AMS-IX & LINX over AS28917
+remarks:        25308:10009 - AS174 (Cogent)
+remarks:        -----------------------------------------------------------
+remarks:        http://noc.citylan.ru/lg
+remarks:        -----------------------------------------------------------
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         CITYLAN-MNT
+mnt-lower:      CITYLAN-MNT
+created:        2002-09-26T13:46:09Z
+last-modified:  2018-09-04T09:55:28Z
+source:         RIPE
+
+organisation:   ORG-CA33-RIPE
+org-name:       CityLanCom LTD
+org-type:       LIR
+address:        89 k1
+                Vernadskogo prospekt
+address:        119526
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +7 495 7107171
+abuse-c:        AR16604-RIPE
+mnt-ref:        CITYLAN-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         CITYLAN-MNT
+created:        2004-04-17T11:51:08Z
+last-modified:  2017-04-20T09:20:04Z
+source:         RIPE # Filtered
+admin-c:        SSG21-RIPE
+admin-c:        AG21191-RIPE
+
+role:           CityLanCom ISP technical department
+address:        Vernadskogo prospekt, 89, korp 1
+address:        Moscow
+address:        Russia, 119526
+phone:          +7 495 7107164
+phone:          +7 495 7107171
+admin-c:        AG21191-RIPE
+tech-c:         AG21191-RIPE
+nic-hdl:        CTLN1-RIPE
+mnt-by:         CITYLAN-MNT
+created:        2002-11-18T13:39:07Z
+last-modified:  2017-09-07T17:13:02Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

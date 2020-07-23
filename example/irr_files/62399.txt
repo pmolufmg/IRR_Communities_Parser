@@ -1,0 +1,154 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS61952 - AS62463'
+
+as-block:       AS61952 - AS62463
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS62399'
+
+% Abuse contact for 'AS62399' is 'noc@nts.su'
+
+aut-num:        AS62399
+as-name:        TSKIX
+descr:          Tomsk Internet Exchange
+org:            ORG-NTL1-RIPE
+remarks:        {
+import:         from AS51190 accept  AS51190
+import:         from AS61106 accept  AS61106
+import:         from AS50433 accept  AS50433
+import:         from AS49293 accept  AS49293
+import:         from AS44417 accept  AS44417
+import:         from AS47938 accept  AS47938
+import:         from AS5567 accept  AS5567
+import:         from AS8510 accept  AS8510
+import:         from AS49980 accept  AS49980
+import:         from AS33892 accept  AS33892
+import:         from AS51456 accept  AS51456
+import:         from AS50860 accept  AS50860
+import:         from AS56883 accept  AS56883
+import:         from AS49977 accept  AS49977
+import:         from AS31036 accept  AS31036
+import:         from AS41566 accept  AS41566
+import:         from AS34479 accept  AS34479
+import:         from AS9078 accept  AS9078
+import:         from AS34490 accept  AS34490
+import:         from AS51740 accept  AS51740
+import:         from AS25446 accept  AS25446
+import:         from AS25549 accept  AS25549
+import:         from AS200982 accept AS200982
+import:         from AS49414 accept  AS49414
+import:         from AS56707 accept  AS56707
+import:         from AS34573 accept  AS34573
+import:         from AS51724 accept  AS51724
+import:         from AS34145 accept  AS34145
+import:         from AS39701 accept  AS-TOMGATE
+import:         from AS48758 accept  AS48758
+import:         from AS43859 accept  AS43859
+import:         from AS65505 accept  AS65505
+import:         from AS56957 accept  AS56957
+import:         from    AS9049 accept AS-TOMSK
+remarks:        }
+remarks:        {
+export:         to  AS51190 announce AS-TSKIX
+export:         to  AS61106 announce AS-TSKIX
+export:         to  AS50433 announce AS-TSKIX
+export:         to  AS49293 announce AS-TSKIX
+export:         to  AS44417 announce AS-TSKIX
+export:         to  AS47938 announce AS-TSKIX
+export:         to  AS5567 announce AS-TSKIX
+export:         to  AS8510 announce AS-TSKIX
+export:         to  AS49980 announce AS-TSKIX
+export:         to  AS33892 announce AS-TSKIX
+export:         to  AS51456 announce AS-TSKIX
+export:         to  AS50860 announce AS-TSKIX
+export:         to  AS56883 announce AS-TSKIX
+export:         to  AS49977 announce AS-TSKIX
+export:         to  AS31036 announce AS-TSKIX
+export:         to  AS41566 announce AS-TSKIX
+export:         to  AS34479 announce AS-TSKIX
+export:         to  AS9078 announce AS-TSKIX
+export:         to  AS34490 announce AS-TSKIX
+export:         to  AS51740 announce AS-TSKIX
+export:         to  AS25446 announce AS-TSKIX
+export:         to  AS25549 announce AS-TSKIX
+export:         to  AS200982 announce AS-TSKIX
+export:         to  AS49414 announce AS-TSKIX
+export:         to  AS56707 announce AS-TSKIX
+export:         to  AS34573 announce AS-TSKIX
+export:         to  AS51724 announce AS-TSKIX
+export:         to  AS34145 announce AS-TSKIX
+export:         to  AS39701 announce AS-TSKIX
+export:         to  AS48758 announce AS-TSKIX
+export:         to  AS43859 announce AS-TSKIX
+export:         to  AS65505 announce AS-TSKIX
+export:         to  AS56957 announce AS-TSKIX
+export:         to      AS9049  announce        AS-TSKIX
+remarks:        }
+remarks:
+remarks:        +-------------------------------------------------------------------------------+
+remarks:        | Community for Prefix Control
+remarks:        +-------------------------------------------------------------------------------+
+remarks:
+remarks:        +-------------------------------------------------------------------------------+
+remarks:        | 0:<peer-as> Do not advertise to <peer-as>
+remarks:        | 62399:<peer-as> Advertise to <peer-as>
+remarks:        | 0:62399 Do not advertise to any peer
+remarks:        +-------------------------------------------------------------------------------+
+remarks:
+default:        to AS31036
+admin-c:        NTS2007-RIPE
+tech-c:         NTS2007-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-NTS
+created:        2013-10-09T13:25:14Z
+last-modified:  2018-09-06T02:20:34Z
+source:         RIPE # Filtered
+
+organisation:   ORG-NTL1-RIPE
+org-name:       New Telesystems, Ltd.
+org-type:       LIR
+address:        Kirova ave., 58
+address:        634012
+address:        Tomsk
+address:        RUSSIAN FEDERATION
+phone:          +73822481150
+fax-no:         +73822600623
+admin-c:        LVNX-RIPE
+abuse-c:        NTS2007-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-NTS
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-NTS
+created:        2004-04-17T11:55:54Z
+last-modified:  2018-05-16T10:41:33Z
+source:         RIPE # Filtered
+
+role:           New Telesystems Ltd
+address:        New Telesystems, Ltd. Kirova ave., 58 634012 Tomsk RU
+abuse-mailbox:  noc@nts.su
+admin-c:        LVNX-RIPE
+tech-c:         LVNX-RIPE
+nic-hdl:        NTS2007-RIPE
+mnt-by:         MNT-NTS
+created:        2007-12-10T09:55:42Z
+last-modified:  2017-03-08T03:47:32Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

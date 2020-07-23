@@ -1,0 +1,232 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21392 - AS21451'
+
+as-block:       AS21392 - AS21451
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21413'
+
+% Abuse contact for 'AS21413' is 'abuse@envia-tel.net'
+
+aut-num:        AS21413
+org:            ORG-ETG1-RIPE
+as-name:        ENVIA-TEL-AS
+descr:          D-09114 Chemnitz
+descr:          Chemnitztalstrasse 13
+descr:          Germany
+remarks:        +++++++++++++++++++++++++++++++
+remarks:        Transit
+remarks:        +++++++++++++++++++++++++++++++
+import:         from AS13237 accept ANY
+export:         to AS13237 announce AS-ENVIATEL
+import:         from AS24940 accept ANY
+export:         to AS24940 announce AS-ENVIATEL
+import:         from AS33891 accept ANY
+export:         to AS33891 announce AS-ENVIATEL
+import:         from AS3320 accept ANY
+export:         to AS3320 announce AS-ENVIATEL
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS21413
+remarks:        +++++++++++++++++++++++++++++++
+remarks:        Customer
+remarks:        +++++++++++++++++++++++++++++++
+import:         from AS35515 accept AS35515
+export:         to AS35515 announce ANY
+import:         from AS31723 accept AS31723
+export:         to AS31723 announce ANY
+import:         from AS20901 accept AS20901
+export:         to AS20901 announce ANY
+import:         from AS29192 accept AS29192
+export:         to AS29192 announce ANY
+import:         from AS30774 accept AS30774
+export:         to AS30774 announce ANY
+import:         from AS35170 accept AS35170
+export:         to AS35170 announce ANY
+import:         from AS35065 accept AS35065
+export:         to AS35065 announce ANY
+import:         from AS50050 accept AS50050
+export:         to AS50050 announce ANY
+import:         from AS48154 accept AS48154
+export:         to AS48154 announce ANY
+import:         from AS43341 accept AS43341
+export:         to AS43341 announce ANY
+import:         from AS197558 accept AS197558
+export:         to AS197558 announce ANY
+import:         from AS15417 accept AS15417
+export:         to AS15417 announce ANY
+import:         from AS198225 accept AS198225
+import:         from AS198225 accept AS201361
+export:         to AS198225 announce ANY
+import:         from AS41391 accept AS-CLUSTERS
+export:         to AS41391 announce ANY
+import:         from AS42699 accept AS-MANAGEDHOSTING
+export:         to AS42699 announce ANY
+import:         from AS15540 accept AS15540
+export:         to AS15540 announce ANY
+import:         from AS62365 accept AS-DESANET
+export:         to AS62365 announce ANY
+import:         from AS31259 accept AS31259
+export:         to AS31259 announce ANY
+import:         from AS201832 accept AS201832
+export:         to AS201832 announce ANY
+import:         from AS59921 accept AS59921
+export:         to AS59921 announce ANY
+import:         from AS201600 accept AS201600
+export:         to AS201600 announce ANY
+import:         from AS47518 accept AS47518
+export:         to AS47518 announce ANY
+import:         from AS201764 accept AS201764
+export:         to AS201764 announce ANY
+import:         from AS204235 accept AS-LX-MH
+export:         to AS204235 announce ANY
+import:         from AS51401 accept AS51401
+export:         to AS51401 announce ANY
+import:         from AS201059 accept AS201059
+export:         to AS201059 announce ANY
+import:         from AS207210 accept AS207210
+export:         to AS207210 announce ANY
+import:         from AS61352 accept AS61352
+export:         to AS61352 announce ANY
+import:         from AS205691 accept AS205691
+export:         to AS205691 announce ANY
+import:         from AS205741 accept AS205741
+export:         to AS205741 announce ANY
+import:         from AS205435 accept AS205435
+export:         to AS205435 announce ANY
+import:         from AS204877 accept AS204877
+export:         to AS204877 announce ANY
+import:         from AS204924 accept AS204924
+export:         to AS204924 announce ANY
+import:         from AS13251 accept AS13251
+export:         to AS13251 announce ANY
+import:         from AS200599 accept AS200599
+export:         to AS200599 announce ANY
+remarks:        +++++++++++++++++++++++++++++++++
+remarks:        Peering DE-CIX
+remarks:        ++++++++++++++++++++++++++++++++++
+import:         from AS6695 accept AS-DECIX
+export:         to AS6695 announce AS-ENVIATEL
+import:         from AS553 accept AS-BELWUE
+export:         to AS553 announce AS-ENVIATEL
+import:         from AS6805 accept AS-TDDE
+export:         to AS6805 announce AS-ENVIATEL
+import:         from AS8365 accept AS-MANDA
+export:         to AS8365 announce AS-ENVIATEL
+import:         from AS8422 accept AS-NETCOLOGNE
+export:         to AS8422 announce AS-ENVIATEL
+import:         from AS20773 accept AS-HOSTEUROPE
+export:         to AS20773 announce AS-ENVIATEL
+import:         from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce AS-ENVIATEL
+import:         from AS13030 accept AS-INIT7
+export:         to AS13030 announce AS-ENVIATEL
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-ENVIATEL
+import:         from AS2906 accept AS2906
+export:         to AS2906 announce AS-ENVIATEL
+import:         from AS714 accept AS-APPLE
+export:         to AS714 announce AS-ENVIATEL
+import:         from AS51324 accept AS51324
+export:         to AS51324 announce AS-ENVIATEL
+import:         from AS22822 accept  AS-LLNW
+export:         to AS22822 announce AS-ENVIATEL
+import:         from AS32590 accept AS-VALVE
+export:         to AS32590 announce AS-ENVIATEL
+remarks:        +++++++++++++++++++++++++++++++
+remarks:        direct private Peering
+remarks:        +++++++++++++++++++++++++++++++
+import:         from AS15372 accept AS-IBH
+export:         to AS15372 announce AS-ENVIATEL
+import:         from AS16205 accept AS-DSI
+export:         to AS16205 announce AS-ENVIATEL
+import:         from AS24940 accept AS-HETZNER
+export:         to AS24940 announce AS-ENVIATEL
+import:         from AS15169 accept AS-GOOGLE
+export:         to AS15169 announce AS-ENVIATEL
+import:         from AS32934 accept AS-FACEBOOK
+export:         to AS32934 announce AS-ENVIATEL
+import:         from AS46489 accept AS-TWITCH
+export:         to AS46489 announce AS-ENVIATEL
+import:         from AS16509 accept AS-AMAZON
+export:         to AS16509 announce AS-ENVIATEL
+remarks:        +++++++++++++++++++++++++++++++
+remarks:        peering requests to noc@envia-tel.net
+remarks:        +++++++++++++++++++++++++++++++
+admin-c:        HE295-RIPE
+tech-c:         HE295-RIPE
+status:         ASSIGNED
+remarks:        +++++++++++++++++++++++++++++++
+remarks:        BGP communities for envia TEL customers
+remarks:        +++++++++++++++++++++++++++++++
+remarks:        65535:666 Blackhole Community - discard traffic
+remarks:        21413:20001 set local preference to 500 (default 700)
+remarks:        21413:20002 set local preference to 600 (default 700)
+remarks:        21413:30001 prepend as path 1 time
+remarks:        21413:30001 prepend as path 2 times
+remarks:        21413:30001 prepend as path 3 times
+remarks:        +++++++++++++++++++++++++++++++
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ENVIA-TEL-MNT
+created:        2002-08-28T14:52:25Z
+last-modified:  2019-01-28T11:43:10Z
+source:         RIPE
+
+organisation:   ORG-ETG1-RIPE
+org-name:       Envia Tel GmbH
+org-type:       LIR
+address:        Friedrich-Ebert-Str. 26
+address:        D-04416
+address:        Markkleeberg
+address:        GERMANY
+phone:          +49 371 482 8873
+fax-no:         +49 371 482 8845
+admin-c:        HE295-RIPE
+abuse-c:        HE295-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ENVIA-TEL-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ENVIA-TEL-MNT
+created:        2004-04-17T11:07:02Z
+last-modified:  2017-06-07T06:47:38Z
+source:         RIPE # Filtered
+
+role:           Hostmaster envia.tel
+address:        envia TEL GmbH
+address:        Chemnitztalstrae 13
+address:        D-09114 Chemnitz
+phone:          +49 371 482 8837
+fax-no:         +49 371 482 8845
+remarks:        trouble: abuse reports to abuse@envia-tel.net
+admin-c:        FB3413-RIPE
+admin-c:        KE1975-RIPE
+tech-c:         FB3413-RIPE
+tech-c:         KE1975-RIPE
+nic-hdl:        HE295-RIPE
+remarks:        role account for Hostmasters envia Tel GmbH
+mnt-by:         ENVIA-TEL-MNT
+created:        2002-12-03T07:24:44Z
+last-modified:  2018-05-25T11:30:37Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@envia-tel.net
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

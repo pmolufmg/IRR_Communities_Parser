@@ -1,0 +1,420 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS42456
+as-name:       CHMURTZ-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS174 accept ANY
+import:        from AS6762 accept ANY
+import:        from AS42 accept ANY
+import:        from AS714 accept ANY
+import:        from AS1248 accept ANY
+import:        from AS1267 accept ANY
+import:        from AS1764 accept ANY
+import:        from AS2603 accept ANY
+import:        from AS3216 accept ANY
+import:        from AS3223 accept ANY
+import:        from AS3856 accept ANY
+import:        from AS4589 accept ANY
+import:        from AS4651 accept ANY
+import:        from AS5410 accept ANY
+import:        from AS5430 accept ANY
+import:        from AS5580 accept ANY
+import:        from AS6667 accept ANY
+import:        from AS6695 accept ANY
+import:        from AS6730 accept ANY
+import:        from AS6805 accept ANY
+import:        from AS6939 accept ANY
+import:        from AS7342 accept ANY
+import:        from AS8075 accept ANY
+import:        from AS8359 accept ANY
+import:        from AS8365 accept ANY
+import:        from AS8422 accept ANY
+import:        from AS8513 accept ANY
+import:        from AS8551 accept ANY
+import:        from AS8632 accept ANY
+import:        from AS8657 accept ANY
+import:        from AS8674 accept ANY
+import:        from AS8708 accept ANY
+import:        from AS8781 accept ANY
+import:        from AS8823 accept ANY
+import:        from AS8966 accept ANY
+import:        from AS9063 accept ANY
+import:        from AS10310 accept ANY
+import:        from AS12322 accept ANY
+import:        from AS12327 accept ANY
+import:        from AS12611 accept ANY
+import:        from AS12713 accept ANY
+import:        from AS12859 accept ANY
+import:        from AS12989 accept ANY
+import:        from AS13030 accept ANY
+import:        from AS13285 accept ANY
+import:        from AS13335 accept ANY
+import:        from AS15133 accept ANY
+import:        from AS15763 accept ANY
+import:        from AS16276 accept ANY
+import:        from AS16347 accept ANY
+import:        from AS16509 accept ANY
+import:        from AS19151 accept ANY
+import:        from AS20773 accept ANY
+import:        from AS20940 accept ANY
+import:        from AS21021 accept ANY
+import:        from AS21385 accept ANY
+import:        from AS23148 accept ANY
+import:        from AS24940 accept ANY
+import:        from AS24989 accept ANY
+import:        from AS25220 accept ANY
+import:        from AS29066 accept ANY
+import:        from AS31400 accept ANY
+import:        from AS32590 accept ANY
+import:        from AS32934 accept ANY
+import:        from AS33873 accept ANY
+import:        from AS33891 accept ANY
+import:        from AS34309 accept ANY
+import:        from AS34655 accept ANY
+import:        from AS34695 accept ANY
+import:        from AS36408 accept ANY
+import:        from AS36692 accept ANY
+import:        from AS39257 accept ANY
+import:        from AS39912 accept ANY
+import:        from AS41552 accept ANY
+import:        from AS41692 accept ANY
+import:        from AS42473 accept ANY
+import:        from AS43531 accept ANY
+import:        from AS44066 accept ANY
+import:        from AS44217 accept ANY
+import:        from AS44654 accept ANY
+import:        from AS47195 accept ANY
+import:        from AS47692 accept ANY
+import:        from AS48200 accept ANY
+import:        from AS49544 accept ANY
+import:        from AS50472 accept ANY
+import:        from AS60294 accept ANY
+import:        from AS61955 accept ANY
+import:        from AS2200 accept ANY
+import:        from AS2483 accept ANY
+import:        from AS2486 accept ANY
+import:        from AS5410 accept ANY
+import:        from AS5580 accept ANY
+import:        from AS6939 accept ANY
+import:        from AS8487 accept ANY
+import:        from AS8560 accept ANY
+import:        from AS15830 accept ANY
+import:        from AS16509 accept ANY
+import:        from AS20940 accept ANY
+import:        from AS33934 accept ANY
+import:        from AS39326 accept ANY
+import:        from AS41692 accept ANY
+import:        from AS50620 accept ANY
+import:        from AS51706 accept ANY
+import:        from AS57928 accept ANY
+import:        from AS60439 accept ANY
+export:        to AS174 announce AS-CHMURTZ
+export:        to AS6762 announce AS-CHMURTZ
+export:        to AS42 announce AS-CHMURTZ
+export:        to AS714 announce AS-CHMURTZ
+export:        to AS1248 announce AS-CHMURTZ
+export:        to AS1267 announce AS-CHMURTZ
+export:        to AS1764 announce AS-CHMURTZ
+export:        to AS2603 announce AS-CHMURTZ
+export:        to AS3216 announce AS-CHMURTZ
+export:        to AS3223 announce AS-CHMURTZ
+export:        to AS3856 announce AS-CHMURTZ
+export:        to AS4589 announce AS-CHMURTZ
+export:        to AS4651 announce AS-CHMURTZ
+export:        to AS5410 announce AS-CHMURTZ
+export:        to AS5430 announce AS-CHMURTZ
+export:        to AS5580 announce AS-CHMURTZ
+export:        to AS6667 announce AS-CHMURTZ
+export:        to AS6695 announce AS-CHMURTZ
+export:        to AS6730 announce AS-CHMURTZ
+export:        to AS6805 announce AS-CHMURTZ
+export:        to AS6939 announce AS-CHMURTZ
+export:        to AS7342 announce AS-CHMURTZ
+export:        to AS8075 announce AS-CHMURTZ
+export:        to AS8359 announce AS-CHMURTZ
+export:        to AS8365 announce AS-CHMURTZ
+export:        to AS8422 announce AS-CHMURTZ
+export:        to AS8513 announce AS-CHMURTZ
+export:        to AS8551 announce AS-CHMURTZ
+export:        to AS8632 announce AS-CHMURTZ
+export:        to AS8657 announce AS-CHMURTZ
+export:        to AS8674 announce AS-CHMURTZ
+export:        to AS8708 announce AS-CHMURTZ
+export:        to AS8781 announce AS-CHMURTZ
+export:        to AS8823 announce AS-CHMURTZ
+export:        to AS8966 announce AS-CHMURTZ
+export:        to AS9063 announce AS-CHMURTZ
+export:        to AS10310 announce AS-CHMURTZ
+export:        to AS12322 announce AS-CHMURTZ
+export:        to AS12327 announce AS-CHMURTZ
+export:        to AS12611 announce AS-CHMURTZ
+export:        to AS12713 announce AS-CHMURTZ
+export:        to AS12859 announce AS-CHMURTZ
+export:        to AS12989 announce AS-CHMURTZ
+export:        to AS13030 announce AS-CHMURTZ
+export:        to AS13285 announce AS-CHMURTZ
+export:        to AS13335 announce AS-CHMURTZ
+export:        to AS15133 announce AS-CHMURTZ
+export:        to AS15763 announce AS-CHMURTZ
+export:        to AS16276 announce AS-CHMURTZ
+export:        to AS16347 announce AS-CHMURTZ
+export:        to AS16509 announce AS-CHMURTZ
+export:        to AS19151 announce AS-CHMURTZ
+export:        to AS20773 announce AS-CHMURTZ
+export:        to AS20940 announce AS-CHMURTZ
+export:        to AS21021 announce AS-CHMURTZ
+export:        to AS21385 announce AS-CHMURTZ
+export:        to AS23148 announce AS-CHMURTZ
+export:        to AS24940 announce AS-CHMURTZ
+export:        to AS24989 announce AS-CHMURTZ
+export:        to AS25220 announce AS-CHMURTZ
+export:        to AS29066 announce AS-CHMURTZ
+export:        to AS31400 announce AS-CHMURTZ
+export:        to AS32590 announce AS-CHMURTZ
+export:        to AS32934 announce AS-CHMURTZ
+export:        to AS33873 announce AS-CHMURTZ
+export:        to AS33891 announce AS-CHMURTZ
+export:        to AS34309 announce AS-CHMURTZ
+export:        to AS34655 announce AS-CHMURTZ
+export:        to AS34695 announce AS-CHMURTZ
+export:        to AS36408 announce AS-CHMURTZ
+export:        to AS36692 announce AS-CHMURTZ
+export:        to AS39257 announce AS-CHMURTZ
+export:        to AS39912 announce AS-CHMURTZ
+export:        to AS41552 announce AS-CHMURTZ
+export:        to AS41692 announce AS-CHMURTZ
+export:        to AS42473 announce AS-CHMURTZ
+export:        to AS43531 announce AS-CHMURTZ
+export:        to AS44066 announce AS-CHMURTZ
+export:        to AS44217 announce AS-CHMURTZ
+export:        to AS44654 announce AS-CHMURTZ
+export:        to AS47195 announce AS-CHMURTZ
+export:        to AS47692 announce AS-CHMURTZ
+export:        to AS48200 announce AS-CHMURTZ
+export:        to AS49544 announce AS-CHMURTZ
+export:        to AS50472 announce AS-CHMURTZ
+export:        to AS60294 announce AS-CHMURTZ
+export:        to AS61955 announce AS-CHMURTZ
+export:        to AS2200 announce AS-CHMURTZ
+export:        to AS2483 announce AS-CHMURTZ
+export:        to AS2486 announce AS-CHMURTZ
+export:        to AS5410 announce AS-CHMURTZ
+export:        to AS5580 announce AS-CHMURTZ
+export:        to AS6939 announce AS-CHMURTZ
+export:        to AS8487 announce AS-CHMURTZ
+export:        to AS8560 announce AS-CHMURTZ
+export:        to AS15830 announce AS-CHMURTZ
+export:        to AS16509 announce AS-CHMURTZ
+export:        to AS20940 announce AS-CHMURTZ
+export:        to AS33934 announce AS-CHMURTZ
+export:        to AS39326 announce AS-CHMURTZ
+export:        to AS41692 announce AS-CHMURTZ
+export:        to AS50620 announce AS-CHMURTZ
+export:        to AS51706 announce AS-CHMURTZ
+export:        to AS57928 announce AS-CHMURTZ
+export:        to AS60439 announce AS-CHMURTZ
+remarks:       ---------------------------------
+remarks:       -- IPv4 Upstream ----------------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv6 Upstream ----------------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv4 Peering at DECIX -------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv6 Peering at DECIX -------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv4 Peering at SFINX --------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv6 Peering at SFINX --------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv4 Peering at FRANCEIX------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv6 Peering at FRANCEIX -----
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv4 Peering at Eurogix -------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       -- IPv6 Peering at Eurogix -------
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       ----------- IPv4 Downstream -----
+remarks:       ---------------------------------
+remarks:       to AS20994 announce any
+remarks:       from AS20994 accept AS20994
+remarks:       to AS31221 announce any
+remarks:       from AS31221 accept AS31221
+remarks:       to AS41405 announce any
+remarks:       from AS41405 accept AS41405
+remarks:       to AS43192 announce any
+remarks:       from AS43192 accept AS43192
+remarks:       to AS47216 announce any
+remarks:       from AS47216 accept AS47216
+remarks:       to AS48913 announce any
+remarks:       from AS48913 accept AS48913
+remarks:       to AS50135 announce any
+remarks:       from AS50135 accept AS50135
+remarks:       to AS50547 announce any
+remarks:       from AS50547 accept AS50547
+remarks:       to AS61136 announce any
+remarks:       from AS61136 accept AS61136
+remarks:       to AS62141 announce any
+remarks:       from AS62141 accept AS62141
+remarks:       to AS196658 announce any
+remarks:       from AS196658 accept AS196658
+remarks:       to AS198126 announce any
+remarks:       from AS198126 accept AS198126
+remarks:       to AS199935 announce any
+remarks:       from AS199935 accept AS199935
+remarks:       to AS200728 announce any
+remarks:       from AS200728 accept AS200728
+remarks:       to AS203679 announce any
+remarks:       from AS203679 accept AS203679
+remarks:       to AS204140 announce any
+remarks:       from AS204140 accept AS204140
+remarks:       to AS204645 announce any
+remarks:       from AS204645 accept AS204645
+remarks:       to AS207216 announce any
+remarks:       from AS207216 accept AS207216
+remarks:       ---------------------------------
+remarks:       ----------- IPv6 Downstream -----
+remarks:       ---------------------------------
+remarks:       to AS20994 announce any
+remarks:       from AS20994 accept AS20994
+remarks:       to AS31221 announce any
+remarks:       from AS31221 accept AS31221
+remarks:       to AS41405 announce any
+remarks:       from AS41405 accept AS41405
+remarks:       to AS43192 announce any
+remarks:       from AS43192 accept AS43192
+remarks:       to AS39567 announce any
+remarks:       from AS39567 accept AS39567
+remarks:       to AS48913 announce any
+remarks:       from AS48913 accept AS48913
+remarks:       to AS50135 announce any
+remarks:       from AS50135 accept AS50135
+remarks:       to AS50547 announce any
+remarks:       from AS50547 accept AS50547
+remarks:       to AS61136 announce any
+remarks:       from AS61136 accept AS61136
+remarks:       to AS62141 announce any
+remarks:       from AS62141 accept AS62141
+remarks:       to AS196658 announce any
+remarks:       from AS196658 accept AS196658
+remarks:       to AS198126 announce any
+remarks:       from AS198126 accept AS198126
+remarks:       to AS199935 announce any
+remarks:       from AS199935 accept AS199935
+remarks:       to AS200728 announce any
+remarks:       from AS200728 accept AS200728
+remarks:       to AS203679 announce any
+remarks:       from AS203679 accept AS203679
+remarks:       to AS204140 announce any
+remarks:       from AS204140 accept AS204140
+remarks:       to AS204645 announce any
+remarks:       from AS204645 accept AS204645
+remarks:       to AS207216 announce any
+remarks:       from AS207216 accept AS207216
+remarks:       ---------------------------------
+remarks:       -- Customer Traffic Communities -
+remarks:       ---------------------------------
+remarks:       Informational Communities
+remarks:       42456:1020 Tag Transit Telecom Italia
+remarks:       42456:1030 Tag Transit Cogent
+remarks:       42456:1900 Tag Transit Global
+remarks:       42456:2010 Tag Peering Decix
+remarks:       42456:2040 Tag Peering Sfinx
+remarks:       42456:2050 Tag Peering FranceIX
+remarks:       42456:2090 Tag Peering Eurogix
+remarks:       42456:2110 Tag Peering Lyonix
+remarks:       42456:2900 Tag Peering Global
+remarks:       42456:9010 Tag Routes Frankfurt
+remarks:       42456:9020 Tag Routes Nice
+remarks:       42456:9030 Tag Routes Paris
+remarks:       42456:9040 Tag Routes Strasbourg
+remarks:       42456:9050 Tag Routes Lyon
+remarks:       42456:9900 Tag Routes Customers
+remarks:       Network Communities
+remarks:       42456:51020 No Announce Telecom Italia
+remarks:       42456:51021 Prepend 1 Telecom Italia
+remarks:       42456:51022 Prepend 2 Telecom Italia
+remarks:       42456:51023 Prepend 3 Telecom Italia
+remarks:       42456:51030 No Announce Cogent
+remarks:       42456:51031 Prepend 1 Cogent
+remarks:       42456:51032 Prepend 2 Cogent
+remarks:       42456:51033 Prepend 3 Cogent
+remarks:       42456:52010 No Announce Decix
+remarks:       42456:52011 Prepend 1 Decix
+remarks:       42456:52012 Prepend 2 Decix
+remarks:       42456:52013 Prepend 3 Decix
+remarks:       42456:52040 No Announce Sfinx
+remarks:       42456:52041 Prepend 1 Sfinx
+remarks:       42456:52042 Prepend 2 Sfinx
+remarks:       42456:52043 Prepend 3 Sfinx
+remarks:       42456:52050 No Announce FranceIX
+remarks:       42456:52051 Prepend 1 FranceIX
+remarks:       42456:52052 Prepend 2 FranceIX
+remarks:       42456:52053 Prepend 3 FranceIX
+remarks:       42456:52090 No Announce Eurogix
+remarks:       42456:52091 Prepend 1 Eurogix
+remarks:       42456:52092 Prepend 2 Eurogix
+remarks:       42456:52093 Prepend 3 Eurogix
+remarks:       42456:52110 No Announce Lyonix
+remarks:       42456:52111 Prepend 1 Lyonix
+remarks:       42456:52112 Prepend 2 Lyonix
+remarks:       42456:52113 Prepend 3 Lyonix
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       - Network Informations :
+remarks:       - http://www.as42456.net
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       Peering Exchange points
+remarks:       Sfinx Paris - FR
+remarks:       FranceIX Paris - FR
+remarks:       Lyonix Lyon - FR
+remarks:       Eurogix Strasbourg - FR
+remarks:       DeCIX Frankfurt - DE
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       Point Of Presence
+remarks:       Telehouse2 Paris - FR
+remarks:       Netcenter Strasbourg - FR
+remarks:       Euclyde Sophia Antipolis - FR
+remarks:       Tutor Nancy - FR
+remarks:       SANEF Metz - FR
+remarks:       SANEF St Avold - FR
+remarks:       Interxion1 Frankfurt - DE
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       - we support open peering policy
+remarks:       - contact us for peering or
+remarks:       - dedicated Ip transport
+remarks:       - peering: peering-at-widevoip.com
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       - 24h/24 - 7j/7 Network support
+remarks:       - please contact by mail at
+remarks:       - noc: noc-at-widevoip.com
+remarks:       ---------------------------------
+remarks:       ---------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        MNT-CHMURTZ-SARL
+source:        RIPE
+
+

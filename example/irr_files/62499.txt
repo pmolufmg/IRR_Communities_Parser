@@ -1,0 +1,215 @@
+aut-num:	AS62499
+as-name: 	DECIX-DFW-AS
+descr: 		DE-CIX North America Inc.
+descr: 		DE-CIX Dallas
+descr:		US
+admin-c:        DUMY-ARIN
+tech-c:         DUMY-ARIN
+mnt-by: 	MNT-DNA-31
+remarks:
+remarks:        You may use BGP (Extended) Communities to control
+remarks:        route advertisement via the Route Servers:
+remarks:
+remarks:        (62499:62499): Redistribute to all Route Server peers
+remarks:        (62499:$PEER-AS), (rt:62499:$PEER-AS): Redistribute to $PEER-AS
+remarks:        (0:$PEER-AS), (rt:0:$PEER-AS): Redistribute to all peers except $PEER-AS
+remarks:        (0:62499): Do not redistribute
+remarks:
+remarks:        If $PEER-AS uses a 2B ASN, you may use Standard or Extended Communities
+remarks:        If $PEER-AS uses a 4B ASN, you have to use Extended Communities
+remarks:
+remarks:        There are additional communities for controlling announcements:
+remarks:
+remarks:        65535:666  set community BLACKHOLE
+remarks:        62499:65281 set community NO-EXPORT
+remarks:        62499:65282 set community NO-ADVERTISE
+remarks:
+remarks:        For more information on Route Server control and Blackholing, please see:
+remarks:        https://portal.de-cix.net/home/documentation/routeserver-guides/
+remarks:        https://portal.de-cix.net/home/documentation/blackholing-guide/
+remarks:
+mp-import:      afi ipv6.unicast from AS6939   2001:504:61::1b1b:0:1          at         2001:504:61::f423:fc:1 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:504:61::1b1b:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS6939   2001:504:61::1b1b:0:1          at         2001:504:61::f423:fd:1 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:504:61::1b1b:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS6939   206.53.202.3                   at                 206.53.202.252 accept   AS-HURRICANE
+export:         to   AS6939   206.53.202.3                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS6939   206.53.202.3                   at                 206.53.202.253 accept   AS-HURRICANE
+export:         to   AS6939   206.53.202.3                   at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS8001   2001:504:61::1f41:0:1          at         2001:504:61::f423:fc:1 accept   AS-NETACCESS
+mp-export:      afi ipv6.unicast to   AS8001   2001:504:61::1f41:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS8001   2001:504:61::1f41:0:1          at         2001:504:61::f423:fd:1 accept   AS-NETACCESS
+mp-export:      afi ipv6.unicast to   AS8001   2001:504:61::1f41:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS8001   206.53.202.8                   at                 206.53.202.252 accept   AS-NETACCESS
+export:         to   AS8001   206.53.202.8                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS8001   206.53.202.8                   at                 206.53.202.253 accept   AS-NETACCESS
+export:         to   AS8001   206.53.202.8                   at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS10310  2001:504:61::2846:0:1          at         2001:504:61::f423:fc:1 accept   AS-YAHOO
+mp-export:      afi ipv6.unicast to   AS10310  2001:504:61::2846:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS10310  2001:504:61::2846:0:1          at         2001:504:61::f423:fd:1 accept   AS-YAHOO
+mp-export:      afi ipv6.unicast to   AS10310  2001:504:61::2846:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS10310  206.53.202.10                  at                 206.53.202.252 accept   AS-YAHOO
+export:         to   AS10310  206.53.202.10                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS10310  206.53.202.10                  at                 206.53.202.253 accept   AS-YAHOO
+export:         to   AS10310  206.53.202.10                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS10310  2001:504:61::2846:0:2          at         2001:504:61::f423:fc:1 accept   AS-YAHOO
+mp-export:      afi ipv6.unicast to   AS10310  2001:504:61::2846:0:2          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS10310  2001:504:61::2846:0:2          at         2001:504:61::f423:fd:1 accept   AS-YAHOO
+mp-export:      afi ipv6.unicast to   AS10310  2001:504:61::2846:0:2          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS10310  206.53.202.12                  at                 206.53.202.252 accept   AS-YAHOO
+export:         to   AS10310  206.53.202.12                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS10310  206.53.202.12                  at                 206.53.202.253 accept   AS-YAHOO
+export:         to   AS10310  206.53.202.12                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS12200  2001:504:61::2fa8:0:1          at         2001:504:61::f423:fc:1 accept   AS-RACKSPACE
+mp-export:      afi ipv6.unicast to   AS12200  2001:504:61::2fa8:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS12200  2001:504:61::2fa8:0:1          at         2001:504:61::f423:fd:1 accept   AS-RACKSPACE
+mp-export:      afi ipv6.unicast to   AS12200  2001:504:61::2fa8:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS12200  206.53.202.5                   at                 206.53.202.252 accept   AS-RACKSPACE
+export:         to   AS12200  206.53.202.5                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS12200  206.53.202.5                   at                 206.53.202.253 accept   AS-RACKSPACE
+export:         to   AS12200  206.53.202.5                   at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS12989  2001:504:61::32bd:0:1          at         2001:504:61::f423:fc:1 accept   AS-HWNG
+mp-export:      afi ipv6.unicast to   AS12989  2001:504:61::32bd:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS12989  2001:504:61::32bd:0:1          at         2001:504:61::f423:fd:1 accept   AS-HWNG
+mp-export:      afi ipv6.unicast to   AS12989  2001:504:61::32bd:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS12989  206.53.202.4                   at                 206.53.202.252 accept   AS-HWNG
+export:         to   AS12989  206.53.202.4                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS12989  206.53.202.4                   at                 206.53.202.253 accept   AS-HWNG
+export:         to   AS12989  206.53.202.4                   at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS13335  2001:504:61::3417:0:1          at         2001:504:61::f423:fc:1 accept   AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to   AS13335  2001:504:61::3417:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS13335  2001:504:61::3417:0:1          at         2001:504:61::f423:fd:1 accept   AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to   AS13335  2001:504:61::3417:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS13335  206.53.202.2                   at                 206.53.202.252 accept   AS-CLOUDFLARE
+export:         to   AS13335  206.53.202.2                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS13335  206.53.202.2                   at                 206.53.202.253 accept   AS-CLOUDFLARE
+export:         to   AS13335  206.53.202.2                   at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS13823  2001:504:61::35ff:0:1          at         2001:504:61::f423:fc:1 accept   AS-MESHNET
+mp-export:      afi ipv6.unicast to   AS13823  2001:504:61::35ff:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS13823  2001:504:61::35ff:0:1          at         2001:504:61::f423:fd:1 accept   AS-MESHNET
+mp-export:      afi ipv6.unicast to   AS13823  2001:504:61::35ff:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS13823  206.53.202.6                   at                 206.53.202.252 accept   AS-MESHNET
+export:         to   AS13823  206.53.202.6                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS13823  206.53.202.6                   at                 206.53.202.253 accept   AS-MESHNET
+export:         to   AS13823  206.53.202.6                   at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS15133  2001:504:61::3b1d:0:1          at         2001:504:61::f423:fc:1 accept   AS-EDGECAST
+mp-export:      afi ipv6.unicast to   AS15133  2001:504:61::3b1d:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS15133  2001:504:61::3b1d:0:1          at         2001:504:61::f423:fd:1 accept   AS-EDGECAST
+mp-export:      afi ipv6.unicast to   AS15133  2001:504:61::3b1d:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS15133  206.53.202.19                  at                 206.53.202.252 accept   AS-EDGECAST
+export:         to   AS15133  206.53.202.19                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS15133  206.53.202.19                  at                 206.53.202.253 accept   AS-EDGECAST
+export:         to   AS15133  206.53.202.19                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS15169  2001:504:61::3b41:0:1          at         2001:504:61::f423:fc:1 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:504:61::3b41:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS15169  2001:504:61::3b41:0:1          at         2001:504:61::f423:fd:1 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:504:61::3b41:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS15169  206.53.202.11                  at                 206.53.202.252 accept   AS-GOOGLE
+export:         to   AS15169  206.53.202.11                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS15169  206.53.202.11                  at                 206.53.202.253 accept   AS-GOOGLE
+export:         to   AS15169  206.53.202.11                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS22442  2001:504:61::57aa:0:1          at         2001:504:61::f423:fc:1 accept   AS-PHONOSCOPE
+mp-export:      afi ipv6.unicast to   AS22442  2001:504:61::57aa:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS22442  2001:504:61::57aa:0:1          at         2001:504:61::f423:fd:1 accept   AS-PHONOSCOPE
+mp-export:      afi ipv6.unicast to   AS22442  2001:504:61::57aa:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS22442  206.53.202.21                  at                 206.53.202.252 accept   AS-PHONOSCOPE
+export:         to   AS22442  206.53.202.21                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS22442  206.53.202.21                  at                 206.53.202.253 accept   AS-PHONOSCOPE
+export:         to   AS22442  206.53.202.21                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS26801  2001:504:61::68b1:0:1          at         2001:504:61::f423:fc:1 accept   AS-ZITO
+mp-export:      afi ipv6.unicast to   AS26801  2001:504:61::68b1:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS26801  2001:504:61::68b1:0:1          at         2001:504:61::f423:fd:1 accept   AS-ZITO
+mp-export:      afi ipv6.unicast to   AS26801  2001:504:61::68b1:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS26801  206.53.202.14                  at                 206.53.202.252 accept   AS-ZITO
+export:         to   AS26801  206.53.202.14                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS26801  206.53.202.14                  at                 206.53.202.253 accept   AS-ZITO
+export:         to   AS26801  206.53.202.14                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS32934  2001:504:61::80a6:0:1          at         2001:504:61::f423:fc:1 accept   AS32934
+mp-export:      afi ipv6.unicast to   AS32934  2001:504:61::80a6:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS32934  2001:504:61::80a6:0:1          at         2001:504:61::f423:fd:1 accept   AS32934
+mp-export:      afi ipv6.unicast to   AS32934  2001:504:61::80a6:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS32934  206.53.202.17                  at                 206.53.202.252 accept   AS32934
+export:         to   AS32934  206.53.202.17                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS32934  206.53.202.17                  at                 206.53.202.253 accept   AS32934
+export:         to   AS32934  206.53.202.17                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS32934  2001:504:61::80a6:0:2          at         2001:504:61::f423:fc:1 accept   AS32934
+mp-export:      afi ipv6.unicast to   AS32934  2001:504:61::80a6:0:2          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS32934  2001:504:61::80a6:0:2          at         2001:504:61::f423:fd:1 accept   AS32934
+mp-export:      afi ipv6.unicast to   AS32934  2001:504:61::80a6:0:2          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS32934  206.53.202.18                  at                 206.53.202.252 accept   AS32934
+export:         to   AS32934  206.53.202.18                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS32934  206.53.202.18                  at                 206.53.202.253 accept   AS32934
+export:         to   AS32934  206.53.202.18                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS36086  2001:504:61::8cf6:0:1          at         2001:504:61::f423:fc:1 accept   AS-TELX
+mp-export:      afi ipv6.unicast to   AS36086  2001:504:61::8cf6:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS36086  2001:504:61::8cf6:0:1          at         2001:504:61::f423:fd:1 accept   AS-TELX
+mp-export:      afi ipv6.unicast to   AS36086  2001:504:61::8cf6:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS36086  206.53.202.20                  at                 206.53.202.252 accept   AS-TELX
+export:         to   AS36086  206.53.202.20                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS36086  206.53.202.20                  at                 206.53.202.253 accept   AS-TELX
+export:         to   AS36086  206.53.202.20                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS36351  2001:504:61::8dff:0:1          at         2001:504:61::f423:fc:1 accept   AS-SOFTLAYER
+mp-export:      afi ipv6.unicast to   AS36351  2001:504:61::8dff:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS36351  2001:504:61::8dff:0:1          at         2001:504:61::f423:fd:1 accept   AS-SOFTLAYER
+mp-export:      afi ipv6.unicast to   AS36351  2001:504:61::8dff:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS36351  206.53.202.9                   at                 206.53.202.252 accept   AS-SOFTLAYER
+export:         to   AS36351  206.53.202.9                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS36351  206.53.202.9                   at                 206.53.202.253 accept   AS-SOFTLAYER
+export:         to   AS36351  206.53.202.9                   at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS43531  2001:504:61::aa0b:0:1          at         2001:504:61::f423:fc:1 accept   AS-IXREACH
+mp-export:      afi ipv6.unicast to   AS43531  2001:504:61::aa0b:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS43531  2001:504:61::aa0b:0:1          at         2001:504:61::f423:fd:1 accept   AS-IXREACH
+mp-export:      afi ipv6.unicast to   AS43531  2001:504:61::aa0b:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS43531  206.53.202.1                   at                 206.53.202.252 accept   AS-IXREACH
+export:         to   AS43531  206.53.202.1                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS43531  206.53.202.1                   at                 206.53.202.253 accept   AS-IXREACH
+export:         to   AS43531  206.53.202.1                   at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS46489  2001:504:61::b599:0:1          at         2001:504:61::f423:fc:1 accept   AS-TWITCH
+mp-export:      afi ipv6.unicast to   AS46489  2001:504:61::b599:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS46489  2001:504:61::b599:0:1          at         2001:504:61::f423:fd:1 accept   AS-TWITCH
+mp-export:      afi ipv6.unicast to   AS46489  2001:504:61::b599:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS46489  206.53.202.15                  at                 206.53.202.252 accept   AS-TWITCH
+export:         to   AS46489  206.53.202.15                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS46489  206.53.202.15                  at                 206.53.202.253 accept   AS-TWITCH
+export:         to   AS46489  206.53.202.15                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS46489  2001:504:61::b599:0:2          at         2001:504:61::f423:fc:1 accept   AS-TWITCH
+mp-export:      afi ipv6.unicast to   AS46489  2001:504:61::b599:0:2          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS46489  2001:504:61::b599:0:2          at         2001:504:61::f423:fd:1 accept   AS-TWITCH
+mp-export:      afi ipv6.unicast to   AS46489  2001:504:61::b599:0:2          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS46489  206.53.202.16                  at                 206.53.202.252 accept   AS-TWITCH
+export:         to   AS46489  206.53.202.16                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS46489  206.53.202.16                  at                 206.53.202.253 accept   AS-TWITCH
+export:         to   AS46489  206.53.202.16                  at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS46632  2001:504:61::b628:0:1          at         2001:504:61::f423:fc:1 accept   AS46632:AS-SWAT
+mp-export:      afi ipv6.unicast to   AS46632  2001:504:61::b628:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS46632  2001:504:61::b628:0:1          at         2001:504:61::f423:fd:1 accept   AS46632:AS-SWAT
+mp-export:      afi ipv6.unicast to   AS46632  2001:504:61::b628:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS46632  206.53.202.13                  at                 206.53.202.252 accept   AS46632:AS-SWAT
+export:         to   AS46632  206.53.202.13                  at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS46632  206.53.202.13                  at                 206.53.202.253 accept   AS46632:AS-SWAT
+export:         to   AS46632  206.53.202.13                  at                 206.53.202.253 announce AS-DECIX-DFW
+import:         from AS62499  206.53.202.249                 at                 206.53.202.252 accept   AS-NADA
+export:         to   AS62499  206.53.202.249                 at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS62499  206.53.202.249                 at                 206.53.202.253 accept   AS-NADA
+export:         to   AS62499  206.53.202.249                 at                 206.53.202.253 announce AS-DECIX-DFW
+mp-import:      afi ipv6.unicast from AS62499  2001:504:61::F423:F9:1         at         2001:504:61::f423:fc:1 accept   AS-NADA
+mp-export:      afi ipv6.unicast to   AS62499  2001:504:61::F423:F9:1         at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS62499  2001:504:61::F423:F9:1         at         2001:504:61::f423:fd:1 accept   AS-NADA
+mp-export:      afi ipv6.unicast to   AS62499  2001:504:61::F423:F9:1         at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS63949  2001:504:61::f9cd:0:1          at         2001:504:61::f423:fc:1 accept   AS-LINODE
+mp-export:      afi ipv6.unicast to   AS63949  2001:504:61::f9cd:0:1          at         2001:504:61::f423:fc:1 announce AS-DECIX-DFW-V6
+mp-import:      afi ipv6.unicast from AS63949  2001:504:61::f9cd:0:1          at         2001:504:61::f423:fd:1 accept   AS-LINODE
+mp-export:      afi ipv6.unicast to   AS63949  2001:504:61::f9cd:0:1          at         2001:504:61::f423:fd:1 announce AS-DECIX-DFW-V6
+import:         from AS63949  206.53.202.7                   at                 206.53.202.252 accept   AS-LINODE
+export:         to   AS63949  206.53.202.7                   at                 206.53.202.252 announce AS-DECIX-DFW
+import:         from AS63949  206.53.202.7                   at                 206.53.202.253 accept   AS-LINODE
+export:         to   AS63949  206.53.202.7                   at                 206.53.202.253 announce AS-DECIX-DFW
+changed:        auto-upd@de-cix.net 20170413
+source:         ARIN
+remarks:        ****************************
+remarks:        * THIS OBJECT CONTAINS PLACEHOLDER DATA
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the ARIN Database at:
+remarks:        * http://www.arin.net/whois
+remarks:        ****************************

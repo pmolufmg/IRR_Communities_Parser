@@ -1,0 +1,268 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8342'
+
+% Abuse contact for 'AS8342' is 'abuse@rtcomm.ru'
+
+aut-num:        AS8342
+as-name:        RTCOMM-AS
+remarks:        Moscow, Russia
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        IPv4 Routing Policy
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        UPSTREAMS:
+remarks:        ----------------------------------------------------------------
+remarks:
+import:         from AS8359 212.188.11.53 at 195.161.1.141 action pref=200; accept ANY
+export:         to AS8359 announce AS-RT
+import:         from AS8359 212.188.31.60 at 195.161.1.70  action pref=100; accept ANY
+export:         to AS8359 212.188.31.60 at 195.161.1.70 announce {195.161.120.0/22, 95.172.157.0/24}
+import:         from AS8920 212.16.222.225 at 195.161.1.41 action pref=100; accept ANY
+export:         to AS8920 announce {195.161.56.0/22}
+import:         from AS12389 188.254.22.221 at 195.161.1.30 action pref=200; accept ANY
+import:         from AS12389 188.254.22.225 at 195.161.1.30 action pref=200; accept ANY
+import:         from AS12389 213.24.114.169 at 195.161.1.45 action pref=200; accept ANY
+export:         to AS12389 announce AS-RT
+import:         from AS12389 188.128.97.233 at 195.161.1.14 action pref=200; accept ANY
+export:         to AS12389 188.128.97.233 at 195.161.1.14 announce AS-RT and {195.161.88.0/22}
+import:         from AS12389 188.128.97.165 at 195.161.1.15 action pref=200; accept ANY
+export:         to AS12389 188.128.97.165 at 195.161.1.15 announce AS-RT and {195.161.140.0/22}
+import:         from AS199728 185.48.113.21 at 195.161.1.13 accept ANY
+export:         to AS199728 announce AS-RT and {195.161.88.0/22}
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        RUSSIAN PEERING PARTNERS (MSK M9 & MSK-IX):
+remarks:        ----------------------------------------------------------------
+remarks:
+import:         from AS3267 195.161.157.198 at 195.161.1.30 action pref=500; accept AS-RUNNET
+export:         to AS3267 announce AS-RT
+import:         from AS12389 195.161.4.138 at 195.161.1.30 action pref=500; accept AS-ROSTELECOM
+import:         from AS12389 213.59.5.110 at 195.161.1.30 action pref=500; accept AS-ROSTELECOM
+import:         from AS12389 188.254.8.153 at 195.161.1.27 action pref=500; accept AS-ROSTELECOM
+export:         to AS12389 announce AS-RT
+import:         from AS15169 193.232.244.232 at 195.161.1.30 action pref=500; accept AS-GOOGLE
+export:         to AS15169 announce AS-RT
+import:         from AS50952 178.18.224.100 at 195.161.1.141 action pref=500; accept AS-DATAIX
+import:         from AS50952 178.18.227.100 at 195.161.1.141 action pref=500; accept AS-DATAIX
+export:         to AS50952 announce AS-RT
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        CUSTOMERS:
+remarks:        ----------------------------------------------------------------
+remarks:
+import:         from AS5473 195.161.157.230 at 195.161.1.3 action pref=1000; accept AS5473
+export:         to AS5473 announce {0.0.0.0/0}
+import:         from AS16083 217.106.31.130 at 195.161.1.19 action pref=1000; accept AS-STACK
+export:         to AS16083 announce ANY
+import:         from AS16176 195.161.157.6 at 195.161.1.193 action pref=1000; accept AS16176
+export:         to AS16176 announce ANY
+import:         from AS39182 81.177.26.105 at 195.161.1.140 action pref=1000; accept AS-I7
+export:         to AS39182 announce ANY
+import:         from AS44532 195.161.4.46 at 195.161.1.251 action pref=1000; from AS44532 195.161.4.146 at 195.161.1.251 action pref=1000; accept AS44532
+export:         to AS44532 announce ANY
+import:         from AS44913 195.161.4.102 at 195.161.1.14 action pref=1000; accept AS44913
+export:         to AS44913 announce ANY
+import:         from AS45027 81.177.22.106 at 195.161.1.140 action pref=1000; accept AS45027
+export:         to AS45027 announce ANY
+import:         from AS47761 195.161.4.98 at 195.161.1.140 action pref=1000; from AS47761 195.161.4.22 at 195.161.1.141 action pref=1000; accept AS47761
+export:         to AS47761 announce ANY
+import:         from AS48349 81.176.69.42 at 195.161.1.45 action pref=1000; from AS48349 81.176.69.43 at 195.161.1.45 action pref=1000; accept AS48349
+export:         to AS48349 announce ANY
+import:         from AS48488 195.161.2.174 at 195.161.1.45 action pref=1000; accept AS48488
+export:         to AS48488 announce ANY
+import:         from AS49002 195.161.40.12 at 195.161.1.27 action pref=1000; from AS49002 213.59.3.190 at 195.161.1.27 action pref=1000; accept AS49002
+export:         to AS49002 announce ANY
+import:         from AS49136 217.106.30.78 at 195.161.1.141 action pref=1000; accept AS-TELENET-NET
+export:         to AS49136 announce ANY
+import:         from AS49347 195.161.161.234 at 195.161.1.142 action pref=1000; accept AS49347
+export:         to AS49347 announce ANY
+import:         from AS52062 217.106.31.6 at 195.161.1.45 action pref=1000; accept AS52062
+export:         to AS52062 announce ANY
+import:         from AS56528 81.177.178.194 at 195.161.1.140 action pref=1000; accept AS56528
+export:         to AS56528 announce ANY
+import:         from AS56601 81.177.26.101 at 195.161.1.140 action pref=1000; accept AS-I7
+export:         to AS56601 announce ANY
+import:         from AS57494 81.176.239.132 at 195.161.1.140 action pref=1000; accept AS57494
+export:         to AS57494 announce ANY
+import:         from AS58097 195.161.2.102 at 195.161.1.28 action pref=1000; from AS58097 217.107.216.194 at 195.161.1.140 action pref=1000; accept AS58097
+export:         to AS58097 announce ANY
+import:         from AS58084 217.106.30.82 at 195.161.1.45 action pref=1000; accept AS58084
+export:         to AS58084 announce {0.0.0.0/0}
+import:         from AS60544 195.161.40.99 at 195.161.1.28 action pref=1000; accept AS60544
+export:         to AS60544 announce {0.0.0.0/0}
+import:         from AS200430 195.161.161.154 at 195.161.1.31 action pref=1000; accept AS200430
+export:         to AS200430 announce {0.0.0.0/0}
+import:         from AS201052 195.161.2.226 at 195.161.1.27 action pref=1000; accept AS201052
+export:         to AS201052 announce ANY
+import:         from AS206668 195.161.42.2 at 195.161.1.251 action pref=1000; accept AS206668
+export:         to AS206668 announce ANY
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        IPv6 Routing Policy
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        UPSTREAMS:
+remarks:        ----------------------------------------------------------------
+remarks:
+mp-import:      afi ipv6.unicast from AS8359 2A02:28:1:2::5F:15 at 195.161.1.141 accept ANY
+mp-export:      afi ipv6.unicast to AS8359 announce AS-RT-IPV6
+mp-import:      afi ipv6.unicast from AS12389 2a01:620:1:200f::1 at 195.161.1.30 action pref=200; accept ANY
+mp-import:      afi ipv6.unicast from AS12389 2a01:620:1:2019::1 at 195.161.1.30 action pref=200; accept ANY
+mp-import:      afi ipv6.unicast from AS12389 2a01:620:1:2031::1 at 195.161.1.45 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS12389 announce AS-RT-IPV6
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        RUSSIAN PEERING PARTNERS (MSK M9 & MSK-IX):
+remarks:        ----------------------------------------------------------------
+remarks:
+mp-import:      afi ipv6.unicast from AS12389 2a01:620:1:200a::1 at 195.161.1.30 action pref=500; accept AS-ROSTELECOM
+mp-import:      afi ipv6.unicast from AS12389 2a01:620:1:200e::1 at 195.161.1.30 action pref=500; accept AS-ROSTELECOM
+mp-import:      afi ipv6.unicast from AS12389 2a01:620:1:201c::1 at 195.161.1.27 action pref=500; accept AS-ROSTELECOM
+mp-export:      afi ipv6.unicast to AS12389 announce AS-RT-IPV6
+mp-import:      afi ipv6.unicast from AS50952 2a03:5f80:4::224:100 at 195.161.1.141 action pref=500; accept AS-DATAIX6
+mp-import:      afi ipv6.unicast from AS50952 2a03:5f80:4::227:100 at 195.161.1.141 action pref=500; accept AS-DATAIX6
+mp-export:      afi ipv6.unicast to AS50952 announce AS-RT-IPV6
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        CUSTOMERS:
+remarks:        ----------------------------------------------------------------
+remarks:
+mp-import:      afi ipv6.unicast from AS16083 2001:1bb0:e000:2::2 at 195.161.1.19 action pref=1000; accept AS-STACK6
+mp-export:      afi ipv6.unicast to AS16083 announce ANY
+mp-import:      afi ipv6.unicast from AS45027 2001:1bb0:e000:16::2 at 195.161.1.140 action pref=1000; accept AS45027
+mp-export:      afi ipv6.unicast to AS45027 announce {0::/0}
+mp-import:      afi ipv6.unicast from AS56601 2001:1bb0:e000:16::3 at 195.161.1.140 action pref=1000; accept AS56601
+mp-export:      afi ipv6.unicast to AS56601 announce {0::/0}
+mp-import:      afi ipv6.unicast from AS200430 2001:1bb0:e000:1b::2 at 195.161.1.31 action pref=1000; accept AS200430
+mp-export:      afi ipv6.unicast to AS200430 announce {0::/0}
+remarks:
+remarks:        +---------------------------------------------------------------
+remarks:        |
+remarks:        | External communities may be set by external peers when
+remarks:        | talking to AS8342.
+remarks:        |
+remarks:        | Community Meaning
+remarks:        |
+remarks:        | 8342:120x When advertising to any RUSSIAN peer...
+remarks:        | 8342:170x When advertising to any peer at Rostelecom...
+remarks:        | ...x=0 - do not advertise
+remarks:        | ...x=1,2,4 or 6 - prepend 8342 (1,2,4 or 6) times
+remarks:        | 8342:1900 BACKUP community. Local preference is set to 100,
+remarks:        | which is the lowest value used in the network.
+remarks:        | We DO NOT accept "no-export" community.
+remarks:        +---------------------------------------------------------------
+remarks:        | 8342:666 - blackhole (discard) traffic
+remarks:        +---------------------------------------------------------------
+remarks:        |
+remarks:        | All 12389:* communities are accept and pass out to Rostelecom
+remarks:        |
+remarks:        +---------------------------------------------------------------
+remarks:        | Any other communities are deleted.
+remarks:        |
+remarks:        | CUSTOMER - Peers routes are getting local preference of 1000.
+remarks:        | RUSSIAN - Peers routes are getting local preference of 500.
+remarks:        | INTERNATIONAL - Peers routes and UPLINKS
+remarks:        | are getting local preference in the range of 190-220
+remarks:        |
+remarks:        | We are using prefix-list filters that were built according
+remarks:        | to RIPE route-objects.
+remarks:        |
+remarks:        +---------------------------------------------------------------
+remarks:        | Routing policies are becoming so complex that a complete
+remarks:        | description is beyond the scope of this document.
+remarks:        +---------------------------------------------------------------
+remarks:        | NOTE - Filtering on /24 boundary is applied - we do not
+remarks:        | reannounce any route more specific than a /24.
+remarks:        +---------------------------------------------------------------
+org:            ORG-RA25-RIPE
+admin-c:        RT-RU
+tech-c:         RT-RU
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8342-MNT
+created:        2002-09-10T13:35:14Z
+last-modified:  2018-12-17T08:59:28Z
+source:         RIPE # Filtered
+
+organisation:   ORG-RA25-RIPE
+org-name:       JSC RTComm.RU
+org-type:       LIR
+address:        22'km of Kiyevskoe sh., Moskovskiy pos. 6, building 1
+address:        108811
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74959887778
+fax-no:         +74959887776
+admin-c:        AT9798-RIPE
+admin-c:        NK2352-RIPE
+abuse-c:        RTC-RU
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8342-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8342-MNT
+created:        2004-04-17T11:57:36Z
+last-modified:  2018-11-20T14:52:53Z
+source:         RIPE # Filtered
+
+role:           RTComm.RU Internet Center
+address:        JSC RTComm.RU
+address:        22'km of Kiyevskoe sh., Moskovskiy pos. 6, building 1
+address:        108811, Moscow
+address:        Russia
+phone:          +7 495 988-77-78
+fax-no:         +7 495 988-77-76
+remarks:        trouble: ---------------------------------------------------------
+remarks:        trouble: RTComm.RU Internet Center is available 24 x 7
+remarks:        trouble: ---------------------------------------------------------
+remarks:        trouble: Points of contact for RTComm.RU Network Operations
+remarks:        trouble: ---------------------------------------------------------
+remarks:        trouble: Network Operations Center vsat-noc@rtcomm.ru
+remarks:        trouble: SPAM and Network security issues: abuse@rtcomm.ru
+remarks:        trouble: Routing policies: rtc-cs@rtcomm.ru
+remarks:        trouble: Peering requests: peering@rtcomm.ru
+remarks:        trouble: ---------------------------------------------------------
+remarks:        trouble:
+remarks:        trouble: ___________________A T T E N T I O N!____________________
+remarks:        trouble:
+remarks:        trouble: Please use abuse@rtcomm.ru e-mail address for complaints.
+remarks:        trouble: All messages to any other our address, relative to SPAM
+remarks:        trouble: or security issues, will not be concerned.
+remarks:        trouble:
+remarks:        trouble: ---------------------------------------------------------
+admin-c:        NK2352-RIPE
+admin-c:        AT9798-RIPE
+admin-c:        AOR16-RIPE
+tech-c:         NK2352-RIPE
+tech-c:         AT9798-RIPE
+tech-c:         AOR16-RIPE
+nic-hdl:        RT-RU
+mnt-by:         AS8342-MNT
+abuse-mailbox:  abuse@rtcomm.ru
+created:        2002-12-25T12:11:11Z
+last-modified:  2018-11-20T14:55:43Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

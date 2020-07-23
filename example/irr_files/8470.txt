@@ -1,0 +1,386 @@
+aut-num:        AS8470
+as-name:        MAcomnet
+remarks:        Russian-Antarctican TelCo
+remarks:        Moscow, Russia
+remarks:        -----------------------------------------------
+remarks:        UPSTREAMS
+remarks:        -----------------------------------------------
+import:         from AS20485 action pref=115; accept ANY
+export:         to AS20485 announce AS-MACOMNET
+import:         from AS20764 action pref=115; accept ANY
+export:         to AS20764 announce AS-MACOMNET
+import:         from AS12389 action pref=115; accept ANY
+export:         to AS12389 announce AS-MACOMNET
+import:         from AS8359 action pref=115; accept ANY
+export:         to AS8359 announce AS-MACOMNET
+import:         from AS31133 action pref=115; accept ANY
+export:         to AS31133 announce AS-MACOMNET
+remarks:        -----------------------------------------------
+import:         from AS39372 action pref=120; accept AS-ANDERS
+export:         to AS39372  announce AS-MACOMNET
+remarks:        PEERING AT MSK-IX
+remarks:        -----------------------------------------------
+import:         from AS26415 action pref=120; accept AS-GTLD
+export:         to AS26415  announce AS-MACOMNET
+import:         from AS13335 action pref=120; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-MACOMNET
+import:         from AS47196 action pref=120; accept AS47196
+export:         to AS47196 announce AS-MACOMNET
+import:         from AS8641 action pref=120; accept AS-NAUKANET
+export:         to AS8641 announce AS-MACOMNET
+import:         from AS12739 action pref=120; accept AS-NETLINE
+export:         to AS12739 announce AS-MACOMNET
+import:         from AS15835 action pref=120; accept AS-MAP
+export:         to AS15835 announce AS-MACOMNET
+import:         from AS21219 action pref=120; accept AS-FF-TRANSIT
+export:         to AS21219 announce AS-MACOMNET
+import:         from AS15169 action pref=120; accept AS15169
+export:         to AS15169 announce AS-MACOMNET
+import:         from AS25091 action pref=120; accept AS-IP-MAX
+export:         to AS25091 announce AS-MACOMNET
+import:         from AS15772 action pref=120; accept AS-WNET
+export:         to AS15772 announce AS-MACOMNET
+import:         from AS21011 action pref=120; accept AS21011:AS-EXT
+export:         to AS21011 announce AS-MACOMNET
+import:         from AS31059 action pref=120; accept AS-AVELACOM
+export:         to AS31059 announce AS-MACOMNET
+import:         from AS41802 action pref=120; accept AS-KVIDEX
+export:         to AS41802 announce AS-MACOMNET
+import:         from AS41691 action pref=120; accept AS-SUMTEL
+export:         to AS41691 announce AS-MACOMNET
+import:         from AS34123 action pref=120; accept AS-NETORN
+export:         to AS34123 announce AS-MACOMNET
+import:         from AS3327 action pref=120; accept AS-LINXTELECOM-MSK-IX
+export:         to AS3327 announce AS-MACOMNET
+import:         from AS8595 action pref=120; accept AS-WESTCALL-IX
+export:         to AS8595 announce AS-MACOMNET
+import:         from AS12958 action pref=120; accept AS-MCC
+export:         to AS12958 announce AS-MACOMNET
+import:         from AS24739 action pref=120; accept AS-SEVEREN-TELECOM
+export:         to AS24739 announce AS-MACOMNET
+import:         from AS43832 action pref=120; accept AS43832
+export:         to AS43832 announce AS-MACOMNET
+import:         from AS29226 action pref=120; accept AS-MASTERTEL
+export:         to AS29226 announce AS-MACOMNET
+import:         from AS20985 action pref=120; accept AS-ARTX
+export:         to AS20985 announce AS-MACOMNET
+import:         from AS30833 action pref=120; accept AS-TNC
+export:         to AS30833 announce AS-MACOMNET
+import:         from AS31500 action pref=120; accept AS-GLOBAL-NET
+export:         to AS31500 announce AS-MACOMNET
+import:         from AS28968 action pref=120; accept AS-EUT
+export:         to AS28968 announce AS-MACOMNET
+import:         from AS31514 action pref=120; accept AS31514
+export:         to AS31514 announce AS-MACOMNET
+import:         from AS8241 action pref=120; accept AS-RELLINE
+export:         to AS8241 announce AS-MACOMNET
+import:         from AS5467 action pref=120; accept AS-MIPT
+export:         to AS5467 announce AS-MACOMNET
+import:         from AS21453 action pref=120; accept AS-FLEX
+export:         to AS21453 announce AS-MACOMNET
+import:         from AS34602 action pref=120; accept AS-STARLNK
+export:         to AS34602 announce AS-MACOMNET
+import:         from AS9032 action pref=120; accept AS-EDUNET
+export:         to AS9032 announce AS-MACOMNET
+import:         from AS6854 action pref=120; accept AS-SYNTERRA
+export:         to AS6854 announce AS-MACOMNET
+import:         from AS5568 action pref=120; accept AS-RBNET
+export:         to AS5568 announce AS-MACOMNET
+import:         from AS3316 action pref=120; accept AS-RELARN
+export:         to AS3316 announce AS-MACOMNET
+import:         from AS2683 action pref=120; accept AS-RADIOMSU
+export:         to AS2683 announce AS-MACOMNET
+import:         from AS2854 action pref=120; accept AS-ROSPRINT
+export:         to AS2854 announce AS-MACOMNET
+import:         from AS3267 action pref=120; accept AS-RUNNET
+export:         to AS3267 announce AS-MACOMNET
+import:         from AS28917 action pref=120; accept AS-FIORD
+export:         to AS28917 announce AS-MACOMNET
+import:         from AS9110 action pref=120; accept AS-AGTEL
+export:         to AS9110 announce AS-MACOMNET
+import:         from AS2895 action pref=120; accept AS-FREENET
+export:         to AS2895 announce AS-MACOMNET
+import:         from AS12654 action pref=120; accept AS12654
+export:         to AS12654 announce AS-MACOMNET
+import:         from AS13238 action pref=120; accept AS-COMPTEK
+export:         to AS13238 announce AS-MACOMNET
+import:         from AS5523 action pref=120; accept AS-RMT
+export:         to AS5523 announce AS-MACOMNET
+import:         from AS8331 action pref=120; accept AS-RURINET
+export:         to AS8331 announce AS-MACOMNET
+import:         from AS24638 action pref=120; accept AS-RAMTEL
+export:         to AS24638 announce AS-MACOMNET
+import:         from AS5537 action pref=120; accept AS-GARANTPARK
+export:         to AS5537 announce AS-MACOMNET
+import:         from AS21156 action pref=120; accept AS-DATAGRUPARU
+export:         to AS21156 announce AS-MACOMNET
+import:         from AS21414 action pref=120; accept AS-RCNET
+export:         to AS21414 announce AS-MACOMNET
+import:         from AS20655 action pref=120; accept AS-EST
+export:         to AS20655 announce AS-MACOMNET
+import:         from AS28809 action pref=120; accept AS-NAUKANET
+export:         to AS28809 announce AS-MACOMNET
+import:         from AS29329 action pref=120; accept AS-NODEX
+export:         to AS29329 announce AS-MACOMNET
+import:         from AS34352 action pref=120; accept AS-MCN
+export:         to AS34352 announce AS-MACOMNET
+import:         from AS16083 action pref=120; accept AS-STACK
+export:         to AS16083 announce AS-MACOMNET
+import:         from AS12695 action pref=120; accept AS-DINET
+export:         to AS12695 announce AS-MACOMNET
+import:         from AS9031 action pref=120; accept AS-EDPNET
+export:         to AS9031 announce AS-MACOMNET
+import:         from AS50384 action pref=120; accept AS-W-IX
+export:         to AS50384 announce AS-MACOMNET
+import:         from AS41095 action pref=120; accept AS-IPTP
+export:         to AS41095 announce AS-MACOMNET
+import:         from AS20764 action pref=120; accept AS-RASCOM
+export:         to AS20764 announce AS-MACOMNET
+import:         from AS48166 action pref=120; accept AS-FORTEX
+export:         to AS48166 announce AS-MACOMNET
+import:         from AS9049 action pref=120; accept AS-ERTH
+export:         to AS9049 announce AS-MACOMNET
+import:         from AS15672 action pref=120; accept AS-TZTELECOM
+export:         to AS15672 announce AS-MACOMNET
+import:         from AS43404 action pref=120; accept AS-UCANET
+export:         to AS43404 announce AS-MACOMNET
+import:         from AS12578 action pref=120; accept AS-LATTELEKOM
+export:         to AS12578 announce AS-MACOMNET
+remarks:        -------------------cust-----------------------------
+import:         from AS201851 action pref=130; accept AS201851
+export:         to AS201851 announce ANY
+import:         from AS207135 action pref=130; accept AS207135
+export:         to AS207135 announce ANY
+import:         from AS206323 action pref=130; accept AS206323
+export:         to AS206323 announce ANY
+import:         from AS57828 action pref=130; accept AS57828
+export:         to AS57828 announce ANY
+import:         from AS56691 action pref=130; accept AS-FABRIKANT
+export:         to AS56691 announce ANY
+import:         from AS56691 action pref=130; accept AS-GazFab
+export:         to AS56691 announce ANY
+import:         from AS3312 action pref=130; accept AS3312
+import:         from AS3312 action pref=130; accept AS197273
+import:         from AS3312 action pref=130; accept AS42809
+export:         to AS3312 announce ANY
+import:         from AS44014 action pref=130; accept AS44014
+export:         to AS44014 announce ANY
+import:         from AS21266 action pref=130; accept AS-EESNET
+export:         to AS21266 announce ANY
+import:         from AS29638 action pref=130; accept AS29638
+export:         to AS29638 announce ANY
+import:         from AS41983 action pref=130; accept AS41983
+export:         to AS41983 announce ANY
+import:         from AS200107 action pref=130; accept AS200107
+export:         to AS200107 announce ANY
+import:         from AS43095 action pref=130; accept AS43095
+export:         to AS43095 announce ANY
+import:         from AS39688 action pref=130; accept AS39688
+export:         to AS39688 announce ANY
+import:         from AS33903 action pref=130; accept AS33903
+export:         to AS33903 announce ANY
+import:         from AS31620 action pref=130; accept AS31620
+export:         to AS31620 announce ANY
+import:         from AS35469 action pref=130; accept AS35469
+export:         to AS35469 announce ANY
+import:         from AS35022 action pref=130; accept AS35022
+export:         to AS35022 announce ANY
+import:         from AS42677 action pref=130; accept AS42677
+export:         to AS42677 announce ANY
+import:         from AS48009 action pref=130; accept AS48009
+export:         to AS48009 announce ANY
+import:         from AS47456 action pref=130; accept AS47456
+import:         from AS47456 action pref=130; accept AS60464
+export:         to AS47456 announce ANY
+import:         from AS49712 action pref=130; accept AS49712
+export:         to AS49712 announce ANY
+import:         from AS41845 action pref=130; accept AS41845
+export:         to AS41845 announce ANY
+import:         from AS50279 action pref=130; accept AS50279
+export:         to AS50279 announce ANY
+import:         from AS51593 action pref=130; accept AS51593
+export:         to AS51593 announce ANY
+import:         from AS56480 action pref=130; accept AS56480
+export:         to AS56480 announce ANY
+import:         from AS56879 action pref=130; accept AS56879
+export:         to AS56879 announce ANY
+import:         from AS56425 action pref=130; accept AS56425
+export:         to AS56425 announce ANY
+import:         from AS197961 action pref=130; accept AS197961
+export:         to AS197961 announce ANY
+import:         from AS35083 action pref=130; accept AS35083
+export:         to AS35083 announce ANY
+import:         from AS198348 action pref=130; accept AS198348
+export:         to AS198348 announce ANY
+import:         from AS58052 action pref=130; accept AS58052
+export:         to AS58052 announce ANY
+import:         from AS201498 action pref=130; accept AS201498
+export:         to AS201498 announce ANY
+import:         from AS30952 action pref=130; accept AS30952
+export:         to AS30952 announce ANY
+import:         from AS59688 action pref=130; accept AS59688
+export:         to AS59688 announce ANY
+import:         from AS57078 action pref=130; accept AS57078
+export:         to AS57078 announce ANY
+import:         from AS199240 action pref=130; accept AS199240
+export:         to AS199240 announce ANY
+import:         from AS51913 action pref=130; accept AS51913
+export:         to AS51913 announce ANY
+import:         from AS58341 action pref=130; accept AS58341
+export:         to AS58341 announce ANY
+import:         from AS60511 action pref=130; accept AS60511
+export:         to AS60511 announce ANY
+import:         from AS60343 action pref=130; accept AS60343
+export:         to AS60343 announce ANY
+import:         from AS61021 action pref=130; accept AS61021
+export:         to AS61021 announce ANY
+import:         from AS60459 action pref=130; accept AS60459
+export:         to AS60459 announce ANY
+import:         from AS200065 action pref=130; accept AS200065
+export:         to AS200065 announce ANY
+import:         from AS15984 action pref=130; accept AS15984
+export:         to AS15984 announce ANY
+import:         from AS35021 action pref=130; accept AS35021
+export:         to AS35021 announce ANY
+import:         from AS48009 action pref=130; accept AS48009
+export:         to AS48009 announce ANY
+import:         from AS62389 action pref=130; accept AS62389
+export:         to AS62389 announce ANY
+import:         from AS49675 action pref=130; accept AS49675
+export:         to AS49675 announce ANY
+import:         from AS60040 action pref=130; accept AS60040
+export:         to AS60040 announce ANY
+import:         from AS201312 action pref=130; accept AS201312
+export:         to AS201312 announce ANY
+import:         from AS59829 action pref=130; accept AS59829
+export:         to AS59829 announce ANY
+import:         from AS62029 action pref=130; accept AS62029
+export:         to AS62029 announce ANY
+import:         from AS200028 action pref=130; accept AS200028
+export:         to AS200028 announce ANY
+import:         from AS201430 action pref=130; accept AS201430
+export:         to AS201430 announce ANY
+import:         from AS204159 action pref=130; accept AS204159
+export:         to AS204159 announce ANY
+import:         from AS34192 action pref=130; accept AS34192
+export:         to AS34192 announce ANY
+import:         from AS207025 action pref=130; accept AS207025
+export:         to AS207025 announce ANY
+import:         from AS52163 action pref=130; accept AS52163
+export:         to AS52163 announce ANY
+remarks:        -------------------------------------------------------
+remarks:        ipv6 customers, peer and uplinks
+remarks:        -------------------------------------------------------
+remarks:        uplinks
+remarks:        -------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS20764 action pref=115; accept ANY
+mp-export:      afi ipv6.unicast to AS20764 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS20485 action pref=115; accept ANY
+mp-export:      afi ipv6.unicast to AS20485 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS8359 action pref=115; accept ANY
+mp-export:      afi ipv6.unicast to AS8359 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS12389 action pref=115; accept ANY
+mp-export:      afi ipv6.unicast to AS12389 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS31133 action pref=115; accept ANY
+mp-export:      afi ipv6.unicast to AS31133 announce AS-MACOMNET
+remarks:        -------------------------------------------------------
+remarks:        msk ix peers
+remarks:        -------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS13335 action pref=120; accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS26415 action pref=120; accept AS-GTLD
+mp-export:      afi ipv6.unicast to AS26415 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS12695 action pref=120; accept AS-DINET
+mp-export:      afi ipv6.unicast to AS12695 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS25091 action pref=120; accept AS-IP-MAX
+mp-export:      afi ipv6.unicast to AS25091 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS21011 action pref=120; accept AS21011:AS-EXT
+mp-export:      afi ipv6.unicast to AS21011 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS2854 action pref=120; accept AS-OBSRUSSIA6
+mp-export:      afi ipv6.unicast to AS2854 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS21219 action pref=120; accept AS-DATAGROUP-v6
+mp-export:      afi ipv6.unicast to AS21219 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS13238 action pref=120; accept AS-YANDEX
+mp-export:      afi ipv6.unicast to AS13238 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS42610 action pref=120; accept AS-NCNET
+mp-export:      afi ipv6.unicast to AS42610 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS43404 action pref=120; accept AS-UCANETv6
+mp-export:      afi ipv6.unicast to AS43404 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS21414 action pref=120; accept AS-RUSCOMNET
+mp-export:      afi ipv6.unicast to AS21414 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS3327 action pref=120; accept AS-LINXTELECOM
+mp-export:      afi ipv6.unicast to AS3327 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS48166 action pref=120; accept AS-FORTEX6
+mp-export:      afi ipv6.unicast to AS48166 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS3267 action pref=120; accept AS-RUNNET
+mp-export:      afi ipv6.unicast to AS3267 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS12654 action pref=120; accept AS12654:RS-RIS
+mp-export:      afi ipv6.unicast to AS12654 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS12739 action pref=120; accept AS-NETLINE6
+mp-export:      afi ipv6.unicast to AS12739 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS28917 action pref=120; accept AS-FIORD
+mp-export:      afi ipv6.unicast to AS28917 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS12578 action pref=120; accept AS-LATTELEKOM
+mp-export:      afi ipv6.unicast to AS12578 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS15835 action pref=120; accept AS-MAP
+mp-export:      afi ipv6.unicast to AS15835 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS50384 action pref=120; accept AS-W-IX
+mp-export:      afi ipv6.unicast to AS50384 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS24638 action pref=120; accept AS-RAMTEL
+mp-export:      afi ipv6.unicast to AS24638 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS34602 action pref=120; accept AS-STARLNK
+mp-export:      afi ipv6.unicast to AS34602 announce AS-MACOMNET
+mp-import:      afi ipv6.unicast from AS29329 action pref=120; accept AS-NODEX
+mp-export:      afi ipv6.unicast to AS29329 announce AS-MACOMNET
+remarks:        -------------------------------------------------------
+remarks:        ipv6 customers
+remarks:        -------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS207135 action pref=130; accept AS207135
+mp-export:      afi ipv6.unicast to AS207135 announce ANY
+mp-import:      afi ipv6.unicast from AS41983 action pref=130; accept AS41983
+mp-export:      afi ipv6.unicast to AS41983 announce ANY
+mp-import:      afi ipv6.unicast from AS56879 action pref=130; accept AS56879
+mp-export:      afi ipv6.unicast to AS56879 announce ANY
+mp-import:      afi ipv6.unicast from AS49675 action pref=130; accept AS49675
+mp-export:      afi ipv6.unicast to AS49675 announce ANY
+remarks:        -------------------------------------------------------
+org:            ORG-MTC3-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:        -------------------------------------------------------
+remarks:        MACOMNET uses communities with their customers.
+remarks:        Pre-defined Communities Available For Customer Signaling
+remarks:        -------------------------------------------------------
+remarks:        8470:1 Don't announce to any foreign upstream
+remarks:        8470:2 Set AS PATH prepend for announces to RU
+remarks:        8470:3 Don't announce to RU
+remarks:        8470:4 Set AS PATH prepend for announces foreign upstream
+remarks:        8470:6 Don't announce to AS20485
+remarks:        8470:70 Rostelecom only
+remarks:        -----------------------------------------
+remarks:        We filter inbound prefixes longer than /24
+remarks:
+remarks:        -----------------------------------------
+remarks:        General questions: info@macomnet.NET
+remarks:        Spam & Abuse: abuse@8470.net
+remarks:        Routing inquiries: noc@macomnet.NET
+remarks:        Peering issues: noc@macomnet.NET
+remarks:        NNTP issues: newsmaster@macomnet.NET
+remarks:        -----------------------------------------
+remarks:        --------- A T T E N T I O N !!! ----------
+remarks:        Please use abuse@8470.net e-mail address
+remarks:        for spam and abuse complaints.
+remarks:        Mails for other addresses will be ignored!
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MACOMNET-MNT
+created:        2002-09-10T13:31:17Z
+last-modified:  2018-05-20T13:18:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

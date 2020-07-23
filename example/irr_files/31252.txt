@@ -1,0 +1,424 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS31246 - AS31618'
+
+as-block:       AS31246 - AS31618
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS31252'
+
+% Abuse contact for 'AS31252' is 'abuse@starnet.md'
+
+aut-num:        AS31252
+as-name:        STARNET-AS
+org:            ORG-SSS72-RIPE
+remarks:
+remarks:        UPSTREAMS:
+remarks:
+remarks:        Tinet/GTT
+remarks:        ---------
+import:         from AS3257 accept ANY
+export:         to AS3257 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-STARNET
+remarks:
+remarks:
+remarks:        Level 3 Communications, Inc.
+remarks:        ----------------------------
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-STARNET
+remarks:
+remarks:
+remarks:        Cogent Communications, Inc.
+remarks:        ---------------------------
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-STARNET
+remarks:
+remarks:
+remarks:        M247 Ltd.
+remarks:        ---------
+import:         from AS9009 accept ANY
+export:         to AS9009 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS9009 accept ANY
+mp-export:      afi ipv6.unicast to AS9009 announce AS-STARNET
+remarks:
+remarks:
+remarks:        Telia Carrier
+remarks:        -------------
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-STARNET
+remarks:
+remarks:
+remarks:        CUSTOMERS:
+remarks:
+remarks:
+import:         from AS-STARNET accept PeerAS
+export:         to AS-STARNET announce ANY
+mp-import:      afi ipv6.unicast from AS-STARNET accept PeerAS
+mp-export:      afi ipv6.unicast to AS-STARNET announce ANY
+remarks:
+remarks:
+remarks:        PNI:
+remarks:
+remarks:
+remarks:        Arax-Impex SRL
+remarks:        --------------
+import:         from AS15836 accept AS-ARAX
+export:         to AS15836 announce AS-STARNET
+remarks:
+remarks:
+remarks:        Orange Moldova
+remarks:        --------------
+import:         from AS25454 accept AS-TELEMEDIA
+export:         to AS25454 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS25454 accept AS25454
+mp-export:      afi ipv6.unicast to AS25454 announce AS-STARNET
+remarks:
+remarks:
+remarks:        JV Sun Communications SRL
+remarks:        -------------------------
+import:         from AS31204 accept AS-SUN
+export:         to AS31204 announce AS-STARNET
+remarks:
+remarks:
+remarks:        Google
+remarks:        ------
+import:         from AS15169 accept AS-GOOGLE
+export:         to AS15169 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 announce AS-STARNET
+remarks:
+remarks:
+remarks:        Facebook
+remarks:        --------
+import:         from AS32934 accept AS-FACEBOOK
+export:         to AS32934 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS32934 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 announce AS-STARNET
+remarks:
+remarks:
+remarks:        IXP:
+remarks:
+remarks:
+remarks:        DE-CIX
+remarks:        ------
+import:         from AS-ANY accept PeerAS
+export:         to AS-ANY announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS-ANY accept PeerAS
+mp-export:      afi ipv6.unicast to AS-ANY announce AS-STARNET
+remarks:
+remarks:
+remarks:        INTERLAN
+remarks:        --------
+import:         from AS-ANY accept PeerAS
+export:         to AS-ANY announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS-ANY accept PeerAS
+mp-export:      afi ipv6.unicast to AS-ANY announce AS-STARNET
+remarks:
+remarks:
+remarks:        RoNIX
+remarks:        -----
+import:         from AS-ANY accept PeerAS
+export:         to AS-ANY announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS-ANY accept PeerAS
+mp-export:      afi ipv6.unicast to AS-ANY announce AS-STARNET
+remarks:
+remarks:
+remarks:        MD-IX
+remarks:        -----
+import:         from AS31580 accept AS-MOLDTELECOM
+export:         to AS31580 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS31580 accept AS-MOLDTELECOM
+mp-export:      afi ipv6.unicast to AS31580 announce AS-STARNET
+remarks:
+remarks:
+remarks:        KIVIX
+remarks:        -----
+import:         from AS43289 accept AS-TRABIA
+export:         to AS43289 announce AS-STARNET
+mp-import:      afi ipv6.unicast from AS43289 accept AS-TRABIA
+mp-export:      afi ipv6.unicast to AS43289 announce AS-STARNET
+remarks:
+remarks:
+remarks:        ----------------------------------------------
+remarks:        StarNet
+remarks:        ISP in Republic of Moldova
+remarks:
+remarks:        General questions: info@starnet.md
+remarks:        Routing and Technical questions: noc@starnet.md
+remarks:        Abuse reports: abuse@starnet.md
+remarks:
+remarks:        AS-SET for IPv4/IPv6: AS-STARNET
+remarks:
+remarks:        BGP Session default local preference:
+remarks:        Customers: 200
+remarks:        PNI: 140-144,150-155.
+remarks:        IXP: 145-149
+remarks:        Upstreams: 100-110
+remarks:
+remarks:        Communities applied at ingress:
+remarks:
+remarks:        1.Geographical(3):
+remarks:
+remarks:        Format: 31252:3yzwx
+remarks:
+remarks:        a) Frankfurt am Main: 31252:3320x
+remarks:        b) Bucharest: 31252:3222x
+remarks:        c) Chisinau: 31252:3110x
+remarks:        d) Odessa: 31252:3421x
+remarks:
+remarks:        First "3" shows that this is community applied for geographical use.
+remarks:        "y" is used to describe the country:
+remarks:        1 - Moldova
+remarks:        2 - Romania
+remarks:        3 - Germany
+remarks:        4 - Ukraine
+remarks:
+remarks:        "zw" is used to describe the city:
+remarks:        zw=10 - Chisinau
+remarks:        zw=20 - Frankfurt am Main
+remarks:        zw=22 - Bucharest
+remarks:        zw=21 - Odessa
+remarks:
+remarks:        "x" is usedy to describe session type:
+remarks:        0 - For all BGP sessions
+remarks:        1 - Customers
+remarks:        2 - Upstreams
+remarks:        3 - IXP
+remarks:        4 - PNI
+remarks:
+remarks:        2. BGP session type(2):
+remarks:
+remarks:        Format: 31252:2000x
+remarks:
+remarks:        "x" is to describe BGP session type
+remarks:        a) Customers: 31252:20001
+remarks:        b) Upstreams: 31252:20002
+remarks:        c) IXP: 31252:20003
+remarks:        d) PNI: 31252:20004
+remarks:
+remarks:        3.BGP peer(1):
+remarks:
+remarks:        Format: 31252:100xyz
+remarks:
+remarks:        "x" describe BGP session type, and "yz" describe BGP Peer
+remarks:        Upstreams(2):
+remarks:        - M247: 31252:10201
+remarks:        - GTT: 31252:10202
+remarks:        - LVL3: 31252:10203
+remarks:        - Cogent: 31252:10204
+remarks:        - Telia: 31252:10205
+remarks:        - ETT: 31252:10206
+remarks:
+remarks:        IXP(3):
+remarks:        - DECIX: 31252:10301
+remarks:        - Interlan: 31252:10302
+remarks:        - RoNIX: 31252:10303
+remarks:        - MD-IX: 31252:10307
+remarks:        - KIVIX: 31252:10308
+remarks:        - DATAIX: 31252:10309
+remarks:
+remarks:        PNI(4):
+remarks:        - Google: 31252:10401
+remarks:        - Facebook: 31252:10402
+remarks:        - Orange: 31252:10403
+remarks:        - ARAX: 31252:10404
+remarks:        - CTS: 31252:10405
+remarks:        - Renam: 31252:10406
+remarks:        - ADNET: 31252:10407
+remarks:        - GTS: 31252:10408
+remarks:        - INES: 31252:10409
+remarks:        - SUN: 31252:10410
+remarks:        - PRIMETELECOM: 31252:10411
+remarks:        - CLOUDFLARE: 31252:10412
+remarks:        - TRABIA: 31252:10413
+remarks:        - MOLDTELECOM: 31252:10414
+remarks:
+remarks:        Communities accepted from customers:
+remarks:
+remarks:        1. Customers traffic engineering communities:
+remarks:
+remarks:        1.1 LocalPref (4):
+remarks:
+remarks:        Format: 31252:40xyz
+remarks:
+remarks:        "xyz" is used to set BGP local preference:
+remarks:        - 31252:40190 - LP=190
+remarks:        - 31252:40180 - LP=180
+remarks:        - 31252:40090 - LP=90
+remarks:
+remarks:        1.2 Blackhole Community:
+remarks:        - 31252:666
+remarks:
+remarks:        2. Customers traffic engineering communities Prepending (5 - 6)
+remarks:
+remarks:        2.1 Geographical (5).
+remarks:
+remarks:        Format: 31252:5yzwx
+remarks:
+remarks:        - Germany: 31252:5320x x=[0..3]
+remarks:        - Romania: 31252:5222x x=[0..3]
+remarks:        - Moldova: 31252:5110x x=[0..3]
+remarks:        - Ukraine: 31252:5421x x=[0..3]
+remarks:        - GGC-MD: 31252:59990 Do not advertise to Google Cache (MD KIV location)
+remarks:        - GGC-RO: 31252:59991 Do not advertise to Google Cache (RO BUH location)
+remarks:        - FNA-MD: 31252:58880 Do not advertise to Facebook Cache (MD KIV location)
+remarks:
+remarks:        "y" is used to describe the country:
+remarks:        1 - Moldova
+remarks:        2 - Romania
+remarks:        3 - Germany
+remarks:        4 - Ukraine
+remarks:
+remarks:        "zw" is used to describe the city:
+remarks:        zw=10 - Chisinau
+remarks:        zw=20 - Frankfurt am Main
+remarks:        zw=22 - Bucharest
+remarks:        zw=21 - Odessa
+remarks:
+remarks:        "x" is the number of prepends:
+remarks:        0 - do not advertise
+remarks:        1 - 1 prepend
+remarks:        2 - 2 prepends
+remarks:        3 - 3 prepends
+remarks:
+remarks:        2.2 BGP peer(6).
+remarks:
+remarks:        Format: 31252:6yzwx
+remarks:
+remarks:        Upstreams(2):
+remarks:        - M247: 31252:6201x x=[0..3]
+remarks:        - GTT: 31252:6202x x=[0..3]
+remarks:        - LVL3: 31252:6203x x=[0..3]
+remarks:        - Cogent: 31252:6204x x=[0..3]
+remarks:        - Telia: 31252:6205x x=[0..3]
+remarks:        - ETT: 31252:6206x x=[0..3]
+remarks:
+remarks:        IXP(3):
+remarks:        - Decix: 31252:6301x x=[0..3]
+remarks:        - Interlan: 31252:6302x x=[0..3]
+remarks:        - RoNIX: 31252:6303x x=[0..3]
+remarks:        - MDIX: 31252:6307x x=[0..3]
+remarks:        - KIVIX: 31252:6308x x=[0..3]
+remarks:        - DATAIX: 31252:6309x x=[0..3]
+remarks:
+remarks:
+remarks:
+remarks:        PNI(4):
+remarks:        - Google: 31252:6401x x=[0..2]
+remarks:        - Facebook: 31252:6402x x=[0..2]
+remarks:        - Orange: 31252:6403x x=[0..2]
+remarks:        - ARAX: 31252:6404x x=[0..2]
+remarks:        - CTS: 31252:6405x x=[0..2]
+remarks:        - Renam: 31252:6406x x=[0..2]
+remarks:        - ADNET: 31252:6407x x=[0..2]
+remarks:        - GTS: 31252:6408x x=[0..2]
+remarks:        - INES: 31252:6409x x=[0..2]
+remarks:        - SUN: 31252:6410x x=[0..2]
+remarks:        - PRIMETELECOM: 31252:6411x x=[0..2]
+remarks:        - CLOUDFLARE: 31252:6412x x=[0..2]
+remarks:        - TRABIA: 31252:6413x x=[0..2]
+remarks:        - MOLDTELECOM: 31252:6414x x=[0..2]
+remarks:
+remarks:        "y" is used to describe BGP peer type:
+remarks:        1 - Customers
+remarks:        2 - Upstreams
+remarks:        3 - IXP
+remarks:        4 - PNI
+remarks:
+remarks:        "zw" is used to describe BGP PEER:
+remarks:
+remarks:        "x" is the number of prepends:
+remarks:        0 - do not advertise
+remarks:        1 - 1 prepend
+remarks:        2 - 2 prepends
+remarks:        3 - 3 prepends
+remarks:
+remarks:        ----------------------------------------------
+remarks:
+admin-c:        SA4929-RIPE
+tech-c:         SA4929-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-STARNETMD
+mnt-by:         MNT-SNNOC
+created:        2004-03-31T10:11:50Z
+last-modified:  2019-01-24T11:42:42Z
+source:         RIPE
+
+organisation:   ORG-SSS72-RIPE
+org-name:       StarNet Solutii SRL
+org-type:       LIR
+address:        Columna 170
+address:        MD-2004
+address:        Chisinau
+address:        MOLDOVA, REPUBLIC OF
+admin-c:        VF1333-RIPE
+admin-c:        RB20252-RIPE
+tech-c:         VF1333-RIPE
+abuse-c:        SA4929-RIPE
+mnt-ref:        MNT-STARNETMD
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-STARNETMD
+created:        2016-10-27T08:05:16Z
+last-modified:  2018-04-11T07:41:32Z
+source:         RIPE # Filtered
+phone:          +37322844972
+fax-no:         +37322844445
+
+role:           StarNet Administrator
+remarks:
+address:        StarNet Solutii SRL
+address:        170, Columna str.
+address:        MD2004 Chisinau
+address:        Moldova, Republic of
+remarks:
+phone:          +373 (22) 844444
+fax-no:         +373 (22) 844445
+remarks:
+remarks:        -----------------------------------------------
+remarks:        StarNet
+remarks:        ISP in Republic of Moldova
+remarks:
+remarks:        General questions: info@starnet.md
+remarks:        Routing and Technical questions: noc@starnet.md
+remarks:        -----------------------------------------------
+remarks:
+remarks:
+abuse-mailbox:  abuse@starnet.md
+remarks:
+admin-c:        VF1333-RIPE
+tech-c:         VF1333-RIPE
+nic-hdl:        SA4929-RIPE
+mnt-by:         MNT-STARNETMD
+created:        2008-06-27T13:17:05Z
+last-modified:  2018-03-05T14:23:34Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

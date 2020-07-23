@@ -1,0 +1,73 @@
+aut-num:        AS8890
+as-name:        UW-AS
+remarks:        Warsaw, Poland
+org:            ORG-IA45-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+notify:         net@adm.uw.edu.pl
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         UW-PL
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:14:11Z
+source:         RIPE
+remarks:
+remarks:        # Communities accepted by UW (8890:xxxx):
+remarks:        8890:65281 no-export rfc1997
+remarks:        8890:65282 no-advertise rfc1997
+remarks:
+remarks:        # Peer and client traffic engineering communities:
+remarks:        Prepend X times to peer AA
+remarks:        8890:1XAA
+remarks:        AA = 01 - AS8501 PIONIER-AS
+remarks:        AA = 02 - AS8664 ICM-PUB
+remarks:        AA = 03 - AS24724 ATMAN (Transit Global)
+remarks:        AA = 04 - AS1887 NASK-ACADEMIC
+remarks:        AA = 05 - AS24748 ATMAN-Poland-AS (THINX)
+remarks:        AA = 06 - AS12464 PW-NET
+remarks:        AA = 07 - AS20555 WSISIZ-AS
+remarks:        AA = 08 - AS15396 ICM-COM
+remarks:        AA = 09 - AS6939 HURRICANE
+remarks:        X = 0 - do not advertise to given peer
+remarks:        X = 1 - prepend 1x
+remarks:        X = 2 - prepend 2x
+remarks:        X = 3 - prepend 3x
+remarks:        X = 4 - prepend 4x
+remarks:        Note: we accept MED
+remarks:
+remarks:        # UW localpref settings:
+remarks:        100 - for our direct peers, customers and IXP
+remarks:        50 - for backup peerings and other
+remarks:        # UW med settings (in):
+remarks:        +10 - for primary peer session
+remarks:        +100 - for backup peer session
+remarks:        # UW med settings (out):
+remarks:        1000 - for backup peer session
+remarks:
+remarks:        Contact details: net@adm.uw.edu.pl
+remarks:
+import:         from AS8501 accept ANY
+import:         from AS8664 accept ANY
+import:         from AS1887 accept AS1887
+import:         from AS24748 accept AS24748:AS-ICM
+import:         from AS24724 action pref=50; accept ANY;
+import:         from AS12464 accept AS12464
+import:         from AS20555 accept AS20555
+import:         from AS15396 accept ANY
+import:         from AS6939 accept ANY
+export:         to AS8501 announce AS8890:AS-IXP
+export:         to AS8664 announce AS8890:AS-IXP
+export:         to AS1887 announce AS8890:AS-IXP
+export:         to AS24748 announce AS8890:AS-IXP
+export:         to AS24724 announce AS8890:AS-IXP
+export:         to AS12464 announce AS8890:AS-IXP
+export:         to AS20555 announce AS8890:AS-IXP
+export:         to AS15396 announce AS8890:AS-IXP
+export:         to AS6939 announce AS8890:AS-IXP
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

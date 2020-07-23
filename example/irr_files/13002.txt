@@ -1,0 +1,591 @@
+aut-num:        AS13002
+as-name:        LINKEY-AS
+remarks:        Saint-Petersburg, Russia
+remarks:        -----------------------------------------
+remarks:        ---------------- UPSTREAMS---------------
+remarks:        -----------------------------------------
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-LINKEY
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS3356 announce AS-LINKEY
+import:         from AS20485 action pref=100; accept ANY
+export:         to AS20485 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS20485 accept ANY
+mp-export:      afi ipv6.unicast to AS20485 announce AS-LINKEY
+import:         from AS20764 action pref=100; accept ANY
+export:         to AS20764 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS20764 accept ANY
+mp-export:      afi ipv6.unicast to AS20764 announce AS-LINKEY
+import:         from AS41095 action pref=100; accept ANY
+export:         to AS41095 announce AS-LINKEY
+remarks:        -----------------------------------------
+remarks:        ---------------- DE-CIX -----------------
+remarks:        -----------------------------------------
+import:         from AS42 action pref=150; accept AS-PCH
+export:         to AS42 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS42 action pref=150; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 announce AS-LINKEY
+import:         from AS553 action pref=150; accept AS-BELWUE
+export:         to AS553 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS553 action pref=150; accept AS-BELWUE
+mp-export:      afi ipv6.unicast to AS553 announce AS-LINKEY
+import:         from AS1267 action pref=150; accept AS-INFOSTRADA
+export:         to AS1267 announce AS-LINKEY
+import:         from AS1764 action pref=150; accept AS-NEXTLAYER
+export:         to AS1764 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS1764 action pref=150; accept AS-NEXTLAYER-V6
+mp-export:      afi ipv6.unicast to AS1764 announce AS-LINKEY
+import:         from AS2857 action pref=150; accept AS-RLP-NET
+export:         to AS2857 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS2857 action pref=150; accept AS-RLP-NET
+mp-export:      afi ipv6.unicast to AS2857 announce AS-LINKEY
+import:         from AS3255 action pref=150; accept AS-UARNET
+export:         to AS3255 announce AS-LINKEY
+import:         from AS3856 action pref=150; accept AS-PCH
+export:         to AS3856 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS3856 action pref=150; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 announce AS-LINKEY
+import:         from AS4589 action pref=150; accept AS-EASYNET
+export:         to AS4589 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS4589 action pref=150; accept AS-EASYNET
+mp-export:      afi ipv6.unicast to AS4589 announce AS-LINKEY
+import:         from AS4788 action pref=150; accept AS-4788
+export:         to AS4788 announce AS-LINKEY
+import:         from AS5089 action pref=150; accept AS-NTLI
+export:         to AS5089 announce AS-LINKEY
+import:         from AS5430 action pref=150; accept AS-FREENETDE
+export:         to AS5430 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS5430 action pref=150; accept AS-FREENETDE6
+mp-export:      afi ipv6.unicast to AS5430 announce AS-LINKEY
+import:         from AS5580 action pref=150; accept AS-ATRATO
+export:         to AS5580 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS5580 action pref=150; accept AS-ATRATO6
+mp-export:      afi ipv6.unicast to AS5580 announce AS-LINKEY
+import:         from AS5588 action pref=150; accept AS-GTS-CE
+export:         to AS5588 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS5588 action pref=150; accept AS-GTS-CE
+mp-export:      afi ipv6.unicast to AS5588 announce AS-LINKEY
+import:         from AS5605 action pref=150; accept AS-NETUSE
+export:         to AS5605 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS5605 action pref=150; accept AS-NETUSE
+mp-export:      afi ipv6.unicast to AS5605 announce AS-LINKEY
+import:         from AS6661 action pref=150; accept AS-PTLU
+export:         to AS6661 announce AS-LINKEY
+import:         from AS6667 action pref=150; accept AS-EUNETIP
+export:         to AS6667 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS6667 action pref=150; accept AS-EUNETIP
+mp-export:      afi ipv6.unicast to AS6667 announce AS-LINKEY
+import:         from AS6695 action pref=150; accept AS-DECIX
+export:         to AS6695 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS6695 action pref=150; accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-LINKEY
+import:         from AS6939 action pref=150; accept AS-HURRICANE
+export:         to AS6939 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS6939 action pref=150; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-LINKEY
+import:         from AS7342 action pref=150; accept AS-GTLD
+export:         to AS7342 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS7342 action pref=150; accept AS-GTLD
+mp-export:      afi ipv6.unicast to AS7342 announce AS-LINKEY
+import:         from AS8075 action pref=150; accept AS-MICROSOFT
+export:         to AS8075 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8075 action pref=150; accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 announce AS-LINKEY
+import:         from AS8308 action pref=150; accept AS-NASK
+export:         to AS8308 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8308 action pref=150; accept AS-NASK
+mp-export:      afi ipv6.unicast to AS8308 announce AS-LINKEY
+import:         from AS8365 action pref=150; accept AS-MANDA
+export:         to AS8365 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8365 action pref=150; accept AS-MANDA
+mp-export:      afi ipv6.unicast to AS8365 announce AS-LINKEY
+import:         from AS8422 action pref=150; accept AS-NETCOLOGNE
+export:         to AS8422 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8422 action pref=150; accept AS-NETCOLOGNE-V6
+mp-export:      afi ipv6.unicast to AS8422 announce AS-LINKEY
+import:         from AS8447 action pref=150; accept AS-PTA
+export:         to AS8447 announce AS-LINKEY
+import:         from AS8492 action pref=150; accept AS-OBIT
+export:         to AS8492 announce AS-LINKEY
+import:         from AS8560 action pref=150; accept AS-1AND1
+export:         to AS8560 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8560 action pref=150; accept AS-1AND1
+mp-export:      afi ipv6.unicast to AS8560 announce AS-LINKEY
+import:         from AS8591 action pref=150; accept AS-AMIS
+export:         to AS8591 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8591 action pref=150; accept AS-AMIS6
+mp-export:      afi ipv6.unicast to AS8591 announce AS-LINKEY
+import:         from AS8657 action pref=150; accept AS-CPRM
+export:         to AS8657 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8657 action pref=150; accept AS-CPRM-V6
+mp-export:      afi ipv6.unicast to AS8657 announce AS-LINKEY
+import:         from AS8708 action pref=150; accept AS-RDSNET
+export:         to AS8708 announce AS-LINKEY
+import:         from AS8717 action pref=150; accept AS-SPNET
+export:         to AS8717 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8717 action pref=150; accept AS-SPNET
+mp-export:      afi ipv6.unicast to AS8717 announce AS-LINKEY
+import:         from AS8781 action pref=150; accept AS-QTEL-SET
+export:         to AS8781 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8781 action pref=150; accept AS-QTEL-SET
+mp-export:      afi ipv6.unicast to AS8781 announce AS-LINKEY
+import:         from AS8859 action pref=150; accept AS-OSN
+export:         to AS8859 announce AS-LINKEY
+import:         from AS8966 action pref=150; accept AS-EMIX
+export:         to AS8966 announce AS-LINKEY
+import:         from AS9044 action pref=150; accept AS-SOLNET
+export:         to AS9044 announce AS-LINKEY
+import:         from AS9063 action pref=150; accept AS-SAARGATE
+export:         to AS9063 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS9063 action pref=150; accept AS-SAARGATE
+mp-export:      afi ipv6.unicast to AS9063 announce AS-LINKEY
+import:         from AS9119 action pref=150; accept AS-SOFTNET
+export:         to AS9119 announce AS-LINKEY
+import:         from AS9189 action pref=150; accept AS-ACCOM
+export:         to AS9189 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS9189 action pref=150; accept AS-NETAACHEN-V6
+mp-export:      afi ipv6.unicast to AS9189 announce AS-LINKEY
+import:         from AS12041 action pref=150; accept AS12041:AS-AFILIAS
+export:         to AS12041 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS12041 action pref=150; accept AS12041:AS-AFILIAS
+mp-export:      afi ipv6.unicast to AS12041 announce AS-LINKEY
+import:         from AS12306 action pref=150; accept AS-PLUSLINE
+export:         to AS12306 announce AS-LINKEY
+import:         from AS12327 action pref=150; accept AS-IDEAR4BUSINESS
+export:         to AS12327 announce AS-LINKEY
+import:         from AS12348 action pref=150; accept AS-ODNDE
+export:         to AS12348 announce AS-LINKEY
+import:         from AS12399 action pref=150; accept AS-SPXS
+export:         to AS12399 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS12399 action pref=150; accept AS-SPXS
+mp-export:      afi ipv6.unicast to AS12399 announce AS-LINKEY
+import:         from AS12611 action pref=150; accept AS-RKOM
+export:         to AS12611 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS12611 action pref=150; accept AS-RKOM
+mp-export:      afi ipv6.unicast to AS12611 announce AS-LINKEY
+import:         from AS12859 action pref=150; accept AS-BIT
+export:         to AS12859 announce AS-LINKEY
+import:         from AS12874 action pref=150; accept AS-FASTWEB
+export:         to AS12874 announce AS-LINKEY
+import:         from AS13030 action pref=150; accept AS-INIT7
+export:         to AS13030 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS13030 action pref=150; accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 announce AS-LINKEY
+import:         from AS13157 action pref=150; accept AS-GOPAS
+export:         to AS13157 announce AS-LINKEY
+import:         from AS13249 action pref=150; accept AS-ITS-DECIX
+export:         to AS13249 announce AS-LINKEY
+import:         from AS13301 action pref=150; accept AS-UNITEDCOLO
+export:         to AS13301 announce AS-LINKEY
+import:         from AS15133 action pref=150; accept AS-EDGECAST
+export:         to AS15133 announce AS-LINKEY
+import:         from AS15830 action pref=150; accept AS-TELECITYLON
+export:         to AS15830 announce AS-LINKEY
+import:         from AS16265 action pref=150; accept AS-LEASEWEB
+export:         to AS16265 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS16265 action pref=150; accept AS-LEASEWEB
+mp-export:      afi ipv6.unicast to AS16265 announce AS-LINKEY
+import:         from AS16276 action pref=150; accept AS-OVH
+export:         to AS16276 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS16276 action pref=150; accept AS-OVH
+mp-export:      afi ipv6.unicast to AS16276 announce AS-LINKEY
+import:         from AS16509 action pref=150; accept AS-AMAZON
+export:         to AS16509 announce AS-LINKEY
+import:         from AS19151 action pref=150; accept AS-BBOI
+export:         to AS19151 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS19151 action pref=150; accept AS-BBOI
+mp-export:      afi ipv6.unicast to AS19151 announce AS-LINKEY
+import:         from AS20940 action pref=150; accept AS-AKAMAI
+export:         to AS20940 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS20940 action pref=150; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS-LINKEY
+import:         from AS21011 action pref=150; accept AS21011:AS-EXT
+export:         to AS21011 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS21011 action pref=150; accept AS21011:AS-EXT
+mp-export:      afi ipv6.unicast to AS21011 announce AS-LINKEY
+import:         from AS21219 action pref=150; accept AS-FF-TRANSIT
+export:         to AS21219 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS21219 accept AS-FF-TRANSIT-V6
+mp-export:      afi ipv6.unicast to AS21219 announce AS-LINKEY
+import:         from AS21385 action pref=150; accept AS-TNIB
+export:         to AS21385 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS21385 action pref=150; accept AS-TNIB
+mp-export:      afi ipv6.unicast to AS21385 announce AS-LINKEY
+import:         from AS22822 action pref=150; accept AS-LLNW
+export:         to AS22822 announce AS-LINKEY
+import:         from AS23148 action pref=150; accept AS-TWW
+export:         to AS23148 announce AS-LINKEY
+import:         from AS29140 action pref=150; accept AS-HOSTSERVER
+export:         to AS29140 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS29140 action pref=150; accept AS-HOSTSERVER
+mp-export:      afi ipv6.unicast to AS29140 announce AS-LINKEY
+import:         from AS29208 action pref=150; accept AS-DIALTELECOM
+export:         to AS29208 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS29208 action pref=150; accept AS-DIALTELECOM
+mp-export:      afi ipv6.unicast to AS29208 announce AS-LINKEY
+import:         from AS29545 action pref=150; accept AS-IPLACE
+export:         to AS29545 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS29545 action pref=150; accept AS-IPLACE-V6
+mp-export:      afi ipv6.unicast to AS29545 announce AS-LINKEY
+import:         from AS29834 action pref=150; accept AS29834
+export:         to AS29834 announce AS-LINKEY
+import:         from AS31529 action pref=150; accept AS-DENIC-ANY
+export:         to AS31529 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS31529 action pref=150; accept AS-DENIC-ANY
+mp-export:      afi ipv6.unicast to AS31529 announce AS-LINKEY
+import:         from AS32934 action pref=150; accept AS-FACEBOOK
+export:         to AS32934 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS32934 action pref=150; accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 announce AS-LINKEY
+import:         from AS33873 action pref=150; accept AS-ARVATO
+export:         to AS33873 announce AS-LINKEY
+import:         from AS33891 action pref=150; accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS33891 action pref=150; accept AS-CORE-BACKBONE
+mp-export:      afi ipv6.unicast to AS33891 announce AS-LINKEY
+import:         from AS34695 action pref=150; accept AS34695:AS-TRANSIT
+export:         to AS34695 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS34695 action pref=150; accept AS34695:AS-TRANSIT
+mp-export:      afi ipv6.unicast to AS34695 announce AS-LINKEY
+import:         from AS35320 action pref=150; accept AS-ETT
+export:         to AS35320 announce AS-LINKEY
+import:         from AS36408 action pref=150; accept AS-CDNETWORKS-EU
+export:         to AS36408 announce AS-LINKEY
+import:         from AS39257 action pref=150; accept AS-INC
+export:         to AS39257 announce AS-LINKEY
+import:         from AS39792 action pref=150; accept AS-ANDERS
+export:         to AS39792 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS39792 action pref=150; accept AS-ANDERS-V6
+mp-export:      afi ipv6.unicast to AS39792 announce AS-LINKEY
+import:         from AS39912 action pref=150; accept AS-I3B
+export:         to AS39912 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS39912 action pref=150; accept AS-I3B
+mp-export:      afi ipv6.unicast to AS39912 announce AS-LINKEY
+import:         from AS41692 action pref=150; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS41692 action pref=150; accept AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast to AS41692 announce AS-LINKEY
+import:         from AS42416 action pref=150; accept AS-COMNET
+export:         to AS42416 announce AS-LINKEY
+import:         from AS42459 action pref=150; accept AS-FOBUL
+export:         to AS42459 announce AS-LINKEY
+import:         from AS42708 action pref=150; accept AS-PORTLANE
+export:         to AS42708 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS42708 action pref=150; accept AS-PORTLANE
+mp-export:      afi ipv6.unicast to AS42708 announce AS-LINKEY
+import:         from AS44066 action pref=150; accept AS-FIRSTCOLO
+export:         to AS44066 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS44066 action pref=150; accept AS-FIRSTCOLO
+mp-export:      afi ipv6.unicast to AS44066 announce AS-LINKEY
+import:         from AS44654 action pref=150; accept AS-MNS
+export:         to AS44654 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS44654 accept AS-MNS
+mp-export:      afi ipv6.unicast to AS44654 announce AS-LINKEY
+import:         from AS47195 action pref=150; accept AS-GAMEFORGE
+export:         to AS47195 announce AS-LINKEY
+import:         from AS47869 action pref=150; accept AS-NETROUTING
+export:         to AS47869 announce AS-LINKEY
+import:         from AS56665 action pref=150; accept AS-TELINDUSLUX
+export:         to AS56665 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS56665 accept AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS56665 announce AS-LINKEY
+remarks:        -----------------------------------------
+remarks:        ---------------- KleyRex-IX -------------
+remarks:        -----------------------------------------
+import:         from AS6939 action pref=150; accept AS-HURRICANE
+export:         to AS6939 announce AS-LINKEY
+import:         from AS31142 action pref=150; accept AS-KLEYREX-RS1
+export:         to AS31142 announce AS-LINKEY
+import:         from AS39792 action pref=150; accept AS-ANDERS
+export:         to AS39792 announce AS-LINKEY
+remarks:        -----------------------------------------
+remarks:        ---------------- AMS-IX -----------------
+remarks:        -----------------------------------------
+import:         from AS1200 action pref=150; accept AS1200
+export:         to AS1200 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS1200 action pref=150; accept AS1200
+mp-export:      afi ipv6.unicast to AS1200 announce AS-LINKEY
+import:         from AS6327 action pref=150; accept AS-BIGPIPE
+export:         to AS6327 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS6327 action pref=150; accept AS-BIGPIPE
+mp-export:      afi ipv6.unicast to AS6327 announce AS-LINKEY
+import:         from AS6777 action pref=150; accept ANY
+export:         to AS6777 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS6777 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS6777 announce AS-LINKEY
+import:         from AS6939 action pref=150; accept AS-HURRICANE
+export:         to AS6939 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS6939 action pref=150; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-LINKEY
+import:         from AS8365 action pref=150; accept AS-MANDA
+export:         to AS8365 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS8365 action pref=150; accept AS-MANDA
+mp-export:      afi ipv6.unicast to AS8365 announce AS-LINKEY
+import:         from AS12327 action pref=150; accept AS-IDEAR4BUSINESS
+export:         to AS12327 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS12327 action pref=150; accept AS-IDEAR4BUSINESSV6
+mp-export:      afi ipv6.unicast to AS12327 announce AS-LINKEY
+import:         from AS12350 action pref=150; accept AS-VTX
+export:         to AS12350 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS12350 action pref=150; accept AS-VTX
+mp-export:      afi ipv6.unicast to AS12350 announce AS-LINKEY
+import:         from AS12859 action pref=150; accept AS-BIT
+export:         to AS12859 announce AS-LINKEY
+import:         from AS13127 action pref=150; accept AS-VERSATEL
+export:         to AS13127 announce AS-LINKEY
+import:         from AS13285 action pref=150; accept AS-OPAL
+export:         to AS13285 announce AS-LINKEY
+import:         from AS15772 action pref=150; accept AS-WNET
+export:         to AS15772 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS15772 accept AS-WNET
+mp-export:      afi ipv6.unicast to AS15772 announce AS-LINKEY
+import:         from AS16298 action pref=150; accept AS-INTERBOX
+export:         to AS16298 announce AS-LINKEY
+import:         from AS20940 action pref=150; accept AS-AKAMAI
+export:         to AS20940 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS20940 action pref=150; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS-LINKEY
+import:         from AS21478 action pref=150; accept AS-PLEX
+export:         to AS21478 announce AS-LINKEY
+import:         from AS25091 action pref=150; accept AS-IP-MAX
+export:         to AS25091 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS25091 action pref=150; accept AS-IP-MAX
+mp-export:      afi ipv6.unicast to AS25091 announce AS-LINKEY
+import:         from AS28878 action pref=150; accept AS-SIGNET
+export:         to AS28878 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS28878 action pref=150; accept AS-SIGNET
+mp-export:      afi ipv6.unicast to AS28878 announce AS-LINKEY
+import:         from AS28929 action pref=150; accept AS-ASDASD
+export:         to AS28929 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS28929 action pref=150; accept AS-ASDASD
+mp-export:      afi ipv6.unicast to AS28929 announce AS-LINKEY
+import:         from AS31019 action pref=150; accept AS-MEANIE
+export:         to AS31019 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS31019 action pref=150; accept AS-MEANIE
+mp-export:      afi ipv6.unicast to AS31019 announce AS-LINKEY
+import:         from AS31449 action pref=150; accept AS-BELCENTER
+export:         to AS31449 announce AS-LINKEY
+import:         from AS34868 action pref=150; accept AS-QS
+export:         to AS34868 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS34868 action pref=150; accept AS-QS
+mp-export:      afi ipv6.unicast to AS34868 announce AS-LINKEY
+import:         from AS35017 action pref=150; accept AS-SWIFTWAY-UPLINKS
+export:         to AS35017 announce AS-LINKEY
+import:         from AS35625 action pref=150; accept AS-ATE
+export:         to AS35625 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS35625 action pref=150; accept AS-ATE-CUST
+mp-export:      afi ipv6.unicast to AS35625 announce AS-LINKEY
+import:         from AS36408 action pref=150; accept AS-CDNETWORKS-EU
+export:         to AS36408 announce AS-LINKEY
+import:         from AS39637 action pref=150; accept AS-NETLOGICS
+export:         to AS39637 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS39637 action pref=150; accept AS-NETLOGICS
+mp-export:      afi ipv6.unicast to AS39637 announce AS-LINKEY
+import:         from AS41692 action pref=150; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS41692 action pref=150; accept AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast to AS41692 announce AS-LINKEY
+import:         from AS41913 action pref=150; accept AS-COMPUTERLINE
+export:         to AS41913 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS41913 accept AS-COMPUTERLINE
+mp-export:      afi ipv6.unicast to AS41913 announce AS-LINKEY
+import:         from AS44654 action pref=150; accept AS-MNS
+export:         to AS44654 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS44654 accept AS-MNS
+mp-export:      afi ipv6.unicast to AS44654 announce AS-LINKEY
+import:         from AS47836 action pref=150; accept AS-ACWEBCONNECTING
+export:         to AS47836 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS47836 action pref=150; accept AS-ACWEBCONNECTING
+mp-export:      afi ipv6.unicast to AS47836 announce AS-LINKEY
+import:         from AS49562 action pref=150; accept AS49562
+export:         to AS49562 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS49562 action pref=150; accept AS49562
+mp-export:      afi ipv6.unicast to AS49562 announce AS-LINKEY
+import:         from AS51752 action pref=150; accept AS-WACHTTOREN
+export:         to AS51752 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS51752 action pref=150; accept AS-WACHTTOREN
+mp-export:      afi ipv6.unicast to AS51752 announce AS-LINKEY
+import:         from AS56665 action pref=150; accept AS-TELINDUSLUX
+export:         to AS56665 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS56665 accept AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS56665 announce AS-LINKEY
+import:         from AS57344 action pref=150; accept AS-57344
+export:         to AS57344 announce AS-LINKEY
+remarks:        -----------------------------------------
+remarks:        ----------------- NL-IX -----------------
+remarks:        -----------------------------------------
+import:         from AS16298 action pref=150; accept AS-INTERBOX
+export:         to AS16298 announce AS-LINKEY
+import:         from AS20940 action pref=150; accept AS-AKAMAI
+export:         to AS20940 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS20940 action pref=150; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS-LINKEY
+import:         from AS31800 action pref=150; accept AS31800
+export:         to AS31800 announce AS-LINKEY
+import:         from AS34307 action pref=150; accept ANY
+export:         to AS34307 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS34307 action pref=150; accept ANY
+mp-export:      afi ipv6.unicast to AS34307 announce AS-LINKEY
+import:         from AS31019 action pref=150; accept AS-MEANIE
+export:         to AS31019 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS31019 action pref=150; accept AS-MEANIE
+mp-export:      afi ipv6.unicast to AS31019 announce AS-LINKEY
+import:         from AS42755 action pref=150; accept AS-RIJNDATA
+export:         to AS42755 announce AS-LINKEY
+import:         from AS47836 action pref=150; accept AS-ACWEBCONNECTING
+export:         to AS47836 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS47836 action pref=150; accept AS-ACWEBCONNECTING
+mp-export:      afi ipv6.unicast to AS47836 announce AS-LINKEY
+import:         from AS49562 action pref=150; accept AS49562
+export:         to AS49562 announce AS-LINKEY
+remarks:        -----------------------------------------
+remarks:        ----------------- LU-CIX -----------------
+remarks:        -----------------------------------------
+import:         from AS49624 action pref=150; accept AS-LUCIX
+export:         to AS49624 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS49624 action pref=150; accept AS-LUCIX
+mp-export:      afi ipv6.unicast to AS49624 announce AS-LINKEY
+import:         from AS2484 action pref=150; accept AS2484
+export:         to AS2484 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS2484 action pref=150; accept AS2484
+mp-export:      afi ipv6.unicast to AS2484 announce AS-LINKEY
+import:         from AS13226 action pref=150; accept AS13226
+export:         to AS13226 announce AS-LINKEY
+import:         from AS56665 action pref=150; accept AS-TELINDUSLUX
+export:         to AS56665 announce AS-LINKEY
+mp-import:      afi ipv6.unicast from AS56665 accept AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS56665 announce AS-LINKEY
+remarks:
+remarks:        -----------------------------------------
+remarks:        ---------------- CUSTOMERS --------------
+remarks:        -----------------------------------------
+import:         from AS13302 action pref=200; accept AS13302
+export:         to AS13302 announce ANY
+import:         from AS24739 action pref=200; accept AS-SEVEREN-TELECOM
+export:         to AS24739 announce ANY
+mp-import:      afi ipv6.unicast from AS24739 action pref=200; accept AS-SEVEREN-TELECOM
+mp-export:      afi ipv6.unicast to AS24739 announce ANY
+import:         from AS25091 action pref=200; accept AS-IP-MAX
+export:         to AS25091 announce ANY
+mp-import:      afi ipv6.unicast from AS25091 action pref=200; accept AS-IP-MAX-V6
+mp-export:      afi ipv6.unicast to AS25091 announce ANY
+import:         from AS47716 action pref=200; accept AS47716
+export:         to AS47716 announce ANY
+import:         from AS61327 action pref=200; accept AS-MTXC
+export:         to AS61327 announce ANY
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        Routing communities
+remarks:
+remarks:        External communities may be set by customers peers
+remarks:        when talking to AS13002. They are in range:
+remarks:        13002:4000 - 13002:4999.
+remarks:
+remarks:        13002:410x Advertising to any Russian uplink
+remarks:        13002:411x Advertising to TTK
+remarks:        13002:412x Advertising to Rascom
+remarks:        13002:420x Advertising to any Russian peer
+remarks:        13002:429x Advertising to any PRIVATE peer
+remarks:        13002:430x Advertising to any International uplink
+remarks:        13002:431x Advertising to Cogent
+remarks:        13002:432x Advertising to Level3
+remarks:        13002:433x Advertising to IP-TRIPLEPLAY
+remarks:        13002:440x Advertising to any INTERNATIONAL peer
+remarks:        13002:441x Advertising to any DE-CIX peer
+remarks:        13002:442x Advertising to any KLEYREX-IX peer
+remarks:        13002:443x Advertising to any AMS-IX peer
+remarks:        13002:444x Advertising to any NL-IX peer
+remarks:        13002:445x Advertising to any LU-CIX peer
+remarks:        13002:449x Advertising to any PRIVATE peer
+remarks:
+remarks:        ...x=0 - do not advertise
+remarks:        ...x=1,2,4 - prepend 1,2,4 times
+remarks:
+remarks:        13002:4999 Do not advertise to any peers and uplinks
+remarks:
+remarks:        Customers routes get local preference of 200 (highest)
+remarks:        Peers routes get local preference in the range
+remarks:        of 145-155.
+remarks:        Uplinks routes get local preference in the range
+remarks:        of 95-105.
+remarks:
+remarks:        13002:4950 Set local preference 150
+remarks:        13002:4900 Set local preference 50 (backup peer)
+remarks:
+remarks:        13002:4998 Blackhole (discard) traffic
+remarks:        Traffic destined for any /24-/32 prefixes tagged with
+remarks:        this community will be discarded at ingress to the
+remarks:        LinKey network.
+remarks:
+remarks:        Other communities in range 13002:4000-13002:4999 are
+remarks:        accepted but ignored.
+remarks:        Prefixes longer than /24 are not permitted.
+remarks:
+remarks:        Informational communities
+remarks:
+remarks:        Informational communities 13002:* (except 13002:4xxx)
+remarks:        are assigned only internally and are always deleted
+remarks:        from incoming updates at the border routers. They may
+remarks:        be used by peers to filter some prefixes.
+remarks:
+remarks:        13002:1100 Russian uplinks
+remarks:        13002:1101 TTK
+remarks:        13002:1102 Rascom
+remarks:        13002:1200 Russian peers
+remarks:        13002:1251 Private peers of St.Petersburg
+remarks:        13002:1252 Private peers of Moscow
+remarks:        13002:1253 Private peers of Samara
+remarks:        13002:1254 Private peers of Novosibirsk
+remarks:        13002:1255 Private peers of Ekaterinburg
+remarks:        13002:2100 International uplinks
+remarks:        13002:2101 Cogent
+remarks:        13002:2102 Level3
+remarks:        13002:2103 IP-TRIPLEPLAY
+remarks:        13002:2200 International peers
+remarks:        13002:2201 DE-CIX
+remarks:        13002:2202 KLEYREX-IX
+remarks:        13002:2203 AMS-IX
+remarks:        13002:2204 NL-IX
+remarks:        13002:2205 LU-CIX
+remarks:        13002:2251 Private peers of Frankfurt
+remarks:        13002:2252 Private peers of Amsterdam
+remarks:        13002:2253 Private peers of Luxemburg
+remarks:        13002:3001 Originated in St.Petersburg
+remarks:        13002:3002 Originated in Moscow
+remarks:        13002:3003 Originated in Samara
+remarks:        13002:3004 Originated in Novosibirsk
+remarks:        13002:3005 Originated in Ekaterinburg
+remarks:        13002:3901 Originated in Frankfurt
+remarks:        13002:3902 Originated in Amsterdam
+remarks:        13002:3903 Originated in Luxemburg
+remarks:
+remarks:        Other 13002:* communities are always deleted from
+remarks:        incoming updates at the border routers.
+remarks:        Other *:* communities are passed to all peers.
+remarks:
+remarks:        Last Update: 16 December 2013
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        General questions: support@linkey.ru
+remarks:        Spam & Abuse: abuse@linkey.ru
+remarks:        Routing inquiries: noc@linkey.ru
+remarks:        Peering issues: peering@linkey.ru
+remarks:        ---------------------------------------------------
+org:            ORG-LL4-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         LINKEY-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2001-12-05T12:41:58Z
+last-modified:  2017-11-15T09:13:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

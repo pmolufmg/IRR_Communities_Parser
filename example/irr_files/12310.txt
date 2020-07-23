@@ -1,0 +1,358 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12288 - AS12454'
+
+as-block:       AS12288 - AS12454
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12310'
+
+% Abuse contact for 'AS12310' is 'abuse@ines.ro'
+
+aut-num:        AS12310
+org:            ORG-iGS3-RIPE
+as-name:        iNES
+descr:          Bucharest / ROMANIA
+descr:          Phone: +40316202020
+descr:          Fax: +40316202099
+import:         from AS2614 accept AS-ROEDUNET
+export:         to AS2614 announce AS-INES
+import:         from AS3233 accept AS-RNC
+export:         to AS3233 announce ANY
+import:         from AS3320 accept ANY
+export:         to AS3320 announce AS-INES
+import:         from AS5606 accept AS-KQRONIX
+export:         to AS5606 announce AS-INES
+import:         from AS6663 accept AS-STARNETSRO
+export:         to AS6663 announce AS-INES
+import:         from AS6910 accept AS-DIALTELECOMRO
+export:         to AS6910 announce AS-INES
+import:         from AS8708 accept AS-RDSNET
+export:         to AS8708 announce AS-INES
+import:         from AS8751 accept AS-MEDIASAT
+export:         to AS8751 announce AS-INES
+import:         from AS12592 accept as-12592
+export:         to AS12592 announce ANY
+import:         from AS15471 accept AS-SNRNET
+export:         to AS15471 announce AS-INES
+import:         from AS20497 accept AS-TERRANET
+export:         to AS20497 announce AS-INES
+import:         from AS20530 accept AS-ROMANIA
+export:         to AS20530 announce AS-INES
+import:         from AS20616 accept AS-NETBRIDGE
+export:         to AS20616 announce ANY
+import:         from AS20879 accept AS20879
+export:         to AS20879 announce ANY
+import:         from AS20930 accept AS20930
+export:         to AS20930 announce ANY
+import:         from AS21357 accept ANY
+export:         to AS21357 announce AS-INES
+import:         from AS25318 accept AS25318
+export:         to AS25318 announce ANY
+import:         from AS28721 accept AS-OPENSYSRO
+export:         to AS28721 announce AS-INES
+import:         from AS28743 accept AS28743
+export:         to AS28743 announce ANY
+import:         from AS30890 accept AS-EVOLVA
+export:         to AS30890 announce AS-INES
+import:         from AS31313 accept AS-STS-RO
+export:         to AS31313 announce ANY
+import:         from AS31710 accept AS-GIR
+export:         to AS31710 announce ANY
+import:         from AS34060 accept AS-TCCFR
+export:         to AS34060 announce ANY
+import:         from AS34176 accept AS34176
+export:         to AS35436 announce ANY
+import:         from AS39366 accept AS39366
+export:         to AS39366 announce ANY
+import:         from AS41486 accept AS41486
+export:         to AS41486 announce ANY
+import:         from AS42073 accept AS42073
+export:         to AS42073 announce ANY
+import:         from AS44960 accept AS44960
+export:         to AS44960 announce ANY
+import:         from AS12446 accept AS12446
+export:         to AS12446 announce ANY
+import:         from AS21220 accept AS21220
+export:         to AS21220 announce ANY
+import:         from AS13181 accept AS13181
+export:         to AS13181 announce ANY
+import:         from AS44154 accept AS44154
+export:         to AS44154 announce ANY
+import:         from AS35322 accept AS35322
+export:         to AS35322 announce ANY
+import:         from AS38935 accept AS38935
+export:         to AS38935 announce ANY
+import:         from AS41832 accept AS41832
+export:         to AS41832 announce ANY
+import:         from AS39646 accept AS39646
+export:         to AS39646 announce ANY
+import:         from AS13067 accept AS13067
+export:         to AS13067 announce ANY
+import:         from AS39205 accept AS-BUSINESSIT
+export:         to AS39205 announce ANY
+import:         from AS9160 accept AS9160
+export:         to AS9160 announce ANY
+import:         from AS35604 accept AS35604
+export:         to AS35604 announce ANY
+import:         from AS35450 accept AS-DAINET
+export:         to AS35450 announce ANY
+import:         from AS41295 accept AS41295
+export:         to AS41295 announce ANY
+import:         from AS42216 accept AS42216
+export:         to AS42216 announce ANY
+import:         from AS39108 accept AS39108
+export:         to AS39108 announce ANY
+import:         from AS43376 accept AS-DOTRO
+export:         to AS43376 announce ANY
+import:         from AS15873 accept AS15873
+export:         to AS15873 announce ANY
+import:         from AS13011 accept AS13011
+export:         to AS13011 announce ANY
+import:         from AS34198 accept AS34198
+export:         to AS34198 announce ANY
+import:         from AS49909 accept AS-DIRECTONE
+export:         to AS49909 announce ANY
+import:         from AS196783 accept AS196783
+export:         to AS196783 announce ANY
+import:         from AS49256 accept AS49256
+export:         to AS49256 announce ANY
+import:         from AS50080 accept AS50080
+export:         to AS50080 announce ANY
+import:         from AS31282 accept AS-ATNR
+export:         to AS31282 announce AS-INES
+import:         from AS21007 accept AS-DISYS-UPS
+export:         to AS21007 announce ANY
+import:         from AS34279 accept AS-TELETRANS-R2
+export:         to AS34279 announce AS-INES
+import:         from AS5507 accept AS-BIX
+export:         to AS5507 announce AS-INES
+import:         from AS51322 accept AS51322
+export:         to AS51322 announce ANY
+import:         from AS56397 accept AS56397
+export:         to AS56397 announce ANY
+import:         from AS49918 accept AS49918
+export:         to AS49918 announce ANY
+import:         from AS6777 accept AS-AMS-IX-RS
+export:         to AS6777 announce AS-INES
+import:         from AS1200 accept AS1200
+export:         to AS1200 announce AS-INES
+import:         from AS51239 accept AS51239
+export:         to AS51239 announce ANY
+import:         from AS5541 accept AS-ADNET
+export:         to AS5541 announce AS-INES
+import:         from AS56795 accept AS56795
+export:         to AS56795 announce ANY
+import:         from AS48855 accept AS48855
+export:         to AS48855 announce ANY
+import:         from AS56430 accept AS-CHROOT
+export:         to AS56430 announce ANY
+import:         from AS57275 accept AS57275
+export:         to AS57275 announce ANY
+import:         from AS3333 accept AS3333
+export:         to AS3333 announce AS-INES
+import:         from AS50244 accept AS-ITELECOM
+export:         to AS50244 announce AS-INES
+import:         from AS35371 accept AS-SOFTKIT
+export:         to AS-SOFTKIT announce AS-INES
+import:         from AS47703 accept AS47703
+export:         to AS47703 announce ANY
+import:         from AS59400 accept AS59400
+export:         to AS59400 announce ANY
+import:         from AS42568 accept AS-DPNET
+export:         to AS42568 announce ANY
+import:         from AS29473 accept AS-STAS
+export:         to AS29473 announce ANY
+import:         from AS34450 accept AS-WDCNET
+export:         to AS34450 announce AS-INES
+import:         from AS31252 accept AS-STARNET
+export:         to AS31252 announce AS-INES
+import:         from AS39366 accept AS39366
+export:         to AS39366 announce ANY
+import:         from AS44682 accept AS-TELECOMROMANIA
+export:         to AS44682 announce AS-INES
+import:         from AS60619 accept AS60619
+export:         to AS60619 announce ANY
+import:         from AS60531 accept AS60531
+export:         to AS60531 announce ANY
+import:         from AS60509 accept AS60509
+export:         to AS60509 announce ANY
+import:         from AS42094 accept AS42094
+export:         to AS42094 announce ANY
+import:         from AS60303 accept AS60303
+export:         to AS60303 announce ANY
+import:         from AS62388 accept AS62388
+export:         to AS62388 announce ANY
+import:         from AS28684 accept AS-BESTNETS
+export:         to AS28684 announce ANY
+import:         from AS49252 accept AS49252
+export:         to AS49252 announce ANY
+import:         from AS24712 accept AS24712
+export:         to AS24712 announce ANY
+import:         from AS35512 accept AS-ABC-NET
+export:         to AS35512 announce ANY
+import:         from AS41537 accept AS41537
+export:         to AS41537 announce ANY
+import:         from AS62034 accept AS62034
+export:         to AS62034 announce ANY
+import:         from AS59999 accept AS59999
+export:         to AS59999 announce ANY
+import:         from AS62101 accept AS62101
+export:         to AS62101 announce ANY
+import:         from AS31554 accept AS-ALTFEL
+export:         to AS31554 announce ANY
+import:         from AS48457 accept AS-STAS
+export:         to AS48457 announce ANY
+import:         from AS57500 accept AS57500
+export:         to AS57500 announce ANY
+import:         from AS39543 accept AS-TENNET
+export:         to AS39543 announce AS-INES
+import:         from AS56684 accept AS56684
+export:         to AS56684 announce ANY
+import:         from AS21462 accept AS-INTERNIO
+export:         to AS21462 announce ANY
+import:         from AS50369 accept AS-SAFEGRID
+export:         to AS50369 announce ANY
+import:         from AS42026 accept AS42026
+export:         to AS42026 announce ANY
+import:         from AS12804 accept AS12804
+export:         to AS12804 announce ANY
+import:         from AS25536 accept AS25536
+export:         to AS25536 announce ANY
+import:         from AS202203 accept AS-D-NET
+export:         to AS202203 announce AS-INES
+mp-import:      afi ipv6.unicast from AS20530 accept AS-ROMANIA
+mp-export:      afi ipv6.unicast to AS20530 announce AS-INES
+mp-import:      afi ipv6.unicast from AS49909 accept AS-DIRECTONE
+mp-export:      afi ipv6.unicast to AS49909 announce ANY
+mp-import:      afi ipv6.unicast from AS25318 accept AS25318
+mp-export:      afi ipv6.unicast to AS25318 announce ANY
+mp-import:      afi ipv6.unicast from AS20879 accept AS20879
+mp-export:      afi ipv6.unicast to AS20879 announce ANY
+mp-import:      afi ipv6.unicast from AS5541 accept AS-ADNET
+mp-export:      afi ipv6.unicast to AS5541 announce AS-INES
+mp-import:      afi ipv6.unicast from AS2614 accept AS-ROEDUNET
+mp-export:      afi ipv6.unicast to AS2614 announce AS-INES
+mp-import:      afi ipv6.unicast from AS31710 accept AS-GIR
+mp-export:      afi ipv6.unicast to AS31710 announce AS-INES
+mp-import:      afi ipv6.unicast from AS43376 accept AS-DOTRO
+mp-export:      afi ipv6.unicast to AS43376 announce ANY
+mp-import:      afi ipv6.unicast from AS3233 accept AS-RNC
+mp-export:      afi ipv6.unicast to AS3233 announce ANY
+mp-import:      afi ipv6.unicast from AS3333 accept AS3333
+mp-export:      afi ipv6.unicast to AS3333 announce AS-INES
+mp-import:      afi ipv6.unicast from AS31252 accept AS-STARNET
+mp-export:      afi ipv6.unicast to AS31252 announce AS-INES
+mp-import:      afi ipv6.unicast from AS56430 accept AS-CHROOT
+mp-export:      afi ipv6.unicast to AS56430 announce ANY
+mp-import:      afi ipv6.unicast from AS28684 accept AS-BESTNETS
+mp-export:      afi ipv6.unicast to AS28684 announce ANY
+mp-import:      afi ipv6.unicast from AS31554 accept AS-ALTFEL
+mp-export:      afi ipv6.unicast to AS31554 announce ANY
+mp-import:      afi ipv6.unicast from AS39205 accept AS-BUSINESSIT
+mp-export:      afi ipv6.unicast to AS39205 announce ANY
+mp-import:      afi ipv6.unicast from AS50369 accept AS-SAFEGRID
+mp-export:      afi ipv6.unicast to AS50369 announce ANY
+remarks:        -----------------------------------------------
+remarks:        -----------------------------------------------
+remarks:
+remarks:        Customers of AS12310 can use the following communities
+remarks:
+remarks:        12310:80 - set localpreference to 80
+remarks:        12310:100 - set localpreference to 100
+remarks:        12310:150 - set localpreference to 150
+remarks:        12310:1000 - advertise to external peers
+remarks:        12310:1001 - prepend 1*12310 to external peers
+remarks:        12310:1002 - prepend 2*12310 to external peers
+remarks:        12310:1003 - prepend 3*12310 to external peers
+remarks:        12310:1009 - do no advertise to external peers
+remarks:        12310:2000 - advertise to local peers
+remarks:        12310:2001 - prepend 1*12310 to local peers
+remarks:        12310:2002 - prepend 2*12310 to local peers
+remarks:        12310:2003 - prepend 3*12310 to local peers
+remarks:        12310:2009 - do not advertise to local peers
+remarks:        for specific communities regarding iNES local
+remarks:        peers, mail to support@ines.ro
+remarks:        12310:10000 - blackhole to external peers
+remarks:        12310:9999 - blackhole to metro peers
+remarks:        12310:9999 12310:10000 - blackhole to all
+remarks:        defaults: localpref 150, 12310:1000, 12310:2000
+remarks:
+remarks:        -----------------------------------------------
+remarks:        -----------------------------------------------
+admin-c:        INES-RIPE
+tech-c:         INES-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS12310-MNT
+created:        2002-06-06T07:33:11Z
+last-modified:  2018-10-30T08:15:58Z
+source:         RIPE # Filtered
+
+organisation:   ORG-iGS3-RIPE
+org-name:       iNES GROUP SRL
+org-type:       LIR
+address:        2-6 Virgil Madgearu st.
+                sector 1
+address:        014135
+address:        Bucharest
+address:        ROMANIA
+phone:          +40 31 620 20 20
+phone:          +40 21 232 21 12
+fax-no:         +40 21 232 34 61
+admin-c:        BC2200-RIPE
+admin-c:        IS247-RIPE
+admin-c:        DC1119-RIPE
+admin-c:        TU790-RIPE
+admin-c:        BP1868-RIPE
+mnt-ref:        AS12310-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS12310-MNT
+abuse-c:        AC24656-RIPE
+created:        2004-04-17T11:49:48Z
+last-modified:  2017-10-30T14:44:07Z
+source:         RIPE # Filtered
+
+role:           iNES Internet NOC
+address:        2-6 Virgil Madgearu st.
+address:        sector 1
+address:        Bucharest / ROMANIA
+phone:          +40 31 620 20 20
+fax-no:         +40 31 620 20 99
+phone:          +40 21 232 21 12
+fax-no:         +40 21 232 34 61
+admin-c:        INES-RIPE
+tech-c:         TU790-RIPE
+tech-c:         DC1119-RIPE
+tech-c:         BP1868-RIPE
+tech-c:         BC2200-RIPE
+tech-c:         ARS3376
+nic-hdl:        INES-RIPE
+remarks:        --------------------------------
+remarks:        abuse reports: abuse@ines.ro
+remarks:        NOC Phone 24x7: +40 31 620 20 20
+remarks:        NOC Phone 24x7: +40 21 232 21 12
+remarks:        NOC E-mail: support@ines.ro
+remarks:        --------------------------------
+mnt-by:         AS12310-MNT
+created:        2003-03-14T10:36:48Z
+last-modified:  2009-05-14T13:00:16Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

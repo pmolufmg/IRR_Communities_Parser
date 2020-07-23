@@ -1,0 +1,397 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12557 - AS13223'
+
+as-block:       AS12557 - AS13223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12741'
+
+% Abuse contact for 'AS12741' is 'abuse@inetia.pl'
+
+aut-num:        AS12741
+as-name:        AS-NETIA
+org:            ORG-NTS2-RIPE
+descr:          Warszawa 02-822
+descr:          Poleczki 13
+descr:          PL
+descr:          www.netia.pl<http://www.netia.pl>
+remarks:        ================================================
+import:         from AS41421 action pref=200; accept AS-SNT
+export:         to AS41421 announce ANY
+import:         from AS174 action pref=200; accept ANY
+export:         to AS174 announce AS-NETIA
+import:         from AS3356 action pref=200; accept ANY
+export:         to AS3356 announce AS-NETIA
+import:         from AS5616 action pref=130; accept AS5616
+export:         to AS5616 announce AS-NETIA
+import:         from AS5617 action pref=100; accept AS5617
+export:         to AS5617 announce AS-NETIA
+import:         from AS8246 action pref=130; accept AS8246:AS-GIX
+export:         to AS8246 announce AS-NETIA
+import:         from AS8267 action pref=130; accept AS8267
+export:         to AS8267 announce AS-NETIA
+import:         from AS8308 action pref=130; accept AS-NASK:AS-Customers
+export:         to AS8308 announce AS-NETIA
+import:         from AS8364 action pref=130; accept AS8364
+export:         to AS8364 announce AS-NETIA
+import:         from AS8374 action pref=130; accept AS8374
+export:         to AS8374 announce AS-NETIA
+import:         from AS8508 action pref=130; accept AS-SASK-PEERINGS
+export:         to AS8508 announce AS-NETIA
+import:         from AS8535 action pref=200; accept AS8535
+export:         to AS8535 announce AS-NETIA
+import:         from AS8545 action pref=130; accept AS8545
+export:         to AS8545 announce AS-NETIA
+import:         from AS8664 action pref=130; accept AS8664
+export:         to AS8664 announce AS-NETIA
+import:         from AS8798 action pref=130; accept AS-PAGI
+export:         to AS8798 announce AS-NETIA
+import:         from AS8938 action pref=130; accept AS-ENERGISPL
+export:         to AS8938 announce AS-NETIA
+import:         from AS9085 action pref=130; accept AS-SUPERMEDIA
+export:         to AS9085 announce AS-NETIA
+import:         from AS9141 action pref=130; accept AS9141
+export:         to AS9141 announce AS-NETIA
+import:         from AS12324 action pref=130; accept AS12324:AS-TRANSIT
+export:         to AS12324 announce AS-NETIA
+import:         from AS12476 action pref=130; accept AS12476
+export:         to AS12476 announce AS-NETIA
+import:         from AS12580 action pref=130; accept AS-OMNITEC
+export:         to AS12580 announce AS-NETIA
+import:         from AS12824 action pref=130; accept AS12824
+export:         to AS12824 announce AS-NETIA
+import:         from AS12831 action pref=130; accept AS12831
+export:         to AS12831 announce AS-NETIA
+import:         from AS12877 action pref=200; accept AS12877
+export:         to AS12877 announce ANY
+import:         from AS12887 action pref=100; accept ANY
+export:         to AS12887 announce AS-NETIA
+import:         from AS12912 action pref=130; accept AS12912
+export:         to AS12912 announce AS-NETIA
+import:         from AS12966 action pref=200; accept AS12966
+export:         to AS12966 announce ANY
+import:         from AS12968 action pref=130; accept AS-CDP
+export:         to AS12968 announce AS-NETIA
+import:         from AS12990 action pref=200; accept AS12990 AS30876
+export:         to AS12990 announce AS-NETIA
+import:         from AS13086 action pref=200; accept AS13086
+export:         to AS13086 announce ANY
+import:         from AS13110 action pref=130; accept AS13110
+export:         to AS13110 announce AS-NETIA
+import:         from AS13274 action pref=200; accept AS13274
+export:         to AS13274 announce ANY
+import:         from AS15521 action pref=200; accept AS15521
+export:         to AS15521 announce ANY
+import:         from AS15541 action pref=200; accept AS15541 AS20837
+export:         to AS15541 announce ANY
+import:         from AS15652 action pref=130; accept AS15652
+export:         to AS15652 announce AS-NETIA
+import:         from AS15833 action pref=130; accept AS15833
+export:         to AS15833 announce AS-NETIA
+import:         from AS15857 action pref=130; accept AS-DIALOG
+export:         to AS15857 announce AS-NETIA
+import:         from AS15967 action pref=200; accept AS15967
+export:         to AS15967 announce ANY
+import:         from AS15993 action pref=200; accept AS15993
+export:         to AS15993 announce ANY
+import:         from AS15997 action pref=130; accept AS-MCNET
+export:         to AS15997 announce AS-NETIA
+import:         from AS16182 action pref=200; accept AS16182
+export:         to AS16182 announce ANY
+import:         from AS16296 action pref=130; accept AS-TWINIX
+export:         to AS16296 announce AS-NETIA
+import:         from AS16307 action pref=130; accept AS-ETELPL
+export:         to AS16307 announce AS-NETIA
+import:         from AS20778 action pref=200; accept AS20778
+export:         to AS20778 announce ANY
+import:         from AS20804 action pref=130; accept AS-EXATEL-PL
+export:         to AS20804 announce AS-NETIA
+import:         from AS20808 action pref=200; accept AS20808
+export:         to AS20808 announce ANY
+import:         from AS20853 action pref=130; accept AS20853
+export:         to AS20853 announce AS-NETIA
+import:         from AS20960 action pref=130; accept AS-TKTELEKOM
+export:         to AS20960 announce ANY
+import:         from AS20961 action pref=130; accept AS20961
+export:         to AS20961 announce AS-NETIA
+import:         from AS20983 action pref=200; accept AS20983
+export:         to AS20983 announce ANY
+import:         from AS21244 action pref=130; accept AS21244 AS15528
+export:         to AS21244 announce AS-NETIA
+import:         from AS21344 action pref=200; accept AS21344
+export:         to AS21344 announce ANY
+import:         from AS21395 action pref=130; accept AS21395
+export:         to AS21395 announce AS-NETIA
+import:         from AS24709 action pref=130; accept AS24709
+export:         to AS24709 announce AS-NETIA
+import:         from AS24740 action pref=200; accept AS24740
+export:         to AS24740 announce ANY
+import:         from AS24748 action pref=130; accept AS24748:AS-IX
+export:         to AS24748 announce AS-NETIA
+import:         from AS24928 action pref=200; accept AS24928
+export:         to AS24928 announce ANY
+import:         from AS25338 action pref=200; accept AS25338
+export:         to AS25338 announce ANY
+import:         from AS25443 action pref=130; accept AS25443
+export:         to AS25443 announce AS-NETIA
+import:         from AS28678 action pref=130; accept AS28678
+export:         to AS28678 announce AS-NETIA
+import:         from AS28722 action pref=200; accept AS28722
+export:         to AS28722 announce ANY
+import:         from AS29023 action pref=200; accept AS29023
+export:         to AS29023 announce ANY
+import:         from AS29167 action pref=200; accept AS29167 AS29445
+export:         to AS29167 announce ANY
+import:         from AS29228 action pref=200; accept AS29228
+export:         to AS29228 announce ANY
+import:         from AS29251 action pref=200; accept AS29251
+export:         to AS29251 announce ANY
+import:         from AS29314 action pref=200; accept AS29314
+export:         to AS29314 announce ANY
+import:         from AS29522 action pref=200; accept AS29522
+export:         to AS29522 announce ANY
+import:         from AS29535 action pref=100; accept AS29535
+export:         to AS29535 announce AS-NETIA
+import:         from AS29649 action pref=200; accept AS29649
+export:         to AS29649 announce ANY
+import:         from AS30726 action pref=130; accept AS-WAVENET
+export:         to AS30726 announce AS-NETIA
+import:         from AS30732 action pref=200; accept AS30732
+export:         to AS30732 announce ANY
+import:         from AS30796 action pref=200; accept AS30796
+export:         to AS30796 announce ANY
+import:         from AS30838 action pref=200; accept AS30838
+export:         to AS30838 announce ANY
+import:         from AS30851 action pref=200; accept AS30851 AS30838
+export:         to AS30851 announce ANY
+import:         from AS30923 action pref=200; accept AS30923
+export:         to AS30923 announce ANY
+import:         from AS30932 action pref=200; accept AS30932
+export:         to AS30932 announce ANY
+import:         from AS31032 action pref=200; accept AS31032
+export:         to AS31032 announce ANY
+import:         from AS31080 action pref=130; accept AS31080
+export:         to AS31080 announce AS-NETIA
+import:         from AS31229 action pref=200; accept AS31229
+export:         to AS31229 announce ANY
+import:         from AS31242 action pref=130; accept AS-TKPSA-WIX
+export:         to AS31242 announce AS-NETIA
+import:         from AS31267 action pref=200; accept AS31267
+export:         to AS31267 announce ANY
+import:         from AS31304 action pref=200; accept AS-ESPOLPL
+export:         to AS31304 announce ANY
+import:         from AS31423 action pref=200; accept AS31423
+export:         to AS31423 announce ANY
+import:         from AS31431 action pref=200; accept AS31431
+export:         to AS31431 announce ANY
+import:         from AS31434 action pref=200; accept AS31434
+export:         to AS31434 announce ANY
+import:         from AS31599 action pref=200; accept AS31599
+export:         to AS31599 announce ANY
+import:         from AS31621 action pref=200; accept AS31621
+export:         to AS31621 announce ANY
+import:         from AS33868 action pref=200; accept AS33868
+export:         to AS33868 announce ANY
+import:         from AS33923 action pref=200; accept AS33923
+export:         to AS33923 announce ANY
+import:         from AS34209 action pref=130; accept AS34209
+export:         to AS34209 announce AS-NETIA
+import:         from AS34275 action pref=200; accept AS34275
+export:         to AS34275 announce ANY
+import:         from AS34298 action pref=200; accept AS34298
+export:         to AS34298 announce ANY
+import:         from AS34324 action pref=200; accept AS34324
+export:         to AS34324 announce ANY
+import:         from AS34330 action pref=200; accept AS34330
+export:         to AS34330 announce ANY
+import:         from AS34339 action pref=200; accept AS34339
+export:         to AS34339 announce ANY
+import:         from AS34342 action pref=200; accept AS34342
+export:         to AS34342 announce ANY
+import:         from AS34377 action pref=200; accept AS34377
+export:         to AS34377 announce ANY
+import:         from AS34424 action pref=200; accept AS34424
+export:         to AS34424 announce ANY
+import:         from AS34637 action pref=200; accept AS34637
+export:         to AS34637 announce ANY
+import:         from AS35007 action pref=200; accept AS35007
+export:         to AS35007 announce ANY
+import:         from AS35191 action pref=200; accept AS35191
+export:         to AS35191 announce ANY
+import:         from AS35198 action pref=200; accept AS35198
+export:         to AS35198 announce ANY
+import:         from AS35209 action pref=200; accept AS35209
+export:         to AS35209 announce ANY
+import:         from AS35305 action pref=200; accept AS35305
+export:         to AS35305 announce ANY
+import:         from AS35378 action pref=200; accept AS35378
+export:         to AS35378 announce ANY
+import:         from AS35434 action pref=200; accept AS35434
+export:         to AS35434 announce ANY
+import:         from AS35752 action pref=200; accept AS35752
+export:         to AS35752 announce ANY
+import:         from AS35785 action pref=200; accept AS35785
+export:         to AS35785 announce ANY
+import:         from AS38991 action pref=200; accept AS38991
+export:         to AS38991 announce ANY
+import:         from AS39014 action pref=200; accept AS39014
+export:         to AS39014 announce ANY
+import:         from AS39112 action pref=200; accept AS39112
+export:         to AS39112 announce ANY
+import:         from AS39171 action pref=200; accept AS39171
+export:         to AS39171 announce ANY
+import:         from AS39255 action pref=200; accept AS39255
+export:         to AS39255 announce ANY
+import:         from AS39603 action pref=200; accept AS39603
+export:         to AS39603 announce ANY
+import:         from AS39883 action pref=200; accept AS39883
+export:         to AS39883 announce ANY
+import:         from AS40969 action pref=200; accept AS40969 AS34402
+export:         to AS40969 announce ANY
+import:         from AS41137 action pref=200; accept AS41137
+export:         to AS41137 announce ANY
+import:         from AS47640 action pref=200; accept AS47640
+export:         to AS47640 announce ANY
+import:         from AS52142 action pref=200; accept AS52142
+export:         to AS52142 announce ANY
+import:         from AS197227 action pref=200; accept AS197227
+export:         to AS197227 announce ANY
+import:         from AS197600 action pref=200; accept AS197600
+export:         to AS197600 announce ANY
+import:         from AS49743 action pref=200; accept AS-FINEMEDIA
+export:         to AS49743 announce ANY
+import:         from AS35232 action pref=200; accept AS35232
+export:         to AS35232 announce ANY
+import:         from AS205581 action pref=200; accept AS205581
+export:         to AS205581 announce ANY
+import:         from AS8631 action pref=200; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-NETIA-MSK-IX
+import:         from AS43939 action pref=130; accept AS43939
+export:         to AS43939 announce ANY
+remarks:        ===================================================
+remarks:        COMMUNITIES IN AS12741
+remarks:        ===================================================
+remarks:        12741:31000: Do not announce to upstreams
+remarks:        12741:31001: Prepend 1x to upstreams
+remarks:        12741:31002: Prepend 2x to upstreams
+remarks:        12741:31003: Prepend 3x to upstreams
+remarks:        ===================================================
+remarks:        12741:32100: Do not announce to TPNET
+remarks:        12741:32101: Prepend 1x to TPNET
+remarks:        12741:32102: Prepend 2x to TPNET
+remarks:        12741:32103: Prepend 3x to TPNET
+remarks:        ===================================================
+remarks:        12741:33000: Do not announce to peerings
+remarks:        12741:33001: Prepend 1x to peerings
+remarks:        12741:33002: Prepend 2x to peerings
+remarks:        12741:33003: Prepend 3x to peerings
+remarks:        ===================================================
+remarks:        12741:33200: Do not announce PLIX
+remarks:        12741:33201: Prepend 1x to PLIX
+remarks:        12741:33202: Prepend 2x to PLIX
+remarks:        12741:33203: Prepend 3x to PLIX
+remarks:        ===================================================
+remarks:        12741:33400: Do not announce THINX
+remarks:        12741:33401: Prepend 1x to THINX
+remarks:        12741:33402: Prepend 2x to THINX
+remarks:        12741:33403: Prepend 3x to THINX
+remarks:        ===================================================
+remarks:        12741:33600: Do not announce TPIX
+remarks:        12741:33601: Prepend 1x to TPIX
+remarks:        12741:33602: Prepend 2x to TPIX
+remarks:        12741:33603: Prepend 3x to TPIX
+remarks:        ===================================================
+remarks:        12741:35100: Do not announce to Google Global Cache
+remarks:        12741:35101: Prepend 1x to Google Global Cache
+remarks:        12741:35102: Prepend 2x to Google Global Cache
+remarks:        12741:35103: Prepend 3x to Google Global Cache
+remarks:        ===================================================
+remarks:        12741:60000 Blackholing
+remarks:        ===================================================
+remarks:        ENTRY-POINT MARKERS IN AS12741
+remarks:        ===================================================
+remarks:        12741:20100: Internal allocations
+remarks:        12741:21000: Upstreams
+remarks:        12741:22100: TPNET
+remarks:        12741:23200: PLIX
+remarks:        12741:23400: THINX
+remarks:        12741:23600: TPIX
+remarks:        ===================================================
+remarks:        BGP issues: bgp@netia.pl<mailto:bgp@netia.pl>
+remarks:
+remarks:        We filter inbound prefixes longer than /24
+admin-c:        NT1264-RIPE
+tech-c:         NT1264-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NETIA-MNT
+created:        2002-09-05T10:09:06Z
+last-modified:  2018-09-04T09:50:10Z
+source:         RIPE
+
+organisation:   ORG-NTS2-RIPE
+org-name:       Netia SA
+org-type:       LIR
+address:        ul. Ta?mowa 7A
+address:        02-677
+address:        Warszawa
+address:        POLAND
+phone:          +48801802803
+fax-no:         +48223522223
+admin-c:        NT1264-RIPE
+admin-c:        MO3780-RIPE
+admin-c:        KP2343-RIPE
+admin-c:        RPOZ-RIPE
+admin-c:        MM18723-RIPE
+tech-c:         MO3780-RIPE
+tech-c:         RPOZ-RIPE
+abuse-c:        NT1264-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        NETIA-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NETIA-MNT
+created:        2004-04-17T11:47:40Z
+last-modified:  2017-10-30T14:45:24Z
+source:         RIPE # Filtered
+
+role:           Netia Telekom S.A. Contact Role
+address:        Poleczki 13
+address:        02-822 Warszawa
+address:        Poland
+phone:          +48(22)352 0000
+fax-no:         +48(22)352 2213
+remarks:        trouble: 24/7 phone number: +48(22)352 2233
+admin-c:        MO3780-RIPE
+tech-c:         KP2343-RIPE
+tech-c:         AK3224-RIPE
+tech-c:         RPOZ-RIPE
+tech-c:         MM18723-RIPE
+tech-c:         PN4644-RIPE
+nic-hdl:        NT1264-RIPE
+remarks:        ---------------------------------------
+remarks:        In case of abuse from our address range
+remarks:        please contact abuse@inetia.pl
+remarks:        ---------------------------------------
+abuse-mailbox:  abuse@inetia.pl
+mnt-by:         NETIA-MNT
+created:        2002-09-05T10:14:26Z
+last-modified:  2017-01-10T08:56:03Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

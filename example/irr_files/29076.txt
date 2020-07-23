@@ -1,0 +1,1989 @@
+aut-num:        AS29076
+as-name:        CITYTELECOM-AS
+descr:          Filanco LTD
+org:            ORG-FL14-RIPE
+remarks:        ---------------------
+remarks:
+remarks:        IPv4 routing policy
+remarks:
+remarks:        ---------------------
+remarks:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        Upstreams
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:
+remarks:        Cogentco.com
+remarks:        --------------
+import:         from AS174 action pref=190; accept ANY;
+export:         to AS174 announce AS-CITYTELECOM-UPSTREAMS;
+remarks:
+remarks:        TeliaSonera
+remarks:        --------------
+import:         from AS1299 action pref=190; accept ANY;
+export:         to AS1299 announce AS-CITYTELECOM-UPSTREAMS;
+remarks:
+remarks:        Beeline
+remarks:        --------------
+import:         from AS3216 action pref=190; accept ANY;
+export:         to AS3216 announce AS-CITYTELECOM-UPSTREAMS;
+remarks:
+remarks:        MTS
+remarks:        --------------
+import:         from AS8359 action pref=190; accept ANY;
+export:         to AS8359 announce AS-CITYTELECOM-UPSTREAMS;
+remarks:
+remarks:        ROSTELECOM
+remarks:        --------------
+import:         from AS12389 action pref=190; accept ANY;
+export:         to AS12389 announce AS-CITYTELECOM-UPSTREAMS;
+remarks:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        International peers
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:
+remarks:        ------------------
+remarks:        Peering at DE-CIX
+remarks:        ------------------
+remarks:
+import:         from AS6695 action pref=200; accept AS-DECIX;
+export:         to AS6695 announce AS-CITYTELECOM;
+remarks:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+remarks:        Russian IPv4 peers
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+remarks:
+remarks:        --------
+remarks:        Moscow
+remarks:        --------
+remarks:
+import:         from AS8402 action pref=210; accept AS-CORBINA;
+export:         to AS8402 announce AS-CITYTELECOM;
+remarks:
+import:         from AS31133 action pref=210; accept AS-MF-MGSM;
+export:         to AS31133 announce AS-CITYTELECOM;
+remarks:
+remarks:        ------------------
+remarks:        Peering at MSK-IX
+remarks:        ------------------
+remarks:
+import:         from AS8631 action pref=210; accept AS-MSKROUTESERVER;
+export:         to AS8631 announce AS-CITYTELECOM;
+remarks:
+remarks:        ------------------
+remarks:        Peering at SPB-IX
+remarks:        ------------------
+remarks:
+import:         from AS43690 action pref=210; accept AS-SPBROUTESERVER;
+export:         to AS43690 announce AS-CITYTELECOM;
+remarks:
+remarks:        ------------------
+remarks:        Peering at EKT-IX
+remarks:        ------------------
+remarks:
+import:         from AS43213 action pref=210; accept AS-EKTROUTESERVER;
+export:         to AS43213 announce AS-CITYTELECOM;
+remarks:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+remarks:        Foreign IPv4 peers
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+remarks:
+remarks:        ------------------
+remarks:        Peering at DTEL-IX
+remarks:        ------------------
+remarks:
+import:         from AS31210 action pref=210; accept AS-DTEL-IX;
+export:         to AS31210 announce AS-CITYTELECOM;
+remarks:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+remarks:        Foreign IPv6 peers
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+remarks:
+remarks:        ------------------
+remarks:        Peering at DTEL-IX
+remarks:        ------------------
+remarks:
+mp-import:      afi ipv6.unicast from AS31210 action pref=210; accept AS-DTEL-IX-V6;
+mp-export:      afi ipv6.unicast to AS31210 announce AS-CITYTELECOM;
+remarks:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        Cloud-IX NET IPv4
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:
+remarks:        ----------------
+remarks:        Ekt
+remarks:        ----------------
+remarks:
+import:         from AS52015 action pref=50; accept AS-DANCER;
+export:         to AS52015 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS60600 action pref=50; accept AS-E1RU;
+export:         to AS60600 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS61031 action pref=50; accept AS-ESCOMTEL;
+export:         to AS61031 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS196691 action pref=50; accept AS-GET-NET;
+export:         to AS196691 announce ANY;
+remarks:
+import:         from AS47196 action pref=50; accept AS-GPI;
+export:         to AS47196 announce ANY;
+remarks:
+import:         from AS13094 action pref=50; accept AS-MILECOM-RS;
+export:         to AS13094 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS41861 action pref=50; accept AS-MediaSeti-EKB;
+export:         to AS41861 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS49218 action pref=50; accept AS-NTKS;
+export:         to AS49218 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS12418 action pref=50; accept AS-QUANTUM;
+export:         to AS12418 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS34995 action pref=50; accept AS-SYSTEM-LTD;
+export:         to AS34995 announce ANY;
+remarks:
+import:         from AS12714 action pref=50; accept AS-TI;
+export:         to AS12714 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS24955 action pref=50; accept AS-UBN;
+export:         to AS24955 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS5563 action pref=50; accept AS-URAL;
+export:         to AS5563 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS41082 action pref=50; accept AS-URALTRANSCOM;
+export:         to AS41082 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS199524 action pref=50; accept AS-WGI;
+export:         to AS199524 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS13238 action pref=50; accept AS-YANDEX;
+export:         to AS13238 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS16230 action pref=50; accept AS16230;
+export:         to AS16230 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS200430 action pref=50; accept AS200430;
+export:         to AS200430 announce ANY;
+remarks:
+import:         from AS201643 action pref=50; accept AS201643;
+export:         to AS201643 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS28709 action pref=50; accept AS28709;
+export:         to AS28709 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS44128 action pref=50; accept AS44128;
+export:         to AS44128 announce AS-CLOUD-IX-LOCAL;
+remarks:
+remarks:        ----------------
+remarks:        Kha
+remarks:        ----------------
+remarks:
+import:         from AS3261 action pref=50; accept AS-DIPT;
+export:         to AS3261 announce ANY;
+remarks:
+import:         from AS48422 action pref=50; accept AS-IT-STARCOM;
+export:         to AS48422 announce ANY;
+remarks:
+import:         from AS50643 action pref=50; accept AS-LU;
+export:         to AS50643 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS57864 action pref=50; accept AS-MEGABIT;
+export:         to AS57864 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS42396 action pref=50; accept AS-PPLnet;
+export:         to AS42396 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS43110 action pref=50; accept AS-ROSTNET;
+export:         to AS43110 announce ANY;
+remarks:
+import:         from AS49588 action pref=50; accept AS-SDS;
+export:         to AS49588 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS44863 action pref=50; accept AS-STAR-NET;
+export:         to AS44863 announce ANY;
+remarks:
+import:         from AS50581 action pref=50; accept AS-UTG-UA;
+export:         to AS50581 announce AS-CLOUD-IX-PRO;
+remarks:
+remarks:        ----------------
+remarks:        Kiev
+remarks:        ----------------
+remarks:
+import:         from AS39431 action pref=50; accept AS-ARGOCOM;
+export:         to AS39431 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS13188 action pref=50; accept AS-BANKINFORM;
+export:         to AS13188 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS12998 action pref=50; accept AS-BGN;
+export:         to AS12998 announce ANY;
+remarks:
+import:         from AS57363 action pref=50; accept AS-CDNVIDEO;
+export:         to AS57363 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS3261 action pref=50; accept AS-DIPT;
+export:         to AS3261 announce ANY;
+remarks:
+import:         from AS48964 action pref=50; accept AS-ENTERRA;
+export:         to AS48964 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS51380 action pref=50; accept AS-GREY;
+export:         to AS51380 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS51380 action pref=50; accept AS-GREY;
+export:         to AS51380 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS41168 action pref=50; accept AS-GTC;
+export:         to AS41168 announce ANY;
+remarks:
+import:         from AS34251 action pref=50; accept AS-IMC;
+export:         to AS34251 announce ANY;
+remarks:
+import:         from AS43658 action pref=50; accept AS-INTRAFFIC;
+export:         to AS43658 announce {0.0.0.0/0};
+remarks:
+import:         from AS34312 action pref=50; accept AS-ITMEDIA;
+export:         to AS34312 announce ANY;
+remarks:
+import:         from AS34312 action pref=50; accept AS-ITMEDIA;
+export:         to AS34312 announce {0.0.0.0/0};
+remarks:
+import:         from AS34056 action pref=50; accept AS-KIEVNET;
+export:         to AS34056 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS202502 action pref=50; accept AS-NAKNET;
+export:         to AS202502 announce ANY;
+remarks:
+import:         from AS41435 action pref=50; accept AS-NETUNDER;
+export:         to AS41435 announce ANY;
+remarks:
+import:         from AS6723 action pref=50; accept AS-SKIF;
+export:         to AS6723 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS48533 action pref=50; accept AS-TANGRAM;
+export:         to AS48533 announce {0.0.0.0/0};
+remarks:
+import:         from AS3255 action pref=50; accept AS-UARNET;
+export:         to AS3255 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS6849 action pref=50; accept AS-UKRTELBT;
+export:         to AS6849 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS50581 action pref=50; accept AS-UTG-UA;
+export:         to AS50581 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS15772 action pref=50; accept AS-WNET;
+export:         to AS15772 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS15895 action pref=50; accept AS15895:AS-ALL;
+export:         to AS15895 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS199995 action pref=50; accept AS199995:AS-EXT;
+export:         to AS199995 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS25229 action pref=50; accept AS25229:AS-CUST;
+export:         to AS25229 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS48748 action pref=50; accept AS48748;
+export:         to AS48748 announce {0.0.0.0/0};
+remarks:
+import:         from AS56835 action pref=50; accept as-utels;
+export:         to AS56835 announce AS-CLOUD-IX-LOCAL;
+remarks:
+remarks:        ----------------
+remarks:        Msk
+remarks:        ----------------
+remarks:
+import:         from AS29071 action pref=50; accept AS-29071-CLIENTS;
+export:         to AS29071 announce ANY;
+remarks:
+import:         from AS57918 action pref=50; accept AS-ACOD;
+export:         to AS57918 announce ANY;
+remarks:
+import:         from AS197498 action pref=50; accept AS-AT-IT;
+export:         to AS197498 announce ANY;
+remarks:
+import:         from AS28762 action pref=50; accept AS-AWAX;
+export:         to AS28762 announce {0.0.0.0/0};
+remarks:
+import:         from AS35810 action pref=50; accept AS-BIGTELECOM;
+export:         to AS35810 announce ANY;
+remarks:
+import:         from AS197453 action pref=50; accept AS-BIZTEL;
+export:         to AS197453 announce ANY;
+remarks:
+import:         from AS206440 action pref=50; accept AS-BUISSNES;
+export:         to AS206440 announce ANY;
+remarks:
+import:         from AS206977 action pref=50; accept AS-BUISSNES;
+export:         to AS206977 announce ANY;
+remarks:
+import:         from AS57363 action pref=50; accept AS-CDNVIDEO;
+export:         to AS57363 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS49124 action pref=50; accept AS-CENTROSET;
+export:         to AS49124 announce ANY;
+remarks:
+import:         from AS57191 action pref=50; accept AS-CHUDOTEL;
+export:         to AS57191 announce ANY;
+remarks:
+import:         from AS61325 action pref=50; accept AS-CIFRATELECOM;
+export:         to AS61325 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS13335 action pref=50; accept AS-CLOUDFLARE;
+export:         to AS13335 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS50448 action pref=50; accept AS-COLO-BACK;
+export:         to AS50448 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS24663 action pref=50; accept AS-COMPLAT;
+export:         to AS24663 announce ANY;
+remarks:
+import:         from AS200161 action pref=50; accept AS-DATAPRO;
+export:         to AS200161 announce ANY;
+remarks:
+import:         from AS200161 action pref=50; accept AS-DATAPRO;
+export:         to AS200161 announce {0.0.0.0/0};
+remarks:
+import:         from AS56462 action pref=50; accept AS-DDESTINY;
+export:         to AS56462 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS12695 action pref=50; accept AS-DINET;
+export:         to AS12695 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS51408 action pref=50; accept AS-DNX;
+export:         to AS51408 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS197140 action pref=50; accept AS-DSSV;
+export:         to AS197140 announce ANY;
+remarks:
+import:         from AS50473 action pref=50; accept AS-ECO;
+export:         to AS50473 announce ANY;
+remarks:
+import:         from AS9032 action pref=50; accept AS-EDUNET;
+export:         to AS9032 announce {0.0.0.0/0};
+remarks:
+import:         from AS9049 action pref=50; accept AS-ERTH;
+export:         to AS9049 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS25189 action pref=50; accept AS-EXPR;
+export:         to AS25189 announce ANY;
+remarks:
+import:         from AS21453 action pref=50; accept AS-FLEX;
+export:         to AS21453 announce ANY;
+remarks:
+import:         from AS51343 action pref=50; accept AS-FORCELINE;
+export:         to AS51343 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS48166 action pref=50; accept AS-FORTEX;
+export:         to AS48166 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS39156 action pref=50; accept AS-FTELECOM;
+export:         to AS39156 announce ANY;
+remarks:
+import:         from AS15169 action pref=50; accept AS-GOOGLE;
+export:         to AS15169 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS47196 action pref=50; accept AS-GPI;
+export:         to AS47196 announce ANY;
+remarks:
+import:         from AS5429 action pref=50; accept AS-IIPNET;
+export:         to AS5429 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS19551 action pref=50; accept AS-INCAPSULA;
+export:         to AS19551 announce {0.0.0.0/0};
+remarks:
+import:         from AS48719 action pref=50; accept AS-INTELSVYAZ;
+export:         to AS48719 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS50966 action pref=50; accept AS-INTERCOM-TECHNOLOGY;
+export:         to AS50966 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS28738 action pref=50; accept AS-INTERLAN;
+export:         to AS28738 announce ANY;
+remarks:
+import:         from AS200976 action pref=50; accept AS-LIFESTREAM;
+export:         to AS200976 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS43267 action pref=50; accept AS-LINETEL;
+export:         to AS43267 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS48940 action pref=50; accept AS-LINK-NET;
+export:         to AS48940 announce ANY;
+remarks:
+import:         from AS47764 action pref=50; accept AS-MAILRU;
+export:         to AS47764 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS48666 action pref=50; accept AS-MAROSNET;
+export:         to AS48666 announce ANY;
+remarks:
+import:         from AS25532 action pref=50; accept AS-MASTERHOST;
+export:         to AS25532 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS29226 action pref=50; accept AS-MASTERTEL;
+export:         to AS29226 announce ANY;
+remarks:
+import:         from AS60299 action pref=50; accept AS-MMTS;
+export:         to AS60299 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS44622 action pref=50; accept AS-MOSINTER;
+export:         to AS44622 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS31370 action pref=50; accept AS-MOSLINE;
+export:         to AS31370 announce ANY;
+remarks:
+import:         from AS61170 action pref=50; accept AS-MOYO;
+export:         to AS61170 announce ANY;
+remarks:
+import:         from AS35768 action pref=50; accept AS-MSLINK;
+export:         to AS35768 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS47478 action pref=50; accept AS-MSTN;
+export:         to AS47478 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS48347 action pref=50; accept AS-MTW;
+export:         to AS48347 announce ANY;
+remarks:
+import:         from AS49335 action pref=50; accept AS-NCONNECT;
+export:         to AS49335 announce ANY;
+remarks:
+import:         from AS25511 action pref=50; accept AS-NET21;
+export:         to AS25511 announce ANY;
+remarks:
+import:         from AS49531 action pref=50; accept AS-NETCOM-R;
+export:         to AS49531 announce ANY;
+remarks:
+import:         from AS12739 action pref=50; accept AS-NETLINE;
+export:         to AS12739 announce ANY;
+remarks:
+import:         from AS196798 action pref=50; accept AS-NEWLINETELECOM;
+export:         to AS196798 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS199635 action pref=50; accept AS-NEXTTELL-MSK;
+export:         to AS199635 announce ANY;
+remarks:
+import:         from AS34879 action pref=50; accept AS-NGENIX;
+export:         to AS34879 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS50113 action pref=50; accept AS-NTX;
+export:         to AS50113 announce ANY;
+remarks:
+import:         from AS41601 action pref=50; accept AS-OBLTELECOM;
+export:         to AS41601 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS198310 action pref=50; accept AS-PWS;
+export:         to AS198310 announce ANY;
+remarks:
+import:         from AS24638 action pref=50; accept AS-RAMTEL;
+export:         to AS24638 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS20848 action pref=50; accept AS-RBC;
+export:         to AS20848 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS21414 action pref=50; accept AS-RCNET;
+export:         to AS21414 announce ANY;
+remarks:
+import:         from AS12722 action pref=50; accept AS-RECONN;
+export:         to AS12722 announce ANY;
+remarks:
+import:         from AS197309 action pref=50; accept AS-RSMEDIA;
+export:         to AS197309 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS6694 action pref=50; accept AS-RTSNET;
+export:         to AS6694 announce ANY;
+remarks:
+import:         from AS50340 action pref=50; accept AS-SELECTEL-MSK;
+export:         to AS50340 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS30953 action pref=50; accept AS-SET-PROCENTER;
+export:         to AS30953 announce {0.0.0.0/0};
+remarks:
+import:         from AS39153 action pref=50; accept AS-SETEL;
+export:         to AS39153 announce ANY;
+remarks:
+import:         from AS58002 action pref=50; accept AS-SI;
+export:         to AS58002 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS47723 action pref=50; accept AS-SLCLOUD;
+export:         to AS47723 announce ANY;
+remarks:
+import:         from AS42149 action pref=50; accept AS-ST;
+export:         to AS42149 announce ANY;
+remarks:
+import:         from AS34602 action pref=50; accept AS-STARLNK;
+export:         to AS34602 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS34277 action pref=50; accept AS-SUN-TEL;
+export:         to AS34277 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS31415 action pref=50; accept AS-SVSCOMM;
+export:         to AS31415 announce ANY;
+remarks:
+import:         from AS34898 action pref=50; accept AS-SYMBIOS;
+export:         to AS34898 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS62423 action pref=50; accept AS-TCENTER;
+export:         to AS62423 announce ANY;
+remarks:
+import:         from AS35178 action pref=50; accept AS-TELART;
+export:         to AS35178 announce ANY;
+remarks:
+import:         from AS1299 action pref=50; accept AS-TELIANET;
+export:         to AS1299 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS39612 action pref=50; accept AS-TEVIA;
+export:         to AS39612 announce ANY;
+remarks:
+import:         from AS12714 action pref=50; accept AS-TI;
+export:         to AS12714 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS206767 action pref=50; accept AS-TIONIX;
+export:         to AS206767 announce ANY;
+remarks:
+import:         from AS44927 action pref=50; accept AS-TMPK;
+export:         to AS44927 announce ANY;
+remarks:
+import:         from AS47441 action pref=50; accept AS-TRUNKMOBILE;
+export:         to AS47441 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS47775 action pref=50; accept AS-UBN;
+export:         to AS47775 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS43404 action pref=50; accept AS-UCANET;
+export:         to AS43404 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS199805 action pref=50; accept AS-UGO;
+export:         to AS199805 announce ANY;
+remarks:
+import:         from AS56340 action pref=50; accept AS-UMNYESETI;
+export:         to AS56340 announce ANY;
+remarks:
+import:         from AS44053 action pref=50; accept AS-UNILINK;
+export:         to AS44053 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS48293 action pref=50; accept AS-UNIONTEL-RU;
+export:         to AS48293 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS48822 action pref=50; accept AS-UNIVERSUMNET;
+export:         to AS48822 announce ANY;
+remarks:
+import:         from AS5563 action pref=50; accept AS-URAL;
+export:         to AS5563 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS51904 action pref=50; accept AS-UTEX;
+export:         to AS51904 announce ANY;
+remarks:
+import:         from AS8595 action pref=50; accept AS-WESTCALL-MSK;
+export:         to AS8595 announce ANY;
+remarks:
+import:         from AS199524 action pref=50; accept AS-WGI;
+export:         to AS199524 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS13238 action pref=50; accept AS-YANDEX;
+export:         to AS13238 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS6903 action pref=50; accept AS-ZENINT;
+export:         to AS6903 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS12427 action pref=50; accept AS12427;
+export:         to AS12427 announce ANY;
+remarks:
+import:         from AS198226 action pref=50; accept AS198226;
+export:         to AS198226 announce {0.0.0.0/0};
+remarks:
+import:         from AS198255 action pref=50; accept AS198255;
+export:         to AS198255 announce ANY;
+remarks:
+import:         from AS200430 action pref=50; accept AS200430;
+export:         to AS200430 announce {0.0.0.0/0};
+remarks:
+import:         from AS200815 action pref=50; accept AS200815;
+export:         to AS200815 announce ANY;
+remarks:
+import:         from AS201588 action pref=50; accept AS201588;
+export:         to AS201588 announce {0.0.0.0/0};
+remarks:
+import:         from AS203226 action pref=50; accept AS203226;
+export:         to AS203226 announce {0.0.0.0/0};
+remarks:
+import:         from AS204041 action pref=50; accept AS204041;
+export:         to AS204041 announce {0.0.0.0/0};
+remarks:
+import:         from AS204271 action pref=50; accept AS204271;
+export:         to AS204271 announce ANY;
+remarks:
+import:         from AS206152 action pref=50; accept AS206152;
+export:         to AS206152 announce {0.0.0.0/0};
+remarks:
+import:         from AS206805 action pref=50; accept AS206805;
+export:         to AS206805 announce ANY;
+remarks:
+import:         from AS206827 action pref=50; accept AS206827;
+export:         to AS206827 announce ANY;
+remarks:
+import:         from AS21030 action pref=50; accept AS21030;
+export:         to AS21030 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS29503 action pref=50; accept AS29503;
+export:         to AS29503 announce ANY;
+remarks:
+import:         from AS31326 action pref=50; accept AS31326;
+export:         to AS31326 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS3327 action pref=50; accept AS3327;
+export:         to AS3327 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS34853 action pref=50; accept AS34853;
+export:         to AS34853 announce {0.0.0.0/0};
+remarks:
+import:         from AS35271 action pref=50; accept AS35271;
+export:         to AS35271 announce ANY;
+remarks:
+import:         from AS41853 action pref=50; accept AS41853;
+export:         to AS41853 announce ANY;
+remarks:
+import:         from AS42377 action pref=50; accept AS42377;
+export:         to AS42377 announce ANY;
+remarks:
+import:         from AS42988 action pref=50; accept AS42988;
+export:         to AS42988 announce ANY;
+remarks:
+import:         from AS43102 action pref=50; accept AS43102;
+export:         to AS43102 announce ANY;
+remarks:
+import:         from AS43502 action pref=50; accept AS43502;
+export:         to AS43502 announce ANY;
+remarks:
+import:         from AS44670 action pref=50; accept AS44670;
+export:         to AS44670 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS47542 action pref=50; accept AS47542;
+export:         to AS47542 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS48061 action pref=50; accept AS48061;
+export:         to AS48061 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS49698 action pref=50; accept AS49698;
+export:         to AS49698 announce ANY;
+remarks:
+import:         from AS50299 action pref=50; accept AS50299;
+export:         to AS50299 announce {0.0.0.0/0};
+remarks:
+import:         from AS50822 action pref=50; accept AS50822;
+export:         to AS50822 announce ANY;
+remarks:
+import:         from AS51077 action pref=50; accept AS51077;
+export:         to AS51077 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS51444 action pref=50; accept AS51444;
+export:         to AS51444 announce ANY;
+remarks:
+import:         from AS51596 action pref=50; accept AS51596;
+export:         to AS51596 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS51698 action pref=50; accept AS51698;
+export:         to AS51698 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS57629 action pref=50; accept AS57629;
+export:         to AS57629 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS58045 action pref=50; accept AS58045;
+export:         to AS58045 announce ANY;
+remarks:
+import:         from AS58288 action pref=50; accept AS58288;
+export:         to AS58288 announce ANY;
+remarks:
+import:         from AS59504 action pref=50; accept AS59504;
+export:         to AS59504 announce ANY;
+remarks:
+import:         from AS59604 action pref=50; accept AS59604;
+export:         to AS59604 announce {0.0.0.0/0};
+remarks:
+import:         from AS59730 action pref=50; accept AS59730;
+export:         to AS59730 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS60283 action pref=50; accept AS60283;
+export:         to AS60283 announce ANY;
+remarks:
+import:         from AS60672 action pref=50; accept AS60672;
+export:         to AS60672 announce ANY;
+remarks:
+import:         from AS60796 action pref=50; accept AS60796;
+export:         to AS60796 announce ANY;
+remarks:
+import:         from AS60921 action pref=50; accept AS60921;
+export:         to AS60921 announce ANY;
+remarks:
+import:         from AS62366 action pref=50; accept AS62366;
+export:         to AS62366 announce ANY;
+remarks:
+import:         from AS6719 action pref=50; accept AS6719;
+export:         to AS6719 announce ANY;
+remarks:
+remarks:        ----------------
+remarks:        Spb
+remarks:        ----------------
+remarks:
+import:         from AS58158 action pref=50; accept AS-ART-COM-CUSTOM;
+export:         to AS58158 announce ANY;
+remarks:
+import:         from AS49542 action pref=50; accept AS-ARTPLANET;
+export:         to AS49542 announce ANY;
+remarks:
+import:         from AS49542 action pref=50; accept AS-ARTPLANET;
+export:         to AS49542 announce {0.0.0.0/0};
+remarks:
+import:         from AS51178 action pref=50; accept AS-AVANTEL-SPB;
+export:         to AS51178 announce ANY;
+remarks:
+import:         from AS198610 action pref=50; accept AS-BEGET;
+export:         to AS198610 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS49345 action pref=50; accept AS-CLGP;
+export:         to AS49345 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS42839 action pref=50; accept AS-DCTV;
+export:         to AS42839 announce ANY;
+remarks:
+import:         from AS9049 action pref=50; accept AS-ERTH;
+export:         to AS9049 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS44478 action pref=50; accept AS-ETALON;
+export:         to AS44478 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS48234 action pref=50; accept AS-ILCA;
+export:         to AS48234 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS12555 action pref=50; accept AS-IMAQLIQ;
+export:         to AS12555 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS30968 action pref=50; accept AS-INFOBOX;
+export:         to AS30968 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS201118 action pref=50; accept AS-Intelcomgroup;
+export:         to AS201118 announce ANY;
+remarks:
+import:         from AS51973 action pref=50; accept AS-KOLT;
+export:         to AS51973 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS44030 action pref=50; accept AS-LENTEL;
+export:         to AS44030 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS200976 action pref=50; accept AS-LIFESTREAM;
+export:         to AS200976 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS42668 action pref=50; accept AS-NEVALINK;
+export:         to AS42668 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS31277 action pref=50; accept AS-NEWLINESPB;
+export:         to AS31277 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS44843 action pref=50; accept AS-OBTEL;
+export:         to AS44843 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS48076 action pref=50; accept AS-OLYMP-TELECOM;
+export:         to AS48076 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS39087 action pref=50; accept AS-PAKT;
+export:         to AS39087 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS57662 action pref=50; accept AS-PB-SZ;
+export:         to AS57662 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS44050 action pref=50; accept AS-PIN;
+export:         to AS44050 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS34232 action pref=50; accept AS-PULNET;
+export:         to AS34232 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS5433 action pref=50; accept AS-ROKSON;
+export:         to AS5433 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS198295 action pref=50; accept AS-RU-BCI;
+export:         to AS198295 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS48287 action pref=50; accept AS-RUCENTER;
+export:         to AS48287 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS31444 action pref=50; accept AS-SEANET;
+export:         to AS31444 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS49505 action pref=50; accept AS-SELECTEL;
+export:         to AS49505 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS24739 action pref=50; accept AS-SEVEREN-TELECOM;
+export:         to AS24739 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS31376 action pref=50; accept AS-SMART-C;
+export:         to AS31376 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS5495 action pref=50; accept AS-SPBU;
+export:         to AS5495 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS42149 action pref=50; accept AS-ST;
+export:         to AS42149 announce ANY;
+remarks:
+import:         from AS41691 action pref=50; accept AS-SUMTEL;
+export:         to AS41691 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS62432 action pref=50; accept AS-VILTEL;
+export:         to AS62432 announce ANY;
+remarks:
+import:         from AS51093 action pref=50; accept AS-VMCITY;
+export:         to AS51093 announce ANY;
+remarks:
+import:         from AS57246 action pref=50; accept AS-WELLTELECOM;
+export:         to AS57246 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS13238 action pref=50; accept AS-YANDEX;
+export:         to AS13238 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS196739 action pref=50; accept AS196739;
+export:         to AS196739 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS196750 action pref=50; accept AS196750;
+export:         to AS196750 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS198342 action pref=50; accept AS198342;
+export:         to AS198342 announce ANY;
+remarks:
+import:         from AS198580 action pref=50; accept AS198580;
+export:         to AS198580 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS199394 action pref=50; accept AS199394;
+export:         to AS199394 announce ANY;
+remarks:
+import:         from AS199651 action pref=50; accept AS199651;
+export:         to AS199651 announce ANY;
+remarks:
+import:         from AS200624 action pref=50; accept AS200624;
+export:         to AS200624 announce {0.0.0.0/0};
+remarks:
+import:         from AS201083 action pref=50; accept AS201083;
+export:         to AS201083 announce {0.0.0.0/0};
+remarks:
+import:         from AS201499 action pref=50; accept AS201499;
+export:         to AS201499 announce ANY;
+remarks:
+import:         from AS203004 action pref=50; accept AS203004;
+export:         to AS203004 announce ANY;
+remarks:
+import:         from AS203395 action pref=50; accept AS203395;
+export:         to AS203395 announce ANY;
+remarks:
+import:         from AS204272 action pref=50; accept AS204272;
+export:         to AS204272 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS204600 action pref=50; accept AS204600;
+export:         to AS204600 announce ANY;
+remarks:
+import:         from AS205226 action pref=50; accept AS205226;
+export:         to AS205226 announce ANY;
+remarks:
+import:         from AS21030 action pref=50; accept AS21030;
+export:         to AS21030 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS39046 action pref=50; accept AS39046;
+export:         to AS39046 announce ANY;
+remarks:
+import:         from AS41446 action pref=50; accept AS41446;
+export:         to AS41446 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS42893 action pref=50; accept AS42893;
+export:         to AS42893 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS43362 action pref=50; accept AS43362;
+export:         to AS43362 announce ANY;
+remarks:
+import:         from AS44484 action pref=50; accept AS44484;
+export:         to AS44484 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS44882 action pref=50; accept AS44882;
+export:         to AS44882 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS44923 action pref=50; accept AS44923;
+export:         to AS44923 announce ANY;
+remarks:
+import:         from AS47211 action pref=50; accept AS47211;
+export:         to AS47211 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS47363 action pref=50; accept AS47363;
+export:         to AS47363 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS47541 action pref=50; accept AS47541;
+export:         to AS47541 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS47746 action pref=50; accept AS47746;
+export:         to AS47746 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS47968 action pref=50; accept AS47968;
+export:         to AS47968 announce ANY;
+remarks:
+import:         from AS48235 action pref=50; accept AS48235;
+export:         to AS48235 announce ANY;
+remarks:
+import:         from AS48257 action pref=50; accept AS48257;
+export:         to AS48257 announce ANY;
+remarks:
+import:         from AS48416 action pref=50; accept AS48416;
+export:         to AS48416 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS48670 action pref=50; accept AS48670;
+export:         to AS48670 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS49614 action pref=50; accept AS49614;
+export:         to AS49614 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS50453 action pref=50; accept AS50453;
+export:         to AS50453 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS57439 action pref=50; accept AS57439;
+export:         to AS57439 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS57629 action pref=50; accept AS57629;
+export:         to AS57629 announce AS-CITYTELECOM AND NOT AS-CLOUD-IX-M;
+remarks:
+import:         from AS57975 action pref=50; accept AS57975;
+export:         to AS57975 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS59482 action pref=50; accept AS59482;
+export:         to AS59482 announce AS-CLOUD-IX-LOCAL;
+remarks:
+import:         from AS60357 action pref=50; accept AS60357;
+export:         to AS60357 announce AS-CLOUD-IX-PRO;
+remarks:
+import:         from AS61037 action pref=50; accept AS61037;
+export:         to AS61037 announce ANY;
+remarks:
+remarks:        ----------------
+remarks:        Vrj
+remarks:        ----------------
+remarks:
+import:         from AS13178 action pref=50; accept AS-DIGCOMM;
+export:         to AS13178 announce ANY;
+remarks:
+import:         from AS48366 action pref=50; accept AS-SETInforoom;
+export:         to AS48366 announce ANY;
+remarks:
+import:         from AS43727 action pref=50; accept AS-SETKT;
+export:         to AS43727 announce AS-CLOUD-IX-PRO;
+remarks:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        Cloud-IX NET IPv6
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:
+remarks:        ----------------
+remarks:        Ekt
+remarks:        ----------------
+remarks:
+mp-import:      afi ipv6.unicast from AS52015 action pref=50; accept AS-DANCER;
+mp-export:      afi ipv6.unicast to AS52015 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS60600 action pref=50; accept AS-E1RU;
+mp-export:      afi ipv6.unicast to AS60600 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS61031 action pref=50; accept AS-ESCOMTEL;
+mp-export:      afi ipv6.unicast to AS61031 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS196691 action pref=50; accept AS-GET-NET;
+mp-export:      afi ipv6.unicast to AS196691 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47196 action pref=50; accept AS47196;
+mp-export:      afi ipv6.unicast to AS47196 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS13094 action pref=50; accept AS-MILECOM-RS;
+mp-export:      afi ipv6.unicast to AS13094 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS41861 action pref=50; accept AS-MediaSeti-EKB;
+mp-export:      afi ipv6.unicast to AS41861 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49218 action pref=50; accept AS-NTKS;
+mp-export:      afi ipv6.unicast to AS49218 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12418 action pref=50; accept AS12418;
+mp-export:      afi ipv6.unicast to AS12418 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34995 action pref=50; accept AS-SYSTEM-LTD;
+mp-export:      afi ipv6.unicast to AS34995 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12714 action pref=50; accept AS12714;
+mp-export:      afi ipv6.unicast to AS12714 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS24955 action pref=50; accept AS24955;
+mp-export:      afi ipv6.unicast to AS24955 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS5563 action pref=50; accept AS-URAL;
+mp-export:      afi ipv6.unicast to AS5563 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS41082 action pref=50; accept AS41082;
+mp-export:      afi ipv6.unicast to AS41082 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS199524 action pref=50; accept AS-WGI;
+mp-export:      afi ipv6.unicast to AS199524 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS13238 action pref=50; accept AS13238;
+mp-export:      afi ipv6.unicast to AS13238 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS16230 action pref=50; accept AS16230;
+mp-export:      afi ipv6.unicast to AS16230 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS200430 action pref=50; accept AS200430;
+mp-export:      afi ipv6.unicast to AS200430 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS201643 action pref=50; accept AS201643;
+mp-export:      afi ipv6.unicast to AS201643 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS28709 action pref=50; accept AS28709;
+mp-export:      afi ipv6.unicast to AS28709 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44128 action pref=50; accept AS44128;
+mp-export:      afi ipv6.unicast to AS44128 announce any;
+remarks:
+remarks:        ----------------
+remarks:        Kha
+remarks:        ----------------
+remarks:
+mp-import:      afi ipv6.unicast from AS3261 action pref=50; accept AS-DIPT;
+mp-export:      afi ipv6.unicast to AS3261 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48422 action pref=50; accept AS-IT-STARCOM;
+mp-export:      afi ipv6.unicast to AS48422 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50643 action pref=50; accept AS50643;
+mp-export:      afi ipv6.unicast to AS50643 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57864 action pref=50; accept AS57864;
+mp-export:      afi ipv6.unicast to AS57864 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS42396 action pref=50; accept AS42396;
+mp-export:      afi ipv6.unicast to AS42396 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS43110 action pref=50; accept AS43110;
+mp-export:      afi ipv6.unicast to AS43110 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49588 action pref=50; accept AS-SDS;
+mp-export:      afi ipv6.unicast to AS49588 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44863 action pref=50; accept AS-STAR-NET;
+mp-export:      afi ipv6.unicast to AS44863 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50581 action pref=50; accept AS-UTG-v6;
+mp-export:      afi ipv6.unicast to AS50581 announce any;
+remarks:
+remarks:        ----------------
+remarks:        Kiev
+remarks:        ----------------
+remarks:
+mp-import:      afi ipv6.unicast from AS39431 action pref=50; accept AS39431;
+mp-export:      afi ipv6.unicast to AS39431 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS13188 action pref=50; accept AS13188;
+mp-export:      afi ipv6.unicast to AS13188 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12998 action pref=50; accept AS12998;
+mp-export:      afi ipv6.unicast to AS12998 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57363 action pref=50; accept AS-CDNVIDEO;
+mp-export:      afi ipv6.unicast to AS57363 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS3261 action pref=50; accept AS-DIPT;
+mp-export:      afi ipv6.unicast to AS3261 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48964 action pref=50; accept AS-ENTERRA;
+mp-export:      afi ipv6.unicast to AS48964 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51380 action pref=50; accept AS51380;
+mp-export:      afi ipv6.unicast to AS51380 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51380 action pref=50; accept AS51380;
+mp-export:      afi ipv6.unicast to AS51380 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS41168 action pref=50; accept AS41168;
+mp-export:      afi ipv6.unicast to AS41168 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34251 action pref=50; accept AS-IMC;
+mp-export:      afi ipv6.unicast to AS34251 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS43658 action pref=50; accept AS-INTRAFFIC;
+mp-export:      afi ipv6.unicast to AS43658 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34312 action pref=50; accept AS34312;
+mp-export:      afi ipv6.unicast to AS34312 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34312 action pref=50; accept AS34312;
+mp-export:      afi ipv6.unicast to AS34312 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34056 action pref=50; accept AS-KIEVNET;
+mp-export:      afi ipv6.unicast to AS34056 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS202502 action pref=50; accept AS-NAKNET;
+mp-export:      afi ipv6.unicast to AS202502 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS41435 action pref=50; accept AS41435;
+mp-export:      afi ipv6.unicast to AS41435 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS6723 action pref=50; accept AS6723;
+mp-export:      afi ipv6.unicast to AS6723 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48533 action pref=50; accept AS48533;
+mp-export:      afi ipv6.unicast to AS48533 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS3255 action pref=50; accept AS-UARNET;
+mp-export:      afi ipv6.unicast to AS3255 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS6849 action pref=50; accept AS-UKRTELBT;
+mp-export:      afi ipv6.unicast to AS6849 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50581 action pref=50; accept AS-UTG-v6;
+mp-export:      afi ipv6.unicast to AS50581 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS15772 action pref=50; accept AS-WNET;
+mp-export:      afi ipv6.unicast to AS15772 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS15895 action pref=50; accept AS15895:AS-ALL-IPV6;
+mp-export:      afi ipv6.unicast to AS15895 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS199995 action pref=50; accept AS199995:AS-EXT;
+mp-export:      afi ipv6.unicast to AS199995 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS25229 action pref=50; accept AS25229:AS-CUST;
+mp-export:      afi ipv6.unicast to AS25229 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48748 action pref=50; accept AS48748;
+mp-export:      afi ipv6.unicast to AS48748 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS56835 action pref=50; accept as-utels;
+mp-export:      afi ipv6.unicast to AS56835 announce any;
+remarks:
+remarks:        ----------------
+remarks:        Msk
+remarks:        ----------------
+remarks:
+mp-import:      afi ipv6.unicast from AS29071 action pref=50; accept AS-29071-CLIENTS;
+mp-export:      afi ipv6.unicast to AS29071 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57918 action pref=50; accept AS-ACOD;
+mp-export:      afi ipv6.unicast to AS57918 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS197498 action pref=50; accept AS197498;
+mp-export:      afi ipv6.unicast to AS197498 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS28762 action pref=50; accept AS28762;
+mp-export:      afi ipv6.unicast to AS28762 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS35810 action pref=50; accept AS-BIGTELECOM;
+mp-export:      afi ipv6.unicast to AS35810 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS197453 action pref=50; accept AS-BIZTEL;
+mp-export:      afi ipv6.unicast to AS197453 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS206440 action pref=50; accept AS-BUISSNES;
+mp-export:      afi ipv6.unicast to AS206440 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS206977 action pref=50; accept AS-BUISSNES;
+mp-export:      afi ipv6.unicast to AS206977 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57363 action pref=50; accept AS-CDNVIDEO;
+mp-export:      afi ipv6.unicast to AS57363 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49124 action pref=50; accept AS49124;
+mp-export:      afi ipv6.unicast to AS49124 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57191 action pref=50; accept AS57191;
+mp-export:      afi ipv6.unicast to AS57191 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS61325 action pref=50; accept AS61325;
+mp-export:      afi ipv6.unicast to AS61325 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS13335 action pref=50; accept AS-CLOUDFLARE;
+mp-export:      afi ipv6.unicast to AS13335 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50448 action pref=50; accept AS-COLO-BACK;
+mp-export:      afi ipv6.unicast to AS50448 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS24663 action pref=50; accept AS24663;
+mp-export:      afi ipv6.unicast to AS24663 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS200161 action pref=50; accept AS-DATAPRO;
+mp-export:      afi ipv6.unicast to AS200161 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS200161 action pref=50; accept AS-DATAPRO;
+mp-export:      afi ipv6.unicast to AS200161 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS56462 action pref=50; accept AS-DDESTINY;
+mp-export:      afi ipv6.unicast to AS56462 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12695 action pref=50; accept AS12695;
+mp-export:      afi ipv6.unicast to AS12695 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51408 action pref=50; accept AS51408;
+mp-export:      afi ipv6.unicast to AS51408 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS197140 action pref=50; accept AS-DSSV;
+mp-export:      afi ipv6.unicast to AS197140 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50473 action pref=50; accept AS50473;
+mp-export:      afi ipv6.unicast to AS50473 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS9032 action pref=50; accept AS-EDUNET;
+mp-export:      afi ipv6.unicast to AS9032 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS9049 action pref=50; accept AS9049;
+mp-export:      afi ipv6.unicast to AS9049 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS25189 action pref=50; accept AS-EXPR;
+mp-export:      afi ipv6.unicast to AS25189 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS21453 action pref=50; accept AS21453;
+mp-export:      afi ipv6.unicast to AS21453 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51343 action pref=50; accept AS51343;
+mp-export:      afi ipv6.unicast to AS51343 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48166 action pref=50; accept AS-FORTEX;
+mp-export:      afi ipv6.unicast to AS48166 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS39156 action pref=50; accept AS-FTELECOM;
+mp-export:      afi ipv6.unicast to AS39156 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS15169 action pref=50; accept AS-GOOGLE;
+mp-export:      afi ipv6.unicast to AS15169 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47196 action pref=50; accept AS47196;
+mp-export:      afi ipv6.unicast to AS47196 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS5429 action pref=50; accept AS-IIPNET;
+mp-export:      afi ipv6.unicast to AS5429 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS19551 action pref=50; accept AS-INCAPSULA;
+mp-export:      afi ipv6.unicast to AS19551 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48719 action pref=50; accept AS-INTELSVYAZ;
+mp-export:      afi ipv6.unicast to AS48719 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50966 action pref=50; accept AS-INTERCOM-TECHNOLOGY;
+mp-export:      afi ipv6.unicast to AS50966 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS28738 action pref=50; accept AS-INTERLAN;
+mp-export:      afi ipv6.unicast to AS28738 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS200976 action pref=50; accept AS-LIFESTREAM;
+mp-export:      afi ipv6.unicast to AS200976 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS43267 action pref=50; accept AS-LINETEL;
+mp-export:      afi ipv6.unicast to AS43267 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48940 action pref=50; accept AS-LINK-NET;
+mp-export:      afi ipv6.unicast to AS48940 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47764 action pref=50; accept AS-MAILRU6;
+mp-export:      afi ipv6.unicast to AS47764 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48666 action pref=50; accept AS-MAROSNET;
+mp-export:      afi ipv6.unicast to AS48666 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS25532 action pref=50; accept AS-MASTERHOST;
+mp-export:      afi ipv6.unicast to AS25532 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS29226 action pref=50; accept AS-MASTERTEL6;
+mp-export:      afi ipv6.unicast to AS29226 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS60299 action pref=50; accept AS-MMTS;
+mp-export:      afi ipv6.unicast to AS60299 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44622 action pref=50; accept AS-MOSINTER;
+mp-export:      afi ipv6.unicast to AS44622 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS31370 action pref=50; accept AS31370;
+mp-export:      afi ipv6.unicast to AS31370 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS61170 action pref=50; accept AS-MOYO;
+mp-export:      afi ipv6.unicast to AS61170 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS35768 action pref=50; accept AS-MSLINK;
+mp-export:      afi ipv6.unicast to AS35768 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47478 action pref=50; accept AS-MSTN;
+mp-export:      afi ipv6.unicast to AS47478 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48347 action pref=50; accept AS-MTW6;
+mp-export:      afi ipv6.unicast to AS48347 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49335 action pref=50; accept AS-NCONNECT;
+mp-export:      afi ipv6.unicast to AS49335 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS25511 action pref=50; accept AS-NET21-V6;
+mp-export:      afi ipv6.unicast to AS25511 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49531 action pref=50; accept AS-NETCOM-R;
+mp-export:      afi ipv6.unicast to AS49531 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12739 action pref=50; accept AS-NETLINE6;
+mp-export:      afi ipv6.unicast to AS12739 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS196798 action pref=50; accept AS-NEWLINETELECOM;
+mp-export:      afi ipv6.unicast to AS196798 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS199635 action pref=50; accept AS199635;
+mp-export:      afi ipv6.unicast to AS199635 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34879 action pref=50; accept AS-NGENIX;
+mp-export:      afi ipv6.unicast to AS34879 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50113 action pref=50; accept AS-NTX;
+mp-export:      afi ipv6.unicast to AS50113 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS41601 action pref=50; accept AS-OBLTELECOM;
+mp-export:      afi ipv6.unicast to AS41601 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS198310 action pref=50; accept AS-PWS;
+mp-export:      afi ipv6.unicast to AS198310 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS24638 action pref=50; accept AS-RAMTEL;
+mp-export:      afi ipv6.unicast to AS24638 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS20848 action pref=50; accept AS-RBC;
+mp-export:      afi ipv6.unicast to AS20848 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS21414 action pref=50; accept AS-RCNET;
+mp-export:      afi ipv6.unicast to AS21414 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12722 action pref=50; accept AS-RECONN;
+mp-export:      afi ipv6.unicast to AS12722 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS197309 action pref=50; accept AS-RSMEDIA;
+mp-export:      afi ipv6.unicast to AS197309 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS6694 action pref=50; accept AS-RTSNET;
+mp-export:      afi ipv6.unicast to AS6694 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50340 action pref=50; accept AS-SELECTEL-MSK;
+mp-export:      afi ipv6.unicast to AS50340 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS30953 action pref=50; accept AS-SET-PROCENTER;
+mp-export:      afi ipv6.unicast to AS30953 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS39153 action pref=50; accept AS39153;
+mp-export:      afi ipv6.unicast to AS39153 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS58002 action pref=50; accept AS58002;
+mp-export:      afi ipv6.unicast to AS58002 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47723 action pref=50; accept AS-SLCLOUD;
+mp-export:      afi ipv6.unicast to AS47723 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS42149 action pref=50; accept AS-ST;
+mp-export:      afi ipv6.unicast to AS42149 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34602 action pref=50; accept AS-STARLNK;
+mp-export:      afi ipv6.unicast to AS34602 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34277 action pref=50; accept AS-SUN-TEL;
+mp-export:      afi ipv6.unicast to AS34277 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS31415 action pref=50; accept AS31415;
+mp-export:      afi ipv6.unicast to AS31415 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34898 action pref=50; accept AS-SYMBIOS;
+mp-export:      afi ipv6.unicast to AS34898 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS62423 action pref=50; accept AS-TCENTER;
+mp-export:      afi ipv6.unicast to AS62423 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS35178 action pref=50; accept AS-TELART;
+mp-export:      afi ipv6.unicast to AS35178 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS1299 action pref=50; accept AS-TELIANET;
+mp-export:      afi ipv6.unicast to AS1299 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS39612 action pref=50; accept AS-TEVIA;
+mp-export:      afi ipv6.unicast to AS39612 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12714 action pref=50; accept AS12714;
+mp-export:      afi ipv6.unicast to AS12714 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS206767 action pref=50; accept AS-TIONIX;
+mp-export:      afi ipv6.unicast to AS206767 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44927 action pref=50; accept AS-TMPK;
+mp-export:      afi ipv6.unicast to AS44927 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47441 action pref=50; accept AS-TRUNKMOBILE;
+mp-export:      afi ipv6.unicast to AS47441 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47775 action pref=50; accept AS-UBN;
+mp-export:      afi ipv6.unicast to AS47775 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS43404 action pref=50; accept AS-UCANETv6;
+mp-export:      afi ipv6.unicast to AS43404 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS199805 action pref=50; accept AS-UGO;
+mp-export:      afi ipv6.unicast to AS199805 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS56340 action pref=50; accept AS-UMNYESETI;
+mp-export:      afi ipv6.unicast to AS56340 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44053 action pref=50; accept AS-UNILINK;
+mp-export:      afi ipv6.unicast to AS44053 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48293 action pref=50; accept AS-UNIONTEL-RU;
+mp-export:      afi ipv6.unicast to AS48293 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48822 action pref=50; accept AS48822;
+mp-export:      afi ipv6.unicast to AS48822 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS5563 action pref=50; accept AS-URAL;
+mp-export:      afi ipv6.unicast to AS5563 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51904 action pref=50; accept AS-UTEX;
+mp-export:      afi ipv6.unicast to AS51904 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS8595 action pref=50; accept AS8595;
+mp-export:      afi ipv6.unicast to AS8595 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS199524 action pref=50; accept AS-WGI;
+mp-export:      afi ipv6.unicast to AS199524 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS13238 action pref=50; accept AS13238;
+mp-export:      afi ipv6.unicast to AS13238 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS6903 action pref=50; accept AS6903;
+mp-export:      afi ipv6.unicast to AS6903 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12427 action pref=50; accept AS12427;
+mp-export:      afi ipv6.unicast to AS12427 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS198226 action pref=50; accept AS198226;
+mp-export:      afi ipv6.unicast to AS198226 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS198255 action pref=50; accept AS198255;
+mp-export:      afi ipv6.unicast to AS198255 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS200430 action pref=50; accept AS200430;
+mp-export:      afi ipv6.unicast to AS200430 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS200815 action pref=50; accept AS200815;
+mp-export:      afi ipv6.unicast to AS200815 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS201588 action pref=50; accept AS201588;
+mp-export:      afi ipv6.unicast to AS201588 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS203226 action pref=50; accept AS203226;
+mp-export:      afi ipv6.unicast to AS203226 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS204041 action pref=50; accept AS204041;
+mp-export:      afi ipv6.unicast to AS204041 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS204271 action pref=50; accept AS204271;
+mp-export:      afi ipv6.unicast to AS204271 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS206152 action pref=50; accept AS206152;
+mp-export:      afi ipv6.unicast to AS206152 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS206805 action pref=50; accept AS206805;
+mp-export:      afi ipv6.unicast to AS206805 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS206827 action pref=50; accept AS206827;
+mp-export:      afi ipv6.unicast to AS206827 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS21030 action pref=50; accept AS21030;
+mp-export:      afi ipv6.unicast to AS21030 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS29503 action pref=50; accept AS29503;
+mp-export:      afi ipv6.unicast to AS29503 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS31326 action pref=50; accept AS31326;
+mp-export:      afi ipv6.unicast to AS31326 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS3327 action pref=50; accept AS3327;
+mp-export:      afi ipv6.unicast to AS3327 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34853 action pref=50; accept AS34853;
+mp-export:      afi ipv6.unicast to AS34853 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS35271 action pref=50; accept AS35271;
+mp-export:      afi ipv6.unicast to AS35271 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS41853 action pref=50; accept AS41853;
+mp-export:      afi ipv6.unicast to AS41853 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS42377 action pref=50; accept AS42377;
+mp-export:      afi ipv6.unicast to AS42377 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS42988 action pref=50; accept AS42988;
+mp-export:      afi ipv6.unicast to AS42988 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS43102 action pref=50; accept AS43102;
+mp-export:      afi ipv6.unicast to AS43102 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS43502 action pref=50; accept AS43502;
+mp-export:      afi ipv6.unicast to AS43502 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44670 action pref=50; accept AS44670;
+mp-export:      afi ipv6.unicast to AS44670 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47542 action pref=50; accept AS47542;
+mp-export:      afi ipv6.unicast to AS47542 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48061 action pref=50; accept AS48061;
+mp-export:      afi ipv6.unicast to AS48061 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49698 action pref=50; accept AS49698;
+mp-export:      afi ipv6.unicast to AS49698 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50299 action pref=50; accept AS50299;
+mp-export:      afi ipv6.unicast to AS50299 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50822 action pref=50; accept AS50822;
+mp-export:      afi ipv6.unicast to AS50822 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51077 action pref=50; accept AS51077;
+mp-export:      afi ipv6.unicast to AS51077 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51444 action pref=50; accept AS51444;
+mp-export:      afi ipv6.unicast to AS51444 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51596 action pref=50; accept AS51596;
+mp-export:      afi ipv6.unicast to AS51596 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51698 action pref=50; accept AS51698;
+mp-export:      afi ipv6.unicast to AS51698 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57629 action pref=50; accept AS57629;
+mp-export:      afi ipv6.unicast to AS57629 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS58045 action pref=50; accept AS58045;
+mp-export:      afi ipv6.unicast to AS58045 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS58288 action pref=50; accept AS58288;
+mp-export:      afi ipv6.unicast to AS58288 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS59504 action pref=50; accept AS59504;
+mp-export:      afi ipv6.unicast to AS59504 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS59604 action pref=50; accept AS59604;
+mp-export:      afi ipv6.unicast to AS59604 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS59730 action pref=50; accept AS59730;
+mp-export:      afi ipv6.unicast to AS59730 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS60283 action pref=50; accept AS60283;
+mp-export:      afi ipv6.unicast to AS60283 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS60672 action pref=50; accept AS60672;
+mp-export:      afi ipv6.unicast to AS60672 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS60796 action pref=50; accept AS60796;
+mp-export:      afi ipv6.unicast to AS60796 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS60921 action pref=50; accept AS60921;
+mp-export:      afi ipv6.unicast to AS60921 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS62366 action pref=50; accept AS62366;
+mp-export:      afi ipv6.unicast to AS62366 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS6719 action pref=50; accept AS6719;
+mp-export:      afi ipv6.unicast to AS6719 announce any;
+remarks:
+remarks:        ----------------
+remarks:        Spb
+remarks:        ----------------
+remarks:
+mp-import:      afi ipv6.unicast from AS58158 action pref=50; accept AS-ART-COM-CUSTOM;
+mp-export:      afi ipv6.unicast to AS58158 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49542 action pref=50; accept AS-ARTPLANET;
+mp-export:      afi ipv6.unicast to AS49542 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49542 action pref=50; accept AS-ARTPLANET;
+mp-export:      afi ipv6.unicast to AS49542 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51178 action pref=50; accept AS-AVANTEL-SPB;
+mp-export:      afi ipv6.unicast to AS51178 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS198610 action pref=50; accept AS-BEGET;
+mp-export:      afi ipv6.unicast to AS198610 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49345 action pref=50; accept AS-CLGP;
+mp-export:      afi ipv6.unicast to AS49345 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS42839 action pref=50; accept AS-DCTV;
+mp-export:      afi ipv6.unicast to AS42839 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS9049 action pref=50; accept AS9049;
+mp-export:      afi ipv6.unicast to AS9049 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44478 action pref=50; accept AS-ETALON;
+mp-export:      afi ipv6.unicast to AS44478 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48234 action pref=50; accept AS48234;
+mp-export:      afi ipv6.unicast to AS48234 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS12555 action pref=50; accept AS-IMAQLIQ;
+mp-export:      afi ipv6.unicast to AS12555 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS30968 action pref=50; accept AS-INFOBOX;
+mp-export:      afi ipv6.unicast to AS30968 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS201118 action pref=50; accept AS-Intelcomgroup;
+mp-export:      afi ipv6.unicast to AS201118 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51973 action pref=50; accept AS-KOLT;
+mp-export:      afi ipv6.unicast to AS51973 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44030 action pref=50; accept AS44030;
+mp-export:      afi ipv6.unicast to AS44030 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS200976 action pref=50; accept AS-LIFESTREAM;
+mp-export:      afi ipv6.unicast to AS200976 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS42668 action pref=50; accept AS42668;
+mp-export:      afi ipv6.unicast to AS42668 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS31277 action pref=50; accept AS31277;
+mp-export:      afi ipv6.unicast to AS31277 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44843 action pref=50; accept AS-OBTEL;
+mp-export:      afi ipv6.unicast to AS44843 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48076 action pref=50; accept AS48076;
+mp-export:      afi ipv6.unicast to AS48076 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS39087 action pref=50; accept AS39087;
+mp-export:      afi ipv6.unicast to AS39087 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57662 action pref=50; accept AS57662;
+mp-export:      afi ipv6.unicast to AS57662 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44050 action pref=50; accept AS44050;
+mp-export:      afi ipv6.unicast to AS44050 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS34232 action pref=50; accept AS34232;
+mp-export:      afi ipv6.unicast to AS34232 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS5433 action pref=50; accept AS-ROKSON;
+mp-export:      afi ipv6.unicast to AS5433 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS198295 action pref=50; accept AS-RU-BCI;
+mp-export:      afi ipv6.unicast to AS198295 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48287 action pref=50; accept AS-RUCENTER;
+mp-export:      afi ipv6.unicast to AS48287 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS31444 action pref=50; accept AS-SEANET;
+mp-export:      afi ipv6.unicast to AS31444 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49505 action pref=50; accept AS-SELECTEL;
+mp-export:      afi ipv6.unicast to AS49505 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS24739 action pref=50; accept AS-SEVEREN-TELECOM;
+mp-export:      afi ipv6.unicast to AS24739 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS31376 action pref=50; accept AS31376;
+mp-export:      afi ipv6.unicast to AS31376 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS5495 action pref=50; accept AS-SPBU;
+mp-export:      afi ipv6.unicast to AS5495 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS42149 action pref=50; accept AS-ST;
+mp-export:      afi ipv6.unicast to AS42149 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS41691 action pref=50; accept AS41691;
+mp-export:      afi ipv6.unicast to AS41691 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS62432 action pref=50; accept AS-VILTEL;
+mp-export:      afi ipv6.unicast to AS62432 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS51093 action pref=50; accept AS-VMCITY;
+mp-export:      afi ipv6.unicast to AS51093 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57246 action pref=50; accept AS57246;
+mp-export:      afi ipv6.unicast to AS57246 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS13238 action pref=50; accept AS13238;
+mp-export:      afi ipv6.unicast to AS13238 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS196739 action pref=50; accept AS196739;
+mp-export:      afi ipv6.unicast to AS196739 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS196750 action pref=50; accept AS196750;
+mp-export:      afi ipv6.unicast to AS196750 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS198342 action pref=50; accept AS198342;
+mp-export:      afi ipv6.unicast to AS198342 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS198580 action pref=50; accept AS198580;
+mp-export:      afi ipv6.unicast to AS198580 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS199394 action pref=50; accept AS199394;
+mp-export:      afi ipv6.unicast to AS199394 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS199651 action pref=50; accept AS199651;
+mp-export:      afi ipv6.unicast to AS199651 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS200624 action pref=50; accept AS200624;
+mp-export:      afi ipv6.unicast to AS200624 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS201083 action pref=50; accept AS201083;
+mp-export:      afi ipv6.unicast to AS201083 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS201499 action pref=50; accept AS201499;
+mp-export:      afi ipv6.unicast to AS201499 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS203004 action pref=50; accept AS203004;
+mp-export:      afi ipv6.unicast to AS203004 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS203395 action pref=50; accept AS203395;
+mp-export:      afi ipv6.unicast to AS203395 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS204272 action pref=50; accept AS204272;
+mp-export:      afi ipv6.unicast to AS204272 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS204600 action pref=50; accept AS204600;
+mp-export:      afi ipv6.unicast to AS204600 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS205226 action pref=50; accept AS205226;
+mp-export:      afi ipv6.unicast to AS205226 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS21030 action pref=50; accept AS21030;
+mp-export:      afi ipv6.unicast to AS21030 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS39046 action pref=50; accept AS39046;
+mp-export:      afi ipv6.unicast to AS39046 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS41446 action pref=50; accept AS41446;
+mp-export:      afi ipv6.unicast to AS41446 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS42893 action pref=50; accept AS42893;
+mp-export:      afi ipv6.unicast to AS42893 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS43362 action pref=50; accept AS43362;
+mp-export:      afi ipv6.unicast to AS43362 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44484 action pref=50; accept AS44484;
+mp-export:      afi ipv6.unicast to AS44484 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44882 action pref=50; accept AS44882;
+mp-export:      afi ipv6.unicast to AS44882 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS44923 action pref=50; accept AS44923;
+mp-export:      afi ipv6.unicast to AS44923 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47211 action pref=50; accept AS47211;
+mp-export:      afi ipv6.unicast to AS47211 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47363 action pref=50; accept AS47363;
+mp-export:      afi ipv6.unicast to AS47363 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47541 action pref=50; accept AS47541;
+mp-export:      afi ipv6.unicast to AS47541 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47746 action pref=50; accept AS47746;
+mp-export:      afi ipv6.unicast to AS47746 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS47968 action pref=50; accept AS47968;
+mp-export:      afi ipv6.unicast to AS47968 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48235 action pref=50; accept AS48235;
+mp-export:      afi ipv6.unicast to AS48235 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48257 action pref=50; accept AS48257;
+mp-export:      afi ipv6.unicast to AS48257 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48416 action pref=50; accept AS48416;
+mp-export:      afi ipv6.unicast to AS48416 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48670 action pref=50; accept AS48670;
+mp-export:      afi ipv6.unicast to AS48670 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS49614 action pref=50; accept AS49614;
+mp-export:      afi ipv6.unicast to AS49614 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS50453 action pref=50; accept AS50453;
+mp-export:      afi ipv6.unicast to AS50453 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57439 action pref=50; accept AS57439;
+mp-export:      afi ipv6.unicast to AS57439 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57629 action pref=50; accept AS57629;
+mp-export:      afi ipv6.unicast to AS57629 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS57975 action pref=50; accept AS57975;
+mp-export:      afi ipv6.unicast to AS57975 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS59482 action pref=50; accept AS59482;
+mp-export:      afi ipv6.unicast to AS59482 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS60357 action pref=50; accept AS60357;
+mp-export:      afi ipv6.unicast to AS60357 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS61037 action pref=50; accept AS61037;
+mp-export:      afi ipv6.unicast to AS61037 announce any;
+remarks:
+remarks:        ----------------
+remarks:        Vrj
+remarks:        ----------------
+remarks:
+mp-import:      afi ipv6.unicast from AS13178 action pref=50; accept AS-DIGCOMM;
+mp-export:      afi ipv6.unicast to AS13178 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS48366 action pref=50; accept AS48366;
+mp-export:      afi ipv6.unicast to AS48366 announce any;
+remarks:
+mp-import:      afi ipv6.unicast from AS43727 action pref=50; accept AS43727;
+mp-export:      afi ipv6.unicast to AS43727 announce any;
+remarks:
+remarks:        =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+remarks:        ==========================================================
+remarks:        BGP community accepted only from customers (not CLOUD-IX members)
+remarks:        ==========================================================
+remarks:        Community Meaning
+remarks:        ==========================================================
+remarks:
+remarks:        ==========================================================
+remarks:        ************ Country codes (64600-64699) ****************
+remarks:        ==========================================================
+remarks:        29076:64667 RU (Russia)
+remarks:        29076:64677 UA (Ukraine)
+remarks:        29076:64615 DE (Germany)
+remarks:        ==========================================================
+remarks:        ************** Regional Codes (60000-60999) **************
+remarks:        ==========================================================
+remarks:        Where the route has been received:
+remarks:        29076:60495 Moscow
+remarks:        29076:60812 S.Petersburg
+remarks:        29076:60310 Kiev
+remarks:        29076:60343 Ekaterinburg
+remarks:        ==========================================================
+remarks:        ********************** Origin Codes **********************
+remarks:        ==========================================================
+remarks:        29076:777 All customers by default
+remarks:        29076:900 Russian routes
+remarks:        29076:901 Foreign routes
+remarks:        29076:29076 Locally originated routes
+remarks:        ==========================================================
+remarks:        ********************** Black hole  ***********************
+remarks:        ==========================================================
+remarks:        0:666 Black hole route
+remarks:        0:66 Selective black hole route (Cogent, Telia Sonera, DE-CIX)
+remarks:        ==========================================================
+remarks:
+remarks:        ==========================================================
+remarks:        BGP community for announce control
+remarks:        ==========================================================
+remarks:        ! 29076:SNNX - TAGS !
+remarks:
+remarks:        S - Source of prefix:
+remarks:        1 Upstream
+remarks:        2 Russian peer
+remarks:        3 International peer
+remarks:        4 Ukraine peer
+remarks:
+remarks:        NN - Number of Upstream, peer, customer
+remarks:
+remarks:        29076:10NX Upstream
+remarks:        102X *reserved*
+remarks:        103X Cogent
+remarks:        104X *reserved*
+remarks:        105X *reserved*
+remarks:        106X TeliaSonera
+remarks:        199X Any Upstream
+remarks:
+remarks:        29076:20NX Russian peers
+remarks:        201X BEELINE
+remarks:        202X *reserved*
+remarks:        203X *reserved*
+remarks:        204X MSK-IX (RS and direct peers)
+remarks:        205X Rostelecom
+remarks:        207X EKT-IX
+remarks:        209X RunNet.MSK
+remarks:        211X CORBINA
+remarks:        212X SPB-IX
+remarks:        216X COMCOR
+remarks:        218X EQUANT
+remarks:        219x MTS(COMSTAR)
+remarks:        220x MEGAFON
+remarks:        222x GOOGLE (SPB)
+remarks:        223x GOOGLE (MSK)
+remarks:        225x NNZ-HOME (AS39102)
+remarks:        226x VK.COM (!inoperative)
+remarks:        232x North-West Telecom
+remarks:        235x ESTPAK
+remarks:        238x RASCOM
+remarks:        251x DATA-IX
+remarks:        299X Any Russian peers
+remarks:
+remarks:        29076:30NX International peers (RS and direct peers)
+remarks:        301x *reserved*
+remarks:        303x DE-CIX
+remarks:        304x *reserved*
+remarks:        305x *reserved*
+remarks:        306x *reserved*
+remarks:        399x Any International peers
+remarks:
+remarks:        29076:40NX Ukraine peers (RS and direct peers)
+remarks:        402x DTEL-IX
+remarks:        403x MIROHOST (!inoperative)
+remarks:        405x UAR.NET (!inoperative)
+remarks:        406x UKRTELECOM (!inoperative)
+remarks:        407x UA-IX
+remarks:        408x GOOGLE (KIEV)
+remarks:        499x Any Ukraine peers
+remarks:
+remarks:        X - tag for action:
+remarks:        x=0 - do not announce
+remarks:        x=1 - announce
+remarks:        x=2,4 or 6 - prepend LAST {YOUR_AS} 2,4 or 6 times
+remarks:
+remarks:        ==========================================================
+remarks:        BGP community for CLOUD-IX members:
+remarks:        ==========================================================
+remarks:
+remarks:        X:<member AS>
+remarks:
+remarks:        X - tag for action:
+remarks:        X=0 - do not announce
+remarks:        X=2 or 4 - prepend LAST {YOUR_AS} 2 or 4 times
+remarks:        0:29076 - do not announce to all members of CLOUD-IX
+remarks:        (except AS29076 and customers with Default Only)
+remarks:        X=1 - announce (works with 0:29076)
+remarks:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        Local-pref use cisco like:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        Customers 300
+remarks:        Private peering 250
+remarks:        Peering 210
+remarks:        Upstream 160
+remarks:        Backup 70
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        Notes
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        Any other 29076:* community removed on input.
+remarks:        BGP Filters automatic update at 01:10 MSK
+remarks:        BGP filter generate by prefix-list, route object RADB
+remarks:
+remarks:        * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+remarks:        *http://as29076.peeringdb.com <- *
+remarks:        * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+remarks:
+remarks:
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         HOSTER-RIPE-MNT
+notify:         registry@citytelecom.ru
+created:        2011-01-08T19:33:27Z
+last-modified:  2018-08-15T21:00:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

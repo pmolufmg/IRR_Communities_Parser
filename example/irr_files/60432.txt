@@ -1,0 +1,63 @@
+aut-num:        AS60432
+as-name:        ASN-forisp
+org:            ORG-PMTA3-RIPE
+remarks:
+remarks:        *********************
+remarks:        * BGP communities *
+remarks:        *********************
+remarks:        60432:666 Bogon route
+remarks:        60432:10 Our prefix
+remarks:        60432:11 Customers prefix
+remarks:        60432:12 Transit prefix
+remarks:        60432:13 Prefix from Interoute
+remarks:        60432:14 Prefix from SiX
+remarks:        60432:15 Prefix from Retelit
+remarks:        60432:16 Prefix from HE IPv6
+remarks:        60432:100666 Set as blackhole
+remarks:        60432:1001 Don't announce outside
+remarks:        60432:1002 Don't announce to Interoute
+remarks:        60432:1003 Don't announce to SiX
+remarks:
+remarks:        *******************
+remarks:        * Main Peering *
+remarks:        *******************
+import:         from AS60706 accept ANY
+import:         from AS44942 accept ANY
+import:         from AS6939 accept ANY
+import:         from AS8928 accept ANY
+import:         from AS28716 accept ANY
+export:         to AS60706 announce ANY
+export:         to AS8928 announce AS60432:AS-OUT
+export:         to AS44942 announce ANY
+export:         to AS6939 announce AS60432:AS-OUT
+export:         to AS28716 announce AS60432:AS-OUT
+remarks:
+remarks:        *******************
+remarks:        * Transit Peering *
+remarks:        *******************
+remarks:
+remarks:
+remarks:        *********************
+remarks:        * Customers Peering *
+remarks:        *******************
+remarks:
+import:         from AS200984 accept AS200984
+export:         to AS200984 announce ANY
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-4ISP
+mnt-routes:     MNT-4ISP
+created:        2013-07-18T13:30:51Z
+last-modified:  2017-11-15T12:28:36Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,145 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS38912 - AS39935'
+
+as-block:       AS38912 - AS39935
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS39781'
+
+% Abuse contact for 'AS39781' is 'abuse@diabolocom.com'
+
+aut-num:        AS39781
+as-name:        DIABOLOCOM
+org:            ORG-DS25-RIPE
+remarks:
+remarks:        =========================================
+remarks:
+remarks:        Diabolocom Network
+remarks:        http://diabolocom.com
+remarks:        Report issues to abuse@diabolocom.com
+remarks:
+remarks:        =========================================
+remarks:        IMPORT/EXPORT
+remarks:
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS3356    accept ANY
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS174     accept ANY
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS30781   accept ANY
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS29075   accept ANY
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS6939    accept ANY # HE
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS24115   accept ANY # Equinix-IX
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS51706   accept ANY # France-IX
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS714     accept AS714 # Apple
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS47314   accept AS47314 # Vinci
+mp-import:      afi ipv4.unicast              from AS9149    accept AS9149 # STET
+remarks:
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS3356      announce AS-DABCNET
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS174       announce AS-DABCNET
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS30781     announce AS-DABCNET
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS29075     announce AS-DABCNET
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS6939      announce AS-DABCNET
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS24115     announce AS-DABCNET
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS51706     announce AS-DABCNET
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS714       announce AS-DABCNET # Apple
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS47314     announce ANY # Vinci
+mp-export:      afi ipv4.unicast              to AS9149      announce ANY # STET
+remarks:
+remarks:        =========================================
+remarks:
+remarks:        Peering exchanges - open policy
+remarks:        peering@diabolocom.com
+remarks:
+remarks:        France-IX at Equinix PA7
+remarks:        37.49.237.173
+remarks:        2001:7f8:54::1:173
+remarks:
+remarks:        Equinix-IX at Equinix PA6
+remarks:        195.42.145.180
+remarks:        2001:7f8:43::3:9781:1
+remarks:
+remarks:        =========================================
+remarks:
+remarks:        BGP communities accepted from customers
+remarks:
+remarks:        39781:650x  act on Equinix-IX Paris
+remarks:        39781:655x  act on France-IX
+remarks:        39781:700x  act on AS3356    (Level3)
+remarks:        39781:705x  act on AS174     (Cogent)
+remarks:        39781:710x  act on AS30781   (Jaguar)
+remarks:        39781:715x  act on AS29075   (IELO)
+remarks:
+remarks:        x = 1 : Prepend once
+remarks:        x = 2 : Prepend twice
+remarks:        x = 3 : Prepend three times
+remarks:        x = 4 : don't announce
+remarks:
+remarks:        39781:0 Blackhole
+remarks:
+remarks:        =========================================
+remarks:
+admin-c:        TCD6-RIPE
+tech-c:         TCD6-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DABCNET-MNT
+created:        2008-04-08T15:35:11Z
+last-modified:  2018-09-04T10:31:48Z
+source:         RIPE
+
+organisation:   ORG-DS25-RIPE
+org-name:       Diabolocom SAS
+org-type:       LIR
+address:        80, rue Anatole France
+address:        92300
+address:        Levallois-Perret
+address:        FRANCE
+phone:          +33173034500
+fax-no:         +33173040080
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DABCNET-MNT
+admin-c:        TCD6-RIPE
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DABCNET-MNT
+abuse-c:        TCD6-RIPE
+created:        2007-10-02T10:11:59Z
+last-modified:  2018-03-21T10:37:56Z
+source:         RIPE # Filtered
+
+role:           Technical Contact for Dabcnet
+address:        Diabolocom
+address:        80, rue Anatole France
+address:        92300 Levallois-Perret
+address:        France
+phone:          +33173034500
+fax-no:         +33173034519
+remarks:        Information: http://www.diabolocom.com
+remarks:        Abuse/Spam: mailto: abuse@dabcnet.net
+mnt-by:         DABCNET-MNT
+org:            ORG-DS25-RIPE
+abuse-mailbox:  abuse@diabolocom.com
+nic-hdl:        TCD6-RIPE
+created:        2007-10-27T16:22:49Z
+last-modified:  2018-03-21T10:39:13Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

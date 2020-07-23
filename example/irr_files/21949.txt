@@ -1,0 +1,139 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS21949
+as-name:       BEANFIELD-AS
+descr:         Beanfield Metroconnect
+admin-c:       BSAO-ARIN
+tech-c:        BEANF1-ARIN
+import:        from AS-ANY  accept any
+export:        to AS-ANY  announce AS-BEANFIELD
+remarks:       
+remarks:       +------------------------------------------------+
+remarks:       | bgp communities supported by beanfield/as21949 |
+remarks:       +------------------------------------------------+
+remarks:       |
+remarks:       +
+remarks:       | table 1
+remarks:       +---------------------------------------------+
+remarks:       | local-pref traffic engineering communities  |
+remarks:       +------------+------------+-------------------+
+remarks:       | community  | local-pref | description       |
+remarks:       +------------+------------+-------------------+
+remarks:       | empty      | 990        | customer default  |
+remarks:       | 21949:9001 | 990        | customer default  |
+remarks:       | 21949:9002 | 10         | customer fallback |
+remarks:       | 21949:9010 | 390        | eq peer           |
+remarks:       | 21949:9011 | 380        | lt peer           |
+remarks:       | 21949:9020 | 190        | eq transit        |
+remarks:       | 21949:666  | 990        | blackhole         |
+remarks:       +------------+------------+-------------------+
+remarks:       |
+remarks:       +
+remarks:       | table 2
+remarks:       +----------------------------------------------------+
+remarks:       | as21949<>upstream supported bgp community mappings |
+remarks:       +------------+---------------------------------------+
+remarks:       |            | equivalent supported by upstream asn  |
+remarks:       +------------+-----+-----+------+------+------+------+
+remarks:       | action     | 577 | 852 | 174  | 3356 | 1299 | 2914 |
+remarks:       +------------+-----+-----+------+------+------+------+
+remarks:       | eq peer    |     | *   |      |      | *    | *    |
+remarks:       | lt peer    |     |     | *    | *    |      | *    |
+remarks:       | eq transit |     |     |      |      |      |      |
+remarks:       | fallback   | *   | *   | *    | *    | *    | *    |
+remarks:       | blackhole  | *   | *   |      | *    | *    | *    |
+remarks:       +------------+-----+-----+------+------+------+------+
+remarks:       |
+remarks:       +
+remarks:       | table 3
+remarks:       +-----------------------------------------------+
+remarks:       | as21949 <> ixp rs supported blackhole mapping |
+remarks:       +-------+-------+-------+--------+------+-------+
+remarks:       | torix |  qix  | nyiix | de-cix | drix |  six  |
+remarks:       +-------+-------+-------+--------+------+-------+
+remarks:       |       |       | *     | *      |      | *     |
+remarks:       +-------+-------+-------+--------+------+-------+
+remarks:       |
+remarks:       +
+remarks:       | table 4
+remarks:       +---------------------------------------------------+
+remarks:       | exchange point action communities                 |
+remarks:       +-----------------+------------+--------------------+
+remarks:       | exchange point  | action     | action description |
+remarks:       +-----------------+------------+--------------------+
+remarks:       | all exchanges   | 21949:2000 | do not announce    |
+remarks:       | torix           | 21949:2010 | do not announce    |
+remarks:       | qix             | 21949:2020 | do not announce    |
+remarks:       | nyiix           | 21949:2030 | do not announce    |
+remarks:       | de-cix          | 21949:2040 | do not announce    |
+remarks:       | drix            | 21949:2050 | do not announce    |
+remarks:       | six             | 21949:2060 | do not announce    |
+remarks:       +-----------------+------------+--------------------+
+remarks:       |
+remarks:       +
+remarks:       | table 5
+remarks:       +-------------------------------------------------+
+remarks:       | upstream action communities                     |
+remarks:       +---------------+------------+--------------------+
+remarks:       | upstream      | action     | action description |
+remarks:       +---------------+------------+--------------------+
+remarks:       | all upstreams | 21949:3000 | do not announce    |
+remarks:       | cogent/174    | 21949:3010 | do not announce    |
+remarks:       | bell/577      | 21949:3020 | do not announce    |
+remarks:       | telus/852     | 21949:3030 | do not announce    |
+remarks:       | level3/3356   | 21949:3040 | do not announce    |
+remarks:       | ntt/2914      | 21949:3050 | do not announce    |
+remarks:       | telia/1299    | 21949:3060 | do not announce    |
+remarks:       +---------------+------------+--------------------+
+remarks:       |
+remarks:       +--------------------------------------------------------------------+
+remarks:       | notes regarding bgp community use & support                        |
+remarks:       +--------------------------------------------------------------------+
+remarks:       | 1. bgp customers wishing to send communities must first have it    |
+remarks:       |    enabled on their session(s).  contact support-at-beanfield.com  |
+remarks:       |                                                                    |
+remarks:       | 2. communities defined in table 1 are evaluated until first match. |
+remarks:       |                                                                    |
+remarks:       | 3. meds are accepted, regardless of bgp session configuration      |
+remarks:       |    for community support.                                          |
+remarks:       |                                                                    |
+remarks:       | 4. table 2 describes whether a beanfield upstream asn has support  |
+remarks:       |    for the equivalent traffic engineering community action that we |
+remarks:       |    implement.  where an upstream asn supports the equivalent, we   |
+remarks:       |    re-write their equivalent community on our announcements to     |
+remarks:       |    said upstream.                                                  |
+remarks:       |                                                                    |
+remarks:       |    example: 2914 supports the equivalent of 21949:9011.  that is,  |
+remarks:       |    when a prefix tagged with 21949:9011 is announced to 2914, we   |
+remarks:       |    map to the 2914 equivalent of 21949:9011. for this example,     |
+remarks:       |    reference the below url:                                        |
+remarks:       |    https://www.us.ntt.net/support/policy/routing.cfm               |
+remarks:       |                                                                    |
+remarks:       | 5. action communities defined in tables 4 and 5 are evaluated on   |
+remarks:       |    any match(es).                                                  |
+remarks:       |                                                                    |
+remarks:       | 6. cogent/174 > 21949: only local and customer prefixes accepted   |
+remarks:       |    21949 > cogent/174: prefixes are tagged with 174:991 by default |
+remarks:       |    refer to the Cogent Customer User Guide for details.            |
+remarks:       |                                                                    |
+remarks:       | 7. remote triggered black hole notes:                              |
+remarks:       |                                                                    |
+remarks:       |    only ipv4 host prefixes (eq /32) are accepted.                  |
+remarks:       |                                                                    |
+remarks:       |    only ipv6 host prefixes (eq /128) are accepted.                 |
+remarks:       |                                                                    |
+remarks:       |    traffic to rtbh community tagged host prefix(es) is discarded   |
+remarks:       |    at as21949 northbound borders.                                  |
+remarks:       |                                                                    |
+remarks:       |    rtbh community will override any other community applied to     |
+remarks:       |    the announced host prefix.                                      |
+remarks:       |                                                                    |
+remarks:       |    rtbh community is re-written towards all upstreams and exchange |
+remarks:       |    points route servers where rtbh is supported per tables 2 & 3.  |
+remarks:       +--------------------------------------------------------------------+
+mnt-by:        MNT-BNFD
+changed:       jlixfeld@beanfield.com 20180323
+source:        ARIN
+
+

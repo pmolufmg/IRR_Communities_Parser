@@ -1,0 +1,232 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS24576 - AS24735'
+
+as-block:       AS24576 - AS24735
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:29Z
+last-modified:  2018-11-22T15:27:29Z
+source:         RIPE
+
+% Information related to 'AS24589'
+
+% Abuse contact for 'AS24589' is 'noc@telenet.lv'
+
+aut-num:        AS24589
+as-name:        TELENETSIA-AS
+org:            ORG-TS218-RIPE
+descr:          Telenet AUT-NUM peering specification object
+remarks:        -
+remarks:        - TeliaCarrier -
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-TELENET-LATVIA
+remarks:        - Fiord -
+import:         from AS28917 accept ANY
+export:         to AS28917 announce AS-TELENET-LATVIA
+remarks:        - ReTN -
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS24589
+remarks:        - Hurricane Electric -
+import:         from AS6939 accept ANY
+export:         to AS6939 announce AS-TELENET-LATVIA
+remarks:        - MSK-IX -
+import:         from AS8631 accept ANY
+export:         to AS8631 announce AS-TELENET-LATVIA
+remarks:        - SOLIX -
+import:         from AS25172 accept ANY
+export:         to AS25172 announce AS-TELENET-LATVIA
+remarks:        - LINX Telecom -
+import:         from AS3327 accept ANY
+export:         to AS3327 announce ANY
+remarks:        - TIS Dialog -
+import:         from AS31214 accept ANY
+export:         to AS31214 announce ANY
+remarks:        - LIX -
+import:         from AS42480 accept ANY
+export:         to AS42480 announce ANY
+remarks:        - SMILE-IXP -
+import:         from AS39626 accept ANY
+export:         to AS39626 announce ANY
+remarks:        - Baltcom -
+import:         from AS20910 accept ANY
+export:         to AS20910 announce ANY
+remarks:        - Lattelecom -
+import:         from AS12578 accept ANY
+export:         to AS12578 announce ANY
+remarks:        - ITMG NetVision -
+import:         from AS43513 accept ANY
+export:         to AS43513 announce ANY
+remarks:        - Mikronet -
+import:         from AS34620 accept ANY
+export:         to AS34620 announce ANY
+remarks:        - Versia -
+import:         from AS8285 accept ANY
+export:         to AS8285 announce ANY
+remarks:        - Balticom -
+import:         from AS2451 accept ANY
+export:         to AS24651 announce ANY
+remarks:        - Latvenergo -
+import:         from AS29600 accept ANY
+export:         to AS29600 announce ANY
+remarks:        - Telia Latvia -
+import:         from AS5518 accept ANY
+export:         to AS5518 announce ANY
+remarks:        - IZZI -
+import:         from AS6851 accept ANY
+export:         to AS6851 announce ANY
+remarks:        - Latvijas tikli -
+import:         from AS16062 accept ANY
+export:         to AS16062 announce ANY
+remarks:        - Simtel -
+import:         from AS198343 accept ANY
+export:         to AS198343 announce ANY
+remarks:        - MPE -
+import:         from AS20662 accept ANY
+export:         to AS20662 announce ANY
+remarks:        - MWTV -
+import:         from AS24601 accept ANY
+export:         to AS24601 announce ANY
+remarks:        - Interlain -
+import:         from AS35439 accept ANY
+export:         to AS35439 announce ANY
+remarks:        - ALTNET/RN Data -
+import:         from AS41390 accept ANY
+export:         to AS41390 announce ANY
+remarks:        - SP Line -
+import:         from AS42330 accept ANY
+export:         to AS42330 announce ANY
+remarks:        - Pronet -
+import:         from AS43075 accept ANY
+export:         to AS43075 announce ANY
+remarks:        - Neolain -
+import:         from AS57841 accept ANY
+export:         to AS57841 announce ANY
+remarks:        - Teleglobal -
+import:         from AS43877 accept ANY
+export:         to AS43877 announce ANY
+remarks:        - KDC -
+import:         from AS48870 accept ANY
+export:         to AS48870 announce ANY
+remarks:        - Belam -
+import:         from AS50485 accept ANY
+export:         to AS50485 announce ANY
+remarks:        - Silco -
+import:         from AS51249 accept ANY
+export:         to AS51249 announce ANY
+remarks:        - Bagem -
+import:         from AS62453 accept ANY
+export:         to AS62453 announce ANY
+remarks:        - Livas -
+import:         from AS34001 accept ANY
+export:         to AS34001 announce ANY
+remarks:        - Elvim -
+import:         from AS15392 accept ANY
+export:         to AS15392 announce ANY
+remarks:        - Baltic Pro -
+import:         from AS34994 accept ANY
+export:         to AS34994 announce ANY
+remarks:        - Datagrupa -
+import:         from AS21156 accept ANY
+export:         to AS21156 announce ANY
+remarks:        - DLV -
+import:         from AS204130 accept ANY
+export:         to AS204130 announce ANY
+remarks:        - Telepark -
+import:         from AS9029 accept ANY
+export:         to AS9029 announce ANY
+remarks:        - Ernis -
+import:         from AS15899 accept ANY
+export:         to AS15899 announce ANY
+remarks:        - DataClub -
+import:         from AS52048 accept AS-DATACLUB
+export:         to AS52048 announce ANY
+remarks:        - DEAC -
+import:         from AS12993 accept AS-DEAC
+export:         to AS12993 announce ANY
+remarks:        - NoLAN -
+import:         from AS206902 accept AS206902
+export:         to AS206902 announce ANY
+remarks:        - LTV -
+import:         from AS60324 accept AS60324
+export:         to AS60324 announce ANY
+remarks:        - GARMtech / Internet Domain Registry -
+import:         from AS43108 accept AS43108
+export:         to AS43108 announce ANY
+remarks:        - Makonix -
+import:         from AS52173 accept AS-MAKONIX
+export:         to AS52173 announce ANY
+remarks:        - Canadian Internet Registration Authority -
+import:         from AS394354 accept AS394354
+export:         to AS394354 announce AS-TELENET-LATVIA
+remarks:        - GlobalCom -
+import:         from AS42979 accept AS-GLOBALCOM_LV
+export:         to AS42979 announce ANY
+remarks:
+member-of:      AS-LATVIA
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+remarks:        Blackhole community 24589:666 is accepted from customers. no-export is *NOT* implied by default.
+remarks:        Only host routes (/32 IPv4 and /128 IPv6) within the customer ranges are accepted.
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+remarks:        Our peering policy is open. Please contact noc@telenet.lv for peering requests.
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+admin-c:        TNET111-RIPE
+tech-c:         TNET111-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TELENETSIA-MNT
+created:        2002-01-10T13:49:45Z
+last-modified:  2018-10-11T09:38:56Z
+source:         RIPE
+
+organisation:   ORG-TS218-RIPE
+org-name:       Telenet SIA
+org-type:       LIR
+address:        Raunas 44/1
+address:        LV-1039
+address:        Riga
+address:        LATVIA
+phone:          +37129474543
+fax-no:         +37167790421
+admin-c:        TNET111-RIPE
+tech-c:         TNET111-RIPE
+abuse-c:        TNET111-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TELENETSIA-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TELENETSIA-MNT
+created:        2013-11-21T11:18:46Z
+last-modified:  2019-01-11T12:22:04Z
+source:         RIPE # Filtered
+
+role:           Telenet technical contacts role
+address:        Raunas 44/1, Riga, Latvia LV-1039
+org:            ORG-TS218-RIPE
+abuse-mailbox:  noc@telenet.lv
+phone:          +371 67711111
+fax-no:         +371 67790421
+phone:          +371 67790770
+nic-hdl:        TNET111-RIPE
+tech-c:         DK250-RIPE
+admin-c:        DK250-RIPE
+tech-c:         ALXL1-RIPE
+admin-c:        ALXL1-RIPE
+tech-c:         OV1163-RIPE
+tech-c:         SS33009-RIPE
+mnt-by:         TELENETSIA-MNT
+created:        2014-02-05T14:20:25Z
+last-modified:  2018-06-29T13:17:30Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

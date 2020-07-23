@@ -1,0 +1,147 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS9211
+as-name:       WORK-AS
+descr:         N@work Internet Informationssysteme GmbH
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS174 accept ANY
+import:        from AS286 accept ANY
+import:        from AS1299 accept ANY
+import:        from AS3356 accept ANY
+import:        from AS8687 accept AS-PPP
+import:        from AS12731 accept AS-IPHH
+import:        from AS15388 accept AS-OMC
+import:        from AS12822 accept AS-LYNET
+import:        from AS5521 accept AS-CITYLINE
+import:        from AS13101 accept AS-TNG
+import:        from AS31334 accept AS-KDG
+import:        from AS24640 accept AS-BSWS
+import:        from AS5605 accept AS-NETUSE
+import:        from AS59507 accept AS-TLN
+import:        from AS20694 accept AS-NMMN
+import:        from AS13184 accept AS-TDDE
+import:        from AS24657 accept AS24657
+import:        from AS13157 accept AS-GOPAS
+import:        from AS13237 accept AS-LAMBDANET
+import:        from AS8881 accept AS-VT-TRANSIT
+import:        from AS20940 accept AS-AKAMAI
+import:        from AS43252 accept AS-DECIX-HAM
+import:        from AS20676 accept AS-QSC
+import:        from AS47717 accept AS47717
+import:        from AS12923 accept AS-WIZARD
+import:        from AS45012 accept AS-MEDIAWEBLINE
+import:        from AS35258 accept AS-AKQUINET
+import:        from AS25394 accept AS-MK-NETZDIENSTE
+import:        from AS51053 accept AS51053
+import:        from AS16378 accept AS-OTTO
+import:        from AS9007 accept AS9007
+import:        from AS13135 accept ANY
+import:        from AS49009 accept AS49009
+import:        from AS202941 accept AS-INTARES
+import:        from AS202941 accept AS15368
+import:        from AS206441 accept AS206441
+import:        from AS48324 accept AS48324
+export:        to AS48324 announce ANY
+export:        to AS286 announce ANY
+export:        to AS202941 announce ANY
+export:        to AS174 announce ANY
+export:        to AS1299 announce ANY
+export:        to AS3356 announce ANY
+export:        to AS8687 announce AS-WORK
+export:        to AS12731 announce AS-WORK
+export:        to AS15388 announce AS-WORK
+export:        to AS12822 announce AS-WORK
+export:        to AS5521 announce AS-WORK
+export:        to AS13101 announce AS-WORK
+export:        to AS31334 announce AS-WORK
+export:        to AS24640 announce AS-WORK
+export:        to AS5605 announce AS-WORK
+export:        to AS59507 announce AS-WORK
+export:        to AS20694 announce AS-WORK
+export:        to AS13184 announce AS-WORK
+export:        to AS24657 announce AS-WORK
+export:        to AS13157 announce AS-WORK
+export:        to AS13237 announce AS-WORK
+export:        to AS8881 announce AS-WORK
+export:        to AS20940 announce AS-WORK
+export:        to AS43252 announce AS-WORK
+export:        to AS20676 announce AS-WORK
+export:        to AS47717 announce ANY
+export:        to AS12923 announce ANY
+export:        to AS45012 announce ANY
+export:        to AS35258 announce ANY
+export:        to AS25394 announce AS-WORK
+export:        to AS51053 announce ANY
+export:        to AS51053 announce ANY
+export:        to AS16378 announce ANY
+export:        to AS9007 announce ANY
+export:        to AS13135 announce ANY
+export:        to AS49009 announce ANY
+export:        to AS206441 announce ANY
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       
+remarks:       n@work is located at the following exchange points:
+remarks:       
+remarks:       DECIX Hamburg: 80.81.203.1
+remarks:       
+remarks:       http://www.work.de/peering_policy.html
+remarks:       Please send peering requests to noc@work.de
+remarks:       
+remarks:       ------------------------------------------------------------
+remarks:       
+remarks:       BGP Communities:
+remarks:       
+remarks:       9211:2200 do not announce to WORK-IX peers
+remarks:       9211:2201 prepend 9211 once to WORK-IX peers
+remarks:       9211:2202 prepend 9211 twice to WORK-IX peers
+remarks:       9211:2203 prepend 9211 3x to WORK-IX peers
+remarks:       
+remarks:       9211:2300 do not announce to BREMIX peers
+remarks:       9211:2301 prepend 9211 once to BREMIX peers
+remarks:       9211:2302 prepend 9211 twice to BREMIX peers
+remarks:       9211:2303 prepend 9211 3x to BREMIX peers
+remarks:       
+remarks:       9211:4100 do not announce to AS286
+remarks:       9211:4101 prepend 9211 once to AS286
+remarks:       9211:4102 prepend 9211 twice to AS286
+remarks:       9211:4103 prepend 9211 3x to AS286
+remarks:       
+remarks:       9211:4200 do not announce to AS3356
+remarks:       9211:4201 prepend 9211 once to AS3356
+remarks:       9211:4202 prepend 9211 twice to AS3356
+remarks:       9211:4203 prepend 9211 3x to AS3356
+remarks:       
+remarks:       9211:4300 do not announce to AS1299
+remarks:       9211:4301 prepend 9211 once to AS1299
+remarks:       9211:4302 prepend 9211 twice to AS1299
+remarks:       9211:4303 prepend 9211 3x to AS1299
+remarks:       
+remarks:       9211:4400 do not announce to AS174
+remarks:       9211:4401 prepend 9211 once to AS174
+remarks:       9211:4402 prepend 9211 twice to AS174
+remarks:       9211:4403 prepend 9211 3x to AS174
+remarks:       
+remarks:       9211:1200 Route received from WORK-IX peer
+remarks:       9211:1300 Route received from BREMIX peer
+remarks:       
+remarks:       9211:3100 Route received from AS174
+remarks:       9211:3200 Route received from AS286
+remarks:       9211:3300 Route received from AS1299
+remarks:       9211:3400 Route received from AS3356
+remarks:       ------------------------------------------------------------
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        NWORK-MNT
+source:        RIPE
+
+

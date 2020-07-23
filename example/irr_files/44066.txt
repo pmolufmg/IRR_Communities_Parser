@@ -1,0 +1,267 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS44066
+as-name:       DE-FirstColo
+descr:         www.first-colo.net
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS3320 action pref=100; accept ANY
+import:        from AS3356 action pref=100; accept ANY
+import:        from AS5580 action pref=100; accept ANY
+import:        from AS50673 action pref=100; accept ANY
+import:        from AS251 action pref=100; accept ANY
+import:        from AS42 accept AS-PCH
+import:        from AS553 accept AS-BELWUE
+import:        from AS680 accept AS680
+import:        from AS1267 accept AS-INFOSTRADA
+import:        from AS1764 accept AS1764
+import:        from AS2857 accept AS-RLP-NET
+import:        from AS3216 accept AS-SOVAM
+import:        from AS3255 accept AS-UARNET
+import:        from AS3303 accept AS-SWCMGLOBAL
+import:        from AS3856 accept AS-PCH
+import:        from AS4788 accept AS4788
+import:        from AS5466 accept AS-EIRCOM
+import:        from AS5588 accept AS-GTS-CE
+import:        from AS5605 accept AS-NETUSE
+import:        from AS6661 accept AS-PTLU
+import:        from AS6730 accept AS-GLOBAL
+import:        from AS6805 accept AS-TDDE
+import:        from AS6939 accept AS-HURRICANE
+import:        from AS8342 accept AS8342:AS-RTCOMM-DECIX-EXP
+import:        from AS8365 accept AS-MANDA
+import:        from AS8447 accept AS-PTA
+import:        from AS8492 accept AS-OBIT
+import:        from AS8582 accept AS-SUPPORT
+import:        from AS8586 accept AS-REDNET
+import:        from AS8657 accept AS-CPRM
+import:        from AS8781 accept AS-QTEL
+import:        from AS8859 accept AS-OSN
+import:        from AS8966 accept AS-EMIX
+import:        from AS9002 accept AS-RETN
+import:        from AS9031 accept AS9031
+import:        from AS9044 accept AS-SOLNET
+import:        from AS9063 accept AS-SAARGATE
+import:        from AS9145 accept AS-EWETEL
+import:        from AS10310 accept AS10310
+import:        from AS12041 accept AS-AFILIAS
+import:        from AS12306 accept AS-PLUSLINE
+import:        from AS12355 accept AS-HELINET-V4
+import:        from AS12348 accept AS-ODN
+import:        from AS12399 accept AS-SPXS
+import:        from AS12611 accept AS-RKOM
+import:        from AS12713 accept AS-OTEGLOBE
+import:        from AS12714 accept AS-TI
+import:        from AS12859 accept AS-BIT
+import:        from AS12874 accept AS-FASTWEB
+import:        from AS12968 accept AS-CDP
+import:        from AS13030 accept AS-INIT7
+import:        from AS13132 accept AS-CYBERWAYS
+import:        from AS13184 accept AS-HANSENET
+import:        from AS13285 accept AS-OPAL
+import:        from AS16276 accept AS-OVH
+import:        from AS19151 accept AS-WVFIBER
+import:        from AS20495 accept AS-WEDARE
+import:        from AS21011 accept AS21011:AS-EXT
+import:        from AS21013 accept AS-ITANDTEL
+import:        from AS21336 accept AS-IR
+import:        from AS21385 accept AS-TNIB
+import:        from AS22822 accept AS-LLNW
+import:        from AS23148 accept AS-TWW
+import:        from AS24739 accept AS-SEVEREN-TELECOM
+import:        from AS28917 accept AS-FIORD
+import:        from AS29208 accept AS29208
+import:        from AS29413 accept AS-KOMRO
+import:        from AS30890 accept AS-EVOLVA
+import:        from AS31252 accept AS-STARNET
+import:        from AS31500 accept AS-GLOBAL-NET
+import:        from AS33873 accept AS-ARVATO
+import:        from AS33891 accept AS-CORE-BACKBONE
+import:        from AS34305 accept AS-EUROACCESS
+import:        from AS34309 accept AS-LINK11
+import:        from AS34655 accept AS-DOCLER
+import:        from AS36408 accept AS-PANTHER
+import:        from AS39257 accept AS-INC
+import:        from AS39912 accept AS-I3B
+import:        from AS41095 accept AS-IPTP
+import:        from AS41692 accept AS-OPENCARRIER
+import:        from AS42416 accept AS42416
+import:        from AS42652 accept AS-INTRAPARK
+import:        from AS43303 accept AS43303
+import:        from AS43391 accept AS-NETDIREKT
+import:        from AS44042 accept AS-ROOT
+import:        from AS44194 accept AS-FREIFUNK-BERLIN
+import:        from AS44458 accept AS44458
+import:        from AS48484 accept AS-IGNEL
+import:        from AS49532 accept AS-EONIX
+import:        from AS59939 accept AS-WIBO
+export:        to AS3320 announce AS-FIRSTCOLO
+export:        to AS3356 announce AS-FIRSTCOLO
+export:        to AS5580 announce AS-FIRSTCOLO
+export:        to AS50673 announce AS-FIRSTCOLO
+export:        to AS251 announce AS-FIRSTCOLO
+export:        to AS42 announce AS-FIRSTCOLO
+export:        to AS553 announce AS-FIRSTCOLO
+export:        to AS1267 announce AS-FIRSTCOLO
+export:        to AS2857 announce AS-FIRSTCOLO
+export:        to AS3216 announce AS-FIRSTCOLO
+export:        to AS3255 announce AS-FIRSTCOLO
+export:        to AS3303 announce AS-FIRSTCOLO
+export:        to AS3320 announce AS-FIRSTCOLO
+export:        to AS3856 announce AS-FIRSTCOLO
+export:        to AS4788 announce AS-FIRSTCOLO
+export:        to AS5466 announce AS-FIRSTCOLO
+export:        to AS5588 announce AS-FIRSTCOLO
+export:        to AS5605 announce AS-FIRSTCOLO
+export:        to AS6661 announce AS-FIRSTCOLO
+export:        to AS6730 announce AS-FIRSTCOLO
+export:        to AS6805 announce AS-FIRSTCOLO
+export:        to AS6939 announce AS-FIRSTCOLO
+export:        to AS8342 announce AS-FIRSTCOLO
+export:        to AS8365 announce AS-FIRSTCOLO
+export:        to AS8447 announce AS-FIRSTCOLO
+export:        to AS8492 announce AS-FIRSTCOLO
+export:        to AS8582 announce AS-FIRSTCOLO
+export:        to AS8586 announce AS-FIRSTCOLO
+export:        to AS8657 announce AS-FIRSTCOLO
+export:        to AS8781 announce AS-FIRSTCOLO
+export:        to AS8859 announce AS-FIRSTCOLO
+export:        to AS8966 announce AS-FIRSTCOLO
+export:        to AS9002 announce AS-FIRSTCOLO
+export:        to AS9031 announce AS-FIRSTCOLO
+export:        to AS9044 announce AS-FIRSTCOLO
+export:        to AS9063 announce AS-FIRSTCOLO
+export:        to AS9145 announce AS-FIRSTCOLO
+export:        to AS10310 announce AS-FIRSTCOLO
+export:        to AS12041 announce AS-FIRSTCOLO
+export:        to AS12306 announce AS-FIRSTCOLO
+export:        to AS12355 announce AS-FIRSTCOLO
+export:        to AS12348 announce AS-FIRSTCOLO
+export:        to AS12399 announce AS-FIRSTCOLO
+export:        to AS12611 announce AS-FIRSTCOLO
+export:        to AS12713 announce AS-FIRSTCOLO
+export:        to AS12714 announce AS-FIRSTCOLO
+export:        to AS12859 announce AS-FIRSTCOLO
+export:        to AS12874 announce AS-FIRSTCOLO
+export:        to AS12968 announce AS-FIRSTCOLO
+export:        to AS13030 announce AS-FIRSTCOLO
+export:        to AS13132 announce AS-FIRSTCOLO
+export:        to AS13184 announce AS-FIRSTCOLO
+export:        to AS13285 announce AS-FIRSTCOLO
+export:        to AS16276 announce AS-FIRSTCOLO
+export:        to AS19151 announce AS-FIRSTCOLO
+export:        to AS20495 announce AS-FIRSTCOLO
+export:        to AS21011 announce AS-FIRSTCOLO
+export:        to AS21013 announce AS-FIRSTCOLO
+export:        to AS21336 announce AS-FIRSTCOLO
+export:        to AS21385 announce AS-FIRSTCOLO
+export:        to AS22822 announce AS-FIRSTCOLO
+export:        to AS23148 announce AS-FIRSTCOLO
+export:        to AS24739 announce AS-FIRSTCOLO
+export:        to AS28917 announce AS-FIRSTCOLO
+export:        to AS29208 announce AS-FIRSTCOLO
+export:        to AS29413 announce AS-FIRSTCOLO
+export:        to AS30890 announce AS-FIRSTCOLO
+export:        to AS31252 announce AS-FIRSTCOLO
+export:        to AS31500 announce AS-FIRSTCOLO
+export:        to AS33873 announce AS-FIRSTCOLO
+export:        to AS33891 announce AS-FIRSTCOLO
+export:        to AS34305 announce AS-FIRSTCOLO
+export:        to AS34309 announce AS-FIRSTCOLO
+export:        to AS34655 announce AS-FIRSTCOLO
+export:        to AS36408 announce AS-FIRSTCOLO
+export:        to AS39257 announce AS-FIRSTCOLO
+export:        to AS39912 announce AS-FIRSTCOLO
+export:        to AS41095 announce AS-FIRSTCOLO
+export:        to AS41692 announce AS-FIRSTCOLO
+export:        to AS42416 announce AS-FIRSTCOLO
+export:        to AS42652 announce AS-FIRSTCOLO
+export:        to AS43303 announce AS-FIRSTCOLO
+export:        to AS44042 announce AS-FIRSTCOLO
+export:        to AS44194 announce ANY
+export:        to AS44458 announce ANY
+export:        to AS48484 announce AS-FIRSTCOLO
+export:        to AS50673 announce AS-FIRSTCOLO
+remarks:       
+remarks:       ------------------------------------------------------------------
+remarks:       Current Transit Providers:
+remarks:       ------------------------------------------------------------------
+remarks:       
+remarks:       Deutsche Telekom AG (Dtag)
+remarks:       
+remarks:       Level3 Communications Inc.
+remarks:       
+remarks:       Atrato IP Networks B.V.
+remarks:       
+remarks:       Serverius Datacenter B.V. Backup
+remarks:       
+remarks:       Kaia Global Networks Ltd
+remarks:       
+remarks:       ------------------------------------------------------------------
+remarks:       Current Peerings:
+remarks:       ------------------------------------------------------------------
+remarks:       
+remarks:       ------------------------------------------------------------------
+remarks:       
+remarks:       ------------------------------------------------------------------
+remarks:       NOC contact (24/7 operations):
+remarks:       network@first-colo.net or call +49 (0) 69 1200 69 0
+remarks:       Abuse contact: abuse [at] first-colo.net
+remarks:       ------------------------------------------------------------------
+remarks:       We currently have an open peering policy
+remarks:       Please mail peering@first-colo.net
+remarks:       
+remarks:       Currently available connection points:
+remarks:       
+remarks:       DataCenter / IX Location
+remarks:       --------------------- --------------------------------------
+remarks:       First Colo GmbH Hanauer Landstra?e 291b, FFM, DE
+remarks:       InterXion Deutschland Hanauer Landstra?e 301, FFM1, DE
+remarks:       De-Cix Frankfurt InterXion
+remarks:       
+remarks:       If the wanted Datacenter or IX is not on the list atop, feel
+remarks:       free to contact us.
+remarks:       
+remarks:       ------------------------------------------------------------------
+remarks:       We filter announcements listed in RFC3330.
+remarks:       We filter incoming announcements of routes originating in AS44066.
+remarks:       We do not accept any route more specific than /24.
+remarks:       We preserve to filter incoming communities, metrics and alike.
+remarks:       ------------------------------------------------------------------
+remarks:       
+remarks:       Community Definition (not settable by BGP customers)
+remarks:       --------- ----------------------------------------
+remarks:       44066:1102 Routes from Level3 (AS3356)
+remarks:       44066:1104 Routes from Atrato (AS5580)
+remarks:       44066:1105 Routes from Deutsche Telekom (AS3320)
+remarks:       44066:1106 Routes from Serverius (AS50673)
+remarks:       44066:1290 Routes from De-Cix Peers
+remarks:       
+remarks:       Community Definition (settable by BGP customers)
+remarks:       --------- ----------------------------------------
+remarks:       44066:50 Set local-pref to 50
+remarks:       44066:150 Set local-pref to 150
+remarks:       44066:500 Do not announce to any peer
+remarks:       44066:501 Do not announce to any transit peer
+remarks:       44066:666 Blackhole prefix
+remarks:       44066:x0102 Prepend routes at Level3
+remarks:       44066:x0104 Prepend routes at Atrato
+remarks:       44066:x0105 Prepend routes at Deutsche Telekom
+remarks:       44066:x0106 Prepend routes at Serverius
+remarks:       
+remarks:       Where x is the number of prepends (x=1,2,3)
+remarks:       or do NOT announce (x=5)
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        MNT-FIRSTCOLO
+source:        RIPE
+
+

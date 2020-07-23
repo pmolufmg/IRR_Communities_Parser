@@ -1,0 +1,95 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS42383 - AS45055'
+
+as-block:       AS42383 - AS45055
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS43727'
+
+% Abuse contact for 'AS43727' is 'abuse@kvant-telecom.ru'
+
+aut-num:        AS43727
+as-name:        KVANT-TELECOM
+import:         from AS8631 accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-SETKT
+import:         from AS43690 accept AS-SPBROUTESERVER
+export:         to AS43690 announce AS-SETKT
+remarks:        Customers AS-SETKT
+remarks:        Communities accepted from customers:
+remarks:        43727:20000 Except ALL Upstreams
+remarks:        43727:2000X X= 2 or 4
+remarks:        43727:21000 Except MSK-IX (AS8631)
+remarks:        43727:2100X X= 2 or 4
+remarks:        43727:22000 Except DE-CIX (AS6695)
+remarks:        43727:2200X X= 2 or 4
+remarks:        43727:24000 Except Data-IX (AS50952)
+remarks:        43727:2400X X= 2 or 4
+remarks:        43727:25000 Except Giganet-IX (AS59613)
+remarks:        43727:2500X X= 2 or 4
+remarks:        There is "X" a numbers of AS- prepends (2 or 4)
+remarks:        You can visit our Looking Glass for revise of your announcements
+remarks:        lg.kvant-telecom.ru
+remarks:        43727:7777 Our Blackhole community.
+remarks:        For more information visit on
+remarks:        www.kvant-telecom.ru/blackhole
+remarks:        --------------------------------------------------------------------------------------------------------------
+org:            ORG-CJSC21-RIPE
+admin-c:        SUB8-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         SUB8-RIPE
+mnt-by:         K-T-MNT
+created:        2007-09-19T14:20:43Z
+last-modified:  2018-09-04T10:27:01Z
+source:         RIPE
+
+organisation:   ORG-CJSC21-RIPE
+org-name:       KVANT-TELEKOM Closed Joint Stock Company
+org-type:       LIR
+address:        Yeremeeva str, 22
+address:        394019
+address:        Voronezh
+address:        RUSSIAN FEDERATION
+phone:          +74732330330
+fax-no:         +74732471338
+abuse-c:        AR16757-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        K-T-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         K-T-MNT
+created:        2009-08-28T11:02:40Z
+last-modified:  2016-10-25T12:03:19Z
+source:         RIPE # Filtered
+
+person:         S U B
+address:        Nikitinskaya str.,
+address:        Voronezh, Russia
+phone:          +7 4732 531133
+nic-hdl:        SUB8-RIPE
+mnt-by:         ARTN-MNT
+created:        2009-04-05T11:11:28Z
+last-modified:  2018-05-30T07:31:16Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

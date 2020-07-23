@@ -1,0 +1,124 @@
+aut-num:        AS44735
+as-name:        SIP-ASN
+org:            ORG-Se15-RIPE
+remarks:        ------------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT - AS44735
+remarks:        ------------------------------------------------------
+remarks:        Prepending Ruleset
+remarks:        6500X:<UPSTREAM AS / IX>
+remarks:        X can be 1, 3, 5, and means how many times to prepend
+remarks:        Upstreams value possible are:
+remarks:        1299     - Telia
+remarks:        3356     - Level3 / CenturyLink
+remarks:        2914     - NTT
+remarks:        6777     - AMSIX
+remarks:        8714     - LINX
+remarks:        0        - To Everyone
+remarks:
+remarks:        Example: community 65003:1299 - Prepend to Telia 3x
+remarks:
+remarks:        Do not advertise
+remarks:        64999:<Upstream / IX>
+remarks:
+remarks:        DDOS / Null Route (Contact tech for allowance)
+remarks:        64666:0    - Has to be /32 or /128
+remarks:
+remarks:        Routes will be null routed in our internet transport routers
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:        ----------------------------------------------------
+remarks:        Upstream Transit Providers
+remarks:        ----------------------------------------------------
+import:         from AS-SIP-UPSTREAMS action pref=100; accept ANY
+export:         to AS-SIP-UPSTREAMS announce AS-SIP
+import:         from AS3356 action pref=100; accept ANY and not RS-MARTIANS
+import:         from AS174 action pref=100; accept ANY and not RS-MARTIANS
+import:         from AS2914 action pref=100; accept ANY and not RS-MARTIANS
+import:         from AS1299 action pref=100; accept ANY and not RS-MARTIANS
+export:         to AS3356 announce AS-SIP
+export:         to AS174 announce AS-SIP
+export:         to AS2914 announce AS-SIP
+export:         to AS1299 announce AS-SIP
+remarks:        ----------------------------------------------------
+remarks:        Reykjavik Internet Exchange
+remarks:        ----------------------------------------------------
+import:         from AS-SIP-RIX action pref=150; accept AS-SIP-RIX
+export:         to AS-SIP-RIX announce AS-SIP
+remarks:        ----------------------------------------------------
+remarks:        Customer Peerings
+remarks:        ----------------------------------------------------
+import:         from AS25509 action pref=200; accept AS-VORTEX
+import:         from AS39418 action pref=200; accept AS39418
+import:         from AS200868 action pref=200; accept AS200868
+import:         from AS39532 action pref=200; accept AS39532
+import:         from AS57508 action pref=200; accept AS57508
+import:         from AS62384 action pref=200; accept AS62384
+import:         from AS31441 action pref=200; accept AS31441
+import:         from AS60690 action pref=200; accept AS60690
+import:         from AS44925 action pref=200; accept AS44925
+import:         from AS44275 action pref=200; accept AS44275
+import:         from AS51969 action pref=200; accept AS51969
+import:         from AS43892 action pref=200; accept AS43892:AS-BASIS
+import:         from AS59396 action pref=200; accept AS59396
+import:         from AS35834 action pref=200; accept AS35834
+import:         from AS31410 action pref=200; accept AS31410
+import:         from AS21268 action pref=200; accept AS21268
+import:         from AS202030 action pref=200; accept AS202030
+import:         from AS62199 action pref=200; accept AS62199
+import:         from AS60259 action pref=200; accept AS60259
+import:         from AS43525 action pref=200; accept AS43525
+import:         from AS24743 action pref=200; accept AS24743
+import:         from AS202868 action pref=200; accept AS202868
+import:         from AS206849 action pref=200; accept AS206849
+import:         from AS206842 action pref=200; accept AS206842
+import:         from AS206669 action pref=200; accept AS206669
+import:         from AS202818 action pref=200; accept {67.27.64.0/21};
+import:         from AS205340 action pref=200; accept AS205340
+import:         from AS44644 action pref=200; accept AS44644
+import:         from AS202247 action pref=200; accept AS202247
+export:         to AS200868 announce ANY
+export:         to AS25509 announce ANY
+export:         to AS39418 announce ANY
+export:         to AS62199 announce ANY
+export:         to AS39532 announce ANY
+export:         to AS57508 announce ANY
+export:         to AS62384 announce ANY
+export:         to AS31441 announce ANY
+export:         to AS60690 announce ANY
+export:         to AS44925 announce ANY
+export:         to AS44275 announce ANY
+export:         to AS51969 announce AS-SIP-RIX
+export:         to AS43892 announce ANY
+export:         to AS59396 announce ANY
+export:         to AS35834 announce ANY
+export:         to AS31410 announce ANY
+export:         to AS21268 announce ANY
+export:         to AS202030 announce ANY
+export:         to AS60259 announce ANY
+export:         to AS43525 announce ANY
+export:         to AS24743 announce ANY
+export:         to AS202868 announce ANY
+export:         to AS206849 announce ANY
+export:         to AS206842 announce ANY
+export:         to AS206669 announce ANY
+export:         to AS205340 announce ANY
+export:         to AS202818 announce AS-SIP-RIX
+export:         to AS44644 announce ANY
+export:         to AS202247 announce ANY
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-SIP-IS
+created:        2010-05-03T15:55:30Z
+last-modified:  2018-06-22T11:34:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,100 @@
+aut-num:        AS19539
+as-name:        IPO-US
+descr:          IP-Only
+                US
+import:         from AS12552 accept ANY
+import:         from AS10102 accept ANY
+import:         from AS3549 accept ANY
+import:         from AS7902 accept ANY
+import:         from AS34763 accept ANY
+import:         from AS20940 accept ANY
+import:         from AS42 accept ANY
+import:         from AS3856 accept ANY
+import:         from AS10848 accept ANY
+import:         from AS13030 accept ANY
+import:         from AS29791 accept ANY
+import:         from AS11383 accept ANY
+import:         from AS14361 accept ANY
+import:         from AS15149 accept ANY
+import:         from AS22691 accept ANY
+import:         from AS34305 accept ANY
+import:         from AS13645 accept ANY
+import:         from AS8426 accept ANY
+import:         from AS22829 accept ANY
+import:         from AS22212 accept ANY
+import:         from AS30653 accept ANY
+import:         from AS13768 accept ANY
+import:         from AS23131 accept ANY
+import:         from AS16265 accept ANY
+import:         from AS15169 accept ANY
+import:         from AS19151 accept ANY
+import:         from AS6079 accept ANY
+import:         from AS6128 accept ANY
+import:         from AS21949 accept ANY
+import:         from AS8075 accept ANY
+import:         from AS29838 accept ANY
+export:         to AS12552 announce ANY
+export:         to AS10102 announce ANY
+export:         to AS3549 announce AS-IPO
+export:         to AS7902 announce AS-IPO
+export:         to AS34763 announce AS-IPO
+export:         to AS20940 announce AS-IPO
+export:         to AS42 announce AS-IPO
+export:         to AS3856 announce AS-IPO
+export:         to AS10848 announce AS-IPO
+export:         to AS13030 announce AS-IPO
+export:         to AS29791 announce AS-IPO
+export:         to AS11383 announce AS-IPO
+export:         to AS14361 announce AS-IPO
+export:         to AS15149 announce AS-IPO
+export:         to AS22691 announce AS-IPO
+export:         to AS34305 announce AS-IPO
+export:         to AS13645 announce AS-IPO
+export:         to AS8426 announce AS-IPO
+export:         to AS22829 announce AS-IPO
+export:         to AS22212 announce AS-IPO
+export:         to AS30653 announce AS-IPO
+export:         to AS13768 announce AS-IPO
+export:         to AS23131 announce AS-IPO
+export:         to AS16265 announce AS-IPO
+export:         to AS15169 announce AS-IPO
+export:         to AS19151 announce AS-IPO
+export:         to AS29838 announce AS-IPO
+export:         to AS6079 announce AS-IPO
+export:         to AS6128 announce AS-IPO
+export:         to AS21949 announce AS-IPO
+export:         to AS8075 announce AS-IPO
+admin-c:        FR514-RIPE
+tech-c:         PH4069-RIPE
+remarks:        ----------------------------------------------------
+remarks:        Only the essentials of our routing policy is
+remarks:        published in the IRR, as is the case
+remarks:        with many networks.
+remarks:        ----------------------------------------------------
+remarks:        IP-Only uses communities for customer signalling.
+remarks:       
+remarks:        Pre-defined communities:
+remarks:        19539:1 Prepend x1 at edges of AS19539 to non-IP-Only peers.
+remarks:        19539:2 Prepend x2 at edges of AS19539 to non-IP-Only peers.
+remarks:        19539:3 Prepend x3 at edges of AS19539 to non-IP-Only peers.
+remarks:        19539:11 Prepend x1 at edges of AS19539 to upstreams.
+remarks:        19539:22 Prepend x2 at edges of AS19539 to upstreams.
+remarks:        19539:33 Prepend x3 at edges of AS19539 to upstreams.
+remarks:        19539:75 Set local preference to 75 within AS19539.
+remarks:        19539:125 Set local preference to 125 within AS19539.
+remarks:        19539:200 Announce only to IP-Only AS's and IP-Only customers.
+remarks:        19539:205 Don't announce to upstreams or other IP-Only AS's.
+remarks:       
+remarks:        For signalling to our AS in Europe use 12552:X.
+remarks:        For signalling to our AS in Asia-Pacific use 10102:X.
+remarks:        X as above.
+remarks:       
+remarks:        Peering contact: peering@ip-only.net
+remarks:        Flap dampening conforms to ripe-210.
+remarks:        IP-Only filters out rfc1918 prefixes,
+remarks:        special use prefixes and {0.0.0.0/0}.
+remarks:        Urgent routing matters: +46188432727
+remarks:        -----------------------------------------------------
+mnt-by:         MNT-IPO-US
+changed:        registry@ip-only.net 20070912
+source:         ARIN

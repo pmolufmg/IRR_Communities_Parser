@@ -1,0 +1,121 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS8196
+as-name:       CLARANETDE
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS1299 accept ANY         #Upstream Telia
+import:        from AS2914 accept ANY         #Upstream Verio
+import:        from AS8426 accept ANY         #Claranet UK
+import:        from AS8975 accept ANY         #Claranet FR
+import:        from AS-CLARANETDE accept PeerAS       #Customers
+import:        from AS-CLARANETDE-PEERINGS accept PeerAS   #Peerings
+export:        to AS1299 announce AS-CLARANETDE
+export:        to AS2914 announce AS-CLARANETDE
+export:        to AS8426 announce AS-CLARANET AS-CLARANETDE-PEERINGS
+export:        to AS8975 announce AS-CLARANET AS-CLARANETDE-PEERINGS
+export:        to AS-CLARANETDE announce ANY
+export:        to AS-CLARANETDE-PEERINGS announce AS-CLARANET
+remarks:       ---------------------------------------------------------------------------------------
+remarks:       direct presence @ MAE-FFM (Frankfurt)
+remarks:       direct presence @ DE-CIX (Frankfurt)
+remarks:       
+remarks:       for peering contact peering@de.clara.net
+remarks:       or: http://noc.eu.clara.net/
+remarks:       ---------------------------------------------------------------------------------------
+remarks:       Applied Route Flap Damping Policy conformant
+remarks:       to RIPE-229
+remarks:       http://www.ripe.net/ripe/docs/routeflap-damping.html
+remarks:       ---------------------------------------------------------------------------------------
+remarks:       Inbound Communities
+remarks:       Community    Description
+remarks:       ---------------------------------------------------------------------------------------
+remarks:       8196:10000   All known routes
+remarks:       
+remarks:       8196:11000   received from Claranet Europe
+remarks:       8196:11020   received from Claranet UK
+remarks:       8196:11030   received from Claranet France
+remarks:       8196:11030   received from Claranet Spain
+remarks:       
+remarks:       8196:12000   received from Upstream
+remarks:       8196:12010   received from Upstream Telia
+remarks:       8196:12030   received from Upstream Verio
+remarks:       
+remarks:       8196:13000   received from Peeringpoint
+remarks:       8196:13010   received from Peeringpoint DE-CIX
+remarks:       8196:13020   received from Peeringpoint MAE-FFM
+remarks:       
+remarks:       8196:14000   Claranet & customers (AS-CLARANET)
+remarks:       8196:14010   Claranet Germany & customers (AS-CLARANETDE)
+remarks:       8196:14020   Claranet UK & customers (AS-CLARANETUK)
+remarks:       8196:14030   Claranet France & customers (AS-CLARANETFR)
+remarks:       8196:14030   Claranet Spain & customers (AS-CLARANETES)
+remarks:       
+remarks:       8196:15000   received from Peer
+remarks:       8196:15020   received from DTAG (AS3320)
+remarks:       8196:15030   received from DFN (AS680)
+remarks:       8196:15040   received from Metromedia Fiber Network (AS6461)
+remarks:       8196:15050   received from UUNet (AS702)
+remarks:       8196:15070   received from KPN Eurorings (AS286)
+remarks:       8196:15080   received from Tiscali (AS3257)
+remarks:       
+remarks:       ---------------------------------------------------------------------------------------
+remarks:       Outbound Communities
+remarks:       Community    Description
+remarks:       ---------------------------------------------------------------------------------------
+remarks:       8196:21000   do not announce to Claranet Europe
+remarks:       8196:21020   do not announce to Claranet UK
+remarks:       8196:21030   do not announce to Claranet France
+remarks:       
+remarks:       8196:22000   do not announce to Upstreams
+remarks:       8196:22010   do not announce to Upstream Telia
+remarks:       8196:22030   do not announce to Upstream Verio
+remarks:       
+remarks:       8196:23000   do not announce to Peeringpoints
+remarks:       8196:23010   do not announce to Peeringpoint DE-CIX
+remarks:       8196:23020   do not announce to Peeringpoint MAE-FFM
+remarks:       
+remarks:       8196:25000   do not announce to Peers
+remarks:       8196:25020   do not announce to DTAG (AS3320)
+remarks:       8196:25030   do not announce to DFN (AS680)
+remarks:       8196:25040   do not announce to Metromedia Fiber Network (AS6461)
+remarks:       8196:25050   do not announce to UUNet (AS702)
+remarks:       8196:25070   do not announce to KPN Eurorings (AS286)
+remarks:       8196:25080   do not announce to Tiscali (AS3257)
+remarks:       
+remarks:       8196:3100x   as-path prepend to Claranet Europe
+remarks:       8196:3102x   as-path prepend to Claranet UK
+remarks:       8196:3103x   as-path prepend to Claranet France
+remarks:       
+remarks:       8196:3200x   as-path prepend to Upstreams
+remarks:       8196:3201x   as-path prepend to Upstream Telia
+remarks:       8196:3203x   as-path prepend to Upstream Verio
+remarks:       
+remarks:       8196:3300x   as-path prepend to Peeringpoints
+remarks:       8196:3301x   as-path prepend to Peeringpoint DE-CIX
+remarks:       8196:3302x   as-path prepend to Peeringpoint MAE-FFM
+remarks:       
+remarks:       8196:3500x   as-path prepend to Peers
+remarks:       8196:3502x   as-path prepend to DTAG (AS3320)
+remarks:       8196:3503x   as-path prepend to DFN (AS680)
+remarks:       8196:3504x   as-path prepend to Metromedia Fiber Network (AS6461)
+remarks:       8196:3505x   as-path prepend to UUNet (AS702)
+remarks:       8196:3507x   as-path prepend to KPN Eurorings (AS286)
+remarks:       8196:3508x   as-path prepend to Tiscali (AS3257)
+remarks:       
+remarks:       (x = 1-3, number of prepends)
+remarks:       ---------------------------------------------------------------------------------------
+remarks:       removed cross-mnt:    CLARANETDE-MNT
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        CLARANETDE-MNT
+source:        RIPE
+
+

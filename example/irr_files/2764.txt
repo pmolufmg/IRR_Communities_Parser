@@ -1,0 +1,412 @@
+aut-num:    AS2764
+as-name:    ASN-CONNECT-NET
+descr:      AAPT Limited
+import:     {
+	           from AS-ANY
+	           accept ANY AND NOT { 0.0.0.0/0 };
+	           } refine {
+	           from AS-ANY
+	           action community = {2764:65408,2764:65473}; pref=0;
+	           accept community.contains(2764:20,2764:25,2764:30,2764:40,2764:41,2764:61439,2764:61441,2764:61442,2764:61443,2764:61444,2764:61445,2764:61446,2764:61447,2764:61448,2764:61449,2764:61450,2764:61451,2764:61452,2764:61453,2764:61454,2764:65200,2764:65201,2764:65202,2764:65203,2764:65204,2764:65205,2764:65206,2764:65207,2764:65208,2764:65209,2764:65210,2764:65211,2764:65212,2764:65213,2764:65280,2764:65281,2764:65282,2764:65283,2764:65284,2764:65285,2764:65286,2764:65287,2764:65288,2764:65289,2764:65290,2764:65291,2764:65292,2764:65293,2764:65294,2764:65295,2764:65296,2764:65297,2764:65298,2764:65299,2764:65300,2764:65301,2764:65302,2764:65303,2764:65304,2764:65305) OR community.contains (2764:65306,2764:65307,2764:65308,2764:65309,2764:65310,2764:65311,2764:65312,2764:65313,2764:65314,2764:65315,2764:65316,2764:65317,2764:65318,2764:65319,2764:65320,2764:65321,2764:65322,2764:65323,2764:65324,2764:65325,2764:65326,2764:65327,2764:65328,2764:65329,2764:65330,2764:65331,2764:65332,2764:65333,2764:65334,2764:65335,2764:65336,2764:65337,2764:65338,2764:65339,2764:65340,2764:65341,2764:65342,2764:65343,2764:65344,2764:65345,2764:65346,2764:65347,2764:65348,2764:65349,2764:65350,2764:65351,2764:65352,2764:65353,2764:65354,2764:65355,2764:65356,2764:65357,2764:65358,2764:65359,2764:65361,2764:65362,2764:65363,2764:65364,2764:65365,2764:65366) OR community.contains (2764:65367,2764:65368,2764:65369,2764:65370,2764:65371,2764:65391,2764:65392,2764:65393,2764:65394,2764:65395,2764:65396,2764:65397,2764:65398,2764:65399,2764:65400,2764:65401,2764:65407,2764:65408,2764:65409,2764:65410,2764:65411,2764:65412,2764:65413,2764:65414,2764:65415,2764:65416,2764:65417,2764:65418,2764:65419,2764:65420,2764:65472,2764:65473,2764:65474,2764:65475,2764:65476,2764:65477,2764:65478,2764:65479,2764:65480,2764:65481,2764:65482,2764:65483,2764:65484,2764:65485,2764:65486,2764:65487,2764:65488,2764:65489,2764:65490,2764:65491,2764:65492,2764:65496,2764:65497,2764:65498,2764:65499,276
+4:65500,2764:65501,2764:65505,2764:65508,2764:9837);
+	           from AS-ANY
+	           action community = {2764:65408,2764:65473}; pref=0;
+	           accept community.contains(2764:2,2764:6,2764:7,2764:15,no_export,no_advertise) AND AS2764:RS-PROVIDER^-;
+	           from AS-ANY
+	           action community.append(2764:65408,2764:65473); pref=25;
+	           accept community.contains(2764:3) AND NOT AS2764:RS-PROVIDER^-;
+	           from AS-ANY
+	           action community.append(2764:65408,2764:65473); pref=15;
+	           accept community.contains(2764:4) AND NOT AS2764:RS-PROVIDER^-;
+	           from AS-ANY
+	           action community.append(2764:65408,2764:65473); pref=5;
+	           accept community.contains(2764:5);
+	           from AS-ANY
+	           action community.append(2764:65408,2764:65473); pref=0;
+	           accept ANY;
+	           } refine {
+	           from AS2764:AS-BRONZE
+	           action community.append(2764:30);
+	           accept ANY;
+	           from AS-ANY EXCEPT AS2764:AS-BRONZE
+	           accept ANY;
+	           } refine {
+	           from AS2764:AS-NOTRANSIT
+	           action community.append(2764:6);
+	           accept ANY;
+	           from AS-ANY EXCEPT AS2764:AS-NOTRANSIT
+	           accept ANY;
+	           } refine {
+	           from AS2764:AS-PRIVATE
+	           action community.append(2764:7);
+	           accept AS2764:RS-PROVIDER^-;
+	           from AS2764:AS-PRIVATE
+	           accept NOT AS2764:RS-PROVIDER^-;
+	           from AS-ANY EXCEPT AS2764:AS-PRIVATE
+	           accept ANY;
+	           } refine {
+	           from AS2764:AS-CUSTOMERS
+	           accept PeerAS AND <^PeerAS+$>;
+	           from AS2764:AS-TRANSIT
+	           accept AS2764:AS-CUSTOMERS:PeerAS AND <^PeerAS+ AS2764:AS-CUSTOMERS:PeerAS~+$>;
+	           from AS2764:AS-CUSTOMERS-APF
+	           accept <^PeerAS+$>;
+	           from AS2764:AS-TRANSIT-APF
+	           accept <^PeerAS+ AS2764:AS-CUSTOMERS-APF:PeerAS~+$>;
+	           from AS7579
+	           accept AS2764:AS-CUSTOMERS:AS7579 AND <^AS7579+ AS2764:AS-TRANSIT:AS7579+ AS2764:AS-CUSTOMERS:AS7579~*$>;
+	           from AS4854
+	           accept AS2764:AS-CUSTOMERS:AS4854 AND <^AS4854+ AS2764:AS-TRANSIT:AS4854+ AS2764:AS-CUSTOMERS:AS4854~*$>;
+	           from AS23718
+	           accept AS2764:AS-CUSTOMERS:AS23718 AND <^AS23718+ AS2764:AS-TRANSIT:AS23718+ AS2764:AS-CUSTOMERS:AS23718~*$>;
+	           from AS17535
+	           accept AS2764:AS-CUSTOMERS:AS17535 AND <^AS17535+ AS2764:AS-TRANSIT:AS17535+ AS2764:AS-CUSTOMERS:AS17535~*$>;
+	           from AS18201
+	           accept AS2764:AS-CUSTOMERS:AS18201 AND <^AS18201+ AS2764:AS-TRANSIT:AS18201+ AS2764:AS-CUSTOMERS:AS18201~*$>;
+	           from AS18111
+	           accept AS2764:AS-CUSTOMERS:AS18111 AND <^AS18111+ AS2764:AS-TRANSIT:AS18111+ AS2764:AS-CUSTOMERS:AS18111~*$>;
+	           from AS18390
+	           accept AS2764:AS-CUSTOMERS:AS18390 AND <^AS18390+ AS2764:AS-TRANSIT:AS18390+ AS2764:AS-CUSTOMERS:AS18390~*$>;
+	           from AS9284
+	           accept AS2764:AS-CUSTOMERS:AS9284 AND <^AS9284+ AS2764:AS-TRANSIT:AS9284+ AS2764:AS-CUSTOMERS:AS9284~*$>;
+	           from AS1239
+	           accept <^AS1239+ AS2764:AS-TRANSIT-APF:AS1239+ AS2764:AS-CUSTOMERS-APF:AS1239~*$>;
+	           from AS4739
+	           accept AS2764:AS-CUSTOMERS:AS4739 AND <^AS4739+ AS2764:AS-TRANSIT:AS4739+ AS2764:AS-CUSTOMERS:AS4739~*$>;
+	           from AS17918
+	           accept <^AS17918+ AS2764:AS-TRANSIT-APF:AS17918+ AS2764:AS-CUSTOMERS-APF:AS17918~*$>;
+	           from AS10223
+	           accept AS2764:AS-CUSTOMERS:AS10223 AND <^AS10223+ AS2764:AS-TRANSIT:AS10223+ AS2764:AS-CUSTOMERS:AS10223~*$>;
+	           from AS9717
+	           accept AS2764:AS-CUSTOMERS:AS9717 AND <^AS9717+ AS2764:AS-TRANSIT:AS9717+ AS2764:AS-CUSTOMERS:AS9717~*$>;
+	           from AS7496
+	           accept AS2764:AS-CUSTOMERS:AS7496 AND <^AS7496+ AS2764:AS-TRANSIT:AS7496+ AS2764:AS-CUSTOMERS:AS7496~*$>;
+	           from AS9313
+	           accept AS2764:AS-CUSTOMERS:AS9313 AND <^AS9313+ AS2764:AS-TRANSIT:AS9313+ AS2764:AS-CUSTOMERS:AS9313~*$>;
+	           from AS37933
+	           accept AS2764:AS-CUSTOMERS:AS37933 AND <^AS37933+ AS2764:AS-TRANSIT:AS37933+ AS2764:AS-CUSTOMERS:AS37933~*$>;
+	           from AS9738
+	           accept AS2764:AS-CUSTOMERS:AS9738 AND <^AS9738+ AS2764:AS-TRANSIT:AS9738+ AS2764:AS-CUSTOMERS:AS9738~*$>;
+	           from AS23669
+	           accept AS2764:AS-CUSTOMERS:AS23669 AND <^AS23669+ AS2764:AS-TRANSIT:AS23669+ AS2764:AS-CUSTOMERS:AS23669~*$>;
+	           from AS7718
+	           accept AS2764:AS-CUSTOMERS:AS7718 AND <^AS7718+ AS2764:AS-TRANSIT:AS7718+ AS2764:AS-CUSTOMERS:AS7718~*$>;
+	           from AS9650
+	           accept AS2764:AS-CUSTOMERS:AS9650 AND <^AS9650+ AS2764:AS-TRANSIT:AS9650+ AS2764:AS-CUSTOMERS:AS9650~*$>;
+	           from AS9476
+	           accept AS2764:AS-CUSTOMERS:AS9476 AND <^AS9476+ AS2764:AS-TRANSIT:AS9476+ AS2764:AS-CUSTOMERS:AS9476~*$>;
+	           from AS45481
+	           accept AS2764:AS-CUSTOMERS:AS45481 AND <^AS45481+ AS2764:AS-TRANSIT:AS45481+ AS2764:AS-CUSTOMERS:AS45481~*$>;
+	           from AS45261
+	           accept AS2764:AS-CUSTOMERS:AS45261 AND <^AS45261+ AS2764:AS-TRANSIT:AS45261+ AS2764:AS-CUSTOMERS:AS45261~*$>;
+	           from AS9822
+	           accept AS2764:AS-CUSTOMERS:AS9822 AND <^AS9822+ AS2764:AS-TRANSIT:AS9822+ AS2764:AS-CUSTOMERS:AS9822~*$>;
+	           from AS17477
+	           accept AS2764:AS-CUSTOMERS:AS17477 AND <^AS17477+ AS2764:AS-TRANSIT:AS17477+ AS2764:AS-CUSTOMERS:AS17477~*$>;
+	           from AS38561
+	           accept AS2764:AS-CUSTOMERS:AS38561 AND <^AS38561+ AS2764:AS-TRANSIT:AS38561+ AS2764:AS-CUSTOMERS:AS38561~*$>;
+	           from AS7545
+	           accept AS2764:AS-CUSTOMERS:AS7545 AND <^AS7545+ AS2764:AS-TRANSIT:AS7545+ AS2764:AS-CUSTOMERS:AS7545~*$>;
+	           from AS38611
+	           accept AS2764:AS-CUSTOMERS:AS38611 AND <^AS38611+ AS2764:AS-TRANSIT:AS38611+ AS2764:AS-CUSTOMERS:AS38611~*$>;
+	           from AS24130
+	           accept AS2764:AS-CUSTOMERS:AS24130 AND <^AS24130+ AS2764:AS-TRANSIT:AS24130+ AS2764:AS-CUSTOMERS:AS24130~*$>;
+	           from AS17766
+	           accept AS2764:AS-CUSTOMERS:AS17766 AND <^AS17766+ AS2764:AS-TRANSIT:AS17766+ AS2764:AS-CUSTOMERS:AS17766~*$>;
+	           }
+import:     protocol STATIC into BGP4 {
+	           from AS2764
+	           action community.append(2764:65408,2764:65472);
+	           accept AS2764;
+	           } refine {
+	           from AS-ANY
+	           action community.append(2764:14);
+	           accept AS2764:RS-AANX;
+	           from AS-ANY
+	           accept ANY;
+	           } refine {
+	           from AS-ANY
+	           action community.append(2764:7);
+	           accept AS2764:RS-DOMESTIC;
+	           from AS-ANY
+	           accept NOT AS2764:RS-DOMESTIC;
+	           }
+import:     protocol STATIC into BGP4
+	           from AS2764
+	           action community.append(2764:65407,2764:65472);
+	           accept AS2764:RS-PROVIDER^0-30
+import:     protocol STATIC into BGP4
+	           from AS2764
+	           action community.append(2764:65407,2764:65472,no_export);
+	           accept AS2764:RS-PROVIDER^-
+import:     protocol STATIC into BGP4
+	           from AS2764
+	           action community.append(2764:65407,2764:65472,no_export);
+	           accept AS2764:RS-ORIG-LOOSEMASK^-
+export:     {
+	           to AS-ANY
+	           announce ANY AND NOT { 0.0.0.0/0^32 };
+	           } refine {
+	           to AS714
+	           announce NOT ANY;
+	           to AS1239
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS2170 210.8.15.105
+	           announce community.contains(2764:65408);
+	           to AS2170 210.8.7.165
+	           announce NOT ANY;
+	           to AS2170 210.8.238.1
+	           announce NOT ANY;
+	           to AS2823
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS4739 210.8.226.169
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411);
+	           to AS4739 203.63.126.5
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS4744
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS4802
+	           announce NOT ANY;
+	           to AS4854
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS4858
+	           announce community.contains(2764:65408);
+	           to AS7496
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS7545
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS7553
+	           announce community.contains(2764:65408);
+	           to AS7579 203.63.64.29
+	           announce community.contains(2764:65408);
+	           to AS7579 203.63.64.37
+	           announce NOT ANY;
+	           to AS7579 210.9.197.113
+	           announce community.contains(2764:65408);
+	           to AS7579 210.8.15.133
+	           announce community.contains(2764:65408);
+	           to AS7579 203.63.120.193
+	           announce community.contains(2764:65408);
+	           to AS7579 203.63.127.213
+	           announce community.contains(2764:65408);
+	           to AS7579 203.63.64.25
+	           announce NOT ANY;
+	           to AS7579 203.63.64.33
+	           announce NOT ANY;
+	           to AS7579 203.63.104.229
+	           announce NOT ANY;
+	           to AS7579 210.8.234.49
+	           announce NOT ANY;
+	           to AS7579 210.9.87.149
+	           announce NOT ANY;
+	           to AS7579 203.63.117.197
+	           announce NOT ANY;
+	           to AS9280
+	           announce community.contains(2764:65408);
+	           to AS9284
+	           announce community.contains(2764:65408);
+	           to AS9313
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS9314
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS9336
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS9342
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS9399
+	           announce community.contains(2764:65408);
+	           to AS9408
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS9476
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS9543
+	           announce NOT ANY;
+	           to AS9648
+	           announce NOT ANY;
+	           to AS9650
+	           announce NOT ANY;
+	           to AS9651
+	           announce NOT ANY;
+	           to AS9672
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS9717
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS9738 203.63.104.93
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS9738 210.9.196.65
+	           announce community.contains(2764:65408);
+	           to AS9738 203.63.180.201
+	           announce community.contains(2764:65408);
+	           to AS9738 203.63.180.201
+	           announce community.contains(2764:65408);
+	           to AS9738 203.63.65.53
+	           announce community.contains(2764:65408);
+	           to AS9822 203.63.126.133
+	           announce NOT ANY;
+	           to AS9822 210.9.196.237
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS9822 210.9.196.237
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS9913
+	           announce NOT ANY;
+	           to AS10092
+	           announce NOT ANY;
+	           to AS10143
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS10216
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS10234
+	           announce NOT ANY;
+	           to AS17477
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS17535
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS17766 203.63.121.149
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS17906
+	           announce NOT ANY;
+	           to AS17918
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS17983 210.8.233.209
+	           announce community.contains(2764:65353);
+	           to AS17987
+	           announce NOT ANY;
+	           to AS18104 210.8.226.41
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS18210
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS18291
+	           announce NOT ANY;
+	           to AS18357
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS18359
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS18390 210.8.234.85
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS18390 210.8.226.101
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS19661
+	           announce NOT ANY;
+	           to AS23667
+	           announce NOT ANY;
+	           to AS23669 210.8.15.229
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS23669 210.8.238.97
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS23669 210.9.130.130
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS23669 210.9.130.131
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS23669 210.9.130.138
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS23718
+	           announce NOT ANY;
+	           to AS23727
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS23753
+	           announce NOT ANY;
+	           to AS23760
+	           announce NOT ANY;
+	           to AS23871
+	           announce NOT ANY;
+	           to AS23874
+	           announce community.contains(2764:65408);
+	           to AS23935
+	           announce NOT ANY;
+	           to AS24104
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS24105
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS24110
+	           announce NOT ANY;
+	           to AS24130
+	           announce NOT ANY;
+	           to AS24227
+	           announce NOT ANY;
+	           to AS24317
+	           announce NOT ANY;
+	           to AS24463
+	           announce NOT ANY;
+	           to AS24513
+	           announce NOT ANY;
+	           to AS37933
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS37975
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS38084
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS38561
+	           announce NOT ANY;
+	           to AS38597
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS38657
+	           announce NOT ANY;
+	           to AS38724
+	           announce community.contains(2764:65408);
+	           to AS45211
+	           announce community.contains(2764:65408);
+	           to AS45481
+	           announce community.contains(2764:65408,2764:65409,2764:65410,2764:65411,2764:65412);
+	           to AS45768
+	           announce NOT ANY;
+	           to AS45803
+	           announce NOT ANY;
+	           to AS45827
+	           announce NOT ANY;
+	           to AS45922
+	           announce community.contains(2764:65408,2764:65409,2764:65410);
+	           to AS46014
+	           announce NOT ANY;
+	           to AS46069
+	           announce NOT ANY;
+	           to AS55443
+	           announce NOT ANY;
+	           to AS55527
+	           announce NOT ANY;
+	           to AS56113
+	           announce community.contains(2764:65408);
+	           to AS56131
+	           announce NOT ANY;
+	           to AS56163
+	           announce NOT ANY;
+	           to AS56184
+	           announce NOT ANY;
+	           to AS56318
+	           announce NOT ANY;
+	           }
+export:     {
+	           to AS7718
+	           announce community.contains(2764:65414) and { 0.0.0.0/0^32 };
+	           to AS9535
+	           announce community.contains(2764:65414) and { 0.0.0.0/0^32 };
+	           to AS9797
+	           announce community.contains(2764:65414) and { 0.0.0.0/0^32 };
+	           to AS17766 203.63.121.145
+	           announce community.contains(2764:65414) and { 0.0.0.0/0^32 };
+	           to AS18104 210.8.226.45
+	           announce community.contains(2764:65414) and { 0.0.0.0/0^32 };
+	           to AS38611
+	           announce community.contains(2764:65414) and { 0.0.0.0/0^32 };
+	           to AS38714
+	           announce community.contains(2764:65414) and { 0.0.0.0/0^32 };
+	           }
+admin-c:    ANO2-AP
+tech-c:     ANO2-AP
+remarks:    Community support definitions
+remarks:    
+remarks:    Community  Definition
+remarks:    ----------------------------------------------------------------
+remarks:    2764:2 Don't announce outside local POP
+remarks:    2764:4 Lower local preference by 15
+remarks:    2764:5 Lower local preference by 5
+remarks:    2764:6 Announce to customers and all peers (incl int'l peers), but not transit
+remarks:    2764:7 Announce to customers only
+remarks:    2764:8 Don't send to any other AS's, only within AS2764
+remarks:    2764:12 Don't announce to CDN
+remarks:    2764:13 Deny route if learnt from peer
+remarks:    2764:14 Announce to AANX
+remarks:    2764:15 Announce to customers and Australian peers (not int'l peers), but not transit
+notify:     routing@connect.com.au
+mnt-by:     MAINT-AS2764
+changed:    nobody@connect.com.au 20121113
+source:     RADB

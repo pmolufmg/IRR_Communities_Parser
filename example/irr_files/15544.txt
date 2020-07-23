@@ -1,0 +1,290 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15544'
+
+% Abuse contact for 'AS15544' is 'abuse@dataways.gr'
+
+aut-num:        AS15544
+as-name:        DATAWAYS
+descr:          PHOENIX Center, 3rd floor
+descr:          27, Georgikis Scholis Ave. GR-570 01, Thessaloniki, Greece
+descr:          Tel: +30.2310953953
+descr:          Fax: +30.2310953963
+descr:          Web: http://www.dataways.gr
+org:            ORG-DHA1-RIPE
+remarks:
+remarks:
+remarks:        ------------ AS15544 / DATAWAYS HELLAS S.A ------------
+remarks:        --------- PUBLIC IPv4/IPv6 BGP PEERING POLICY ---------
+remarks:
+remarks:        24x7 NOC Phone: +30.2310953966
+remarks:
+remarks:
+remarks:        General Info about DATAWAYS
+remarks:        ===========================
+remarks:
+remarks:        DATAWAYS is a multiprotocol internet service provider
+remarks:        founded in 2000 by a team of IT professionals with many
+remarks:        years of technical expertise and knowledge in the area
+remarks:        of information technology and telecommunications.
+remarks:        The company has offices in Athens and Thessaloniki.
+remarks:
+remarks:        We provide IPv4/IPv6 transit with at least two major
+remarks:        carriers in every location. We are also member of Greek
+remarks:        Internet Exchange (GR-IX) and maintain peering agreements
+remarks:        with other Greek major networks and members of GR-IX.
+remarks:
+remarks:        We are ISO/IEC 27001:2013 certified and maintain a
+remarks:        security policy according to Greek/EU laws. We are also
+remarks:        a RIPE member since 2000 and we operate as a LIR.
+remarks:
+remarks:        We use the RIPE database as the primary IRR database
+remarks:        in which we register most of our objects.
+remarks:
+remarks:        The as-set which contains our own AS number and all our
+remarks:        customers' AS numbers is AS-DATAWAYS. Please use this
+remarks:        as-set if you do prefix filtering, unless otherwise noted.
+remarks:
+remarks:        Our PeeringDB record is at http://as15544.peeringdb.com
+remarks:
+remarks:
+remarks:        General Peering Policy Info
+remarks:        ===========================
+remarks:
+remarks:        - We honor no-export and no-advertise well-known
+remarks:        communities.
+remarks:
+remarks:        - We do *NOT* honor the MED BGP attribute. All routes
+remarks:        received from our upstreams, customers or IX-peers on both
+remarks:        primary/backup routers get a metric of 0. Please see below
+remarks:        about our primary/backup scheme.
+remarks:
+remarks:        - bogon/martian prefixes are rejected on import.
+remarks:
+remarks:        - Prefixes containing a bogon/reserved/private AS number
+remarks:        in their as-path are rejected.
+remarks:
+remarks:        - We reject the default-route prefix (0/0, ::/0) from all
+remarks:        peers (upstreams/customers/IX-peers).
+remarks:
+remarks:        - Prefixes longer than /24 for IPv4 or /48 for IPv6
+remarks:        are rejected.
+remarks:
+remarks:        - We use BOTH prefix access lists and as-path access lists
+remarks:        for prefix filtering. Customers or IX-peers imported
+remarks:        prefixes must be registered with a valid route/route6
+remarks:        object in the RIPE database. The prefix must be originating
+remarks:        from the customer's AS or, in case the peer is an IX-peer,
+remarks:        the peer's AS and their adjacent AS if any.
+remarks:
+remarks:        All other advertisements are rejected.
+remarks:
+remarks:        Our filters are automatically updated every business-day
+remarks:        morning. Contact noc@dataways.gr for an irregular update.
+remarks:
+remarks:
+remarks:        Primary/Backup BGP Routers
+remarks:        ==========================
+remarks:        DATAWAYS prefers to connect with other autonomous systems
+remarks:        using a cluster of bgp routers with at least two BGP
+remarks:        sessions for redundancy. Each session originates from a
+remarks:        different router. The first/primary session is maintained
+remarks:        on our primary-designated router while any other secondary
+remarks:        sessions use our backup(s) router(s).
+remarks:
+remarks:        Routes received from our peers on the primary router always
+remarks:        get a higher local preference than the backup router.
+remarks:
+remarks:        Our customers can fine-tune our local-preference values
+remarks:        using the appropriate community tags. See below.
+remarks:
+remarks:        Routes advertised to our peers have their metric set to 0
+remarks:        on primary and 20 on backup. If the remote AS does not
+remarks:        honor the MED attribute we follow the appropriate
+remarks:        technique as instructed by the remote AS import policy.
+remarks:
+remarks:
+remarks:        BGP Communities used by our Customers
+remarks:        =====================================
+remarks:        Our customers can use the following communities to
+remarks:        influence our BGP routers:
+remarks:
+remarks:        as-path prepend:
+remarks:        ----------------
+remarks:        15544:5000 Prepend 5 times to all Upstreams
+remarks:        15544:5900 Prepend 5 times to all GR-IX Peers
+remarks:
+remarks:        local-preference override:
+remarks:        --------------------------
+remarks:        15544:7090 Set local-preference of customer's prefix
+remarks:        to very-low local-preference mode.
+remarks:
+remarks:        In normal operations the customer's announcements have
+remarks:        a higher local-preference value than IX-peers and
+remarks:        upstreams announcements.
+remarks:
+remarks:        The order is: [CUSTOMER] > [IX-PEERS] > [UPSTREAMS]
+remarks:
+remarks:        If you tag your advertisements with 15544:7090 then
+remarks:        the order changes to:
+remarks:
+remarks:        [IX-PEERS] > [UPSTREAMS] > [CUSTOMER]
+remarks:
+remarks:        In this mode, prefixes received from IX-peers and/or
+remarks:        from our upstreams are more preferred. A multi-homed
+remarks:        customer can utilize this mode to use us a
+remarks:        backup/last resort path.
+remarks:
+remarks:
+remarks:        Export Prefix Policy for our Customers
+remarks:        ======================================
+remarks:        We advertise the following prefix-sets to our customers:
+remarks:
+remarks:        FIRT: advertise the entire global BGP routing table
+remarks:
+remarks:        GRIX: advertise only prefixes learned from our GR-IX peers.
+remarks:
+remarks:        RIPE: advertise only the RIPE-NCC prefix. This is
+remarks:        193.0.0.0/21 for IPv4 and 2001:67c:2e8::/48 for IPv6
+remarks:        and they both originating from AS3333.
+remarks:
+remarks:        default: advertise only the default route (0/0 or ::/0)
+remarks:
+remarks:        Customer can select/change any of the above sets by
+remarks:        e-mailing noc@dataways.gr.
+remarks:
+remarks:
+remarks:        # END OF PUBLIC BGP PEERING POLICY FOR DATAWAYS
+remarks:
+remarks:        Import/export policy in RPSL now follows. This is a
+remarks:        generic description of our current peering plan. No
+remarks:        strict filtering or local preference actions are
+remarks:        described. Use only for reference.
+remarks:
+remarks:        # UPSTREAMS
+remarks:
+mp-import:      afi any from AS12713 from AS6866 accept ANY;
+mp-export:      afi any to AS12713 to AS6866 announce AS-DATAWAYS AND <^AS15544+AS-DATAWAYS*$>;
+remarks:
+remarks:        # GR-IX PEERS
+remarks:
+mp-import:      afi any from PRNG-AS15544-GRIX-PEERS accept (PeerAS OR PeerAS:AS-TO-AIX) AND <^PeerAS+PeerAS:AS-TO-AIX*$>;
+mp-export:      afi any to PRNG-AS15544-GRIX-PEERS announce AS15544:AS-TO-AIX AND <^AS15544+AS15544:AS-TO-AIX*$>;
+remarks:
+remarks:        # CYTANET Cyprus peering in GR-IX
+remarks:
+mp-import:      afi any from AS6866 accept AS-CYTANET AND <^AS6866+AS-CYTANET*$>;
+mp-export:      afi any to AS25152 announce AS15544:AS-TO-AIX AND <^AS15544+AS15544:AS-TO-AIX*$>;
+remarks:
+remarks:        # RIPE NCC K-ROOT Local Mirror in GR-IX
+remarks:
+mp-import:      afi any from AS25152 accept RS-KROOT-GRNET AND <^AS25152*$>;
+mp-export:      afi any to AS25152 announce AS15544 AND <^AS15544*$>;
+remarks:
+remarks:        # VERISIGN J-ROOT/COM/NET Local Mirror in GR-IX
+remarks:
+mp-import:      afi any from AS25152 accept AS26415 AND <^AS26415*$>;
+mp-export:      afi any to AS25152 announce AS15544 AND <^AS15544*$>;
+remarks:
+remarks:        # CUSTOMERS
+remarks:
+mp-import:      afi any from AS199382 accept AS199382 AND <^AS199382*$>;
+mp-export:      afi ipv4 to AS199382 announce { 0.0.0.0/0 };
+mp-export:      afi ipv6 to AS199382 announce { ::/0 };
+mp-import:      afi any from AS199305 accept AS199305 AND <^AS199305*$>;
+mp-export:      afi ipv4 to AS199305 announce { 193.0.0.0/21 };
+mp-export:      afi ipv6 to AS199305 announce { 2001:67c:2e8::/48 };
+mp-import:      afi any from AS203780 accept AS203780 AND <^AS203780*$>;
+mp-export:      afi ipv4 to AS203780 announce { 193.0.0.0/21 };
+mp-export:      afi ipv6 to AS203780 announce { 2001:67c:2e8::/48 };
+mp-import:      afi any from AS207062 accept AS207062 AND <^AS207062*$>;
+mp-export:      afi ipv4 to AS207062 announce { 193.0.0.0/21 };
+mp-export:      afi ipv6 to AS207062 announce { 2001:67c:2e8::/48 };
+remarks:
+admin-c:        TCP977-RIPE
+tech-c:         DWNM1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DWMR1-RIPE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-05-10T13:42:45Z
+source:         RIPE # Filtered
+
+organisation:   ORG-DHA1-RIPE
+org-name:       Dataways Hellas A.E.
+org-type:       LIR
+address:        27, Georgikis Scholis Ave.
+                P.O. Box 4314
+address:        GR-570 01
+address:        Thessaloniki
+address:        GREECE
+phone:          +30 2310 953 953
+fax-no:         +30 2310 953 963
+admin-c:        LTS977-RIPE
+admin-c:        TCP977-RIPE
+admin-c:        DP235-RIPE
+abuse-c:        DWNM1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DATAWAYS-GR-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DATAWAYS-GR-MNT
+created:        2004-04-17T11:24:49Z
+last-modified:  2017-05-10T13:45:28Z
+source:         RIPE # Filtered
+
+role:           DATAWAYS HELLAS S.A. Network Management Center
+address:        PHOENIX Center, 3rd floor
+address:        27, Georgikis Scholis Ave.
+address:        GR-570 01
+address:        Thessaloniki
+address:        Greece
+phone:          +30 2310 953 953
+fax-no:         +30 2310 953 963
+remarks:        General enquiries ......... noc@dataways.gr, support@dataways.gr
+remarks:        Abuse related enquiries ... abuse@dataways.gr
+remarks:        DNS & RIPE enquiries ...... hostmaster@dataways.gr
+admin-c:        LTS977-RIPE
+tech-c:         TCP977-RIPE
+tech-c:         DP235-RIPE
+nic-hdl:        DWNM1-RIPE
+mnt-by:         DATAWAYS-GR-MNT
+created:        2003-05-26T08:43:40Z
+last-modified:  2017-05-10T13:44:27Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@dataways.gr
+
+person:         Tasos Ch. Papadopoulos
+address:        PHOENIX Center, 3rd floor
+address:        27, Georgikis Scholis Ave.
+address:        GR-570 01
+address:        THESSALONIKI
+address:        GREECE
+phone:          +302310953953
+fax-no:         +302310953963
+nic-hdl:        TCP977-RIPE
+mnt-by:         DWMR1-RIPE-MNT
+created:        2002-06-10T12:30:04Z
+last-modified:  2017-05-10T13:44:04Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

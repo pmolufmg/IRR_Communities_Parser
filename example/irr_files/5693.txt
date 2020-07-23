@@ -1,0 +1,32 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS5693
+as-name:       INTELENET
+descr:         Latisys Irvine
+admin-c:       ICI6
+tech-c:        ICI6
+import:        from AS-ANY   accept ANY
+export:        to AS-ANY   announce AS5693
+remarks:       InteleNet tags learned routes with the following communities:
+               5693:5000 - transit provider routes
+               5693:5001 - customer routes
+               5693:5002 - peer routes
+               --------------------------------------------------------------
+remarks:       InteleNet uses the following communities with it's eBGP peers:
+               5693:7010 - Do not announce to AS5693 transits
+               5693:7020 - Do not announce to AS5693 customers
+               5693:7030 - Do not announce to AS5693 peers
+remarks:       --------------------------------------------------------------
+               InteleNet uses the following communities with its customers:
+               5693:80   - Set Local Pref 80 within AS5693
+               5693:1080 - Set Local Pref 80 to transit/peer
+               5693:120  - Set Local Pref 120 within AS5693
+               5693:1120 - Set Local Pref 80 to transit/peer
+               5693:6666 - Blackhole, routes to Null0
+notify:        hostmaster@intelenet.net
+mnt-by:        MAINT-AS5693
+changed:       hostmaster@intelenet.net 20090826  #02:38:20Z
+source:        RADB
+
+

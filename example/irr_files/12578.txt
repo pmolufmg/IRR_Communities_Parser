@@ -1,0 +1,166 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12557 - AS13223'
+
+as-block:       AS12557 - AS13223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12578'
+
+% Abuse contact for 'AS12578' is 'abuse@lattelecom.lv'
+
+aut-num:        AS12578
+org:            ORG-LA16-RIPE
+as-name:        APOLLO-AS
+descr:          Latvia
+remarks:        ----- Uplinks -----
+import:         from AS6747 action pref=100; accept ANY
+export:         to AS6747 announce AS-APOLLO
+import:         from AS3320 action pref=100; accept ANY
+export:         to AS3320 announce AS-LATTELEKOM
+import:         from AS3216 action pref=100; accept ANY
+export:         to AS3216 announce AS-LATTELEKOM
+import:         from AS3249 action pref=100; accept ANY
+export:         to AS3249 announce AS-LATTELEKOM
+import:         from AS3257 action pref=100; accept ANY
+export:         to AS3257 announce AS-LATTELEKOM
+remarks:        ----- Peers -----
+remarks:        ----- AMS-IX ------
+import:         from AS6777 action pref=80; accept ANY
+export:         to AS6777 action community .= { 6777:6777, 6777:29076, 6777:31500, 6777:8732, 6777:47764, 6777:8359, 6777:8641, 6777:8492, 6777:31133, 6777:44050, 6777:28870, 6777:42861, 6777:20764, 6777:12389, 6777:5568, 6777:49342, 6777:28917, 6777:47541,6777:20485, 6777:13238, 6777:8764, 0:57976 }; announce AS-LATTELEKOM
+descr:          ----- SPB-IX -----
+import:         from AS43690 action pref=70; accept AS-SPBROUTESERVER
+export:         to AS43690 announce AS-LATTELEKOM
+descr:          ----- MSK-IX -----
+import:         from AS8631 action pref=70; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-LATTELEKOM
+remarks:        ----- UA-IX -----
+import:         from AS15645 action pref=60; accept AS-UAIX
+export:         to AS15645 announce AS-LATTELEKOM
+remarks:        ----- DTEL-IX -----
+import:         from AS31210 action pref=60; accept NOT ANY
+export:         to AS31210 announce NOT ANY
+remarks:        ----- LIX -----
+import:         from AS42480 62.63.140.133 at 62.63.140.134 action pref=40; accept AS-LIXLV
+export:         to AS42480 62.63.140.133 at 62.63.140.134 announce AS-LATTELEKOM
+import:         from AS42480 62.63.141.21 at 62.63.141.22 action pref=40; accept AS-LIXLV
+export:         to AS42480 62.63.141.21 at 62.63.141.22 announce AS-LATTELEKOM
+remarks:        ----- Customers -----
+import:         from AS12526 action pref=10; accept AS12526
+export:         to AS12526 announce ANY
+import:         from AS12587 action pref=10; accept AS12526
+export:         to AS12587 announce ANY
+import:         from AS13244 80.232.153.11 at 80.232.153.10 action pref=10; accept AS13244
+export:         to AS13244 80.232.153.11 at 80.232.153.10 announce AS-LATVIA
+import:         from AS13244 80.232.153.11 at 80.232.153.9 action pref=10; accept AS13244
+export:         to AS13244 80.232.153.11 at 80.232.153.9 announce AS-LATVIA
+import:         from AS16279 action pref=10; accept AS16279
+export:         to AS16279 announce ANY
+import:         from AS6697 action pref=10; accept AS-BELPAK
+export:         to AS6697 announce ANY
+import:         from AS25107 action pref=10; accept AS25107
+export:         to AS25107 announce ANY
+import:         from AS25444 action pref=10; accept AS25444
+export:         to AS25444 announce AS-LATVIA
+import:         from AS28843 action pref=10; accept AS28843
+export:         to AS28843 announce AS-LATVIA
+import:         from AS29569 action pref=10; accept AS29569
+export:         to AS29569 announce ANY
+import:         from AS33867 action pref=10; accept AS33867
+export:         to AS33867 announce ANY
+import:         from AS35108 action pref=10; accept AS35108
+export:         to AS35108 announce ANY
+import:         from AS35251 action pref=10; accept AS35351
+export:         to AS35351 announce ANY
+import:         from AS12847 action pref=10; accept AS12847 AS24921
+export:         to AS12847 announce ANY
+import:         from AS43482 action pref=10; accept AS43482
+export:         to AS43482 announce ANY
+import:         from AS58269 accept AS-CLOUDHOSTING
+export:         to AS58269 announce ANY
+remarks:        Lattelekom uses the following communities
+remarks:        12578:1 Do not announce to any uplink
+remarks:        12578:180 Do not announce to LEVEL3 AS3356
+remarks:        12578:130 Do not announce to Sovintel AS3216
+remarks:        12578:131 Prepend AS12578 once to Sovintel AS3216
+remarks:        12578:132 Prepend AS12578 twice to Sovintel AS3216
+remarks:        12578:133 Prepend AS12578 thrice to Sovintel AS3216
+remarks:        12578:140 Do not announce to TATA AS6453
+remarks:        12578:141 Prepend AS12578 once to TATA AS6453
+remarks:        12578:142 Prepend AS12578 twice toTATA AS6453
+remarks:        12578:143 Prepend AS12578 thrice to TATA AS6453
+remarks:        12578:120 Do not announce to TiscaliS AS3257
+remarks:        12578:121 Prepend AS12578 once to TiscaliS AS3257
+remarks:        12578:122 Prepend AS12578 twice to TiscaliS AS3257
+remarks:        12578:123 Prepend AS12578 thrice to TiscaliS AS3257
+remarks:        ----------
+admin-c:        LTC777-RIPE
+member-of:      AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS12578
+tech-c:         LTC777-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         LTK
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-12-14T10:34:53Z
+source:         RIPE # Filtered
+
+organisation:   ORG-LA16-RIPE
+org-name:       SIA Lattelekom
+org-type:       LIR
+address:        Dzirnavu Street 105
+address:        LV-1011
+address:        Riga
+address:        LATVIA
+phone:          +37167051393
+fax-no:         +37167324736
+admin-c:        LTC777-RIPE
+admin-c:        JJ777-RIPE
+admin-c:        ZZ666-RIPE
+abuse-c:        LTC777-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        LTK
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         LTK
+created:        2004-04-17T11:38:25Z
+last-modified:  2016-06-01T10:30:12Z
+source:         RIPE # Filtered
+
+role:           LTC Hostmaster
+address:        SIA Lattelecom
+address:        Dzirnavu Street 105
+address:        LV-1011 Riga
+address:        LATVIA
+phone:          +371-80008098
+abuse-mailbox:  abuse@lattelecom.lv
+remarks:        trouble:   information:   mans.lattelecom.lv
+remarks:        trouble:   Abuse reports -- mailto:abuse@lattelecom.lv
+admin-c:        JJ777-RIPE
+tech-c:         JJ777-RIPE
+tech-c:         ZZ666-RIPE
+nic-hdl:        LTC777-RIPE
+mnt-by:         LTK
+created:        2009-10-23T11:15:53Z
+last-modified:  2013-12-19T07:48:43Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

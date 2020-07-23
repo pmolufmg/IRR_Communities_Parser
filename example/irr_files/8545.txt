@@ -1,0 +1,2729 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8545'
+
+% Abuse contact for 'AS8545' is 'noc@eu.equinix.com'
+
+aut-num:        AS8545
+as-name:        ASN-PLIX
+descr:          Equinix (Poland) Sp. z o.o.
+remarks:        AS for PLIX Interconnect (RS)
+admin-c:        PLIX
+tech-c:         PLIX
+org:            ORG-PDSz1-RIPE
+status:         ASSIGNED
+mnt-by:         MNT-PLIX
+mnt-by:         EQUINIX-MNT
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        AS for PLIX Interconnect (RS)
+remarks:        This AS facilitates the PLIX Route Servers.
+remarks:        It does not originate any prefixes on its own.
+remarks:        --------------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT IN PLIX
+remarks:        --------------------------------------------------------
+remarks:        Communities to determine entry point of route
+remarks:        8545:neighbor-as
+remarks:        Communities to control traffic
+remarks:        8545:40 - set local pref 40 within AS8545 (RS)
+remarks:        8545:50 - set local pref 50 within AS8545 (RS)
+remarks:        8545:140 - set local pref 140 within AS8545 (RS)
+remarks:        8545:150 - set local pref 150 within AS8545 (RS)
+remarks:        8545:65000 - do not announce to all
+remarks:        8545:65281 - no-export (Do not advertise to any eBGP peers)
+remarks:        8545:65282 - no-advertise (Do not advertise to any BGP peer)
+remarks:        $AS:65000 - do not announce to $AS
+remarks:        $AS:65111 - announce to $AS
+remarks:        $AS:65001 - prepend 1 hop to $AS
+remarks:        $AS:65002 - prepend 2 hops to $AS
+remarks:        $AS:65003 - prepend 3 hops to $AS
+remarks:        $AS:65009 - prepend 9 hops (crazy)
+remarks:        For more information please contact noc@plix.pl
+remarks:        or see: http://www.plix.pl
+remarks:        --------------------------------------------------------
+remarks:        *** PLUS ***
+import:         from AS8374 195.182.218.6 at 195.182.218.100 accept AS-PLUSNET
+export:         to AS8374 195.182.218.6 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PLUS ***
+import:         from AS8374 195.182.218.6 at 195.182.218.99 accept AS-PLUSNET
+export:         to AS8374 195.182.218.6 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SUPERMEDIA ***
+import:         from AS9085 195.182.218.9 at 195.182.218.100 accept AS-SUPERMEDIA
+export:         to AS9085 195.182.218.9 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SUPERMEDIA ***
+import:         from AS9085 195.182.218.9 at 195.182.218.99 accept AS-SUPERMEDIA
+export:         to AS9085 195.182.218.9 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MULTIMEDIA ***
+import:         from AS21021 195.182.218.10 at 195.182.218.100 accept AS-MULTIMEDIA
+export:         to AS21021 195.182.218.10 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MULTIMEDIA ***
+import:         from AS21021 195.182.218.10 at 195.182.218.99 accept AS-MULTIMEDIA
+export:         to AS21021 195.182.218.10 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GTS ***
+import:         from AS5588 195.182.218.11 at 195.182.218.100 accept AS-GTS-CE
+export:         to AS5588 195.182.218.11 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GTS ***
+import:         from AS5588 195.182.218.11 at 195.182.218.99 accept AS-GTS-CE
+export:         to AS5588 195.182.218.11 at 195.182.218.99 announce AS-PLIX
+remarks:        *** UPC ***
+import:         from AS6830 195.182.218.12 at 195.182.218.100 accept AS-AORTA
+export:         to AS6830 195.182.218.12 at 195.182.218.100 announce AS-PLIX
+remarks:        *** UPC ***
+import:         from AS6830 195.182.218.12 at 195.182.218.99 accept AS-AORTA
+export:         to AS6830 195.182.218.12 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TWINSNET ***
+import:         from AS16296 195.182.218.14 at 195.182.218.100 accept AS-TWINIX
+export:         to AS16296 195.182.218.14 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TWINSNET ***
+import:         from AS16296 195.182.218.14 at 195.182.218.99 accept AS-TWINIX
+export:         to AS16296 195.182.218.14 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WDC ***
+import:         from AS21244 195.182.218.15 at 195.182.218.100 accept AS-WDC
+export:         to AS21244 195.182.218.15 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WDC ***
+import:         from AS21244 195.182.218.15 at 195.182.218.99 accept AS-WDC
+export:         to AS21244 195.182.218.15 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ETOP ***
+import:         from AS20853 195.182.218.17 at 195.182.218.100 accept AS-ETOP
+export:         to AS20853 195.182.218.17 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ETOP ***
+import:         from AS20853 195.182.218.17 at 195.182.218.99 accept AS-ETOP
+export:         to AS20853 195.182.218.17 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AGORA ***
+import:         from AS8535 195.182.218.19 at 195.182.218.100 accept AS-AGORA
+export:         to AS8535 195.182.218.19 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AGORA ***
+import:         from AS8535 195.182.218.19 at 195.182.218.99 accept AS-AGORA
+export:         to AS8535 195.182.218.19 at 195.182.218.99 announce AS-PLIX
+remarks:        *** HOME ***
+import:         from AS12824 195.182.218.21 at 195.182.218.100 accept AS12824
+export:         to AS12824 195.182.218.21 at 195.182.218.100 announce AS-PLIX
+remarks:        *** HOME ***
+import:         from AS12824 195.182.218.21 at 195.182.218.99 accept AS12824
+export:         to AS12824 195.182.218.21 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TLENxRS1 ***
+import:         from AS31080 195.182.218.23 at 195.182.218.100 accept AS31080
+export:         to AS31080 195.182.218.23 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TLENxRS1 ***
+import:         from AS31080 195.182.218.23 at 195.182.218.99 accept AS31080
+export:         to AS31080 195.182.218.23 at 195.182.218.99 announce AS-PLIX
+remarks:        *** HYPERION ***
+import:         from AS24709 195.182.218.24 at 195.182.218.100 accept AS-MNI
+export:         to AS24709 195.182.218.24 at 195.182.218.100 announce AS-PLIX
+remarks:        *** HYPERION ***
+import:         from AS24709 195.182.218.24 at 195.182.218.99 accept AS-MNI
+export:         to AS24709 195.182.218.24 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TOYA ***
+import:         from AS16342 195.182.218.26 at 195.182.218.100 accept AS-TOYA
+export:         to AS16342 195.182.218.26 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TOYA ***
+import:         from AS16342 195.182.218.26 at 195.182.218.99 accept AS-TOYA
+export:         to AS16342 195.182.218.26 at 195.182.218.99 announce AS-PLIX
+remarks:        *** IDG ***
+import:         from AS25443 195.182.218.27 at 195.182.218.100 accept AS25443
+export:         to AS25443 195.182.218.27 at 195.182.218.100 announce AS-PLIX
+remarks:        *** IDG ***
+import:         from AS25443 195.182.218.27 at 195.182.218.99 accept AS25443
+export:         to AS25443 195.182.218.27 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TKPSA ***
+import:         from AS31242 195.182.218.29 at 195.182.218.100 accept AS-TKPSA-WIX
+export:         to AS31242 195.182.218.29 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TKPSA ***
+import:         from AS31242 195.182.218.29 at 195.182.218.99 accept AS-TKPSA-WIX
+export:         to AS31242 195.182.218.29 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PLIXDC ***
+import:         from AS34209 195.182.218.30 at 195.182.218.100 accept AS-PLIXDC
+export:         to AS34209 195.182.218.30 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PLIXDC ***
+import:         from AS34209 195.182.218.30 at 195.182.218.99 accept AS-PLIXDC
+export:         to AS34209 195.182.218.30 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ICP ***
+import:         from AS13110 195.182.218.31 at 195.182.218.100 accept AS-ICPnet
+export:         to AS13110 195.182.218.31 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ICP ***
+import:         from AS13110 195.182.218.31 at 195.182.218.99 accept AS-ICPnet
+export:         to AS13110 195.182.218.31 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NASK ***
+import:         from AS8308 195.182.218.33 at 195.182.218.100 accept AS-NASK:AS-Customers
+export:         to AS8308 195.182.218.33 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NASK ***
+import:         from AS8308 195.182.218.33 at 195.182.218.99 accept AS-NASK:AS-Customers
+export:         to AS8308 195.182.218.33 at 195.182.218.99 announce AS-PLIX
+remarks:        *** CZAJEN ***
+import:         from AS42763 195.182.218.34 at 195.182.218.100 accept AS42763:AS-CZAJEN-transit
+export:         to AS42763 195.182.218.34 at 195.182.218.100 announce AS-PLIX
+remarks:        *** CZAJEN ***
+import:         from AS42763 195.182.218.34 at 195.182.218.99 accept AS42763:AS-CZAJEN-transit
+export:         to AS42763 195.182.218.34 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ITSA ***
+import:         from AS15997 195.182.218.37 at 195.182.218.100 accept AS-ITSA
+export:         to AS15997 195.182.218.37 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ITSA ***
+import:         from AS15997 195.182.218.37 at 195.182.218.99 accept AS-ITSA
+export:         to AS15997 195.182.218.37 at 195.182.218.99 announce AS-PLIX
+remarks:        *** POLSKIERADIO ***
+import:         from AS25523 195.182.218.39 at 195.182.218.100 accept AS25523
+export:         to AS25523 195.182.218.39 at 195.182.218.100 announce AS-PLIX
+remarks:        *** POLSKIERADIO ***
+import:         from AS25523 195.182.218.39 at 195.182.218.99 accept AS25523
+export:         to AS25523 195.182.218.39 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SITEL ***
+import:         from AS39869 195.182.218.43 at 195.182.218.100 accept AS-SITEL-IX
+export:         to AS39869 195.182.218.43 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SITEL ***
+import:         from AS39869 195.182.218.43 at 195.182.218.99 accept AS-SITEL-IX
+export:         to AS39869 195.182.218.43 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LINXTELECOM ***
+import:         from AS3327 195.182.218.45 at 195.182.218.100 accept AS-LINXTELECOM-PLIX
+export:         to AS3327 195.182.218.45 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LINXTELECOM ***
+import:         from AS3327 195.182.218.45 at 195.182.218.99 accept AS-LINXTELECOM-PLIX
+export:         to AS3327 195.182.218.45 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TLENxRS2 ***
+import:         from AS31080 195.182.218.46 at 195.182.218.100 accept AS31080
+export:         to AS31080 195.182.218.46 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TLENxRS2 ***
+import:         from AS31080 195.182.218.46 at 195.182.218.99 accept AS31080
+export:         to AS31080 195.182.218.46 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SKYNET ***
+import:         from AS41966 195.182.218.50 at 195.182.218.100 accept AS-SKYNET1
+export:         to AS41966 195.182.218.50 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SKYNET ***
+import:         from AS41966 195.182.218.50 at 195.182.218.99 accept AS-SKYNET1
+export:         to AS41966 195.182.218.50 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PROMAX ***
+import:         from AS31423 195.182.218.250 at 195.182.218.100 accept AS31423
+export:         to AS31423 195.182.218.250 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PROMAX ***
+import:         from AS31423 195.182.218.250 at 195.182.218.99 accept AS31423
+export:         to AS31423 195.182.218.250 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LEASEWEB ***
+import:         from AS16265 195.182.218.61 at 195.182.218.100 accept AS-LEASEWEB
+export:         to AS16265 195.182.218.61 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LEASEWEB ***
+import:         from AS16265 195.182.218.61 at 195.182.218.99 accept AS-LEASEWEB
+export:         to AS16265 195.182.218.61 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ACX2 ***
+import:         from AS41398 195.182.218.229 at 195.182.218.100 accept AS12968:as-acx
+export:         to AS41398 195.182.218.229 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ACX2 ***
+import:         from AS41398 195.182.218.229 at 195.182.218.99 accept AS12968:as-acx
+export:         to AS41398 195.182.218.229 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ICM ***
+import:         from AS8664 195.182.218.68 at 195.182.218.100 accept AS-ICM-PLIX
+export:         to AS8664 195.182.218.68 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ICM ***
+import:         from AS8664 195.182.218.68 at 195.182.218.99 accept AS-ICM-PLIX
+export:         to AS8664 195.182.218.68 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TVK ***
+import:         from AS29512 195.182.218.71 at 195.182.218.100 accept AS-TVK-PL
+export:         to AS29512 195.182.218.71 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TVK ***
+import:         from AS29512 195.182.218.71 at 195.182.218.99 accept AS-TVK-PL
+export:         to AS29512 195.182.218.71 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ARTEGENCE ***
+import:         from AS43091 195.182.218.74 at 195.182.218.100 accept AS43091
+export:         to AS43091 195.182.218.74 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ARTEGENCE ***
+import:         from AS43091 195.182.218.74 at 195.182.218.99 accept AS43091
+export:         to AS43091 195.182.218.74 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ARTEGENCE2 ***
+import:         from AS43091 195.182.218.75 at 195.182.218.100 accept AS43091
+export:         to AS43091 195.182.218.75 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ARTEGENCE2 ***
+import:         from AS43091 195.182.218.75 at 195.182.218.99 accept AS43091
+export:         to AS43091 195.182.218.75 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VERISIGN ***
+import:         from AS26415 195.182.218.87 at 195.182.218.100 accept AS26415
+export:         to AS26415 195.182.218.87 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VERISIGN ***
+import:         from AS26415 195.182.218.87 at 195.182.218.99 accept AS26415
+export:         to AS26415 195.182.218.87 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PIRXNET ***
+import:         from AS35434 195.182.218.89 at 195.182.218.100 accept AS-PIRXNET
+export:         to AS35434 195.182.218.89 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PIRXNET ***
+import:         from AS35434 195.182.218.89 at 195.182.218.99 accept AS-PIRXNET
+export:         to AS35434 195.182.218.89 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TELEAUDIO ***
+import:         from AS41790 195.182.218.83 at 195.182.218.100 accept AS41790
+export:         to AS41790 195.182.218.83 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TELEAUDIO ***
+import:         from AS41790 195.182.218.83 at 195.182.218.99 accept AS41790
+export:         to AS41790 195.182.218.83 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LNET ***
+import:         from AS42177 195.182.218.97 at 195.182.218.100 accept AS42177:AS-PLIX
+export:         to AS42177 195.182.218.97 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LNET ***
+import:         from AS42177 195.182.218.97 at 195.182.218.99 accept AS42177:AS-PLIX
+export:         to AS42177 195.182.218.97 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VERISIGN ***
+import:         from AS26415 195.182.218.131 at 195.182.218.99 accept AS26415
+export:         to AS26415 195.182.218.131 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LIMES ***
+import:         from AS29649 195.182.218.133 at 195.182.218.100 accept AS-LIMES
+export:         to AS29649 195.182.218.133 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LIMES ***
+import:         from AS29649 195.182.218.133 at 195.182.218.99 accept AS-LIMES
+export:         to AS29649 195.182.218.133 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SILEMAN ***
+import:         from AS30851 195.182.218.132 at 195.182.218.100 accept AS-SGMI-PLIX
+export:         to AS30851 195.182.218.132 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SILEMAN ***
+import:         from AS30851 195.182.218.132 at 195.182.218.99 accept AS-SGMI-PLIX
+export:         to AS30851 195.182.218.132 at 195.182.218.99 announce AS-PLIX
+remarks:        *** OST ***
+import:         from AS38987 195.182.218.140 at 195.182.218.100 accept AS-OST
+export:         to AS38987 195.182.218.140 at 195.182.218.100 announce AS-PLIX
+remarks:        *** OST ***
+import:         from AS38987 195.182.218.140 at 195.182.218.99 accept AS-OST
+export:         to AS38987 195.182.218.140 at 195.182.218.99 announce AS-PLIX
+remarks:        *** CONNECTED ***
+import:         from AS49102 195.182.218.141 at 195.182.218.100 accept AS-CONNECTED
+export:         to AS49102 195.182.218.141 at 195.182.218.100 announce AS-PLIX
+remarks:        *** CONNECTED ***
+import:         from AS49102 195.182.218.141 at 195.182.218.99 accept AS-CONNECTED
+export:         to AS49102 195.182.218.141 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WIT ***
+import:         from AS20555 195.182.218.142 at 195.182.218.100 accept AS-WSISIZ
+export:         to AS20555 195.182.218.142 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WIT ***
+import:         from AS20555 195.182.218.142 at 195.182.218.99 accept AS-WSISIZ
+export:         to AS20555 195.182.218.142 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VLINE ***
+import:         from AS29553 195.182.218.143 at 195.182.218.100 accept AS29553:AS-ADV2PLIX
+export:         to AS29553 195.182.218.143 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VLINE ***
+import:         from AS29553 195.182.218.143 at 195.182.218.99 accept AS29553:AS-ADV2PLIX
+export:         to AS29553 195.182.218.143 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MICONET ***
+import:         from AS35007 195.182.218.144 at 195.182.218.100 accept AS-MICONET
+export:         to AS35007 195.182.218.144 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MICONET ***
+import:         from AS35007 195.182.218.144 at 195.182.218.99 accept AS-MICONET
+export:         to AS35007 195.182.218.144 at 195.182.218.99 announce AS-PLIX
+remarks:        *** XENIUM ***
+import:         from AS42204 195.182.218.145 at 195.182.218.100 accept AS42204
+export:         to AS42204 195.182.218.145 at 195.182.218.100 announce AS-PLIX
+remarks:        *** XENIUM ***
+import:         from AS42204 195.182.218.145 at 195.182.218.99 accept AS42204
+export:         to AS42204 195.182.218.145 at 195.182.218.99 announce AS-PLIX
+remarks:        *** OVH ***
+import:         from AS16276 195.182.218.147 at 195.182.218.100 accept AS-OVH
+export:         to AS16276 195.182.218.147 at 195.182.218.100 announce AS-PLIX
+remarks:        *** OVH ***
+import:         from AS16276 195.182.218.147 at 195.182.218.99 accept AS-OVH
+export:         to AS16276 195.182.218.147 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SKYWARE ***
+import:         from AS42673 195.182.218.152 at 195.182.218.100 accept AS-SKYWARE
+export:         to AS42673 195.182.218.152 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SKYWARE ***
+import:         from AS42673 195.182.218.152 at 195.182.218.99 accept AS-SKYWARE
+export:         to AS42673 195.182.218.152 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ERA ***
+import:         from AS12912 195.182.218.156 at 195.182.218.100 accept AS-TMPL
+export:         to AS12912 195.182.218.156 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ERA ***
+import:         from AS12912 195.182.218.156 at 195.182.218.99 accept AS-TMPL
+export:         to AS12912 195.182.218.156 at 195.182.218.99 announce AS-PLIX
+remarks:        *** KAIA ***
+import:         from AS251 195.182.218.157 at 195.182.218.100 accept AS-KAIAGLOBAL
+export:         to AS251 195.182.218.157 at 195.182.218.100 announce AS-PLIX
+remarks:        *** KAIA ***
+import:         from AS251 195.182.218.157 at 195.182.218.99 accept AS-KAIAGLOBAL
+export:         to AS251 195.182.218.157 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SZARANET ***
+import:         from AS42927 195.182.218.169 at 195.182.218.100 accept AS-SZARANET
+export:         to AS42927 195.182.218.169 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SZARANET ***
+import:         from AS42927 195.182.218.169 at 195.182.218.99 accept AS-SZARANET
+export:         to AS42927 195.182.218.169 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INIT7 ***
+import:         from AS13030 195.182.218.171 at 195.182.218.100 accept AS-INIT7
+export:         to AS13030 195.182.218.171 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INIT7 ***
+import:         from AS13030 195.182.218.171 at 195.182.218.99 accept AS-INIT7
+export:         to AS13030 195.182.218.171 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PROVECTOR ***
+import:         from AS35745 195.182.218.174 at 195.182.218.100 accept AS35745:AS-PLIX
+export:         to AS35745 195.182.218.174 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PROVECTOR ***
+import:         from AS35745 195.182.218.174 at 195.182.218.99 accept AS35745:AS-PLIX
+export:         to AS35745 195.182.218.174 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TKK ***
+import:         from AS30975 195.182.218.52 at 195.182.218.100 accept AS-TKK
+export:         to AS30975 195.182.218.52 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TKK ***
+import:         from AS30975 195.182.218.52 at 195.182.218.99 accept AS-TKK
+export:         to AS30975 195.182.218.52 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FORWEB ***
+import:         from AS33951 195.182.218.58 at 195.182.218.100 accept AS33951:AS-FORWEB
+export:         to AS33951 195.182.218.58 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FORWEB ***
+import:         from AS33951 195.182.218.58 at 195.182.218.99 accept AS33951:AS-FORWEB
+export:         to AS33951 195.182.218.58 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GEMINI ***
+import:         from AS59686 195.182.218.181 at 195.182.218.100 accept AS-GEMINI-ISTS
+export:         to AS59686 195.182.218.181 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GEMINI ***
+import:         from AS59686 195.182.218.181 at 195.182.218.99 accept AS-GEMINI-ISTS
+export:         to AS59686 195.182.218.181 at 195.182.218.99 announce AS-PLIX
+remarks:        *** IIM ***
+import:         from AS8819 195.182.218.182 at 195.182.218.100 accept AS-METROINTERNET
+export:         to AS8819 195.182.218.182 at 195.182.218.100 announce AS-PLIX
+remarks:        *** IIM ***
+import:         from AS8819 195.182.218.182 at 195.182.218.99 accept AS-METROINTERNET
+export:         to AS8819 195.182.218.182 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PETRUS-TORUN ***
+import:         from AS43679 195.182.218.183 at 195.182.218.100 accept AS-PETRUS
+export:         to AS43679 195.182.218.183 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PETRUS-TORUN ***
+import:         from AS43679 195.182.218.183 at 195.182.218.99 accept AS-PETRUS
+export:         to AS43679 195.182.218.183 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SATFILM ***
+import:         from AS35378 195.182.218.184 at 195.182.218.100 accept AS35378
+export:         to AS35378 195.182.218.184 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SATFILM ***
+import:         from AS35378 195.182.218.184 at 195.182.218.99 accept AS35378
+export:         to AS35378 195.182.218.184 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VECTRA ***
+import:         from AS29314 195.182.218.187 at 195.182.218.100 accept AS-VECTRA
+export:         to AS29314 195.182.218.187 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VECTRA ***
+import:         from AS29314 195.182.218.187 at 195.182.218.99 accept AS-VECTRA
+export:         to AS29314 195.182.218.187 at 195.182.218.99 announce AS-PLIX
+remarks:        *** EASTWEST ***
+import:         from AS43118 195.182.218.191 at 195.182.218.100 accept AS43118
+export:         to AS43118 195.182.218.191 at 195.182.218.100 announce AS-PLIX
+remarks:        *** EASTWEST ***
+import:         from AS43118 195.182.218.191 at 195.182.218.99 accept AS43118
+export:         to AS43118 195.182.218.191 at 195.182.218.99 announce AS-PLIX
+remarks:        *** UMWARSZAWA ***
+import:         from AS34891 195.182.218.193 at 195.182.218.100 accept AS34891
+export:         to AS34891 195.182.218.193 at 195.182.218.100 announce AS-PLIX
+remarks:        *** UMWARSZAWA ***
+import:         from AS34891 195.182.218.193 at 195.182.218.99 accept AS34891
+export:         to AS34891 195.182.218.193 at 195.182.218.99 announce AS-PLIX
+remarks:        *** POLSAT1 ***
+import:         from AS41476 195.182.218.198 at 195.182.218.100 accept AS-CYFROWYPOLSAT
+export:         to AS41476 195.182.218.198 at 195.182.218.100 announce AS-PLIX
+remarks:        *** POLSAT1 ***
+import:         from AS41476 195.182.218.198 at 195.182.218.99 accept AS-CYFROWYPOLSAT
+export:         to AS41476 195.182.218.198 at 195.182.218.99 announce AS-PLIX
+remarks:        *** POLSAT2 ***
+import:         from AS41476 195.182.218.199 at 195.182.218.100 accept AS-CYFROWYPOLSAT
+export:         to AS41476 195.182.218.199 at 195.182.218.100 announce AS-PLIX
+remarks:        *** POLSAT2 ***
+import:         from AS41476 195.182.218.199 at 195.182.218.99 accept AS-CYFROWYPOLSAT
+export:         to AS41476 195.182.218.199 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PETRUS-CHOJNICE ***
+import:         from AS44914 195.182.218.200 at 195.182.218.100 accept AS-PETRUS
+export:         to AS44914 195.182.218.200 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PETRUS-CHOJNICE ***
+import:         from AS44914 195.182.218.200 at 195.182.218.99 accept AS-PETRUS
+export:         to AS44914 195.182.218.200 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ENTERPOL ***
+import:         from AS41809 195.182.218.202 at 195.182.218.100 accept AS41809
+export:         to AS41809 195.182.218.202 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ENTERPOL ***
+import:         from AS41809 195.182.218.202 at 195.182.218.99 accept AS41809
+export:         to AS41809 195.182.218.202 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ESPOL ***
+import:         from AS31304 195.182.218.194 at 195.182.218.100 accept AS-ESPOL-X
+export:         to AS31304 195.182.218.194 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ESPOL ***
+import:         from AS31304 195.182.218.194 at 195.182.218.99 accept AS-ESPOL-X
+export:         to AS31304 195.182.218.194 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WP ***
+import:         from AS12827 195.182.218.204 at 195.182.218.100 accept AS12827
+export:         to AS12827 195.182.218.204 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WP ***
+import:         from AS12827 195.182.218.204 at 195.182.218.99 accept AS12827
+export:         to AS12827 195.182.218.204 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SMSNET ***
+import:         from AS44061 195.182.218.206 at 195.182.218.100 accept AS44061
+export:         to AS44061 195.182.218.206 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SMSNET ***
+import:         from AS44061 195.182.218.206 at 195.182.218.99 accept AS44061
+export:         to AS44061 195.182.218.206 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GRATKA ***
+import:         from AS34409 195.182.218.210 at 195.182.218.100 accept AS34409
+export:         to AS34409 195.182.218.210 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GRATKA ***
+import:         from AS34409 195.182.218.210 at 195.182.218.99 accept AS34409
+export:         to AS34409 195.182.218.210 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PCH ***
+import:         from AS42 195.182.218.189 at 195.182.218.100 accept AS42
+export:         to AS42 195.182.218.189 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PCH ***
+import:         from AS42 195.182.218.189 at 195.182.218.99 accept AS42
+export:         to AS42 195.182.218.189 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PCH2 ***
+import:         from AS3856 195.182.218.190 at 195.182.218.100 accept AS3856
+export:         to AS3856 195.182.218.190 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PCH2 ***
+import:         from AS3856 195.182.218.190 at 195.182.218.99 accept AS3856
+export:         to AS3856 195.182.218.190 at 195.182.218.99 announce AS-PLIX
+remarks:        *** JMDI ***
+import:         from AS41676 195.182.218.214 at 195.182.218.100 accept AS41676
+export:         to AS41676 195.182.218.214 at 195.182.218.100 announce AS-PLIX
+remarks:        *** JMDI ***
+import:         from AS41676 195.182.218.214 at 195.182.218.99 accept AS41676
+export:         to AS41676 195.182.218.214 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AERO2 ***
+import:         from AS15855 195.182.218.220 at 195.182.218.100 accept AS15855
+export:         to AS15855 195.182.218.220 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AERO2 ***
+import:         from AS15855 195.182.218.220 at 195.182.218.99 accept AS15855
+export:         to AS15855 195.182.218.220 at 195.182.218.99 announce AS-PLIX
+remarks:        *** BESKIDMEDIA ***
+import:         from AS50467 195.182.218.227 at 195.182.218.100 accept AS-I-NET-SFERA
+export:         to AS50467 195.182.218.227 at 195.182.218.100 announce AS-PLIX
+remarks:        *** BESKIDMEDIA ***
+import:         from AS50467 195.182.218.227 at 195.182.218.99 accept AS-I-NET-SFERA
+export:         to AS50467 195.182.218.227 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TELPOL ***
+import:         from AS30838 195.182.218.234 at 195.182.218.100 accept AS-TELPOL
+export:         to AS30838 195.182.218.234 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TELPOL ***
+import:         from AS30838 195.182.218.234 at 195.182.218.99 accept AS-TELPOL
+export:         to AS30838 195.182.218.234 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FROOT1 ***
+import:         from AS53459 195.182.218.222 at 195.182.218.100 accept AS53459:AS-SET
+export:         to AS53459 195.182.218.222 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FROOT1 ***
+import:         from AS53459 195.182.218.222 at 195.182.218.99 accept AS53459:AS-SET
+export:         to AS53459 195.182.218.222 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FROOT2 ***
+import:         from AS53459 195.182.218.223 at 195.182.218.99 accept AS53459:AS-SET
+export:         to AS53459 195.182.218.223 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FROOT2 ***
+import:         from AS53459 195.182.218.223 at 195.182.218.100 accept AS53459:AS-SET
+export:         to AS53459 195.182.218.223 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ZETO ***
+import:         from AS21404 195.182.218.238 at 195.182.218.100 accept AS-ZETOSA
+export:         to AS21404 195.182.218.238 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ZETO ***
+import:         from AS21404 195.182.218.238 at 195.182.218.99 accept AS-ZETOSA
+export:         to AS21404 195.182.218.238 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FUZ ***
+import:         from AS50606 195.182.218.239 at 195.182.218.100 accept AS-PL-FUZ
+export:         to AS50606 195.182.218.239 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FUZ ***
+import:         from AS50606 195.182.218.239 at 195.182.218.99 accept AS-PL-FUZ
+export:         to AS50606 195.182.218.239 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SMSNET2 ***
+import:         from AS44061 195.182.218.240 at 195.182.218.100 accept AS44061
+export:         to AS44061 195.182.218.240 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SMSNET2 ***
+import:         from AS44061 195.182.218.240 at 195.182.218.99 accept AS44061
+export:         to AS44061 195.182.218.240 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TVKCHOPIN ***
+import:         from AS35063 195.182.218.226 at 195.182.218.100 accept AS-TKChopin
+export:         to AS35063 195.182.218.226 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TVKCHOPIN ***
+import:         from AS35063 195.182.218.226 at 195.182.218.99 accept AS-TKChopin
+export:         to AS35063 195.182.218.226 at 195.182.218.99 announce AS-PLIX
+remarks:        *** DOLSAT ***
+import:         from AS41201 195.182.218.244 at 195.182.218.100 accept AS41201
+export:         to AS41201 195.182.218.244 at 195.182.218.100 announce AS-PLIX
+remarks:        *** DOLSAT ***
+import:         from AS41201 195.182.218.244 at 195.182.218.99 accept AS41201
+export:         to AS41201 195.182.218.244 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TBTELECOM ***
+import:         from AS51155 195.182.218.119 at 195.182.218.100 accept AS-51155_customers
+export:         to AS51155 195.182.218.119 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TBTELECOM ***
+import:         from AS51155 195.182.218.119 at 195.182.218.99 accept AS-51155_customers
+export:         to AS51155 195.182.218.119 at 195.182.218.99 announce AS-PLIX
+remarks:        *** HOSTEAM ***
+import:         from AS51290 195.182.218.246 at 195.182.218.100 accept AS-HOSTEAM
+export:         to AS51290 195.182.218.246 at 195.182.218.100 announce AS-PLIX
+remarks:        *** HOSTEAM ***
+import:         from AS51290 195.182.218.246 at 195.182.218.99 accept AS-HOSTEAM
+export:         to AS51290 195.182.218.246 at 195.182.218.99 announce AS-PLIX
+remarks:        *** KROSOFT ***
+import:         from AS50625 195.182.218.247 at 195.182.218.99 accept AS-50625
+export:         to AS50625 195.182.218.247 at 195.182.218.99 announce AS-PLIX
+remarks:        *** KROSOFT ***
+import:         from AS50625 195.182.218.247 at 195.182.218.100 accept AS-50625
+export:         to AS50625 195.182.218.247 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PLAY ***
+import:         from AS39603 195.182.218.248 at 195.182.218.100 accept AS-SET39603
+export:         to AS39603 195.182.218.248 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PLAY ***
+import:         from AS39603 195.182.218.248 at 195.182.218.99 accept AS-SET39603
+export:         to AS39603 195.182.218.248 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MULTINET24 ***
+import:         from AS197099 195.182.218.122 at 195.182.218.100 accept AS-MULTINET24
+export:         to AS197099 195.182.218.122 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MULTINET24 ***
+import:         from AS197099 195.182.218.122 at 195.182.218.99 accept AS-MULTINET24
+export:         to AS197099 195.182.218.122 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FIBERTECHNETWORKS ***
+import:         from AS50481 195.182.218.113 at 195.182.218.100 accept AS-FIBERTECH
+export:         to AS50481 195.182.218.113 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FIBERTECHNETWORKS ***
+import:         from AS50481 195.182.218.113 at 195.182.218.99 accept AS-FIBERTECH
+export:         to AS50481 195.182.218.113 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ATRATO ***
+import:         from AS5580 195.182.218.151 at 195.182.218.100 accept AS-ATRATO
+export:         to AS5580 195.182.218.151 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ATRATO ***
+import:         from AS5580 195.182.218.151 at 195.182.218.99 accept AS-ATRATO
+export:         to AS5580 195.182.218.151 at 195.182.218.99 announce AS-PLIX
+remarks:        *** CHOOPA ***
+import:         from AS20473 195.182.218.150 at 195.182.218.100 accept AS20473
+export:         to AS20473 195.182.218.150 at 195.182.218.100 announce AS-PLIX
+remarks:        *** CHOOPA ***
+import:         from AS20473 195.182.218.150 at 195.182.218.99 accept AS20473
+export:         to AS20473 195.182.218.150 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MGK ***
+import:         from AS49633 195.182.218.109 at 195.182.218.100 accept AS49633
+export:         to AS49633 195.182.218.109 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MGK ***
+import:         from AS49633 195.182.218.109 at 195.182.218.99 accept AS49633
+export:         to AS49633 195.182.218.109 at 195.182.218.99 announce AS-PLIX
+remarks:        *** KEI ***
+import:         from AS29522 195.182.218.108 at 195.182.218.100 accept AS29522
+export:         to AS29522 195.182.218.108 at 195.182.218.100 announce AS-PLIX
+remarks:        *** KEI ***
+import:         from AS29522 195.182.218.108 at 195.182.218.99 accept AS29522
+export:         to AS29522 195.182.218.108 at 195.182.218.99 announce AS-PLIX
+remarks:        *** KRCPD ***
+import:         from AS48047 195.182.218.106 at 195.182.218.100 accept AS48047
+export:         to AS48047 195.182.218.106 at 195.182.218.100 announce AS-PLIX
+remarks:        *** KRCPD ***
+import:         from AS48047 195.182.218.106 at 195.182.218.99 accept AS48047
+export:         to AS48047 195.182.218.106 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PCSS ***
+import:         from AS196844 195.182.218.111 at 195.182.218.100 accept AS196844:AS-AMSIX
+export:         to AS196844 195.182.218.111 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PCSS ***
+import:         from AS196844 195.182.218.111 at 195.182.218.99 accept AS196844:AS-AMSIX
+export:         to AS196844 195.182.218.111 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ACSYSTEMY ***
+import:         from AS39439 195.182.218.105 at 195.182.218.100 accept AS39439
+export:         to AS39439 195.182.218.105 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ACSYSTEMY ***
+import:         from AS39439 195.182.218.105 at 195.182.218.99 accept AS39439
+export:         to AS39439 195.182.218.105 at 195.182.218.99 announce AS-PLIX
+remarks:        *** EXATEL ***
+import:         from AS20804 195.182.218.104 at 195.182.218.100 accept AS-EXATEL-INT
+export:         to AS20804 195.182.218.104 at 195.182.218.100 announce AS-PLIX
+remarks:        *** EXATEL ***
+import:         from AS20804 195.182.218.104 at 195.182.218.99 accept AS-EXATEL-INT
+export:         to AS20804 195.182.218.104 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PLAY2 ***
+import:         from AS39603 195.182.218.249 at 195.182.218.100 accept AS-SET39603
+export:         to AS39603 195.182.218.249 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PLAY2 ***
+import:         from AS39603 195.182.218.249 at 195.182.218.99 accept AS-SET39603
+export:         to AS39603 195.182.218.249 at 195.182.218.99 announce AS-PLIX
+remarks:        *** HAWE ***
+import:         from AS42739 195.182.218.235 at 195.182.218.100 accept AS-HAWE-ALL
+export:         to AS42739 195.182.218.235 at 195.182.218.100 announce AS-PLIX
+remarks:        *** HAWE ***
+import:         from AS42739 195.182.218.235 at 195.182.218.99 accept AS-HAWE-ALL
+export:         to AS42739 195.182.218.235 at 195.182.218.99 announce AS-PLIX
+remarks:        *** BGCOM ***
+import:         from AS5526 195.182.218.124 at 195.182.218.100 accept AS-5526TR
+export:         to AS5526 195.182.218.124 at 195.182.218.100 announce AS-PLIX
+remarks:        *** BGCOM ***
+import:         from AS5526 195.182.218.124 at 195.182.218.99 accept AS-5526TR
+export:         to AS5526 195.182.218.124 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INFOMEX ***
+import:         from AS48559 195.182.218.165 at 195.182.218.100 accept AS-INFOMEX
+export:         to AS48559 195.182.218.165 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INFOMEX ***
+import:         from AS48559 195.182.218.165 at 195.182.218.99 accept AS-INFOMEX
+export:         to AS48559 195.182.218.165 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ALPHANET ***
+import:         from AS24806 195.182.218.64 at 195.182.218.100 accept AS24806
+export:         to AS24806 195.182.218.64 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ALPHANET ***
+import:         from AS24806 195.182.218.64 at 195.182.218.99 accept AS24806
+export:         to AS24806 195.182.218.64 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AGNAT ***
+import:         from AS49258 195.182.218.159 at 195.182.218.100 accept AS49258
+export:         to AS49258 195.182.218.159 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AGNAT ***
+import:         from AS49258 195.182.218.159 at 195.182.218.99 accept AS49258
+export:         to AS49258 195.182.218.159 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ALFANET ***
+import:         from AS49528 195.182.218.16 at 195.182.218.100 accept AS-PL-ALFANET
+export:         to AS49528 195.182.218.16 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ALFANET ***
+import:         from AS49528 195.182.218.16 at 195.182.218.99 accept AS-PL-ALFANET
+export:         to AS49528 195.182.218.16 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NASZAPRACA ***
+import:         from AS44454 195.182.218.40 at 195.182.218.100 accept AS-CSMNP-IX
+export:         to AS44454 195.182.218.40 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NASZAPRACA ***
+import:         from AS44454 195.182.218.40 at 195.182.218.99 accept AS-CSMNP-IX
+export:         to AS44454 195.182.218.40 at 195.182.218.99 announce AS-PLIX
+remarks:        *** IBSELEKTRONICS ***
+import:         from AS49300 195.182.218.84 at 195.182.218.100 accept AS-IBSELEKTRONICS
+export:         to AS49300 195.182.218.84 at 195.182.218.100 announce AS-PLIX
+remarks:        *** IBSELEKTRONICS ***
+import:         from AS49300 195.182.218.84 at 195.182.218.99 accept AS-IBSELEKTRONICS
+export:         to AS49300 195.182.218.84 at 195.182.218.99 announce AS-PLIX
+remarks:        *** DAG ***
+import:         from AS41796 195.182.218.86 at 195.182.218.100 accept AS41796
+export:         to AS41796 195.182.218.86 at 195.182.218.100 announce AS-PLIX
+remarks:        *** DAG ***
+import:         from AS41796 195.182.218.86 at 195.182.218.99 accept AS41796
+export:         to AS41796 195.182.218.86 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AUDATEX ***
+import:         from AS29430 195.182.218.120 at 195.182.218.100 accept AS29430
+export:         to AS29430 195.182.218.120 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AUDATEX ***
+import:         from AS29430 195.182.218.120 at 195.182.218.99 accept AS29430
+export:         to AS29430 195.182.218.120 at 195.182.218.99 announce AS-PLIX
+remarks:        *** KGP ***
+import:         from AS198704 195.182.218.55 at 195.182.218.100 accept AS-KGP-PLIX
+export:         to AS198704 195.182.218.55 at 195.182.218.100 announce AS-PLIX
+remarks:        *** KGP ***
+import:         from AS198704 195.182.218.55 at 195.182.218.99 accept AS-KGP-PLIX
+export:         to AS198704 195.182.218.55 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ATM ***
+import:         from AS24748 195.182.218.8 at 195.182.218.100 accept AS24748:AS-IX
+export:         to AS24748 195.182.218.8 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ATM ***
+import:         from AS24748 195.182.218.8 at 195.182.218.99 accept AS24748:AS-IX
+export:         to AS24748 195.182.218.8 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WADOWICENET ***
+import:         from AS57101 195.182.218.28 at 195.182.218.100 accept AS57101
+export:         to AS57101 195.182.218.28 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WADOWICENET ***
+import:         from AS57101 195.182.218.28 at 195.182.218.99 accept AS57101
+export:         to AS57101 195.182.218.28 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ELTRONIK ***
+import:         from AS43420 195.182.218.44 at 195.182.218.100 accept AS43420
+export:         to AS43420 195.182.218.44 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ELTRONIK ***
+import:         from AS43420 195.182.218.44 at 195.182.218.99 accept AS43420
+export:         to AS43420 195.182.218.44 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INTERKAR ***
+import:         from AS197979 195.182.218.66 at 195.182.218.100 accept AS197979
+export:         to AS197979 195.182.218.66 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INTERKAR ***
+import:         from AS197979 195.182.218.66 at 195.182.218.99 accept AS197979
+export:         to AS197979 195.182.218.66 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AKAMAI ***
+import:         from AS20940 195.182.218.115 at 195.182.218.100 accept AS-AKAMAI
+export:         to AS20940 195.182.218.115 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AKAMAI ***
+import:         from AS20940 195.182.218.115 at 195.182.218.99 accept AS-AKAMAI
+export:         to AS20940 195.182.218.115 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INTERACTIVE3D ***
+import:         from AS49544 195.182.218.80 at 195.182.218.100 accept AS-INTERACTIVE3D
+export:         to AS49544 195.182.218.80 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INTERACTIVE3D ***
+import:         from AS49544 195.182.218.80 at 195.182.218.99 accept AS-INTERACTIVE3D
+export:         to AS49544 195.182.218.80 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WDMCOMPUTERS ***
+import:         from AS47329 195.182.218.79 at 195.182.218.100 accept AS-WDM-NET
+export:         to AS47329 195.182.218.79 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WDMCOMPUTERS ***
+import:         from AS47329 195.182.218.79 at 195.182.218.99 accept AS-WDM-NET
+export:         to AS47329 195.182.218.79 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PSR ***
+import:         from AS56515 195.182.218.56 at 195.182.218.100 accept AS-SYSTEMX
+export:         to AS56515 195.182.218.56 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PSR ***
+import:         from AS56515 195.182.218.56 at 195.182.218.99 accept AS-SYSTEMX
+export:         to AS56515 195.182.218.56 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NETSERVIS ***
+import:         from AS198036 195.182.218.77 at 195.182.218.100 accept AS-NETSERVIS
+export:         to AS198036 195.182.218.77 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NETSERVIS ***
+import:         from AS198036 195.182.218.77 at 195.182.218.99 accept AS-NETSERVIS
+export:         to AS198036 195.182.218.77 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WINOGRADY ***
+import:         from AS197227 195.182.218.94 at 195.182.218.100 accept AS197227
+export:         to AS197227 195.182.218.94 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WINOGRADY ***
+import:         from AS197227 195.182.218.94 at 195.182.218.99 accept AS197227
+export:         to AS197227 195.182.218.94 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VIRTUALTELECOM ***
+import:         from AS56391 195.182.218.116 at 195.182.218.100 accept AS-VTELECOM-PL
+export:         to AS56391 195.182.218.116 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VIRTUALTELECOM ***
+import:         from AS56391 195.182.218.116 at 195.182.218.99 accept AS-VTELECOM-PL
+export:         to AS56391 195.182.218.116 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SERCZER ***
+import:         from AS197480 195.182.218.118 at 195.182.218.100 accept AS197480
+export:         to AS197480 195.182.218.118 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SERCZER ***
+import:         from AS197480 195.182.218.118 at 195.182.218.99 accept AS197480
+export:         to AS197480 195.182.218.118 at 195.182.218.99 announce AS-PLIX
+remarks:        *** METROPORT ***
+import:         from AS197091 195.182.218.121 at 195.182.218.100 accept AS-METROPORT
+export:         to AS197091 195.182.218.121 at 195.182.218.100 announce AS-PLIX
+remarks:        *** METROPORT ***
+import:         from AS197091 195.182.218.121 at 195.182.218.99 accept AS-METROPORT
+export:         to AS197091 195.182.218.121 at 195.182.218.99 announce AS-PLIX
+remarks:        *** BEYOND ***
+import:         from AS31229 195.182.218.129 at 195.182.218.100 accept AS-BEYOND
+export:         to AS31229 195.182.218.129 at 195.182.218.100 announce AS-PLIX
+remarks:        *** BEYOND ***
+import:         from AS31229 195.182.218.129 at 195.182.218.99 accept AS-BEYOND
+export:         to AS31229 195.182.218.129 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VOLTA ***
+import:         from AS39816 195.182.218.130 at 195.182.218.100 accept AS-VOLTA
+export:         to AS39816 195.182.218.130 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VOLTA ***
+import:         from AS39816 195.182.218.130 at 195.182.218.99 accept AS-VOLTA
+export:         to AS39816 195.182.218.130 at 195.182.218.99 announce AS-PLIX
+remarks:        *** OFPL ***
+import:         from AS29305 195.182.218.153 at 195.182.218.100 accept AS-OFPL-SE
+export:         to AS29305 195.182.218.153 at 195.182.218.100 announce AS-PLIX
+remarks:        *** OFPL ***
+import:         from AS29305 195.182.218.153 at 195.182.218.99 accept AS-OFPL-SE
+export:         to AS29305 195.182.218.153 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TELKONEKT ***
+import:         from AS51373 195.182.218.163 at 195.182.218.100 accept AS-TELKONEKT-CUSTOMERS
+export:         to AS51373 195.182.218.163 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TELKONEKT ***
+import:         from AS51373 195.182.218.163 at 195.182.218.99 accept AS-TELKONEKT-CUSTOMERS
+export:         to AS51373 195.182.218.163 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NET-PARTNER ***
+import:         from AS41266 195.182.218.53 at 195.182.218.100 accept AS-NETPARTNER
+export:         to AS41266 195.182.218.53 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NET-PARTNER ***
+import:         from AS41266 195.182.218.53 at 195.182.218.99 accept AS-NETPARTNER
+export:         to AS41266 195.182.218.53 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INAME ***
+import:         from AS57249 195.182.218.67 at 195.182.218.100 accept AS57249
+export:         to AS57249 195.182.218.67 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INAME ***
+import:         from AS57249 195.182.218.67 at 195.182.218.99 accept AS57249
+export:         to AS57249 195.182.218.67 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SIECIBLOKOWE ***
+import:         from AS51484 195.182.218.175 at 195.182.218.100 accept AS-BLOKOWE
+export:         to AS51484 195.182.218.175 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SIECIBLOKOWE ***
+import:         from AS51484 195.182.218.175 at 195.182.218.99 accept AS-BLOKOWE
+export:         to AS51484 195.182.218.175 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LCS ***
+import:         from AS197113 195.182.218.176 at 195.182.218.100 accept AS197113
+export:         to AS197113 195.182.218.176 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LCS ***
+import:         from AS197113 195.182.218.176 at 195.182.218.99 accept AS197113
+export:         to AS197113 195.182.218.176 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TELEKAB ***
+import:         from AS198232 195.182.218.178 at 195.182.218.100 accept AS198232
+export:         to AS198232 195.182.218.178 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TELEKAB ***
+import:         from AS198232 195.182.218.178 at 195.182.218.99 accept AS198232
+export:         to AS198232 195.182.218.178 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MATRONIX ***
+import:         from AS51310 195.182.218.196 at 195.182.218.100 accept AS-MATRONIX
+export:         to AS51310 195.182.218.196 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MATRONIX ***
+import:         from AS51310 195.182.218.196 at 195.182.218.99 accept AS-MATRONIX
+export:         to AS51310 195.182.218.196 at 195.182.218.99 announce AS-PLIX
+remarks:        *** HENET ***
+import:         from AS6939 195.182.218.197 at 195.182.218.100 accept AS-HURRICANE
+export:         to AS6939 195.182.218.197 at 195.182.218.100 announce AS-PLIX
+remarks:        *** HENET ***
+import:         from AS6939 195.182.218.197 at 195.182.218.99 accept AS-HURRICANE
+export:         to AS6939 195.182.218.197 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TELKAB ***
+import:         from AS197336 195.182.218.203 at 195.182.218.100 accept AS197336
+export:         to AS197336 195.182.218.203 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TELKAB ***
+import:         from AS197336 195.182.218.203 at 195.182.218.99 accept AS197336
+export:         to AS197336 195.182.218.203 at 195.182.218.99 announce AS-PLIX
+remarks:        *** UTPBYDGOSZCZ ***
+import:         from AS12618 195.182.218.209 at 195.182.218.100 accept AS12618:AS-BYDGOSZCZ-COM-PLIX
+export:         to AS12618 195.182.218.209 at 195.182.218.100 announce AS-PLIX
+remarks:        *** UTPBYDGOSZCZ ***
+import:         from AS12618 195.182.218.209 at 195.182.218.99 accept AS12618:AS-BYDGOSZCZ-COM-PLIX
+export:         to AS12618 195.182.218.209 at 195.182.218.99 announce AS-PLIX
+remarks:        *** STARTERPLIX ***
+import:         from AS34209 195.182.218.4 at 195.182.218.100 accept AS34209:AS-STARTER-PLIX
+export:         to AS34209 195.182.218.4 at 195.182.218.100 announce AS-PLIX
+remarks:        *** STARTERPLIX ***
+import:         from AS34209 195.182.218.4 at 195.182.218.99 accept AS34209:AS-STARTER-PLIX
+export:         to AS34209 195.182.218.4 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SKOMUR ***
+import:         from AS42084 195.182.218.213 at 195.182.218.100 accept AS-SKOMUR
+export:         to AS42084 195.182.218.213 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SKOMUR ***
+import:         from AS42084 195.182.218.213 at 195.182.218.99 accept AS-SKOMUR
+export:         to AS42084 195.182.218.213 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TVKSLUPSK ***
+import:         from AS198073 195.182.218.215 at 195.182.218.100 accept AS198073
+export:         to AS198073 195.182.218.215 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TVKSLUPSK ***
+import:         from AS198073 195.182.218.215 at 195.182.218.99 accept AS198073
+export:         to AS198073 195.182.218.215 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MSM2 ***
+import:         from AS30923 195.182.219.237 at 195.182.218.100 accept AS30923
+export:         to AS30923 195.182.219.237 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MSM2 ***
+import:         from AS30923 195.182.219.237 at 195.182.218.99 accept AS30923
+export:         to AS30923 195.182.219.237 at 195.182.218.99 announce AS-PLIX
+remarks:        *** YNET ***
+import:         from AS57896 195.182.218.221 at 195.182.218.100 accept AS57896
+export:         to AS57896 195.182.218.221 at 195.182.218.100 announce AS-PLIX
+remarks:        *** YNET ***
+import:         from AS57896 195.182.218.221 at 195.182.218.99 accept AS57896
+export:         to AS57896 195.182.218.221 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TELKABTCZEW ***
+import:         from AS50661 195.182.218.232 at 195.182.218.100 accept AS50661
+export:         to AS50661 195.182.218.232 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TELKABTCZEW ***
+import:         from AS50661 195.182.218.232 at 195.182.218.99 accept AS50661
+export:         to AS50661 195.182.218.232 at 195.182.218.99 announce AS-PLIX
+remarks:        *** COIG ***
+import:         from AS28978 195.182.218.241 at 195.182.218.100 accept AS-COIG
+export:         to AS28978 195.182.218.241 at 195.182.218.100 announce AS-PLIX
+remarks:        *** COIG ***
+import:         from AS28978 195.182.218.241 at 195.182.218.99 accept AS-COIG
+export:         to AS28978 195.182.218.241 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ALIORBANK ***
+import:         from AS47322 195.182.219.20 at 195.182.218.100 accept AS47322
+export:         to AS47322 195.182.219.20 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ALIORBANK ***
+import:         from AS47322 195.182.219.20 at 195.182.218.99 accept AS47322
+export:         to AS47322 195.182.219.20 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WEBDISCOUNT ***
+import:         from AS24637 195.182.219.22 at 195.182.218.100 accept AS-WEBDISCOUNT
+export:         to AS24637 195.182.219.22 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WEBDISCOUNT ***
+import:         from AS24637 195.182.219.22 at 195.182.218.99 accept AS-WEBDISCOUNT
+export:         to AS24637 195.182.219.22 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ISTS ***
+import:         from AS30793 195.182.219.23 at 195.182.218.100 accept AS-GEMINI-ISTS
+export:         to AS30793 195.182.219.23 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ISTS ***
+import:         from AS30793 195.182.219.23 at 195.182.218.99 accept AS-GEMINI-ISTS
+export:         to AS30793 195.182.219.23 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ALIORBANK2 ***
+import:         from AS47322 195.182.219.24 at 195.182.218.100 accept AS47322
+export:         to AS47322 195.182.219.24 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ALIORBANK2 ***
+import:         from AS47322 195.182.219.24 at 195.182.218.99 accept AS47322
+export:         to AS47322 195.182.219.24 at 195.182.218.99 announce AS-PLIX
+remarks:        *** BESTPARTNER ***
+import:         from AS198577 195.182.219.25 at 195.182.218.100 accept AS198577
+export:         to AS198577 195.182.219.25 at 195.182.218.100 announce AS-PLIX
+remarks:        *** BESTPARTNER ***
+import:         from AS198577 195.182.219.25 at 195.182.218.99 accept AS198577
+export:         to AS198577 195.182.219.25 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TECHSTORAGE ***
+import:         from AS198717 195.182.219.26 at 195.182.218.100 accept AS198717
+export:         to AS198717 195.182.219.26 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TECHSTORAGE ***
+import:         from AS198717 195.182.219.26 at 195.182.218.99 accept AS198717
+export:         to AS198717 195.182.219.26 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ATMSOFTWARE ***
+import:         from AS57811 195.182.218.57 at 195.182.218.100 accept AS-ATDS-SERVICES
+export:         to AS57811 195.182.218.57 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ATMSOFTWARE ***
+import:         from AS57811 195.182.218.57 at 195.182.218.99 accept AS-ATDS-SERVICES
+export:         to AS57811 195.182.218.57 at 195.182.218.99 announce AS-PLIX
+remarks:        *** OSTROWSKI ***
+import:         from AS51277 195.182.219.27 at 195.182.218.100 accept AS51277
+export:         to AS51277 195.182.219.27 at 195.182.218.100 announce AS-PLIX
+remarks:        *** OSTROWSKI ***
+import:         from AS51277 195.182.219.27 at 195.182.218.99 accept AS51277
+export:         to AS51277 195.182.219.27 at 195.182.218.99 announce AS-PLIX
+remarks:        *** COMMUNITY-DNS-LIMITED ***
+import:         from AS42909 195.182.219.28 at 195.182.218.100 accept AS42909
+export:         to AS42909 195.182.219.28 at 195.182.218.100 announce AS-PLIX
+remarks:        *** COMMUNITY-DNS-LIMITED ***
+import:         from AS42909 195.182.219.28 at 195.182.218.99 accept AS42909
+export:         to AS42909 195.182.219.28 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WEKTOR ***
+import:         from AS196928 195.182.219.30 at 195.182.218.100 accept AS196928
+export:         to AS196928 195.182.219.30 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WEKTOR ***
+import:         from AS196928 195.182.219.30 at 195.182.218.99 accept AS196928
+export:         to AS196928 195.182.219.30 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TELBIT24 ***
+import:         from AS198945 195.182.219.31 at 195.182.218.100 accept AS198945
+export:         to AS198945 195.182.219.31 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TELBIT24 ***
+import:         from AS198945 195.182.219.31 at 195.182.218.99 accept AS198945
+export:         to AS198945 195.182.219.31 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TV-EURO-SAT ***
+import:         from AS199075 195.182.219.32 at 195.182.218.100 accept AS199075
+export:         to AS199075 195.182.219.32 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TV-EURO-SAT ***
+import:         from AS199075 195.182.219.32 at 195.182.218.99 accept AS199075
+export:         to AS199075 195.182.219.32 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TVK2 ***
+import:         from AS29512 195.182.219.34 at 195.182.218.100 accept AS-TVK-PL
+export:         to AS29512 195.182.219.34 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TVK2 ***
+import:         from AS29512 195.182.219.34 at 195.182.218.99 accept AS-TVK-PL
+export:         to AS29512 195.182.219.34 at 195.182.218.99 announce AS-PLIX
+remarks:        *** M3NET ***
+import:         from AS59460 195.182.219.35 at 195.182.218.100 accept AS-M3NET
+export:         to AS59460 195.182.219.35 at 195.182.218.100 announce AS-PLIX
+remarks:        *** M3NET ***
+import:         from AS59460 195.182.219.35 at 195.182.218.99 accept AS-M3NET
+export:         to AS59460 195.182.219.35 at 195.182.218.99 announce AS-PLIX
+remarks:        *** STANSAT ***
+import:         from AS39039 195.182.219.36 at 195.182.218.100 accept AS39039
+export:         to AS39039 195.182.219.36 at 195.182.218.100 announce AS-PLIX
+remarks:        *** STANSAT ***
+import:         from AS39039 195.182.219.36 at 195.182.218.99 accept AS39039
+export:         to AS39039 195.182.219.36 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INFOPLUS ***
+import:         from AS58307 195.182.219.38 at 195.182.218.100 accept AS-RADIX
+export:         to AS58307 195.182.219.38 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INFOPLUS ***
+import:         from AS58307 195.182.219.38 at 195.182.218.99 accept AS-RADIX
+export:         to AS58307 195.182.219.38 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SM-POLNOC ***
+import:         from AS198000 195.182.219.39 at 195.182.218.100 accept AS198000
+export:         to AS198000 195.182.219.39 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SM-POLNOC ***
+import:         from AS198000 195.182.219.39 at 195.182.218.99 accept AS198000
+export:         to AS198000 195.182.219.39 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NETIA2 ***
+import:         from AS12741 195.182.218.137 at 195.182.218.100 accept AS-NETIA
+export:         to AS12741 195.182.218.137 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NETIA2 ***
+import:         from AS12741 195.182.218.137 at 195.182.218.99 accept AS-NETIA
+export:         to AS12741 195.182.218.137 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ECHO ***
+import:         from AS198230 195.182.219.41 at 195.182.218.100 accept AS-ECHO
+export:         to AS198230 195.182.219.41 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ECHO ***
+import:         from AS198230 195.182.219.41 at 195.182.218.99 accept AS-ECHO
+export:         to AS198230 195.182.219.41 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SMGRUDZIADZ ***
+import:         from AS41356 195.182.219.42 at 195.182.218.100 accept AS41356
+export:         to AS41356 195.182.219.42 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SMGRUDZIADZ ***
+import:         from AS41356 195.182.219.42 at 195.182.218.99 accept AS41356
+export:         to AS41356 195.182.219.42 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LATTELECOM ***
+import:         from AS12578 195.182.219.44 at 195.182.218.100 accept AS-LATTELEKOM
+export:         to AS12578 195.182.219.44 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LATTELECOM ***
+import:         from AS12578 195.182.219.44 at 195.182.218.99 accept AS-LATTELEKOM
+export:         to AS12578 195.182.219.44 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SMSLOWIANIN ***
+import:         from AS197201 195.182.219.45 at 195.182.218.100 accept AS197201
+export:         to AS197201 195.182.219.45 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SMSLOWIANIN ***
+import:         from AS197201 195.182.219.45 at 195.182.218.99 accept AS197201
+export:         to AS197201 195.182.219.45 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VECTRA2 ***
+import:         from AS29314 195.182.219.46 at 195.182.218.100 accept AS-VECTRA
+export:         to AS29314 195.182.219.46 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VECTRA2 ***
+import:         from AS29314 195.182.219.46 at 195.182.218.99 accept AS-VECTRA
+export:         to AS29314 195.182.219.46 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SERVCOM ***
+import:         from AS41256 195.182.219.50 at 195.182.218.100 accept AS-SERVCOM
+export:         to AS41256 195.182.219.50 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SERVCOM ***
+import:         from AS41256 195.182.219.50 at 195.182.218.99 accept AS-SERVCOM
+export:         to AS41256 195.182.219.50 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INTERNETUNION ***
+import:         from AS49242 195.182.219.51 at 195.182.218.100 accept AS-IUSA
+export:         to AS49242 195.182.219.51 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INTERNETUNION ***
+import:         from AS49242 195.182.219.51 at 195.182.218.99 accept AS-IUSA
+export:         to AS49242 195.182.219.51 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GAMP ***
+import:         from AS56511 195.182.219.56 at 195.182.218.100 accept AS-GAMP
+export:         to AS56511 195.182.219.56 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GAMP ***
+import:         from AS56511 195.182.219.56 at 195.182.218.99 accept AS-GAMP
+export:         to AS56511 195.182.219.56 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MARSOFT ***
+import:         from AS41314 195.182.218.73 at 195.182.218.100 accept AS41314
+export:         to AS41314 195.182.218.73 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MARSOFT ***
+import:         from AS41314 195.182.218.73 at 195.182.218.99 accept AS41314
+export:         to AS41314 195.182.218.73 at 195.182.218.99 announce AS-PLIX
+remarks:        *** BRK ***
+import:         from AS3169 195.182.219.57 at 195.182.218.100 accept AS-BRK
+export:         to AS3169 195.182.219.57 at 195.182.218.100 announce AS-PLIX
+remarks:        *** BRK ***
+import:         from AS3169 195.182.219.57 at 195.182.218.99 accept AS-BRK
+export:         to AS3169 195.182.219.57 at 195.182.218.99 announce AS-PLIX
+remarks:        *** CDNETWORKS ***
+import:         from AS36408 195.182.218.139 at 195.182.218.100 accept AS36408
+export:         to AS36408 195.182.218.139 at 195.182.218.100 announce AS-PLIX
+remarks:        *** CDNETWORKS ***
+import:         from AS36408 195.182.218.139 at 195.182.218.99 accept AS36408
+export:         to AS36408 195.182.218.139 at 195.182.218.99 announce AS-PLIX
+remarks:        *** BETANET ***
+import:         from AS33838 195.182.218.161 at 195.182.218.100 accept AS-BETANET
+export:         to AS33838 195.182.218.161 at 195.182.218.100 announce AS-PLIX
+remarks:        *** BETANET ***
+import:         from AS33838 195.182.218.161 at 195.182.218.99 accept AS-BETANET
+export:         to AS33838 195.182.218.161 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TOMKOW ***
+import:         from AS197405 195.182.218.158 at 195.182.218.100 accept AS197405
+export:         to AS197405 195.182.218.158 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TOMKOW ***
+import:         from AS197405 195.182.218.158 at 195.182.218.99 accept AS197405
+export:         to AS197405 195.182.218.158 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LANNET ***
+import:         from AS199503 195.182.218.162 at 195.182.218.100 accept AS199503
+export:         to AS199503 195.182.218.162 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LANNET ***
+import:         from AS199503 195.182.218.162 at 195.182.218.99 accept AS199503
+export:         to AS199503 195.182.218.162 at 195.182.218.99 announce AS-PLIX
+remarks:        *** UPC2 ***
+import:         from AS6830 195.182.218.7 at 195.182.218.100 accept AS-AORTA
+export:         to AS6830 195.182.218.7 at 195.182.218.100 announce AS-PLIX
+remarks:        *** UPC2 ***
+import:         from AS6830 195.182.218.7 at 195.182.218.99 accept AS-AORTA
+export:         to AS6830 195.182.218.7 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MPWIK-PULAWY ***
+import:         from AS198594 195.182.218.149 at 195.182.218.100 accept AS198594
+export:         to AS198594 195.182.218.149 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MPWIK-PULAWY ***
+import:         from AS198594 195.182.218.149 at 195.182.218.99 accept AS198594
+export:         to AS198594 195.182.218.149 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TVP ***
+import:         from AS25506 195.182.218.20 at 195.182.218.100 accept AS25506
+export:         to AS25506 195.182.218.20 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TVP ***
+import:         from AS25506 195.182.218.20 at 195.182.218.99 accept AS25506
+export:         to AS25506 195.182.218.20 at 195.182.218.99 announce AS-PLIX
+remarks:        *** K2INTERNET ***
+import:         from AS42503 195.182.218.59 at 195.182.218.100 accept AS42503
+export:         to AS42503 195.182.218.59 at 195.182.218.100 announce AS-PLIX
+remarks:        *** K2INTERNET ***
+import:         from AS42503 195.182.218.59 at 195.182.218.99 accept AS42503
+export:         to AS42503 195.182.218.59 at 195.182.218.99 announce AS-PLIX
+remarks:        *** K2INTERNET2 ***
+import:         from AS42503 195.182.218.91 at 195.182.218.100 accept AS42503
+export:         to AS42503 195.182.218.91 at 195.182.218.100 announce AS-PLIX
+remarks:        *** K2INTERNET2 ***
+import:         from AS42503 195.182.218.91 at 195.182.218.99 accept AS42503
+export:         to AS42503 195.182.218.91 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VOICENET ***
+import:         from AS199319 195.182.218.166 at 195.182.218.100 accept AS-VOICENET
+export:         to AS199319 195.182.218.166 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VOICENET ***
+import:         from AS199319 195.182.218.166 at 195.182.218.99 accept AS-VOICENET
+export:         to AS199319 195.182.218.166 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TPODLASIE ***
+import:         from AS39375 195.182.218.32 at 195.182.218.100 accept AS-TPODLASIE
+export:         to AS39375 195.182.218.32 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TPODLASIE ***
+import:         from AS39375 195.182.218.32 at 195.182.218.99 accept AS-TPODLASIE
+export:         to AS39375 195.182.218.32 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TVHAJNOWKA ***
+import:         from AS59607 195.182.218.207 at 195.182.218.100 accept AS59607
+export:         to AS59607 195.182.218.207 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TVHAJNOWKA ***
+import:         from AS59607 195.182.218.207 at 195.182.218.99 accept AS59607
+export:         to AS59607 195.182.218.207 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SMWIELUN ***
+import:         from AS12985 195.182.218.224 at 195.182.218.100 accept AS12985
+export:         to AS12985 195.182.218.224 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SMWIELUN ***
+import:         from AS12985 195.182.218.224 at 195.182.218.99 accept AS12985
+export:         to AS12985 195.182.218.224 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SGGS ***
+import:         from AS24482 195.182.219.202 at 195.182.218.100 accept AS-SGGS
+export:         to AS24482 195.182.219.202 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SGGS ***
+import:         from AS24482 195.182.219.202 at 195.182.218.99 accept AS-SGGS
+export:         to AS24482 195.182.219.202 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ENTERNET ***
+import:         from AS198493 195.182.218.36 at 195.182.218.100 accept AS198493
+export:         to AS198493 195.182.218.36 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ENTERNET ***
+import:         from AS198493 195.182.218.36 at 195.182.218.99 accept AS198493
+export:         to AS198493 195.182.218.36 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SPETELEK ***
+import:         from AS197503 195.182.218.93 at 195.182.218.100 accept AS197503
+export:         to AS197503 195.182.218.93 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SPETELEK ***
+import:         from AS197503 195.182.218.93 at 195.182.218.99 accept AS197503
+export:         to AS197503 195.182.218.93 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LEGIONOWO ***
+import:         from AS198271 195.182.218.63 at 195.182.218.100 accept AS198271
+export:         to AS198271 195.182.218.63 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LEGIONOWO ***
+import:         from AS198271 195.182.218.63 at 195.182.218.99 accept AS198271
+export:         to AS198271 195.182.218.63 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SERVCOM2 ***
+import:         from AS41256 195.182.219.48 at 195.182.218.100 accept AS-SERVCOM
+export:         to AS41256 195.182.219.48 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SERVCOM2 ***
+import:         from AS41256 195.182.219.48 at 195.182.218.99 accept AS-SERVCOM
+export:         to AS41256 195.182.219.48 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AMAZON ***
+import:         from AS16509 195.182.218.5 at 195.182.218.100 accept AS-AMAZON
+export:         to AS16509 195.182.218.5 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AMAZON ***
+import:         from AS16509 195.182.218.5 at 195.182.218.99 accept AS-AMAZON
+export:         to AS16509 195.182.218.5 at 195.182.218.99 announce AS-PLIX
+remarks:        *** HBO ***
+import:         from AS62421 195.182.218.70 at 195.182.218.100 accept AS62421
+export:         to AS62421 195.182.218.70 at 195.182.218.100 announce AS-PLIX
+remarks:        *** HBO ***
+import:         from AS62421 195.182.218.70 at 195.182.218.99 accept AS62421
+export:         to AS62421 195.182.218.70 at 195.182.218.99 announce AS-PLIX
+remarks:        *** CITYNET ***
+import:         from AS197572 195.182.219.37 at 195.182.218.100 accept AS-CTN
+export:         to AS197572 195.182.219.37 at 195.182.218.100 announce AS-PLIX
+remarks:        *** CITYNET ***
+import:         from AS197572 195.182.219.37 at 195.182.218.99 accept AS-CTN
+export:         to AS197572 195.182.219.37 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MAXIA ***
+import:         from AS60018 195.182.219.29 at 195.182.218.100 accept AS-MAXIA
+export:         to AS60018 195.182.219.29 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MAXIA ***
+import:         from AS60018 195.182.219.29 at 195.182.218.99 accept AS-MAXIA
+export:         to AS60018 195.182.219.29 at 195.182.218.99 announce AS-PLIX
+remarks:        *** UMWARSZAWA2 ***
+import:         from AS34891 195.182.219.43 at 195.182.218.100 accept AS34891
+export:         to AS34891 195.182.219.43 at 195.182.218.100 announce AS-PLIX
+remarks:        *** UMWARSZAWA2 ***
+import:         from AS34891 195.182.219.43 at 195.182.218.99 accept AS34891
+export:         to AS34891 195.182.219.43 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ASSAT ***
+import:         from AS50312 195.182.219.19 at 195.182.218.100 accept AS50312
+export:         to AS50312 195.182.219.19 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ASSAT ***
+import:         from AS50312 195.182.219.19 at 195.182.218.99 accept AS50312
+export:         to AS50312 195.182.219.19 at 195.182.218.99 announce AS-PLIX
+remarks:        *** EDGECAST ***
+import:         from AS15133 195.182.218.237 at 195.182.218.100 accept AS-EDGECAST
+export:         to AS15133 195.182.218.237 at 195.182.218.100 announce AS-PLIX
+remarks:        *** EDGECAST ***
+import:         from AS15133 195.182.218.237 at 195.182.218.99 accept AS-EDGECAST
+export:         to AS15133 195.182.218.237 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VECTRA3 ***
+import:         from AS29314 195.182.219.10 at 195.182.218.100 accept AS-VECTRA
+export:         to AS29314 195.182.219.10 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VECTRA3 ***
+import:         from AS29314 195.182.219.10 at 195.182.218.99 accept AS-VECTRA
+export:         to AS29314 195.182.219.10 at 195.182.218.99 announce AS-PLIX
+remarks:        *** STTB ***
+import:         from AS42039 195.182.219.58 at 195.182.218.100 accept AS42039
+export:         to AS42039 195.182.219.58 at 195.182.218.100 announce AS-PLIX
+remarks:        *** STTB ***
+import:         from AS42039 195.182.219.58 at 195.182.218.99 accept AS42039
+export:         to AS42039 195.182.219.58 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TTK ***
+import:         from AS20485 195.182.218.41 at 195.182.218.100 accept AS-TTK
+export:         to AS20485 195.182.218.41 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TTK ***
+import:         from AS20485 195.182.218.41 at 195.182.218.99 accept AS-TTK
+export:         to AS20485 195.182.218.41 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ATUS ***
+import:         from AS197790 195.182.219.17 at 195.182.218.100 accept AS-ACTUS
+export:         to AS197790 195.182.219.17 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ATUS ***
+import:         from AS197790 195.182.219.17 at 195.182.218.99 accept AS-ACTUS
+export:         to AS197790 195.182.219.17 at 195.182.218.99 announce AS-PLIX
+remarks:        *** BIZNESHOST ***
+import:         from AS198414 195.182.219.16 at 195.182.218.100 accept AS198414
+export:         to AS198414 195.182.219.16 at 195.182.218.100 announce AS-PLIX
+remarks:        *** BIZNESHOST ***
+import:         from AS198414 195.182.219.16 at 195.182.218.99 accept AS198414
+export:         to AS198414 195.182.219.16 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ZGL ***
+import:         from AS199981 195.182.219.15 at 195.182.218.100 accept AS199981
+export:         to AS199981 195.182.219.15 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ZGL ***
+import:         from AS199981 195.182.219.15 at 195.182.218.99 accept AS199981
+export:         to AS199981 195.182.219.15 at 195.182.218.99 announce AS-PLIX
+remarks:        *** DPD ***
+import:         from AS48428 195.182.219.13 at 195.182.218.100 accept AS48428
+export:         to AS48428 195.182.219.13 at 195.182.218.100 announce AS-PLIX
+remarks:        *** DPD ***
+import:         from AS48428 195.182.219.13 at 195.182.218.99 accept AS48428
+export:         to AS48428 195.182.219.13 at 195.182.218.99 announce AS-PLIX
+remarks:        *** POLITECHNIA-SWIETOKRZYSKA ***
+import:         from AS30778 195.182.219.12 at 195.182.218.100 accept AS-KIELMAN
+export:         to AS30778 195.182.219.12 at 195.182.218.100 announce AS-PLIX
+remarks:        *** POLITECHNIA-SWIETOKRZYSKA ***
+import:         from AS30778 195.182.219.12 at 195.182.218.99 accept AS-KIELMAN
+export:         to AS30778 195.182.219.12 at 195.182.218.99 announce AS-PLIX
+remarks:        *** IPTRANSIT ***
+import:         from AS46786 195.182.218.92 at 195.182.218.100 accept AS-IPTRANSIT
+export:         to AS46786 195.182.218.92 at 195.182.218.100 announce AS-PLIX
+remarks:        *** IPTRANSIT ***
+import:         from AS46786 195.182.218.92 at 195.182.218.99 accept AS-IPTRANSIT
+export:         to AS46786 195.182.218.92 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AZIMUTHIT ***
+import:         from AS198067 195.182.219.11 at 195.182.218.100 accept AS198067
+export:         to AS198067 195.182.219.11 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AZIMUTHIT ***
+import:         from AS198067 195.182.219.11 at 195.182.218.99 accept AS198067
+export:         to AS198067 195.182.219.11 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FEROMEDIA ***
+import:         from AS197667 195.182.219.9 at 195.182.218.100 accept AS-FEROMEDIA
+export:         to AS197667 195.182.219.9 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FEROMEDIA ***
+import:         from AS197667 195.182.219.9 at 195.182.218.99 accept AS-FEROMEDIA
+export:         to AS197667 195.182.219.9 at 195.182.218.99 announce AS-PLIX
+remarks:        *** RAXEL ***
+import:         from AS197839 195.182.219.8 at 195.182.218.100 accept AS197839
+export:         to AS197839 195.182.219.8 at 195.182.218.100 announce AS-PLIX
+remarks:        *** RAXEL ***
+import:         from AS197839 195.182.219.8 at 195.182.218.99 accept AS197839
+export:         to AS197839 195.182.219.8 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FACEBOOK ***
+import:         from AS32934 195.182.218.88 at 195.182.218.100 accept AS-FACEBOOK
+export:         to AS32934 195.182.218.88 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FACEBOOK ***
+import:         from AS32934 195.182.218.88 at 195.182.218.99 accept AS-FACEBOOK
+export:         to AS32934 195.182.218.88 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INTELIGO ***
+import:         from AS21344 195.182.219.6 at 195.182.218.100 accept AS20778:AS-PKOBP
+export:         to AS21344 195.182.219.6 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INTELIGO ***
+import:         from AS21344 195.182.219.6 at 195.182.218.99 accept AS20778:AS-PKOBP
+export:         to AS21344 195.182.219.6 at 195.182.218.99 announce AS-PLIX
+remarks:        *** CLOUDFLARE ***
+import:         from AS13335 195.182.218.134 at 195.182.218.100 accept AS13335
+export:         to AS13335 195.182.218.134 at 195.182.218.100 announce AS-PLIX
+remarks:        *** CLOUDFLARE ***
+import:         from AS13335 195.182.218.134 at 195.182.218.99 accept AS13335
+export:         to AS13335 195.182.218.134 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MSITELEKOM ***
+import:         from AS199715 195.182.219.55 at 195.182.218.100 accept AS-MSITELEKOM
+export:         to AS199715 195.182.219.55 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MSITELEKOM ***
+import:         from AS199715 195.182.219.55 at 195.182.218.99 accept AS-MSITELEKOM
+export:         to AS199715 195.182.219.55 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INOTEL-VOIP ***
+import:         from AS58321 195.182.219.60 at 195.182.218.100 accept AS-OXYLION
+export:         to AS58321 195.182.219.60 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INOTEL-VOIP ***
+import:         from AS58321 195.182.219.60 at 195.182.218.99 accept AS-OXYLION
+export:         to AS58321 195.182.219.60 at 195.182.218.99 announce AS-PLIX
+remarks:        *** UARNET ***
+import:         from AS3255 195.182.218.177 at 195.182.218.100 accept AS-UARNET
+export:         to AS3255 195.182.218.177 at 195.182.218.100 announce AS-PLIX
+remarks:        *** UARNET ***
+import:         from AS3255 195.182.218.177 at 195.182.218.99 accept AS-UARNET
+export:         to AS3255 195.182.218.177 at 195.182.218.99 announce AS-PLIX
+remarks:        *** COMPLEXCOMPUTERS ***
+import:         from AS196890 195.182.219.61 at 195.182.218.100 accept AS-COMPLEX
+export:         to AS196890 195.182.219.61 at 195.182.218.100 announce AS-PLIX
+remarks:        *** COMPLEXCOMPUTERS ***
+import:         from AS196890 195.182.219.61 at 195.182.218.99 accept AS-COMPLEX
+export:         to AS196890 195.182.219.61 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TIMPLUS ***
+import:         from AS50349 195.182.219.63 at 195.182.218.100 accept AS50349
+export:         to AS50349 195.182.219.63 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TIMPLUS ***
+import:         from AS50349 195.182.219.63 at 195.182.218.99 accept AS50349
+export:         to AS50349 195.182.219.63 at 195.182.218.99 announce AS-PLIX
+remarks:        *** EUROTRANSTELECOM ***
+import:         from AS35320 195.182.218.76 at 195.182.218.100 accept AS-ETT
+export:         to AS35320 195.182.218.76 at 195.182.218.100 announce AS-PLIX
+remarks:        *** EUROTRANSTELECOM ***
+import:         from AS35320 195.182.218.76 at 195.182.218.99 accept AS-ETT
+export:         to AS35320 195.182.218.76 at 195.182.218.99 announce AS-PLIX
+remarks:        *** OPENDNS ***
+import:         from AS36692 195.182.219.66 at 195.182.218.100 accept AS36692
+export:         to AS36692 195.182.219.66 at 195.182.218.100 announce AS-PLIX
+remarks:        *** OPENDNS ***
+import:         from AS36692 195.182.219.66 at 195.182.218.99 accept AS36692
+export:         to AS36692 195.182.219.66 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MICROSOFT ***
+import:         from AS8075 195.182.218.146 at 195.182.218.100 accept AS-MICROSOFT
+export:         to AS8075 195.182.218.146 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MICROSOFT ***
+import:         from AS8075 195.182.218.146 at 195.182.218.99 accept AS-MICROSOFT
+export:         to AS8075 195.182.218.146 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MICROSOFT2 ***
+import:         from AS8075 195.182.218.167 at 195.182.218.100 accept AS-MICROSOFT
+export:         to AS8075 195.182.218.167 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MICROSOFT2 ***
+import:         from AS8075 195.182.218.167 at 195.182.218.99 accept AS-MICROSOFT
+export:         to AS8075 195.182.218.167 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NETIA2 ***
+import:         from AS12741 195.182.218.117 at 195.182.218.100 accept AS-NETIA
+export:         to AS12741 195.182.218.117 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NETIA2 ***
+import:         from AS12741 195.182.218.117 at 195.182.218.99 accept AS-NETIA
+export:         to AS12741 195.182.218.117 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GLOBITEL ***
+import:         from AS48424 195.182.218.170 at 195.182.218.100 accept AS-GLOBITEL
+export:         to AS48424 195.182.218.170 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GLOBITEL ***
+import:         from AS48424 195.182.218.170 at 195.182.218.99 accept AS-GLOBITEL
+export:         to AS48424 195.182.218.170 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SOFTEX ***
+import:         from AS199113 195.182.219.40 at 195.182.218.100 accept AS-SOFTEX
+export:         to AS199113 195.182.219.40 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SOFTEX ***
+import:         from AS199113 195.182.219.40 at 195.182.218.99 accept AS-SOFTEX
+export:         to AS199113 195.182.219.40 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TRANSMITEL ***
+import:         from AS60563 195.182.219.54 at 195.182.218.100 accept AS-TRANSMITEL
+export:         to AS60563 195.182.219.54 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TRANSMITEL ***
+import:         from AS60563 195.182.219.54 at 195.182.218.99 accept AS-TRANSMITEL
+export:         to AS60563 195.182.219.54 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PLAY3 ***
+import:         from AS39603 195.182.218.49 at 195.182.218.100 accept AS-SET39603
+export:         to AS39603 195.182.218.49 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PLAY3 ***
+import:         from AS39603 195.182.218.49 at 195.182.218.99 accept AS-SET39603
+export:         to AS39603 195.182.218.49 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MARTON ***
+import:         from AS41952 195.182.219.67 at 195.182.218.100 accept AS41952
+export:         to AS41952 195.182.219.67 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MARTON ***
+import:         from AS41952 195.182.219.67 at 195.182.218.99 accept AS41952
+export:         to AS41952 195.182.219.67 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GOOGLE1 ***
+import:         from AS15169 195.182.219.69 at 195.182.218.100 accept AS-GOOGLE
+export:         to AS15169 195.182.219.69 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GOOGLE1 ***
+import:         from AS15169 195.182.219.69 at 195.182.218.99 accept AS-GOOGLE
+export:         to AS15169 195.182.219.69 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LUKMAN ***
+import:         from AS47223 195.182.219.73 at 195.182.218.100 accept AS-LUKMAN
+export:         to AS47223 195.182.219.73 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LUKMAN ***
+import:         from AS47223 195.182.219.73 at 195.182.218.99 accept AS-LUKMAN
+export:         to AS47223 195.182.219.73 at 195.182.218.99 announce AS-PLIX
+remarks:        *** COI ***
+import:         from AS199953 195.182.219.74 at 195.182.218.100 accept AS199953
+export:         to AS199953 195.182.219.74 at 195.182.218.100 announce AS-PLIX
+remarks:        *** COI ***
+import:         from AS199953 195.182.219.74 at 195.182.218.99 accept AS199953
+export:         to AS199953 195.182.219.74 at 195.182.218.99 announce AS-PLIX
+remarks:        *** COI2 ***
+import:         from AS199953 195.182.219.75 at 195.182.218.100 accept AS199953
+export:         to AS199953 195.182.219.75 at 195.182.218.100 announce AS-PLIX
+remarks:        *** COI2 ***
+import:         from AS199953 195.182.219.75 at 195.182.218.99 accept AS199953
+export:         to AS199953 195.182.219.75 at 195.182.218.99 announce AS-PLIX
+remarks:        *** RIOT ***
+import:         from AS6507 195.182.219.76 at 195.182.218.100 accept AS6507
+export:         to AS6507 195.182.219.76 at 195.182.218.100 announce AS-PLIX
+remarks:        *** RIOT ***
+import:         from AS6507 195.182.219.76 at 195.182.218.99 accept AS6507
+export:         to AS6507 195.182.219.76 at 195.182.218.99 announce AS-PLIX
+remarks:        *** BIZNESHOST ***
+import:         from AS198414 195.182.219.77 at 195.182.218.100 accept AS198414
+export:         to AS198414 195.182.219.77 at 195.182.218.100 announce AS-PLIX
+remarks:        *** BIZNESHOST ***
+import:         from AS198414 195.182.219.77 at 195.182.218.99 accept AS198414
+export:         to AS198414 195.182.219.77 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TVP1 ***
+import:         from AS62421 195.182.219.71 at 195.182.218.100 accept AS62421
+export:         to AS62421 195.182.219.71 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TVP1 ***
+import:         from AS62421 195.182.219.71 at 195.182.218.99 accept AS62421
+export:         to AS62421 195.182.219.71 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TVP2 ***
+import:         from AS62421 195.182.219.72 at 195.182.218.100 accept AS62421
+export:         to AS62421 195.182.219.72 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TVP2 ***
+import:         from AS62421 195.182.219.72 at 195.182.218.99 accept AS62421
+export:         to AS62421 195.182.219.72 at 195.182.218.99 announce AS-PLIX
+remarks:        *** KPSI ***
+import:         from AS42968 195.182.219.78 at 195.182.218.100 accept AS42968
+export:         to AS42968 195.182.219.78 at 195.182.218.100 announce AS-PLIX
+remarks:        *** KPSI ***
+import:         from AS42968 195.182.219.78 at 195.182.218.99 accept AS42968
+export:         to AS42968 195.182.219.78 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VIRTUAOPERATOR ***
+import:         from AS50606 195.182.219.82 at 195.182.218.100 accept AS-PL-FUZ
+export:         to AS50606 195.182.219.82 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VIRTUAOPERATOR ***
+import:         from AS50606 195.182.219.82 at 195.182.218.99 accept AS-PL-FUZ
+export:         to AS50606 195.182.219.82 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NETTELEKOM ***
+import:         from AS196826 195.182.219.79 at 195.182.218.100 accept AS-NETTELEKOM
+export:         to AS196826 195.182.219.79 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NETTELEKOM ***
+import:         from AS196826 195.182.219.79 at 195.182.218.99 accept AS-NETTELEKOM
+export:         to AS196826 195.182.219.79 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SILESNET ***
+import:         from AS43709 195.182.219.83 at 195.182.218.100 accept AS-SILESNET
+export:         to AS43709 195.182.219.83 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SILESNET ***
+import:         from AS43709 195.182.219.83 at 195.182.218.99 accept AS-SILESNET
+export:         to AS43709 195.182.219.83 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TKKOLOBRZEG ***
+import:         from AS201328 195.182.219.87 at 195.182.218.100 accept AS201328
+export:         to AS201328 195.182.219.87 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TKKOLOBRZEG ***
+import:         from AS201328 195.182.219.87 at 195.182.218.99 accept AS201328
+export:         to AS201328 195.182.219.87 at 195.182.218.99 announce AS-PLIX
+remarks:        *** EPIX ***
+import:         from AS201054 195.182.219.88 at 195.182.218.100 accept AS-EP-POLMIX
+export:         to AS201054 195.182.219.88 at 195.182.218.100 announce AS-PLIX
+remarks:        *** EPIX ***
+import:         from AS201054 195.182.219.88 at 195.182.218.99 accept AS-EP-POLMIX
+export:         to AS201054 195.182.219.88 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INCAPSULA ***
+import:         from AS19551 195.182.219.89 at 195.182.218.100 accept AS-INCAPSULA
+export:         to AS19551 195.182.219.89 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INCAPSULA ***
+import:         from AS19551 195.182.219.89 at 195.182.218.99 accept AS-INCAPSULA
+export:         to AS19551 195.182.219.89 at 195.182.218.99 announce AS-PLIX
+remarks:        *** POLOK ***
+import:         from AS204373 195.182.219.90 at 195.182.218.100 accept AS204373
+export:         to AS204373 195.182.219.90 at 195.182.218.100 announce AS-PLIX
+remarks:        *** POLOK ***
+import:         from AS204373 195.182.219.90 at 195.182.218.99 accept AS204373
+export:         to AS204373 195.182.219.90 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WESTKOMP ***
+import:         from AS201323 195.182.219.91 at 195.182.218.100 accept AS-WESTKOMP
+export:         to AS201323 195.182.219.91 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WESTKOMP ***
+import:         from AS201323 195.182.219.91 at 195.182.218.99 accept AS-WESTKOMP
+export:         to AS201323 195.182.219.91 at 195.182.218.99 announce AS-PLIX
+remarks:        *** CITIMEDIA ***
+import:         from AS199831 195.182.219.92 at 195.182.218.100 accept AS-CITIMEDIA
+export:         to AS199831 195.182.219.92 at 195.182.218.100 announce AS-PLIX
+remarks:        *** CITIMEDIA ***
+import:         from AS199831 195.182.219.92 at 195.182.218.99 accept AS-CITIMEDIA
+export:         to AS199831 195.182.219.92 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INM ***
+import:         from AS57718 195.182.219.93 at 195.182.218.100 accept AS-INM
+export:         to AS57718 195.182.219.93 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INM ***
+import:         from AS57718 195.182.219.93 at 195.182.218.99 accept AS-INM
+export:         to AS57718 195.182.219.93 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INGRAM ***
+import:         from AS197400 195.182.219.95 at 195.182.218.100 accept AS197400
+export:         to AS197400 195.182.219.95 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INGRAM ***
+import:         from AS197400 195.182.219.95 at 195.182.218.99 accept AS197400
+export:         to AS197400 195.182.219.95 at 195.182.218.99 announce AS-PLIX
+remarks:        *** DIEBOLD ***
+import:         from AS198979 195.182.219.96 at 195.182.218.100 accept AS198979
+export:         to AS198979 195.182.219.96 at 195.182.218.100 announce AS-PLIX
+remarks:        *** DIEBOLD ***
+import:         from AS198979 195.182.219.96 at 195.182.218.99 accept AS198979
+export:         to AS198979 195.182.219.96 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NETASSIST ***
+import:         from AS29632 195.182.219.97 at 195.182.218.100 accept AS-NETASSIST
+export:         to AS29632 195.182.219.97 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NETASSIST ***
+import:         from AS29632 195.182.219.97 at 195.182.218.99 accept AS-NETASSIST
+export:         to AS29632 195.182.219.97 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AKAMAI2 ***
+import:         from AS20940 195.182.219.98 at 195.182.218.100 accept AS-AKAMAI
+export:         to AS20940 195.182.219.98 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AKAMAI2 ***
+import:         from AS20940 195.182.219.98 at 195.182.218.99 accept AS-AKAMAI
+export:         to AS20940 195.182.219.98 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NETSHARKS ***
+import:         from AS29135 195.182.219.33 at 195.182.218.100 accept AS29135
+export:         to AS29135 195.182.219.33 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NETSHARKS ***
+import:         from AS29135 195.182.219.33 at 195.182.218.99 accept AS29135
+export:         to AS29135 195.182.219.33 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INTELLY ***
+import:         from AS200539 195.182.219.80 at 195.182.218.100 accept AS200539
+export:         to AS200539 195.182.219.80 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INTELLY ***
+import:         from AS200539 195.182.219.80 at 195.182.218.99 accept AS200539
+export:         to AS200539 195.182.219.80 at 195.182.218.99 announce AS-PLIX
+remarks:        *** HOME ***
+import:         from AS12824 195.182.218.18 at 195.182.218.100 accept AS12824
+export:         to AS12824 195.182.218.18 at 195.182.218.100 announce AS-PLIX
+remarks:        *** HOME ***
+import:         from AS12824 195.182.218.18 at 195.182.218.99 accept AS12824
+export:         to AS12824 195.182.218.18 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FACEBOOK2 ***
+import:         from AS32934 195.182.218.216 at 195.182.218.100 accept AS-FACEBOOK
+export:         to AS32934 195.182.218.216 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FACEBOOK2 ***
+import:         from AS32934 195.182.218.216 at 195.182.218.99 accept AS-FACEBOOK
+export:         to AS32934 195.182.218.216 at 195.182.218.99 announce AS-PLIX
+remarks:        *** IHAR ***
+import:         from AS56904 195.182.218.136 at 195.182.218.100 accept AS56904
+export:         to AS56904 195.182.218.136 at 195.182.218.100 announce AS-PLIX
+remarks:        *** IHAR ***
+import:         from AS56904 195.182.218.136 at 195.182.218.99 accept AS56904
+export:         to AS56904 195.182.218.136 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LAN-NET ***
+import:         from AS56949 195.182.218.148 at 195.182.218.100 accept AS-LAN_NET
+export:         to AS56949 195.182.218.148 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LAN-NET ***
+import:         from AS56949 195.182.218.148 at 195.182.218.99 accept AS-LAN_NET
+export:         to AS56949 195.182.218.148 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WNET ***
+import:         from AS15772 195.182.218.172 at 195.182.218.100 accept AS-WNET
+export:         to AS15772 195.182.218.172 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WNET ***
+import:         from AS15772 195.182.218.172 at 195.182.218.99 accept AS-WNET
+export:         to AS15772 195.182.218.172 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GLENBROOK ***
+import:         from AS5582 195.182.219.18 at 195.182.218.100 accept AS5582:AS-CUSTOMERS
+export:         to AS5582 195.182.219.18 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GLENBROOK ***
+import:         from AS5582 195.182.219.18 at 195.182.218.99 accept AS5582:AS-CUSTOMERS
+export:         to AS5582 195.182.219.18 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MIKROLAN ***
+import:         from AS49035 195.182.219.59 at 195.182.218.100 accept AS49035
+export:         to AS49035 195.182.219.59 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MIKROLAN ***
+import:         from AS49035 195.182.219.59 at 195.182.218.99 accept AS49035
+export:         to AS49035 195.182.219.59 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ARNET ***
+import:         from AS199338 195.182.218.135 at 195.182.218.100 accept AS199338
+export:         to AS199338 195.182.218.135 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ARNET ***
+import:         from AS199338 195.182.218.135 at 195.182.218.99 accept AS199338
+export:         to AS199338 195.182.218.135 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ALFAKOMPUTERSYSTEM ***
+import:         from AS199390 195.182.218.164 at 195.182.218.100 accept AS199390
+export:         to AS199390 195.182.218.164 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ALFAKOMPUTERSYSTEM ***
+import:         from AS199390 195.182.218.164 at 195.182.218.99 accept AS199390
+export:         to AS199390 195.182.218.164 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GREENLAN ***
+import:         from AS202004 195.182.219.49 at 195.182.218.100 accept AS202004
+export:         to AS202004 195.182.219.49 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GREENLAN ***
+import:         from AS202004 195.182.219.49 at 195.182.218.99 accept AS202004
+export:         to AS202004 195.182.219.49 at 195.182.218.99 announce AS-PLIX
+remarks:        *** MTK ***
+import:         from AS57701 195.182.219.53 at 195.182.218.100 accept AS57701
+export:         to AS57701 195.182.219.53 at 195.182.218.100 announce AS-PLIX
+remarks:        *** MTK ***
+import:         from AS57701 195.182.219.53 at 195.182.218.99 accept AS57701
+export:         to AS57701 195.182.219.53 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SKOK ***
+import:         from AS49420 195.182.219.68 at 195.182.218.100 accept AS-APLITT
+export:         to AS49420 195.182.219.68 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SKOK ***
+import:         from AS49420 195.182.219.68 at 195.182.218.99 accept AS-APLITT
+export:         to AS49420 195.182.219.68 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LIMELIGHT ***
+import:         from AS22822 195.182.218.35 at 195.182.218.100 accept AS-LLNW
+export:         to AS22822 195.182.218.35 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LIMELIGHT ***
+import:         from AS22822 195.182.218.35 at 195.182.218.99 accept AS-LLNW
+export:         to AS22822 195.182.218.35 at 195.182.218.99 announce AS-PLIX
+remarks:        *** IXREACH ***
+import:         from AS43531 195.182.218.72 at 195.182.218.100 accept AS-IXREACH
+export:         to AS43531 195.182.218.72 at 195.182.218.100 announce AS-PLIX
+remarks:        *** IXREACH ***
+import:         from AS43531 195.182.218.72 at 195.182.218.99 accept AS-IXREACH
+export:         to AS43531 195.182.218.72 at 195.182.218.99 announce AS-PLIX
+remarks:        *** IT4POLSKA ***
+import:         from AS203821 195.182.219.47 at 195.182.218.100 accept AS-IT4POLSKA
+export:         to AS203821 195.182.219.47 at 195.182.218.100 announce AS-PLIX
+remarks:        *** IT4POLSKA ***
+import:         from AS203821 195.182.219.47 at 195.182.218.99 accept AS-IT4POLSKA
+export:         to AS203821 195.182.219.47 at 195.182.218.99 announce AS-PLIX
+remarks:        *** LANDTECH ***
+import:         from AS51060 195.182.218.78 at 195.182.218.100 accept AS-LANDTECH
+export:         to AS51060 195.182.218.78 at 195.182.218.100 announce AS-PLIX
+remarks:        *** LANDTECH ***
+import:         from AS51060 195.182.218.78 at 195.182.218.99 accept AS-LANDTECH
+export:         to AS51060 195.182.218.78 at 195.182.218.99 announce AS-PLIX
+remarks:        *** INTB ***
+import:         from AS197837 195.182.219.81 at 195.182.218.100 accept AS197837
+export:         to AS197837 195.182.219.81 at 195.182.218.100 announce AS-PLIX
+remarks:        *** INTB ***
+import:         from AS197837 195.182.219.81 at 195.182.218.99 accept AS197837
+export:         to AS197837 195.182.219.81 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TWITCH ***
+import:         from AS46489 195.182.218.225 at 195.182.218.100 accept AS-TWITCH
+export:         to AS46489 195.182.218.225 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TWITCH ***
+import:         from AS46489 195.182.218.225 at 195.182.218.99 accept AS-TWITCH
+export:         to AS46489 195.182.218.225 at 195.182.218.99 announce AS-PLIX
+remarks:        *** TWITCH2 ***
+import:         from AS46489 195.182.218.245 at 195.182.218.100 accept AS-TWITCH
+export:         to AS46489 195.182.218.245 at 195.182.218.100 announce AS-PLIX
+remarks:        *** TWITCH2 ***
+import:         from AS46489 195.182.218.245 at 195.182.218.99 accept AS-TWITCH
+export:         to AS46489 195.182.218.245 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ILARO ***
+import:         from AS201020 195.182.219.84 at 195.182.218.100 accept AS201020
+export:         to AS201020 195.182.219.84 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ILARO ***
+import:         from AS201020 195.182.219.84 at 195.182.218.99 accept AS201020
+export:         to AS201020 195.182.219.84 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SELTELECOM ***
+import:         from AS31409 195.182.219.85 at 195.182.218.100 accept AS31409
+export:         to AS31409 195.182.219.85 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SELTELECOM ***
+import:         from AS31409 195.182.219.85 at 195.182.218.99 accept AS31409
+export:         to AS31409 195.182.219.85 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SYMETRA ***
+import:         from AS198777 195.182.219.86 at 195.182.218.100 accept AS198777
+export:         to AS198777 195.182.219.86 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SYMETRA ***
+import:         from AS198777 195.182.219.86 at 195.182.218.99 accept AS198777
+export:         to AS198777 195.182.219.86 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AMPLUS_ ***
+import:         from AS199057 195.182.219.94 at 195.182.218.100 accept AS199057
+export:         to AS199057 195.182.219.94 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AMPLUS_ ***
+import:         from AS199057 195.182.219.94 at 195.182.218.99 accept AS199057
+export:         to AS199057 195.182.219.94 at 195.182.218.99 announce AS-PLIX
+remarks:        *** AS34209 ***
+import:         from AS34209 195.182.219.121 at 195.182.218.100 accept AS-PLIXDC
+export:         to AS34209 195.182.219.121 at 195.182.218.100 announce AS-PLIX
+remarks:        *** AS34209 ***
+import:         from AS34209 195.182.219.121 at 195.182.218.99 accept AS-PLIXDC
+export:         to AS34209 195.182.219.121 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PKICT ***
+import:         from AS49386 195.182.218.90 at 195.182.218.100 accept AS-OLIX-MIX-PL
+export:         to AS49386 195.182.218.90 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PKICT ***
+import:         from AS49386 195.182.218.90 at 195.182.218.99 accept AS-OLIX-MIX-PL
+export:         to AS49386 195.182.218.90 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ITERKAM ***
+import:         from AS15874 195.182.218.22 at 195.182.218.100 accept AS15874
+export:         to AS15874 195.182.218.22 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ITERKAM ***
+import:         from AS15874 195.182.218.22 at 195.182.218.99 accept AS15874
+export:         to AS15874 195.182.218.22 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FIBERWAY ***
+import:         from AS51399 195.182.218.192 at 195.182.218.100 accept AS-FIBERWAY
+export:         to AS51399 195.182.218.192 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FIBERWAY ***
+import:         from AS51399 195.182.218.192 at 195.182.218.99 accept AS-FIBERWAY
+export:         to AS51399 195.182.218.192 at 195.182.218.99 announce AS-PLIX
+remarks:        *** EPIX2 ***
+import:         from AS201054 195.182.219.113 at 195.182.218.100 accept AS-EP-POLMIX
+export:         to AS201054 195.182.219.113 at 195.182.218.100 announce AS-PLIX
+remarks:        *** EPIX2 ***
+import:         from AS201054 195.182.219.113 at 195.182.218.99 accept AS-EP-POLMIX
+export:         to AS201054 195.182.219.113 at 195.182.218.99 announce AS-PLIX
+remarks:        *** STKTV-SAT ***
+import:         from AS42830 195.182.218.212 at 195.182.218.100 accept AS42830
+export:         to AS42830 195.182.218.212 at 195.182.218.100 announce AS-PLIX
+remarks:        *** STKTV-SAT ***
+import:         from AS42830 195.182.218.212 at 195.182.218.99 accept AS42830
+export:         to AS42830 195.182.218.212 at 195.182.218.99 announce AS-PLIX
+remarks:        *** Leitwert ***
+import:         from AS39063 195.182.219.105 at 195.182.218.100 accept AS-LEITWERT-IXP
+export:         to AS39063 195.182.219.105 at 195.182.218.100 announce AS-PLIX
+remarks:        *** Leitwert ***
+import:         from AS39063 195.182.219.105 at 195.182.218.99 accept AS-LEITWERT-IXP
+export:         to AS39063 195.182.219.105 at 195.182.218.99 announce AS-PLIX
+remarks:        *** DataInvest ***
+import:         from AS50599 195.182.219.106 at 195.182.218.100 accept AS50599
+export:         to AS50599 195.182.219.106 at 195.182.218.100 announce AS-PLIX
+remarks:        *** DataInvest ***
+import:         from AS50599 195.182.219.106 at 195.182.218.99 accept AS50599
+export:         to AS50599 195.182.219.106 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FORCEPOINT ***
+import:         from AS44444 195.182.219.107 at 195.182.218.100 accept AS-WHS-EU
+export:         to AS44444 195.182.219.107 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FORCEPOINT ***
+import:         from AS44444 195.182.219.107 at 195.182.218.99 accept AS-WHS-EU
+export:         to AS44444 195.182.219.107 at 195.182.218.99 announce AS-PLIX
+remarks:        *** WINOGRADY-BACKUP ***
+import:         from AS197227 195.182.219.108 at 195.182.218.100 accept AS197227
+export:         to AS197227 195.182.219.108 at 195.182.218.100 announce AS-PLIX
+remarks:        *** WINOGRADY-BACKUP ***
+import:         from AS197227 195.182.219.108 at 195.182.218.99 accept AS197227
+export:         to AS197227 195.182.219.108 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ZICOMNEXT ***
+import:         from AS60806 195.182.219.21 at 195.182.218.100 accept AS60806
+export:         to AS60806 195.182.219.21 at 195.182.218.100 announce AS-PLIX
+remarks:        *** ZICOMNEXT ***
+import:         from AS60806 195.182.219.21 at 195.182.218.99 accept AS60806
+export:         to AS60806 195.182.219.21 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VEGA ***
+import:         from AS12883 195.182.219.114 at 195.182.218.100 accept AS-UCOMLINE
+export:         to AS12883 195.182.219.114 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VEGA ***
+import:         from AS12883 195.182.219.114 at 195.182.218.99 accept AS-UCOMLINE
+export:         to AS12883 195.182.219.114 at 195.182.218.99 announce AS-PLIX
+remarks:        *** 24ITSERWIS ***
+import:         from AS197704 195.182.219.115 at 195.182.218.100 accept AS-24IT
+export:         to AS197704 195.182.219.115 at 195.182.218.100 announce AS-PLIX
+remarks:        *** 24ITSERWIS ***
+import:         from AS197704 195.182.219.115 at 195.182.218.99 accept AS-24IT
+export:         to AS197704 195.182.219.115 at 195.182.218.99 announce AS-PLIX
+remarks:        *** EVIO ***
+import:         from AS57665 195.182.219.70 at 195.182.218.100 accept AS57665
+export:         to AS57665 195.182.219.70 at 195.182.218.100 announce AS-PLIX
+remarks:        *** EVIO ***
+import:         from AS57665 195.182.219.70 at 195.182.218.99 accept AS57665
+export:         to AS57665 195.182.219.70 at 195.182.218.99 announce AS-PLIX
+remarks:        *** PLUS2 ***
+import:         from AS8374 195.182.218.219 at 195.182.218.100 accept AS-PLUSNET
+export:         to AS8374 195.182.218.219 at 195.182.218.100 announce AS-PLIX
+remarks:        *** PLUS2 ***
+import:         from AS8374 195.182.218.219 at 195.182.218.99 accept AS-PLUSNET
+export:         to AS8374 195.182.218.219 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GIGANET ***
+import:         from AS59611 195.182.218.173 at 195.182.218.100 accept AS59611
+export:         to AS59611 195.182.218.173 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GIGANET ***
+import:         from AS59611 195.182.218.173 at 195.182.218.99 accept AS59611
+export:         to AS59611 195.182.218.173 at 195.182.218.99 announce AS-PLIX
+remarks:        *** DEVONSTUDIO ***
+import:         from AS50434 195.182.219.52 at 195.182.218.100 accept AS50434
+export:         to AS50434 195.182.219.52 at 195.182.218.100 announce AS-PLIX
+remarks:        *** DEVONSTUDIO ***
+import:         from AS50434 195.182.219.52 at 195.182.218.99 accept AS50434
+export:         to AS50434 195.182.219.52 at 195.182.218.99 announce AS-PLIX
+remarks:        *** DEVONSTUDIO2 ***
+import:         from AS50434 195.182.219.62 at 195.182.218.100 accept AS50434
+export:         to AS50434 195.182.219.62 at 195.182.218.100 announce AS-PLIX
+remarks:        *** DEVONSTUDIO2 ***
+import:         from AS50434 195.182.219.62 at 195.182.218.99 accept AS50434
+export:         to AS50434 195.182.219.62 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NETFLIX ***
+import:         from AS2906 195.182.218.195 at 195.182.218.100 accept AS-NFLX
+export:         to AS2906 195.182.218.195 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NETFLIX ***
+import:         from AS2906 195.182.218.195 at 195.182.218.99 accept AS-NFLX
+export:         to AS2906 195.182.218.195 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NSTI ***
+import:         from AS198851 195.182.219.117 at 195.182.218.100 accept AS198851
+export:         to AS198851 195.182.219.117 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NSTI ***
+import:         from AS198851 195.182.219.117 at 195.182.218.99 accept AS198851
+export:         to AS198851 195.182.219.117 at 195.182.218.99 announce AS-PLIX
+remarks:        *** STARNETTELECOM ***
+import:         from AS41421 195.182.219.118 at 195.182.218.100 accept AS-SNT
+export:         to AS41421 195.182.219.118 at 195.182.218.100 announce AS-PLIX
+remarks:        *** STARNETTELECOM ***
+import:         from AS41421 195.182.219.118 at 195.182.218.99 accept AS-SNT
+export:         to AS41421 195.182.219.118 at 195.182.218.99 announce AS-PLIX
+remarks:        *** FINEMEDIA ***
+import:         from AS49743 195.182.219.116 at 195.182.218.100 accept AS-FINEMEDIA
+export:         to AS49743 195.182.219.116 at 195.182.218.100 announce AS-PLIX
+remarks:        *** FINEMEDIA ***
+import:         from AS49743 195.182.219.116 at 195.182.218.99 accept AS-FINEMEDIA
+export:         to AS49743 195.182.219.116 at 195.182.218.99 announce AS-PLIX
+remarks:        *** NETFLIX2 ***
+import:         from AS2906 195.182.219.195 at 195.182.218.100 accept AS-NFLX
+export:         to AS2906 195.182.219.195 at 195.182.218.100 announce AS-PLIX
+remarks:        *** NETFLIX2 ***
+import:         from AS2906 195.182.219.195 at 195.182.218.99 accept AS-NFLX
+export:         to AS2906 195.182.219.195 at 195.182.218.99 announce AS-PLIX
+remarks:        *** VALVE ***
+import:         from AS32590 195.182.218.217 at 195.182.218.100 accept AS-VALVE
+export:         to AS32590 195.182.218.217 at 195.182.218.100 announce AS-PLIX
+remarks:        *** VALVE ***
+import:         from AS32590 195.182.218.217 at 195.182.218.99 accept AS-VALVE
+export:         to AS32590 195.182.218.217 at 195.182.218.99 announce AS-PLIX
+remarks:        *** GIGA ***
+import:         from AS50153 195.182.218.236 at 195.182.218.100 accept AS-NETBIS
+export:         to AS50153 195.182.218.236 at 195.182.218.100 announce AS-PLIX
+remarks:        *** GIGA ***
+import:         from AS50153 195.182.218.236 at 195.182.218.99 accept AS-NETBIS
+export:         to AS50153 195.182.218.236 at 195.182.218.99 announce AS-PLIX
+remarks:        *** SYRIUSZ ***
+import:         from AS199060 195.182.218.243 at 195.182.218.100 accept AS199060
+export:         to AS199060 195.182.218.243 at 195.182.218.100 announce AS-PLIX
+remarks:        *** SYRIUSZ ***
+import:         from AS199060 195.182.218.243 at 195.182.218.99 accept AS199060
+export:         to AS199060 195.182.218.243 at 195.182.218.99 announce AS-PLIX
+remarks:        *** ICM ***
+mp-import:      afi ipv6.unicast from AS8664 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-ICM-PLIX
+mp-export:      afi ipv6.unicast to AS8664 2001:7f8:42::a500:8664:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ICM ***
+mp-import:      afi ipv6.unicast from AS8664 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-ICM-PLIX
+mp-export:      afi ipv6.unicast to AS8664 2001:7f8:42::a500:8664:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PLUS ***
+mp-import:      afi ipv6.unicast from AS8374 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS8374
+mp-export:      afi ipv6.unicast to AS8374 2001:7f8:42::a500:8374:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PLUS ***
+mp-import:      afi ipv6.unicast from AS8374 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS8374
+mp-export:      afi ipv6.unicast to AS8374 2001:7f8:42::a500:8374:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** SUPERMEDIA ***
+mp-import:      afi ipv6.unicast from AS9085 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS9085
+mp-export:      afi ipv6.unicast to AS9085 2001:7f8:42::a500:9085:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** SUPERMEDIA ***
+mp-import:      afi ipv6.unicast from AS9085 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS9085
+mp-export:      afi ipv6.unicast to AS9085 2001:7f8:42::a500:9085:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** LEASEWEB ***
+mp-import:      afi ipv6.unicast from AS16265 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-LEASEWEB
+mp-export:      afi ipv6.unicast to AS16265 2001:7f8:42::a501:6265:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** LEASEWEB ***
+mp-import:      afi ipv6.unicast from AS16265 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-LEASEWEB
+mp-export:      afi ipv6.unicast to AS16265 2001:7f8:42::a501:6265:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** GTS ***
+mp-import:      afi ipv6.unicast from AS5588 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-IPARTNERS
+mp-export:      afi ipv6.unicast to AS5588 2001:7f8:42::a500:8246:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** GTS ***
+mp-import:      afi ipv6.unicast from AS5588 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-IPARTNERS
+mp-export:      afi ipv6.unicast to AS5588 2001:7f8:42::a500:8246:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** AGORA ***
+mp-import:      afi ipv6.unicast from AS8535 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-AGORA
+mp-export:      afi ipv6.unicast to AS8535 2001:7f8:42::a500:8535:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** AGORA ***
+mp-import:      afi ipv6.unicast from AS8535 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-AGORA
+mp-export:      afi ipv6.unicast to AS8535 2001:7f8:42::a500:8535:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** BEYOND ***
+mp-import:      afi ipv6.unicast from AS31229 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-BEYOND
+mp-export:      afi ipv6.unicast to AS31229 2001:7f8:42::a503:1229:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** BEYOND ***
+mp-import:      afi ipv6.unicast from AS31229 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-BEYOND
+mp-export:      afi ipv6.unicast to AS31229 2001:7f8:42::a503:1229:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** INIT7 ***
+mp-import:      afi ipv6.unicast from AS13030 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 2001:7f8:42::a501:3030:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** INIT7 ***
+mp-import:      afi ipv6.unicast from AS13030 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 2001:7f8:42::a501:3030:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** WIT ***
+mp-import:      afi ipv6.unicast from AS20555 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS20555
+mp-export:      afi ipv6.unicast to AS20555 2001:7f8:42::a502:0555:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** WIT ***
+mp-import:      afi ipv6.unicast from AS20555 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS20555
+mp-export:      afi ipv6.unicast to AS20555 2001:7f8:42::a502:0555:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PROVECTOR ***
+mp-import:      afi ipv6.unicast from AS35745 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS35745
+mp-export:      afi ipv6.unicast to AS35745 2001:7f8:42::a503:5745:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PROVECTOR ***
+mp-import:      afi ipv6.unicast from AS35745 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS35745
+mp-export:      afi ipv6.unicast to AS35745 2001:7f8:42::a503:5745:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TKK ***
+mp-import:      afi ipv6.unicast from AS30975 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TKK
+mp-export:      afi ipv6.unicast to AS30975 2001:7f8:42::a503:0975:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TKK ***
+mp-import:      afi ipv6.unicast from AS30975 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TKK
+mp-export:      afi ipv6.unicast to AS30975 2001:7f8:42::a503:0975:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** LINXTELECOM ***
+mp-import:      afi ipv6.unicast from AS3327 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-LINXTELECOM-PLIX
+mp-export:      afi ipv6.unicast to AS3327 2001:7f8:42::a500:3327:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** LINXTELECOM ***
+mp-import:      afi ipv6.unicast from AS3327 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-LINXTELECOM-PLIX
+mp-export:      afi ipv6.unicast to AS3327 2001:7f8:42::a500:3327:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ERA ***
+mp-import:      afi ipv6.unicast from AS12912 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TMPL-V6
+mp-export:      afi ipv6.unicast to AS12912 2001:7f8:42::a501:2912:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ERA ***
+mp-import:      afi ipv6.unicast from AS12912 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TMPL-V6
+mp-export:      afi ipv6.unicast to AS12912 2001:7f8:42::a501:2912:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** EASTWEST ***
+mp-import:      afi ipv6.unicast from AS43118 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS43118
+mp-export:      afi ipv6.unicast to AS43118 2001:7f8:42::a504:3118:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** EASTWEST ***
+mp-import:      afi ipv6.unicast from AS43118 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS43118
+mp-export:      afi ipv6.unicast to AS43118 2001:7f8:42::a504:3118:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** NASK ***
+mp-import:      afi ipv6.unicast from AS8308 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-NASK-V6
+mp-export:      afi ipv6.unicast to AS8308 2001:7f8:42::a500:8308:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** NASK ***
+mp-import:      afi ipv6.unicast from AS8308 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-NASK-V6
+mp-export:      afi ipv6.unicast to AS8308 2001:7f8:42::a500:8308:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** OVH ***
+mp-import:      afi ipv6.unicast from AS16276 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS16276
+mp-export:      afi ipv6.unicast to AS16276 2001:7f8:42::a501:6276:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** OVH ***
+mp-import:      afi ipv6.unicast from AS16276 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS16276
+mp-export:      afi ipv6.unicast to AS16276 2001:7f8:42::a501:6276:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** CONNECTED ***
+mp-import:      afi ipv6.unicast from AS49102 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-CONNECTED6
+mp-export:      afi ipv6.unicast to AS49102 2001:7f8:42::a504:9102:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** CONNECTED ***
+mp-import:      afi ipv6.unicast from AS49102 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-CONNECTED6
+mp-export:      afi ipv6.unicast to AS49102 2001:7f8:42::a504:9102:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PCH ***
+mp-import:      afi ipv6.unicast from AS42 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS42
+mp-export:      afi ipv6.unicast to AS42 2001:7f8:42::a500:0042:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PCH ***
+mp-import:      afi ipv6.unicast from AS42 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS42
+mp-export:      afi ipv6.unicast to AS42 2001:7f8:42::a500:0042:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PCH2 ***
+mp-import:      afi ipv6.unicast from AS3856 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS3856
+mp-export:      afi ipv6.unicast to AS3856 2001:7f8:42::a500:3856:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PCH2 ***
+mp-import:      afi ipv6.unicast from AS3856 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS3856
+mp-export:      afi ipv6.unicast to AS3856 2001:7f8:42::a500:3856:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** FROOT1 ***
+mp-import:      afi ipv6.unicast from AS53459 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS53459:AS-SET
+mp-export:      afi ipv6.unicast to AS53459 2001:7f8:42::a505:3459:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** FROOT1 ***
+mp-import:      afi ipv6.unicast from AS53459 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS53459:AS-SET
+mp-export:      afi ipv6.unicast to AS53459 2001:7f8:42::a505:3459:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** FROOT2 ***
+mp-import:      afi ipv6.unicast from AS53459 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS53459:AS-SET
+mp-export:      afi ipv6.unicast to AS53459 2001:7f8:42::a505:3459:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** FROOT2 ***
+mp-import:      afi ipv6.unicast from AS53459 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS53459:AS-SET
+mp-export:      afi ipv6.unicast to AS53459 2001:7f8:42::a505:3459:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** SILEMAN ***
+mp-import:      afi ipv6.unicast from AS30851 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-SGMI-PLIX
+mp-export:      afi ipv6.unicast to AS30851 2001:7f8:42::a503:0851:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** SILEMAN ***
+mp-import:      afi ipv6.unicast from AS30851 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-SGMI-PLIX
+mp-export:      afi ipv6.unicast to AS30851 2001:7f8:42::a503:0851:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** MICONET ***
+mp-import:      afi ipv6.unicast from AS35007 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-MICONET
+mp-export:      afi ipv6.unicast to AS35007 2001:7f8:42::a503:5007:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** MICONET ***
+mp-import:      afi ipv6.unicast from AS35007 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-MICONET
+mp-export:      afi ipv6.unicast to AS35007 2001:7f8:42::a503:5007:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** GRATKA ***
+mp-import:      afi ipv6.unicast from AS34409 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS34409:AS-GRTECH-IPV6
+mp-export:      afi ipv6.unicast to AS34409 2001:7f8:42::a503:4409:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** GRATKA ***
+mp-import:      afi ipv6.unicast from AS34409 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS34409:AS-GRTECH-IPV6
+mp-export:      afi ipv6.unicast to AS34409 2001:7f8:42::a503:4409:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PETRUS-TORUN ***
+mp-import:      afi ipv6.unicast from AS43679 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-PETRUS
+mp-export:      afi ipv6.unicast to AS43679 2001:7f8:42::a504:3679:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PETRUS-TORUN ***
+mp-import:      afi ipv6.unicast from AS43679 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-PETRUS
+mp-export:      afi ipv6.unicast to AS43679 2001:7f8:42::a504:3679:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TKPSA ***
+mp-import:      afi ipv6.unicast from AS31242 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TKPSA
+mp-export:      afi ipv6.unicast to AS31242 2001:7f8:42::a503:1242:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TKPSA ***
+mp-import:      afi ipv6.unicast from AS31242 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TKPSA
+mp-export:      afi ipv6.unicast to AS31242 2001:7f8:42::a503:1242:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ETOP ***
+mp-import:      afi ipv6.unicast from AS20853 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-ETOP
+mp-export:      afi ipv6.unicast to AS20853 2001:7f8:42::a502:0853:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ETOP ***
+mp-import:      afi ipv6.unicast from AS20853 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-ETOP
+mp-export:      afi ipv6.unicast to AS20853 2001:7f8:42::a502:0853:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** HOME ***
+mp-import:      afi ipv6.unicast from AS12824 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS12824
+mp-export:      afi ipv6.unicast to AS12824 2001:7f8:42::a501:2824:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** HOME ***
+mp-import:      afi ipv6.unicast from AS12824 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS12824
+mp-export:      afi ipv6.unicast to AS12824 2001:7f8:42::a501:2824:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PIRXNET ***
+mp-import:      afi ipv6.unicast from AS35434 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-PIRXNET
+mp-export:      afi ipv6.unicast to AS35434 2001:7f8:42::a503:5434:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PIRXNET ***
+mp-import:      afi ipv6.unicast from AS35434 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-PIRXNET
+mp-export:      afi ipv6.unicast to AS35434 2001:7f8:42::a503:5434:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ATRATO ***
+mp-import:      afi ipv6.unicast from AS5580 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-ATRATO6
+mp-export:      afi ipv6.unicast to AS5580 2001:7f8:42::a500:5580:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ATRATO ***
+mp-import:      afi ipv6.unicast from AS5580 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-ATRATO6
+mp-export:      afi ipv6.unicast to AS5580 2001:7f8:42::a500:5580:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PLIXDC ***
+mp-import:      afi ipv6.unicast from AS34209 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS34209
+mp-export:      afi ipv6.unicast to AS34209 2001:7f8:42::a503:4009:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PLIXDC ***
+mp-import:      afi ipv6.unicast from AS34209 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS34209
+mp-export:      afi ipv6.unicast to AS34209 2001:7f8:42::a503:4009:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ENTERPOL ***
+mp-import:      afi ipv6.unicast from AS41809 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS41809
+mp-export:      afi ipv6.unicast to AS41809 2001:7f8:42::a504:1809:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ENTERPOL ***
+mp-import:      afi ipv6.unicast from AS41809 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS41809
+mp-export:      afi ipv6.unicast to AS41809 2001:7f8:42::a504:1809:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ACSYSTEMY ***
+mp-import:      afi ipv6.unicast from AS39439 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS39439
+mp-export:      afi ipv6.unicast to AS39439 2001:7f8:42::a503:9439:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ACSYSTEMY ***
+mp-import:      afi ipv6.unicast from AS39439 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS39439
+mp-export:      afi ipv6.unicast to AS39439 2001:7f8:42::a503:9439:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TBTELECOM ***
+mp-import:      afi ipv6.unicast from AS51155 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-51155_customers
+mp-export:      afi ipv6.unicast to AS51155 2001:7f8:42::a505:1155:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TBTELECOM ***
+mp-import:      afi ipv6.unicast from AS51155 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-51155_customers
+mp-export:      afi ipv6.unicast to AS51155 2001:7f8:42::a505:1155:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** HOSTEAM ***
+mp-import:      afi ipv6.unicast from AS51290 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS51290
+mp-export:      afi ipv6.unicast to AS51290 2001:7f8:42::a505:1290:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** HOSTEAM ***
+mp-import:      afi ipv6.unicast from AS51290 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS51290
+mp-export:      afi ipv6.unicast to AS51290 2001:7f8:42::a505:1290:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** SZARANET ***
+mp-import:      afi ipv6.unicast from AS42927 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-SZARANET
+mp-export:      afi ipv6.unicast to AS42927 2001:7f8:42::a504:2927:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** SZARANET ***
+mp-import:      afi ipv6.unicast from AS42927 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-SZARANET
+mp-export:      afi ipv6.unicast to AS42927 2001:7f8:42::a504:2927:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** SITEL ***
+mp-import:      afi ipv6.unicast from AS39869 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-SITEL-IX
+mp-export:      afi ipv6.unicast to AS39869 2001:7f8:42::a503:9869:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** SITEL ***
+mp-import:      afi ipv6.unicast from AS39869 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-SITEL-IX
+mp-export:      afi ipv6.unicast to AS39869 2001:7f8:42::a503:9869:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** AUDATEX ***
+mp-import:      afi ipv6.unicast from AS29430 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS29430
+mp-export:      afi ipv6.unicast to AS29430 2001:7f8:42::a502:9430:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** AUDATEX ***
+mp-import:      afi ipv6.unicast from AS29430 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS29430
+mp-export:      afi ipv6.unicast to AS29430 2001:7f8:42::a502:9430:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ALPHANET ***
+mp-import:      afi ipv6.unicast from AS24806 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS24806
+mp-export:      afi ipv6.unicast to AS24806 2001:7f8:42::a502:4806:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ALPHANET ***
+mp-import:      afi ipv6.unicast from AS24806 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS24806
+mp-export:      afi ipv6.unicast to AS24806 2001:7f8:42::a502:4806:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** XENIUM ***
+mp-import:      afi ipv6.unicast from AS42204 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS42204
+mp-export:      afi ipv6.unicast to AS42204 2001:7f8:42::a504:2204:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** XENIUM ***
+mp-import:      afi ipv6.unicast from AS42204 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS42204
+mp-export:      afi ipv6.unicast to AS42204 2001:7f8:42::a504:2204:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TELEAUDIO ***
+mp-import:      afi ipv6.unicast from AS41790 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS41790
+mp-export:      afi ipv6.unicast to AS41790 2001:7f8:42::a504:1790:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TELEAUDIO ***
+mp-import:      afi ipv6.unicast from AS41790 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS41790
+mp-export:      afi ipv6.unicast to AS41790 2001:7f8:42::a504:1790:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** LIMES ***
+mp-import:      afi ipv6.unicast from AS29649 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-LIMES
+mp-export:      afi ipv6.unicast to AS29649 2001:7f8:42::a502:9649:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** LIMES ***
+mp-import:      afi ipv6.unicast from AS29649 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-LIMES
+mp-export:      afi ipv6.unicast to AS29649 2001:7f8:42::a502:9649:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** AKAMAI ***
+mp-import:      afi ipv6.unicast from AS20940 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS20940
+mp-export:      afi ipv6.unicast to AS20940 2001:7f8:42::a502:0940:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** AKAMAI ***
+mp-import:      afi ipv6.unicast from AS20940 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS20940
+mp-export:      afi ipv6.unicast to AS20940 2001:7f8:42::a502:0940:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** INTERACTIVE3D ***
+mp-import:      afi ipv6.unicast from AS49544 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to AS49544 2001:7f8:42::a504:9544:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** INTERACTIVE3D ***
+mp-import:      afi ipv6.unicast from AS49544 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to AS49544 2001:7f8:42::a504:9544:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** WINOGRADY ***
+mp-import:      afi ipv6.unicast from AS197227 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS197227
+mp-export:      afi ipv6.unicast to AS197227 2001:7f8:42::a519:7227:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** WINOGRADY ***
+mp-import:      afi ipv6.unicast from AS197227 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS197227
+mp-export:      afi ipv6.unicast to AS197227 2001:7f8:42::a519:7227:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ITSA ***
+mp-import:      afi ipv6.unicast from AS15997 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-ITSA
+mp-export:      afi ipv6.unicast to AS15997 2001:7f8:42::a501:5997:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ITSA ***
+mp-import:      afi ipv6.unicast from AS15997 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-ITSA
+mp-export:      afi ipv6.unicast to AS15997 2001:7f8:42::a501:5997:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TOYA ***
+mp-import:      afi ipv6.unicast from AS16342 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TOYA
+mp-export:      afi ipv6.unicast to AS16342 2001:7f8:42::a501:6342:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TOYA ***
+mp-import:      afi ipv6.unicast from AS16342 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TOYA
+mp-export:      afi ipv6.unicast to AS16342 2001:7f8:42::a501:6342:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** VECTRA ***
+mp-import:      afi ipv6.unicast from AS29314 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-VECTRA
+mp-export:      afi ipv6.unicast to AS29314 2001:7f8:42::a502:9314:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** VECTRA ***
+mp-import:      afi ipv6.unicast from AS29314 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-VECTRA
+mp-export:      afi ipv6.unicast to AS29314 2001:7f8:42::a502:9314:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** UPC ***
+mp-import:      afi ipv6.unicast from AS6830 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-AORTA
+mp-export:      afi ipv6.unicast to AS6830 2001:7f8:42::a500:6830:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** UPC ***
+mp-import:      afi ipv6.unicast from AS6830 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-AORTA
+mp-export:      afi ipv6.unicast to AS6830 2001:7f8:42::a500:6830:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PETRUS-CHOJNICE ***
+mp-import:      afi ipv6.unicast from AS44914 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-PETRUS
+mp-export:      afi ipv6.unicast to AS44914 2001:7f8:42::a504:4914:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PETRUS-CHOJNICE ***
+mp-import:      afi ipv6.unicast from AS44914 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-PETRUS
+mp-export:      afi ipv6.unicast to AS44914 2001:7f8:42::a504:4914:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** HENET ***
+mp-import:      afi ipv6.unicast from AS6939 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-HURRICANEv6
+mp-export:      afi ipv6.unicast to AS6939 2001:7f8:42::a500:6939:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** HENET ***
+mp-import:      afi ipv6.unicast from AS6939 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-HURRICANEv6
+mp-export:      afi ipv6.unicast to AS6939 2001:7f8:42::a500:6939:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ATM ***
+mp-import:      afi ipv6.unicast from AS24748 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS24748:AS-IX
+mp-export:      afi ipv6.unicast to AS24748 2001:7f8:42::a502:4748:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ATM ***
+mp-import:      afi ipv6.unicast from AS24748 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS24748:AS-IX
+mp-export:      afi ipv6.unicast to AS24748 2001:7f8:42::a502:4748:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** AGNAT ***
+mp-import:      afi ipv6.unicast from AS49258 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS49258
+mp-export:      afi ipv6.unicast to AS49258 2001:7f8:42::a504:9258:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** AGNAT ***
+mp-import:      afi ipv6.unicast from AS49258 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS49258
+mp-export:      afi ipv6.unicast to AS49258 2001:7f8:42::a504:9258:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PSR ***
+mp-import:      afi ipv6.unicast from AS56515 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-SYSTEMX
+mp-export:      afi ipv6.unicast to AS56515 2001:7f8:42::a505:6515:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PSR ***
+mp-import:      afi ipv6.unicast from AS56515 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-SYSTEMX
+mp-export:      afi ipv6.unicast to AS56515 2001:7f8:42::a505:6515:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** MULTINET24 ***
+mp-import:      afi ipv6.unicast from AS197099 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-MULTINET24
+mp-export:      afi ipv6.unicast to AS197099 2001:7f8:42::a519:7099:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** MULTINET24 ***
+mp-import:      afi ipv6.unicast from AS197099 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-MULTINET24
+mp-export:      afi ipv6.unicast to AS197099 2001:7f8:42::a519:7099:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** COIG ***
+mp-import:      afi ipv6.unicast from AS28978 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-COIG
+mp-export:      afi ipv6.unicast to AS28978 2001:7f8:42::a502:8978:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** COIG ***
+mp-import:      afi ipv6.unicast from AS28978 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-COIG
+mp-export:      afi ipv6.unicast to AS28978 2001:7f8:42::a502:8978:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** LNET ***
+mp-import:      afi ipv6.unicast from AS42177 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS42177:AS-PLIX
+mp-export:      afi ipv6.unicast to AS42177 2001:7f8:42::a504:2177:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** LNET ***
+mp-import:      afi ipv6.unicast from AS42177 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS42177:AS-PLIX
+mp-export:      afi ipv6.unicast to AS42177 2001:7f8:42::a504:2177:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** INAME ***
+mp-import:      afi ipv6.unicast from AS57249 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS57249
+mp-export:      afi ipv6.unicast to AS57249 2001:7f8:42::a505:7249:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** INAME ***
+mp-import:      afi ipv6.unicast from AS57249 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS57249
+mp-export:      afi ipv6.unicast to AS57249 2001:7f8:42::a505:7249:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TVKCHOPIN ***
+mp-import:      afi ipv6.unicast from AS35063 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS35063
+mp-export:      afi ipv6.unicast to AS35063 2001:7f8:42::a503:5063:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TVKCHOPIN ***
+mp-import:      afi ipv6.unicast from AS35063 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS35063
+mp-export:      afi ipv6.unicast to AS35063 2001:7f8:42::a503:5063:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TECHSTORAGE ***
+mp-import:      afi ipv6.unicast from AS198717 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS198717
+mp-export:      afi ipv6.unicast to AS198717 2001:7f8:42::a519:8717:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TECHSTORAGE ***
+mp-import:      afi ipv6.unicast from AS198717 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS198717
+mp-export:      afi ipv6.unicast to AS198717 2001:7f8:42::a519:8717:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TVK ***
+mp-import:      afi ipv6.unicast from AS29512 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TVK-PL
+mp-export:      afi ipv6.unicast to AS29512 2001:7f8:42::a502:9512:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TVK ***
+mp-import:      afi ipv6.unicast from AS29512 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TVK-PL
+mp-export:      afi ipv6.unicast to AS29512 2001:7f8:42::a502:9512:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** MSM ***
+mp-import:      afi ipv6.unicast from AS30923 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS30923
+mp-export:      afi ipv6.unicast to AS30923 2001:7f8:42::a503:0923:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** MSM ***
+mp-import:      afi ipv6.unicast from AS30923 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS30923
+mp-export:      afi ipv6.unicast to AS30923 2001:7f8:42::a503:0923:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** COMMUNITY-DNS-LIMITED ***
+mp-import:      afi ipv6.unicast from AS42909 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS42909
+mp-export:      afi ipv6.unicast to AS42909 2001:7f8:42::a504:2909:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** COMMUNITY-DNS-LIMITED ***
+mp-import:      afi ipv6.unicast from AS42909 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS42909
+mp-export:      afi ipv6.unicast to AS42909 2001:7f8:42::a504:2909:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TVK2 ***
+mp-import:      afi ipv6.unicast from AS29512 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TVK-PL
+mp-export:      afi ipv6.unicast to AS29512 2001:7f8:42::a502:9512:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TVK2 ***
+mp-import:      afi ipv6.unicast from AS29512 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TVK-PL
+mp-export:      afi ipv6.unicast to AS29512 2001:7f8:42::a502:9512:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** INFOPLUS ***
+mp-import:      afi ipv6.unicast from AS58307 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-RADIX
+mp-export:      afi ipv6.unicast to AS58307 2001:7f8:42::a505:8307:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** INFOPLUS ***
+mp-import:      afi ipv6.unicast from AS58307 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-RADIX
+mp-export:      afi ipv6.unicast to AS58307 2001:7f8:42::a505:8307:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** UMWARSZAWA ***
+mp-import:      afi ipv6.unicast from AS34891 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS34891
+mp-export:      afi ipv6.unicast to AS34891 2001:7f8:42::a503:4891:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** UMWARSZAWA ***
+mp-import:      afi ipv6.unicast from AS34891 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS34891
+mp-export:      afi ipv6.unicast to AS34891 2001:7f8:42::a503:4891:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** NETIA2 ***
+mp-import:      afi ipv6.unicast from AS12741 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-NETIA
+mp-export:      afi ipv6.unicast to AS12741 2001:7f8:42::a501:2741:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** NETIA2 ***
+mp-import:      afi ipv6.unicast from AS12741 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-NETIA
+mp-export:      afi ipv6.unicast to AS12741 2001:7f8:42::a501:2741:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** VIRTUALTELECOM ***
+mp-import:      afi ipv6.unicast from AS56391 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-VTELECOM-PL
+mp-export:      afi ipv6.unicast to AS56391 2001:7f8:42::a505:6391:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** VIRTUALTELECOM ***
+mp-import:      afi ipv6.unicast from AS56391 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-VTELECOM-PL
+mp-export:      afi ipv6.unicast to AS56391 2001:7f8:42::a505:6391:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** KRCPD ***
+mp-import:      afi ipv6.unicast from AS48047 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS48047
+mp-export:      afi ipv6.unicast to AS48047 2001:7f8:42::a504:8047:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** KRCPD ***
+mp-import:      afi ipv6.unicast from AS48047 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS48047
+mp-export:      afi ipv6.unicast to AS48047 2001:7f8:42::a504:8047:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** KROSOFT ***
+mp-import:      afi ipv6.unicast from AS50625 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-50625
+mp-export:      afi ipv6.unicast to AS50625 2001:7F8:42::A505:0625:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** KROSOFT ***
+mp-import:      afi ipv6.unicast from AS50625 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-50625
+mp-export:      afi ipv6.unicast to AS50625 2001:7F8:42::A505:0625:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ALFANET ***
+mp-import:      afi ipv6.unicast from AS49528 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-PL-ALFANET
+mp-export:      afi ipv6.unicast to AS49528 2001:7f8:42::a504:9528:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ALFANET ***
+mp-import:      afi ipv6.unicast from AS49528 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-PL-ALFANET
+mp-export:      afi ipv6.unicast to AS49528 2001:7f8:42::a504:9528:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** VECTRA2 ***
+mp-import:      afi ipv6.unicast from AS29314 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-VECTRA
+mp-export:      afi ipv6.unicast to AS29314 2001:7f8:42::a502:9314:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** VECTRA2 ***
+mp-import:      afi ipv6.unicast from AS29314 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-VECTRA
+mp-export:      afi ipv6.unicast to AS29314 2001:7f8:42::a502:9314:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** OST ***
+mp-import:      afi ipv6.unicast from AS38987 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-OST
+mp-export:      afi ipv6.unicast to AS38987 2001:7f8:42::a503:8987:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** OST ***
+mp-import:      afi ipv6.unicast from AS38987 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-OST
+mp-export:      afi ipv6.unicast to AS38987 2001:7f8:42::a503:8987:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** MATRONIX ***
+mp-import:      afi ipv6.unicast from AS51310 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-MATRONIX
+mp-export:      afi ipv6.unicast to AS51310 2001:7f8:42::a505:1310:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** MATRONIX ***
+mp-import:      afi ipv6.unicast from AS51310 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-MATRONIX
+mp-export:      afi ipv6.unicast to AS51310 2001:7f8:42::a505:1310:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** LATTELECOM ***
+mp-import:      afi ipv6.unicast from AS12578 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-LATTELEKOM
+mp-export:      afi ipv6.unicast to AS12578 2001:7f8:42::a501:2578:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** LATTELECOM ***
+mp-import:      afi ipv6.unicast from AS12578 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-LATTELEKOM
+mp-export:      afi ipv6.unicast to AS12578 2001:7f8:42::a501:2578:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** MGK ***
+mp-import:      afi ipv6.unicast from AS49633 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS49633
+mp-export:      afi ipv6.unicast to AS49633 2001:7f8:42::a504:9633:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** MGK ***
+mp-import:      afi ipv6.unicast from AS49633 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS49633
+mp-export:      afi ipv6.unicast to AS49633 2001:7f8:42::a504:9633:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** GAMP ***
+mp-import:      afi ipv6.unicast from AS56511 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-GAMP
+mp-export:      afi ipv6.unicast to AS56511 2001:7f8:42::a505:6511:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** GAMP ***
+mp-import:      afi ipv6.unicast from AS56511 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-GAMP
+mp-export:      afi ipv6.unicast to AS56511 2001:7f8:42::a505:6511:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ESPOL ***
+mp-import:      afi ipv6.unicast from AS31304 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-ESPOL-X
+mp-export:      afi ipv6.unicast to AS31304 2001:7f8:42::a503:1304:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ESPOL ***
+mp-import:      afi ipv6.unicast from AS31304 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-ESPOL-X
+mp-export:      afi ipv6.unicast to AS31304 2001:7f8:42::a503:1304:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** FORWEB ***
+mp-import:      afi ipv6.unicast from AS33951 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS33951:AS-FORWEB
+mp-export:      afi ipv6.unicast to AS33951 2001:7f8:42::a503:3951:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** FORWEB ***
+mp-import:      afi ipv6.unicast from AS33951 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS33951:AS-FORWEB
+mp-export:      afi ipv6.unicast to AS33951 2001:7f8:42::a503:3951:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** EXATEL ***
+mp-import:      afi ipv6.unicast from AS20804 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-EXATEL-INT
+mp-export:      afi ipv6.unicast to AS20804 2001:7f8:42::a502:0804:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** EXATEL ***
+mp-import:      afi ipv6.unicast from AS20804 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-EXATEL-INT
+mp-export:      afi ipv6.unicast to AS20804 2001:7f8:42::a502:0804:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** INTERNETUNION ***
+mp-import:      afi ipv6.unicast from AS49242 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-IUSA
+mp-export:      afi ipv6.unicast to AS49242 2001:7f8:42::a504:9242:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** INTERNETUNION ***
+mp-import:      afi ipv6.unicast from AS49242 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-IUSA
+mp-export:      afi ipv6.unicast to AS49242 2001:7f8:42::a504:9242:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** SKYWARE ***
+mp-import:      afi ipv6.unicast from AS42673 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-SKYWARE
+mp-export:      afi ipv6.unicast to AS42673 2001:7f8:42::a504:2673:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** SKYWARE ***
+mp-import:      afi ipv6.unicast from AS42673 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-SKYWARE
+mp-export:      afi ipv6.unicast to AS42673 2001:7f8:42::a504:2673:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** HAWE ***
+mp-import:      afi ipv6.unicast from AS42739 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-HAWE-ALL
+mp-export:      afi ipv6.unicast to AS42739 2001:7f8:42::a504:2739:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** HAWE ***
+mp-import:      afi ipv6.unicast from AS42739 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-HAWE-ALL
+mp-export:      afi ipv6.unicast to AS42739 2001:7f8:42::a504:2739:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TVP ***
+mp-import:      afi ipv6.unicast from AS25506 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS25506
+mp-export:      afi ipv6.unicast to AS25506 2001:7f8:42::a502:5506:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TVP ***
+mp-import:      afi ipv6.unicast from AS25506 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS25506
+mp-export:      afi ipv6.unicast to AS25506 2001:7f8:42::a502:5506:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** UPC2 ***
+mp-import:      afi ipv6.unicast from AS6830 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-AORTA
+mp-export:      afi ipv6.unicast to AS6830 2001:7f8:42::a500:6830:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** UPC2 ***
+mp-import:      afi ipv6.unicast from AS6830 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-AORTA
+mp-export:      afi ipv6.unicast to AS6830 2001:7f8:42::a500:6830:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** K2INTERNET ***
+mp-import:      afi ipv6.unicast from AS42503 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS42503
+mp-export:      afi ipv6.unicast to AS42503 2001:7f8:42::a504:2503:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** K2INTERNET ***
+mp-import:      afi ipv6.unicast from AS42503 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS42503
+mp-export:      afi ipv6.unicast to AS42503 2001:7f8:42::a504:2503:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** K2INTERNET2 ***
+mp-import:      afi ipv6.unicast from AS42503 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS42503
+mp-export:      afi ipv6.unicast to AS42503 2001:7f8:42::a504:2503:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** K2INTERNET2 ***
+mp-import:      afi ipv6.unicast from AS42503 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS42503
+mp-export:      afi ipv6.unicast to AS42503 2001:7f8:42::a504:2503:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** KAIA ***
+mp-import:      afi ipv6.unicast from AS251 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-KAIAGLOBAL6
+mp-export:      afi ipv6.unicast to AS251 2001:7F8:42::A500:0251:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** KAIA ***
+mp-import:      afi ipv6.unicast from AS251 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-KAIAGLOBAL6
+mp-export:      afi ipv6.unicast to AS251 2001:7F8:42::A500:0251:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** SGGS ***
+mp-import:      afi ipv6.unicast from AS24482 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-SGGS
+mp-export:      afi ipv6.unicast to AS24482 2001:7f8:42::a502:4482:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** SGGS ***
+mp-import:      afi ipv6.unicast from AS24482 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-SGGS
+mp-export:      afi ipv6.unicast to AS24482 2001:7f8:42::a502:4482:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** M3NET ***
+mp-import:      afi ipv6.unicast from AS59460 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS59460
+mp-export:      afi ipv6.unicast to AS59460 2001:7f8:42::a505:9460:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** M3NET ***
+mp-import:      afi ipv6.unicast from AS59460 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS59460
+mp-export:      afi ipv6.unicast to AS59460 2001:7f8:42::a505:9460:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** VOICENET ***
+mp-import:      afi ipv6.unicast from AS199319 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-VOICENET
+mp-export:      afi ipv6.unicast to AS199319 2001:7f8:42::a519:9319:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** VOICENET ***
+mp-import:      afi ipv6.unicast from AS199319 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-VOICENET
+mp-export:      afi ipv6.unicast to AS199319 2001:7f8:42::a519:9319:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** UMWARSZAWA2 ***
+mp-import:      afi ipv6.unicast from AS34891 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS34891
+mp-export:      afi ipv6.unicast to AS34891 2001:7f8:42::a503:4891:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** UMWARSZAWA2 ***
+mp-import:      afi ipv6.unicast from AS34891 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS34891
+mp-export:      afi ipv6.unicast to AS34891 2001:7f8:42::a503:4891:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** EDGECAST ***
+mp-import:      afi ipv6.unicast from AS15133 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-EDGECAST
+mp-export:      afi ipv6.unicast to AS15133 2001:7f8:42::a501:5133:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** EDGECAST ***
+mp-import:      afi ipv6.unicast from AS15133 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-EDGECAST
+mp-export:      afi ipv6.unicast to AS15133 2001:7f8:42::a501:5133:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** VECTRA3 ***
+mp-import:      afi ipv6.unicast from AS29314 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-VECTRA
+mp-export:      afi ipv6.unicast to AS29314 2001:7f8:42::a502:9314:3 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** VECTRA3 ***
+mp-import:      afi ipv6.unicast from AS29314 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-VECTRA
+mp-export:      afi ipv6.unicast to AS29314 2001:7f8:42::a502:9314:3 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** INEA ***
+mp-import:      afi ipv6.unicast from AS13110 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-ICPnet
+mp-export:      afi ipv6.unicast to AS13110 2001:7f8:42::a501:3110:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** INEA ***
+mp-import:      afi ipv6.unicast from AS13110 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-ICPnet
+mp-export:      afi ipv6.unicast to AS13110 2001:7f8:42::a501:3110:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ACTUS ***
+mp-import:      afi ipv6.unicast from AS197790 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-ACTUS
+mp-export:      afi ipv6.unicast to AS197790 2001:7f8:42::a519:7790:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ACTUS ***
+mp-import:      afi ipv6.unicast from AS197790 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-ACTUS
+mp-export:      afi ipv6.unicast to AS197790 2001:7f8:42::a519:7790:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TTK ***
+mp-import:      afi ipv6.unicast from AS20485 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TKK
+mp-export:      afi ipv6.unicast to AS20485 2001:7f8:42::a502:0485:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TTK ***
+mp-import:      afi ipv6.unicast from AS20485 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TKK
+mp-export:      afi ipv6.unicast to AS20485 2001:7f8:42::a502:0485:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** FACEBOOK ***
+mp-import:      afi ipv6.unicast from AS32934 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 2001:7f8:42::a503:2934:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** FACEBOOK ***
+mp-import:      afi ipv6.unicast from AS32934 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 2001:7f8:42::a503:2934:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** CLOUDFLARE ***
+mp-import:      afi ipv6.unicast from AS13335 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 2001:7f8:42::a501:3335:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** CLOUDFLARE ***
+mp-import:      afi ipv6.unicast from AS13335 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 2001:7f8:42::a501:3335:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** COMPLEXCOMPUTERS ***
+mp-import:      afi ipv6.unicast from AS196890 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-COMPLEX
+mp-export:      afi ipv6.unicast to AS196890 2001:7f8:42::a519:6890:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** COMPLEXCOMPUTERS ***
+mp-import:      afi ipv6.unicast from AS196890 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-COMPLEX
+mp-export:      afi ipv6.unicast to AS196890 2001:7f8:42::a519:6890:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** EUROTRANSTELECOM ***
+mp-import:      afi ipv6.unicast from AS35320 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-ETT
+mp-export:      afi ipv6.unicast to AS35320 2001:7f8:42::a503:5320:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** EUROTRANSTELECOM ***
+mp-import:      afi ipv6.unicast from AS35320 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-ETT
+mp-export:      afi ipv6.unicast to AS35320 2001:7f8:42::a503:5320:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** MICROSOFT ***
+mp-import:      afi ipv6.unicast from AS8075 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 2001:7f8:42::a500:8075:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** MICROSOFT ***
+mp-import:      afi ipv6.unicast from AS8075 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 2001:7f8:42::a500:8075:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** MICROSOFT2 ***
+mp-import:      afi ipv6.unicast from AS8075 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 2001:7f8:42::a500:8075:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** MICROSOFT2 ***
+mp-import:      afi ipv6.unicast from AS8075 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 2001:7f8:42::a500:8075:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** OPENDS ***
+mp-import:      afi ipv6.unicast from AS36692 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS36692
+mp-export:      afi ipv6.unicast to AS36692 2001:7f8:42::a503:6692:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** OPENDS ***
+mp-import:      afi ipv6.unicast from AS36692 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS36692
+mp-export:      afi ipv6.unicast to AS36692 2001:7f8:42::a503:6692:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** NETIA2 ***
+mp-import:      afi ipv6.unicast from AS12741 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-NETIA
+mp-export:      afi ipv6.unicast to AS12741 2001:7f8:42::a501:2741:3 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** NETIA2 ***
+mp-import:      afi ipv6.unicast from AS12741 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-NETIA
+mp-export:      afi ipv6.unicast to AS12741 2001:7f8:42::a501:2741:3 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ISTS ***
+mp-import:      afi ipv6.unicast from AS30793 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-GEMINI-ISTS
+mp-export:      afi ipv6.unicast to AS30793 2001:7f8:42::a503:0793:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ISTS ***
+mp-import:      afi ipv6.unicast from AS30793 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-GEMINI-ISTS
+mp-export:      afi ipv6.unicast to AS30793 2001:7f8:42::a503:0793:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TRANSMITEL ***
+mp-import:      afi ipv6.unicast from AS60563 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TRANSMITEL
+mp-export:      afi ipv6.unicast to AS60563 2001:7f8:42::a506:0563:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TRANSMITEL ***
+mp-import:      afi ipv6.unicast from AS60563 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TRANSMITEL
+mp-export:      afi ipv6.unicast to AS60563 2001:7f8:42::a506:0563:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** GLOBITEL ***
+mp-import:      afi ipv6.unicast from AS48424 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-GLOBITEL
+mp-export:      afi ipv6.unicast to AS48424 2001:7f8:42::a504:8424:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** GLOBITEL ***
+mp-import:      afi ipv6.unicast from AS48424 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-GLOBITEL
+mp-export:      afi ipv6.unicast to AS48424 2001:7f8:42::a504:8424:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** Google1 ***
+mp-import:      afi ipv6.unicast from AS15169 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 2001:7F8:42::A501:5169:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** Google1 ***
+mp-import:      afi ipv6.unicast from AS15169 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 2001:7F8:42::A501:5169:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** LUKMAN ***
+mp-import:      afi ipv6.unicast from AS47223 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-LUKMAN
+mp-export:      afi ipv6.unicast to AS47223 2001:7f8:42::a504:7223:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** LUKMAN ***
+mp-import:      afi ipv6.unicast from AS47223 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-LUKMAN
+mp-export:      afi ipv6.unicast to AS47223 2001:7f8:42::a504:7223:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** YNET ***
+mp-import:      afi ipv6.unicast from AS57896 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS57896
+mp-export:      afi ipv6.unicast to AS57896 2001:7f8:42::a505:7896:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** YNET ***
+mp-import:      afi ipv6.unicast from AS57896 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS57896
+mp-export:      afi ipv6.unicast to AS57896 2001:7f8:42::a505:7896:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** INCAPSULA ***
+mp-import:      afi ipv6.unicast from AS19551 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-INCAPSULA
+mp-export:      afi ipv6.unicast to AS19551 2001:7f8:42::a501:9551:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** INCAPSULA ***
+mp-import:      afi ipv6.unicast from AS19551 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-INCAPSULA
+mp-export:      afi ipv6.unicast to AS19551 2001:7f8:42::a501:9551:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** LCS ***
+mp-import:      afi ipv6.unicast from AS197113 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS197113
+mp-export:      afi ipv6.unicast to AS197113 2001:7f8:42::a519:7113:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** LCS ***
+mp-import:      afi ipv6.unicast from AS197113 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS197113
+mp-export:      afi ipv6.unicast to AS197113 2001:7f8:42::a519:7113:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PCSS ***
+mp-import:      afi ipv6.unicast from AS196844 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS196844:AS-AMSIX
+mp-export:      afi ipv6.unicast to AS196844 2001:7f8:42::a519:6844:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PCSS ***
+mp-import:      afi ipv6.unicast from AS196844 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS196844:AS-AMSIX
+mp-export:      afi ipv6.unicast to AS196844 2001:7f8:42::a519:6844:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** NETASSIST ***
+mp-import:      afi ipv6.unicast from AS29632 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-NETASSIST
+mp-export:      afi ipv6.unicast to AS29632 2001:7f8:42::a502:9632:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** NETASSIST ***
+mp-import:      afi ipv6.unicast from AS29632 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-NETASSIST
+mp-export:      afi ipv6.unicast to AS29632 2001:7f8:42::a502:9632:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** AKAMAI2 ***
+mp-import:      afi ipv6.unicast from AS20940 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 2001:7f8:42::a502:0940:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** AKAMAI2 ***
+mp-import:      afi ipv6.unicast from AS20940 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 2001:7f8:42::a502:0940:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** HOME2 ***
+mp-import:      afi ipv6.unicast from AS12824 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS12824
+mp-export:      afi ipv6.unicast to AS12824 2001:7f8:42::a501:2824:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** HOME2 ***
+mp-import:      afi ipv6.unicast from AS12824 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS12824
+mp-export:      afi ipv6.unicast to AS12824 2001:7f8:42::a501:2824:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** FACEBOOK2 ***
+mp-import:      afi ipv6.unicast from AS32934 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 2001:7f8:42::a503:2934:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** FACEBOOK2 ***
+mp-import:      afi ipv6.unicast from AS32934 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 2001:7f8:42::a503:2934:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** EPIX ***
+mp-import:      afi ipv6.unicast from AS201054 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-EP-POLMIX
+mp-export:      afi ipv6.unicast to AS201054 2001:7f8:42::a520:1054:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** EPIX ***
+mp-import:      afi ipv6.unicast from AS201054 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-EP-POLMIX
+mp-export:      afi ipv6.unicast to AS201054 2001:7f8:42::a520:1054:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** NASZAPRACA ***
+mp-import:      afi ipv6.unicast from AS44454 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-CSMNP-IX
+mp-export:      afi ipv6.unicast to AS44454 2001:7f8:42::a504:4454:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** NASZAPRACA ***
+mp-import:      afi ipv6.unicast from AS44454 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-CSMNP-IX
+mp-export:      afi ipv6.unicast to AS44454 2001:7f8:42::a504:4454:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** SKOK ***
+mp-import:      afi ipv6.unicast from AS49420 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-APLITT
+mp-export:      afi ipv6.unicast to AS49420 2001:7f8:42::a504:9420:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** SKOK ***
+mp-import:      afi ipv6.unicast from AS49420 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-APLITT
+mp-export:      afi ipv6.unicast to AS49420 2001:7f8:42::a504:9420:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** LLNW ***
+mp-import:      afi ipv6.unicast from AS22822 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-LLNW
+mp-export:      afi ipv6.unicast to AS22822 2001:7f8:42::a502:2822:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** LLNW ***
+mp-import:      afi ipv6.unicast from AS22822 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-LLNW
+mp-export:      afi ipv6.unicast to AS22822 2001:7f8:42::a502:2822:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** IXREACH ***
+mp-import:      afi ipv6.unicast from AS43531 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-IXREACH
+mp-export:      afi ipv6.unicast to AS43531 2001:7f8:42::a504:3531:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** IXREACH ***
+mp-import:      afi ipv6.unicast from AS43531 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-IXREACH
+mp-export:      afi ipv6.unicast to AS43531 2001:7f8:42::a504:3531:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TWITCH ***
+mp-import:      afi ipv6.unicast from AS46489 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TWITCH
+mp-export:      afi ipv6.unicast to AS46489 2001:7f8:42::a504:6489:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TWITCH ***
+mp-import:      afi ipv6.unicast from AS46489 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TWITCH
+mp-export:      afi ipv6.unicast to AS46489 2001:7f8:42::a504:6489:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** TWITCH2 ***
+mp-import:      afi ipv6.unicast from AS46489 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-TWITCH
+mp-export:      afi ipv6.unicast to AS46489 2001:7f8:42::a504:6489:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** TWITCH2 ***
+mp-import:      afi ipv6.unicast from AS46489 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-TWITCH
+mp-export:      afi ipv6.unicast to AS46489 2001:7f8:42::a504:6489:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** ILARO ***
+mp-import:      afi ipv6.unicast from AS201020 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS201020
+mp-export:      afi ipv6.unicast to AS201020 2001:7f8:42::a520:1020:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** ILARO ***
+mp-import:      afi ipv6.unicast from AS201020 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS201020
+mp-export:      afi ipv6.unicast to AS201020 2001:7f8:42::a520:1020:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** Eltronik ***
+mp-import:      afi ipv6.unicast from AS43420 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS43420
+mp-export:      afi ipv6.unicast to AS43420 2001:7f8:42::a504:3420:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** Eltronik ***
+mp-import:      afi ipv6.unicast from AS43420 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS43420
+mp-export:      afi ipv6.unicast to AS43420 2001:7f8:42::a504:3420:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** AMPLUS_ ***
+mp-import:      afi ipv6.unicast from AS199057 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS199057
+mp-export:      afi ipv6.unicast to AS199057 2001:7f8:42::a519:9057:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** AMPLUS_ ***
+mp-import:      afi ipv6.unicast from AS199057 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS199057
+mp-export:      afi ipv6.unicast to AS199057 2001:7f8:42::a519:9057:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** AMAZON ***
+mp-import:      afi ipv6.unicast from AS16509 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 2001:7f8:42::a501:6509:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** AMAZON ***
+mp-import:      afi ipv6.unicast from AS16509 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 2001:7f8:42::a501:6509:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** AS34209 ***
+mp-import:      afi ipv6.unicast from AS34209 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-PLIXDC-MIX
+mp-export:      afi ipv6.unicast to AS34209 2001:7f8:42::a503:4209:3 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** AS34209 ***
+mp-import:      afi ipv6.unicast from AS34209 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-PLIXDC-MIX
+mp-export:      afi ipv6.unicast to AS34209 2001:7f8:42::a503:4209:3 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** EPIX2 ***
+mp-import:      afi ipv6.unicast from AS201054 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-EP-POLMIX
+mp-export:      afi ipv6.unicast to AS201054 2001:7f8:42::a520:1054:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** EPIX2 ***
+mp-import:      afi ipv6.unicast from AS201054 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-EP-POLMIX
+mp-export:      afi ipv6.unicast to AS201054 2001:7f8:42::a520:1054:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** WINOGRADY-BACKUP ***
+mp-import:      afi ipv6.unicast from AS197227 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS197227
+mp-export:      afi ipv6.unicast to AS197227 2001:7f8:42::a519:7227:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** WINOGRADY-BACKUP ***
+mp-import:      afi ipv6.unicast from AS197227 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS197227
+mp-export:      afi ipv6.unicast to AS197227 2001:7f8:42::a519:7227:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** IHAR ***
+mp-import:      afi ipv6.unicast from AS56904 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS56904
+mp-export:      afi ipv6.unicast to AS56904 2001:7f8:42::a505:6904:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** IHAR ***
+mp-import:      afi ipv6.unicast from AS56904 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS56904
+mp-export:      afi ipv6.unicast to AS56904 2001:7f8:42::a505:6904:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** PLUS2 ***
+mp-import:      afi ipv6.unicast from AS8374 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-PLUSNET
+mp-export:      afi ipv6.unicast to AS8374 2001:7f8:42::a500:8374:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** PLUS2 ***
+mp-import:      afi ipv6.unicast from AS8374 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-PLUSNET
+mp-export:      afi ipv6.unicast to AS8374 2001:7f8:42::a500:8374:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** VEGA ***
+mp-import:      afi ipv6.unicast from AS12883 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-UCOMLINE
+mp-export:      afi ipv6.unicast to AS12883 2001:7f8:42::a501:2883:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** VEGA ***
+mp-import:      afi ipv6.unicast from AS12883 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-UCOMLINE
+mp-export:      afi ipv6.unicast to AS12883 2001:7f8:42::a501:2883:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** NETTELEKOM ***
+mp-import:      afi ipv6.unicast from AS196826 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-NETTELEKOM
+mp-export:      afi ipv6.unicast to AS196826 2001:7f8:42::a519:6826:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** NETTELEKOM ***
+mp-import:      afi ipv6.unicast from AS196826 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-NETTELEKOM
+mp-export:      afi ipv6.unicast to AS196826 2001:7f8:42::a519:6826:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** NETFLIX ***
+mp-import:      afi ipv6.unicast from AS2906 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-NFLX
+mp-export:      afi ipv6.unicast to AS2906 2001:7f8:42::a500:2906:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** NETFLIX ***
+mp-import:      afi ipv6.unicast from AS2906 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-NFLX
+mp-export:      afi ipv6.unicast to AS2906 2001:7f8:42::a500:2906:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** SILESNET ***
+mp-import:      afi ipv6.unicast from AS43709 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-SILESNET
+mp-export:      afi ipv6.unicast to AS43709 2001:7f8:42::a504:3709:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** SILESNET ***
+mp-import:      afi ipv6.unicast from AS43709 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-SILESNET
+mp-export:      afi ipv6.unicast to AS43709 2001:7f8:42::a504:3709:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** STARNETTELECOM ***
+mp-import:      afi ipv6.unicast from AS41421 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-SNT
+mp-export:      afi ipv6.unicast to AS41421 2001:7f8:42::a504:1421:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** STARNETTELECOM ***
+mp-import:      afi ipv6.unicast from AS41421 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-SNT
+mp-export:      afi ipv6.unicast to AS41421 2001:7f8:42::a504:1421:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** FINEMEDIA ***
+mp-import:      afi ipv6.unicast from AS49743 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-FINEMEDIA
+mp-export:      afi ipv6.unicast to AS49743 2001:7f8:42::a504:9743:1 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** FINEMEDIA ***
+mp-import:      afi ipv6.unicast from AS49743 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-FINEMEDIA
+mp-export:      afi ipv6.unicast to AS49743 2001:7f8:42::a504:9743:1 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+remarks:        *** NETFLIX2 ***
+mp-import:      afi ipv6.unicast from AS2906 2001:7f8:42::a500:8545:1 at 2001:7f8:42::a500:8545:1 accept AS-NFLX
+mp-export:      afi ipv6.unicast to AS2906 2001:7f8:42::a500:2906:2 at 2001:7f8:42::a500:8545:1 announce AS-PLIX
+remarks:        *** NETFLIX2 ***
+mp-import:      afi ipv6.unicast from AS2906 2001:7f8:42::a500:8545:2 at 2001:7f8:42::a500:8545:2 accept AS-NFLX
+mp-export:      afi ipv6.unicast to AS2906 2001:7f8:42::a500:2906:2 at 2001:7f8:42::a500:8545:2 announce AS-PLIX
+created:        2002-10-11T14:27:46Z
+last-modified:  2019-01-03T12:43:03Z
+source:         RIPE
+
+organisation:   ORG-PDSz1-RIPE
+org-name:       Equinix (Poland) Sp. z o.o.
+org-type:       LIR
+address:        Al. Jerozolimskie 65/79
+address:        00-697
+address:        Warsaw
+address:        POLAND
+phone:          +48224273999
+fax-no:         +48226303999
+admin-c:        PN2248-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        EQUINIX-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         EQUINIX-MNT
+abuse-c:        EAM62-RIPE
+created:        2010-07-12T11:52:55Z
+last-modified:  2017-12-05T13:46:00Z
+source:         RIPE # Filtered
+
+role:           PLIX REGISTRY
+address:        Equinix (Poland) Sp. z o.o.
+address:        Al. Jerozolimskie 65/79
+address:        00-697 Warszawa
+address:        POLAND
+admin-c:        PN2248-RIPE
+tech-c:         PN2248-RIPE
+nic-hdl:        PLIX
+mnt-by:         MNT-PLIX
+created:        2010-12-26T12:32:06Z
+last-modified:  2017-12-05T08:25:03Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

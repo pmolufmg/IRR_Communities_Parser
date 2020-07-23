@@ -1,0 +1,180 @@
+aut-num:        AS59796
+as-name:        STORMSYSTEMS-AS
+org:            ORG-SSL44-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         stormwall-mnt
+mnt-routes:     stormwall-mnt
+mnt-routes:     ru-shijan-1-mnt
+remarks:        --------------------------
+remarks:        Upstreams
+remarks:        --------------------------
+import:         from AS6453 accept ANY
+export:         to AS6453 announce AS59796
+import:         from AS31133 accept ANY
+export:         to AS31133 announce AS59796
+import:         from AS20764 accept ANY
+export:         to AS20764 announce AS59796
+import:         from AS42745 accept ANY
+export:         to AS42745 announce AS59796
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS59796
+import:         from AS20485 accept ANY
+export:         to AS20485 announce AS59796
+remarks:        --------------------------
+remarks:        IXes
+remarks:        --------------------------
+import:         from AS-DATAIX accept ANY
+export:         to AS-DATAIX announce AS59796
+import:         from AS-DECIX accept ANY
+export:         to AS-DECIX announce AS59796
+import:         from AS-DECIX-V6 accept ANY
+export:         to AS-DECIX-V6 announce AS59796
+import:         from AS-DECIX-RS accept ANY
+export:         to AS-DECIX-RS announce AS59796
+import:         from AS-DECIX-RS-V6 accept ANY
+export:         to AS-DECIX-RS-V6 announce AS59796
+import:         from AS-DECIX-CONNECTED accept ANY
+export:         to AS-DECIX-CONNECTED announce AS59796
+import:         from AS-DECIX-CONNECTED-V6 accept ANY
+export:         to AS-DECIX-CONNECTED-V6 announce AS59796
+import:         from AS50384 accept ANY
+export:         to AS50384 announce AS59796
+import:         from AS8631 accept ANY
+export:         to AS8631 announce AS-STORMWALL-SET
+remarks:        --------------------------
+remarks:        Peers
+remarks:        --------------------------
+import:         from AS39743 accept ANY
+export:         to AS39743 announce AS59796
+import:         from AS25471 accept ANY
+export:         to AS25471 announce AS59796
+import:         from AS31037 accept ANY
+export:         to AS31037 announce AS59796
+import:         from AS34458 accept ANY
+export:         to AS34458 announce AS59796
+import:         from AS29099 accept ANY
+export:         to AS29099 announce AS59796
+import:         from AS43824 accept ANY
+export:         to AS43824 announce AS59796
+import:         from AS47289 accept ANY
+export:         to AS47289 announce AS59796
+import:         from AS60372 accept ANY
+export:         to AS60372 announce AS59796
+import:         from AS57256 accept ANY
+export:         to AS57256 announce AS59796
+import:         from AS47574 accept ANY
+export:         to AS47574 announce AS59796
+import:         from AS16130 accept ANY
+export:         to AS16130 announce AS59796
+import:         from AS42334 accept ANY
+export:         to AS42334 announce AS59796
+import:         from AS52368 accept ANY
+export:         to AS52368 announce AS59796
+import:         from AS8367 accept ANY
+export:         to AS8367 announce AS59796
+import:         from AS49080 accept ANY
+export:         to AS49080 announce AS59796
+import:         from AS197695 accept ANY
+export:         to AS197695 announce AS59796
+import:         from AS263237 accept ANY
+export:         to AS263237 announce AS59796
+import:         from AS34356 accept ANY
+export:         to AS34356 announce AS59796
+import:         from AS48629 accept ANY
+export:         to AS48629 announce AS59796
+import:         from AS50178 accept ANY
+export:         to AS50178 announce AS59796
+import:         from AS13044 accept ANY
+export:         to AS13044 announce AS59796
+import:         from AS59627 accept ANY
+export:         to AS59627 announce AS59796
+import:         from AS199070 accept ANY
+export:         to AS199070 announce AS59796
+import:         from AS51558 accept ANY
+export:         to AS51558 announce AS59796
+import:         from AS49683 accept ANY
+export:         to AS49683 announce AS59796
+import:         from AS34113 accept ANY
+export:         to AS34113 announce AS59796
+import:         from AS31390 accept ANY
+export:         to AS31390 announce AS59796
+import:         from AS25491 accept ANY
+export:         to AS25491 announce AS59796
+import:         from AS16169 accept ANY
+export:         to AS16169 announce AS59796
+import:         from AS64443 accept ANY
+export:         to AS64443 announce AS59796
+import:         from AS57553 accept ANY
+export:         to AS57553 announce AS59796
+import:         from AS206519 accept ANY
+export:         to AS206519 announce AS59796
+import:         from AS205814 accept ANY
+export:         to AS205814 announce AS59796
+import:         from AS35104 accept ANY
+export:         to AS35104 announce AS59796
+import:         from AS60494 accept ANY
+export:         to AS60494 announce AS59796
+import:         from AS64024 accept ANY
+export:         to AS64024 announce AS59796
+import:         from AS-KTCPEERS accept ANY
+export:         to AS-KTCPEERS announce AS59796
+import:         from AS23679 accept ANY
+export:         to AS23679 announce AS59796
+import:         from AS59931 accept ANY
+export:         to AS59931 announce AS59796
+import:         from AS43824 accept ANY
+export:         to AS43824 announce AS59796
+import:         from AS-SET-SCOPESKY accept ANY
+export:         to AS-SET-SCOPESKY announce AS59796
+import:         from AS393960 accept ANY
+export:         to AS393960 announce AS59796
+import:         from AS135330 accept ANY
+export:         to AS135330 announce AS59796
+import:         from AS200875 accept ANY
+export:         to AS200875 announce AS59796
+import:         from as-alsard-set accept ANY
+export:         to as-alsard-set announce AS59796
+import:         from AS202933 accept ANY
+export:         to AS202933 announce AS59796
+import:         from AS50516 accept ANY
+export:         to AS50516 announce AS59796
+import:         from AS38478 accept ANY
+export:         to AS38478 announce AS59796
+import:         from AS21100 accept ANY
+export:         to AS21100 announce AS59796
+import:         from AS42183 accept ANY
+export:         to AS42183 announce AS59796
+import:         from AS203653 accept ANY
+export:         to AS203653 announce AS59796
+import:         from AS41718 accept ANY
+export:         to AS41718 announce AS59796
+import:         from AS49020 accept ANY
+export:         to AS49020 announce AS59796
+import:         from AS25227 accept ANY
+export:         to AS25227 announce AS59796
+import:         from AS135343 accept ANY
+export:         to AS135343 announce AS59796
+import:         from AS327809 accept ANY
+export:         to AS327809 announce AS59796
+import:         from AS56333 accept ANY
+export:         to AS56333 announce AS59796
+import:         from AS57324 accept ANY
+export:         to AS57324 announce AS59796
+remarks:        --------------------------
+remarks:        Communities accepted from customers
+remarks:        --------------------------
+remarks:        59796:900 - Blackhole traffic (RTBH). /32 prefixes only.
+remarks:        --------------------------
+status:         ASSIGNED
+created:        2014-09-25T13:25:22Z
+last-modified:  2018-08-14T09:21:26Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

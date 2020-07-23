@@ -1,0 +1,190 @@
+aut-num:        AS34021
+as-name:        MULTI-VISP-ASN
+org:            ORG-SS449-RIPE
+sponsoring-org: ORG-AA31-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:        +---------------+
+remarks:        | Transits IPv4 |
+remarks:        +---------------+
+import:         from AS174 149.6.114.177 at 149.6.114.178 action pref=100; accept ANY
+import:         from AS174 149.6.114.177 at 149.6.114.179 action pref=100; accept ANY
+import:         from AS174 149.6.114.185 at 149.6.114.186 action pref=100; accept ANY
+import:         from AS174 149.6.114.185 at 149.6.114.187 action pref=100; accept ANY
+import:         from AS3356 212.73.205.189 at 212.73.205.190 action pref=100; accept ANY
+import:         from AS8218 83.167.52.1 at 83.167.52.2 action pref=100; accept ANY
+import:         from AS8218 83.167.52.5 at 83.167.52.6 action pref=100; accept ANY
+import:         from AS8218 83.167.52.217 at 83.167.52.218 action pref=100; accept ANY
+import:         from AS8218 83.167.52.221 at 83.167.52.222 action pref=100; accept ANY
+export:         to AS34021:AS-TRANSIT-V4 announce AS-MULTI-VISP
+remarks:        +---------------+
+remarks:        | Transits IPv6 |
+remarks:        +---------------+
+mp-import:      from AS174 2001:978:2:19::1 at 2001:978:2:19::2 action pref=100; accept ANY
+mp-import:      from AS174 2001:978:2:19::1 at 2001:978:2:19::3 action pref=100; accept ANY
+mp-import:      from AS174 2001:978:2:19::21 at 2001:978:2:19::22 action pref=100; accept ANY
+mp-import:      from AS174 2001:978:2:19::21 at 2001:978:2:19::23 action pref=100; accept ANY
+mp-import:      from AS3356 2001:1900:5:2:2::9B1 at 2001:1900:5:2:2::9B2 action pref=100; accept ANY
+mp-import:      from AS6939 2001:7f8:43::6939:1 at 2001:7F8:43::3:4021:1 action pref=100; accept ANY
+mp-import:      from AS8218 2001:1B48:3:2::1 at 2001:1B48:3:2::2 action pref=100; accept ANY
+mp-import:      from AS8218 2001:1B48:3:3::1 at 2001:1B48:3:3::2 action pref=100; accept ANY
+mp-import:      from AS30781 2001:860:0:6:0:3:781:1 at 2001:860:0:6:0:3:4021:1 action pref=100; accept ANY
+mp-export:      to AS34021:AS-TRANSIT-V6 announce AS-MULTI-VISP-V6;
+remarks:        +----------------+
+remarks:        | Customers IPv4 |
+remarks:        +----------------+
+import:         from AS28877 217.119.132.46 at 217.119.132.45 action pref=50; accept AS-AZURIA
+import:         from AS28877 217.119.132.66 at 217.119.132.65 action pref=50; accept AS-AZURIA
+import:         from AS39480 217.119.132.62 at 217.119.132.61 action pref=50; accept AS-VENIGO
+import:         from AS39480 217.119.132.78 at 217.119.132.77 action pref=50; accept AS-VENIGO
+import:         from AS44000 217.119.132.94 at 217.119.132.93 action pref=50; accept AS-NET1C
+import:         from AS48492 217.119.132.22 at 217.119.132.21 action pref=50; accept AS-MOTION-TWIN
+import:         from AS48492 217.119.132.74 at 217.119.132.73 action pref=50; accept AS-MOTION-TWIN
+import:         from AS33897 217.119.132.30 at 217.119.132.29 action pref=50; accept AS-HISI
+import:         from AS50588 217.119.132.34 at 217.119.132.33 action pref=50; accept AS50588
+export:         to AS34021:AS-CUST-V4 announce ANY
+remarks:        +----------------+
+remarks:        | Customers IPv6 |
+remarks:        +----------------+
+mp-import:      from AS28877 2a02:4c0:2:2:8877:1:0:1 at 2a02:4c0:2:2:8877:1:0:0 action pref=50; accept AS-AZURIA
+mp-import:      from AS28877 2a02:4c0:2:2:8877:2:0:1 at 2a02:4c0:2:2:8877:2:0:0 action pref=50; accept AS-AZURIA
+mp-export:      to AS34021:AS-CUST-V6 announce ANY;
+remarks:        +-------------------------------------------+
+remarks:        | Peerings Equinix Paris IPv4 195.42.144.38 |
+remarks:        +-------------------------------------------+
+import:         from AS42 195.42.144.17 at 195.42.144.38 action pref=80; accept AS42
+import:         from AS3856 195.42.144.18 at 195.42.144.38 action pref=80; accept AS-PCH
+import:         from AS4651 195.42.144.36 at 195.42.144.38 action pref=80; accept AS-THIX
+import:         from AS4651 195.42.144.104 at 195.42.144.38 action pref=80; accept AS-HURRICANE
+import:         from AS8304 195.42.144.116 at 195.42.144.38 action pref=80; accept AS-ECRITEL
+import:         from AS8527 195.42.144.81 at 195.42.144.38 action pref=80; accept AS-INTERNET-FR
+import:         from AS8554 195.42.144.64 at 195.42.144.38 action pref=80; accept AS-TAS
+import:         from AS8586 195.42.144.75 at 195.42.144.38 action pref=80; accept AS-OBSL
+import:         from AS8839 195.42.144.41 at 195.42.144.38 action pref=80; accept AS-SDV
+import:         from AS9036 195.42.144.97 at 195.42.144.38 action pref=80; accept AS-NEURONNEXION
+import:         from AS12350 195.42.144.50 at 195.42.144.38 action pref=80; accept AS-VTX
+import:         from AS12989 195.42.144.21 at 195.42.144.38 action pref=80; accept AS12989
+import:         from AS13030 195.42.144.138 at 195.42.144.38 action pref=80; accept AS13030
+import:         from AS13193 195.42.144.15 at 195.42.144.38 action pref=80; accept AS-NERIM
+import:         from AS13445 195.42.144.55 at 195.42.144.38 action pref=80; accept AS13445
+import:         from AS15133 195.42.144.65 at 195.42.144.38 action pref=80; accept AS-EDGECAST
+import:         from AS16128 195.42.144.124 at 195.42.144.38 action pref=80; accept AS-BULLPI
+import:         from AS16217 195.42.144.52 at 195.42.144.38 action pref=80; accept AS-LONGPHONE
+import:         from AS16347 195.42.144.112 at 195.42.144.38 action pref=80; accept AS-RMI
+import:         from AS20940 195.42.144.102 at 195.42.144.38 action pref=80; accept AS-AKAMAI
+import:         from AS24963 195.42.144.29 at 195.42.144.38 action pref=80; accept AS-YACAST
+import:         from AS24990 195.42.144.2 at 195.42.144.38 action pref=80; accept AS-EQUINIX-FR
+import:         from AS25593 195.42.144.137 at 195.42.144.38 action pref=80; accept AS-LINKBYNET
+import:         from AS29075 195.42.144.71 at 195.42.144.38 action pref=80; accept AS-IELO
+import:         from AS29169 195.42.144.8 at 195.42.144.38 action pref=80; accept AS-GANDI
+import:         from AS30126 195.42.144.37 at 195.42.144.38 action pref=80; accept AS30126
+import:         from AS30889 195.42.144.39 at 195.42.144.38 action pref=80; accept AS-WAYCOM
+import:         from AS31688 195.42.144.35 at 195.42.144.38 action pref=80; accept AS31688
+import:         from AS33835 195.42.144.109 at 195.42.144.38 action pref=80; accept AS33835
+import:         from AS34006 195.42.144.133 at 195.42.144.38 action pref=80; accept AS34006
+import:         from AS34019 195.42.144.47 at 195.42.144.38 action pref=80; accept AS-HIVANE
+import:         from AS34177 195.42.144.63 at 195.42.144.38 action pref=80; accept AS-CELESTE
+import:         from AS34913 195.42.144.90 at 195.42.144.38 action pref=80; accept AS-RENTABILIWEB-TELECOM
+import:         from AS34997 195.42.144.80 at 195.42.144.38 action pref=80; accept AS-ALIONIS
+import:         from AS35189 195.42.144.59 at 195.42.144.38 action pref=80; accept AS-KAZAR
+import:         from AS35393 195.42.144.5 at 195.42.144.38 action pref=80; accept AS-EUROWEB
+import:         from AS35655 195.42.144.167 at 195.42.144.38 action pref=80; accept AS-OXYD
+import:         from AS35905 195.42.144.25 at 195.42.144.38 action pref=80; accept AS-EMAILVISION
+import:         from AS37958 195.42.144.67 at 195.42.144.38 action pref=80; accept AS37958
+import:         from AS39605 195.42.144.131 at 195.42.144.38 action pref=80; accept AS-IGUANESTUDIO
+import:         from AS39912 195.42.144.118 at 195.42.144.38 action pref=80; accept AS-I3B
+import:         from AS41157 195.42.144.33 at 195.42.144.38 action pref=80; accept AS-OXYMIUM
+import:         from AS41628 195.42.144.125 at 195.42.144.38 action pref=80; accept AS-NEXEN
+import:         from AS41653 195.42.144.145 at 195.42.144.38 action pref=80; accept AS-AQUARAY
+import:         from AS41690 195.42.144.10 at 195.42.144.38 action pref=80; accept AS-DAILYMOTION
+import:         from AS42456 195.42.144.16 at 195.42.144.38 action pref=80; accept AS-CHMURTZ-EQX
+import:         from AS44099 195.42.144.89 at 195.42.144.38 action pref=80; accept AS44099
+import:         from AS44141 195.42.144.53 at 195.42.144.38 action pref=80; accept AS44141
+import:         from AS44334 195.42.144.111 at 195.42.144.38 action pref=80; accept AS44334
+import:         from AS44444 195.42.144.31 at 195.42.144.38 action pref=80; accept AS-WHS-EU
+import:         from AS44583 195.42.144.57 at 195.42.144.38 action pref=80; accept AS-ANDREXEN
+import:         from AS47841 195.42.144.11 at 195.42.144.38 action pref=80; accept AS47841
+import:         from AS48528 195.42.144.78 at 195.42.144.38 action pref=80; accept AS-ADVALEM
+import:         from AS50234 195.42.144.49 at 195.42.144.38 action pref=80; accept AS-EULERIAN
+import:         from AS50620 195.42.144.121 at 195.42.144.38 action pref=80; accept AS-BLUENETECH
+import:         from AS50858 195.42.144.77 at 195.42.144.38 action pref=80; accept AS50858
+export:         to AS34021:AS-PEER-EQUINIX-PARIS-V4 announce AS-MULTI-VISP
+remarks:        +---------------------------------------------------+
+remarks:        | Peerings Equinix Paris IPv6 2001:7F8:43::3:4021:1 |
+remarks:        +---------------------------------------------------+
+mp-import:      from AS42 2001:7F8:43::42:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS42
+mp-import:      from AS3856 2001:7F8:43::3856:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-PCH
+mp-import:      from AS4651 2001:7F8:43::4651:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-THIX
+mp-import:      from AS8304 2001:7F8:43::8304:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-ECRITEL
+mp-import:      from AS8527 2001:7F8:43::8527:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-INTERNET-FR
+mp-import:      from AS8554 2001:7F8:43::8554:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-TAS
+mp-import:      from AS8586 2001:7F8:43::8586:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-OBSL
+mp-import:      from AS12989 2001:7F8:43::1:2989:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS12989
+mp-import:      from AS13193 2001:7F8:43::1:3193:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-NERIM
+mp-import:      from AS16347 2001:7F8:43::1:6347:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-RMI
+mp-import:      from AS21371 2001:7F8:43::2:1371:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-EQUINIX-EU
+mp-import:      from AS24693 2001:7F8:43::2:4693:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-YACAST
+mp-import:      from AS29075 2001:7F8:43::2:4693:1 at 2001:7F8:43::2:9075:1 action pref=80; accept AS-IELO
+mp-import:      from AS29169 2001:7F8:43::2:9169:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-GANDI
+mp-import:      from AS30126 2001:7F8:43::3:1026:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS30126
+mp-import:      from AS31688 2001:7F8:43::3:1688:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS31688
+mp-import:      from AS34006 2001:7F8:43::3:4006:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS34006
+mp-import:      from AS34997 2001:7F8:43::3:4997:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-ALIONIS
+mp-import:      from AS35189 2001:7f8:43::3:5189:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-KAZAR
+mp-import:      from AS39905 2001:7F8:43::3:9905:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-EMAILVISION
+mp-import:      from AS39912 2001:7f8:43::3:9912:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-I3B
+mp-import:      from AS42456 2001:7F8:43::4:2456:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-CHMURTZ-IPV6
+mp-import:      from AS44444 2001:7F8:43::4:4444:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-WHS-EU
+mp-import:      from AS48528 2001:7F8:43::4:8528:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-ADVALEM
+mp-import:      from AS50234 2001:7F8:43::5:0234:1 at 2001:7F8:43::3:4021:1 action pref=80; accept AS-EULERIAN
+mp-export:      to AS34021:AS-PEER-EQUINIX-PARIS-V6 announce AS-MULTI-VISP-V6;
+remarks:        +-----------------------------------------------------------+
+remarks:        | Community list |
+remarks:        | 34021:100 internal routes |
+remarks:        | 34021:101 customers routes |
+remarks:        | 34021:102 peerings routes |
+remarks:        | 34021:103 transits routes |
+remarks:        | 34021:666 blackhole |
+remarks:        | 34021:1010 depref customers (set local-pref 290) |
+remarks:        | 34021:1020 depref peerings (set local-pref 190) |
+remarks:        | 34021:1030 depref transits (set local-pref 90) |
+remarks:        | 34021:2001 do not send route to BGP customers or peers |
+remarks:        | 34021:2002 do not send route to peers |
+remarks:        | 34021:2011 prepend 34021 1 time |
+remarks:        | 34021:2012 prepend 34021 2 times |
+remarks:        | 34021:2013 prepend 34021 3 times |
+remarks:        | 34021:2020 do not announce to neotelecoms (AS8218) |
+remarks:        | 34021:2021 prepend 34021 1 time to neotelecoms |
+remarks:        | 34021:2022 prepend 34021 2 times to neotelecoms |
+remarks:        | 34021:2023 prepend 34021 3 times to neotelecoms |
+remarks:        | 34021:2030 do not announce to cogent (AS174) |
+remarks:        | 34021:2031 prepend 34021 1 time to cogent |
+remarks:        | 34021:2032 prepend 34021 2 times to cogent |
+remarks:        | 34021:2033 prepend 34021 3 times to cogent |
+remarks:        | 34021:2040 do not announce to level3 (AS3356) |
+remarks:        | 34021:2041 prepend 34021 1 time to level3 |
+remarks:        | 34021:2042 prepend 34021 2 times to level3 |
+remarks:        | 34021:2043 prepend 34021 3 times to level3 |
+remarks:        | 65000:ASN do not announce to ASN |
+remarks:        | 65001:ASN prepend 34021 1 time to ASN |
+remarks:        | 65002:ASN prepend 34021 2 times to ASN |
+remarks:        | 65003:ASN prepend 34021 3 times to ASN |
+remarks:        +-----------------------------------------------------------+
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MULTI-VISP-MNT
+mnt-by:         MNT-MULTI-VISP
+mnt-by:         MNT-SECR
+mnt-routes:     MULTI-VISP-MNT
+mnt-routes:     MNT-MULTI-VISP
+mnt-routes:     MNT-SECR
+created:        2004-10-01T08:13:35Z
+last-modified:  2017-12-02T19:25:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

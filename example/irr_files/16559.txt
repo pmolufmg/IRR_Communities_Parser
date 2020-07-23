@@ -1,0 +1,250 @@
+aut-num:    AS16559
+as-name:    RealConnect
+descr:      RealConnect, Inc
+            11703 Bowman Green Drive
+            Suite 200
+            Reston, VA 20190
+            US
+member-of:  AS16559:AS-REALCONNECT
+import:     from AS3356 63.210.41.185 at 63.210.41.186
+            action pref = 75;
+            med = igp_cost;
+            community.append(16559:500, 16559:65502);
+            accept ANY AND NOT AS16559:RS-REJECTED
+import:     from AS3549 208.48.236.81 at 208.48.236.82
+            action pref = 75;
+            med = igp_cost;
+            community.append(16559:500, 16559:65501);
+            accept ANY AND NOT AS16559:RS-REJECTED
+import:     from AS174 205.198.0.137 at 205.198.0.138
+            action pref = 75;
+            med = igp_cost;
+            community.append(16559:500, 16559:65503);
+            accept ANY AND NOT AS16559:RS-REJECTED
+import:     {
+            from AS-ANY at 206.223.115.26
+            action pref = 85;
+            med = igp_cost;
+            community.append(16559:400, 16559:65401);
+            accept ANY;
+            from AS-ANY at 198.32.190.32
+            action pref = 85;
+            med = igp_cost;
+            community.append(16559:400, 16559:65402);
+            accept ANY;
+            } refine {
+            from AS16559:AS-PEERS
+            accept (<^PeerAS+ PeerAS:AS-CUSTOMERS*$>)
+            AND NOT AS16559:RS-REJECTED;
+            }
+import:     {
+            from AS-ANY action pref = 110;
+            med = igp_cost;
+            community.append(16559:300);
+            accept community.contains(16559:110);
+            from AS-ANY action pref = 100;
+            med = igp_cost;
+            community.append(16559:300);
+            accept community.contains(16559:100);
+            from AS-ANY action pref = 90;
+            med = igp_cost;
+            community.append(16559:300);
+            accept community.contains(16559:90);
+            from AS-ANY action pref = 80;
+            med = igp_cost;
+            community.append(16559:300);
+            accept community.contains(16559:80);
+            from AS-ANY action pref = 70;
+            med = igp_cost;
+            community.append(16559:300);
+            accept community.contains(16559:70);
+            from AS-ANY action pref = 100;
+            med = igp_cost;
+            community.append(16559:300);
+            accept ANY;
+            } refine {
+            from AS16559:AS-CUSTOMERS
+            accept AS16559:RS-ROUTES:PeerAS;
+            }
+import:     from AS16559
+            action pref = 100;
+            med = igp_cost;
+            community.append(16559:300);
+            accept AS16559:RS-CUSTOMERS;
+export:     to AS16559:AS-TRANSITS action med = igp_cost;
+            announce AS16559 AS16559:AS-CUSTOMERS AS16559:RS-CUSTOMERS
+            AND NOT AS16559:RS-REJECTED;
+export:     to AS16559:AS-PEERS action med = igp_cost;
+            announce AS16559 AS16559:AS-CUSTOMERS AS16559:RS-CUSTOMERS
+            AND NOT AS16559:RS-REJECTED;
+export:     to AS27248 action med=igp_cost;
+            announce AS16559 AS16559:AS-CUSTOMERS {0.0.0.0/0}
+admin-c:    DO86-ARIN
+tech-c:     DO86-ARIN
+remarks:    ########################################################
+            ========================================================
+            Abuse reports to abuse@realconnect.com
+            Network issues to noc@realconnect.com
+            Peering issues to peering@realconnect.com
+            ========================================================
+            Details of RealConnect peering policy and how to get in touch with RealConnect regarding policy matters can be found at: http://realconnect.com/peering/
+            ========================================================
+            The following import actions are common to every RealConnect transits session:
+            - RFC1918 and other reserved networks and subnets are not permitted.
+            - Advertisements with reserved ASes in the path (ie 64512 - 65535) are not permitted.
+            - Prefixes shorter than /3 or longer than /24 are not permitted.
+            - Localpref will be set to 75 by default.
+            ========================================================
+            Communities applied at ingress for Transits
+            ========================================================
+            --------------------------------------------------------
+            prefix type communities
+            --------------------------------------------------------
+            16559:500 - Peer route
+            --------------------------------------------------------
+            transit point communities
+            --------------------------------------------------------
+            16559:65501 - Global Crossing
+            16559:65502 - Level(3)
+            16559:65503 - Cogent (Old Aleron, now own by Cogent)
+            --------------------------------------------------------
+            ========================================================
+            List of transit ASes
+            ========================================================
+            ########################################################
+            ########################################################
+            ========================================================
+            The following import actions are common to every RealConnect peering session:
+            - RFC1918 and other reserved networks and subnets are not permitted.
+            - Advertisements with reserved ASes in the path (ie 64512 - 65535) are not permitted.
+            - Prefixes shorter than /3 or longer than /24 are not permitted.
+            - Localpref will be set to 85 by default.
+            - A hard limit is placed on the number of routes a peer is allowed to announce to us. This number is based on their registered routes plus a bit of extra overhead. If no routes are register, then we look at what we receive when peering is establish and add overhead for future growth.
+            ========================================================
+            Communities applied at ingress for Peers
+            ========================================================
+            --------------------------------------------------------
+            prefix type communities
+            --------------------------------------------------------
+            16559:400 - Peer route
+            --------------------------------------------------------
+            peering point communities
+            --------------------------------------------------------
+            16559:65401 - IBX-VA
+            16559:65402 - PAIX-VA
+            --------------------------------------------------------
+            ========================================================
+            List of peer ASes is describe and maintain in AS16559:AS-PEERS
+            ========================================================
+            ########################################################
+            ########################################################
+            ========================================================
+            The following import actions are common to every RealConnect customer peering session:
+            - RFC1918 and other reserved networks and subnets are not permitted.
+            - Advertisements with reserved ASes in the path (ie 64512 - 65535) are not permitted.
+            - Prefixes shorter than /8 or longer than /24 are not permitted.
+            - Advertisements containing the AS of a network with which we have a non-customer peering relationship are not permitted (ie customers are not allowed to advertise transit for Global Crossing, Genuity, Level(3), etc).
+            - Advertisements tagged with our own "internal use only" communities (ie transit, customer, etc communities outlined below) will have all of their communities stripped from them at ingress, and any communities meant to affect localpref, prepending, etc are thus ignored.
+            - Localpref will be set to 100 by default, subject to modification based on received communities as outlined below.
+            - A hard limit is placed on the number of routes a customer is allowed to announce to us. This number is based on their registered routes plus a bit of extra overhead.
+            - Suppression and prepend actions as outlined in the community list below are taken for announcements to non-customer peers.
+            ========================================================
+            Communities applied at ingress for Customers
+            ========================================================
+            --------------------------------------------------------
+            prefix type communities
+            --------------------------------------------------------
+            16559:300 - Customer route
+            --------------------------------------------------------
+            Customer point communities
+            --------------------------------------------------------
+            16559:65301 - Washington, DC
+            16559:65302 - Ashburn, VA
+            16559:65303 - Tyson, VA
+            16559:65304 - McLean, VA
+            ========================================================
+            Communities accepted from customers
+            ========================================================
+            --------------------------------------------------------
+            customer traffic engineering (TE) notes
+            --------------------------------------------------------
+            Communities allow suppress or prepend to peer AS, where
+            - peer AS has a peering connection to RealConnect
+            - peer AS is not a customer of RealConnect
+            At this time, supported AS XXX are or Transit ASes only are AS174, AS3356, AS3549.
+            --------------------------------------------------------
+            Customer traffic engineering communities - Suppression
+            Note that these are apply at egress only. See below.
+            --------------------------------------------------------
+            65000:0 - Do not announce this route to any peer
+            65000:XXX - Do not announce at peerings to AS XXX
+            --------------------------------------------------------
+            Customer traffic engineering communities - Prepending
+            --------------------------------------------------------
+            65001:0 - Prepend once to all peers
+            65001:XXX - Prepend once at peerings to AS XXX
+            65002:0 - Prepend twice to all peers
+            65002:XXX - Prepend twice at peerings to AS XXX
+            65003:0 - Prepend 3x to all peers
+            65003:XXX - Prepend 3x at peerings to AS XXX
+            65004:0 - Prepend 4x to all peers
+            65004:XXX - Prepend 4x at peerings to AS XXX
+            --------------------------------------------------------
+            Customer traffic engineering communities - LocalPref.
+            The following BGP communities can be set by RealConnect BGP customers to affect route announcements.
+            --------------------------------------------------------
+            16559:110 - Set Local preference to 110
+            16559:100 - Set Local preference to 100
+            16559:90 - Set Local preference to 90
+            16559:80 - Set Local preference to 80
+            16559:70 - Set Local preference to 70
+            ========================================================
+            List of customer ASes is describe and maintain in AS16559:AS-CUSTOMERS
+            ========================================================
+            ########################################################
+            ########################################################
+            ========================================================
+            For the customers without ASes, we use AS16559:RS-CUSTOMERS to describe their routes and they will be announce under RealConnect AS number.
+            ========================================================
+            ########################################################
+            ########################################################
+            ========================================================
+            Communities applied at egress for Transits and Peers
+            ========================================================
+            The following export actions are common to every RealConnect transits and peering session, unless otherwise noted.
+            - RFC1918 and other reserved networks and subnets are not permitted.
+            - Advertisements with reserved ASes in the path (ie 64512 - 65535) are not permitted.
+            - Prefixes shorter than /8 or longer than /24 are not permitted.
+            --------------------------------------------------------
+            Customer traffic engineering (TE) notes
+            --------------------------------------------------------
+            Communities allow suppress or prepend to peer AS, where
+            - peer AS has a peering connection to RealConnect
+            - peer AS is not a customer of RealConnect
+            At this time, supported AS XXX are or Transit ASes only are AS174, AS3356, AS3549.
+            --------------------------------------------------------
+            Customer traffic engineering communities - Suppression
+            --------------------------------------------------------
+            65000:0 - Do not announce this route to any peer
+            65000:XXX - Do not announce at peerings to AS XXX
+            --------------------------------------------------------
+            Customer traffic engineering communities - Prepending
+            --------------------------------------------------------
+            65001:0 - Prepend once to all peers
+            65001:XXX - Prepend once at peerings to AS XXX
+            65002:0 - Prepend twice to all peers
+            65002:XXX - Prepend twice at peerings to AS XXX
+            65003:0 - Prepend 3x to all peers
+            65003:XXX - Prepend 3x at peerings to AS XXX
+            65004:0 - Prepend 4x to all peers
+            65004:XXX - Prepend 4x at peerings to AS XXX
+            --------------------------------------------------------
+            ========================================================
+            List of transit ASes are maintain in the AS16559:AS-TRANSITS
+            And the list of peering partners is maintain in AS16559:AS-PEERS
+            ========================================================
+            ########################################################
+notify:     hostmaster@realconnect.com
+mnt-by:     MAINT-AS16559
+changed:    daniel@realconnect.com 20110205  #00:19:19Z
+source:     RADB

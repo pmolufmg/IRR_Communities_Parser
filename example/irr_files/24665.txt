@@ -1,0 +1,234 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS24576 - AS24735'
+
+as-block:       AS24576 - AS24735
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:29Z
+last-modified:  2018-11-22T15:27:29Z
+source:         RIPE
+
+% Information related to 'AS24665'
+
+% Abuse contact for 'AS24665' is 'abuse@rt.ru'
+
+aut-num:        AS24665
+as-name:        SUTC-AS
+remarks:        ------------------------------------------------------------------
+remarks:        Customers:
+remarks:        ------------------------------------------------------------------
+import:         {
+                from AS-ANY action community .= {24665:2000}; accept NOT {0.0.0.0/0};
+                } refine {
+                from AS-ANY action pref=25; accept community(24665:75);
+                from AS-ANY action pref=50; accept community(24665:50);
+                from AS-ANY action pref=75; accept community(24665:25);
+                from AS-ANY action pref=0; accept ANY;
+                } refine {
+                from AS24665:AS-CUST accept
+                (AS24665:AS-IN:PeerAS OR PeerAS) AND
+                (<AS24665:AS-IN:PeerAS$> OR <PeerAS$>);
+                } refine {
+                from AS-ANY accept PeerAS
+                AND (NOT AS28890 OR {83.167.0.0/20^20-32, 88.86.192.0/20^20-32});
+                }
+export:         {
+                to AS24665:AS-CUST
+                announce (AS24665:AS-OUT:PeerAS
+                OR (AS-SUTC-CUST AND (NOT AS28890 OR {83.167.0.0/20^20-32, 88.86.192.0/20^20-32})))
+                AND community(24665:300, 24665:1000, 24665:2000);
+                to AS24665:AS-OUT-DEFAULT
+                announce {0.0.0.0/0};
+                to AS24665:AS-OUT-FULL
+                announce NOT AS24665:RS-MARTIANS;
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        Peering:
+remarks:        ------------------------------------------------------------------
+import:         {
+                from AS-ANY action pref=25; community .= {24665:300}; accept NOT {0.0.0.0/0};
+                } refine {
+                from AS24665:AS-PEER accept
+                (AS24665:AS-PEER-IN:PeerAS OR PeerAS) AND
+                (<AS24665:AS-PEER-IN:PeerAS$> OR <PeerAS$>);
+                }
+export:         {
+                to AS-ANY
+                announce NOT community(24665:200, 24665:1000);
+                } refine {
+                to AS24665:AS-PEER
+                announce (AS24665:AS-PEER-OUT:PeerAS AND (NOT AS28890 OR {83.167.0.0/20^20-32, 88.86.192.0/20^20-32}))
+                OR (AS-SUTC-PEERING AND (NOT AS28890 OR {83.167.0.0/20^20-32, 88.86.192.0/20^20-32}));
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        Private peering:
+remarks:        ------------------------------------------------------------------
+import:         {
+                from AS-ANY
+                action pref=25; community .= {24665:1000};
+                accept ANY;
+                } refine {
+                from AS3239
+                action  community .= {24665:204};
+                accept
+                {212.220.120.0/21^21-24, 90.151.160.0/24, 90.150.2.232/30, 90.150.2.236/30}
+                AND (<^AS3239$> OR <^AS3239 AS35400$>);
+                from AS39775
+                action  community .= {24665:205};
+                accept AS-HYPERNET OR AS-CHEL-IX-ROUTESERVER OR AS8324;
+                }
+export:         {
+                to AS-ANY
+                announce NOT community(24665:200, 24665:300);
+                } refine {
+                to AS3239
+                announce (AS24665 OR (AS28890 AND {83.167.0.0/20^20-32, 88.86.192.0/20^20-32})) AND NOT community(24665:105);
+                to AS39775
+                announce AS-SUTC AND (NOT AS28890 OR {83.167.0.0/20^20-32, 88.86.192.0/20^20-32});
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        Upstreams:
+remarks:        ------------------------------------------------------------------
+import:         {
+                from AS-ANY
+                action community .= {24665:200};
+                accept ANY;
+                } refine {
+                from AS29648 217.115.80.89 at 217.115.92.214
+                action pref=50; community .= {24665:201};
+                accept NOT AS24665:RS-MARTIANS;
+                from AS29648 217.115.82.37 at 217.115.82.38
+                action pref=50; community .= {24665:202};
+                accept NOT ANY;
+                from AS29648 217.115.92.213 at 217.115.92.214
+                action pref=50; community .= {24665:203};
+                accept <^AS29648$> NOT AS24665:RS-MARTIANS;
+                from AS3216
+                action pref=75; community .= {24665:203};
+                accept NOT AS24665:RS-MARTIANS;
+                }
+export:         {
+                to AS29648 217.115.82.37 at 217.115.82.38
+                announce {81.20.170.0/24};
+                }
+export:         {
+                to AS-ANY
+                announce
+                AS-SUTC AND NOT {0.0.0.0/0}
+                AND NOT community(24665:100, 24665:200, 24665:300, 24665:1000)
+                AND NOT AS24665:RS-MARTIANS
+                AND (NOT AS28890 OR {83.167.0.0/20^20-32, 88.86.192.0/20^20-32});
+                } refine {
+                to AS29648 217.115.80.89 at 217.115.92.213
+                announce NOT ANY;
+                to AS29648 217.115.92.213 at 217.115.92.214
+                announce NOT community(24665:102) and NOT {81.20.170.0/24};
+                to AS3216
+                action community .= {3216:5870};
+                announce NOT community(24665:103);
+                }
+remarks:        Local preferens:
+remarks:        100 - Customers
+remarks:        75  - Peering
+remarks:        50  - Upstream
+remarks:        25  - Backup
+remarks:
+remarks:        24665:75 - Peering
+remarks:        24665:50 - Upstream
+remarks:        24665:25 - Backup
+remarks:
+remarks:        24665:100 - Do not announce route to upstream or peer
+remarks:        24665:1NN - Do not announce route to upstream NN
+remarks:
+remarks:        24665:2NN
+remarks:        Route is learned from upstream or peering point NN
+remarks:
+remarks:        00 - All Upstream
+remarks:        01 - Syntera Paid (AS29648)
+remarks:        02 - Syntera Flat (AS29648)
+remarks:        03 - Golden (AS3216)
+remarks:        04 - USI (AS3239)
+remarks:        05 - HyperNet (AS39775)
+remarks:
+remarks:        24665:300  - Route is learned from peering point
+remarks:        24665:1000 - Route is learned from private peering point
+remarks:        24665:2000 - Route is learned from customers
+remarks:        24665:3000 - Route is aggregated from our network
+remarks:
+org:            ORG-JR8-RIPE
+admin-c:        SUTC1-RIPE
+tech-c:         SUTC1-RIPE
+status:         ASSIGNED
+mnt-by:         DION-MNT-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-02-11T13:13:26Z
+last-modified:  2017-11-15T09:19:09Z
+source:         RIPE
+
+organisation:   ORG-JR8-RIPE
+org-name:       PJSC Rostelecom
+org-type:       LIR
+address:        25-2, Dubovaya Roscha street
+address:        127427
+address:        MOSCOW
+address:        RUSSIAN FEDERATION
+phone:          +7 495 339 11 22
+fax-no:         +74999953619
+admin-c:        RTNC-RIPE
+admin-c:        DS4715-RIPE
+admin-c:        EP6706-RIPE
+admin-c:        OO1522-RIPE
+admin-c:        NM7547-RIPE
+admin-c:        AA728-RIPE
+admin-c:        SVS153-RIPE
+admin-c:        ASV77-RIPE
+admin-c:        RVP-RIPE
+admin-c:        VEV57-RIPE
+admin-c:        TR4627-RIPE
+admin-c:        TL4565-RIPE
+admin-c:        AVB77-RIPE
+admin-c:        DN216-RIPE
+admin-c:        DA2353-RIPE
+admin-c:        ANK2555-RIPE
+admin-c:        IS111-RIPE
+admin-c:        VE128-RIPE
+admin-c:        SS216-RIPE
+abuse-c:        RTNC-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ROSTELECOM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ROSTELECOM-MNT
+created:        2005-03-22T11:11:20Z
+last-modified:  2018-10-03T10:00:29Z
+source:         RIPE # Filtered
+
+role:           SUTC network admin team
+address:        Russia, Chelyabinsk, 40 Let Pobedi 33b
+abuse-mailbox:  abuse@sutc.ru
+admin-c:        IVK31-RIPE
+admin-c:        SNS61-RIPE
+admin-c:        LAP21-RIPE
+admin-c:        VDA82-RIPE
+admin-c:        RAR33-RIPE
+tech-c:         IVK31-RIPE
+tech-c:         LAP21-RIPE
+tech-c:         RAR33-RIPE
+nic-hdl:        SUTC1-RIPE
+mnt-by:         DION-MNT-RIPE
+created:        2008-01-25T20:14:06Z
+last-modified:  2011-02-08T07:57:31Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

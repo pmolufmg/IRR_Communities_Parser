@@ -1,0 +1,105 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS51373'
+
+% Abuse contact for 'AS51373' is 'abuse@telkonekt.pl'
+
+aut-num:        AS51373
+as-name:        TELKONEKT-AS
+descr:          TELKONEKT Autonomous System
+descr:          93-465 Lodz, ul. Dubois 114/116, POLAND
+org:            ORG-SZOO2-RIPE
+import:         from AS8246 action pref=100; accept ANY
+export:         to AS8246 announce AS-TELKONEKT
+import:         from AS24724 action pref=100; accept ANY
+export:         to AS24724 announce AS-TELKONEKT
+remarks:
+remarks:        -------------------------------------------------------------------
+remarks:        BGP Community used in AS51373 - Traffic Control (Customer Settable)
+remarks:        -------------------------------------------------------------------
+remarks:
+remarks:        51373:2000 Do not announce to any peer
+remarks:
+remarks:        51373:2400 Do not announce to ATM (AS24724)
+remarks:        51373:240x Prepend x=1,2,3 times to ATM (AS24724)
+remarks:
+remarks:        51373:2600 Do not announce to EXATEL (AS20804)
+remarks:        51373:260x Prepend x=1,2,3 times to EXATEL (AS20804)
+remarks:
+remarks:        51373:2700 Do not announce to HURRICANE (AS6939)
+remarks:        51373:270x Prepend x=1,2,3 times to HURRICANE (AS6939)
+remarks:
+remarks:        51373:2800 Do not announce to TPMIX (AS29535)
+remarks:        51373:280x Prepend x=1,2,3 times to TPMIX (AS29535)
+remarks:
+remarks:        We do not accept all RFC1997 communities.
+remarks:
+remarks:
+remarks:        -------------------------------------------------------------------
+remarks:        Contact Information
+remarks:        -------------------------------------------------------------------
+remarks:        general: telkonekt@telkonekt.pl
+remarks:        customers service: bok@telkonekt.pl
+remarks:        bgp and peering: bgp@telkonekt.pl
+remarks:        abuse: abuse@telkonekt.pl
+remarks:
+admin-c:        PB11167-RIPE
+tech-c:         PB11167-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TELKONEKT-MNT
+mnt-lower:      TELKONEKT-MNT
+created:        2010-08-03T11:00:35Z
+last-modified:  2018-09-04T10:53:09Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SZOO2-RIPE
+org-name:       "TELKONEKT" SPOLKA Z OGRANICZONA ODPOWIEDZIALNOSCIA
+org-type:       LIR
+address:        ul. Dubois 114/116
+address:        93-465
+address:        Lodz
+address:        POLAND
+phone:          +48422807807
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TELKONEKT-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TELKONEKT-MNT
+abuse-c:        TH5061-RIPE
+created:        2013-12-06T15:09:51Z
+last-modified:  2017-08-22T07:16:39Z
+source:         RIPE # Filtered
+
+person:         Piotr Bialkowski
+address:        TELKONEKT SP. Z O.O.
+address:        ul. Dubois 114/116
+address:        93-465 Lodz
+address:        POLAND
+phone:          +48 722115052
+nic-hdl:        PB11167-RIPE
+mnt-by:         TELKONEKT-MNT
+created:        2010-06-22T11:16:08Z
+last-modified:  2010-08-04T11:13:59Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

@@ -1,0 +1,197 @@
+aut-num:        AS60610
+as-name:        EVEREST-AS
+org:            ORG-ECL16-RIPE
+remarks:
+remarks:        *******************************************
+remarks:        ***** Transits *****
+remarks:        *******************************************
+remarks:
+import:         from AS1299 accept ANY
+import:         from AS2914 accept ANY
+export:         to AS1299 announce AS-EVERESTDATA
+export:         to AS2914 announce AS-EVERESTDATA
+remarks:
+remarks:        *******************************************
+remarks:        ***** Clients *****
+remarks:        *******************************************
+remarks:
+import:         from AS15216 accept AS-HOSTWAYUK
+export:         to AS15216 announce ANY
+import:         from AS42040 accept AS-CROSSPOINT
+export:         to AS42040 announce ANY
+import:         from AS43082 accept AS43082
+export:         to AS43082 announce ANY
+import:         from AS43262 accept AS43262
+export:         to AS43262 announce ANY
+import:         from AS44574 accept AS44574
+export:         to AS44574 announce ANY
+import:         from AS50957 accept AS-MEMSET
+export:         to AS50957 announce ANY
+import:         from AS57168 accept AS57168
+export:         to AS57168 announce ANY
+import:         from AS59897 accept AS59897
+export:         to AS59897 announce ANY
+import:         from AS201471 accept AS201471
+export:         to AS201471 announce ANY
+import:         from AS201862 accept AS201862
+export:         to AS201862 announce ANY
+import:         from AS202212 accept AS202212
+export:         to AS202212 announce ANY
+remarks:
+remarks:        *******************************************
+remarks:        ******** LINX Juniper Peering *********
+remarks:        *******************************************
+remarks:
+import:         from AS42 accept AS42
+export:         to AS42 announce AS-EVERESTDATA
+import:         from AS714 accept AS714
+export:         to AS714 announce AS-EVERESTDATA
+import:         from AS786 accept AS786
+export:         to AS786 announce AS-EVERESTDATA
+import:         from AS2119 accept AS2119
+export:         to AS2119 announce AS-EVERESTDATA
+import:         from AS3856 accept AS3856
+export:         to AS3856 announce AS-EVERESTDATA
+import:         from AS5459 accept ANY
+export:         to AS5459 announce AS-EVERESTDATA
+import:         from AS5607 accept AS5607
+export:         to AS5607 announce AS-EVERESTDATA
+import:         from AS5631 accept AS5631
+export:         to AS5631 announce AS-EVERESTDATA
+import:         from AS6805 accept AS6805
+export:         to AS6805 announce AS-EVERESTDATA
+import:         from AS6939 accept AS6939
+export:         to AS6939 announce AS-EVERESTDATA
+import:         from AS8309 accept AS8309
+export:         to AS8309 announce AS-EVERESTDATA
+import:         from AS8560 accept AS8560
+export:         to AS8560 announce AS-EVERESTDATA
+import:         from AS8657 accept AS8657
+export:         to AS8657 announce AS-EVERESTDATA
+import:         from AS8714 accept ANY
+export:         to AS8714 announce AS-EVERESTDATA
+import:         from AS8943 accept AS8943
+export:         to AS8943 announce AS-EVERESTDATA
+import:         from AS8966 accept AS8966
+export:         to AS8966 announce AS-EVERESTDATA
+import:         from AS10026 accept AS10026
+export:         to AS10026 announce AS-EVERESTDATA
+import:         from AS12350 accept AS12350
+export:         to AS12350 announce AS-EVERESTDATA
+import:         from AS13037 accept AS13037
+export:         to AS13037 announce AS-EVERESTDATA
+import:         from AS20952 accept AS20952
+export:         to AS20952 announce AS-EVERESTDATA
+import:         from AS25562 accept AS25562
+export:         to AS25562 announce AS-EVERESTDATA
+import:         from AS36692 accept AS36692
+export:         to AS36692 announce AS-EVERESTDATA
+import:         from AS44444 accept AS44444
+export:         to AS44444 announce AS-EVERESTDATA
+import:         from AS44654 accept AS44654
+export:         to AS44654 announce AS-EVERESTDATA
+import:         from AS46489 accept AS46489
+export:         to AS46489 announce AS-EVERESTDATA
+remarks:
+remarks:        *******************************************
+remarks:        ******** LINX Extreme Peering *********
+remarks:        *******************************************
+remarks:
+import:         from AS714 accept AS714
+export:         to AS714 announce AS-EVERESTDATA
+import:         from AS786 accept AS786
+export:         to AS786 announce AS-EVERESTDATA
+import:         from AS2119 accept AS2119
+export:         to AS2119 announce AS-EVERESTDATA
+import:         from AS5459 accept ANY
+export:         to AS5459 announce AS-EVERESTDATA
+import:         from AS5607 accept AS5607
+export:         to AS5607 announce AS-EVERESTDATA
+import:         from AS5631 accept AS5631
+export:         to AS5631 announce AS-EVERESTDATA
+import:         from AS6805 accept AS6805
+export:         to AS6805 announce AS-EVERESTDATA
+import:         from AS8309 accept AS8309
+export:         to AS8309 announce AS-EVERESTDATA
+import:         from AS8560 accept AS8560
+export:         to AS8560 announce AS-EVERESTDATA
+import:         from AS8657 accept AS8657
+export:         to AS8657 announce AS-EVERESTDATA
+import:         from AS8714 accept ANY
+export:         to AS8714 announce AS-EVERESTDATA
+import:         from AS8943 accept AS8943
+export:         to AS8943 announce AS-EVERESTDATA
+import:         from AS13037 accept AS13037
+export:         to AS13037 announce AS-EVERESTDATA
+import:         from AS25562 accept AS25562
+export:         to AS25562 announce AS-EVERESTDATA
+import:         from AS36692 accept AS36692
+export:         to AS36692 announce AS-EVERESTDATA
+import:         from AS44444 accept AS44444
+export:         to AS44444 announce AS-EVERESTDATA
+import:         from AS44654 accept AS44654
+export:         to AS44654 announce AS-EVERESTDATA
+remarks:
+remarks:        *******************************************
+remarks:        ******** IX-Manchester Peering *********
+remarks:        *******************************************
+remarks:
+import:         from AS42 accept AS42
+export:         to AS42 announce AS-EVERESTDATA
+import:         from AS786 accept AS786
+export:         to AS786 announce AS-EVERESTDATA
+import:         from AS3856 accept AS3856
+export:         to AS3856 announce AS-EVERESTDATA
+import:         from AS5459 accept ANY
+export:         to AS5459 announce AS-EVERESTDATA
+import:         from AS8714 accept ANY
+export:         to AS8714 announce AS-EVERESTDATA
+import:         from AS13037 accept AS13037
+export:         to AS13037 announce AS-EVERESTDATA
+import:         from AS201798 accept AS201798
+export:         to AS201798 announce AS-EVERESTDATA
+remarks:
+remarks:        *******************************************
+remarks:        ******** LONAP Peering *********
+remarks:        *******************************************
+remarks:
+import:         from AS42 accept AS42
+export:         to AS42 announce AS-EVERESTDATA
+import:         from AS3856 accept AS3856
+export:         to AS3856 announce AS-EVERESTDATA
+import:         from AS6939 accept AS6939
+export:         to AS6939 announce AS-EVERESTDATA
+import:         from AS8330 accept AS8330
+export:         to AS8330 announce AS-EVERESTDATA
+import:         from AS8550 accept ANY
+export:         to AS8550 announce AS-EVERESTDATA
+import:         from AS21321 accept AS1321
+export:         to AS21321 announce AS-EVERESTDATA
+import:         from AS36692 accept AS36692
+export:         to AS36692 announce AS-EVERESTDATA
+import:         from AS44444 accept AS44444
+export:         to AS44444 announce AS-EVERESTDATA
+import:         from AS46489 accept AS46489
+export:         to AS46489 announce AS-EVERESTDATA
+remarks:
+remarks:        *******************************************
+remarks:        ***** Accepted BGP Communities *****
+remarks:        *******************************************
+remarks:
+remarks:        60610:6666 - Blackhole service
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         EVEREST-MNT
+created:        2013-06-14T14:11:02Z
+last-modified:  2017-09-01T14:17:46Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

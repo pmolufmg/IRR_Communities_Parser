@@ -1,0 +1,498 @@
+aut-num:        AS1755
+as-name:        AS1755
+org:            ORG-STPA1-RIPE
+descr:          Svensk Teleutveckling & Produktinnovation, STUPI AB
+remarks:        Ebone Transit Core
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+import:         from AS1 accept  ANY
+import:         from AS109 accept AS109
+import:         from AS209 accept  ANY
+import:         from AS286 accept ANY
+import:         from AS702 accept AS-UUNETEURO
+import:         from AS1200 accept AS1200
+import:         from AS1257 accept AS-SWIPNET
+import:         from AS1299 accept AS-TELIANET
+import:         from AS1654 accept AS1654
+import:         from AS1668 accept ANY
+import:         from AS1759 accept AS1759
+import:         from AS1853 accept AS-ACONET
+import:         from AS1880 accept AS1880
+import:         from AS1889 accept AS1889
+import:         from AS2529 accept AS-DEMON
+import:         from AS2607 accept AS2607 AND AS1922 AND AS9187
+import:         from AS2852 accept AS2852
+import:         from AS3216 accept AS-SOVAM
+import:         from AS3228 accept AS-TELENORIT
+import:         from AS3246 accept AS-EUROCONNECT
+import:         from AS3291 accept AS-PSINETEU
+import:         from AS3292 accept AS-TELEDK
+import:         from AS3300 accept AS-AUCS AND AS-AUCSAP
+import:         from AS3320 accept AS3320:AS-DTAG
+import:         from AS3330 accept AS-PROFINET
+import:         from AS3333 accept AS3333
+import:         from AS3336 accept AS-KOLUMBUS
+import:         from AS3340 accept AS-DATANET
+import:         from AS3561 accept AS-CWTRANSIT
+import:         from AS4513 accept AS-GLOBIX
+import:         from AS4589 accept AS-EASYNET
+import:         from AS5377 accept AS-TAIDE
+import:         from AS5400 accept AS-CONCERTEU
+import:         from AS5410 accept AS-T-ONLINEFRANCE
+import:         from AS5413 accept AS-XARANET
+import:         from AS5423 accept AS5423 AND AS13265 AND AS12656 AND AS20506
+import:         from AS5424 accept AS-VBSAT
+import:         from AS5430 accept AS-MOBILCOM
+import:         from AS5432 accept AS-SKYNETBE
+import:         from AS5459 accept ANY
+import:         from AS5462 accept AS-CABLEINET
+import:         from AS5496 accept AS-WIREHUB
+import:         from AS5511 accept AS-OPENTRANSIT
+import:         from AS5521 accept AS-CITYLINE
+import:         from AS5539 accept AS-SPACENET
+import:         from AS5571 accept AS-NETCOMUK
+import:         from AS5578 accept AS-GTSSK
+import:         from AS5588 accept AS-GTSCZ
+import:         from AS5604 accept AS-FREEDOMTOSURF
+import:         from AS5629 accept AS5629
+import:         from AS6395 accept AS-BROADWING
+import:         from AS6447 accept ANY
+import:         from AS6706 accept AS6706
+import:         from AS6728 accept AS-NILDRAM
+import:         from AS6747 accept AS-LATTELEKOM
+import:         from AS6761 accept AS-INTERNEXT
+import:         from AS6762 accept AS-SEABONE
+import:         from AS6805 accept AS-MWAYS
+import:         from AS6855 accept AS6855 AND AS5628 AND AS8223 AND AS8290 AND AS6864 AND AS6803
+import:         from AS6862 accept AS6862
+import:         from AS7176 accept AS-GTEIEUROPE
+import:         from AS8068 accept AS-MICROSOFTEU
+import:         from AS8198 accept AS-ARROWHEAD
+import:         from AS8210 accept AS-TELENOR
+import:         from AS8228 accept AS-CEGETEL AND AS-BTFR
+import:         from AS8234 accept AS8234
+import:         from AS8245 accept AS8245 AND AS15906
+import:         from AS8246 accept AS-IPARTNERS
+import:         from AS8271 accept AS-PIPELINE
+import:         from AS8289 accept AS-DATAPHONESE
+import:         from AS8338 accept AS-EQUANTRO
+import:         from AS8339 accept AS8339 AND AS13022 AND AS21428 AND AS12577
+import:         from AS8379 accept AS-CYBERNETEU
+import:         from AS8434 accept AS-UTFORS
+import:         from AS8437 accept AS-UTA AND AS-SWCMGLOBAL
+import:         from AS8503 accept AS-PCNET
+import:         from AS8514 accept AS-INODE
+import:         from AS8525 accept AS8525
+import:         from AS8555 accept AS8555
+import:         from AS8627 accept AS-TRMD
+import:         from AS8642 accept AS-BREDBAND
+import:         from AS8674 accept AS8674 AND AS112
+import:         from AS8709 accept AS-EXODUS AND AS-EXODUS-EU AND AS-EXODUS-AP
+import:         from AS8784 accept AS-MGN
+import:         from AS8787 accept AS8787
+import:         from AS8840 accept AS-TELFORT
+import:         from AS8871 accept AS-CSI
+import:         from AS8913 accept AS8913
+import:         from AS8919 accept AS-CANAD
+import:         from AS8938 accept AS-ECS
+import:         from AS8939 accept AS-ADTECH
+import:         from AS8952 accept AS-NTTE
+import:         from AS8954 accept AS-INTOUCHPEERS
+import:         from AS8980 accept AS8980
+import:         from AS8992 accept AS-TELERINGTOEBONE
+import:         from AS9005 accept AS-ASTRAL
+import:         from AS9015 accept AS-ASTRAL
+import:         from AS9019 accept AS-DATAGRAMA
+import:         from AS9044 accept AS9044
+import:         from AS9132 accept AS-MEDIASCAPE
+import:         from AS9133 accept AS-WISH
+import:         from AS9143 accept AS-BENELUX
+import:         from AS9211 accept AS-WORK
+import:         from AS12302 accept AS-MOBIFON
+import:         from AS12334 accept AS12334
+import:         from AS12350 accept AS-VTX
+import:         from AS12357 accept AS-COMUNITEL
+import:         from AS12362 accept AS12362
+import:         from AS12401 accept AS12401
+import:         from AS12458 accept AS12458:AS-CUSTOMERS
+import:         from AS12472 accept AS12472
+import:         from AS12508 accept AS12508
+import:         from AS12519 accept AS-FASTNET
+import:         from AS12540 accept AS12540 AND AS3352
+import:         from AS12547 accept AS12547
+import:         from AS12552 accept AS12552 AND AS10102
+import:         from AS12570 accept AS12570
+import:         from AS12632 accept AS-TOTALNET
+import:         from AS12636 accept AS12636
+import:         from AS12832 accept AS-LYCOSEU
+import:         from AS12844 accept AS12844
+import:         from AS12868 accept AS-IAXIS
+import:         from AS12874 accept AS-FASTWEB
+import:         from AS12885 accept AS-BANDXUK
+import:         from AS12902 accept AS-LUNA
+import:         from AS12905 accept AS12905
+import:         from AS12935 accept AS12935
+import:         from AS12955 accept AS-ASTRAL
+import:         from AS12956 accept AS-TDATANET
+import:         from AS12971 accept AS-BIOSTOVIX
+import:         from AS13193 accept AS-NERIM
+import:         from AS13229 accept AS13229:AS-CUSTOMERS
+import:         from AS13297 accept AS13297
+import:         from AS13299 accept AS-EBONEFR
+import:         from AS13300 accept AS13300
+import:         from AS15381 accept AS15381
+import:         from AS15471 accept AS-SNRNET
+import:         from AS15512 accept AS15512
+import:         from AS15520 accept AS-AIGNET
+import:         from AS15589 accept AS-EDISONTEL
+import:         from AS15635 accept AS15635
+import:         from AS15670 accept AS15670
+import:         from AS15695 accept AS6448 AND AS12692 AND AS13001 AND AS13646 AND AS15695 AND AS16131 AND AS20495 AND AS21221
+import:         from AS15702 accept AS15702
+import:         from AS15703 accept AS-TRUESERVER AND AS15703 AND AS20857
+import:         from AS15915 accept AS15915
+import:         from AS15935 accept AS-GLOBALTELCZ
+import:         from AS15940 accept AS15940
+import:         from AS15941 accept AS15941
+import:         from AS15962 accept AS15962
+import:         from AS15990 accept AS15990
+import:         from AS15996 accept AS15996
+import:         from AS16016 accept AS16016 AND AS8591 AND AS12609 AND AS12644 AND AS5435
+import:         from AS16030 accept AS-ASTRAL
+import:         from AS16095 accept AS-JAYNET
+import:         from AS16115 accept AS16115
+import:         from AS16128 accept AS16128
+import:         from AS16183 accept AS-ASTRAL
+import:         from AS16195 accept AS-NETZWERKER
+import:         from AS16295 accept AS16295
+import:         from AS16298 accept AS16298
+import:         from AS20532 accept AS20532
+import:         from AS20579 accept AS20579
+import:         from AS20693 accept AS20693
+import:         from AS20704 accept AS20704
+import:         from AS20888 accept AS20888
+import:         from AS20920 accept AS20920
+import:         from AS20932 accept AS20932
+import:         from AS20933 accept AS20933
+import:         from AS20951 accept AS20951
+import:         from AS21019 accept AS21019
+import:         from AS21106 accept AS21106
+import:         from AS21116 accept AS21116
+import:         from AS21155 accept AS21155
+import:         from AS21208 accept AS21208
+import:         from AS21224 accept AS-MURES
+import:         from AS21286 accept AS21286
+import:         from AS21313 accept AS21313
+import:         from AS21360 accept AS21360
+import:         from AS21380 accept AS21380
+import:         from AS21385 accept AS-TRUSTNET
+import:         from AS21503 accept AS21503
+import:         from AS21635 accept AS-BTN-CUSTOMERS
+import:         from AS24586 accept AS24586
+import:         from AS24587 accept AS24587
+import:         from AS24730 accept AS24730 AND AS16237 AND AS21392
+import:         from AS24828 accept AS24828
+import:         from AS64512 accept AS64512
+export:         to AS1 announce AS-EBONE
+export:         to AS109 announce ANY
+export:         to AS209 announce AS-EBONE
+export:         to AS286 announce AS-EBONE
+export:         to AS702 announce AS-EBONE
+export:         to AS1200 announce AS-EBONE
+export:         to AS1257 announce ANY
+export:         to AS1299 announce AS-EBONE
+export:         to AS1654 announce ANY
+export:         to AS1668 announce AS-EBONE
+export:         to AS1759 announce ANY
+export:         to AS1853 announce ANY
+export:         to AS1880 announce ANY
+export:         to AS1889 announce ANY
+export:         to AS2529 announce ANY
+export:         to AS2607 announce ANY
+export:         to AS2852 announce ANY
+export:         to AS3216 announce ANY
+export:         to AS3228 announce ANY
+export:         to AS3246 announce ANY
+export:         to AS3291 announce AS-EBONE
+export:         to AS3292 announce ANY
+export:         to AS3300 announce AS-EBONE
+export:         to AS3320 announce AS-EBONE
+export:         to AS3330 announce ANY
+export:         to AS3333 announce AS-EBONE
+export:         to AS3336 announce ANY
+export:         to AS3340 announce ANY
+export:         to AS3561 announce AS-EBONE
+export:         to AS4513 announce ANY
+export:         to AS4589 announce ANY
+export:         to AS5377 announce ANY
+export:         to AS5400 announce AS-EBONE
+export:         to AS5410 announce ANY
+export:         to AS5413 announce ANY
+export:         to AS5423 announce ANY
+export:         to AS5424 announce ANY
+export:         to AS5430 announce ANY
+export:         to AS5432 announce ANY
+export:         to AS5459 announce AS-EBONE
+export:         to AS5462 announce ANY
+export:         to AS5496 announce ANY
+export:         to AS5511 announce AS-EBONE
+export:         to AS5521 announce ANY
+export:         to AS5539 announce ANY
+export:         to AS5571 announce ANY
+export:         to AS5578 announce ANY
+export:         to AS5588 announce ANY
+export:         to AS5604 announce ANY
+export:         to AS5629 announce ANY
+export:         to AS6395 announce AS-EBONE
+export:         to AS6447 announce AS-EBONE
+export:         to AS6706 announce ANY
+export:         to AS6728 announce ANY
+export:         to AS6747 announce ANY
+export:         to AS6761 announce ANY
+export:         to AS6762 announce ANY
+export:         to AS6805 announce ANY
+export:         to AS6855 announce ANY
+export:         to AS6862 announce ANY
+export:         to AS7176 announce ANY
+export:         to AS8068 announce ANY
+export:         to AS8198 announce ANY
+export:         to AS8210 announce ANY
+export:         to AS8228 announce ANY
+export:         to AS8234 announce ANY
+export:         to AS8245 announce ANY
+export:         to AS8246 announce ANY
+export:         to AS8271 announce ANY
+export:         to AS8289 announce ANY
+export:         to AS8338 announce ANY
+export:         to AS8339 announce ANY
+export:         to AS8379 announce ANY
+export:         to AS8434 announce ANY
+export:         to AS8437 announce ANY
+export:         to AS8503 announce ANY
+export:         to AS8514 announce ANY
+export:         to AS8525 announce ANY
+export:         to AS8555 announce ANY
+export:         to AS8627 announce ANY
+export:         to AS8642 announce ANY
+export:         to AS8674 announce ANY
+export:         to AS8709 announce AS-EBONE
+export:         to AS8784 announce ANY
+export:         to AS8787 announce ANY
+export:         to AS8840 announce ANY
+export:         to AS8871 announce ANY
+export:         to AS8913 announce ANY
+export:         to AS8919 announce ANY
+export:         to AS8938 announce ANY
+export:         to AS8939 announce ANY
+export:         to AS8952 announce ANY
+export:         to AS8954 announce ANY
+export:         to AS8980 announce ANY
+export:         to AS8992 announce ANY
+export:         to AS9005 announce ANY
+export:         to AS9015 announce ANY
+export:         to AS9019 announce ANY
+export:         to AS9044 announce ANY
+export:         to AS9132 announce ANY
+export:         to AS9133 announce ANY
+export:         to AS9143 announce ANY
+export:         to AS9211 announce ANY
+export:         to AS12302 announce ANY
+export:         to AS12334 announce ANY
+export:         to AS12350 announce ANY
+export:         to AS12357 announce ANY
+export:         to AS12362 announce ANY
+export:         to AS12401 announce ANY
+export:         to AS12458 announce ANY
+export:         to AS12472 announce ANY
+export:         to AS12508 announce ANY
+export:         to AS12519 announce ANY
+export:         to AS12540 announce ANY
+export:         to AS12547 announce ANY
+export:         to AS12552 announce ANY
+export:         to AS12570 announce ANY
+export:         to AS12632 announce ANY
+export:         to AS12636 announce ANY
+export:         to AS12832 announce ANY
+export:         to AS12844 announce ANY
+export:         to AS12868 announce ANY
+export:         to AS12874 announce ANY
+export:         to AS12885 announce AS-EBONE
+export:         to AS12902 announce ANY
+export:         to AS12905 announce ANY
+export:         to AS12935 announce ANY
+export:         to AS12955 announce ANY
+export:         to AS12956 announce AS-EBONE
+export:         to AS12971 announce ANY
+export:         to AS13193 announce ANY
+export:         to AS13229 announce ANY
+export:         to AS13297 announce ANY
+export:         to AS13299 announce ANY
+export:         to AS13300 announce ANY
+export:         to AS15381 announce ANY
+export:         to AS15471 announce ANY
+export:         to AS15512 announce ANY
+export:         to AS15520 announce ANY
+export:         to AS15589 announce ANY
+export:         to AS15635 announce ANY
+export:         to AS15670 announce ANY
+export:         to AS15695 announce ANY
+export:         to AS15702 announce ANY
+export:         to AS15703 announce ANY
+export:         to AS15915 announce ANY
+export:         to AS15935 announce ANY
+export:         to AS15940 announce ANY
+export:         to AS15941 announce ANY
+export:         to AS15962 announce ANY
+export:         to AS15990 announce ANY
+export:         to AS15996 announce AS-EBONE
+export:         to AS16016 announce ANY
+export:         to AS16030 announce ANY
+export:         to AS16095 announce ANY
+export:         to AS16115 announce ANY
+export:         to AS16128 announce ANY
+export:         to AS16183 announce ANY
+export:         to AS16195 announce ANY
+export:         to AS16295 announce ANY
+export:         to AS16298 announce ANY
+export:         to AS20532 announce ANY
+export:         to AS20579 announce ANY
+export:         to AS20693 announce ANY
+export:         to AS20704 announce ANY
+export:         to AS20888 announce ANY
+export:         to AS20920 announce ANY
+export:         to AS20932 announce ANY
+export:         to AS20933 announce ANY
+export:         to AS20951 announce AS-EBONE
+export:         to AS21019 announce ANY
+export:         to AS21106 announce ANY
+export:         to AS21116 announce ANY
+export:         to AS21155 announce ANY
+export:         to AS21208 announce ANY
+export:         to AS21224 announce ANY
+export:         to AS21286 announce ANY
+export:         to AS21313 announce ANY
+export:         to AS21360 announce ANY
+export:         to AS21380 announce ANY
+export:         to AS21385 announce ANY
+export:         to AS21503 announce ANY
+export:         to AS21635 announce ANY
+export:         to AS24586 announce ANY
+export:         to AS24587 announce ANY
+export:         to AS24730 announce ANY
+export:         to AS24828 announce ANY
+export:         to AS64512 announce ANY
+status:         LEGACY
+notify:         noc@ebone.net
+remarks:        Please note that Ebone filters out inbound prefixes
+remarks:        longer than a /26 and will not reannounce prefixes
+remarks:        longer than a /24.
+remarks:
+remarks:        UPDATE(10/2001): Ebone will do RIR boundary filtering on
+remarks:        prefixes inside new blocks assigned by IANA to RIR's.
+remarks:        Currently this includes 80/7, 67/8 and 68/8.
+remarks:
+remarks:        Community support definitions
+remarks:
+remarks:        Communities to determine entry-point of route into EBONE
+remarks:        ("read only" for RBSes)
+remarks:
+remarks:        Community Entry Point
+remarks:        ------------------------
+remarks:        286:3nnn Origin country, where nnn is the E.164 country
+remarks:        dialing code.
+remarks:
+remarks:        286:4nnn Origin city, where nnn is one of the following:
+remarks:
+remarks:        010 Leiden, Amsterdam, Rotterdam etc.
+remarks:        011 Berlin
+remarks:        012 Budapest
+remarks:        013 Brussels
+remarks:        014 Copenhagen
+remarks:        015 Frankfurt
+remarks:        016 Geneva
+remarks:        017 Hamburg
+remarks:        018 Helsinki
+remarks:        019 London
+remarks:        020 Madrid
+remarks:        021 Milan
+remarks:        022 Munich
+remarks:        023 New York
+remarks:        024 Oslo
+remarks:        025 Paris
+remarks:        026 Prague
+remarks:        027 Stockholm
+remarks:        028 Strasbourg, Kehl
+remarks:        029 Vienna (AT)
+remarks:        030 Washington DC
+remarks:        031 Zurich
+remarks:        032 Lyon
+remarks:        033 Dusseldorf
+remarks:        034 Bratislava
+remarks:        035 - 999 FREE (for new assignments)
+remarks:
+remarks:        Communities tagged on inbound routes:
+remarks:
+remarks:        Community Definition
+remarks:        ---------------------------------------------------------------
+remarks:        286:286   Customer route.
+remarks:        286:888   Peer route.
+remarks:        286:999   Qwest customer route.
+remarks:
+remarks:        Local-preference control for customer links (settable by cust.).
+remarks:
+remarks:        Community Definition
+remarks:        ---------------------------------------------------------------
+remarks:        286:70    Set local preference 70
+remarks:        286:80    Set local preference 80
+remarks:        286:90    Set local preference 90
+remarks:
+remarks:        By default customer routes are assigned a local preferences of
+remarks:        100. Peer and Qwest routes are assigned local preference 80.
+remarks:
+remarks:        Communities to control traffic (settable by cust.).
+remarks:
+remarks:        Community Definition
+remarks:        ---------------------------------------------------------------
+remarks:        286:2[1-4]  Prepend 1-4 times to Qwest.
+remarks:        286:28      Do not announce to Qwest (US network).
+remarks:        286:29      Do not announce to US peers.
+remarks:
+remarks:        286:1[1-4]  Prepend 1-4 times to European peers.
+remarks:        286:19      Do not announce to European peers.
+remarks:
+remarks:        286:15[1-4] Prepend 1-4 times to Concert/AS5400
+remarks:        286:155     Do not announce to Concert/AS5400
+remarks:        286:13[6-9] Prepend 1-4 times to Infonet/AS3300
+remarks:        286:140     Do not announce to Infonet/AS3300
+remarks:        286:11[1-4] Prepend 1-4 times to UUNET/AS702
+remarks:        286:115     Do not announce to UUNET/AS702
+remarks:        286:19[6-9] Prepend 1-4 times to PSInet/AS174
+remarks:        286:200     Do not announce to PSInet/AS174
+remarks:        286:15[6-9] Prepend 1-4 times to Opentransit/AS5511
+remarks:        286:160     Do not announce to Opentransit/AS5511
+remarks:        286:13[1-4] Prepend 1-4 times to Telianet/AS1299
+remarks:        286:135     Do not announce to Telianet/AS1299
+remarks:        286:19[1-4] Prepend 1-4 times to Telefonica/AS12956
+remarks:        286:195     Do not announce to Telefonica/AS12956
+remarks:        286:20[1-4] prepend 1-4 times to Sprint/AS1239
+remarks:        286:205     Do not announce to Sprint/AS1239
+remarks:
+remarks:        ========================================================
+remarks:        Applied Route Flap Damping Policy conformant to RIPE-210
+remarks:        <<<<<http://www.ripe.net/docs/ripe-210.html>>>>>
+remarks:        ========================================================
+remarks:
+remarks:        This object is automaticly updated, do NOT manually update!
+remarks:
+mnt-by:         AS1755-MNT
+mnt-lower:      AS1755-MNT
+created:        2002-09-19T15:18:18Z
+last-modified:  2017-11-15T09:16:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

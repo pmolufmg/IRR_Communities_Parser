@@ -1,0 +1,164 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS28699 - AS28912'
+
+as-block:       AS28699 - AS28912
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:31Z
+last-modified:  2018-11-22T15:27:31Z
+source:         RIPE
+
+% Information related to 'AS28773'
+
+% Abuse contact for 'AS28773' is 'admins@master.km.ua'
+
+aut-num:        AS28773
+as-name:        AS-MASTER
+org:            ORG-GNOM1-RIPE
+import:         from AS174 action pref=100; accept ANY
+import:         from AS3255 action pref=100; accept ANY
+import:         from AS3257 action pref=100; accept ANY
+import:         from AS6939 action pref=100; accept ANY
+import:         from AS8779 action pref=100; accept ANY
+import:         from AS13249 action pref=100; accept ANY
+import:         from AS15645 action pref=50; accept AS-UAIX
+import:         from AS15772 action pref=100; accept ANY
+import:         from AS25478 action pref=100; accept ANY
+import:         from AS13188 action pref=150; accept AS-BANKINFORM
+import:         from AS15169 action pref=50; accept AS-GOOGLE
+import:         from AS29469 action pref=90; accept AS29469
+import:         from AS43301 action pref=90; accept AS43301
+import:         from AS28681 action pref=200; accept AS-KMIX
+import:         from AS31210 action pref=150; accept AS-DTEL-IX
+import:         from AS35320 action pref=100; accept ANY
+import:         from AS44600 action pref=150; accept AS-GGT
+import:         from AS49204 action pref=100; accept AS-ITT
+import:         from AS50952 action pref=150; accept AS-DATAIX-UA
+import:         from AS59613 action pref=150; accept AS-UBNIX
+import:         from AS29076 action pref=100; accept ANY
+import:         from AS35297 action pref=100; accept ANY
+import:         from AS62028 action pref=100; accept AS-VNH
+import:         from AS199995 action pref=100; accept AS199995:AS-EXT
+import:         from as196906 action pref=100; accept as196906
+import:         from AS201094 action pref=100; accept AS201094
+export:         to AS174 announce AS-MASTER
+export:         to AS3255 announce AS-MASTER
+export:         to AS3257 announce AS-MASTER
+export:         to AS6939 announce AS-MASTER
+export:         to AS8779 announce ANY
+export:         to AS13249 announce AS-MASTER
+export:         to AS13188 announce AS-MASTER
+export:         to AS15169 announce AS-MASTER
+export:         to AS15645 announce AS-MASTER
+export:         to AS15772 announce AS-MASTER
+export:         to AS25478 announce AS-MASTER
+export:         to AS28681 announce AS-MASTER
+export:         to AS29469 announce ANY
+export:         to AS43301 announce ANY
+export:         to AS31210 announce AS-MASTER
+export:         to AS35320 announce AS-MASTER
+export:         to AS44600 announce AS-MASTER
+export:         to AS49204 announce AS-MASTER
+export:         to AS49204 announce AS-GTU-PEER
+export:         to AS50952 announce AS-MASTER
+export:         to AS29076 announce AS-MASTER
+export:         to AS35297 announce AS-MASTER
+export:         to AS62028 announce ANY
+export:         to AS199995 announce ANY
+export:         to as196906 announce ANY
+export:         to AS201094 announce ANY
+remarks:        ----- IPv6 Routing Policy ------
+remarks:        --------Cogentco
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-GTU-v6
+remarks:        --------UAR-NET
+mp-import:      afi ipv6.unicast from AS3255 accept ANY
+mp-export:      afi ipv6.unicast to AS3255 announce AS-GTU-v6
+remarks:        --------TINET
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-GTU-v6
+remarks:        --------Hurricane Electric
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-GTU-v6
+remarks:        --------DTEL-IX
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6  #  Digital Telecom IX LLC
+mp-export:      afi ipv6.unicast to AS31210 announce AS-GTU-v6
+remarks:        --------UA-IX
+mp-import:      afi ipv6.unicast from AS15645 accept AS-UAIX-V6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-GTU-v6
+remarks:        --------GM-host
+mp-import:      afi ipv6.unicast from AS201094 accept AS201094
+mp-export:      afi ipv6.unicast to AS201094 announce ANY
+remarks:        --------KM-Infocom
+mp-import:      afi ipv6.unicast from AS8779 accept AS-IC-V6  #  JSC "Infocom"
+mp-export:      afi ipv6.unicast to AS8779 announce ANY
+remarks:        --------KM-IX
+mp-import:      afi ipv6.unicast from AS28681 accept AS-KMIX  #  KM-IX
+mp-export:      afi ipv6.unicast to AS28681 announce AS-GTU-v6
+remarks:        --------Giganet
+mp-import:      afi ipv6.unicast from AS59613 accept AS-UBNIX-v6
+mp-export:      afi ipv6.unicast to AS59613 announce AS-GTU-v6
+remarks:        --------W-IX
+mp-import:      afi ipv6.unicast from AS50384 accept ANY
+mp-export:      afi ipv6.unicast to AS50384 announce AS-GTU-v6
+remarks:        --------Dataline
+mp-import:      afi ipv6.unicast from AS35297 accept ANY
+mp-export:      afi ipv6.unicast to AS35297 announce AS-GTU-v6
+remarks:        -------IT-systems
+mp-import:      afi ipv6.unicast from AS13249 accept ANY
+mp-export:      afi ipv6.unicast to AS13249 announce AS-GTU-v6
+remarks:        --------Eurotranstelecom
+mp-import:      afi ipv6.unicast from AS35320 accept ANY
+mp-export:      afi ipv6.unicast to AS35320 announce AS-GTU-v6
+admin-c:        EB1177-RIPE
+tech-c:         EB1177-RIPE
+remarks:        28773:666 Blackhole community
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MSKM-MNT
+created:        2003-02-20T08:58:47Z
+last-modified:  2019-02-11T14:47:58Z
+source:         RIPE
+sponsoring-org: ORG-KL33-RIPE
+
+organisation:   ORG-GNOM1-RIPE
+org-name:       Global Technology Ukraine Ltd
+org-type:       OTHER
+address:        29000 Ukraine, Khmelnitskiy, Podilska 93
+abuse-c:        AR18414-RIPE
+mnt-ref:        pdl-mnt
+mnt-by:         pdl-mnt
+created:        2011-02-13T18:46:25Z
+last-modified:  2015-10-26T14:35:34Z
+source:         RIPE # Filtered
+
+person:         Eugeny Belous
+address:        93, Podilska
+address:        29000, Khmelnitskiy
+address:        Ukraine
+phone:          +380-382-703959
+fax-no:         +380-67-3829248
+nic-hdl:        EB1177-RIPE
+mnt-by:         MSKM-MNT
+created:        2003-09-03T13:35:19Z
+last-modified:  2015-10-26T14:37:01Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

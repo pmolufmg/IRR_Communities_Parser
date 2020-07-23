@@ -1,0 +1,132 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21453 - AS21503'
+
+as-block:       AS21453 - AS21503
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21497'
+
+% Abuse contact for 'AS21497' is 'noc@mts.com.ua'
+
+aut-num:        AS21497
+as-name:        UMC-AS
+import:         from AS1273  action pref=96; accept ANY
+import:         from AS6762  action pref=96; accept ANY
+import:         from AS8359  action pref=96; accept ANY
+import:         from AS2914  action pref=95; accept ANY
+import:         from AS15645 action pref=100; accept AS-UAIX
+import:         from AS31210 action pref=100; accept AS-DTEL-IX
+export:         to AS1273  announce AS-UMC-CUSTOMERS
+export:         to AS6762  announce AS-UMC-CUSTOMERS
+export:         to AS8359  announce AS-UMC-CUSTOMERS
+export:         to AS2914  announce AS-UMC-CUSTOMERS
+export:         to AS15645 announce AS-UMC-CUSTOMERS
+export:         to AS31210 announce AS-UMC-CUSTOMERS
+remarks:
+mp-import:      afi ipv6.unicast from AS8359 action pref=95; accept ANY
+mp-import:      afi ipv6.unicast from AS2914 action pref=95; accept ANY
+mp-import:      afi ipv6.unicast from AS15645 action pref=100; accept AS-UAIX-v6
+mp-import:      afi ipv6.unicast from AS31210 action pref=100; accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS8359 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS2914 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS15645 announce AS-UMC-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS31210 announce AS-UMC-CUSTOMERS
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        AS21497 filters out inbound prefixes more than /24 specific.
+remarks:        Networks within AS21497:RS-INBOUND-FILTER are filtered from
+remarks:        all BGP peers.
+remarks:        ---------------------------------------------------------------
+remarks:        AS21497 customers are warned that only prefixes specified
+remarks:        exactly in the appropriate RIPE IRR aut-num: AS21497 import
+remarks:        statement will be accepted.
+remarks:        ---------------------------------------------------------------
+remarks:        AS21497 provide customers with ability to influence routing
+remarks:        decision by using the following community attributes for
+remarks:        the bgp prefixes announced to AS21497.
+remarks:
+remarks:        21497:0 - accept and redistribute to uplinks
+remarks:        21497:1 - accept and prepend once 21497
+remarks:        21497:2 - accept and prepend 21497_21497
+remarks:        21497:3 - accept and prepend 21497_21497_21497
+remarks:        21497:9 - accept and do not redistribute to uplinks
+remarks:
+remarks:        21497:10 - accept by AS21497 and redistribute to peers
+remarks:        21497:11 - accept by AS21497, prepend 21497 and redistribute
+remarks:        to peers
+remarks:        21497:12 - accept by AS21497, prepend 21497_21497 and
+remarks:        redistribute to peers
+remarks:        21497:13 - accept by AS21497, prepend 21497_2197_21497 and
+remarks:        redistribute to peers
+remarks:        21497:19 - accept by AS21497 and do not redistribute to peers
+remarks:
+remarks:        Attributes can be used simultaneously.
+remarks:
+remarks:        Prefixes imported without community attributes will be
+remarks:        automaticaly tagged as 21497:0 and 21497:10 on AS21497 side.
+remarks:        ---------------------------------------------------------------
+admin-c:        UMC-RIPE
+tech-c:         UMC-RIPE
+org:            ORG-UMC1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         UMC-MNT
+created:        2002-01-02T16:26:51Z
+last-modified:  2018-09-04T09:53:11Z
+source:         RIPE
+
+organisation:   ORG-UMC1-RIPE
+org-name:       PrJSC "VF UKRAINE"
+org-type:       LIR
+address:        15, Leiptsigska str.
+address:        01601
+address:        Kyiv
+address:        UKRAINE
+phone:          +380442300257
+fax-no:         +380501107990
+abuse-c:        AR17460-RIPE
+admin-c:        JAR-RIPE
+admin-c:        STK-RIPE
+admin-c:        VKH-RIPE
+mnt-ref:        UMC-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         UMC-MNT
+created:        2004-04-17T12:10:11Z
+last-modified:  2018-04-24T08:21:07Z
+source:         RIPE # Filtered
+
+role:           UMC NOC
+address:        Ukrainian Mobile Communications
+address:        49 Peremohy ave.
+address:        Kiev 03680
+address:        Ukraine
+fax-no:         +380 50 110 7990
+abuse-mailbox:  abuse@mts.com.ua
+admin-c:        JAR-RIPE
+tech-c:         JAR-RIPE
+tech-c:         STK-RIPE
+tech-c:         MVTY-RIPE
+nic-hdl:        UMC-RIPE
+mnt-by:         UMC-MNT
+created:        2003-01-09T14:55:12Z
+last-modified:  2018-01-24T08:14:54Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

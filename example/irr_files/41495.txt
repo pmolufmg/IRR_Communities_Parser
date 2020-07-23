@@ -1,0 +1,206 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS40960 - AS42381'
+
+as-block:       AS40960 - AS42381
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS41495'
+
+% Abuse contact for 'AS41495' is 'abuse@faelix.net'
+
+aut-num:        AS41495
+org:            ORG-FL61-RIPE
+as-name:        FAELIX-AS
+admin-c:        MFLX-RIPE
+tech-c:         MFLX-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-lower:      MNT-FAELIX
+mnt-by:         MNT-FAELIX
+created:        2007-03-29T08:31:18Z
+last-modified:  2018-10-08T06:14:47Z
+source:         RIPE # Filtered
+remarks:        *******************************************  http://as41495.net/
+remarks:        **     _    ____  _  _   _ _  _   ___  ____              _    **
+remarks:        **    / \  / ___|| || | / | || | / _ \| ___|  _ __   ___| |_  **
+remarks:        **   / _ \ \___ \| || |_| | || || (_) |___ \ | '_ \ / _ \ __| **
+remarks:        **  / ___ \ ___) |__   _| |__   _\__, |___) || | | |  __/ |_  **
+remarks:        ** /_/   \_\____/   |_| |_|  |_|   /_/|____(_)_| |_|\___|\__| **
+remarks:        **                                                            **
+remarks:        ****************************************************************
+remarks:        **                     __                                     **
+remarks:        ** .--.--.-----.-----.|  |_.----.-----.---.-.--------.        **
+remarks:        ** |  |  |  _  |__ --||   _|   _|  -__|  _  |        |        **
+remarks:        ** |_____|   __|_____||____|__| |_____|___._|__|__|__|        **
+remarks:        **       |__|                                                 **
+remarks:        **                                                            **
+remarks:        ** ---------------------------------------------- Cogent IPv4 **
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-FAELIX
+remarks:        ** ---------------------------------------------- Cogent IPv6 **
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-FAELIX
+remarks:        ** ------------------------------------------------- GTT IPv4 **
+import:         from AS3257 action pref=100; accept ANY
+export:         to AS3257 announce AS-FAELIX
+remarks:        ** ------------------------------------------------- GTT IPv6 **
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-FAELIX
+remarks:        ** -------------------------------------------- Bytemark IPv4 **
+import:         from AS35425 action pref=100; accept ANY
+export:         to AS35425 announce AS-FAELIX
+remarks:        ** -------------------------------------------- Bytemark IPv6 **
+mp-import:      afi ipv6.unicast from AS35425 accept ANY
+mp-export:      afi ipv6.unicast to AS35425 announce AS-FAELIX
+remarks:        ** -------------------------------------------- IX Reach IPv4 **
+import:         from AS43531 action pref=100; accept ANY
+export:         to AS43531 announce AS-FAELIX
+remarks:        ** -------------------------------------------- IX Reach IPv6 **
+mp-import:      afi ipv6.unicast from AS43531 accept ANY
+mp-export:      afi ipv6.unicast to AS43531 announce AS-FAELIX
+remarks:        ** ------------------------------------------ Infomaniak IPv4 **
+import:         from AS29222 action pref=100; accept ANY
+export:         to AS29222 announce AS-FAELIX
+remarks:        ** ------------------------------------------ Infomaniak IPv6 **
+mp-import:      afi ipv6.unicast from AS29222 accept ANY
+mp-export:      afi ipv6.unicast to AS29222 announce AS-FAELIX
+remarks:        ** -------------------------------------------------- HE IPv4 **
+import:         from AS6939 action pref=100; accept AS-HURRICANE
+export:         to AS6939 announce AS-FAELIX
+remarks:        ** -------------------------------------------------- HE IPv6 **
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-FAELIX
+remarks:        **                                                            **
+remarks:        ****************************************************************
+remarks:        **  __                           __ __                        **
+remarks:        ** |  |_.----.---.-.-----.-----.|__|  |_                      **
+remarks:        ** |   _|   _|  _  |     |__ --||  |   _|                     **
+remarks:        ** |____|__| |___._|__|__|_____||__|____|                     **
+remarks:        **                                                            **
+remarks:        **                                                            **
+remarks:        ** --------------------------------------------------- Emizon **
+export:         to AS197529 announce ANY
+mp-export:      afi ipv6.unicast to AS197529 announce ANY
+import:         from AS197529 accept AS-EMIZON
+mp-import:      afi ipv6.unicast from AS197529 accept AS-EMIZON
+remarks:        **                                                            **
+remarks:        ** -------------------------------------------------- IQIP BV **
+export:         to AS206637 announce ANY
+mp-export:      afi ipv6.unicast to AS206637 announce ANY
+import:         from AS206637 accept AS-IQIP
+mp-import:      afi ipv6.unicast from AS206637 accept AS-IQIP
+remarks:        **                                                            **
+remarks:        ** ---------------------------------------------- CSL DualCom **
+export:         to AS206637 announce ANY
+mp-export:      afi ipv6.unicast to AS205394 announce ANY
+import:         from AS205394 accept AS-CSLDUAL
+mp-import:      afi ipv6.unicast from AS205394 accept AS-CSLDUAL
+remarks:        **                                                            **
+remarks:        ** --------------------------------------------- NTP Pool DNS **
+export:         to AS6647 announce ANY
+mp-export:      afi ipv6.unicast to AS6647 announce ANY
+import:         from AS6647 accept AS-BITNAMES
+mp-import:      afi ipv6.unicast from AS6647 accept AS-BITNAMES
+remarks:        **                                                            **
+remarks:        ** ------------------------------------------------ AVR Group **
+export:         to AS42009 announce ANY
+mp-export:      afi ipv6.unicast to AS42009 announce ANY
+import:         from AS42009 accept AS-AVRG
+mp-import:      afi ipv6.unicast from AS42009 accept AS-AVR
+remarks:        **                                                            **
+remarks:        ** ------------------------------------------- Metro Security **
+export:         to AS210206 announce ANY
+mp-export:      afi ipv6.unicast to AS210206 announce ANY
+import:         from AS210206 accept AS-AVRG
+mp-import:      afi ipv6.unicast from AS210206 accept AS-AVR
+remarks:        **                                                            **
+remarks:        ** ----------------------------------------- nameserver.party **
+mp-export:      afi ipv6.unicast to AS206202 announce ANY
+mp-import:      afi ipv6.unicast from AS206202 accept AS-NAMESERVERPARTY
+remarks:        **                                                            **
+remarks:        ** --------------------------------------------- Qrator RADAR **
+export:         to AS197068 announce ANY
+mp-export:      afi ipv6.unicast to AS197068 announce ANY
+remarks:        **                                                            **
+remarks:        ****************************************************************
+remarks:        **                                            __ __           **
+remarks:        ** .----.-----.--------.--------.--.--.-----.|__|  |_.--.--.  **
+remarks:        ** |  __|  _  |        |        |  |  |     ||  |   _|  |  |  **
+remarks:        ** |____|_____|__|__|__|__|__|__|_____|__|__||__|____|___  |  **
+remarks:        **                                                   |_____|  **
+remarks:        **                                                            **
+remarks:        ** Advertise to us:                                           **
+remarks:        **                                                            **
+remarks:        **   41495:64600 -- routes to not send to our upstreams       **
+remarks:        **   41495:64601 -- routes to not send to our peers           **
+remarks:        **   41495:64602 -- routes to not send to our customers       **
+remarks:        **   NOEXPORT    -- routes to not send to anyone              **
+remarks:        **                                                            **
+remarks:        ** We'll advertise to you:                                    **
+remarks:        **                                                            **
+remarks:        **   41495:41495 -- our routes                                **
+remarks:        **   41495:65507 -- our routes originating from Site G        **
+remarks:        **   41495:65513 -- our routes originating from Site M        **
+remarks:        **   41495:65523 -- our routes originating from Site W        **
+remarks:        **                                                            **
+remarks:        **   41495:174   -- routes learned from Cogent                **
+remarks:        **   41495:3257  -- routes learned from GTT                   **
+remarks:        **   41495:5459  -- routes learned from any LINX peering LAN  **
+remarks:        **   41495:6939  -- routes learned from Hurricane Electric    **
+remarks:        **   41495:29222 -- routes learned from Infomaniak Network    **
+remarks:        **   41495:35425 -- routes learned from Bytemark              **
+remarks:        **   41495:43531 -- routes learned from IX Reach              **
+remarks:        **                                                            **
+remarks:        **   41495:64700 -- routes learned from any of our upstreams  **
+remarks:        **   41495:64701 -- routes learned from any of our peers      **
+remarks:        **   41495:64702 -- routes learned from any of our customers  **
+remarks:        **                                                            **
+remarks:        ****************************************************************
+
+organisation:   ORG-FL61-RIPE
+org-name:       Faelix Limited
+org-type:       LIR
+remarks:        Faelix Limited's primary ORG object: ORG-FLX1-RIPE
+address:        13th Floor, City Tower, Piccadilly Plaza
+address:        M1 4BT
+address:        Manchester
+address:        UNITED KINGDOM
+phone:          +447779270405
+fax-no:         +441619873591
+admin-c:        MFLX-RIPE
+tech-c:         HFLX-RIPE
+abuse-c:        AFLX-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-FAELIX
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-FAELIX
+created:        2011-01-31T12:47:33Z
+last-modified:  2017-10-30T14:39:42Z
+source:         RIPE # Filtered
+
+person:         Marek Isalski
+address:        Faelix Limited, M21 9WR, UK
+phone:          +44(0)7779270405
+nic-hdl:        MFLX-RIPE
+mnt-by:         MNT-FAELIX
+created:        2006-11-29T15:53:54Z
+last-modified:  2007-09-10T14:49:02Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

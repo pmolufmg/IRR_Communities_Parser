@@ -1,0 +1,78 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS29083
+as-name:       DE-WORLDBONE-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS12693 accept   ANY                # Ediscom
+import:        from AS12732 accept   ANY                # D-Hosting
+export:        to   AS12693 announce AS-WORLDBONE       # Ediscom
+export:        to   AS12732 announce AS-WORLDBONE       # D-Hosting
+remarks:       IP-Network & Backbone
+remarks:       Berliner Damm 205
+remarks:       15831 Mahlow
+remarks:       Germany
+remarks:       
+remarks:       ----------------------------------------------------------
+remarks:       Upstreams
+remarks:       ----------------------------------------------------------
+remarks:       ----------------------------------------------------------
+remarks:       Customers / Peering Agreements
+remarks:       ----------------------------------------------------------
+remarks:       
+remarks:       ----------------------------------------------------------
+remarks:       Private Peerings
+remarks:       ----------------------------------------------------------
+remarks:       
+remarks:       ----------------------------------------------------------
+remarks:       Public Peerings
+remarks:       ----------------------------------------------------------
+remarks:       ----------------------------------------------------------
+remarks:       Peering Policy
+remarks:       ----------------------------------------------------------
+remarks:       The Worldbone IP Network has got an open peering policy.
+remarks:       
+remarks:       We are currently available for public/private peering at:
+remarks:       
+remarks:       Technical contact for peering issues is:
+remarks:       - hostmaster@worldbone.de
+remarks:       ----------------------------------------------------------
+remarks:       Community documentation
+remarks:       ----------------------------------------------------------
+remarks:       On routes announced in our AS, we set communities to allow
+remarks:       customers, peers and upstreams to control their routing
+remarks:       process.
+remarks:       
+remarks:       Our community scheme for AS29083 is 29083:wxyz, where:
+remarks:       
+remarks:       x : Type of BGP session (upstream, peering, customer)
+remarks:       1 = Upstream
+remarks:       2 = Peering
+remarks:       3 = Customer
+remarks:       
+remarks:       y : Selection of peer
+remarks:       1 = Ediscom
+remarks:       2 = DHosting
+remarks:       
+remarks:       z : Length of prepends for AS Path
+remarks:       1 = Prepend 1x
+remarks:       2 = Prepend 2x
+remarks:       3 = Prepend 3x
+remarks:       0 = no prepends
+remarks:       
+remarks:       Ip addresses for blackholing must be in this community
+remarks:       29083:999 = Blackhole / blocked ip address
+remarks:       ----------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        WORLDBONE-MNT
+source:        RIPE
+
+

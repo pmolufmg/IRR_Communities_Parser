@@ -1,0 +1,126 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS30720 - AS30895'
+
+as-block:       AS30720 - AS30895
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS30779'
+
+% Abuse contact for 'AS30779' is 'admin@cabletv.dp.ua'
+
+aut-num:        AS30779
+as-name:        INETKR-AS
+descr:          Krivoy Rog, Ukraine
+org:            ORG-TCT2-RIPE
+import:         from AS6939 accept ANY
+export:         to AS6939 announce AS-INET-UA
+import:         from AS35320 action pref=120; accept ANY
+export:         to AS35320 announce AS-INET-UA
+import:         from AS15645 accept AS-UAIX
+export:         to AS15645 announce AS-INET-UA
+default:        to AS35320 action pref = 120; networks ANY
+admin-c:        VIM11-RIPE
+tech-c:         VIM11-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         DL1386-RIPE
+mnt-by:         INETKR-MNT
+remarks:        ****************************************************
+remarks:        Communities for prefix control
+remarks:        ****************************************************
+remarks:        * 30779:001 no announce to uplinks
+remarks:        * 30779:001 no announce to ua-ix
+remarks:        *
+remarks:        *
+remarks:        * 30779:011 as-path prepend 1
+remarks:        * 30779:022 as-path prepend 2
+remarks:        * 30779:033 as-path prepend 3
+remarks:        * 30779:044 as-path prepend 4
+remarks:        * 30779:055 as-path prepend 5
+remarks:        *
+remarks:        *
+remarks:        *
+remarks:        * 30779:111 ua-ix as-path prepend 1
+remarks:        * 30779:122 ua-ix as-path prepend 2
+remarks:        * 30779:133 ua-ix as-path prepend 3
+remarks:        * 30779:144 ua-ix as-path prepend 4
+remarks:        * 30779:055 ua-ix as-path prepend 5
+remarks:        *
+remarks:        *
+remarks:        *
+remarks:        ******************************************************************
+remarks:        ********************* IPV6 ROUTING *******************************
+remarks:        ******************************************************************
+remarks:        *
+mp-import:      afi ipv6.unicast from AS15645 action pref=100; accept AS-UAIX
+mp-export:      afi ipv6.unicast to AS15645 announce AS-INET-UA
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-INET-UA
+mp-import:      afi ipv6.unicast from AS29632 action pref=90; accept ANY
+mp-export:      afi ipv6.unicast to AS29632 announce AS-INET-UA
+mp-import:      afi ipv6.unicast from AS35320 action pref=120; accept ANY
+mp-export:      afi ipv6.unicast to AS35320 announce AS-INET-UA
+created:        2003-12-02T13:12:25Z
+last-modified:  2018-09-04T09:59:40Z
+source:         RIPE
+sponsoring-org: ORG-ML410-RIPE
+
+organisation:   ORG-TCT2-RIPE
+org-name:       TRK Cable TV LLC
+org-type:       OTHER
+address:        Yaroslava Mudroho , 40, 1
+address:        Krivoy Rog
+address:        UA
+phone:          +380 564 922346
+phone:          +380 564 922376
+abuse-c:        AR29093-RIPE
+tech-c:         VIM11-RIPE
+admin-c:        VIM11-RIPE
+mnt-ref:        INETKR-MNT
+mnt-by:         INETKR-MNT
+created:        2009-12-21T20:44:54Z
+last-modified:  2017-03-13T08:55:28Z
+source:         RIPE # Filtered
+
+person:         Dmitry S. Luhtionov
+address:        50027, Krivoy Rog
+address:        40/1, Otto Brozovskogo st.
+phone:          +380 564 92-23-46
+nic-hdl:        DL1386-RIPE
+created:        2004-03-30T07:47:51Z
+last-modified:  2016-04-06T11:37:20Z
+mnt-by:         RIPE-NCC-LOCKED-MNT
+source:         RIPE # Filtered
+
+person:         Petrishin Dmitry
+address:        UA KrivoyRog
+phone:          +380(564)92-23-76
+fax-no:         +380(564)92-23-46
+nic-hdl:        VIM11-RIPE
+mnt-by:         INETKR-MNT
+created:        2003-11-14T15:04:55Z
+last-modified:  2017-10-30T21:46:10Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

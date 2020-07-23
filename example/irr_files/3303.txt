@@ -1,0 +1,1027 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS3303
+as-name:       SWISSCOM
+descr:         Swisscom (Switzerland) Ltd
+descr:         IP-Plus Internet Backbone
+descr:         
+descr:         ======================================================================
+descr:         
+descr:         Abuse issues           abuse@ip-plus.net
+descr:         Operational issues     noc@ip-plus.net
+descr:         Peering requests       IP-Plus.Peering@swisscom.com
+descr:         Other info             http://www.ip-plus.net
+descr:         
+descr:         ======================================================================
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+member-of:     AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS3303
+import:        from AS3320 action pref=700; accept ANY
+import:        from AS174 action pref=700; accept ANY
+import:        from AS42 action pref=700; accept AS-PCH
+import:        from AS137 action pref=700; accept AS-GARR
+import:        from AS209 action pref=700; accept AS-QWEST
+import:        from AS237 action pref=700; accept AS-MICHNET
+import:        from AS286 action pref=700; accept AS-KPN
+import:        from AS513 action pref=700; accept AS-CERNEXT
+import:        from AS553 action pref=700; accept AS-BELWUE
+import:        from AS577 action pref=700; accept AS577:AS-CUSTOMERS
+import:        from AS680 action pref=700; accept AS-DFNTOWINISP
+import:        from AS702 action pref=700; accept AS702:RS-EURO AS702:RS-CUSTOMER
+import:        from AS786 action pref=700; accept AS-JANETPLUS
+import:        from AS812 action pref=700; accept AS-ROGERS:AS-CUSTOMERS
+import:        from AS852 action pref=700; accept AS-TELUS
+import:        from AS1103 action pref=700; accept AS-SURFNET
+import:        from AS1120 action pref=700; accept AS-ACOSERV
+import:        from AS1121 action pref=700; accept AS1121
+import:        from AS1126 action pref=700; accept AS1126
+import:        from AS1140 action pref=700; accept AS1140
+import:        from AS1200 action pref=700; accept AS1200
+import:        from AS1239 action pref=700; accept AS1239
+import:        from AS1267 action pref=700; accept AS-INFOSTRADA
+import:        from AS1273 action pref=700; accept AS-CW
+import:        from AS1280 action pref=700; accept AS1280 AS3557
+import:        from AS1304 action pref=700; accept AS1304
+import:        from AS1653 action pref=700; accept AS-SUNET
+import:        from AS1785 action pref=700; accept AS-FASTNET
+import:        from AS1853 action pref=700; accept AS-ACONETTOVIX
+import:        from AS1880 action pref=700; accept AS-STUPI
+import:        from AS1916 action pref=700; accept AS-RNP-TRANSIT
+import:        from AS2116 action pref=700; accept AS-CATCHCOM
+import:        from AS2119 action pref=700; accept AS-TELENOR
+import:        from AS2200 action pref=700; accept AS-RENATER
+import:        from AS2381 action pref=700; accept AS-WISCNET
+import:        from AS2486 action pref=700; accept AS-AFNIC
+import:        from AS2497 action pref=700; accept AS-IIJ
+import:        from AS2516 action pref=700; accept AS-KDDCUSTOMER
+import:        from AS2603 action pref=700; accept AS-NORDUNET
+import:        from AS2611 action pref=700; accept AS-BELNET
+import:        from AS2686 action pref=700; accept AS-IGNEMEA
+import:        from AS2687 action pref=700; accept AS-ATTAP
+import:        from AS2706 action pref=700; accept AS2706
+import:        from AS2828 action pref=700; accept AS-XO
+import:        from AS2852 action pref=700; accept AS-CESNET
+import:        from AS2856 action pref=700; accept AS-BTGB
+import:        from AS2860 action pref=700; accept AS-NOVIS
+import:        from AS2874 action pref=700; accept AS-GLOBALIPNET
+import:        from AS2914 action pref=700; accept AS2914:AS-GLOBAL
+import:        from AS3209 action pref=700; accept AS-ARCORGLOBAL
+import:        from AS3212 action pref=700; accept AS-TRIERA
+import:        from AS3216 action pref=700; accept AS-SOVAM
+import:        from AS3225 action pref=700; accept AS-UCC
+import:        from AS3255 action pref=700; accept AS-UARNET
+import:        from AS3257 action pref=700; accept AS-TINET
+import:        from AS3262 action pref=700; accept AS-SARENET
+import:        from AS3267 action pref=700; accept AS-RUNNET
+import:        from AS3292 action pref=700; accept AS-TELEDK
+import:        from AS3300 action pref=700; accept AS-BT-GLOBAL
+import:        from AS3326 action pref=700; accept AS3326:AS-EXT
+import:        from AS3327 action pref=700; accept AS-LINXTELECOM-AMSIX
+import:        from AS3333 action pref=700; accept AS-RIPENCC
+import:        from AS3356 action pref=700; accept AS-LEVEL3-CUSTOMERS
+import:        from AS3491 action pref=700; accept AS-CAIS
+import:        from AS3605 action pref=700; accept AS3605
+import:        from AS3661 action pref=700; accept AS3661
+import:        from AS3741 action pref=700; accept AS-IS
+import:        from AS3786 action pref=700; accept AS-DACOM
+import:        from AS3856 action pref=700; accept AS-PCH
+import:        from AS3910 action pref=700; accept AS-QWEST
+import:        from AS4128 action pref=700; accept AS4128
+import:        from AS4134 action pref=700; accept AS-CN
+import:        from AS4181 action pref=700; accept AS-TDS-TRANSIT
+import:        from AS4230 action pref=700; accept AS4230
+import:        from AS4436 action pref=700; accept AS-NLAYER
+import:        from AS4589 action pref=700; accept AS-EASYNET
+import:        from AS4608 action pref=700; accept AS4608
+import:        from AS4635 action pref=700; accept AS4635
+import:        from AS4637 action pref=700; accept AS-TELSTRA-INTL-CUSTOMERS
+import:        from AS4641 action pref=700; accept AS4641:AS-CUHK-TRANSIT
+import:        from AS4648 action pref=700; accept AS-4648-CUSTOMERS
+import:        from AS4651 action pref=700; accept AS-THIX
+import:        from AS4657 action pref=700; accept AS-STARHUBINTERNET
+import:        from AS4739 action pref=700; accept AS-4739
+import:        from AS4766 action pref=700; accept AS-KORNET
+import:        from AS4773 action pref=700; accept AS4773
+import:        from AS4775 action pref=700; accept AS4775
+import:        from AS4788 action pref=700; accept AS-TMNET-CUSTOMERS
+import:        from AS4800 action pref=700; accept AS4800
+import:        from AS4818 action pref=700; accept AS-4818
+import:        from AS4826 action pref=700; accept AS-VOCUS
+import:        from AS4837 action pref=700; accept AS4837:AS-CNCGROUP
+import:        from AS4844 action pref=700; accept AS4844
+import:        from AS5390 action pref=700; accept AS-EURONET
+import:        from AS5391 action pref=700; accept AS-HRHINET
+import:        from AS5392 action pref=700; accept AS-TELNET
+import:        from AS5396 action pref=700; accept AS-MCLINK
+import:        from AS5400 action pref=700; accept AS-BT-EU
+import:        from AS5403 action pref=700; accept AS-APA
+import:        from AS5410 action pref=700; accept AS-BOUYGTEL-ISP
+import:        from AS5413 action pref=700; accept AS5413:AS-PIPEX
+import:        from AS5430 action pref=700; accept AS-FREENETDE
+import:        from AS5459 action pref=700; accept AS5459
+import:        from AS5466 action pref=700; accept AS-EIRCOM
+import:        from AS5511 action pref=700; accept AS-OPENTRANSIT
+import:        from AS5539 action pref=700; accept AS-SPACENET
+import:        from AS5560 action pref=700; accept AS-BICS-INSTANT-PEERING
+import:        from AS5568 action pref=700; accept AS-RBNET
+import:        from AS5577 action pref=700; accept AS-ROOT
+import:        from AS5588 action pref=700; accept AS-GTS-CE
+import:        from AS5602 action pref=700; accept AS-KQIT
+import:        from AS5645 action pref=700; accept AS5645:AS-CUSTOMERS
+import:        from AS5650 action pref=700; accept AS-FRONTIER
+import:        from AS5769 action pref=700; accept AS-VTL
+import:        from AS6079 action pref=700; accept AS-RCN
+import:        from AS6128 action pref=700; accept AS6128:AS-CUSTOMERS
+import:        from AS6327 action pref=700; accept AS-BIGPIPE
+import:        from AS6407 action pref=700; accept AS6407
+import:        from AS6412 action pref=700; accept AS-GNET-KW
+import:        from AS6447 action pref=700; accept NOT ANY
+import:        from AS6453 action pref=700; accept AS-GLOBEINTERNET
+import:        from AS6461 action pref=700; accept AS-MFNX
+import:        from AS6507 action pref=700; accept AS-RIOT
+import:        from AS6648 action pref=700; accept AS-SKYINTERNET
+import:        from AS6661 action pref=700; accept AS-PTLU
+import:        from AS6663 action pref=700; accept AS-PANTEL
+import:        from AS6667 action pref=700; accept AS-JIPPII
+import:        from AS6677 action pref=700; accept AS-ICENET
+import:        from AS6695 action pref=700; accept AS6695
+import:        from AS6724 action pref=700; accept AS-STRATORZ
+import:        from AS6730 action pref=700; accept AS-GLOBAL AS-SWISS
+import:        from AS6762 action pref=700; accept AS-SEABONE
+import:        from AS6830 action pref=700; accept AS-AORTA
+import:        from AS6871 action pref=700; accept AS-PLUSNETUK
+import:        from AS6898 action pref=700; accept AS-INTERNETONE_CH
+import:        from AS6908 action pref=700; accept AS-DATAHOP
+import:        from AS6939 action pref=700; accept AS-HURRICANE
+import:        from AS7029 action pref=700; accept AS-WINDSTREAM
+import:        from AS7342 action pref=700; accept AS-GTLD
+import:        from AS7473 action pref=700; accept AS-SINGTEL
+import:        from AS7500 action pref=700; accept AS7500
+import:        from AS7568 action pref=700; accept AS-CSLOXINFO-TRANSIT
+import:        from AS7575 action pref=700; accept AS7575:AS-CUSTOMER
+import:        from AS7578 action pref=700; accept AS7578
+import:        from AS7632 action pref=700; accept AS7632:AS-LINKNET
+import:        from AS7713 action pref=700; accept AS7713:AS-TELKOM-TRANSIT
+import:        from AS7738 action pref=700; accept AS-TELEMARNET
+import:        from AS7843 action pref=700; accept AS-ROADRUNNER
+import:        from AS8075 action pref=700; accept AS-MICROSOFT
+import:        from AS8121 action pref=700; accept AS-LAYER42
+import:        from AS8218 action pref=700; accept AS-NEOT
+import:        from AS8220 action pref=700; accept AS-COLT
+import:        from AS8339 action pref=700; accept AS-KABS
+import:        from AS8342 action pref=700; accept AS8342:AS-RTCOMM-LINX-EXP
+import:        from AS8359 action pref=700; accept AS-MTU
+import:        from AS8365 action pref=700; accept AS-MANDA
+import:        from AS8400 action pref=700; accept AS-TELEKOM
+import:        from AS8422 action pref=700; accept AS-NETCOLOGNE
+import:        from AS8426 action pref=700; accept AS-CLARANET
+import:        from AS8445 action pref=700; accept AS-SALZBURG-AG
+import:        from AS8447 action pref=700; accept AS-PTA
+import:        from AS8455 action pref=700; accept AS-ATOM86
+import:        from AS8473 action pref=700; accept AS-BAHNHOF
+import:        from AS8551 action pref=700; accept AS-BEZEQINT
+import:        from AS8560 action pref=700; accept AS-SCHLUND
+import:        from AS8591 action pref=700; accept AS-AMIS
+import:        from AS8612 action pref=700; accept AS-TISCALI-8612
+import:        from AS8657 action pref=700; accept AS-CPRM
+import:        from AS8683 action pref=700; accept AS-NOMINET
+import:        from AS8708 action pref=700; accept AS-RDSNET
+import:        from AS8714 action pref=700; accept AS8714
+import:        from AS8717 action pref=700; accept AS-SPNET
+import:        from AS8732 action pref=700; accept AS-COMCOR
+import:        from AS8758 action pref=700; accept AS-DOLPHINS
+import:        from AS8763 action pref=700; accept AS-DENIC
+import:        from AS8764 action pref=700; accept AS-LTELECOM
+import:        from AS8767 action pref=700; accept AS-MNETDE
+import:        from AS8781 action pref=700; accept AS-QTEL-SET
+import:        from AS8866 action pref=700; accept AS-BTC-UP
+import:        from AS8881 action pref=700; accept AS-VT-TRANSIT
+import:        from AS8928 action pref=700; accept AS-INTEROUTE
+import:        from AS8966 action pref=700; accept AS-EMIX
+import:        from AS9002 action pref=700; accept AS-RETN
+import:        from AS9031 action pref=700; accept AS-EDPNET
+import:        from AS9044 action pref=700; accept AS-SOLNET
+import:        from AS9050 action pref=700; accept AS-RTD
+import:        from AS9116 action pref=700; accept AS-GOLDEN
+import:        from AS9121 action pref=700; accept AS-TTNET
+import:        from AS9137 action pref=700; accept AS-UNO
+import:        from AS9143 action pref=700; accept AS-BENELUX
+import:        from AS9145 action pref=700; accept AS-EWETEL
+import:        from AS9264 action pref=700; accept AS-ASNET
+import:        from AS9269 action pref=700; accept AS9269
+import:        from AS9293 action pref=700; accept AS9293
+import:        from AS9304 action pref=700; accept AS-HUTCHCITY
+import:        from AS9318 action pref=700; accept AS-HANARO
+import:        from AS9329 action pref=700; accept AS-SLTNET-TRANSIT
+import:        from AS9416 action pref=700; accept AS-9416-TRANSIT
+import:        from AS9419 action pref=700; accept AS9419
+import:        from AS9443 action pref=700; accept AS9443
+import:        from AS9498 action pref=700; accept AS9498:AS-BHARTI-IN
+import:        from AS9505 action pref=700; accept AS-TWIG
+import:        from AS9534 action pref=700; accept AS9534
+import:        from AS9584 action pref=700; accept AS9584
+import:        from AS9658 action pref=700; accept AS-ETPI
+import:        from AS9892 action pref=700; accept AS-WEBVISIONS-TRANSIT
+import:        from AS9902 action pref=700; accept AS-NEOCOMISP-KH
+import:        from AS9989 action pref=700; accept AS9989
+import:        from AS10026 action pref=700; accept AS-ANC
+import:        from AS10310 action pref=700; accept AS-YAHOO
+import:        from AS11164 action pref=700; accept AS-TR
+import:        from AS12008 action pref=700; accept AS12008
+import:        from AS12076 action pref=700; accept AS-MICROSOFT
+import:        from AS12189 action pref=700; accept AS-PHOENIXNAP
+import:        from AS12200 action pref=700; accept AS-RACKSPACE
+import:        from AS12306 action pref=700; accept AS-PLUSLINE
+import:        from AS12312 action pref=700; accept AS-NACAMAR
+import:        from AS12322 action pref=700; accept AS-PROXAD
+import:        from AS12350 action pref=700; accept AS-VTX
+import:        from AS12389 action pref=700; accept AS-ROSTELECOM
+import:        from AS12552 action pref=700; accept AS-IPO
+import:        from AS12578 action pref=700; accept AS-LATTELEKOM
+import:        from AS12605 action pref=700; accept AS-LIWESTAT
+import:        from AS12654 action pref=700; accept AS12654
+import:        from AS12670 action pref=700; accept AS-COMPLETEL
+import:        from AS12695 action pref=700; accept AS-DINET
+import:        from AS12713 action pref=700; accept AS-OTEGLOBE
+import:        from AS12715 action pref=700; accept AS-JAZZTRANS
+import:        from AS12741 action pref=700; accept AS-NETIA
+import:        from AS12779 action pref=700; accept AS12779:AS-CUSTOMERS
+import:        from AS12956 action pref=700; accept AS12956 AS-TDATANET
+import:        from AS13030 action pref=700; accept AS13030:AS-INIT7
+import:        from AS13101 action pref=700; accept AS-TNG
+import:        from AS13127 action pref=700; accept AS-VERSATEL
+import:        from AS13189 action pref=700; accept AS-LIDERO
+import:        from AS13193 action pref=700; accept AS-NERIM
+import:        from AS13213 action pref=700; accept AS-UK2NET
+import:        from AS13249 action pref=700; accept AS-ITS-DECIX
+import:        from AS13250 action pref=700; accept AS13250
+import:        from AS13285 action pref=700; accept AS-OPAL
+import:        from AS13301 action pref=700; accept AS-ETTEL
+import:        from AS13335 action pref=700; accept AS-CLOUDFLARE
+import:        from AS13414 action pref=700; accept AS-TWITTER
+import:        from AS13489 action pref=700; accept AS13489
+import:        from AS13768 action pref=700; accept AS-PEERONECUST
+import:        from AS14361 action pref=700; accept AS14361
+import:        from AS14413 action pref=700; accept AS-LINKEDIN
+import:        from AS15169 action pref=700; accept AS-GOOGLE
+import:        from AS15290 action pref=700; accept AS-ALLSTREAM
+import:        from AS15366 action pref=700; accept AS-DNSNET
+import:        from AS15412 action pref=700; accept AS-FLAGP
+import:        from AS15422 action pref=700; accept AS-PPR
+import:        from AS15433 action pref=700; accept AS-TISM
+import:        from AS15435 action pref=700; accept AS-KABELFOON
+import:        from AS15517 action pref=700; accept AS-NETSTREAM-CH
+import:        from AS15557 action pref=700; accept AS-LDCOMNET
+import:        from AS15576 action pref=700; accept AS15576:AS-NTS
+import:        from AS15598 action pref=700; accept AS-IPX
+import:        from AS15623 action pref=700; accept AS-CYBERLINK
+import:        from AS15695 action pref=700; accept AS-EXPEREO
+import:        from AS15772 action pref=700; accept AS-WNET
+import:        from AS15802 action pref=700; accept AS15802
+import:        from AS15830 action pref=700; accept AS-TELECITYLON
+import:        from AS16086 action pref=700; accept AS-FINNET
+import:        from AS16097 action pref=700; accept AS-HLKOMM
+import:        from AS16242 action pref=700; accept AS-MHS
+import:        from AS16371 action pref=700; accept AS-ACENS
+import:        from AS16509 action pref=700; accept AS-AMAZON
+import:        from AS16735 action pref=700; accept AS16735
+import:        from AS16876 action pref=700; accept AS-ICANN
+import:        from AS17451 action pref=700; accept AS-BIZNET
+import:        from AS17547 action pref=700; accept AS17547
+import:        from AS17604 action pref=700; accept AS17604
+import:        from AS17660 action pref=700; accept AS-DRUKNET
+import:        from AS17676 action pref=700; accept AS-GIGAINFRA
+import:        from AS18001 action pref=700; accept AS18001:AS-TRANSIT
+import:        from AS18059 action pref=700; accept AS18059
+import:        from AS18106 action pref=700; accept AS18106:AS-TRANSIT
+import:        from AS18391 action pref=700; accept AS18391 AS23979
+import:        from AS18403 action pref=700; accept AS18403
+import:        from AS19108 action pref=700; accept AS-SUDDENLINK-TRANSIT
+import:        from AS19318 action pref=700; accept AS-NJIIX
+import:        from AS19551 action pref=700; accept AS-INCAPSULA
+import:        from AS19740 action pref=700; accept AS-SUDJAM
+import:        from AS19996 action pref=700; accept AS19996
+import:        from AS20080 action pref=700; accept AS20080
+import:        from AS20473 action pref=700; accept AS-CHOOPA
+import:        from AS20562 action pref=700; accept AS-OPENPEERINGMEMBERS
+import:        from AS20634 action pref=700; accept AS-LIECOMTEL
+import:        from AS20676 action pref=700; accept AS-QSC
+import:        from AS20764 action pref=700; accept AS-RASCOM
+import:        from AS20804 action pref=700; accept AS-EXATEL-INT
+import:        from AS20860 action pref=700; accept AS-RAPIDSWITCH
+import:        from AS20932 action pref=700; accept AS-IP-MAN
+import:        from AS21320 action pref=700; accept AS-GEANT-EUPEER
+import:        from AS21385 action pref=700; accept AS-TNIB
+import:        from AS21409 action pref=700; accept AS-IKOULA
+import:        from AS21413 action pref=700; accept AS-ENVIATEL
+import:        from AS21449 action pref=700; accept AS21449
+import:        from AS21859 action pref=700; accept AS-C3
+import:        from AS22356 action pref=700; accept AS22356
+import:        from AS22652 action pref=700; accept AS22652:AS-CUSTOMERS
+import:        from AS22822 action pref=700; accept AS-LLNW
+import:        from AS23028 action pref=700; accept AS23028
+import:        from AS23106 action pref=700; accept AS23106
+import:        from AS23148 action pref=700; accept AS-TWW
+import:        from AS23393 action pref=700; accept AS-ISPRIME
+import:        from AS23520 action pref=700; accept AS23520
+import:        from AS23655 action pref=700; accept AS23655
+import:        from AS23930 action pref=700; accept AS23930
+import:        from AS23939 action pref=700; accept AS-EZNETSOLS
+import:        from AS23947 action pref=700; accept AS23947:AS-GLOBAL
+import:        from AS24167 action pref=700; accept AS-ASGC
+import:        from AS24218 action pref=700; accept AS-SET-GTI-PIP
+import:        from AS24441 action pref=700; accept AS24441
+import:        from AS24482 action pref=700; accept AS-SGGS
+import:        from AS24516 action pref=700; accept AS24516
+import:        from AS24724 action pref=700; accept AS24724:AS-FOREIGN
+import:        from AS24904 action pref=700; accept AS-KWAOO
+import:        from AS24951 action pref=700; accept AS-EVERYWARE
+import:        from AS24961 action pref=700; accept AS-FASTIT
+import:        from AS25074 action pref=700; accept AS-INETBONE
+import:        from AS25152 action pref=700; accept AS25152
+import:        from AS25192 action pref=700; accept AS-CZNIC-VIX
+import:        from AS25369 action pref=700; accept AS-BANDWIDTH
+import:        from AS25525 action pref=700; accept AS-REASONNET
+import:        from AS25577 action pref=700; accept AS-C4L
+import:        from AS26496 action pref=700; accept AS-GDG
+import:        from AS26769 action pref=700; accept AS-BANDCON
+import:        from AS27257 action pref=700; accept AS-WEBAIR
+import:        from AS27345 action pref=700; accept AS27345
+import:        from AS27781 action pref=700; accept AS27781
+import:        from AS28917 action pref=700; accept AS-FIORD
+import:        from AS29073 action pref=700; accept AS-ECATEL
+import:        from AS29119 action pref=700; accept AS-SERVIHOSTING
+import:        from AS29208 action pref=700; accept AS-DIALTELECOM
+import:        from AS29518 action pref=700; accept AS-LABS2
+import:        from AS29550 action pref=700; accept AS-BLUECONNEX
+import:        from AS29551 action pref=700; accept AS29551
+import:        from AS29691 action pref=700; accept AS-NINE
+import:        from AS29791 action pref=700; accept AS-VOXEL
+import:        from AS29802 action pref=700; accept AS-29802
+import:        from AS30094 action pref=700; accept AS-GIGANEWS-ALL
+import:        from AS30126 action pref=700; accept AS3557
+import:        from AS30722 action pref=700; accept AS30722
+import:        from AS30781 action pref=700; accept AS-JAGUAR
+import:        from AS30844 action pref=700; accept AS-LIQUID
+import:        from AS30890 action pref=700; accept AS-EVOLVA
+import:        from AS30971 action pref=700; accept AS-NICAT
+import:        from AS30990 action pref=700; accept AS-ADJIB
+import:        from AS31004 action pref=700; accept AS31004
+import:        from AS31027 action pref=700; accept AS-NIANET
+import:        from AS31042 action pref=700; accept AS-SBB
+import:        from AS31103 action pref=700; accept AS-KEYWEB
+import:        from AS31133 action pref=700; accept AS-MF-MGSM
+import:        from AS31252 action pref=700; accept AS-STARNET
+import:        from AS31334 action pref=700; accept AS-KDG
+import:        from AS31424 action pref=700; accept AS-NEXELLENT AS-NEXELLENT-CUST
+import:        from AS31529 action pref=700; accept AS31529
+import:        from AS31661 action pref=700; accept AS-COMX
+import:        from AS31736 action pref=700; accept AS-SENSELAN
+import:        from AS32098 action pref=700; accept AS32098
+import:        from AS32354 action pref=700; accept AS-UNWIRED
+import:        from AS32748 action pref=700; accept AS-STEADFAST
+import:        from AS32787 action pref=700; accept AS-PROLE
+import:        from AS32934 action pref=700; accept AS-FACEBOOK
+import:        from AS33081 action pref=700; accept AS33081 AS3557
+import:        from AS33724 action pref=700; accept AS33724
+import:        from AS33885 action pref=700; accept AS-OWNIT
+import:        from AS34182 action pref=700; accept AS-FUTURELAB
+import:        from AS34224 action pref=700; accept AS-NETERRA-INT
+import:        from AS34288 action pref=700; accept AS34288
+import:        from AS34305 action pref=700; accept AS-EUROACCESS
+import:        from AS34347 action pref=700; accept AS-CNHAT
+import:        from AS34594 action pref=700; accept AS-OPTIMA
+import:        from AS34606 action pref=700; accept AS-BBBELL
+import:        from AS34781 action pref=700; accept AS-SIMA-LAUSANNE
+import:        from AS34948 action pref=700; accept AS-TYPHON
+import:        from AS35366 action pref=700; accept AS-ISPPRO
+import:        from AS35706 action pref=700; accept AS-NAO
+import:        from AS35908 action pref=700; accept AS-VPLS
+import:        from AS36408 action pref=700; accept AS-PANTHER
+import:        from AS36692 action pref=700; accept AS-OPENDNS
+import:        from AS36944 action pref=700; accept AS-TERTIARY
+import:        from AS37009 action pref=700; accept AS37009
+import:        from AS37053 action pref=700; accept AS37503
+import:        from AS37100 action pref=700; accept AS-SET-SEACOM
+import:        from AS37468 action pref=700; accept AS-ANGOLACABLES
+import:        from AS37497 action pref=700; accept AS-NETWORKPLATFORMS
+import:        from AS37640 action pref=700; accept AS37640
+import:        from AS37650 action pref=700; accept AS37650
+import:        from AS37662 action pref=700; accept AS-WIOCC
+import:        from AS38001 action pref=700; accept AS-NEWMEDIAEXPRESS
+import:        from AS38082 action pref=700; accept AS-TIG-GROUP
+import:        from AS38158 action pref=700; accept AS-NAPCBN
+import:        from AS38182 action pref=700; accept AS38182 AS55761
+import:        from AS38478 action pref=700; accept AS38478
+import:        from AS38726 action pref=700; accept AS-38726
+import:        from AS38861 action pref=700; accept AS-STARHUBINTERNET
+import:        from AS38880 action pref=700; accept AS38880
+import:        from AS39326 action pref=700; accept AS-GOSCOMB
+import:        from AS39386 action pref=700; accept AS-IGW-SET
+import:        from AS39651 action pref=700; accept AS-COMHEM
+import:        from AS39737 action pref=700; accept AS-NETVISIONTEL
+import:        from AS41095 action pref=700; accept AS-IPTP
+import:        from AS41230 action pref=700; accept AS-ASK4
+import:        from AS42708 action pref=700; accept AS-PORTLANE
+import:        from AS42909 action pref=700; accept AS42909
+import:        from AS42979 action pref=700; accept AS-GLOBALCOM_LV
+import:        from AS43142 action pref=700; accept AS-ADELINOVIUS
+import:        from AS43284 action pref=700; accept AS-IWB
+import:        from AS43821 action pref=700; accept AS-WIKIMEDIA
+import:        from AS43852 action pref=700; accept AS-FT
+import:        from AS44066 action pref=700; accept AS-FIRSTCOLO
+import:        from AS44581 action pref=700; accept AS-ALLTELE
+import:        from AS45180 action pref=700; accept AS45180
+import:        from AS45204 action pref=700; accept AS-GEMNET
+import:        from AS45352 action pref=700; accept AS-SET-IPSERVERONE
+import:        from AS45629 action pref=700; accept AS-45629
+import:        from AS45634 action pref=700; accept AS45634
+import:        from AS45796 action pref=700; accept AS45796
+import:        from AS45816 action pref=700; accept AS-ISHK
+import:        from AS45896 action pref=700; accept AS45896
+import:        from AS45932 action pref=700; accept AS45932
+import:        from AS46786 action pref=700; accept AS-IPTRANSIT
+import:        from AS47065 action pref=700; accept AS-PEERING-TESTBED
+import:        from AS47195 action pref=700; accept AS-GAMEFORGE
+import:        from AS47302 action pref=700; accept AS47302
+import:        from AS48268 action pref=700; accept AS-INTERFIBER
+import:        from AS48362 action pref=700; accept AS-TKSWF
+import:        from AS48544 action pref=700; accept AS48544
+import:        from AS48885 action pref=700; accept AS-NEOCARRIER
+import:        from AS49367 action pref=700; accept AS49367
+import:        from AS49544 action pref=700; accept AS-INTERACTIVE3D
+import:        from AS49605 action pref=700; accept AS-DTSRETEIVO
+import:        from AS49983 action pref=700; accept AS-MIRONET
+import:        from AS50986 action pref=700; accept AS-EHSAB
+import:        from AS51395 action pref=700; accept AS-SOFTPLUS
+import:        from AS51531 action pref=700; accept AS-DECIX-ONLY
+import:        from AS51873 action pref=700; accept AS51873
+import:        from AS53589 action pref=700; accept AS53589
+import:        from AS53727 action pref=700; accept AS53727
+import:        from AS55195 action pref=700; accept AS55195
+import:        from AS55480 action pref=700; accept AS-ISHK
+import:        from AS55518 action pref=700; accept AS55518
+import:        from AS55720 action pref=700; accept AS55720
+import:        from AS55799 action pref=700; accept AS-HOSTEMO
+import:        from AS55818 action pref=700; accept AS55818:AS-PEERING
+import:        from AS55967 action pref=700; accept AS-BAIDU-HK
+import:        from AS56258 action pref=700; accept AS-56258
+import:        from AS57023 action pref=700; accept AS-ORANLINK
+import:        from AS57187 action pref=700; accept AS-DATAMENA
+import:        from AS57866 action pref=700; accept AS-FUSIX
+import:        from AS58453 action pref=700; accept AS-CMI-ALL
+import:        from AS58879 action pref=700; accept AS-ANCH-GLOBAL
+import:        from AS58952 action pref=700; accept AS58952
+import:        from AS59318 action pref=700; accept AS-59318-AS-KH
+import:        from AS59605 action pref=700; accept AS-ZAINGP
+import:        from AS59622 action pref=700; accept AS-TVFACTORY
+import:        from AS59964 action pref=700; accept AS59964
+import:        from AS60924 action pref=700; accept AS60924
+import:        from AS61098 action pref=700; accept AS61098
+import:        from AS63242 action pref=700; accept AS-GOLIGHTSPEED
+import:        from AS63516 action pref=700; accept AS63516
+import:        from AS63541 action pref=700; accept AS63541
+import:        from AS63949 action pref=700; accept AS-LINODE
+import:        from AS64050 action pref=700; accept AS64050
+import:        from AS64096 action pref=700; accept AS-BIH
+import:        from AS64463 action pref=700; accept AS-PREMIUM-ROUTING
+import:        from AS132203 action pref=700; accept AS132203:AS-TENCENT
+import:        from AS132837 action pref=700; accept AS132837:AS-VTGHK
+import:        from AS132876 action pref=700; accept AS-132876
+import:        from AS133612 action pref=700; accept AS133612
+import:        from AS133959 action pref=700; accept AS133959
+import:        from AS134078 action pref=700; accept AS134078 AS23979
+import:        from AS135391 action pref=700; accept AS-AOFEI-INTL
+import:        from AS136168 action pref=700; accept AS136168:AS-CAMPANA-MM
+import:        from AS197000 action pref=700; accept AS197000
+import:        from AS198249 action pref=700; accept AS-SNOWFLAKE
+import:        from AS199811 action pref=700; accept AS-WX
+import:        from AS200612 action pref=700; accept AS-SETGBI
+import:        from AS201214 action pref=700; accept AS201214
+import:        from AS202954 action pref=700; accept AS202954
+import:        from AS262589 action pref=700; accept AS-ITXBR1
+import:        from AS327790 action pref=700; accept AS327790
+import:        from AS327872 action pref=700; accept AS327872
+import:        from AS327950 action pref=700; accept AS327950
+import:        from AS327960 action pref=700; accept AS327960
+import:        from AS394354 action pref=700; accept AS394354
+import:        from AS6774 action pref=600; accept AS-BELBONEMEMBERS
+import:        from AS6837 action pref=600; accept AS6837:AS-CUSTOMERS
+import:        from AS8300 action pref=600; accept AS-SWCMLAB
+import:        from AS8674 action pref=600; accept AS-NETNOD
+import:        from AS8729 action pref=600; accept AS8729
+import:        from AS8803 action pref=600; accept AS8803
+import:        from AS8883 action pref=600; accept AS8883
+import:        from AS9042 action pref=600; accept AS9042
+import:        from AS9096 action pref=600; accept AS9096
+import:        from AS9101 action pref=600; accept AS9101
+import:        from AS10794 action pref=600; accept AS10794
+import:        from AS12333 action pref=600; accept AS-DFI
+import:        from AS12429 action pref=600; accept AS-CYBERNETCH
+import:        from AS12511 action pref=600; accept AS12511
+import:        from AS12620 action pref=600; accept AS-TICINOCOM
+import:        from AS12623 action pref=600; accept AS12623
+import:        from AS12649 action pref=600; accept AS12649
+import:        from AS12651 action pref=600; accept AS-IPWORLDCOM
+import:        from AS12750 action pref=600; accept AS12750
+import:        from AS12776 action pref=600; accept AS12776
+import:        from AS12874 action pref=600; accept AS-FASTWEB
+import:        from AS12928 action pref=600; accept AS12928
+import:        from AS12980 action pref=600; accept AS12980
+import:        from AS13267 action pref=600; accept AS13267
+import:        from AS13283 action pref=600; accept AS13283
+import:        from AS15398 action pref=600; accept AS15398
+import:        from AS15513 action pref=600; accept AS15513
+import:        from AS15532 action pref=600; accept AS15532
+import:        from AS15600 action pref=600; accept AS-FINECOM
+import:        from AS15661 action pref=600; accept AS15661
+import:        from AS15796 action pref=600; accept AS15796
+import:        from AS16079 action pref=600; accept AS16079
+import:        from AS16114 action pref=600; accept AS16114
+import:        from AS16267 action pref=600; accept AS16267
+import:        from AS16839 action pref=600; accept AS16839
+import:        from AS18679 action pref=600; accept AS18679
+import:        from AS20568 action pref=600; accept AS20568
+import:        from AS20743 action pref=600; accept AS20743
+import:        from AS20868 action pref=600; accept AS20868
+import:        from AS20940 action pref=600; accept AS-AKAMAI
+import:        from AS21069 action pref=600; accept AS-META
+import:        from AS21113 action pref=600; accept AS21113
+import:        from AS21161 action pref=600; accept AS21161
+import:        from AS21217 action pref=600; accept AS21217
+import:        from AS21222 action pref=600; accept AS21222
+import:        from AS21357 action pref=600; accept AS21357
+import:        from AS21423 action pref=600; accept AS21423
+import:        from AS22570 action pref=600; accept AS22570
+import:        from AS24949 action pref=600; accept AS24949
+import:        from AS24952 action pref=600; accept AS24952
+import:        from AS25031 action pref=600; accept AS25031
+import:        from AS25090 action pref=600; accept AS25090
+import:        from AS25275 action pref=600; accept AS25275
+import:        from AS25289 action pref=600; accept AS25289
+import:        from AS25420 action pref=600; accept AS25420
+import:        from AS25581 action pref=600; accept AS25581
+import:        from AS25598 action pref=600; accept AS25598
+import:        from AS28916 action pref=600; accept AS28916
+import:        from AS29058 action pref=600; accept AS29058
+import:        from AS29166 action pref=600; accept AS29166
+import:        from AS29222 action pref=600; accept AS29222:AS-INFOMANIAK
+import:        from AS29416 action pref=600; accept AS29416
+import:        from AS29430 action pref=600; accept AS29430
+import:        from AS29500 action pref=600; accept AS29500
+import:        from AS30786 action pref=600; accept AS30786
+import:        from AS30934 action pref=600; accept AS30934
+import:        from AS31097 action pref=600; accept AS31097
+import:        from AS31141 action pref=600; accept AS31141
+import:        from AS32066 action pref=600; accept AS32066
+import:        from AS33845 action pref=600; accept AS-SWISSGOV
+import:        from AS33849 action pref=600; accept AS33849
+import:        from AS33958 action pref=600; accept AS33958
+import:        from AS34019 action pref=600; accept AS-HIVANE
+import:        from AS34261 action pref=600; accept AS34261
+import:        from AS34532 action pref=600; accept AS34532
+import:        from AS34893 action pref=600; accept AS34893
+import:        from AS35054 action pref=600; accept AS-EQUINIX-EU
+import:        from AS35231 action pref=600; accept AS35231
+import:        from AS35240 action pref=600; accept AS35240
+import:        from AS35276 action pref=600; accept AS35276
+import:        from AS35495 action pref=600; accept AS35495
+import:        from AS35507 action pref=600; accept AS35507
+import:        from AS35535 action pref=600; accept AS35535
+import:        from AS35610 action pref=600; accept AS35610
+import:        from AS39132 action pref=600; accept AS39132
+import:        from AS39166 action pref=600; accept AS39166
+import:        from AS39265 action pref=600; accept AS39265
+import:        from AS39296 action pref=600; accept AS39296
+import:        from AS39624 action pref=600; accept AS39624
+import:        from AS40262 action pref=600; accept AS40262
+import:        from AS41294 action pref=600; accept AS41294
+import:        from AS41396 action pref=600; accept AS41396
+import:        from AS41503 action pref=600; accept AS41503
+import:        from AS41521 action pref=600; accept AS41521
+import:        from AS41666 action pref=600; accept AS41666
+import:        from AS41768 action pref=600; accept AS-WEIDMANN
+import:        from AS42079 action pref=600; accept AS42079
+import:        from AS42662 action pref=600; accept AS42662
+import:        from AS42823 action pref=600; accept AS42823
+import:        from AS42917 action pref=600; accept AS42917
+import:        from AS43107 action pref=600; accept AS43107
+import:        from AS43119 action pref=600; accept AS43119
+import:        from AS43127 action pref=600; accept AS43127
+import:        from AS43136 action pref=600; accept AS43136
+import:        from AS43189 action pref=600; accept AS43189
+import:        from AS43828 action pref=600; accept AS43828
+import:        from AS44038 action pref=600; accept AS44038
+import:        from AS44635 action pref=600; accept AS44635
+import:        from AS47299 action pref=600; accept AS47299
+import:        from AS47538 action pref=600; accept AS47538
+import:        from AS47617 action pref=600; accept AS47617
+import:        from AS47946 action pref=600; accept AS47946
+import:        from AS47965 action pref=600; accept AS-SATLYNX
+import:        from AS48038 action pref=600; accept AS48038
+import:        from AS48060 action pref=600; accept AS48060
+import:        from AS48138 action pref=600; accept AS48138
+import:        from AS48307 action pref=600; accept AS48307
+import:        from AS48482 action pref=600; accept AS48482
+import:        from AS48491 action pref=600; accept AS48491
+import:        from AS48789 action pref=600; accept AS48789
+import:        from AS48849 action pref=600; accept AS48849
+import:        from AS48857 action pref=600; accept AS48857
+import:        from AS49446 action pref=600; accept AS49446
+import:        from AS49520 action pref=600; accept AS49520
+import:        from AS49837 action pref=600; accept AS49837
+import:        from AS49942 action pref=600; accept AS-WCP
+import:        from AS50110 action pref=600; accept AS50110
+import:        from AS50117 action pref=600; accept AS50117
+import:        from AS50350 action pref=600; accept AS50350
+import:        from AS50405 action pref=600; accept AS50405
+import:        from AS50476 action pref=600; accept AS50476
+import:        from AS50609 action pref=600; accept AS50609
+import:        from AS50734 action pref=600; accept AS50734
+import:        from AS50849 action pref=600; accept AS50849
+import:        from AS51688 action pref=600; accept AS51688
+import:        from AS51817 action pref=600; accept AS51817
+import:        from AS51820 action pref=600; accept AS51820
+import:        from AS51877 action pref=600; accept AS51877
+import:        from AS52150 action pref=600; accept AS52150
+import:        from AS56395 action pref=600; accept AS56395
+import:        from AS57370 action pref=600; accept AS57370
+import:        from AS57467 action pref=600; accept AS57467
+import:        from AS59748 action pref=600; accept AS59748
+import:        from AS59810 action pref=600; accept AS59810
+import:        from AS60059 action pref=600; accept AS60059
+import:        from AS60190 action pref=600; accept AS60190
+import:        from AS60374 action pref=600; accept AS60374
+import:        from AS60390 action pref=600; accept AS60390
+import:        from AS60420 action pref=600; accept AS60420
+import:        from AS60486 action pref=600; accept AS-SWISSNET
+import:        from AS61042 action pref=600; accept AS61042
+import:        from AS196722 action pref=600; accept AS196722
+import:        from AS197380 action pref=600; accept AS197380
+import:        from AS197525 action pref=600; accept AS197525
+import:        from AS197827 action pref=600; accept AS197827
+import:        from AS198175 action pref=600; accept AS198175
+import:        from AS198366 action pref=600; accept AS198366
+import:        from AS198534 action pref=600; accept AS198534
+import:        from AS198808 action pref=600; accept AS198808
+import:        from AS199225 action pref=600; accept AS199225
+import:        from AS199642 action pref=600; accept AS199642
+import:        from AS199802 action pref=600; accept AS199802
+import:        from AS200544 action pref=600; accept AS200544
+import:        from AS200925 action pref=600; accept AS200925
+import:        from AS200987 action pref=600; accept AS200987
+import:        from AS201306 action pref=600; accept AS201306
+import:        from AS201344 action pref=600; accept AS201344
+import:        from AS201436 action pref=600; accept AS201436
+import:        from AS201586 action pref=600; accept AS201586
+import:        from AS201590 action pref=600; accept AS201590
+import:        from AS201870 action pref=600; accept AS201870
+import:        from AS202229 action pref=600; accept AS202229
+import:        from AS202855 action pref=600; accept AS202855
+import:        from AS203732 action pref=600; accept AS203732
+import:        from AS204095 action pref=600; accept AS204095
+import:        from AS204483 action pref=600; accept AS204483
+import:        from AS204510 action pref=600; accept AS204510
+import:        from AS204783 action pref=600; accept AS204783
+import:        from AS204970 action pref=600; accept AS204970
+import:        from AS205218 action pref=600; accept AS205218
+import:        from AS205492 action pref=600; accept AS205492
+import:        from AS205678 action pref=600; accept AS205678
+import:        from AS205683 action pref=600; accept AS205683
+import:        from AS205815 action pref=600; accept AS205815
+import:        from AS206147 action pref=600; accept AS206147
+import:        from AS206225 action pref=600; accept AS206225
+import:        from AS206466 action pref=600; accept AS206466
+import:        from AS6777 accept ANY AND NOT <^[AS559]>
+export:        to AS3320 announce AS-SWCMGLOBAL
+export:        to AS174 announce AS-SWCMGLOBAL
+               # Peers:
+export:        to AS-SWCMPEERS announce AS-SWCMGLOBAL
+               # Customers:
+export:        to AS6774 announce ANY
+export:        to AS6837 announce ANY
+export:        to AS8300 announce ANY
+export:        to AS8674 announce ANY
+export:        to AS8729 announce ANY
+export:        to AS8803 announce ANY
+export:        to AS8883 announce ANY
+export:        to AS9042 announce ANY
+export:        to AS9096 announce ANY
+export:        to AS9101 announce ANY
+export:        to AS10794 announce ANY
+export:        to AS12333 announce ANY
+export:        to AS12429 announce ANY
+export:        to AS12511 announce ANY
+export:        to AS12620 announce ANY
+export:        to AS12623 announce ANY
+export:        to AS12649 announce ANY
+export:        to AS12651 announce ANY
+export:        to AS12750 announce ANY
+export:        to AS12776 announce ANY
+export:        to AS12874 announce ANY
+export:        to AS12928 announce ANY
+export:        to AS12980 announce ANY
+export:        to AS13267 announce ANY
+export:        to AS13283 announce ANY
+export:        to AS15398 announce ANY
+export:        to AS15513 announce ANY
+export:        to AS15532 announce ANY
+export:        to AS15600 announce ANY
+export:        to AS15661 announce ANY
+export:        to AS15796 announce ANY
+export:        to AS16079 announce ANY
+export:        to AS16114 announce ANY
+export:        to AS16267 announce ANY
+export:        to AS16839 announce ANY
+export:        to AS18679 announce ANY
+export:        to AS20568 announce ANY
+export:        to AS20743 announce ANY
+export:        to AS20868 announce ANY
+export:        to AS20940 announce ANY
+export:        to AS21069 announce ANY
+export:        to AS21113 announce ANY
+export:        to AS21161 announce ANY
+export:        to AS21217 announce ANY
+export:        to AS21222 announce ANY
+export:        to AS21357 announce ANY
+export:        to AS21423 announce ANY
+export:        to AS22570 announce ANY
+export:        to AS24949 announce ANY
+export:        to AS24952 announce ANY
+export:        to AS25031 announce ANY
+export:        to AS25090 announce ANY
+export:        to AS25275 announce ANY
+export:        to AS25289 announce ANY
+export:        to AS25420 announce ANY
+export:        to AS25581 announce ANY
+export:        to AS25598 announce ANY
+export:        to AS28916 announce ANY
+export:        to AS29058 announce ANY
+export:        to AS29166 announce ANY
+export:        to AS29222 announce ANY
+export:        to AS29416 announce ANY
+export:        to AS29430 announce ANY
+export:        to AS29500 announce ANY
+export:        to AS30786 announce ANY
+export:        to AS30934 announce ANY
+export:        to AS31097 announce ANY
+export:        to AS31141 announce ANY
+export:        to AS32066 announce ANY
+export:        to AS33845 announce ANY
+export:        to AS33849 announce ANY
+export:        to AS33958 announce ANY
+export:        to AS34019 announce ANY
+export:        to AS34261 announce ANY
+export:        to AS34532 announce ANY
+export:        to AS34893 announce ANY
+export:        to AS35054 announce ANY
+export:        to AS35231 announce ANY
+export:        to AS35240 announce ANY
+export:        to AS35276 announce ANY
+export:        to AS35495 announce ANY
+export:        to AS35507 announce ANY
+export:        to AS35535 announce ANY
+export:        to AS35610 announce ANY
+export:        to AS39132 announce ANY
+export:        to AS39166 announce ANY
+export:        to AS39265 announce ANY
+export:        to AS39296 announce ANY
+export:        to AS39624 announce ANY
+export:        to AS40262 announce ANY
+export:        to AS41294 announce ANY
+export:        to AS41396 announce ANY
+export:        to AS41503 announce ANY
+export:        to AS41521 announce ANY
+export:        to AS41666 announce ANY
+export:        to AS41768 announce ANY
+export:        to AS42079 announce ANY
+export:        to AS42662 announce ANY
+export:        to AS42823 announce ANY
+export:        to AS42917 announce ANY
+export:        to AS43107 announce ANY
+export:        to AS43119 announce ANY
+export:        to AS43127 announce ANY
+export:        to AS43136 announce ANY
+export:        to AS43189 announce ANY
+export:        to AS43828 announce ANY
+export:        to AS44038 announce ANY
+export:        to AS44635 announce ANY
+export:        to AS47299 announce ANY
+export:        to AS47538 announce ANY
+export:        to AS47617 announce ANY
+export:        to AS47946 announce ANY
+export:        to AS47965 announce ANY
+export:        to AS48038 announce ANY
+export:        to AS48060 announce ANY
+export:        to AS48138 announce ANY
+export:        to AS48307 announce ANY
+export:        to AS48482 announce ANY
+export:        to AS48491 announce ANY
+export:        to AS48789 announce ANY
+export:        to AS48849 announce ANY
+export:        to AS48857 announce ANY
+export:        to AS49446 announce ANY
+export:        to AS49520 announce ANY
+export:        to AS49837 announce ANY
+export:        to AS49942 announce ANY
+export:        to AS50110 announce ANY
+export:        to AS50117 announce ANY
+export:        to AS50350 announce ANY
+export:        to AS50405 announce ANY
+export:        to AS50476 announce ANY
+export:        to AS50609 announce ANY
+export:        to AS50734 announce ANY
+export:        to AS50849 announce ANY
+export:        to AS51688 announce ANY
+export:        to AS51817 announce ANY
+export:        to AS51820 announce ANY
+export:        to AS51877 announce ANY
+export:        to AS52150 announce ANY
+export:        to AS56395 announce ANY
+export:        to AS57370 announce ANY
+export:        to AS57467 announce ANY
+export:        to AS59748 announce ANY
+export:        to AS59810 announce ANY
+export:        to AS60059 announce ANY
+export:        to AS60190 announce ANY
+export:        to AS60374 announce ANY
+export:        to AS60390 announce ANY
+export:        to AS60420 announce ANY
+export:        to AS60486 announce ANY
+export:        to AS61042 announce ANY
+export:        to AS196722 announce ANY
+export:        to AS197380 announce ANY
+export:        to AS197525 announce ANY
+export:        to AS197827 announce ANY
+export:        to AS198175 announce ANY
+export:        to AS198366 announce ANY
+export:        to AS198534 announce ANY
+export:        to AS198808 announce ANY
+export:        to AS199225 announce ANY
+export:        to AS199642 announce ANY
+export:        to AS199802 announce ANY
+export:        to AS200544 announce ANY
+export:        to AS200925 announce ANY
+export:        to AS200987 announce ANY
+export:        to AS201306 announce ANY
+export:        to AS201344 announce ANY
+export:        to AS201436 announce ANY
+export:        to AS201586 announce ANY
+export:        to AS201590 announce ANY
+export:        to AS201870 announce ANY
+export:        to AS202229 announce ANY
+export:        to AS202855 announce ANY
+export:        to AS203732 announce ANY
+export:        to AS204095 announce ANY
+export:        to AS204483 announce ANY
+export:        to AS204510 announce ANY
+export:        to AS204783 announce ANY
+export:        to AS204970 announce ANY
+export:        to AS205218 announce ANY
+export:        to AS205492 announce ANY
+export:        to AS205678 announce ANY
+export:        to AS205683 announce ANY
+export:        to AS205815 announce ANY
+export:        to AS206147 announce ANY
+export:        to AS206225 announce ANY
+export:        to AS206466 announce ANY
+export:        to AS6777 action community .= { 6777:6777, 6777:559 }; announce AS-SWCMGLOBAL
+               #
+remarks:       AMS-ix route-server
+remarks:       =======================================================================
+remarks:       
+remarks:       COMMUNITY SUPPORT
+remarks:       
+remarks:       Community       Action/Effect
+remarks:       ---------------------------------------------------------------------
+remarks:       3303:300        set local-pref to 300 (same as peers). Default is 400
+remarks:       3303:888        blackhole within AS3303 (up to /32 allowed)
+remarks:       3303:2199 Treat as peering route
+remarks:       
+remarks:       3303:2050       prepend 3x to any peer in London
+remarks:       3303:2051       prepend 3x to any peer in Amsterdam
+remarks:       3303:2052       prepend 3x to any peer in Frankfurt-Itenos
+remarks:       3303:2053       prepend 3x to any peer in Paris
+remarks:       3303:2054       prepend 3x to any peer in Stockholm
+remarks:       3303:2055       prepend 3x to any peer in Milan
+remarks:       3303:2056       prepend 3x to any peer in Frankfurt-InterXion
+remarks:       3303:2057       prepend 3x to any peer in Hong Kong
+remarks:       3303:2058       prepend 3x to any peer in Singapore
+remarks:       3303:2059       prepend 3x to any peer in Dubai
+remarks:       3303:2060       prepend 3x to any peer in Ashburn
+remarks:       3303:2061       prepend 3x to any peer in Los Angeles
+remarks:       3303:2062       prepend 3x to any peer in Chicago
+remarks:       3303:2063       prepend 3x to any peer in Dallas
+remarks:       3303:2064       prepend 3x to any peer in New York
+remarks:       3303:2065       prepend 3x to any peer in Miami
+remarks:       3303:2066       prepend 3x to any peer in Geneva
+remarks:       3303:2067       prepend 3x to any peer in Zurich
+remarks:       3303:2068       prepend 3x to any peer in Bern
+remarks:       3303:2069       prepend 3x to any peer in Basel
+remarks:       3303:2070       prepend 3x to any peer in Olten
+remarks:       3303:2071       prepend 3x to any peer in Lugano
+remarks:       3303:2072       prepend 3x to any peer in Lausanne
+remarks:       3303:2073       prepend 3x to any peer in Sydney
+remarks:       3303:2074       prepend 3x to any peer in Johannesburg
+remarks:       3303:2075       prepend 3x to any peer in Marseille
+remarks:       3303:2076       prepend 3x to any peer in Madrid
+remarks:       3303:2077       prepend 3x to any peer in Vienna
+remarks:       3303:2078       prepend 3x to any peer in Capetown
+remarks:       3303:2079       prepend 3x to any peer in Tokyo
+remarks:       
+remarks:       3303:2150       do not announce to any peer in London
+remarks:       3303:2151       do not announce to any peer in Amsterdam
+remarks:       3303:2152       do not announce to any peer in Frankfurt-Itenos
+remarks:       3303:2153       do not announce to any peer in Paris
+remarks:       3303:2154       do not announce to any peer in Stockholm
+remarks:       3303:2155       do not announce to any peer in Milan
+remarks:       3303:2156       do not announce to any peer in Frankfurt-InterXion
+remarks:       3303:2157       do not announce to any peer in Hong Kong
+remarks:       3303:2158       do not announce to any peer in Singapore
+remarks:       3303:2159       do not announce to any peer in Dubai
+remarks:       3303:2160       do not announce to any peer in Ashburn
+remarks:       3303:2161       do not announce to any peer in Los Angeles
+remarks:       3303:2162       do not announce to any peer in Chicago
+remarks:       3303:2163       do not announce to any peer in Dallas
+remarks:       3303:2164       do not announce to any peer in New-York
+remarks:       3303:2165       do not announce to any peer in Miami
+remarks:       3303:2166       do not announce to any peer in Geneva
+remarks:       3303:2167       do not announce to any peer in Zurich
+remarks:       3303:2168       do not announce to any peer in Bern
+remarks:       3303:2169       do not announce to any peer in Basel
+remarks:       3303:2170       do not announce to any peer in Olten
+remarks:       3303:2171       do not announce to any peer in Lugano
+remarks:       3303:2172       do not announce to any peer in Lausanne
+remarks:       3303:2173       do not announce to any peer in Sydney
+remarks:       3303:2174       do not announce to any peer in Johannesburg
+remarks:       3303:2175       do not announce to any peer in Marseille
+remarks:       3303:2176       do not announce to any peer in Madrid
+remarks:       3303:2177       do not announce to any peer in Vienna
+remarks:       3303:2178       do not announce to any peer in Capetown
+remarks:       3303:2179       do not announce to any peer in Tokyo
+remarks:       
+remarks:       3303:2009       prepend (3x) to all US peers/upstreams
+remarks:       3303:2109       do not announce to ANY US peers/upstreams
+remarks:       
+remarks:       AS         Name              prepend (3x)    do not announce to
+remarks:       ---------------------------------------------------------------------
+remarks:       3320       DTAG              3303:2002       3303:2102
+remarks:       6730       Sunrise           3303:2003       3303:2103
+remarks:       6830    UPC / Cablecom    3303:2004      3303:2104
+remarks:       
+remarks:       ---------------------------------------------------------------------
+remarks:       Outbound
+remarks:       
+remarks:       3303:3050       route received in London
+remarks:       3303:3051       route received in Amsterdam
+remarks:       3303:3052       route received in Frankfurt-Itenos
+remarks:       3303:3053       route received in Paris
+remarks:       3303:3054       route received in Stockholm
+remarks:       3303:3055       route received in Milan
+remarks:       3303:3056       route received in Frankfurt-InterXion
+remarks:       3303:3057       route received in Hong Kong
+remarks:       3303:3058       route received in Singapore
+remarks:       3303:3059       route received in Dubai
+remarks:       3303:3060       route received in Ashburn
+remarks:       3303:3061       route received in Los Angeles
+remarks:       3303:3062       route received in Chicago
+remarks:       3303:3063       route received in Dallas
+remarks:       3303:3064       route received in New-York
+remarks:       3303:3065       route received in Miami
+remarks:       3303:3066       route received in Geneva
+remarks:       3303:3067       route received in Zurich
+remarks:       3303:3068       route received in Bern
+remarks:       3303:3069       route received in Basel
+remarks:       3303:3070       route received in Olten
+remarks:       3303:3071       route received in Lugano
+remarks:       3303:3072       route received in Lausanne
+remarks:       3303:3073       route received in Sydney
+remarks:       3303:3074       route received in Johannesburg
+remarks:       3303:3075       route received in Marseille
+remarks:       3303:3076       route received in Madrid
+remarks:       3303:3077       route received in Vienna
+remarks:       3303:3078       route received in Capetown
+remarks:       3303:3079       route received in Tokyo
+remarks:       
+remarks:       3303:1000       customer route
+remarks:       3303:1004       peering route
+remarks:       3303:1005       North American peering route
+remarks:       3303:1006       European peering route
+remarks:       3303:1007       Swiss peering route
+remarks:       3303:1009       Asian peering route
+remarks:       3303:1014       African peering route
+remarks:       
+remarks:       ========================================================================
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        CH-UNISOURCE-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

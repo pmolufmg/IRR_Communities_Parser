@@ -1,0 +1,646 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS56320 - AS58367'
+
+as-block:       AS56320 - AS58367
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS56665'
+
+% Abuse contact for 'AS56665' is 'abuse@proximus.lu'
+
+aut-num:        AS56665
+as-name:        ASN-Telindus-Telecom
+org:            ORG-TMS6-RIPE
+remarks:        --------------------------------------------------
+remarks:        BGP Communities for Customers
+remarks:        56665:9999 - Blackholing
+remarks:        --------------------------------------------------
+remarks:        ----------------- Upstream IPv4 ------------------
+import:         from AS6774 accept any
+export:         to AS6774 announce AS-TELINDUSLUX
+import:         from AS174 accept any
+export:         to AS174 announce AS-TELINDUSLUX
+import:         from AS1299 accept any
+export:         to AS1299 announce AS-TELINDUSLUX
+import:         from AS3356 accept any
+export:         to AS3356 announce AS-TELINDUSLUX
+import:         from AS48526 accept any
+export:         to AS48526 announce AS-TELINDUSLUX
+remarks:        ----------------- Upstream IPv6 ------------------
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS6939 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS1299 announce AS-TELINDUSLUX
+remarks:        ------------------- Peerings ---------------------
+remarks:
+remarks:        +------------- Peering Details ------------------+
+remarks:        | |
+remarks:        | All our peering details can be found at |
+remarks:        | http://as56665.peeringdb.com |
+remarks:        | |
+remarks:        +------------------------------------------------+
+remarks:
+remarks:        ------------ DE-CIX Frankfurt IPv4 ---------------
+import:         from AS6695 accept AS-DECIX
+import:         from AS8708 accept AS-RDSNET
+import:         from AS13285 accept AS-OPAL
+import:         from AS44654 accept AS-MNS
+import:         from AS12611 accept AS-RKOM
+import:         from AS1267 accept AS-INFOSTRADA
+import:         from AS41692 accept AS-OPENCARRIER
+import:         from AS42416 accept AS-COMNET
+import:         from AS8781 accept AS-QTEL-SET
+import:         from AS8365 accept AS-MANDA
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS36408 accept AS-CDNETWORKS
+import:         from AS12859 accept AS-BIT
+import:         from AS6805 accept AS-TDDE
+import:         from AS8359 accept AS-MTU
+import:         from AS13030 accept AS-INIT7
+import:         from AS35432 accept AS-WAVESPEED
+import:         from AS33891 accept AS-CORE-BACKBONE
+import:         from AS25308 accept AS-CITYLAN
+import:         from AS42459 accept AS-FOBUL
+import:         from AS29076 accept AS-CITYTELECOM
+import:         from AS28917 accept AS-FIORD
+import:         from AS8767 accept AS-MNETDE
+import:         from AS12731 accept AS-IPHH
+import:         from AS39792 accept AS-ANDERS
+import:         from AS57048 accept AS-REDTRANSIT4
+import:         from AS33873 accept AS-ARVATO
+import:         from AS20811 accept AS-BCOMIT
+import:         from AS34305 accept AS-BASEIP
+import:         from AS5089 accept AS-NTLI
+import:         from AS31042 accept AS-SBB
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS42708 accept AS-PORTLANE
+import:         from AS32934 accept AS-FACEBOOK
+import:         from AS197612 accept AS-LINKEDIN
+import:         from AS8560 accept AS-1AND1
+import:         from AS8447 accept AS-PTA
+import:         from AS16509 accept AS-AMAZON
+import:         from AS1764 accept AS-NEXTLAYER
+import:         from AS31019 accept AS-MEANIE
+import:         from AS31715 accept AS-NETRINO
+import:         from AS21267 accept AS-WAVENETUK
+import:         from AS13414 accept AS-TWITTER
+import:         from AS8972 accept AS-PLUSSERVER
+import:         from AS42861 accept AS-PRIME-LINE
+import:         from AS10310 accept AS-YAHOO
+import:         from AS15830 accept AS-TELECITYGROUP
+import:         from AS21219 accept AS-FF-TRANSIT
+import:         from AS8657 accept AS-CPRM
+import:         from AS31133 accept AS-MF-MGSM
+import:         from AS20485 accept AS-TTK
+import:         from AS8744 accept AS-WIMAX
+import:         from AS9002 accept AS-RETN
+import:         from AS12714 accept AS-TI
+import:         from AS58453 accept AS-CMI-ALL
+import:         from AS15133 accept AS-EDGECAST
+import:         from AS44217 accept AS-IQNETWORKS
+export:         to AS44217 announce AS-TELINDUSLUX
+export:         to AS15133 announce AS-TELINDUSLUX
+export:         to AS58453 announce AS-TELINDUSLUX
+export:         to AS12714 announce AS-TELINDUSLUX
+export:         to AS6695 announce AS-TELINDUSLUX
+export:         to AS9002 announce AS-TELINDUSLUX
+export:         to AS8744 announce AS-TELINDUSLUX
+export:         to AS8708 announce AS-TELINDUSLUX
+export:         to AS13285 announce AS-TELINDUSLUX
+export:         to AS44654 announce AS-TELINDUSLUX
+export:         to AS12611 announce AS-TELINDUSLUX
+export:         to AS1267 announce AS-TELINDUSLUX
+export:         to AS41692 announce AS-TELINDUSLUX
+export:         to AS42416 announce AS-TELINDUSLUX
+export:         to AS8781 announce AS-TELINDUSLUX
+export:         to AS8365 announce AS-TELINDUSLUX
+export:         to AS6939 announce AS-TELINDUSLUX
+export:         to AS36408 announce AS-TELINDUSLUX
+export:         to AS12859 announce AS-TELINDUSLUX
+export:         to AS6805 announce AS-TELINDUSLUX
+export:         to AS8359 announce AS-TELINDUSLUX
+export:         to AS13030 announce AS-TELINDUSLUX
+export:         to AS35432 announce AS-TELINDUSLUX
+export:         to AS33891 announce AS-TELINDUSLUX
+export:         to AS25308 announce AS-TELINDUSLUX
+export:         to AS42459 announce AS-TELINDUSLUX
+export:         to AS29076 announce AS-TELINDUSLUX
+export:         to AS28917 announce AS-TELINDUSLUX
+export:         to AS8767 announce AS-TELINDUSLUX
+export:         to AS12731 announce AS-TELINDUSLUX
+export:         to AS39792 announce AS-TELINDUSLUX
+export:         to AS57048 announce AS-TELINDUSLUX
+export:         to AS33873 announce AS-TELINDUSLUX
+export:         to AS20811 announce AS-TELINDUSLUX
+export:         to AS34305 announce AS-TELINDUSLUX
+export:         to AS5089 announce AS-TELINDUSLUX
+export:         to AS31042 announce AS-TELINDUSLUX
+export:         to AS20940 announce AS-TELINDUSLUX
+export:         to AS42708 announce AS-TELINDUSLUX
+export:         to AS32934 announce AS-TELINDUSLUX
+export:         to AS197612 announce AS-TELINDUSLUX
+export:         to AS8560 announce AS-TELINDUSLUX
+export:         to AS8447 announce AS-TELINDUSLUX
+export:         to AS16509 announce AS-TELINDUSLUX
+export:         to AS1764 announce AS-TELINDUSLUX
+export:         to AS31019 announce AS-TELINDUSLUX
+export:         to AS31715 announce AS-TELINDUSLUX
+export:         to AS21267 announce AS-TELINDUSLUX
+export:         to AS13414 announce AS-TELINDUSLUX
+export:         to AS8972 announce AS-TELINDUSLUX
+export:         to AS42861 announce AS-TELINDUSLUX
+export:         to AS10310 announce AS-TELINDUSLUX
+export:         to AS15830 announce AS-TELINDUSLUX
+export:         to AS21219 announce AS-TELINDUSLUX
+export:         to AS8657 announce AS-TELINDUSLUX
+export:         to AS31133 announce AS-TELINDUSLUX
+export:         to AS20485 announce AS-TELINDUSLUX
+remarks:        ------------ DE-CIX Frankfurt IPv6 ---------------
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-import:      afi ipv6.unicast from AS8365 accept AS-MANDA
+mp-import:      afi ipv6.unicast from AS42708 accept AS-PORTLANE
+mp-import:      afi ipv6.unicast from AS32934 accept AS-FACEBOOK
+mp-import:      afi ipv6.unicast from AS12611 accept AS-RKOM
+mp-import:      afi ipv6.unicast from AS41692 accept AS-OPENCARRIER6
+mp-import:      afi ipv6.unicast from AS8560 accept AS-1AND1
+mp-import:      afi ipv6.unicast from AS1764 accept AS-NEXTLAYER-V6
+mp-import:      afi ipv6.unicast from AS31019 accept AS-MEANIE
+mp-import:      afi ipv6.unicast from AS2484 accept AS-AFNIC
+mp-import:      afi ipv6.unicast from AS8972 accept AS-PLUSSERVER-V6
+mp-import:      afi ipv6.unicast from AS42861 accept AS-PRIME-LINE-V6
+mp-import:      afi ipv6.unicast from AS10310 accept AS-YAHOO
+mp-import:      afi ipv6.unicast from AS15830 accept AS-TELECITYGROUP
+mp-import:      afi ipv6.unicast from AS21219 accept AS-DATAGROUP-v6
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-import:      afi ipv6.unicast from AS8744 accept AS-WIMAX
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-import:      afi ipv6.unicast from AS12714 accept AS-TI
+mp-import:      afi ipv6.unicast from AS58453 accept AS-CMI-ALL
+mp-import:      afi ipv6.unicast from AS15133 accept AS-EDGECAST
+mp-export:      afi ipv6.unicast to AS15133 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS58453 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS9002 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS12714 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS8744 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS6695 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS8365 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS42708 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS32934 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS12611 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS41692 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS8560 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS1764 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS31019 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS2484 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS8972 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS42861 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS10310 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS15830 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS21219 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS33891 announce AS-TELINDUSLUX
+remarks:        ---------------- ECIX-DUS IPv4 -------------------
+import:         from AS9033 accept AS-ECIX-DUS
+import:         from AS29208 accept as-dialtelecom
+import:         from AS41692 accept AS-OPENCARRIER
+import:         from AS34695 accept AS34695:AS-TRANSIT
+import:         from AS6805 accept AS-TDDE
+import:         from AS44444 accept AS-WHS-EU
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS5430 accept AS-FREENETDE
+import:         from AS12676 accept AS-NCORE
+import:         from AS29014 accept AS-INTERNET4YOU
+import:         from AS13184 accept AS-HANSENET
+import:         from AS12693 accept AS-EDISCOM
+import:         from AS8422 accept AS-NETCOLOGNE
+import:         from AS31529 accept AS-DENIC-ANY
+import:         from AS20886 accept AS-BLATZ
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS12731 accept AS-IPHH
+export:         to AS9033 announce AS-TELINDUSLUX
+export:         to AS29208 announce AS-TELINDUSLUX
+export:         to AS41692 announce AS-TELINDUSLUX
+export:         to AS34695 announce AS-TELINDUSLUX
+export:         to AS6805 announce AS-TELINDUSLUX
+export:         to AS44444 announce AS-TELINDUSLUX
+export:         to AS6939 announce AS-TELINDUSLUX
+export:         to AS5430 announce AS-TELINDUSLUX
+export:         to AS12676 announce AS-TELINDUSLUX
+export:         to AS29014 announce AS-TELINDUSLUX
+export:         to AS13184 announce AS-TELINDUSLUX
+export:         to AS12693 announce AS-TELINDUSLUX
+export:         to AS8422 announce AS-TELINDUSLUX
+export:         to AS31529 announce AS-TELINDUSLUX
+export:         to AS20886 announce AS-TELINDUSLUX
+export:         to AS20940 announce AS-TELINDUSLUX
+export:         to AS12731 announce AS-TELINDUSLUX
+remarks:        ---------------- ECIX-DUS IPv6 -------------------
+mp-import:      afi ipv6.unicast from AS9033 accept AS-ECIX-DUS
+mp-import:      afi ipv6.unicast from AS41692 accept AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast to AS9033 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS41692 announce AS-TELINDUSLUX
+remarks:        ---------------- FranceIX IPv4 -------------------
+import:         from AS8560 accept AS-1AND1
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS16509 accept AS-AMAZON
+import:         from AS41157 accept AS-OXYMIUM
+import:         from AS2484 accept AS-AFNIC
+import:         from AS2486 accept AS-AFNIC
+import:         from AS5580 accept AS-ATRATO
+import:         from AS36408 accept AS-CDNETWORKS
+import:         from AS50620 accept AS-BLUENETECH
+import:         from AS8075 accept as-microsoft
+import:         from AS15436 accept AS-WITBE
+import:         from AS56824 accept AS-VEONET
+import:         from AS44444 accept AS-WHS-EU
+import:         from AS41690 accept AS-DAILYMOTION
+import:         from AS2200 accept AS-RENATER
+import:         from AS5410 accept AS-BOUYGTEL-ISP
+import:         from AS30126 accept AS30126
+import:         from AS39912 accept AS-I3B
+import:         from AS31688 accept AS-SPLIO
+import:         from AS29286 accept AS29286
+import:         from AS31019 accept AS-MEANIE
+import:         from AS8487 accept AS-PHIBEE-TELECOM
+export:         to AS8560 announce AS-TELINDUSLUX
+export:         to AS20940 announce AS-TELINDUSLUX
+export:         to AS6939 announce AS-TELINDUSLUX
+export:         to AS16509 announce AS-TELINDUSLUX
+export:         to AS41157 announce AS-TELINDUSLUX
+export:         to AS2484 announce AS-TELINDUSLUX
+export:         to AS2486 announce AS-TELINDUSLUX
+export:         to AS5580 announce AS-TELINDUSLUX
+export:         to AS36408 announce AS-TELINDUSLUX
+export:         to AS50620 announce AS-TELINDUSLUX
+export:         to AS8075 announce AS-TELINDUSLUX
+export:         to AS15436 announce AS-TELINDUSLUX
+export:         to AS56824 announce AS-TELINDUSLUX
+export:         to AS44444 announce AS-TELINDUSLUX
+export:         to AS41690 announce AS-TELINDUSLUX
+export:         to AS2200 announce AS-TELINDUSLUX
+export:         to AS5410 announce AS-TELINDUSLUX
+export:         to AS30126 announce AS-TELINDUSLUX
+export:         to AS39912 announce AS-TELINDUSLUX
+export:         to AS31688 announce AS-TELINDUSLUX
+export:         to AS29286 announce AS-TELINDUSLUX
+export:         to AS31019 announce AS-TELINDUSLUX
+export:         to AS8487 announce AS-TELINDUSLUX
+remarks:        ---------------- FranceIX IPv6 -------------------
+import:         from AS51706 accept AS-51706
+import:         from AS8487 accept AS-PHIBEE-TELECOM
+export:         to AS51706 announce AS-TELINDUSLUXv6
+export:         to AS8487 announce AS-TELINDUSLUXv6
+remarks:        ------------------- LuCIX IPv4 ---------------------
+import:         from AS197692 accept AS197692
+import:         from AS3347 accept AS3347
+import:         from AS8632 accept AS-LOL
+import:         from AS15965 accept AS-CEGECOM
+import:         from AS48526 accept AS48526
+import:         from AS197264 accept AS197264
+import:         from AS5577 accept AS-ROOT
+import:         from AS49624 accept AS-LUCIX
+import:         from AS196763 accept AS196763
+import:         from AS12312 accept AS-ECOTEL
+import:         from AS2602 accept AS-RESTENA
+import:         from AS2484 accept AS-AFNIC
+import:         from AS2486 accept AS-AFNIC
+import:         from AS29467 accept AS-LUXNETWORK
+export:         to AS197692 announce AS-TELINDUSLUX
+export:         to AS3347 announce AS-TELINDUSLUX
+export:         to AS8632 announce AS-TELINDUSLUX
+export:         to AS15965 announce AS-TELINDUSLUX
+export:         to AS48526 announce AS-TELINDUSLUX
+export:         to AS197264 announce AS-TELINDUSLUX
+export:         to AS5577 announce AS-TELINDUSLUX
+export:         to AS49624 announce AS-TELINDUSLUX
+export:         to AS196763 announce AS-TELINDUSLUX
+export:         to AS12312 announce AS-TELINDUSLUX
+export:         to AS2602 announce AS-TELINDUSLUX
+export:         to AS2484 announce AS-TELINDUSLUX
+export:         to AS2486 announce AS-TELINDUSLUX
+export:         to AS29467 announce AS-TELINDUSLUX
+remarks:        -----------------< AMS-IX IPv4 >----------------------
+remarks:        --> AMS-IX Route Server v4 <--
+remarks:        --
+import:         from AS6777 80.249.208.255 at 80.249.210.155 action pref=230; community = {56665:2000, 56665:2100, 56665:2150, 56665:2151}; accept AS-AMS-IX-RS AND NOT fltr-bogons
+import:         from AS6777 80.249.209.0 at 80.249.210.155 action pref=230; community = {56665:2000, 56665:2100, 56665:2150, 56665:2151}; accept AS-AMS-IX-RS AND NOT fltr-bogons
+remarks:        --
+remarks:        --> AMS-IX direct peers
+remarks:        --
+import:         from AS1200 80.249.208.1 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-AMS-IX-PEERS AND NOT fltr-bogons
+import:         from AS13127 80.249.208.47 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-VERSATEL AND NOT fltr-bogons
+import:         from AS13127 80.249.208.211 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-VERSATEL AND NOT fltr-bogons
+import:         from AS3265 80.249.208.48 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-ACCESSFORALL AND NOT fltr-bogons
+import:         from AS3265 80.249.208.166 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-ACCESSFORALL AND NOT fltr-bogons
+import:         from AS5410 80.249.208.65 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-BOUYGTEL-ISP AND NOT fltr-bogons
+import:         from AS57976 80.249.208.73 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-BLIZZARD AND NOT fltr-bogons
+import:         from AS57976 80.249.208.83 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-BLIZZARD AND NOT fltr-bogons
+import:         from AS21219 80.249.208.80 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-FF-TRANSIT AND NOT fltr-bogons
+import:         from AS15830 80.249.208.113 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-TELECITYGROUP AND NOT fltr-bogons
+import:         from AS39792 80.249.208.119 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-ANDERS AND NOT fltr-bogons
+import:         from AS31133 80.249.208.125 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-MF-MGSM AND NOT fltr-bogons
+import:         from AS36327 80.249.208.148 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-BIGPIPE AND NOT fltr-bogons
+import:         from AS34655 80.249.208.150 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-DDITS AND NOT fltr-bogons
+import:         from AS20940 80.249.208.168 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-AKAMAI AND NOT fltr-bogons
+import:         from AS20940 80.249.209.208 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-AKAMAI AND NOT fltr-bogons
+import:         from AS29208 80.249.208.172 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-DIALTELECOM AND NOT fltr-bogons
+import:         from AS36408 80.249.208.191 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-CDNETWORKS AND NOT fltr-bogons
+import:         from AS36408 80.249.210.106 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-CDNETWORKS AND NOT fltr-bogons
+import:         from AS8657 80.249.208.217 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-CPRM AND NOT fltr-bogons
+import:         from AS21011 80.249.208.218 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS21011:AS-EXT AND NOT fltr-bogons
+import:         from AS13285 80.249.209.34 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-OPAL AND NOT fltr-bogons
+import:         from AS8359 80.249.209.44 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-MTU AND NOT fltr-bogons
+import:         from AS8359 80.249.209.188 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-MTU AND NOT fltr-bogons
+import:         from AS8551 80.249.209.46 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-BEZEQINT AND NOT fltr-bogons
+import:         from AS23148 80.249.209.48 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-TWW AND NOT fltr-bogons
+import:         from AS23148 80.249.211.145 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-TWW AND NOT fltr-bogons
+import:         from AS16150 80.249.209.52 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS16150:AS-CUSTOMERS AND NOT fltr-bogons
+import:         from AS24940 80.249.209.55 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-HETZNER AND NOT fltr-bogons
+import:         from AS3267 80.249.209.75 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-RUNNET AND NOT fltr-bogons
+import:         from AS34968 80.249.209.81 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-IUNXI AND NOT fltr-bogons
+import:         from AS8966 80.249.209.89 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-EMIX AND NOT fltr-bogons
+import:         from AS8881 80.249.209.109 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-VT-TRANSIT AND NOT fltr-bogons
+import:         from AS32934 80.249.209.115 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-FACEBOOK AND NOT fltr-bogons
+import:         from AS32934 80.249.209.164 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-FACEBOOK AND NOT fltr-bogons
+import:         from AS13101 80.249.209.119 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-TNG AND NOT fltr-bogons
+import:         from AS33891 80.249.209.128 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-CORE-BACKBONE AND NOT fltr-bogons
+import:         from AS24724 80.249.209.146 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS24724:AS-FOREIGN AND NOT fltr-bogons
+import:         from AS6939 80.249.209.150 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-HURRICANE AND NOT fltr-bogons
+import:         from AS3216 80.249.209.153 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-SOVAM AND NOT fltr-bogons
+import:         from AS25151 80.249.209.155 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-CYSO AND NOT fltr-bogons
+import:         from AS31500 80.249.209.157 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-GLOBAL-NET AND NOT fltr-bogons
+import:         from AS15133 80.249.209.162 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-EDGECAST AND NOT fltr-bogons
+import:         from AS2119 80.249.209.192 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-TELENOR AND NOT fltr-bogons
+import:         from AS42861 80.249.209.204 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-PRIME-LINE AND NOT fltr-bogons
+import:         from AS9002 80.249.209.216 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-RETN AND NOT fltr-bogons
+import:         from AS8365 80.249.209.217 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-MANDA AND NOT fltr-bogons
+import:         from AS41692 80.249.209.221 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-OPENCARRIER AND NOT fltr-bogons
+import:         from AS29073 80.249.209.224 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-QUASI1 AND NOT fltr-bogons
+import:         from AS12552 80.249.209.235 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-IPO AND NOT fltr-bogons
+import:         from AS1248 80.249.209.238 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-HERE AND NOT fltr-bogons
+import:         from AS29169 80.249.209.244 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-GANDI AND NOT fltr-bogons
+import:         from AS3856 80.249.209.250 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-PCH AND NOT fltr-bogons
+import:         from AS5089 80.249.209.253 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-NTLI AND NOT fltr-bogons
+import:         from AS13002 80.249.210.10 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-LINKEY AND NOT fltr-bogons
+import:         from AS12578 80.249.210.13 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-LATTELEKOM AND NOT fltr-bogons
+import:         from AS4651 80.249.210.15 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-THIX AND NOT fltr-bogons
+import:         from AS3223 80.249.210.43 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-VOXILITY-SET AND NOT fltr-bogons
+import:         from AS47764 80.249.210.47 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-MAILRU AND NOT fltr-bogons
+import:         from AS8744 80.249.210.53 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-NIS AND NOT fltr-bogons
+import:         from AS16509 80.249.210.100 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-AMAZON AND NOT fltr-bogons
+import:         from AS16509 80.249.210.217 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-AMAZON AND NOT fltr-bogons
+import:         from AS47329 80.249.210.118 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-WDM-NET AND NOT fltr-bogons
+import:         from AS25091 80.249.210.135 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-IP-MAX AND NOT fltr-bogons
+import:         from AS20965 80.249.210.137 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-GEANTNRN AND NOT fltr-bogons
+import:         from AS20485 80.249.210.177 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-TTK AND NOT fltr-bogons
+import:         from AS12850 80.249.210.183 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-ENTER AND NOT fltr-bogons
+import:         from AS43142 80.249.210.190 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS43142 AND NOT fltr-bogons
+import:         from AS46489 80.249.210.197 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-TWITCH AND NOT fltr-bogons
+import:         from AS46489 80.249.210.27 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-TWITCH AND NOT fltr-bogons
+import:         from AS44034 80.249.210.213 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-Hi3G AND NOT fltr-bogons
+import:         from AS197981 80.249.210.221 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-INTERCLOUD AND NOT fltr-bogons
+import:         from AS25291 80.249.210.228 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-SYSELEVEN AND NOT fltr-bogons
+import:         from AS2906 80.249.210.250 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-NFLX AND NOT fltr-bogons
+import:         from AS2906 80.249.211.250 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-NFLX AND NOT fltr-bogons
+import:         from AS15772 80.249.211.12 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-WNET AND NOT fltr-bogons
+import:         from AS39737 80.249.211.13 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-NETVISIONTEL AND NOT fltr-bogons
+import:         from AS32590 80.249.211.23 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-VALVE AND NOT fltr-bogons
+import:         from AS20804 80.249.211.34 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-EXATEL-INT AND NOT fltr-bogons
+import:         from AS39651 80.249.211.57 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-COMHEM AND NOT fltr-bogons
+import:         from AS42473 80.249.211.58 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-ANEXIA AND NOT fltr-bogons
+import:         from AS47872 80.249.211.76 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-SOFIA-CONNECT AND NOT fltr-bogons
+import:         from AS20764 80.249.211.84 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-RASCOM AND NOT fltr-bogons
+import:         from AS13335 80.249.211.140 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-CLOUDFLARE AND NOT fltr-bogons
+import:         from AS714 80.249.211.160 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-APPLE AND NOT fltr-bogons
+import:         from AS714 80.249.211.183 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-APPLE AND NOT fltr-bogons
+import:         from AS41913 80.249.211.177 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-COMPUTERLINE AND NOT fltr-bogons
+import:         from AS14413 80.249.211.185 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-LINKEDIN AND NOT fltr-bogons
+import:         from AS10026 80.249.211.239 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-PACNET AND NOT fltr-bogons
+import:         from AS4637 80.249.212.88 at 80.249.210.155 action pref=250; community = {56665:2000, 56665:2100, 56665:2150, 56665:2152}; accept AS-REACH-CUSTOMERS AND NOT fltr-bogons
+remarks:        --> AMS-IX Route Server v4 <--
+remarks:        --
+export:         to AS6777 80.249.208.255 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS6777 80.249.209.0 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+remarks:        --
+remarks:        --> AMS-IX direct peers
+remarks:        --
+export:         to AS1200 80.249.208.1 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS13127 80.249.208.47 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS13127 80.249.208.211 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS3265 80.249.208.48 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS3265 80.249.208.166 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS5410 80.249.208.65 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS57976 80.249.208.73 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS57976 80.249.208.83 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS21219 80.249.208.80 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS15830 80.249.208.113 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS39792 80.249.208.119 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS31133 80.249.208.125 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS36327 80.249.208.148 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS34655 80.249.208.150 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS20940 80.249.208.168 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS20940 80.249.209.208 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS29208 80.249.208.172 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS36408 80.249.208.191 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS36408 80.249.210.106 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS8657 80.249.208.217 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS21011 80.249.208.218 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS13285 80.249.209.34 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS8359 80.249.209.44 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS8359 80.249.209.188 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS8551 80.249.209.46 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS23148 80.249.209.48 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS23148 80.249.211.145 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS16150 80.249.209.52 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS24940 80.249.209.55 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS3267 80.249.209.75 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS34968 80.249.209.81 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS8966 80.249.209.89 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS8881 80.249.209.109 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS32934 80.249.209.115 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS32934 80.249.209.164 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS13101 80.249.209.119 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS33891 80.249.209.128 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS24724 80.249.209.146 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS6939 80.249.209.150 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS3216 80.249.209.153 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS25151 80.249.209.155 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS31500 80.249.209.157 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS15133 80.249.209.162 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS2119 80.249.209.192 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS42861 80.249.209.204 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS9002 80.249.209.216 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS8365 80.249.209.217 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS41692 80.249.209.221 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS29073 80.249.209.224 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS12552 80.249.209.235 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS1248 80.249.209.238 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS29169 80.249.209.244 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS3856 80.249.209.250 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS5089 80.249.209.253 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS13002 80.249.210.10 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS12578 80.249.210.13 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS4651 80.249.210.15 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS3223 80.249.210.43 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS47764 80.249.210.47 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS8744 80.249.210.53 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS16509 80.249.210.100 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS16509 80.249.210.217 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS47329 80.249.210.118 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS25091 80.249.210.135 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS20965 80.249.210.137 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS20485 80.249.210.177 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS12850 80.249.210.183 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS43142 80.249.210.190 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS46489 80.249.210.197 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS46489 80.249.210.27 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS44034 80.249.210.213 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS197981 80.249.210.221 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS25291 80.249.210.228 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS2906 80.249.210.250 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS2906 80.249.211.250 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS15772 80.249.211.12 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS39737 80.249.211.13 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS32590 80.249.211.23 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS20804 80.249.211.34 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS39651 80.249.211.57 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS42473 80.249.211.58 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS47872 80.249.211.76 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS20764 80.249.211.84 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS13335 80.249.211.140 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS714 80.249.211.160 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS714 80.249.211.183 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS41913 80.249.211.177 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS14413 80.249.211.185 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS10026 80.249.211.239 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+export:         to AS4637 80.249.212.88 at 80.249.210.155 announce <AS-TELINDUSLUX+$>
+remarks:        ------------ AMS-IX IPv6 ---------------
+mp-import:      afi ipv6.unicast from AS6777 accept AS-AMS-IX-RS
+mp-import:      afi ipv6.unicast from AS6327 accept AS-BIGPIPE
+mp-import:      afi ipv6.unicast from AS15830 accept AS-TELECITYGROUP
+mp-import:      afi ipv6.unicast from AS13285 accept AS-OPAL
+mp-import:      afi ipv6.unicast from AS21219 accept AS-DATAGROUP-v6
+mp-import:      afi ipv6.unicast from AS41913 accept AS-COMPUTERLINE
+mp-import:      afi ipv6.unicast from AS25151 accept AS-CYSO
+mp-import:      afi ipv6.unicast from AS25091 accept AS-IP-MAX-V6
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-import:      afi ipv6.unicast from AS44034 accept AS-Hi3G
+mp-import:      afi ipv6.unicast from AS39737 accept AS-AS-NETVISIONTEL
+mp-import:      afi ipv6.unicast from AS13101 accept AS-TNG
+mp-import:      afi ipv6.unicast from AS12552 accept AS-IPO
+mp-import:      afi ipv6.unicast from AS12850 accept AS-ENTER
+mp-import:      afi ipv6.unicast from AS34968 accept AS-IUNXI
+mp-import:      afi ipv6.unicast from AS1248 accept AS-NOK
+mp-export:      afi ipv6.unicast to AS1248 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS34968 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS12850 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS12552 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS13101 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS39737 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS44034 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS33891 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS6777 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS6327 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS15830 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS13285 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS21219 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS41913 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS25151 announce AS-TELINDUSLUX
+mp-export:      afi ipv6.unicast to AS25091 announce AS-TELINDUSLUX
+remarks:        ----------------- Downstream ---------------------
+import:         from AS51497 accept AS51497
+import:         from AS25367 accept AS25367
+import:         from AS25367 accept AS-DEXIA
+import:         from AS13088 accept AS-DEXIA
+import:         from AS203143 accept AS203143
+import:         from AS50309 accept AS-ARCADIZ
+import:         from AS201441 accept AS201441
+import:         from AS206450 accept AS206450
+import:         from AS200331 accept AS200331
+import:         from AS204299 accept AS204299
+export:         to AS51497 announce any
+export:         to AS25367 announce any
+export:         to AS25367 announce any
+export:         to AS13088 announce any
+export:         to AS203143 announce any
+export:         to AS50309 announce any
+export:         to AS206450 announce any
+export:         to AS201441 announce any
+export:         to AS200331 announce any
+export:         to AS204299 announce any
+remarks:        --------------------------------------------------
+admin-c:        PAF-RIPE
+tech-c:         PAF-RIPE
+tech-c:         SG11179-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-TTL
+mnt-by:         TANGO-MNT
+created:        2011-04-21T10:06:35Z
+last-modified:  2018-12-13T14:24:01Z
+source:         RIPE # Filtered
+
+organisation:   ORG-TMS6-RIPE
+org-name:       Tango S.A.
+org-type:       LIR
+address:        Rue de Luxembourg, 177
+address:        L-8077
+address:        Bertrange
+address:        LUXEMBOURG
+phone:          +3522777700
+fax-no:         +35227777333
+admin-c:        vp612-ripe
+admin-c:        NL4021-RIPE
+admin-c:        gm17277-ripe
+admin-c:        al11531-ripe
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        tango-mnt
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TANGO-MNT
+abuse-c:        TAT27-RIPE
+created:        2008-09-02T10:49:50Z
+last-modified:  2019-01-02T21:45:28Z
+source:         RIPE # Filtered
+
+person:         Pierre Alain Francois
+remarks:        Telindus Telecom
+address:        81-83 route d'Arlon
+address:        L-8009 Strassen
+phone:          +352 450 915 1
+nic-hdl:        PAF-RIPE
+mnt-by:         MNT-TTL
+created:        2011-05-10T08:02:59Z
+last-modified:  2013-05-03T15:49:39Z
+source:         RIPE
+
+person:         Sebastien Grelot
+remarks:        Telindus Telecom / Tango
+address:        177 Rue de Luxembourg
+address:        L-8077 Bertrange
+address:        LUXEMBOURG
+phone:          +352691777470
+nic-hdl:        SG11179-RIPE
+mnt-by:         MNT-TTL
+created:        2013-03-22T09:13:45Z
+last-modified:  2017-04-07T12:41:08Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

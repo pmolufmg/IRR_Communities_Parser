@@ -1,0 +1,194 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS28699 - AS28912'
+
+as-block:       AS28699 - AS28912
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:31Z
+last-modified:  2018-11-22T15:27:31Z
+source:         RIPE
+
+% Information related to 'AS28709'
+
+% Abuse contact for 'AS28709' is 'abuse@vk.com'
+
+aut-num:        AS28709
+as-name:        VKONTAKTE-REGIONAL-CDN
+descr:          Regional CDN http://vk.com
+remarks:        **********************************************************************
+remarks:        Abuse, Security issues noc@vk.com
+remarks:        Network, routing issues, peering requests ncc@corp.vk.com
+remarks:        VK.com users support https://vk.com/support
+remarks:        Requests sent to wrong address will be ignored
+remarks:        **********************************************************************
+remarks:        ---------------- IX ----------------------------
+remarks:        -- DataIX
+import:         from AS50952 action pref=150; accept AS-DATAIX
+export:         to AS50952 announce AS-VKONTAKTE
+remarks:        -- GlobalnetIX
+import:         from AS31500 action pref=150; accept AS-GLOBAL-NET
+export:         to AS31500 announce AS-VKONTAKTE
+remarks:        -- W-IX
+import:         from AS50384 action pref=150; accept AS-W-IX AS-W-IX-IPVSIX
+export:         to AS50384 announce AS-VKONTAKTE
+remarks:        -- Cloud-IX
+import:         from AS29076 action pref=150; accept AS-CITYTELECOM AND NOT AS-CLOUD-IX-M
+export:         to AS29076 announce AS-VKONTAKTE
+remarks:        -- Giganet-IX
+import:         from AS59613 action pref=150; accept AS-UBNIX
+export:         to AS59613 announce AS-VKONTAKTE
+remarks:        -- NSK-IX
+import:         from AS42403 action pref=150; accept AS-NSKROUTESERVER
+export:         to AS42403 announce AS-VKONTAKTE
+remarks:        -- EKT-IX
+import:         from AS43213 action pref=150; accept AS-EKTROUTESERVER
+export:         to AS43213 announce AS-VKONTAKTE
+remarks:        -- RED-IX
+import:         from AS60430 action pref=150; accept AS-RED-IX-PEERS
+export:         to AS60430 announce AS-VKONTAKTE
+remarks:        -- Megafon-IX
+import:         from AS31133 action pref=150; accept AS-MF-IX
+export:         to AS31133 announce AS-VKONTAKTE
+remarks:        -- SMR-IX
+import:         from AS47882 action pref=150; accept AS-SMRROUTESERVER
+export:         to AS47882 announce AS-VKONTAKTE
+remarks:        -------------- Direct peers ---------------------
+remarks:        -- Beeline
+import:         from AS3216 action pref=150; accept AS-SOVAM
+export:         to AS3216 announce AS-VKONTAKTE
+remarks:        -- TransTeleKom
+import:         from AS20485 action pref=150; accept AS-TTK
+export:         to AS20485 announce AS-VKONTAKTE
+remarks:        -- Megafon
+import:         from AS31133 action pref=150; accept AS-MF-MGSM
+export:         to AS31133 announce AS-VKONTAKTE
+remarks:        -- Milecom
+import:         from AS13094 action pref=150; accept AS-MILECOM-RS
+export:         to AS13094 announce AS-VKONTAKTE
+remarks:        -- Er-Telecom
+import:         from AS9049 action pref=150; accept AS-ERTH
+export:         to AS9049 announce AS-VKONTAKTE
+remarks:        -- MTS
+import:         from AS8359 action pref=150; accept ANY
+export:         to AS8359 announce AS-VKONTAKTE
+remarks:        -- RETN
+import:         from AS9002 action pref=150; accept AS-RETN AS-RETN6
+export:         to AS9002 announce AS-VKONTAKTE
+remarks:        -- Redcom
+import:         from AS8749 action pref=150; accept AS-REDCOM
+export:         to AS8749 announce AS-VKONTAKTE
+remarks:        -- SIBSET
+import:         from AS34757 action pref=150; accept AS34757
+export:         to AS34757 announce AS-VKONTAKTE
+remarks:        -- Kvant Telecom
+import:         from AS43727 action pref=150; accept AS43727
+export:         to AS43727 announce AS-VKONTAKTE
+remarks:        -- Tele2
+import:         from AS41330 action pref=150; accept AS41330
+export:         to AS41330 announce AS-VKONTAKTE
+remarks:        -- RBIX
+import:         from AS59712 action pref=150; accept AS-RBIX
+export:         to AS59712 announce AS-VKONTAKTE
+remarks:        -- Ufanet
+import:         from AS24955 action pref=150; accept AS24955
+export:         to AS24955 announce AS-VKONTAKTE
+remarks:        -- Motiv
+import:         from AS31499 action pref=150; accept AS-MOTIV
+export:         to AS31499 announce AS-VKONTAKTE
+remarks:        ***********************************************
+remarks:        ----- Our BGP communities for managing traffic
+remarks:        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+remarks:        FOR FULL LIST SUPPORTED BGP COMMUNITY
+remarks:        PLEASE USE whois as47541
+remarks:        or read
+remarks:        AS47541 OBJECT IN RIPE DATABASE
+remarks:        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+remarks:        -- CDN vk
+remarks:        47541:20<CDN_NUM> - deny import
+remarks:        47541:21<CDN_NUM> - prepend last AS to AS-PATH 1 time
+remarks:        47541:22<CDN_NUM> - prepend last AS to AS-PATH 2 times
+remarks:        47541:23<CDN_NUM> - prepend last AS to AS-PATH 3 times
+remarks:        where <CDN_NUM> is
+remarks:        01 - Russia, Moscow
+remarks:        03 - Russia, Ekaterinburg
+remarks:        04 - Russia, Novosibirsk
+remarks:        05 - Russia, Khabarovsk
+remarks:        06 - Germany, Frankfurt
+remarks:        07 - Russia, Samara
+remarks:        08 - Kazahstan, Akkol
+remarks:
+remarks:        Other CDN bgp communities
+remarks:        <AS_NUM>:20 - deny import
+remarks:        <AS_NUM>:21 - prepend last AS to AS-PATH 1 time
+remarks:        <AS_NUM>:22 - prepend last AS to AS-PATH 2 times
+remarks:        <AS_NUM>:23 - prepend last AS to AS-PATH 3 times
+remarks:        where <AS_NUM> is
+remarks:        47541 - Germany, Frankfurt and main VK in St.Petersburg(not cdn)
+remarks:        47542 - Russia, Moscow
+remarks:        28709 - Other CDNs
+remarks:
+org:            ORG-VL47-RIPE
+admin-c:        NCC31-RIPE
+tech-c:         NCC31-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         VKONTAKTE-NET-MNT
+created:        2009-08-05T11:34:14Z
+last-modified:  2018-10-09T14:48:15Z
+source:         RIPE # Filtered
+
+organisation:   ORG-VL47-RIPE
+org-name:       VKontakte Ltd
+org-type:       LIR
+address:        Prem.1-N, Bld. 12-14, Lit. A, Khersonskaya str.
+address:        191024
+address:        Saint-Petersburg
+address:        RUSSIAN FEDERATION
+phone:          +78126407240
+fax-no:         +78126407240
+abuse-c:        AR17035-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        VKONTAKTE
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         VKONTAKTE
+created:        2008-01-28T14:15:26Z
+last-modified:  2017-10-10T12:03:03Z
+source:         RIPE # Filtered
+
+role:           Vkontakte Network Control Center (NCC)
+address:        Prem.1-N, Bld. 12-14, Lit. A, Khersonskaya str.
+address:        191024
+address:        Saint-Petersburg
+address:        RUSSIAN FEDERATION
+remarks:        **********************************************************************
+remarks:        Abuse, Security issues noc@vk.com
+remarks:        Network, routing issues, peering requests ncc@corp.vk.com
+remarks:        VK.com users support https://vk.com/support
+remarks:        Requests sent to wrong address will be ignored
+remarks:        **********************************************************************
+admin-c:        smk23
+tech-c:         smk23
+nic-hdl:        NCC31-RIPE
+mnt-by:         VKONTAKTE-NET-MNT
+created:        2016-09-03T22:17:42Z
+last-modified:  2018-08-21T14:07:15Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

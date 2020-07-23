@@ -1,0 +1,867 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS50384'
+
+% Abuse contact for 'AS50384' is 'abuse@ihome.ru'
+
+aut-num:        AS50384
+as-name:        W-IX_LTD
+descr:          W-IX LTD
+org:            ORG-WA155-RIPE
+sponsoring-org: ORG-IJ5-RIPE
+import:         from AS8631 accept AS-MSKROUTESERVER # msk-ix
+export:         to AS8631 announce AS-W-IX
+mp-import:      afi ipv6.unicast from AS8631 accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-W-IX-IPVSIX
+import:         from AS6695 accept AS-DECIX  # de-cix
+export:         to AS6695 announce AS-W-IX
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-W-IX-IPVSIX
+import:         from AS1200 accept ANY   # ams-ix
+export:         to AS1200 announce AS-W-IX
+mp-import:      afi ipv6.unicast from AS1200 accept ANY
+mp-export:      afi ipv6.unicast to AS1200 announce AS-W-IX-IPVSIX
+import:         from AS6777 accept ANY AND NOT <^[AS3216 AS3255 AS3327 AS5568
+                AS8342 AS8359 AS8492 AS8641
+                AS8732 AS9002 AS9031 AS12389
+                AS12695 AS13238 AS13249 AS15169
+                AS16265 AS16276 AS21011 AS21219
+                AS28870 AS28917 AS29076 AS30751
+                AS31133 AS31500 AS35320 AS39792
+                AS42861 AS47541 AS47542 AS6697
+                AS20485 AS42861]>
+export:         to AS6777 action community .= { 6777:6777, 6777:3216, 6777:3255,
+                6777:3327, 6777:5568, 6777:8342,
+                6777:8359, 6777:8492, 6777:8641,
+                6777:8732, 6777:9002, 6777:9031,
+                6777:12389, 6777:12695, 6777:13238,
+                6777:13249, 6777:15169, 6777:16265,
+                6777:16276, 6777:21011, 6777:21219,
+                6777:28870, 6777:28917, 6777:29076,
+                6777:30751, 6777:31133, 6777:31500,
+                6777:35320, 6777:39792, 6777:42861,
+                6777:47541, 6777:47542, 6777:6697,
+                6777:20485, 6777:42861 }; announce AS-W-IX
+mp-import:      afi ipv6.unicast from AS6777 accept ANY
+mp-export:      afi ipv6.unicast to AS6777 announce AS-W-IX-IPVSIX
+import:         from AS31210 accept AS-DTEL-IX  # dtel
+export:         to AS31210 announce AS-W-IX
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-W-IX-IPVSIX
+import:         from AS12668 action pref=130; accept AS-EXTRIM # extrim
+mp-import:      afi ipv6.unicast from AS12668 accept AS-EXTRIM
+export:         to AS12668 announce ANY
+mp-export:      afi ipv6.unicast to AS12668 announce ANY
+import:         from AS42269 action pref=130; accept AS42269 # photon
+mp-import:      afi ipv6.unicast from AS42269 accept AS42269
+export:         to AS42269 announce ANY
+mp-export:      afi ipv6.unicast to AS42269 announce ANY
+import:         from AS31499 action pref=130; accept AS-MOTIV # motiv
+mp-import:      afi ipv6.unicast from AS31499 accept AS-MOTIV
+export:         to AS31499 announce ANY
+mp-export:      afi ipv6.unicast to AS31499 announce ANY
+import:         from AS5563 action pref=130; accept AS-URAL # uralves
+mp-import:      afi ipv6.unicast from AS5563 accept AS-URAL
+export:         to AS5563 announce ANY
+mp-export:      afi ipv6.unicast to AS5563 announce ANY
+import:         from AS21030 action pref=130; accept AS-CDNNOW # cdnnow
+mp-import:      afi ipv6.unicast from AS21030 accept AS-CDNNOW
+export:         to AS21030 announce ANY
+mp-export:      afi ipv6.unicast to AS21030 announce ANY
+import:         from AS205063 action pref=130; accept AS-CORTEL # cortel
+mp-import:      afi ipv6.unicast from AS205063 accept AS-CORTEL
+export:         to AS205063 announce ANY
+mp-export:      afi ipv6.unicast to AS205063 announce ANY
+import:         from AS205216 action pref=130; accept AS205216 # megogo
+mp-import:      afi ipv6.unicast from AS205216 accept AS205216
+export:         to AS205216 announce ANY
+mp-export:      afi ipv6.unicast to AS205216 announce ANY
+import:         from AS31200 action pref=130; accept AS-RUNTK-SET # novotelecom
+mp-import:      afi ipv6.unicast from AS31200 accept AS-RUNTK-SET
+export:         to AS31200 announce ANY
+mp-export:      afi ipv6.unicast to AS31200 announce ANY
+import:         from AS48061 action pref=100; accept ANY # rutube
+mp-import:      afi ipv6.unicast from AS48061 accept ANY
+export:         to AS48061 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS48061 announce AS-W-IX-IPVSIX
+import:         from AS35297 action pref=100; accept ANY # eurotele
+mp-import:      afi ipv6.unicast from AS35297 accept ANY
+export:         to AS35297 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS35297 announce AS-W-IX-IPVSIX
+import:         from AS44670 action pref=130; accept AS44670 # tvigle
+mp-import:      afi ipv6.unicast from AS44670 accept AS44670
+export:         to AS44670 announce ANY
+mp-export:      afi ipv6.unicast to AS44670 announce ANY
+import:         from AS34832 action pref=130; accept AS34832 # novosystem
+mp-import:      afi ipv6.unicast from AS34832 accept AS34832
+export:         to AS34832 announce ANY
+mp-export:      afi ipv6.unicast to AS34832 announce ANY
+import:         from AS31357 action pref=130; accept AS-TOMICA # tomica
+mp-import:      afi ipv6.unicast from AS31357 accept AS-TOMICA
+export:         to AS31357 announce ANY
+mp-export:      afi ipv6.unicast to AS31357 announce ANY
+import:         from AS50169 action pref=130; accept AS50169 # inventos
+mp-import:      afi ipv6.unicast from AS50169 accept AS50169
+export:         to AS50169 announce ANY
+mp-export:      afi ipv6.unicast to AS50169 announce ANY
+import:         from AS57629 action pref=130; accept AS57629 # ivi
+mp-import:      afi ipv6.unicast from AS57629 accept AS57629
+export:         to AS57629 announce ANY
+mp-export:      afi ipv6.unicast to AS57629 announce ANY
+import:         from AS13238 action pref=100; accept ANY # yandex
+mp-import:      afi ipv6.unicast from AS13238 accept ANY
+export:         to AS13238 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS13238 announce AS-W-IX-IPVSIX
+import:         from AS30960 action pref=130; accept AS-TETRA # tetra
+mp-import:      afi ipv6.unicast from AS30960 accept AS-TETRA
+export:         to AS30960 announce ANY
+mp-export:      afi ipv6.unicast to AS30960 announce ANY
+import:         from AS48978 action pref=130; accept AS48978 # orbitel
+mp-import:      afi ipv6.unicast from AS48978 accept AS48978
+export:         to AS48978 announce ANY
+mp-export:      afi ipv6.unicast to AS48978 announce ANY
+import:         from AS49218 action pref=130; accept AS-NTKS # ntks
+mp-import:      afi ipv6.unicast from AS49218 accept AS-NTKS
+export:         to AS49218 announce ANY
+mp-export:      afi ipv6.unicast to AS49218 announce ANY
+import:         from AS197309 action pref=130; accept AS-RSMEDIA # rsmedia
+mp-import:      afi ipv6.unicast from AS197309 accept AS-RSMEDIA
+export:         to AS197309 announce ANY
+mp-export:      afi ipv6.unicast to AS197309 announce ANY
+import:         from AS57420 action pref=130; accept AS-FORATELECOM # fora
+mp-import:      afi ipv6.unicast from AS57420 accept AS-FORATELECOM
+export:         to AS57420 announce ANY
+mp-export:      afi ipv6.unicast to AS57420 announce ANY
+import:         from AS39927 action pref=130; accept AS-ELIGHT # eltc
+mp-import:      afi ipv6.unicast from AS39927 accept AS-ELIGHT
+export:         to AS39927 announce ANY
+mp-export:      afi ipv6.unicast to AS39927 announce ANY
+import:         from AS62067 action pref=130; accept AS-TS # telecomserv
+mp-import:      afi ipv6.unicast from AS62067 accept AS-TS
+export:         to AS62067 announce ANY
+mp-export:      afi ipv6.unicast to AS62067 announce ANY
+import:         from AS39156 action pref=130; accept AS-FTELECOM # 1telecom
+mp-import:      afi ipv6.unicast from AS39156 accept AS-FTELECOM
+export:         to AS39156 announce ANY
+mp-export:      afi ipv6.unicast to AS39156 announce ANY
+import:         from AS31430 action pref=130; accept AS-TEL-NET # firma_tel
+mp-import:      afi ipv6.unicast from AS31430 accept AS-TEL-NET
+export:         to AS31430 announce ANY
+mp-export:      afi ipv6.unicast to AS31430 announce ANY
+import:         from AS35526 action pref=130; accept AS-MASTERBIT # masterbit
+mp-import:      afi ipv6.unicast from AS35526 accept AS-MASTERBIT
+export:         to AS35526 announce ANY
+mp-export:      afi ipv6.unicast to AS35526 announce ANY
+import:         from AS33842 action pref=130; accept AS-RU-CROSSTEL # crosstel
+mp-import:      afi ipv6.unicast from AS33842 accept AS-RU-CROSSTEL
+export:         to AS33842 announce ANY
+mp-export:      afi ipv6.unicast to AS33842 announce ANY
+import:         from AS8369 action pref=130; accept AS-INTERSVYAZ # intersvyaz
+mp-import:      afi ipv6.unicast from AS8369 accept AS-INTERSVYAZ
+export:         to AS8369 announce ANY
+mp-export:      afi ipv6.unicast to AS8369 announce ANY
+import:         from AS12714 action pref=100; accept ANY # netbynet
+mp-import:      afi ipv6.unicast from AS12714 accept ANY
+export:         to AS12714 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS12714 announce AS-W-IX-IPVSIX
+import:         from AS9049 action pref=100; accept ANY # ertelecom
+mp-import:      afi ipv6.unicast from AS9049 accept ANY
+export:         to AS9049 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS9049 announce AS-W-IX-IPVSIX
+import:         from AS48470 action pref=130; accept AS48470 # kristall
+mp-import:      afi ipv6.unicast from AS48470 accept AS48470
+export:         to AS48470 announce ANY
+mp-export:      afi ipv6.unicast to AS48470 announce ANY
+import:         from AS198826 action pref=130; accept AS-ISTELECOM # istelecom
+mp-import:      afi ipv6.unicast from AS198826 accept AS-ISTELECOM
+export:         to AS198826 announce ANY
+mp-export:      afi ipv6.unicast to AS198826 announce ANY
+import:         from AS35320 action pref=100; accept ANY # ett
+mp-import:      afi ipv6.unicast from AS35320 accept ANY
+export:         to AS35320 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS35320 announce AS-W-IX-IPVSIX
+import:         from AS47764 action pref=100; accept ANY # mailru
+mp-import:      afi ipv6.unicast from AS47764 accept ANY
+export:         to AS47764 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS47764 announce AS-W-IX-IPVSIX
+import:         from AS15169 action pref=100; accept ANY # google
+mp-import:      afi ipv6.unicast from AS15169 accept ANY
+export:         to AS15169 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS15169 announce AS-W-IX-IPVSIX
+import:         from AS61382 action pref=130; accept AS-KSINVEST # impuls
+mp-import:      afi ipv6.unicast from AS61382 accept AS-KSINVEST
+export:         to AS61382 announce ANY
+mp-export:      afi ipv6.unicast to AS61382 announce ANY
+import:         from AS42104 action pref=130; accept AS-CENTRLAN # maxima
+mp-import:      afi ipv6.unicast from AS42104 accept AS-CENTRLAN
+export:         to AS42104 announce ANY
+mp-export:      afi ipv6.unicast to AS42104 announce ANY
+import:         from AS21219 action pref=100; accept ANY # datagroup
+mp-import:      afi ipv6.unicast from AS21219 accept ANY
+export:         to AS21219 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS21219 announce AS-W-IX-IPVSIX
+import:         from AS6768 action pref=100; accept ANY # eurotele
+mp-import:      afi ipv6.unicast from AS6768 accept ANY
+export:         to AS6768 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS6768 announce AS-W-IX-IPVSIX
+import:         from AS49106 action pref=130; accept AS49106 # opticom
+mp-import:      afi ipv6.unicast from AS49106 accept AS49106
+export:         to AS49106 announce ANY
+mp-export:      afi ipv6.unicast to AS49106 announce ANY
+import:         from AS21367 action pref=130; accept AS-ZVEZDATEL # wiland
+mp-import:      afi ipv6.unicast from AS21367 accept AS-ZVEZDATEL
+export:         to AS21367 announce ANY
+mp-export:      afi ipv6.unicast to AS21367 announce ANY
+import:         from AS51028 action pref=130; accept AS-SVOLS # svols
+mp-import:      afi ipv6.unicast from AS51028 accept AS-SVOLS
+export:         to AS51028 announce ANY
+mp-export:      afi ipv6.unicast to AS51028 announce ANY
+import:         from AS34879 action pref=100; accept ANY # ngenix
+mp-import:      afi ipv6.unicast from AS34879 accept ANY
+export:         to AS34879 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS34879 announce AS-W-IX-IPVSIX
+import:         from AS58095 action pref=130; accept AS-LANLINK # lanlink
+mp-import:      afi ipv6.unicast from AS58095 accept AS-LANLINK
+export:         to AS58095 announce ANY
+mp-export:      afi ipv6.unicast to AS58095 announce ANY
+import:         from AS12418 action pref=130; accept AS12418 # quantum
+mp-import:      afi ipv6.unicast from AS12418 accept AS12418
+export:         to AS12418 announce ANY
+mp-export:      afi ipv6.unicast to AS12418 announce ANY
+import:         from AS34867 action pref=130; accept AS-COSMONOVA # cosmonova
+mp-import:      afi ipv6.unicast from AS34867 accept AS-COSMONOVA
+export:         to AS34867 announce ANY
+mp-export:      afi ipv6.unicast to AS34867 announce ANY
+import:         from AS43267 action pref=130; accept AS-LINETEL # 1lteam
+mp-import:      afi ipv6.unicast from AS43267 accept AS-LINETEL
+export:         to AS43267 announce ANY
+mp-export:      afi ipv6.unicast to AS43267 announce ANY
+import:         from AS25355 action pref=130; accept AS-RU-INTELECOM # intelecom
+mp-import:      afi ipv6.unicast from AS25355 accept AS-RU-INTELECOM
+export:         to AS25355 announce ANY
+mp-export:      afi ipv6.unicast to AS25355 announce ANY
+import:         from AS41268 action pref=130; accept AS-LANTA # lanta
+mp-import:      afi ipv6.unicast from AS41268 accept AS-LANTA
+export:         to AS41268 announce ANY
+mp-export:      afi ipv6.unicast to AS41268 announce ANY
+import:         from AS43314 action pref=130; accept AS-DIANET # dianet
+mp-import:      afi ipv6.unicast from AS43314 accept AS-DIANET
+export:         to AS43314 announce ANY
+mp-export:      afi ipv6.unicast to AS43314 announce ANY
+import:         from AS47181 action pref=130; accept AS47181 # trancom
+mp-import:      afi ipv6.unicast from AS47181 accept AS47181
+export:         to AS47181 announce ANY
+mp-export:      afi ipv6.unicast to AS47181 announce ANY
+import:         from AS196798 action pref=130; accept AS-NEWLINETELECOM # newlinetelecom
+mp-import:      afi ipv6.unicast from AS196798 accept AS-NEWLINETELECOM
+export:         to AS196798 announce ANY
+mp-export:      afi ipv6.unicast to AS196798 announce ANY
+import:         from AS48166 action pref=130; accept AS-FORTEX # fortex
+mp-import:      afi ipv6.unicast from AS48166 accept AS-FORTEX
+export:         to AS48166 announce ANY
+mp-export:      afi ipv6.unicast to AS48166 announce ANY
+import:         from AS59666 action pref=130; accept AS-ZETTALINE # zettaline
+mp-import:      afi ipv6.unicast from AS59666 accept AS-ZETTALINE
+export:         to AS59666 announce ANY
+mp-export:      afi ipv6.unicast to AS59666 announce ANY
+import:         from AS50775 action pref=130; accept AS50775 # 24htv
+mp-import:      afi ipv6.unicast from AS50775 accept AS50775
+export:         to AS50775 announce ANY
+mp-export:      afi ipv6.unicast to AS50775 announce ANY
+import:         from AS28773 action pref=130; accept AS-MASTER # gtu
+mp-import:      afi ipv6.unicast from AS28773 accept AS-GTU-V6
+export:         to AS28773 announce ANY
+mp-export:      afi ipv6.unicast to AS28773 announce ANY
+import:         from AS8779 action pref=130; accept AS-IC # infocom
+mp-import:      afi ipv6.unicast from AS8779 accept AS-IC
+export:         to AS8779 announce ANY
+mp-export:      afi ipv6.unicast to AS8779 announce ANY
+import:         from AS8331 action pref=130; accept AS-RINET # rinet
+mp-import:      afi ipv6.unicast from AS8331 accept AS-RINET
+export:         to AS8331 announce ANY
+mp-export:      afi ipv6.unicast to AS8331 announce ANY
+import:         from AS44172 action pref=130; accept AS44172 # curierplus
+mp-import:      afi ipv6.unicast from AS44172 accept AS44172
+export:         to AS44172 announce ANY
+mp-export:      afi ipv6.unicast to AS44172 announce ANY
+import:         from AS57463 action pref=100; accept ANY # netix
+mp-import:      afi ipv6.unicast from AS57463 accept ANY
+export:         to AS57463 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS57463 announce AS-W-IX-IPVSIX
+import:         from AS48347 action pref=130; accept AS-MTW # mtw
+mp-import:      afi ipv6.unicast from AS48347 accept AS-MTW
+export:         to AS48347 announce ANY
+mp-export:      afi ipv6.unicast to AS48347 announce ANY
+import:         from AS198185 action pref=130; accept AS198185 # ligalink
+mp-import:      afi ipv6.unicast from AS198185 accept AS198185
+export:         to AS198185 announce ANY
+mp-export:      afi ipv6.unicast to AS198185 announce ANY
+import:         from AS48666 action pref=130; accept AS-MAROSNET # marosnet
+mp-import:      afi ipv6.unicast from AS48666 accept AS-MAROSNET
+export:         to AS48666 announce ANY
+mp-export:      afi ipv6.unicast to AS48666 announce ANY
+import:         from AS35640 action pref=130; accept AS-MIGRAPH # migraph
+mp-import:      afi ipv6.unicast from AS35640 accept AS-MIGRAPH
+export:         to AS35640 announce ANY
+mp-export:      afi ipv6.unicast to AS35640 announce ANY
+import:         from AS199524 action pref=100; accept ANY # gcore
+mp-import:      afi ipv6.unicast from AS199524 accept ANY
+export:         to AS199524 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS199524 announce AS-W-IX-IPVSIX
+import:         from AS38984 action pref=130; accept AS-M9COM # m9com
+mp-import:      afi ipv6.unicast from AS38984 accept AS-M9COM
+export:         to AS38984 announce ANY
+mp-export:      afi ipv6.unicast to AS38984 announce ANY
+import:         from AS8636 action pref=130; accept AS-MAX # maxnet
+mp-import:      afi ipv6.unicast from AS8636 accept AS-MAX
+export:         to AS8636 announce ANY
+mp-export:      afi ipv6.unicast to AS8636 announce ANY
+import:         from AS15493 action pref=130; accept AS-RUSCOMP # ruscomp
+mp-import:      afi ipv6.unicast from AS15493 accept AS-RUSCOMP
+export:         to AS15493 announce ANY
+mp-export:      afi ipv6.unicast to AS15493 announce ANY
+import:         from AS39264 action pref=130; accept AS-METROMAX # metromax
+mp-import:      afi ipv6.unicast from AS39264 accept AS-METROMAX
+export:         to AS39264 announce ANY
+mp-export:      afi ipv6.unicast to AS39264 announce ANY
+import:         from AS60764 action pref=130; accept AS-TKTEL # tktelecom
+mp-import:      afi ipv6.unicast from AS60764 accept AS-TKTEL
+export:         to AS60764 announce ANY
+mp-export:      afi ipv6.unicast to AS60764 announce ANY
+import:         from AS57530 action pref=130; accept AS57530 # vkpm
+mp-import:      afi ipv6.unicast from AS57530 accept AS57530
+export:         to AS57530 announce ANY
+mp-export:      afi ipv6.unicast to AS57530 announce ANY
+import:         from AS24811 action pref=130; accept AS-ZAO-KES # kes
+mp-import:      afi ipv6.unicast from AS24811 accept AS-ZAO-KES
+export:         to AS24811 announce ANY
+mp-export:      afi ipv6.unicast to AS24811 announce ANY
+import:         from AS62432 action pref=130; accept AS-VILTEL # viltel
+mp-import:      afi ipv6.unicast from AS62432 accept AS-VILTEL
+export:         to AS62432 announce ANY
+mp-export:      afi ipv6.unicast to AS62432 announce ANY
+import:         from AS13094 action pref=130; accept AS-MILECOM-RS # milecom
+mp-import:      afi ipv6.unicast from AS13094 accept AS-MILECOM-RS
+export:         to AS13094 announce ANY
+mp-export:      afi ipv6.unicast to AS13094 announce ANY
+import:         from AS196691 action pref=130; accept AS-GET-NET # getnet
+mp-import:      afi ipv6.unicast from AS196691 accept AS-GET-NET
+export:         to AS196691 announce ANY
+mp-export:      afi ipv6.unicast to AS196691 announce ANY
+import:         from AS8492 action pref=130; accept AS-OBIT # obit
+mp-import:      afi ipv6.unicast from AS8492 accept AS-OBIT
+export:         to AS8492 announce ANY
+mp-export:      afi ipv6.unicast to AS8492 announce ANY
+import:         from AS198610 action pref=130; accept AS-BEGET # beget
+mp-import:      afi ipv6.unicast from AS198610 accept AS-BEGET
+export:         to AS198610 announce ANY
+mp-export:      afi ipv6.unicast to AS198610 announce ANY
+import:         from AS57662 action pref=130; accept AS-PB-SZ # qik
+mp-import:      afi ipv6.unicast from AS57662 accept AS-PB-SZ
+export:         to AS57662 announce ANY
+mp-export:      afi ipv6.unicast to AS57662 announce ANY
+import:         from AS13178 action pref=130; accept AS-DIGCOMM # joxnet
+mp-import:      afi ipv6.unicast from AS13178 accept AS-DIGCOMM
+export:         to AS13178 announce ANY
+mp-export:      afi ipv6.unicast to AS13178 announce ANY
+import:         from AS49813 action pref=130; accept AS-INN # innova
+mp-import:      afi ipv6.unicast from AS49813 accept AS-INN
+export:         to AS49813 announce ANY
+mp-export:      afi ipv6.unicast to AS49813 announce ANY
+import:         from AS60098 action pref=130; accept AS-INSITINVEST # insit
+mp-import:      afi ipv6.unicast from AS60098 accept AS-INSITINVEST
+export:         to AS60098 announce ANY
+mp-export:      afi ipv6.unicast to AS60098 announce ANY
+import:         from AS24638 action pref=130; accept AS-RAMTEL # rambler
+mp-import:      afi ipv6.unicast from AS24638 accept AS-RAMTEL
+export:         to AS24638 announce ANY
+mp-export:      afi ipv6.unicast to AS24638 announce ANY
+import:         from AS47541 action pref=100; accept ANY # vkontakte
+mp-import:      afi ipv6.unicast from AS47541 accept ANY
+export:         to AS47541 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS47541 announce AS-W-IX-IPVSIX
+import:         from AS44417 action pref=130; accept AS44417 # neotelecom
+mp-import:      afi ipv6.unicast from AS44417 accept AS44417
+export:         to AS44417 announce ANY
+mp-export:      afi ipv6.unicast to AS44417 announce ANY
+import:         from AS42498 action pref=130; accept AS-GERCON # sevencom
+mp-import:      afi ipv6.unicast from AS42498 accept AS-GERCON
+export:         to AS42498 announce ANY
+mp-export:      afi ipv6.unicast to AS42498 announce ANY
+import:         from AS60357 action pref=130; accept AS60357 # megagroup
+mp-import:      afi ipv6.unicast from AS60357 accept AS60357
+export:         to AS60357 announce ANY
+mp-export:      afi ipv6.unicast to AS60357 announce ANY
+import:         from AS35032 action pref=130; accept AS-TAHION # samaralan
+mp-import:      afi ipv6.unicast from AS35032 accept AS-TAHION
+export:         to AS35032 announce ANY
+mp-export:      afi ipv6.unicast to AS35032 announce ANY
+import:         from AS39087 action pref=130; accept AS-PAKT # pakt
+mp-import:      afi ipv6.unicast from AS39087 accept AS-PAKT
+export:         to AS39087 announce ANY
+mp-export:      afi ipv6.unicast to AS39087 announce ANY
+import:         from AS204128 action pref=130; accept AS-AT-TELECOM # attelecom
+mp-import:      afi ipv6.unicast from AS204128 accept AS-AT-TELECOM
+export:         to AS204128 announce ANY
+mp-export:      afi ipv6.unicast to AS204128 announce ANY
+import:         from AS50538 action pref=130; accept AS50538 # petrosvyaz
+mp-import:      afi ipv6.unicast from AS50538 accept AS50538
+export:         to AS50538 announce ANY
+mp-export:      afi ipv6.unicast to AS50538 announce ANY
+import:         from AS47542 action pref=100; accept ANY # vkontakte
+mp-import:      afi ipv6.unicast from AS47542 accept ANY
+export:         to AS47542 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS47542 announce AS-W-IX-IPVSIX
+import:         from AS5537 action pref=130; accept AS-RUCENTER # rucenter
+mp-import:      afi ipv6.unicast from AS5537 accept AS-RUCENTER
+export:         to AS5537 announce ANY
+mp-export:      afi ipv6.unicast to AS5537 announce ANY
+import:         from AS20848 action pref=130; accept AS-RBC # rbc
+mp-import:      afi ipv6.unicast from AS20848 accept AS-RBC
+export:         to AS20848 announce ANY
+mp-export:      afi ipv6.unicast to AS20848 announce ANY
+import:         from AS36040 action pref=100; accept ANY # google
+mp-import:      afi ipv6.unicast from AS36040 accept ANY
+export:         to AS36040 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS36040 announce AS-W-IX-IPVSIX
+import:         from AS16323 action pref=130; accept AS-INFOSYSTEMS # infosystech
+mp-import:      afi ipv6.unicast from AS16323 accept AS-INFOSYSTEMS
+export:         to AS16323 announce ANY
+mp-export:      afi ipv6.unicast to AS16323 announce ANY
+import:         from AS8449 action pref=130; accept AS-ELCAT # elcat
+mp-import:      afi ipv6.unicast from AS8449 accept AS-ELCAT-V6
+export:         to AS8449 announce ANY
+mp-export:      afi ipv6.unicast to AS8449 announce ANY
+import:         from AS47211 action pref=130; accept AS-KOLPINONET # kolpinonet
+mp-import:      afi ipv6.unicast from AS47211 accept AS-KOLPINONET
+export:         to AS47211 announce ANY
+mp-export:      afi ipv6.unicast to AS47211 announce ANY
+import:         from AS34300 action pref=130; accept AS-RU-SPACENET # spacenet
+mp-import:      afi ipv6.unicast from AS34300 accept AS-RU-SPACENET
+export:         to AS34300 announce ANY
+mp-export:      afi ipv6.unicast to AS34300 announce ANY
+import:         from AS42676 action pref=130; accept AS-SMARTKOM # smartkom
+mp-import:      afi ipv6.unicast from AS42676 accept AS-SMARTKOM
+export:         to AS42676 announce ANY
+mp-export:      afi ipv6.unicast to AS42676 announce ANY
+import:         from AS21140 action pref=130; accept AS-FLYTELECOM # flytel
+mp-import:      afi ipv6.unicast from AS21140 accept AS-FLYTELECOM
+export:         to AS21140 announce ANY
+mp-export:      afi ipv6.unicast to AS21140 announce ANY
+import:         from AS199119 action pref=130; accept AS-BARSTELPLUS # barstel
+mp-import:      afi ipv6.unicast from AS199119 accept AS-BARSTELPLUS
+export:         to AS199119 announce ANY
+mp-export:      afi ipv6.unicast to AS199119 announce ANY
+import:         from AS56694 action pref=130; accept AS-DHUB # dhub
+mp-import:      afi ipv6.unicast from AS56694 accept AS-DHUB
+export:         to AS56694 announce ANY
+mp-export:      afi ipv6.unicast to AS56694 announce ANY
+import:         from AS51892 action pref=130; accept AS-VOENTELECOM # voentel
+mp-import:      afi ipv6.unicast from AS51892 accept AS-VOENTELECOM
+export:         to AS51892 announce ANY
+mp-export:      afi ipv6.unicast to AS51892 announce ANY
+import:         from AS44128 action pref=130; accept AS44128 # internet-pro
+mp-import:      afi ipv6.unicast from AS44128 accept AS44128
+export:         to AS44128 announce ANY
+mp-export:      afi ipv6.unicast to AS44128 announce ANY
+import:         from AS16143 action pref=130; accept AS-RATEL # radionet
+mp-import:      afi ipv6.unicast from AS16143 accept AS-RATEL
+export:         to AS16143 announce ANY
+mp-export:      afi ipv6.unicast to AS16143 announce ANY
+import:         from AS199805 action pref=130; accept AS199805 # ugo
+mp-import:      afi ipv6.unicast from AS199805 accept AS199805
+export:         to AS199805 announce ANY
+mp-export:      afi ipv6.unicast to AS199805 announce ANY
+import:         from AS34550 action pref=130; accept AS-INTERCON # intercon
+mp-import:      afi ipv6.unicast from AS34550 accept AS-INTERCON
+export:         to AS34550 announce ANY
+mp-export:      afi ipv6.unicast to AS34550 announce ANY
+import:         from AS60388 action pref=130; accept AS-SIGMA-TELECOM # stn
+mp-import:      afi ipv6.unicast from AS60388 accept AS-SIGMA-TELECOM
+export:         to AS60388 announce ANY
+mp-export:      afi ipv6.unicast to AS60388 announce ANY
+import:         from AS42574 action pref=130; accept AS42574 # nsplus
+mp-import:      afi ipv6.unicast from AS42574 accept AS42574
+export:         to AS42574 announce ANY
+mp-export:      afi ipv6.unicast to AS42574 announce ANY
+import:         from AS45055 action pref=130; accept AS45055 # donnetwork
+mp-import:      afi ipv6.unicast from AS45055 accept AS45055
+export:         to AS45055 announce ANY
+mp-export:      afi ipv6.unicast to AS45055 announce ANY
+import:         from AS51507 action pref=130; accept AS51507 # netintel
+mp-import:      afi ipv6.unicast from AS51507 accept AS51507
+export:         to AS51507 announce ANY
+mp-export:      afi ipv6.unicast to AS51507 announce ANY
+import:         from AS42291 action pref=130; accept AS-ISTANET # istranet
+mp-import:      afi ipv6.unicast from AS42291 accept AS-ISTANET
+export:         to AS42291 announce ANY
+mp-export:      afi ipv6.unicast to AS42291 announce ANY
+import:         from AS29196 action pref=130; accept AS-UCSNET # istelecom
+mp-import:      afi ipv6.unicast from AS29196 accept AS-UCSNET
+export:         to AS29196 announce ANY
+mp-export:      afi ipv6.unicast to AS29196 announce ANY
+import:         from AS198616 action pref=130; accept AS198616 # mediakvant
+mp-import:      afi ipv6.unicast from AS198616 accept AS198616
+export:         to AS198616 announce ANY
+mp-export:      afi ipv6.unicast to AS198616 announce ANY
+import:         from AS24680 action pref=130; accept AS-COMPNET # compnet
+mp-import:      afi ipv6.unicast from AS24680 accept AS-COMPNET
+export:         to AS24680 announce ANY
+mp-export:      afi ipv6.unicast to AS24680 announce ANY
+import:         from AS39805 action pref=130; accept AS39805 # citycom
+mp-import:      afi ipv6.unicast from AS39805 accept AS39805
+export:         to AS39805 announce ANY
+mp-export:      afi ipv6.unicast to AS39805 announce ANY
+import:         from AS49335 action pref=100; accept ANY # hostkey
+mp-import:      afi ipv6.unicast from AS49335 accept ANY
+export:         to AS49335 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS49335 announce AS-W-IX-IPVSIX
+import:         from AS196750 action pref=130; accept AS-WEBA # weba
+mp-import:      afi ipv6.unicast from AS196750 accept AS-WEBA
+export:         to AS196750 announce ANY
+mp-export:      afi ipv6.unicast to AS196750 announce ANY
+import:         from AS61960 action pref=130; accept AS61960 # runexis
+mp-import:      afi ipv6.unicast from AS61960 accept AS61960
+export:         to AS61960 announce ANY
+mp-export:      afi ipv6.unicast to AS61960 announce ANY
+import:         from AS13335 action pref=100; accept ANY # cloudflare
+mp-import:      afi ipv6.unicast from AS13335 accept ANY
+export:         to AS13335 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS13335 announce AS-W-IX-IPVSIX
+import:         from AS34230 action pref=130; accept AS-FASTEL # fastel
+mp-import:      afi ipv6.unicast from AS34230 accept AS-FASTEL
+export:         to AS34230 announce ANY
+mp-export:      afi ipv6.unicast to AS34230 announce ANY
+import:         from AS200976 action pref=100; accept ANY # smotreshka
+mp-import:      afi ipv6.unicast from AS200976 accept ANY
+export:         to AS200976 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS200976 announce AS-W-IX-IPVSIX
+import:         from AS197482 action pref=130; accept AS-2GIS # 2gis
+mp-import:      afi ipv6.unicast from AS197482 accept AS-2GIS
+export:         to AS197482 announce ANY
+mp-export:      afi ipv6.unicast to AS197482 announce ANY
+import:         from AS60720 action pref=130; accept AS-POLYCOMM # polycomm
+mp-import:      afi ipv6.unicast from AS60720 accept AS-POLYCOMM
+export:         to AS60720 announce ANY
+mp-export:      afi ipv6.unicast to AS60720 announce ANY
+import:         from AS3226 action pref=130; accept AS-MARK-ITT # markitt
+mp-import:      afi ipv6.unicast from AS3226 accept AS-MARK-ITT
+export:         to AS3226 announce ANY
+mp-export:      afi ipv6.unicast to AS3226 announce ANY
+import:         from AS48524 action pref=130; accept AS48524 # interra
+mp-import:      afi ipv6.unicast from AS48524 accept AS48524
+export:         to AS48524 announce ANY
+mp-export:      afi ipv6.unicast to AS48524 announce ANY
+import:         from AS3326 action pref=100; accept ANY # topnet
+mp-import:      afi ipv6.unicast from AS3326 accept ANY
+export:         to AS3326 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS3326 announce AS-W-IX-IPVSIX
+import:         from AS8849 action pref=130; accept AS8849 # datalogika
+mp-import:      afi ipv6.unicast from AS8849 accept AS8849
+export:         to AS8849 announce ANY
+mp-export:      afi ipv6.unicast to AS8849 announce ANY
+import:         from AS201588 action pref=130; accept AS-MOSCONNECT # mosconnect
+mp-import:      afi ipv6.unicast from AS201588 accept AS-MOSCONNECT
+export:         to AS201588 announce ANY
+mp-export:      afi ipv6.unicast to AS201588 announce ANY
+import:         from AS44347 action pref=130; accept AS-SINT # milecom
+mp-import:      afi ipv6.unicast from AS44347 accept AS-SINT
+export:         to AS44347 announce ANY
+mp-export:      afi ipv6.unicast to AS44347 announce ANY
+import:         from AS205438 action pref=130; accept AS-STUDITECH # studitech
+mp-import:      afi ipv6.unicast from AS205438 accept AS-STUDITECH
+export:         to AS205438 announce ANY
+mp-export:      afi ipv6.unicast to AS205438 announce ANY
+import:         from AS48739 action pref=130; accept AS48739 # tashirtelecom
+mp-import:      afi ipv6.unicast from AS48739 accept AS48739
+export:         to AS48739 announce ANY
+mp-export:      afi ipv6.unicast to AS48739 announce ANY
+import:         from AS50313 action pref=130; accept AS50313 # teslatel
+mp-import:      afi ipv6.unicast from AS50313 accept AS50313
+export:         to AS50313 announce ANY
+mp-export:      afi ipv6.unicast to AS50313 announce ANY
+import:         from AS25478 action pref=130; accept AS-IHOME # ihome
+mp-import:      afi ipv6.unicast from AS25478 accept AS-IHOME
+export:         to AS25478 announce ANY
+mp-export:      afi ipv6.unicast to AS25478 announce ANY
+import:         from AS57174 action pref=130; accept AS-SSERV-RU # sis
+mp-import:      afi ipv6.unicast from AS57174 accept AS-SSERV-RU
+export:         to AS57174 announce ANY
+mp-export:      afi ipv6.unicast to AS57174 announce ANY
+import:         from AS56387 action pref=130; accept AS56387 # pip
+mp-import:      afi ipv6.unicast from AS56387 accept AS56387
+export:         to AS56387 announce ANY
+mp-export:      afi ipv6.unicast to AS56387 announce ANY
+import:         from AS57843 action pref=130; accept AS-INTERLOGICA-LTD # interlogika
+mp-import:      afi ipv6.unicast from AS57843 accept AS-INTERLOGICA-LTD
+export:         to AS57843 announce ANY
+mp-export:      afi ipv6.unicast to AS57843 announce ANY
+import:         from AS5429 action pref=130; accept AS-IIPNET # umos
+mp-import:      afi ipv6.unicast from AS5429 accept AS-IIPNET
+export:         to AS5429 announce ANY
+mp-export:      afi ipv6.unicast to AS5429 announce ANY
+import:         from AS8641 action pref=130; accept AS-NAUKANET # naukanet
+mp-import:      afi ipv6.unicast from AS8641 accept AS-NAUKANET
+export:         to AS8641 announce ANY
+mp-export:      afi ipv6.unicast to AS8641 announce ANY
+import:         from AS47531 action pref=130; accept AS-FLY # soskol
+mp-import:      afi ipv6.unicast from AS47531 accept AS-FLY
+export:         to AS47531 announce ANY
+mp-export:      afi ipv6.unicast to AS47531 announce ANY
+import:         from AS3267 action pref=130; accept AS-RUNNET # informika
+mp-import:      afi ipv6.unicast from AS3267 accept AS-RUNNET
+export:         to AS3267 announce ANY
+mp-export:      afi ipv6.unicast to AS3267 announce ANY
+import:         from AS50448 action pref=130; accept AS-NORTHNET # northnet
+mp-import:      afi ipv6.unicast from AS50448 accept AS-NORTHNET
+export:         to AS50448 announce ANY
+mp-export:      afi ipv6.unicast to AS50448 announce ANY
+import:         from AS47323 action pref=130; accept AS47323 # pioneer
+mp-import:      afi ipv6.unicast from AS47323 accept AS47323
+export:         to AS47323 announce ANY
+mp-export:      afi ipv6.unicast to AS47323 announce ANY
+import:         from AS41349 action pref=130; accept AS41349 # tushino
+mp-import:      afi ipv6.unicast from AS41349 accept AS41349
+export:         to AS41349 announce ANY
+mp-export:      afi ipv6.unicast to AS41349 announce ANY
+import:         from AS35645 action pref=130; accept AS-INFOCENTER # vladinfo
+mp-import:      afi ipv6.unicast from AS35645 accept AS-INFOCENTER
+export:         to AS35645 announce ANY
+mp-export:      afi ipv6.unicast to AS35645 announce ANY
+import:         from AS47481 action pref=130; accept AS-LHD # limehd
+mp-import:      afi ipv6.unicast from AS47481 accept AS-LHD
+export:         to AS47481 announce ANY
+mp-export:      afi ipv6.unicast to AS47481 announce ANY
+import:         from AS38742 action pref=130; accept AS38742 # vnet
+mp-import:      afi ipv6.unicast from AS38742 accept AS38742
+export:         to AS38742 announce ANY
+mp-export:      afi ipv6.unicast to AS38742 announce ANY
+import:         from AS50448 action pref=130; accept AS-COLOCAT # colocat
+mp-import:      afi ipv6.unicast from AS50448 accept AS-COLOCAT
+export:         to AS50448 announce ANY
+mp-export:      afi ipv6.unicast to AS50448 announce ANY
+import:         from AS48036 action pref=130; accept AS48036 # butovonet
+mp-import:      afi ipv6.unicast from AS48036 accept AS48036
+export:         to AS48036 announce ANY
+mp-export:      afi ipv6.unicast to AS48036 announce ANY
+import:         from AS44053 action pref=130; accept AS-UNILINK # fortex_unilink
+mp-import:      afi ipv6.unicast from AS44053 accept AS-UNILINK
+export:         to AS44053 announce ANY
+mp-export:      afi ipv6.unicast to AS44053 announce ANY
+import:         from AS44041 action pref=130; accept AS44041 # linkline
+mp-import:      afi ipv6.unicast from AS44041 accept AS44041
+export:         to AS44041 announce ANY
+mp-export:      afi ipv6.unicast to AS44041 announce ANY
+import:         from AS15870 action pref=130; accept AS15870 # bst
+mp-import:      afi ipv6.unicast from AS15870 accept AS15870
+export:         to AS15870 announce ANY
+mp-export:      afi ipv6.unicast to AS15870 announce ANY
+import:         from AS28917 action pref=100; accept ANY # fiord
+mp-import:      afi ipv6.unicast from AS28917 accept ANY
+export:         to AS28917 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS28917 announce AS-W-IX-IPVSIX
+import:         from AS47258 action pref=130; accept AS47258 # premier
+mp-import:      afi ipv6.unicast from AS47258 accept AS47258
+export:         to AS47258 announce ANY
+mp-export:      afi ipv6.unicast to AS47258 announce ANY
+import:         from AS52040 action pref=130; accept AS52040 # kitejtel
+mp-import:      afi ipv6.unicast from AS52040 accept AS52040
+export:         to AS52040 announce ANY
+mp-export:      afi ipv6.unicast to AS52040 announce ANY
+import:         from AS50596 action pref=130; accept AS-ITNET33 # itnet
+mp-import:      afi ipv6.unicast from AS50596 accept AS-ITNET33
+export:         to AS50596 announce ANY
+mp-export:      afi ipv6.unicast to AS50596 announce ANY
+import:         from AS51520 action pref=130; accept AS-RH # datalogika
+mp-import:      afi ipv6.unicast from AS51520 accept AS-RH
+export:         to AS51520 announce ANY
+mp-export:      afi ipv6.unicast to AS51520 announce ANY
+import:         from AS49261 action pref=130; accept AS49261 # svs
+mp-import:      afi ipv6.unicast from AS49261 accept AS49261
+export:         to AS49261 announce ANY
+mp-export:      afi ipv6.unicast to AS49261 announce ANY
+import:         from AS52201 action pref=130; accept AS-TCTEL # firma_tel
+mp-import:      afi ipv6.unicast from AS52201 accept AS-TCTEL-V6
+export:         to AS52201 announce ANY
+mp-export:      afi ipv6.unicast to AS52201 announce ANY
+import:         from AS21453 action pref=130; accept AS-FLEX # flex
+mp-import:      afi ipv6.unicast from AS21453 accept AS-FLEX
+export:         to AS21453 announce ANY
+mp-export:      afi ipv6.unicast to AS21453 announce ANY
+import:         from AS60265 action pref=130; accept AS60265 # okko
+mp-import:      afi ipv6.unicast from AS60265 accept AS60265
+export:         to AS60265 announce ANY
+mp-export:      afi ipv6.unicast to AS60265 announce ANY
+import:         from AS29061 action pref=130; accept AS-SAIMANETPEERS-1 # vnet
+mp-import:      afi ipv6.unicast from AS29061 accept AS-SAIMANETPEERS-1
+export:         to AS29061 announce ANY
+mp-export:      afi ipv6.unicast to AS29061 announce ANY
+import:         from AS8595 action pref=130; accept AS-WESTCALL-MSK # westcall
+mp-import:      afi ipv6.unicast from AS8595 accept AS-WESTCALL-MSK
+export:         to AS8595 announce ANY
+mp-export:      afi ipv6.unicast to AS8595 announce ANY
+import:         from AS48293 action pref=130; accept AS-UNIONTEL-RU # uniontel
+mp-import:      afi ipv6.unicast from AS48293 accept AS-UNIONTEL-RU
+export:         to AS48293 announce ANY
+mp-export:      afi ipv6.unicast to AS48293 announce ANY
+import:         from AS47923 action pref=130; accept AS-LANCRAFT # lancraft
+mp-import:      afi ipv6.unicast from AS47923 accept AS-LANCRAFT
+export:         to AS47923 announce ANY
+mp-export:      afi ipv6.unicast to AS47923 announce ANY
+import:         from AS56462 action pref=130; accept AS-DDESTINY # destiny
+mp-import:      afi ipv6.unicast from AS56462 accept AS-DDESTINY
+export:         to AS56462 announce ANY
+mp-export:      afi ipv6.unicast to AS56462 announce ANY
+import:         from AS44964 action pref=130; accept AS-DATAPLANET # dapl
+mp-import:      afi ipv6.unicast from AS44964 accept AS-DATAPLANET
+export:         to AS44964 announce ANY
+mp-export:      afi ipv6.unicast to AS44964 announce ANY
+import:         from AS49828 action pref=130; accept AS-DARNET # darnet
+mp-import:      afi ipv6.unicast from AS49828 accept AS-DARNET
+export:         to AS49828 announce ANY
+mp-export:      afi ipv6.unicast to AS49828 announce ANY
+import:         from AS49502 action pref=130; accept AS-ART-INVEST # artinvest
+mp-import:      afi ipv6.unicast from AS49502 accept AS-ART-INVEST
+export:         to AS49502 announce ANY
+mp-export:      afi ipv6.unicast to AS49502 announce ANY
+import:         from AS50471 action pref=130; accept AS50471 # comindustry
+mp-import:      afi ipv6.unicast from AS50471 accept AS50471
+export:         to AS50471 announce ANY
+mp-export:      afi ipv6.unicast to AS50471 announce ANY
+import:         from AS43660 action pref=130; accept AS43660 # etherway
+mp-import:      afi ipv6.unicast from AS43660 accept AS43660
+export:         to AS43660 announce ANY
+mp-export:      afi ipv6.unicast to AS43660 announce ANY
+import:         from AS44905 action pref=130; accept AS-SETSKV # skv
+mp-import:      afi ipv6.unicast from AS44905 accept AS-SETSKV
+export:         to AS44905 announce ANY
+mp-export:      afi ipv6.unicast to AS44905 announce ANY
+import:         from AS57363 action pref=130; accept AS-CDNVIDEO # cdnvideo
+mp-import:      afi ipv6.unicast from AS57363 accept AS-CDNVIDEO
+export:         to AS57363 announce ANY
+mp-export:      afi ipv6.unicast to AS57363 announce ANY
+import:         from AS42632 action pref=100; accept ANY # mnogobyte
+mp-import:      afi ipv6.unicast from AS42632 accept ANY
+export:         to AS42632 announce AS-W-IX
+mp-export:      afi ipv6.unicast to AS42632 announce AS-W-IX-IPVSIX
+remarks:
+remarks:        communities
+remarks:        50384:3001 msk-ix
+remarks:        50384:3007 dtel-ix
+remarks:        50384:3051 de-cix
+remarks:        50384:3052 ams-ix
+remarks:
+remarks:
+remarks:        Cities:
+remarks:        50384:4001 Moscow
+remarks:        50384:4002 Leningrad
+remarks:        50384:4011 Novosibirsk
+remarks:        50384:4010 Ekaterinburg
+remarks:        50384:4006 Ufa
+remarks:        50384:4017 Tumen
+remarks:        50384:4008 Chelabinsk
+remarks:        50384:4013 Vladimir
+remarks:        50384:4016 Samara
+remarks:        50384:4007 Cheboksari
+remarks:        50384:4014 Voronezh
+remarks:        50384:4003 Frankfurt
+remarks:        50384:4012 Perm
+remarks:        50384:4009 Kazan
+remarks:        50384:4005 Kiev
+remarks:        50384:4015 Kurgan
+remarks:        50384:4004 Amsterdam
+remarks:        50384:4018 Tomsk
+remarks:        50384:4019 Kemerovo
+remarks:        50384:4020 Omsk
+remarks:        50384:4021 Kostroma
+remarks:        50384:4022 Tambov
+remarks:        50384:4024 Saratov
+remarks:        50384:4025 Nijnii Novgorod
+remarks:        50384:4026 Rostov-on-Don
+remarks:        50384:4027 Krasnoyarsk
+remarks:
+remarks:        RS accepts:
+remarks:        50384:6666 blackhole
+remarks:        0:as - do not advertise to as
+remarks:
+remarks:        city = 61000 + 40xx = 650xx
+remarks:        where 40xx - city community
+remarks:
+remarks:        in order of specifity:
+remarks:        0:peeras - no ann to peer
+remarks:        myas:peeras - ann to peer
+remarks:        0:city - no ann to city
+remarks:        myas:city - ann to city
+remarks:        0:myas - no ann to any
+remarks:
+remarks:        65501:peeras - 1 prep to peer or city (additive)
+remarks:        65502:peeras - 2 prep to peer or city (additive)
+remarks:        i.e. up to 6 prepends to peer at city
+remarks:
+remarks:        50384:5999 lp=100
+remarks:
+remarks:        uplink:
+remarks:        mark
+remarks:        50384:30xx
+remarks:
+remarks:        ctrl
+remarks:        50384:5xxy
+remarks:        y=0 noadv
+remarks:        1<=y<=3 prepend 50384 y times
+remarks:
+admin-c:        VM3233-RIPE
+tech-c:         VM3233-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         W-IX-MNT
+status:         ASSIGNED
+created:        2009-12-30T16:24:09Z
+last-modified:  2019-01-31T11:20:24Z
+source:         RIPE
+
+organisation:   ORG-WA155-RIPE
+org-name:       W-IX LTD
+admin-c:        VM3233-RIPE
+descr:          International Internet Exchange
+org-type:       OTHER
+address:        W-IX LTD
+address:        Suite 12273 2nd Floor 145-157 St John Street London EC1V 4PY England
+phone:          +44 20 8144 2800
+mnt-ref:        W-IX-MNT
+mnt-by:         W-IX-MNT
+abuse-c:        IHOM-RIPE
+created:        2009-11-27T12:39:58Z
+last-modified:  2014-10-20T10:01:37Z
+source:         RIPE # Filtered
+
+person:         Vasily Maslovskiy
+address:        W-IX LTD
+address:        Suite 12273 2nd Floor 145-157 St John Street London EC1V 4PY England
+org:            ORG-WA155-RIPE
+mnt-by:         W-IX-MNT
+phone:          +44 20 8144 2800
+nic-hdl:        VM3233-RIPE
+created:        2009-11-27T11:35:49Z
+last-modified:  2014-10-20T10:02:18Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

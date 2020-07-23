@@ -1,0 +1,247 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS6714 - AS6878'
+
+as-block:       AS6714 - AS6878
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS6768'
+
+% Abuse contact for 'AS6768' is 'abuse@eurotele.com.ua'
+
+aut-num:        AS6768
+as-name:        EUROTEL-AS
+org:            ORG-EL287-RIPE
+remarks:        === UPLINKS ===
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-EUROTELE
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-EUROTELE
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS-EUROTELE
+import:         from AS8359 accept ANY
+export:         to AS8359 announce AS-EUROTELE
+mp-import:      afi ipv6.unicast from AS8359 accept ANY
+mp-export:      afi ipv6.unicast to AS8359 announce AS-EUROTELE
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-EUROTELE
+remarks:        === PEERS ===
+mp-import:      afi ipv6.unicast from AS15645 accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-EUROTELE
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-EUROTELE
+import:         from AS8631 accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-EUROTELE
+import:         from AS6695 accept AS-DECIX
+export:         to AS6695 announce AS-EUROTELE
+import:         from AS50952 accept AS-DATAIX
+export:         to AS50952 announce AS-EUROTELE
+import:         from AS50384 accept AS-W-IX
+export:         to AS50384 announce AS-EUROTELE
+import:         from AS42632 accept AS-MNOGOBYTE
+export:         to AS42632 announce AS-EUROTELE
+import:         from AS8744 accept AS-WIMAX
+export:         to AS8744 announce AS-EUROTELE
+import:         from AS39792 accept AS-ANDERS
+export:         to AS39792 announce AS-EUROTELE
+remarks:        === UA PEERS ===
+import:         from AS15645 accept AS-UAIX
+export:         to AS15645 announce AS-EUROTELE
+import:         from AS31210 accept AS-DTEL-IX
+export:         to AS31210 announce AS-EUROTELE
+import:         from AS50772 accept AS-UTT
+export:         to AS50772 announce AS-EUROTELE
+import:         from AS35297 accept ANY
+export:         to AS35297 announce AS-EUROTELE
+remarks:        === CLIENTS ===
+import:         from AS39513 accept AS-ONECOM-UA
+export:         to AS39513 announce ANY
+import:         from AS21488 accept AS-EMPLOT
+export:         to AS21488 announce ANY
+import:         from AS57219 accept AS57219
+export:         to AS57219 announce ANY
+import:         from AS6876 accept AS-TENET-UA
+export:         to AS6876 announce ANY
+import:         from AS44728 accept AS44728
+export:         to AS44728 announce ANY
+import:         from AS25553 accept AS25553
+export:         to AS25553 announce ANY
+import:         from AS61101 accept AS61101
+export:         to AS61101 announce ANY
+import:         from AS34251 accept AS-IMC
+export:         to AS34251 announce ANY
+import:         from AS24881 accept AS-INTERPHONE
+export:         to AS24881 announce ANY
+import:         from AS41871 accept AS-ORG-TR2-RIPE
+export:         to AS41871 announce ANY
+import:         from AS58297 accept AS58297
+export:         to AS58297 announce ANY
+import:         from AS24962 accept AS24962
+export:         to AS24962 announce ANY
+import:         from AS52180 accept AS52180
+export:         to AS52180 announce ANY
+import:         from AS50949 accept AS-AGRONET
+export:         to AS50949 announce ANY
+import:         from AS56359 accept AS56359
+export:         to AS56359 announce ANY
+import:         from AS49465 accept AS49465
+export:         to AS49465 announce ANY
+import:         from AS51993 accept AS51993
+export:         to AS51993 announce ANY
+import:         from AS50751 accept AS50751
+export:         to AS50751 announce ANY
+import:         from AS197901 accept AS197901
+export:         to AS197901 announce ANY
+import:         from AS44827 accept AS44827
+export:         to AS44827 announce ANY
+import:         from AS58015 accept AS58015
+export:         to AS58015 announce ANY
+import:         from AS44921 accept AS44921
+export:         to AS44921 announce ANY
+import:         from AS51273 accept AS-SKYNET-UA
+export:         to AS51273 announce ANY
+import:         from AS199524 accept AS199524
+export:         to AS199524 announce ANY
+import:         from AS47550 accept AS47550
+export:         to AS47550 announce ANY
+import:         from AS56404 accept AS56404
+export:         to AS56404 announce ANY
+import:         from AS44526 accept AS44526
+export:         to AS44526 announce ANY
+import:         from AS34056 accept AS-KIEVNET
+export:         to AS34056 announce ANY
+import:         from AS56972 accept AS56972
+export:         to AS56972 announce ANY
+import:         from AS28773 accept AS-MASTER
+export:         to AS28773 announce ANY
+import:         from AS198229 accept AS198229
+export:         to AS198229 announce ANY
+import:         from AS9205 accept AS9205
+export:         to AS9205 announce ANY
+import:         from AS9205 accept AS-SNS
+export:         to AS9205 announce ANY
+import:         from AS39728 accept AS-Luganet
+export:         to AS39728 announce ANY
+import:         from AS43139 accept AS-MAXIMUM
+export:         to AS43139 announce ANY
+import:         from AS49588 accept AS-SDS
+export:         to AS49588 announce ANY
+import:         from AS61371 accept AS-UA-STARNET
+export:         to AS61371 announce ANY
+import:         from AS59888 accept AS59888
+export:         to AS59888 announce ANY
+import:         from AS48882 accept AS-IPCOM-NET
+export:         to AS48882 announce ANY
+import:         from AS59768 accept AS59768
+export:         to AS59768 announce ANY
+import:         from AS31685 accept AS31685
+export:         to AS31685 announce ANY
+import:         from AS50305 accept AS50305
+export:         to AS50305 announce ANY
+import:         from AS44416 accept AS44416
+export:         to AS44416 announce ANY
+import:         from AS49444 accept AS49444
+export:         to AS49444 announce ANY
+import:         from AS50204 accept AS50204
+export:         to AS50204 announce ANY
+import:         from AS13249 accept AS-ITS-CLIENTS
+export:         to AS13249 announce ANY
+import:         from AS50981 accept AS50981
+export:         to AS50981 announce ANY
+import:         from AS49373 accept AS-FOTONTELECOM
+export:         to AS49373 announce ANY
+import:         from AS29632 accept AS-NETASSIST
+export:         to AS29632 announce ANY
+import:         from AS31388 accept AS31388
+export:         to AS31388 announce ANY
+import:         from AS44800 accept AS44800
+export:         to AS44800 announce ANY
+import:         from AS59497 accept AS-BUKNET-EXT
+export:         to AS59497 announce ANY
+import:         from AS203619 accept AS203619
+export:         to AS203619 announce ANY
+import:         from AS35588 accept AS35588
+export:         to AS35588 announce ANY
+import:         from AS60166 accept AS60166
+export:         to AS60166 announce ANY
+remarks:        ========================================================
+remarks:        Operational issues to noc@eurotele.com.ua
+remarks:        Abuse reports to abuse@eurotele.com.ua
+remarks:        Peering contact is peering@eurotele.com.ua
+remarks:        ========================================================
+remarks:        Communities accepted from customers
+remarks:        ========================================================
+remarks:        --------------------------------------------------------
+remarks:        customer traffic engineering communities - Blackhole
+remarks:        --------------------------------------------------------
+remarks:        6768:6660 - blackhole (discard) traffic
+remarks:        Traffic destined for /32 prefixes tagged with this
+remarks:        community will be discarded at ingress to the Eurotel
+remarks:        network. The prefix must be one permitted by the
+remarks:        customer's existing ingress BGP filter.
+remarks:        --------------------------------------------------------
+admin-c:        RLU1-RIPE
+tech-c:         EURT-RIPE
+status:         ASSIGNED
+mnt-by:         EUROTEL-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2009-10-07T10:20:46Z
+last-modified:  2018-09-04T10:45:01Z
+source:         RIPE
+
+organisation:   ORG-EL287-RIPE
+org-name:       EUROTELE-PLUS LLC
+org-type:       LIR
+address:        Gaidara str. 50
+address:        01033
+address:        Kyiv
+address:        UKRAINE
+admin-c:        RL12190-RIPE
+tech-c:         RL12190-RIPE
+tech-c:         PPK19-RIPE
+abuse-c:        AR41940-RIPE
+mnt-ref:        EUROTEL-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         EUROTEL-MNT
+created:        2017-06-29T06:45:47Z
+last-modified:  2018-12-04T08:53:44Z
+source:         RIPE # Filtered
+phone:          +380675384755
+
+role:           Eurotel NOC
+address:        01033, Ukraine, Kyiv, Gaidar Str., 50
+abuse-mailbox:  abuse@eurotele.com.ua
+admin-c:        RLU1-RIPE
+tech-c:         PPK19-RIPE
+tech-c:         RLU1-RIPE
+nic-hdl:        EURT-RIPE
+mnt-by:         EUROTEL-MNT
+created:        2013-11-05T07:20:13Z
+last-modified:  2018-12-04T08:35:35Z
+source:         RIPE # Filtered
+
+person:         Lysenko Roman
+address:        01033, Ukraine, Kyiv
+address:        Gaidar Str., 50
+phone:          +380675384755
+nic-hdl:        RLU1-RIPE
+mnt-by:         EUROTEL-MNT
+created:        2010-03-12T08:56:47Z
+last-modified:  2018-12-04T08:48:09Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

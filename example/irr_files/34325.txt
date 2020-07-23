@@ -1,0 +1,132 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS34325'
+
+% Abuse contact for 'AS34325' is 'lir@mnitelecom.pl'
+
+aut-num:        AS34325
+as-name:        PROFILINE-AS
+remarks:        former PROFILINE Sp. z o.o.
+org:            ORG-PTSz1-RIPE
+remarks:
+remarks:        ========================================================
+remarks:        PROFILINE peers upstream with
+remarks:        ATM, TKTelekom, GTSEnergis, MNI
+remarks:        and with customers in Poland.
+remarks:        ========================================================
+remarks:
+import:         from AS20804 accept ANY
+export:         to AS20804 announce AS-PROFILINE
+import:         from AS24724 accept ANY
+export:         to AS24724 announce AS-PROFILINE
+import:         from AS24748 accept ANY
+export:         to AS24748 announce AS-PROFILINE
+import:         from AS15744 accept ANY
+export:         to AS15744 announce AS-PROFILINE
+import:         from AS20960 accept ANY
+export:         to AS20960 announce AS-PROFILINE
+import:         from AS24709 accept ANY
+export:         to AS24709 announce AS-PROFILINE
+remarks:
+remarks:
+remarks:        ======================================================
+remarks:        Communities used in AS34325
+remarks:        ======================================================
+remarks:
+remarks:        Communities for customers use.
+remarks:        ------------------------------
+remarks:
+remarks:        We do not accept all RFC1997 communities.
+remarks:
+remarks:        34325:2000 - do not advertise to any peer
+remarks:
+remarks:        Community for specific link:
+remarks:        x = 0: do not advertise
+remarks:        x = 1,2,3: prepend 1,2,3 times
+remarks:
+remarks:        for AS24724 (ATM.global): 34325:220x
+remarks:        for AS24748 (ATM.ac-x): 34325:230x
+remarks:        for AS24748 (ATM.tpnet): 34325:240x
+remarks:        for AS8246 (GTS): 34325:250x
+remarks:        for AS20960 (TKTelekom): 34325:260x
+remarks:        for AS24709 (MNI): 34325:270x
+remarks:
+remarks:
+remarks:        ======================================================
+remarks:        Network issues contacts:
+remarks:
+remarks:        general: bok@profiline.pl
+remarks:        bgp4: bgp@profiline.pl
+remarks:        abuse: abuse@profiline.pl
+remarks:        ======================================================
+remarks:
+admin-c:        PS17419-RIPE
+tech-c:         PS17419-RIPE
+status:         ASSIGNED
+mnt-lower:      MNT-PROFILINE
+mnt-lower:      MNT-HYPERION
+mnt-by:         SZEPTEL-MNT
+mnt-by:         PILICKA-MNT
+mnt-by:         MNT-PROFILINE
+mnt-by:         RIPE-NCC-END-MNT
+created:        2004-12-16T13:45:10Z
+last-modified:  2018-09-04T10:06:18Z
+source:         RIPE # Filtered
+
+organisation:   ORG-PTSz1-RIPE
+org-name:       Hyperion S.A.
+org-type:       LIR
+address:        ul. Potkanowska 54a
+address:        26-600
+address:        Radom
+address:        POLAND
+phone:          +48 (48) 3843131
+fax-no:         +48 (48) 3843202
+admin-c:        RAVN-RIPE
+abuse-c:        AR16405-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-HYPERION
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-HYPERION
+created:        2004-04-17T11:47:50Z
+last-modified:  2019-02-09T14:49:23Z
+source:         RIPE # Filtered
+
+person:         Piotr Sulkowski
+address:        PROFILINE Sp. z o.o.
+address:        ul.Zamenhofa 10
+address:        90-431 Lodz
+address:        Poland
+phone:          +48 42 6762950
+nic-hdl:        PS17419-RIPE
+mnt-by:         MNT-PROFILINE
+created:        2014-05-07T03:57:29Z
+last-modified:  2014-05-07T05:27:56Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

@@ -1,0 +1,195 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21281 - AS21390'
+
+as-block:       AS21281 - AS21390
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21294'
+
+% Abuse contact for 'AS21294' is 'abuse@ip.ro'
+
+aut-num:        AS21294
+as-name:        IDILIS
+org:            ORG-IS110-RIPE
+import:         from AS6910 217.156.99.150 at 217.156.99.149 action pref=100; accept AS-DIALTELECOMRO
+import:         from AS5541 46.108.5.97 at 46.108.5.98 action pref=100; accept ANY
+import:         from AS21157 80.96.185.193 at 80.96.185.195 action pref=100; accept AS21157
+import:         from AS21300 193.201.232.161 at 193.201.232.162 action pref=100; accept AS-ACCESSNET
+import:         from AS25103 80.97.1.182 at 80.97.1.181 action pref=100; accept AS-ADISAN
+import:         from AS31678 81.181.96.13 at 81.181.96.14 action pref=100; accept AS31678
+import:         from AS34043 80.97.12.227 at 80.97.12.129 action pref=100; accept AS34043
+import:         from AS47731 80.97.15.190 at 80.97.15.189 action pref=100; accept AS47731
+import:         from AS3320 80.150.169.193 at 80.150.169.194 action pref=95; accept ANY
+import:         from AS35638 217.156.85.70 at 217.156.85.69 action pref=100; accept AS-2K
+import:         from AS50990 89.36.120.142 at 89.36.120.141 action pref=100; accept AS50990
+import:         from AS51709 80.97.12.163 at 80.97.12.129 action pref=100; accept AS51709
+import:         from AS41831 80.97.15.90 at 80.97.2.65 action pref=100; accept AS41831
+import:         from AS29628 80.97.1.234 at 80.97.1.233 action pref=100; accept AS29628
+import:         from AS29628 80.97.1.238 at 80.97.1.237 action pref=100; accept AS29628
+import:         from AS24745 80.97.248.1 at 80.97.248.32 action pref=100; accept AS-BALCANIX
+import:         from AS24745 80.97.248.2 at 80.97.248.32 action pref=100; accept AS-BALCANIX
+import:         from AS20530 217.156.113.1 at 217.156.113.28 action pref=100; accept AS-ROMANIA
+import:         from AS20530 217.156.113.2 at 217.156.113.28 action pref=100; accept AS-ROMANIA
+import:         from AS3289 80.97.11.218 at 80.97.11.217 action pref=100; accept AS3289
+import:         from AS3289 80.97.11.222 at 80.97.11.221 action pref=100; accept AS3289
+import:         from AS50991 80.97.9.195 at 80.97.9.193 action pref=100; accept AS50991
+import:         from AS47388 89.45.178.178 at 89.45.178.177 action pref=100; accept AS47388
+import:         from AS57535 89.45.183.86 at 89.45.183.85 action pref=100; accept AS57535
+import:         from AS44563 89.45.186.114 at 89.45.186.113 action pref=100; accept AS44563
+import:         from AS21463 80.97.2.45 at 80.97.2.33 action pref=100; accept AS21463
+import:         from AS44679 86.105.244.238 at 86.105.244.237 action pref=100; accept AS44679
+export:         to AS6910 announce AS-IDILIS
+export:         to AS5541 announce ANY
+export:         to AS20530 announce AS-IDILIS
+export:         to AS21157 announce ANY
+export:         to AS21300 announce ANY
+export:         to AS25103 announce ANY
+export:         to AS31678 announce AS-IDILIS
+export:         to AS34043 announce ANY
+export:         to AS47731 announce AS-IDILIS
+export:         to AS3320 announce AS-IDILIS
+export:         to AS35638 announce AS-IDILIS
+export:         to AS50990 announce AS-IDILIS
+export:         to AS51709 announce ANY
+export:         to AS41831 announce ANY
+export:         to AS29628 announce ANY
+export:         to AS24745 announce AS-IDILIS
+export:         to AS3289 announce ANY
+export:         to AS50991 announce ANY
+export:         to AS47388 announce ANY
+export:         to AS57535 announce ANY
+export:         to AS44563 announce ANY
+export:         to AS21463 announce ANY
+export:         to AS44679 announce ANY
+admin-c:        IDL2-RIPE
+tech-c:         DL3945-RIPE
+status:         ASSIGNED
+mnt-by:         IDILIS-MNT
+mnt-by:         RIPE-NCC-END-MNT
+remarks:
+remarks:        *********************************************************************
+remarks:        IDILIS filters out inbound and outbound prefixes longer than /24
+remarks:
+remarks:        We also filter the following bogus networks:
+remarks:        *********************************************************************
+remarks:        10.0.0.0/8
+remarks:        127.0.0.0/8
+remarks:        169.254.0.0/16
+remarks:        172.16.0.0/12
+remarks:        192.0.2.0/24
+remarks:        192.168.0.0/16
+remarks:        198.18.0.0/15
+remarks:        224.0.0.0/4
+remarks:        255.0.0.0/8
+remarks:        *********************************************************************
+remarks:        Community Support Definitions
+remarks:        *********************************************************************
+remarks:        Communities to control Local preference by customer
+remarks:
+remarks:        Community Definition
+remarks:        ---------------------------------------------------------------------
+remarks:        21294:80 Local preference = 80
+remarks:        21294:120 Local preference = 120
+remarks:        Default = 100
+remarks:
+remarks:        *********************************************************************
+remarks:        Communities tagged on inbound routes
+remarks:
+remarks:        Community Definition
+remarks:        --------------------------------------------------------------------
+remarks:        21294:100 Routes received from Customer
+remarks:        21294:200 Routes received from Peer
+remarks:        21294:900 Routes received from Upstream
+remarks:
+remarks:        *********************************************************************
+remarks:        Communities to control outbound routing announcements
+remarks:
+remarks:        Community Definition
+remarks:        --------------------------------------------------------------------
+remarks:        21294:201 Prepend 1*21294 when announcing to peers (*)
+remarks:        21294:202 Prepend 2*21294 when announcing to peers (*)
+remarks:        21294:203 Prepend 3*21294 when announcing to peers (*)
+remarks:        --------------------------------------------------------------------
+remarks:        21294:901 Prepend 1*21294 when announcing to upstreams (*)
+remarks:        21294:902 Prepend 2*21294 when announcing to upstreams (*)
+remarks:        21294:903 Prepend 3*21294 when announcing to upstreams (*)
+remarks:
+remarks:        (*) only customers can use this community
+remarks:
+created:        2002-08-15T09:25:03Z
+last-modified:  2018-09-04T09:52:29Z
+source:         RIPE
+sponsoring-org: ORG-ATAS1-RIPE
+
+organisation:   ORG-IS110-RIPE
+org-name:       IDILIS SRL
+org-type:       OTHER
+address:        Bvd. Mircea Eliade, nr. 18
+address:        Eliade Tower, et. 7
+address:        Sector 1
+address:        Bucuresti, Romania
+phone:          +4031 860 08 00
+fax-no:         +4031 860 08 01
+abuse-c:        AR26224-RIPE
+tech-c:         DL3945-RIPE
+admin-c:        IDL2-RIPE
+mnt-by:         IDILIS-MNT
+mnt-ref:        IDILIS-MNT
+created:        2009-12-07T16:01:11Z
+last-modified:  2014-11-17T21:47:42Z
+source:         RIPE # Filtered
+
+role:           IDILIS NOC
+address:        Bvd. Mircea Eliade, nr. 18
+address:        Eliade Tower, et. 7
+address:        Sector 1
+address:        Bucuresti, Romania
+phone:          +4031 860 08 00
+fax-no:         +4031 860 08 01
+tech-c:         DL3945-RIPE
+admin-c:        IDL2-RIPE
+nic-hdl:        IDL2-RIPE
+remarks:        trouble:      +-------------------------------------------
+remarks:        trouble:      | Operational issues:  noc@idilis.net       |
+remarks:        trouble:      | Network Abuse:       abuse@idilis.net     |
+remarks:        trouble:      | Spam Abuse:          spam@idilis.net      |
+remarks:        trouble:      | Support:             support@idilis.net   |
+remarks:        trouble:      | 24x7 HelpDesk:       +4021 204 36 56     |
+remarks:        trouble:      |                      +4021 204 36 57     |
+remarks:        trouble:      +-------------------------------------------
+mnt-by:         IDILIS-MNT
+created:        2002-11-21T10:05:03Z
+last-modified:  2010-11-04T22:09:02Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@idilis.net
+
+person:         Daniel Lazar
+address:        Bvd. Mircea Eliade, nr. 18
+address:        Eliade Tower, et. 7
+address:        Sector 1
+address:        Bucuresti, Romania
+phone:          +4031 860 08 00
+fax-no:         +4031 860 08 01
+nic-hdl:        DL3945-RIPE
+mnt-by:         IDILIS-MNT
+created:        2010-11-04T21:25:14Z
+last-modified:  2010-11-04T22:10:08Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

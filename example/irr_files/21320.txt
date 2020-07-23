@@ -1,0 +1,387 @@
+aut-num:        AS21320
+as-name:        GEANT_IAS_VRF
+org:            ORG-DLCU1-RIPE
+remarks:
+remarks:        GEANT Upstream and Peering Service
+remarks:        The GEANT Network Connects the European National Regional Education Networks (NRENs) together
+remarks:
+remarks:        We are on peeringdb.com @
+remarks:        https://www.peeringdb.com/net/3386
+remarks:
+remarks:        === BEGIN === INFORMATION ==========================================================
+remarks:
+remarks:        *** BEGIN *** BGP Communities ***
+remarks:
+remarks:        INFORMATIONAL - Routes we learn are tagged as follows:
+remarks:        21320:XXXyy, where XXX denotes our relationship to the BGP speaker
+remarks:        21320:xxxYY, where YY denotes the location at which we learned the route
+remarks:
+remarks:        Relationship :-
+remarks:        21320:645yy Upstream/Tier 1 transit
+remarks:        21320:646yy Public peer via Internet Exchange fabric
+remarks:        21320:647yy Private peer via dedicated interconnect
+remarks:        21320:648yy Research & Education peers
+remarks:        21320:649yy NREN peers, i.e. GEANT consortium members
+remarks:
+remarks:        Location :- ( Geographic and Internet Exchange where applicable )
+remarks:
+remarks:        Geographic
+remarks:        21320:xxx12 Omnipresent, i.e. injected, generated, static routes
+remarks:        21320:xxx13 Amsterdam NL (AMS)
+remarks:        21320:xxx14 Athens GR (ATH)
+remarks:        21320:xxx15 Bratislava SK (BRA)
+remarks:        21320:xxx16 Brussels BE (BRU)
+remarks:        21320:xxx17 Bucharest RO (BUC)
+remarks:        21320:xxx18 Budapest HU (BUD)
+remarks:        21320:xxx20 Dublin IE (DUB)
+remarks:        21320:xxx21 Finkenstein AT (FIN)
+remarks:        21320:xxx22 Frankfurt DE (FRA)
+remarks:        21320:xxx23 Geneva CH (GEN)
+remarks:        21320:xxx24 Hamburg DE (HAM)
+remarks:        21320:xxx25 Kaunas LT (KAU)
+remarks:        21320:xxx26 Lisbon PT (LIS)
+remarks:        21320:xxx27 Ljubljana SI (LJU)
+remarks:        21320:xxx28 London UK (LON)
+remarks:        21320:xxx29 Luxembourg LU (LUX)
+remarks:        21320:xxx30 Madrid ES (MAD)
+remarks:        21320:xxx31 Marseilles FR (MAR)
+remarks:        21320:xxx32 Milan Lancetti IT (MIL)
+remarks:        21320:xxx33 Milan Caldera IT (MIL2)
+remarks:        21320:xxx35 Paris FR (PAR)
+remarks:        21320:xxx36 Poznan PL (POZ)
+remarks:        21320:xxx37 Prague CZ (PRA)
+remarks:        21320:xxx38 Riga LV (RIG)
+remarks:        21320:xxx39 Sofia BG (SOF)
+remarks:        21320:xxx40 Tallinn EE (TAL)
+remarks:        21320:xxx41 Vienna AT (VIE)
+remarks:        21320:xxx42 Zagreb AT (ZAG)
+remarks:        21320:xxx43 London 2 UK (LON2)
+remarks:
+remarks:        Internet Exchanges
+remarks:        21320:xxx90 Marseilles FR DE-CIX Marseilles
+remarks:        21320:xxx91 Prague CZ NIX.CZ
+remarks:        21320:xxx92 <virtual> -- NORDUnet peering aggregation
+remarks:        21320:xxx93 Dublin IE INEX LAN1
+remarks:        21320:xxx94 Geneva CH CIXP
+remarks:        21320:xxx95 Milan IT MIT-IT
+remarks:        21320:xxx96 London UK LINX Juniper LAN
+remarks:        21320:xxx97 Vienna AT VIX
+remarks:        21320:xxx98 Frankfurt DE DE-CIX Frankfurt
+remarks:        21320:xxx99 Amsterdam NL AMS-IX
+remarks:
+remarks:        *** BEGIN *** LEGACY BGP Communities - Informational ***
+remarks:        *** The following communities have been deprecated and will soon be retired ***
+remarks:
+remarks:        GEANT Tags routes as follows:
+remarks:        20965:0003    GEANT IAS Peering Service peers, public (IX) only.
+remarks:        20965:0004    GEANT IAS Peering Service peers, public (IX) and private.
+remarks:        20965:15169 - All routes received from Google
+remarks:        20965:7777 - All routes received from the commodity providers
+remarks:
+remarks:        *** END *** LEGACY BGP Communities - Informational ***
+remarks:
+remarks:        TRAFFIC ENGINEERING - NRENs may engineer (re-)announcements as follows:
+remarks:
+remarks:        Announce :-
+remarks:
+remarks:        64700:<ASN> - Announce toward <ASN> everywhere
+remarks:        64700:65532 - Announce toward all public peers
+remarks:        64700:65533 - Announce toward all private peers
+remarks:        64700:65534 - Announce toward all upstreams
+remarks:
+remarks:        Prepend :-
+remarks:
+remarks:        You must use two communities at a minimum.
+remarks:        One to specify who to prepend to, and how many times:
+remarks:
+remarks:        6480X:<ASN> - Where X can be 1, 2, 3 or 6 times prepending
+remarks:        origin:<ASN>L:6480X - As above
+remarks:
+remarks:        One to specify at which location to prepend, again specifying to whom:times:
+remarks:
+remarks:        648XX:<ASN> - Where XX is the IX or POP code (see Informational communities)
+remarks:        origin:<ASN>L:648X - As above
+remarks:
+remarks:        The following communities take effect globally; no location required.
+remarks:        If you need to prepend X times toward a subset of the below, you must do so per ASN.
+remarks:
+remarks:        6480X:65532 - Prepend X times toward all public peers
+remarks:        6480X:65533 - Prepend X times toward all private peers
+remarks:        6480X:65534 - Prepend X times toward all upstreams
+remarks:
+remarks:        Block :-
+remarks:
+remarks:        64512:<ASN> - Don't announce to <ASN>
+remarks:        origin:<ASN>L:64512 - Don't announce to <ASN> (required for 4-byte ASNs)
+remarks:
+remarks:        64599:65532 - Don't announce to peers at AMS-IX (Amsterdam)
+remarks:        64598:65532 - Don't announce to peers at DE-CIX (Frankfurt)
+remarks:        64597:65532 - Don't announce to peers at VIX (Vienna)
+remarks:        64596:65532 - Don't announce to peers at LINX (London)
+remarks:        64595:65532 - Don't announce to peers at MIX (Milan)
+remarks:        64594:65532 - Don't announce to peers at CIXP (Geneva)
+remarks:        64593:65532 - Don't announce to peers at INEX (Dublin via London)
+remarks:        64592:65532 - Don't announce to peers at NORDUnet peering aggregation (AMS, LON)
+remarks:        64591:65532 - Don't announce to peers at NIX.CZ (Prague)
+remarks:
+remarks:        64512:65532 - Don't announce to any public peers
+remarks:        64512:65533 - Don't announce to any private peers
+remarks:        64512:65534 - Don't announce to any upstreams
+remarks:
+remarks:        *** BEGIN *** LEGACY BGP Communities - Traffic Engineering ***
+remarks:        *** The following communities have been deprecated and will soon be retired ***
+remarks:
+remarks:        20965:7000 - Don't announce the route to Commodity Providers
+remarks:        20965:7010 - Prepend GEANT AS one time towards Commodity Providers
+remarks:        20965:7020 - Prepend GEANT AS two times towards Commodity Providers
+remarks:        20965:7030 - Prepend GEANT AS three times towards Commodity Providers
+remarks:        20965:7060 - Prepend GEANT AS six times towards Commodity Providers
+remarks:
+remarks:        20965:64550 - Don't announce to peers at AMS-IX (Amsterdam)
+remarks:
+remarks:        20965:0008 - RTBH service, /32 and /128 prefixes only
+remarks:
+remarks:        *** END *** LEGACY BGP Communities - Traffic Engineering ***
+remarks:
+remarks:        *** END *** BGP Communities
+remarks:
+remarks:        === END === INFORMATION ==========================================================
+remarks:
+remarks:        === BEGIN === POLICY ===============================================================
+remarks:
+remarks:        *** BEGIN *** ROUTING POLICY - NREN
+remarks:
+remarks:        We set local-preference 150 primary/load-balancing or 125 backup on import
+remarks:
+import:         from AS137 accept AS-GARRTOGEANT
+import:         from AS378 accept AS-MACHBA
+import:         from AS559 accept AS-SWITCH and AS-CERNEXT
+import:         from AS680 accept AS-DFNTOWINISP
+import:         from AS766 accept AS-REDIRIS {192.243.16.0/22, 192.171.2.0/24}
+import:         from AS786 accept AS-JANETEURO
+import:         from AS1103 accept AS-SURFNET
+import:         from AS1213 accept AS-HEANET
+import:         from AS1853 accept AS-ACONET and AS-ACOSERV and AS-ACONET-STH
+import:         from AS1930 accept AS-RCCN
+import:         from AS1955 accept AS-HBONE
+import:         from AS2107 accept AS-ARNES
+import:         from AS2108 accept AS2108
+remarks:        AS7500 (DNS root name-server) is behind RENATER
+import:         from AS2200 accept AS-RENATER AS7500
+import:         from AS2602 accept AS-RESTENA
+import:         from AS2603 accept AS-NORDUNET
+import:         from AS2607 accept AS-SANET2
+import:         from AS2611 accept AS-BELNET
+import:         from AS2614 accept AS-ROEDUNET AS9199
+import:         from AS2847 accept AS-LITNET
+import:         from AS2852 accept AS2852 {130.129.0.0/16}
+import:         from AS3208 accept AS3208
+import:         from AS3221 accept AS3221
+import:         from AS3268 accept AS3268 AS198336
+import:         from AS5379 accept AS5379
+import:         from AS5408 accept AS5408:AS-TO-GEANT
+import:         from AS5538 accept AS-SigmaNet-Geant
+import:         from AS6802 accept AS-ISTF
+import:         from AS6879 accept AS6879
+import:         from AS8501 accept AS-PLNET
+import:         from AS8517 accept AS-ULAKNET
+import:         from AS12046 accept AS-RICERKANET
+import:         from AS12687 accept AS-URAN-GEANT
+import:         from AS13092 accept AS13092
+import:         from AS35385 accept AS35385
+import:         from AS35656 accept AS35656
+import:         from AS50139 accept AS-E-ARENA
+import:         from AS21274 accept AS-BASNET
+import:         from AS40981 accept AS40981
+import:         from AS57965 accept AS57965 and AS-PALNREN
+remarks:
+remarks:        GWS NRENs - those NRENs who receive a full routing table from GEANT
+remarks:
+export:         to AS378 announce any
+export:         to AS1213 announce any
+export:         to AS1930 announce any
+export:         to AS1955 announce any
+export:         to AS2107 announce any
+export:         to AS2108 announce any
+export:         to AS2602 announce any
+export:         to AS2614 announce any
+export:         to AS2847 announce any
+export:         to AS2852 announce any
+export:         to AS3208 announce any
+export:         to AS3221 announce any
+export:         to AS3268 announce any
+export:         to AS5379 announce any
+export:         to AS5408 announce any
+export:         to AS5538 announce any
+export:         to AS6802 announce any
+export:         to AS8501 announce any
+export:         to AS8517 announce any
+export:         to AS12046 announce any
+export:         to AS13092 announce any
+export:         to AS20545 announce any
+export:         to AS29630 announce any
+export:         to AS35385 announce any
+export:         to AS35656 announce any
+export:         to AS40981 announce any
+export:         to AS47623 announce any
+export:         to AS50139 announce any
+export:         to AS57965 announce any
+remarks:
+remarks:        *** END *** ROUTING POLICY - NREN
+remarks:
+remarks:        *** BEGIN *** ROUTING POLICY - Upstream
+remarks:
+remarks:        We set local-preference 80 on import
+remarks:
+remarks:        COGENT
+import:         from AS174 accept any
+mp-import:      afi ipv6.unicast from AS174 accept any
+export:         to AS174 announce AS-GEANT-GWS
+mp-export:      afi ipv6.unicast to AS174 announce AS-GEANT-GWS
+remarks:
+remarks:        TELIA
+import:         from AS1299 accept any
+mp-import:      afi ipv6.unicast from AS1299 accept any
+export:         to AS1299 announce AS-GEANT-GWS
+mp-export:      afi ipv6.unicast to AS1299 announce AS-GEANT-GWS
+remarks:
+remarks:        *** END *** ROUTING POLICY - Upstream
+remarks:
+remarks:        === END === POLICY ===============================================================
+remarks:
+remarks:        GEANT NRENs - National Regional Educational Networks
+remarks:
+remarks:        NREN prefixes are given a LOCAL-PREF of 150
+import:         from AS378 accept AS-MACHBA
+import:         from AS559 accept AS-SWITCH and AS-CERNEXT
+import:         from AS766 accept AS-REDIRIS {192.243.16.0/22, 192.171.2.0/24}
+import:         from AS786 accept AS-JANETEURO
+import:         from AS1103 accept AS-SURFNET
+import:         from AS1213 accept AS-HEANET
+import:         from AS1853 accept AS-ACONET and AS-ACOSERV and AS-ACONET-STH
+import:         from AS1930 accept AS-RCCN
+import:         from AS1955 accept AS-HBONE
+import:         from AS2107 accept AS-ARNES
+import:         from AS2108 accept AS-CARNet
+import:         from AS2200 accept AS-RENATER AS7500
+import:         from AS2602 accept AS-RESTENA
+import:         from AS2603 accept AS-NORDUNET
+import:         from AS2607 accept AS-SANET2
+import:         from AS2611 accept AS-BELNET
+import:         from AS2614 accept AS-ROEDUNET AS9199
+import:         from AS2847 accept AS-LITNET
+import:         from AS2852 accept AS2852 {130.129.0.0/16}
+import:         from AS3208 accept AS3208
+import:         from AS3221 accept AS3221
+import:         from AS3268 accept AS3268 AS198336
+import:         from AS5379 accept AS5379
+import:         from AS5408 accept AS5408:AS-TO-GEANT
+import:         from AS5538 accept AS-SigmaNet-Geant
+import:         from AS6802 accept AS-ISTF
+import:         from AS6879 accept AS6879
+import:         from AS8501 accept AS-PLNET
+import:         from AS8517 accept AS-ULAKNET
+import:         from AS12046 accept AS-RICERKANET
+import:         from AS12687 accept AS-URAN-GEANT
+import:         from AS13092 accept AS13092
+import:         from AS21274 accept AS-BASNET
+import:         from AS35385 accept AS35385
+import:         from AS35656 accept AS35656
+import:         from AS40981 accept AS40981
+remarks:
+remarks:        GEANT PEERS - non-NRENs
+remarks:
+remarks:        Public peers are accepted with local preference 90
+remarks:        Private peers are accepted with local preference 95
+import:         from AS2119 accept AS-TELENOR
+import:         from AS5089 accept AS-NTLI
+import:         from AS5400 accept AS-BT-EU
+import:         from AS6939 accept AS-HURRICANE and AS-HURRICANEv6
+import:         from AS8708 accept AS-RDSNET and AS-RDSNET6
+import:         from AS12076 accept AS12076
+import:         from AS15169 accept AS15169
+import:         from AS16265 accept AS16265
+import:         from AS16276 accept AS16276
+import:         from AS16509 accept AS-AMAZON-NA
+import:         from AS22822 accept AS22822
+import:         from AS32934 accept AS-FACEBOOK AND NOT {0.0.0.0/0}
+import:         from AS46786 accept AS46786
+import:         from AS20940 accept AS-AKAMAI
+remarks:
+remarks:        *************
+remarks:        MACROS AS-GEANTNRN routes
+remarks:
+remarks:        GEANT NRENs - National Regional Educational Networks
+remarks:        These receive peering routes but not other NREN routes from AS21320
+remarks:
+export:         to AS378 announce any and not AS-GEANTNRN
+export:         to AS559 announce any and not AS-GEANTNRN
+export:         to AS766 announce any and not AS-GEANTNRN
+export:         to AS786 announce any and not AS-GEANTNRN
+export:         to AS1103 announce any and not AS-GEANTNRN
+export:         to AS1213 announce any and not AS-GEANTNRN
+export:         to AS1853 announce any and not AS-GEANTNRN
+export:         to AS1930 announce any and not AS-GEANTNRN
+export:         to AS1955 announce any and not AS-GEANTNRN
+export:         to AS2107 announce any and not AS-GEANTNRN
+export:         to AS2108 announce any and not AS-GEANTNRN
+export:         to AS2200 announce any and not AS-GEANTNRN
+export:         to AS2602 announce any and not AS-GEANTNRN
+export:         to AS2603 announce any and not AS-GEANTNRN
+export:         to AS2607 announce any and not AS-GEANTNRN
+export:         to AS2611 announce any and not AS-GEANTNRN
+export:         to AS2614 announce any and not AS-GEANTNRN
+export:         to AS2847 announce any and not AS-GEANTNRN
+export:         to AS2852 announce any and not AS-GEANTNRN
+export:         to AS3208 announce any and not AS-GEANTNRN
+export:         to AS3221 announce any and not AS-GEANTNRN
+export:         to AS3268 announce any and not AS-GEANTNRN
+export:         to AS5379 announce any and not AS-GEANTNRN
+export:         to AS5408 announce any and not AS-GEANTNRN
+export:         to AS5538 announce any and not AS-GEANTNRN
+export:         to AS6802 announce any and not AS-GEANTNRN
+export:         to AS6879 announce any and not AS-GEANTNRN
+export:         to AS8501 announce any and not AS-GEANTNRN
+export:         to AS8517 announce any and not AS-GEANTNRN
+export:         to AS12046 announce any and not AS-GEANTNRN
+export:         to AS12687 announce any and not AS-GEANTNRN
+export:         to AS13092 announce any and not AS-GEANTNRN
+export:         to AS21274 announce any and not AS-GEANTNRN
+export:         to AS35385 announce any and not AS-GEANTNRN
+export:         to AS35656 announce any and not AS-GEANTNRN
+export:         to AS40981 announce any and not AS-GEANTNRN
+remarks:
+remarks:        The following ASs are our non-NREN peers who receive NREN routes:
+remarks:
+export:         to AS2119 announce AS-GEANTNRN
+export:         to AS5089 announce AS-GEANTNRN
+export:         to AS5400 announce AS-GEANTNRN
+export:         to AS6939 announce AS-GEANTNRN
+export:         to AS8068 announce AS-GEANTNRN
+export:         to AS8708 announce AS-GEANTNRN
+export:         to AS12076 announce AS-GEANTNRN
+export:         to AS15169 announce AS-GEANTNRN
+export:         to AS16265 announce AS-GEANTNRN
+export:         to AS16276 announce AS-GEANTNRN
+export:         to AS16509 announce AS-GEANTNRN
+export:         to AS22822 announce AS-GEANTNRN
+export:         to AS32934 announce AS-GEANTNRN
+export:         to AS46786 announce AS-GEANTNRN
+export:         to AS20940 announce AS-GEANTNRN
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DANTE-MNT
+mnt-routes:     DANTE-MNT
+created:        2001-10-31T13:07:25Z
+last-modified:  2018-02-07T18:27:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

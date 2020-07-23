@@ -1,0 +1,601 @@
+aut-num:        AS47228
+as-name:        DE-CIX-MUC-AS
+descr:          DE-CIX Management GmbH
+descr:          DE-CIX Munich
+descr:          DE
+org:            ORG-DtGI1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+notify:         notify@de-cix.net
+mnt-by:         DECIX-MNT
+mnt-routes:     DECIX-MNT
+remarks:
+remarks:        You may use BGP (Extended) Communities to control
+remarks:        route advertisement via the Route Servers:
+remarks:
+remarks:        (47228:47228): Redistribute to all Route Server peers
+remarks:        (47228:$PEER-AS), (rt:47228:$PEER-AS): Redistribute to $PEER-AS
+remarks:        (0:$PEER-AS), (rt:0:$PEER-AS): Redistribute to all peers except $PEER-AS
+remarks:        (0:47228): Do not redistribute
+remarks:
+remarks:        If $PEER-AS uses a 2B ASN, you may use Standard or Extended Communities
+remarks:        If $PEER-AS uses a 4B ASN, you have to use Extended Communities
+remarks:
+remarks:        There are additional communities for controlling announcements:
+remarks:
+remarks:        65535:666  set community BLACKHOLE
+remarks:        47228:65281 set community NO-EXPORT
+remarks:        47228:65282 set community NO-ADVERTISE
+remarks:
+remarks:        For more information on Route Server control and Blackholing, please see:
+remarks:        https://portal.de-cix.net/home/documentation/routeserver-guides/
+remarks:        https://portal.de-cix.net/home/documentation/blackholing-guide/
+remarks:
+mp-import:      afi ipv6.unicast from AS42     2001:7f8:44::2a:0:1            at          2001:7f8:44::a8f4:0:1 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS42     2001:7f8:44::2a:0:1            at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS42     2001:7f8:44::2a:0:1            at          2001:7f8:44::a8f4:0:2 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS42     2001:7f8:44::2a:0:1            at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS42     80.81.202.37                   at                  80.81.202.252 accept   AS-PCH
+export:         to   AS42     80.81.202.37                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS42     80.81.202.37                   at                  80.81.202.253 accept   AS-PCH
+export:         to   AS42     80.81.202.37                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS3856   2001:7f8:44::f10:0:1           at          2001:7f8:44::a8f4:0:1 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856   2001:7f8:44::f10:0:1           at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS3856   2001:7f8:44::f10:0:1           at          2001:7f8:44::a8f4:0:2 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856   2001:7f8:44::f10:0:1           at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS3856   80.81.202.38                   at                  80.81.202.252 accept   AS-PCH
+export:         to   AS3856   80.81.202.38                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS3856   80.81.202.38                   at                  80.81.202.253 accept   AS-PCH
+export:         to   AS3856   80.81.202.38                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS112    2001:7f8:44::70:0:1            at          2001:7f8:44::a8f4:0:1 accept   AS112
+mp-export:      afi ipv6.unicast to   AS112    2001:7f8:44::70:0:1            at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS112    2001:7f8:44::70:0:1            at          2001:7f8:44::a8f4:0:2 accept   AS112
+mp-export:      afi ipv6.unicast to   AS112    2001:7f8:44::70:0:1            at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS112    80.81.202.77                   at                  80.81.202.252 accept   AS112
+export:         to   AS112    80.81.202.77                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS112    80.81.202.77                   at                  80.81.202.253 accept   AS112
+export:         to   AS112    80.81.202.77                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS3209   2001:7f8:44::c89:0:1           at          2001:7f8:44::a8f4:0:1 accept   AS-ARCORGLOBAL
+mp-export:      afi ipv6.unicast to   AS3209   2001:7f8:44::c89:0:1           at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS3209   2001:7f8:44::c89:0:1           at          2001:7f8:44::a8f4:0:2 accept   AS-ARCORGLOBAL
+mp-export:      afi ipv6.unicast to   AS3209   2001:7f8:44::c89:0:1           at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS3209   80.81.202.17                   at                  80.81.202.252 accept   AS-ARCORGLOBAL
+export:         to   AS3209   80.81.202.17                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS3209   80.81.202.17                   at                  80.81.202.253 accept   AS-ARCORGLOBAL
+export:         to   AS3209   80.81.202.17                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS5391   2001:7f8:44::150f:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-HRHINET
+mp-export:      afi ipv6.unicast to   AS5391   2001:7f8:44::150f:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS5391   2001:7f8:44::150f:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-HRHINET
+mp-export:      afi ipv6.unicast to   AS5391   2001:7f8:44::150f:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS5391   80.81.202.50                   at                  80.81.202.252 accept   AS-HRHINET
+export:         to   AS5391   80.81.202.50                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS5391   80.81.202.50                   at                  80.81.202.253 accept   AS-HRHINET
+export:         to   AS5391   80.81.202.50                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS5539   2001:7f8:44::15a3:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-SPACENET-V6
+mp-export:      afi ipv6.unicast to   AS5539   2001:7f8:44::15a3:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS5539   2001:7f8:44::15a3:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-SPACENET-V6
+mp-export:      afi ipv6.unicast to   AS5539   2001:7f8:44::15a3:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS5539   80.81.202.10                   at                  80.81.202.252 accept   AS-SPACENET
+export:         to   AS5539   80.81.202.10                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS5539   80.81.202.10                   at                  80.81.202.253 accept   AS-SPACENET
+export:         to   AS5539   80.81.202.10                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS5605   2001:7f8:44::15e5:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-NETUSE
+mp-export:      afi ipv6.unicast to   AS5605   2001:7f8:44::15e5:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS5605   2001:7f8:44::15e5:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-NETUSE
+mp-export:      afi ipv6.unicast to   AS5605   2001:7f8:44::15e5:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS5605   80.81.202.3                    at                  80.81.202.252 accept   AS-NETUSE
+export:         to   AS5605   80.81.202.3                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS5605   80.81.202.3                    at                  80.81.202.253 accept   AS-NETUSE
+export:         to   AS5605   80.81.202.3                    at                  80.81.202.253 announce AS-DECIX-MUC
+import:         from AS51531  80.81.202.110                  at                  80.81.202.252 accept   AS-DECIX-SERVICES
+export:         to   AS51531  80.81.202.110                  at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS51531  80.81.202.110                  at                  80.81.202.253 accept   AS-DECIX-SERVICES
+export:         to   AS51531  80.81.202.110                  at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS51531  2001:7f8:44::c94b:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-DECIX-SERVICES-V6
+mp-export:      afi ipv6.unicast to   AS51531  2001:7f8:44::c94b:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS51531  2001:7f8:44::c94b:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-DECIX-SERVICES-V6
+mp-export:      afi ipv6.unicast to   AS51531  2001:7f8:44::c94b:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS51531  80.81.202.116                  at                  80.81.202.252 accept   AS-DECIX-SERVICES
+export:         to   AS51531  80.81.202.116                  at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS51531  80.81.202.116                  at                  80.81.202.253 accept   AS-DECIX-SERVICES
+export:         to   AS51531  80.81.202.116                  at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS51531  2001:7f8:44::c94b:0:2          at          2001:7f8:44::a8f4:0:1 accept   AS-DECIX-SERVICES-V6
+mp-export:      afi ipv6.unicast to   AS51531  2001:7f8:44::c94b:0:2          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS51531  2001:7f8:44::c94b:0:2          at          2001:7f8:44::a8f4:0:2 accept   AS-DECIX-SERVICES-V6
+mp-export:      afi ipv6.unicast to   AS51531  2001:7f8:44::c94b:0:2          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS6697   2001:7f8:44::1a29:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-BELPAK
+mp-export:      afi ipv6.unicast to   AS6697   2001:7f8:44::1a29:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS6697   2001:7f8:44::1a29:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-BELPAK
+mp-export:      afi ipv6.unicast to   AS6697   2001:7f8:44::1a29:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS6697   80.81.202.48                   at                  80.81.202.252 accept   AS-BELPAK
+export:         to   AS6697   80.81.202.48                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS6697   80.81.202.48                   at                  80.81.202.253 accept   AS-BELPAK
+export:         to   AS6697   80.81.202.48                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:44::1b1b:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:44::1b1b:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:44::1b1b:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:44::1b1b:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS6939   80.81.202.30                   at                  80.81.202.252 accept   AS-HURRICANE
+export:         to   AS6939   80.81.202.30                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS6939   80.81.202.30                   at                  80.81.202.253 accept   AS-HURRICANE
+export:         to   AS6939   80.81.202.30                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS7713   2001:7f8:44::1e21:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS7713:AS-TELKOM-TRANSIT
+mp-export:      afi ipv6.unicast to   AS7713   2001:7f8:44::1e21:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS7713   2001:7f8:44::1e21:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS7713:AS-TELKOM-TRANSIT
+mp-export:      afi ipv6.unicast to   AS7713   2001:7f8:44::1e21:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS7713   80.81.202.26                   at                  80.81.202.252 accept   AS7713:AS-TELKOM-TRANSIT
+export:         to   AS7713   80.81.202.26                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS7713   80.81.202.26                   at                  80.81.202.253 accept   AS7713:AS-TELKOM-TRANSIT
+export:         to   AS7713   80.81.202.26                   at                  80.81.202.253 announce AS-DECIX-MUC
+import:         from AS8222   80.81.202.8                    at                  80.81.202.252 accept   AS-NETPLACE
+export:         to   AS8222   80.81.202.8                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS8222   80.81.202.8                    at                  80.81.202.253 accept   AS-NETPLACE
+export:         to   AS8222   80.81.202.8                    at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS8403   2001:7f8:44::20d3:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-SPOTIFY
+mp-export:      afi ipv6.unicast to   AS8403   2001:7f8:44::20d3:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS8403   2001:7f8:44::20d3:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-SPOTIFY
+mp-export:      afi ipv6.unicast to   AS8403   2001:7f8:44::20d3:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS8403   80.81.202.36                   at                  80.81.202.252 accept   AS-SPOTIFY
+export:         to   AS8403   80.81.202.36                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS8403   80.81.202.36                   at                  80.81.202.253 accept   AS-SPOTIFY
+export:         to   AS8403   80.81.202.36                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS8551   2001:7f8:44::2167:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551   2001:7f8:44::2167:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS8551   2001:7f8:44::2167:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551   2001:7f8:44::2167:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS8551   80.81.202.62                   at                  80.81.202.252 accept   AS-BEZEQINT
+export:         to   AS8551   80.81.202.62                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS8551   80.81.202.62                   at                  80.81.202.253 accept   AS-BEZEQINT
+export:         to   AS8551   80.81.202.62                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS8551   2001:7f8:44::2167:0:2          at          2001:7f8:44::a8f4:0:1 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551   2001:7f8:44::2167:0:2          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS8551   2001:7f8:44::2167:0:2          at          2001:7f8:44::a8f4:0:2 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551   2001:7f8:44::2167:0:2          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS8551   80.81.202.67                   at                  80.81.202.252 accept   AS-BEZEQINT
+export:         to   AS8551   80.81.202.67                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS8551   80.81.202.67                   at                  80.81.202.253 accept   AS-BEZEQINT
+export:         to   AS8551   80.81.202.67                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS8767   2001:7f8:44::223f:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-MNETDE
+mp-export:      afi ipv6.unicast to   AS8767   2001:7f8:44::223f:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS8767   2001:7f8:44::223f:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-MNETDE
+mp-export:      afi ipv6.unicast to   AS8767   2001:7f8:44::223f:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS8767   80.81.202.2                    at                  80.81.202.252 accept   AS-MNETDE
+export:         to   AS8767   80.81.202.2                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS8767   80.81.202.2                    at                  80.81.202.253 accept   AS-MNETDE
+export:         to   AS8767   80.81.202.2                    at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS8804   2001:7f8:44::2264:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-IX-REGIONET
+mp-export:      afi ipv6.unicast to   AS8804   2001:7f8:44::2264:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS8804   2001:7f8:44::2264:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-IX-REGIONET
+mp-export:      afi ipv6.unicast to   AS8804   2001:7f8:44::2264:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS8804   80.81.202.29                   at                  80.81.202.252 accept   AS-IX-REGIONET
+export:         to   AS8804   80.81.202.29                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS8804   80.81.202.29                   at                  80.81.202.253 accept   AS-IX-REGIONET
+export:         to   AS8804   80.81.202.29                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS9063   2001:7f8:44::2367:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-SAARGATE-V6
+mp-export:      afi ipv6.unicast to   AS9063   2001:7f8:44::2367:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS9063   2001:7f8:44::2367:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-SAARGATE-V6
+mp-export:      afi ipv6.unicast to   AS9063   2001:7f8:44::2367:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS9063   80.81.202.52                   at                  80.81.202.252 accept   AS-SAARGATE
+export:         to   AS9063   80.81.202.52                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS9063   80.81.202.52                   at                  80.81.202.253 accept   AS-SAARGATE
+export:         to   AS9063   80.81.202.52                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS12337  2001:7f8:44::3031:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-NORIS
+mp-export:      afi ipv6.unicast to   AS12337  2001:7f8:44::3031:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS12337  2001:7f8:44::3031:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-NORIS
+mp-export:      afi ipv6.unicast to   AS12337  2001:7f8:44::3031:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS12337  80.81.202.7                    at                  80.81.202.252 accept   AS-NORIS
+export:         to   AS12337  80.81.202.7                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS12337  80.81.202.7                    at                  80.81.202.253 accept   AS-NORIS
+export:         to   AS12337  80.81.202.7                    at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS12883  2001:7f8:44::3253:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-UCOMLINE
+mp-export:      afi ipv6.unicast to   AS12883  2001:7f8:44::3253:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS12883  2001:7f8:44::3253:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-UCOMLINE
+mp-export:      afi ipv6.unicast to   AS12883  2001:7f8:44::3253:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS12883  80.81.202.23                   at                  80.81.202.252 accept   AS-UCOMLINE
+export:         to   AS12883  80.81.202.23                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS12883  80.81.202.23                   at                  80.81.202.253 accept   AS-UCOMLINE
+export:         to   AS12883  80.81.202.23                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS12886  2001:7f8:44::3256:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-LEWTELNET
+mp-export:      afi ipv6.unicast to   AS12886  2001:7f8:44::3256:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS12886  2001:7f8:44::3256:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-LEWTELNET
+mp-export:      afi ipv6.unicast to   AS12886  2001:7f8:44::3256:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS12886  80.81.202.64                   at                  80.81.202.252 accept   AS-LEWTELNET
+export:         to   AS12886  80.81.202.64                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS12886  80.81.202.64                   at                  80.81.202.253 accept   AS-LEWTELNET
+export:         to   AS12886  80.81.202.64                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS12931  2001:7f8:44::3283:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-IDKOM
+mp-export:      afi ipv6.unicast to   AS12931  2001:7f8:44::3283:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS12931  2001:7f8:44::3283:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-IDKOM
+mp-export:      afi ipv6.unicast to   AS12931  2001:7f8:44::3283:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS12931  80.81.202.61                   at                  80.81.202.252 accept   AS-IDKOM
+export:         to   AS12931  80.81.202.61                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS12931  80.81.202.61                   at                  80.81.202.253 accept   AS-IDKOM
+export:         to   AS12931  80.81.202.61                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS13132  2001:7f8:44::334c:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-CYBERWAYS
+mp-export:      afi ipv6.unicast to   AS13132  2001:7f8:44::334c:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS13132  2001:7f8:44::334c:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-CYBERWAYS
+mp-export:      afi ipv6.unicast to   AS13132  2001:7f8:44::334c:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS13132  80.81.202.54                   at                  80.81.202.252 accept   AS-CYBERWAYS
+export:         to   AS13132  80.81.202.54                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS13132  80.81.202.54                   at                  80.81.202.253 accept   AS-CYBERWAYS
+export:         to   AS13132  80.81.202.54                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS13194  2001:7f8:44::338a:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-BITE
+mp-export:      afi ipv6.unicast to   AS13194  2001:7f8:44::338a:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS13194  2001:7f8:44::338a:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-BITE
+mp-export:      afi ipv6.unicast to   AS13194  2001:7f8:44::338a:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS13194  80.81.202.39                   at                  80.81.202.252 accept   AS-BITE
+export:         to   AS13194  80.81.202.39                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS13194  80.81.202.39                   at                  80.81.202.253 accept   AS-BITE
+export:         to   AS13194  80.81.202.39                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS13237  2001:7f8:44::33b5:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-LAMBDANET
+mp-export:      afi ipv6.unicast to   AS13237  2001:7f8:44::33b5:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS13237  2001:7f8:44::33b5:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-LAMBDANET
+mp-export:      afi ipv6.unicast to   AS13237  2001:7f8:44::33b5:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS13237  80.81.202.25                   at                  80.81.202.252 accept   AS-LAMBDANET
+export:         to   AS13237  80.81.202.25                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS13237  80.81.202.25                   at                  80.81.202.253 accept   AS-LAMBDANET
+export:         to   AS13237  80.81.202.25                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS13335  2001:7f8:44::3417:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to   AS13335  2001:7f8:44::3417:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS13335  2001:7f8:44::3417:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to   AS13335  2001:7f8:44::3417:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS13335  80.81.202.9                    at                  80.81.202.252 accept   AS-CLOUDFLARE
+export:         to   AS13335  80.81.202.9                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS13335  80.81.202.9                    at                  80.81.202.253 accept   AS-CLOUDFLARE
+export:         to   AS13335  80.81.202.9                    at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS14340  2001:7f8:44::3804:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-SALESFORCE
+mp-export:      afi ipv6.unicast to   AS14340  2001:7f8:44::3804:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS14340  2001:7f8:44::3804:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-SALESFORCE
+mp-export:      afi ipv6.unicast to   AS14340  2001:7f8:44::3804:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS14340  80.81.202.40                   at                  80.81.202.252 accept   AS-SALESFORCE
+export:         to   AS14340  80.81.202.40                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS14340  80.81.202.40                   at                  80.81.202.253 accept   AS-SALESFORCE
+export:         to   AS14340  80.81.202.40                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS15456  2001:7f8:44::3c60:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-INTERNETX
+mp-export:      afi ipv6.unicast to   AS15456  2001:7f8:44::3c60:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS15456  2001:7f8:44::3c60:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-INTERNETX
+mp-export:      afi ipv6.unicast to   AS15456  2001:7f8:44::3c60:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS15456  80.81.202.31                   at                  80.81.202.252 accept   AS-INTERNETX
+export:         to   AS15456  80.81.202.31                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS15456  80.81.202.31                   at                  80.81.202.253 accept   AS-INTERNETX
+export:         to   AS15456  80.81.202.31                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS15695  2001:7f8:44::3d4f:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-EXPEREO
+mp-export:      afi ipv6.unicast to   AS15695  2001:7f8:44::3d4f:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS15695  2001:7f8:44::3d4f:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-EXPEREO
+mp-export:      afi ipv6.unicast to   AS15695  2001:7f8:44::3d4f:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS15695  80.81.202.44                   at                  80.81.202.252 accept   AS-EXPEREO
+export:         to   AS15695  80.81.202.44                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS15695  80.81.202.44                   at                  80.81.202.253 accept   AS-EXPEREO
+export:         to   AS15695  80.81.202.44                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS16097  2001:7f8:44::3ee1:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-HLKOMM
+mp-export:      afi ipv6.unicast to   AS16097  2001:7f8:44::3ee1:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS16097  2001:7f8:44::3ee1:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-HLKOMM
+mp-export:      afi ipv6.unicast to   AS16097  2001:7f8:44::3ee1:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS16097  80.81.202.12                   at                  80.81.202.252 accept   AS-HLKOMM
+export:         to   AS16097  80.81.202.12                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS16097  80.81.202.12                   at                  80.81.202.253 accept   AS-HLKOMM
+export:         to   AS16097  80.81.202.12                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS20562  2001:7f8:44::5052:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-OPENPEERING
+mp-export:      afi ipv6.unicast to   AS20562  2001:7f8:44::5052:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS20562  2001:7f8:44::5052:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-OPENPEERING
+mp-export:      afi ipv6.unicast to   AS20562  2001:7f8:44::5052:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS20562  80.81.202.53                   at                  80.81.202.252 accept   AS-OPENPEERING
+export:         to   AS20562  80.81.202.53                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS20562  80.81.202.53                   at                  80.81.202.253 accept   AS-OPENPEERING
+export:         to   AS20562  80.81.202.53                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS15598  2001:7f8:44::3cee:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-IPX-6
+mp-export:      afi ipv6.unicast to   AS15598  2001:7f8:44::3cee:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS15598  2001:7f8:44::3cee:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-IPX-6
+mp-export:      afi ipv6.unicast to   AS15598  2001:7f8:44::3cee:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS15598  80.81.202.1                    at                  80.81.202.252 accept   AS-IPX
+export:         to   AS15598  80.81.202.1                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS15598  80.81.202.1                    at                  80.81.202.253 accept   AS-IPX
+export:         to   AS15598  80.81.202.1                    at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS20847  2001:7f8:44::516f:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-PREVIDER
+mp-export:      afi ipv6.unicast to   AS20847  2001:7f8:44::516f:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS20847  2001:7f8:44::516f:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-PREVIDER
+mp-export:      afi ipv6.unicast to   AS20847  2001:7f8:44::516f:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS20847  80.81.202.6                    at                  80.81.202.252 accept   AS-PREVIDER
+export:         to   AS20847  80.81.202.6                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS20847  80.81.202.6                    at                  80.81.202.253 accept   AS-PREVIDER
+export:         to   AS20847  80.81.202.6                    at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS21385  2001:7f8:44::5389:0:2          at          2001:7f8:44::a8f4:0:1 accept   AS-TNIB
+mp-export:      afi ipv6.unicast to   AS21385  2001:7f8:44::5389:0:2          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS21385  2001:7f8:44::5389:0:2          at          2001:7f8:44::a8f4:0:2 accept   AS-TNIB
+mp-export:      afi ipv6.unicast to   AS21385  2001:7f8:44::5389:0:2          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS21385  80.81.202.24                   at                  80.81.202.252 accept   AS-TNIB
+export:         to   AS21385  80.81.202.24                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS21385  80.81.202.24                   at                  80.81.202.253 accept   AS-TNIB
+export:         to   AS21385  80.81.202.24                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS24961  2001:7f8:44::6181:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-MYLOC
+mp-export:      afi ipv6.unicast to   AS24961  2001:7f8:44::6181:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS24961  2001:7f8:44::6181:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-MYLOC
+mp-export:      afi ipv6.unicast to   AS24961  2001:7f8:44::6181:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS24961  80.81.202.16                   at                  80.81.202.252 accept   AS-MYLOC
+export:         to   AS24961  80.81.202.16                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS24961  80.81.202.16                   at                  80.81.202.253 accept   AS-MYLOC
+export:         to   AS24961  80.81.202.16                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS24989  2001:7f8:44::619d:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-EQUINIX-EU
+mp-export:      afi ipv6.unicast to   AS24989  2001:7f8:44::619d:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS24989  2001:7f8:44::619d:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-EQUINIX-EU
+mp-export:      afi ipv6.unicast to   AS24989  2001:7f8:44::619d:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS24989  80.81.202.4                    at                  80.81.202.252 accept   AS-IXE-FFT
+export:         to   AS24989  80.81.202.4                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS24989  80.81.202.4                    at                  80.81.202.253 accept   AS-IXE-FFT
+export:         to   AS24989  80.81.202.4                    at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS25560  2001:7f8:44::63d8:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-RHTEC6
+mp-export:      afi ipv6.unicast to   AS25560  2001:7f8:44::63d8:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS25560  2001:7f8:44::63d8:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-RHTEC6
+mp-export:      afi ipv6.unicast to   AS25560  2001:7f8:44::63d8:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS25560  80.81.202.34                   at                  80.81.202.252 accept   AS-RHTEC
+export:         to   AS25560  80.81.202.34                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS25560  80.81.202.34                   at                  80.81.202.253 accept   AS-RHTEC
+export:         to   AS25560  80.81.202.34                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS21345  2001:7f8:44::5361:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-SYMC
+mp-export:      afi ipv6.unicast to   AS21345  2001:7f8:44::5361:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS21345  2001:7f8:44::5361:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-SYMC
+mp-export:      afi ipv6.unicast to   AS21345  2001:7f8:44::5361:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS21345  80.81.202.55                   at                  80.81.202.252 accept   AS-SYMC
+export:         to   AS21345  80.81.202.55                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS21345  80.81.202.55                   at                  80.81.202.253 accept   AS-SYMC
+export:         to   AS21345  80.81.202.55                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS28917  2001:7f8:44::70f5:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-FIORD-V6
+mp-export:      afi ipv6.unicast to   AS28917  2001:7f8:44::70f5:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS28917  2001:7f8:44::70f5:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-FIORD-V6
+mp-export:      afi ipv6.unicast to   AS28917  2001:7f8:44::70f5:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS28917  80.81.202.63                   at                  80.81.202.252 accept   AS-FIORD
+export:         to   AS28917  80.81.202.63                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS28917  80.81.202.63                   at                  80.81.202.253 accept   AS-FIORD
+export:         to   AS28917  80.81.202.63                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS33891  2001:7f8:44::8463:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-CORE-BACKBONE
+mp-export:      afi ipv6.unicast to   AS33891  2001:7f8:44::8463:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS33891  2001:7f8:44::8463:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-CORE-BACKBONE
+mp-export:      afi ipv6.unicast to   AS33891  2001:7f8:44::8463:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS33891  80.81.202.15                   at                  80.81.202.252 accept   AS-CORE-BACKBONE
+export:         to   AS33891  80.81.202.15                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS33891  80.81.202.15                   at                  80.81.202.253 accept   AS-CORE-BACKBONE
+export:         to   AS33891  80.81.202.15                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS34011  2001:7f8:44::84db:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-DOMAINFACTORY
+mp-export:      afi ipv6.unicast to   AS34011  2001:7f8:44::84db:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS34011  2001:7f8:44::84db:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-DOMAINFACTORY
+mp-export:      afi ipv6.unicast to   AS34011  2001:7f8:44::84db:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS34011  80.81.202.20                   at                  80.81.202.252 accept   AS-DOMAINFACTORY
+export:         to   AS34011  80.81.202.20                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS34011  80.81.202.20                   at                  80.81.202.253 accept   AS-DOMAINFACTORY
+export:         to   AS34011  80.81.202.20                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS34086  2001:7f8:44::8526:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS34086
+mp-export:      afi ipv6.unicast to   AS34086  2001:7f8:44::8526:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS34086  2001:7f8:44::8526:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS34086
+mp-export:      afi ipv6.unicast to   AS34086  2001:7f8:44::8526:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS34086  80.81.202.32                   at                  80.81.202.252 accept   AS34086
+export:         to   AS34086  80.81.202.32                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS34086  80.81.202.32                   at                  80.81.202.253 accept   AS34086
+export:         to   AS34086  80.81.202.32                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS35258  2001:7f8:44::89ba:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-AKQUINET
+mp-export:      afi ipv6.unicast to   AS35258  2001:7f8:44::89ba:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS35258  2001:7f8:44::89ba:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-AKQUINET
+mp-export:      afi ipv6.unicast to   AS35258  2001:7f8:44::89ba:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS35258  80.81.202.33                   at                  80.81.202.252 accept   AS-AKQUINET
+export:         to   AS35258  80.81.202.33                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS35258  80.81.202.33                   at                  80.81.202.253 accept   AS-AKQUINET
+export:         to   AS35258  80.81.202.33                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS35805  2001:7f8:44::8bdd:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-SET-UTG
+mp-export:      afi ipv6.unicast to   AS35805  2001:7f8:44::8bdd:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS35805  2001:7f8:44::8bdd:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-SET-UTG
+mp-export:      afi ipv6.unicast to   AS35805  2001:7f8:44::8bdd:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS35805  80.81.202.49                   at                  80.81.202.252 accept   AS-SET-UTG
+export:         to   AS35805  80.81.202.49                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS35805  80.81.202.49                   at                  80.81.202.253 accept   AS-SET-UTG
+export:         to   AS35805  80.81.202.49                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS39912  2001:7f8:44::9be8:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-I3B-TRANSIT-V6
+mp-export:      afi ipv6.unicast to   AS39912  2001:7f8:44::9be8:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS39912  2001:7f8:44::9be8:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-I3B-TRANSIT-V6
+mp-export:      afi ipv6.unicast to   AS39912  2001:7f8:44::9be8:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS39912  80.81.202.28                   at                  80.81.202.252 accept   AS-I3B-TRANSIT-V4
+export:         to   AS39912  80.81.202.28                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS39912  80.81.202.28                   at                  80.81.202.253 accept   AS-I3B-TRANSIT-V4
+export:         to   AS39912  80.81.202.28                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS42456  2001:7f8:44::a5d8:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-CHMURTZ-IPV6
+mp-export:      afi ipv6.unicast to   AS42456  2001:7f8:44::a5d8:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS42456  2001:7f8:44::a5d8:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-CHMURTZ-IPV6
+mp-export:      afi ipv6.unicast to   AS42456  2001:7f8:44::a5d8:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS42456  80.81.202.58                   at                  80.81.202.252 accept   AS-CHMURTZ
+export:         to   AS42456  80.81.202.58                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS42456  80.81.202.58                   at                  80.81.202.253 accept   AS-CHMURTZ
+export:         to   AS42456  80.81.202.58                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS47147  2001:7f8:44::b82b:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-ANX
+mp-export:      afi ipv6.unicast to   AS47147  2001:7f8:44::b82b:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS47147  2001:7f8:44::b82b:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-ANX
+mp-export:      afi ipv6.unicast to   AS47147  2001:7f8:44::b82b:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS47147  80.81.202.59                   at                  80.81.202.252 accept   AS-ANX
+export:         to   AS47147  80.81.202.59                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS47147  80.81.202.59                   at                  80.81.202.253 accept   AS-ANX
+export:         to   AS47147  80.81.202.59                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS43350  2001:7f8:44::a956:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-NFORCE
+mp-export:      afi ipv6.unicast to   AS43350  2001:7f8:44::a956:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS43350  2001:7f8:44::a956:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-NFORCE
+mp-export:      afi ipv6.unicast to   AS43350  2001:7f8:44::a956:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS43350  80.81.202.35                   at                  80.81.202.252 accept   AS-NFORCE
+export:         to   AS43350  80.81.202.35                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS43350  80.81.202.35                   at                  80.81.202.253 accept   AS-NFORCE
+export:         to   AS43350  80.81.202.35                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS43350  2001:7f8:44::a956:0:2          at          2001:7f8:44::a8f4:0:1 accept   AS-NFORCE
+mp-export:      afi ipv6.unicast to   AS43350  2001:7f8:44::a956:0:2          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS43350  2001:7f8:44::a956:0:2          at          2001:7f8:44::a8f4:0:2 accept   AS-NFORCE
+mp-export:      afi ipv6.unicast to   AS43350  2001:7f8:44::a956:0:2          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS43350  80.81.202.46                   at                  80.81.202.252 accept   AS-NFORCE
+export:         to   AS43350  80.81.202.46                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS43350  80.81.202.46                   at                  80.81.202.253 accept   AS-NFORCE
+export:         to   AS43350  80.81.202.46                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS43623  2001:7f8:44::aa67:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS43623:AS-ARD-STERN
+mp-export:      afi ipv6.unicast to   AS43623  2001:7f8:44::aa67:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS43623  2001:7f8:44::aa67:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS43623:AS-ARD-STERN
+mp-export:      afi ipv6.unicast to   AS43623  2001:7f8:44::aa67:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS43623  80.81.202.42                   at                  80.81.202.252 accept   AS43623:AS-ARD-STERN
+export:         to   AS43623  80.81.202.42                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS43623  80.81.202.42                   at                  80.81.202.253 accept   AS43623:AS-ARD-STERN
+export:         to   AS43623  80.81.202.42                   at                  80.81.202.253 announce AS-DECIX-MUC
+import:         from AS47228  80.81.202.249                  at                  80.81.202.252 accept   AS-NADA
+export:         to   AS47228  80.81.202.249                  at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS47228  80.81.202.249                  at                  80.81.202.253 accept   AS-NADA
+export:         to   AS47228  80.81.202.249                  at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS47228  2001:7f8:44::b87c:f9:1         at          2001:7f8:44::a8f4:0:1 accept   AS-NADA
+mp-export:      afi ipv6.unicast to   AS47228  2001:7f8:44::b87c:f9:1         at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS47228  2001:7f8:44::b87c:f9:1         at          2001:7f8:44::a8f4:0:2 accept   AS-NADA
+mp-export:      afi ipv6.unicast to   AS47228  2001:7f8:44::b87c:f9:1         at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS47605  2001:7f8:44::b9f5:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-SET-FNE
+mp-export:      afi ipv6.unicast to   AS47605  2001:7f8:44::b9f5:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS47605  2001:7f8:44::b9f5:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-SET-FNE
+mp-export:      afi ipv6.unicast to   AS47605  2001:7f8:44::b9f5:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS47605  80.81.202.51                   at                  80.81.202.252 accept   AS-SET-FNE
+export:         to   AS47605  80.81.202.51                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS47605  80.81.202.51                   at                  80.81.202.253 accept   AS-SET-FNE
+export:         to   AS47605  80.81.202.51                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS48484  2001:7f8:44::bd64:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-IGNEL
+mp-export:      afi ipv6.unicast to   AS48484  2001:7f8:44::bd64:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS48484  2001:7f8:44::bd64:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-IGNEL
+mp-export:      afi ipv6.unicast to   AS48484  2001:7f8:44::bd64:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS48484  80.81.202.22                   at                  80.81.202.252 accept   AS-IGNEL
+export:         to   AS48484  80.81.202.22                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS48484  80.81.202.22                   at                  80.81.202.253 accept   AS-IGNEL
+export:         to   AS48484  80.81.202.22                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS49958  2001:7f8:44::c326:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS49958
+mp-export:      afi ipv6.unicast to   AS49958  2001:7f8:44::c326:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS49958  2001:7f8:44::c326:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS49958
+mp-export:      afi ipv6.unicast to   AS49958  2001:7f8:44::c326:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS49958  80.81.202.60                   at                  80.81.202.252 accept   AS49958
+export:         to   AS49958  80.81.202.60                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS49958  80.81.202.60                   at                  80.81.202.253 accept   AS49958
+export:         to   AS49958  80.81.202.60                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS50469  2001:7f8:44::c525:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-HESSENKOM-UP
+mp-export:      afi ipv6.unicast to   AS50469  2001:7f8:44::c525:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS50469  2001:7f8:44::c525:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-HESSENKOM-UP
+mp-export:      afi ipv6.unicast to   AS50469  2001:7f8:44::c525:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS50469  80.81.202.57                   at                  80.81.202.252 accept   AS-HESSENKOM-UP
+export:         to   AS50469  80.81.202.57                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS50469  80.81.202.57                   at                  80.81.202.253 accept   AS-HESSENKOM-UP
+export:         to   AS50469  80.81.202.57                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS50629  2001:7f8:44::c5c5:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-LWL
+mp-export:      afi ipv6.unicast to   AS50629  2001:7f8:44::c5c5:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS50629  2001:7f8:44::c5c5:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-LWL
+mp-export:      afi ipv6.unicast to   AS50629  2001:7f8:44::c5c5:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS50629  80.81.202.13                   at                  80.81.202.252 accept   AS-LWL
+export:         to   AS50629  80.81.202.13                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS50629  80.81.202.13                   at                  80.81.202.253 accept   AS-LWL
+export:         to   AS50629  80.81.202.13                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS51324  2001:7f8:44::c87c:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-EXARING
+mp-export:      afi ipv6.unicast to   AS51324  2001:7f8:44::c87c:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS51324  2001:7f8:44::c87c:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-EXARING
+mp-export:      afi ipv6.unicast to   AS51324  2001:7f8:44::c87c:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS51324  80.81.202.11                   at                  80.81.202.252 accept   AS-EXARING
+export:         to   AS51324  80.81.202.11                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS51324  80.81.202.11                   at                  80.81.202.253 accept   AS-EXARING
+export:         to   AS51324  80.81.202.11                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS51483  2001:7f8:44::c91b:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-SASG
+mp-export:      afi ipv6.unicast to   AS51483  2001:7f8:44::c91b:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS51483  2001:7f8:44::c91b:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-SASG
+mp-export:      afi ipv6.unicast to   AS51483  2001:7f8:44::c91b:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS51483  80.81.202.21                   at                  80.81.202.252 accept   AS-SASG
+export:         to   AS51483  80.81.202.21                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS51483  80.81.202.21                   at                  80.81.202.253 accept   AS-SASG
+export:         to   AS51483  80.81.202.21                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS52088  2001:7f8:44::cb78:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-PORTRIX
+mp-export:      afi ipv6.unicast to   AS52088  2001:7f8:44::cb78:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS52088  2001:7f8:44::cb78:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-PORTRIX
+mp-export:      afi ipv6.unicast to   AS52088  2001:7f8:44::cb78:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS52088  80.81.202.18                   at                  80.81.202.252 accept   AS-PORTRIX
+export:         to   AS52088  80.81.202.18                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS52088  80.81.202.18                   at                  80.81.202.253 accept   AS-PORTRIX
+export:         to   AS52088  80.81.202.18                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS52088  2001:7f8:44::cb78:0:2          at          2001:7f8:44::a8f4:0:1 accept   AS-PORTRIX
+mp-export:      afi ipv6.unicast to   AS52088  2001:7f8:44::cb78:0:2          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS52088  2001:7f8:44::cb78:0:2          at          2001:7f8:44::a8f4:0:2 accept   AS-PORTRIX
+mp-export:      afi ipv6.unicast to   AS52088  2001:7f8:44::cb78:0:2          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS52088  80.81.202.14                   at                  80.81.202.252 accept   AS-PORTRIX
+export:         to   AS52088  80.81.202.14                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS52088  80.81.202.14                   at                  80.81.202.253 accept   AS-PORTRIX
+export:         to   AS52088  80.81.202.14                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS54994  2001:7f8:44::d6d2:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS54994
+mp-export:      afi ipv6.unicast to   AS54994  2001:7f8:44::d6d2:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS54994  2001:7f8:44::d6d2:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS54994
+mp-export:      afi ipv6.unicast to   AS54994  2001:7f8:44::d6d2:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS54994  80.81.202.65                   at                  80.81.202.252 accept   AS54994
+export:         to   AS54994  80.81.202.65                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS54994  80.81.202.65                   at                  80.81.202.253 accept   AS54994
+export:         to   AS54994  80.81.202.65                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS56630  2001:7f8:44::dd36:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-MELBICOM-V6
+mp-export:      afi ipv6.unicast to   AS56630  2001:7f8:44::dd36:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS56630  2001:7f8:44::dd36:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-MELBICOM-V6
+mp-export:      afi ipv6.unicast to   AS56630  2001:7f8:44::dd36:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS56630  80.81.202.68                   at                  80.81.202.252 accept   AS-MELBICOM
+export:         to   AS56630  80.81.202.68                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS56630  80.81.202.68                   at                  80.81.202.253 accept   AS-MELBICOM
+export:         to   AS56630  80.81.202.68                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS59752  2001:7f8:44::e968:0:1          at          2001:7f8:44::a8f4:0:1 accept   AS-JPRU
+mp-export:      afi ipv6.unicast to   AS59752  2001:7f8:44::e968:0:1          at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS59752  2001:7f8:44::e968:0:1          at          2001:7f8:44::a8f4:0:2 accept   AS-JPRU
+mp-export:      afi ipv6.unicast to   AS59752  2001:7f8:44::e968:0:1          at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS59752  80.81.202.5                    at                  80.81.202.252 accept   AS-JPRU
+export:         to   AS59752  80.81.202.5                    at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS59752  80.81.202.5                    at                  80.81.202.253 accept   AS-JPRU
+export:         to   AS59752  80.81.202.5                    at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS133731 2001:7f8:44:0:2:a63:0:1        at          2001:7f8:44::a8f4:0:1 accept   AS-CLOUDIE-HK
+mp-export:      afi ipv6.unicast to   AS133731 2001:7f8:44:0:2:a63:0:1        at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS133731 2001:7f8:44:0:2:a63:0:1        at          2001:7f8:44::a8f4:0:2 accept   AS-CLOUDIE-HK
+mp-export:      afi ipv6.unicast to   AS133731 2001:7f8:44:0:2:a63:0:1        at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS133731 80.81.202.56                   at                  80.81.202.252 accept   AS-CLOUDIE-HK
+export:         to   AS133731 80.81.202.56                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS133731 80.81.202.56                   at                  80.81.202.253 accept   AS-CLOUDIE-HK
+export:         to   AS133731 80.81.202.56                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS197524 2001:7f8:44:0:3:394:0:1        at          2001:7f8:44::a8f4:0:1 accept   AS-CCNST
+mp-export:      afi ipv6.unicast to   AS197524 2001:7f8:44:0:3:394:0:1        at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS197524 2001:7f8:44:0:3:394:0:1        at          2001:7f8:44::a8f4:0:2 accept   AS-CCNST
+mp-export:      afi ipv6.unicast to   AS197524 2001:7f8:44:0:3:394:0:1        at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS197524 80.81.202.41                   at                  80.81.202.252 accept   AS-CCNST
+export:         to   AS197524 80.81.202.41                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS197524 80.81.202.41                   at                  80.81.202.253 accept   AS-CCNST
+export:         to   AS197524 80.81.202.41                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS197965 2001:7f8:44:0:3:54d:0:1        at          2001:7f8:44::a8f4:0:1 accept   AS197965
+mp-export:      afi ipv6.unicast to   AS197965 2001:7f8:44:0:3:54d:0:1        at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS197965 2001:7f8:44:0:3:54d:0:1        at          2001:7f8:44::a8f4:0:2 accept   AS197965
+mp-export:      afi ipv6.unicast to   AS197965 2001:7f8:44:0:3:54d:0:1        at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS197965 80.81.202.19                   at                  80.81.202.252 accept   AS197965
+export:         to   AS197965 80.81.202.19                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS197965 80.81.202.19                   at                  80.81.202.253 accept   AS197965
+export:         to   AS197965 80.81.202.19                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS199524 2001:7f8:44:0:3:b64:0:1        at          2001:7f8:44::a8f4:0:1 accept   AS-GCORE
+mp-export:      afi ipv6.unicast to   AS199524 2001:7f8:44:0:3:b64:0:1        at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS199524 2001:7f8:44:0:3:b64:0:1        at          2001:7f8:44::a8f4:0:2 accept   AS-GCORE
+mp-export:      afi ipv6.unicast to   AS199524 2001:7f8:44:0:3:b64:0:1        at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS199524 80.81.202.27                   at                  80.81.202.252 accept   AS-GCORE
+export:         to   AS199524 80.81.202.27                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS199524 80.81.202.27                   at                  80.81.202.253 accept   AS-GCORE
+export:         to   AS199524 80.81.202.27                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS200615 2001:7f8:44:0:3:fa7:0:2        at          2001:7f8:44::a8f4:0:1 accept   AS-MYVIRTUALSERVER
+mp-export:      afi ipv6.unicast to   AS200615 2001:7f8:44:0:3:fa7:0:2        at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS200615 2001:7f8:44:0:3:fa7:0:2        at          2001:7f8:44::a8f4:0:2 accept   AS-MYVIRTUALSERVER
+mp-export:      afi ipv6.unicast to   AS200615 2001:7f8:44:0:3:fa7:0:2        at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS200615 80.81.202.47                   at                  80.81.202.252 accept   AS-MYVIRTUALSERVER
+export:         to   AS200615 80.81.202.47                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS200615 80.81.202.47                   at                  80.81.202.253 accept   AS-MYVIRTUALSERVER
+export:         to   AS200615 80.81.202.47                   at                  80.81.202.253 announce AS-DECIX-MUC
+mp-import:      afi ipv6.unicast from AS199714 2001:7f8:44:0:3:c22:0:1        at          2001:7f8:44::a8f4:0:1 accept   AS-HERMSIT
+mp-export:      afi ipv6.unicast to   AS199714 2001:7f8:44:0:3:c22:0:1        at          2001:7f8:44::a8f4:0:1 announce AS-DECIX-MUC-V6
+mp-import:      afi ipv6.unicast from AS199714 2001:7f8:44:0:3:c22:0:1        at          2001:7f8:44::a8f4:0:2 accept   AS-HERMSIT
+mp-export:      afi ipv6.unicast to   AS199714 2001:7f8:44:0:3:c22:0:1        at          2001:7f8:44::a8f4:0:2 announce AS-DECIX-MUC-V6
+import:         from AS199714 80.81.202.45                   at                  80.81.202.252 accept   AS-HERMSIT
+export:         to   AS199714 80.81.202.45                   at                  80.81.202.252 announce AS-DECIX-MUC
+import:         from AS199714 80.81.202.45                   at                  80.81.202.253 accept   AS-HERMSIT
+export:         to   AS199714 80.81.202.45                   at                  80.81.202.253 announce AS-DECIX-MUC
+created:        2008-05-21T08:15:02Z
+last-modified:  2018-07-25T09:44:54Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

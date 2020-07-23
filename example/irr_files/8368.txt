@@ -1,0 +1,562 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8368'
+
+% Abuse contact for 'AS8368' is 'abuse@destiny.be'
+
+aut-num:        AS8368
+as-name:        BENESOL-BACKBONE
+descr:          International Backbone
+org:            ORG-DN490-RIPE
+remarks:
+remarks:        .........................................................
+remarks:        . Transit Imports (IPv4) .
+remarks:        .........................................................
+remarks:
+import:         from AS174 accept ANY
+import:         from AS286 accept ANY
+import:         from AS3257 accept ANY
+remarks:
+remarks:        .........................................................
+remarks:        . Customer Imports (IPv4) .
+remarks:        .........................................................
+remarks:
+import:         from AS31309 accept AS31309
+import:         from AS35593 accept AS35593
+import:         from AS35250 accept AS-IN
+import:         from AS39721 accept AS-39721
+import:         from AS48517 accept AS-DESTINY
+remarks:
+remarks:        .........................................................
+remarks:        . Private Peering Imports (IPv4) .
+remarks:        .........................................................
+remarks:
+import:         from AS12989 accept ANY
+remarks:
+remarks:        .........................................................
+remarks:        . FreeBIX Peering Imports (IPv4) .
+remarks:        .........................................................
+remarks:
+import:         from AS8607 accept AS-TIMICO
+import:         from AS9031 accept AS-INTICONET
+import:         from AS28707 accept AS-KANGAROOT
+import:         from AS30961 accept AS-OPENMINDS
+import:         from AS34958 accept AS34958
+import:         from AS35219 accept AS-RACKBOOST
+import:         from AS39234 accept AS-STONE-IS
+remarks:
+remarks:        .........................................................
+remarks:        . AMS-IX Peering Imports (IPv4) .
+remarks:        .........................................................
+remarks:
+import:         from AS42 accept AS-PCH
+import:         from AS1103 accept AS-SURFNET
+import:         from AS1200 accept AS1200
+import:         from AS2119 accept AS-TELENOR
+import:         from AS2529 accept AS-DEMON
+import:         from AS2603 accept AS-NORDUNET
+import:         from AS2852 accept AS-CESNET
+import:         from AS3209 accept AS-ARCORGLOBAL
+import:         from AS3216 accept AS-SOVAM
+import:         from AS3265 accept AS-ACCESSFORALL
+import:         from AS3267 accept AS-RUNNET
+import:         from AS3327 accept AS-LINXTELECOM-AMSIX
+import:         from AS3856 accept AS3856
+import:         from AS5588 accept AS-GTS-CE
+import:         from AS6320 accept AS-TELECOMPLETE
+import:         from AS6661 accept AS-PTLU
+import:         from AS6667 accept AS-EUNETIP
+import:         from AS6777 accept ANY AND NOT <^AS16265 AS39318>
+import:         from AS6805 accept AS-TDDE
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8068 accept AS8068
+import:         from AS8359 accept AS-MTU
+import:         from AS8422 accept AS-NETCOLOGNE
+import:         from AS8492 accept AS-OBIT
+import:         from AS8560 accept AS-1AND1
+import:         from AS8582 accept AS-SUPPORT
+import:         from AS8708 accept AS-RDSNET
+import:         from AS8966 accept AS-EMIX
+import:         from AS9002 accept AS-RETN
+import:         from AS9143 accept AS-BENELUX
+import:         from AS10310 accept AS-YAHOO
+import:         from AS12573 accept AS-IONIP
+import:         from AS12634 accept AS-SCARLET
+import:         from AS12355 accept AS-HELINET-V4
+import:         from AS12759 accept AS-SOCO
+import:         from AS12989 accept AS-HWNG
+import:         from AS13101 accept AS-TNG
+import:         from AS13127 accept AS-VERSATEL
+import:         from AS15435 accept AS-KABELFOON
+import:         from AS15535 accept AS-VIRTUALXS
+import:         from AS15542 accept AS-ZEELANDNET
+import:         from AS15598 accept AS-IPX
+import:         from AS15879 accept AS-IS-NL
+import:         from AS15935 accept AS-HA-VEL-AMSIX
+import:         from AS16131 accept AS-GRAFIX-TRANSIT
+import:         from AS16276 accept AS-OVH
+import:         from AS16298 accept AS-INTERBOX
+import:         from AS19151 accept AS-WVFIBER
+import:         from AS20495 accept AS-WEDARE
+import:         from AS20500 accept AS-GRIFFIN
+import:         from AS20504 accept AS-RTL
+import:         from AS20847 accept AS-INTROWEB
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS29791 accept AS-VOXEL
+import:         from AS21221 accept AS-INFOPACT
+import:         from AS21392 accept AS-MUNTINTERNET
+import:         from AS22822 accept AS22822
+import:         from AS24730 accept AS-NETHOLDING
+import:         from AS24875 accept AS-ISPSERVICES
+import:         from AS25182 accept AS-PUBLIEKEOMROEP
+import:         from AS25286 accept AS-IPERCAST
+import:         from AS25459 accept AS-NEDZONE
+import:         from AS25525 accept AS-REASONNET
+import:         from AS25596 accept AS-CAMBRIUM
+import:         from AS25973 accept AS-MZIMA
+import:         from AS26943 accept AS26943
+import:         from AS28685 accept AS-ROUTIT
+import:         from AS28788 accept AS-UNILOGICNET
+import:         from AS28878 accept AS-SIGNET
+import:         from AS29017 accept AS-GYRON
+import:         from AS29208 accept AS-DIALTELECOM
+import:         from AS30889 accept AS-WAYCOM
+import:         from AS30925 accept AS-SPEEDXS
+import:         from AS31283 accept AS-FASTHOST
+import:         from AS31477 accept AS-DUOCAST
+import:         from AS31661 accept AS-COMX
+import:         from AS34305 accept AS-EUROACCESS
+import:         from AS34419 accept AS-VODAFONE
+import:         from AS34486 accept AS-IP2
+import:         from AS34655 accept AS-JASMIN
+import:         from AS34968 accept AS-IUNXI
+import:         from AS39309 accept AS-EDUTEL
+import:         from AS39326 accept AS-GOSCOMB
+import:         from AS39556 accept AS-EASYHOSTING
+import:         from AS39598 accept AS-TIERA
+import:         from AS39792 accept AS-ANDERS
+import:         from AS41095 accept AS-IPTP
+import:         from AS41552 accept AS41552
+import:         from AS41692 accept AS-OPENCARRIER
+import:         from AS41420 accept AS41420
+import:         from AS42884 accept AS-LOCALPHONE
+import:         from AS43821 accept AS-WIKIMEDIA
+import:         from AS44259 accept AS-TRANSQUALITY
+remarks:
+remarks:        .........................................................
+remarks:        . FreeBIX Peering Imports (IPv6) .
+remarks:        .........................................................
+remarks:
+import:         from AS9031 accept AS-INTICONET
+import:         from AS16034 accept AS-KEME
+remarks:
+remarks:        .........................................................
+remarks:        . AMS-IX Peering Imports (IPv6) .
+remarks:        .........................................................
+remarks:
+import:         from AS1103 accept AS-SURFNET
+import:         from AS1200 accept AS1200
+import:         from AS2603 accept AS-NORDUNET
+import:         from AS2852 accept AS-CESNET
+import:         from AS3265 accept AS-ACCESSFORALL
+import:         from AS3327 accept AS-LINXTELECOM-AMSIX
+import:         from AS6667 accept AS-EUNETIP
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8359 accept AS-MTU
+import:         from AS8560 accept AS-1AND1
+import:         from AS9002 accept AS-RETN
+import:         from AS12573 accept AS-IONIP
+import:         from AS12355 accept AS-HELINET-V4
+import:         from AS12634 accept AS-SCARLET
+import:         from AS12989 accept AS-HWNG
+import:         from AS16131 accept AS-GRAFIX-TRANSIT
+import:         from AS16150 accept AS16150:AS-CUSTOMERS
+import:         from AS15598 accept AS-IPX-6
+import:         from AS15879 accept AS-IS-NL
+import:         from AS19151 accept AS-WVFIBER
+import:         from AS20495 accept AS-WEDARE
+import:         from AS20847 accept AS-INTROWEB
+import:         from AS21221 accept AS-INFOPACT
+import:         from AS24875 accept AS-ISPSERVICES
+import:         from AS25525 accept AS-REASONNET
+import:         from AS25596 accept AS-CAMBRIUM
+import:         from AS28788 accept AS-UNILOGICNET
+import:         from AS28878 accept AS-SIGNET
+import:         from AS29208 accept AS-DIALTELECOM
+import:         from AS29791 accept AS-VOXEL
+import:         from AS34305 accept AS-EUROACCESS
+import:         from AS34419 accept AS-VODAFONE
+import:         from AS39309 accept AS-EDUTEL
+import:         from AS39326 accept AS-GOSCOMB
+import:         from AS39792 accept AS-ANDERS
+import:         from AS41692 accept AS-OPENCARRIER
+import:         from AS43821 accept AS-WIKIMEDIA
+remarks:
+remarks:        .........................................................
+remarks:        . Transit Exports (IPv4) .
+remarks:        .........................................................
+remarks:
+export:         to AS174 announce AS-BENESOL
+export:         to AS286 announce AS-BENESOL
+export:         to AS3257 announce AS-BENESOL
+remarks:
+remarks:        .........................................................
+remarks:        . Customer Exports (IPv4) .
+remarks:        .........................................................
+remarks:
+export:         to AS31309 announce ANY
+export:         to AS35593 announce ANY
+export:         to AS35230 announce ANY
+export:         to AS35250 announce ANY
+export:         to AS39721 announce ANY
+export:         to AS39923 announce ANY
+export:         to AS48517 announce ANY
+remarks:
+remarks:        .........................................................
+remarks:        . Private Peering Exports (IPv4) .
+remarks:        .........................................................
+remarks:
+export:         to AS12989 announce AS-BENESOL
+remarks:
+remarks:        .........................................................
+remarks:        . FreeBIX Peering Exports (IPv4) .
+remarks:        .........................................................
+remarks:
+export:         to AS8607 announce AS-BENESOL
+export:         to AS9031 announce AS-BENESOL
+export:         to AS28707 announce AS-BENESOL
+export:         to AS30961 announce AS-BENESOL
+export:         to AS34958 announce AS-BENESOL
+export:         to AS35219 announce AS-BENESOL
+export:         to AS39234 announce AS-BENESOL
+remarks:
+remarks:        .........................................................
+remarks:        . AMS-IX Peering Exports (IPv4) .
+remarks:        .........................................................
+remarks:
+export:         to AS42 announce AS-BENESOL
+export:         to AS1103 announce AS-BENESOL
+export:         to AS1200 announce AS-BENESOL
+export:         to AS2119 announce AS-BENESOL
+export:         to AS2529 announce AS-BENESOL
+export:         to AS2603 announce AS-BENESOL
+export:         to AS2852 announce AS-BENESOL
+export:         to AS3209 announce AS-BENESOL
+export:         to AS3216 announce AS-BENESOL
+export:         to AS3265 announce AS-BENESOL
+export:         to AS3267 announce AS-BENESOL
+export:         to AS3856 announce AS-BENESOL
+export:         to AS5588 announce AS-BENESOL
+export:         to AS6320 announce AS-BENESOL
+export:         to AS6661 announce AS-BENESOL
+export:         to AS6667 announce AS-BENESOL
+export:         to AS6777 action community .= { 6777:6777, 6777:16265, 6777:39318 }; announce AS-BENESOL
+export:         to AS6805 announce AS-BENESOL
+export:         to AS6939 announce AS-BENESOL
+export:         to AS8068 announce AS-BENESOL
+export:         to AS8359 announce AS-BENESOL
+export:         to AS8422 announce AS-BENESOL
+export:         to AS8560 announce AS-BENESOL
+export:         to AS8582 announce AS-BENESOL
+export:         to AS8708 announce AS-BENESOL
+export:         to AS8966 announce AS-BENESOL
+export:         to AS9002 announce AS-BENESOL
+export:         to AS9143 announce AS-BENESOL
+export:         to AS10310 announce AS-BENESOL
+export:         to AS12355 announce AS-BENESOL
+export:         to AS12573 announce AS-BENESOL
+export:         to AS12634 announce AS-BENESOL
+export:         to AS12759 announce AS-BENESOL
+export:         to AS12989 announce AS-BENESOL
+export:         to AS13101 announce AS-BENESOL
+export:         to AS13127 announce AS-BENESOL
+export:         to AS15435 announce AS-BENESOL
+export:         to AS15535 announce AS-BENESOL
+export:         to AS15542 announce AS-BENESOL
+export:         to AS15598 announce AS-BENESOL
+export:         to AS15879 announce AS-BENESOL
+export:         to AS15935 announce AS-BENESOL
+export:         to AS16131 announce AS-BENESOL
+export:         to AS16150 announce AS-BENESOL
+export:         to AS16276 announce AS-BENESOL
+export:         to AS16298 announce AS-BENESOL
+export:         to AS19151 announce AS-BENESOL
+export:         to AS20495 announce AS-BENESOL
+export:         to AS20500 announce AS-BENESOL
+export:         to AS20504 announce AS-BENESOL
+export:         to AS20847 announce AS-BENESOL
+export:         to AS20940 announce AS-BENESOL
+export:         to AS21221 announce AS-BENESOL
+export:         to AS21392 announce AS-BENESOL
+export:         to AS22822 announce AS-BENESOL
+export:         to AS24730 announce AS-BENESOL
+export:         to AS24875 announce AS-BENESOL
+export:         to AS25182 announce AS-BENESOL
+export:         to AS25286 announce AS-BENESOL
+export:         to AS25459 announce AS-BENESOL
+export:         to AS25525 announce AS-BENESOL
+export:         to AS25596 announce AS-BENESOL
+export:         to AS25973 announce AS-BENESOL
+export:         to AS26943 announce AS-BENESOL
+export:         to AS28685 announce AS-BENESOL
+export:         to AS28788 announce AS-BENESOL
+export:         to AS28878 announce AS-BENESOL
+export:         to AS29017 announce AS-BENESOL
+export:         to AS29208 announce AS-BENESOL
+export:         to AS29791 announce AS-BENESOL
+export:         to AS30925 announce AS-BENESOL
+export:         to AS31283 announce AS-BENESOL
+export:         to AS30889 announce AS-BENESOL
+export:         to AS31477 announce AS-BENESOL
+export:         to AS31661 announce AS-BENESOL
+export:         to AS34305 announce AS-BENESOL
+export:         to AS34419 announce AS-BENESOL
+export:         to AS34486 announce AS-BENESOL
+export:         to AS34655 announce AS-BENESOL
+export:         to AS34968 announce AS-BENESOL
+export:         to AS39309 announce AS-BENESOL
+export:         to AS39326 announce AS-BENESOL
+export:         to AS39556 announce AS-BENESOL
+export:         to AS39598 announce AS-BENESOL
+export:         to AS39792 announce AS-BENESOL
+export:         to AS41095 announce AS-BENESOL
+export:         to AS41552 announce AS-BENESOL
+export:         to AS41692 announce AS-BENESOL
+export:         to AS41420 announce AS-BENESOL
+export:         to AS42884 announce AS-BENESOL
+export:         to AS43821 announce AS-BENESOL
+export:         to AS44259 announce AS-BENESOL
+remarks:
+remarks:        .........................................................
+remarks:        . FreeBIX Peering Exports (IPv6) .
+remarks:        .........................................................
+remarks:
+export:         to AS9031 announce AS-BENESOL
+export:         to AS16034 announce AS-BENESOL
+remarks:
+remarks:        .........................................................
+remarks:        . AMS-IX Peering Exports (IPv6) .
+remarks:        .........................................................
+remarks:
+export:         to AS1103 announce AS-BENESOL
+export:         to AS1200 announce AS-BENESOL
+export:         to AS2603 announce AS-BENESOL
+export:         to AS2852 announce AS-BENESOL
+export:         to AS3265 announce AS-BENESOL
+export:         to AS6667 announce AS-BENESOL
+export:         to AS6939 announce AS-BENESOL
+export:         to AS8359 announce AS-BENESOL
+export:         to AS8560 announce AS-BENESOL
+export:         to AS9002 announce AS-BENESOL
+export:         to AS12573 announce AS-BENESOL
+export:         to AS12634 announce AS-BENESOL
+export:         to AS12355 announce AS-BENESOL
+export:         to AS12989 announce AS-BENESOL
+export:         to AS15598 announce AS-BENESOL
+export:         to AS16131 announce AS-BENESOL
+export:         to AS16150 announce AS-BENESOL
+export:         to AS15879 announce AS-BENESOL
+export:         to AS19151 announce AS-BENESOL
+export:         to AS20495 announce AS-BENESOL
+export:         to AS20847 announce AS-BENESOL
+export:         to AS21221 announce AS-BENESOL
+export:         to AS24875 announce AS-BENESOL
+export:         to AS25525 announce AS-BENESOL
+export:         to AS25596 announce AS-BENESOL
+export:         to AS28788 announce AS-BENESOL
+export:         to AS28878 announce AS-BENESOL
+export:         to AS29208 announce AS-BENESOL
+export:         to AS29791 announce AS-BENESOL
+export:         to AS34419 announce AS-BENESOL
+export:         to AS39309 announce AS-BENESOL
+export:         to AS39326 announce AS-BENESOL
+export:         to AS39792 announce AS-BENESOL
+export:         to AS41692 announce AS-BENESOL
+export:         to AS43821 announce AS-BENESOL
+remarks:
+remarks:        .........................................................
+remarks:        . External route object privileges .
+remarks:        .........................................................
+remarks:
+status:         ASSIGNED
+remarks:
+remarks:        .........................................................
+remarks:        . Network Operations Center: (24/7 operations) .
+remarks:        . .
+remarks:        . Email: noc@benesol.be .
+remarks:        . Phone: +32 (0)2 400 61 33 .
+remarks:        . Fax: +32 (0)2 400 61 44 .
+remarks:        .........................................................
+remarks:
+remarks:        .........................................................
+remarks:        . Peering policy: .
+remarks:        . .
+remarks:        . We currently have an open peering policy. .
+remarks:        . Please mail peering@benesol.be with your .
+remarks:        . exchange point, ip, asn and as-macro. We are .
+remarks:        . happy to peer via IPv4 as well as IPv6. .
+remarks:        . .
+remarks:        . We are happy to configure private peering to .
+remarks:        . improve the quality of our services. .
+remarks:        . .
+remarks:        . Currently available Internet Exchange Points: .
+remarks:        . .
+remarks:        . Internet Exchange Facility .
+remarks:        . ================= ======== .
+remarks:        . .
+remarks:        . FreeBIX InterXion Brussels .
+remarks:        . AMS-IX Telecity II Amsterdam .
+remarks:        . .
+remarks:        . Currently available private peering points: .
+remarks:        . .
+remarks:        . Private Peering Points .
+remarks:        . ====================== .
+remarks:        . .
+remarks:        . Colt Brussels .
+remarks:        . InterXion Brussels .
+remarks:        . LCL Brussels .
+remarks:        . Mobistar Nossegem .
+remarks:        . Telecity II Amsterdam .
+remarks:        .........................................................
+remarks:
+remarks:        .........................................................
+remarks:        . Community tags: .
+remarks:        . .
+remarks:        . Community: Definition: .
+remarks:        . ---------- ----------- .
+remarks:        . .
+remarks:        . 8368:1*** Prefix-type tagging: .
+remarks:        . --------- -------------------- .
+remarks:        . .
+remarks:        . 8368:1001 Belgian Network Solutions own prefixes .
+remarks:        . 8368:1002 Routes received from transit customers .
+remarks:        . 8368:1003 Routes received from peering partners .
+remarks:        . 8368:1004 Routes received from a transit provider .
+remarks:        . .
+remarks:        . 8368:2*** Internet Exchange tagging: .
+remarks:        . ---------- -------------------------- .
+remarks:        . .
+remarks:        . 8368:2001 Routes received at BNIX (near future) .
+remarks:        . 8368:2002 Routes received at AMS-IX .
+remarks:        . 8368:2003 Routes received at FreeBIX .
+remarks:        . .
+remarks:        . 8368:3*** Private peer tagging: .
+remarks:        . ---------- --------------------- .
+remarks:        . .
+remarks:        . 8368:3001 Routes received from eXpress .
+remarks:        . 8368:3002 Routes received from Earthlink Inc .
+remarks:        . .
+remarks:        . 8368:4*** Transit tagging: .
+remarks:        . ---------- ---------------- .
+remarks:        . .
+remarks:        . 8368:4001 Routes received from CogentCO .
+remarks:        . 8368:4002 Routes received from Level3 .
+remarks:        . 8368:4003 Routes received from Tinet .
+remarks:        . .
+remarks:        . 8368:5*** City tagging: .
+remarks:        . ---------- ------------- .
+remarks:        . .
+remarks:        . 8368:5001 Routes received in Brussels .
+remarks:        . 8368:5002 Routes received in Amsterdam .
+remarks:        . .
+remarks:        . 8368:6*** Country tagging: .
+remarks:        . ---------- ---------------- .
+remarks:        . .
+remarks:        . 8368:6001 Routes received in Belgium .
+remarks:        . 8368:6002 Routes received in The Netherlands .
+remarks:        . 8368:6003 Routes received in France .
+remarks:        . .
+remarks:        . 8368:1** Route prepending: .
+remarks:        . ---------- ----------------- .
+remarks:        . .
+remarks:        . 8368:101 Lower your local-preference by 100 .
+remarks:        . 8368:102 Raise your local-preference by 100 .
+remarks:        . .
+remarks:        . 8368:6** Export manipulation .
+remarks:        . ---------- ------------------- .
+remarks:        . .
+remarks:        . 8368:601 Do not export to anyone .
+remarks:        . 8368:602 Do not export to transits .
+remarks:        . 8368:603 Do not export to peers .
+remarks:        . 8368:604 Do not export to customers .
+remarks:        . 8368:666 Nullroute (discard) traffic .
+remarks:        .........................................................
+remarks:
+remarks:        .........................................................
+remarks:        . Dampening filters: .
+remarks:        . .
+remarks:        . We are using the route flap dampening policy .
+remarks:        . according to RIPE recommendation: .
+remarks:        . .
+remarks:        . ftp://ftp.ripe.net/ripe/docs/ripe-229.txt .
+remarks:        . .
+remarks:        . Prefix filters: .
+remarks:        . .
+remarks:        . - Announcements listed in RFC3330. .
+remarks:        . - Incoming announcements of our own ASN. .
+remarks:        . - Route more smaller than a /24. .
+remarks:        . - We preserve to filter incoming communities, .
+remarks:        . metrics and alike. .
+remarks:        .........................................................
+remarks:
+admin-c:        DEST-RIPE
+tech-c:         DEST-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-DEST
+mnt-by:         MNT-BNS
+created:        2006-08-22T14:08:51Z
+last-modified:  2018-09-04T10:18:13Z
+source:         RIPE # Filtered
+
+organisation:   ORG-DN490-RIPE
+org-name:       Destiny N.V
+org-type:       LIR
+address:        Excelsiorlaan 89
+address:        1930
+address:        Zaventem
+address:        BELGIUM
+phone:          +3224019700
+fax-no:         +3224019744
+admin-c:        SDW-RIPE
+admin-c:        DEST-RIPE
+abuse-c:        AR14170-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-DEST
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-DEST
+created:        2008-08-08T09:47:21Z
+last-modified:  2016-07-25T15:41:14Z
+source:         RIPE # Filtered
+
+role:           Destiny N.V - S.A
+address:        Excelsiorlaan 89 1930 Zaventem Belgium
+phone:          +3224019700
+fax-no:         +3224019744
+admin-c:        CCC25-RIPE
+tech-c:         CCC25-RIPE
+nic-hdl:        DEST-RIPE
+mnt-by:         MNT-DEST
+created:        2008-08-12T12:48:54Z
+last-modified:  2013-08-19T11:25:23Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

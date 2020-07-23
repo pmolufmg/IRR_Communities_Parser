@@ -1,0 +1,59 @@
+aut-num:        AS9085
+as-name:        SUPERMEDIA-AS
+remarks:        Warsaw, Poland
+org:            ORG-SM1-RIPE
+import:         from AS1299 action pref=80; accept ANY
+import:         from AS8545 action pref=90; accept AS-PLIX
+import:         from AS5617 accept ANY
+export:         to AS1299 announce AS-SUPERMEDIA
+export:         to AS8545 announce AS-SUPERMEDIA
+export:         to AS5617 announce AS-SUPERMEDIA
+default:        to AS1299 action pref=50; networks ANY
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:
+remarks:        Community policy for AS9085
+remarks:        ============================
+remarks:
+remarks:        Communities settable by customers
+remarks:        --------------------------------------------------------------
+remarks:        9085:9110 do not announce to Telia (AS1299)
+remarks:        9085:9111 prepend 1x 9085 when announcing to Telia
+remarks:        9085:9115 prepend 5x 9085 when announcing to Telia
+remarks:
+remarks:        9085:9410 do not announce to Orange (AS5617)
+remarks:        9085:9411 prepend 1x 9085 when announcing to Orange
+remarks:        9085:9415 prepend 5x 9085 when announcing to Orange
+remarks:
+remarks:        9085:9910 do not announce to PLIX members
+remarks:        9085:9911 prepend 1x 9085 when announcing to PLIX members
+remarks:        9085:9915 prepend 5x 9085 when announcing to PLIX members
+remarks:
+remarks:
+remarks:        Communities marked on inbound routes (read only for customers)
+remarks:        --------------------------------------------------------------
+remarks:        9085:9100 Telia (AS1299)
+remarks:        9085:9400 Orange (AS5617)
+remarks:        9085:9900 PLIX
+remarks:
+remarks:        ========================================================
+remarks:        Applied Route Flap Damping Policy conformant to RIPE-210
+remarks:        http://www.ripe.net/docs/ripe-210.html
+remarks:        ========================================================
+remarks:
+remarks:
+remarks:
+status:         ASSIGNED
+notify:         rr@supermedia.pl
+mnt-by:         SUPERMEDIA
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-09-13T21:20:05Z
+last-modified:  2017-11-20T09:09:25Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

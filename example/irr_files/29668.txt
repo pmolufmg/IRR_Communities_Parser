@@ -1,0 +1,1013 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS29615 - AS29673'
+
+as-block:       AS29615 - AS29673
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:32Z
+last-modified:  2018-11-22T15:27:32Z
+source:         RIPE
+
+% Information related to 'AS29668'
+
+% Abuse contact for 'AS29668' is 'abuse@vxtream.com'
+
+aut-num:        AS29668
+as-name:        QUBE
+descr:          http://www.vxtream.com/
+remarks:
+remarks:        ========================================================
+remarks:        Company Contact Details:
+remarks:        ========================================================
+remarks:
+remarks:        UK Office Address:
+remarks:        ------------------
+remarks:        UK Network Operations
+remarks:        vXtream Ltd
+remarks:        4th Floor
+remarks:        260-266 Goswell Road
+remarks:        London, EC1V 7EB
+remarks:        England
+remarks:        United Kingdom
+remarks:
+remarks:        Switzerland Office Address:
+remarks:        ---------------------------
+remarks:        Swiss Network Operations
+remarks:        vXtream Ltd
+remarks:        Thurgauerstrasse 40
+remarks:        CH-8050 Zurich
+remarks:        Switzerland
+remarks:
+remarks:        US Office Address:
+remarks:        ------------------
+remarks:        US Network Operations
+remarks:        Qube Managed Hosting Inc.
+remarks:        33 West 19th Street
+remarks:        4th Floor
+remarks:        New York
+remarks:        NY, 10011
+remarks:        USA
+remarks:
+remarks:        Global Telephone Contacts:
+remarks:        ----------------------
+remarks:        NOC/Support/Trouble (24/7):
+remarks:
+remarks:        UK: +44 (0) 20 7150 3810
+remarks:
+remarks:        Switzerland: +41 44 500 01 68
+remarks:
+remarks:        US: +1 (646) 351-1848
+remarks:
+remarks:        Email Contacts:
+remarks:        ---------------
+remarks:        Abuse reports to: "abuse at qubenet.net"
+remarks:
+remarks:        Peering requests: "peering at qubenet.net"
+remarks:
+remarks:        Support requests: "support at qubenet.net"
+remarks:
+remarks:        Sales: "sales at qubenet.net"
+remarks:
+remarks:
+remarks:        Web:
+remarks:        ----
+remarks:        http://www.qubenet.net/
+remarks:
+remarks:        ========================================================
+remarks:        BGP Community definitions:
+remarks:        --------------------------------------------------------
+remarks:        Prefix type:
+remarks:        --------------------------------------------------------
+remarks:        29668:200 - Internally originated QUBE route
+remarks:        29668:201 - Customer route
+remarks:        29668:202 - Peer route
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        Facility locations:
+remarks:        --------------------------------------------------------
+remarks:        29668:300 - LN1 - London 1, Level(3) - Goswell Road
+remarks:        29668:301 - LN2 - London 2, Telehouse North
+remarks:        29668:302 - NY1 - New York 1, Level(3) - 111 8th Avenue
+remarks:        29668:303 - XXN - [US expansion]
+remarks:        29668:304 - XXN - [XX expansion]
+remarks:        29668:305 - ZH1 - Zurich 1, e-shelter Zurich - Hofwissenstrasse 56
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        Internet Exchanges:
+remarks:        --------------------------------------------------------
+remarks:        London Internet Exchange:
+remarks:        -------------------------
+remarks:        29668:400 - LINX
+remarks:
+remarks:        Swiss Internet Exchange:
+remarks:        -------------------------
+remarks:        29668:401 - SwissIX
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        Customer traffic engineering:
+remarks:        --------------------------------------------------------
+remarks:        Note: local pref set to 100 by default
+remarks:
+remarks:        29668:120 - set local pref to 120
+remarks:        29668:80 - set local pref to 80
+remarks:
+remarks:        29668:666 - Blackhole (ge /24 only)
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        Peering, locations and interconnection details:
+remarks:        --------------------------------------------------------
+remarks:
+remarks:        We have an OPEN peering policy and will peer at ANY
+remarks:        mutual locations.
+remarks:
+remarks:        Please e-mail: "peering at qubenet.net"
+remarks:
+remarks:        More info available at: http://www.as29668.net/
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        Public looking glass:
+remarks:        --------------------------------------------------------
+remarks:
+remarks:        https://www.myqubenet.net/lookingglass/
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:        IP Transit Upstreams:
+remarks:        ---------------------------------------------------------
+remarks:        Level(3) Communications
+remarks:        -
+import:         from AS3356 action pref=80; accept ANY
+export:         to AS3356 announce AS-QUBE
+remarks:
+remarks:        Abovenet/MFN
+remarks:        -
+import:         from AS6461 action pref=80; accept ANY
+export:         to AS6461 announce AS-QUBE
+remarks:
+remarks:        Init Seven AG
+remarks:        -
+import:         from AS13030 action pref=80; accept ANY
+export:         to AS13030 announce AS-QUBE
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:        IP Transit Customers:
+remarks:        ---------------------------------------------------------
+remarks:
+remarks:        CentralNic Ltd
+remarks:        -
+import:         from AS42044 action pref=100; accept AS42044
+export:         to AS42044 announce ANY
+import:         from AS206925 action pref=100; accept AS206925
+export:         to AS206925 announce ANY
+remarks:
+remarks:        Jamie Oliver Ltd
+remarks:        -
+import:         from AS50972 action pref=100; accept AS50972
+export:         to AS50972 announce ANY
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:        Peering (Private):
+remarks:        ---------------------------------------------------------
+remarks:
+remarks:        Star Internet Ltd
+remarks:        -
+import:         from AS6656 action pref=90; accept AS-STG
+export:         to AS6656 announce AS-QUBE
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:        Peering (Internet Exchanges):
+remarks:        ---------------------------------------------------------
+remarks:
+remarks:        ---------------------------
+remarks:        - London Internet Exchange:
+remarks:        ---------------------------
+remarks:
+remarks:        London Internet Exchange Ltd. - LINX Transit AS Peering
+remarks:        -
+import:         from AS5459 action pref=85; accept AS-LINX
+export:         to AS5459 announce AS-QUBE
+remarks:
+remarks:        London Internet Exchange - LINX Peering AS Route Servers
+remarks:        -
+import:         from AS8714 action pref=85; accept AS8714
+export:         to AS8714 announce AS-QUBE
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:        - LINX Direct PEERS:
+remarks:        ---------------------------------------------------------
+remarks:        1&1 Internet AG
+remarks:        -
+import:         from AS8560 action pref=85; accept AS-SCHLUND
+export:         to AS8560 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Akamai Technologies (European AS)
+remarks:        -
+import:         from AS20940 action pref=85; accept AS-AKAMAI
+export:         to AS20940 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Altecom (Alta Tecnologia en Comunicaciones, S.L.)
+remarks:        -
+import:         from AS16030 action pref=85; accept AS-ALTECOM
+export:         to AS16030 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Altman
+remarks:        -
+import:         from AS24724 action pref=85; accept AS24724:AS-FOREIGN
+export:         to AS24724 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Amazon
+remarks:        -
+import:         from AS16509 action pref=85; accept AS-AMAZON
+export:         to AS16509 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Andrews + Arnold Ltd
+remarks:        -
+import:         from AS20712 action pref=85; accept AS-AA
+export:         to AS20712 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Associated Networks (UK) Ltd
+remarks:        -
+import:         from AS25061 action pref=85; accept AS-ANLX
+export:         to AS25061 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Arcor AG & Co.
+remarks:        -
+import:         from AS3209 action pref=85; accept AS-ARCORGLOBAL
+export:         to AS3209 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Asdasd
+remarks:        -
+import:         from AS28929 action pref=85; accept AS-ASDASD
+export:         to AS28929 announce AS-QUBE
+remarks:        ----------------------------------------------------------
+remarks:        Ask4 Limited
+remarks:        -
+import:         from AS41230 action pref=85; accept AS-ASK4
+export:         to AS41230 announce AS-QUBE
+remarks:        ----------------------------------------------------------
+remarks:        Atlas Business Group
+remarks:        -
+import:         from AS13005 action pref=85; accept AS-C2INTERNET
+export:         to AS13005 announce AS-QUBE
+remarks:        ------------------------------------------------------------
+remarks:        Atlas Internet
+remarks:        -
+import:         from AS8607 action pref=85; accept AS-ATLAS
+export:         to AS8607 announce AS-QUBE
+remarks:        ----------------------------------------------------------
+remarks:        BASE IP BV
+remarks:        -
+import:         from AS34305 action pref=85; accept AS-BASEIP
+export:         to AS34305 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        BIT BV
+remarks:        -
+import:         from AS12859 action pref=85; accept AS-BIT
+export:         to AS12859 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        BITGRAVITY INC
+remarks:        -
+import:         from AS40009 action pref=85; accept AS-BITGRAVITY
+export:         to AS40009 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        BBC Internet Services, UK
+remarks:        -
+import:         from AS2818 action pref=85; accept AS-BBC
+export:         to AS2818 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Belgacom International Carrier Services
+remarks:        -
+import:         from AS6774 action pref=85; accept AS-BELBONETOPEERS
+export:         to AS6774 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Bezeq International (Israel)
+remarks:        -
+import:         from AS8551 action pref=85; accept AS-BEZEQINT
+export:         to AS8551 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        BroadbandONE
+remarks:        -
+import:         from AS19151 action pref=85; accept AS-BBOI
+export:         to AS19151 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Cable and Wireless Access Ltd
+remarks:        -
+import:         from AS25310 action pref=85; accept AS25310
+export:         to AS25310 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Catalyst2 Services Ltd
+remarks:        -
+import:         from AS29636 action pref=85; accept AS29636
+export:         to AS29636 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        CCSLEEDS
+remarks:        -
+import:         from AS34555 action pref=85; accept AS-CCSLEEDS
+export:         to AS-CCSLEEDS announce AS-QUBE
+remarks:
+remarks:        Cerberus Networks
+remarks:        -
+import:         from AS51918 action pref=85; accept AS-CERBERUSNETWORKS
+export:         to AS51918 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        ClaraNET
+remarks:        -
+import:         from AS8426 action pref=85; accept AS-CLARANET
+export:         to AS8426 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        COLT Telecommunications
+remarks:        -
+import:         from AS8220 action pref=85; accept AS-COLT
+export:         to AS8220 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        ConXion Corporation Europe / NaviSite
+remarks:        -
+import:         from AS9193 action pref=85; accept AS-CONXIONEU
+export:         to AS9193 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Connections 4 London
+remarks:        -
+import:         from AS25577 action pref=85; accept AS-C4L
+export:         to AS25577 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        DataPipe
+remarks:        -
+import:         from AS14492 action pref=85; accept AS-DATAPIPE
+export:         to AS14492 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        DediPower Managed Hosting Limited
+remarks:        -
+import:         from AS24931 action pref=85; accept AS-DEDIPOWER
+export:         to AS24931 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Domicilium (IoM) Limited
+remarks:        -
+import:         from AS15766 action pref=85; accept AS-DOMICILIUM
+export:         to AS15766 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Easynet Group Plc
+remarks:        -
+import:         from AS4589 action pref=85; accept AS-EASYNET
+export:         to AS4589 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Eaton Kaye Ltd
+remarks:        -
+import:         from AS34746 action pref=85; accept AS-EATON
+export:         to AS34746 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Eclipse Internet (part of KCOM Group PLC)
+remarks:        -
+import:         from AS12513 action pref=85; accept AS-ECLIPSE
+export:         to AS12513 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Econet Carrier Services
+remarks:        -
+import:         from AS30844 action pref=85; accept AS-ECS
+export:         to AS30844 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Elite Limited
+remarks:        -
+import:         from AS29611 action pref=85; accept AS-ELITE
+export:         to AS29611 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        ENTANET International Ltd
+remarks:        -
+import:         from AS8468 action pref=85; accept AS-ENTANET
+export:         to AS8468 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Emirates Telecommunications Corporation
+remarks:        -
+import:         from AS8966 action pref=85; accept AS-EMIX
+export:         to AS8966 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Equinix Ltd
+remarks:        -
+import:         from AS21371 action pref=85; accept AS-EQUINIX-EU
+export:         to AS21371 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        EuroTransit GmbH
+remarks:        -
+import:         from AS251 action pref=85; accept AS-KAIAGLOBAL
+export:         to AS251 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Exa Networks Limited
+remarks:        -
+import:         from AS30740 action pref=85; accept AS-EXA
+export:         to AS30740 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Facebook, Inc.
+remarks:        -
+import:         from AS32934 action pref=85; accept AS32934
+export:         to AS32934 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        freenet Cityline GmbH
+remarks:        -
+import:         from AS5430 action pref=85; accept AS-FREENETDE
+export:         to AS5430 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Fujitsu
+remarks:        -
+import:         from AS49572 action pref=85; accept AS-FCN
+export:         to AS49572 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        GAME Stores Group Ltd
+remarks:        -
+import:         from AS21099 action pref=85; accept AS-GAMEGROUP-LINX
+export:         to AS21099 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Global One
+remarks:        -
+import:         from AS4004 action pref=85; accept AS-GLOBALONE-UK
+export:         to AS4004 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        (Globix) Quality Technology Services
+remarks:        -
+import:         from AS4513 action pref=85; accept AS-GLOBIX
+export:         to AS4513 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Group NBT plc (NetBenefit)
+remarks:        -
+import:         from AS8912 action pref=85; accept AS-NETBENEFIT
+export:         to AS8912 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Gyron Internet Ltd
+remarks:        -
+import:         from AS29017 action pref=85; accept AS-GYRON
+export:         to AS29017 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Hurricane Electric
+remarks:        -
+import:         from AS6939 action pref=85; accept AS-HURRICANE
+export:         to AS6939 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        ICLnet Fujitsu Services
+remarks:        -
+import:         from AS6779 action pref=85; accept AS-ICLNET
+export:         to AS6779 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        IELO
+remarks:        -
+import:         from AS29075 action pref=85; accept AS-IELO
+export:         to AS29075 announce AS-QUBE
+remarks:        ----------------------------------------------------------
+remarks:        Iomart Hosting Ltd
+remarks:        -
+import:         from AS20860 action pref=85; accept AS-IOMART
+export:         to AS20860 announce AS-QUBE
+remarks:        ----------------------------------------------------------
+remarks:        Inweb Networks (Edge Telecom Ltd t/a Edge Telecom)
+remarks:        -
+import:         from AS8851 action pref=85; accept AS-INWEB
+export:         to AS8851 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Init Seven AG, Zurich, Switzerland
+remarks:        -
+import:         from AS13030 action pref=85; accept AS13030
+export:         to AS13030 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Interconnect Exchange Europe Ltd
+remarks:        -
+import:         from AS21371 action pref=85; accept AS-IXEUROPE
+export:         to AS21371 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Internet Solutions (Pty) Ltd
+remarks:        -
+import:         from AS3741 action pref=85; accept AS-IS
+export:         to AS3741 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        inuknetworks ltd
+remarks:        -
+import:         from AS42689 action pref=85; accept AS-INUK
+export:         to AS42689 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        ioko365 Ltd
+remarks:        -
+import:         from AS30914 action pref=85; accept AS-IOKO
+export:         to AS30914 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        IPTriplePlay Service
+remarks:        -
+import:         from AS41095 action pref=85; accept AS-IPTP
+export:         to AS41095 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        IP-Only Telecommunication AB
+remarks:        -
+import:         from AS12552 action pref=85; accept AS-IPO
+export:         to AS12552 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        ISC F-Root Name Server
+remarks:        -
+import:         from AS33081 action pref=85; accept AS33081
+export:         to AS33081 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        (The) JANET IP Service
+remarks:        -
+import:         from AS786 action pref=85; accept AS-JANETPLUS
+export:         to AS786 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Jazz Telecom
+remarks:        -
+import:         from AS12715 action pref=85; accept AS-JAZZTRANS
+export:         to AS12715 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        KillerCreation Networks Ltd
+remarks:        -
+import:         from AS25369 action pref=85; accept AS-KILLERCREATION
+export:         to AS25369 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Kingston Communications PLC
+remarks:        -
+import:         from AS12390 action pref=85; accept AS-KINGSTONUK
+export:         to AS12390 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Manx Telecom Limited
+remarks:        -
+import:         from AS13122 action pref=85; accept AS-MANX
+export:         to AS13122 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Media Network Services
+remarks:        -
+import:         from AS44654 action pref=85; accept AS-MNS
+export:         to AS-MNS announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        MERULA LIMITED
+remarks:        -
+import:         from AS16353 action pref=85; accept AS-MERULA
+export:         to AS16353 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Microsoft London IDC
+remarks:        -
+import:         from AS8068 action pref=85; accept AS-MICROSOFTEU
+export:         to AS8068 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        MTN Network Solutions (Pty) Ltd
+remarks:        -
+import:         from AS16637 action pref=85; accept AS-MTNNS
+export:         to AS16637 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Mistral Internet
+remarks:        -
+import:         from AS8897 action pref=85; accept AS-MISTRAL
+export:         to AS8897 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Net Access Corporation
+remarks:        -
+import:         from AS8001 action pref=85; accept AS-8001
+export:         to AS8001 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Netcetera Ltd.
+remarks:        -
+import:         from AS24851 action pref=85; accept AS-NETCETERA
+export:         to AS24851 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        NetConnex Broadband Ltd.
+remarks:        -
+import:         from AS21396 action pref=85; accept AS-NETCONNEX
+export:         to AS21396 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        NETDIRECT Frankfurt
+remarks:        -
+import:         from AS28753 action pref=85; accept AS-NETDIRECT
+export:         to AS28753 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        NetrinoUK Ltd
+remarks:        -
+import:         from AS31715 action pref=85; accept AS-NETRINO
+export:         to AS31715 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        NEUF CEGETEL (formerly LDCOM NETWORKS)
+remarks:        -
+import:         from AS15557 action pref=85; accept AS-LDCOMNET
+export:         to AS15557 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Nexicom Ltd
+remarks:        -
+import:         from AS11666 action pref=85; accept AS11666
+export:         to AS11666 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Node4 Ltd, UK
+remarks:        -
+import:         from AS31727 action pref=85; accept AS-NODE4
+export:         to AS31727 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        NTL Group Limited
+remarks:        -
+import:         from AS5089 action pref=85; accept AS-NTLI
+export:         to AS5089 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        012 Smile Communications
+remarks:        -
+import:         from AS9116 action pref=85; accept AS-GOLDEN
+export:         to AS9116 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        OMNITEL Lithuania
+remarks:        -
+import:         from AS5522 action pref=85; accept AS-OMNITEL-PEER
+export:         to AS5522 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Onyx Internet
+remarks:        -
+import:         from AS6067 action pref=85; accept AS-ONYX
+export:         to AS6067 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Opal Telecom
+remarks:        -
+import:         from AS13285 action pref=85; accept AS-OPAL
+export:         to AS13285 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Orbital Net Limited
+remarks:        -
+import:         from AS24916 action pref=85; accept AS-ORBITAL
+export:         to AS24916 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        OTE GLOBAL SOLUTIONS S.A.
+remarks:        -
+import:         from AS12713 action pref=85; accept AS12713
+export:         to AS12713 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Othello Technology Systems Ltd
+remarks:        -
+import:         from AS29527 action pref=85; accept AS-OTHELLOTECH
+export:         to AS29527 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Packet Clearing House (1)
+remarks:        -
+import:         from AS42 action pref=85; accept AS-PCH
+export:         to AS42 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Packet Clearing House (2)
+remarks:        -
+import:         from AS3856 action pref=85; accept AS-PCH
+export:         to AS3856 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        P&T Luxembourg
+remarks:        -
+import:         from AS6661 action pref=85; accept AS-PTLU
+export:         to AS6661 announce AS-QUBE
+remarks:        ----------------------------------------------------------
+remarks:        Panther Express
+remarks:        -
+import:         from AS36408 action pref=85; accept AS-PANTHER
+export:         to AS36408 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Peer1 Network Inc.
+remarks:        -
+import:         from AS13768 action pref=85; accept AS-13768
+export:         to AS13768 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Pipex
+remarks:        -
+import:         from AS5413 action pref=85; accept AS5413
+export:         to AS5413 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        PlusNet PLC
+remarks:        -
+import:         from AS6871 action pref=85; accept AS-PLUSNETUK:AS-LINX-PEERS-PRI
+export:         to AS6871 announce AS-QUBE
+remarks:        -
+import:         from AS6871 action pref=85; accept AS-PLUSNETUK:AS-LINX-PEERS-SEC
+export:         to AS6871 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Portugal Telecom
+remarks:        -
+import:         from AS8657 action pref=85; accept AS-CPRM
+export:         to AS8657 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Prolexic Technologies, Inc.
+remarks:        -
+import:         from AS32787 action pref=85; accept AS-PROLE
+export:         to AS32787 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Redstation
+remarks:        -
+import:         from AS35662 action pref=85; accept AS-ORIGINS
+export:         to AS35662 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        ReTN.net
+remarks:        -
+import:         from AS9002 action pref=85; accept AS-RETN
+export:         to AS9002 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        RM PLC
+remarks:        -
+import:         from AS5503 action pref=85; accept AS-RMIFL
+export:         to AS5503 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Romanian Data Systems
+remarks:        -
+import:         from AS8708 action pref=85; accept AS-RDSNET
+export:         to AS8708 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        root eSolutions / Luxembourg
+remarks:        -
+import:         from AS44042 action pref=85; accept AS-ROOT
+export:         to AS44042 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Sargasso Networks
+remarks:        -
+import:         from AS42579 action pref=85; accept AS-SARGASSO-UK
+export:         to AS42579 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Sony Computer Entertainment Europe (SCEE)
+remarks:        -
+import:         from AS25562 action pref=85; accept AS-SCEE
+export:         to AS25562 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Spitfire Network Services Ltd.
+remarks:        -
+import:         from AS16082 action pref=85; accept AS-SPITFIRE
+export:         to AS16082 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        StratoGen Internet Ltd.
+remarks:        -
+import:         from AS50292 action pref=85; accept AS-GLOBAL
+export:         to AS50292 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Sunrise Telecom (TDC Switzerland AG)
+remarks:        -
+import:         from AS6730 action pref=85; accept AS-GLOBAL
+export:         to AS6730 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        TDC Finland
+remarks:        -
+import:         from AS3246 action pref=85; accept AS-TDCSONG
+export:         to AS3246 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Telefonica Deutschland
+remarks:        -
+import:         from AS6805 action pref=85; accept AS-TDDE
+export:         to AS6805 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        TeleCity Group UK
+remarks:        -
+import:         from AS15830 action pref=85; accept AS-TELECITYLON
+export:         to AS15830 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Telenor Nordic/Nextbone
+remarks:        -
+import:         from AS8210 action pref=85; accept AS-TELENOR
+export:         to AS8210 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        TENET/Ubuntunet
+remarks:        -
+import:         from AS36944 action pref=85; accept AS-TERTIARY
+export:         to AS36944 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Telstra Europe Ltd
+remarks:        -
+import:         from AS1290 action pref=85; accept AS-PSINETUK
+export:         to AS1290 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Terremark
+remarks:        -
+import:         from AS23148 action pref=85; accept AS-TWW
+export:         to AS23148 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Transversal.com
+remarks:        -
+import:         from AS47999 action pref=85; accept AS47999
+export:         to AS47999 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Trunk Networks
+remarks:        -
+import:         from AS49375 action pref=85; accept AS-TRUNKNETWORKS
+export:         to AS49375 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Verisign
+remarks:        -
+import:         from AS7342 action pref=85; accept AS-GTLD
+export:         to AS7342 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Vital Group
+remarks:        -
+import:         from AS5631 action pref=85; accept AS-VITAL-GROUP
+export:         to AS5631 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        VTX Services
+remarks:        -
+import:         from AS12350 action pref=85; accept AS-VTX
+export:         to AS12350 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Websense Hosted Security
+remarks:        -
+import:         from AS44444 action pref=85; accept AS-WHS-EU
+export:         to AS44444 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Waveworks Internet
+remarks:        -
+import:         from AS34790 action pref=85; accept AS-WAVEWORKS
+export:         to AS34790 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        WEBEX
+remarks:        -
+import:         from AS13445 action pref=85; accept AS-WEBEX
+export:         to AS13445 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Webfusion
+remarks:        -
+import:         from AS20738 action pref=85; accept AS20738
+export:         to AS20738 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        WIND/INFOSTRADA
+remarks:        -
+import:         from AS1267 action pref=85; accept AS-INFOSTRADA
+export:         to AS1267 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Wyre Forest Computer Solutions Ltd
+remarks:        -
+import:         from AS35751 action pref=85; accept AS-WFCS
+export:         to AS35751 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Yahoo, Inc.
+remarks:        -
+import:         from AS10310 action pref=85; accept AS-YAHOO
+export:         to AS10310 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        Xifos Limited
+remarks:        -
+import:         from AS34442 action pref=85; accept AS-XIFOS
+export:         to AS34442 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        -
+remarks:        -
+remarks:        --------------------------
+remarks:        - Swiss Internet Exchange:
+remarks:        --------------------------
+remarks:
+remarks:        Swiss Internet Exchange - SwissIX Transit AS
+remarks:        -
+import:         from AS20612 action pref=85; accept AS-LINX
+export:         to AS20612 announce AS-QUBE
+remarks:
+remarks:        Swiss Internet Exchange - SwissIX Peering AS : Route Servers
+remarks:        -
+import:         from AS42476 action pref=85; accept AS42476
+export:         to AS42476 announce AS-QUBE
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        - SwissIX Direct PEERS:
+remarks:        --------------------------------------------------------
+remarks:        Akamai Technologies
+remarks:        -
+import:         from AS20940 action pref=85; accept AS-AKAMAI
+export:         to AS20940 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        ANEXIA Internetdienstleistungs GmbH
+remarks:        -
+import:         from AS42473 action pref=85; accept AS-ANEXIA
+export:         to AS42473 announce AS-QUBE
+remarks:        ------------------------------------------------------
+remarks:        Bundesamt fuer Informatik und Telekommunikation BIT
+remarks:        -
+import:         from AS33845 action pref=85; accept AS-SWISSGOV
+export:         to AS33845 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        aurax connecta ag
+remarks:        -
+import:         from AS31662 action pref=85; accept AS-KNSURSELVA
+export:         to AS31662 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        Computerline GmbH
+remarks:        -
+import:         from AS41913 action pref=85; accept AS-COMPUTERLINE
+export:         to AS41913 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        DreamLab Technologies AG
+remarks:        -
+import:         from AS49237 action pref=85; accept AS-DREAMLAB
+export:         to AS49237 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        ISP Pro
+remarks:        -
+import:         from AS35366 action pref=85; accept AS-ISPPRO
+export:         to AS35366 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        GGA Maur
+remarks:        -
+import:         from AS21232 action pref=85; accept AS-GGAMAUR
+export:         to AS21232 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        GIB-Solutions AG
+remarks:        -
+import:         from AS41872 action pref=85; accept AS-FLASHCABLE
+export:         to AS41872 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        GPS Technik AG
+remarks:        -
+import:         from AS8833 action pref=85; accept AS-GPS
+export:         to AS8833 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        Hurricane Electric
+remarks:        -
+import:         from AS6939 action pref=85; accept AS-HURRICANE
+export:         to AS6939 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        IP-Max Network Services
+remarks:        -
+import:         from AS25091 action pref=85; accept AS-IP-MAX
+export:         to AS25091 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        Kantonsschule Zug
+remarks:        -
+import:         from AS34288 action pref=85; accept AS34288:AS-IX:AS-SWISSIX
+export:         to AS34288 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        mhs@internet AG
+remarks:        -
+import:         from AS16242 action pref=85; accept AS-MHS
+export:         to AS16242 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        MiroNet GmbH
+remarks:        -
+import:         from AS49983 action pref=85; accept AS-MIRONET
+export:         to AS49983 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        OpenCarrier eG
+remarks:        -
+import:         from AS41692 action pref=85; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        Panalpina World Transport Ltd
+remarks:        -
+import:         from AS20984 action pref=85; accept AS-PANALPINA
+export:         to AS20984 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        Red Transit LLC
+remarks:        -
+import:         from AS57048 action pref=85; accept AS-REDTRANSIT4
+export:         to AS57048 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        ScanPlus GmbH
+remarks:        -
+import:         from AS12399 action pref=85; accept AS-SPXS
+export:         to AS12399 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        TNG Stadtnetz GmbH
+remarks:        -
+import:         from AS13101 action pref=85; accept AS-TNG
+export:         to AS13101 announce AS-QUBE
+remarks:        ---------------------------------------------------------
+remarks:        VTX Services SA
+remarks:        -
+import:         from AS12350 action pref=85; accept AS-VTX
+export:         to AS12350 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:        Warinet Global Services SA
+remarks:        -
+import:         from AS15469 action pref=85; accept AS-WARINET
+export:         to AS15469 announce AS-QUBE
+remarks:        --------------------------------------------------------
+remarks:
+remarks:
+org:            ORG-VL224-RIPE
+admin-c:        VS10009-RIPE
+tech-c:         VS10009-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         uk-vxtream-1-mnt
+created:        2003-11-06T13:17:30Z
+last-modified:  2018-09-04T09:59:21Z
+source:         RIPE
+
+organisation:   ORG-VL224-RIPE
+org-name:       vXtream Ltd
+org-type:       LIR
+address:        260-266 Goswell Road
+address:        EC1V 7EB
+address:        London
+address:        UNITED KINGDOM
+admin-c:        VN2751-RIPE
+tech-c:         VN2751-RIPE
+abuse-c:        AR40258-RIPE
+mnt-ref:        uk-vxtream-1-mnt
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         uk-vxtream-1-mnt
+created:        2017-05-03T13:22:11Z
+last-modified:  2017-05-18T10:13:59Z
+source:         RIPE # Filtered
+phone:          +4420 7150 3800
+
+person:         Edward St Pierre
+address:        260-266 Goswell Road
+address:        EC1V 7EB
+address:        London
+address:        UNITED KINGDOM
+phone:          +4420 7846 9502
+nic-hdl:        VS10009-RIPE
+mnt-by:         uk-vxtream-1-mnt
+created:        2017-05-03T13:22:10Z
+last-modified:  2017-05-18T10:10:15Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

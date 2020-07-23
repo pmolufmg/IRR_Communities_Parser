@@ -1,0 +1,275 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS25365 - AS25542'
+
+as-block:       AS25365 - AS25542
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:30Z
+last-modified:  2018-11-22T15:27:30Z
+source:         RIPE
+
+% Information related to 'AS25394'
+
+% Abuse contact for 'AS25394' is 'abuse@mk-netzdienste.de'
+
+aut-num:        AS25394
+org:            ORG-MNGC1-RIPE
+as-name:        MK-NETZDIENSTE-AS
+remarks:
+remarks:        # IPv4
+import:         from AS174 accept ANY
+import:         from AS1299 accept ANY
+import:         from AS2914 accept ANY
+import:         from AS3320 accept ANY
+import:         from AS5605 accept AS-NETUSE
+import:         from AS8319 accept AS-IXNETHINKS
+import:         from AS8648 accept AS-KAMP
+import:         from AS8820 accept AS-TAL
+import:         from AS9211 accept AS-WORK
+import:         from AS9188 accept AS-INFOSERVE
+import:         from AS12360 accept AS-KTK-V4
+import:         from AS12915 accept AS12915
+import:         from AS12923 accept AS-WIZARD
+import:         from AS13101 accept AS-TNG
+import:         from AS15779 accept AS15779
+import:         from AS15925 accept AS-MEGA
+import:         from AS16097 accept AS-HLKOMM
+import:         from AS20676 accept AS-QSC
+import:         from AS20677 accept AS20677
+import:         from AS20791 accept AS20791
+import:         from AS20792 accept AS20792
+import:         from AS21263 accept AS-TELEDATA
+import:         from AS24637 accept AS-WEBDISCOUNT
+import:         from AS25279 accept AS-TREML-STURM
+import:         from AS25415 accept AS-ADDIX
+import:         from AS25560 accept AS-RHTEC
+import:         from AS28676 accept AS-WITCOM
+import:         from AS31197 accept AS-FNH
+import:         from AS31572 accept AS-PHOTONIUM
+import:         from AS34219 accept AS34219
+import:         from AS41163 accept AS41163
+import:         from AS41286 accept AS41286
+import:         from AS41723 accept AS41723
+import:         from AS42034 accept AS-DNSYSTEMS
+import:         from AS42281 accept AS42281
+import:         from AS42730 accept AS42730
+import:         from AS43150 accept AS43150
+import:         from AS49499 accept AS49499
+import:         from AS50469 accept AS-HESSENKOM-UP
+import:         from AS50629 accept AS-LWL
+import:         from AS50978 accept AS50978
+import:         from AS58010 accept AS58010
+import:         from AS59507 accept AS-TLN
+import:         from AS135164 accept AS135164
+import:         from AS198205 accept AS198205
+import:         from AS198956 accept AS198956
+import:         from AS202741 accept AS202741
+import:         from AS203347 accept AS203347
+export:         to AS174 announce AS-MK-NETZDIENSTE
+export:         to AS1299 announce AS-MK-NETZDIENSTE
+export:         to AS2914 announce AS-MK-NETZDIENSTE
+export:         to AS3320 announce AS-MK-NETZDIENSTE
+export:         to AS5605 announce AS-MK-NETZDIENSTE
+export:         to AS8319 announce AS-MK-NETZDIENSTE
+export:         to AS8648 announce AS-MK-NETZDIENSTE
+export:         to AS8820 announce AS-MK-NETZDIENSTE
+export:         to AS9188 announce ANY
+export:         to AS9211 announce AS-MK-NETZDIENSTE
+export:         to AS12360 announce AS-MK-NETZDIENSTE
+export:         to AS12915 announce ANY
+export:         to AS12923 announce AS-MK-NETZDIENSTE
+export:         to AS13101 announce AS-MK-NETZDIENSTE
+export:         to AS15779 announce ANY
+export:         to AS15925 announce AS-MK-NETZDIENSTE
+export:         to AS16097 announce AS-MK-NETZDIENSTE
+export:         to AS20676 announce AS-MK-NETZDIENSTE
+export:         to AS20677 announce AS-MK-NETZDIENSTE
+export:         to AS20791 announce ANY
+export:         to AS20792 announce ANY
+export:         to AS21263 announce AS-MK-NETZDIENSTE
+export:         to AS24637 announce AS-MK-NETZDIENSTE
+export:         to AS25279 announce AS-MK-NETZDIENSTE
+export:         to AS25415 announce AS-MK-NETZDIENSTE
+export:         to AS25560 announce AS-MK-NETZDIENSTE
+export:         to AS28676 announce AS-MK-NETZDIENSTE
+export:         to AS31572 announce AS-MK-NETZDIENSTE
+export:         to AS34219 announce ANY
+export:         to AS41163 announce ANY
+export:         to AS41286 announce ANY
+export:         to AS41723 announce ANY
+export:         to AS42034 announce ANY
+export:         to AS42281 announce ANY
+export:         to AS42730 announce ANY
+export:         to AS43150 announce ANY
+export:         to AS49499 announce ANY
+export:         to AS50469 announce AS-MK-NETZDIENSTE
+export:         to AS50629 announce AS-MK-NETZDIENSTE
+export:         to AS50978 announce ANY
+export:         to AS58010 announce AS-MK-NETZDIENSTE
+export:         to AS59507 announce AS-MK-NETZDIENSTE
+export:         to AS135164 announce AS-MK-NETZDIENSTE
+export:         to AS198205 announce ANY
+export:         to AS198956 announce ANY
+export:         to AS202741 announce ANY
+export:         to AS203347 announce ANY
+remarks:
+remarks:        # IPv6
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-import:      afi ipv6.unicast from AS2914 accept ANY
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+mp-import:      afi ipv6.unicast from AS8648 accept AS-KAMP
+mp-import:      afi ipv6.unicast from AS9178 accept AS9178
+mp-import:      afi ipv6.unicast from AS9188 accept AS-INFOSERVE-V6
+mp-import:      afi ipv6.unicast from AS12731 accept AS-IPHH-V6
+mp-import:      afi ipv6.unicast from AS12915 accept AS12915
+mp-import:      afi ipv6.unicast from AS13101 accept AS-TNG
+mp-import:      afi ipv6.unicast from AS21263 accept AS-TELEDATA
+mp-import:      afi ipv6.unicast from AS25279 accept AS-TREML-STURM
+mp-import:      afi ipv6.unicast from AS34219 accept AS34219
+mp-import:      afi ipv6.unicast from AS41163 accept AS41163
+mp-import:      afi ipv6.unicast from AS42034 accept AS-DNSYSTEMS
+mp-import:      afi ipv6.unicast from AS42730 accept AS42730
+mp-import:      afi ipv6.unicast from AS50629 accept AS-LWL
+mp-import:      afi ipv6.unicast from AS198956 accept AS198956
+mp-import:      afi ipv6.unicast from AS201824 accept AS201824
+mp-export:      afi ipv6.unicast to AS174 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS1299 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS2914 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS3320 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS8648 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS9178 announce ANY
+mp-export:      afi ipv6.unicast to AS9188 announce ANY
+mp-export:      afi ipv6.unicast to AS12731 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS12915 announce ANY
+mp-export:      afi ipv6.unicast to AS13101 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS21263 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS25279 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS34219 announce ANY
+mp-export:      afi ipv6.unicast to AS41163 announce ANY
+mp-export:      afi ipv6.unicast to AS42034 announce ANY
+mp-export:      afi ipv6.unicast to AS42730 announce ANY
+mp-export:      afi ipv6.unicast to AS50629 announce AS-MK-NETZDIENSTE-V6
+mp-export:      afi ipv6.unicast to AS198956 announce ANY
+mp-export:      afi ipv6.unicast to AS201824 announce ANY
+remarks:
+remarks:
+remarks:        # Communitites in AS25394
+remarks:
+remarks:        # Origin of routes:
+remarks:        25394:10 Origin in AS25394 (Self)
+remarks:        25394:20 customer
+remarks:        25394:30 NTT transit
+remarks:        25394:40 TELIA transit
+remarks:        25394:50 private peering
+remarks:        25394:70 COGENT transit
+remarks:        25394:80 DE-CIX peering
+remarks:        25394:90 ECIX peering
+remarks:
+remarks:        # Communities accepted from customers:
+remarks:
+remarks:        =============================================
+remarks:        Local Preference
+remarks:        =============================================
+remarks:        Customer Peering Default = 150
+remarks:        Private Peering Default = 120
+remarks:        Public Peering Default = 110
+remarks:        Transit Peering Default = 100
+remarks:        25394:1100 LocalPref=100
+remarks:        25394:1110 LocalPref=110
+remarks:        25394:1120 LocalPref=120
+remarks:        ======================================================
+remarks:        Suppression / Prepend
+remarks:        ======================================================
+remarks:        25394:2000 Do not announce to NTT AS2914
+remarks:        25394:2001 Prepend 1x when announcing to NTT
+remarks:        25394:2002 Prepend 2x when announcing to NTT
+remarks:        25394:2003 Prepend 3x when announcing to NTT
+remarks:        ------------------------------------------------------
+remarks:        25394:2030 Do not announce to DE-CIX Peers
+remarks:        25394:2031 Prepend 1x when announcing to DE-CIX Peers
+remarks:        25394:2032 Prepend 2x when announcing to DE-CIX Peers
+remarks:        25394:2033 Prepend 3x when announcing to DE-CIX Peers
+remarks:        ------------------------------------------------------
+remarks:        25394:2040 Do not announce to TELIA AS1299
+remarks:        25394:2041 Prepend 1x when announcing to TELIA
+remarks:        25394:2042 Prepend 2x when announcing to TELIA
+remarks:        25394:2043 Prepend 3x when announcing to TELIA
+remarks:        ------------------------------------------------------
+remarks:        25394:2050 Do not announce to COGENT AS174
+remarks:        25394:2051 Prepend 1x when announcing to COGENT
+remarks:        25394:2052 Prepend 2x when announcing to COGENT
+remarks:        25394:2053 Prepend 3x when announcing to COGENT
+remarks:        ------------------------------------------------------
+remarks:        25394:2090 Do not announce to ECIX-FRA Peers
+remarks:        25394:2091 Prepend 1x when announcing to ECIX-FRA Peers
+remarks:        25394:2092 Prepend 2x when announcing to ECIX-FRA Peers
+remarks:        25394:2093 Prepend 3x when announcing to ECIX-FRA Peers
+remarks:        ======================================================
+remarks:        for peering contact peering@mk-netzdienste.de
+remarks:        ======================================================
+admin-c:        MNN1-RIPE
+tech-c:         MNN1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MK-NETZDIENSTE-MNT
+created:        2002-11-11T11:34:18Z
+last-modified:  2019-01-24T08:17:25Z
+source:         RIPE
+
+organisation:   ORG-MNGC1-RIPE
+org-name:       MK Netzdienste GmbH & Co. KG
+org-type:       LIR
+address:        Marienwall 27
+address:        32423
+address:        Minden
+address:        GERMANY
+phone:          +4957138859 0
+fax-no:         +495713885999
+admin-c:        AM6916-RIPE
+admin-c:        TS5901-RIPE
+admin-c:        MK2832-RIPE
+admin-c:        KK4684-RIPE
+admin-c:        MNN1-RIPE
+abuse-c:        MNN1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MK-NETZDIENSTE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MK-NETZDIENSTE-MNT
+created:        2004-04-17T11:10:12Z
+last-modified:  2017-10-30T15:27:38Z
+source:         RIPE # Filtered
+
+role:           MK NETZDIENSTE NOC
+address:        MK Netzdienste GmbH & Co. KG
+address:        Marienwall 27
+address:        32423 Minden
+address:        Germany
+remarks:        For abuse and spam issues, please use
+remarks:        only abuse@mk-netzdienste.de
+phone:          +49 571 38859-0
+fax-no:         +49 571 38859-99
+abuse-mailbox:  abuse@mk-netzdienste.de
+admin-c:        MK2832-RIPE
+tech-c:         AM6916-RIPE
+tech-c:         KK4684-RIPE
+tech-c:         TS5901-RIPE
+nic-hdl:        MNN1-RIPE
+mnt-by:         MK-NETZDIENSTE-MNT
+created:        2002-11-07T09:20:38Z
+last-modified:  2017-02-24T13:12:12Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

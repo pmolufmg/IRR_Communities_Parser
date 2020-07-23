@@ -1,0 +1,240 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12288 - AS12454'
+
+as-block:       AS12288 - AS12454
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12333'
+
+% Abuse contact for 'AS12333' is 'abuse@dfi.ch'
+
+aut-num:        AS12333
+as-name:        DFINET
+descr:          Geneva, Switzerland
+descr:          http://www.dfi.ch
+org:            ORG-INDS1-RIPE
+remarks:
+remarks:        UPSTREAMS
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS3303 action pref=100; accept ANY
+export:         to AS3303 announce AS-DFI
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS3356 announce AS-DFI
+remarks:
+remarks:        PEERS (CIXP GENEVA)
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS513 action pref=30; accept AS-CERN
+export:         to AS513 announce AS-DFI
+import:         from AS559 action pref=30; accept AS-SWITCH
+export:         to AS559 announce AS-DFI
+import:         from AS1836 action pref=30; accept AS-TICCH
+export:         to AS1836 announce AS-DFI
+import:         from AS2686 action pref=30; accept AS-IGNEMEA
+export:         to AS2686 announce AS-DFI
+import:         from AS8327 action pref=30; accept AS-IXPRIME
+export:         to AS8327 announce AS-DFI
+import:         from AS8674 action pref=30; accept AS-NETNOD
+export:         to AS8674 announce AS-DFI
+import:         from AS9044 action pref=30; accept AS-SOLNET
+export:         to AS9044 announce AS-DFI
+import:         from AS12350 action pref=30; accept AS-VTX
+export:         to AS12350 announce AS-DFI
+import:         from AS13030 action pref=30; accept AS-INIT7
+export:         to AS13030 announce AS-DFI
+import:         from AS15479 action pref=30; accept AS15479
+export:         to AS15479 announce AS-DFI
+import:         from AS15600 action pref=30; accept AS-FINECOM
+export:         to AS15600 announce AS-DFI
+import:         from AS16215 action pref=30; accept AS-GENOTEC
+export:         to AS16215 announce AS-DFI
+import:         from AS20932 action pref=30; accept AS-IP-MAN AS-IP-MAN-CUST
+export:         to AS20932 announce AS-DFI
+import:         from AS24904 action pref=30; accept AS24904
+export:         to AS24904 announce AS-DFI
+import:         from AS25091 action pref=30; accept AS-IP-MAX
+export:         to AS25091 announce AS-DFI
+import:         from AS25152 action pref=30; accept RS-KROOT
+export:         to AS25152 announce AS-DFI
+import:         from AS29222 action pref=30; accept AS29222:AS-INFOMANIAK
+export:         to AS29222 announce AS-DFI
+import:         from AS30781 action pref=30; accept AS-JAGUAR
+export:         to AS30781 announce AS-DFI
+import:         from AS33845 action pref=30; accept AS-SWISSGOV
+export:         to AS33845 announce AS-DFI
+import:         from AS34146 action pref=30; accept AS-ISP-SOLUTIONS
+export:         to AS34146 announce AS-DFI
+import:         from AS34781 action pref=30; accept AS-SIMA-LAUSANNE
+export:         to AS34781 announce AS-DFI
+import:         from AS35054 action pref=30; accept AS-IXE-GVA
+export:         to AS35054 announce AS-DFI
+import:         from AS43683 action pref=30; accept AS-IHA
+export:         to AS43683 announce AS-DFI
+import:         from AS196690 action pref=30; accept AS196690
+export:         to AS196690 announce AS-DFI
+remarks:
+remarks:        PEERS (TIX ZURICH)
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS559 action pref=30; accept AS-SWITCH
+export:         to AS559 announce AS-DFI
+import:         from AS3209 action pref=30; accept AS-ARCORGLOBAL
+export:         to AS3209 announce AS-DFI
+import:         from AS6772 action pref=30; accept AS6772
+export:         to AS6772 announce AS-DFI
+import:         from AS6776 action pref=30; accept AS-THENET
+export:         to AS6776 announce AS-DFI
+import:         from AS6805 action pref=30; accept AS-TDDE
+export:         to AS6805 announce AS-DFI
+import:         from AS8833 action pref=30; accept AS-GPS AS-GPS-CUST AS-GPS-LOCALTRANSIT
+export:         to AS8833 announce AS-DFI
+import:         from AS12399 action pref=30; accept AS-SPXS
+export:         to AS12399 announce AS-DFI
+import:         from AS13250 action pref=30; accept AS13250
+export:         to AS13250 announce AS-DFI
+import:         from AS15623 action pref=30; accept AS-CYBERLINK
+export:         to AS15623 announce AS-DFI
+import:         from AS16215 action pref=30; accept AS-GENOTEC
+export:         to AS16215 announce AS-DFI
+import:         from AS16276 action pref=30; accept AS-OVH
+export:         to AS16276 announce AS-DFI
+import:         from AS20634 action pref=30; accept AS-LIECOMTEL
+export:         to AS20634 announce AS-DFI
+import:         from AS21232 action pref=30; accept AS-GGAMAUR
+export:         to AS21232 announce AS-DFI
+import:         from AS24951 action pref=30; accept AS-EveryWare
+export:         to AS24951 announce AS-DFI
+import:         from AS25091 action pref=30; accept AS-IP-MAX
+export:         to AS25091 announce AS-DFI
+import:         from AS30781 action pref=30; accept AS-JAGUAR
+export:         to AS30781 announce AS-DFI
+remarks:
+remarks:        PEERS (SWISSIX)
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS1764 action pref=30; accept AS-NEXTLAYER
+export:         to AS1764 announce AS-DFI
+import:         from AS15600 action pref=30; accept AS-FINECOM
+export:         to AS15600 announce AS-DFI
+import:         from AS12620 action pref=30; accept AS12620:AS-TICINOCOM
+export:         to AS12620 announce AS-DFI
+import:         from AS21232 action pref=30; accept AS-GGAMAUR
+export:         to AS21232 announce AS-DFI
+import:         from AS33845 action pref=30; accept AS-SWISSGOV
+export:         to AS33845 announce AS-DFI
+import:         from AS34695 action pref=30; accept AS34695:AS-TRANSIT
+export:         to AS34695 announce AS-DFI
+import:         from AS20940 action pref=30; accept AS-AKAMAI
+export:         to AS20940 announce AS-DFI
+import:         from AS41913 action pref=30; accept AS-COMPUTERLINE
+export:         to AS41913 announce AS-DFI
+import:         from AS41692 action pref=30; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-DFI
+import:         from AS44919 action pref=30; accept AS-ATRILA
+export:         to AS44919 announce AS-DFI
+import:         from AS49983 action pref=30; accept AS-MIRONET
+export:         to AS49983 announce AS-DFI
+import:         from AS57048 action pref=30; accept AS-REDTRANSIT4
+export:         to AS57048 announce AS-DFI
+import:         from AS31424 action pref=30; accept AS-NEXELLENT
+export:         to AS31424 announce AS-DFI
+remarks:
+remarks:        PEERS (ROMANDIX)
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS41882 action pref=350; accept AS-RomandIX-RS
+export:         to AS41882 announce AS-DFI
+remarks:
+remarks:        CUSTOMERS
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+import:         from AS48590 action pref=30; accept AS48590
+export:         to AS48590 announce ANY
+import:         from AS39409 action pref=30; accept AS39409
+export:         to AS39409 announce ANY
+import:         from AS8801 action pref=30; accept AS8801
+export:         to AS8801 announce ANY
+remarks:
+remarks:        BGP COMMUNITIES SUPPORT
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remarks:
+remarks:        Identify routes learned by DFi:
+remarks:        12333:1000 Upstreams learned routes
+remarks:        12333:1100 Peerings learned routes
+remarks:        12333:2000 Customers learned routes
+remarks:
+remarks:        Triggering a processing in DFi BGP mesh:
+remarks:        12333:666 Blackhole (/32 v4 netmask length) this destination (avail. to customers only)
+remarks:
+remarks:        Others (AS-Path prepend and local-pref tuning): Upon request
+remarks:
+remarks:        CONTACT INFORMATION
+remarks:        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+remarks:        We have an open peering policy and would like to peer
+remarks:
+remarks:        Email contacts:
+remarks:        Peering: peering@dfinet.net
+remarks:        Routing: noc@dfinet.net
+remarks:        Abuse: abuse@dfinet.net
+remarks:
+remarks:        Technical Support:
+remarks:        +41 (0)22 706 22 99 from Mon 8:30am to Fri 5:30pm
+remarks:
+remarks:        ---------------------------------------------
+member-of:      AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS3303
+admin-c:        DFI3-RIPE
+tech-c:         DFI3-RIPE
+status:         ASSIGNED
+mnt-by:         DFI-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-09-20T08:18:10Z
+last-modified:  2018-04-20T10:03:03Z
+source:         RIPE
+
+organisation:   ORG-INDS1-RIPE
+org-name:       DFI Service SA
+org-type:       LIR
+address:        18, chemin des Aulx
+address:        1228 Plan-les-Ouates
+address:        Geneva
+address:        SWITZERLAND
+phone:          +41 227062288
+fax-no:         +41 227948519
+admin-c:        DFI3-RIPE
+admin-c:        ZF4-RIPE
+mnt-ref:        DFI-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DFI-MNT
+abuse-c:        DFI6-RIPE
+created:        2004-04-17T11:02:34Z
+last-modified:  2017-04-05T08:38:11Z
+source:         RIPE # Filtered
+
+role:           DFi Services SA
+address:        Chemin des Aulx 18
+address:        CH-1228 Plan-Les-Ouates
+phone:          +41 22 706 22 88
+fax-no:         +41 22 794 85 19
+admin-c:        ZF4-RIPE
+tech-c:         GG15921-RIPE
+tech-c:         JDFI1-RIPE
+tech-c:         SDFI1-RIPE
+nic-hdl:        DFI3-RIPE
+mnt-by:         DFI-MNT
+abuse-mailbox:  abuse@dfi.ch
+created:        2001-12-27T18:23:29Z
+last-modified:  2017-03-31T07:18:10Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

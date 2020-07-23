@@ -1,0 +1,480 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15476 - AS15705'
+
+as-block:       AS15476 - AS15705
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15557'
+
+% Abuse contact for 'AS15557' is 'abuse@gaoland.net'
+
+aut-num:        AS15557
+as-name:        LDCOMNET
+org:            ORG-VF1-RIPE
+remarks:        ---------------------------import------------------------------
+remarks:
+import:         from AS49449 action pref=900; accept AS-ALLIANCE-CONNECTIC
+import:         from AS49540 action pref=900; accept AS-CAPAIX-CONNECTIC
+import:         from AS58324 action pref=900; accept AS-DEBITEX-TELECOM
+import:         from AS174 action pref=900; accept ANY
+import:         from AS1273 action pref=100; accept ANY
+import:         from AS1299 action pref=100; accept ANY
+import:         from AS1301 action pref=900; accept AS1301
+import:         from AS3259 action pref=900; accept AS3259
+import:         from AS3305 action pref=900; accept AS-ISERE38
+import:         from AS3356 action pref=100; accept ANY
+import:         from AS5410 action pref=320; accept AS-T-ONLINEFRANCE
+import:         from AS5436 action pref=320; accept as5436
+import:         from AS5669 action pref=900; accept any
+import:         from AS6675 action pref=320; accept AS-COLTFR
+import:         from AS6762 action pref=100; accept ANY
+import:         from AS8228 action pref=320; accept AS-CEGETEL
+import:         from AS8332 action pref=320; accept AS-INFONIE
+import:         from AS8399 action pref=320; accept AS8399
+import:         from AS8487 action pref=900; accept AS-PHIBEE-TELECOM
+import:         from AS8554 action pref=320; accept AS8554
+import:         from AS8565 action pref=900; accept AS-BLUEGIX
+import:         from AS8586 action pref=320; accept AS-REDNET
+import:         from AS8784 action pref=320; accept AS-MGN
+import:         from AS8839 action pref=900; accept ANY
+import:         from AS8975 action pref=320; accept AS-CLARANET
+import:         from AS9003 action pref=900; accept AS9003
+import:         from AS9036 action pref=900; accept AS9036
+import:         from AS9159 action pref=900; accept AS9159
+import:         from AS9180 action pref=900; accept AS9180
+import:         from AS11521 action pref=900; accept AS11521
+import:         from AS12322 action pref=320; accept AS-PROXAD
+import:         from AS12395 action pref=900; accept AS12395
+import:         from AS12409 action pref=900; accept AS12409
+import:         from AS12566 action pref=900; accept AS12566
+import:         from AS12626 action pref=900; accept AS-TEL
+import:         from AS12670 action pref=320; accept AS-COMPLETEL
+import:         from AS12826 action pref=900; accept AS12826
+import:         from AS12868 action pref=320; accept AS-DYNEGYEUROPE
+import:         from AS12876 action pref=320; accept AS-LIBERTYSURFTELECOM
+import:         from AS12956 action pref=320; accept AS12956 AS-TDATANETEU
+import:         from AS12980 action pref=900; accept AS12980
+import:         from AS13273 action pref=320; accept AS-TEASER
+import:         from AS15489 action pref=900; accept AS15489
+import:         from AS15609 action pref=900; accept AS15609
+import:         from AS15846 action pref=900; accept AS15846
+import:         from AS15890 action pref=900; accept AS15890
+import:         from AS16046 action pref=900; accept AS16046
+import:         from AS16071 action pref=900; accept AS16071
+import:         from AS16128 action pref=900; accept AS16128
+import:         from AS16136 action pref=900; accept AS16136
+import:         from AS16216 action pref=900; accept AS16216
+import:         from AS16363 action pref=900; accept AS16363
+import:         from AS20758 action pref=900; accept AS20758
+import:         from AS20824 action pref=900; accept AS20824
+import:         from AS20900 action pref=900; accept AS20900
+import:         from AS20917 action pref=900; accept AS20917
+import:         from AS20994 action pref=900; accept AS20994
+import:         from AS21203 action pref=900; accept AS21203
+import:         from AS21409 action pref=900; accept AS21409
+import:         from AS21502 action pref=4000; accept AS-NUMERICABLE
+import:         from AS24696 action pref=900; accept AS24696
+import:         from AS24963 action pref=900; accept AS24963
+import:         from AS25286 action pref=900; accept AS25286
+import:         from AS25540 action pref=900; accept AS25540
+import:         from AS25553 action pref=900; accept AS25553
+import:         from AS29247 action pref=900; accept AS-ESDS
+import:         from AS29322 action pref=900; accept AS29322
+import:         from AS29372 action pref=900; accept AS29372
+import:         from AS31180 action pref=900; accept AS31180
+import:         from AS31221 action pref=900; accept AS31221
+import:         from AS31697 action pref=900; accept AS31697
+import:         from AS33835 action pref=900; accept AS33835
+import:         from AS34006 action pref=900; accept AS34006
+import:         from AS34235 action pref=900; accept AS34235
+import:         from AS34383 action pref=900; accept AS-TELOISE
+import:         from AS34493 action pref=900; accept AS34493
+import:         from AS34659 action pref=900; accept AS34659
+import:         from AS34704 action pref=900; accept any
+import:         from AS34860 action pref=900; accept AS-ERENIS
+import:         from AS34863 action pref=900; accept AS34863
+import:         from AS35012 action pref=900; accept AS35012
+import:         from AS35184 action pref=900; accept AS35184
+import:         from AS35238 action pref=900; accept AS-CONNEXIA
+import:         from AS35300 action pref=900; accept AS35300
+import:         from AS35625 action pref=900; accept AS35625
+import:         from AS35632 action pref=900; accept AS-IRIS64
+import:         from AS35676 action pref=900; accept AS35676
+import:         from AS38926 action pref=900; accept AS38926
+import:         from AS39005 action pref=900; accept AS-MEDIALYS
+import:         from AS39079 action pref=900; accept AS39079
+import:         from AS39241 action pref=900; accept AS39241
+import:         from AS39509 action pref=900; accept AS39509
+import:         from AS39534 action pref=900; accept AS39534
+import:         from AS39552 action pref=900; accept AS39552
+import:         from AS39771 action pref=900; accept AS39771
+import:         from AS39847 action pref=900; accept AS-CAP-CONNEXION
+import:         from AS39886 action pref=900; accept AS39886
+import:         from AS41272 action pref=900; accept AS-MOSELLE-TELECOM
+import:         from AS41334 action pref=900; accept AS-MANCHE-TELECOM
+import:         from AS41788 action pref=900; accept AS41788
+import:         from AS41894 action pref=900; accept AS41894
+import:         from AS42117 action pref=900; accept AS-INOLIA
+import:         from AS42188 action pref=900; accept AS42188
+import:         from AS42363 action pref=900; accept AS-PHPNET
+import:         from AS42487 action pref=900; accept AS42487
+import:         from AS43271 action pref=900; accept AS43271
+import:         from AS43342 action pref=900; accept AS43342
+import:         from AS43311 action pref=900; accept AS43311
+import:         from AS43698 action pref=900; accept AS-ARIEGE-TELECOM
+import:         from AS43763 action pref=900; accept AS-HAUT-RHIN-TELECOM
+import:         from AS35152 action pref=900; accept AS35152
+import:         from AS30801 action pref=900; accept AS30801
+import:         from AS42208 action pref=900; accept AS42208
+import:         from AS42811 action pref=900; accept AS-HERAULT-TELECOM
+import:         from AS44756 action pref=900; accept AS44756
+import:         from AS44842 action pref=900; accept AS44842
+import:         from AS45039 action pref=900; accept AS45039
+import:         from AS47206 action pref=900; accept AS47206
+import:         from AS47355 action pref=900; accept AS47355
+import:         from AS47608 action pref=900; accept AS47608
+import:         from AS48125 action pref=900; accept AS48125
+import:         from AS48140 action pref=900; accept AS48140
+import:         from AS48179 action pref=900; accept AS-VOIRONNAIS-NETWORK
+import:         from AS48703 action pref=900; accept AS48703
+import:         from AS49011 action pref=900; accept AS-MACS-THD
+import:         from AS49030 action pref=900; accept AS49030
+import:         from AS49083 action pref=900; accept AS-MEMONET
+import:         from AS49112 action pref=900; accept AS-ARMORCONNECTIC
+import:         from AS49286 action pref=900; accept AS49286
+import:         from AS49555 action pref=900; accept AS49555
+import:         from AS49566 action pref=900; accept AS49566
+import:         from AS49881 action pref=900; accept AS-MIDI-LIBRE
+import:         from AS49960 action pref=900; accept AS49960
+import:         from AS50446 action pref=900; accept AS50446
+import:         from AS50183 action pref=900; accept AS50183
+import:         from AS50758 action pref=900; accept AS50758
+import:         from AS51038 action pref=900; accept AS51038
+import:         from AS51741 action pref=900; accept AS51741
+import:         from AS52039 action pref=900; accept AS52039
+import:         from AS196633 action pref=900; accept AS196633
+import:         from AS198060 action pref=900; accept AS198060
+import:         from AS198196 action pref=800; accept AS198196
+import:         from AS199074 action pref=900; accept AS199074
+import:         from AS199233 action pref=900; accept AS199233
+import:         from AS47820 action pref=900; accept AS47820
+remarks:
+remarks:        ---------------------------export------------------------------
+remarks:
+export:         to AS174 announce any
+export:         to AS1273 announce any
+export:         to AS1299 announce any
+export:         to AS1301 announce any
+export:         to AS3259 announce any
+export:         to AS3305 announce any
+export:         to AS3356 announce AS-LDCOMNET
+export:         to AS3561 announce AS-LDCOMNET
+export:         to AS5410 announce AS-LDCOMNET
+export:         to AS5436 announce AS-LDCOMNET
+export:         to AS5669 announce any
+export:         to AS6675 announce AS-LDCOMNET
+export:         to AS8228 announce any
+export:         to AS6762 announce any
+export:         to AS8297 announce AS-LDCOMNET
+export:         to AS8332 announce AS-LDCOMNET
+export:         to AS8399 announce AS-LDCOMNET
+export:         to AS8487 announce any
+export:         to AS8554 announce any
+export:         to AS8565 announce any
+export:         to AS8586 announce AS-LDCOMNET
+export:         to AS8784 announce AS-LDCOMNET
+export:         to AS8839 announce any
+export:         to AS8975 announce AS-LDCOMNET
+export:         to AS9003 announce any
+export:         to AS9036 announce any
+export:         to AS9057 announce AS-LDCOMNET
+export:         to AS9159 announce any
+export:         to AS9180 announce any
+export:         to AS11521 announce any
+export:         to AS12322 announce AS-LDCOMNET
+export:         to AS12395 announce AS-LDCOMNET
+export:         to AS12409 announce any
+export:         to AS12566 announce any
+export:         to AS12626 announce any
+export:         to AS12670 announce AS-LDCOMNET
+export:         to AS12826 announce any
+export:         to AS12868 announce AS-LDCOMNET
+export:         to AS12876 announce AS-LDCOMNET
+export:         to AS12956 announce AS-LDCOMNET
+export:         to AS12980 announce any
+export:         to AS13273 announce any
+export:         to AS15489 announce any
+export:         to AS15609 announce any
+export:         to AS15846 announce any
+export:         to AS15890 announce any
+export:         to AS16046 announce any
+export:         to AS16071 announce any
+export:         to AS16128 announce any
+export:         to AS16136 announce any
+export:         to AS16216 announce any
+export:         to AS16363 announce any
+export:         to AS20758 announce any
+export:         to AS20824 announce any
+export:         to AS20900 announce any
+export:         to AS20917 announce any
+export:         to AS20994 announce any
+export:         to AS21128 announce any
+export:         to AS21203 announce any
+export:         to AS21409 announce any
+export:         to AS21502 announce AS-LDCOMNET
+export:         to AS24696 announce any
+export:         to AS24963 announce any
+export:         to AS25540 announce any
+export:         to AS25553 announce any
+export:         to AS29247 announce any
+export:         to AS29322 announce any
+export:         to AS29372 announce any
+export:         to AS31180 announce any
+export:         to AS31221 announce any
+export:         to AS31697 announce any
+export:         to AS33835 announce any
+export:         to AS34006 announce any
+export:         to AS34235 announce any
+export:         to AS34383 announce any
+export:         to AS34493 announce any
+export:         to AS34659 announce any
+export:         to AS34704 announce any
+export:         to AS34860 announce any
+export:         to AS34863 announce any
+export:         to AS35012 announce any
+export:         to AS35184 announce any
+export:         to AS35238 announce any
+export:         to AS35300 announce any
+export:         to AS35625 announce any
+export:         to AS35632 announce any
+export:         to AS35676 announce any
+export:         to AS38926 announce any
+export:         to AS39005 announce any
+export:         to AS39079 announce any
+export:         to AS39241 announce any
+export:         to AS39509 announce any
+export:         to AS39534 announce any
+export:         to AS39552 announce any
+export:         to AS39771 announce any
+export:         to AS39847 announce any
+export:         to AS39886 announce any
+export:         to AS41272 announce any
+export:         to AS41334 announce any
+export:         to AS41788 announce any
+export:         to AS41894 announce any
+export:         to AS42117 announce any
+export:         to AS42188 announce any
+export:         to AS42363 announce any
+export:         to AS42487 announce any
+export:         to AS43271 announce any
+export:         to AS43311 announce any
+export:         to AS43342 announce any
+export:         to AS43698 announce any
+export:         to AS43763 announce any
+export:         to AS35152 announce any
+export:         to AS30801 announce any
+export:         to AS42208 announce any
+export:         to AS42811 announce any
+export:         to AS44756 announce any
+export:         to AS44842 announce any
+export:         to AS45039 announce any
+export:         to AS47206 announce any
+export:         to AS47355 announce any
+export:         to AS47608 announce any
+export:         to AS48125 announce any
+export:         to AS48140 announce any
+export:         to AS48179 announce AS-LDCOMNET
+export:         to AS48703 announce any
+export:         to AS49011 announce any
+export:         to AS49030 announce any
+export:         to AS49083 announce any
+export:         to AS49112 announce any
+export:         to AS49286 announce any
+export:         to AS49449 announce any
+export:         to AS49540 announce any
+export:         to AS49555 announce any
+export:         to AS49566 announce any
+export:         to AS49881 announce any
+export:         to AS49960 announce any
+export:         to AS50446 announce any
+export:         to AS50183 announce any
+export:         to AS50758 announce any
+export:         to AS51038 announce any
+export:         to AS51741 announce any
+export:         to AS52039 announce any
+export:         to AS58324 announce any
+export:         to AS196633 announce any
+export:         to AS198060 announce any
+export:         to AS198196 announce AS-LDCOMNET
+export:         to AS199074 announce any
+export:         to AS199233 announce any
+export:         to AS47820 announce any
+remarks:
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:
+remarks:        Communities to control traffic (for IP Transit customers).
+remarks:        Community Definition
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:
+remarks:        15557:189 No announcement to COGENT
+remarks:        15557:182 Prepend twice 15557 when announcing to COGENT
+remarks:        15557:181 Prepend once 15557 when announcing to COGENT
+remarks:
+remarks:        15557:169 No announcement to TI SPARKLE
+remarks:        15557:162 Prepend twice 15557 when announcing to TI SPARKLE
+remarks:        15557:161 Prepend once 15557 when announcing to TI SPARKLE
+remarks:
+remarks:        15557:329 No announcement to Peering Point Sfinx
+remarks:        15557:322 Prepend twice 15557 when announcing to Sfinx Peer
+remarks:        15557:321 Prepend once 15557 when announcing to Sfinx Peer
+remarks:
+remarks:        15557:349 No announcement to Peering Point LYONIX
+remarks:        15557:342 Prepend twice 15557 when announcing to LYONIX Peer
+remarks:        15557:341 Prepend once 15557 when announcing to LYONIX Peer
+remarks:
+remarks:        15557:359 No announcement to Peering Point LINX
+remarks:        15557:352 Prepend twice 15557 when announcing to LINX Peer
+remarks:        15557:351 Prepend once 15557 when announcing to LINX Peer
+remarks:
+remarks:        15557:369 No announcement to Peering Point AMS-IX
+remarks:        15557:362 Prepend twice 15557 when announcing to AMS-IX Peer
+remarks:        15557:361 Prepend once 15557 when announcing to AMS-IX Peer
+remarks:
+remarks:        15557:389 No announcement to Peering Point DECIX
+remarks:        15557:382 Prepend twice 15557 when announcing to DECIX Peer
+remarks:        15557:381 Prepend once 15557 when announcing to DECIX Peer
+remarks:
+remarks:        15557:479 No announcement to Peering Point EQUINIX
+remarks:        15557:472 Prepend twice 15557 when announcing to EQUINIX Peer
+remarks:        15557:471 Prepend once 15557 when announcing to EQUINIX Peer
+remarks:
+remarks:        15557:449 No announcement to Peering Point FRANCEIX
+remarks:        15557:442 Prepend twice 15557 when announcing to FRANCEIX Peer
+remarks:        15557:441 Prepend once 15557 when announcing to FRANCEIX Peer
+remarks:
+remarks:        15557:559 No announcement to VODAFONE
+remarks:        15557:552 Prepend twice 15557 when announcing to VODAFONE
+remarks:        15557:551 Prepend once 15557 when announcing to VODAFONE
+remarks:
+remarks:        15557:159 No announcement to TELIA
+remarks:        15557:152 Prepend twice 15557 when announcing to TELIA
+remarks:        15557:151 Prepend once 15557 when announcing to TELIA
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Peering & Network Informations
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        For Peering request please send email to : peering at n9uf.net
+remarks:        You can find network informations on http://peering.n9uf.net
+remarks:
+remarks:        Our public peering point of presence are :
+remarks:
+remarks:        SFINX - 10G - 194.68.129.178 - http://www.sfinx.tm.fr
+remarks:        LYONIX - 1G - 77.95.71.13 - 2001:07f8:0047:0047::d - http://www.lyonix.net
+remarks:        LINX - 20G - 195.66.224.214 - 2001:7f8:4::3cc5:1/64 - http://www.linx.net
+remarks:        LINX - 10G - 195.66.236.214 - 2001:7f8:4:1::3cc5:1/64 - http://www.linx.net
+remarks:        AMSIX - 20G - 195.69.145.171 - http://www.ams-ix.net
+remarks:        AMSIX - 10G - 195.69.145.147 - http://www.ams-ix.net
+remarks:        DE-CIX - 20G - 80.81.192.201 - http://www.de-cix.net
+remarks:        DE-CIX - 10G - 80.81.193.201 - http://www.de-cix.net
+remarks:        EQUINIX NY - 10G - 198.32.118.107 - 2001:504:f::20/64 - http://www.equinix.fr/
+remarks:        EQUINIX PARIS - 10G - 195.42.144.66 - 2001:7f8:43::1:5557:1/64 - http://www.equinix.fr/
+remarks:        FRANCEIX PARIS - 10G - 37.49.237.65/23 - 2001:7f8:54::1:65/64 - https://www.franceix.net/
+remarks:        FRANCEIX MARSEILLE - 10G - 37.49.232.23/23 - 2001:7f8:54:5::23/64 - https://www.franceix.net/
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+admin-c:        LD699-RIPE
+tech-c:         LDC76-RIPE
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         LDCOM-MNT
+mnt-by:         SFR-MNT
+created:        2002-09-19T07:03:27Z
+last-modified:  2018-09-19T08:17:04Z
+source:         RIPE
+
+organisation:   ORG-VF1-RIPE
+org-name:       SFR SA
+org-type:       LIR
+remarks:        xxxxxxxxxxxxxxxxxxxxxxx
+remarks:        For Hacking, Spamming or Security problems
+remarks:        send mail to :
+remarks:        abuse@gaoland.net
+remarks:        xxxxxxxxxxxxxxxxxxxxxx
+address:        Campus SFR 12 rue Jean-Philippe Rameau - CS 80001
+address:        93634
+address:        La-Plaine-Saint-Denis Cedex
+address:        FRANCE
+phone:          +33 1 70 18 52 00
+fax-no:         +33 1 70 18 11 61
+abuse-c:        AR15368-RIPE
+admin-c:        RB14609-RIPE
+admin-c:        LD699-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SFR-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SFR-MNT
+created:        2004-04-17T11:22:02Z
+last-modified:  2018-02-14T09:51:57Z
+source:         RIPE # Filtered
+
+role:           SFR Legal Contact
+address:        Campus SFR
+address:        12 rue Jean-Philippe Rameau
+address:        CS 80001
+address:        93634 La-Plaine-Saint-Denis Cedex
+address:        France
+phone:          +33 1 70 18 52 00
+admin-c:        LDC76-RIPE
+admin-c:        BEO13-RIPE
+tech-c:         RB14609-RIPE
+tech-c:         BEO13-RIPE
+nic-hdl:        LD699-RIPE
+abuse-mailbox:  abuse@gaoland.net
+mnt-by:         LDCOM-MNT
+created:        2003-10-23T09:15:54Z
+last-modified:  2017-09-05T09:03:05Z
+source:         RIPE # Filtered
+
+role:           LDCOM Networks Tech Contact
+address:        SFR
+address:        CAMPUS SFR
+address:        12 rue Jean-Philippe Rameau
+address:        CS 80001
+address:        93634 La Plaine Saint-Denis Cedex
+address:        France
+phone:          +33 1 70 18 52 00
+admin-c:        LD699-RIPE
+admin-c:        LM5867-RIPE
+admin-c:        BEO13-RIPE
+tech-c:         DG1056-RIPE
+nic-hdl:        LDC76-RIPE
+abuse-mailbox:  abuse@gaoland.net
+mnt-by:         LDCOM-MNT
+created:        2001-12-20T14:34:14Z
+last-modified:  2016-12-14T09:33:06Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

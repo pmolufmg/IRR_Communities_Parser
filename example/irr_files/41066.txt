@@ -1,0 +1,182 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS40960 - AS42381'
+
+as-block:       AS40960 - AS42381
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS41066'
+
+% Abuse contact for 'AS41066' is 'abuse@rtcomm.ru'
+
+aut-num:        AS41066
+as-name:        RTCOMM-SIBIR-AS
+org:            ORG-RA25-RIPE
+import:         from AS12389 action pref=501; accept ANY
+import:         from AS21127 action pref=501; accept ANY
+import:         from AS42403 action pref=700; accept ANY
+import:         from AS30871 accept AS30871
+import:         from AS35711 accept AS35711
+import:         from AS43208 accept AS43208
+import:         from AS50282 accept AS50282
+import:         from AS51213 accept AS51213
+import:         from AS20803 accept AS-RISS
+import:         from AS51804 accept AS51804
+import:         from AS9006 accept AS9006
+import:         from AS30788 accept AS30788
+import:         from AS49764 accept AS49764
+import:         from AS197482 accept AS197482
+import:         from AS50382 accept AS50382
+import:         from AS25535 accept AS25535
+import:         from AS8848 accept AS8848
+import:         from AS60119 accept AS60119
+import:         from AS59973 accept AS59973
+import:         from AS29547 accept AS-CENTRINFORM-NSK
+import:         from AS50166 accept AS50166
+import:         from AS43489 accept AS43489
+export:         to AS12389 announce AS-RTCSIB
+export:         to AS21127 announce AS-RTCSIB
+export:         to AS42403 announce AS-RTCSIB
+export:         to AS30871 announce ANY
+export:         to AS35711 announce ANY
+export:         to AS43208 announce ANY
+export:         to AS50282 announce ANY
+export:         to AS51213 announce ANY
+export:         to AS20803 announce ANY
+export:         to AS51804 announce ANY
+export:         to AS9006 announce ANY
+export:         to AS30788 announce ANY
+export:         to AS49764 announce { 0.0.0.0/0 }
+export:         to AS197482 announce ANY
+export:         to AS50382 announce ANY
+export:         to AS25535 announce ANY
+export:         to AS8848 announce ANY
+export:         to AS60119 announce ANY
+export:         to AS59973 announce ANY
+export:         to AS29547 announce ANY
+export:         to AS50166 announce ANY
+export:         to AS43489 announce ANY
+remarks:        +---------------------------------------------------------------
+remarks:        |
+remarks:        | External communities may be set by external peers when
+remarks:        | talking to AS41066.
+remarks:        |
+remarks:        | Community Meaning
+remarks:        |
+remarks:        | 41066:170x When advertising to any uplink
+remarks:        | 41066:171x When advertising to TTK uplink
+remarks:        | 41066:172x When advertising to Beeline uplink
+remarks:        |
+remarks:        | 41066:120x When advertising to any peering
+remarks:        | 41066:121x When advertising NSK-IX peering
+remarks:        | 41066:122x When advertising Rostelecom peering
+remarks:        |
+remarks:        | ...x=0 - do not advertise
+remarks:        | ...x=1,2,4 or 6 - prepend 41066 (1,2,4 or 6) times
+remarks:        |
+remarks:        | 41066:1900 BACKUP community. Local preference is set to 100,
+remarks:        | which is the lowest value used in the network.
+remarks:        | We DO NOT accept "no-export" community.
+remarks:        +---------------------------------------------------------------
+remarks:        | 41066:666 - blackhole (discard) traffic
+remarks:        +---------------------------------------------------------------
+remarks:        | Any other 41066:XXX communities are deleted.
+remarks:        |
+remarks:        | CUSTOMER - Peers routes are getting local preference of 1000.
+remarks:        | RUSSIAN - Peers routes are getting local preference of 700-740.
+remarks:        | INTERNATIONAL - Peers routes and UPLINKS
+remarks:        | are getting local preference in the range of 600-680
+remarks:        |
+remarks:        | We are using prefix-list filters that were built according
+remarks:        | to RIPE route-objects.
+remarks:        |
+remarks:        +---------------------------------------------------------------
+remarks:        | Routing policies are becoming so complex that a complete
+remarks:        | description is beyond the scope of this document.
+remarks:        +---------------------------------------------------------------
+remarks:        | NOTE - Filtering on /24 boundary is applied - we do not
+remarks:        | reannounce any route more specific than a /24.
+remarks:        +---------------------------------------------------------------
+admin-c:        RT-RU
+tech-c:         RT-RU
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8342-MNT
+created:        2006-06-08T08:10:17Z
+last-modified:  2018-11-22T09:58:24Z
+source:         RIPE # Filtered
+
+organisation:   ORG-RA25-RIPE
+org-name:       JSC RTComm.RU
+org-type:       LIR
+address:        22'km of Kiyevskoe sh., Moskovskiy pos. 6, building 1
+address:        108811
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74959887778
+fax-no:         +74959887776
+admin-c:        AT9798-RIPE
+admin-c:        NK2352-RIPE
+abuse-c:        RTC-RU
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8342-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8342-MNT
+created:        2004-04-17T11:57:36Z
+last-modified:  2018-11-20T14:52:53Z
+source:         RIPE # Filtered
+
+role:           RTComm.RU Internet Center
+address:        JSC RTComm.RU
+address:        22'km of Kiyevskoe sh., Moskovskiy pos. 6, building 1
+address:        108811, Moscow
+address:        Russia
+phone:          +7 495 988-77-78
+fax-no:         +7 495 988-77-76
+remarks:        trouble: ---------------------------------------------------------
+remarks:        trouble: RTComm.RU Internet Center is available 24 x 7
+remarks:        trouble: ---------------------------------------------------------
+remarks:        trouble: Points of contact for RTComm.RU Network Operations
+remarks:        trouble: ---------------------------------------------------------
+remarks:        trouble: Network Operations Center vsat-noc@rtcomm.ru
+remarks:        trouble: SPAM and Network security issues: abuse@rtcomm.ru
+remarks:        trouble: Routing policies: rtc-cs@rtcomm.ru
+remarks:        trouble: Peering requests: peering@rtcomm.ru
+remarks:        trouble: ---------------------------------------------------------
+remarks:        trouble:
+remarks:        trouble: ___________________A T T E N T I O N!____________________
+remarks:        trouble:
+remarks:        trouble: Please use abuse@rtcomm.ru e-mail address for complaints.
+remarks:        trouble: All messages to any other our address, relative to SPAM
+remarks:        trouble: or security issues, will not be concerned.
+remarks:        trouble:
+remarks:        trouble: ---------------------------------------------------------
+admin-c:        NK2352-RIPE
+admin-c:        AT9798-RIPE
+admin-c:        AOR16-RIPE
+tech-c:         NK2352-RIPE
+tech-c:         AT9798-RIPE
+tech-c:         AOR16-RIPE
+nic-hdl:        RT-RU
+mnt-by:         AS8342-MNT
+abuse-mailbox:  abuse@rtcomm.ru
+created:        2002-12-25T12:11:11Z
+last-modified:  2018-11-20T14:55:43Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

@@ -1,0 +1,815 @@
+aut-num:        AS61374
+as-name:        UAEIX-AS
+descr:          DE-CIX Management GmbH
+descr:          UAE-IX
+descr:          UAE
+org:            ORG-DtGI1-RIPE
+status:         ASSIGNED
+notify:         notify@de-cix.net
+mnt-by:         DECIX-MNT
+mnt-routes:     DECIX-MNT
+mnt-lower:      DECIX-MNT
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DECIX-MNT
+remarks:
+remarks:        You may use BGP (Extended) Communities to control
+remarks:        route advertisement via the Route Servers:
+remarks:
+remarks:        (61374:61374): Redistribute to all Route Server peers
+remarks:        (61374:$PEER-AS), (rt:61374:$PEER-AS): Redistribute to $PEER-AS
+remarks:        (0:$PEER-AS), (rt:0:$PEER-AS): Redistribute to all peers except $PEER-AS
+remarks:        (0:61374): Do not redistribute
+remarks:
+remarks:        If $PEER-AS uses a 2B ASN, you may use Standard or Extended Communities
+remarks:        If $PEER-AS uses a 4B ASN, you have to use Extended Communities
+remarks:
+remarks:        There are additional communities for controlling announcements:
+remarks:
+remarks:        61374:65281 set community NO-EXPORT
+remarks:        61374:65282 set community NO-ADVERTISE
+remarks:
+remarks:        For more information on Route Server control, please see:
+remarks:        https://portal.de-cix.net/home/documentation/routeserver-guides/
+remarks:
+mp-import:      afi ipv6.unicast from AS42     2001:7f8:73::2a:0:1            at         2001:7f8:73::efbe:fa:1 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS42     2001:7f8:73::2a:0:1            at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS42     2001:7f8:73::2a:0:1            at         2001:7f8:73::efbe:fb:1 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS42     2001:7f8:73::2a:0:1            at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS42     2001:7f8:73::2a:0:1            at                          BS1-6 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS42     2001:7f8:73::2a:0:1            at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS42     185.1.8.14                     at                    185.1.8.251 accept   AS-PCH
+export:         to   AS42     185.1.8.14                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS42     185.1.8.14                     at                    185.1.8.252 accept   AS-PCH
+export:         to   AS42     185.1.8.14                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS42     185.1.8.14                     at                            BS1 accept   AS-PCH
+export:         to   AS42     185.1.8.14                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS3856   2001:7f8:73::f10:0:1           at         2001:7f8:73::efbe:fa:1 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856   2001:7f8:73::f10:0:1           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3856   2001:7f8:73::f10:0:1           at         2001:7f8:73::efbe:fb:1 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856   2001:7f8:73::f10:0:1           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3856   2001:7f8:73::f10:0:1           at                          BS1-6 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856   2001:7f8:73::f10:0:1           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS3856   185.1.8.15                     at                    185.1.8.251 accept   AS-PCH
+export:         to   AS3856   185.1.8.15                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS3856   185.1.8.15                     at                    185.1.8.252 accept   AS-PCH
+export:         to   AS3856   185.1.8.15                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS3856   185.1.8.15                     at                            BS1 accept   AS-PCH
+export:         to   AS3856   185.1.8.15                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS260    2001:7f8:73::104:0:1           at         2001:7f8:73::efbe:fa:1 accept   AS-XCONNECT24
+mp-export:      afi ipv6.unicast to   AS260    2001:7f8:73::104:0:1           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS260    2001:7f8:73::104:0:1           at         2001:7f8:73::efbe:fb:1 accept   AS-XCONNECT24
+mp-export:      afi ipv6.unicast to   AS260    2001:7f8:73::104:0:1           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS260    2001:7f8:73::104:0:1           at                          BS1-6 accept   AS-XCONNECT24
+mp-export:      afi ipv6.unicast to   AS260    2001:7f8:73::104:0:1           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS260    185.1.8.33                     at                    185.1.8.251 accept   AS-XCONNECT24
+export:         to   AS260    185.1.8.33                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS260    185.1.8.33                     at                    185.1.8.252 accept   AS-XCONNECT24
+export:         to   AS260    185.1.8.33                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS260    185.1.8.33                     at                            BS1 accept   AS-XCONNECT24
+export:         to   AS260    185.1.8.33                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS1273   2001:7f8:73::4f9:0:1           at         2001:7f8:73::efbe:fa:1 accept   AS1273:AS-CWW-V6
+mp-export:      afi ipv6.unicast to   AS1273   2001:7f8:73::4f9:0:1           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS1273   2001:7f8:73::4f9:0:1           at         2001:7f8:73::efbe:fb:1 accept   AS1273:AS-CWW-V6
+mp-export:      afi ipv6.unicast to   AS1273   2001:7f8:73::4f9:0:1           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS1273   2001:7f8:73::4f9:0:1           at                          BS1-6 accept   AS1273:AS-CWW-V6
+mp-export:      afi ipv6.unicast to   AS1273   2001:7f8:73::4f9:0:1           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS1273   185.1.8.19                     at                    185.1.8.251 accept   AS1273:AS-CWW
+export:         to   AS1273   185.1.8.19                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS1273   185.1.8.19                     at                    185.1.8.252 accept   AS1273:AS-CWW
+export:         to   AS1273   185.1.8.19                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS1273   185.1.8.19                     at                            BS1 accept   AS1273:AS-CWW
+export:         to   AS1273   185.1.8.19                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS2906   2001:7f8:73::b5a:0:1           at         2001:7f8:73::efbe:fa:1 accept   AS-NFLX
+mp-export:      afi ipv6.unicast to   AS2906   2001:7f8:73::b5a:0:1           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS2906   2001:7f8:73::b5a:0:1           at         2001:7f8:73::efbe:fb:1 accept   AS-NFLX
+mp-export:      afi ipv6.unicast to   AS2906   2001:7f8:73::b5a:0:1           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS2906   2001:7f8:73::b5a:0:1           at                          BS1-6 accept   AS-NFLX
+mp-export:      afi ipv6.unicast to   AS2906   2001:7f8:73::b5a:0:1           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS2906   185.1.8.52                     at                    185.1.8.251 accept   AS-NFLX
+export:         to   AS2906   185.1.8.52                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS2906   185.1.8.52                     at                    185.1.8.252 accept   AS-NFLX
+export:         to   AS2906   185.1.8.52                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS2906   185.1.8.52                     at                            BS1 accept   AS-NFLX
+export:         to   AS2906   185.1.8.52                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS2906   2001:7f8:73::b5a:0:2           at         2001:7f8:73::efbe:fa:1 accept   AS-NFLX
+mp-export:      afi ipv6.unicast to   AS2906   2001:7f8:73::b5a:0:2           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS2906   2001:7f8:73::b5a:0:2           at         2001:7f8:73::efbe:fb:1 accept   AS-NFLX
+mp-export:      afi ipv6.unicast to   AS2906   2001:7f8:73::b5a:0:2           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS2906   2001:7f8:73::b5a:0:2           at                          BS1-6 accept   AS-NFLX
+mp-export:      afi ipv6.unicast to   AS2906   2001:7f8:73::b5a:0:2           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS2906   185.1.8.53                     at                    185.1.8.251 accept   AS-NFLX
+export:         to   AS2906   185.1.8.53                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS2906   185.1.8.53                     at                    185.1.8.252 accept   AS-NFLX
+export:         to   AS2906   185.1.8.53                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS2906   185.1.8.53                     at                            BS1 accept   AS-NFLX
+export:         to   AS2906   185.1.8.53                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS3225   2001:7f8:73::c99:0:1           at         2001:7f8:73::efbe:fa:1 accept   AS-UCC
+mp-export:      afi ipv6.unicast to   AS3225   2001:7f8:73::c99:0:1           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3225   2001:7f8:73::c99:0:1           at         2001:7f8:73::efbe:fb:1 accept   AS-UCC
+mp-export:      afi ipv6.unicast to   AS3225   2001:7f8:73::c99:0:1           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3225   2001:7f8:73::c99:0:1           at                          BS1-6 accept   AS-UCC
+mp-export:      afi ipv6.unicast to   AS3225   2001:7f8:73::c99:0:1           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS3225   185.1.8.7                      at                    185.1.8.251 accept   AS-UCC
+export:         to   AS3225   185.1.8.7                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS3225   185.1.8.7                      at                    185.1.8.252 accept   AS-UCC
+export:         to   AS3225   185.1.8.7                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS3225   185.1.8.7                      at                            BS1 accept   AS-UCC
+export:         to   AS3225   185.1.8.7                      at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS3303   2001:7f8:73::ce7:0:1           at         2001:7f8:73::efbe:fa:1 accept   AS-SWCMGLOBAL
+mp-export:      afi ipv6.unicast to   AS3303   2001:7f8:73::ce7:0:1           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3303   2001:7f8:73::ce7:0:1           at         2001:7f8:73::efbe:fb:1 accept   AS-SWCMGLOBAL
+mp-export:      afi ipv6.unicast to   AS3303   2001:7f8:73::ce7:0:1           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3303   2001:7f8:73::ce7:0:1           at                          BS1-6 accept   AS-SWCMGLOBAL
+mp-export:      afi ipv6.unicast to   AS3303   2001:7f8:73::ce7:0:1           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS3303   185.1.8.43                     at                    185.1.8.251 accept   AS-SWCMGLOBAL
+export:         to   AS3303   185.1.8.43                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS3303   185.1.8.43                     at                    185.1.8.252 accept   AS-SWCMGLOBAL
+export:         to   AS3303   185.1.8.43                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS3303   185.1.8.43                     at                            BS1 accept   AS-SWCMGLOBAL
+export:         to   AS3303   185.1.8.43                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS3356   2001:7f8:73::ddd:0:1           at         2001:7f8:73::efbe:fa:1 accept   AS-LEVEL3-UAE
+mp-export:      afi ipv6.unicast to   AS3356   2001:7f8:73::ddd:0:1           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3356   2001:7f8:73::ddd:0:1           at         2001:7f8:73::efbe:fb:1 accept   AS-LEVEL3-UAE
+mp-export:      afi ipv6.unicast to   AS3356   2001:7f8:73::ddd:0:1           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3356   2001:7f8:73::ddd:0:1           at                          BS1-6 accept   AS-LEVEL3-UAE
+mp-export:      afi ipv6.unicast to   AS3356   2001:7f8:73::ddd:0:1           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS3356   185.1.8.41                     at                    185.1.8.251 accept   AS-LEVEL3-UAE
+export:         to   AS3356   185.1.8.41                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS3356   185.1.8.41                     at                    185.1.8.252 accept   AS-LEVEL3-UAE
+export:         to   AS3356   185.1.8.41                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS3356   185.1.8.41                     at                            BS1 accept   AS-LEVEL3-UAE
+export:         to   AS3356   185.1.8.41                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS3491   2001:7f8:73::da3:0:1           at         2001:7f8:73::efbe:fa:1 accept   AS3491:AS-UAEIX
+mp-export:      afi ipv6.unicast to   AS3491   2001:7f8:73::da3:0:1           at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3491   2001:7f8:73::da3:0:1           at         2001:7f8:73::efbe:fb:1 accept   AS3491:AS-UAEIX
+mp-export:      afi ipv6.unicast to   AS3491   2001:7f8:73::da3:0:1           at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS3491   2001:7f8:73::da3:0:1           at                          BS1-6 accept   AS3491:AS-UAEIX
+mp-export:      afi ipv6.unicast to   AS3491   2001:7f8:73::da3:0:1           at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS3491   185.1.8.36                     at                    185.1.8.251 accept   AS3491:AS-UAEIX
+export:         to   AS3491   185.1.8.36                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS3491   185.1.8.36                     at                    185.1.8.252 accept   AS3491:AS-UAEIX
+export:         to   AS3491   185.1.8.36                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS3491   185.1.8.36                     at                            BS1 accept   AS3491:AS-UAEIX
+export:         to   AS3491   185.1.8.36                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS4637   2001:7f8:73::121d:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-TELSTRA-INTL-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS4637   2001:7f8:73::121d:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS4637   2001:7f8:73::121d:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-TELSTRA-INTL-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS4637   2001:7f8:73::121d:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS4637   2001:7f8:73::121d:0:1          at                          BS1-6 accept   AS-TELSTRA-INTL-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS4637   2001:7f8:73::121d:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS4637   185.1.8.5                      at                    185.1.8.251 accept   AS-TELSTRA-INTL-CUSTOMERS
+export:         to   AS4637   185.1.8.5                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS4637   185.1.8.5                      at                    185.1.8.252 accept   AS-TELSTRA-INTL-CUSTOMERS
+export:         to   AS4637   185.1.8.5                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS4637   185.1.8.5                      at                            BS1 accept   AS-TELSTRA-INTL-CUSTOMERS
+export:         to   AS4637   185.1.8.5                      at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS5416   2001:7f8:73::1528:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-BATELCO-BH
+mp-export:      afi ipv6.unicast to   AS5416   2001:7f8:73::1528:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS5416   2001:7f8:73::1528:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-BATELCO-BH
+mp-export:      afi ipv6.unicast to   AS5416   2001:7f8:73::1528:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS5416   2001:7f8:73::1528:0:1          at                          BS1-6 accept   AS-BATELCO-BH
+mp-export:      afi ipv6.unicast to   AS5416   2001:7f8:73::1528:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS5416   185.1.8.38                     at                    185.1.8.251 accept   AS-BATELCO-BH
+export:         to   AS5416   185.1.8.38                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS5416   185.1.8.38                     at                    185.1.8.252 accept   AS-BATELCO-BH
+export:         to   AS5416   185.1.8.38                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS5416   185.1.8.38                     at                            BS1 accept   AS-BATELCO-BH
+export:         to   AS5416   185.1.8.38                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS5416   2001:7f8:73::1528:0:2          at         2001:7f8:73::efbe:fa:1 accept   AS-BATELCO-BH
+mp-export:      afi ipv6.unicast to   AS5416   2001:7f8:73::1528:0:2          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS5416   2001:7f8:73::1528:0:2          at         2001:7f8:73::efbe:fb:1 accept   AS-BATELCO-BH
+mp-export:      afi ipv6.unicast to   AS5416   2001:7f8:73::1528:0:2          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS5416   2001:7f8:73::1528:0:2          at                          BS1-6 accept   AS-BATELCO-BH
+mp-export:      afi ipv6.unicast to   AS5416   2001:7f8:73::1528:0:2          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS5416   185.1.8.40                     at                    185.1.8.251 accept   AS-BATELCO-BH
+export:         to   AS5416   185.1.8.40                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS5416   185.1.8.40                     at                    185.1.8.252 accept   AS-BATELCO-BH
+export:         to   AS5416   185.1.8.40                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS5416   185.1.8.40                     at                            BS1 accept   AS-BATELCO-BH
+export:         to   AS5416   185.1.8.40                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS5583   2001:7f8:73::15cf:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-OBS-BENELUX
+mp-export:      afi ipv6.unicast to   AS5583   2001:7f8:73::15cf:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS5583   2001:7f8:73::15cf:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-OBS-BENELUX
+mp-export:      afi ipv6.unicast to   AS5583   2001:7f8:73::15cf:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS5583   2001:7f8:73::15cf:0:1          at                          BS1-6 accept   AS-OBS-BENELUX
+mp-export:      afi ipv6.unicast to   AS5583   2001:7f8:73::15cf:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS5583   185.1.8.12                     at                    185.1.8.251 accept   AS-OBS-BENELUX
+export:         to   AS5583   185.1.8.12                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS5583   185.1.8.12                     at                    185.1.8.252 accept   AS-OBS-BENELUX
+export:         to   AS5583   185.1.8.12                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS5583   185.1.8.12                     at                            BS1 accept   AS-OBS-BENELUX
+export:         to   AS5583   185.1.8.12                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS6412   2001:7f8:73::190c:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-GNET-KW
+mp-export:      afi ipv6.unicast to   AS6412   2001:7f8:73::190c:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS6412   2001:7f8:73::190c:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-GNET-KW
+mp-export:      afi ipv6.unicast to   AS6412   2001:7f8:73::190c:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS6412   2001:7f8:73::190c:0:1          at                          BS1-6 accept   AS-GNET-KW
+mp-export:      afi ipv6.unicast to   AS6412   2001:7f8:73::190c:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS6412   185.1.8.6                      at                    185.1.8.251 accept   AS-GNET-KW
+export:         to   AS6412   185.1.8.6                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS6412   185.1.8.6                      at                    185.1.8.252 accept   AS-GNET-KW
+export:         to   AS6412   185.1.8.6                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS6412   185.1.8.6                      at                            BS1 accept   AS-GNET-KW
+export:         to   AS6412   185.1.8.6                      at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS6774   2001:7f8:73::1a76:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv6.unicast to   AS6774   2001:7f8:73::1a76:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS6774   2001:7f8:73::1a76:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv6.unicast to   AS6774   2001:7f8:73::1a76:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS6774   2001:7f8:73::1a76:0:1          at                          BS1-6 accept   AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv6.unicast to   AS6774   2001:7f8:73::1a76:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS6774   185.1.8.56                     at                    185.1.8.251 accept   AS6774:AS-BICS-TRANSIT
+export:         to   AS6774   185.1.8.56                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS6774   185.1.8.56                     at                    185.1.8.252 accept   AS6774:AS-BICS-TRANSIT
+export:         to   AS6774   185.1.8.56                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS6774   185.1.8.56                     at                            BS1 accept   AS6774:AS-BICS-TRANSIT
+export:         to   AS6774   185.1.8.56                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:73::1b1b:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:73::1b1b:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:73::1b1b:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:73::1b1b:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:73::1b1b:0:1          at                          BS1-6 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:73::1b1b:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS6939   185.1.8.63                     at                    185.1.8.251 accept   AS-HURRICANE
+export:         to   AS6939   185.1.8.63                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS6939   185.1.8.63                     at                    185.1.8.252 accept   AS-HURRICANE
+export:         to   AS6939   185.1.8.63                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS6939   185.1.8.63                     at                            BS1 accept   AS-HURRICANE
+export:         to   AS6939   185.1.8.63                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS8674   2001:7f8:73::21e2:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-NETNOD-ANYCAST
+mp-export:      afi ipv6.unicast to   AS8674   2001:7f8:73::21e2:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS8674   2001:7f8:73::21e2:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-NETNOD-ANYCAST
+mp-export:      afi ipv6.unicast to   AS8674   2001:7f8:73::21e2:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS8674   2001:7f8:73::21e2:0:1          at                          BS1-6 accept   AS-NETNOD-ANYCAST
+mp-export:      afi ipv6.unicast to   AS8674   2001:7f8:73::21e2:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS8674   185.1.8.24                     at                    185.1.8.251 accept   AS-NETNOD-ANYCAST
+export:         to   AS8674   185.1.8.24                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS8674   185.1.8.24                     at                    185.1.8.252 accept   AS-NETNOD-ANYCAST
+export:         to   AS8674   185.1.8.24                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS8674   185.1.8.24                     at                            BS1 accept   AS-NETNOD-ANYCAST
+export:         to   AS8674   185.1.8.24                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS8674   2001:7f8:73::21e2:0:2          at         2001:7f8:73::efbe:fa:1 accept   AS-NETNOD-ANYCAST
+mp-export:      afi ipv6.unicast to   AS8674   2001:7f8:73::21e2:0:2          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS8674   2001:7f8:73::21e2:0:2          at         2001:7f8:73::efbe:fb:1 accept   AS-NETNOD-ANYCAST
+mp-export:      afi ipv6.unicast to   AS8674   2001:7f8:73::21e2:0:2          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS8674   2001:7f8:73::21e2:0:2          at                          BS1-6 accept   AS-NETNOD-ANYCAST
+mp-export:      afi ipv6.unicast to   AS8674   2001:7f8:73::21e2:0:2          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS8674   185.1.8.25                     at                    185.1.8.251 accept   AS-NETNOD-ANYCAST
+export:         to   AS8674   185.1.8.25                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS8674   185.1.8.25                     at                    185.1.8.252 accept   AS-NETNOD-ANYCAST
+export:         to   AS8674   185.1.8.25                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS8674   185.1.8.25                     at                            BS1 accept   AS-NETNOD-ANYCAST
+export:         to   AS8674   185.1.8.25                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS9155   2001:7f8:73::23c3:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-QNET
+mp-export:      afi ipv6.unicast to   AS9155   2001:7f8:73::23c3:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS9155   2001:7f8:73::23c3:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-QNET
+mp-export:      afi ipv6.unicast to   AS9155   2001:7f8:73::23c3:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS9155   2001:7f8:73::23c3:0:1          at                          BS1-6 accept   AS-QNET
+mp-export:      afi ipv6.unicast to   AS9155   2001:7f8:73::23c3:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS9155   185.1.8.71                     at                    185.1.8.251 accept   AS-QNET
+export:         to   AS9155   185.1.8.71                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS9155   185.1.8.71                     at                    185.1.8.252 accept   AS-QNET
+export:         to   AS9155   185.1.8.71                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS9155   185.1.8.71                     at                            BS1 accept   AS-QNET
+export:         to   AS9155   185.1.8.71                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS9498   2001:7f8:73::251a:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS9498:AS-BHARTI-IN
+mp-export:      afi ipv6.unicast to   AS9498   2001:7f8:73::251a:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS9498   2001:7f8:73::251a:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS9498:AS-BHARTI-IN
+mp-export:      afi ipv6.unicast to   AS9498   2001:7f8:73::251a:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS9498   2001:7f8:73::251a:0:1          at                          BS1-6 accept   AS9498:AS-BHARTI-IN
+mp-export:      afi ipv6.unicast to   AS9498   2001:7f8:73::251a:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS9498   185.1.8.51                     at                    185.1.8.251 accept   AS9498:AS-BHARTI-IN
+export:         to   AS9498   185.1.8.51                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS9498   185.1.8.51                     at                    185.1.8.252 accept   AS9498:AS-BHARTI-IN
+export:         to   AS9498   185.1.8.51                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS9498   185.1.8.51                     at                            BS1 accept   AS9498:AS-BHARTI-IN
+export:         to   AS9498   185.1.8.51                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS9583   2001:7f8:73::256f:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS9583
+mp-export:      afi ipv6.unicast to   AS9583   2001:7f8:73::256f:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS9583   2001:7f8:73::256f:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS9583
+mp-export:      afi ipv6.unicast to   AS9583   2001:7f8:73::256f:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS9583   2001:7f8:73::256f:0:1          at                          BS1-6 accept   AS9583
+mp-export:      afi ipv6.unicast to   AS9583   2001:7f8:73::256f:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS9583   185.1.8.57                     at                    185.1.8.251 accept   AS9583:AS-SIFY
+export:         to   AS9583   185.1.8.57                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS9583   185.1.8.57                     at                    185.1.8.252 accept   AS9583:AS-SIFY
+export:         to   AS9583   185.1.8.57                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS9583   185.1.8.57                     at                            BS1 accept   AS9583:AS-SIFY
+export:         to   AS9583   185.1.8.57                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS13414  2001:7f8:73::3466:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-TWITTER
+mp-export:      afi ipv6.unicast to   AS13414  2001:7f8:73::3466:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS13414  2001:7f8:73::3466:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-TWITTER
+mp-export:      afi ipv6.unicast to   AS13414  2001:7f8:73::3466:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS13414  2001:7f8:73::3466:0:1          at                          BS1-6 accept   AS-TWITTER
+mp-export:      afi ipv6.unicast to   AS13414  2001:7f8:73::3466:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS13414  185.1.8.42                     at                    185.1.8.251 accept   AS-TWITTER
+export:         to   AS13414  185.1.8.42                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS13414  185.1.8.42                     at                    185.1.8.252 accept   AS-TWITTER
+export:         to   AS13414  185.1.8.42                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS13414  185.1.8.42                     at                            BS1 accept   AS-TWITTER
+export:         to   AS13414  185.1.8.42                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS13414  2001:7f8:73::3466:0:2          at         2001:7f8:73::efbe:fa:1 accept   AS-TWITTER
+mp-export:      afi ipv6.unicast to   AS13414  2001:7f8:73::3466:0:2          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS13414  2001:7f8:73::3466:0:2          at         2001:7f8:73::efbe:fb:1 accept   AS-TWITTER
+mp-export:      afi ipv6.unicast to   AS13414  2001:7f8:73::3466:0:2          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS13414  2001:7f8:73::3466:0:2          at                          BS1-6 accept   AS-TWITTER
+mp-export:      afi ipv6.unicast to   AS13414  2001:7f8:73::3466:0:2          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS13414  185.1.8.44                     at                    185.1.8.251 accept   AS-TWITTER
+export:         to   AS13414  185.1.8.44                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS13414  185.1.8.44                     at                    185.1.8.252 accept   AS-TWITTER
+export:         to   AS13414  185.1.8.44                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS13414  185.1.8.44                     at                            BS1 accept   AS-TWITTER
+export:         to   AS13414  185.1.8.44                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS15169  2001:7f8:73::3b41:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:7f8:73::3b41:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS15169  2001:7f8:73::3b41:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:7f8:73::3b41:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS15169  2001:7f8:73::3b41:0:1          at                          BS1-6 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:7f8:73::3b41:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS15169  185.1.8.28                     at                    185.1.8.251 accept   AS-GOOGLE
+export:         to   AS15169  185.1.8.28                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS15169  185.1.8.28                     at                    185.1.8.252 accept   AS-GOOGLE
+export:         to   AS15169  185.1.8.28                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS15169  185.1.8.28                     at                            BS1 accept   AS-GOOGLE
+export:         to   AS15169  185.1.8.28                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS15412  2001:7f8:73::3c34:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-FLAGT
+mp-export:      afi ipv6.unicast to   AS15412  2001:7f8:73::3c34:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS15412  2001:7f8:73::3c34:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-FLAGT
+mp-export:      afi ipv6.unicast to   AS15412  2001:7f8:73::3c34:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS15412  2001:7f8:73::3c34:0:1          at                          BS1-6 accept   AS-FLAGT
+mp-export:      afi ipv6.unicast to   AS15412  2001:7f8:73::3c34:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS15412  185.1.8.21                     at                    185.1.8.251 accept   AS-FLAGT
+export:         to   AS15412  185.1.8.21                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS15412  185.1.8.21                     at                    185.1.8.252 accept   AS-FLAGT
+export:         to   AS15412  185.1.8.21                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS15412  185.1.8.21                     at                            BS1 accept   AS-FLAGT
+export:         to   AS15412  185.1.8.21                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS15802  2001:7f8:73::3dba:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-EITC-DU
+mp-export:      afi ipv6.unicast to   AS15802  2001:7f8:73::3dba:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS15802  2001:7f8:73::3dba:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-EITC-DU
+mp-export:      afi ipv6.unicast to   AS15802  2001:7f8:73::3dba:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS15802  2001:7f8:73::3dba:0:1          at                          BS1-6 accept   AS-EITC-DU
+mp-export:      afi ipv6.unicast to   AS15802  2001:7f8:73::3dba:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS15802  185.1.8.1                      at                    185.1.8.251 accept   AS-EITC-DU
+export:         to   AS15802  185.1.8.1                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS15802  185.1.8.1                      at                    185.1.8.252 accept   AS-EITC-DU
+export:         to   AS15802  185.1.8.1                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS15802  185.1.8.1                      at                            BS1 accept   AS-EITC-DU
+export:         to   AS15802  185.1.8.1                      at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS15802  2001:7f8:73::3dba:0:2          at         2001:7f8:73::efbe:fa:1 accept   AS-EITC-DU
+mp-export:      afi ipv6.unicast to   AS15802  2001:7f8:73::3dba:0:2          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS15802  2001:7f8:73::3dba:0:2          at         2001:7f8:73::efbe:fb:1 accept   AS-EITC-DU
+mp-export:      afi ipv6.unicast to   AS15802  2001:7f8:73::3dba:0:2          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS15802  2001:7f8:73::3dba:0:2          at                          BS1-6 accept   AS-EITC-DU
+mp-export:      afi ipv6.unicast to   AS15802  2001:7f8:73::3dba:0:2          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS15802  185.1.8.2                      at                    185.1.8.251 accept   AS-EITC-DU
+export:         to   AS15802  185.1.8.2                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS15802  185.1.8.2                      at                    185.1.8.252 accept   AS-EITC-DU
+export:         to   AS15802  185.1.8.2                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS15802  185.1.8.2                      at                            BS1 accept   AS-EITC-DU
+export:         to   AS15802  185.1.8.2                      at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS57187  2001:7f8:73::df63:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-DATAMENA
+mp-export:      afi ipv6.unicast to   AS57187  2001:7f8:73::df63:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS57187  2001:7f8:73::df63:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-DATAMENA
+mp-export:      afi ipv6.unicast to   AS57187  2001:7f8:73::df63:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS57187  2001:7f8:73::df63:0:1          at                          BS1-6 accept   AS-DATAMENA
+mp-export:      afi ipv6.unicast to   AS57187  2001:7f8:73::df63:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS57187  185.1.8.20                     at                    185.1.8.251 accept   AS-DATAMENA
+export:         to   AS57187  185.1.8.20                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS57187  185.1.8.20                     at                    185.1.8.252 accept   AS-DATAMENA
+export:         to   AS57187  185.1.8.20                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS57187  185.1.8.20                     at                            BS1 accept   AS-DATAMENA
+export:         to   AS57187  185.1.8.20                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS20940  2001:7f8:73::51cc:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-AKAMAI
+mp-export:      afi ipv6.unicast to   AS20940  2001:7f8:73::51cc:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS20940  2001:7f8:73::51cc:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-AKAMAI
+mp-export:      afi ipv6.unicast to   AS20940  2001:7f8:73::51cc:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS20940  2001:7f8:73::51cc:0:1          at                          BS1-6 accept   AS-AKAMAI
+mp-export:      afi ipv6.unicast to   AS20940  2001:7f8:73::51cc:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS20940  185.1.8.16                     at                    185.1.8.251 accept   AS-AKAMAI
+export:         to   AS20940  185.1.8.16                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS20940  185.1.8.16                     at                    185.1.8.252 accept   AS-AKAMAI
+export:         to   AS20940  185.1.8.16                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS20940  185.1.8.16                     at                            BS1 accept   AS-AKAMAI
+export:         to   AS20940  185.1.8.16                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS21859  2001:7f8:73::5563:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-ZENLAYER
+mp-export:      afi ipv6.unicast to   AS21859  2001:7f8:73::5563:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS21859  2001:7f8:73::5563:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-ZENLAYER
+mp-export:      afi ipv6.unicast to   AS21859  2001:7f8:73::5563:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS21859  2001:7f8:73::5563:0:1          at                          BS1-6 accept   AS-ZENLAYER
+mp-export:      afi ipv6.unicast to   AS21859  2001:7f8:73::5563:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS21859  185.1.8.61                     at                    185.1.8.251 accept   AS-ZENLAYER
+export:         to   AS21859  185.1.8.61                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS21859  185.1.8.61                     at                    185.1.8.252 accept   AS-ZENLAYER
+export:         to   AS21859  185.1.8.61                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS21859  185.1.8.61                     at                            BS1 accept   AS-ZENLAYER
+export:         to   AS21859  185.1.8.61                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS25108  2001:7f8:73::6214:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-IOMART-APAC
+mp-export:      afi ipv6.unicast to   AS25108  2001:7f8:73::6214:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS25108  2001:7f8:73::6214:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-IOMART-APAC
+mp-export:      afi ipv6.unicast to   AS25108  2001:7f8:73::6214:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS25108  2001:7f8:73::6214:0:1          at                          BS1-6 accept   AS-IOMART-APAC
+mp-export:      afi ipv6.unicast to   AS25108  2001:7f8:73::6214:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS25108  185.1.8.34                     at                    185.1.8.251 accept   AS-IOMART-APAC
+export:         to   AS25108  185.1.8.34                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS25108  185.1.8.34                     at                    185.1.8.252 accept   AS-IOMART-APAC
+export:         to   AS25108  185.1.8.34                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS25108  185.1.8.34                     at                            BS1 accept   AS-IOMART-APAC
+export:         to   AS25108  185.1.8.34                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS25818  2001:7f8:73::64da:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-CMCNETWORKS
+mp-export:      afi ipv6.unicast to   AS25818  2001:7f8:73::64da:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS25818  2001:7f8:73::64da:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-CMCNETWORKS
+mp-export:      afi ipv6.unicast to   AS25818  2001:7f8:73::64da:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS25818  2001:7f8:73::64da:0:1          at                          BS1-6 accept   AS-CMCNETWORKS
+mp-export:      afi ipv6.unicast to   AS25818  2001:7f8:73::64da:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS25818  185.1.8.37                     at                    185.1.8.251 accept   AS-CMCNETWORKS
+export:         to   AS25818  185.1.8.37                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS25818  185.1.8.37                     at                    185.1.8.252 accept   AS-CMCNETWORKS
+export:         to   AS25818  185.1.8.37                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS25818  185.1.8.37                     at                            BS1 accept   AS-CMCNETWORKS
+export:         to   AS25818  185.1.8.37                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS30990  2001:7f8:73::790e:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS30990
+mp-export:      afi ipv6.unicast to   AS30990  2001:7f8:73::790e:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS30990  2001:7f8:73::790e:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS30990
+mp-export:      afi ipv6.unicast to   AS30990  2001:7f8:73::790e:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS30990  2001:7f8:73::790e:0:1          at                          BS1-6 accept   AS30990
+mp-export:      afi ipv6.unicast to   AS30990  2001:7f8:73::790e:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS30990  185.1.8.62                     at                    185.1.8.251 accept   AS30990
+export:         to   AS30990  185.1.8.62                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS30990  185.1.8.62                     at                    185.1.8.252 accept   AS30990
+export:         to   AS30990  185.1.8.62                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS30990  185.1.8.62                     at                            BS1 accept   AS30990
+export:         to   AS30990  185.1.8.62                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS31216  2001:7f8:73::79f0:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-BSOCOM
+mp-export:      afi ipv6.unicast to   AS31216  2001:7f8:73::79f0:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS31216  2001:7f8:73::79f0:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-BSOCOM
+mp-export:      afi ipv6.unicast to   AS31216  2001:7f8:73::79f0:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS31216  2001:7f8:73::79f0:0:1          at                          BS1-6 accept   AS-BSOCOM
+mp-export:      afi ipv6.unicast to   AS31216  2001:7f8:73::79f0:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS31216  185.1.8.30                     at                    185.1.8.251 accept   AS-BSOCOM
+export:         to   AS31216  185.1.8.30                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS31216  185.1.8.30                     at                    185.1.8.252 accept   AS-BSOCOM
+export:         to   AS31216  185.1.8.30                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS31216  185.1.8.30                     at                            BS1 accept   AS-BSOCOM
+export:         to   AS31216  185.1.8.30                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS32590  2001:7f8:73::7f4e:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-VALVE
+mp-export:      afi ipv6.unicast to   AS32590  2001:7f8:73::7f4e:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS32590  2001:7f8:73::7f4e:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-VALVE
+mp-export:      afi ipv6.unicast to   AS32590  2001:7f8:73::7f4e:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS32590  2001:7f8:73::7f4e:0:1          at                          BS1-6 accept   AS-VALVE
+mp-export:      afi ipv6.unicast to   AS32590  2001:7f8:73::7f4e:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS32590  185.1.8.55                     at                    185.1.8.251 accept   AS-VALVE
+export:         to   AS32590  185.1.8.55                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS32590  185.1.8.55                     at                    185.1.8.252 accept   AS-VALVE
+export:         to   AS32590  185.1.8.55                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS32590  185.1.8.55                     at                            BS1 accept   AS-VALVE
+export:         to   AS32590  185.1.8.55                     at                            BS1 announce AS-UAEIX
+import:         from AS35313  185.1.8.58                     at                    185.1.8.251 accept   AS-INFONAS
+export:         to   AS35313  185.1.8.58                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS35313  185.1.8.58                     at                    185.1.8.252 accept   AS-INFONAS
+export:         to   AS35313  185.1.8.58                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS35313  185.1.8.58                     at                            BS1 accept   AS-INFONAS
+export:         to   AS35313  185.1.8.58                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS35313  2001:7f8:73::89f1:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-INFONAS
+mp-export:      afi ipv6.unicast to   AS35313  2001:7f8:73::89f1:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS35313  2001:7f8:73::89f1:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-INFONAS
+mp-export:      afi ipv6.unicast to   AS35313  2001:7f8:73::89f1:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS35313  2001:7f8:73::89f1:0:1          at                          BS1-6 accept   AS-INFONAS
+mp-export:      afi ipv6.unicast to   AS35313  2001:7f8:73::89f1:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS35753  185.1.8.10                     at                    185.1.8.251 accept   AS-ITC
+export:         to   AS35753  185.1.8.10                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS35753  185.1.8.10                     at                    185.1.8.252 accept   AS-ITC
+export:         to   AS35753  185.1.8.10                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS35753  185.1.8.10                     at                            BS1 accept   AS-ITC
+export:         to   AS35753  185.1.8.10                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS35753  2001:7f8:73::8ba9:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-ITC
+mp-export:      afi ipv6.unicast to   AS35753  2001:7f8:73::8ba9:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS35753  2001:7f8:73::8ba9:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-ITC
+mp-export:      afi ipv6.unicast to   AS35753  2001:7f8:73::8ba9:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS35753  2001:7f8:73::8ba9:0:1          at                          BS1-6 accept   AS-ITC
+mp-export:      afi ipv6.unicast to   AS35753  2001:7f8:73::8ba9:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS35819  185.1.8.3                      at                    185.1.8.251 accept   AS35819
+export:         to   AS35819  185.1.8.3                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS35819  185.1.8.3                      at                    185.1.8.252 accept   AS35819
+export:         to   AS35819  185.1.8.3                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS35819  185.1.8.3                      at                            BS1 accept   AS35819
+export:         to   AS35819  185.1.8.3                      at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS35819  2001:7f8:73::8beb:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS35819
+mp-export:      afi ipv6.unicast to   AS35819  2001:7f8:73::8beb:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS35819  2001:7f8:73::8beb:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS35819
+mp-export:      afi ipv6.unicast to   AS35819  2001:7f8:73::8beb:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS35819  2001:7f8:73::8beb:0:1          at                          BS1-6 accept   AS35819
+mp-export:      afi ipv6.unicast to   AS35819  2001:7f8:73::8beb:0:1          at                          BS1-6 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS36692  2001:7f8:73::8f54:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-OPENDNS
+mp-export:      afi ipv6.unicast to   AS36692  2001:7f8:73::8f54:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS36692  2001:7f8:73::8f54:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-OPENDNS
+mp-export:      afi ipv6.unicast to   AS36692  2001:7f8:73::8f54:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS36692  2001:7f8:73::8f54:0:1          at                          BS1-6 accept   AS-OPENDNS
+mp-export:      afi ipv6.unicast to   AS36692  2001:7f8:73::8f54:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS36692  185.1.8.69                     at                    185.1.8.251 accept   AS-OPENDNS
+export:         to   AS36692  185.1.8.69                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS36692  185.1.8.69                     at                    185.1.8.252 accept   AS-OPENDNS
+export:         to   AS36692  185.1.8.69                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS36692  185.1.8.69                     at                            BS1 accept   AS-OPENDNS
+export:         to   AS36692  185.1.8.69                     at                            BS1 announce AS-UAEIX
+import:         from AS39386  185.1.8.27                     at                            BS1 accept   AS-IGW-SET
+export:         to   AS39386  185.1.8.27                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS41176  2001:7f8:73::a0d8:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS41176
+mp-export:      afi ipv6.unicast to   AS41176  2001:7f8:73::a0d8:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS41176  2001:7f8:73::a0d8:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS41176
+mp-export:      afi ipv6.unicast to   AS41176  2001:7f8:73::a0d8:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS41176  2001:7f8:73::a0d8:0:1          at                          BS1-6 accept   AS41176
+mp-export:      afi ipv6.unicast to   AS41176  2001:7f8:73::a0d8:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS41176  185.1.8.64                     at                    185.1.8.251 accept   AS41176
+export:         to   AS41176  185.1.8.64                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS41176  185.1.8.64                     at                    185.1.8.252 accept   AS41176
+export:         to   AS41176  185.1.8.64                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS41176  185.1.8.64                     at                            BS1 accept   AS41176
+export:         to   AS41176  185.1.8.64                     at                            BS1 announce AS-UAEIX
+import:         from AS41426  185.1.8.8                      at                    185.1.8.251 accept   AS-STC-BH
+export:         to   AS41426  185.1.8.8                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS41426  185.1.8.8                      at                    185.1.8.252 accept   AS-STC-BH
+export:         to   AS41426  185.1.8.8                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS41426  185.1.8.8                      at                            BS1 accept   AS-STC-BH
+export:         to   AS41426  185.1.8.8                      at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS41426  2001:7f8:73::a1d2:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-STC-BH
+mp-export:      afi ipv6.unicast to   AS41426  2001:7f8:73::a1d2:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS41426  2001:7f8:73::a1d2:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-STC-BH
+mp-export:      afi ipv6.unicast to   AS41426  2001:7f8:73::a1d2:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS41426  2001:7f8:73::a1d2:0:1          at                          BS1-6 accept   AS-STC-BH
+mp-export:      afi ipv6.unicast to   AS41426  2001:7f8:73::a1d2:0:1          at                          BS1-6 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS42473  2001:7f8:73::a5e9:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-ANEXIA
+mp-export:      afi ipv6.unicast to   AS42473  2001:7f8:73::a5e9:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS42473  2001:7f8:73::a5e9:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-ANEXIA
+mp-export:      afi ipv6.unicast to   AS42473  2001:7f8:73::a5e9:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS42473  2001:7f8:73::a5e9:0:1          at                          BS1-6 accept   AS-ANEXIA
+mp-export:      afi ipv6.unicast to   AS42473  2001:7f8:73::a5e9:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS42473  185.1.8.11                     at                    185.1.8.251 accept   AS-ANEXIA
+export:         to   AS42473  185.1.8.11                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS42473  185.1.8.11                     at                    185.1.8.252 accept   AS-ANEXIA
+export:         to   AS42473  185.1.8.11                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS42473  185.1.8.11                     at                            BS1 accept   AS-ANEXIA
+export:         to   AS42473  185.1.8.11                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS43531  2001:7f8:73::aa0b:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-IXREACH
+mp-export:      afi ipv6.unicast to   AS43531  2001:7f8:73::aa0b:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS43531  2001:7f8:73::aa0b:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-IXREACH
+mp-export:      afi ipv6.unicast to   AS43531  2001:7f8:73::aa0b:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS43531  2001:7f8:73::aa0b:0:1          at                          BS1-6 accept   AS-IXREACH
+mp-export:      afi ipv6.unicast to   AS43531  2001:7f8:73::aa0b:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS43531  185.1.8.13                     at                    185.1.8.251 accept   AS-IXREACH
+export:         to   AS43531  185.1.8.13                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS43531  185.1.8.13                     at                    185.1.8.252 accept   AS-IXREACH
+export:         to   AS43531  185.1.8.13                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS43531  185.1.8.13                     at                            BS1 accept   AS-IXREACH
+export:         to   AS43531  185.1.8.13                     at                            BS1 announce AS-UAEIX
+import:         from AS43852  185.1.8.29                     at                    185.1.8.251 accept   AS-KDC
+export:         to   AS43852  185.1.8.29                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS43852  185.1.8.29                     at                    185.1.8.252 accept   AS-KDC
+export:         to   AS43852  185.1.8.29                     at                    185.1.8.252 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS44356  2001:7f8:73::ad44:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-44356-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS44356  2001:7f8:73::ad44:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS44356  2001:7f8:73::ad44:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-44356-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS44356  2001:7f8:73::ad44:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS44356  2001:7f8:73::ad44:0:1          at                          BS1-6 accept   AS-44356-CUSTOMERS
+mp-export:      afi ipv6.unicast to   AS44356  2001:7f8:73::ad44:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS44356  185.1.8.54                     at                    185.1.8.251 accept   AS-44356-CUSTOMERS
+export:         to   AS44356  185.1.8.54                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS44356  185.1.8.54                     at                    185.1.8.252 accept   AS-44356-CUSTOMERS
+export:         to   AS44356  185.1.8.54                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS44356  185.1.8.54                     at                            BS1 accept   AS-44356-CUSTOMERS
+export:         to   AS44356  185.1.8.54                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS45102  2001:7f8:73::b02e:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-ALIBABA-CN-NET
+mp-export:      afi ipv6.unicast to   AS45102  2001:7f8:73::b02e:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS45102  2001:7f8:73::b02e:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-ALIBABA-CN-NET
+mp-export:      afi ipv6.unicast to   AS45102  2001:7f8:73::b02e:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS45102  2001:7f8:73::b02e:0:1          at                          BS1-6 accept   AS-ALIBABA-CN-NET
+mp-export:      afi ipv6.unicast to   AS45102  2001:7f8:73::b02e:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS45102  185.1.8.47                     at                    185.1.8.251 accept   AS-ALIBABA-CN-NET
+export:         to   AS45102  185.1.8.47                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS45102  185.1.8.47                     at                    185.1.8.252 accept   AS-ALIBABA-CN-NET
+export:         to   AS45102  185.1.8.47                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS45102  185.1.8.47                     at                            BS1 accept   AS-ALIBABA-CN-NET
+export:         to   AS45102  185.1.8.47                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS47794  2001:7f8:73::bab2:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-ATHEEB-PEERS
+mp-export:      afi ipv6.unicast to   AS47794  2001:7f8:73::bab2:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS47794  2001:7f8:73::bab2:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-ATHEEB-PEERS
+mp-export:      afi ipv6.unicast to   AS47794  2001:7f8:73::bab2:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS47794  2001:7f8:73::bab2:0:1          at                          BS1-6 accept   AS-ATHEEB-PEERS
+mp-export:      afi ipv6.unicast to   AS47794  2001:7f8:73::bab2:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS47794  185.1.8.35                     at                    185.1.8.251 accept   AS-ATHEEB-PEERS
+export:         to   AS47794  185.1.8.35                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS47794  185.1.8.35                     at                    185.1.8.252 accept   AS-ATHEEB-PEERS
+export:         to   AS47794  185.1.8.35                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS47794  185.1.8.35                     at                            BS1 accept   AS-ATHEEB-PEERS
+export:         to   AS47794  185.1.8.35                     at                            BS1 announce AS-UAEIX
+import:         from AS48728  185.1.8.26                     at                    185.1.8.251 accept   AS-VODAFONEQATAR-SET
+export:         to   AS48728  185.1.8.26                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS48728  185.1.8.26                     at                    185.1.8.252 accept   AS-VODAFONEQATAR-SET
+export:         to   AS48728  185.1.8.26                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS48728  185.1.8.26                     at                            BS1 accept   AS-VODAFONEQATAR-SET
+export:         to   AS48728  185.1.8.26                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS48728  2001:7f8:73::be58:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-VODAFONEQATAR-SET
+mp-export:      afi ipv6.unicast to   AS48728  2001:7f8:73::be58:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS48728  2001:7f8:73::be58:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-VODAFONEQATAR-SET
+mp-export:      afi ipv6.unicast to   AS48728  2001:7f8:73::be58:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS48728  2001:7f8:73::be58:0:1          at                          BS1-6 accept   AS-VODAFONEQATAR-SET
+mp-export:      afi ipv6.unicast to   AS48728  2001:7f8:73::be58:0:1          at                          BS1-6 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS49544  2001:7f8:73::c188:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to   AS49544  2001:7f8:73::c188:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS49544  2001:7f8:73::c188:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to   AS49544  2001:7f8:73::c188:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS49544  2001:7f8:73::c188:0:1          at                          BS1-6 accept   AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to   AS49544  2001:7f8:73::c188:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS49544  185.1.8.59                     at                    185.1.8.251 accept   AS-INTERACTIVE3D
+export:         to   AS49544  185.1.8.59                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS49544  185.1.8.59                     at                    185.1.8.252 accept   AS-INTERACTIVE3D
+export:         to   AS49544  185.1.8.59                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS49544  185.1.8.59                     at                            BS1 accept   AS-INTERACTIVE3D
+export:         to   AS49544  185.1.8.59                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS50597  2001:7f8:73::c5a5:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-SET-SCOPESKY
+mp-export:      afi ipv6.unicast to   AS50597  2001:7f8:73::c5a5:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS50597  2001:7f8:73::c5a5:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-SET-SCOPESKY
+mp-export:      afi ipv6.unicast to   AS50597  2001:7f8:73::c5a5:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS50597  2001:7f8:73::c5a5:0:1          at                          BS1-6 accept   AS-SET-SCOPESKY
+mp-export:      afi ipv6.unicast to   AS50597  2001:7f8:73::c5a5:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS50597  185.1.8.46                     at                    185.1.8.251 accept   AS-SET-SCOPESKY
+export:         to   AS50597  185.1.8.46                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS50597  185.1.8.46                     at                    185.1.8.252 accept   AS-SET-SCOPESKY
+export:         to   AS50597  185.1.8.46                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS50597  185.1.8.46                     at                            BS1 accept   AS-SET-SCOPESKY
+export:         to   AS50597  185.1.8.46                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS50710  2001:7f8:73::c616:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS50710
+mp-export:      afi ipv6.unicast to   AS50710  2001:7f8:73::c616:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS50710  2001:7f8:73::c616:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS50710
+mp-export:      afi ipv6.unicast to   AS50710  2001:7f8:73::c616:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS50710  2001:7f8:73::c616:0:1          at                          BS1-6 accept   AS50710
+mp-export:      afi ipv6.unicast to   AS50710  2001:7f8:73::c616:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS50710  185.1.8.17                     at                    185.1.8.251 accept   AS50710
+export:         to   AS50710  185.1.8.17                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS50710  185.1.8.17                     at                    185.1.8.252 accept   AS50710
+export:         to   AS50710  185.1.8.17                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS50710  185.1.8.17                     at                            BS1 accept   AS50710
+export:         to   AS50710  185.1.8.17                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS51254  2001:7f8:73::c836:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-GIANTS
+mp-export:      afi ipv6.unicast to   AS51254  2001:7f8:73::c836:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS51254  2001:7f8:73::c836:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-GIANTS
+mp-export:      afi ipv6.unicast to   AS51254  2001:7f8:73::c836:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS51254  2001:7f8:73::c836:0:1          at                          BS1-6 accept   AS-GIANTS
+mp-export:      afi ipv6.unicast to   AS51254  2001:7f8:73::c836:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS51254  185.1.8.9                      at                    185.1.8.251 accept   AS-GIANTS
+export:         to   AS51254  185.1.8.9                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS51254  185.1.8.9                      at                    185.1.8.252 accept   AS-GIANTS
+export:         to   AS51254  185.1.8.9                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS51254  185.1.8.9                      at                            BS1 accept   AS-GIANTS
+export:         to   AS51254  185.1.8.9                      at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS53889  2001:7f8:73::d281:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS53889
+mp-export:      afi ipv6.unicast to   AS53889  2001:7f8:73::d281:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS53889  2001:7f8:73::d281:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS53889
+mp-export:      afi ipv6.unicast to   AS53889  2001:7f8:73::d281:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS53889  2001:7f8:73::d281:0:1          at                          BS1-6 accept   AS53889
+mp-export:      afi ipv6.unicast to   AS53889  2001:7f8:73::d281:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS53889  185.1.8.18                     at                    185.1.8.251 accept   AS53889
+export:         to   AS53889  185.1.8.18                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS53889  185.1.8.18                     at                    185.1.8.252 accept   AS53889
+export:         to   AS53889  185.1.8.18                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS53889  185.1.8.18                     at                            BS1 accept   AS53889
+export:         to   AS53889  185.1.8.18                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS56484  2001:7f8:73::dca4:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-FI-NETWORKS
+mp-export:      afi ipv6.unicast to   AS56484  2001:7f8:73::dca4:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS56484  2001:7f8:73::dca4:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-FI-NETWORKS
+mp-export:      afi ipv6.unicast to   AS56484  2001:7f8:73::dca4:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS56484  2001:7f8:73::dca4:0:1          at                          BS1-6 accept   AS-FI-NETWORKS
+mp-export:      afi ipv6.unicast to   AS56484  2001:7f8:73::dca4:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS56484  185.1.8.67                     at                    185.1.8.251 accept   AS-FI-NETWORKS
+export:         to   AS56484  185.1.8.67                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS56484  185.1.8.67                     at                    185.1.8.252 accept   AS-FI-NETWORKS
+export:         to   AS56484  185.1.8.67                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS56484  185.1.8.67                     at                            BS1 accept   AS-FI-NETWORKS
+export:         to   AS56484  185.1.8.67                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS59605  2001:7f8:73::e8d5:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-ZAINGP
+mp-export:      afi ipv6.unicast to   AS59605  2001:7f8:73::e8d5:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS59605  2001:7f8:73::e8d5:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-ZAINGP
+mp-export:      afi ipv6.unicast to   AS59605  2001:7f8:73::e8d5:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS59605  2001:7f8:73::e8d5:0:1          at                          BS1-6 accept   AS-ZAINGP
+mp-export:      afi ipv6.unicast to   AS59605  2001:7f8:73::e8d5:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS59605  185.1.8.31                     at                    185.1.8.251 accept   AS-ZAINGP
+export:         to   AS59605  185.1.8.31                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS59605  185.1.8.31                     at                    185.1.8.252 accept   AS-ZAINGP
+export:         to   AS59605  185.1.8.31                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS59605  185.1.8.31                     at                            BS1 accept   AS-ZAINGP
+export:         to   AS59605  185.1.8.31                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS60080  2001:7f8:73::eab0:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-SELEVISION
+mp-export:      afi ipv6.unicast to   AS60080  2001:7f8:73::eab0:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS60080  2001:7f8:73::eab0:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-SELEVISION
+mp-export:      afi ipv6.unicast to   AS60080  2001:7f8:73::eab0:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS60080  2001:7f8:73::eab0:0:1          at                          BS1-6 accept   AS-SELEVISION
+mp-export:      afi ipv6.unicast to   AS60080  2001:7f8:73::eab0:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS60080  185.1.8.22                     at                    185.1.8.251 accept   AS-SELEVISION
+export:         to   AS60080  185.1.8.22                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS60080  185.1.8.22                     at                    185.1.8.252 accept   AS-SELEVISION
+export:         to   AS60080  185.1.8.22                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS60080  185.1.8.22                     at                            BS1 accept   AS-SELEVISION
+export:         to   AS60080  185.1.8.22                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS60924  2001:7f8:73::edfc:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-ORIXCOM
+mp-export:      afi ipv6.unicast to   AS60924  2001:7f8:73::edfc:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS60924  2001:7f8:73::edfc:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-ORIXCOM
+mp-export:      afi ipv6.unicast to   AS60924  2001:7f8:73::edfc:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS60924  2001:7f8:73::edfc:0:1          at                          BS1-6 accept   AS-ORIXCOM
+mp-export:      afi ipv6.unicast to   AS60924  2001:7f8:73::edfc:0:1          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS60924  185.1.8.23                     at                    185.1.8.251 accept   AS-ORIXCOM
+export:         to   AS60924  185.1.8.23                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS60924  185.1.8.23                     at                    185.1.8.252 accept   AS-ORIXCOM
+export:         to   AS60924  185.1.8.23                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS60924  185.1.8.23                     at                            BS1 accept   AS-ORIXCOM
+export:         to   AS60924  185.1.8.23                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS60924  2001:7f8:73::edfc:0:2          at         2001:7f8:73::efbe:fa:1 accept   AS-ORIXCOM
+mp-export:      afi ipv6.unicast to   AS60924  2001:7f8:73::edfc:0:2          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS60924  2001:7f8:73::edfc:0:2          at         2001:7f8:73::efbe:fb:1 accept   AS-ORIXCOM
+mp-export:      afi ipv6.unicast to   AS60924  2001:7f8:73::edfc:0:2          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS60924  2001:7f8:73::edfc:0:2          at                          BS1-6 accept   AS-ORIXCOM
+mp-export:      afi ipv6.unicast to   AS60924  2001:7f8:73::edfc:0:2          at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS60924  185.1.8.65                     at                    185.1.8.251 accept   AS-ORIXCOM
+export:         to   AS60924  185.1.8.65                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS60924  185.1.8.65                     at                    185.1.8.252 accept   AS-ORIXCOM
+export:         to   AS60924  185.1.8.65                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS60924  185.1.8.65                     at                            BS1 accept   AS-ORIXCOM
+export:         to   AS60924  185.1.8.65                     at                            BS1 announce AS-UAEIX
+import:         from AS61374  185.1.8.249                    at                    185.1.8.251 accept   AS-NADA
+export:         to   AS61374  185.1.8.249                    at                    185.1.8.251 announce AS-UAEIX
+import:         from AS61374  185.1.8.249                    at                    185.1.8.252 accept   AS-NADA
+export:         to   AS61374  185.1.8.249                    at                    185.1.8.252 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS61374  2001:7f8:73::efbe:f9:1         at         2001:7f8:73::efbe:fa:1 accept   AS-NADA
+mp-export:      afi ipv6.unicast to   AS61374  2001:7f8:73::efbe:f9:1         at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS61374  2001:7f8:73::efbe:f9:1         at         2001:7f8:73::efbe:fb:1 accept   AS-NADA
+mp-export:      afi ipv6.unicast to   AS61374  2001:7f8:73::efbe:f9:1         at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+import:         from AS62458  185.1.8.45                     at                    185.1.8.251 accept   AS-MBC
+export:         to   AS62458  185.1.8.45                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS62458  185.1.8.45                     at                    185.1.8.252 accept   AS-MBC
+export:         to   AS62458  185.1.8.45                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS62458  185.1.8.45                     at                            BS1 accept   AS-MBC
+export:         to   AS62458  185.1.8.45                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS62458  2001:7f8:73::f3fa:0:1          at         2001:7f8:73::efbe:fa:1 accept   AS-MBC
+mp-export:      afi ipv6.unicast to   AS62458  2001:7f8:73::f3fa:0:1          at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS62458  2001:7f8:73::f3fa:0:1          at         2001:7f8:73::efbe:fb:1 accept   AS-MBC
+mp-export:      afi ipv6.unicast to   AS62458  2001:7f8:73::f3fa:0:1          at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS62458  2001:7f8:73::f3fa:0:1          at                          BS1-6 accept   AS-MBC
+mp-export:      afi ipv6.unicast to   AS62458  2001:7f8:73::f3fa:0:1          at                          BS1-6 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS200612 2001:7f8:73:0:3:fa4:0:1        at         2001:7f8:73::efbe:fa:1 accept   AS-SETGBI
+mp-export:      afi ipv6.unicast to   AS200612 2001:7f8:73:0:3:fa4:0:1        at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS200612 2001:7f8:73:0:3:fa4:0:1        at         2001:7f8:73::efbe:fb:1 accept   AS-SETGBI
+mp-export:      afi ipv6.unicast to   AS200612 2001:7f8:73:0:3:fa4:0:1        at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS200612 2001:7f8:73:0:3:fa4:0:1        at                          BS1-6 accept   AS-SETGBI
+mp-export:      afi ipv6.unicast to   AS200612 2001:7f8:73:0:3:fa4:0:1        at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS200612 185.1.8.50                     at                    185.1.8.251 accept   AS-SETGBI
+export:         to   AS200612 185.1.8.50                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS200612 185.1.8.50                     at                    185.1.8.252 accept   AS-SETGBI
+export:         to   AS200612 185.1.8.50                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS200612 185.1.8.50                     at                            BS1 accept   AS-SETGBI
+export:         to   AS200612 185.1.8.50                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS200852 2001:7f8:73:0:3:1094:0:1       at         2001:7f8:73::efbe:fa:1 accept   AS-INTIGRAL
+mp-export:      afi ipv6.unicast to   AS200852 2001:7f8:73:0:3:1094:0:1       at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS200852 2001:7f8:73:0:3:1094:0:1       at         2001:7f8:73::efbe:fb:1 accept   AS-INTIGRAL
+mp-export:      afi ipv6.unicast to   AS200852 2001:7f8:73:0:3:1094:0:1       at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS200852 2001:7f8:73:0:3:1094:0:1       at                          BS1-6 accept   AS-INTIGRAL
+mp-export:      afi ipv6.unicast to   AS200852 2001:7f8:73:0:3:1094:0:1       at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS200852 185.1.8.48                     at                    185.1.8.251 accept   AS-INTIGRAL
+export:         to   AS200852 185.1.8.48                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS200852 185.1.8.48                     at                    185.1.8.252 accept   AS-INTIGRAL
+export:         to   AS200852 185.1.8.48                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS200852 185.1.8.48                     at                            BS1 accept   AS-INTIGRAL
+export:         to   AS200852 185.1.8.48                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS200852 2001:7f8:73:0:3:1094:0:2       at         2001:7f8:73::efbe:fa:1 accept   AS-INTIGRAL
+mp-export:      afi ipv6.unicast to   AS200852 2001:7f8:73:0:3:1094:0:2       at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS200852 2001:7f8:73:0:3:1094:0:2       at         2001:7f8:73::efbe:fb:1 accept   AS-INTIGRAL
+mp-export:      afi ipv6.unicast to   AS200852 2001:7f8:73:0:3:1094:0:2       at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS200852 2001:7f8:73:0:3:1094:0:2       at                          BS1-6 accept   AS-INTIGRAL
+mp-export:      afi ipv6.unicast to   AS200852 2001:7f8:73:0:3:1094:0:2       at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS200852 185.1.8.49                     at                    185.1.8.251 accept   AS-INTIGRAL
+export:         to   AS200852 185.1.8.49                     at                    185.1.8.251 announce AS-UAEIX
+import:         from AS200852 185.1.8.49                     at                    185.1.8.252 accept   AS-INTIGRAL
+export:         to   AS200852 185.1.8.49                     at                    185.1.8.252 announce AS-UAEIX
+import:         from AS200852 185.1.8.49                     at                            BS1 accept   AS-INTIGRAL
+export:         to   AS200852 185.1.8.49                     at                            BS1 announce AS-UAEIX
+mp-import:      afi ipv6.unicast from AS205988 2001:7f8:73:0:3:24a4:0:1       at         2001:7f8:73::efbe:fa:1 accept   AS-PLAYCO
+mp-export:      afi ipv6.unicast to   AS205988 2001:7f8:73:0:3:24a4:0:1       at         2001:7f8:73::efbe:fa:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS205988 2001:7f8:73:0:3:24a4:0:1       at         2001:7f8:73::efbe:fb:1 accept   AS-PLAYCO
+mp-export:      afi ipv6.unicast to   AS205988 2001:7f8:73:0:3:24a4:0:1       at         2001:7f8:73::efbe:fb:1 announce AS-UAEIX-V6
+mp-import:      afi ipv6.unicast from AS205988 2001:7f8:73:0:3:24a4:0:1       at                          BS1-6 accept   AS-PLAYCO
+mp-export:      afi ipv6.unicast to   AS205988 2001:7f8:73:0:3:24a4:0:1       at                          BS1-6 announce AS-UAEIX-V6
+import:         from AS205988 185.1.8.4                      at                    185.1.8.251 accept   AS-PLAYCO
+export:         to   AS205988 185.1.8.4                      at                    185.1.8.251 announce AS-UAEIX
+import:         from AS205988 185.1.8.4                      at                    185.1.8.252 accept   AS-PLAYCO
+export:         to   AS205988 185.1.8.4                      at                    185.1.8.252 announce AS-UAEIX
+import:         from AS205988 185.1.8.4                      at                            BS1 accept   AS-PLAYCO
+export:         to   AS205988 185.1.8.4                      at                            BS1 announce AS-UAEIX
+created:        2012-11-05T12:21:00Z
+last-modified:  2018-07-16T14:51:52Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

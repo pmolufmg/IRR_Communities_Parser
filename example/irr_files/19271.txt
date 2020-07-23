@@ -1,0 +1,44 @@
+aut-num:        AS19271
+as-name:        PEAK10-AS19271
+descr:          Peak 10, Inc.
+descr:          8910 Lenox Pointe Drive, Suite A
+descr:          Charlotte, NC 28273
+descr:          US
+admin-c:        DUMY-ARIN
+tech-c:         DUMY-ARIN
+remarks:        ------------------------------
+remarks:        Peak 10 BGP Local Preference
+remarks:        ------------------------------
+remarks:        Customer default - 120
+remarks:        Transit default  - 80
+remarks:        ------------------------------
+remarks:        Alter default local preference
+remarks:        ------------------------------
+remarks:        19271:70 - Set local preference to 70
+remarks:        19271:50 - Set local preference to 50
+remarks:        ------------------------------
+remarks:        AS path prepending
+remarks:        ------------------------------
+remarks:        19271:1001 - Prepend Peak 10 AS number (19271) one time
+remarks:        19271:1002 - Prepend Peak 10 AS number (19271) two times
+remarks:        19271:1003 - Prepend Peak 10 AS number (19271) three times
+remarks:        19271:1004 - Prepend Peak 10 AS number (19271) four times
+remarks:        ------------------------------
+remarks:        Blackhole community for null routing
+remarks:        ------------------------------
+remarks:        19271:998
+remarks:        ------------------------------
+remarks:        For questions or requests, please contact our
+remarks:        support department at 1-866-732-5836 or email
+remarks:        support@peak10.com
+remarks:        ------------------------------
+mnt-by:         MNT-PEAK10
+changed:        networkengineering@peak10.com 20160203
+source:         ARIN
+remarks:        ****************************
+remarks:        * THIS OBJECT CONTAINS PLACEHOLDER DATA
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the ARIN Database at:
+remarks:        * http://www.arin.net/whois
+remarks:        ****************************

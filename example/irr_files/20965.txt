@@ -1,0 +1,357 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20929 - AS21002'
+
+as-block:       AS20929 - AS21002
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20965'
+
+% Abuse contact for 'AS20965' is 'cert@geant.org'
+
+aut-num:        AS20965
+as-name:        GEANT
+org:            ORG-DLCU1-RIPE
+descr:          The GEANT IP Service
+descr:          The GEANT Network Connects the European National Regional Education Networks (NRENs) together
+remarks:
+remarks:        NREN Traffic Engineering
+remarks:        NRENs are welcome to use these communities when announcing their prefixes to GEANT:
+remarks:        20965:0000 - Don't announce the routes to Internet2, Canarie, Clara, ESnet, InfoNet, SInet, TEIN2, or TENET
+remarks:        20965:0030 - Prepend GEANT AS three times towards Internet2, Canarie, Clara, ESnet, InfoNet, SInet, TEIN2, and TENET
+remarks:        20965:0060 - Prepend GEANT AS six times towards Internet2, Canarie, Clara, ESnet, InfoNet, SInet, TEIN2, and TENET
+remarks:        20965:5000 - Don't announce the routes to Internet2
+remarks:        20965:3000 - Don't announce the routes to Canarie
+remarks:        20965:8000 - Don't announce the routes to Clara
+remarks:        20965:6000 - Don't announce the routes to ESnet
+remarks:        20965:8500 - Don't announce the routes to NISN
+remarks:        20965:2000 - Don't announce the routes to SInet
+remarks:        20965:9000 - Don't announce the routes to TEIN2
+remarks:        20965:1500 - Don't announce the routes to TWAREN
+remarks:        20965:4500 - Don't announce the routes to UbuntuNet
+remarks:
+remarks:        20965:0008 - RTBH service, /32 and /128 prefixes only
+remarks:
+remarks:        GEANT CLOUD VRF BGP Communities
+remarks:
+remarks:        =============
+remarks:        Informational
+remarks:        =============
+remarks:
+remarks:        NREN route                      20965:65101
+remarks:        Provider route                  20965:65102
+remarks:
+remarks:        NRENs advertising provider routes to GEANT must tag their routes accordingly.
+remarks:        In cases where a CLS peering is all-NREN or all-provider, GEANT will tag the routes.
+remarks:
+remarks:        ===================
+remarks:        Traffic Engineering
+remarks:        ===================
+remarks:
+remarks:        NRENs are configured with either the opt-in or the opt-out model at the time of joining.
+remarks:        NRENs may switch at any time (contact GEANT Ops),
+remarks:
+remarks:        Opt-out model - whereby GEANT tags NREN routes for announcement to all providers,
+remarks:        and NRENs block to all or specific providers as required.
+remarks:
+remarks:        Opt-in model - whereby NRENs tag routes for selective announcement to all or specific remarks:        providers, and block communities take precedence over announce communities.
+remarks:
+remarks:        Block specific provider         64512:<ASN>           or        origin:<ASN>L:64512
+remarks:        Block to all providers          64512:65531
+remarks:
+remarks:        Announce to all providers       64700:65531           or        64712:65531
+remarks:        Announce to specific provider   64700:<ASN>           or        64712:<ASN>
+remarks:        or origin:<ASN>L:64700   or        origin:<ASN>L:64712
+remarks:
+remarks:        Note that prepends are additive; x1 + x3 = x4, x2 + x3 = x5, etc.
+remarks:
+remarks:        Prepend x1 to all providers          64801:65531
+remarks:        Prepend x2 to all providers          64802:65531
+remarks:        Prepend x3 to all providers          64803:65531
+remarks:        Prepend x6 to all providers          64806:65531
+remarks:
+remarks:        Prepend x1 to specific provider 64801:<ASN>     or            origin:<ASN>L:64801
+remarks:        Prepend x2 to specific provider 64802:<ASN>     or            origin:<ASN>L:64802
+remarks:        Prepend x3 to specific provider 64803:<ASN>     or            origin:<ASN>L:64803
+remarks:        Prepend x6 to specific provider 64806:<ASN>     or            origin:<ASN>L:64806
+remarks:
+remarks:
+remarks:        GEANT NRENs - National Regional Educational Networks
+remarks:        NREN prefixes are given a LOCAL-PREF of 150
+import:         from AS137 accept AS-GARRTOGEANT
+import:         from AS378 accept AS-MACHBA
+import:         from AS559 accept AS-SWITCH and AS-CERNEXT
+import:         from AS680 accept AS-DFNTOWINISP
+import:         from AS766 accept AS-REDIRIS {192.243.16.0/22, 192.171.2.0/24}
+import:         from AS786 accept AS-JANETEURO
+import:         from AS1103 accept AS-SURFNET
+import:         from AS1213 accept AS-HEANET
+import:         from AS1853 accept AS-ACONET and AS-ACOSERV and AS-ACONET-STH
+import:         from AS1930 accept AS-RCCN
+import:         from AS1955 accept AS-HBONE
+import:         from AS2107 accept AS-ARNES
+import:         from AS2108 accept AS-CARNet
+remarks:        AS7500 (DNS root name-server) is behind RENATER
+import:         from AS2200 accept AS-RENATER AS7500
+import:         from AS2602 accept AS-RESTENA
+import:         from AS2603 accept AS-NORDUNET
+import:         from AS2607 accept AS-SANET2
+import:         from AS2611 accept AS-BELNET
+import:         from AS2614 accept AS-ROEDUNET AS9199
+import:         from AS2847 accept AS-LITNET
+import:         from AS2852 accept AS2852 {130.129.0.0/16}
+import:         from AS3208 accept AS3208
+import:         from AS3221 accept AS3221
+import:         from AS3268 accept AS3268 AS198336
+import:         from AS5379 accept AS5379
+import:         from AS5408 accept AS5408:AS-TO-GEANT
+import:         from AS5538 accept AS-SigmaNet-Geant
+import:         from AS6802 accept AS-ISTF
+import:         from AS6879 accept AS6879
+import:         from AS8501 accept AS-PLNET
+import:         from AS8517 accept AS-ULAKNET
+import:         from AS12046 accept AS-RICERKANET
+import:         from AS12687 accept AS-URAN-GEANT
+import:         from AS13092 accept AS13092
+import:         from AS35385 accept AS35385
+import:         from AS35656 accept AS35656
+import:         from AS21274 accept AS-BASNET
+import:         from AS40981 accept AS40981
+import:         from AS57965 accept AS57965 and AS-PALNREN
+import:         from AS202993 accept AS202993
+remarks:
+remarks:        GEANT PEERS - non-NRENs
+remarks:
+remarks:        All Peers are accepted with a LOCAL-PREF of 100
+import:         from AS293 accept AS293
+import:         from AS297 accept AS297
+import:         from AS2697 accept AS2697
+import:         from AS2907 accept AS2907
+import:         from AS2119 accept AS-TELENOR
+import:         from AS5089 accept AS-NTLI
+import:         from AS5400 accept AS-BT-EU
+import:         from AS6509 accept AS6509
+import:         from AS6939 accept AS-HURRICANE and AS-HURRICANEv6
+import:         from AS8708 accept AS-RDSNET and AS-RDSNET6
+import:         from AS11537 accept AS11537
+import:         from AS12076 accept AS12076
+import:         from AS15169 accept AS15169
+import:         from AS16265 accept AS16265
+import:         from AS16276 accept AS16276
+import:         from AS16509 accept AS-AMAZON-NA
+import:         from AS20545 accept as-bgp_peers
+import:         from AS21320 accept any
+import:         from AS22822 accept AS22822
+import:         from AS23911 accept AS23911
+import:         from AS24167 accept AS24167
+import:         from AS24490 accept AS24490
+import:         from AS27750 accept AS27750
+import:         from AS29630 accept AS29630
+import:         from AS32934 accept AS-FACEBOOK AND NOT {0.0.0.0/0}
+import:         from AS36944 accept AS36944
+import:         from AS46786 accept AS46786
+import:         from AS47623 accept AS47623 and AS51090:AS-ALL
+import:         from AS197118 accept AS197118
+import:         from AS136968 accept AS136968
+remarks:
+remarks:        Tier 1 providers
+remarks:        ISP routes are set LOCAL-PREF=80
+remarks:
+import:         from AS174 accept any
+mp-import:      afi ipv6.unicast from AS174 accept any
+import:         from AS3356 accept any
+mp-import:      afi ipv6.unicast from AS3356 accept any
+remarks:
+remarks:        *************
+remarks:        MACROS AS-GEANTNRN and AS-GEANTEXTRAS routes
+remarks:        AS-GEANTNRENPEERS routes
+remarks:
+remarks:        GEANT NRENs - National Regional Educational Networks - NON DWS
+remarks:        These only receive other NREN and R&E peering routes.
+remarks:
+export:         to AS137 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS513 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS559 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS680 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS766 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS786 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS1103 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS1853 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS2200 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS2603 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS and AS-GEANT-EUPEER
+export:         to AS2607 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS2611 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS6879 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS12687 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS21274 announce AS-GEANTNRN and AS21320 and AS-GEANTNRENPEERS
+export:         to AS202993 announce AS-GEANTNRN and AS-GEANTNRENPEERS
+remarks:
+remarks:        DWS NRENs - those NRENs who receive a full routing table from GEANT
+remarks:
+export:         to AS378 announce any
+export:         to AS1213 announce any
+export:         to AS1930 announce any
+export:         to AS1955 announce any
+export:         to AS2107 announce any
+export:         to AS2108 announce any
+export:         to AS2602 announce any
+export:         to AS2614 announce any
+export:         to AS2847 announce any
+export:         to AS2852 announce any
+export:         to AS3208 announce any
+export:         to AS3221 announce any
+export:         to AS3268 announce any
+export:         to AS5379 announce any
+export:         to AS5408 announce any
+export:         to AS5538 announce any
+export:         to AS6802 announce any
+export:         to AS8501 announce any
+export:         to AS8517 announce any
+export:         to AS12046 announce any
+export:         to AS13092 announce any
+export:         to AS20545 announce any
+export:         to AS29630 announce any
+export:         to AS35385 announce any
+export:         to AS35656 announce any
+export:         to AS40981 announce any
+export:         to AS47623 announce any
+export:         to AS50139 announce any
+export:         to AS57965 announce any
+remarks:
+remarks:        The following ASs are our peers, both R&E and otherwise:
+remarks:
+export:         to AS293 announce community.contains(20965:155, 20965:21320, 20965:27750, 20965:64512)
+export:         to AS297 announce community.contains(20965:155, 20965:21320, 20965:36944, 20965:27750, 20965:64512)
+export:         to AS2018 announce community.contains(20965:155, 20965:21320, 20965:293, 20965:2907, 20965:6509, 20965:6683, 20965:11537, 20965:27750)
+export:         to AS2119 announce AS-GEANT-EUPEER
+export:         to AS2697 announce community.contains(20965:155, 20965:21320, 20965:293, 20965:6509, 20965:11537)
+export:         to AS2907 announce community.contains(20965:155, 20965:21320, 20965:27750) and not AS-GEANTEXTRAS
+export:         to AS136968 announce community.contains(20965:155, 20965:21320)
+export:         to AS5089 announce AS-GEANT-EUPEER
+export:         to AS5400 announce AS-GEANT-EUPEER
+export:         to AS6509 announce community.contains(20965:155, 20965:21320, 20965:36944, 20965:27750, 20965:64512)
+export:         to AS6939 announce AS-GEANT-EUPEER
+export:         to AS7539 announce community.contains(20965:155, 20965:21320)
+export:         to AS7575 announce community.contains(20965:155, 20965:21320, 20965:36944)
+export:         to AS8068 announce AS-GEANT-EUPEER
+export:         to AS8708 announce AS-GEANT-EUPEER
+export:         to AS11537 announce community.contains(20965:155, 20965:21320, 20965:23911, 20965:36944, 20965:27750, 20965:64512)
+export:         to AS12076 announce AS-GEANT-EUPEER
+export:         to AS15169 announce AS-GEANT-EUPEER
+export:         to AS16265 announce AS-GEANT-EUPEER
+export:         to AS16276 announce AS-GEANT-EUPEER
+export:         to AS16509 announce AS-GEANT-EUPEER
+export:         to AS21320 announce community.contains(20965:155, 20965:11537, 20965:293, 20965:6509, 20965:6683, 20965:36944, 20965:24490, 20965:27750, 20965:64512, 20965:50999)
+export:         to AS22822 announce AS-GEANT-EUPEER
+export:         to AS23911 announce community.contains(20965:155, 20965:11537)
+export:         to AS24167 announce community.contains(20965:155)
+export:         to AS24490 announce community.contains(20965:155)
+export:         to AS27750 announce community.contains(20965:155, 20965:21320, 20965:11537, 20965:293, 20965:36944, 20965:6509, 20965:6683, 20965:11537, 20965:50999)
+export:         to AS32934 announce AS-GEANT-EUPEER
+export:         to AS36944 announce community.contains(20965:155, 20965:21320, 20965:2907, 20965:7575, 20965:293, 20965:6509, 20965:6683, 20965:11537, 20965:24490, 20965:27750, 20965:50999)
+export:         to AS46786 announce AS-GEANT-EUPEER
+export:         to AS50999 announce community.contains(20965:155, 20965:21320, 20965:27750, 20965:36944)
+export:         to AS197118 announce community.contains(20965:155, 20965:21320, 20965:1299, 20965:3549)
+remarks:
+remarks:        Tier 1 providers
+remarks:
+export:         to AS174 announce AS-GEANTDWS AS-EUMEDDWS
+mp-export:      afi ipv6.unicast to AS1299 announce AS-GEANTNRN
+export:         to AS3356 announce AS-GEANTDWS AS-EUMEDDWS
+mp-export:      afi ipv6.unicast to AS3356 announce AS-GEANTNRN
+remarks:
+admin-c:        EJA2-RIPE
+tech-c:         DANT-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DANTE-MNT
+mnt-lower:      DANTE-MNT
+created:        2002-09-25T09:03:02Z
+last-modified:  2018-09-04T09:50:48Z
+source:         RIPE
+
+organisation:   ORG-DLCU1-RIPE
+org-name:       GEANT Limited
+org-type:       LIR
+address:        City House
+                126-130 Hills Road
+address:        CB2 1PQ
+address:        Cambridge
+address:        UNITED KINGDOM
+phone:          +441223371300
+fax-no:         +441223371371
+admin-c:        RGH15-RIPE
+admin-c:        TR88-RIPE
+admin-c:        TB5303-RIPE
+admin-c:        EJA2-RIPE
+admin-c:        NGD-RIPE
+admin-c:        DANT-RIPE
+abuse-c:        DCRT1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DANTE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DANTE-MNT
+created:        2004-04-17T11:18:52Z
+last-modified:  2017-01-16T20:44:22Z
+source:         RIPE # Filtered
+
+role:           GEANT Operations
+address:        City House, 126-130 Hills Road
+address:        Cambridge CB2 1PQ, UK
+phone:          +44 1223 371300
+fax-no:         +44 1223 371371
+abuse-mailbox:  cert@oc.geant.net
+remarks:        operations@ is read UK office hours only; not for outage reports.
+remarks:        Regarding security related problems contact:
+remarks:        cert@oc.geant.net
+remarks:        Regarding electronic mail abuse contact:
+remarks:        cert@oc.geant.net
+remarks:        ----------------------------------------------------
+admin-c:        EJA2-RIPE
+admin-c:        TB5303-RIPE
+admin-c:        NGD-RIPE
+tech-c:         RGH15-RIPE
+tech-c:         NGD-RIPE
+tech-c:         EJA2-RIPE
+tech-c:         TR88-RIPE
+nic-hdl:        DANT-RIPE
+mnt-by:         DANTE-MNT
+created:        2002-09-02T10:52:00Z
+last-modified:  2018-03-22T11:31:41Z
+source:         RIPE # Filtered
+
+person:         Emma Apted
+address:        DANTE
+address:        City House
+address:        126-130 Hills Road
+address:        Cambridge CB2 1PQ
+address:        United Kingdom
+phone:          +44 1223 371300
+fax-no:         +44 1223 371371
+nic-hdl:        EJA2-RIPE
+mnt-by:         DANTE-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2013-03-27T18:26:25Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

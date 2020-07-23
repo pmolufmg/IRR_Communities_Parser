@@ -1,0 +1,894 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS31246 - AS31618'
+
+as-block:       AS31246 - AS31618
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS31477'
+
+% Abuse contact for 'AS31477' is 'abuse@duocast.nl'
+
+aut-num:        AS31477
+as-name:        DUOCAST-AS
+org:            ORG-DA16-RIPE
+remarks:        ================================================
+remarks:        -
+remarks:        We have an open peering policy. If you're not
+remarks:        not peering with us already, please contact us
+remarks:        at peering@duocast.nl
+remarks:        -
+remarks:        --- Peering Exchanges --------------------------
+remarks:        -
+remarks:        Exchange : AMS-IX
+remarks:        Location : Globalswitch, Amsterdam
+remarks:        Speed : 10 Gbps
+remarks:        IPv4 : 80.249.209.98
+remarks:        IPv6 : 2001:7f8:1::A503:1477:1
+remarks:        -
+remarks:        Exchange : NL-IX
+remarks:        Location : EuNetworks, Amsterdam
+remarks:        Speed : 10 Gbps
+remarks:        IPv4 : 193.239.116.132
+remarks:        IPv6 : 2001:7f8:13::a503:1477:1
+remarks:        -
+remarks:        --- Communities sent to customers --------------
+remarks:        -
+remarks:        Learned at Globalswitch Amsterdam
+remarks:        31477:2500 routes from AMS-IX peers
+remarks:        31477:2700 routes from KPN eurorings
+remarks:        -
+remarks:        Learned at EuNetworks Amsterdam
+remarks:        31477:2600 routes from Level3
+remarks:        31477:2300 routes from NL-IX peers
+remarks:        31477:2400 routes from Openpeering
+remarks:        -
+remarks:        Customer routes:
+remarks:        31477:1000 cust. routes, announce to all
+remarks:        -
+remarks:        --- Communites acccepted from customer ---------
+remarks:        -
+remarks:        31477:666 blackhole
+remarks:        (Set next hop to null interface for IX'es)
+remarks:        (Stamp with blackhole community for transit)
+remarks:        -
+remarks:        --- Contacts -----------------------------------
+remarks:        -
+remarks:        abuse contact: abuse@duocast.nl
+remarks:        peering contact: peering@duocast.nl
+remarks:        noc contact: noc@duocast.nl
+remarks:        -
+remarks:        ================================================
+remarks:        -
+remarks:        -------------------- Transit -------------------
+remarks:        -
+remarks:        Level3
+import:         from AS3356 action pref=210; accept ANY
+export:         to AS3356 announce AS-DUOCAST
+remarks:        -
+remarks:        KPN Eurorings
+import:         from AS286 action pref=210; accept ANY
+export:         to AS286 announce AS-DUOCAST
+remarks:        -
+remarks:        ----------------- NL Transit -------------------
+remarks:        -
+remarks:        Openpeering
+import:         from AS20562 action pref=500; accept ANY
+export:         to AS20562 announce AS-DUOCAST
+remarks:        -
+remarks:        ------------------ Customers -------------------
+remarks:        -
+import:         from AS31731 action pref=800; accept ANY
+export:         to AS31731 announce ANY
+remarks:        -
+import:         from AS43777 action pref=800; accept ANY
+export:         to AS43777 announce ANY
+remarks:        -
+import:         from AS62097 action pref=800; accept ANY
+export:         to AS62097 announce ANY
+remarks:        -
+import:         from AS24957 action pref=800; accept ANY
+export:         to AS24957 announce ANY
+remarks:        -
+import:         from AS198508 action pref=800; accept ANY
+export:         to AS198508 announce ANY
+remarks:        -
+import:         from AS201791 action pref=800; accept ANY
+export:         to AS201791 announce ANY
+remarks:        -
+import:         from AS201791 action pref=800; accept ANY
+export:         to AS201791 announce ANY
+remarks:        -
+remarks:        ---------------- Private Peers -----------------
+remarks:        -
+remarks:        Xconnect24
+import:         from AS260 action pref=750; accept ANY
+export:         to AS260 announce AS-DUOCAST
+remarks:        -
+remarks:        ---------------- AMS-IX Peers ------------------
+remarks:        -
+remarks:        Ams-ix Routeserver
+import:         from AS6777 accept ANY AND NOT <^[AS47869 AS20562]>
+export:         to AS6777 action community .= { 6777:6777, 6777:47869, 6777:20562, 6777:16276 }; announce AS-DUOCAST
+remarks:        -
+import:         from AS1200 action pref=300; accept ANY
+export:         to AS1200 announce AS-DUOCAST
+remarks:        -
+import:         from AS16637 action pref=300; accept ANY
+export:         to AS16637 announce AS-DUOCAST
+remarks:        -
+import:         from AS1103 action pref=300; accept ANY
+export:         to AS1103 announce AS-DUOCAST
+remarks:        -
+import:         from AS12859 action pref=300; accept ANY
+export:         to AS12859 announce AS-DUOCAST
+remarks:        -
+import:         from AS9145 action pref=300; accept ANY
+export:         to AS9145 announce AS-DUOCAST
+remarks:        -
+import:         from AS13127 action pref=300; accept ANY
+export:         to AS13127 announce AS-DUOCAST
+remarks:        -
+import:         from AS3265 action pref=300; accept ANY
+export:         to AS3265 announce AS-DUOCAST
+remarks:        -
+import:         from AS1140 action pref=300; accept ANY
+export:         to AS1140 announce AS-DUOCAST
+remarks:        -
+import:         from AS1103 action pref=300; accept ANY
+export:         to AS1103 announce AS-DUOCAST
+remarks:        -
+import:         from AS8708 action pref=300; accept ANY
+export:         to AS8708 announce AS-DUOCAST
+remarks:        -
+import:         from AS5390 action pref=300; accept ANY
+export:         to AS5390 announce AS-DUOCAST
+remarks:        -
+import:         from AS6661 action pref=300; accept ANY
+export:         to AS6661 announce AS-DUOCAST
+remarks:        -
+import:         from AS3333 action pref=300; accept ANY
+export:         to AS3333 announce AS-DUOCAST
+remarks:        -
+import:         from AS5390 action pref=300; accept ANY
+export:         to AS5390 announce AS-DUOCAST
+remarks:        -
+import:         from AS3333 action pref=300; accept ANY
+export:         to AS3333 announce AS-DUOCAST
+remarks:        -
+import:         from AS12355 action pref=300; accept ANY
+export:         to AS12355 announce AS-DUOCAST
+remarks:        -
+import:         from AS5615 action pref=300; accept ANY
+export:         to AS5615 announce AS-DUOCAST
+remarks:        -
+import:         from AS24730 action pref=300; accept ANY
+export:         to AS24730 announce AS-DUOCAST
+remarks:        -
+import:         from AS8608 action pref=300; accept ANY
+export:         to AS8608 announce AS-DUOCAST
+remarks:        -
+import:         from AS6805 action pref=300; accept ANY
+export:         to AS6805 announce AS-DUOCAST
+remarks:        -
+import:         from AS47195 action pref=300; accept ANY
+export:         to AS47195 announce AS-DUOCAST
+remarks:        -
+import:         from AS8954 action pref=300; accept ANY
+export:         to AS8954 announce AS-DUOCAST
+remarks:        -
+import:         from AS12989 action pref=300; accept ANY
+export:         to AS12989 announce AS-DUOCAST
+remarks:        -
+import:         from AS9143 action pref=300; accept ANY
+export:         to AS9143 announce AS-DUOCAST
+remarks:        -
+import:         from AS20495 action pref=300; accept ANY
+export:         to AS20495 announce AS-DUOCAST
+remarks:        -
+import:         from AS30132 action pref=300; accept ANY
+export:         to AS30132 announce AS-DUOCAST
+remarks:        -
+import:         from AS15830 action pref=300; accept ANY
+export:         to AS15830 announce AS-DUOCAST
+remarks:        -
+import:         from AS5615 action pref=300; accept ANY
+export:         to AS5615 announce AS-DUOCAST
+remarks:        -
+import:         from AS39792 action pref=300; accept ANY
+export:         to AS39792 announce AS-DUOCAST
+remarks:        -
+import:         from AS24875 action pref=300; accept ANY
+export:         to AS24875 announce AS-DUOCAST
+remarks:        -
+import:         from AS6667 action pref=300; accept ANY
+export:         to AS6667 announce AS-DUOCAST
+remarks:        -
+import:         from AS15600 action pref=300; accept ANY
+export:         to AS15600 announce AS-DUOCAST
+remarks:        -
+import:         from AS29263 action pref=300; accept ANY
+export:         to AS29263 announce AS-DUOCAST
+remarks:        -
+import:         from AS28685 action pref=300; accept ANY
+export:         to AS28685 announce AS-DUOCAST
+remarks:        -
+import:         from AS9150 action pref=300; accept ANY
+export:         to AS9150 announce AS-DUOCAST
+remarks:        -
+import:         from AS30132 action pref=300; accept ANY
+export:         to AS30132 announce AS-DUOCAST
+remarks:        -
+import:         from AS6327 action pref=300; accept ANY
+export:         to AS6327 announce AS-DUOCAST
+remarks:        -
+import:         from AS15435 action pref=300; accept ANY
+export:         to AS15435 announce AS-DUOCAST
+remarks:        -
+import:         from AS34655 action pref=300; accept ANY
+export:         to AS34655 announce AS-DUOCAST
+remarks:        -
+import:         from AS39591 action pref=300; accept ANY
+export:         to AS39591 announce AS-DUOCAST
+remarks:        -
+import:         from AS49820 action pref=300; accept ANY
+export:         to AS49820 announce AS-DUOCAST
+remarks:        -
+import:         from AS29396 action pref=300; accept ANY
+export:         to AS29396 announce AS-DUOCAST
+remarks:        -
+import:         from AS34106 action pref=300; accept ANY
+export:         to AS34106 announce AS-DUOCAST
+remarks:        -
+import:         from AS25596 action pref=300; accept ANY
+export:         to AS25596 announce AS-DUOCAST
+remarks:        -
+import:         from AS49544 action pref=300; accept ANY
+export:         to AS49544 announce AS-DUOCAST
+remarks:        -
+import:         from AS41690 action pref=300; accept ANY
+export:         to AS41690 announce AS-DUOCAST
+remarks:        -
+import:         from AS12414 action pref=300; accept ANY
+export:         to AS12414 announce AS-DUOCAST
+remarks:        -
+import:         from AS3265 action pref=300; accept ANY
+export:         to AS3265 announce AS-DUOCAST
+remarks:        -
+import:         from AS20940 action pref=300; accept ANY
+export:         to AS20940 announce AS-DUOCAST
+remarks:        -
+import:         from AS15703 action pref=300; accept ANY
+export:         to AS15703 announce AS-DUOCAST
+remarks:        -
+import:         from AS15426 action pref=300; accept ANY
+export:         to AS15426 announce AS-DUOCAST
+remarks:        -
+import:         from AS44654 action pref=300; accept ANY
+export:         to AS44654 announce AS-DUOCAST
+remarks:        -
+import:         from AS9143 action pref=300; accept ANY
+export:         to AS9143 announce AS-DUOCAST
+remarks:        -
+import:         from AS16298 action pref=300; accept ANY
+export:         to AS16298 announce AS-DUOCAST
+remarks:        -
+import:         from AS24167 action pref=300; accept ANY
+export:         to AS24167 announce AS-DUOCAST
+remarks:        -
+import:         from AS20504 action pref=300; accept ANY
+export:         to AS20504 announce AS-DUOCAST
+remarks:        -
+import:         from AS39637 action pref=300; accept ANY
+export:         to AS39637 announce AS-DUOCAST
+remarks:        -
+import:         from AS36408 action pref=300; accept ANY
+export:         to AS36408 announce AS-DUOCAST
+remarks:        -
+import:         from AS1836 action pref=300; accept ANY
+export:         to AS1836 announce AS-DUOCAST
+remarks:        -
+import:         from AS28878 action pref=300; accept ANY
+export:         to AS28878 announce AS-DUOCAST
+remarks:        -
+import:         from AS6805 action pref=300; accept ANY
+export:         to AS6805 announce AS-DUOCAST
+remarks:        -
+import:         from AS12859 action pref=300; accept ANY
+export:         to AS12859 announce AS-DUOCAST
+remarks:        -
+import:         from AS30889 action pref=300; accept ANY
+export:         to AS30889 announce AS-DUOCAST
+remarks:        -
+import:         from AS13030 action pref=300; accept ANY
+export:         to AS13030 announce AS-DUOCAST
+remarks:        -
+import:         from AS13127 action pref=300; accept ANY
+export:         to AS13127 announce AS-DUOCAST
+remarks:        -
+import:         from AS15598 action pref=300; accept ANY
+export:         to AS15598 announce AS-DUOCAST
+remarks:        -
+import:         from AS21155 action pref=300; accept ANY
+export:         to AS21155 announce AS-DUOCAST
+remarks:        -
+import:         from AS21478 action pref=300; accept ANY
+export:         to AS21478 announce AS-DUOCAST
+remarks:        -
+import:         from AS8657 action pref=300; accept ANY
+export:         to AS8657 announce AS-DUOCAST
+remarks:        -
+import:         from AS8560 action pref=300; accept ANY
+export:         to AS8560 announce AS-DUOCAST
+remarks:        -
+import:         from AS12902 action pref=300; accept ANY
+export:         to AS12902 announce AS-DUOCAST
+remarks:        -
+import:         from AS43350 action pref=300; accept ANY
+export:         to AS43350 announce AS-DUOCAST
+remarks:        -
+import:         from AS42949 action pref=300; accept ANY
+export:         to AS42949 announce AS-DUOCAST
+remarks:        -
+import:         from AS28788 action pref=300; accept ANY
+export:         to AS28788 announce AS-DUOCAST
+remarks:        -
+import:         from AS28836 action pref=300; accept ANY
+export:         to AS28836 announce AS-DUOCAST
+remarks:        -
+import:         from AS16131 action pref=300; accept ANY
+export:         to AS16131 announce AS-DUOCAST
+remarks:        -
+import:         from AS20857 action pref=300; accept ANY
+export:         to AS20857 announce AS-DUOCAST
+remarks:        -
+import:         from AS24642 action pref=300; accept ANY
+export:         to AS24642 announce AS-DUOCAST
+remarks:        -
+import:         from AS8897 action pref=300; accept ANY
+export:         to AS8897 announce AS-DUOCAST
+remarks:        -
+import:         from AS42 action pref=300; accept ANY
+export:         to AS42 announce AS-DUOCAST
+remarks:        -
+import:         from AS1126 action pref=300; accept ANY
+export:         to AS1126 announce AS-DUOCAST
+remarks:        -
+import:         from AS6777 action pref=300; accept ANY
+export:         to AS6777 announce AS-DUOCAST
+remarks:        -
+import:         from AS6777 action pref=300; accept ANY
+export:         to AS6777 announce AS-DUOCAST
+remarks:        -
+import:         from AS1200 action pref=300; accept ANY
+export:         to AS1200 announce AS-DUOCAST
+remarks:        -
+import:         from AS8075 action pref=300; accept ANY
+export:         to AS8075 announce AS-DUOCAST
+remarks:        -
+import:         from AS8075 action pref=300; accept ANY
+export:         to AS8075 announce AS-DUOCAST
+remarks:        -
+import:         from AS49562 action pref=300; accept ANY
+export:         to AS49562 announce AS-DUOCAST
+remarks:        -
+import:         from AS41445 action pref=300; accept ANY
+export:         to AS41445 announce AS-DUOCAST
+remarks:        -
+import:         from AS13285 action pref=300; accept ANY
+export:         to AS13285 announce AS-DUOCAST
+remarks:        -
+import:         from AS31383 action pref=300; accept ANY
+export:         to AS31383 announce AS-DUOCAST
+remarks:        -
+remarks:        -
+import:         from AS24586 action pref=300; accept ANY
+export:         to AS24586 announce AS-DUOCAST
+remarks:        -
+import:         from AS15542 action pref=300; accept ANY
+export:         to AS15542 announce AS-DUOCAST
+remarks:        -
+import:         from AS23148 action pref=300; accept ANY
+export:         to AS23148 announce AS-DUOCAST
+remarks:        -
+import:         from AS19151 action pref=300; accept ANY
+export:         to AS19151 announce AS-DUOCAST
+remarks:        -
+import:         from AS12759 action pref=300; accept ANY
+export:         to AS12759 announce AS-DUOCAST
+remarks:        -
+import:         from AS8422 action pref=300; accept ANY
+export:         to AS8422 announce AS-DUOCAST
+remarks:        -
+import:         from AS21155 action pref=300; accept ANY
+export:         to AS21155 announce AS-DUOCAST
+remarks:        -
+import:         from AS25542 action pref=300; accept ANY
+export:         to AS25542 announce AS-DUOCAST
+remarks:        -
+import:         from AS39309 action pref=300; accept ANY
+export:         to AS39309 announce AS-DUOCAST
+remarks:        -
+import:         from AS25459 action pref=300; accept ANY
+export:         to AS25459 announce AS-DUOCAST
+remarks:        -
+import:         from AS12989 action pref=300; accept ANY
+export:         to AS12989 announce AS-DUOCAST
+remarks:        -
+import:         from AS39647 action pref=300; accept ANY
+export:         to AS39647 announce AS-DUOCAST
+remarks:        -
+import:         from AS3267 action pref=300; accept ANY
+export:         to AS3267 announce AS-DUOCAST
+remarks:        -
+import:         from AS9505 action pref=300; accept ANY
+export:         to AS9505 announce AS-DUOCAST
+remarks:        -
+import:         from AS30925 action pref=300; accept ANY
+export:         to AS30925 announce AS-DUOCAST
+remarks:        -
+import:         from AS34968 action pref=300; accept ANY
+export:         to AS34968 announce AS-DUOCAST
+remarks:        -
+import:         from AS8468 action pref=300; accept ANY
+export:         to AS8468 announce AS-DUOCAST
+remarks:        -
+import:         from AS29017 action pref=300; accept ANY
+export:         to AS29017 announce AS-DUOCAST
+remarks:        -
+import:         from AS31661 action pref=300; accept ANY
+export:         to AS31661 announce AS-DUOCAST
+remarks:        -
+import:         from AS8966 action pref=300; accept ANY
+export:         to AS8966 announce AS-DUOCAST
+remarks:        -
+import:         from AS8608 action pref=300; accept ANY
+export:         to AS8608 announce AS-DUOCAST
+remarks:        -
+import:         from AS4788 action pref=300; accept ANY
+export:         to AS4788 announce AS-DUOCAST
+remarks:        -
+import:         from AS8368 action pref=300; accept ANY
+export:         to AS8368 announce AS-DUOCAST
+remarks:        -
+import:         from AS5524 action pref=300; accept ANY
+export:         to AS5524 announce AS-DUOCAST
+remarks:        -
+import:         from AS2852 action pref=300; accept ANY
+export:         to AS2852 announce AS-DUOCAST
+remarks:        -
+import:         from AS39326 action pref=300; accept ANY
+export:         to AS39326 announce AS-DUOCAST
+remarks:        -
+import:         from AS10310 action pref=300; accept ANY
+export:         to AS10310 announce AS-DUOCAST
+remarks:        -
+import:         from AS34309 action pref=300; accept ANY
+export:         to AS34309 announce AS-DUOCAST
+remarks:        -
+import:         from AS13101 action pref=300; accept ANY
+export:         to AS13101 announce AS-DUOCAST
+remarks:        -
+import:         from AS15542 action pref=300; accept ANY
+export:         to AS15542 announce AS-DUOCAST
+remarks:        -
+import:         from AS33891 action pref=300; accept ANY
+export:         to AS33891 announce AS-DUOCAST
+remarks:        -
+import:         from AS39704 action pref=300; accept ANY
+export:         to AS39704 announce AS-DUOCAST
+remarks:        -
+import:         from AS34141 action pref=300; accept ANY
+export:         to AS34141 announce AS-DUOCAST
+remarks:        -
+import:         from AS6939 action pref=300; accept ANY
+export:         to AS6939 announce AS-DUOCAST
+remarks:        -
+import:         from AS3216 action pref=300; accept ANY
+export:         to AS3216 announce AS-DUOCAST
+remarks:        -
+import:         from AS6407 action pref=300; accept ANY
+export:         to AS6407 announce AS-DUOCAST
+remarks:        -
+import:         from AS34106 action pref=300; accept ANY
+export:         to AS34106 announce AS-DUOCAST
+remarks:        -
+import:         from AS31500 action pref=300; accept ANY
+export:         to AS31500 announce AS-DUOCAST
+remarks:        -
+import:         from AS31529 action pref=300; accept ANY
+export:         to AS31529 announce AS-DUOCAST
+remarks:        -
+import:         from AS12414 action pref=300; accept ANY
+export:         to AS12414 announce AS-DUOCAST
+remarks:        -
+import:         from AS29396 action pref=300; accept ANY
+export:         to AS29396 announce AS-DUOCAST
+remarks:        -
+import:         from AS25596 action pref=300; accept ANY
+export:         to AS25596 announce AS-DUOCAST
+remarks:        -
+import:         from AS29263 action pref=300; accept ANY
+export:         to AS29263 announce AS-DUOCAST
+remarks:        -
+import:         from AS15435 action pref=300; accept ANY
+export:         to AS15435 announce AS-DUOCAST
+remarks:        -
+import:         from AS34305 action pref=300; accept ANY
+export:         to AS34305 announce AS-DUOCAST
+remarks:        -
+import:         from AS43821 action pref=300; accept ANY
+export:         to AS43821 announce AS-DUOCAST
+remarks:        -
+import:         from AS9150 action pref=300; accept ANY
+export:         to AS9150 announce AS-DUOCAST
+remarks:        -
+import:         from AS30740 action pref=300; accept ANY
+export:         to AS30740 announce AS-DUOCAST
+remarks:        -
+import:         from AS5588 action pref=300; accept ANY
+export:         to AS5588 announce AS-DUOCAST
+remarks:        -
+import:         from AS8359 action pref=300; accept ANY
+export:         to AS8359 announce AS-DUOCAST
+remarks:        -
+import:         from AS2119 action pref=300; accept ANY
+export:         to AS2119 announce AS-DUOCAST
+remarks:        -
+import:         from AS13193 action pref=300; accept ANY
+export:         to AS13193 announce AS-DUOCAST
+remarks:        -
+import:         from AS29438 action pref=300; accept ANY
+export:         to AS29438 announce AS-DUOCAST
+remarks:        -
+import:         from AS2603 action pref=300; accept ANY
+export:         to AS2603 announce AS-DUOCAST
+remarks:        -
+import:         from AS8447 action pref=300; accept ANY
+export:         to AS8447 announce AS-DUOCAST
+remarks:        -
+import:         from AS20940 action pref=300; accept ANY
+export:         to AS20940 announce AS-DUOCAST
+remarks:        -
+import:         from AS13768 action pref=300; accept ANY
+export:         to AS13768 announce AS-DUOCAST
+remarks:        -
+import:         from AS9002 action pref=300; accept ANY
+export:         to AS9002 announce AS-DUOCAST
+remarks:        -
+import:         from AS8365 action pref=300; accept ANY
+export:         to AS8365 announce AS-DUOCAST
+remarks:        -
+import:         from AS41692 action pref=300; accept ANY
+export:         to AS41692 announce AS-DUOCAST
+remarks:        -
+import:         from AS20504 action pref=300; accept ANY
+export:         to AS20504 announce AS-DUOCAST
+remarks:        -
+import:         from AS7342 action pref=300; accept ANY
+export:         to AS7342 announce AS-DUOCAST
+remarks:        -
+import:         from AS1267 action pref=300; accept ANY
+export:         to AS1267 announce AS-DUOCAST
+remarks:        -
+import:         from AS30781 action pref=300; accept ANY
+export:         to AS30781 announce AS-DUOCAST
+remarks:        -
+import:         from AS3856 action pref=300; accept ANY
+export:         to AS3856 announce AS-DUOCAST
+remarks:        -
+import:         from AS28878 action pref=300; accept ANY
+export:         to AS28878 announce AS-DUOCAST
+remarks:        -
+import:         from AS49405 action pref=300; accept ANY
+export:         to AS49405 announce AS-DUOCAST
+remarks:        -
+import:         from AS49405 action pref=300; accept ANY
+export:         to AS49405 announce AS-DUOCAST
+remarks:        -
+import:         from AS25160 action pref=300; accept ANY
+export:         to AS25160 announce AS-DUOCAST
+remarks:        -
+import:         from AS50763 action pref=300; accept ANY
+export:         to AS50763 announce AS-DUOCAST
+remarks:        -
+import:         from AS36408 action pref=300; accept ANY
+export:         to AS36408 announce AS-DUOCAST
+remarks:        -
+import:         from AS43350 action pref=300; accept ANY
+export:         to AS43350 announce AS-DUOCAST
+remarks:        -
+import:         from AS13030 action pref=300; accept ANY
+export:         to AS13030 announce AS-DUOCAST
+remarks:        -
+import:         from AS2906 action pref=300; accept ANY
+export:         to AS2906 announce AS-DUOCAST
+remarks:        -
+import:         from AS42473 action pref=300; accept ANY
+export:         to AS42473 announce AS-DUOCAST
+remarks:        -
+import:         from AS714 action pref=300; accept ANY
+export:         to AS714 announce AS-DUOCAST
+remarks:        -
+import:         from AS8283 action pref=300; accept ANY
+export:         to AS8283 announce AS-DUOCAST
+remarks:        -
+import:         from AS714 action pref=300; accept ANY
+export:         to AS714 announce AS-DUOCAST
+remarks:        -
+import:         from AS196752 action pref=300; accept ANY
+export:         to AS196752 announce AS-DUOCAST
+remarks:        -
+import:         from AS2906 action pref=300; accept ANY
+export:         to AS2906 announce AS-DUOCAST
+remarks:        -
+remarks:        ----------------- NL-IX Peers ------------------
+remarks:        -
+import:         from AS35467 action pref=300; accept ANY
+export:         to AS35467 announce AS-DUOCAST
+remarks:        -
+import:         from AS35332 action pref=300; accept ANY
+export:         to AS35332 announce AS-DUOCAST
+remarks:        -
+import:         from AS6939 action pref=300; accept ANY
+export:         to AS6939 announce AS-DUOCAST
+remarks:        -
+import:         from AS20562 action pref=300; accept ANY
+export:         to AS20562 announce AS-DUOCAST
+remarks:        -
+import:         from AS31383 action pref=300; accept ANY
+export:         to AS31383 announce AS-DUOCAST
+remarks:        -
+import:         from AS12859 action pref=300; accept ANY
+export:         to AS12859 announce AS-DUOCAST
+remarks:        -
+import:         from AS13101 action pref=300; accept ANY
+export:         to AS13101 announce AS-DUOCAST
+remarks:        -
+import:         from AS35470 action pref=300; accept ANY
+export:         to AS35470 announce AS-DUOCAST
+remarks:        -
+import:         from AS15435 action pref=300; accept ANY
+export:         to AS15435 announce AS-DUOCAST
+remarks:        -
+import:         from AS20504 action pref=300; accept ANY
+export:         to AS20504 announce AS-DUOCAST
+remarks:        -
+import:         from AS31680 action pref=300; accept ANY
+export:         to AS31680 announce AS-DUOCAST
+remarks:        -
+import:         from AS12859 action pref=300; accept ANY
+export:         to AS12859 announce AS-DUOCAST
+remarks:        -
+import:         from AS38915 action pref=300; accept ANY
+export:         to AS38915 announce AS-DUOCAST
+remarks:        -
+import:         from AS31673 action pref=300; accept ANY
+export:         to AS31673 announce AS-DUOCAST
+remarks:        -
+import:         from AS25542 action pref=300; accept ANY
+export:         to AS25542 announce AS-DUOCAST
+remarks:        -
+import:         from AS35329 action pref=300; accept ANY
+export:         to AS35329 announce AS-DUOCAST
+remarks:        -
+import:         from AS28685 action pref=300; accept ANY
+export:         to AS28685 announce AS-DUOCAST
+remarks:        -
+import:         from AS15435 action pref=300; accept ANY
+export:         to AS15435 announce AS-DUOCAST
+remarks:        -
+import:         from AS12902 action pref=300; accept ANY
+export:         to AS12902 announce AS-DUOCAST
+remarks:        -
+import:         from AS12414 action pref=300; accept ANY
+export:         to AS12414 announce AS-DUOCAST
+remarks:        -
+import:         from AS5524 action pref=300; accept ANY
+export:         to AS5524 announce AS-DUOCAST
+remarks:        -
+import:         from AS8315 action pref=300; accept ANY
+export:         to AS8315 announce AS-DUOCAST
+remarks:        -
+import:         from AS13030 action pref=300; accept ANY
+export:         to AS13030 announce AS-DUOCAST
+remarks:        -
+import:         from AS20847 action pref=300; accept ANY
+export:         to AS20847 announce AS-DUOCAST
+remarks:        -
+import:         from AS20847 action pref=300; accept ANY
+export:         to AS20847 announce AS-DUOCAST
+remarks:        -
+import:         from AS34655 action pref=300; accept ANY
+export:         to AS34655 announce AS-DUOCAST
+remarks:        -
+import:         from AS12989 action pref=300; accept ANY
+export:         to AS12989 announce AS-DUOCAST
+remarks:        -
+import:         from AS15426 action pref=300; accept ANY
+export:         to AS15426 announce AS-DUOCAST
+remarks:        -
+import:         from AS39647 action pref=300; accept ANY
+export:         to AS39647 announce AS-DUOCAST
+remarks:        -
+import:         from AS8468 action pref=300; accept ANY
+export:         to AS8468 announce AS-DUOCAST
+remarks:        -
+import:         from AS39591 action pref=300; accept ANY
+export:         to AS39591 announce AS-DUOCAST
+remarks:        -
+import:         from AS5612 action pref=300; accept ANY
+export:         to AS5612 announce AS-DUOCAST
+remarks:        -
+import:         from AS28788 action pref=300; accept ANY
+export:         to AS28788 announce AS-DUOCAST
+remarks:        -
+import:         from AS8587 action pref=300; accept ANY
+export:         to AS8587 announce AS-DUOCAST
+remarks:        -
+import:         from AS9150 action pref=300; accept ANY
+export:         to AS9150 announce AS-DUOCAST
+remarks:        -
+import:         from AS30132 action pref=300; accept ANY
+export:         to AS30132 announce AS-DUOCAST
+remarks:        -
+import:         from AS30132 action pref=300; accept ANY
+export:         to AS30132 announce AS-DUOCAST
+remarks:        -
+import:         from AS34942 action pref=300; accept ANY
+export:         to AS34942 announce AS-DUOCAST
+remarks:        -
+import:         from AS3856 action pref=300; accept ANY
+export:         to AS3856 announce AS-DUOCAST
+remarks:        -
+import:         from AS42 action pref=300; accept ANY
+export:         to AS42 announce AS-DUOCAST
+remarks:        -
+import:         from AS28878 action pref=300; accept ANY
+export:         to AS28878 announce AS-DUOCAST
+remarks:        -
+import:         from AS41445 action pref=300; accept ANY
+export:         to AS41445 announce AS-DUOCAST
+remarks:        -
+import:         from AS49562 action pref=300; accept ANY
+export:         to AS49562 announce AS-DUOCAST
+remarks:        -
+import:         from AS42093 action pref=300; accept ANY
+export:         to AS42093 announce AS-DUOCAST
+remarks:        -
+import:         from AS43350 action pref=300; accept ANY
+export:         to AS43350 announce AS-DUOCAST
+remarks:        -
+import:         from AS20932 action pref=300; accept ANY
+export:         to AS20932 announce AS-DUOCAST
+remarks:        -
+import:         from AS34141 action pref=300; accept ANY
+export:         to AS34141 announce AS-DUOCAST
+remarks:        -
+import:         from AS34968 action pref=300; accept ANY
+export:         to AS34968 announce AS-DUOCAST
+remarks:        -
+import:         from AS29028 action pref=300; accept ANY
+export:         to AS29028 announce AS-DUOCAST
+remarks:        -
+import:         from AS8315 action pref=300; accept ANY
+export:         to AS8315 announce AS-DUOCAST
+remarks:        -
+import:         from AS41552 action pref=300; accept ANY
+export:         to AS41552 announce AS-DUOCAST
+remarks:        -
+import:         from AS31800 action pref=300; accept ANY
+export:         to AS31800 announce AS-DUOCAST
+remarks:        -
+import:         from AS42949 action pref=300; accept ANY
+export:         to AS42949 announce AS-DUOCAST
+remarks:        -
+import:         from AS16298 action pref=300; accept ANY
+export:         to AS16298 announce AS-DUOCAST
+remarks:        -
+import:         from AS12573 action pref=300; accept ANY
+export:         to AS12573 announce AS-DUOCAST
+remarks:        -
+import:         from AS39647 action pref=300; accept ANY
+export:         to AS39647 announce AS-DUOCAST
+remarks:        -
+import:         from AS2484 action pref=300; accept ANY
+export:         to AS2484 announce AS-DUOCAST
+remarks:        -
+import:         from AS43350 action pref=300; accept ANY
+export:         to AS43350 announce AS-DUOCAST
+remarks:        -
+import:         from AS51088 action pref=300; accept ANY
+export:         to AS51088 announce AS-DUOCAST
+remarks:        -
+import:         from AS34307 action pref=300; accept ANY
+export:         to AS34307 announce AS-DUOCAST
+remarks:        -
+import:         from AS34307 action pref=300; accept ANY
+export:         to AS34307 announce AS-DUOCAST
+remarks:        -
+import:         from AS42755 action pref=300; accept ANY
+export:         to AS42755 announce AS-DUOCAST
+remarks:        -
+import:         from AS7342 action pref=300; accept ANY
+export:         to AS7342 announce AS-DUOCAST
+remarks:        -
+import:         from AS196752 action pref=300; accept ANY
+export:         to AS196752 announce AS-DUOCAST
+remarks:        -
+import:         from AS2906 action pref=300; accept ANY
+export:         to AS2906 announce AS-DUOCAST
+remarks:        -
+import:         from AS2906 action pref=300; accept ANY
+export:         to AS2906 announce AS-DUOCAST
+remarks:        -
+import:         from AS8283 action pref=300; accept ANY
+export:         to AS8283 announce AS-DUOCAST
+remarks:        -
+remarks:        ================================================
+admin-c:        DUO-RIPE
+tech-c:         DUO-RIPE
+status:         ASSIGNED
+mnt-by:         MNT-DUOCAST
+mnt-by:         RIPE-NCC-END-MNT
+created:        2004-05-26T11:33:27Z
+last-modified:  2018-09-04T10:02:49Z
+source:         RIPE # Filtered
+
+organisation:   ORG-DA16-RIPE
+org-name:       Duocast B.V.
+org-type:       LIR
+address:        Friesestraatweg 213d
+address:        9743 AD
+address:        Groningen
+address:        NETHERLANDS
+phone:          +31 50 2103600
+descr:          MNT-DUOCAST
+admin-c:        FJL4-RIPE
+admin-c:        RB2056-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-DUOCAST
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-DUOCAST
+abuse-c:        DUO-RIPE
+created:        2004-04-17T11:40:46Z
+last-modified:  2017-09-07T07:33:38Z
+source:         RIPE # Filtered
+
+role:           Duocast role
+org:            ORG-DA16-RIPE
+address:        Friesestraatweg 213d
+address:        9743 AD Groningen
+address:        The Netherlands
+abuse-mailbox:  abuse@duocast.nl
+admin-c:        FJL4-RIPE
+admin-c:        RB2056-RIPE
+tech-c:         FJL4-RIPE
+tech-c:         RB2056-RIPE
+nic-hdl:        DUO-RIPE
+mnt-by:         MNT-DUOCAST
+created:        2004-05-12T12:19:25Z
+last-modified:  2014-06-25T19:07:41Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

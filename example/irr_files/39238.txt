@@ -1,0 +1,145 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS38912 - AS39935'
+
+as-block:       AS38912 - AS39935
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS39238'
+
+% Abuse contact for 'AS39238' is 'abuse@okbprogress.ru'
+
+aut-num:        AS39238
+as-name:        OKBPROGRESS
+descr:          Moscow, Russia
+descr:          http://www.okbprogress.ru
+org:            ORG-OPL7-RIPE
+remarks:        =========
+remarks:        Upstreams
+remarks:        =========
+remarks:        --- Fiord ---
+import:         from as28917 accept ANY
+export:         to as28917 announce AS-OKBPROGRESS-SET
+remarks:        =========
+remarks:        --- Westcall ---
+import:         from as8595 accept ANY
+export:         to as8595 announce AS-OKBPROGRESS-SET
+remarks:        =========
+remarks:        Clients
+remarks:        =========
+remarks:        ---backset---
+import:         from AS51659 accept AS51659
+export:         to AS51659 announce ANY
+remarks:        ---Maxiplace---
+import:         from AS50516 accept AS50516
+export:         to AS50516 announce ANY
+remarks:        ---Mirtelematiki---
+import:         from AS49335 accept AS49335
+export:         to AS49335 announce ANY
+remarks:        ---Litesoft---
+import:         from AS197449 accept AS197449
+export:         to AS197449 announce ANY
+remarks:        ---OST---
+import:         from AS61141 accept AS61141
+export:         to AS61141 announce ANY
+remarks:        ---NETPLACE-1---
+import:         from AS47161 accept AS47161
+export:         to AS47161 announce ANY
+remarks:        ---NETPLACE-2---
+import:         from AS206766 accept AS206766
+export:         to AS206766 announce ANY
+remarks:        ---NETPLACE-3---
+import:         from AS200430 accept AS200430
+export:         to AS200430 announce ANY
+remarks:        ---Lucky-1---
+import:         from AS202662 accept AS202662
+export:         to AS202662 announce ANY
+remarks:        ---Lucky-2---
+import:         from AS205923 accept AS205923
+export:         to AS205923 announce ANY
+remarks:        ---IQ-HOST---
+import:         from AS50465 accept AS50465
+export:         to AS50465 announce ANY
+remarks:        ---IT-VEGA---
+import:         from AS51578 accept AS51578
+export:         to AS51578 announce ANY
+remarks:        ---NPF_ROI---
+import:         from AS25341 accept AS25341
+export:         to AS25341 announce ANY
+remarks:        ---Elit Telecom Ltd.---
+import:         from AS56915 accept AS56915
+export:         to AS56915 announce ANY
+remarks:        ---Sirius Project---
+import:         from AS51408 accept AS51408
+export:         to AS51408 announce ANY
+remarks:        ==========================================================
+remarks:        Public looking glass: http://lg.okbprogress.ru
+remarks:        ==========================================================
+remarks:        Blackhole 39238:666
+admin-c:        SM3227-RIPE
+tech-c:         CAV62-RIPE
+tech-c:         CAV62-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ru-okbprogress-1-mnt
+created:        2018-07-26T13:10:13Z
+last-modified:  2018-11-15T11:55:01Z
+source:         RIPE
+
+organisation:   ORG-OPL7-RIPE
+org-name:       OKB PROGRESS LLC
+org-type:       LIR
+address:        14 build 3, Mazhorov Side Str.
+address:        107023
+address:        Moscow
+address:        RUSSIAN FEDERATION
+admin-c:        SM3227-RIPE
+tech-c:         CAV62-RIPE
+abuse-c:        AR47588-RIPe
+mnt-ref:        ru-okbprogress-1-mnt
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ru-okbprogress-1-mnt
+created:        2018-07-24T15:36:03Z
+last-modified:  2018-12-12T16:16:56Z
+source:         RIPE # Filtered
+phone:          +7 495 7772342
+
+person:         Aleksey Chekhun
+address:        14 build 3, Mazhorov Side Str., Moscow, Russia, 107023
+phone:          +7 495 7254112
+nic-hdl:        CAV62-RIPE
+mnt-by:         ru-okbprogress-1-mnt
+created:        2013-05-21T10:49:32Z
+last-modified:  2018-09-25T15:13:55Z
+source:         RIPE # Filtered
+
+person:         Sergey Matral
+address:        14 build 3, Mazhorov Side Str., Moscow, Russia, 107023
+phone:          +7 495 7254112
+nic-hdl:        SM3227-RIPE
+mnt-by:         ru-okbprogress-1-mnt
+created:        2002-08-26T10:23:12Z
+last-modified:  2018-09-25T16:16:30Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

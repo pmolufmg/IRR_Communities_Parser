@@ -1,0 +1,588 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS3416 - AS3623'
+
+as-block:       AS3416 - AS3623
+descr:          ASN block not managed by the RIPE NCC
+remarks:        ------------------------------------------------------
+remarks:
+remarks:        For registration information,
+remarks:        you can consult the following sources:
+remarks:
+remarks:        IANA
+remarks:        https://www.iana.org/assignments/as-numbers
+remarks:
+remarks:        AFRINIC (Africa)
+remarks:        http://www.afrinic.net/ whois.afrinic.net
+remarks:
+remarks:        APNIC (Asia Pacific)
+remarks:        http://www.apnic.net/ whois.apnic.net
+remarks:
+remarks:        ARIN (Northern America)
+remarks:        http://www.arin.net/ whois.arin.net
+remarks:
+remarks:        LACNIC (Latin America and the Carribean)
+remarks:        http://www.lacnic.net/ whois.lacnic.net
+remarks:
+remarks:        ------------------------------------------------------
+mnt-by:         RIPE-DBM-MNT
+created:        2018-11-22T15:27:59Z
+last-modified:  2018-11-22T15:27:59Z
+source:         RIPE
+
+% Information related to 'AS3491'
+
+% No abuse contact registered for AS3491
+
+aut-num:        AS3491
+as-name:        PCCWG-AS
+descr:          PCCWG
+admin-c:        WG429-RIPE
+tech-c:         WG429-RIPE
+remarks:
+remarks:        1. Marking communities
+remarks:
+remarks:        Communities we send to customers and peers
+remarks:
+remarks:        1.1 Regions
+remarks:
+remarks:        Per region breakdown of our routes.
+remarks:
+remarks:        Region                    Customers   Peers
+remarks:        -----------------------------------------------
+remarks:        US East                   3491:100    3491:1000
+remarks:        US West                   3491:200    3491:2000
+remarks:        Europe                    3491:300    3491:3000
+remarks:        Asia                      3491:400    3491:4000
+remarks:        Africa                    3491:500    3491:5000
+remarks:
+remarks:        1.2 POPs:
+remarks:
+remarks:        Per POP breakdown of our routes.
+remarks:
+remarks:        1.2.1 US East:
+remarks:
+remarks:        POP    City                      Customers   Peers
+remarks:        ------------------------------------------------------
+remarks:        ASH01  Ashburn                   3491:101    3491:1001
+remarks:        ASH02  Ashburn                   3491:112    3491:1012
+remarks:        ATL01  Atlanta                   3491:108    3491:1008
+remarks:        ATL02  Atlanta                   3491:115    3491:1015
+remarks:        BLT01  Baltimore                 3491:104    3491:1004
+remarks:        JAX01  Jacksonville              3491:117    3491:1017
+remarks:        MIA02  Miami                     3491:107    3491:1007
+remarks:        NYC01  New York                  3491:106    3491:1006
+remarks:        NYC02  New York                  3491:110    3491:1010
+remarks:        NYC06  New York                  3491:113    3491:1013
+remarks:        NYC07  New York                  3491:114    3491:1014
+remarks:        PHL02  Philadelphia              3491:105    3491:1005
+remarks:        RST01  Reston                    3491:116    3491:1016
+remarks:        WDC02  Washington DC             3491:111    3491:1011
+remarks:
+remarks:        1.2.2 US West:
+remarks:
+remarks:        POP    City                      Customers   Peers
+remarks:        ------------------------------------------------------
+remarks:        CHC01  Chicago                   3491:202    3491:2002
+remarks:        DAL01  Dallas                    3491:201    3491:2001
+remarks:        LAR01  Laredo                    3491:212    3491:2012
+remarks:        LAR02  Laredo                    3491:208    3491:2008
+remarks:        LAX01  Los Angeles               3491:205    3491:2005
+remarks:        LAX04  Los Angeles               3491:207    3491:2007
+remarks:        LAX05  Los Angeles               3491:209    3491:2009
+remarks:        MCA01  McAllen                   3491:211    3491:2011
+remarks:        MCA02  McAllen                   3491:206    3491:2006
+remarks:        SEA01  Seattle                   3491:203    3491:2003
+remarks:        SJO01  San Jose                  3491:204    3491:2004
+remarks:        TOR01  Toronto                   3491:213    3491:2013
+remarks:
+remarks:        1.2.3 Europe:
+remarks:
+remarks:        POP    City                      Customers   Peers
+remarks:        ------------------------------------------------------
+remarks:        AMS01  Amsterdam                 3491:304    3491:3004
+remarks:        AMS02  Amsterdam                 3491:322    3491:3022
+remarks:        ATH01  Athens                    3491:306    3491:3006
+remarks:        BRU01  Brussels                  3491:314    3491:3014
+remarks:        FRF02  Frankfurt                 3491:302    3491:3002
+remarks:        FRF05  Frankfurt                 3491:310    3491:3010
+remarks:        FRF06  Frankfurt                 3491:311    3491:3011
+remarks:        FRF08  Frankfurt                 3491:316    3491:3016
+remarks:        GOS01  Gosselies                 3491:315    3491:3015
+remarks:        LDN01  London                    3491:301    3491:3001
+remarks:        LDN03  London                    3491:319    3491:3019
+remarks:        LDN04  London                    3491:312    3491:3012
+remarks:        LDN05  London                    3491:313    3491:3013
+remarks:        LDN12  London                    3491:317    3491:3017
+remarks:        MAR01  Marseille                 3491:307    3491:3007
+remarks:        MCH01  Munich                    3491:320    3491:3020
+remarks:        MIL01  Milan                     3491:303    3491:3003
+remarks:        MIL02  Milan                     3491:318    3491:3018
+remarks:        PAR03  Paris                     3491:308    3491:3008
+remarks:        PAR04  Paris                     3491:309    3491:3009
+remarks:        STK01  Stockholm                 3491:305    3491:3005
+remarks:        ZRH01  Zurich                    3491:321    3491:3021
+remarks:
+remarks:        1.2.4 Asia:
+remarks:
+remarks:        POP    City                      Customers   Peers
+remarks:        ------------------------------------------------------
+remarks:        BKK01  Bangkok                   3491:414    3491:4014
+remarks:        BKK02  Bangkok                   3491:422    3491:4022
+remarks:        CAI01  Cairo                     3491:428    3491:4028
+remarks:        DOH01  Doha                      3491:434    3491:4034
+remarks:        DUB02  Dubai                     3491:427    3491:4027
+remarks:        DUB03  Dubai                     3491:426    3491:4026
+remarks:        DUB04  Dubai                     3491:431    3491:4031
+remarks:        FJR01  Fujairah                  3491:435    3491:4035
+remarks:        HAN02  Hanoi                     3491:424    3491:4024
+remarks:        HCM02  Ho Chi Min City           3491:425    3491:4025
+remarks:        HKG02  Hong Kong                 3491:441    3491:4041
+remarks:        HKG04  Hong Kong                 3491:401    3491:4001
+remarks:        HKG05  Hong Kong                 3491:407    3491:4007
+remarks:        HKG08  Hong Kong                 3491:404    3491:4004
+remarks:        HKG12  Hong Kong                 3491:415    3491:4015
+remarks:        HKG15  Hong Kong                 3491:406    3491:4006
+remarks:        HKG31  Hong Kong                 3491:420    3491:4020
+remarks:        HKG33  Hong Kong                 3491:436    3491:4036
+remarks:        HKG39  Hong Kong                 3491:429    3491:4029
+remarks:        JKT01  Jakarta                   3491:416    3491:4016
+remarks:        JKT02  Jakarta                   3491:437    3491:4037
+remarks:        JKT03  Jakarta                   3491:438    3491:4038
+remarks:        KLP01  Kuala Lumpur              3491:413    3491:4013
+remarks:        MNL01  Manila                    3491:418    3491:4018
+remarks:        MNL01  Manila                    3491:423    3491:4023
+remarks:        OSA01  Osaka                     3491:417    3491:4017
+remarks:        PER01  Perth                     3491:433    3491:4033
+remarks:        SEO01  Seoul                     3491:409    3491:4009
+remarks:        SEO03  Seoul                     3491:439    3491:4039
+remarks:        SIN01  Singapore                 3491:411    3491:4011
+remarks:        SIN02  Singapore                 3491:412    3491:4012
+remarks:        SIN03  Singapore                 3491:403    3491:4003
+remarks:        SYD02  Sydney                    3491:410    3491:4010
+remarks:        SYD04  Sydney                    3491:430    3491:4030
+remarks:        TAP01  Taipei                    3491:405    3491:4005
+remarks:        TAP04  Taipei                    3491:402    3491:4002
+remarks:        TAP06  Taipei                    3491:421    3491:4021
+remarks:        TOK01  Tokyo                     3491:408    3491:4008
+remarks:        TOK02  Tokyo                     3491:419    3491:4019
+remarks:        TOK13  Tokyo                     3491:432    3491:4032
+remarks:
+remarks:        1.2.5 Africa:
+remarks:
+remarks:        POP    City                      Customers   Peers
+remarks:        ------------------------------------------------------
+remarks:        ACC01  Accra                     3491:521    3491:5021
+remarks:        BLZ01  Blantyre                  3491:502    3491:5002
+remarks:        BLZ02  Blantyre                  3491:503    3491:5003
+remarks:        CPT01  Capetown                  3491:516    3491:5016
+remarks:        DAR01  Dar es Salaam             3491:504    3491:5004
+remarks:        DAR02  Dar es Salaam             3491:505    3491:5005
+remarks:        GAB01  Gaborone                  3491:506    3491:5006
+remarks:        GAB02  Gaborone                  3491:507    3491:5007
+remarks:        GOM01  Goma                      3491:508    3491:5008
+remarks:        GYI01  Gisenyi                   3491:509    3491:5009
+remarks:        JNB01  Johannesburg              3491:517    3491:5017
+remarks:        JNB02  Johannesburg              3491:510    3491:5010
+remarks:        KLA01  Kampala                   3491:523    3491:5023
+remarks:        LOS01  Lagos                     3491:501    3491:5001
+remarks:        LUN01  Lusaka                    3491:518    3491:5018
+remarks:        MAU01  Mauritius                 3491:511    3491:5011
+remarks:        MBA01  Mombasa                   3491:512    3491:5012
+remarks:        MPM01  Maputo                    3491:513    3491:5013
+remarks:        MPM02  Maputo                    3491:514    3491:5014
+remarks:        MPM03  Maputo                    3491:515    3491:5015
+remarks:        NBO01  Nairobi                   3491:519    3491:5019
+remarks:        NBO02  Nairobi                   3491:522    3491:5022
+remarks:        VCC01  Limbe                     3491:520    3491:5020
+remarks:
+remarks:        2. Control communities
+remarks:
+remarks:        Communities customers can use to control the behavior of our network
+remarks:
+remarks:        2.1 Set local preference:
+remarks:
+remarks:        Change local preference:
+remarks:
+remarks:        2.1.1 Global:
+remarks:
+remarks:        Set local preference in all the regions:
+remarks:
+remarks:        Description                                 LPREF  Community
+remarks:        -------------------------------------------------------------
+remarks:        -10 below customers in all regions           190  3491:51001
+remarks:        -20 below customers in all regions           180  3491:51002
+remarks:        Equal to peers in all regions                150  3491:51010
+remarks:        -10 below peers in all regions                70  3491:51011
+remarks:        -20 below peers in all regions                60  3491:51012
+remarks:        Graceful BGP Session Shutdown (RFC8326)        0  65535:0
+remarks:
+remarks:        2.1.2 Global (legacy):
+remarks:
+remarks:        Set local preference in all the regions (legacy):
+remarks:
+remarks:        Description                                 LPREF  Community
+remarks:        -------------------------------------------------------------
+remarks:        Set LPREF to 90                               90  3491:9
+remarks:        Set LPREF to 80                               90  3491:8
+remarks:        Set LPREF to 70                               90  3491:7
+remarks:
+remarks:        2.2 Manipulate advertisements by region:
+remarks:
+remarks:        Manipulate advertisements to peers by region
+remarks:
+remarks:        2.2.1 Globally:
+remarks:
+remarks:        Manipulate advertisements on BGP sessions with peers in all the regions
+remarks:
+remarks:        Description                                 Community
+remarks:        ------------------------------------------------------
+remarks:        Stop advertisements in all regions          3491:50000
+remarks:        Set 1 x prepend in all regions              3491:50001
+remarks:        Set 2 x prepends in all regions             3491:50002
+remarks:        Set 3 x prepends in all regions             3491:50003
+remarks:
+remarks:        2.2.2 US East peers only:
+remarks:
+remarks:        Manipulate advertisements on BGP sessions with peers in US East
+remarks:
+remarks:        Description                      Community
+remarks:        -------------------------------------------
+remarks:        Stop advertisements in US East   3491:50100
+remarks:        Set 1 x prepend in US East       3491:50101
+remarks:        Set 2 x prepends in US East      3491:50102
+remarks:        Set 3 x prepends in US East      3491:50103
+remarks:
+remarks:        2.2.3 US West peers only:
+remarks:
+remarks:        Manipulate advertisements on BGP sessions with peers in US West
+remarks:
+remarks:        Description                      Community
+remarks:        -------------------------------------------
+remarks:        Stop advertisements in US West   3491:50200
+remarks:        Set 1 x prepend in US West       3491:50201
+remarks:        Set 2 x prepends in US West      3491:50202
+remarks:        Set 3 x prepends in US West      3491:50203
+remarks:
+remarks:        2.2.4 Europe peers only:
+remarks:
+remarks:        Manipulate advertisements on BGP sessions with peers in Europe
+remarks:
+remarks:        Description                      Community
+remarks:        -------------------------------------------
+remarks:        Stop advertisements in Europe    3491:50300
+remarks:        Set 1 x prepend in Europe        3491:50301
+remarks:        Set 2 x prepends in Europe       3491:50302
+remarks:        Set 3 x prepends in Europe       3491:50303
+remarks:
+remarks:        2.2.5 Asia peers only:
+remarks:
+remarks:        Manipulate advertisements on BGP sessions with peers in Asia
+remarks:
+remarks:        Description                      Community
+remarks:        -------------------------------------------
+remarks:        Stop advertisements in Asia      3491:50400
+remarks:        Set 1 x prepend in Asia          3491:50401
+remarks:        Set 2 x prepends in Asia         3491:50402
+remarks:        Set 3 x prepends in Asia         3491:50403
+remarks:
+remarks:        2.2.6 Africa peers only:
+remarks:
+remarks:        Manipulate advertisements on BGP sessions with peers in Africa
+remarks:
+remarks:        Description                      Community
+remarks:        -------------------------------------------
+remarks:        Stop advertisements in Africa    3491:50500
+remarks:        Set 1 x prepend in Africa        3491:50501
+remarks:        Set 2 x prepends in Africa       3491:50502
+remarks:        Set 3 x prepends in Africa       3491:50503
+remarks:
+remarks:        2.3 Manipulate advertisements by peer:
+remarks:
+remarks:        Manipulate advertisements on BGP sessions with the peer in all regions
+remarks:
+remarks:        Description                    Community
+remarks:        -----------------------------------------
+remarks:        Stop announcements to AS174    3491:60040
+remarks:        Set 1 x prepend to AS174       3491:60041
+remarks:        Set 2 x prepends to AS174      3491:60042
+remarks:        Set 3 x prepends to AS174      3491:60043
+remarks:
+remarks:        Stop announcements to AS209    3491:60060
+remarks:        Set 1 x prepend to AS209       3491:60061
+remarks:        Set 2 x prepends to AS209      3491:60062
+remarks:        Set 3 x prepends to AS209      3491:60063
+remarks:
+remarks:        Stop announcements to AS286    3491:61010
+remarks:        Set 1 x prepend to AS286       3491:61011
+remarks:        Set 2 x prepends to AS286      3491:61012
+remarks:        Set 3 x prepends to AS286      3491:61013
+remarks:
+remarks:        Stop announcements to AS577    3491:60030
+remarks:        Set 1 x prepend to AS577       3491:60031
+remarks:        Set 2 x prepends to AS577      3491:60032
+remarks:        Set 3 x prepends to AS577      3491:60033
+remarks:
+remarks:        Stop announcements to AS701    3491:60080
+remarks:        Set 1 x prepend to AS701       3491:60081
+remarks:        Set 2 x prepends to AS701      3491:60082
+remarks:        Set 3 x prepends to AS701      3491:60083
+remarks:
+remarks:        Stop announcements to AS702    3491:61100
+remarks:        Set 1 x prepend to AS702       3491:61101
+remarks:        Set 2 x prepends to AS702      3491:61102
+remarks:        Set 3 x prepends to AS702      3491:61103
+remarks:
+remarks:        Stop announcements to AS703    3491:62000
+remarks:        Set 1 x prepend to AS703       3491:62001
+remarks:        Set 2 x prepends to AS703      3491:62002
+remarks:        Set 3 x prepends to AS703      3491:62003
+remarks:
+remarks:        Stop announcements to AS852    3491:60070
+remarks:        Set 1 x prepend to AS852       3491:60071
+remarks:        Set 2 x prepends to AS852      3491:60072
+remarks:        Set 3 x prepends to AS852      3491:60073
+remarks:
+remarks:        Stop announcements to AS1239   3491:60180
+remarks:        Set 1 x prepend to AS1239      3491:60181
+remarks:        Set 2 x prepends to AS1239     3491:60182
+remarks:        Set 3 x prepends to AS1239     3491:60183
+remarks:
+remarks:        Stop announcements to AS1273   3491:61000
+remarks:        Set 1 x prepend to AS1273      3491:61001
+remarks:        Set 2 x prepends to AS1273     3491:61002
+remarks:        Set 3 x prepends to AS1273     3491:61003
+remarks:
+remarks:        Stop announcements to AS1299   3491:61110
+remarks:        Set 1 x prepend to AS1299      3491:61111
+remarks:        Set 2 x prepends to AS1299     3491:61112
+remarks:        Set 3 x prepends to AS1299     3491:61113
+remarks:
+remarks:        Stop announcements to AS2497   3491:62100
+remarks:        Set 1 x prepend to AS2497      3491:62101
+remarks:        Set 2 x prepends to AS2497     3491:62102
+remarks:        Set 3 x prepends to AS2497     3491:62103
+remarks:
+remarks:        Stop announcements to AS2516   3491:62090
+remarks:        Set 1 x prepend to AS2516      3491:62091
+remarks:        Set 2 x prepends to AS2516     3491:62092
+remarks:        Set 3 x prepends to AS2516     3491:62093
+remarks:
+remarks:        Stop announcements to AS2686   3491:61060
+remarks:        Set 1 x prepend to AS2686      3491:61061
+remarks:        Set 2 x prepends to AS2686     3491:61062
+remarks:        Set 3 x prepends to AS2686     3491:61063
+remarks:
+remarks:        Stop announcements to AS2828   3491:60100
+remarks:        Set 1 x prepend to AS2828      3491:60101
+remarks:        Set 2 x prepends to AS2828     3491:60102
+remarks:        Set 3 x prepends to AS2828     3491:60103
+remarks:
+remarks:        Stop announcements to AS2914   3491:60110
+remarks:        Set 1 x prepend to AS2914      3491:60111
+remarks:        Set 2 x prepends to AS2914     3491:60112
+remarks:        Set 3 x prepends to AS2914     3491:60113
+remarks:
+remarks:        Stop announcements to AS3257   3491:61140
+remarks:        Set 1 x prepend to AS3257      3491:61141
+remarks:        Set 2 x prepends to AS3257     3491:61142
+remarks:        Set 3 x prepends to AS3257     3491:61143
+remarks:
+remarks:        Stop announcements to AS3303   3491:61080
+remarks:        Set 1 x prepend to AS3303      3491:61081
+remarks:        Set 2 x prepends to AS3303     3491:61082
+remarks:        Set 3 x prepends to AS3303     3491:61083
+remarks:
+remarks:        Stop announcements to AS3320   3491:61120
+remarks:        Set 1 x prepend to AS3320      3491:61121
+remarks:        Set 2 x prepends to AS3320     3491:61122
+remarks:        Set 3 x prepends to AS3320     3491:61123
+remarks:
+remarks:        Stop announcements to AS3356   3491:60150
+remarks:        Set 1 x prepend to AS3356      3491:60151
+remarks:        Set 2 x prepends to AS3356     3491:60152
+remarks:        Set 3 x prepends to AS3356     3491:60153
+remarks:
+remarks:        Stop announcements to AS3462   3491:62080
+remarks:        Set 1 x prepend to AS3462      3491:62081
+remarks:        Set 2 x prepends to AS3462     3491:62082
+remarks:        Set 3 x prepends to AS3462     3491:62083
+remarks:
+remarks:        Stop announcements to AS3786   3491:62120
+remarks:        Set 1 x prepend to AS3786      3491:62121
+remarks:        Set 2 x prepends to AS3786     3491:62122
+remarks:        Set 3 x prepends to AS3786     3491:62123
+remarks:
+remarks:        Stop announcements to AS4637   3491:62070
+remarks:        Set 1 x prepend to AS4637      3491:62071
+remarks:        Set 2 x prepends to AS4637     3491:62072
+remarks:        Set 3 x prepends to AS4637     3491:62073
+remarks:
+remarks:        Stop announcements to AS4648   3491:62130
+remarks:        Set 1 x prepend to AS4648      3491:62131
+remarks:        Set 2 x prepends to AS4648     3491:62132
+remarks:        Set 3 x prepends to AS4648     3491:62133
+remarks:
+remarks:        Stop announcements to AS4766   3491:62010
+remarks:        Set 1 x prepend to AS4766      3491:62011
+remarks:        Set 2 x prepends to AS4766     3491:62012
+remarks:        Set 3 x prepends to AS4766     3491:62013
+remarks:
+remarks:        Stop announcements to AS4788   3491:62040
+remarks:        Set 1 x prepend to AS4788      3491:62041
+remarks:        Set 2 x prepends to AS4788     3491:62042
+remarks:        Set 3 x prepends to AS4788     3491:62043
+remarks:
+remarks:        Stop announcements to AS5400   3491:61020
+remarks:        Set 1 x prepend to AS5400      3491:61021
+remarks:        Set 2 x prepends to AS5400     3491:61022
+remarks:        Set 3 x prepends to AS5400     3491:61023
+remarks:
+remarks:        Stop announcements to AS5511   3491:61130
+remarks:        Set 1 x prepend to AS5511      3491:61131
+remarks:        Set 2 x prepends to AS5511     3491:61132
+remarks:        Set 3 x prepends to AS5511     3491:61133
+remarks:
+remarks:        Stop announcements to AS6453   3491:62160
+remarks:        Set 1 x prepend to AS6453      3491:62161
+remarks:        Set 2 x prepends to AS6453     3491:62162
+remarks:        Set 3 x prepends to AS6453     3491:62163
+remarks:
+remarks:        Stop announcements to AS6461   3491:60020
+remarks:        Set 1 x prepend to AS6461      3491:60021
+remarks:        Set 2 x prepends to AS6461     3491:60022
+remarks:        Set 3 x prepends to AS6461     3491:60023
+remarks:
+remarks:        Stop announcements to AS6762   3491:61050
+remarks:        Set 1 x prepend to AS6762      3491:61051
+remarks:        Set 2 x prepends to AS6762     3491:61052
+remarks:        Set 3 x prepends to AS6762     3491:61053
+remarks:
+remarks:        Stop announcements to AS6774   3491:61090
+remarks:        Set 1 x prepend to AS6774      3491:61091
+remarks:        Set 2 x prepends to AS6774     3491:61092
+remarks:        Set 3 x prepends to AS6774     3491:61093
+remarks:
+remarks:        Stop announcements to AS6939   3491:60050
+remarks:        Set 1 x prepend to AS6939      3491:60051
+remarks:        Set 2 x prepends to AS6939     3491:60052
+remarks:        Set 3 x prepends to AS6939     3491:60053
+remarks:
+remarks:        Stop announcements to AS7018   3491:60130
+remarks:        Set 1 x prepend to AS7018      3491:60131
+remarks:        Set 2 x prepends to AS7018     3491:60132
+remarks:        Set 3 x prepends to AS7018     3491:60133
+remarks:
+remarks:        Stop announcements to AS7473   3491:62030
+remarks:        Set 1 x prepend to AS7473      3491:62031
+remarks:        Set 2 x prepends to AS7473     3491:62032
+remarks:        Set 3 x prepends to AS7473     3491:62033
+remarks:
+remarks:        Stop announcements to AS7843   3491:60170
+remarks:        Set 1 x prepend to AS7843      3491:60171
+remarks:        Set 2 x prepends to AS7843     3491:60172
+remarks:        Set 3 x prepends to AS7843     3491:60173
+remarks:
+remarks:        Stop announcements to AS7922   3491:60120
+remarks:        Set 1 x prepend to AS7922      3491:60121
+remarks:        Set 2 x prepends to AS7922     3491:60122
+remarks:        Set 3 x prepends to AS7922     3491:60123
+remarks:
+remarks:        Stop announcements to AS8220   3491:61030
+remarks:        Set 1 x prepend to AS8220      3491:61031
+remarks:        Set 2 x prepends to AS8220     3491:61032
+remarks:        Set 3 x prepends to AS8220     3491:61033
+remarks:
+remarks:        Stop announcements to AS9505   3491:62060
+remarks:        Set 1 x prepend to AS9505      3491:62061
+remarks:        Set 2 x prepends to AS9505     3491:62062
+remarks:        Set 3 x prepends to AS9505     3491:62063
+remarks:
+remarks:        Stop announcements to AS12956  3491:61040
+remarks:        Set 1 x prepend to AS12956     3491:61041
+remarks:        Set 2 x prepends to AS12956    3491:61042
+remarks:        Set 3 x prepends to AS12956    3491:61043
+remarks:
+remarks:        Stop announcements to AS15169  3491:62020
+remarks:        Set 1 x prepend to AS15169     3491:62021
+remarks:        Set 2 x prepends to AS15169    3491:62022
+remarks:        Set 3 x prepends to AS15169    3491:62023
+remarks:
+remarks:        Stop announcements to AS15412  3491:62200
+remarks:        Set 1 x prepend to AS15412     3491:62201
+remarks:        Set 2 x prepends to AS15412    3491:62202
+remarks:        Set 3 x prepends to AS15412    3491:62203
+remarks:
+remarks:        Stop announcements to AS17676  3491:62110
+remarks:        Set 1 x prepend to AS17676     3491:62111
+remarks:        Set 2 x prepends to AS17676    3491:62112
+remarks:        Set 3 x prepends to AS17676    3491:62113
+remarks:
+remarks:        Stop announcements to AS58453  3491:62230
+remarks:        Set 1 x prepend to AS58453     3491:62231
+remarks:        Set 2 x prepends to AS58453    3491:62232
+remarks:        Set 3 x prepends to AS58453    3491:62233
+remarks:
+remarks:        2.4 Blackholing:
+remarks:
+remarks:        Drop all packets destined to the prefix (/32 IPv4 only)
+remarks:
+remarks:        Description                    Community
+remarks:        ----------------------------------------
+remarks:        Blackhole                      3491:999
+remarks:
+remarks:        2.5 Legacy:
+remarks:
+remarks:        Legacy communities we haven't replaced yet
+remarks:
+remarks:        2.5.1 Restrict into regions:
+remarks:
+remarks:        Restrict advertisements into the peering region
+remarks:
+remarks:        Description                                   Community
+remarks:        --------------------------------------------------------
+remarks:        Africa customer to stop announcement to EU    3491:65510
+remarks:        Asia customer to stop announcement to US      3491:65520
+remarks:        Asia customer to stop announcement to EU      3491:65530
+remarks:
+remarks:        2.5.2 Special peer communities:
+remarks:
+remarks:        Manipulate advertisements on BGP sessions with the peer
+remarks:
+remarks:        Description                         Community
+remarks:        ----------------------------------------------
+remarks:        Stop announcement to AS4635         3491:62170
+remarks:
+remarks:        Stop announcement to AS9318         3491:62180
+remarks:
+remarks:        Stop announcement to AS4134 in US   3491:62140
+remarks:        Stop announcement to AS4134 in HK   3491:62210
+remarks:
+remarks:        Stop announcement to AS4837 in US   3491:62150
+remarks:        Stop announcement to AS4837 in HK   3491:62220
+remarks:
+status:         OTHER
+mnt-by:         MNT-CCA
+created:        2015-07-06T12:25:21Z
+last-modified:  2018-11-14T03:38:18Z
+source:         RIPE-NONAUTH
+
+person:         Wilfrid Grassot
+address:        Avenue Jean Mermoz 30 6041 Gosselies Belgium
+mnt-by:         MNT-CCA
+phone:          +3271492060
+nic-hdl:        WG429-RIPE
+created:        2004-05-17T13:49:18Z
+last-modified:  2015-09-16T12:58:26Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

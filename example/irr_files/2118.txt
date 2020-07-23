@@ -1,0 +1,237 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS2118
+as-name:       RELCOM-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS9002 accept ANY;
+import:        from AS21414 accept ANY;
+import:        from AS28917 accept ANY;
+import:        from AS3216 accept ANY;
+import:        from AS60511 accept AS60511;
+import:        from AS42377 accept AS42377;
+import:        from AS29258 accept AS29258;
+import:        from AS48396 accept AS48396;
+import:        from AS38916 accept AS38916;
+import:        from AS198981 accept AS198981;
+import:        from AS50577 action pref=125; accept AS-INTELSC
+import:        from AS2854 action pref=120; accept AS-ROSPRINT
+import:        from AS6854 action pref=120; accept AS-TCNET
+import:        from AS30943 action pref=120; accept AS-UTRANSIT
+import:        from AS24638 action pref=120; accept AS-RAMTEL
+import:        from AS13238 action pref=120; accept AS-YANDEX
+import:        from AS21414 action pref=120; accept AS-RCNET
+import:        from AS3267 action pref=120; accept AS-RUNNETIX
+import:        from AS2683 action pref=120; accept AS-RADIOMSU
+import:        from AS2895 action pref=120; accept AS-FREENET
+import:        from AS13174 action pref=120; accept AS-MTSNET
+import:        from AS8470 action pref=120; accept AS-MACOMNET
+import:        from AS3218 action pref=130; accept AS-COSMOS
+import:        from AS2578 action pref=130; accept AS-DEMOS AS-RUDEMOS
+import:        from AS8631 action pref=120; accept AS-MSKROUTESERVER
+import:        from AS43690 action pref=120; accept AS-SPBROUTESERVER
+import:        from AS41095 action pref=120; accept AS-IPTP
+import:        from AS3277 action pref=120; accept AS-RUSNETIX
+import:        from AS31353 action pref=120; accept AS-PTT
+import:        from AS12418 action pref=120; accept AS-QUANTUM
+import:        from AS20903 action pref=120; accept AS-VMB-SERVICE
+import:        from AS30968 action pref=120; accept AS-INFOBOX
+import:        from AS29329 action pref=120; accept AS-NODEX
+import:        from AS6858 action pref=120; accept AS-COMLINK
+import:        from AS35511 action pref=120; accept AS-IWAN
+import:        from AS31500 action pref=120; accept AS-ETELECOM-2
+import:        from AS6690 action pref=120; accept AS-WEBPLUS
+import:        from AS5568 action pref=130; accept AS-RBNet
+import:        from AS6903 action pref=120; accept AS-ZENON
+import:        from AS2578 action pref=130; accept AS-DEMOS AS-RUDEMOS
+import:        from AS42750 action pref=130; accept AS-WM
+import:        from AS56654 action pref=130; accept AS-WM
+import:        from AS29067 action pref=130; accept AS-UATLD
+import:        from AS39614 action pref=130; accept AS-IMPEX
+import:        from AS13079 action pref=130; accept AS-ZONDH
+import:        from AS8377 action pref=130; accept AS-PETERLINK
+import:        from AS13215 action pref=130; accept AS-CPLUS1
+import:        from AS31444 action pref=130; accept AS-SEANET
+import:        from AS25185 action pref=130; accept AS-PharmaSupport
+import:        from AS25188 action pref=130; accept AS-INTERMEDIA
+import:        from AS8915 action pref=130; accept AS-DELFA
+import:        from AS8701 action pref=130; accept AS-FCTNETAS
+import:        from AS34327 action pref=130; accept AS34327
+import:        from AS56495 action pref=130; accept AS56495
+import:        from AS44041 action pref=130; accept AS44041
+import:        from AS56881 action pref=130; accept AS56881
+import:        from AS30835 action pref=130; accept AS30835
+import:        from AS56666 accept AS56666
+import:        from AS201969 accept AS201969
+import:        from AS34898 accept AS-SYMBIOS
+import:        from AS43678 accept AS43678
+import:        from AS196995 accept AS196995
+export:        to AS9002 announce AS-RELCOM;
+export:        to AS21414 announce AS-RELCOM;
+export:        to AS28917 announce AS-RELCOM;
+export:        to AS3216 announce AS-RELCOM;
+export:        to AS60511 announce ANY;
+export:        to AS42377 announce ANY;
+export:        to AS29258 announce ANY;
+export:        to AS48396 announce ANY;
+export:        to AS38916 announce ANY;
+export:        to AS198981 announce ANY;
+export:        to AS3267 announce AS-RELCOM
+export:        to AS50577 announce AS-RELCOM
+export:        to AS2854 announce AS-RELCOM
+export:        to AS6854 announce AS-RELCOM
+export:        to AS30943 announce AS-RELCOM
+export:        to AS24638 announce AS-RELCOM
+export:        to AS13238 announce AS-RELCOM
+export:        to AS21414 announce AS-RELCOM
+export:        to AS3267 announce AS-RELCOM
+export:        to AS2683 announce AS-RELCOM
+export:        to AS2895 announce AS-RELCOM
+export:        to AS13174 announce AS-RELCOM
+export:        to AS8470 announce AS-RELCOM
+export:        to AS3218 announce AS-RELCOM
+export:        to AS2578 announce AS-RELCOM
+export:        to AS8631 announce AS-RELCOM
+export:        to AS41095 announce AS-RELCOM
+export:        to AS43690 announce AS-RELCOM
+export:        to AS3277 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS31353 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS12418 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS20903 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS30968 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS29329 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS6858 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS35511 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS31500 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS6690 announce AS-RELSPBSCUST AS-RELSPBBCUST
+export:        to AS5568  announce AS-RELCOM
+export:        to AS6903 announce AS-RELCOM
+export:        to AS2578 announce AS-RELCOM
+export:        to AS34898 announce AS-RELCOM
+export:        to AS42750 announce ANY
+export:        to AS56654 announce ANY
+export:        to AS29067 announce ANY
+export:        to AS39614 announce ANY
+export:        to AS13079 announce ANY
+export:        to AS8377 announce ANY
+export:        to AS13215 announce ANY
+export:        to AS31444 announce ANY
+export:        to AS25185 announce ANY
+export:        to AS25188 announce ANY
+export:        to AS8915 announce ANY
+export:        to AS8701 announce ANY
+export:        to AS34327 announce ANY
+export:        to AS56495 announce ANY
+export:        to AS44041 announce ANY
+export:        to AS56881 announce ANY
+export:        to AS30835 announce ANY
+export:        to AS56666 announce ANY
+export:        to AS201969 announce ANY
+export:        to AS43678 announce ANY
+export:        to AS196995 announce ANY
+remarks:       ===================================================
+remarks:       Upstreams
+remarks:       ---------------------------------------------------
+remarks:       
+remarks:       ===================================================
+remarks:       Downstreams
+remarks:       ---------------------------------------------------
+remarks:       Demos downstreams:
+remarks:       
+remarks:       ===================================================
+remarks:       Relcom other
+remarks:       
+remarks:       ------------------------------------------------------
+remarks:       community applied on ingress
+remarks:       ------------------------------------------------------
+remarks:       
+remarks:       2118:20XX - Origin from
+remarks:       2001 - relcom KIAE
+remarks:       2002 - relcom M9
+remarks:       2003 - Demos
+remarks:       
+remarks:       2118:31XX - Origin from public peers
+remarks:       3101 - msk-ix
+remarks:       
+remarks:       2118:32XX - Origin from private peers
+remarks:       
+remarks:       2118:40XX - Origin from Upstreams
+remarks:       2118:4001 - AS9002 (Retn)
+remarks:       2118:4002 - AS20485 (TTK)
+remarks:       2118:4003 - AS3216 (Beeline)
+remarks:       2118:4005 - AS28917 (Fiord)
+remarks:       2118:4006 - AS21414 (Ruscomnet)
+remarks:       
+remarks:       ------------------------------------------------------
+remarks:       inside community coloring
+remarks:       ------------------------------------------------------
+remarks:       2118:601 - local (point-to-point and etc.)
+remarks:       2118:605 - aggregatable
+remarks:       2118:608 - te-aggregate
+remarks:       2118:609 - aggregate
+remarks:       2118:620 - customers
+remarks:       2118:623 - peers
+remarks:       2118:626 - transit
+remarks:       2118:631 - bogus
+remarks:       2118:666 - blackhole global in AS2118 and Upstreams
+remarks:       2118:667 - blackhole local in AS2118
+remarks:       
+remarks:       ------------------------------------------------------
+remarks:       advertising community (available for customers):
+remarks:       ------------------------------------------------------
+remarks:       2118:5ZZX
+remarks:       2118:6AAX
+remarks:       
+remarks:       where X=0     - advertise with no changes
+remarks:       X=1,2,4 or 6  - set prepend AS2118 1,2,4 or 6 times
+remarks:       X=7     - advertise with community no-export
+remarks:       X=9     - do not advertise
+remarks:       
+remarks:       ZZ=00    - Hole World
+remarks:       01    - all upstreams
+remarks:       02    - all customers
+remarks:       03    - all peers
+remarks:       
+remarks:       AA=01    - AS9002 (Retn)
+remarks:       02    - AS20485 (TTK)
+remarks:       03    - AS3216 (Beeline)
+remarks:       05    - AS28917 (Fiord)
+remarks:       06    - AS21414 (Ruscomnet)
+remarks:       
+remarks:       ------------------------------------------------------
+remarks:       local preference for routes:
+remarks:       ------------------------------------------------------
+remarks:       1000 - local routes to aggregate
+remarks:       710 - customer preffered
+remarks:       700 - customer (default)
+remarks:       690 - customer backup
+remarks:       400 - customer backup
+remarks:       400 - peer route
+remarks:       390 - peer backup
+remarks:       200 - transite
+remarks:       190 - transite backup
+remarks:       100 - customer superbackup
+remarks:       
+remarks:       ------------------------------------------------------
+remarks:       local preference control accepted from customers
+remarks:       ------------------------------------------------------
+remarks:       2118:171 - set local pref = 710
+remarks:       2118:169 - set local pref = 690
+remarks:       2118:140 - set local pref = 400
+remarks:       2118:130 - set local pref = 300
+remarks:       2118:110 - set local pref = 100
+remarks:       
+remarks:       =======================================================
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        AS2118-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

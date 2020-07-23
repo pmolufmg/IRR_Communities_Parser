@@ -1,0 +1,128 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS42383 - AS45055'
+
+as-block:       AS42383 - AS45055
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS42673'
+
+% Abuse contact for 'AS42673' is 'info@skyware.pl'
+
+aut-num:        AS42673
+as-name:        SKYWARE-AS
+org:            ORG-SSZO46-RIPE
+import:         from AS8545 action pref=150; accept ANY
+export:         to AS8545 announce AS-SKYWARE
+import:         from AS50606 action pref=100; accept ANY
+export:         to AS50606 announce AS-SKYWARE
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS3356 announce AS-SKYWARE
+import:         from AS44082 action pref=300; accept AS44082
+export:         to AS44082 announce ANY
+import:         from AS198975 action pref=300; accept AS198975
+export:         to AS198975 announce ANY
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        BGP COMMUNITIES APPLIED AT INGRESS (read only)
+remarks:        ---------------------------------------------------
+remarks:        42673:100 ALL upstreams
+remarks:        42673:101 VIRTUAOPERATOR GLOBAL
+remarks:        42673:103 LEVEL3
+remarks:        42673:104 TATA COMMUNICATIONS
+remarks:        42673:105 GTT
+remarks:        42673:106 TELIA
+remarks:
+remarks:        42673:200 ALL peerings
+remarks:        42673:201 PLIX
+remarks:        42673:202 VIRTUAOPERATOR PL
+remarks:        42673:203 THINX (AC-X)
+remarks:        42673:204 CIX
+remarks:        42673:205 E-WSCHOD
+remarks:        42673:206 WRIX
+remarks:        42673:207 POZIX
+remarks:
+remarks:        42673:500 customer
+remarks:        ---------------------------------------------------
+remarks:        BGP COMMUNITIES ACCEPTED FROM CUSTOMERS
+remarks:        ---------------------------------------------------
+remarks:        42673:XYZ0 do not announce
+remarks:        42673:XYZ1 prepend once
+remarks:        42673:XYZ2 prepend twice
+remarks:        42673:XYZ3 prepend triple
+remarks:
+remarks:        where XYZ is:
+remarks:        100 for ALL upstreams
+remarks:        101 for VIRTUAOPERATOR GLOBAL
+remarks:        103 for LEVEL3
+remarks:        104 for TATA COMMUNICATIONS
+remarks:        105 for GTT
+remarks:        106 for TELIA
+remarks:        200 for ALL peerings
+remarks:        201 for PLIX
+remarks:        202 for VIRTUAOPERATOR PL
+remarks:        203 for THINX (AC-X)
+remarks:        204 for CIX
+remarks:        205 for E-WSCHOD
+remarks:        206 for WRIX
+remarks:        207 for POZIX
+remarks:        300 for GCACHE
+remarks:
+remarks:        42673:997 blackhole community (not enabled by default)
+remarks:        ---------------------------------------------------
+remarks:
+admin-c:        PK3424-RIPE
+tech-c:         PK3424-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-GOODHOST
+mnt-by:         SKYWARE-MNT
+created:        2007-03-29T18:05:35Z
+last-modified:  2018-09-04T10:23:04Z
+source:         RIPE
+
+organisation:   ORG-SSZO46-RIPE
+org-name:       Skyware Sp. z o.o.
+org-type:       LIR
+address:        Siemienskiego 14
+address:        35-203
+address:        Rzeszow
+address:        POLAND
+phone:          +48178700000
+mnt-ref:        SKYWARE-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SKYWARE-MNT
+abuse-c:        SKWR1-RIPE
+created:        2014-11-17T09:35:06Z
+last-modified:  2016-10-06T15:48:27Z
+source:         RIPE # Filtered
+
+person:         PAWEL KORYL
+address:        Skyware Sp. z o.o.
+address:        Siemienskiego 14
+address:        35-203 Rzeszow
+address:        POLAND
+phone:          +48 (17) 8524379
+nic-hdl:        PK3424-RIPE
+mnt-by:         MNT-GOODHOST
+created:        2007-01-29T09:03:13Z
+last-modified:  2012-11-05T12:45:05Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

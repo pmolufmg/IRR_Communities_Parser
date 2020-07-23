@@ -1,0 +1,82 @@
+aut-num:        AS6855
+as-name:        SK-TELEKOM
+org:            ORG-ST4-RIPE
+remarks:        --------------
+remarks:        -- Upstream --
+remarks:        --------------
+import:         from AS3320 action pref=60; accept ANY
+import:         from AS1299 action pref=60; accept ANY
+import:         from AS39392 action pref=60; accept ANY
+remarks:        -------------
+remarks:        -- Peering --
+remarks:        -------------
+import:         from AS-SIXSTIP-SET action pref=70; accept ANY
+remarks:        ----------------
+remarks:        -- Downstream --
+remarks:        ----------------
+import:         from AS5628 action pref=100; accept ANY
+remarks:        --------------
+remarks:        -- Upstream --
+remarks:        --------------
+export:         to AS3320 announce AS-SLOVAK
+export:         to AS1299 announce AS-SLOVAK
+export:         to AS39392 announce AS-SLOVAK
+remarks:        -------------
+remarks:        -- Peering --
+remarks:        -------------
+export:         to AS-SIXSTIP-SET announce AS-SLOVAK
+remarks:        ----------------
+remarks:        -- Downstream --
+remarks:        ----------------
+export:         to AS5628 announce ANY
+default:        to AS3320 action pref=100; networks ANY
+remarks:        ==============================
+remarks:        Communities to control traffic
+remarks:        6855:1101 Do not announce to SIX
+remarks:        6855:1102 Do not announce to DT AS3320
+remarks:        6855:1107 Do not announce to TeliaSonera AS1299
+remarks:        6855:1112 Do not announce to Supernetwork AS39392
+remarks:        6855:1201 Prepend 6855 when announcing to SIX
+remarks:        6855:1202 Prepend 6855 when announcing to AS3320
+remarks:        6855:1207 Prepend 6855 when announcing to AS1299
+remarks:        6855:1212 Prepend 6855 when announcing to AS39392
+remarks:        6855:1301 Prepend 6855 6855 when announcing to SIX
+remarks:        6855:1302 Prepend 6855 6855 when announcing to AS3320
+remarks:        6855:1307 Prepend 6855 6855 when announcing to AS1299
+remarks:        6855:1312 Prepend 6855 6855 when announcing to AS39392
+remarks:        6855:50 SET_LOCAL_PREFERENCE to 50
+remarks:        6855:90 SET_LOCAL_PREFERENCE to 90
+remarks:        LOC_PREF settings
+remarks:        50 Customer routes - GLOBAL BACKUP
+remarks:        60 Upstream providers
+remarks:        70 Peering partners
+remarks:        90 Customer routes - BACKUP links with ST AS6855
+remarks:        100 Customer routes - PRIMARY connections
+remarks:        Other:
+remarks:        DSCP = 0 on ANY connection
+remarks:        (upstream, peer, customers, dial customers, VPN customers)
+remarks:        ================
+remarks:        Route colouring:
+remarks:        6855:2401 Routes from SIX peering
+remarks:        6855:2402 Routes from DT
+remarks:        6855:2407 Routes from TeliaSonera
+remarks:        6855:2412 Routes from Supernetwork
+remarks:        6855:2700 Default route
+remarks:        POP NAME POP ID PA comm strings PI comm strings
+remarks:        <name> xx 6855:26xx 6855:25xx
+remarks:        ==================================================
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SK-TELECOM-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-06-13T07:47:03Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

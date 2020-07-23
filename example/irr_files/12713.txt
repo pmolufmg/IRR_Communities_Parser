@@ -1,0 +1,426 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12557 - AS13223'
+
+as-block:       AS12557 - AS13223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12713'
+
+% Abuse contact for 'AS12713' is 'abuse@oteglobe.gr'
+
+aut-num:        AS12713
+org:            ORG-OOGS1-RIPE
+as-name:        OTEGlobe
+descr:          6-8 Agisilaou Str., 15123 Maroussi, Hellas
+descr:          Tel: +30 210 8762500, www.oteglobe.gr
+remarks:
+remarks:
+remarks:        ----------------------------------------------------
+remarks:        | NOC contact (24x7): +30 697 8119459 |
+remarks:        ----------------------------------------------------
+remarks:
+remarks:
+remarks:        ====================================================
+remarks:
+remarks:        DEUTSCHE TELEKOM
+import:         from AS3320 action pref=100; accept ANY
+export:         to AS3320 announce AS-OTEGLOBE
+remarks:
+remarks:        LEVEL3
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS3356 announce AS-OTEGLOBE
+remarks:
+remarks:        CABLE&WIRELESS
+import:         from AS1273 action pref=100; accept ANY
+export:         to AS1273 announce AS-OTEGLOBE
+remarks:
+remarks:        TELIA SONERA
+import:         from AS1299 action pref=100; accept ANY
+export:         to AS1299 announce AS-OTEGLOBE
+remarks:
+remarks:
+remarks:        TURK TELECOM
+import:         from AS6663 action pref=100; accept ANY
+export:         to AS6663 announce AS-OTEGLOBE
+remarks:
+remarks:        FACEBOOK
+import:         from AS32934 action pref=100; accept ANY
+export:         to AS32934 announce AS-OTEGLOBE
+remarks:
+remarks:        LEASEWEB
+import:         from AS16265 action pref=100; accept ANY
+export:         to AS16265 announce AS-OTEGLOBE
+remarks:
+remarks:        GOOGLE
+import:         from AS15169 action pref=100; accept ANY
+export:         to AS15169 announce AS-OTEGLOBE
+remarks:
+remarks:        APPLE
+import:         from AS714 action pref=100; accept ANY
+export:         to AS714 announce AS-OTEGLOBE
+remarks:
+remarks:        AMAZON
+import:         from AS16509 action pref=100; accept ANY
+export:         to AS16509 announce AS-OTEGLOBE
+remarks:
+remarks:        NETFLIX
+import:         from AS2906 action pref=100; accept ANY
+export:         to AS2906 announce AS-OTEGLOBE
+remarks:
+remarks:        CORE BACKBONE
+import:         from AS33891 action pref=100; accept ANY
+export:         to AS33891 announce AS-OTEGLOBE
+remarks:
+remarks:        VERIZON DIGITAL MEDIA SERVICES
+import:         from AS15133 action pref=100; accept ANY
+export:         to AS15133 announce AS-OTEGLOBE
+remarks:
+remarks:        CDN77
+import:         from AS60088 action pref=100; accept ANY
+export:         to AS60088 announce AS-OTEGLOBE
+remarks:
+remarks:        ABCOM
+import:         from AS21183 action pref=500; accept AS-ABCom-SET
+export:         to AS21183 announce ANY
+remarks:
+remarks:        AIA
+import:         from AS199370 action pref=500; accept AS199370
+export:         to AS199370 announce ANY
+remarks:
+remarks:        ALBTELECOM
+import:         from AS42313 action pref=500; accept AS-42313
+export:         to AS42313 announce ANY
+remarks:
+remarks:        CYTA
+import:         from AS6866 action pref=500; accept AS-CYTANET
+export:         to AS6866 announce ANY
+remarks:
+remarks:        DATAWAYS
+import:         from AS15544 action pref=500; accept AS15544
+export:         to AS15544 announce ANY
+remarks:
+remarks:        HELLASAT
+import:         from AS41697 action pref=500; accept AS41697
+export:         to AS41697 announce ANY
+remarks:
+remarks:        MAKTEL
+import:         from AS6821 action pref=500; accept AS-MTNET
+export:         to AS6821 announce ANY
+remarks:
+remarks:        OMANTEL
+import:         from AS8529 action pref=500; accept AS-OMANTEL
+export:         to AS8529 announce ANY
+remarks:
+remarks:        OTENET
+import:         from AS6799 action pref=500; accept AS-OTENET
+export:         to AS6799 announce ANY
+remarks:
+remarks:        PTCL
+import:         from AS17557 action pref=500; accept AS-SETPTCL
+export:         to AS17557 announce ANY
+remarks:
+remarks:        TELECOM EGYPT
+import:         from AS8452 action pref=500; accept AS-TEDATA
+export:         to AS8452 announce ANY
+remarks:
+remarks:        GCN
+import:         from AS12615 action pref=500; accept AS-GCN
+export:         to AS12615 announce ANY
+remarks:
+remarks:        SOFIA CONNECT
+import:         from AS47872 action pref=500; accept AS-SOFIA-CONNECT
+export:         to AS47872 announce ANY
+remarks:
+remarks:        M247
+import:         from AS9009 action pref=500; accept AS9009
+export:         to AS9009 announce ANY
+remarks:
+remarks:        LIBYAN INTERNATIONAL TELECOMMUNICATION 37558
+import:         from AS37558 action pref=500; accept AS37558
+export:         to AS37558 announce ANY
+remarks:
+remarks:        SOFIA TELEHOUSE
+import:         from AS57344 action pref=500; accept AS-57344
+export:         to AS57344 announce ANY
+remarks:
+import-via:     AS6777 from AS-ANY EXCEPT AS12713:AS-AMSIX accept ANY
+export-via:     AS6777 to AS-ANY EXCEPT AS12713:AS-AMSIX announce AS-OTEGLOBE
+remarks:
+remarks:        ====================================================
+remarks:        PUBLIC PEERINGS
+remarks:
+remarks:        We are located at the following internet exchange points:
+remarks:
+remarks:        --------------------------------------
+remarks:        AMS-IX Amsterdam, NL
+remarks:        DEC-IX Frankfurt, GE
+remarks:        LINX London, UK
+remarks:        --------------------------------------
+remarks:
+remarks:        If you would to set-up a peering, sent us an e-mail:
+remarks:        peering@oteglobe.gr
+remarks:        ====================================================
+remarks:
+remarks:
+remarks:        The following BGP policy is applied to all customers
+remarks:
+remarks:        - Private networks and AS numbers are not accepted
+remarks:
+remarks:        - Prefixes longer than a /24 are not accepted.
+remarks:
+remarks:        - Prefixes not matching import policy are rejected.
+remarks:        Customers must always have a valid route object.
+remarks:        We accept Route Objects from any IRR (ie RIPE, etc).
+remarks:
+remarks:        - Prefix limit is placed upon the number of prefixes
+remarks:        received including a percentage amount for future growth.
+remarks:
+remarks:        - Advertisements tagged with communities other than
+remarks:        the one outlined below are reset by default at ingress.
+remarks:
+remarks:        - We honor well known communities
+remarks:        no-export & no-advertise
+remarks:
+remarks:
+remarks:        Community Support
+remarks:
+remarks:        Customer Communities applied at ingress
+remarks:
+remarks:        12713:5100 Athens KT1
+remarks:        12713:5110 Athens KT2
+remarks:        12713:5120 Athens NM1
+remarks:        12713:5130 Athens NM2
+remarks:        12713:5140 Athens LHX
+remarks:        12713:5200 Amsterdam
+remarks:        12713:5300 Frankfurt
+remarks:        12713:5400 London
+remarks:        12713:5600 Bucharest
+remarks:        12713:5610 Istanbul
+remarks:        12713:5620 Milan
+remarks:        12713:5630 Nicosia
+remarks:        12713:5640 Paris
+remarks:        12713:5650 Skopje
+remarks:        12713:5660 Sofia
+remarks:        12713:5670 Thessalonica
+remarks:        12713:5680 Tirane
+remarks:
+remarks:        Upstream Communities applied at ingress
+remarks:
+remarks:        12713:2200 Amsterdam
+remarks:        12713:2300 Frankfurt
+remarks:        12713:2400 London
+remarks:
+remarks:        Public Peerings Communities applied at ingress
+remarks:
+remarks:        12713:3200 Amsterdam (AMS-IX)
+remarks:        12713:3300 Frankfurt (DEC-IX)
+remarks:        12713:3400 London (LINX)
+remarks:
+remarks:        Customer Traffic Engineering
+remarks:
+remarks:        Community Action
+remarks:        ---------- ----------------------
+remarks:        12713:8080 Local preference = 80
+remarks:        12713:8600 Local preference = 600
+remarks:
+remarks:
+remarks:        12713:9001 Prepend to all Upstreams & Peers Once
+remarks:        12713:9002 Prepend to all Upstreams & Peers Twice
+remarks:        12713:9003 Prepend to all Upstreams & Peers Thrice
+remarks:        12713:9004 Announce to all except Upstreams & Peers
+remarks:
+remarks:        12713:9101 Prepend to Telia Sonera (AS1299) Once
+remarks:        12713:9102 Prepend to Telia Sonera (AS1299) Twice
+remarks:        12713:9103 Prepend to Telia Sonera (AS1299) Thrice
+remarks:        12713:9104 Announce to all except Telia Sonera
+remarks:
+remarks:        12713:9111 Prepend to Level3 (AS3356) Once
+remarks:        12713:9112 Prepend to Level3 (AS3356) Twice
+remarks:        12713:9113 Prepend to Level3 (AS3356) Thrice
+remarks:        12713:9114 Announce to all except Level3
+remarks:
+remarks:        12713:9121 Prepend to Deutsche Telekom (AS3320) Once
+remarks:        12713:9122 Prepend to Deutsche Telekom (AS3320) Twice
+remarks:        12713:9123 Prepend to Deutsche Telekom (AS3320) Thrice
+remarks:        12713:9124 Announce to all except Deutsche Telekom
+remarks:
+remarks:        12713:9131 Prepend to Cable&Wireless (AS1273) Once
+remarks:        12713:9132 Prepend to Cable&Wireless (AS1273) Twice
+remarks:        12713:9133 Prepend to Cable&Wireless (AS1273) Thrice
+remarks:        12713:9134 Announce to all except Cable&Wireless
+remarks:
+remarks:        12713:9141 Prepend to M247 (AS9009) Once
+remarks:        12713:9142 Prepend to M247 (AS9009) Twice
+remarks:        12713:9143 Prepend to M247 (AS9009) Thrice
+remarks:        12713:9144 Announce to all except M247
+remarks:
+remarks:        12713:9151 Prepend to Turk Telecom (AS6663) Once
+remarks:        12713:9152 Prepend to Turk Telecom (AS6663) Twice
+remarks:        12713:9153 Prepend to Turk Telecom (AS6663) Thrice
+remarks:        12713:9154 Announce to all except M247
+remarks:
+remarks:        12713:9201 Prepend to Facebook (AS32934) Once
+remarks:        12713:9202 Prepend to Facebook (AS32934) Twice
+remarks:        12713:9203 Prepend to Facebook (AS32934) Thrice
+remarks:        12713:9204 Announce to all except Facebook
+remarks:
+remarks:        12713:9211 Prepend to Leaseweb (AS16265) Once
+remarks:        12713:9212 Prepend to Leaseweb (AS16265) Twice
+remarks:        12713:9213 Prepend to Leaseweb (AS16265) Thrice
+remarks:        12713:9214 Announce to all except Leaseweb
+remarks:
+remarks:        12713:9221 Prepend to Google (AS15169) Once
+remarks:        12713:9222 Prepend to Google (AS15169) Twice
+remarks:        12713:9223 Prepend to Google (AS15169) Thrice
+remarks:        12713:9224 Announce to all except Google
+remarks:
+remarks:        12713:9231 Prepend to Apple (AS714) Once
+remarks:        12713:9232 Prepend to Apple (AS714) Twice
+remarks:        12713:9233 Prepend to Apple (AS714) Thrice
+remarks:        12713:9234 Announce to all except Apple
+remarks:
+remarks:        12713:9241 Prepend to Amazon (AS16509) Once
+remarks:        12713:9242 Prepend to Amazon (AS16509) Twice
+remarks:        12713:9243 Prepend to Amazon (AS16509) Thrice
+remarks:        12713:9244 Announce to all except Amazon
+remarks:
+remarks:        12713:9251 Prepend to Netflix (AS2906) Once
+remarks:        12713:9252 Prepend to Netflix (AS2906) Twice
+remarks:        12713:9253 Prepend to Netflix (AS2906) Thrice
+remarks:        12713:9254 Announce to all except Netflix
+remarks:
+remarks:        12713:9261 Prepend to CORE BACKBONE (AS33891) Once
+remarks:        12713:9262 Prepend to CORE BACKBONE (AS33891) Twice
+remarks:        12713:9263 Prepend to CORE BACKBONE (AS33891) Thrice
+remarks:        12713:9264 Announce to all except CORE_BACKBONE
+remarks:
+remarks:
+remarks:        12713:9271 Prepend to VERIZON DIGITAL MEDIA SERVICES (AS15133) Once
+remarks:        12713:9272 Prepend to VERIZON DIGITAL MEDIA SERVICES (AS15133) Twice
+remarks:        12713:9273 Prepend to VERIZON DIGITAL MEDIA SERVICES (AS15133) Thrice
+remarks:        12713:9274 Announce to all except VERIZON DIGITAL MEDIA SERVICES
+remarks:
+remarks:        12713:9281 Prepend to CDN77 (AS60088) Once
+remarks:        12713:9282 Prepend to CDN77 (AS60088) Twice
+remarks:        12713:9283 Prepend to CDN77 (AS60088) Thrice
+remarks:        12713:9284 Announce to all except CDN77
+remarks:
+remarks:        12713:9291 Prepend to HETZNER ONLINE (AS24940) Once
+remarks:        12713:9292 Prepend to HETZNER ONLINE (AS24940) Twice
+remarks:        12713:9293 Prepend to HETZNER ONLINE (AS24940) Thrice
+remarks:        12713:9294 Announce to all except HETZNER ONLINE
+remarks:
+remarks:        12713:9411 Prepend to AMS-IX peers Once
+remarks:        12713:9412 Prepend to AMS-IX peers Twice
+remarks:        12713:9413 Prepend to AMS-IX peers Thrice
+remarks:        12713:9414 Announce to all except AMS-IX
+remarks:
+remarks:        12713:9421 Prepend to LINX peers Once
+remarks:        12713:9422 Prepend to LINX peers Twice
+remarks:        12713:9423 Prepend to LINX peers Thrice
+remarks:        12713:9424 Announce to all except LINX
+remarks:
+remarks:        12713:9431 Prepend to DEC-IX peers Once
+remarks:        12713:9432 Prepend to DEC-IX peers Twice
+remarks:        12713:9433 Prepend to DEC-IX peers Thrice
+remarks:        12713:9434 Announce to all except DEC-IX
+remarks:
+remarks:
+remarks:
+admin-c:        GEBE-RIPE
+admin-c:        KF4038-RIPE
+tech-c:         MBAL-RIPE
+tech-c:         TP6294-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         KF4038-RIPE
+mnt-by:         AS12713-MNT
+created:        2002-06-26T19:07:53Z
+last-modified:  2019-01-02T17:04:53Z
+source:         RIPE # Filtered
+
+organisation:   ORG-OOGS1-RIPE
+org-name:       OTEGlobe - OTE Global Solutions SA
+org-type:       LIR
+address:        Em. Benaki 47 & Koletti Str, 4th floor
+address:        GR 106 81
+address:        Athens
+address:        GREECE
+phone:          +306978119459
+fax-no:         +302108762620
+fax-no:         +302103303524
+admin-c:        KF4038-RIPE
+admin-c:        GEBE-RIPE
+admin-c:        TP6294-RIPE
+mnt-ref:        AS12713-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS12713-MNT
+abuse-c:        ogab-ripe
+created:        2004-04-17T11:24:42Z
+last-modified:  2018-06-19T09:16:52Z
+source:         RIPE # Filtered
+
+person:         George Benekos
+address:        OTEGlobe S.A.
+address:        47 Em. Benaki Str.
+address:        10681, Athens, Hellas
+phone:          +30-210-3303545
+fax-no:         +30-210-3303524
+nic-hdl:        GEBE-RIPE
+mnt-by:         AS12713-MNT
+created:        2007-11-12T16:42:04Z
+last-modified:  2015-06-05T09:09:53Z
+source:         RIPE # Filtered
+
+person:         Kostas Fotiadis
+address:        OTEGlobe S.A.
+address:        47 Em. Benaki Str.
+address:        10681,  Athens, Hellas
+phone:          +30-210-3304905
+fax-no:         +30-210-3303524
+nic-hdl:        KF4038-RIPE
+mnt-by:         AS12713-MNT
+created:        2002-07-01T10:30:16Z
+last-modified:  2013-05-31T08:28:15Z
+source:         RIPE # Filtered
+
+person:         Minas Balaskas
+address:        OTEGlobe S.A.
+address:        47 Em. Mpenaki Str.
+address:        10681, Athens, Hellas
+phone:          +30-210-3303369
+fax-no:         +30-210-3303524
+nic-hdl:        MBAL-RIPE
+mnt-by:         AS12713-MNT
+created:        2008-06-25T08:31:42Z
+last-modified:  2015-06-05T09:09:00Z
+source:         RIPE # Filtered
+
+person:         Tsironis Petros
+address:        OTEGlobe S.A.
+address:        47 Em. Benaki Str.
+address:        10681, Athens, Hellas
+phone:          +302103817515
+nic-hdl:        TP6294-RIPE
+mnt-by:         AS12713-MNT
+created:        2018-06-19T09:15:17Z
+last-modified:  2018-06-19T09:15:17Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

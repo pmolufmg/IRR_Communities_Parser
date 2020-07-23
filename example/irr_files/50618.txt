@@ -1,0 +1,331 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS50618'
+
+% Abuse contact for 'AS50618' is 'noc@liazo.fr'
+
+aut-num:        AS50618
+as-name:        Liazo
+remarks:
+remarks:        ========================================================
+remarks:        == BGP Upstreams ==
+remarks:        ========================================================
+import:         from AS3356 action pref=90; accept ANY
+export:         to AS3356 announce AS-LIAZO
+remarks:        -
+import:         from AS6453 action pref=90; accept ANY
+export:         to AS6453 announce AS-LIAZO
+remarks:        -
+import:         from AS25091 action pref=90; accept ANY
+export:         to AS25091 announce AS-LIAZO
+remarks:        -
+import:         from AS29075 action pref=90; accept ANY
+export:         to AS29075 announce AS-LIAZO
+remarks:        -
+remarks:        ========================================================
+remarks:        == BGP Customers Full view ==
+remarks:        ========================================================
+import:         from AS35189 action pref=400; accept AS-KAZAR
+import:         from AS39271 action pref=400; accept AS-REGIES
+import:         from AS41157 action pref=400; accept AS-OXYMIUM
+import:         from AS41370 action pref=400; accept AS41370
+import:         from AS41653 action pref=400; accept AS-AQUARAY
+import:         from AS43142 action pref=400; accept AS43142
+import:         from AS43142 action pref=400; accept AS-ADELINOVIUS
+import:         from AS47833 action pref=400; accept AS47833
+import:         from AS48296 action pref=400; accept AS-IDEST
+import:         from AS48920 action pref=400; accept AS-TOILE-LIBRE
+import:         from AS50087 action pref=400; accept AS-SAFEROOT
+import:         from AS50474 action pref=400; accept AS50474
+import:         from AS50620 action pref=400; accept AS-BLUENETECH
+import:         from AS50628 action pref=400; accept AS50628
+import:         from AS51630 action pref=400; accept AS51630
+import:         from AS57141 action pref=400; accept AS57141
+import:         from AS60491 action pref=400; accept AS60491
+import:         from AS60930 action pref=400; accept AS60930
+import:         from AS61319 action pref=400; accept AS61319
+import:         from AS197337 action pref=400; accept AS197337
+import:         from AS198335 action pref=400; accept AS-TRANSATEL
+import:         from AS199167 action pref=400; accept AS199167
+import:         from AS199396 action pref=400; accept AS199396
+import:         from AS199851 action pref=400; accept AS199851
+import:         from AS201313 action pref=400; accept AS201313
+remarks:        -
+export:         to AS35189 announce ANY
+export:         to AS39271 announce ANY
+export:         to AS41157 announce ANY
+export:         to AS41370 announce ANY
+export:         to AS41653 announce ANY
+export:         to AS43142 announce ANY
+export:         to AS47833 announce ANY
+export:         to AS48296 announce ANY
+export:         to AS48920 announce ANY
+export:         to AS50087 announce ANY
+export:         to AS50474 announce ANY
+export:         to AS50620 announce ANY
+export:         to AS50628 announce ANY
+export:         to AS51630 announce ANY
+export:         to AS57141 announce ANY
+export:         to AS60491 announce ANY
+export:         to AS60930 announce ANY
+export:         to AS61319 announce ANY
+export:         to AS197337 announce ANY
+export:         to AS198335 announce ANY
+export:         to AS199167 announce ANY
+export:         to AS199396 announce ANY
+export:         to AS199851 announce ANY
+export:         to AS201313 announce ANY
+remarks:        -
+remarks:        ========================================================
+remarks:        == Peering Partners ==
+remarks:        ========================================================
+remarks:        == AMS-IX ==
+remarks:        == EQUINIX-IX-PARIS ==
+remarks:        == FRANCEIX ==
+remarks:        == LYONIX ==
+import:         from AS43100 action pref=90; accept AS43100:AS-MEMBERS
+export:         to AS43100 announce AS-LIAZO
+remarks:        == SFINX ==
+remarks:        -
+remarks:        ========================================================
+remarks:        Liazo Points of Presence
+remarks:        ========================================================
+remarks:
+remarks:        France (FR):
+remarks:        -
+remarks:        AMIENS Viatel
+remarks:        AMIENS Somme-Numerique St-Fuscien
+remarks:        BORDEAUX Cogent
+remarks:        CHARTRES REGIES Luc?
+remarks:        CHARTRES REGIES Gelainville
+remarks:        CHARTRES REGIES Epernon
+remarks:        DIJON Cogent
+remarks:        GRENOBLE Cogent
+remarks:        LILLE Cogent
+remarks:        LILLE CIV
+remarks:        LYON SFR Netcenter Venissieux
+remarks:        LYON DCFORDATA Limonest
+remarks:        MARSEILLE SFR Netcenter Salengro
+remarks:        MARSEILLE IELO Prado
+remarks:        PARIS TELEHOUSE 1 Jeuneurs
+remarks:        PARIS TELEHOUSE 2 Voltaire
+remarks:        PARIS TELEHOUSE 3 Magny-les-hammaux
+remarks:        PARIS TELECITY Courbevoie
+remarks:        PARIS TELECITY Aubervilliers
+remarks:        PARIS TELECITY Condorcet
+remarks:        PARIS EQUINIX PA2 Saint-Denis
+remarks:        PARIS EQUINIX PA3 Saint-denis
+remarks:        PARIS SFR Netcenter Courbevoie
+remarks:        PARIS DTAG Reaumur
+remarks:        PARIS ILIAD Vitry DC2
+remarks:        PARIS OVERLAP Courbevoie
+remarks:        PARIS LIAZO Bourse
+remarks:        PARIS LIAZO Vitruve
+remarks:        PARIS VIATEL 35RDJ
+remarks:        POITIERS Cogent
+remarks:        RENNES SFR Netcenter
+remarks:        RENNES Cogent
+remarks:        TOULOUSE Cogent
+remarks:        -
+remarks:        -
+remarks:        Switzerland (CH):
+remarks:        -
+remarks:        GENEVE CERN
+remarks:        GENEVE EQUINIX GV1 Confederation
+remarks:        -
+remarks:        -
+remarks:        Netherlands (NL):
+remarks:        -
+remarks:        AMSTERDAM TELECITY 2 Kuiperbergweg
+remarks:        AMSTERDAM TELECITY 5 Southeast
+remarks:        -
+remarks:        -
+remarks:        London (UK):
+remarks:        -
+remarks:        LONDON TELECITY 3 Sovereign House
+remarks:        LONDON TELEHOUSE North Docklands
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:        ========================================================
+remarks:        Peering Informations
+remarks:        ========================================================
+remarks:
+remarks:        Peering policy is open :
+remarks:
+remarks:        AMS-IX - http://www.ams-ix.net/
+remarks:        IPv4: 195.69.146.21
+remarks:        IPv6: 2001:7f8:1::a505:618:1
+remarks:        -
+remarks:        DE-CIX - http://www.de-cix.net/
+remarks:        IPv4: 80.81.193.121
+remarks:        IPv6:
+remarks:        -
+remarks:        LINX - http://www.linx.net/
+remarks:        IPv4: 195.66.226.84
+remarks:        IPv6: 2001:7F8:4::C5BA:1
+remarks:        -
+remarks:        SfinX
+remarks:        IPv4: 194.68.129.174
+remarks:        IPv6: 2001:7f8:4e:2::174
+remarks:        -
+remarks:        Equinix - Paris Exchange - http://eu-ix.equinix.com/
+remarks:        IPv4: 195.42.144.140
+remarks:        IPv6: 2001:7f8:43::5:0618:1
+remarks:        -
+remarks:        FranceIX - http://www.franceix.net/
+remarks:        IPv4: 37.49.236.103
+remarks:        IPv6: 2001:7F8:54::103
+remarks:        -
+remarks:        LyonIX - http://www.lyonix.net/
+remarks:        IPv4: 77.95.71.83
+remarks:        IPv6: 2001:7f8:47:47::0053
+remarks:
+remarks:        Peering contact : noc@liazo.net
+remarks:        PeeringDB : http://as50618.peeringdb.com/
+remarks:
+remarks:        ========================================================
+remarks:        Communities sent to customers
+remarks:        ========================================================
+remarks:
+remarks:        50618:7110 transit routes from AS3356 (Level3) Paris (TH2 Voltaire)
+remarks:        50618:7120 transit routes from AS6453 (Tata) Paris (TH1 Jeuneurs)
+remarks:        50618:7130 transit routes from AS29075 (Ielo) Paris (TH2 Voltaire)
+remarks:        50618:7140 transit routes from AS29075 (Ielo) Lyon (SFR Venissieux)
+remarks:        50618:7150 transit routes from AS25091 (Ip-Max) Geneve (Equinix Confederation)
+remarks:        50618:7160 transit routes from AS8487 (Phibee Telecom) Paris (TH2 Voltaire)
+remarks:        50618:7170 transit routes from AS44530 (HopUs) Paris (TH2 Voltaire)
+remarks:        50618:7180 transit routes from AS44530 (HopUs) Lyon
+remarks:        50618:6010 peer routes from Equinix Paris (TH2)
+remarks:        50618:6020 peer routes from FranceIX Paris (TH2)
+remarks:        50618:6030 peer routes from SfinX (TH2)
+remarks:        50618:6040 peer routes from AMS-IX (Amsterdam)
+remarks:        50618:6050 peer routes from LyonIX (Lyon)
+remarks:        50618:6060 peer routes from De-cix (Frankfurt)
+remarks:        50618:6070 peer routes from Linx (London)
+remarks:        50618:15000 Liazo customers routes
+remarks:
+remarks:        ========================================================
+remarks:        Communities accepted from customers
+remarks:        ========================================================
+remarks:
+remarks:        50618:711x act on AS3356 (Level3 Paris)
+remarks:        50618:712x act on AS6453 (Tata Paris)
+remarks:        50618:713x act on AS29075 (Ielo Paris)
+remarks:        50618:714x act on AS29075 (Ielo Lyon)
+remarks:        50618:715x act on AS25091 (Ip-Max Geneve)
+remarks:        50618:716x act on AS8487 (Phibee Paris)
+remarks:        50518:717x act on AS44530 (HopUs Paris)
+remarks:        50518:718x act on AS44530 (HopUs Lyon)
+remarks:        50618:601x act on Equinix Paris Exchange peers (TH2)
+remarks:        50618:602x act on FranceIX Paris peers (TH2)
+remarks:        50618:603x act on SfinX peers (TH2)
+remarks:        50618:604x act on AMS-IX (Amsterdam)
+remarks:        50618:605x act on LyonIX (Lyon)
+remarks:        50618:606x act on De-cix (Frankfurt)
+remarks:        50618:607x act on Linx (London)
+remarks:
+remarks:        x = 1 : Prepend once
+remarks:        x = 2 : Prepend twice
+remarks:        x = 3 : Prepend three times
+remarks:        x = 4 : don't announce
+remarks:
+remarks:        50618:0 Null-route/Blackhole
+remarks:
+remarks:        Well Known communities :
+remarks:        NO_EXPORT 65535:65281
+remarks:        NO_ADVERTISE 65535:65282
+remarks:
+remarks:        ========================================================
+remarks:        Routing Policy
+remarks:        ========================================================
+remarks:
+remarks:        AS50618 use RIPE-229 route-flap damping parameters.
+remarks:        AS50618 filter the following networks (RFC1918):
+remarks:        192.168.0.0/16
+remarks:        172.16.0.0/12
+remarks:        10.0.0.0/8
+remarks:        127.0.0.0/8
+remarks:        0.0.0.0/0
+remarks:
+remarks:        ========================================================
+admin-c:        AF6264-RIPE
+admin-c:        FM11967-RIPE
+tech-c:         AF6264-RIPE
+tech-c:         FM11967-RIPE
+org:            ORG-LS56-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-LIAZO
+created:        2010-02-19T10:40:34Z
+last-modified:  2019-01-17T13:03:41Z
+source:         RIPE
+
+organisation:   ORG-LS56-RIPE
+org-name:       IELO-LIAZO SERVICES SAS
+org-type:       LIR
+address:        Comptabilit Fournisseurs, 50 ter rue de malte
+address:        75020
+address:        Paris
+address:        FRANCE
+phone:          +33182288280
+fax-no:         +33182288270
+admin-c:        AF6264-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-LIAZO
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-LIAZO
+abuse-c:        LIA41-RIPE
+created:        2009-12-04T09:42:46Z
+last-modified:  2018-10-12T08:37:59Z
+source:         RIPE # Filtered
+
+person:         Fernandez Arthur
+address:        Liazo
+address:        3-5-7 rue albert marquet
+address:        75020 Paris
+address:        FRANCE
+phone:          +33182288280
+remarks:        email prefered
+remarks:        please don't spam
+remarks:        -
+remarks:        PGPKEY-851A3981
+nic-hdl:        AF6264-RIPE
+mnt-by:         MNT-LIAZO
+created:        2009-02-06T08:48:15Z
+last-modified:  2012-08-17T14:13:44Z
+source:         RIPE # Filtered
+
+person:         Frederic Motte
+address:        IELO-LIAZO
+address:        50 ter rue de Malte
+address:        75011 Paris
+phone:          +33182288282
+nic-hdl:        FM11967-RIPE
+mnt-by:         MNT-LIAZO
+created:        2012-08-17T14:11:23Z
+last-modified:  2018-08-08T20:09:20Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

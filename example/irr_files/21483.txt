@@ -1,0 +1,125 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21453 - AS21503'
+
+as-block:       AS21453 - AS21503
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21483'
+
+% Abuse contact for 'AS21483' is 'abuse-b2b@beeline.ru'
+
+aut-num:        AS21483
+as-name:        TEL-AS
+remarks:        == UPLINKS ==
+import:         from AS3216 action pref=100; accept ANY
+export:         to AS3216 announce AS-SOVINTEL-KRSK
+remarks:        == CLIENTS ==
+import:         from AS50443 action pref=100; accept AS50443
+export:         to AS50443 announce AS-SOVINTEL-KRSK
+import:         from AS50787 action pref=100; accept AS50787
+export:         to AS50787 announce AS-SOVINTEL-KRSK
+import:         from AS42895 action pref=100; accept AS42895
+export:         to AS42895 announce AS-SOVINTEL-KRSK
+import:         from AS33991 action pref=100; accept AS33991
+export:         to AS33991 announce AS-SOVINTEL-KRSK
+import:         from AS43154 action pref=100; accept AS43154
+export:         to AS43154 announce AS-SOVINTEL-KRSK
+import:         from AS50725 action pref=100; accept AS50725
+export:         to AS50725 announce AS-SOVINTEL-KRSK
+import:         from AS60980 action pref=100; accept AS60980
+export:         to AS60980 announce AS-SOVINTEL-KRSK
+import:         from AS59525 action pref=100; accept AS59525
+export:         to AS59525 announce AS-SOVINTEL-KRSK
+import:         from AS62233 action pref=100; accept AS62233
+export:         to AS62233 announce AS-SOVINTEL-KRSK
+import:         from AS205720 action pref=100; accept AS205720
+export:         to AS205720 announce AS-SOVINTEL-KRSK
+import:         from AS51536 action pref=100; accept AS51536
+export:         to AS51536 announce AS-SOVINTEL-KRSK
+remarks:        -------------------------------------------------------+
+remarks:        | We are using following communities for our customers:
+remarks:        -------------------------------------------------------+
+remarks:        | 21483:80 Set local preference to 80 (below default)
+remarks:        | 21483:120 Set local preference to 120 (above default)
+remarks:        | 21483:1000 Do not export to UPLINKS
+remarks:        | 21483:1001 Prepend once to UPLINKS
+remarks:        | 21483:1002 Prepend twice to UPLINKS
+remarks:        | 21483:1003 Prepend thrice to UPLINKS
+remarks:        -------------------------------------------------------+
+remarks:        | 21483:3000 Do not export to CUSTOMERS
+remarks:        | 21483:3001 Prepend once to CUSTOMERS
+remarks:        | 21483:3002 Prepend twice to CUSTOMERS
+remarks:        | 21483:3003 Prepend thrice to CUSTOMERS
+remarks:        -------------------------------------------------------+
+remarks:        | 21483:9999 Blackhole (discard) traffic
+remarks:        -------------------------------------------------------
+remarks:
+org:            ORG-ES15-RIPE
+admin-c:        TEL-RIPE
+tech-c:         TEL-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TEL-MNT
+created:        2001-12-28T11:31:29Z
+last-modified:  2018-09-04T09:53:08Z
+source:         RIPE
+
+organisation:   ORG-ES15-RIPE
+org-name:       PJSC "Vimpelcom"
+org-type:       LIR
+remarks:        VEON Group
+address:        8 Marta str, 10, bld. 14
+address:        127083
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +79037600747
+fax-no:         +74957871990
+admin-c:        SVNT1-RIPE
+admin-c:        SVNT2-RIPE
+admin-c:        IAI1-RIPE
+admin-c:        DM3740-RIPE
+admin-c:        BEE15-RIPE
+mnt-ref:        SOVINTEL-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SOVINTEL-MNT
+abuse-c:        SVNT2-RIPE
+created:        2004-04-17T11:58:43Z
+last-modified:  2018-11-08T08:54:48Z
+source:         RIPE # Filtered
+
+role:           Sovintel Krasnoyarsk branch NOC
+address:        Vzletnaya str, 3
+address:        Krasnoyarsk, Russia
+phone:          +7 (3912) 259 0201
+admin-c:        PNN1-RIPE
+admin-c:        RAC13-RIPE
+admin-c:        SVK39-RIPE
+tech-c:         PNN1-RIPE
+tech-c:         RAC13-RIPE
+tech-c:         SVK39-RIPE
+nic-hdl:        TEL-RIPE
+mnt-by:         TEL-MNT
+remarks:        former SibChallenge Telecom NOC
+remarks:        former TEL NOC
+created:        2006-06-02T02:33:29Z
+last-modified:  2012-07-09T05:56:44Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

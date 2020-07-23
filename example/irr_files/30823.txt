@@ -1,0 +1,232 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS30720 - AS30895'
+
+as-block:       AS30720 - AS30895
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS30823'
+
+% Abuse contact for 'AS30823' is 'abuse@combahton.net'
+
+aut-num:        AS30823
+as-name:        COMBAHTON
+descr:          combahton GmbH
+remarks:        Dedicated Server - Colocation - DDoS Protection - IP-Transit
+remarks:        -------------------------------------------------------------
+remarks:        Looking Glass: https://lg.combahton.net
+remarks:        Smokeping: https://smokeping.combahton.net
+remarks:        See combahton.net for more information regarding our services
+remarks:        -------------------------------------------------------------
+org:            ORG-CISU3-RIPE
+remarks:        -------------------------------------------------------------
+remarks:        -- UPSTREAM --
+remarks:        -------------------------------------------------------------
+remarks:        -- Core-Backbone GmbH --
+import:         from AS33891 accept ANY
+export:         to AS33891 announce AS30823
+remarks:        -- RETN Ltd. --
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS30823
+remarks:        -- Interwerk Rechenzentrum --
+import:         from AS197071 accept ANY
+export:         to AS197071 announce AS30823
+remarks:        -- Hurricane Electric Inc. --
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-COMBAHTON
+remarks:        -------------------------------------------------------------
+remarks:        -- DOWNSTREAM --
+remarks:        -------------------------------------------------------------
+remarks:        -- JMP Technology Services GmbH --
+import:         from AS61423 accept ANY
+export:         to AS61423 announce AS-COMBAHTON
+remarks:        -- Bitree LLC --
+import:         from AS198134 accept ANY
+export:         to AS198134 announce AS-COMBAHTON
+remarks:        -- iFog GmbH --
+import:         from AS-iFog accept ANY
+export:         to AS-iFog announce AS-COMBAHTON
+remarks:        -- IQ-5 GmbH --
+import:         from AS202592 accept ANY
+export:         to AS202592 announce AS-COMBAHTON
+remarks:        -- Hybula Security --
+import:         from AS209626 accept ANY
+export:         to AS209626 announce AS-COMBAHTON
+remarks:        -- Joseph Hofmann --
+import:         from AS203189 accept ANY
+export:         to AS203189 announce AS-COMBAHTON
+remarks:        -- Lumaserv Systems --
+import:         from AS-LUMASERV accept ANY
+export:         to AS-LUMASERV announce AS-COMBAHTON
+remarks:        -- ClouDNS Ltd. --
+import:         from AS203391 accept ANY
+export:         to AS203391 announce AS-COMBAHTON
+remarks:        -- Packet Brewery --
+import:         from AS205446 accept ANY
+export:         to AS205446 announce AS-COMBAHTON
+remarks:        -- Cyanlink Ltd. --
+import:         from AS205474 accept AS-CYAN
+export:         to AS205474 announce AS-COMBAHTON
+remarks:        -- Public Cloud Ltd. --
+import:         from AS205787 accept ANY
+export:         to AS205787 announce AS-COMBAHTON
+remarks:        -- Caveo Ltd. --
+import:         from AS209555 accept ANY
+export:         to AS209555 announce AS-COMBAHTON
+remarks:        -- NK-Systems --
+import:         from AS209771 accept ANY
+export:         to AS209771 announce AS-COMBAHTON
+remarks:        -- Naive Network --
+import:         from AS209864 accept ANY
+export:         to AS209864 announce AS-COMBAHTON
+remarks:        -- Level66 Network --
+import:         from AS-L66 accept ANY
+export:         to AS-L66 announce AS-COMBAHTON
+remarks:        -- Ruben Vandepitte --
+import:         from AS210283 accept ANY
+export:         to AS210283 announce AS-COMBAHTON
+remarks:        -- JeffColo --
+import:         from AS395502 accept ANY
+export:         to AS395502 announce AS-COMBAHTON
+remarks:        -- Rick Bakker --
+import:         from AS-BAKKER-IT accept ANY
+export:         to AS-BAKKER-IT announce AS-COMBAHTON
+remarks:        -------------------------------------------------------------
+remarks:        -- BGP Communities --
+remarks:        -------------------------------------------------------------
+remarks:        Communities set by AS30823
+remarks:        -------------------------------------------------------------
+remarks:        30823:30823 - All Announcements from AS30823 and customers
+remarks:        30823:10002 - Announcement orignated at FFM2 - Interwerk Frankfurt, Germany
+remarks:        30823:10003 - Announcement orignated at FFM3 - Interxion Frankfurt, Germany
+remarks:        30823:30821 - Route received from Edge Peer (Transit)
+remarks:        30823:1001 - Route received from KleyReX Frankfurt at Edge
+remarks:        30823:1002 - Route received from Locix Frankfurt at Edge
+remarks:        -------------------------------------------------------------
+remarks:        Communities accepted from customer
+remarks:        -------------------------------------------------------------
+remarks:        30823:30820 - Blackhole Prefix (only /32 IPv4 & /128 IPv6)
+remarks:        30823:30824 - Do not announce to Upstream (Peering/Customers only)
+remarks:        30823:21X - KleyReX Frankfurt Peers
+remarks:        30823:22X - Locix Frankfurt Peers
+remarks:        30823:3821X - Core-Backbone (AS33891)
+remarks:        30823:3822X - Interwerk (AS197071)
+remarks:        30823:3823X - RETN (AS9002)
+remarks:        30823:38229 - Voxility (via AS197071, disable AS197071)
+remarks:        Other communities are available upon request
+remarks:        Please open a ticket within my.combahton.net
+remarks:        -------------------------------------------------------------
+remarks:        X stands for 1-3 prepends or 0 for do not annouce
+remarks:        -------------------------------------------------------------
+remarks:        -- PEERING @ KleyReX Frankfurt --
+remarks:        -------------------------------------------------------------
+remarks:        -- KleyReX Routeserver --
+import:         from AS31142 accept ANY
+export:         to AS31142 announce AS-COMBAHTON
+remarks:        -- Hurricane Electric --
+import:         from AS6939 accept ANY
+export:         to AS6939 announce AS-COMBAHTON
+remarks:        -- Cloudflare Inc. --
+import:         from AS13335 accept ANY
+export:         to AS13335 announce AS-COMBAHTON
+remarks:        -- Google Inc. --
+import:         from AS15169 accept ANY
+export:         to AS15169 announce AS-COMBAHTON
+remarks:        -- equada network GmbH --
+import:         from AS25220 accept ANY
+export:         to AS25220 announce AS-COMBAHTON
+remarks:        -- Probe Networks --
+import:         from AS29686 accept ANY
+export:         to AS29686 announce AS-COMBAHTON
+remarks:        -- meerfarbig GmbH & Co. KG --
+import:         from AS34549 accept ANY
+export:         to AS34549 announce AS-COMBAHTON
+remarks:        -- Gameforge Productions GmbH --
+import:         from AS47195 accept ANY
+export:         to AS47195 announce AS-COMBAHTON
+remarks:        -- Electronic Communities Ltd. --
+import:         from AS61337 accept ANY
+export:         to AS61337 announce AS-COMBAHTON
+remarks:        -- Jan Prunk --
+import:         from AS199071 accept ANY
+export:         to AS199071 announce AS-COMBAHTON
+remarks:        -------------------------------------------------------------
+remarks:        -- PEERING @ Locix Frankfurt --
+remarks:        -------------------------------------------------------------
+remarks:        -- Locix Route-Server --
+import:         from AS202409 accept ANY
+export:         to AS202409 announce AS-COMBAHTON
+remarks:        -------------------------------------------------------------
+remarks:        -- Other Objects --
+remarks:        -------------------------------------------------------------
+admin-c:        CONO
+tech-c:         CONO
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         COMBAHTON
+mnt-by:         mnt-de-combahton1-1
+created:        2015-09-09T12:34:31Z
+last-modified:  2019-02-11T15:35:36Z
+source:         RIPE
+
+organisation:   ORG-CISU3-RIPE
+org-name:       combahton GmbH
+org-type:       LIR
+address:        Mitterfeld 47
+address:        85419
+address:        Mauern
+address:        GERMANY
+admin-c:        JH29651-RIPE
+tech-c:         JH29651-RIPE
+abuse-c:        AR50505-RIPE
+mnt-ref:        mnt-de-combahton1-1
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         mnt-de-combahton1-1
+created:        2019-01-29T09:19:12Z
+last-modified:  2019-02-05T20:58:07Z
+source:         RIPE # Filtered
+phone:          +4987642589890
+
+role:           COMBAHTON
+abuse-mailbox:  abuse@combahton.net
+address:        combahton GmbH
+address:        Network Operations
+address:        Mitterfeld 47
+address:        85419 Mauern
+remarks:        -----------------------------------------------------------------------
+remarks:        In case of any network issues, please call +49 8764 258 989 0
+remarks:        Please send abuse complaints only to abuse@combahton.net
+remarks:        Abuse complaints will automatically create a new abuse case
+remarks:        Every case is automatically forwarded to our responsible customer
+remarks:        -----------------------------------------------------------------------
+nic-hdl:        CONO
+admin-c:        JHCO
+admin-c:        MSCO
+tech-c:         JHCO
+tech-c:         MSCO
+mnt-by:         COMBAHTON
+created:        2015-07-13T19:16:49Z
+last-modified:  2019-01-10T09:13:00Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

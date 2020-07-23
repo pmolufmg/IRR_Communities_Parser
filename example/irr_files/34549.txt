@@ -1,0 +1,239 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS34549'
+
+% Abuse contact for 'AS34549' is 'abuse@meerfarbig.net'
+
+aut-num:        AS34549
+as-name:        MEER-AS
+descr:          meerfarbig GmbH & Co. KG
+org:            ORG-LIGC3-RIPE
+remarks:        ========================================================
+remarks:        Upstreams
+remarks:        ========================================================
+import:         from AS3320 accept ANY
+import:         from AS3257 accept ANY
+import:         from AS13101 accept ANY
+import:         from AS1299 accept ANY
+import:         from AS33891 accept ANY
+import:         from AS3223 accept ANY
+remarks:        --------------------------------------------------------
+export:         to AS3320 announce AS-MEER
+export:         to AS3257 announce AS-MEER
+export:         to AS13101 announce AS-MEER
+export:         to AS1299 announce AS-MEER
+export:         to AS33891 announce AS-MEER
+export:         to AS3223 announce AS-MEER
+remarks:        ========================================================
+remarks:        Downstreams
+remarks:        ========================================================
+export:         to AS29394 announce ANY
+export:         to AS41399 announce ANY
+export:         to AS62078 announce ANY
+export:         to AS62874 announce ANY
+export:         to AS201882 announce ANY
+export:         to AS22400 announce ANY
+export:         to AS200462 announce ANY
+export:         to AS204254 announce ANY
+export:         to AS204287 announce ANY
+export:         to AS51058 announce ANY
+export:         to AS203909 announce ANY
+export:         to AS200753 announce ANY
+export:         to AS200615 announce ANY
+export:         to AS61967 announce ANY
+export:         to AS203189 announce ANY
+export:         to AS204248 announce ANY
+export:         to AS134671 announce ANY
+export:         to AS206479 announce ANY
+export:         to AS207150 announce ANY
+export:         to AS205948 announce ANY
+export:         to AS205632 announce ANY
+export:         to AS59891 announce ANY
+remarks:        --------------------------------------------------------
+import:         from AS29394 accept AS29394
+import:         from AS41399 accept AS-HOSTCAMP
+import:         from AS62078 accept AS62078:RS-FRA1
+import:         from AS62874 accept ANY
+import:         from AS201882 accept AS201882
+import:         from AS22400 accept ANY
+import:         from AS200462 accept AS200462
+import:         from AS204254 accept AS204254
+import:         from AS204287 accept AS204287
+import:         from AS51058 accept AS51058
+import:         from AS203909 accept AS203909
+import:         from AS200753 accept AS-SNAPSERV
+import:         from AS200615 accept AS200615
+import:         from AS61967 accept AS-TELEMATIS
+import:         from AS203189 accept AS203189
+import:         from AS204248 accept AS204248
+import:         from AS134671 accept AS134671
+import:         from AS206479 accept AS-JPBE
+import:         from AS207150 accept AS207150
+import:         from AS205948 accept AS205948
+import:         from AS205632 accept AS205632
+import:         from AS59891 accept AS59891
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS34549
+remarks:        ========================================================
+remarks:        Peerings - KleyReX
+remarks:        ========================================================
+export:         to AS6939 announce AS-MEER
+export:         to AS9063 announce AS-MEER
+export:         to AS12731 announce AS-MEER
+export:         to AS15844 announce AS-MEER
+export:         to AS20886 announce AS-MEER
+export:         to AS21385 announce AS-MEER
+export:         to AS25220 announce AS-MEER
+export:         to AS25394 announce AS-MEER
+export:         to AS28676 announce AS-MEER
+export:         to AS29066 announce AS-MEER
+export:         to AS29404 announce AS-MEER
+export:         to AS29686 announce AS-MEER
+export:         to AS31572 announce AS-MEER
+export:         to AS34764 announce AS-MEER
+export:         to AS35292 announce AS-MEER
+export:         to AS41692 announce AS-MEER
+export:         to AS199071 announce AS-MEER
+export:         to AS9178 announce AS-MEER
+export:         to AS13335 announce AS-MEER
+export:         to AS48344 announce AS-MEER
+export:         to AS204003 announce AS-MEER
+export:         to AS47195 announce AS-MEER
+export:         to AS206499 announce AS-MEER
+remarks:        --------------------------------------------------------
+import:         from AS6939 accept AS6939
+import:         from AS9063 accept AS-SAARGATE
+import:         from AS12731 accept AS-IPHH
+import:         from AS15844 accept AS-TGCTOKLEYREX
+import:         from AS20886 accept AS-BLATZ
+import:         from AS21385 accept AS-TNIB
+import:         from AS25220 accept AS-GLOBALNOC
+import:         from AS25394 accept AS-MK-NETZDIENSTE
+import:         from AS28676 accept AS-WITCOM
+import:         from AS29066 accept AS-VELIANET
+import:         from AS29404 accept AS-ELBRACHT
+import:         from AS29686 accept AS-PROBENETWORKS
+import:         from AS31572 accept AS-PHOTONIUM
+import:         from AS34764 accept AS-FISDE
+import:         from AS35292 accept AS-ELXSI
+import:         from AS41692 accept AS-OPENCARRIER
+import:         from AS199071 accept AS-PRUNK
+import:         from AS9178 accept AS-CHATTR
+import:         from AS13335 accept AS-CLOUDFLARE
+import:         from AS48344 accept AS-68a
+import:         from AS204003 accept AS-ORTGIES
+import:         from AS47195 accept AS-GAMEFORGE
+import:         from AS206499 accept AS-MMNETWORKS
+remarks:        ========================================================
+remarks:        Community Action/Definition
+remarks:        ========================================================
+remarks:        34549:200 Learned from Transit
+remarks:        34549:210 Route received from Telia Sonera
+remarks:        34549:220 Route received from GTT
+remarks:        34549:230 Route received from DTAG
+remarks:        34549:240 Route received from Core-Backbone
+remarks:        34549:300 Learned from Peering
+remarks:        34549:310 Route received from DE-CIX
+remarks:        34549:320 Route received from KleyREX
+remarks:        34549:330 Route received from Hurricane Electric
+remarks:        34549:600 ROA valid
+remarks:        34549:601 ROA unverified
+remarks:        34549:602 ROA invalid
+remarks:        34549:666 Blackhole
+remarks:        --------------------------------------------------------
+remarks:        Any routes more specific than /24 (IPv4) or /48 (IPv6) are filtered.
+remarks:        Prefixes with private or other invalid ASNs are filtered.
+remarks:        Announcements listed in RFC3330 and RFC5156 are filtered.
+remarks:        ROA invalid (34549:602) gets local-pref 10.
+remarks:        --------------------------------------------------------
+remarks:        We have a open peering policy. If you would like to
+remarks:        peer with us, feel free to write an e-mail to
+remarks:        noc@meerfarbig.net
+remarks:        meerfarbig is available at:
+remarks:        * Werkhaus, Kruppstr, Frankfurt
+remarks:        * InterXion FRA2, Hanauer Landstr, Frankfurt
+remarks:        * KleyReX, Frankfurt
+remarks:        --------------------------------------------------------
+admin-c:        MEER
+tech-c:         MEER
+status:         ASSIGNED
+mnt-by:         MEER-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2005-02-11T14:35:44Z
+last-modified:  2019-01-29T14:47:33Z
+source:         RIPE # Filtered
+
+organisation:   ORG-LIGC3-RIPE
+org-name:       meerfarbig GmbH & Co. KG
+org-type:       LIR
+address:        Kruppstr. 105
+address:        60388
+address:        Frankfurt am Main
+address:        GERMANY
+phone:          +496940358790
+fax-no:         +496940358791
+admin-c:        CHME-RIPE
+admin-c:        DGME-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        LX-MNT
+mnt-ref:        MEER-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MEER-MNT
+abuse-c:        MEER
+tech-c:         CHME-RIPE
+created:        2005-03-03T06:11:18Z
+last-modified:  2017-04-13T14:18:30Z
+source:         RIPE # Filtered
+
+role:           meerfarbig NOC
+address:        meerfarbig GmbH & Co. KG
+address:        Kruppstr. 105
+address:        60388 Frankfurt am Main
+address:        Germany
+abuse-mailbox:  abuse@meerfarbig.net
+admin-c:        DGME-RIPE
+admin-c:        CHME-RIPE
+tech-c:         DGME-RIPE
+tech-c:         CHME-RIPE
+nic-hdl:        MEER
+remarks:
+remarks:        +-----------------------------------------------+
+remarks:        | Customers please mail the known addresses or |
+remarks:        | call us. Our phone numbers may be found in |
+remarks:        | the customer interface. |
+remarks:        +-----------------------------------------------+
+remarks:        | Abuse related stuff: abuse@meerfarbig.net |
+remarks:        | RIPE related stuff: noc@meerfarbig.net |
+remarks:        | Peering: noc@meerfarbig.net |
+remarks:        +-----------------------------------------------+
+remarks:
+mnt-by:         MEER-MNT
+created:        2014-12-17T19:04:11Z
+last-modified:  2018-03-29T10:33:49Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

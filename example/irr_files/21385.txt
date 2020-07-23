@@ -1,0 +1,1669 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS21385
+as-name:       TNIB
+descr:         Trusted Network GmbH
+descr:         Max-Planck-Str. 1
+descr:         85716 Unterschleissheim
+descr:         Germany
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS42 accept   AS-PCH
+import:        from AS286 accept   AS-KPN
+import:        from AS553 accept   AS-BELWUE
+import:        from AS680 accept   AS-DFNTOWINISP
+import:        from AS1120 accept   AS-ACOSERV
+import:        from AS1267 accept   AS-INFOSTRADA
+import:        from AS1299 accept   AS-TELIANET
+import:        from AS1764 accept   AS-NEXTLAYER
+import:        from AS1836 accept   AS-GREEN
+import:        from AS1853 accept   AS-ACONETTOVIX
+import:        from AS1901 accept   AS-EUNETAT
+import:        from AS2119 accept   AS-TELENOR
+import:        from AS2484 accept   AS2484
+import:        from AS2818 accept   AS-BBC
+import:        from AS2857 accept   AS-RLP-NET
+import:        from AS2906 accept   AS-NFLX
+import:        from AS3209 accept   AS-ARCORGLOBAL
+import:        from AS3212 accept   AS-TRIERA
+import:        from AS3223 accept   AS-VOXILITY-SET
+import:        from AS3248 accept   AS-SILAT
+import:        from AS3303 accept   AS-SWCMGLOBAL
+import:        from AS3320 accept   ANY
+import:        from AS3327 accept   AS-LINXTELECOM-DECIX
+import:        from AS3330 accept   AS-PROFINET
+import:        from AS3356 accept   ANY
+import:        from AS3491 accept   AS-CAIS
+import:        from AS3856 accept   AS-PCH
+import:        from AS4589 accept   AS-EASYNET
+import:        from AS4766 accept   AS4766
+import:        from AS4788 accept   AS-TMNET-CUSTOMERS
+import:        from AS5089 accept   AS-NTLI
+import:        from AS5385 accept   AS5385
+import:        from AS5403 accept   AS-APA
+import:        from AS5409 accept   AS-TPL
+import:        from AS5410 accept   AS-T-ONLINEFRANCE
+import:        from AS5427 accept   AS-PRTL
+import:        from AS5430 accept   AS-FREENETDE
+import:        from AS5464 accept   AS5464
+import:        from AS5466 accept   AS-EIRCOM
+import:        from AS5483 accept   AS-MAGYARTELEKOM
+import:        from AS5539 accept   AS-SPACENET
+import:        from AS5541 accept   AS-ADNET
+import:        from AS5577 accept   AS-ROOT
+import:        from AS5580 accept   AS-ATRATO
+import:        from AS5588 accept   AS-GTS-CE
+import:        from AS5605 accept   AS-NETUSE
+import:        from AS6083 accept   AS-POSIX
+import:        from AS6461 accept   AS-MFNX
+import:        from AS6659 accept   AS-NEXINTO
+import:        from AS6661 accept   AS-PTLU
+import:        from AS6663 accept   AS-STARNETSRO
+import:        from AS6667 accept   AS-EUNETIP
+import:        from AS6695 accept   AS-DECIX
+import:        from AS6720 accept   AS-MAGWIEN
+import:        from AS6724 accept   AS6724
+import:        from AS6730 accept   AS-SUNRISE
+import:        from AS6735 accept   AS-SDTDECIX
+import:        from AS6760 accept   AS-ITELSI
+import:        from AS6772 accept   AS-IMPNET
+import:        from AS6774 accept   AS-BELBONETOPEERS
+import:        from AS6798 accept   AS6798
+import:        from AS6805 accept   AS-TDDE
+import:        from AS6830 accept   AS-AORTA
+import:        from AS6854 accept   AS-SYNTERRA
+import:        from AS6900 accept   AS6900
+import:        from AS6939 accept   AS-HURRICANE
+import:        from AS7342 accept   AS-GTLD
+import:        from AS8068 accept   AS-MICROSOFT
+import:        from AS8075 accept   AS8075
+import:        from AS8190 accept   AS-VIATEL
+import:        from AS8218 accept   AS-NEOT
+import:        from AS8222 accept   AS-NETPLACE
+import:        from AS8245 accept   AS-VB
+import:        from AS8262 accept   AS-EVOLINK
+import:        from AS8271 accept   AS-CH
+import:        from AS8319 accept   AS-IXNETHINKS
+import:        from AS8339 accept   AS-KABS
+import:        from AS8342 accept   AS-RTCOMM-DECIX-EXP
+import:        from AS8359 accept   AS-MTU
+import:        from AS8365 accept   AS-MANDA
+import:        from AS8387 accept   AS8387
+import:        from AS8391 accept   AS-KNIPP
+import:        from AS8412 accept   AS-TMA2VIX
+import:        from AS8422 accept   AS-NETCOLOGNE
+import:        from AS8426 accept   AS-CLARANET
+import:        from AS8442 accept   AS-DIG
+import:        from AS8445 accept   AS-SALZBURG-AG
+import:        from AS8447 accept   AS-PTA
+import:        from AS8468 accept   AS-ENTANET
+import:        from AS8469 accept   AS-PIRONETNDH
+import:        from AS8473 accept   AS8473
+import:        from AS8492 accept   AS-OBIT
+import:        from AS8495 accept   AS-INTERNIC
+import:        from AS8513 accept   AS-SKYVISION
+import:        from AS8544 accept   AS-NSP
+import:        from AS8551 accept   AS-BEZEQINT
+import:        from AS8559 accept   AS-WELLCOMAT
+import:        from AS8560 accept   AS-1AND1
+import:        from AS8582 accept   AS-SUPPORT
+import:        from AS8586 accept   AS-REDNET
+import:        from AS8591 accept   AS-AMIS
+import:        from AS8596 accept   AS-HOTZE
+import:        from AS8632 accept   AS-LOL
+import:        from AS8648 accept   AS-KAMP
+import:        from AS8657 accept   AS-CPRM
+import:        from AS8674 accept   AS-NETNOD-ANYCAST
+import:        from AS8708 accept   AS-RDSNET
+import:        from AS8717 accept   AS-SPNET
+import:        from AS8741 accept   AS-ECORE
+import:        from AS8758 accept   AS-IWAYCH
+import:        from AS8763 accept   AS-DENIC
+import:        from AS8764 accept   AS-LTELECOM
+import:        from AS8767 accept   AS-MNETDE
+import:        from AS8781 accept   AS-QTEL
+import:        from AS8804 accept   AS-IX-REGIONET
+import:        from AS8821 accept   AS-TELEZUG
+import:        from AS8823 accept   AS-ROCKENSTEIN
+import:        from AS8833 accept   AS-GPS
+import:        from AS8859 accept   AS-OSN
+import:        from AS8866 accept   AS-BTC-UP
+import:        from AS8879 accept   AS-DTS
+import:        from AS8881 accept   AS-KOMTEL
+import:        from AS8928 accept   AS-INTEROUTE
+import:        from AS8966 accept   AS-EMIX
+import:        from AS8972 accept   AS-PLUSSERVER
+import:        from AS9002 accept   AS-RETN
+import:        from AS9009 accept   AS-GBXS
+import:        from AS9031 accept   AS-EDPNET
+import:        from AS9044 accept   AS-SOLNET
+import:        from AS9050 accept   AS-RTD
+import:        from AS9063 accept   AS-SAARGATE
+import:        from AS9066 accept   AS-BCC
+import:        from AS9070 accept   AS-ITDOUT
+import:        from AS9116 accept   AS-GOLDEN
+import:        from AS9119 accept   AS-SOFTNET
+import:        from AS9121 accept   AS-TTNET
+import:        from AS9145 accept   AS-EWETEL
+import:        from AS9153 accept   AS-BURSTFIRE
+import:        from AS9189 accept   AS-ACCOM
+import:        from AS9211 accept   AS-WORK
+import:        from AS9505 accept   AS-TWIG
+import:        from AS10282 accept   AS-OBS-CEEUR
+import:        from AS10310 accept   AS-YAHOO
+import:        from AS11403 accept   AS-NYI
+import:        from AS12041 accept   AS-AFILIAS
+import:        from AS12076 accept   AS-MICROSOFT
+import:        from AS12301 accept   AS-ROUTES
+import:        from AS12306 accept   AS-PLUSLINE
+import:        from AS12312 accept   AS-NACAMAR
+import:        from AS12322 accept   AS-PROXAD
+import:        from AS12329 accept   AS-TMR-V6
+import:        from AS12337 accept   AS-NORIS
+import:        from AS12347 accept   AS-VIRTUALTEC
+import:        from AS12348 accept   AS-ODNDE
+import:        from AS12350 accept   AS-VTX
+import:        from AS12355 accept   AS-HELINET-V4
+import:        from AS12387 accept   AS-TON
+import:        from AS12389 accept   AS-ROSTELECOM
+import:        from AS12399 accept   AS-SPXS
+import:        from AS12401 accept   AS12401
+import:        from AS12452 accept   AS-PROV
+import:        from AS12480 accept   AS-ILK
+import:        from AS12558 accept   AS-CARRIER66
+import:        from AS12577 accept   AS-MMC-AT
+import:        from AS12605 accept   AS-LIWESTAT
+import:        from AS12611 accept   AS-RKOM
+import:        from AS12620 accept   AS-TICINOCOM
+import:        from AS12635 accept   AS12635
+import:        from AS12638 accept   AS-EPLUS
+import:        from AS12654 accept   AS12654
+import:        from AS12676 accept   AS-NCORE
+import:        from AS12678 accept   AS-BADOO
+import:        from AS12695 accept   AS-DINET
+import:        from AS12713 accept   AS-OTEGLOBE
+import:        from AS12714 accept   AS-TI
+import:        from AS12731 accept   AS-IPHH
+import:        from AS12759 accept   AS-SOCO
+import:        from AS12793 accept   AS-ETELGROUP
+import:        from AS12822 accept   AS-LYNET
+import:        from AS12843 accept   AS-TXX
+import:        from AS12859 accept   AS-BIT
+import:        from AS12874 accept   AS-FASTWEB
+import:        from AS12895 accept   AS12895
+import:        from AS12897 accept   AS-HAEGMEDIANET
+import:        from AS12907 accept   AS-CUNET
+import:        from AS12971 accept   AS-BIOSTOVIX
+import:        from AS12989 accept   AS12989
+import:        from AS13002 accept   AS-LINKEY
+import:        from AS13030 accept   AS-INIT7
+import:        from AS13054 accept   AS-FREINET
+import:        from AS13064 accept   AS-CNET
+import:        from AS13101 accept   AS-TNG
+import:        from AS13122 accept   AS-MANX
+import:        from AS13132 accept   AS-CYBERWAYS
+import:        from AS13147 accept   AS-POWER
+import:        from AS13157 accept   AS-GOPAS
+import:        from AS13184 accept   AS-HANSENET
+import:        from AS13238 accept   AS-YANDEX
+import:        from AS13249 accept   AS-ITS-DECIX
+import:        from AS13250 accept   AS-BACKBONE
+import:        from AS13265 accept   AS-TARCON
+import:        from AS13285 accept   AS-OPAL
+import:        from AS13301 accept   AS-ETTEL
+import:        from AS13335 accept   AS13335
+import:        from AS14413 accept   AS-LINKEDIN
+import:        from AS15133 accept   AS-EDGECAST
+import:        from AS15169 accept   AS-GOOGLE
+import:        from AS15388 accept   AS-OMC
+import:        from AS15412 accept   AS-FLAGP
+import:        from AS15427 accept   AS15427
+import:        from AS15444 accept   AS-NETSERVICES
+import:        from AS15469 accept   AS-WARINET
+import:        from AS15498 accept   AS-CPSON2VIX
+import:        from AS15517 accept   AS-NETSTREAM-CH
+import:        from AS15557 accept   AS-LDCOMNET
+import:        from AS15576 accept   AS-NTS
+import:        from AS15594 accept   AS-NQ
+import:        from AS15598 accept   AS-IPX
+import:        from AS15600 accept   AS-FINECOM
+import:        from AS15606 accept   AS-NASK
+import:        from AS15623 accept   AS-CYBERLINK
+import:        from AS15702 accept   AS-ONSTAGE
+import:        from AS15743 accept   AS-IPH
+import:        from AS15763 accept   AS-DOKOM
+import:        from AS15830 accept   AS-TELECITYGROUP
+import:        from AS15844 accept   AS-TGCTOKLEYREX
+import:        from AS15857 accept   AS-DIALOG
+import:        from AS15925 accept   AS-MEGA
+import:        from AS15933 accept   AS-ITH
+import:        from AS15960 accept   AS-GLOBALACCESS
+import:        from AS16097 accept   AS-HLKOMM
+import:        from AS16099 accept   AS16099
+import:        from AS16150 accept   AS16150:AS-CUSTOMERS
+import:        from AS16195 accept   AS-IXBONE
+import:        from AS16265 accept   AS-LEASEWEB
+import:        from AS16276 accept   AS-OVH
+import:        from AS16314 accept   AS-KAV
+import:        from AS16316 accept   AS-TMT
+import:        from AS19151 accept   AS19151
+import:        from AS20485 accept   AS-TTK
+import:        from AS20495 accept   AS-WDSET
+import:        from AS20500 accept   AS-GRIFFIN
+import:        from AS20504 accept   AS-RTL
+import:        from AS20562 accept   AS-OPENPEERING-EU
+import:        from AS20633 accept   AS20633
+import:        from AS20634 accept   AS-TELECOM
+import:        from AS20640 accept   AS-TITANNET
+import:        from AS20676 accept   AS-QSC
+import:        from AS20686 accept   AS-BISPING
+import:        from AS20694 accept   AS-NMMN
+import:        from AS20704 accept   AS-FUNKNETZ
+import:        from AS20764 accept   AS-RASCOM
+import:        from AS20773 accept   AS-HOSTEUROPE
+import:        from AS20804 accept   AS-TELENERGO-INT
+import:        from AS20811 accept   AS-BCOMIT
+import:        from AS20886 accept   AS-BLATZ
+import:        from AS20893 accept   AS20893
+import:        from AS20932 accept   AS-IP-MAN
+import:        from AS20940 accept   AS-AKAMAI
+import:        from AS20984 accept   AS-PANALPINA
+import:        from AS21011 accept   AS-UAIX
+import:        from AS21013 accept   AS-ITANDTEL
+import:        from AS21021 accept   AS-MULTIMEDIA
+import:        from AS21083 accept   AS21083
+import:        from AS21213 accept   AS-CYBERSERVICE
+import:        from AS21219 accept   AS-FF-TRANSIT
+import:        from AS21232 accept   AS-GGAMAUR
+import:        from AS21263 accept   AS-TELEDATA
+import:        from AS21336 accept   AS-IR
+import:        from AS21345 accept   AS-MESSAGELABSEUROPE
+import:        from AS21360 accept   AS-EMPIRION
+import:        from AS21385 accept   ANY
+import:        from AS21409 accept   AS-IKOULA
+import:        from AS21414 accept   AS-RCNET
+import:        from AS21473 accept   AS-MANET
+import:        from AS21476 accept   AS-ACDC
+import:        from AS22691 accept   AS-ISPNET
+import:        from AS22822 accept   AS22822
+import:        from AS23148 accept   AS-TWW
+import:        from AS23393 accept   AS-ISPRIME
+import:        from AS23473 accept   AS23473
+import:        from AS24640 accept   AS-BSWS
+import:        from AS24679 accept   AS-SSERV
+import:        from AS24709 accept   AS-MNI
+import:        from AS24724 accept   AS-FOREIGN
+import:        from AS24739 accept   AS-SEVEREN-TELECOM
+import:        from AS24905 accept   AS-TERRALINK
+import:        from AS24940 accept   AS-HETZNER
+import:        from AS24951 accept   AS-EVERYWARE-NET
+import:        from AS24961 accept   AS-MYLOC
+import:        from AS24963 accept   AS-YACAST
+import:        from AS24989 accept   AS-EQUINIX-DE
+import:        from AS24992 accept   AS-DIC
+import:        from AS25011 accept   AS25011
+import:        from AS25074 accept   AS-INETBONE
+import:        from AS25180 accept   AS25180
+import:        from AS25192 accept   AS25192
+import:        from AS25220 accept   AS-GLOBALNOC
+import:        from AS25255 accept   AS25255
+import:        from AS25260 accept   AS-QUALITYHOSTING
+import:        from AS25286 accept   AS25286
+import:        from AS25291 accept   AS-SYSELEVEN
+import:        from AS25308 accept   AS-CITYLAN
+import:        from AS25394 accept   AS-MK-NETZDIENSTE
+import:        from AS25447 accept   AS-JM-DATA
+import:        from AS25467 accept   AS-AKTON
+import:        from AS25478 accept   AS-IHOME
+import:        from AS25504 accept   AS-CRONON
+import:        from AS25525 accept   AS-REASONNET
+import:        from AS25560 accept   AS-RHTEC
+import:        from AS25563 accept   AS-WEBLAND
+import:        from AS25575 accept   AS-DOMAINTECHNIK
+import:        from AS28676 accept   AS-WITCOM
+import:        from AS28717 accept   AS-ZENSYSTEMS
+import:        from AS28760 accept   AS-INFOTECH
+import:        from AS28809 accept   AS-NAUKANET
+import:        from AS28857 accept   AS28857
+import:        from AS28859 accept   AS-ZUGERNET
+import:        from AS28889 accept   AS-LINZNET
+import:        from AS28917 accept   AS-FIORD
+import:        from AS29014 accept   AS-SCALEUP
+import:        from AS29056 accept   AS-GSTWAT
+import:        from AS29066 accept   AS-VELIANET
+import:        from AS29076 accept   AS-CITYTELECOM
+import:        from AS29097 accept   AS-HOSTPOINT
+import:        from AS29140 accept   AS-HOSTSERVER
+import:        from AS29208 accept   AS-DIALTELECOM
+import:        from AS29222 accept   AS-INFOMANIAK
+import:        from AS29259 accept   AS-IABG
+import:        from AS29287 accept   AS29287
+import:        from AS29298 accept   AS-SUSE
+import:        from AS29314 accept   AS29314
+import:        from AS29405 accept   AS-VNET
+import:        from AS29471 accept   AS-WEBJANSSEN
+import:        from AS29488 accept   AS-CCN
+import:        from AS29545 accept   AS-IPLACE
+import:        from AS29562 accept   AS-KABELBW
+import:        from AS29610 accept   AS-BREISNET
+import:        from AS29632 accept   AS-NETASSIST
+import:        from AS29655 accept   AS-TRENKA
+import:        from AS29668 accept   AS-QUBE
+import:        from AS29686 accept   AS-PROBENETWORKS
+import:        from AS29691 accept   AS-NINE
+import:        from AS29838 accept   AS-AMC
+import:        from AS30081 accept   AS-CACHENETWORKS
+import:        from AS30094 accept   AS30094
+import:        from AS30128 accept   AS30128
+import:        from AS30751 accept   AS-EUROTEL
+import:        from AS30890 accept   AS-EVOLVA
+import:        from AS31025 accept   AS-IAG
+import:        from AS31027 accept   AS-NIANET
+import:        from AS31029 accept   AS-MREAL
+import:        from AS31042 accept   AS-SBB
+import:        from AS31100 accept   AS-SYNNET
+import:        from AS31103 accept   AS-KEYWEB
+import:        from AS31133 accept   AS-MF-MGSM
+import:        from AS31142 accept   AS-KLEYREX-RS1
+import:        from AS31242 accept   AS-TKPSA-UP
+import:        from AS31252 accept   AS-STARNET
+import:        from AS31333 accept   AS-VOLLMAR-TRANSIT
+import:        from AS31334 accept   AS-KDG
+import:        from AS31400 accept   AS-ACCELERATED
+import:        from AS31500 accept   AS-GLOBAL-NET
+import:        from AS31510 accept   AS-IKB
+import:        from AS31529 accept   AS31529
+import:        from AS31530 accept   AS-SERVERCREW
+import:        from AS31543 accept   AS31543
+import:        from AS31572 accept   AS31572
+import:        from AS31638 accept   AS31638
+import:        from AS31662 accept   AS-KNSURSELVA
+import:        from AS31736 accept   AS-SENSELAN
+import:        from AS32590 accept   AS-VALVE
+import:        from AS32934 accept   AS-FACEBOOK
+import:        from AS33082 accept   AS33082
+import:        from AS33843 accept   AS-INTERSCHOLZ
+import:        from AS33845 accept   AS-SWISSGOV
+import:        from AS33873 accept   AS-ARVATO
+import:        from AS33890 accept   AS-PXPAT
+import:        from AS33891 accept   ANY
+import:        from AS33958 accept   AS33958
+import:        from AS33965 accept   AS-LITECOM
+import:        from AS33988 accept   AS-TEAMIX
+import:        from AS34011 accept   AS34011
+import:        from AS34154 accept   AS-CONFIGO
+import:        from AS34224 accept   AS-NETERRA-INT
+import:        from AS34288 accept   AS34288
+import:        from AS34305 accept   AS-EUROACCESS
+import:        from AS34309 accept   AS-LINK11
+import:        from AS34347 accept   AS-CNHAT
+import:        from AS34456 accept   AS-RCPEERS
+import:        from AS34549 accept   AS-LAXIN
+import:        from AS34554 accept   AS-ANTANET
+import:        from AS34568 accept   AS-CONNECTINGBYTES
+import:        from AS34594 accept   AS-OPTIMA
+import:        from AS34624 accept   AS34624
+import:        from AS34655 accept   AS-JASMIN
+import:        from AS34695 accept   AS-TRANSIT
+import:        from AS34727 accept   AS-ICA
+import:        from AS34764 accept   AS-FISDE
+import:        from AS34781 accept   AS-SIMA-LAUSANNE
+import:        from AS34953 accept   AS-RELAIX
+import:        from AS34960 accept   AS-CH-NETCETERA
+import:        from AS35028 accept   AS-MULTIPLAY
+import:        from AS35054 accept   AS-EQUINIX-EU
+import:        from AS35244 accept   AS-KMS
+import:        from AS35254 accept   AS-BALTCOMIP
+import:        from AS35297 accept   AS-DL-WORLD
+import:        from AS35320 accept   AS-ETT
+import:        from AS35339 accept   AS-ATNOC
+import:        from AS35366 accept   AS-ISPPRO
+import:        from AS35369 accept   AS-LAGIS
+import:        from AS35432 accept   AS-WAVESPEED
+import:        from AS35733 accept   AS35733
+import:        from AS36408 accept   AS36408
+import:        from AS36622 accept   AS-GTLD
+import:        from AS38016 accept   AS38016
+import:        from AS38955 accept   AS-WORLD4YOU
+import:        from AS39040 accept   AS-BASIS06
+import:        from AS39257 accept   AS-INC
+import:        from AS39478 accept   AS39478
+import:        from AS39605 accept   AS-IGUANESTUDIO
+import:        from AS39702 accept   AS-SIT
+import:        from AS39737 accept   AS-NETVISIONTEL
+import:        from AS39792 accept   AS-ANDERS
+import:        from AS39912 accept   AS-I3B
+import:        from AS40191 accept   AS40191:AS-CUSTOMERS
+import:        from AS40788 accept   AS-START-CA
+import:        from AS41095 accept   AS-IPTP
+import:        from AS41289 accept   AS-DWD
+import:        from AS41391 accept   AS-CLUSTERS
+import:        from AS41412 accept   AS-MIVITEC
+import:        from AS41491 accept   AS41491
+import:        from AS41552 accept   AS-ECG
+import:        from AS41666 accept   AS-TRANSLUMINA
+import:        from AS41690 accept   AS41690
+import:        from AS41692 accept   AS-OPENCARRIER
+import:        from AS41853 accept   AS-NTCOM
+import:        from AS41913 accept   AS-COMPUTERLINE
+import:        from AS42366 accept   AS-TERRATRANSIT
+import:        from AS42385 accept   AS-NS9_RIPN_NET
+import:        from AS42416 accept   AS42416
+import:        from AS42456 accept   AS-CHMURTZ
+import:        from AS42459 accept   AS-FOBUL
+import:        from AS42473 accept   AS-ANEXIA
+import:        from AS42596 accept   AS-ANTILO
+import:        from AS42605 accept   AS-FRA-VRNETZE
+import:        from AS42610 accept   AS-NCNET
+import:        from AS42652 accept   AS-DELUNET
+import:        from AS42708 accept   AS-PORTLANE
+import:        from AS42760 accept   AS-ABACUS
+import:        from AS42861 accept   AS-PRIME-LINE
+import:        from AS43284 accept   AS-IWB
+import:        from AS43289 accept   AS-TRABIA
+import:        from AS43531 accept   AS-IXREACH
+import:        from AS43561 accept   AS-NET1OUT
+import:        from AS43727 accept   AS-SETKT
+import:        from AS43890 accept   AS-NETSERV-RO
+import:        from AS44042 accept   AS44042
+import:        from AS44066 accept   AS-FIRSTCOLO
+import:        from AS44146 accept   AS-STARHOSTING
+import:        from AS44160 accept   AS44160
+import:        from AS44444 accept   AS-WHS-EU
+import:        from AS44654 accept   AS-MNS
+import:        from AS44706 accept   AS-NDNET
+import:        from AS44765 accept   AS-MAKENEWMEDIA
+import:        from AS44788 accept   AS-CRITEO-EU
+import:        from AS44919 accept   AS-ATRILA
+import:        from AS44990 accept   AS44990
+import:        from AS45012 accept   AS-MEDIAWEBLINE
+import:        from AS45037 accept   AS-HISPAWEB
+import:        from AS46489 accept   AS-JUSTINTV
+import:        from AS46786 accept   AS-IPTRANSIT
+import:        from AS47195 accept   AS-GAMEFORGE
+import:        from AS47215 accept   AS-FILOO
+import:        from AS47302 accept   AS-CYON
+import:        from AS47447 accept   AS-23MEDIA
+import:        from AS47692 accept   AS-NESSUS
+import:        from AS47841 accept   AS47841
+import:        from AS47869 accept   AS-NETROUTING
+import:        from AS48200 accept   AS-OPTEAMAX
+import:        from AS48344 accept   AS-68a
+import:        from AS48362 accept   AS-TKSWF
+import:        from AS48484 accept   AS48484
+import:        from AS48885 accept   AS-NEOCARRIER
+import:        from AS48918 accept   AS-GLOBALWAYS
+import:        from AS48943 accept   AS-KAPPERNET
+import:        from AS49281 accept   AS-M100
+import:        from AS49489 accept   AS-CLEARMEDIA
+import:        from AS49544 accept   AS-INTERACTIVE3D
+import:        from AS49854 accept   AS-REHLAN
+import:        from AS49867 accept   AS-XNETCONSULTING
+import:        from AS49983 accept   AS-MIRONET
+import:        from AS50384 accept   AS-W-IX
+import:        from AS50606 accept   AS-PL-FUZ
+import:        from AS50629 accept   AS-LWL
+import:        from AS50837 accept   AS-CLOUDSIGMA
+import:        from AS50997 accept   AS-NETSPRING
+import:        from AS51483 accept   AS51483
+import:        from AS51852 accept   AS51852
+import:        from AS55195 accept   AS55195
+import:        from AS56833 accept   AS-MIEX
+import:        from AS58329 accept   AS58329
+import:        from AS59752 accept   AS-JPRU
+import:        from AS60517 accept   AS-CABLEVISION
+import:        from AS60955 accept   AS-WAVECON
+import:        from AS62567 accept   AS-62567
+import:        from AS196621 accept   AS196621
+import:        from AS197061 accept   AS197061
+import:        from AS197413 accept   AS-MOETV
+import:        from AS197439 accept   AS197439
+import:        from AS197999 accept   AS-EMIT
+import:        from AS201229 accept   AS201229
+import:        from AS393406 accept   AS-393406
+import:        from AS394977 accept   AS394977
+export:        to   AS42 announce AS-TNIB
+export:        to   AS286 announce AS-TNIB
+export:        to   AS553 announce AS-TNIB
+export:        to   AS680 announce AS-TNIB
+export:        to   AS1120 announce AS-TNIB
+export:        to   AS1267 announce AS-TNIB
+export:        to   AS1299 announce AS-TNIB
+export:        to   AS1764 announce AS-TNIB
+export:        to   AS1836 announce AS-TNIB
+export:        to   AS1853 announce AS-TNIB
+export:        to   AS1901 announce AS-TNIB
+export:        to   AS2119 announce AS-TNIB
+export:        to   AS2484 announce AS-TNIB
+export:        to   AS2818 announce AS-TNIB
+export:        to   AS2857 announce AS-TNIB
+export:        to   AS2906 announce AS-TNIB
+export:        to   AS3209 announce AS-TNIB
+export:        to   AS3212 announce AS-TNIB
+export:        to   AS3223 announce AS-TNIB
+export:        to   AS3248 announce AS-TNIB
+export:        to   AS3303 announce AS-TNIB
+export:        to   AS3320 announce AS-TNIB
+export:        to   AS3327 announce AS-TNIB
+export:        to   AS3330 announce AS-TNIB
+export:        to   AS3356 announce AS-TNIB
+export:        to   AS3491 announce AS-TNIB
+export:        to   AS3856 announce AS-TNIB
+export:        to   AS4589 announce AS-TNIB
+export:        to   AS4766 announce AS-TNIB
+export:        to   AS4788 announce AS-TNIB
+export:        to   AS5089 announce AS-TNIB
+export:        to   AS5385 announce AS-TNIB
+export:        to   AS5403 announce AS-TNIB
+export:        to   AS5409 announce AS-TNIB
+export:        to   AS5410 announce AS-TNIB
+export:        to   AS5427 announce AS-TNIB
+export:        to   AS5430 announce AS-TNIB
+export:        to   AS5464 announce AS-TNIB
+export:        to   AS5466 announce AS-TNIB
+export:        to   AS5483 announce AS-TNIB
+export:        to   AS5539 announce ANY
+export:        to   AS5541 announce AS-TNIB
+export:        to   AS5577 announce AS-TNIB
+export:        to   AS5580 announce AS-TNIB
+export:        to   AS5588 announce AS-TNIB
+export:        to   AS5605 announce AS-TNIB
+export:        to   AS6083 announce AS-TNIB
+export:        to   AS6461 announce AS-TNIB
+export:        to   AS6659 announce AS-TNIB
+export:        to   AS6661 announce AS-TNIB
+export:        to   AS6663 announce AS-TNIB
+export:        to   AS6667 announce AS-TNIB
+export:        to   AS6695 announce AS-TNIB
+export:        to   AS6720 announce AS-TNIB
+export:        to   AS6724 announce AS-TNIB
+export:        to   AS6730 announce AS-TNIB
+export:        to   AS6735 announce AS-TNIB
+export:        to   AS6760 announce AS-TNIB
+export:        to   AS6772 announce AS-TNIB
+export:        to   AS6774 announce AS-TNIB
+export:        to   AS6798 announce AS-TNIB
+export:        to   AS6805 announce AS-TNIB
+export:        to   AS6830 announce AS-TNIB
+export:        to   AS6854 announce AS-TNIB
+export:        to   AS6900 announce AS-TNIB
+export:        to   AS6939 announce AS-TNIB
+export:        to   AS7342 announce AS-TNIB
+export:        to   AS8068 announce AS-TNIB
+export:        to   AS8075 announce AS-TNIB
+export:        to   AS8190 announce AS-TNIB
+export:        to   AS8218 announce AS-TNIB
+export:        to   AS8222 announce AS-TNIB
+export:        to   AS8245 announce AS-TNIB
+export:        to   AS8262 announce AS-TNIB
+export:        to   AS8271 announce AS-TNIB
+export:        to   AS8319 announce ANY
+export:        to   AS8339 announce AS-TNIB
+export:        to   AS8342 announce AS-TNIB
+export:        to   AS8359 announce AS-TNIB
+export:        to   AS8365 announce AS-TNIB
+export:        to   AS8387 announce AS-TNIB
+export:        to   AS8391 announce AS-TNIB
+export:        to   AS8412 announce AS-TNIB
+export:        to   AS8422 announce AS-TNIB
+export:        to   AS8426 announce AS-TNIB
+export:        to   AS8442 announce AS-TNIB
+export:        to   AS8445 announce AS-TNIB
+export:        to   AS8447 announce AS-TNIB
+export:        to   AS8468 announce AS-TNIB
+export:        to   AS8469 announce AS-TNIB
+export:        to   AS8473 announce AS-TNIB
+export:        to   AS8492 announce AS-TNIB
+export:        to   AS8495 announce AS-TNIB
+export:        to   AS8513 announce AS-TNIB
+export:        to   AS8544 announce AS-TNIB
+export:        to   AS8551 announce AS-TNIB
+export:        to   AS8559 announce AS-TNIB
+export:        to   AS8560 announce AS-TNIB
+export:        to   AS8582 announce AS-TNIB
+export:        to   AS8586 announce AS-TNIB
+export:        to   AS8591 announce AS-TNIB
+export:        to   AS8596 announce AS-TNIB
+export:        to   AS8632 announce AS-TNIB
+export:        to   AS8648 announce AS-TNIB
+export:        to   AS8657 announce AS-TNIB
+export:        to   AS8674 announce AS-TNIB
+export:        to   AS8708 announce AS-TNIB
+export:        to   AS8717 announce AS-TNIB
+export:        to   AS8741 announce AS-TNIB
+export:        to   AS8758 announce AS-TNIB
+export:        to   AS8763 announce AS-TNIB
+export:        to   AS8764 announce AS-TNIB
+export:        to   AS8767 announce AS-TNIB
+export:        to   AS8781 announce AS-TNIB
+export:        to   AS8804 announce AS-TNIB
+export:        to   AS8821 announce AS-TNIB
+export:        to   AS8823 announce ANY
+export:        to   AS8833 announce AS-TNIB
+export:        to   AS8859 announce AS-TNIB
+export:        to   AS8866 announce AS-TNIB
+export:        to   AS8879 announce AS-TNIB
+export:        to   AS8881 announce AS-TNIB
+export:        to   AS8928 announce AS-TNIB
+export:        to   AS8966 announce AS-TNIB
+export:        to   AS8972 announce AS-TNIB
+export:        to   AS9002 announce AS-TNIB
+export:        to   AS9009 announce AS-TNIB
+export:        to   AS9031 announce AS-TNIB
+export:        to   AS9044 announce AS-TNIB
+export:        to   AS9050 announce AS-TNIB
+export:        to   AS9063 announce AS-TNIB
+export:        to   AS9066 announce AS-TNIB
+export:        to   AS9070 announce AS-TNIB
+export:        to   AS9116 announce AS-TNIB
+export:        to   AS9119 announce AS-TNIB
+export:        to   AS9121 announce AS-TNIB
+export:        to   AS9145 announce AS-TNIB
+export:        to   AS9153 announce AS-TNIB
+export:        to   AS9189 announce AS-TNIB
+export:        to   AS9211 announce AS-TNIB
+export:        to   AS9505 announce AS-TNIB
+export:        to   AS10282 announce AS-TNIB
+export:        to   AS10310 announce AS-TNIB
+export:        to   AS11403 announce AS-TNIB
+export:        to   AS12041 announce AS-TNIB
+export:        to   AS12076 announce AS-TNIB
+export:        to   AS12301 announce AS-TNIB
+export:        to   AS12306 announce AS-TNIB
+export:        to   AS12312 announce AS-TNIB
+export:        to   AS12322 announce AS-TNIB
+export:        to   AS12329 announce AS-TNIB
+export:        to   AS12337 announce AS-TNIB
+export:        to   AS12347 announce AS-TNIB
+export:        to   AS12348 announce AS-TNIB
+export:        to   AS12350 announce AS-TNIB
+export:        to   AS12355 announce AS-TNIB
+export:        to   AS12387 announce AS-TNIB
+export:        to   AS12389 announce AS-TNIB
+export:        to   AS12399 announce AS-TNIB
+export:        to   AS12401 announce AS-TNIB
+export:        to   AS12452 announce AS-TNIB
+export:        to   AS12480 announce AS-TNIB
+export:        to   AS12558 announce AS-TNIB
+export:        to   AS12577 announce AS-TNIB
+export:        to   AS12605 announce AS-TNIB
+export:        to   AS12611 announce AS-TNIB
+export:        to   AS12620 announce AS-TNIB
+export:        to   AS12635 announce AS-TNIB
+export:        to   AS12638 announce AS-TNIB
+export:        to   AS12654 announce AS-TNIB
+export:        to   AS12676 announce AS-TNIB
+export:        to   AS12678 announce AS-TNIB
+export:        to   AS12695 announce AS-TNIB
+export:        to   AS12713 announce AS-TNIB
+export:        to   AS12714 announce AS-TNIB
+export:        to   AS12731 announce AS-TNIB
+export:        to   AS12759 announce AS-TNIB
+export:        to   AS12793 announce AS-TNIB
+export:        to   AS12822 announce AS-TNIB
+export:        to   AS12843 announce AS-TNIB
+export:        to   AS12859 announce AS-TNIB
+export:        to   AS12874 announce AS-TNIB
+export:        to   AS12895 announce AS-TNIB
+export:        to   AS12897 announce AS-TNIB
+export:        to   AS12907 announce ANY
+export:        to   AS12971 announce AS-TNIB
+export:        to   AS12989 announce AS-TNIB
+export:        to   AS13002 announce AS-TNIB
+export:        to   AS13030 announce AS-TNIB
+export:        to   AS13054 announce AS-TNIB
+export:        to   AS13064 announce AS-TNIB
+export:        to   AS13101 announce AS-TNIB
+export:        to   AS13122 announce AS-TNIB
+export:        to   AS13132 announce AS-TNIB
+export:        to   AS13147 announce AS-TNIB
+export:        to   AS13157 announce AS-TNIB
+export:        to   AS13184 announce AS-TNIB
+export:        to   AS13238 announce AS-TNIB
+export:        to   AS13249 announce AS-TNIB
+export:        to   AS13250 announce AS-TNIB
+export:        to   AS13265 announce AS-TNIB
+export:        to   AS13285 announce AS-TNIB
+export:        to   AS13301 announce AS-TNIB
+export:        to   AS13335 announce AS-TNIB
+export:        to   AS14413 announce AS-TNIB
+export:        to   AS15133 announce AS-TNIB
+export:        to   AS15169 announce AS-TNIB
+export:        to   AS15388 announce AS-TNIB
+export:        to   AS15412 announce AS-TNIB
+export:        to   AS15427 announce AS-TNIB
+export:        to   AS15444 announce AS-TNIB
+export:        to   AS15469 announce AS-TNIB
+export:        to   AS15498 announce AS-TNIB
+export:        to   AS15517 announce AS-TNIB
+export:        to   AS15557 announce AS-TNIB
+export:        to   AS15576 announce AS-TNIB
+export:        to   AS15594 announce AS-TNIB
+export:        to   AS15598 announce AS-TNIB
+export:        to   AS15600 announce AS-TNIB
+export:        to   AS15606 announce AS-TNIB
+export:        to   AS15623 announce AS-TNIB
+export:        to   AS15702 announce AS-TNIB
+export:        to   AS15743 announce AS-TNIB
+export:        to   AS15763 announce AS-TNIB
+export:        to   AS15830 announce AS-TNIB
+export:        to   AS15844 announce AS-TNIB
+export:        to   AS15857 announce AS-TNIB
+export:        to   AS15925 announce AS-TNIB
+export:        to   AS15933 announce ANY
+export:        to   AS15960 announce AS-TNIB
+export:        to   AS16097 announce ANY
+export:        to   AS16099 announce AS-TNIB
+export:        to   AS16150 announce AS-TNIB
+export:        to   AS16195 announce AS-TNIB
+export:        to   AS16265 announce AS-TNIB
+export:        to   AS16276 announce AS-TNIB
+export:        to   AS16314 announce AS-TNIB
+export:        to   AS16316 announce AS-TNIB
+export:        to   AS19151 announce AS-TNIB
+export:        to   AS20485 announce AS-TNIB
+export:        to   AS20495 announce AS-TNIB
+export:        to   AS20500 announce AS-TNIB
+export:        to   AS20504 announce AS-TNIB
+export:        to   AS20562 announce AS-TNIB
+export:        to   AS20633 announce AS-TNIB
+export:        to   AS20634 announce AS-TNIB
+export:        to   AS20640 announce AS-TNIB
+export:        to   AS20676 announce AS-TNIB
+export:        to   AS20686 announce AS-TNIB
+export:        to   AS20694 announce AS-TNIB
+export:        to   AS20704 announce AS-TNIB
+export:        to   AS20764 announce AS-TNIB
+export:        to   AS20773 announce AS-TNIB
+export:        to   AS20804 announce AS-TNIB
+export:        to   AS20811 announce AS-TNIB
+export:        to   AS20886 announce AS-TNIB
+export:        to   AS20893 announce AS-TNIB
+export:        to   AS20932 announce AS-TNIB
+export:        to   AS20940 announce AS-TNIB
+export:        to   AS20984 announce AS-TNIB
+export:        to   AS21011 announce AS-TNIB
+export:        to   AS21013 announce AS-TNIB
+export:        to   AS21021 announce AS-TNIB
+export:        to   AS21083 announce AS-TNIB
+export:        to   AS21213 announce AS-TNIB
+export:        to   AS21219 announce AS-TNIB
+export:        to   AS21232 announce AS-TNIB
+export:        to   AS21263 announce AS-TNIB
+export:        to   AS21336 announce AS-TNIB
+export:        to   AS21345 announce AS-TNIB
+export:        to   AS21360 announce AS-TNIB
+export:        to   AS21385 announce ANY
+export:        to   AS21409 announce AS-TNIB
+export:        to   AS21414 announce AS-TNIB
+export:        to   AS21473 announce AS-TNIB
+export:        to   AS21476 announce ANY
+export:        to   AS22691 announce AS-TNIB
+export:        to   AS22822 announce AS-TNIB
+export:        to   AS23148 announce AS-TNIB
+export:        to   AS23393 announce AS-TNIB
+export:        to   AS23473 announce AS-TNIB
+export:        to   AS24640 announce AS-TNIB
+export:        to   AS24679 announce AS-TNIB
+export:        to   AS24709 announce AS-TNIB
+export:        to   AS24724 announce AS-TNIB
+export:        to   AS24739 announce AS-TNIB
+export:        to   AS24905 announce AS-TNIB
+export:        to   AS24940 announce AS-TNIB
+export:        to   AS24951 announce AS-TNIB
+export:        to   AS24961 announce ANY
+export:        to   AS24963 announce AS-TNIB
+export:        to   AS24989 announce AS-TNIB
+export:        to   AS24992 announce AS-TNIB
+export:        to   AS25011 announce AS-TNIB
+export:        to   AS25074 announce AS-TNIB
+export:        to   AS25180 announce AS-TNIB
+export:        to   AS25192 announce AS-TNIB
+export:        to   AS25220 announce AS-TNIB
+export:        to   AS25255 announce AS-TNIB
+export:        to   AS25260 announce AS-TNIB
+export:        to   AS25286 announce AS-TNIB
+export:        to   AS25291 announce AS-TNIB
+export:        to   AS25308 announce AS-TNIB
+export:        to   AS25394 announce AS-TNIB
+export:        to   AS25447 announce AS-TNIB
+export:        to   AS25467 announce AS-TNIB
+export:        to   AS25478 announce AS-TNIB
+export:        to   AS25504 announce ANY
+export:        to   AS25525 announce AS-TNIB
+export:        to   AS25560 announce AS-TNIB
+export:        to   AS25563 announce AS-TNIB
+export:        to   AS25575 announce AS-TNIB
+export:        to   AS28676 announce AS-TNIB
+export:        to   AS28717 announce AS-TNIB
+export:        to   AS28760 announce AS-TNIB
+export:        to   AS28809 announce AS-TNIB
+export:        to   AS28857 announce AS-TNIB
+export:        to   AS28859 announce AS-TNIB
+export:        to   AS28889 announce AS-TNIB
+export:        to   AS28917 announce AS-TNIB
+export:        to   AS29014 announce AS-TNIB
+export:        to   AS29056 announce AS-TNIB
+export:        to   AS29066 announce AS-TNIB
+export:        to   AS29076 announce AS-TNIB
+export:        to   AS29097 announce AS-TNIB
+export:        to   AS29140 announce AS-TNIB
+export:        to   AS29208 announce AS-TNIB
+export:        to   AS29222 announce AS-TNIB
+export:        to   AS29259 announce AS-TNIB
+export:        to   AS29287 announce AS-TNIB
+export:        to   AS29298 announce AS-TNIB
+export:        to   AS29314 announce AS-TNIB
+export:        to   AS29405 announce AS-TNIB
+export:        to   AS29471 announce AS-TNIB
+export:        to   AS29488 announce AS-TNIB
+export:        to   AS29545 announce AS-TNIB
+export:        to   AS29562 announce AS-TNIB
+export:        to   AS29610 announce AS-TNIB
+export:        to   AS29632 announce AS-TNIB
+export:        to   AS29655 announce AS-TNIB
+export:        to   AS29668 announce AS-TNIB
+export:        to   AS29686 announce AS-TNIB
+export:        to   AS29691 announce AS-TNIB
+export:        to   AS29838 announce AS-TNIB
+export:        to   AS30081 announce AS-TNIB
+export:        to   AS30094 announce AS-TNIB
+export:        to   AS30128 announce AS-TNIB
+export:        to   AS30751 announce AS-TNIB
+export:        to   AS30890 announce AS-TNIB
+export:        to   AS31025 announce AS-TNIB
+export:        to   AS31027 announce AS-TNIB
+export:        to   AS31029 announce AS-TNIB
+export:        to   AS31042 announce AS-TNIB
+export:        to   AS31100 announce AS-TNIB
+export:        to   AS31103 announce AS-TNIB
+export:        to   AS31133 announce AS-TNIB
+export:        to   AS31142 announce AS-TNIB
+export:        to   AS31242 announce AS-TNIB
+export:        to   AS31252 announce AS-TNIB
+export:        to   AS31333 announce AS-TNIB
+export:        to   AS31334 announce AS-TNIB
+export:        to   AS31400 announce ANY
+export:        to   AS31500 announce AS-TNIB
+export:        to   AS31510 announce AS-TNIB
+export:        to   AS31529 announce AS-TNIB
+export:        to   AS31530 announce AS-TNIB
+export:        to   AS31543 announce AS-TNIB
+export:        to   AS31572 announce AS-TNIB
+export:        to   AS31638 announce AS-TNIB
+export:        to   AS31662 announce AS-TNIB
+export:        to   AS31736 announce AS-TNIB
+export:        to   AS32590 announce AS-TNIB
+export:        to   AS32934 announce AS-TNIB
+export:        to   AS33082 announce AS-TNIB
+export:        to   AS33843 announce AS-TNIB
+export:        to   AS33845 announce AS-TNIB
+export:        to   AS33873 announce AS-TNIB
+export:        to   AS33890 announce AS-TNIB
+export:        to   AS33891 announce AS-TNIB
+export:        to   AS33958 announce AS-TNIB
+export:        to   AS33965 announce AS-TNIB
+export:        to   AS33988 announce AS-TNIB
+export:        to   AS34011 announce AS-TNIB
+export:        to   AS34154 announce AS-TNIB
+export:        to   AS34224 announce AS-TNIB
+export:        to   AS34288 announce AS-TNIB
+export:        to   AS34305 announce AS-TNIB
+export:        to   AS34309 announce AS-TNIB
+export:        to   AS34347 announce AS-TNIB
+export:        to   AS34456 announce AS-TNIB
+export:        to   AS34549 announce AS-TNIB
+export:        to   AS34554 announce AS-TNIB
+export:        to   AS34568 announce AS-TNIB
+export:        to   AS34594 announce AS-TNIB
+export:        to   AS34624 announce AS-TNIB
+export:        to   AS34655 announce AS-TNIB
+export:        to   AS34695 announce AS-TNIB
+export:        to   AS34727 announce AS-TNIB
+export:        to   AS34764 announce AS-TNIB
+export:        to   AS34781 announce AS-TNIB
+export:        to   AS34953 announce AS-TNIB
+export:        to   AS34960 announce AS-TNIB
+export:        to   AS35028 announce AS-TNIB
+export:        to   AS35054 announce AS-TNIB
+export:        to   AS35244 announce AS-TNIB
+export:        to   AS35254 announce AS-TNIB
+export:        to   AS35297 announce AS-TNIB
+export:        to   AS35320 announce AS-TNIB
+export:        to   AS35339 announce AS-TNIB
+export:        to   AS35366 announce AS-TNIB
+export:        to   AS35369 announce AS-TNIB
+export:        to   AS35432 announce AS-TNIB
+export:        to   AS35733 announce AS-TNIB
+export:        to   AS36408 announce AS-TNIB
+export:        to   AS36622 announce AS-TNIB
+export:        to   AS38016 announce AS-TNIB
+export:        to   AS38955 announce AS-TNIB
+export:        to   AS39040 announce AS-TNIB
+export:        to   AS39257 announce AS-TNIB
+export:        to   AS39478 announce AS-TNIB
+export:        to   AS39605 announce AS-TNIB
+export:        to   AS39702 announce AS-TNIB
+export:        to   AS39737 announce AS-TNIB
+export:        to   AS39792 announce AS-TNIB
+export:        to   AS39912 announce AS-TNIB
+export:        to   AS40191 announce AS-TNIB
+export:        to   AS40788 announce AS-TNIB
+export:        to   AS41095 announce AS-TNIB
+export:        to   AS41289 announce AS-TNIB
+export:        to   AS41391 announce AS-TNIB
+export:        to   AS41412 announce AS-TNIB
+export:        to   AS41491 announce AS-TNIB
+export:        to   AS41552 announce AS-TNIB
+export:        to   AS41666 announce AS-TNIB
+export:        to   AS41690 announce AS-TNIB
+export:        to   AS41692 announce AS-TNIB
+export:        to   AS41853 announce AS-TNIB
+export:        to   AS41913 announce AS-TNIB
+export:        to   AS42366 announce AS-TNIB
+export:        to   AS42385 announce AS-TNIB
+export:        to   AS42416 announce AS-TNIB
+export:        to   AS42456 announce AS-TNIB
+export:        to   AS42459 announce AS-TNIB
+export:        to   AS42473 announce AS-TNIB
+export:        to   AS42596 announce AS-TNIB
+export:        to   AS42605 announce AS-TNIB
+export:        to   AS42610 announce AS-TNIB
+export:        to   AS42652 announce AS-TNIB
+export:        to   AS42708 announce AS-TNIB
+export:        to   AS42760 announce AS-TNIB
+export:        to   AS42861 announce AS-TNIB
+export:        to   AS43284 announce AS-TNIB
+export:        to   AS43289 announce AS-TNIB
+export:        to   AS43531 announce AS-TNIB
+export:        to   AS43561 announce AS-TNIB
+export:        to   AS43727 announce AS-TNIB
+export:        to   AS43890 announce AS-TNIB
+export:        to   AS44042 announce AS-TNIB
+export:        to   AS44066 announce AS-TNIB
+export:        to   AS44146 announce AS-TNIB
+export:        to   AS44160 announce AS-TNIB
+export:        to   AS44444 announce AS-TNIB
+export:        to   AS44654 announce AS-TNIB
+export:        to   AS44706 announce AS-TNIB
+export:        to   AS44765 announce AS-TNIB
+export:        to   AS44788 announce AS-TNIB
+export:        to   AS44919 announce AS-TNIB
+export:        to   AS44990 announce AS-TNIB
+export:        to   AS45012 announce AS-TNIB
+export:        to   AS45037 announce AS-TNIB
+export:        to   AS46489 announce AS-TNIB
+export:        to   AS46786 announce AS-TNIB
+export:        to   AS47195 announce AS-TNIB
+export:        to   AS47215 announce ANY
+export:        to   AS47302 announce AS-TNIB
+export:        to   AS47447 announce AS-TNIB
+export:        to   AS47692 announce AS-TNIB
+export:        to   AS47841 announce AS-TNIB
+export:        to   AS47869 announce AS-TNIB
+export:        to   AS48200 announce AS-TNIB
+export:        to   AS48344 announce AS-TNIB
+export:        to   AS48362 announce AS-TNIB
+export:        to   AS48484 announce ANY
+export:        to   AS48885 announce AS-TNIB
+export:        to   AS48918 announce AS-TNIB
+export:        to   AS48943 announce AS-TNIB
+export:        to   AS49281 announce AS-TNIB
+export:        to   AS49489 announce AS-TNIB
+export:        to   AS49544 announce AS-TNIB
+export:        to   AS49854 announce ANY
+export:        to   AS49867 announce AS-TNIB
+export:        to   AS49983 announce AS-TNIB
+export:        to   AS50384 announce AS-TNIB
+export:        to   AS50606 announce AS-TNIB
+export:        to   AS50629 announce AS-TNIB
+export:        to   AS50837 announce AS-TNIB
+export:        to   AS50997 announce AS-TNIB
+export:        to   AS51483 announce ANY
+export:        to   AS51852 announce AS-TNIB
+export:        to   AS55195 announce AS-TNIB
+export:        to   AS56833 announce AS-TNIB
+export:        to   AS58329 announce AS-TNIB
+export:        to   AS59752 announce ANY
+export:        to   AS60517 announce AS-TNIB
+export:        to   AS60955 announce AS-TNIB
+export:        to   AS62567 announce AS-TNIB
+export:        to   AS196621 announce AS-TNIB
+export:        to   AS197061 announce AS-TNIB
+export:        to   AS197413 announce AS-TNIB
+export:        to   AS197439 announce AS-TNIB
+export:        to   AS197999 announce AS-TNIB
+export:        to   AS201229 announce AS-TNIB
+export:        to   AS393406 announce AS-TNIB
+export:        to   AS394977 announce ANY
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       ---------------------------------------
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       Communities for incoming Routes
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       [Public Peering]
+remarks:       
+remarks:       21385:3001 Route learned from INXS/ECIX-MUC Peering
+remarks:       21385:3002 Route learned from DE-CIX Frankfurt Peering
+remarks:       21385:3003 Route learned from VIX Peering
+remarks:       21385:3005 Route learned from N-IX Peering
+remarks:       21385:3007 Route learned from DE-CIX Munich Peering
+remarks:       21385:3008 Route learned from ECIX-FRA Peering
+remarks:       21385:3009 Route learned from DE-CIX Hamburg Peering
+remarks:       21385:3010 Route learned from DE-CIX New York Peering
+remarks:       
+remarks:       21385:3049 Route learned from any Public Peering
+remarks:       
+remarks:       [Private Peering]
+remarks:       
+remarks:       21385:4051 Route learned from Netcologne
+remarks:       
+remarks:       21385:4099 Route learned from any Private Peering
+remarks:       
+remarks:       [Transit]
+remarks:       
+remarks:       21385:1055 Route learned from Deutsche Telekom Transit (Munich)
+remarks:       21385:1057 Route learned from Deutsche Telekom Transit (Frankfurt/Main)
+remarks:       21385:1059 Route learned from Level 3 Transit (Munich)
+remarks:       21385:1060 Route learned from Level 3 Transit (Frankfurt/Main)
+remarks:       21385:1061 Route learned from Telia Transit (Munich)
+remarks:       
+remarks:       21385:1099 Route learned from any Transit
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       Communities for outgoing Routes
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       [Public Peering]
+remarks:       
+remarks:       21385:3101x Announcement to INXS/ECIX-MUC Peerings
+remarks:       21385:3102x Announcement to DE-CIX Frankfurt Peerings
+remarks:       21385:3103x Announcement to VIX Peerings
+remarks:       21385:3105x Announcement to N-IX Peerings
+remarks:       21385:3107x Announcement to DE-CIX Munich Peerings
+remarks:       21385:3108x Announcement to ECIX-FRA Peerings
+remarks:       21385:3109x Announcement to DE-CIX Hamburg Peerings
+remarks:       21385:3110x Announcement to DE-CIX New York Peerings
+remarks:       
+remarks:       21385:3149x Announcement to any Public Peering
+remarks:       
+remarks:       [Special]
+remarks:       
+remarks:       [Private Peering]
+remarks:       
+remarks:       21385:4151x Announcement to Netcologne
+remarks:       
+remarks:       21385:4199x Announcement to any Private Peering
+remarks:       
+remarks:       [Transit]
+remarks:       
+remarks:       21385:1155x Announcement to Deutsche Telekom Transit (Munich)
+remarks:       21385:1157x Announcement to Deutsche Telekom Transit (Frankfurt/Main)
+remarks:       21385:1159x Announcement to Level 3 Transit (Munich)
+remarks:       21385:1160x Announcement to Level 3 Transit (Frankfurt/Main)
+remarks:       21385:1161x Announcement to Telia Transit (Munich)
+remarks:       
+remarks:       21385:1199x Announcement to any Transit
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       x = 0  Do not announce
+remarks:       x = 1  Prepend 1x (AS21385)
+remarks:       x = 2  Prepend 2x (AS21385 AS21385)
+remarks:       x = 3  Prepend 3x (AS21385 AS21385 AS21385)
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       Special Communities
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       21385:666 Blackhole (drop packets on net entry)
+remarks:       (IPv4 up to /32, IPv6 up to /128)
+remarks:       (Only available to customers)
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       We are currently available for Public Peering at:
+remarks:       
+remarks:       - ECIX Frankfurt   (Frankfurt/Main, Germany)
+remarks:       - DE-CIX Frankfurt (Frankfurt/Main, Germany)
+remarks:       - DE-CIX Munich    (Munich, Germany)
+remarks:       - DE-CIX Hamburg   (Hamburg, Germany)
+remarks:       - DE-CIX New York  (New York, United States)
+remarks:       - INXS/ECIX-MUC    (Munich, Germany)
+remarks:       - VIX              (Vienna, Austria)
+remarks:       - N-IX             (Nuremberg, Germany)
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       For peering requests send e-mail to peering@tnib.net
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        tech@tnib.de
+mnt-by:        TNIB-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

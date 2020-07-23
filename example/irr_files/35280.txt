@@ -1,0 +1,195 @@
+aut-num:        AS35280
+as-name:        ACORUS
+remarks:        =======================================================
+remarks:        Informations : https://acorus.net
+remarks:        PeeringDB : https://as35280.peeringdb.com
+remarks:        =======================================================
+remarks:        = Transit =
+remarks:        =======================================================
+remarks:        = Telia =
+import:         from AS1299 action pref=1000; accept ANY
+export:         to AS1299 announce AS-ACORUS
+remarks:        ----------
+remarks:        = Tata Communications =
+import:         from AS6453 action pref=1000; accept ANY
+export:         to AS6453 announce AS-ACORUS
+remarks:        =======================================================
+remarks:        = Customers =
+remarks:        =======================================================
+import:         from AS198435 action pref=100; accept AS-EDXNETWORK
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS198435 action pref=100; accept AS-EDXNETWORK
+import:         from AS21212 action pref=100; accept AS21212
+import:         from AS49619 action pref=100; accept AS49619
+import:         from AS35717 action pref=100; accept AS-JEUXVIDEO
+import:         from AS41605 action pref=100; accept AS41605
+import:         from AS47455 action pref=100; accept AS47455
+import:         from AS197133 action pref=100; accept AS-MEDIACTIVE
+import:         from AS44108 action pref=100; accept AS44108
+import:         from AS48934 action pref=100; accept AS48934
+import:         from AS33930 action pref=100; accept AS-INTRINSEC
+import:         from AS39405 action pref=100; accept AS-FULLSAVE
+import:         from AS42687 action pref=100; accept AS42687
+import:         from AS34572 action pref=100; accept AS-HELIANTIS-CUSTOMERS
+import:         from AS29467 action pref=100; accept AS-LUXNETWORK
+import:         from AS49028 action pref=100; accept AS-D-LAKE
+import:         from AS24611 action pref=100; accept AS-DCLUX
+import:         from AS50894 action pref=100; accept AS50894
+import:         from AS57734 action pref=100; accept AS57734
+mp-import:      afi ipv4.unicast,ipv6.unicast from AS57734 action pref=100; accept AS57734
+import:         from AS204657 action pref=100; accept AS204657
+import:         from AS48744 action pref=100; accept AS48744
+export:         to AS198435 announce ANY
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS198435 announce ANY
+export:         to AS21212 announce ANY
+export:         to AS49619 announce ANY
+export:         to AS35717 announce ANY
+export:         to AS41605 announce ANY
+export:         to AS47455 announce ANY
+export:         to AS197133 announce ANY
+export:         to AS44108 announce ANY
+export:         to AS48934 announce ANY
+export:         to AS33930 announce ANY
+export:         to AS39405 announce ANY
+export:         to AS42687 announce ANY
+export:         to AS34572 announce ANY
+export:         to AS29467 announce ANY
+export:         to AS49028 announce ANY
+export:         to AS24611 announce ANY
+export:         to AS50894 announce ANY
+export:         to AS57734 announce ANY
+mp-export:      afi ipv4.unicast,ipv6.unicast to AS57734 announce ANY
+export:         to AS204657 announce ANY
+export:         to AS48744 announce ANY
+remarks:        =======================================================
+remarks:        = Peering = https://as35280.peeringdb.com
+remarks:        =======================================================
+remarks:        Peering request : peering at acorus dot net
+remarks:        Others infos : https://www.as35280.net
+remarks:        =======================================================
+remarks:        = Internet Exchange Point =
+remarks:        =======================================================
+remarks:        - Equinix Paris - 10G - FR - http://www.equinix-ix.fr
+remarks:        - 195.42.145.114 / 2001:7f8:43::3:5280:1 -
+remarks:        -------------------------------------------------------
+remarks:        - France-IX Paris - 100G - FR - https://www.franceix.net
+remarks:        - 37.49.237.108 / 2001:7f8:54::1:108 -
+remarks:        -------------------------------------------------------
+remarks:        - Hopus - 100G - FR - https://www.hopus.net
+remarks:        - 37.77.34.83 / 2a02:e5c:1:35::2 -
+remarks:        -------------------------------------------------------
+remarks:        - LU-CIX - 10G - LU - http://www.lu-cix.lu
+remarks:        - 188.93.170.93 / 2001:7f8:4c::89d0:1 -
+remarks:        -------------------------------------------------------
+remarks:        - NL-IX - 10G - NL - https://www.nl-ix.net
+remarks:        - 193.239.118.47 / 2001:7f8:13::a503:5280:1 -
+remarks:        =======================================================
+remarks:
+remarks:        =======================================================
+remarks:        = BGP Communities - as35280.net =
+remarks:        =======================================================
+remarks:
+remarks:        35280:35280 - Acorus prefixes
+remarks:        64999:asn   - Prefixes from the first ASN
+remarks:
+remarks:        -------------------------------------------------------
+remarks:        by default, all prefixes will be tags depending on
+remarks:        - Region/Country/City
+remarks:        - type of relationship
+remarks:        -------------------------------------------------------
+remarks:        The following communities can be used by peers and customers
+remarks:
+remarks:        -------------------------------------------------------
+remarks:        ** Note: These communities are evaluated
+remarks:        ** on a "first match win" basis
+remarks:        -------------------------------------------------------
+remarks:        x = 0 - Announce (default rule)
+remarks:        x = 1 - Prepend x1
+remarks:        x = 2 - Prepend x2
+remarks:        x = 3 - Prepend x3
+remarks:        x = 9 - Do not announce
+remarks:
+remarks:        === Region ===
+remarks:        35280:101x - Europe EU
+remarks:        35280:102x - North America NA
+remarks:        35280:103x - South America SA
+remarks:        35280:104x - Asia AS
+remarks:        35280:105x - Oceania OC
+remarks:        35280:106x - Africa AF
+remarks:
+remarks:        === Country ===
+remarks:        35280:201x - France FR
+remarks:        35280:202x - Luxembourg LU
+remarks:        35280:203x - Netherlands NL
+remarks:        35280:204x - United State of America US
+remarks:
+remarks:        === City ===
+remarks:        35280:301x - Paris PAR
+remarks:        35280:302x - Toulouse TLS
+remarks:        35280:303x - Luxembourg LUX
+remarks:        35280:304x - New York NYC
+remarks:        35280:305x - Amsterdam AMS
+remarks:
+remarks:        === Transit ===
+remarks:        35280:1000x - All transit
+remarks:        - 35280:1001x - Telia Sonera
+remarks:        - 35280:1002x - Tata Communications
+remarks:
+remarks:        === Peering ===
+remarks:        35280:2000x - All Peering
+remarks:
+remarks:        35280:2100x - Public Peering
+remarks:        - 35280:2101x - France-IX Paris
+remarks:        - 35280:2102x - Equinix Paris
+remarks:        - 35280:2103x - LU-CIX
+remarks:        - 35280:2104x - NL-IX
+remarks:
+remarks:        35280:2200x - Paid Peering
+remarks:        - 35280:2201x - Hopus Paris
+remarks:
+remarks:        35280:2300x - Private Peering
+remarks:        - 35280:2301x - Sipartech
+remarks:
+remarks:        === Customers ===
+remarks:        35280:3000x - All Customers
+remarks:
+remarks:        === ASN ===
+remarks:        6510x:asn - Action to ASN relationn
+remarks:
+remarks:        -------------------------------------------------------
+remarks:        for 32 bits, please find below mapping 32 to 16 bits
+remarks:        198435 -> 64501 (EDX Network)
+remarks:        197133 -> 64502 (Mediactive)
+remarks:        204657 -> 64503 (Ubicentrex)
+remarks:        -------------------------------------------------------
+remarks:
+remarks:        === Change local Pref ===
+remarks:        -----------------------------------------
+remarks:        Community | Local Pref  | Description
+remarks:        -----------------------------------------
+remarks:        (default) | 10000       | Customer
+remarks:        35280:50  | 9950        | Customer backup
+remarks:        (default) | 1750        | Peer
+remarks:        35280:60  | 1700        | Peer Backup
+remarks:        (default) | 750         | Transit
+remarks:        -----------------------------------------
+remarks:
+remarks:        === Blackhole ===
+remarks:        65535:666 - Blackhole prefix up to /32 (IPv4) and /128 (IPv6)
+remarks:
+org:            ORG-ANS21-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ACORUS-MNT
+mnt-routes:     ACORUS-MNT
+created:        2015-04-01T14:17:41Z
+last-modified:  2018-07-07T09:52:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

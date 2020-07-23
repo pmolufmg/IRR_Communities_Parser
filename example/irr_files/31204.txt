@@ -1,0 +1,162 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS31066 - AS31244'
+
+as-block:       AS31066 - AS31244
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS31204'
+
+% Abuse contact for 'AS31204' is 'spostolachi@suntv.com'
+
+aut-num:        AS31204
+org:            ORG-JSTS1-RIPE
+as-name:        SunCommunications-AS
+descr:          ------------------------------------
+descr:          JV "Sun Communications" Autonomous System
+descr:          for more info -> as-set: AS-SUN
+descr:          ------------------------------------
+descr:          28/2, Drumul Viilor str.
+descr:          Chisinau, Moldova, MD-2021
+remarks:
+remarks:        -> Deutsche Telekom AG
+remarks:
+import:         from AS3320 217.6.48.77 at 83.218.223.1 action pref=100; accept ANY
+export:         to AS3320 217.6.48.77 at 83.218.223.1 announce AS-SUN
+remarks:
+remarks:        -> Combridge S.R.L.
+remarks:
+import:         from AS5483 84.1.226.61 at 83.218.223.1 action pref=100; accept ANY
+export:         to AS5483 84.1.226.61 at 83.218.223.1 announce AS-SUN
+remarks:
+remarks:        -> Globnet S.R.L.
+remarks:
+import:         from AS48331 83.218.223.7 at 83.218.223.1 action pref=80; accept ANY
+export:         to AS48331 83.218.223.7 at 83.218.223.1 announce AS-SUN
+remarks:
+remarks:        -> S.A. Moldtelecom
+remarks:
+import:         from AS8926 212.0.200.234 at 83.218.223.3 action pref=80; accept ANY
+export:         to AS8926 212.0.200.234 at 83.218.223.3 announce AS-SUN
+remarks:
+remarks:        -> S.A. Riscom
+remarks:
+import:         from AS8474 195.138.100.1 at 83.218.223.1 action pref=100; accept AS8474
+export:         to AS8474 195.138.100.1 at 83.218.223.1 announce AS31204
+remarks:
+remarks:        -> Dynamic Network Technologies (DNT), Moldova
+remarks:
+import:         from AS9087 83.218.222.241 at 83.218.223.1 action pref=100; accept AS9087
+export:         to AS9087 83.218.222.241 at 83.218.223.1 announce AS31204
+remarks:
+remarks:        -> S.A. Orange
+remarks:
+import:         from AS35210 83.218.222.249 at 83.218.223.1 action pref=100; accept AS35210
+export:         to AS35210 83.218.222.249 at 83.218.223.1 announce AS31204
+remarks:
+remarks:        -> S.A. Starnet
+remarks:
+import:         from AS31252 89.28.1.241 at 83.218.223.7 action pref=100; accept AS31252
+export:         to AS31252 89.28.1.241 at 83.218.223.7 announce AS31204
+remarks:
+remarks:        -> Arax-Impex S.R.L.
+remarks:
+import:         from AS15836 83.218.222.237 at 83.218.223.3 action pref=90; accept AS-ARAX
+export:         to AS15836 83.218.222.237 at 83.218.223.3 announce AS31204
+remarks:
+remarks:        -> Simpals
+remarks:
+import:         from AS51954 action pref=100; accept AS51954
+export:         to AS51954 announce AS31204
+remarks:
+remarks:        -> MD-IX, Moldtelecom Internet Exchange, AS31580 [no-export]
+remarks:
+import:         from AS31580 193.17.78.1 at 195.138.126.1 action pref=200; accept AS-MD-IX
+export:         to AS31580 193.17.78.1 at 195.138.126.1 announce AS31204 AS9087 AS35210
+remarks:
+import:         from AS174 action pref=100; accept ANY
+import:         from AS5588 action pref=100; accept ANY
+export:         to AS174 announce AS31204
+export:         to AS5588 announce AS31204
+remarks:
+default:        to AS3320
+default:        to AS5483
+default:        to AS15836
+remarks:        -------------------------------------------------
+remarks:        Communities applied at ingress
+remarks:        -----------
+remarks:        31204:XXX - Customer route, XXX - customer ASn
+remarks:        -------------------------------------------------
+remarks:        Communities accepted from customers
+remarks:        -----------
+remarks:        65000:0 - Blackhole (discard) traffic (inc./32)
+remarks:        65001:0 - Prepend once to all peers
+remarks:        65002:0 - Prepend twice to all peers
+remarks:        65003:0 - Prepend thrice to all peers
+remarks:        -------------------------------------------------
+remarks:
+admin-c:        JVSC4-RIPE
+tech-c:         JVSC4-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-lower:      SunTV-MNT
+mnt-by:         SunTV-MNT
+created:        2004-03-22T14:01:18Z
+last-modified:  2018-09-04T10:01:35Z
+source:         RIPE # Filtered
+
+organisation:   ORG-JSTS1-RIPE
+org-name:       "Sun Communications" S.R.L.
+org-type:       LIR
+address:        Alba Iulia 75
+address:        MD-2071
+address:        Chisinau
+address:        MOLDOVA, REPUBLIC OF
+phone:          +37322860002
+phone:          +37322860066
+fax-no:         +37322860002
+mnt-ref:        SunTV-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SunTV-MNT
+abuse-c:        AR16100-RIPE
+admin-c:        JVSC4-RIPE
+created:        2004-04-17T11:38:51Z
+last-modified:  2018-03-01T13:19:32Z
+source:         RIPE # Filtered
+
+person:         Stanislav POSTOLACHI
+address:        JV "Sun Communications"
+address:        41/1, Eminescu str.
+address:        Chisinau
+address:        Moldova
+address:        MD-2012
+phone:          +373 22 227374
+fax-no:         +373 22 227377
+nic-hdl:        JVSC4-RIPE
+mnt-by:         SunTV-MNT
+created:        2007-12-06T17:45:29Z
+last-modified:  2010-05-17T08:44:37Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

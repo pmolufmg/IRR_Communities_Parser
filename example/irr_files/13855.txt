@@ -1,0 +1,86 @@
+aut-num:    AS13855
+as-name:    CFU
+descr:      Cedar Falls Municipal Utilities
+import:     from AS33029   accept AS13855:RS-ROUTES:AS33029
+import:     from AS10464 at 192.104.109.5  accept AS13855:RS-ROUTES:AS10464
+import:     from AS16805 at 64.38.1.242  accept AS13855:RS-ROUTES:AS16805
+import:     from AS22594   accept AS13855:RS-ROUTES:AS22594
+import:     from AS6939 at 216.66.77.136  accept ANY
+import:     from AS6939 at 184.105.253.230  accept ANY
+import:     from AS174 at 38.104.184.81  accept ANY
+import:     from AS3356 at 4.30.163.81  accept ANY
+mp-import:  from AS33029   accept AS13855:RS-ROUTES:AS33029
+mp-import:  from AS6939 at 2001:470:1:31b::2  accept ANY
+mp-import:  from AS6939 at 2001:470:1:30a::2  accept ANY
+mp-import:  from AS174 at 2001:550:2:24::3:2  accept ANY
+mp-import:  from AS3356 at 2001:1900:2100::1c92  accept ANY
+export:     to AS10464   announce AS13855 AS13855:AS-CUSTOMERS
+export:     to AS22594 at 24.149.0.150  announce AS13855 AS13855:AS-CUSTOMERS
+export:     to AS33029   announce ANY
+export:     to AS174   announce AS13855 AS13855:AS-CUSTOMERS AS13855:RS-ROUTES:AS22594
+export:     to AS3356   announce AS13855 AS13855:AS-CUSTOMERS
+export:     to AS6939   announce AS13855 AS13855:AS-CUSTOMERS AS13855:RS-ROUTES:AS22594
+export:     to AS22594 at 24.149.0.189  announce ANY
+export:     to AS22594 at 24.149.0.193  announce ANY
+mp-export:  to AS33029   announce ANY
+mp-export:  to AS174   announce AS13855 AS13855:AS-CUSTOMERS
+mp-export:  to AS3356   announce AS13855 AS13855:AS-CUSTOMERS
+mp-export:  to AS6939   announce AS13855 AS13855:AS-CUSTOMERS
+admin-c:    RHO131-ARIN
+tech-c:     CAS110-ARIN
+remarks:    Communities supported by this AS are:
+remarks:    Route Source (Read-Only)
+remarks:    13855:1 External Route
+remarks:    13855:2 Internal CFU Route
+remarks:    13855:3 Customer Route
+remarks:    13855:4 Private route - not advertised to upstream AS.
+remarks:    Advertised to customer and private peers.
+remarks:    Local Preference
+remarks:    13855:70 Set localpref to 70
+remarks:    13855:80 Set localpref to 80
+remarks:    13855:90 Set localpref to 90
+remarks:    13855:110 Set localpref to 110
+remarks:    default localpref is 100
+remarks:    Export Options
+remarks:    AS13855 honors the no-export community
+remarks:    Default export option is to all peers
+remarks:    13855:901 Do not export to private peers
+remarks:    13855:902 Do not export to customer routers
+remarks:    13855:903 Do not export into the confederation
+remarks:    13855:904 Do not export outside of the confederation
+remarks:    13855:2000 Do not advertise to AS1785
+remarks:    13855:2001 Do not advertise to AS174
+remarks:    13855:2002 Do not advertise to AS16805
+remarks:    13855:2003 Do not advertise to AS209
+remarks:    AS Path prepending
+remarks:    13855:1001 Prepend AS once to non-customer routers
+remarks:    13855:1002 Prepend AS twice to non-customer routers
+remarks:    13855:10013 Prepend AS thrice to non-customer routers
+remarks:    13855:20001 Prepend AS once to AS1785
+remarks:    13855:20002 Prepend AS twice to AS1785
+remarks:    13855:20003 Prepend AS thrice to AS1785
+remarks:    13855:20011 Prepend AS once to AS174
+remarks:    13855:20012 Prepend AS twice to AS174
+remarks:    13855:20013 Prepend AS thrice to AS174
+remarks:    13855:20021 Prepend AS once to AS16805
+remarks:    13855:20022 Prepend AS twice to AS16805
+remarks:    13855:20023 Prepend AS thrice to AS16805
+remarks:    13855:20031 Prepend AS once to AS209
+remarks:    13855:20032 Prepend AS twice to AS209
+remarks:    13855:20033 Prepend AS thrice to AS209
+remarks:    13855:666 Blackhole community
+remarks:    *** must establish by contact CFU NOC
+mnt-by:     MAINT-AS13855
+changed:    josh.hoppes@cfunet.net 20130628  #13:09:19Z
+source:     RADB
+
+person:     Robert D. Houlihan
+address:    Utility Parkway
+            Cedar Falls, IA 50613
+phone:      319.268.5228
+e-mail:     rhoulihan@cfunet.net
+nic-hdl:    RHO131-ARIN
+mnt-by:     MAINT-AS13855
+changed:    nocc@cfu.net 20080320  #12:37:55(UTC)
+changed:    nocc@cfu.net 20080320  #12:38:27(UTC)
+source:     RADB

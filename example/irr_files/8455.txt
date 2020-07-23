@@ -1,0 +1,1977 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8455'
+
+% Abuse contact for 'AS8455' is 'abuse@atom86.net'
+
+aut-num:        AS8455
+as-name:        ATOM86-AS
+descr:          ATOM86
+remarks:        **** IPv4 - Transit Uplinks ****
+import:         from AS1299 action pref=80; accept ANY
+import:         from AS2914 action pref=80; accept any
+import:         from AS3257 action pref=80; accept ANY
+import:         from AS3356 action pref=80; accept ANY
+export:         to AS1299 announce AS-ATOM86
+export:         to AS2914 announce AS-ATOM86
+export:         to AS3257 announce AS-ATOM86
+export:         to AS3356 announce AS-ATOM86
+remarks:        *** IPv6 - Transit Uplinks ***
+mp-import:      afi ipv6.unicast from AS1299 action pref=80; accept ANY
+mp-import:      afi ipv6.unicast from AS2914 action pref=80; accept ANY
+mp-import:      afi ipv6.unicast from AS3257 action pref=80; accept ANY
+mp-import:      afi ipv6.unicast from AS3356 action pref=80; accept ANY
+mp-import:      afi ipv6.unicast from AS13030 action pref=80; accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS2914 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3257 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3356 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13030 announce AS-ATOM86
+remarks:        **** Customers ****
+import:         from AS5524 action pref=200; accept AS-BREEDBANDNEDERLAND
+import:         from AS8283 action pref=200; accept AS-COLOCLUE
+import:         from AS8587 action pref=200; accept AS-INFRACOMNL
+import:         from AS8608 action pref=200; accept AS-QINIP
+import:         from AS8954 action pref=200; accept AS-INTOUCHPEERS
+import:         from AS12041 action pref=200; accept AS-AFILIAS-FULLMONTY
+import:         from AS12666 action pref=200; accept AS12666
+import:         from AS12945 action pref=200; accept AS-GP
+import:         from AS15426 action pref=200; accept AS-XENOSITE
+import:         from AS15693 action pref=200; accept AS-BUSINESSCONNECT
+import:         from AS15879 action pref=200; accept AS-KPNIS
+import:         from AS16003 action pref=200; accept AS-PROSERVERS
+import:         from AS16294 action pref=200; accept AS16294
+import:         from AS20495 action pref=200; accept AS-WEDARE
+import:         from AS20504 action pref=200; accept AS-RTL
+import:         from AS20559 action pref=200; accept AS-FUNDAMENTS
+import:         from AS20769 action pref=200; accept AS20769
+import:         from AS24586 action pref=200; accept AS-INTERMAX
+import:         from AS25542 action pref=200; accept AS-DENIT
+import:         from AS26277 action pref=200; accept AS26277
+import:         from AS27970 action pref=200; accept AS-ONEPACKET
+import:         from AS29028 action pref=200; accept AS-COMPUKOS
+import:         from AS29462 action pref=200; accept AS29462
+import:         from AS31251 action pref=200; accept AS-NETGUARD
+import:         from AS31533 action pref=200; accept AS31533
+import:         from AS34012 action pref=200; accept AS-VELLANCE
+import:         from AS34106 action pref=200; accept AS-TELEGRAAF
+import:         from AS34141 action pref=200; accept AS-IN2IP
+import:         from AS34215 action pref=200; accept AS34215
+import:         from AS34276 action pref=200; accept AS34276
+import:         from AS34427 action pref=200; accept AS-COMSENSO
+import:         from AS34756 action pref=200; accept AS-GVRH
+import:         from AS34762 action pref=200; accept AS-COMBELL
+import:         from AS34766 action pref=200; accept AS-LAYER23
+import:         from AS34968 action pref=200; accept AS-IUNXI
+import:         from AS35027 action pref=200; accept AS35027
+import:         from AS35332 action pref=200; accept AS-DATAWEB
+import:         from AS36271 action pref=200; accept AS36271
+import:         from AS39004 action pref=200; accept AS39004
+import:         from AS39637 action pref=200; accept AS-NETLOGICS
+import:         from AS39647 action pref=200; accept AS-REDHOSTING
+import:         from AS40490 action pref=200; accept AS40490
+import:         from AS40985 action pref=200; accept AS40985
+import:         from AS41153 action pref=200; accept AS-GNTEL
+import:         from AS41248 action pref=200; accept AS41248
+import:         from AS41420 action pref=200; accept AS41420
+import:         from AS41480 action pref=200; accept AS-SYSTEMEC
+import:         from AS41960 action pref=200; accept AS-NEXTPERTISE
+import:         from AS42158 action pref=200; accept AS42158
+import:         from AS42315 action pref=200; accept AS42315
+import:         from AS42383 action pref=200; accept AS42383
+import:         from AS42585 action pref=200; accept AS-NETWORKING4ALL
+import:         from AS42755 action pref=200; accept AS-RIJNDATABV
+import:         from AS42812 action pref=200; accept AS-DT-IT
+import:         from AS42836 action pref=200; accept AS42836
+import:         from AS43519 action pref=200; accept AS43519
+import:         from AS44187 action pref=200; accept AS44187
+import:         from AS44253 action pref=200; accept AS-SENTIA
+import:         from AS47121 action pref=200; accept AS47121
+import:         from AS47543 action pref=200; accept AS47543
+import:         from AS47599 action pref=200; accept AS47599
+import:         from AS48283 action pref=200; accept AS48283
+import:         from AS48520 action pref=200; accept AS48520
+import:         from AS49033 action pref=200; accept AS-SMARTROUTING
+import:         from AS49250 action pref=200; accept AS49250
+import:         from AS49509 action pref=200; accept AS49509
+import:         from AS49548 action pref=200; accept AS49548
+import:         from AS49627 action pref=200; accept AS49627
+import:         from AS49685 action pref=200; accept AS-ITIS
+import:         from AS49820 action pref=200; accept AS49820
+import:         from AS50018 action pref=200; accept AS50018
+import:         from AS50554 action pref=200; accept AS-NCBV
+import:         from AS51514 action pref=200; accept AS-SPOTLER
+import:         from AS51999 action pref=200; accept AS-ADULTEUHOST
+import:         from AS52144 action pref=200; accept AS52144
+import:         from AS54825 action pref=200; accept AS-PACKET
+import:         from AS57060 action pref=200; accept AS57060
+import:         from AS57795 action pref=200; accept AS-NGNETWORKS
+import:         from AS58075 action pref=200; accept AS58075
+import:         from AS58138 action pref=200; accept AS58138
+import:         from AS58186 action pref=200; accept AS58186
+import:         from AS59427 action pref=200; accept AS-MASSXESS
+import:         from AS59865 action pref=200; accept AS-IVMOB
+import:         from AS60750 action pref=200; accept AS60750
+import:         from AS61018 action pref=200; accept AS61018
+import:         from AS61147 action pref=200; accept AS-CALLHOSTED
+import:         from AS61200 action pref=200; accept AS-MEDIAMONKS
+import:         from AS61349 action pref=200; accept AS-MAXITEL
+import:         from AS61963 action pref=200; accept AS61963
+import:         from AS197132 action pref=200; accept AS197132
+import:         from AS197395 action pref=200; accept AS197395
+import:         from AS197731 action pref=200; accept AS-TUXIS
+import:         from AS197902 action pref=200; accept AS-HOSTNET
+import:         from AS198260 action pref=200; accept AS198260
+import:         from AS198730 action pref=200; accept AS198730
+import:         from AS199332 action pref=200; accept AS199332:AS-FOON
+import:         from AS199408 action pref=200; accept AS-BOLCOM
+import:         from AS199456 action pref=200; accept AS199456
+import:         from AS199743 action pref=200; accept AS199743
+import:         from AS200023 action pref=200; accept AS-QONNECTED
+import:         from AS200831 action pref=200; accept AS200831
+import:         from AS201055 action pref=200; accept AS201055
+import:         from AS201290 action pref=200; accept AS-BLACKGATE
+import:         from AS201401 action pref=200; accept AS201401
+import:         from AS201510 action pref=200; accept AS201510
+import:         from AS202016 action pref=200; accept AS202016
+import:         from AS202022 action pref=200; accept AS-FLEXYZ
+import:         from AS202796 action pref=200; accept AS-JSR
+import:         from AS204030 action pref=200; accept AS204030
+import:         from AS204586 action pref=200; accept AS204586
+import:         from AS204642 action pref=200; accept AS204642
+import:         from AS204790 action pref=200; accept AS-FLOCCUS
+import:         from AS205025 action pref=200; accept AS-LEASEWEB-NL-TDC
+import:         from AS205406 action pref=200; accept AS-AURORA
+import:         from AS206389 action pref=200; accept AS206389
+import:         from AS206836 action pref=200; accept AS206836
+import:         from AS209875 action pref=200; accept AS209875
+export:         to AS5524 announce ANY
+export:         to AS8283 announce ANY
+export:         to AS8587 announce ANY
+export:         to AS8608 announce ANY
+export:         to AS8954 announce ANY
+export:         to AS12041 announce ANY
+export:         to AS12666 announce ANY
+export:         to AS12945 announce ANY
+export:         to AS15426 announce ANY
+export:         to AS15693 announce ANY
+export:         to AS15879 announce ANY
+export:         to AS16003 announce ANY
+export:         to AS16294 announce ANY
+export:         to AS20495 announce ANY
+export:         to AS20504 announce ANY
+export:         to AS20559 announce ANY
+export:         to AS20769 announce ANY
+export:         to AS24586 announce ANY
+export:         to AS25542 announce ANY
+export:         to AS26277 announce ANY
+export:         to AS27970 announce ANY
+export:         to AS29028 announce ANY
+export:         to AS29462 announce ANY
+export:         to AS31251 announce ANY
+export:         to AS31533 announce ANY
+export:         to AS34012 announce ANY
+export:         to AS34106 announce ANY
+export:         to AS34141 announce ANY
+export:         to AS34215 announce ANY
+export:         to AS34276 announce ANY
+export:         to AS34427 announce ANY
+export:         to AS34756 announce ANY
+export:         to AS34762 announce ANY
+export:         to AS34766 announce ANY
+export:         to AS34968 announce ANY
+export:         to AS35027 announce ANY
+export:         to AS35332 announce ANY
+export:         to AS36271 announce ANY
+export:         to AS39004 announce ANY
+export:         to AS39637 announce ANY
+export:         to AS39647 announce ANY
+export:         to AS40490 announce ANY
+export:         to AS40985 announce ANY
+export:         to AS41153 announce ANY
+export:         to AS41248 announce ANY
+export:         to AS41420 announce ANY
+export:         to AS41480 announce ANY
+export:         to AS41960 announce ANY
+export:         to AS42158 announce ANY
+export:         to AS42315 announce ANY
+export:         to AS42383 announce ANY
+export:         to AS42585 announce ANY
+export:         to AS42755 announce ANY
+export:         to AS42812 announce ANY
+export:         to AS42836 announce ANY
+export:         to AS43519 announce ANY
+export:         to AS44187 announce ANY
+export:         to AS44253 announce ANY
+export:         to AS47121 announce ANY
+export:         to AS47543 announce ANY
+export:         to AS47599 announce ANY
+export:         to AS48283 announce ANY
+export:         to AS48520 announce ANY
+export:         to AS49033 announce ANY
+export:         to AS49250 announce ANY
+export:         to AS49509 announce ANY
+export:         to AS49548 announce ANY
+export:         to AS49627 announce ANY
+export:         to AS49685 announce ANY
+export:         to AS49820 announce ANY
+export:         to AS50018 announce ANY
+export:         to AS50554 announce ANY
+export:         to AS51514 announce ANY
+export:         to AS51999 announce ANY
+export:         to AS52144 announce ANY
+export:         to AS54825 announce ANY
+export:         to AS57060 announce ANY
+export:         to AS57795 announce ANY
+export:         to AS58075 announce ANY
+export:         to AS58138 announce ANY
+export:         to AS58186 announce ANY
+export:         to AS59427 announce ANY
+export:         to AS59865 announce ANY
+export:         to AS60750 announce ANY
+export:         to AS61018 announce ANY
+export:         to AS61147 announce ANY
+export:         to AS61200 announce ANY
+export:         to AS61349 announce ANY
+export:         to AS61963 announce ANY
+export:         to AS197132 announce ANY
+export:         to AS197395 announce ANY
+export:         to AS197731 announce ANY
+export:         to AS197902 announce ANY
+export:         to AS198260 announce ANY
+export:         to AS198730 announce ANY
+export:         to AS199332 announce ANY
+export:         to AS199408 announce ANY
+export:         to AS199456 announce ANY
+export:         to AS199743 announce ANY
+export:         to AS200023 announce ANY
+export:         to AS200831 announce ANY
+export:         to AS201055 announce ANY
+export:         to AS201290 announce ANY
+export:         to AS201401 announce ANY
+export:         to AS201510 announce ANY
+export:         to AS202016 announce ANY
+export:         to AS202022 announce ANY
+export:         to AS202796 announce ANY
+export:         to AS204030 announce ANY
+export:         to AS204586 announce ANY
+export:         to AS204642 announce ANY
+export:         to AS204790 announce ANY
+export:         to AS205025 announce ANY
+export:         to AS205406 announce ANY
+export:         to AS206389 announce ANY
+export:         to AS206836 announce ANY
+export:         to AS209875 announce ANY
+mp-import:      afi ipv6.unicast from AS5524 action pref=200; accept AS-BREEDBANDNEDERLAND
+mp-import:      afi ipv6.unicast from AS8283 action pref=200; accept AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8587 action pref=200; accept AS-INFRACOMNL
+mp-import:      afi ipv6.unicast from AS8608 action pref=200; accept AS-QINIP
+mp-import:      afi ipv6.unicast from AS8954 action pref=200; accept AS-INTOUCHPEERS
+mp-import:      afi ipv6.unicast from AS12041 action pref=200; accept AS-AFILIAS-FULLMONTY
+mp-import:      afi ipv6.unicast from AS12945 action pref=200; accept AS-GP
+mp-import:      afi ipv6.unicast from AS15426 action pref=200; accept AS-XENOSITE
+mp-import:      afi ipv6.unicast from AS15693 action pref=200; accept AS-BUSINESSCONNECT
+mp-import:      afi ipv6.unicast from AS15879 action pref=200; accept AS-KPNIS
+mp-import:      afi ipv6.unicast from AS16003 action pref=200; accept AS-PROSERVERS
+mp-import:      afi ipv6.unicast from AS20495 action pref=200; accept AS-WEDARE
+mp-import:      afi ipv6.unicast from AS20559 action pref=200; accept AS-FUNDAMENTS
+mp-import:      afi ipv6.unicast from AS20769 action pref=200; accept AS20769
+mp-import:      afi ipv6.unicast from AS24586 action pref=200; accept AS-INTERMAX
+mp-import:      afi ipv6.unicast from AS25542 action pref=200; accept AS-DENIT
+mp-import:      afi ipv6.unicast from AS27970 action pref=200; accept AS-ONEPACKET
+mp-import:      afi ipv6.unicast from AS29028 action pref=200; accept AS-COMPUKOS
+mp-import:      afi ipv6.unicast from AS29462 action pref=200; accept AS29462
+mp-import:      afi ipv6.unicast from AS31251 action pref=200; accept AS-NETGUARD
+mp-import:      afi ipv6.unicast from AS34012 action pref=200; accept AS-VELLANCE
+mp-import:      afi ipv6.unicast from AS34106 action pref=200; accept AS-TELEGRAAF
+mp-import:      afi ipv6.unicast from AS34141 action pref=200; accept AS-IN2IP
+mp-import:      afi ipv6.unicast from AS34215 action pref=200; accept AS34215
+mp-import:      afi ipv6.unicast from AS34276 action pref=200; accept AS34276
+mp-import:      afi ipv6.unicast from AS34427 action pref=200; accept AS-COMSENSO
+mp-import:      afi ipv6.unicast from AS34756 action pref=200; accept AS-GVRH
+mp-import:      afi ipv6.unicast from AS34762 action pref=200; accept AS-COMBELL
+mp-import:      afi ipv6.unicast from AS34766 action pref=200; accept AS-LAYER23
+mp-import:      afi ipv6.unicast from AS34968 action pref=200; accept AS-IUNXI
+mp-import:      afi ipv6.unicast from AS35332 action pref=200; accept AS-DATAWEB
+mp-import:      afi ipv6.unicast from AS39004 action pref=200; accept AS39004
+mp-import:      afi ipv6.unicast from AS39637 action pref=200; accept AS-NETLOGICS
+mp-import:      afi ipv6.unicast from AS39647 action pref=200; accept AS-REDHOSTING
+mp-import:      afi ipv6.unicast from AS40490 action pref=200; accept AS40490
+mp-import:      afi ipv6.unicast from AS40985 action pref=200; accept AS40985
+mp-import:      afi ipv6.unicast from AS41153 action pref=200; accept AS-GNTEL
+mp-import:      afi ipv6.unicast from AS41480 action pref=200; accept AS-SYSTEMEC
+mp-import:      afi ipv6.unicast from AS41960 action pref=200; accept AS-NEXTPERTISE
+mp-import:      afi ipv6.unicast from AS42158 action pref=200; accept AS42158
+mp-import:      afi ipv6.unicast from AS42383 action pref=200; accept AS42383
+mp-import:      afi ipv6.unicast from AS42585 action pref=200; accept AS-NETWORKING4ALL
+mp-import:      afi ipv6.unicast from AS42755 action pref=200; accept AS-RIJNDATABV
+mp-import:      afi ipv6.unicast from AS42812 action pref=200; accept AS-DT-IT
+mp-import:      afi ipv6.unicast from AS42836 action pref=200; accept AS42836
+mp-import:      afi ipv6.unicast from AS44187 action pref=200; accept AS44187
+mp-import:      afi ipv6.unicast from AS44253 action pref=200; accept AS44253
+mp-import:      afi ipv6.unicast from AS47121 action pref=200; accept AS47121
+mp-import:      afi ipv6.unicast from AS48283 action pref=200; accept AS48283
+mp-import:      afi ipv6.unicast from AS48520 action pref=200; accept AS48520
+mp-import:      afi ipv6.unicast from AS49250 action pref=200; accept AS49250
+mp-import:      afi ipv6.unicast from AS49509 action pref=200; accept AS49509
+mp-import:      afi ipv6.unicast from AS49548 action pref=200; accept AS49548
+mp-import:      afi ipv6.unicast from AS49627 action pref=200; accept AS49627
+mp-import:      afi ipv6.unicast from AS49685 action pref=200; accept AS-ITIS
+mp-import:      afi ipv6.unicast from AS49820 action pref=200; accept AS49820
+mp-import:      afi ipv6.unicast from AS50018 action pref=200; accept AS50018
+mp-import:      afi ipv6.unicast from AS50554 action pref=200; accept AS-NCBV
+mp-import:      afi ipv6.unicast from AS51514 action pref=200; accept AS-SPOTLER
+mp-import:      afi ipv6.unicast from AS51999 action pref=200; accept AS-ADULTEUHOST
+mp-import:      afi ipv6.unicast from AS54825 action pref=200; accept AS-PACKET
+mp-import:      afi ipv6.unicast from AS57795 action pref=200; accept AS-NGNETWORKS
+mp-import:      afi ipv6.unicast from AS58138 action pref=200; accept AS58138
+mp-import:      afi ipv6.unicast from AS59865 action pref=200; accept AS-IVMOB
+mp-import:      afi ipv6.unicast from AS60750 action pref=200; accept AS60750
+mp-import:      afi ipv6.unicast from AS61200 action pref=200; accept AS-MEDIAMONKS
+mp-import:      afi ipv6.unicast from AS61349 action pref=200; accept AS-MAXITEL
+mp-import:      afi ipv6.unicast from AS197132 action pref=200; accept AS197132
+mp-import:      afi ipv6.unicast from AS197395 action pref=200; accept AS197395
+mp-import:      afi ipv6.unicast from AS197731 action pref=200; accept AS-TUXIS6
+mp-import:      afi ipv6.unicast from AS197902 action pref=200; accept AS-HOSTNET
+mp-import:      afi ipv6.unicast from AS198260 action pref=200; accept AS198260
+mp-import:      afi ipv6.unicast from AS198478 action pref=200; accept AS198478
+mp-import:      afi ipv6.unicast from AS198730 action pref=200; accept AS198730
+mp-import:      afi ipv6.unicast from AS199332 action pref=200; accept AS199332:AS-FOON
+mp-import:      afi ipv6.unicast from AS199408 action pref=200; accept AS-BOLCOM
+mp-import:      afi ipv6.unicast from AS199456 action pref=200; accept AS199456
+mp-import:      afi ipv6.unicast from AS199743 action pref=200; accept AS199743
+mp-import:      afi ipv6.unicast from AS200023 action pref=200; accept AS-QONNECTED
+mp-import:      afi ipv6.unicast from AS200831 action pref=200; accept AS200831
+mp-import:      afi ipv6.unicast from AS201290 action pref=200; accept AS-BLACKGATE
+mp-import:      afi ipv6.unicast from AS201401 action pref=200; accept AS201401
+mp-import:      afi ipv6.unicast from AS201510 action pref=200; accept AS201510
+mp-import:      afi ipv6.unicast from AS202016 action pref=200; accept AS202016
+mp-import:      afi ipv6.unicast from AS202022 action pref=200; accept AS-FLEXYZ
+mp-import:      afi ipv6.unicast from AS202796 action pref=200; accept AS-JSR
+mp-import:      afi ipv6.unicast from AS204030 action pref=200; accept AS204030
+mp-import:      afi ipv6.unicast from AS204586 action pref=200; accept AS204586
+mp-import:      afi ipv6.unicast from AS204790 action pref=200; accept AS-FLOCCUS
+mp-import:      afi ipv6.unicast from AS205406 action pref=200; accept AS-AURORA
+mp-import:      afi ipv6.unicast from AS206836 action pref=200; accept AS206836
+mp-export:      afi ipv6.unicast to AS5524 announce ANY
+mp-export:      afi ipv6.unicast to AS8283 announce ANY
+mp-export:      afi ipv6.unicast to AS8587 announce ANY
+mp-export:      afi ipv6.unicast to AS8608 announce ANY
+mp-export:      afi ipv6.unicast to AS8954 announce ANY
+mp-export:      afi ipv6.unicast to AS12041 announce ANY
+mp-export:      afi ipv6.unicast to AS12945 announce ANY
+mp-export:      afi ipv6.unicast to AS15426 announce ANY
+mp-export:      afi ipv6.unicast to AS15693 announce ANY
+mp-export:      afi ipv6.unicast to AS15879 announce ANY
+mp-export:      afi ipv6.unicast to AS16003 announce ANY
+mp-export:      afi ipv6.unicast to AS20495 announce ANY
+mp-export:      afi ipv6.unicast to AS20559 announce ANY
+mp-export:      afi ipv6.unicast to AS20769 announce ANY
+mp-export:      afi ipv6.unicast to AS24586 announce ANY
+mp-export:      afi ipv6.unicast to AS25542 announce ANY
+mp-export:      afi ipv6.unicast to AS27970 announce ANY
+mp-export:      afi ipv6.unicast to AS29028 announce ANY
+mp-export:      afi ipv6.unicast to AS29462 announce ANY
+mp-export:      afi ipv6.unicast to AS31251 announce ANY
+mp-export:      afi ipv6.unicast to AS34012 announce ANY
+mp-export:      afi ipv6.unicast to AS34106 announce ANY
+mp-export:      afi ipv6.unicast to AS34141 announce ANY
+mp-export:      afi ipv6.unicast to AS34215 announce ANY
+mp-export:      afi ipv6.unicast to AS34276 announce ANY
+mp-export:      afi ipv6.unicast to AS34427 announce ANY
+mp-export:      afi ipv6.unicast to AS34756 announce ANY
+mp-export:      afi ipv6.unicast to AS34762 announce ANY
+mp-export:      afi ipv6.unicast to AS34766 announce ANY
+mp-export:      afi ipv6.unicast to AS34968 announce ANY
+mp-export:      afi ipv6.unicast to AS35332 announce ANY
+mp-export:      afi ipv6.unicast to AS39004 announce ANY
+mp-export:      afi ipv6.unicast to AS39637 announce ANY
+mp-export:      afi ipv6.unicast to AS39647 announce ANY
+mp-export:      afi ipv6.unicast to AS40490 announce ANY
+mp-export:      afi ipv6.unicast to AS40985 announce ANY
+mp-export:      afi ipv6.unicast to AS41153 announce ANY
+mp-export:      afi ipv6.unicast to AS41480 announce ANY
+mp-export:      afi ipv6.unicast to AS41960 announce ANY
+mp-export:      afi ipv6.unicast to AS42158 announce ANY
+mp-export:      afi ipv6.unicast to AS42383 announce ANY
+mp-export:      afi ipv6.unicast to AS42585 announce ANY
+mp-export:      afi ipv6.unicast to AS42755 announce ANY
+mp-export:      afi ipv6.unicast to AS42812 announce ANY
+mp-export:      afi ipv6.unicast to AS42836 announce ANY
+mp-export:      afi ipv6.unicast to AS44187 announce ANY
+mp-export:      afi ipv6.unicast to AS44253 announce ANY
+mp-export:      afi ipv6.unicast to AS47121 announce ANY
+mp-export:      afi ipv6.unicast to AS48283 announce ANY
+mp-export:      afi ipv6.unicast to AS48520 announce ANY
+mp-export:      afi ipv6.unicast to AS49250 announce ANY
+mp-export:      afi ipv6.unicast to AS49509 announce ANY
+mp-export:      afi ipv6.unicast to AS49548 announce ANY
+mp-export:      afi ipv6.unicast to AS49627 announce ANY
+mp-export:      afi ipv6.unicast to AS49685 announce ANY
+mp-export:      afi ipv6.unicast to AS49820 announce ANY
+mp-export:      afi ipv6.unicast to AS50018 announce ANY
+mp-export:      afi ipv6.unicast to AS50554 announce ANY
+mp-export:      afi ipv6.unicast to AS51514 announce ANY
+mp-export:      afi ipv6.unicast to AS51999 announce ANY
+mp-export:      afi ipv6.unicast to AS54825 announce ANY
+mp-export:      afi ipv6.unicast to AS57795 announce ANY
+mp-export:      afi ipv6.unicast to AS58138 announce ANY
+mp-export:      afi ipv6.unicast to AS59865 announce ANY
+mp-export:      afi ipv6.unicast to AS60750 announce ANY
+mp-export:      afi ipv6.unicast to AS61200 announce ANY
+mp-export:      afi ipv6.unicast to AS61349 announce ANY
+mp-export:      afi ipv6.unicast to AS197132 announce ANY
+mp-export:      afi ipv6.unicast to AS197395 announce ANY
+mp-export:      afi ipv6.unicast to AS197395 announce ANY
+mp-export:      afi ipv6.unicast to AS197902 announce ANY
+mp-export:      afi ipv6.unicast to AS198260 announce ANY
+mp-export:      afi ipv6.unicast to AS198478 announce ANY
+mp-export:      afi ipv6.unicast to AS198730 announce ANY
+mp-export:      afi ipv6.unicast to AS199332 announce ANY
+mp-export:      afi ipv6.unicast to AS199408 announce ANY
+mp-export:      afi ipv6.unicast to AS199456 announce ANY
+mp-export:      afi ipv6.unicast to AS199743 announce ANY
+mp-export:      afi ipv6.unicast to AS200023 announce ANY
+mp-export:      afi ipv6.unicast to AS200831 announce ANY
+mp-export:      afi ipv6.unicast to AS201290 announce ANY
+mp-export:      afi ipv6.unicast to AS201401 announce ANY
+mp-export:      afi ipv6.unicast to AS201510 announce ANY
+mp-export:      afi ipv6.unicast to AS202016 announce ANY
+mp-export:      afi ipv6.unicast to AS202022 announce ANY
+mp-export:      afi ipv6.unicast to AS202796 announce ANY
+mp-export:      afi ipv6.unicast to AS204030 announce ANY
+mp-export:      afi ipv6.unicast to AS204586 announce ANY
+mp-export:      afi ipv6.unicast to AS204790 announce ANY
+mp-export:      afi ipv6.unicast to AS205406 announce ANY
+mp-export:      afi ipv6.unicast to AS206836 announce ANY
+remarks:        **** Peerings ****
+import:         from AS42 action pref=100; accept AS-PCH
+import:         from AS559 action pref=100; accept AS-SWITCH
+import:         from AS714 action pref=100; accept AS-APPLE
+import:         from AS786 action pref=100; accept AS-JANETPLUS
+import:         from AS1103 action pref=100; accept AS-SURFNET
+import:         from AS1136 action pref=100; accept AS-KPN
+import:         from AS1267 action pref=100; accept AS-INFOSTRADA
+import:         from AS1547 action pref=100; accept AS-IDK
+import:         from AS1764 action pref=100; accept AS-NEXTLAYER
+import:         from AS2119 action pref=100; accept AS-TELENOR
+import:         from AS2603 action pref=100; accept AS-NORDUNET
+import:         from AS2611 action pref=100; accept AS-BELNET
+import:         from AS2635 action pref=100; accept AS2635
+import:         from AS2854 action pref=100; accept AS-ROSPRINT
+import:         from AS2860 action pref=100; accept AS-NOVIS
+import:         from AS2906 action pref=100; accept AS-NFLX
+import:         from AS3209 action pref=100; accept AS-ARCORGLOBAL
+import:         from AS3216 action pref=100; accept AS-SOVAM
+import:         from AS3223 action pref=100; accept AS-VOXILITY-SET
+import:         from AS3255 action pref=100; accept AS-UARNET
+import:         from AS3267 action pref=100; accept AS-RUNNET
+import:         from AS3292 action pref=100; accept AS-TDCNET
+import:         from AS3303 action pref=100; accept AS-SWCMGLOBAL
+import:         from AS3326 action pref=100; accept AS3326:AS-EXT
+import:         from AS3327 action pref=100; accept AS-LINXTELECOM
+import:         from AS3741 action pref=100; accept AS-IS
+import:         from AS3856 action pref=100; accept AS-PCH
+import:         from AS4637 action pref=100; accept AS-TELSTRA-INTL-CUSTOMERS
+import:         from AS4651 action pref=100; accept AS-THIX
+import:         from AS4657 action pref=100; accept AS-STARHUBINTERNET
+import:         from AS4761 action pref=100; accept AS-INDOSAT
+import:         from AS4775 action pref=100; accept AS-TRANSIT-GLOBE
+import:         from AS4788 action pref=100; accept AS-4788
+import:         from AS4800 action pref=100; accept AS-LINTASARTA-NAP
+import:         from AS5400 action pref=100; accept AS-BT-EU
+import:         from AS5410 action pref=100; accept AS-BOUYGTEL-ISP
+import:         from AS5459 action pref=100; accept AS-LINX
+import:         from AS5466 action pref=100; accept AS-EIRCOM
+import:         from AS5607 action pref=100; accept AS-BSKYB-BROADBAND
+import:         from AS5713 action pref=100; accept AS-SAIX
+import:         from AS6412 action pref=100; accept AS-GNET-KW
+import:         from AS6447 action pref=100; accept AS6447
+import:         from AS6507 action pref=100; accept AS6507
+import:         from AS6648 action pref=100; accept AS-BAYANTEL
+import:         from AS6661 action pref=100; accept AS-PTLU
+import:         from AS6667 action pref=100; accept AS-EUNETIP
+import:         from AS6677 action pref=100; accept AS-ICENET
+import:         from AS6682 action pref=100; accept AS-GNC
+import:         from AS6724 action pref=100; accept AS-STRATORZ
+import:         from AS6730 action pref=100; accept AS-GLOBAL
+import:         from AS6830 action pref=100; accept AS-AORTA
+import:         from AS6910 action pref=100; accept AS-DIALTELECOMRO
+import:         from AS6939 action pref=100; accept AS-HURRICANE
+import:         from AS7342 action pref=100; accept AS-VERISIGN
+import:         from AS7713 action pref=100; accept AS7713:AS-TELKOM-TRANSIT
+import:         from AS8075 action pref=100; accept AS-MICROSOFT
+import:         from AS8220 action pref=100; accept AS-COLT
+import:         from AS8301 action pref=100; accept AS8301:AS-Downstream
+import:         from AS8339 action pref=100; accept AS-KABS
+import:         from AS8359 action pref=100; accept AS-MTU
+import:         from AS8365 action pref=100; accept AS-MANDA
+import:         from AS8403 action pref=100; accept AS-SPOTIFY
+import:         from AS8422 action pref=100; accept AS-NETCOLOGNE
+import:         from AS8426 action pref=100; accept AS-CLARANET
+import:         from AS8447 action pref=100; accept AS-PTA
+import:         from AS8462 action pref=100; accept AS-TARR
+import:         from AS8468 action pref=100; accept AS-ENTANET
+import:         from AS8529 action pref=100; accept AS-OMANTEL
+import:         from AS8530 action pref=100; accept AS-EXCELL
+import:         from AS8551 action pref=100; accept AS-BEZEQINT
+import:         from AS8560 action pref=100; accept AS-1AND1
+import:         from AS8607 action pref=100; accept AS-TIMICO
+import:         from AS8632 action pref=100; accept AS-LOL
+import:         from AS8657 action pref=100; accept AS-CPRM
+import:         from AS8674 action pref=100; accept AS-NETNOD-ANYCAST
+import:         from AS8708 action pref=100; accept AS-RDSNET
+import:         from AS8732 action pref=100; accept AS-COMCOR
+import:         from AS8764 action pref=100; accept AS-LTELECOM
+import:         from AS8767 action pref=100; accept AS-MNETDE
+import:         from AS8781 action pref=100; accept AS-QTEL-SET
+import:         from AS8821 action pref=100; accept AS-TELEZUG
+import:         from AS8851 action pref=100; accept AS-GCICOM
+import:         from AS8866 action pref=100; accept AS-BTC-UP
+import:         from AS8881 action pref=100; accept AS-VT-TRANSIT
+import:         from AS8932 action pref=100; accept AS8932:AS-ALL
+import:         from AS8966 action pref=100; accept AS-EMIX
+import:         from AS9002 action pref=100; accept AS-RETN
+import:         from AS9031 action pref=100; accept AS-EDPNET
+import:         from AS9050 action pref=100; accept AS-RTD
+import:         from AS9116 action pref=100; accept AS-GOLDEN
+import:         from AS9145 action pref=100; accept AS-EWETEL
+import:         from AS9158 action pref=100; accept AS-TELENOR-DENMARK
+import:         from AS9304 action pref=100; accept AS-HUTCHCITY
+import:         from AS9318 action pref=100; accept AS-SKBROADBAND
+import:         from AS9498 action pref=100; accept AS-BHARTI-IN
+import:         from AS9583 action pref=100; accept AS9583:AS-SIFY
+import:         from AS9680 action pref=100; accept AS-HINET
+import:         from AS10026 action pref=100; accept AS-PACNET
+import:         from AS10310 action pref=100; accept AS-YAHOO
+import:         from AS10474 action pref=100; accept AS-OPTINET
+import:         from AS11179 action pref=100; accept AS11179
+import:         from AS12200 action pref=100; accept AS-RACKSPACE
+import:         from AS12301 action pref=100; accept AS12301:AS-ROUTES
+import:         from AS12322 action pref=100; accept AS-PROXAD
+import:         from AS12350 action pref=100; accept AS-VTX
+import:         from AS12392 action pref=100; accept AS-BRUTELE
+import:         from AS12552 action pref=100; accept AS-IPO
+import:         from AS12576 action pref=100; accept AS12576
+import:         from AS12578 action pref=100; accept AS-LATTELEKOM
+import:         from AS12654 action pref=100; accept AS12654
+import:         from AS12703 action pref=100; accept AS-PULSANT
+import:         from AS12713 action pref=100; accept AS-OTEGLOBE
+import:         from AS12715 action pref=100; accept AS-JAZZTRANS
+import:         from AS12741 action pref=100; accept AS-NETIA
+import:         from AS12779 action pref=100; accept AS12779:AS-CUSTOMERS
+import:         from AS12876 action pref=100; accept AS12876
+import:         from AS12989 action pref=100; accept AS-HIGHWINDS
+import:         from AS13002 action pref=100; accept AS-LINKEY
+import:         from AS13009 action pref=100; accept AS-REDCENTRIC
+import:         from AS13030 action pref=100; accept AS-INIT7
+import:         from AS13037 action pref=100; accept AS-ZEN
+import:         from AS13122 action pref=100; accept AS-MANX
+import:         from AS13193 action pref=100; accept AS-NERIM
+import:         from AS13194 action pref=100; accept AS-BITE
+import:         from AS13213 action pref=100; accept AS-UK2NET
+import:         from AS13238 action pref=100; accept AS-YANDEX
+import:         from AS13249 action pref=100; accept AS-ITS
+import:         from AS13285 action pref=100; accept AS-OPAL
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+import:         from AS13360 action pref=100; accept AS-STREAMTHEWORLD
+import:         from AS13445 action pref=100; accept AS-WEBEX
+import:         from AS13768 action pref=100; accept AS-PEERONECUST
+import:         from AS14061 action pref=100; accept AS-14061
+import:         from AS14127 action pref=100; accept AS14127
+import:         from AS14340 action pref=100; accept AS-SALESFORCE
+import:         from AS14413 action pref=100; accept AS-LINKEDIN
+import:         from AS15133 action pref=100; accept AS-EDGECAST
+import:         from AS15169 action pref=100; accept AS-GOOGLE
+import:         from AS15377 action pref=100; accept AS-FREGAT
+import:         from AS15399 action pref=100; accept AS-WANANCHIGROUP
+import:         from AS15516 action pref=100; accept AS-DK-ARROWHEAD
+import:         from AS15533 action pref=100; accept AS-SASEUROPE
+import:         from AS15547 action pref=100; accept AS15547:AS-NETPLUS
+import:         from AS15557 action pref=100; accept AS-LDCOMNET
+import:         from AS15600 action pref=100; accept AS-FINECOM
+import:         from AS15704 action pref=100; accept AS-MUNDI
+import:         from AS15772 action pref=100; accept AS-WNET
+import:         from AS15802 action pref=100; accept AS15802
+import:         from AS15830 action pref=100; accept AS-TELECITYGROUP
+import:         from AS15943 action pref=100; accept AS-WTNET
+import:         from AS15958 action pref=100; accept AS-TELENORDOO
+import:         from AS16082 action pref=100; accept AS-SPITFIRE
+import:         from AS16097 action pref=100; accept AS-HLKOMM
+import:         from AS16164 action pref=100; accept AS-SOHONET-UK
+import:         from AS16509 action pref=100; accept AS-AMAZON
+import:         from AS16276 action pref=100; accept AS-OVH
+import:         from AS16347 action pref=100; accept AS-RMI
+import:         from AS16637 action pref=100; accept AS-MTNNS
+import:         from AS17451 action pref=100; accept AS17451
+import:         from AS18001 action pref=100; accept AS18001
+import:         from AS18106 action pref=100; accept AS18106
+import:         from AS19551 action pref=100; accept AS-INCAPSULA
+import:         from AS19679 action pref=100; accept AS19679
+import:         from AS20473 action pref=100; accept AS-CHOOPA
+import:         from AS20485 action pref=100; accept AS-TTK
+import:         from AS20712 action pref=100; accept AS-AA
+import:         from AS20764 action pref=100; accept AS-RASCOM
+import:         from AS20773 action pref=100; accept AS20773:AS-HOSTEUROPE
+import:         from AS20804 action pref=100; accept AS-EXATEL-INT
+import:         from AS20860 action pref=100; accept AS-IOMART
+import:         from AS20886 action pref=100; accept AS-BLATZ
+import:         from AS20932 action pref=100; accept AS-SIG-TELECOM
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+import:         from AS21013 action pref=100; accept AS-ITANDTEL
+import:         from AS21219 action pref=100; accept AS-DATAGROUP
+import:         from AS21320 action pref=100; accept AS-GEANT-EUPEER
+import:         from AS21345 action pref=100; accept AS-MESSAGELABSEUROPE
+import:         from AS21357 action pref=100; accept AS21357
+import:         from AS22363 action pref=100; accept AS22363
+import:         from AS22697 action pref=100; accept AS-ROBLOX
+import:         from AS22822 action pref=100; accept AS-LLNW
+import:         from AS23106 action pref=100; accept AS-CEMIGTelecom-CLIENTES
+import:         from AS23148 action pref=100; accept AS23148
+import:         from AS23393 action pref=100; accept AS-ISPRIME
+import:         from AS23576 action pref=100; accept AS23576
+import:         from AS23947 action pref=100; accept AS23947:AS-GLOBAL
+import:         from AS24218 action pref=100; accept AS-SET-GTI-PIP
+import:         from AS24482 action pref=100; accept AS24482
+import:         from AS24724 action pref=100; accept AS24724:AS-FOREIGN
+import:         from AS24940 action pref=100; accept AS-HETZNER
+import:         from AS24916 action pref=100; accept AS-ORBITAL
+import:         from AS24961 action pref=100; accept AS-FIBRE1
+import:         from AS25091 action pref=100; accept AS-IP-MAX
+import:         from AS25148 action pref=100; accept AS-BASEFARM
+import:         from AS25152 action pref=100; accept AS-KROOT
+import:         from AS25178 action pref=100; accept AS-KEYCOM
+import:         from AS25180 action pref=100; accept AS-EXPONENTIAL-e
+import:         from AS25369 action pref=100; accept AS-BANDWIDTH
+import:         from AS25577 action pref=100; accept AS-C4L
+import:         from AS25605 action pref=100; accept AS25605
+import:         from AS26496 action pref=100; accept AS-GDG
+import:         from AS26667 action pref=100; accept AS-RUBICONPROJECT
+import:         from AS27630 action pref=100; accept AS-XFERNET
+import:         from AS27471 action pref=100; accept AS27471
+import:         from AS28598 action pref=100; accept AS-MOB-CUSTOMERS
+import:         from AS28716 action pref=100; accept AS-RETELIT
+import:         from AS28917 action pref=100; accept AS-FIORD
+import:         from AS29017 action pref=100; accept AS-GYRON
+import:         from AS29075 action pref=100; accept AS-IELO
+import:         from AS29119 action pref=100; accept AS-SERVIHOSTING
+import:         from AS29169 action pref=100; accept AS-GANDI
+import:         from AS29208 action pref=100; accept AS-DIALTELECOM
+import:         from AS29314 action pref=100; accept AS-VECTRA
+import:         from AS29405 action pref=100; accept AS-VNET
+import:         from AS29467 action pref=100; accept AS-LUXNETWORK
+import:         from AS29535 action pref=100; accept AS29535:AS-TRANSIT
+import:         from AS29606 action pref=100; accept AS-BORWOOD
+import:         from AS29632 action pref=100; accept AS-NETASSIST
+import:         from AS29791 action pref=100; accept AS-VOXEL
+import:         from AS30132 action pref=100; accept AS30132:AS-SET
+import:         from AS30844 action pref=100; accept AS-LIQUID
+import:         from AS31027 action pref=100; accept AS-NIANET
+import:         from AS31042 action pref=100; accept AS-SBB
+import:         from AS31122 action pref=100; accept AS-DIGIWEB
+import:         from AS31133 action pref=100; accept AS-MF-MGSM
+import:         from AS31334 action pref=100; accept AS-KDG
+import:         from AS31472 action pref=100; accept AS-VOICEHOST
+import:         from AS31500 action pref=100; accept AS-GLOBAL-NET
+import:         from AS31708 action pref=100; accept AS-COREIX
+import:         from AS31727 action pref=100; accept AS-NODE4
+import:         from AS32338 action pref=100; accept AS-HOSTISERVER
+import:         from AS32590 action pref=100; accept AS-VALVE
+import:         from AS32787 action pref=100; accept AS-PROLE
+import:         from AS32934 action pref=100; accept AS-FACEBOOK
+import:         from AS33047 action pref=100; accept AS-INSTART
+import:         from AS33353 action pref=100; accept AS-33353
+import:         from AS33891 action pref=100; accept AS-CORE-BACKBONE
+import:         from AS33915 action pref=100; accept AS-TNF
+import:         from AS34087 action pref=100; accept AS-NTE
+import:         from AS34177 action pref=100; accept AS-CELESTE
+import:         from AS34224 action pref=100; accept AS-NETERRA-INT
+import:         from AS34245 action pref=100; accept AS-MAGNETLOCAL
+import:         from AS34309 action pref=100; accept AS-LINK11
+import:         from AS34655 action pref=100; accept AS-DDITS
+import:         from AS34772 action pref=100; accept AS-NEOTEL-SET
+import:         from AS34779 action pref=100; accept AS-T2-CUST
+import:         from AS34934 action pref=100; accept AS-UKFAST
+import:         from AS35176 action pref=100; accept AS35176
+import:         from AS35297 action pref=100; accept AS-DL-WORLD
+import:         from AS35320 action pref=100; accept AS-ETT
+import:         from AS35425 action pref=100; accept AS-BYTEMARK
+import:         from AS35575 action pref=100; accept AS-VAIONI
+import:         from AS36351 action pref=100; accept AS-SOFTLAYER
+import:         from AS36408 action pref=100; accept AS-LIQUID
+import:         from AS36459 action pref=100; accept AS-GITHUB
+import:         from AS36692 action pref=100; accept AS-OPENDNS
+import:         from AS36944 action pref=100; accept AS-TERTIARY
+import:         from AS37054 action pref=100; accept AS37054
+import:         from AS37100 action pref=100; accept AS-SET-SEACOM
+import:         from AS37179 action pref=100; accept AS-AFRICAINX
+import:         from AS37187 action pref=100; accept AS-SKYBAND
+import:         from AS37271 action pref=100; accept AS-WOLCOMM
+import:         from AS37282 action pref=100; accept AS-MAINONE
+import:         from AS37468 action pref=100; accept AS-ANGOLACABLES
+import:         from AS37662 action pref=100; accept AS-WIOCC
+import:         from AS37678 action pref=100; accept AS-BOF-BW
+import:         from AS38001 action pref=100; accept AS-NEWMEDIAEXPRESS
+import:         from AS38082 action pref=100; accept AS-TIG-GROUP
+import:         from AS38040 action pref=100; accept AS38040:AS-peers
+import:         from AS38158 action pref=100; accept AS-NAPCBN
+import:         from AS38880 action pref=100; accept AS-M21
+import:         from AS39386 action pref=100; accept AS-IGW-SET
+import:         from AS39642 action pref=100; accept AS-SE-NET
+import:         from AS39651 action pref=100; accept AS-COMHEM
+import:         from AS39737 action pref=100; accept AS-NETVISIONTEL
+import:         from AS39912 action pref=100; accept AS-I3B-TRANSIT-V4
+import:         from AS40676 action pref=100; accept AS-40676
+import:         from AS41230 action pref=100; accept AS-ASK4
+import:         from AS41313 action pref=100; accept AS-NOVATEL
+import:         from AS41678 action pref=100; accept AS-TIBUS
+import:         from AS41811 action pref=100; accept AS-CONVERGENCE
+import:         from AS42353 action pref=100; accept AS-SIMWOOD
+import:         from AS42541 action pref=100; accept AS-FIBERBY
+import:         from AS42689 action pref=100; accept AS-GLIDE
+import:         from AS42708 action pref=100; accept AS-PORTLANE
+import:         from AS42831 action pref=100; accept AS-UKSERVERS
+import:         from AS42841 action pref=100; accept AS-ANTIK
+import:         from AS42861 action pref=100; accept AS-FOTONTELECOM
+import:         from AS43531 action pref=100; accept AS-IXREACH
+import:         from AS43727 action pref=100; accept AS-SETKT
+import:         from AS44034 action pref=100; accept AS-Hi3G
+import:         from AS44050 action pref=100; accept AS44050
+import:         from AS44444 action pref=100; accept AS-WHS-EU
+import:         from AS44684 action pref=100; accept AS-MYTHIC
+import:         from AS45102 action pref=100; accept AS45102
+import:         from AS45474 action pref=100; accept AS45474:AS-NEXUSGUARD
+import:         from AS45489 action pref=100; accept AS-SLT-GLOBAL
+import:         from AS45629 action pref=100; accept AS-45629
+import:         from AS45758 action pref=100; accept AS-TRIPLETNET
+import:         from AS45899 action pref=100; accept AS-45899CUST
+import:         from AS46489 action pref=100; accept AS-TWITCH
+import:         from AS46562 action pref=100; accept AS-COLOAT
+import:         from AS46786 action pref=100; accept AS-IPTRANSIT
+import:         from AS47195 action pref=100; accept AS-GAMEFORGE
+import:         from AS47232 action pref=100; accept AS-ISPA-NLIX
+import:         from AS47474 action pref=100; accept AS-Virtual1
+import:         from AS47480 action pref=100; accept AS-BTS
+import:         from AS47764 action pref=100; accept AS-MAILRU
+import:         from AS48166 action pref=100; accept AS-FORTEX
+import:         from AS48237 action pref=100; accept AS48237
+import:         from AS48526 action pref=100; accept AS-TANGO
+import:         from AS49505 action pref=100; accept AS-SELECTEL
+import:         from AS49964 action pref=100; accept AS-VERIXI
+import:         from AS50010 action pref=100; accept AS-50010
+import:         from AS50245 action pref=100; accept AS-SERVEREL
+import:         from AS50266 action pref=100; accept AS-PROJECTJAGUAR
+import:         from AS50300 action pref=100; accept AS-CUSTD
+import:         from AS50304 action pref=100; accept AS-BLIX
+import:         from AS50384 action pref=100; accept AS-W-IX
+import:         from AS50581 action pref=100; accept AS-UTG-UA
+import:         from AS51561 action pref=100; accept AS-ICUK
+import:         from AS52075 action pref=100; accept AS-WIFIRST
+import:         from AS51468 action pref=100; accept AS-ONECOM
+import:         from AS52320 action pref=100; accept AS-GNT
+import:         from AS54104 action pref=100; accept AS-NETDNA
+import:         from AS54113 action pref=100; accept AS-FASTLY
+import:         from AS54994 action pref=100; accept AS54994
+import:         from AS55818 action pref=100; accept AS55818:AS-PEERING
+import:         from AS56329 action pref=100; accept AS-GIGACLEAR
+import:         from AS56654 action pref=100; accept AS-INFINITYTELECOM
+import:         from AS56704 action pref=100; accept AS-FARICE
+import:         from AS57463 action pref=100; accept AS-NETIX-NET
+import:         from AS57811 action pref=100; accept AS-ATDS-SERVICES
+import:         from AS57976 action pref=100; accept AS57976
+import:         from AS58511 action pref=100; accept AS58511
+import:         from AS59318 action pref=100; accept AS59318
+import:         from AS59605 action pref=100; accept AS-ZAINGP
+import:         from AS60068 action pref=100; accept AS-CDN77
+import:         from AS60171 action pref=100; accept AS-SET-AFRIX
+import:         from AS60294 action pref=100; accept AS-DGW
+import:         from AS60610 action pref=100; accept AS-EVERESTDATA
+import:         from AS61012 action pref=100; accept AS-LIVEDRIVE
+import:         from AS62044 action pref=100; accept AS62044
+import:         from AS62217 action pref=100; accept AS62217
+import:         from AS62240 action pref=100; accept AS-CLOUVIDER
+import:         from AS62955 action pref=100; accept AS-EBAYMTBB
+import:         from AS63113 action pref=100; accept AS63113
+import:         from AS63541 action pref=100; accept AS63541
+import:         from AS63949 action pref=100; accept AS-LINODE
+import:         from AS64049 action pref=100; accept AS64049
+import:         from AS64050 action pref=100; accept AS-BGPNET
+import:         from AS132203 action pref=100; accept AS132591:AS-TENCENT
+import:         from AS132876 action pref=100; accept AS-132876
+import:         from AS134512 action pref=100; accept AS-HOSTPALACE
+import:         from AS135391 action pref=100; accept AS-AOFEI-INTL
+import:         from AS196844 action pref=100; accept AS196844:AS-AMSIX
+import:         from AS197301 action pref=100; accept AS-PARKNET
+import:         from AS197595 action pref=100; accept AS-OBENETWORK
+import:         from AS198781 action pref=100; accept AS-198781
+import:         from AS198792 action pref=100; accept AS-DSTORAGE
+import:         from AS199524 action pref=100; accept AS-WGI
+import:         from AS199599 action pref=100; accept AS-CIREX
+import:         from AS200052 action pref=100; accept AS-FERAL
+import:         from AS200130 action pref=100; accept AS-DIGITALOCEAN
+import:         from AS200507 action pref=100; accept AS200507:AS-FILTERS
+import:         from AS200612 action pref=100; accept AS-SETGBI
+import:         from AS202053 action pref=100; accept AS-UPCLOUD
+import:         from AS203724 action pref=100; accept AS203724
+import:         from AS327814 action pref=100; accept AS-SET-ECOBAND
+export:         to AS42 announce AS-ATOM86
+export:         to AS559 announce AS-ATOM86
+export:         to AS714 announce AS-ATOM86
+export:         to AS786 announce AS-ATOM86
+export:         to AS1103 announce AS-ATOM86
+export:         to AS1136 announce AS-ATOM86
+export:         to AS1267 announce AS-ATOM86
+export:         to AS1547 announce AS-ATOM86
+export:         to AS1764 announce AS-ATOM86
+export:         to AS2119 announce AS-ATOM86
+export:         to AS2603 announce AS-ATOM86
+export:         to AS2611 announce AS-ATOM86
+export:         to AS2635 announce AS-ATOM86
+export:         to AS2854 announce AS-ATOM86
+export:         to AS2860 announce AS-ATOM86
+export:         to AS2906 announce AS-ATOM86
+export:         to AS3209 announce AS-ATOM86
+export:         to AS3216 announce AS-ATOM86
+export:         to AS3223 announce AS-ATOM86
+export:         to AS3255 announce AS-ATOM86
+export:         to AS3267 announce AS-ATOM86
+export:         to AS3292 announce AS-ATOM86
+export:         to AS3303 announce AS-ATOM86
+export:         to AS3326 announce AS-ATOM86
+export:         to AS3327 announce AS-ATOM86
+export:         to AS3741 announce AS-ATOM86
+export:         to AS3856 announce AS-ATOM86
+export:         to AS4637 announce AS-ATOM86
+export:         to AS4651 announce AS-ATOM86
+export:         to AS4657 announce AS-ATOM86
+export:         to AS4761 announce AS-ATOM86
+export:         to AS4775 announce AS-ATOM86
+export:         to AS4788 announce AS-ATOM86
+export:         to AS4800 announce AS-ATOM86
+export:         to AS5400 announce AS-ATOM86
+export:         to AS5410 announce AS-ATOM86
+export:         to AS5459 announce AS-ATOM86
+export:         to AS5466 announce AS-ATOM86
+export:         to AS5607 announce AS-ATOM86
+export:         to AS5713 announce AS-ATOM86
+export:         to AS6412 announce AS-ATOM86
+export:         to AS6447 announce AS-ATOM86
+export:         to AS6507 announce AS-ATOM86
+export:         to AS6648 announce AS-ATOM86
+export:         to AS6661 announce AS-ATOM86
+export:         to AS6667 announce AS-ATOM86
+export:         to AS6677 announce AS-ATOM86
+export:         to AS6682 announce AS-ATOM86
+export:         to AS6724 announce AS-ATOM86
+export:         to AS6730 announce AS-ATOM86
+export:         to AS6830 announce AS-ATOM86
+export:         to AS6910 announce AS-ATOM86
+export:         to AS6939 announce AS-ATOM86
+export:         to AS7342 announce AS-ATOM86
+export:         to AS7713 announce AS-ATOM86
+export:         to AS8075 announce AS-ATOM86
+export:         to AS8220 announce AS-ATOM86
+export:         to AS8301 announce AS-ATOM86
+export:         to AS8339 announce AS-ATOM86
+export:         to AS8359 announce AS-ATOM86
+export:         to AS8365 announce AS-ATOM86
+export:         to AS8403 announce AS-ATOM86
+export:         to AS8422 announce AS-ATOM86
+export:         to AS8426 announce AS-ATOM86
+export:         to AS8447 announce AS-ATOM86
+export:         to AS8462 announce AS-ATOM86
+export:         to AS8468 announce AS-ATOM86
+export:         to AS8529 announce AS-ATOM86
+export:         to AS8530 announce AS-ATOM86
+export:         to AS8551 announce AS-ATOM86
+export:         to AS8560 announce AS-ATOM86
+export:         to AS8607 announce AS-ATOM86
+export:         to AS8632 announce AS-ATOM86
+export:         to AS8657 announce AS-ATOM86
+export:         to AS8674 announce AS-ATOM86
+export:         to AS8708 announce AS-ATOM86
+export:         to AS8732 announce AS-ATOM86
+export:         to AS8764 announce AS-ATOM86
+export:         to AS8767 announce AS-ATOM86
+export:         to AS8781 announce AS-ATOM86
+export:         to AS8821 announce AS-ATOM86
+export:         to AS8851 announce AS-ATOM86
+export:         to AS8866 announce AS-ATOM86
+export:         to AS8881 announce AS-ATOM86
+export:         to AS8932 announce AS-ATOM86
+export:         to AS8966 announce AS-ATOM86
+export:         to AS9002 announce AS-ATOM86
+export:         to AS9031 announce AS-ATOM86
+export:         to AS9050 announce AS-ATOM86
+export:         to AS9116 announce AS-ATOM86
+export:         to AS9145 announce AS-ATOM86
+export:         to AS9158 announce AS-ATOM86
+export:         to AS9304 announce AS-ATOM86
+export:         to AS9318 announce AS-ATOM86
+export:         to AS9498 announce AS-ATOM86
+export:         to AS9583 announce AS-ATOM86
+export:         to AS9680 announce AS-ATOM86
+export:         to AS10026 announce AS-ATOM86
+export:         to AS10310 announce AS-ATOM86
+export:         to AS10474 announce AS-ATOM86
+export:         to AS11179 announce AS-ATOM86
+export:         to AS12200 announce AS-ATOM86
+export:         to AS12301 announce AS-ATOM86
+export:         to AS12322 announce AS-ATOM86
+export:         to AS12350 announce AS-ATOM86
+export:         to AS12392 announce AS-ATOM86
+export:         to AS12552 announce AS-ATOM86
+export:         to AS12576 announce AS-ATOM86
+export:         to AS12578 announce AS-ATOM86
+export:         to AS12654 announce ANY
+export:         to AS12703 announce AS-ATOM86
+export:         to AS12713 announce AS-ATOM86
+export:         to AS12715 announce AS-ATOM86
+export:         to AS12741 announce AS-ATOM86
+export:         to AS12779 announce AS-ATOM86
+export:         to AS12876 announce AS-ATOM86
+export:         to AS12989 announce AS-ATOM86
+export:         to AS13002 announce AS-ATOM86
+export:         to AS13009 announce AS-ATOM86
+export:         to AS13030 announce AS-ATOM86
+export:         to AS13037 announce AS-ATOM86
+export:         to AS13122 announce AS-ATOM86
+export:         to AS13193 announce AS-ATOM86
+export:         to AS13194 announce AS-ATOM86
+export:         to AS13213 announce AS-ATOM86
+export:         to AS13238 announce AS-ATOM86
+export:         to AS13249 announce AS-ATOM86
+export:         to AS13285 announce AS-ATOM86
+export:         to AS13335 announce AS-ATOM86
+export:         to AS13360 announce AS-ATOM86
+export:         to AS13445 announce AS-ATOM86
+export:         to AS13768 announce AS-ATOM86
+export:         to AS14061 announce AS-ATOM86
+export:         to AS14127 announce AS-ATOM86
+export:         to AS14340 announce AS-ATOM86
+export:         to AS14413 announce AS-ATOM86
+export:         to AS15133 announce AS-ATOM86
+export:         to AS15169 announce AS-ATOM86
+export:         to AS15377 announce AS-ATOM86
+export:         to AS15399 announce AS-ATOM86
+export:         to AS15516 announce AS-ATOM86
+export:         to AS15533 announce AS-ATOM86
+export:         to AS15547 announce AS-ATOM86
+export:         to AS15557 announce AS-ATOM86
+export:         to AS15600 announce AS-ATOM86
+export:         to AS15704 announce AS-ATOM86
+export:         to AS15772 announce AS-ATOM86
+export:         to AS15802 announce AS-ATOM86
+export:         to AS15830 announce AS-ATOM86
+export:         to AS15943 announce AS-ATOM86
+export:         to AS15958 announce AS-ATOM86
+export:         to AS16082 announce AS-ATOM86
+export:         to AS16097 announce AS-ATOM86
+export:         to AS16164 announce AS-ATOM86
+export:         to AS16509 announce AS-ATOM86
+export:         to AS16276 announce AS-ATOM86
+export:         to AS16347 announce AS-ATOM86
+export:         to AS16637 announce AS-ATOM86
+export:         to AS17451 announce AS-ATOM86
+export:         to AS18001 announce AS-ATOM86
+export:         to AS18106 announce AS-ATOM86
+export:         to AS19551 announce AS-ATOM86
+export:         to AS19679 announce AS-ATOM86
+export:         to AS20473 announce AS-ATOM86
+export:         to AS20485 announce AS-ATOM86
+export:         to AS20712 announce AS-ATOM86
+export:         to AS20764 announce AS-ATOM86
+export:         to AS20773 announce AS-ATOM86
+export:         to AS20804 announce AS-ATOM86
+export:         to AS20860 announce AS-ATOM86
+export:         to AS20886 announce AS-ATOM86
+export:         to AS20932 announce AS-ATOM86
+export:         to AS20940 announce AS-ATOM86
+export:         to AS21013 announce AS-ATOM86
+export:         to AS21219 announce AS-ATOM86
+export:         to AS21320 announce AS-ATOM86
+export:         to AS21345 announce AS-ATOM86
+export:         to AS21357 announce AS-ATOM86
+export:         to AS22363 announce AS-ATOM86
+export:         to AS22697 announce AS-ATOM86
+export:         to AS22822 announce AS-ATOM86
+export:         to AS23106 announce AS-ATOM86
+export:         to AS23148 announce AS-ATOM86
+export:         to AS23393 announce AS-ATOM86
+export:         to AS23576 announce AS-ATOM86
+export:         to AS23947 announce AS-ATOM86
+export:         to AS24218 announce AS-ATOM86
+export:         to AS24482 announce AS-ATOM86
+export:         to AS24724 announce AS-ATOM86
+export:         to AS24940 announce AS-ATOM86
+export:         to AS24916 announce AS-ATOM86
+export:         to AS24961 announce AS-ATOM86
+export:         to AS25091 announce AS-ATOM86
+export:         to AS25148 announce AS-ATOM86
+export:         to AS25152 announce AS-ATOM86
+export:         to AS25178 announce AS-ATOM86
+export:         to AS25180 announce AS-ATOM86
+export:         to AS25369 announce AS-ATOM86
+export:         to AS25577 announce AS-ATOM86
+export:         to AS25605 announce AS-ATOM86
+export:         to AS26496 announce AS-ATOM86
+export:         to AS26667 announce AS-ATOM86
+export:         to AS27471 announce AS-ATOM86
+export:         to AS27630 announce AS-ATOM86
+export:         to AS28598 announce AS-ATOM86
+export:         to AS28716 announce AS-ATOM86
+export:         to AS28917 announce AS-ATOM86
+export:         to AS29017 announce AS-ATOM86
+export:         to AS29075 announce AS-ATOM86
+export:         to AS29119 announce AS-ATOM86
+export:         to AS29169 announce AS-ATOM86
+export:         to AS29208 announce AS-ATOM86
+export:         to AS29314 announce AS-ATOM86
+export:         to AS29405 announce AS-ATOM86
+export:         to AS29467 announce AS-ATOM86
+export:         to AS29535 announce AS-ATOM86
+export:         to AS29606 announce AS-ATOM86
+export:         to AS29632 announce AS-ATOM86
+export:         to AS29791 announce AS-ATOM86
+export:         to AS30132 announce AS-ATOM86
+export:         to AS30844 announce AS-ATOM86
+export:         to AS31027 announce AS-ATOM86
+export:         to AS31042 announce AS-ATOM86
+export:         to AS31122 announce AS-ATOM86
+export:         to AS31133 announce AS-ATOM86
+export:         to AS31334 announce AS-ATOM86
+export:         to AS31472 announce AS-ATOM86
+export:         to AS31500 announce AS-ATOM86
+export:         to AS31708 announce AS-ATOM86
+export:         to AS31727 announce AS-ATOM86
+export:         to AS32338 announce AS-ATOM86
+export:         to AS32590 announce AS-ATOM86
+export:         to AS32787 announce AS-ATOM86
+export:         to AS32934 announce AS-ATOM86
+export:         to AS33047 announce AS-ATOM86
+export:         to AS33353 announce AS-ATOM86
+export:         to AS33891 announce AS-ATOM86
+export:         to AS33915 announce AS-ATOM86
+export:         to AS34087 announce AS-ATOM86
+export:         to AS34177 announce AS-ATOM86
+export:         to AS34224 announce AS-ATOM86
+export:         to AS34245 announce AS-ATOM86
+export:         to AS34309 announce AS-ATOM86
+export:         to AS34655 announce AS-ATOM86
+export:         to AS34772 announce AS-ATOM86
+export:         to AS34779 announce AS-ATOM86
+export:         to AS34934 announce AS-ATOM86
+export:         to AS35176 announce AS-ATOM86
+export:         to AS35297 announce AS-ATOM86
+export:         to AS35320 announce AS-ATOM86
+export:         to AS35425 announce AS-ATOM86
+export:         to AS35575 announce AS-ATOM86
+export:         to AS36351 announce AS-ATOM86
+export:         to AS36408 announce AS-ATOM86
+export:         to AS36459 announce AS-ATOM86
+export:         to AS36692 announce AS-ATOM86
+export:         to AS36944 announce AS-ATOM86
+export:         to AS37054 announce AS-ATOM86
+export:         to AS37100 announce AS-ATOM86
+export:         to AS37179 announce AS-ATOM86
+export:         to AS37187 announce AS-ATOM86
+export:         to AS37271 announce AS-ATOM86
+export:         to AS37282 announce AS-ATOM86
+export:         to AS37468 announce AS-ATOM86
+export:         to AS37662 announce AS-ATOM86
+export:         to AS37678 announce AS-ATOM86
+export:         to AS38001 announce AS-ATOM86
+export:         to AS38040 announce AS-ATOM86
+export:         to AS38082 announce AS-ATOM86
+export:         to AS38158 announce AS-ATOM86
+export:         to AS38880 announce AS-ATOM86
+export:         to AS39386 announce AS-ATOM86
+export:         to AS39642 announce AS-ATOM86
+export:         to AS39651 announce AS-ATOM86
+export:         to AS39737 announce AS-ATOM86
+export:         to AS39912 announce AS-ATOM86
+export:         to AS40676 announce AS-ATOM86
+export:         to AS41230 announce AS-ATOM86
+export:         to AS41313 announce AS-ATOM86
+export:         to AS41678 announce AS-ATOM86
+export:         to AS41811 announce AS-ATOM86
+export:         to AS42353 announce AS-ATOM86
+export:         to AS42541 announce AS-ATOM86
+export:         to AS42689 announce AS-ATOM86
+export:         to AS42708 announce AS-ATOM86
+export:         to AS42831 announce AS-ATOM86
+export:         to AS42841 announce AS-ATOM86
+export:         to AS42861 announce AS-ATOM86
+export:         to AS43531 announce AS-ATOM86
+export:         to AS43727 announce AS-ATOM86
+export:         to AS44034 announce AS-ATOM86
+export:         to AS44050 announce AS-ATOM86
+export:         to AS44444 announce AS-ATOM86
+export:         to AS44684 announce AS-ATOM86
+export:         to AS45102 announce AS-ATOM86
+export:         to AS45474 announce AS-ATOM86
+export:         to AS45489 announce AS-ATOM86
+export:         to AS45629 announce AS-ATOM86
+export:         to AS45758 announce AS-ATOM86
+export:         to AS45899 announce AS-ATOM86
+export:         to AS46489 announce AS-ATOM86
+export:         to AS46562 announce AS-ATOM86
+export:         to AS46786 announce AS-ATOM86
+export:         to AS47195 announce AS-ATOM86
+export:         to AS47232 announce AS-ATOM86
+export:         to AS47474 announce AS-ATOM86
+export:         to AS47480 announce AS-ATOM86
+export:         to AS47764 announce AS-ATOM86
+export:         to AS48166 announce AS-ATOM86
+export:         to AS48237 announce AS-ATOM86
+export:         to AS48526 announce AS-ATOM86
+export:         to AS49505 announce AS-ATOM86
+export:         to AS49964 announce AS-ATOM86
+export:         to AS50010 announce AS-ATOM86
+export:         to AS50245 announce AS-ATOM86
+export:         to AS50266 announce AS-ATOM86
+export:         to AS50300 announce AS-ATOM86
+export:         to AS50304 announce AS-ATOM86
+export:         to AS50384 announce AS-ATOM86
+export:         to AS50581 announce AS-ATOM86
+export:         to AS51561 announce AS-ATOM86
+export:         to AS52075 announce AS-ATOM86
+export:         to AS51468 announce AS-ATOM86
+export:         to AS52320 announce AS-ATOM86
+export:         to AS54104 announce AS-ATOM86
+export:         to AS54113 announce AS-ATOM86
+export:         to AS54994 announce AS-ATOM86
+export:         to AS55818 announce AS-ATOM86
+export:         to AS56329 announce AS-ATOM86
+export:         to AS56654 announce AS-ATOM86
+export:         to AS56704 announce AS-ATOM86
+export:         to AS57463 announce AS-ATOM86
+export:         to AS57811 announce AS-ATOM86
+export:         to AS57976 announce AS-ATOM86
+export:         to AS58511 announce AS-ATOM86
+export:         to AS59318 announce AS-ATOM86
+export:         to AS59605 announce AS-ATOM86
+export:         to AS60068 announce AS-ATOM86
+export:         to AS60171 announce AS-ATOM86
+export:         to AS60294 announce AS-ATOM86
+export:         to AS60610 announce AS-ATOM86
+export:         to AS61012 announce AS-ATOM86
+export:         to AS62044 announce AS-ATOM86
+export:         to AS62217 announce AS-ATOM86
+export:         to AS62240 announce AS-ATOM86
+export:         to AS62955 announce AS-ATOM86
+export:         to AS63113 announce AS-ATOM86
+export:         to AS63541 announce AS-ATOM86
+export:         to AS63949 announce AS-ATOM86
+export:         to AS64049 announce AS-ATOM86
+export:         to AS64050 announce AS-ATOM86
+export:         to AS132203 announce AS-ATOM86
+export:         to AS132876 announce AS-ATOM86
+export:         to AS134512 announce AS-ATOM86
+export:         to AS135391 announce AS-ATOM86
+export:         to AS196844 announce AS-ATOM86
+export:         to AS197301 announce AS-ATOM86
+export:         to AS197595 announce AS-ATOM86
+export:         to AS198781 announce AS-ATOM86
+export:         to AS198792 announce AS-ATOM86
+export:         to AS199524 announce AS-ATOM86
+export:         to AS199599 announce AS-ATOM86
+export:         to AS200052 announce AS-ATOM86
+export:         to AS200130 announce AS-ATOM86
+export:         to AS200507 announce AS-ATOM86
+export:         to AS200612 announce AS-ATOM86
+export:         to AS202053 announce AS-ATOM86
+export:         to AS203724 announce AS-ATOM86
+export:         to AS327814 announce AS-ATOM86
+mp-import:      afi ipv6.unicast from AS42 action pref=100; accept AS-PCH
+mp-import:      afi ipv6.unicast from AS559 action pref=100; accept AS-SWITCH
+mp-import:      afi ipv6.unicast from AS714 action pref=100; accept AS-APPLE
+mp-import:      afi ipv6.unicast from AS786 action pref=100; accept AS-JANETPLUS
+mp-import:      afi ipv6.unicast from AS1103 action pref=100; accept AS-SURFNET
+mp-import:      afi ipv6.unicast from AS1136 action pref=100; accept AS-KPNV6
+mp-import:      afi ipv6.unicast from AS1267 action pref=100; accept AS-INFOSTRADA
+mp-import:      afi ipv6.unicast from AS1547 action pref=100; accept AS-IDK
+mp-import:      afi ipv6.unicast from AS1764 action pref=100; accept AS-NEXTLAYER
+mp-import:      afi ipv6.unicast from AS2119 action pref=100; accept AS-TELENOR
+mp-import:      afi ipv6.unicast from AS2603 action pref=100; accept AS-NORDUNET
+mp-import:      afi ipv6.unicast from AS2611 action pref=100; accept AS-BELNET
+mp-import:      afi ipv6.unicast from AS2635 action pref=100; accept AS2635
+mp-import:      afi ipv6.unicast from AS2854 action pref=100; accept AS-OBSRUSSIA6
+mp-import:      afi ipv6.unicast from AS2860 action pref=100; accept AS-NOVIS
+mp-import:      afi ipv6.unicast from AS2906 action pref=100; accept AS-NFLX
+mp-import:      afi ipv6.unicast from AS3209 action pref=100; accept AS-ARCORGLOBAL
+mp-import:      afi ipv6.unicast from AS3216 action pref=100; accept AS-SOVAM
+mp-import:      afi ipv6.unicast from AS3267 action pref=100; accept AS-RUNNET
+mp-import:      afi ipv6.unicast from AS3292 action pref=100; accept AS-TDCNET
+mp-import:      afi ipv6.unicast from AS3303 action pref=100; accept AS-SWCMGLOBAL
+mp-import:      afi ipv6.unicast from AS3326 action pref=100; accept AS3326:AS-EXT
+mp-import:      afi ipv6.unicast from AS3327 action pref=100; accept AS-LINXTELECOM
+mp-import:      afi ipv6.unicast from AS3741 action pref=100; accept AS-IS
+mp-import:      afi ipv6.unicast from AS3856 action pref=100; accept AS-PCH
+mp-import:      afi ipv6.unicast from AS4637 action pref=100; accept AS-TELSTRA-INTL-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS4651 action pref=100; accept AS-THIX
+mp-import:      afi ipv6.unicast from AS4657 action pref=100; accept AS-STARHUBINTERNET
+mp-import:      afi ipv6.unicast from AS4775 action pref=100; accept AS-TRANSIT-GLOBE
+mp-import:      afi ipv6.unicast from AS4788 action pref=100; accept AS-4788
+mp-import:      afi ipv6.unicast from AS4761 action pref=100; accept AS-INDOSAT
+mp-import:      afi ipv6.unicast from AS4800 action pref=100; accept AS-LINTASARTA-NAP
+mp-import:      afi ipv6.unicast from AS5400 action pref=100; accept AS-BT-EU
+mp-import:      afi ipv6.unicast from AS5410 action pref=100; accept AS-BOUYGTEL-ISP
+mp-import:      afi ipv6.unicast from AS5459 action pref=100; accept AS-LINX
+mp-import:      afi ipv6.unicast from AS5466 action pref=100; accept AS-EIRCOM
+mp-import:      afi ipv6.unicast from AS5607 action pref=100; accept AS-BSKYB-BROADBAND
+mp-import:      afi ipv6.unicast from AS5713 action pref=100; accept AS-SAIX
+mp-import:      afi ipv6.unicast from AS6412 action pref=100; accept AS-GNET-KW
+mp-import:      afi ipv6.unicast from AS6447 action pref=100; accept AS6447
+mp-import:      afi ipv6.unicast from AS6661 action pref=100; accept AS-PTLU
+mp-import:      afi ipv6.unicast from AS6667 action pref=100; accept AS-EUNETIP
+mp-import:      afi ipv6.unicast from AS6677 action pref=100; accept AS-ICENET
+mp-import:      afi ipv6.unicast from AS6682 action pref=100; accept AS-GNC
+mp-import:      afi ipv6.unicast from AS6724 action pref=100; accept AS-STRATORZ
+mp-import:      afi ipv6.unicast from AS6730 action pref=100; accept AS-GLOBAL
+mp-import:      afi ipv6.unicast from AS6830 action pref=100; accept AS-AORTA
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept AS-HURRICANE
+mp-import:      afi ipv6.unicast from AS7342 action pref=100; accept AS-VERISIGN
+mp-import:      afi ipv6.unicast from AS7713 action pref=100; accept AS7713:AS-TELKOM-TRANSIT
+mp-import:      afi ipv6.unicast from AS8075 action pref=100; accept AS-MICROSOFT
+mp-import:      afi ipv6.unicast from AS8220 action pref=100; accept AS-COLT
+mp-import:      afi ipv6.unicast from AS8301 action pref=100; accept AS8301:AS-Downstream
+mp-import:      afi ipv6.unicast from AS8339 action pref=100; accept AS-KABS
+mp-import:      afi ipv6.unicast from AS8359 action pref=100; accept AS-MTU-V6
+mp-import:      afi ipv6.unicast from AS8365 action pref=100; accept AS-MANDA
+mp-import:      afi ipv6.unicast from AS8403 action pref=100; accept AS-SPOTIFY
+mp-import:      afi ipv6.unicast from AS8422 action pref=100; accept AS-NETCOLOGNE
+mp-import:      afi ipv6.unicast from AS8426 action pref=100; accept AS-CLARANET
+mp-import:      afi ipv6.unicast from AS8447 action pref=100; accept AS-TA6
+mp-import:      afi ipv6.unicast from AS8462 action pref=100; accept AS-TARR
+mp-import:      afi ipv6.unicast from AS8468 action pref=100; accept AS-ENTANET
+mp-import:      afi ipv6.unicast from AS8529 action pref=100; accept AS-OMANTEL
+mp-import:      afi ipv6.unicast from AS8551 action pref=100; accept AS-BEZEQINT
+mp-import:      afi ipv6.unicast from AS8560 action pref=100; accept AS-1AND1
+mp-import:      afi ipv6.unicast from AS8607 action pref=100; accept AS-TIMICO
+mp-import:      afi ipv6.unicast from AS8632 action pref=100; accept AS-LOL
+mp-import:      afi ipv6.unicast from AS8657 action pref=100; accept AS-CPRM
+mp-import:      afi ipv6.unicast from AS8674 action pref=100; accept AS-NETNOD-ANYCAST
+mp-import:      afi ipv6.unicast from AS8708 action pref=100; accept AS-RDSNET
+mp-import:      afi ipv6.unicast from AS8732 action pref=100; accept AS-COMCOR
+mp-import:      afi ipv6.unicast from AS8764 action pref=100; accept AS-TEO6
+mp-import:      afi ipv6.unicast from AS8767 action pref=100; accept AS-MNETDE
+mp-import:      afi ipv6.unicast from AS8781 action pref=100; accept AS-QTEL-SET
+mp-import:      afi ipv6.unicast from AS8821 action pref=100; accept AS-TELEZUG
+mp-import:      afi ipv6.unicast from AS8851 action pref=100; accept AS-GCICOM
+mp-import:      afi ipv6.unicast from AS8866 action pref=100; accept AS-BTC-UP
+mp-import:      afi ipv6.unicast from AS8881 action pref=100; accept AS-VT-TRANSIT
+mp-import:      afi ipv6.unicast from AS8932 action pref=100; accept AS8932:AS-ALL
+mp-import:      afi ipv6.unicast from AS8966 action pref=100; accept AS-EMIX
+mp-import:      afi ipv6.unicast from AS9002 action pref=100; accept AS-RETN6
+mp-import:      afi ipv6.unicast from AS9031 action pref=100; accept AS-EDPNET-V6
+mp-import:      afi ipv6.unicast from AS9050 action pref=100; accept AS-RTD
+mp-import:      afi ipv6.unicast from AS9116 action pref=100; accept AS-GOLDEN
+mp-import:      afi ipv6.unicast from AS9145 action pref=100; accept AS-EWETEL
+mp-import:      afi ipv6.unicast from AS9158 action pref=100; accept AS-TELENOR-DENMARK
+mp-import:      afi ipv6.unicast from AS9304 action pref=100; accept AS-HUTCHCITY
+mp-import:      afi ipv6.unicast from AS9318 action pref=100; accept AS-SKBROADBAND
+mp-import:      afi ipv6.unicast from AS9498 action pref=100; accept AS-BHARTI-IN
+mp-import:      afi ipv6.unicast from AS9583 action pref=100; accept AS9583:AS-SIFY
+mp-import:      afi ipv6.unicast from AS9680 action pref=100; accept AS-HINET
+mp-import:      afi ipv6.unicast from AS10026 action pref=100; accept AS-PACNET
+mp-import:      afi ipv6.unicast from AS10310 action pref=100; accept AS-YAHOO
+mp-import:      afi ipv6.unicast from AS10474 action pref=100; accept AS-OPTINET
+mp-import:      afi ipv6.unicast from AS12200 action pref=100; accept AS-RACKSPACE
+mp-import:      afi ipv6.unicast from AS12301 action pref=100; accept AS12301:AS-ROUTES
+mp-import:      afi ipv6.unicast from AS12322 action pref=100; accept AS-PROXAD
+mp-import:      afi ipv6.unicast from AS12350 action pref=100; accept AS-VTX
+mp-import:      afi ipv6.unicast from AS12392 action pref=100; accept AS-BRUTELE
+mp-import:      afi ipv6.unicast from AS12552 action pref=100; accept AS-IPO
+mp-import:      afi ipv6.unicast from AS12576 action pref=100; accept AS12576
+mp-import:      afi ipv6.unicast from AS12578 action pref=100; accept AS-LATTELEKOM
+mp-import:      afi ipv6.unicast from AS12654 action pref=100; accept AS12654
+mp-import:      afi ipv6.unicast from AS12703 action pref=100; accept AS-PULSANT-V6
+mp-import:      afi ipv6.unicast from AS12713 action pref=100; accept AS-OTEGLOBE
+mp-import:      afi ipv6.unicast from AS12715 action pref=100; accept AS-JAZZTRANS
+mp-import:      afi ipv6.unicast from AS12741 action pref=100; accept AS-NETIA
+mp-import:      afi ipv6.unicast from AS12779 action pref=100; accept AS12779:AS-CUSTOMERS-V6
+mp-import:      afi ipv6.unicast from AS12876 action pref=100; accept AS12876
+mp-import:      afi ipv6.unicast from AS12989 action pref=100; accept AS-HIGHWINDS
+mp-import:      afi ipv6.unicast from AS13002 action pref=100; accept AS-LINKEY
+mp-import:      afi ipv6.unicast from AS13009 action pref=100; accept AS-REDCENTRIC
+mp-import:      afi ipv6.unicast from AS13037 action pref=100; accept AS-ZEN
+mp-import:      afi ipv6.unicast from AS13193 action pref=100; accept AS-NERIM
+mp-import:      afi ipv6.unicast from AS13194 action pref=100; accept AS-BITE
+mp-import:      afi ipv6.unicast from AS13213 action pref=100; accept AS-UK2NET
+mp-import:      afi ipv6.unicast from AS13238 action pref=100; accept AS-YANDEX
+mp-import:      afi ipv6.unicast from AS13249 action pref=100; accept AS-ITS
+mp-import:      afi ipv6.unicast from AS13285 action pref=100; accept AS-OPAL
+mp-import:      afi ipv6.unicast from AS13335 action pref=100; accept AS-CLOUDFLARE
+mp-import:      afi ipv6.unicast from AS13445 action pref=100; accept AS-WEBEX
+mp-import:      afi ipv6.unicast from AS13768 action pref=100; accept AS-PEERONECUST
+mp-import:      afi ipv6.unicast from AS14061 action pref=100; accept AS-14061
+mp-import:      afi ipv6.unicast from AS14340 action pref=100; accept AS-SALESFORCE
+mp-import:      afi ipv6.unicast from AS14413 action pref=100; accept AS-LINKEDIN
+mp-import:      afi ipv6.unicast from AS15133 action pref=100; accept AS-EDGECAST
+mp-import:      afi ipv6.unicast from AS15169 action pref=100; accept AS-GOOGLE
+mp-import:      afi ipv6.unicast from AS15516 action pref=100; accept AS-DK-ARROWHEAD
+mp-import:      afi ipv6.unicast from AS15533 action pref=100; accept AS-SASEUROPE
+mp-import:      afi ipv6.unicast from AS15547 action pref=100; accept AS15547:AS-NETPLUS
+mp-import:      afi ipv6.unicast from AS15557 action pref=100; accept AS-LDCOMNET
+mp-import:      afi ipv6.unicast from AS15600 action pref=100; accept AS-FINECOM
+mp-import:      afi ipv6.unicast from AS15704 action pref=100; accept AS-MUNDI
+mp-import:      afi ipv6.unicast from AS15772 action pref=100; accept AS-WNET
+mp-import:      afi ipv6.unicast from AS15830 action pref=100; accept AS-TELECITYGROUP
+mp-import:      afi ipv6.unicast from AS15943 action pref=100; accept AS-WTNET
+mp-import:      afi ipv6.unicast from AS15958 action pref=100; accept AS-TELENORDOO
+mp-import:      afi ipv6.unicast from AS16082 action pref=100; accept AS-SPITFIRE
+mp-import:      afi ipv6.unicast from AS16097 action pref=100; accept AS-HLKOMM
+mp-import:      afi ipv6.unicast from AS16164 action pref=100; accept AS-SOHONET-UK
+mp-import:      afi ipv6.unicast from AS16509 action pref=100; accept AS-AMAZON
+mp-import:      afi ipv6.unicast from AS16276 action pref=100; accept AS-OVH
+mp-import:      afi ipv6.unicast from AS16347 action pref=100; accept AS-RMI
+mp-import:      afi ipv6.unicast from AS16637 action pref=100; accept AS-MTNNS
+mp-import:      afi ipv6.unicast from AS17451 action pref=100; accept AS17451
+mp-import:      afi ipv6.unicast from AS18001 action pref=100; accept AS18001
+mp-import:      afi ipv6.unicast from AS18106 action pref=100; accept AS18106
+mp-import:      afi ipv6.unicast from AS19551 action pref=100; accept AS-INCAPSULA
+mp-import:      afi ipv6.unicast from AS19679 action pref=100; accept AS19679
+mp-import:      afi ipv6.unicast from AS20473 action pref=100; accept AS-CHOOPA
+mp-import:      afi ipv6.unicast from AS20485 action pref=100; accept AS-TTK
+mp-import:      afi ipv6.unicast from AS20712 action pref=100; accept AS-AA
+mp-import:      afi ipv6.unicast from AS20764 action pref=100; accept AS-RASCOM
+mp-import:      afi ipv6.unicast from AS20773 action pref=100; accept AS20773:AS-HOSTEUROPE
+mp-import:      afi ipv6.unicast from AS20804 action pref=100; accept AS-EXATEL-INT
+mp-import:      afi ipv6.unicast from AS20860 action pref=100; accept AS-IOMART
+mp-import:      afi ipv6.unicast from AS20886 action pref=100; accept AS-BLATZ-V6
+mp-import:      afi ipv6.unicast from AS20932 action pref=100; accept AS-SIG-TELECOM
+mp-import:      afi ipv6.unicast from AS20940 action pref=100; accept AS-AKAMAI
+mp-import:      afi ipv6.unicast from AS21013 action pref=100; accept AS-ITANDTEL
+mp-import:      afi ipv6.unicast from AS21219 action pref=100; accept AS-DATAGROUP
+mp-import:      afi ipv6.unicast from AS21320 action pref=100; accept AS-GEANT-EUPEER
+mp-import:      afi ipv6.unicast from AS21345 action pref=100; accept AS-MESSAGELABSEUROPE
+mp-import:      afi ipv6.unicast from AS22697 action pref=100; accept AS-ROBLOX
+mp-import:      afi ipv6.unicast from AS23106 action pref=100; accept AS-CEMIGTelecom-CLIENTES
+mp-import:      afi ipv6.unicast from AS23148 action pref=100; accept AS23148
+mp-import:      afi ipv6.unicast from AS22822 action pref=100; accept AS-LLNW
+mp-import:      afi ipv6.unicast from AS23947 action pref=100; accept AS23947:AS-GLOBAL
+mp-import:      afi ipv6.unicast from AS23393 action pref=100; accept AS-ISPRIME
+mp-import:      afi ipv6.unicast from AS24218 action pref=100; accept AS-SET-GTI-PIP
+mp-import:      afi ipv6.unicast from AS24482 action pref=100; accept AS24482
+mp-import:      afi ipv6.unicast from AS24724 action pref=100; accept AS24724:AS-FOREIGN
+mp-import:      afi ipv6.unicast from AS24940 action pref=100; accept AS-HETZNER
+mp-import:      afi ipv6.unicast from AS24961 action pref=100; accept AS-FIBRE1
+mp-import:      afi ipv6.unicast from AS25091 action pref=100; accept AS-IP-MAX-V6
+mp-import:      afi ipv6.unicast from AS25148 action pref=100; accept AS-BASEFARM
+mp-import:      afi ipv6.unicast from AS25152 action pref=100; accept AS-KROOT
+mp-import:      afi ipv6.unicast from AS25178 action pref=100; accept AS-KEYCOM
+mp-import:      afi ipv6.unicast from AS25180 action pref=100; accept AS-EXPONENTIAL-e
+mp-import:      afi ipv6.unicast from AS25369 action pref=100; accept AS-BANDWIDTH
+mp-import:      afi ipv6.unicast from AS25577 action pref=100; accept AS-C4L
+mp-import:      afi ipv6.unicast from AS25605 action pref=100; accept AS25605
+mp-import:      afi ipv6.unicast from AS26496 action pref=100; accept AS-GDG
+mp-import:      afi ipv6.unicast from AS26667 action pref=100; accept AS-RUBICONPROJECT
+mp-import:      afi ipv6.unicast from AS27630 action pref=100; accept AS-XFERNET
+mp-import:      afi ipv6.unicast from AS28598 action pref=100; accept AS-MOB-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS28716 action pref=100; accept AS-RETELIT
+mp-import:      afi ipv6.unicast from AS28917 action pref=100; accept AS-FIORD
+mp-import:      afi ipv6.unicast from AS29017 action pref=100; accept AS-GYRON
+mp-import:      afi ipv6.unicast from AS29075 action pref=100; accept AS-IELO
+mp-import:      afi ipv6.unicast from AS29119 action pref=100; accept AS-SERVIHOSTING
+mp-import:      afi ipv6.unicast from AS29169 action pref=100; accept AS-GANDI
+mp-import:      afi ipv6.unicast from AS29208 action pref=100; accept AS-DIALTELECOM
+mp-import:      afi ipv6.unicast from AS29314 action pref=100; accept AS-VECTRA
+mp-import:      afi ipv6.unicast from AS29405 action pref=100; accept AS-VNET
+mp-import:      afi ipv6.unicast from AS29467 action pref=100; accept AS-LUXNETWORK
+mp-import:      afi ipv6.unicast from AS29632 action pref=100; accept AS-NETASSIST
+mp-import:      afi ipv6.unicast from AS29791 action pref=100; accept AS-VOXEL
+mp-import:      afi ipv6.unicast from AS30132 action pref=100; accept AS30132:AS-SET
+mp-import:      afi ipv6.unicast from AS30844 action pref=100; accept AS-LIQUID
+mp-import:      afi ipv6.unicast from AS31027 action pref=100; accept AS-NIANET
+mp-import:      afi ipv6.unicast from AS31042 action pref=100; accept AS-SBB
+mp-import:      afi ipv6.unicast from AS31122 action pref=100; accept AS-DIGIWEB
+mp-import:      afi ipv6.unicast from AS31133 action pref=100; accept AS-MF-MGSM
+mp-import:      afi ipv6.unicast from AS31334 action pref=100; accept AS-KDG
+mp-import:      afi ipv6.unicast from AS31472 action pref=100; accept AS-VOICEHOST
+mp-import:      afi ipv6.unicast from AS31500 action pref=100; accept AS-GLOBAL-NET
+mp-import:      afi ipv6.unicast from AS31708 action pref=100; accept AS-COREIX
+mp-import:      afi ipv6.unicast from AS31727 action pref=100; accept AS-NODE4
+mp-import:      afi ipv6.unicast from AS32338 action pref=100; accept AS-HOSTISERVER
+mp-import:      afi ipv6.unicast from AS32590 action pref=100; accept AS-VALVE
+mp-import:      afi ipv6.unicast from AS32787 action pref=100; accept AS-PROLE
+mp-import:      afi ipv6.unicast from AS32934 action pref=100; accept AS-FACEBOOK
+mp-import:      afi ipv6.unicast from AS33047 action pref=100; accept AS-INSTART
+mp-import:      afi ipv6.unicast from AS33353 action pref=100; accept AS-33353
+mp-import:      afi ipv6.unicast from AS33891 action pref=100; accept AS-CORE-BACKBONE
+mp-import:      afi ipv6.unicast from AS33915 action pref=100; accept AS-TNF
+mp-import:      afi ipv6.unicast from AS34087 action pref=100; accept AS-NTE
+mp-import:      afi ipv6.unicast from AS34177 action pref=100; accept AS-CELESTE
+mp-import:      afi ipv6.unicast from AS34224 action pref=100; accept AS-NETERRA-INT
+mp-import:      afi ipv6.unicast from AS34245 action pref=100; accept AS-MAGNETLOCAL
+mp-import:      afi ipv6.unicast from AS34309 action pref=100; accept AS-LINK11
+mp-import:      afi ipv6.unicast from AS34655 action pref=100; accept AS-DDITS
+mp-import:      afi ipv6.unicast from AS34772 action pref=100; accept AS-NEOTEL-SET
+mp-import:      afi ipv6.unicast from AS34779 action pref=100; accept AS-T2-CUST
+mp-import:      afi ipv6.unicast from AS34934 action pref=100; accept AS-UKFAST
+mp-import:      afi ipv6.unicast from AS35297 action pref=100; accept AS-DL-WORLD
+mp-import:      afi ipv6.unicast from AS35320 action pref=100; accept AS-ETT
+mp-import:      afi ipv6.unicast from AS35425 action pref=100; accept AS-BYTEMARK
+mp-import:      afi ipv6.unicast from AS35575 action pref=100; accept AS-VAIONI
+mp-import:      afi ipv6.unicast from AS36351 action pref=100; accept AS-SOFTLAYER
+mp-import:      afi ipv6.unicast from AS36408 action pref=100; accept AS-CDNETWORKS
+mp-import:      afi ipv6.unicast from AS36459 action pref=100; accept AS-GITHUB
+mp-import:      afi ipv6.unicast from AS36692 action pref=100; accept AS-OPENDNS
+mp-import:      afi ipv6.unicast from AS36944 action pref=100; accept AS-TERTIARY
+mp-import:      afi ipv6.unicast from AS37100 action pref=100; accept AS-SET-SEACOM
+mp-import:      afi ipv6.unicast from AS37179 action pref=100; accept AS-AFRICAINX
+mp-import:      afi ipv6.unicast from AS37187 action pref=100; accept AS-SKYBAND
+mp-import:      afi ipv6.unicast from AS37271 action pref=100; accept AS-WOLCOMM
+mp-import:      afi ipv6.unicast from AS37282 action pref=100; accept AS-MAINONE
+mp-import:      afi ipv6.unicast from AS37468 action pref=100; accept AS-ANGOLACABLES
+mp-import:      afi ipv6.unicast from AS37662 action pref=100; accept AS-WIOCC
+mp-import:      afi ipv6.unicast from AS38001 action pref=100; accept AS-NEWMEDIAEXPRESS
+mp-import:      afi ipv6.unicast from AS38040 action pref=100; accept AS38040:AS-peers
+mp-import:      afi ipv6.unicast from AS38082 action pref=100; accept AS-TIG-GROUP
+mp-import:      afi ipv6.unicast from AS38158 action pref=100; accept AS-NAPCBN
+mp-import:      afi ipv6.unicast from AS38880 action pref=100; accept AS-M21
+mp-import:      afi ipv6.unicast from AS39386 action pref=100; accept AS-IGW-SET
+mp-import:      afi ipv6.unicast from AS39642 action pref=100; accept AS-SE-NET
+mp-import:      afi ipv6.unicast from AS39651 action pref=100; accept AS-COMHEM
+mp-import:      afi ipv6.unicast from AS39737 action pref=100; accept AS-NETVISIONTEL
+mp-import:      afi ipv6.unicast from AS39912 action pref=100; accept AS-I3B-TRANSIT-V6
+mp-import:      afi ipv6.unicast from AS40676 action pref=100; accept AS-40676
+mp-import:      afi ipv6.unicast from AS41230 action pref=100; accept AS-ASK4
+mp-import:      afi ipv6.unicast from AS41313 action pref=100; accept AS-NOVATEL-IPV6
+mp-import:      afi ipv6.unicast from AS41811 action pref=100; accept AS-CONVERGENCE
+mp-import:      afi ipv6.unicast from AS42541 action pref=100; accept AS-FIBERBY
+mp-import:      afi ipv6.unicast from AS42708 action pref=100; accept AS-PORTLANE
+mp-import:      afi ipv6.unicast from AS42831 action pref=100; accept AS-UKSERVERS
+mp-import:      afi ipv6.unicast from AS42841 action pref=100; accept AS-ANTIK
+mp-import:      afi ipv6.unicast from AS42861 action pref=100; accept AS-FOTONTELECOM
+mp-import:      afi ipv6.unicast from AS43531 action pref=100; accept AS-IXREACH
+mp-import:      afi ipv6.unicast from AS44034 action pref=100; accept AS-Hi3G
+mp-import:      afi ipv6.unicast from AS44050 action pref=100; accept AS44050
+mp-import:      afi ipv6.unicast from AS44444 action pref=100; accept AS-WHS-EU
+mp-import:      afi ipv6.unicast from AS44684 action pref=100; accept AS-MYTHIC
+mp-import:      afi ipv6.unicast from AS45489 action pref=100; accept AS-SLT-GLOBAL
+mp-import:      afi ipv6.unicast from AS45629 action pref=100; accept AS-45629
+mp-import:      afi ipv6.unicast from AS45758 action pref=100; accept AS-TRIPLETNET
+mp-import:      afi ipv6.unicast from AS45899 action pref=100; accept AS-45899CUST
+mp-import:      afi ipv6.unicast from AS46489 action pref=100; accept AS-TWITCH
+mp-import:      afi ipv6.unicast from AS46562 action pref=100; accept AS-COLOAT
+mp-import:      afi ipv6.unicast from AS46786 action pref=100; accept AS-IPTRANSIT
+mp-import:      afi ipv6.unicast from AS47195 action pref=100; accept AS-GAMEFORGEV6
+mp-import:      afi ipv6.unicast from AS47232 action pref=100; accept AS-ISPA-NLIX
+mp-import:      afi ipv6.unicast from AS47474 action pref=100; accept AS-Virtual1
+mp-import:      afi ipv6.unicast from AS47764 action pref=100; accept AS-MAILRU
+mp-import:      afi ipv6.unicast from AS48166 action pref=100; accept AS-FORTEX6
+mp-import:      afi ipv6.unicast from AS48237 action pref=100; accept AS48237
+mp-import:      afi ipv6.unicast from AS48526 action pref=100; accept AS-TANGO
+mp-import:      afi ipv6.unicast from AS49505 action pref=100; accept AS-SELECTEL
+mp-import:      afi ipv6.unicast from AS49964 action pref=100; accept AS-VERIXI
+mp-import:      afi ipv6.unicast from AS50010 action pref=100; accept AS-50010
+mp-import:      afi ipv6.unicast from AS50245 action pref=100; accept AS-SERVEREL
+mp-import:      afi ipv6.unicast from AS50266 action pref=100; accept AS-PROJECTJAGUAR
+mp-import:      afi ipv6.unicast from AS50300 action pref=100; accept AS-CUSTDC
+mp-import:      afi ipv6.unicast from AS50304 action pref=100; accept AS-BLIX
+mp-import:      afi ipv6.unicast from AS50384 action pref=100; accept AS-W-IX-IPVSIX
+mp-import:      afi ipv6.unicast from AS50581 action pref=100; accept AS-UTG-UA
+mp-import:      afi ipv6.unicast from AS51561 action pref=100; accept AS-ICUK
+mp-import:      afi ipv6.unicast from AS52075 action pref=100; accept AS-WIFIRST
+mp-import:      afi ipv6.unicast from AS51468 action pref=100; accept AS-ONECOM
+mp-import:      afi ipv6.unicast from AS52320 action pref=100; accept AS-GNT
+mp-import:      afi ipv6.unicast from AS54104 action pref=100; accept AS-NETDNA
+mp-import:      afi ipv6.unicast from AS54113 action pref=100; accept AS-FASTLY
+mp-import:      afi ipv6.unicast from AS55818 action pref=100; accept AS55818:AS-PEERING
+mp-import:      afi ipv6.unicast from AS56329 action pref=100; accept AS-GIGACLEAR
+mp-import:      afi ipv6.unicast from AS56704 action pref=100; accept AS-FARICE
+mp-import:      afi ipv6.unicast from AS57976 action pref=100; accept AS57976
+mp-import:      afi ipv6.unicast from AS58511 action pref=100; accept AS58511
+mp-import:      afi ipv6.unicast from AS59318 action pref=100; accept AS59318
+mp-import:      afi ipv6.unicast from AS59605 action pref=100; accept AS-ZAINGP
+mp-import:      afi ipv6.unicast from AS60171 action pref=100; accept AS-SET-AFRIX
+mp-import:      afi ipv6.unicast from AS60294 action pref=100; accept AS-DGW
+mp-import:      afi ipv6.unicast from AS60610 action pref=100; accept AS-EVERESTDATA
+mp-import:      afi ipv6.unicast from AS61012 action pref=100; accept AS-LIVEDRIVE
+mp-import:      afi ipv6.unicast from AS62217 action pref=100; accept AS62217
+mp-import:      afi ipv6.unicast from AS62240 action pref=100; accept AS-CLOUVIDER
+mp-import:      afi ipv6.unicast from AS62955 action pref=100; accept AS-EBAYMTBB
+mp-import:      afi ipv6.unicast from AS63949 action pref=100; accept AS-LINODE
+mp-import:      afi ipv6.unicast from AS64049 action pref=100; accept AS64049
+mp-import:      afi ipv6.unicast from AS64050 action pref=100; accept AS-BGPNET
+mp-import:      afi ipv6.unicast from AS132876 action pref=100; accept AS-132876
+mp-import:      afi ipv6.unicast from AS134512 action pref=100; accept AS-HOSTPALACE
+mp-import:      afi ipv6.unicast from AS135391 action pref=100; accept AS-AOFEI-INTL
+mp-import:      afi ipv6.unicast from AS196844 action pref=100; accept AS196844:AS-AMSIX
+mp-import:      afi ipv6.unicast from AS197301 action pref=100; accept AS-PARKNET
+mp-import:      afi ipv6.unicast from AS197595 action pref=100; accept AS-OBENETWORK
+mp-import:      afi ipv6.unicast from AS198781 action pref=100; accept AS-198781
+mp-import:      afi ipv6.unicast from AS198792 action pref=100; accept AS-DSTORAGE
+mp-import:      afi ipv6.unicast from AS199524 action pref=100; accept AS-WGI
+mp-import:      afi ipv6.unicast from AS199599 action pref=100; accept AS-CIREX-IPV6
+mp-import:      afi ipv6.unicast from AS200130 action pref=100; accept AS-DIGITALOCEAN
+mp-import:      afi ipv6.unicast from AS200507 action pref=100; accept AS200507:AS-FILTERS
+mp-import:      afi ipv6.unicast from AS202053 action pref=100; accept AS-UPCLOUD
+mp-import:      afi ipv6.unicast from AS203724 action pref=100; accept AS203724
+mp-export:      afi ipv6.unicast to AS42 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS559 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS714 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS786 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS1103 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS1136 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS1267 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS1547 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS1764 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS2119 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS2603 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS2611 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS2635 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS2854 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS2860 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS2906 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3209 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3216 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3267 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3292 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3303 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3326 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3327 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3741 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS3856 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS4637 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS4651 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS4657 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS4761 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS4775 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS4788 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS4800 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS5400 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS5410 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS5459 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS5466 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS5607 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS5713 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6412 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6447 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6661 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6667 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6677 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6682 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6724 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6730 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6830 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS7342 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS7713 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8075 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8220 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8301 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8339 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8359 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8365 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8403 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8422 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8426 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8447 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8462 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8468 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8529 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8551 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8560 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8607 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8632 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8657 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8674 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8708 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8732 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8764 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8767 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8781 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8821 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8851 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8866 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8881 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8932 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS8966 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9002 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9031 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9050 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9116 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9145 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9158 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9304 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9318 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9498 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9583 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS9680 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS10026 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS10310 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS10474 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12200 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12301 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12322 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12350 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12392 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12552 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12576 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12578 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12654 announce ANY
+mp-export:      afi ipv6.unicast to AS12703 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12713 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12715 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12741 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12779 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12876 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS12989 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13002 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13009 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13037 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13193 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13194 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13213 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13238 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13249 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13285 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13335 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13445 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS13768 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS14061 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS14340 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS14413 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15133 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15169 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15516 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15533 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15547 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15557 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15600 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15704 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15772 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15830 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15943 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS15958 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS16082 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS16097 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS16164 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS16509 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS16276 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS16347 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS16637 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS17451 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS18001 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS18106 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS19551 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS19679 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20485 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20764 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20932 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20473 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20712 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20773 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20804 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20860 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20886 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS20940 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS21013 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS21219 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS21320 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS21345 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS22697 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS22822 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS23106 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS23148 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS23947 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS23393 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS24218 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS24482 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS24724 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS24940 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS24961 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS25091 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS25148 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS25152 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS25178 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS25180 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS25369 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS25577 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS25605 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS26496 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS26667 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS27630 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS28598 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS28716 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS28917 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29017 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29075 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29119 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29169 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29208 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29314 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29405 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29467 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29632 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS29791 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS30132 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS30844 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31027 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31042 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31122 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31133 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31334 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31472 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31500 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31708 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS31727 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS32338 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS32590 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS32787 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS32934 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS33047 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS33353 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS33891 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS33915 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34087 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34177 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34224 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34245 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34309 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34655 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34772 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34779 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS34934 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS35297 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS35320 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS35425 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS35575 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS36351 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS36408 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS36459 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS36692 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS36944 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS37100 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS37179 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS37187 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS37271 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS37282 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS37468 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS37662 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS38001 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS38040 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS38082 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS38158 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS38880 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS39386 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS39642 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS39651 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS39737 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS39912 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS40676 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS41230 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS41313 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS41811 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS42541 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS42708 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS42831 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS42841 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS42861 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS43531 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS44034 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS44050 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS44444 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS44684 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS45489 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS45629 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS45758 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS45899 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS46489 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS46562 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS46786 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS47195 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS47232 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS47474 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS47764 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS48166 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS48237 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS48526 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS49505 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS49964 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS50010 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS50245 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS50266 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS50300 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS50304 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS50384 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS50581 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS51561 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS52075 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS51468 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS52320 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS54104 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS54113 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS55818 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS56329 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS56704 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS57976 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS58511 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS59318 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS59605 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS60171 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS60294 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS60610 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS61012 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS62217 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS62240 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS62955 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS63949 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS64049 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS64050 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS132876 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS134512 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS135391 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS196844 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS197301 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS197595 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS198781 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS198792 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS199524 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS199599 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS200130 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS200507 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS202053 announce AS-ATOM86
+mp-export:      afi ipv6.unicast to AS203724 announce AS-ATOM86
+org:            ORG-SPB2-RIPE
+admin-c:        ATOM86-RIPE
+tech-c:         ATOM86-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        -----------------------------------------------------
+remarks:        website: www.atom86.net
+remarks:        Please send abuse reports to: abuse@atom86.net
+remarks:        Please send network issues to: noc@atom86.net
+remarks:        -----------------------------------------------------
+remarks:        *** AS8455 COMMUNITIES ***
+remarks:        --- Local Pref Value ---
+remarks:        upstream-in 80
+remarks:        peer-in 100
+remarks:        transit-in - blackhole 240
+remarks:        transit-in 200
+remarks:        transit-as-backup 60
+remarks:        transit-depref 180
+remarks:        transit-prefered 220
+remarks:        --- Internal Used Communities ---
+remarks:        prefix-learned-SBP 8455:2400
+remarks:        prefix-learned-NKF 8455:2401
+remarks:        prefix-route-origin-SBP 8455:1114
+remarks:        prefix-route-origin-NKF 8455:1115
+remarks:        --- Route Type ---
+remarks:        transit-prefix 8455:1001
+remarks:        internal-prefix 8455:1110
+remarks:        internal-more-specific 8455:1112
+remarks:        peer-prefix 8455:1666
+remarks:        private-peer-prefix 8455:1021
+remarks:        public-peer-prefix 8455:1020
+remarks:        upstream-prefix 8455:1030
+remarks:        --- Miscellaneous ---
+remarks:        no export 65535:65281
+remarks:        no-next-hop-self 8455:111
+remarks:        --- Accepted from Customer/Traffic Engineering ---
+remarks:        blackhole 8455:5990
+remarks:        transit-as-backup 8455:5060
+remarks:        transit-depref 8455:5180
+remarks:        transit-preferred 8455:5220
+remarks:        suppress-to-AS3257 8455:5505
+remarks:        prepend-one-to-AS3257 8455:5506
+remarks:        prepend-two-to-AS3257 8455:5507
+remarks:        prepend-three-to-AS3257 8455:5508
+remarks:        suppress-to-AS3356 8455:5510
+remarks:        prepend-one-to-AS3356 8455:5511
+remarks:        prepend-two-to-AS3356 8455:5512
+remarks:        prepend-three-to-AS3356 8455:5513
+remarks:        suppress-to-AS1299 8455:5515
+remarks:        prepend-one-to-AS1299 8455:5516
+remarks:        prepend-two-to-AS1299 8455:5517
+remarks:        prepend-three-to-AS1299 8455:5518
+remarks:        suppress-to-AS13030 8455:5519
+remarks:        prepend-one-to-AS13030 8455:5520
+remarks:        prepend-two-to-AS13030 8455:5521
+remarks:        prepend-three-to-AS13030 8455:5522
+remarks:        suppress-to-AS2914 8455:5523
+remarks:        suppress-one-to-AS2914 8455:5524
+remarks:        suppress-two-to-AS2914 8455:5525
+remarks:        suppress-three-to-AS2914 8455:5526
+remarks:        suppress-to-peers 8455:5000
+remarks:        prepend-one (to peers) 8455:5001
+remarks:        prepend-two (to peers) 8455:5002
+remarks:        prepend-three (to peers) 8455:5003
+remarks:        --- Sent to Customers ---
+remarks:        outbound-peer-prefix 8455:5997
+remarks:        outbound-customer-prefix 8455:5998
+remarks:        outbound-internal-prefix 8455:5999
+remarks:        ----------------------------------
+remarks:        Route Flap Damping Policy is applied.
+remarks:        ----------------------------------
+mnt-lower:      ATOM86-MNT
+mnt-by:         ATOM86-MNT
+created:        2009-07-28T14:28:10Z
+last-modified:  2019-02-06T10:44:51Z
+source:         RIPE
+
+organisation:   ORG-SPB2-RIPE
+org-name:       Schuberg Philis B.V.
+org-type:       LIR
+address:        Boeing Avenue 271
+address:        1119 PD
+address:        Schiphol-Rijk
+address:        NETHERLANDS
+phone:          +31207506500
+fax-no:         +31207506550
+admin-c:        ATOM86-RIPE
+admin-c:        BOEK-RIPE
+tech-c:         ATOM86-RIPE
+abuse-c:        ATAB86-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ATOM86-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ATOM86-MNT
+created:        2009-07-27T11:20:07Z
+last-modified:  2018-12-20T12:52:13Z
+source:         RIPE # Filtered
+
+role:           ATOM86 Ripe DBM
+address:        Boeing Avenue 271
+address:        1119 PD Schiphol-Rijk
+address:        The Netherlands
+admin-c:        BOEK-RIPE
+admin-c:        ADHD-RIPE
+tech-c:         RD3849-RIPE
+tech-c:         RIHN-RIPE
+tech-c:         ED-RIPE
+tech-c:         TUUR-RIPE
+tech-c:         DAAN-RIPE
+tech-c:         RD3849-RIPE
+mnt-by:         ATOM86-MNT
+nic-hdl:        ATOM86-RIPE
+remarks:        -----------------------------------------------------
+remarks:        Please send abuse reports to:  abuse@atom86.net
+remarks:        Please send network issues to: noc@atom86.net
+remarks:        ------------------------------------------------------
+created:        2010-05-04T07:25:28Z
+last-modified:  2018-12-20T15:50:49Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

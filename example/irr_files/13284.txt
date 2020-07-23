@@ -1,0 +1,190 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS13225 - AS13311'
+
+as-block:       AS13225 - AS13311
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS13284'
+
+% Abuse contact for 'AS13284' is 'abuse@playnet.it'
+
+aut-num:        AS13284
+as-name:        BRT-AS
+descr:          ITALY
+descr:          Brain Technology Group
+descr:          +---------------------------------------------------+
+descr:          | Routing and peering requests network @ playnet.it |
+descr:          | Operational issues sales @ playnet.it |
+descr:          | Spam and Abuse issues abuse @ playnet.it |
+descr:          +---------------------------------------------------+
+remarks:
+remarks:        ------------------------------------------------------
+remarks:        - Peering Full Internet
+remarks:        ------------------------------------------------------
+remarks:        > Cogent Co v4
+import:         from AS174 action pref=100;accept ANY AND NOT AS13284:FLTR-FILTERLIST
+export:         to AS174 announce AS-BRT
+remarks:        > Cogent Co v6
+mp-import:      afi ipv6.unicast from AS174 action pref=100;accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-BRT
+remarks:        > Interoute v4
+import:         from AS8928 action pref=100;accept ANY AND NOT AS13284:FLTR-FILTERLIST
+export:         to AS8928 announce AS-BRT
+remarks:        > Interoute v6
+mp-import:      afi ipv6.unicast from AS8928 action pref=100;accept ANY
+mp-export:      afi ipv6.unicast to AS8928 announce AS-BRT
+remarks:        > Fastweb v4
+import:         from AS12874 action pref=100;accept ANY AND NOT AS13284:FLTR-FILTERLIST
+export:         to AS12874 announce AS13284
+remarks:        ------------------------------------------------------
+remarks:        Peering NAP
+remarks:        ------------------------------------------------------
+remarks:        > TIX v4
+import:         from AS13284:PRNG-TIX action pref=80;accept ANY NOT AS13284:FLTR-FILTERLIST
+export:         to AS13284:PRNG-TIX announce AS-BRT
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:        ------------------------------------------------------
+remarks:        Communities used to tag inbound routes
+remarks:        ------------------------------------------------------
+remarks:        13284:65000 Routes received from Customers
+remarks:        13284:65050 Routes received from Private peers
+remarks:        13284:65010 Routes received from peers at TIX NAP
+remarks:        13284:174 Routes received from Cogent (AS174)
+remarks:        13284:8928 Routes received from Interoute (AS8928)
+remarks:        13284:12874 Routes received from Fastweb(AS12874)
+remarks:
+remarks:        ------------------------------------------------------
+remarks:        Communities used to control routing announcements
+remarks:        ------------------------------------------------------
+remarks:        13284:65100 Do not announce to upstreams
+remarks:        13284:65200 Do not announce to peers at any NAP
+remarks:
+remarks:        13284:65120 Do not announce to Interoute (AS8928)
+remarks:        13284:65121 1 Prepend when announcing to Interoute (AS8928)
+remarks:        13284:65122 2 Prepend when announcing to Interoute (AS8928)
+remarks:        13284:65123 3 Prepend when announcing to Interoute (AS8928)
+remarks:        13284:65124 4 Prepend when announcing to Interoute (AS8928)
+remarks:        13284:65129 Set no-export announcing to Interoute (AS8928)
+remarks:
+remarks:        13284:65130 Do not announce to Cogent (AS174)
+remarks:        13284:65131 1 Prepend when announcing to Cogent (AS174)
+remarks:        13284:65132 2 Prepend when announcing to Cogent (AS174)
+remarks:        13284:65133 3 Prepend when announcing to Cogent (AS174)
+remarks:        13284:65134 4 Prepend when announcing to Cogent (AS174)
+remarks:        13284:65139 Set no-export announcing to Cogent (AS174)
+remarks:
+remarks:
+remarks:
+remarks:        13284:65210 Do not announce to TIX
+remarks:        13284:65211 1 Prepend when announcing to TIX
+remarks:        13284:65212 2 Prepend when announcing to TIX
+remarks:        13284:65213 3 Prepend when announcing to TIX
+remarks:        13284:65214 4 Prepend when announcing to TIX
+remarks:        13284:65219 Set no-export announcing to TIX
+remarks:
+remarks:
+remarks:
+remarks:        ------------------------------------------------------
+remarks:        > IPv4 network
+remarks:        Playnet filters out inbound prefixes longer than /24
+remarks:        > IPv6 network
+remarks:        Playnet filters out inbound prefixes longer than /48
+remarks:        ------------------------------------------------------
+remarks:
+remarks:        +------------------------------------------------------+
+remarks:        | Peering |
+remarks:        +------------------------------------------------------+
+remarks:        | |
+remarks:        | Playnet Network has open policy for peering IPv4/6 |
+remarks:        | |
+remarks:        | Our network is present in this exchanges: |
+remarks:        | |
+remarks:        | TIX - http://www.tix.it - 193.42.140.4 |
+remarks:        | |
+remarks:        | |
+remarks:        +------------------------------------------------------+
+remarks:
+remarks:
+org:            ORG-BT3-RIPE
+admin-c:        SF142-RIPE
+tech-c:         BRT2-RIPE
+status:         ASSIGNED
+mnt-by:         BRT-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-05-03T08:14:02Z
+last-modified:  2017-11-15T09:16:35Z
+source:         RIPE # Filtered
+
+organisation:   ORG-BT3-RIPE
+org-name:       Playnet S.R.L.
+org-type:       LIR
+address:        Via Provinciale Lucchese, 141
+address:        IT-50019
+address:        Sesto Fiorentino, FIRENZE
+address:        ITALY
+phone:          +390553226622
+fax-no:         +390553226444
+admin-c:        PN3777-RIPE
+admin-c:        SF142-RIPE
+mnt-ref:        BRT-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+abuse-c:        ACBT1-RIPE
+created:        2004-04-17T11:29:54Z
+last-modified:  2017-10-30T14:44:35Z
+source:         RIPE # Filtered
+
+role:           Brain Technology NOC
+address:        141, Via Provinciale Lucchese
+address:        50019 Sesto Fiorentino (FI)
+address:        ITALY
+phone:          +39 055 3226622
+fax-no:         +39 055 3226444
+remarks:        ====================================================
+remarks:        Routing and peering requests:  network @ playnet.it
+remarks:        Operational issues:            sales @ playnet.it
+remarks:        Spam and Abuse issues:         abuse @ playnet.it
+remarks:        ====================================================
+admin-c:        SF142-RIPE
+tech-c:         LR5786-RIPE
+nic-hdl:        BRT2-RIPE
+mnt-by:         BRT-MNT
+created:        2003-05-26T12:03:41Z
+last-modified:  2013-12-12T11:34:22Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@playnet.it
+
+person:         Stefano Ferraro
+address:        Brain Technology S.p.A.
+address:        141, Via Provinciale Lucchese
+address:        I-50019 Sesto Fiorentino - Firenze
+address:        Italy
+phone:          +39 055 3226622
+fax-no:         +39 055 3226444
+nic-hdl:        SF142-RIPE
+mnt-by:         BRT-MNT
+created:        2002-04-09T11:32:31Z
+last-modified:  2015-07-01T14:53:42Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

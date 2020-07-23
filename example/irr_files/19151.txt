@@ -1,0 +1,133 @@
+aut-num:    AS19151
+as-name:    BBOI
+descr:      Broadband One Announcements
+import:     from AS29838   accept AS-AMC
+import:     from AS26803   accept AS26803
+import:     from AS13645   accept AS-HOST
+import:     from AS19817   accept AS19817
+import:     from AS3851   accept AS3851
+import:     from AS6181   accept AS-FUSE
+import:     from AS6203   accept AS-ISDNNET
+import:     from AS6536   accept AS-CITYNET
+import:     from AS11686   accept AS-ENA
+import:     from AS12083   accept AS-KNOLOGY
+import:     from AS13706   accept AS-COMPLETEWEB
+import:     from AS31877   accept AS-GEORGIAWEB
+import:     from AS12654   accept AS12654
+import:     from AS15091   accept AS15091
+import:     from AS16811   accept AS16811
+import:     from AS18474   accept AS-AENEAS
+import:     from AS18797   accept AS-ITO
+import:     from AS19107   accept AS19107
+import:     from AS19817   accept AS19817
+import:     from AS20115   accept AS-CHTR-BB
+import:     from AS21766   accept AS-BENLOMAND
+import:     from AS22911   accept AS22911
+import:     from AS23005   accept AS-SWITCH
+import:     from AS25152   accept AS25152
+import:     from AS25525   accept AS-REASONNET
+import:     from AS26554   accept AS26554:AS-Customers
+import:     from AS29877   accept AS-STS
+import:     from AS32035   accept AS32035:AS-CCDT-RGTS
+import:     from AS32703   accept AS-IFN-TRANSIT
+import:     from AS40111   accept AS-PARKER
+import:     from AS41420   accept AS41420
+import:     from AS46261   accept AS-QP
+import:     from AS46484   accept AS46484
+import:     from AS46562   accept AS46562
+export:     to AS29838   announce AS-BBOI
+export:     to AS26803   announce AS-BBOI
+export:     to AS13645   announce AS-BBOI
+export:     to AS3851   announce ANY
+export:     to AS6181   announce ANY
+export:     to AS6203   announce ANY
+export:     to AS6536   announce ANY
+export:     to AS11686   announce ANY
+export:     to AS12083   announce ANY
+export:     to AS13706   announce ANY
+export:     to AS31877   announce ANY
+export:     to AS12654   announce ANY
+export:     to AS15091   announce ANY
+export:     to AS16811   announce ANY
+export:     to AS18474   announce ANY
+export:     to AS18797   announce ANY
+export:     to AS19107   announce ANY
+export:     to AS19817   announce ANY
+export:     to AS20115   announce ANY
+export:     to AS21766   announce ANY
+export:     to AS22911   announce ANY
+export:     to AS23005   announce ANY
+export:     to AS25152   announce ANY
+export:     to AS25525   announce ANY
+export:     to AS26554   announce ANY
+export:     to AS29877   announce ANY
+export:     to AS32035   announce ANY
+export:     to AS32703   announce ANY
+export:     to AS40111   announce ANY
+export:     to AS41420   announce ANY
+export:     to AS46261   announce ANY
+export:     to AS46484   announce ANY
+export:     to AS46562   announce ANY
+remarks:    
+remarks:    
+remarks:    Broadband One
+remarks:    
+remarks:    Please send BGP peering queries to peering@bboi.net.
+remarks:    
++----------------------------------------------------------
+remarks:    | NOTE - Filtering on /24 boundary is applied - we do
+remarks:    |  not reannounce any route more specific than a /24.
+remarks:    |
+remarks:    
++----------------------------------------------------------
+remarks:    | Community Definition -- Local Preference/No-Export
+remarks:    |
+remarks:    | Local-preference control for customer links (to be set
+remarks:    |  by customer)
+remarks:    |
+remarks:    | By default customer routes are assigned a
+remarks:    | local preferences of 300
+remarks:    |
+remarks:    | 19151:10        Set local preference 10 (backup route)
+remarks:    | 19151:295    Set local preference -5
+remarks:    | 19151:305       Set local preference -3
+remarks:    | no-export    Set do not export beyond AS19151
+remarks:    
++----------------------------------------------------------
+remarks:    | Communities to control traffic (to be set by customer)
+remarks:    |
+remarks:    | 19151:17466 Do not send to Cogent
+remarks:    | 19151:999  Strips MEDs to transit
+remarks:    | 19151:444  Do not send to Europe (US Traffic only)
+remarks:    | 19151:666  Remote triggered black hole
+remarks:    | 19151:1   Prepend 19151 1 time
+remarks:    | 19151:2   Prepend 19151 2 times
+remarks:    | 19151:3   Prepend 19151 3 times
+remarks:    |
+remarks:    | Prepends may be stacked for a maximum of 6 prepends
+remarks:    |  i.e. 19151:1 19151:2 19151:3
+remarks:    |
+remarks:    | Community values accepted by BBOI to affect
+remarks:    | traffic flows off-net.
+remarks:    
++----------------------------------------------------------
+remarks:    
+admin-c:    Broadband One IPAdmin
+tech-c:     Broadband One IPAdmin
+notify:     ipadmin@bboi.net
+mnt-by:     MAINT-AS19151
+changed:    ipadmin@bboi.net 20140417
+source:     BBOI
+
+person:     Broadband One IPAdmin
+address:    Broadband One
+            3500 NW Boca Raton Blvd., Building 900
+            Boca Raton, FL 33431
+            USA
+phone:      +1 404 751 9400
+e-mail:     ipadmin@bboi.net
+nic-hdl:    INA10-ARIN
+notify:     ipadmin@bboi.net
+mnt-by:     MAINT-AS19151
+changed:    ipadmin@bboi.net 20071124
+source:     BBOI

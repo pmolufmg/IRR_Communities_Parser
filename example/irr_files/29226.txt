@@ -1,0 +1,1014 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS29226
+as-name:       MASTERTEL-AS
+descr:         Moscow, Russia
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS9002 action pref=100; accept ANY;
+import:        from AS29076 action pref=100; accept ANY;
+import:        from AS20485 action pref=100; accept ANY;
+import:        from AS12389 action pref=100; accept ANY;
+import:        from AS3216 action pref=100; accept ANY;
+import:        from AS31133 action pref=100; accept ANY;
+import:        from AS57724 accept ANY;
+import:        from AS15169 accept AS-GOOGLE;
+import:        from AS13238 accept AS-YANDEX;
+import:        from AS42632 accept AS-MNOGOBYTE;
+import:        from AS47764 accept AS-MAILRU;
+import:        from AS49988 accept AS-49988;
+import:        from AS48061 accept AS-48061;
+import:        from AS6695 accept AS-DECIX;
+import:        from AS6939 accept AS-HURRICANE;
+import:        from AS3223 accept AS-VOXILITY-SET;
+import:        from AS8631 accept AS-MSKROUTESERVER;
+import:        from AS15169 accept AS-GOOGLE;
+import:        from AS41095 accept AS-IPTP;
+import:        from AS13105 accept AS-LUKOIL;
+import:        from AS2578 accept AS-DEMOS AS-RUDEMOS;
+import:        from AS28968 accept AS-EUT;
+import:        from AS30833 accept AS-TNC;
+import:        from AS39709 accept AS-MARYNONET;
+import:        from AS3267 accept AS-RUNNET;
+import:        from AS9031 accept AS-EDPNET;
+import:        from AS6903 accept AS-ZENON;
+import:        from AS5537 accept AS-GARANTPARK;
+import:        from AS8470 accept AS-MACOMNET;
+import:        from AS39792 accept AS-ANDERS;
+import:        from AS2854 accept AS-ROSPRINT;
+import:        from AS50952 accept AS-DATAIX;
+import:        from AS24663 action pref=200; accept AS-COMPLAT;
+import:        from AS31192 action pref=200; accept AS31192;
+import:        from AS31600 action pref=200; accept AS31600;
+import:        from AS34192 action pref=200; accept AS34192;
+import:        from AS41443 action pref=200; accept AS41443;
+import:        from AS41667 action pref=200; accept AS41667;
+import:        from AS41944 action pref=200; accept AS41944;
+import:        from AS44470 action pref=200; accept AS44470;
+import:        from AS44799 action pref=200; accept AS44799;
+import:        from AS50652 action pref=200; accept AS-VI;
+import:        from AS61290 action pref=200; accept AS61290;
+import:        from AS51613 action pref=200; accept AS51613;
+import:        from AS51971 action pref=200; accept AS51971;
+import:        from AS52184 action pref=200; accept AS52184;
+import:        from AS52198 action pref=200; accept AS52198;
+import:        from AS196695 action pref=200; accept AS-NETONERUS;
+import:        from AS34052 action pref=200; accept AS-LOGIKA;
+import:        from AS198348 action pref=200; accept AS198348;
+import:        from AS198445 action pref=200; accept AS198445;
+import:        from AS60040 action pref=200; accept AS60040;
+import:        from AS58009 action pref=200; accept AS58009;
+import:        from AS51129 action pref=200; accept AS51129;
+import:        from AS198390 action pref=200; accept AS198390;
+import:        from AS199085 action pref=200; accept AS199085;
+import:        from AS50822 action pref=200; accept AS50822;
+import:        from AS44754 action pref=200; accept AS44754;
+import:        from AS61261 action pref=200; accept AS61261;
+import:        from AS57510 action pref=200; accept AS57510;
+import:        from AS8242 action pref=200; accept AS-DINFO;
+import:        from AS41428 action pref=200; accept AS-BINBANK;
+import:        from AS198705 action pref=200; accept AS198705;
+import:        from AS60732 action pref=200; accept AS60732;
+import:        from AS196850 action pref=200; accept AS196850;
+import:        from AS35083 action pref=200; accept AS35083;
+import:        from AS197482 action pref=200; accept AS-2GIS;
+import:        from AS47231 action pref=200; accept AS47231;
+import:        from AS51219 action pref=200; accept AS-CROC;
+import:        from AS47350 action pref=200; accept AS-GCX;
+import:        from AS62221 action pref=200; accept AS62221;
+import:        from AS199825 action pref=200; accept AS199825;
+import:        from AS199798 action pref=200; accept AS199798;
+import:        from AS56627 action pref=200; accept AS-ITH3DATA;
+import:        from AS34472 action pref=200; accept AS34472;
+import:        from AS202156 action pref=200; accept AS202156;
+import:        from AS199750 action pref=200; accept AS199750;
+import:        from AS62010 action pref=200; accept AS62010;
+import:        from AS59571 action pref=200; accept AS59571;
+import:        from AS205822 action pref=200; accept AS-DEVINOTELECOM;
+import:        from AS60062 action pref=200; accept AS-3DATA;
+import:        from AS201856 action pref=200; accept AS201856;
+import:        from AS49509 action pref=200; accept AS49509;
+import:        from AS201788 action pref=200; accept AS201788;
+import:        from AS199274 action pref=200; accept AS199274;
+import:        from AS48009 action pref=200; accept AS48009;
+import:        from AS59979 action pref=200; accept AS59979;
+import:        from AS59734 action pref=200; accept AS-INETRU;
+import:        from AS57215 action pref=200; accept AS57215;
+import:        from AS56994 action pref=200; accept AS56994;
+import:        from AS201726 action pref=200; accept AS201726;
+import:        from AS48219 action pref=200; accept AS48219;
+import:        from AS201564 action pref=200; accept AS201564;
+import:        from AS57796 action pref=200; accept AS57796;
+import:        from AS200016 action pref=200; accept AS200016;
+import:        from AS201297 action pref=200; accept AS201297;
+import:        from AS200044 action pref=200; accept AS200044;
+import:        from AS59740 action pref=200; accept AS59740;
+import:        from AS197961 action pref=200; accept AS197961;
+import:        from AS201994 action pref=200; accept AS201994;
+import:        from AS57857 action pref=200; accept AS-WNNR;
+import:        from AS56685 action pref=200; accept AS56685;
+import:        from AS61020 action pref=200; accept AS61020;
+import:        from AS60826 action pref=200; accept AS60826;
+import:        from AS51464 action pref=200; accept AS51464;
+import:        from AS35021 action pref=200; accept AS35021;
+import:        from AS60535 action pref=200; accept AS60535 ;
+import:        from AS60921 action pref=200; accept AS60921;
+import:        from AS201669 action pref=200; accept AS201669;
+import:        from AS201265 action pref=200; accept AS201265;
+import:        from AS197574 action pref=200; accept AS197574;
+import:        from AS8742 action pref=200; accept AS8742;
+import:        from AS51994 action pref=200; accept AS51994;
+import:        from AS41223 action pref=200; accept AS41223;
+import:        from AS42762 action pref=200; accept AS42762;
+import:        from AS43362 action pref=200; accept AS43362;
+import:        from AS24774 action pref=200; accept AS24774;
+import:        from AS44915 action pref=200; accept AS44915;
+import:        from AS203492 action pref=200; accept AS203492;
+import:        from AS60702 action pref=200; accept AS60702;
+import:        from AS5531 action pref=200; accept AS-TEZTOUR;
+import:        from AS52016 action pref=200; accept AS52016;
+import:        from AS31240 action pref=200; accept AS-HTS;
+import:        from AS57530 action pref=200; accept AS57530;
+import:        from AS200457 action pref=200; accept AS200457;
+import:        from AS43527 action pref=200; accept AS-FINAMTECH;
+import:        from AS197896 action pref=200; accept AS197896;
+import:        from AS20970 action pref=200; accept AS20970;
+import:        from AS204128 action pref=200; accept AS204128;
+import:        from AS39589 action pref=200; accept AS39589;
+import:        from AS204237 action pref=200; accept AS204237;
+import:        from AS58229 action pref=200; accept AS58229;
+import:        from AS49476 action pref=200; accept AS49476;
+import:        from AS203524 action pref=200; accept AS203524;
+import:        from AS60473 action pref=200; accept AS60473;
+import:        from AS202764 action pref=200; accept AS202764;
+import:        from AS60343 action pref=200; accept AS60343;
+import:        from AS57867 action pref=200; accept AS57867;
+import:        from as202594 action pref=200; accept AS-RUSPACE;
+import:        from AS202985 action pref=200; accept AS202985;
+import:        from AS8484 action pref=200; accept AS8484;
+import:        from AS57073 action pref=200; accept AS57073;
+import:        from AS60967 action pref=200; accept AS-NSPK-MINI;
+import:        from AS57449 action pref=200; accept AS57449;
+import:        from AS42998 action pref=200; accept AS42998;
+import:        from AS50448 action pref=200; accept AS-COLOCAT;
+import:        from AS47655 action pref=200; accept AS-SET-LINKINTEL;
+import:        from AS61400 action pref=200; accept AS-NETRACK;
+import:        from AS62295 action pref=200; accept AS62295;
+import:        from AS57843 action pref=200; accept AS57843;
+import:        from AS207207 action pref=200; accept AS207207;
+import:        from AS204117 action pref=200; accept AS204117;
+import:        from AS206973 action pref=200; accept AS206973;
+import:        from AS202824 action pref=200; accept AS202824;
+import:        from AS51811 action pref=200; accept AS51811;
+import:        from AS51641 action pref=200; accept AS51641;
+import:        from AS42024 action pref=200; accept AS42024;
+import:        from AS203907 action pref=200; accept AS203907;
+import:        from AS6694 action pref=200; accept AS-RTSNET;
+import:        from AS60561 action pref=200; accept AS60561;
+import:        from AS207016 action pref=200; accept AS207016;
+import:        from as25561 action pref=200; accept as25561;
+import:        from AS50587 action pref=200; accept AS50587;
+import:        from AS56864 action pref=200; accept AS56864;
+import:        from AS43518 action pref=200; accept AS43518;
+import:        from AS51444 action pref=200; accept AS51444;
+import:        from AS50002 action pref=200; accept AS50002;
+import:        from AS52000 action pref=200; accept AS-MIRHOSTING;
+import:        from AS57596 action pref=200; accept AS57596;
+import:        from AS41774 action pref=200; accept AS41774;
+import:        from AS47718 action pref=200; accept AS47718;
+import:        from AS51668 action pref=200; accept AS51668;
+import:        from AS205482 action pref=200; accept AS205482;
+import:        from AS44964 action pref=200; accept AS-DATAPLANET;
+import:        from AS48249 action pref=200; accept AS-CAPTEL;
+import:        from AS51884 action pref=200; accept AS-TERATEL-SET;
+import:        from AS207079 action pref=200; accept AS207079;
+import:        from AS61308 action pref=200; accept AS61308;
+import:        from AS205324 action pref=200; accept AS205324;
+import:        from AS51309 action pref=200; accept AS51309;
+import:        from AS42226 action pref=200; accept AS-EETC;
+import:        from as41535 action pref=200; accept AS-RUSONYX;
+import:        from AS8846 action pref=200; accept AS8846;
+import:        from AS205004 action pref=200; accept AS205004;
+import:        from AS205952 action pref=200; accept AS-CARAVANAERO;
+import:        from AS59935 action pref=200; accept AS59935;
+import:        from AS2895 action pref=200; accept AS-FREENET;
+import:        from AS204841 action pref=200; accept AS204841;
+import:        from AS206968 action pref=200; accept AS206968;
+import:        from AS198210 action pref=200; accept AS198210;
+import:        from AS205031 action pref=200; accept AS205031;
+import:        from AS56351 action pref=200; accept AS56351;
+import:        from AS61111 action pref=200; accept AS-RTCLOUD-MSK;
+import:        from AS204665 action pref=200; accept AS204665;
+import:        from AS57573 action pref=200; accept AS57573;
+import:        from AS201916 action pref=200; accept AS201916;
+import:        from AS204459 action pref=200; accept AS204459;
+import:        from AS48614 action pref=200; accept AS-ITSOFT;
+import:        from AS203766 action pref=200; accept AS-INFOSERVICE;
+import:        from AS39684 action pref=200; accept AS39684;
+import:        from AS204305 action pref=200; accept AS204305;
+import:        from AS199825 action pref=200; accept AS199825;
+import:        from AS41258 action pref=200; accept AS41258;
+import:        from AS204315 action pref=200; accept AS204315;
+import:        from AS204291 action pref=200; accept AS204291;
+import:        from AS43830 action pref=200; accept AS43830;
+import:        from AS16466 action pref=200; accept AS16466;
+import:        from AS201509 action pref=200; accept AS201509;
+import:        from AS202009 action pref=200; accept AS202009;
+import:        from AS42972 action pref=200; accept AS42972;
+import:        from AS47737 action pref=200; accept AS47737;
+import:        from AS39337 action pref=200; accept AS-Corpsoft;
+export:        to AS9002 announce AS-MASTERTEL;
+export:        to AS29076 announce AS-MASTERTEL;
+export:        to AS20485 announce AS-MASTERTEL;
+export:        to AS12389 announce AS-MASTERTEL;
+export:        to AS3216 announce AS-MASTERTEL;
+export:        to AS31133 announce AS-MASTERTEL
+export:        to AS57724 announce AS-MASTERTEL-GUARD;
+export:        to AS15169 announce AS-MASTERTEL;
+export:        to AS13238 announce AS-MASTERTEL;
+export:        to AS42632 announce AS-MASTERTEL;
+export:        to AS47764 announce AS-MASTERTEL;
+export:        to AS49988 announce AS-MASTERTEL;
+export:        to AS48061 announce AS-MASTERTEL;
+export:        to AS6695 announce AS-MASTERTEL;
+export:        to AS6939 announce AS-MASTERTEL;
+export:        to AS3223 announce AS-MASTERTEL;
+export:        to AS8631 announce AS-MASTERTEL;
+export:        to AS15169 announce AS-MASTERTEL;
+export:        to AS41095 announce AS-MASTERTEL;
+export:        to AS13105 announce AS-MASTERTEL;
+export:        to AS2578 announce AS-MASTERTEL;
+export:        to AS28968 announce AS-MASTERTEL;
+export:        to AS30833 announce AS-MASTERTEL;
+export:        to AS39709 announce AS-MASTERTEL;
+export:        to AS3267 announce AS-MASTERTEL;
+export:        to AS9031 announce AS-MASTERTEL;
+export:        to AS6903 announce AS-MASTERTEL;
+export:        to AS5537 announce AS-MASTERTEL;
+export:        to AS8470 announce AS-MASTERTEL;
+export:        to AS39792 announce AS-MASTERTEL;
+export:        to AS2854 announce AS-MASTERTEL;
+export:        to AS50952 announce AS-MASTERTEL;
+export:        to AS24663 announce ANY;
+export:        to AS31192 announce ANY;
+export:        to AS31600 announce ANY;
+export:        to AS34192 announce ANY;
+export:        to AS41443 announce ANY;
+export:        to AS41667 announce ANY;
+export:        to AS41944 announce ANY;
+export:        to AS44470 announce {0.0.0.0/0} AND AS-MASTERTEL;
+export:        to AS44799 announce {0.0.0.0/0};
+export:        to AS50652 announce ANY;
+export:        to AS61290 announce ANY;
+export:        to AS51613 announce {0.0.0.0/0};
+export:        to AS51971 announce {0.0.0.0/0};
+export:        to AS52184 announce ANY;
+export:        to AS52198 announce ANY;
+export:        to AS196695 announce ANY;
+export:        to AS34052 announce ANY;
+export:        to AS198348 announce ANY;
+export:        to AS198445 announce ANY;
+export:        to AS60040 announce ANY;
+export:        to AS58009 announce ANY;
+export:        to AS51129 announce ANY;
+export:        to AS198390 announce ANY;
+export:        to AS199085 announce ANY;
+export:        to AS50822 announce ANY;
+export:        to AS44754 announce ANY;
+export:        to AS61261 announce ANY;
+export:        to AS57510 announce {0.0.0.0/0} AND AS-MASTERTEL;
+export:        to AS8242 announce ANY;
+export:        to AS41428 announce ANY;
+export:        to AS198705 announce ANY;
+export:        to AS60732 announce {0.0.0.0/0};
+export:        to AS196850 announce {0.0.0.0/0};
+export:        to AS35083 announce {0.0.0.0/0};
+export:        to AS197482 announce ANY;
+export:        to AS47231 announce ANY;
+export:        to AS51219 announce ANY;
+export:        to AS47350 announce ANY;
+export:        to AS62221 announce {0.0.0.0/0} AND AS-MASTERTEL;
+export:        to AS199825 announce ANY;
+export:        to AS199798 announce ANY;
+export:        to AS56627 announce ANY;
+export:        to AS34472 announce ANY;
+export:        to AS202156 announce {0.0.0.0/0};
+export:        to AS199750 announce ANY;
+export:        to AS62010 announce ANY;
+export:        to AS59571 announce ANY;
+export:        to AS205822 announce ANY;
+export:        to AS60062 announce ANY;
+export:        to AS201856 announce {0.0.0.0/0};
+export:        to AS49509 announce {0.0.0.0/0};
+export:        to AS201788 announce {0.0.0.0/0};
+export:        to AS199274 announce ANY;
+export:        to AS48009 announce ANY;
+export:        to AS59979 announce ANY;
+export:        to AS59734 announce ANY;
+export:        to AS57215 announce ANY;
+export:        to AS56994 announce ANY;
+export:        to AS201726 announce ANY;
+export:        to AS48219 announce ANY;
+export:        to AS201564 announce {0.0.0.0/0};
+export:        to AS57796 announce {0.0.0.0/0}
+export:        to AS200016 announce ANY;
+export:        to AS201297 announce {0.0.0.0/0}
+export:        to AS200044 announce ANY;
+export:        to AS59740 announce ANY;
+export:        to AS197961 announce {0.0.0.0/0}
+export:        to AS201994 announce ANY;
+export:        to AS57857 announce {0.0.0.0/0};
+export:        to AS56685 announce {0.0.0.0/0};
+export:        to AS61020 announce {0.0.0.0/0};
+export:        to AS60826 announce {0.0.0.0/0};
+export:        to AS51464 announce ANY;
+export:        to AS35021 announce ANY;
+export:        to AS60535 announce {0.0.0.0/0};
+export:        to AS60921 announce {0.0.0.0/0};
+export:        to AS201669 announce {0.0.0.0/0};
+export:        to AS201265 announce {0.0.0.0/0};
+export:        to AS197574 announce ANY;
+export:        to AS8742 announce {0.0.0.0/0}
+export:        to AS51994 announce {0.0.0.0/0}
+export:        to AS41223 announce ANY;
+export:        to AS42762 announce {0.0.0.0/0}
+export:        to AS43362 announce ANY;
+export:        to AS24774 announce {0.0.0.0/0}
+export:        to AS44915 announce ANY
+export:        to AS203492 announce ANY
+export:        to AS60702 announce ANY
+export:        to AS5531 announce ANY
+export:        to AS52016 announce ANY
+export:        to AS31240 announce ANY
+export:        to AS57530 announce ANY
+export:        to AS200457 announce {0.0.0.0/0}
+export:        to AS43527 announce ANY
+export:        to AS197896 announce {0.0.0.0/0}
+export:        to AS20970 announce {0.0.0.0/0}
+export:        to AS204128 announce ANY
+export:        to AS39589 announce ANY
+export:        to AS204237 announce ANY
+export:        to AS58229 announce ANY
+export:        to AS49476 announce ANY
+export:        to AS203524 announce {0.0.0.0/0}
+export:        to AS60473 announce ANY
+export:        to AS202764 announce ANY
+export:        to AS60343 announce ANY
+export:        to AS57867 announce {0.0.0.0/0}
+export:        to as202594 announce {0.0.0.0/0}
+export:        to AS202985 announce {0.0.0.0/0}
+export:        to AS8484 announce ANY
+export:        to AS57073 announce ANY
+export:        to AS60967 announce {0.0.0.0/0}
+export:        to AS57449 announce ANY
+export:        to AS42998 announce {0.0.0.0/0}
+export:        to AS50448 announce ANY
+export:        to AS47655 announce ANY
+export:        to AS61400 announce ANY
+export:        to AS62295 announce ANY
+export:        to AS57843 announce ANY
+export:        to AS207207 announce {0.0.0.0/0}
+export:        to AS204117 announce {0.0.0.0/0}
+export:        to AS206973 announce ANY
+export:        to AS202824 announce ANY
+export:        to AS51811 announce ANY
+export:        to AS51641 announce ANY
+export:        to AS42024 announce ANY
+export:        to AS203907 announce ANY
+export:        to AS6694 announce ANY
+export:        to AS60561 announce {0.0.0.0/0}
+export:        to AS207016 announce {0.0.0.0/0}
+export:        to as25561 announce ANY
+export:        to AS50587 announce ANY
+export:        to AS56864 announce ANY
+export:        to AS43518 announce ANY
+export:        to AS51444 announce ANY
+export:        to AS50002 announce ANY
+export:        to AS52000 announce ANY
+export:        to AS57596 announce {0.0.0.0/0}
+export:        to AS41774 announce ANY
+export:        to AS47718 announce ANY
+export:        to AS51668 announce ANY;
+export:        to AS205482 announce ANY;
+export:        to AS44964 announce ANY;
+export:        to AS48249 announce ANY;
+export:        to AS51884 announce ANY;
+export:        to AS207079 announce ANY;
+export:        to AS61308 announce {0.0.0.0/0};
+export:        to AS205324 announce ANY;
+export:        to AS51309 announce {0.0.0.0/0};
+export:        to AS42226 announce ANY;
+export:        to as41535 announce {0.0.0.0/0};
+export:        to AS8846 announce ANY;
+export:        to AS205004 announce ANY;
+export:        to AS205952 announce ANY;
+export:        to AS59935 announce {0.0.0.0/0};
+export:        to AS2895 announce ANY;
+export:        to AS204841 announce ANY;
+export:        to AS206968 announce ANY;
+export:        to AS198210 announce ANY;
+export:        to AS205031 announce ANY;
+export:        to AS56351 announce {0.0.0.0/0};
+export:        to AS61111 announce ANY
+export:        to AS204665 announce {0.0.0.0/0}
+export:        to AS57573 announce {0.0.0.0/0}
+export:        to AS201916 announce ANY
+export:        to AS204459 announce {0.0.0.0/0};
+export:        to AS48614 announce ANY
+export:        to AS203766 announce ANY
+export:        to AS39684 announce ANY
+export:        to AS204305 announce ANY
+export:        to AS199825 announce ANY
+export:        to AS41258 announce ANY
+export:        to AS204315 announce ANY
+export:        to AS204291 announce {0.0.0.0/0};
+export:        to AS43830 announce {0.0.0.0/0};
+export:        to AS16466 announce {0.0.0.0/0};
+export:        to AS201509 announce ANY
+export:        to AS202009 announce {0.0.0.0/0}
+export:        to AS42972 announce ANY
+export:        to AS47737 announce ANY
+export:        to AS39337 announce {0.0.0.0/0}
+remarks:       
+remarks:       =========================
+remarks:       IPv4 routing policy
+remarks:       =========================
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Upstreams
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       
+remarks:       ******* Retn.net *******
+remarks:       
+remarks:       ******* Filanco ********
+remarks:       
+remarks:       ******* TTK ************
+remarks:       
+remarks:       ******* Rostelecom ************
+remarks:       
+remarks:       ******* Vimpelcom ********
+remarks:       
+remarks:       ******* Megafon ********
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Mastertel GUARD
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       RUSSIAN PEERS
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       -----------------------
+remarks:       Private peering Moscow
+remarks:       -----------------------
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       -----------------------
+remarks:       Peering at DE-CIX
+remarks:       -----------------------
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       -----------------------
+remarks:       Peering at MSK-IX
+remarks:       -----------------------
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       
+remarks:       -----------------------
+remarks:       Peering at DATA-IX
+remarks:       -----------------------
+remarks:       
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Downstreams
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       -----COMPLAT-----
+remarks:       
+remarks:       -----Open Technologies-----
+remarks:       
+remarks:       -----KSDK-----
+remarks:       
+remarks:       -----TRANSITEC-----
+remarks:       
+remarks:       -----SMART-TELEKOM-----
+remarks:       
+remarks:       -----TAMICO-----
+remarks:       
+remarks:       -----AK-Promtorgbank-----
+remarks:       
+remarks:       -----Moskommertsbank-----
+remarks:       
+remarks:       -----Aladdin R.D.-----
+remarks:       
+remarks:       -----Video-Interneshanal-----
+remarks:       
+remarks:       -----Luis+-----
+remarks:       
+remarks:       -----KOMUS-----
+remarks:       
+remarks:       -----SKOLKOVO-----
+remarks:       
+remarks:       -----MinKulturi-----
+remarks:       
+remarks:       -----STROYGAZMONTAZH-----
+remarks:       
+remarks:       -----NetoneRus-----
+remarks:       
+remarks:       -----OOO NPP LOGIKA-----
+remarks:       
+remarks:       -----NIX-----
+remarks:       
+remarks:       -----RDI Group-----
+remarks:       
+remarks:       ----- Runet Business Systems -----
+remarks:       
+remarks:       -----Energodata Ltd-----
+remarks:       
+remarks:       -----Optotorg 2000-----
+remarks:       
+remarks:       -----FINAM-Technologiya-----
+remarks:       
+remarks:       -----Inline Group-----
+remarks:       
+remarks:       -----Ostankino Telecom-----
+remarks:       
+remarks:       -----RUSSLAVBANK-----
+remarks:       
+remarks:       -----Autocenter City LLC-----
+remarks:       
+remarks:       -----JSC Transstroibank-----
+remarks:       
+remarks:       -----Laboratoriya sovremennyh tehnologii CJSC-----
+remarks:       
+remarks:       ----- B.I.N.BANK JSC _ Izvestkoviy-----
+remarks:       
+remarks:       ----- Petrol Plus Region -----
+remarks:       
+remarks:       ----- CTO FNPR -----
+remarks:       
+remarks:       ----- TOB Torgivelbniy Budinok "Megapolis" -----
+remarks:       
+remarks:       ----- OJSC Agency for Housing Mortgage Lending-----
+remarks:       
+remarks:       ----- DoubleGIS LLC -----
+remarks:       
+remarks:       ----- "Elcom Telecom" Limited -----
+remarks:       
+remarks:       ----- CROC_INC -----
+remarks:       
+remarks:       ----- GCX Systems Ltd -----
+remarks:       
+remarks:       ----- Amayama Auto Co -----
+remarks:       
+remarks:       ----- B.I.N.BANK JSC _ Varshavka -----
+remarks:       
+remarks:       ----- Gruppa ABSOLUT LLC -----
+remarks:       
+remarks:       ----- ITH Ltd -----
+remarks:       
+remarks:       ----- Commercial Bank 'ROSENERGOBANK' -----
+remarks:       
+remarks:       ----- LLC PPF Life Insurance -----
+remarks:       
+remarks:       ----- Salans FMC SNR Denton Europe ZAO -----
+remarks:       
+remarks:       ----- 3Data _Sheremet'evskaya -----
+remarks:       
+remarks:       ----- NEOLINE LLC -----
+remarks:       
+remarks:       ----- DEVINO TELECOM LLC -----
+remarks:       
+remarks:       ----- 3DATA LLC _ M8 -----
+remarks:       
+remarks:       ----- Pink Rose Information System Services -----
+remarks:       
+remarks:       ----- CB Admiralteisky Ltd. -----
+remarks:       
+remarks:       ----- RUSENERGOSBYT -----
+remarks:       
+remarks:       ----- Management Networks LLC -----
+remarks:       
+remarks:       ----- Closed Joint Stock Company "Moscow Interbank Currency Exchange" -----
+remarks:       
+remarks:       ----- LLC Comlogic -----
+remarks:       
+remarks:       ----- Inet.ru Ltd. -----
+remarks:       
+remarks:       ----- ATM-Telekom -----
+remarks:       
+remarks:       ----- AMTEL-SVYAZ ZAO -----
+remarks:       
+remarks:       ----- EKA-Processing LLC -----
+remarks:       
+remarks:       ----- 3Data _Sheremet'evskaya - REZ-----
+remarks:       
+remarks:       ----- CJSC "STG" -----
+remarks:       
+remarks:       ----- Freight Link OJSC -----
+remarks:       
+remarks:       ----- CJSC "Management Company "GLAVKINO"-----
+remarks:       
+remarks:       ----- Accord Post JSC -----
+remarks:       
+remarks:       ----- Stack Corp Data Services LLC -----
+remarks:       
+remarks:       ----- City Networks Ltd -----
+remarks:       
+remarks:       ----- JCS M2M Private bank -----
+remarks:       
+remarks:       ----- OJSC Modniy Kontinent -----
+remarks:       
+remarks:       ----- LLC "WinNER" -----
+remarks:       
+remarks:       ----- LLC "Post Service" -----
+remarks:       
+remarks:       ----- LLC "TD GOSLOTO" -----
+remarks:       
+remarks:       ----- CJSC "Torgovyi Dom "Stoloto" -----
+remarks:       
+remarks:       ----- IBANK2.RU, Ltd. -----
+remarks:       
+remarks:       ----- "MB Technologies" LLC -----
+remarks:       
+remarks:       ----- Favorit Telecom LLC -----
+remarks:       
+remarks:       ----- Fast-Ru Co. LTD -----
+remarks:       
+remarks:       ----- JSC Glonass Management Company -----
+remarks:       
+remarks:       ----- JSC ASTEROS -----
+remarks:       
+remarks:       ----- Trade Company Megapolis -----
+remarks:       
+remarks:       ----- LTD Santekhkomplekt -----
+remarks:       
+remarks:       ----- Group of companies "RUSAGRO"' Limited Liability Company -----
+remarks:       
+remarks:       ----- CPM Ltd -----
+remarks:       
+remarks:       ----- Armadillo Business Parcel CJSC -----
+remarks:       
+remarks:       ----- MAJORDOMO LLC -----
+remarks:       
+remarks:       ----- 3DATA _ Butlerova17 -----
+remarks:       
+remarks:       ----- Russian Regional Development Bank -----
+remarks:       
+remarks:       ----- Joint Stock Company Power Telecom -----
+remarks:       
+remarks:       ----- Open joint-stock company "Leto Bank" -----
+remarks:       
+remarks:       ----- "Tez Tour", Ltd -----
+remarks:       
+remarks:       ----- CJSC TNS Gallup AdFact -----
+remarks:       
+remarks:       ----- JSC Hosting Telesystems autonomous system -----
+remarks:       
+remarks:       ----- Prof-Media Broadcasting Corporation LLC -----
+remarks:       
+remarks:       ----- Mind Bridge Group LLC -----
+remarks:       
+remarks:       ----- FINAM Technology Limited -----
+remarks:       
+remarks:       ----- JS "INTERPROGRESSBANK" -----
+remarks:       
+remarks:       ----- INKAROBANK JSCB -----
+remarks:       
+remarks:       ----- AT Telecom LLC -----
+remarks:       
+remarks:       ----- ZAO Moskabelmet-----
+remarks:       
+remarks:       ----- Company Metall Profil -----
+remarks:       
+remarks:       ----- Equifax Credit Services -----
+remarks:       
+remarks:       ----- Multiregional TransitTelecom -----
+remarks:       
+remarks:       ----- praludi-as-1 -----
+remarks:       
+remarks:       ----- LLC CTI -----
+remarks:       
+remarks:       ----- B2B-AS -----
+remarks:       
+remarks:       ----- ROSCAP-AS -----
+remarks:       
+remarks:       ----- Moscow State University of Economics, Statistics and Informatics -----
+remarks:       
+remarks:       ----- RusSpaceSystems -----
+remarks:       
+remarks:       ----- DIASOFT -----
+remarks:       
+remarks:       ----- Novye oblachnye technologii LLC -----
+remarks:       
+remarks:       ----- Wildberries-AS -----
+remarks:       
+remarks:       ----- National system of payment cards -----
+remarks:       
+remarks:       ----- ARENTEL-AS -----
+remarks:       
+remarks:       ----- PUSHKINO-AS -----
+remarks:       
+remarks:       ----- System Service Ltd. -----
+remarks:       
+remarks:       ----- LINKINTEL -----
+remarks:       
+remarks:       ----- NETRACK-AS -----
+remarks:       
+remarks:       ----- JETMONEY -----
+remarks:       
+remarks:       ----- INTERLOGICA -----
+remarks:       
+remarks:       ----- Yandex.OFD LLC -----
+remarks:       
+remarks:       ----- Ltd. "OKHOST" -----
+remarks:       
+remarks:       ----- MCC-AS -----
+remarks:       
+remarks:       ----- OAO "ATS" -----
+remarks:       
+remarks:       ----- Commercial Bank LOCKO-Bank (Closed joint stock company) -----
+remarks:       
+remarks:       ----- VSK Insurance Joint Stock Company -----
+remarks:       
+remarks:       ----- CryptoPro, Ltd -----
+remarks:       
+remarks:       ----- EVOTOR -----
+remarks:       
+remarks:       ----- RTSNET -----
+remarks:       
+remarks:       ----- KABEST -----
+remarks:       
+remarks:       ----- SLAVYANKA -----
+remarks:       
+remarks:       ----- Pronto-Moscow -----
+remarks:       
+remarks:       ----- MAJOR HOLDING -----
+remarks:       
+remarks:       ----- Energia Ltd. -----
+remarks:       
+remarks:       ----- Acronis Ltd. -----
+remarks:       
+remarks:       ----- IT-Lite Ltd. -----
+remarks:       
+remarks:       ----- Renaissance Insurance Group Ltd. -----
+remarks:       
+remarks:       ----- Innovation IT Solutions LTD -----
+remarks:       
+remarks:       ----- ITH Ltd. -----
+remarks:       
+remarks:       ----- IC "RGS-Life -----
+remarks:       
+remarks:       ----- IMS Health HQ Ltd -----
+remarks:       
+remarks:       ----- Morton-RSO Ltd -----
+remarks:       
+remarks:       ----- Direct Mail LLC -----
+remarks:       
+remarks:       ----- DATAPLANET Ltd. -----
+remarks:       
+remarks:       ----- "Capital Telecom" Limited Company -----
+remarks:       
+remarks:       ----- Tera Telecom Ltd -----
+remarks:       
+remarks:       ----- LLC "GK "NOVOTRANS" -----
+remarks:       
+remarks:       ----- "PVONET" LTD -----
+remarks:       
+remarks:       ----- HYPERGLOBUS-AS -----
+remarks:       
+remarks:       ----- Interfax -----
+remarks:       
+remarks:       ----- Complex Telecommunications Ltd -----
+remarks:       
+remarks:       ----- Rusonyx Ltd -----
+remarks:       
+remarks:       ----- Television Technical Center "Ostankino -----
+remarks:       
+remarks:       ----- INCOM-RUNION -----
+remarks:       
+remarks:       ----- CARAVANAERO -----
+remarks:       
+remarks:       ----- TT-Travel LLC -----
+remarks:       
+remarks:       ----- FREEnet -----
+remarks:       
+remarks:       ----- T-Industrial Networks -----
+remarks:       
+remarks:       ----- PJSC ROSSETI -----
+remarks:       
+remarks:       ----- Baikal-Servis TK -----
+remarks:       
+remarks:       ----- FastCom -----
+remarks:       
+remarks:       ----- Tieto Rus -----
+remarks:       
+remarks:       ----- RTCloud -----
+remarks:       
+remarks:       ----- 3Data_NRyazanskaya26 -----
+remarks:       
+remarks:       ----- JSC Greenatom -----
+remarks:       
+remarks:       ----- Contact-Center -----
+remarks:       
+remarks:       ----- 3Data _MR4 -----
+remarks:       
+remarks:       ----- ITSOFT LLC -----
+remarks:       
+remarks:       ----- INFOSERVICE -----
+remarks:       
+remarks:       ----- OOO Mango Telecom -----
+remarks:       
+remarks:       ----- LLC ANsystems -----
+remarks:       
+remarks:       ----- B.I.N.BANK JSC -----
+remarks:       
+remarks:       ----- JSC Commercial Bank Moscomprivatbank -----
+remarks:       
+remarks:       ----- JGameInsight -----
+remarks:       
+remarks:       ----- OOO "BUKMEKERSKAYA KONTORA "FAVORIT" -----
+remarks:       
+remarks:       ----- Digital Energy LLC -----
+remarks:       
+remarks:       ----- AVAYA -----
+remarks:       
+remarks:       ----- AMWAYRUSSIA ------
+remarks:       
+remarks:       ----- Tieto Rus -----
+remarks:       
+remarks:       ----- CPCR-EXPRESS ------
+remarks:       
+remarks:       ----- KONSIST-OS-AS ------
+remarks:       
+remarks:       ----- JSC "Corp Soft" ------
+remarks:       
+remarks:       =========================
+remarks:       IPv6 routing policy
+remarks:       =========================
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Upstreams
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       
+remarks:       *******Filanco********
+remarks:       
+remarks:       *******Retn.net*******
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       RUSSIAN PEERS
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       
+remarks:       -----------------------
+remarks:       Peering at MSK-IX
+remarks:       -----------------------
+remarks:       
+remarks:       
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Downstreams
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       
+remarks:       ----- CROC_INC -----
+remarks:       
+remarks:       ----- Softline Trade CJSC -----
+remarks:       
+remarks:       ----- Amayama Auto Co -----
+remarks:       
+remarks:       ----- LTD Santekhkomplekt -----
+remarks:       
+remarks:       ----- LINKINTEL -----
+remarks:       
+remarks:       ----- CJSC TNS Gallup AdFact -----
+remarks:       
+remarks:       ----- Yandex.OFD LLC -----
+remarks:       
+remarks:       ----- Start LLC -----
+remarks:       
+remarks:       ----- FastRu -----
+remarks:       
+remarks:       ----- Acronis Ltd. -----
+remarks:       
+remarks:       ----- Innovation IT Solutions LTD -----
+remarks:       
+remarks:       ----- JSC Hosting Telesystems autonomous system -----
+remarks:       
+remarks:       ----- CROC_INC -----
+remarks:       
+remarks:       ----- Evotor -----
+remarks:       
+remarks:       ----- CARAVANAERO -----
+remarks:       
+remarks:       ----- FREENET -----
+remarks:       
+remarks:       ----- DATAPLANET -----
+remarks:       
+remarks:       ----- JSC TC "Megapolis" -----
+remarks:       
+remarks:       ----- JGameInsight -----
+remarks:       
+remarks:       ========================================================
+remarks:       BGP community accepted only from customers
+remarks:       ========================================================
+remarks:       ! 29226:S - TAGS !
+remarks:       
+remarks:       S - Source of prefix:
+remarks:       1 Upstream
+remarks:       2 Russian peer
+remarks:       3 International peers
+remarks:       
+remarks:       NN - Number of Upstream, peer
+remarks:       
+remarks:       29226:10NX Upstream
+remarks:       ========================================================
+remarks:       101X CITYTELECOM
+remarks:       102X RETN
+remarks:       103X Rostelecom
+remarks:       104X TTK
+remarks:       105X
+remarks:       106X
+remarks:       107X
+remarks:       108X Vimpelcom
+remarks:       109X Megafon
+remarks:       
+remarks:       29226:20NX Russian peer
+remarks:       ========================================================
+remarks:       29226:201x MSK-IX-RS
+remarks:       29226:202x all direct peering MSK-IX
+remarks:       29226:211x Data-IX-RS
+remarks:       29226:221x ELBA-IX-RS
+remarks:       29226:222x ELBA-IX-RS all direct peering ELBA-IX
+remarks:       
+remarks:       29226:30NX International peers
+remarks:       ========================================================
+remarks:       29226:301x DE-CIX
+remarks:       29226:302x all direct peering
+remarks:       
+remarks:       X - tag for action:
+remarks:       x=0 - don't announce
+remarks:       x=1 - prepend LAST AS 3 times
+remarks:       
+remarks:       Black hole:
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       0:666 - BLACKHOLE
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       29226:660 - Local Preference=60
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       
+remarks:       Advertised prefixes by type:
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       29226:777 All customers by default
+remarks:       
+remarks:       Other communities in range 29226:* are accepted
+remarks:       but ignored.
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Default Local Preference
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Customers 200
+remarks:       Private peering 130
+remarks:       National peering MSK-IX 120
+remarks:       Uplinks 100
+remarks:       
+remarks:       *******************************************************
+remarks:       *************** Contacts and URLs *********************
+remarks:       *******************************************************
+remarks:       
+remarks:       Routing/Peering issues: noc@mastertel.ru
+remarks:       Web Site http://www.mastertel.ru
+remarks:       Looking Glass http://lg.mastertel.ru
+remarks:       
+remarks:       *******************************************************
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        MASTERTEL-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

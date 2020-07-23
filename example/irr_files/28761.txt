@@ -1,0 +1,162 @@
+aut-num:        AS28761
+as-name:        CrimeaCom-LLC
+org:            ORG-CSL28-RIPE
+descr:          CrimeaCom LTD. Autonomous system
+status:         ASSIGNED
+notify:         info@crimea-com.net
+remarks:        !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        ! UPSTREAMS
+remarks:        ! contact: <support@crimea-com.net> <noc@crimea-com.net>
+remarks:        !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+import:         from AS201776 action pref=100; accept ANY
+import:         from AS12389 action pref=100; accept ANY
+export:         to AS201776 announce AS28761:AS-CUSTOMERS
+export:         to AS12389 announce AS28761:AS-CUSTOMERS
+remarks:        !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        ! CUSTOMERS
+remarks:        ! contact: <support@crimea-com.net> <noc@crimea-com.net>
+remarks:        !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+import:         from AS42238 action pref=50; accept AS42238
+import:         from AS59744 action pref=50; accept AS-CRIMEATEL
+import:         from AS43032 action pref=50; accept AS43032
+import:         from AS25118 action pref=50; accept AS25118
+import:         from AS25203 action pref=50; accept AS-SIMFINET
+import:         from AS44341 action pref=50; accept AS44341
+import:         from AS196665 action pref=50; accept AS-OPTICOM
+import:         from AS35533 action pref=50; accept AS35533
+import:         from AS12408 action pref=50; accept AS-BIKENT
+import:         from AS41161 action pref=50; accept AS-REALWEB
+import:         from AS12507 action pref=50; accept AS-SWIFT-TRACE
+import:         from AS49617 action pref=50; accept AS49617
+import:         from AS43822 action pref=50; accept AS43822
+import:         from AS43802 action pref=50; accept AS-MYST
+import:         from AS47898 action pref=50; accept AS47898
+import:         from AS47939 action pref=50; accept AS47939
+import:         from AS196705 action pref=50; accept AS-ARDINVEST
+import:         from AS20916 action pref=50; accept AS-PE_ARZANOVA
+import:         from AS42239 action pref=50; accept AS-FARLINE
+import:         from AS50949 action pref=50; accept AS-AGRONET
+import:         from AS47943 action pref=50; accept AS47943
+import:         from AS59833 action pref=50; accept AS59833
+import:         from AS8654 action pref=50; accept AS-CRIMEAINFOCOM
+import:         from AS197171 action pref=50; accept AS197171
+import:         from AS50140 action pref=50; accept AS50140
+import:         from AS12883 action pref=50; accept AS12883
+import:         from AS59808 action pref=50; accept AS-59808
+import:         from AS47203 action pref=50; accept AS47203
+import:         from AS200702 action pref=50; accept AS200702
+import:         from AS204259 action pref=50; accept AS204259
+import:         from AS201069 action pref=50; accept AS-SET-APEX
+import:         from AS200922 action pref=50; accept AS200922
+import:         from AS44387 action pref=50; accept AS44387
+import:         from AS50042 action pref=50; accept AS50042
+import:         from AS42253 action pref=50; accept AS-TELSP
+import:         from AS197152 action pref=50; accept AS197152
+import:         from AS57899 action pref=50; accept AS57899
+import:         from AS47349 action pref=50; accept AS47349
+import:         from AS51214 action pref=50; accept AS51214
+import:         from AS62287 action pref=50; accept AS62287
+import:         from AS34879 action pref=50; accept AS34879
+import:         from AS198669 action pref=50; accept AS198669
+import:         from AS41269 action pref=50; accept AS41269
+import:         from AS35381 action pref=50; accept AS35381
+import:         from AS58000 action pref=50; accept AS58000
+export:         to AS58000 announce {0.0.0.0/0}
+export:         to AS59744 announce ANY
+import:         from AS44533 action pref=50; accept AS44533
+export:         to AS44533 announce {0.0.0.0/0}
+import:         from AS41227 action pref=50; accept AS41227
+export:         to AS205515 announce ANY
+import:         from AS205515 action pref=50; accept AS205515
+export:         to AS41227 announce ANY
+export:         to AS42238 announce ANY
+export:         to AS35381 announce {0.0.0.0/0}
+export:         to AS43032 announce ANY
+export:         to AS25118 announce ANY
+export:         to AS25203 announce ANY
+export:         to AS44341 announce ANY
+export:         to AS196665 announce ANY
+export:         to AS35533 announce ANY
+export:         to AS12408 announce ANY
+export:         to AS41161 announce ANY
+export:         to AS12507 announce ANY
+export:         to AS49617 announce ANY
+export:         to AS43822 announce ANY
+export:         to AS43802 announce ANY
+export:         to AS47898 announce ANY
+export:         to AS47939 announce ANY
+export:         to AS196705 announce ANY
+export:         to AS20916 announce ANY
+export:         to AS42239 announce ANY
+export:         to AS50949 announce ANY
+export:         to AS47943 announce ANY
+export:         to AS59833 announce ANY
+export:         to AS8654 announce ANY
+export:         to AS197171 announce ANY
+export:         to AS50140 announce ANY
+export:         to AS12883 announce ANY
+export:         to AS59808 announce ANY
+export:         to AS47203 announce ANY
+export:         to AS200702 announce ANY
+export:         to AS204259 announce ANY
+export:         to AS201069 announce ANY
+export:         to AS200922 announce ANY
+export:         to AS44387 announce ANY
+export:         to AS50042 announce ANY
+export:         to AS42253 announce ANY
+export:         to AS197152 announce ANY
+export:         to AS51214 announce ANY
+export:         to AS47349 announce ANY
+export:         to AS57899 announce ANY
+export:         to AS62287 announce ANY
+export:         to AS34879 announce {0.0.0.0/0}
+export:         to AS198669 announce {0.0.0.0/0}
+export:         to AS41269 announce ANY
+export:         to AS206448 announce ANY
+import:         from AS206448 action pref=50; accept AS206448
+export:         to AS42896 announce ANY
+import:         from AS42896 action pref=50; accept AS-ACSGROUP
+export:         to AS48004 announce ANY
+import:         from AS48004 action pref=50; accept AS-KCTNET
+export:         to AS44917 announce ANY
+import:         from AS44917 action pref=50; accept AS44917
+export:         to AS41308 announce {0.0.0.0/0}
+import:         from AS41308 action pref=50; accept AS41308
+remarks:        !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        ! IXes and Parities
+remarks:        ! contact: <support@crimea-com.net> <noc@crimea-com.net>
+remarks:        !-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+import:         from AS43222 action pref=80; accept AS-CRIMEA-IX
+export:         to AS43222 announce AS28761:AS-CUSTOMERS
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        IPv6 Routing Policy
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+mp-import:      afi ipv6.unicast from AS12389 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS12389 announce AS28761:AS-CUSTOMERS
+mp-import:      afi ipv6.unicast from AS196705 action pref=150; accept AS-ARDINVEST
+mp-export:      afi ipv6.unicast to AS196705 announce ANY
+mp-import:      afi ipv6.unicast from AS47939 action pref=150; accept AS47939
+mp-export:      afi ipv6.unicast to AS47939 announce ANY
+mp-import:      afi ipv6.unicast from AS42896 action pref=150; accept AS-ACSGROUP
+mp-export:      afi ipv6.unicast to AS42896 announce ANY
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        BGP COMMUNITY SUPPORT FOR AS28761 BGP CUSTOMERS:
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        Customer TE communities - Blackhole
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:        28761:6666 - blackhole (discard) traffic
+remarks:        -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         CRIMEA-MNT
+created:        2003-02-18T14:35:57Z
+last-modified:  2018-05-24T05:32:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

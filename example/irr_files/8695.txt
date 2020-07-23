@@ -1,0 +1,106 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS8695
+as-name:       KS-IX-AS
+descr:         Kherson Traffic Exchange
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS25482 action pref=100; accept AS25482:AS-CUSTOMERS
+import:        from AS21151 action pref=100; accept AS21151:AS-CUSTOMERS
+import:        from AS56404 action pref=100; accept AS56404
+import:        from AS15458 action pref=100; accept AS15458
+import:        from AS35213 action pref=100; accept AS-PCN
+import:        from AS41018 action pref=100; accept AS-OMNILANCE
+import:        from AS56446 action pref=100; accept AS56446
+import:        from AS47598 action pref=100; accept AS-KHERSONTELECOM
+import:        from AS57498 action pref=100; accept AS57498
+import:        from AS49168 action pref=100; accept AS49168
+import:        from AS44737 action pref=100; accept AS44737
+import:        from AS59500 action pref=100; accept AS59500
+import:        from AS42782 action pref=100; accept AS42782
+import:        from AS39667 action pref=100; accept AS39667
+export:        to AS25482 announce AS-KS-IX
+export:        to AS21151 announce AS-KS-IX
+export:        to AS56404 announce AS-KS-IX
+export:        to AS15458 announce AS-KS-IX
+export:        to AS35213 announce AS-KS-IX
+export:        to AS41018 announce AS-KS-IX
+export:        to AS56446 announce AS-KS-IX
+export:        to AS47598 announce AS-KS-IX
+export:        to AS57498 announce AS-KS-IX
+export:        to AS49168 announce AS-KS-IX
+export:        to AS44737 announce AS-KS-IX
+export:        to AS59500 announce AS-KS-IX
+export:        to AS42782 announce AS-KS-IX
+export:        to AS39667 announce AS-KS-IX
+remarks:       Kherson Traffic Exchange
+remarks:       http://ix.ks.ua/
+remarks:       ---------------------------------------------| STATUS
+remarks:       ---------------------------------------------| UKRCOM
+remarks:       ---------------------------------------------| NORMA-4
+remarks:       ---------------------------------------------| TLC
+remarks:       ---------------------------------------------| KahovkaNet
+remarks:       ---------------------------------------------| Server.UA DC
+remarks:       ---------------------------------------------| OstrovNet
+remarks:       ---------------------------------------------| SkyNet
+remarks:       ---------------------------------------------| SMART-M SOLUTIONS LLC
+remarks:       ---------------------------------------------| Brok-X
+remarks:       ---------------------------------------------| Next
+remarks:       ---------------------------------------------| LineVPS
+remarks:       ---------------------------------------------| Stream-Kherson
+remarks:       ---------------------------------------------| Online-Net
+remarks:       ---------------------------------------------|
+remarks:       ====================================================================
+remarks:       Communities accepted
+remarks:       ====================================================================
+remarks:       8695:1nnnt, where nnn - number of customer, t - action.
+remarks:       Customers:
+remarks:       000 - All customers
+remarks:       001 - AS25482 STATUS
+remarks:       002 - AS21151 UKRCOM
+remarks:       003 - AS56404 NORMA-4
+remarks:       004 - AS15458 TLC
+remarks:       005 - AS35213 KahovkaNet
+remarks:       006 - AS41018 ServerUA
+remarks:       007 - AS56446 OstrovNet
+remarks:       008 - AS47598 SkyNet
+remarks:       009 - AS57498 SMART-M
+remarks:       010 - AS49168 Brok-X
+remarks:       011 - AS44737 Next
+remarks:       012 - AS59500 LineVPS
+remarks:       013 - AS42782 Stream-Kherson
+remarks:       014 - AS39667 Online-Net
+remarks:       Action:
+remarks:       0 - do not announce to customer
+remarks:       1 - prepend once
+remarks:       2 - prepend twice
+remarks:       3 - prepend 3x
+remarks:       --------------------------------------------------------------------
+remarks:       8695:20xxx - set local preference xxx to prefix (0/50/100/150)
+remarks:       --------------------------------------------------------------------
+remarks:       8695:666 - blackhole
+remarks:       --------------------------------------------------------------------
+remarks:       ====================================================================
+remarks:       Please contact noc@ix.ks.ua with any questions
+remarks:       ====================================================================
+remarks:       ====================================================================
+remarks:       RFC1918 and other reserved networks and subnets are
+remarks:       not permitted.
+remarks:       --------------------------------------------------------------------
+remarks:       Advertisements with reserved ASes in the path
+remarks:       (ie 64512 - 65535) are not permitted.
+remarks:       ====================================================================
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        STATUS-MNT
+mnt-by:        KS-IX-MNT
+source:        RIPE
+
+

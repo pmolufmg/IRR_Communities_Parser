@@ -1,0 +1,2438 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS3209 - AS3353'
+
+as-block:       AS3209 - AS3353
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:19Z
+last-modified:  2018-11-22T15:27:19Z
+source:         RIPE
+
+% Information related to 'AS3327'
+
+% Abuse contact for 'AS3327' is 'abuse@citictel-cpc.com'
+
+aut-num:        AS3327
+as-name:        CITIC
+descr:          CITIC Telecom CPC Netherlands B.V.
+org:            ORG-LTB1-RIPE
+remarks:        $Id: AS3327,v 1.543 2019/01/15 13:45:25 martint Exp $
+remarks:        --------------------------------------------------------------
+remarks:        Amsterdam Internet Exchange (AMS-IX)
+remarks:        IPv4 address: 195.69.145.242
+remarks:        IPv6 address: 2001:7f8:1::a500:3327:1
+remarks:        --------------------------------------------------------------
+remarks:        *** Packet Clearing House ***
+import:         from AS42    195.69.144.250     action pref=60; accept AS-PCH
+export:         to   AS42    195.69.144.250     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS42 2001:7f8:42::a500:0042:1 action pref=60; accept AS-PCH
+mp-export:      afi ipv6.unicast
+                to   AS42 2001:7f8:42::a500:0042:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Amsterdam Internet Exchange (AMS-IX) Peering AS ***
+import:         from AS1200  195.69.144.1       action pref=60; accept AS1200
+export:         to   AS1200  195.69.144.1       announce AS-LINXTELECOM-AMSIX
+import:         from AS1200  195.69.145.1       action pref=60; accept AS1200
+export:         to   AS1200  195.69.145.1       announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS1200  2001:7f8:1::a500:1200:1 action pref=60; accept AS1200
+mp-export:      afi ipv6.unicast
+                to   AS1200  2001:7f8:1::a500:1200:1 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS1200  2001:7f8:1::a500:1200:2 action pref=60; accept AS1200
+mp-export:      afi ipv6.unicast
+                to   AS1200  2001:7f8:1::a500:1200:2 announce AS-LINXTELECOM-AMSIX
+remarks:        *** TELE2 Group ***
+mp-import:      afi ipv6.unicast
+                from AS1257  2001:7f8:1::a500:1257:1 action pref=60; accept AS-TELE2
+mp-export:      afi ipv6.unicast
+                to   AS1257  2001:7f8:1::a500:1257:1 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS1257  2001:7f8:1::a500:1257:2 action pref=60; accept AS-TELE2
+mp-export:      afi ipv6.unicast
+                to   AS1257  2001:7f8:1::a500:1257:2 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Infostrada S.p.A. ***
+import:         from AS1267  195.69.145.236     action pref=60; accept AS-INFOSTRADA
+export:         to   AS1267  195.69.145.236     announce AS-LINXTELECOM-AMSIX
+remarks:        *** TIC The Internet Company AG ***
+import:         from AS1836  195.69.144.192     action pref=60; accept AS-TICCH
+export:         to   AS1836  195.69.144.192     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS1836 2001:7f8:1::a500:1836:1 action pref=60; accept AS-TICCH
+mp-export:      afi ipv6.unicast
+                to   AS1836 2001:7f8:1::a500:1836:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Arcor AG & Co. ***
+import:         from AS3209  195.69.144.123     action pref=60; accept AS-ARCORGLOBAL
+export:         to   AS3209  195.69.144.123     announce AS-LINXTELECOM-AMSIX
+import:         from AS3209  195.69.145.123     action pref=60; accept AS-ARCORGLOBAL
+export:         to   AS3209  195.69.145.123     announce AS-LINXTELECOM-AMSIX
+remarks:        *** XS4ALL Internet ***
+import:         from AS3265  195.69.144.48      action pref=60; accept AS-ACCESSFORALL
+export:         to   AS3265  195.69.144.48      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS3265  2001:7f8:1::a500:3265:1 action pref=60; accept AS-ACCESSFORALL
+mp-export:      afi ipv6.unicast
+                to   AS3265  2001:7f8:1::a500:3265:1 announce AS-LINXTELECOM-AMSIX
+import:         from AS3265  195.69.144.166      action pref=60; accept AS-ACCESSFORALL
+export:         to   AS3265  195.69.144.166      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS3265  2001:7f8:1::a500:3265:2 action pref=60; accept AS-ACCESSFORALL
+mp-export:      afi ipv6.unicast
+                to   AS3265  2001:7f8:1::a500:3265:2 announce AS-LINXTELECOM-AMSIX
+remarks:        *** TDC A/S ***
+import:         from AS3292  195.69.144.104     action pref=60; accept AS-TDCNET
+export:         to   AS3292  195.69.144.104     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS3292 2001:7f8:1::a500:3292:1 action pref=60; accept AS-TDCNET-IPV6
+mp-export:      afi ipv6.unicast
+                to   AS3292 2001:7f8:1::a500:3292:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Swisscom Solutions Ltd ***
+import:         from AS3303  195.69.144.100     action pref=60; accept AS-SWCMGLOBAL
+export:         to   AS3303  195.69.144.100     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Packet Clearing House ***
+import:         from AS3856  195.69.145.250     action pref=60; accept AS-PCH
+export:         to   AS3856  195.69.145.250     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS3856 2001:7f8:1::a500:3856:1 action pref=60; accept AS-PCH
+mp-export:      afi ipv6.unicast
+                to   AS3856 2001:7f8:1::a500:3856:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Easynet Global Services ***
+import:         from AS4589  195.69.144.38      action pref=60; accept AS-EASYNET
+export:         to   AS4589  195.69.144.38      announce AS-LINXTELECOM-AMSIX
+remarks:        *** Internode Systems Pty Ltd ***
+import:         from AS4739  195.69.144.227     action pref=60; accept AS-4739
+export:         to   AS4739  195.69.144.227     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS4739 2001:7f8:1::A500:4739:1 action pref=60; accept AS-4739
+mp-export:      afi ipv6.unicast
+                to   AS4739 2001:7f8:1::A500:4739:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Telekom Malaysia ***
+import:         from AS4788  195.69.145.91      action pref=60; accept AS-TMNET-CUSTOMERS
+export:         to   AS4788  195.69.145.91      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS4788 2001:7F8:1::A500:4788:1 action pref=60; accept AS-TMNET-CUSTOMERS
+mp-export:      afi ipv6.unicast
+                to   AS4788 2001:7F8:1::A500:4788:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Orange Nederland B.V. ***
+import:         from AS5390  195.69.144.55      action pref=60; accept AS-EURONETNL
+export:         to   AS5390  195.69.144.55      announce AS-LINXTELECOM-AMSIX
+import:         from AS5390  195.69.144.70      action pref=60; accept AS-EURONETNL
+export:         to   AS5390  195.69.144.70      announce AS-LINXTELECOM-AMSIX
+remarks:        *** Russian Backbone Network ***
+import:         from AS5568  195.69.145.212     action pref=60; accept AS-RBNET
+export:         to   AS5568  195.69.145.212     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS5568  2001:7f8:1::a500:5568:1 action pref=60; accept AS-RBNET
+mp-export:      afi ipv6.unicast
+                to   AS5568  2001:7f8:1::a500:5568:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** internetSDT ***
+import:         from AS6735  195.69.145.80      action pref=60; accept AS-SDTAMSIX
+export:         to   AS6735  195.69.145.80      announce AS-LINXTELECOM-AMSIX
+remarks:        *** Belgacom International Carrier Services ***
+import:         from AS6774  195.69.144.87      action pref=60; accept AS6774:AS-BICS-TRANSIT
+export:         to   AS6774  195.69.144.87      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS6774 2001:7f8::1a76:0:1 action pref=60; accept AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv6.unicast
+                to   AS6774 2001:7f8::1a76:0:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Amsterdam Internet Exchange (AMS-IX) Route Servers AS ***
+import:         from AS6777  195.69.144.255     action pref=60; accept ANY
+export:         to   AS6777  195.69.144.255     announce AS-LINXTELECOM-AMSIX
+import:         from AS6777  195.69.145.0       action pref=60; accept ANY
+export:         to   AS6777  195.69.145.0       announce AS-LINXTELECOM-AMSIX
+remarks:        *** Microsoft European Data Center ***
+import:         from AS8068  195.69.145.20      action pref=60; accept AS-MICROSOFT
+export:         to   AS8068  195.69.145.20      announce AS-LINXTELECOM
+import:         from AS8068  195.69.145.21      action pref=60; accept AS-MICROSOFT
+export:         to   AS8068  195.69.145.21      announce AS-LINXTELECOM
+remarks:        *** Telefonica Deutschland GmbH ***
+import:         from AS6805  195.69.144.91      action pref=60; accept AS-TDDE
+export:         to   AS6805  195.69.144.91      announce AS-LINXTELECOM-AMSIX
+remarks:        *** Hurricane Electric ***
+import:         from AS6939  195.69.145.150     action pref=60; accept AS-HURRICANE
+export:         to   AS6939  195.69.145.150     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Mobile TeleSystems OJSC ***
+import:         from AS8359  195.69.145.188     action pref=60; accept AS-MTU
+export:         to   AS8359  195.69.145.188     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS8359 2001:7F8:1::A500:8359:1 action pref=60; accept AS-MTU-V6
+mp-export:      afi ipv6.unicast
+                to   AS8359 2001:7F8:1::A500:8359:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Claranet Benelux ***
+import:         from AS8426  195.69.144.82      action pref=60; accept AS-CLARANET
+export:         to   AS8426  195.69.144.82      announce AS-LINXTELECOM-AMSIX
+import:         from AS8426  195.69.145.228     action pref=60; accept AS-CLARANET
+export:         to   AS8426  195.69.145.228     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Telekom Austria TA AG ***
+import:         from AS8447  195.69.145.207     action pref=60; accept AS-PTA
+export:         to   AS8447  195.69.145.207     announce AS-LINXTELECOM-AMSIX
+remarks:        *** XB Networks B.V. ***
+import:         from AS8608  195.69.144.90      action pref=60; accept AS-QINIP
+export:         to   AS8608  195.69.144.90      announce AS-LINXTELECOM-AMSIX
+import:         from AS8608  195.69.145.90      action pref=60; accept AS-QINIP
+export:         to   AS8608  195.69.145.90      announce AS-LINXTELECOM-AMSIX
+remarks:        *** Versatel West GmbH ***
+import:         from AS8881  195.69.145.109     action pref=60; accept AS-VT-TRANSIT
+export:         to   AS8881  195.69.145.109     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS8881 2001:7F8:1::A500:8881:1 action pref=60; accept AS-VERSATEL-V6
+mp-export:      afi ipv6.unicast
+                to   AS8881 2001:7F8:1::A500:8881:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Emirates Telecommunications Corporation ***
+import:         from AS8966  195.69.145.89      action pref=60; accept AS-EMIX
+export:         to   AS8966  195.69.145.89      announce AS-LINXTELECOM-AMSIX
+remarks:        *** ReTN.net ***
+import:         from AS9002  195.69.145.216     action pref=60; accept AS-RETN
+export:         to   AS9002  195.69.145.216     announce AS-LINXTELECOM-AMSIX
+remarks:        *** M247 Ltd ***
+import:         from AS9009  195.69.144.63      action pref=60; accept AS-GBXS
+export:         to   AS9009  195.69.144.63      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS9009 2001:7f8:1::a500:9009:1 action pref=60; accept AS-GBXS6
+mp-export:      afi ipv6.unicast
+                to   AS9009 2001:7f8:1::a500:9009:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** AtHome-Benelux-BV ***
+import:         from AS9143  195.69.144.103     action pref=60; accept AS-BENELUX
+export:         to   AS9143  195.69.144.103     announce AS-LINXTELECOM-AMSIX
+import:         from AS9143  195.69.144.181     action pref=60; accept AS-BENELUX
+export:         to   AS9143  195.69.144.181     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Academic Services Network (ASNet) ***
+import:         from AS9264  195.69.144.184     action pref=60; accept AS-ASNET
+export:         to   AS9264  195.69.144.184     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Taiwan Internet Gateway ***
+import:         from AS9505  195.69.145.78      action pref=60; accept AS-TWIG
+export:         to   AS9505  195.69.145.78      announce AS-LINXTELECOM-AMSIX
+remarks:        *** Yahoo! Europe ***
+import:         from AS10310 195.69.145.110     action pref=60; accept AS-YAHOOEU
+export:         to   AS10310 195.69.145.110     announce AS-LINXTELECOM-AMSIX
+import:         from AS10310 195.69.145.163 action pref=60; accept AS-YAHOOEU
+export:         to   AS10310 195.69.145.163 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS10310 2001:7f8:1::a501:310:1 action pref=60; accept AS-YAHOOEU
+mp-export:      afi ipv6.unicast
+                to   AS10310 2001:7f8:1::a501:310:1 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS10310 2001:7f8:1::a501:310:2 action pref=60; accept AS-YAHOOEU
+mp-export:      afi ipv6.unicast
+                to   AS10310 2001:7f8:1::a501:310:2 announce AS-LINXTELECOM-AMSIX
+remarks:        *** BIT BV ***
+import:         from AS12859 195.69.144.35      action pref=60; accept AS-BIT
+export:         to   AS12859 195.69.144.35      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS12859 2001:7f8:1::a501:2859:1 action pref=60; accept AS-BIT6
+mp-export:      afi ipv6.unicast
+                to   AS12859 2001:7f8:1::a501:2859:1 announce AS-LINXTELECOM-AMSIX
+import:         from AS12859 195.69.144.200     action pref=60; accept AS-BIT
+export:         to   AS12859 195.69.144.200     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS12859 2001:7f8:1::a501:2859:2 action pref=60; accept AS-BIT6
+mp-export:      afi ipv6.unicast
+                to   AS12859 2001:7f8:1::a501:2859:2 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Concepts ICT ***
+import:         from AS12871 195.69.144.64      action pref=60; accept AS-CONCEPTS
+export:         to   AS12871 195.69.144.64      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS12871 2001:7f8:1::a501:2871:1 action pref=60; accept AS-CONCEPTS
+mp-export:      afi ipv6.unicast
+                to   AS12871 2001:7f8:1::a501:2871:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Highwinds Network Group, Inc ***
+import:         from AS12989 195.69.144.94      action pref=60; accept AS-HIGHWINDS
+export:         to   AS12989 195.69.144.94      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS12989 2001:7F8:1::A501:2989:1 action pref=60; accept AS-HIGHWINDS
+mp-export:      afi ipv6.unicast
+                to   AS12989 2001:7F8:1::A501:2989:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Init Seven AG ***
+import:         from AS13030 195.69.144.210     action pref=60; accept AS-INIT7
+export:         to   AS13030 195.69.144.210     announce AS-LINXTELECOM-AMSIX
+remarks:        *** TNG - THE NET GENERATION AG ***
+import:         from AS13101 195.69.145.119     action pref=60; accept AS-TNG
+export:         to   AS13101 195.69.145.119     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Versatel ***
+import:         from AS13127 195.69.144.47      action pref=60; accept AS-VERSATEL
+export:         to   AS13127 195.69.144.47      announce AS-LINXTELECOM-AMSIX
+import:         from AS13127 195.69.144.211     action pref=60; accept AS-VERSATEL
+export:         to   AS13127 195.69.144.211     announce AS-LINXTELECOM-AMSIX
+remarks:        *** LambdaNet Communications Deutschland AG, Hannover ***
+import:         from AS13237 195.69.144.212     action pref=60; accept AS-LAMBDANET
+export:         to   AS13237 195.69.144.212     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS13237 2001:7F8:1::A501:3237:1 action pref=60; accept AS-LAMBDANET
+mp-export:      afi ipv6.unicast
+                to   AS13237 2001:7F8:1::A501:3237:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** TalkTalk ***
+import:         from AS13285 195.69.145.34      action pref=60; accept AS-OPAL
+export:         to   AS13285 195.69.145.34      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS13285 2001:7f8:1::a501:3285:1 action pref=60; accept AS-OPAL
+mp-export:      afi ipv6.unicast
+                to   AS13285 2001:7f8:1::a501:3285:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Peer 1 Network ***
+import:         from AS13768 195.69.145.209     action pref=60; accept ANY AND NOT fltr-bogons
+export:         to   AS13768 195.69.145.209     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Google Inc. ***
+mp-import:      afi ipv6.unicast
+                from AS15169 2001:7f8:1::a501:5169:1 action pref=60; accept AS-GOOGLE
+mp-export:      afi ipv6.unicast
+                to   AS15169 2001:7f8:1::a501:5169:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** CAIW Autonomous System ***
+import:         from AS15435 195.69.144.149     action pref=60; accept AS-KABELFOON
+export:         to   AS15435 195.69.144.149     announce AS-LINXTELECOM-AMSIX
+import:         from AS15435 195.69.145.173     action pref=60; accept AS-KABELFOON
+export:         to   AS15435 195.69.145.173     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Neuf Cegetel(SFR) ***
+import:         from AS15557 195.69.145.147     action pref=60; accept AS-LDCOMNET
+export:         to   AS15557 195.69.145.147     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS15557 2001:7f8:1::a501:5557:1 action pref=60; accept AS-LDCOMNET
+mp-export:      afi ipv6.unicast
+                to   AS15557 2001:7f8:1::a501:5557:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Finecom Telecommunications AG ***
+import:         from AS15600 195.69.144.128     action pref=60; accept AS-FINECOM
+export:         to   AS15600 195.69.144.128     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS15600 2001:7f8:1::a501:5600:1 action pref=60; accept AS-FINECOM
+mp-export:      afi ipv6.unicast
+                to   AS15600 2001:7f8:1::a501:5600:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** TELECITY London ***
+import:         from AS15830 195.69.144.113     action pref=60; accept AS-TELECITYLON
+export:         to   AS15830 195.69.144.113     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Port80 ***
+import:         from AS16150 195.69.145.52      action pref=60; accept AS16150:AS-CUSTOMERS
+export:         to   AS16150 195.69.145.52      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS16150 2001:7F8:1::A501:6150:1 action pref=60; accept AS16150:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast
+                to   AS16150 2001:7F8:1::A501:6150:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** LeaseWeb ***
+import:         from AS16265 195.69.144.215     action pref=60; accept AS-LEASEWEB
+export:         to   AS16265 195.69.144.215     announce AS-LINXTELECOM-AMSIX
+import:         from AS16265 195.69.145.215     action pref=60; accept AS-LEASEWEB
+export:         to   AS16265 195.69.145.215     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS16265 2001:7F8:1::A501:6265:1 action pref=60; accept AS-LEASEWEB
+mp-export:      afi ipv6.unicast
+                to   AS16265 2001:7F8:1::A501:6265:1 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS16265 2001:7F8:1::A501:6265:2 action pref=60; accept AS-LEASEWEB
+mp-export:      afi ipv6.unicast
+                to   AS16265 2001:7F8:1::A501:6265:2 announce AS-LINXTELECOM-AMSIX
+remarks:        *** OVH ***
+import:         from AS16276 action pref=60; accept AS-OVH
+export:         to   AS16276 announce AS-LINXTELECOM-AMSIX
+remarks:        *** BroadbandONE ***
+import:         from AS19151 195.69.145.58      action pref=60; accept AS-BBOI
+export:         to   AS19151 195.69.145.58      announce AS-LINXTELECOM-AMSIX
+remarks:        *** RTLNederland Interactief B.V. ***
+import:         from AS20504 195.69.144.186     action pref=60; accept AS-RTL
+export:         to   AS20504 195.69.144.186     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Open Peering Initiative ***
+import:         from AS20562 195.69.144.189     action pref=60; accept AS-OPENPEERINGMEMBERS
+export:         to   AS20562 195.69.144.189     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Lie-Comtel ***
+import:         from AS20634 195.69.145.226     action pref=60; accept AS-LIECOMTEL
+export:         to   AS20634 195.69.145.226     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Titan Networks Internet & Telecommunications ***
+import:         from AS20640 195.69.144.221     action pref=60; accept AS-TITANNET
+export:         to   AS20640 195.69.144.221     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS20640 2001:7f8:1::a502:640:1 action pref=60; accept AS-TITANNET
+mp-export:      afi ipv6.unicast
+                to   AS20640 2001:7f8:1::a502:640:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** SIG - IP-MAN.NET ***
+import:         from AS20932 195.69.144.234     action pref=60; accept AS-IP-MAN
+export:         to   AS20932 195.69.144.234     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Akamai Technologies European AS ***
+import:         from AS20940 195.69.144.168     action pref=60; accept AS-AKAMAI
+export:         to   AS20940 195.69.144.168     announce AS-LINXTELECOM-AMSIX
+import:         from AS20940 195.69.145.208     action pref=60; accept AS-AKAMAI
+export:         to   AS20940 195.69.145.208     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS20940 2001:7f8:1::a502:940:1 action pref=60; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast
+                to   AS20940 2001:7f8:1::a502:940:1 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS20940 2001:7f8:1::a502:940:2 action pref=60; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast
+                to   AS20940 2001:7f8:1::a502:940:2 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Limelight Networks, Inc. ***
+import:         from AS22822 195.69.145.133     action pref=60; accept AS-LLNW
+export:         to   AS22822 195.69.145.133     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Terremark ***
+import:         from AS23148 195.69.145.48      action pref=60; accept AS-TWW
+export:         to   AS23148 195.69.145.48      announce AS-LINXTELECOM-AMSIX
+remarks:        *** ISPrime, Inc. ***
+import:         from AS23393 195.69.145.223     action pref=60; accept AS-ISPRIME
+export:         to   AS23393 195.69.145.223     announce AS-LINXTELECOM-AMSIX
+remarks:        *** NPO Publieke Omroep ***
+import:         from AS25182 195.69.144.243     action pref=60; accept AS-PUBLIEKEOMROEP
+export:         to   AS25182 195.69.144.243     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Rokscom Internet B.V. ***
+import:         from AS25232 195.69.144.121     action pref=60; accept AS-ROKSCOM
+export:         to   AS25232 195.69.144.121     announce AS-LINXTELECOM-AMSIX
+import:         from AS25232 195.69.145.210     action pref=60; accept AS-ROKSCOM
+export:         to   AS25232 195.69.145.210     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS25232 2001:7f8:1::a502:5232:1 action pref=60; accept AS-ROKSCOM
+mp-export:      afi ipv6.unicast
+                to   AS25232 2001:7f8:1::a502:5232:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** CAMBRIUM BV. ***
+import:         from AS25596 195.69.144.159     action pref=60; accept AS-CAMBRIUM
+export:         to   AS25596 195.69.144.159     announce AS-LINXTELECOM-AMSIX
+import:         from AS25596 195.69.145.169     action pref=60; accept AS-CAMBRIUM
+export:         to   AS25596 195.69.145.169     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Unilogic Networks B.V. ***
+import:         from AS28788 195.69.144.237     action pref=60; accept AS-UNILOGICNET
+export:         to   AS28788 195.69.144.237     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Signet B.V. ***
+import:         from AS28878 195.69.144.198     action pref=60; accept AS-SIGNET
+export:         to   AS28878 195.69.144.198     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Ecatel Network ***
+import:         from AS29073 195.69.145.224     action pref=60; accept AS-ECATEL
+export:         to   AS29073 195.69.145.224     announce AS-LINXTELECOM-AMSIX
+remarks:        *** RapidSwitch Ltd ***
+import:         from AS29131 195.69.145.229     action pref=60; accept AS-RAPIDSWITCH
+export:         to   AS29131 195.69.145.229     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Computel Standby BV ***
+import:         from AS31383 195.69.145.35      action pref=60; accept AS-COMPUTEL
+export:         to   AS31383 195.69.145.35      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS31383  2001:7f8:1::a503:1383:1 action pref=60; accept AS-COMPUTEL
+mp-export:      afi ipv6.unicast
+                to   AS31383  2001:7f8:1::a503:1383:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** ComX Networks A/S ***
+import:         from AS31661 195.69.145.87      action pref=60; accept AS-COMX
+export:         to   AS31661 195.69.145.87      announce AS-LINXTELECOM-AMSIX
+remarks:        *** Jasmin Media Group Autonomus System ***
+import:         from AS34655 195.69.144.150     action pref=60; accept AS-JASMIN
+export:         to   AS34655 195.69.144.150     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Virgin Radio UK ***
+import:         from AS34763 195.69.145.105     action pref=60; accept AS-VIRGINRADIO
+export:         to   AS34763 195.69.145.105     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS34763 2001:7f8:1::a503:4763:1 action pref=60; accept AS-VIRGINRADIO-V6
+mp-export:      afi ipv6.unicast
+                to   AS34763 2001:7f8:1::a503:4763:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** iunxi BV ***
+import:         from AS34968 195.69.145.81      action pref=60; accept AS-IUNXI
+export:         to   AS34968 195.69.145.81      announce AS-LINXTELECOM-AMSIX
+remarks:        *** VeriSign ***
+import:         from AS36623 195.69.145.232     action pref=60; accept AS-GTLD
+export:         to   AS36623 195.69.145.232     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Edutel B.V. ***
+import:         from AS39309 195.69.145.65      action pref=60; accept AS-EDUTEL
+export:         to   AS39309 195.69.145.65      announce AS-LINXTELECOM-AMSIX
+remarks:        *** IPTriplePlay Service Network ***
+import:         from AS41095 195.69.145.196     action pref=60; accept AS-IPTP
+export:         to   AS41095 195.69.145.196     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Open Carrier eG ***
+import:         from AS41692 195.69.145.221     action pref=60; accept AS-OPENCARRIER
+export:         to   AS41692 195.69.145.221     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS41692 2001:7f8:1::a504:1692:1 action pref=60; accept AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast
+                to   AS41692 2001:7f8:1::a504:1692:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Qatar Telecom ***
+import:         from AS8781  195.69.145.120     action pref=60; accept AS-QTEL-SET
+export:         to   AS8781  195.69.145.120     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS8781 2001:7F8:1::A500:8781:1 action pref=60; accept AS-QTEL-SET
+mp-export:      afi ipv6.unicast
+                to   AS8781 2001:7F8:1::A500:8781:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Portlane ***
+import:         from AS42798 195.69.145.25      action pref=60; accept AS-PORTLANE
+export:         to   AS42798 195.69.145.25      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS42798 2001:7f8:1::A504:2708:1 action pref=60; accept AS-PORTLANE
+mp-export:      afi ipv6.unicast
+                to   AS42798 2001:7f8:1::A504:2708:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Amazon ***
+import:         from AS16509 195.69.146.100     action pref=60; accept AS-AMAZON
+export:         to   AS16509 195.69.146.100     announce AS-LINXTELECOM-AMSIX
+remarks:        *** Nianet ***
+import:         from AS31027 195.69.144.233     action pref=60; accept AS-NIANET
+export:         to   AS31027 195.69.144.233     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS31027 2001:7f8:1::A503:1027:1 action pref=60; accept AS-NIANET
+mp-export:      afi ipv6.unicast
+                to   AS31027 2001:7f8:1::A503:1027:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Facebook ***
+import:         from AS32934 195.69.145.115     action pref=60; accept AS-FACEBOOK
+export:         to   AS32934 195.69.145.115     announce AS-LINXTELECOM-AMSIX
+import:         from AS32934 195.69.145.164 action pref=60; accept AS-FACEBOOK
+export:         to   AS32934 195.69.145.164 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS32934 2001:7f8:1::a503:2934:1 action pref=60; accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast
+                to   AS32934 2001:7f8:1::a503:2934:1 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS32934 2001:7f8:1::a503:2934:2 action pref=60; accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast
+                to   AS32934 2001:7f8:1::a503:2934:2 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Edpnet ***
+import:         from AS9031 195.69.144.180 action pref=60; accept AS-EDPNET
+export:         to   AS9031 195.69.144.180 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS9031 2001:7f8:1::a500:9031:1 action pref=60; accept AS-EDPNET-V6
+mp-export:      afi ipv6.unicast
+                to   AS9031 2001:7f8:1::a500:9031:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** IP Transit ***
+import:         from AS46786 195.69.147.47      action pref=60; accept AS-IPTRANSIT
+export:         to   AS46786 195.69.147.47     announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS46786 2001:7F8:1::A504:6786:1 action pref=60; accept AS-IPTRANSIT
+mp-export:      afi ipv6.unicast
+                to   AS46786 2001:7F8:1::A504:6786:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Shaw Cablesystems ***
+import:         from AS6327 195.69.144.148 action pref=60; accept AS-BIGPIPE
+export:         to   AS6327 195.69.144.148 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS6327 2001:7f8:1::a500:6327:1 action pref=60; accept AS-BIGPIPE
+mp-export:      afi ipv6.unicast
+                to   AS6327 2001:7f8:1::a500:6327:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Hibernia Networks ***
+import:         from AS5580 action pref=60; accept AS-HIBERNIA
+export:         to AS5580 announce AS-LINXTELECOM-AMSIX
+remarks:        *** IP Only ***
+import:         from AS12552 195.69.145.235 action pref=60; accept AS-IPO
+export:         to   AS12552 195.69.145.235 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS12552 2001:7f8:1::a501:2552:1 action pref=60; accept AS-IPO
+mp-export:      afi ipv6.unicast
+                to   AS12552 2001:7f8:1::a501:2552:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Net Ground B.V. ***
+import:         from AS41445 195.69.145.33 action pref=60; accept AS-NETGROUND
+export:         to   AS41445 195.69.145.33 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS41445 2001:7F8:1::A504:1445:1 action pref=60; accept AS-NETGROUND
+mp-export:      afi ipv6.unicast
+                to   AS41445 2001:7F8:1::A504:1445:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Justin TV, Twitch TV ***
+import:         from AS46489 action pref=60; accept AS46489
+export:         to   AS46489 announce AS-LINXTELECOM-AMSIX
+remarks:        *** EdgeCast Networks Inc. ***
+import:         from AS15133 195.69.145.162 action pref=60; accept AS-EDGECAST
+export:         to   AS15133 195.69.145.162 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Companhia Portuguesa Radio Marconi ***
+import:         from AS8657 195.69.144.217      action pref=60; accept AS-CPRM
+export:         to   AS8657 195.69.144.217      announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS8657 2001:7f8:1::a500:8657:1 action pref=60; accept AS-CPRM-IPv6
+mp-export:      afi ipv6.unicast
+                to   AS8657 2001:7f8:1::a500:8657:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Entanet International Ltd ***
+import:         from AS8468 195.69.145.82       action pref=60; accept AS-ENTANET
+export:         to   AS8468 195.69.145.82       announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS8468 2001:7F8:1::A500:8468:1 action pref=60; accept AS-ENTANET
+mp-export:      afi ipv6.unicast
+                to   AS8468 2001:7F8:1::A500:8468:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Orange Business Services (Benelux) ***
+import:         from AS5583 195.69.144.66 action pref=60; accept AS-OBS-BENELUX
+export:         to   AS5583 195.69.144.66 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS5583 2001:7f8:1::A500:5583:1 action pref=60; accept AS-OBS-BENELUX
+mp-export:      afi ipv6.unicast
+                to   AS5583 2001:7f8:1::A500:5583:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Netflix ***
+import:         from AS2906 195.69.146.250 action pref=60; accept AS-NFLX
+export:         to   AS2906 195.69.146.250 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS2906 2001:7f8:1::a500:2906:1 action pref=60; accept AS-NFLX
+mp-export:      afi ipv6.unicast
+                to   AS2906 2001:7f8:1::a500:2906:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Media Network Services AS ***
+import:         from AS44654 195.69.144.176 action pref=60; accept AS-MNS
+export:         to   AS44654 195.69.144.176 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS44654 2001:7f8:1::A504:4654:1 action pref=60; accept AS-MNS
+mp-export:      afi ipv6.unicast
+                to   AS44654 2001:7f8:1::A504:4654:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** ARI Registry Services ***
+import:         from AS134390 action pref=60; accept AS134390
+export:         to   AS134390 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Kaia Global Networks Ltd. ***
+import:         from AS251 195.69.145.103 action pref=60; accept AS-KAIAGLOBAL
+export:         to   AS251 195.69.145.103 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Voxility ***
+import:         from AS3223 195.69.146.43 action pref=60; accept AS-VOXILITY-SET
+export:         to   AS3223 195.69.146.43 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Booking.com ***
+import:         from AS43996 195.69.146.198 action pref=60; accept AS-BOOKING
+export:         to   AS43996 195.69.146.198 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS43996 2001:7f8:1::a504:3996:1 action pref=60; accept AS-BOOKING
+mp-export:      afi ipv6.unicast
+                to   AS43996 2001:7f8:1::a504:3996:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Turk Telekom International ***
+import:         from AS6663 195.69.144.121 action pref=60; accept AS-STARNETSRO AS-PANTEL
+export:         to   AS6663 195.69.144.121 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS6663 2001:7f8::1a07:0:1 action pref=60; accept AS-STARNETSRO AS-PANTEL
+mp-export:      afi ipv6.unicast
+                to   AS6663 2001:7f8::1a07:0:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Lepida SpA ***
+import:         from AS31638 195.69.147.74 action pref=60; accept AS31638
+export:         to   AS31638 195.69.147.74 announce AS-LINXTELECOM-AMSIX
+mp-import:      afi ipv6.unicast
+                from AS31638 2001:7f8:1::a503:1638:1 action pref=60; accept AS31638
+mp-export:      afi ipv6.unicast
+                to   AS31638 2001:7f8:1::a503:1638:1 announce AS-LINXTELECOM-AMSIX
+remarks:        *** CloudFlare ***
+import:         from AS13335 action pref=60; accept AS13335
+export:         to AS13335 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Core-Backbone GmbH ***
+import:         from AS33891 action pref=60; accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Bezeq International ***
+import:         from AS8551 action pref=60; accept AS-BEZEQINT
+export:         to AS8551 announce AS-LINXTELECOM-AMSIX
+remarks:        *** PJSC Datagroup ***
+import:         from AS21219 action pref=60; accept AS-FF-TRANSIT
+export:         to AS21219 announce AS-LINXTELECOM-AMSIX
+remarks:        *** Zayo France ***
+import:         from AS8218 action pref=60; accept AS-NEOT
+export:         to   AS8218 announce AS-LINXTELECOM-AMSIX
+remarks:        *** atom86 ***
+import:         from AS8455 action pref=60; accept AS-ATOM86
+export:         to   AS8455 announce AS-LINXTELECOM-AMSIX
+remarks:        --------------------------------------------------------------
+remarks:        The German Internet Exchange (DE-CIX)
+remarks:        IPv4 address: 80.81.192.192
+remarks:        IPv6 address: 2001:7f8::cff:0:1
+remarks:        --------------------------------------------------------------
+remarks:        *** Packet Clearing House ***
+import:         from AS42    80.81.194.42       action pref=60; accept AS-PCH
+export:         to   AS42    80.81.194.42       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS42 2001:7F8::2A:0:1 action pref=60; accept AS-PCH
+mp-export:      afi ipv6.unicast
+                to   AS42 2001:7F8::2A:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Landeshochschulnetz Baden-Wuerttemberg (BelWue) ***
+import:         from AS553   80.81.192.175      action pref=60; accept AS-MANDA
+export:         to   AS553   80.81.192.175      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS553   2001:7f8::229:0:1  action pref=60; accept fltr-gert_strict
+mp-export:      afi ipv6.unicast
+                to   AS553   2001:7f8::229:0:1  announce AS-LINXTELECOM-DECIX
+remarks:        *** Infostrada S.p.A. ***
+import:         from AS1267  80.81.192.215      action pref=60; accept AS-INFOSTRADA
+export:         to   AS1267  80.81.192.215      announce AS-LINXTELECOM-DECIX
+remarks:        *** Johannes Gutenberg-Universitaet ***
+import:         from AS2857  80.81.192.8        action pref=60; accept AS-RLP-NET
+export:         to   AS2857  80.81.192.8        announce AS-LINXTELECOM-DECIX
+remarks:        *** Arcor AG & Co. ***
+import:         from AS3209  80.81.192.117      action pref=60; accept AS-ARCORGLOBAL
+export:         to   AS3209  80.81.192.117      announce AS-LINXTELECOM-DECIX
+import:         from AS3209  80.81.193.117      action pref=60; accept AS-ARCORGLOBAL
+export:         to   AS3209  80.81.193.117      announce AS-LINXTELECOM-DECIX
+remarks:        *** TDC A/S ***
+import:         from AS3292  80.81.192.16       action pref=60; accept AS-TDCNET
+export:         to   AS3292  80.81.192.16       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS3292 2001:7f8::cdc:0:1 action pref=60; accept AS-TDCNET-IPV6
+mp-export:      afi ipv6.unicast
+                to   AS3292 2001:7f8::cdc:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Swisscom (Switzerland) Ltd ***
+import:         from AS3303  80.81.192.183      action pref=60; accept AS-SWCMGLOBAL
+export:         to   AS3303  80.81.192.183      announce AS-LINXTELECOM-DECIX
+import:         from AS3303  80.81.193.183      action pref=60; accept AS-SWCMGLOBAL
+export:         to   AS3303  80.81.193.183      announce AS-LINXTELECOM-DECIX
+remarks:        *** Beyond The Network America, Inc. ***
+import:         from AS3491  80.81.192.50       action pref=60; accept AS-CAIS
+export:         to   AS3491  80.81.192.50       announce AS-LINXTELECOM-DECIX
+remarks:        *** Packet Clearing House ***
+import:         from AS3856  80.81.195.42       action pref=60; accept AS-PCH
+export:         to   AS3856  80.81.195.42       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS3856 2001:7F8::F10:0:1 action pref=60; accept AS-PCH
+mp-export:      afi ipv6.unicast
+                to   AS3856 2001:7F8::F10:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Easynet Global Services ***
+import:         from AS4589  80.81.192.14       action pref=60; accept AS-EASYNET
+export:         to   AS4589  80.81.192.14       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS4589  2001:7f8::11ed:0:1 action pref=60; accept AS-EASYNET6
+mp-export:      afi ipv6.unicast
+                to   AS4589  2001:7f8::11ed:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Telekom Malaysia ***
+import:         from AS4788  80.81.194.24       action pref=60; accept AS-TMNET-CUSTOMERS
+export:         to   AS4788  80.81.194.24       announce AS-LINXTELECOM-DECIX
+remarks:        *** freenet Cityline GmbH ***
+import:         from AS5430  80.81.192.49       action pref=60; accept AS-FREENETDE
+export:         to   AS5430  80.81.192.49       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS5430 2001:7f8::1536:0:1 action pref=60; accept AS-FREENETDE6
+mp-export:      afi ipv6.unicast
+                to   AS5430 2001:7f8::1536:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** NetUSE AG ***
+import:         from AS5605  80.81.192.17       action pref=60; accept AS-NETUSE
+export:         to   AS5605  80.81.192.17       announce AS-LINXTELECOM-DECIX
+remarks:        *** Posix Systems ***
+import:         from AS6083  80.81.192.150      action pref=60; accept AS-POSIX
+export:         to   AS6083  80.81.192.150      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6083 2001:7f8::17c3:0:1 action pref=60; accept AS-POSIX-V6
+mp-export:      afi ipv6.unicast
+                to   AS6083 2001:7f8::17c3:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Entreprise des P. et T. Luxembourg ***
+import:         from AS6661  80.81.192.204      action pref=60; accept AS-PTLU
+export:         to   AS6661  80.81.192.204      announce AS-LINXTELECOM-DECIX
+remarks:        *** Headlight Housing Factory GmbH ***
+import:         from AS6666  80.81.192.166      action pref=60; accept AS-HEADLIGHT
+export:         to   AS6666  80.81.192.166      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6666  2001:7f8::1a0a:0:1 action pref=60; accept AS-HEADLIGHT6
+mp-export:      afi ipv6.unicast
+                to   AS6666  2001:7f8::1a0a:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** DE-CIX, The German Internet Exchange ***
+import:         from AS6695  80.81.192.157      action pref=60; accept AS-DECIX
+export:         to   AS6695  80.81.192.157      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6695  2001:7f8::1a27:5051:c09d action pref=60; accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast
+                to   AS6695  2001:7f8::1a27:5051:c09d announce AS-LINXTELECOM-DECIX
+import:         from AS6695  80.81.193.157      action pref=60; accept AS-DECIX
+export:         to   AS6695  80.81.193.157      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6695  2001:7f8::1a27:5051:c19d action pref=60; accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast
+                to   AS6695  2001:7f8::1a27:5051:c19d announce AS-LINXTELECOM-DECIX
+remarks:        *** Strato AG ***
+import:         from AS6724  80.81.192.110      action pref=60; accept AS-STRATORZ
+export:         to   AS6724  80.81.192.110      announce AS-LINXTELECOM-DECIX
+import:         from AS6724  80.81.193.110      action pref=60; accept AS-STRATORZ
+export:         to   AS6724  80.81.193.110      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6724 2001:7f8::1a44:0:1 action pref=60; accept AS-STRATORZ
+mp-export:      afi ipv6.unicast
+                to   AS6724 2001:7f8::1a44:0:1 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6724 2001:7f8::1a44:0:2 action pref=60; accept AS-STRATORZ
+mp-export:      afi ipv6.unicast
+                to   AS6724 2001:7f8::1a44:0:2 announce AS-LINXTELECOM-DECIX
+remarks:        *** sunrise ***
+import:         from AS6730  80.81.192.141      action pref=60; accept AS-GLOBAL
+export:         to   AS6730  80.81.192.141      announce AS-LINXTELECOM-DECIX
+remarks:        *** internetSDT ***
+import:         from AS6735  80.81.192.177      action pref=60; accept AS-SDTDECIX
+export:         to   AS6735  80.81.192.177      announce AS-LINXTELECOM-DECIX
+remarks:        *** Belgacom International Carrier Services ***
+import:         from AS6774  80.81.192.12       action pref=60; accept AS6774:AS-BICS-TRANSIT
+export:         to   AS6774  80.81.192.12       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6774  2001:7f8::1a76:0:1 action pref=60; accept AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv6.unicast
+                to   AS6774  2001:7f8::1a76:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Telefonica Deutschland GmbH ***
+import:         from AS6805  80.81.192.89       action pref=60; accept AS-TDDE
+export:         to   AS6805  80.81.192.89       announce AS-LINXTELECOM-DECIX
+import:         from AS6805  80.81.193.89       action pref=60; accept AS-TDDE
+export:         to   AS6805  80.81.193.89       announce AS-LINXTELECOM-DECIX
+remarks:        *** Hurricane Electric ***
+import:         from AS6939  80.81.192.172      action pref=60; accept AS-HURRICANE
+export:         to   AS6939  80.81.192.172      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6939 2001:7f8::1b1b:0:1 action pref=60; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast
+                to   AS6939 2001:7f8::1b1b:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Microsoft European Data Center ***
+import:         from AS8068  80.81.194.52       action pref=60; accept AS-MICROSOFT
+export:         to   AS8068  80.81.194.52       announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS8075 2001:7f8::1f8b:0:1 action pref=60; accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast
+                to   AS8075 2001:7f8::1f8b:0:1 announce AS-LINXTELECOM
+remarks:        *** MANDA ***
+import:         from AS8365  80.81.192.6        action pref=60; accept AS-MANDA
+export:         to   AS8365  80.81.192.6        announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS8365  2001:7f8::20ad:0:1 action pref=60; accept fltr-gert_strict
+mp-export:      afi ipv6.unicast
+                to   AS8365  2001:7f8::20ad:0:1 announce AS-LINXTELECOM-DECIX
+import:         from AS8365  80.81.193.6        action pref=60; accept AS-MANDA
+export:         to   AS8365  80.81.193.6        announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS8365  2001:7f8::20ad:0:2 action pref=60; accept AS-MANDA
+mp-export:      afi ipv6.unicast
+                to   AS8365  2001:7f8::20ad:0:2 announce AS-LINXTELECOM-DECIX
+remarks:        *** NETCOLOGNE AS ***
+import:         from AS8422  80.81.192.212      action pref=60; accept AS-NETCOLOGNE
+export:         to   AS8422  80.81.192.212      announce AS-LINXTELECOM-DECIX
+import:         from AS8422  80.81.193.212      action pref=60; accept AS-NETCOLOGNE
+export:         to   AS8422  80.81.193.212      announce AS-LINXTELECOM-DECIX
+remarks:        *** DIG GmbH ***
+import:         from AS8442  80.81.192.235      action pref=60; accept AS-DIG
+export:         to   AS8442  80.81.192.235      announce AS-LINXTELECOM-DECIX
+remarks:        *** Telekom Austria TA AG ***
+import:         from AS8447  80.81.192.69       action pref=60; accept AS-PTA
+export:         to   AS8447  80.81.192.69       announce AS-LINXTELECOM-DECIX
+import:         from AS8447  80.81.193.69       action pref=60; accept AS-PTA
+export:         to   AS8447  80.81.193.69       announce AS-LINXTELECOM-DECIX
+remarks:        *** ENTANET International Ltd ***
+import:         from AS8468  80.81.192.238      action pref=60; accept AS-ENTANET
+export:         to   AS8468  80.81.192.238      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS8468 2001:7F8::2114:0:1 action pref=60; accept AS-ENTANET
+mp-export:      afi ipv6.unicast
+                to   AS8468 2001:7F8::2114:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Bezeq International ***
+import:         from AS8551 action pref=60; accept AS-BEZEQINT
+export:         to AS8551 announce AS-LINXTELECOM-DECIX
+remarks:        *** KAMP Netzwerkdienste GmbH ***
+import:         from AS8648  80.81.192.42       action pref=60; accept AS-KAMP
+export:         to   AS8648  80.81.192.42       announce AS-LINXTELECOM-DECIX
+remarks:        *** Companhia Portuguesa Radio Marconi ***
+import:         from AS8657  80.81.192.38       action pref=60; accept AS-CPRM
+export:         to   AS8657  80.81.192.38       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS8657 2001:7f8::21d1:0:1 action pref=60; accept AS-CPRM-IPv6
+mp-export:      afi ipv6.unicast
+                to   AS8657 2001:7f8::21d1:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Netnod Internet Exchange Sverige AB ***
+import:         from AS8674  80.81.192.160      action pref=60; accept AS-NETNOD-ANYCAST
+export:         to   AS8674  80.81.192.160      announce AS-LINXTELECOM-DECIX
+import:         from AS8674  80.81.193.160      action pref=60; accept AS-NETNOD-ANYCAST
+export:         to   AS8674  80.81.193.160      announce AS-LINXTELECOM-DECIX
+remarks:        *** Romania Data Systems S.A. ***
+import:         from AS8708  80.81.192.87       action pref=60; accept AS-RDSNET
+export:         to   AS8708  80.81.192.87       announce AS-LINXTELECOM-DECIX
+remarks:        *** regio[.NET] Holding GmbH ***
+import:         from AS8804  80.81.192.4        action pref=60; accept AS-IX-REGIONET
+export:         to   AS8804  80.81.192.4        announce AS-LINXTELECOM-DECIX
+remarks:        *** OSN Online Service Nuernberg GmbH ***
+import:         from AS8859  80.81.192.40       action pref=60; accept AS-OSN
+export:         to   AS8859  80.81.192.40       announce AS-LINXTELECOM-DECIX
+remarks:        *** DTS-Service GmbH ***
+import:         from AS8879  80.81.192.149      action pref=60; accept AS-DTS
+export:         to   AS8879  80.81.192.149      announce AS-LINXTELECOM-DECIX
+remarks:        *** Emirates Telecommunications Corporation ***
+import:         from AS8966  80.81.192.228      action pref=60; accept AS-EMIX
+export:         to   AS8966  80.81.192.228      announce AS-LINXTELECOM-DECIX
+remarks:        *** ReTN.net ***
+import:         from AS9002  80.81.192.73       action pref=60; accept AS-RETN
+export:         to   AS9002  80.81.192.73       announce AS-LINXTELECOM-DECIX
+remarks:        *** M247 Ltd ***
+import:         from AS9009  80.81.192.165      action pref=60; accept AS-GBXS
+export:         to   AS9009  80.81.192.165      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS9009 2001:7f8::2331:0:1 action pref=60; accept AS-GBXS6
+mp-export:      afi ipv6.unicast
+                to   AS9009 2001:7f8::2331:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** SolNet Internet Solution Provider ***
+import:         from AS9044  80.81.192.48       action pref=60; accept AS-SOLNET
+export:         to   AS9044  80.81.192.48       announce AS-LINXTELECOM-DECIX
+remarks:        *** SaarGate Internet Service Provider ***
+import:         from AS9063  80.81.192.100      action pref=60; accept AS-SAARGATE
+export:         to   AS9063  80.81.192.100      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS9063 2001:7F8::2367:0:1 action pref=60; accept AS-SAARGATE-V6
+mp-export:      afi ipv6.unicast
+                to   AS9063 2001:7F8::2367:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Yahoo! Europe ***
+import:         from AS10310 80.81.192.115      action pref=60; accept AS-YAHOOEU
+export:         to   AS10310 80.81.192.115      announce AS-LINXTELECOM-DECIX
+import:         from AS10310 80.81.193.115 action pref=60; accept AS-YAHOOEU
+export:         to   AS10310 80.81.193.115 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS10310 2001:7f8::2846:0:1 action pref=60; accept AS-YAHOOEU
+mp-export:      afi ipv6.unicast
+                to   AS10310 2001:7f8::2846:0:1 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS10310 2001:7f8::2846:0:2 action pref=60; accept AS-YAHOOEU
+mp-export:      afi ipv6.unicast
+                to   AS10310 2001:7f8::2846:0:2 announce AS-LINXTELECOM-DECIX
+remarks:        *** OTE GLOBAL SOLUTIONS S.A. ***
+import:         from AS12713 80.81.192.207      action pref=60; accept AS-OTEGLOBE
+export:         to   AS12713 80.81.192.207      announce AS-LINXTELECOM-DECIX
+remarks:        *** eTel Austria AG ***
+import:         from AS12793 80.81.192.107      action pref=60; accept AS-ETELGROUP
+export:         to   AS12793 80.81.192.107      announce AS-LINXTELECOM-DECIX
+remarks:        *** BIT BV ***
+import:         from AS12859 80.81.192.95       action pref=60; accept AS-BIT
+export:         to   AS12859 80.81.192.95       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS12859 2001:7f8::323b:0:1 action pref=60; accept fltr-gert_strict
+mp-export:      afi ipv6.unicast
+                to   AS12859 2001:7f8::323b:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** HEAG MediaNet GmbH ***
+import:         from AS12897 80.81.192.15       action pref=60; accept AS-HEAGMEDIANET
+export:         to   AS12897 80.81.192.15       announce AS-LINXTELECOM-DECIX
+remarks:        *** Highwinds Network Group, Inc ***
+import:         from AS12989 80.81.192.224      action pref=60; accept AS-HIGHWINDS
+export:         to   AS12989 80.81.192.224      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS12989 2001:7F8::32BD:0:1 action pref=60; accept AS-HIGHWINDS
+mp-export:      afi ipv6.unicast
+                to   AS12989 2001:7F8::32BD:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Init Seven AG ***
+import:         from AS13030 80.81.192.67       action pref=60; accept AS-INIT7
+export:         to   AS13030 80.81.192.67       announce AS-LINXTELECOM-DECIX
+remarks:        *** TNG - THE NET GENERATION AG ***
+import:         from AS13101 80.81.192.83       action pref=60; accept AS-TNG
+export:         to   AS13101 80.81.192.83       announce AS-LINXTELECOM-DECIX
+remarks:        *** HanseNet Telekommunikation GmbH ***
+import:         from AS13184 80.81.192.232      action pref=60; accept AS-HANSENET
+export:         to   AS13184 80.81.192.232      announce AS-LINXTELECOM-DECIX
+import:         from AS13184 80.81.193.232      action pref=60; accept AS-HANSENET
+export:         to   AS13184 80.81.193.232      announce AS-LINXTELECOM-DECIX
+remarks:        *** LambdaNet Communications Deutschland AG, Hannover ***
+import:         from AS13237 80.81.192.74       action pref=60; accept AS-LAMBDANET
+export:         to   AS13237 80.81.192.74       announce AS-LINXTELECOM-DECIX
+import:         from AS13237 80.81.193.74       action pref=60; accept AS-LAMBDANET
+export:         to   AS13237 80.81.193.74       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS13237 2001:7F8::33B5:0:1 action pref=60; accept AS-LAMBDANET
+mp-export:      afi ipv6.unicast
+                to   AS13237 2001:7F8::33B5:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Finecom Telecommunications AG ***
+import:         from AS15600 80.81.192.138      action pref=60; accept AS-FINECOM
+export:         to   AS15600 80.81.192.138      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS15600 2001:7f8::3cf0:0:1 action pref=60; accept AS-FINECOM
+mp-export:      afi ipv6.unicast
+                to   AS15600 2001:7f8::3cf0:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** TELECITY London ***
+import:         from AS15830 80.81.192.103      action pref=60; accept AS-TELECITYLON
+export:         to   AS15830 80.81.192.103      announce AS-LINXTELECOM-DECIX
+remarks:        *** HL komm Telekommunikations GmbH ***
+import:         from AS16097 80.81.192.91       action pref=60; accept AS-HLKOMM
+export:         to   AS16097 80.81.192.91       announce AS-LINXTELECOM-DECIX
+remarks:        *** LeaseWeb ***
+import:         from AS16265 80.81.192.246      action pref=60; accept AS-LEASEWEB
+export:         to   AS16265 80.81.192.246      announce AS-LINXTELECOM-DECIX
+import:         from AS16265 80.81.193.246      action pref=60; accept AS-LEASEWEB
+export:         to   AS16265 80.81.193.246      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS16265 2001:7F8::3F89:0:1 action pref=60; accept AS-LEASEWEB
+mp-export:      afi ipv6.unicast
+                to   AS16265 2001:7F8::3F89:0:1 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS16265 2001:7F8::3F89:0:2 action pref=60; accept AS-LEASEWEB
+mp-export:      afi ipv6.unicast
+                to   AS16265 2001:7F8::3F89:0:2 announce AS-LINXTELECOM-DECIX
+remarks:        *** OVH ***
+import:         from AS16276 action pref=60; accept AS-OVH
+export:         to AS16276 announce AS-LINXTELECOM-DECIX
+remarks:        *** RTLNederland Interactief B.V. ***
+import:         from AS20504 80.81.192.171      action pref=60; accept AS-RTL
+export:         to   AS20504 80.81.192.171      announce AS-LINXTELECOM-DECIX
+import:         from AS20504 80.81.193.171      action pref=60; accept AS-RTL
+export:         to   AS20504 80.81.193.171      announce AS-LINXTELECOM-DECIX
+remarks:        *** Titan Networks Internet & Telecommunications Service Providing GmbH ***
+import:         from AS20640 80.81.192.23       action pref=60; accept AS-TITANNET
+export:         to   AS20640 80.81.192.23       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS20640 2001:7f8::50a0:0:1 action pref=60; accept AS-TITANNET
+mp-export:      afi ipv6.unicast
+                to   AS20640 2001:7f8::50a0:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** QSC AG ***
+import:         from AS20676 80.81.192.41       action pref=60; accept AS-QSC
+export:         to   AS20676 80.81.192.41       announce AS-LINXTELECOM-DECIX
+remarks:        *** Akamai Technologies ***
+import:         from AS20940 80.81.192.28       action pref=60; accept AS-AKAMAI
+export:         to   AS20940 80.81.192.28       announce AS-LINXTELECOM-DECIX
+import:         from AS20940 80.81.192.168      action pref=60; accept AS-AKAMAI
+export:         to   AS20940 80.81.192.168      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS20940 2001:7f8::51cc:0:28 action pref=60; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast
+                to   AS20940 2001:7f8::51cc:0:28 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS20940 2001:7f8::51cc:0:168 action pref=60; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast
+                to   AS20940 2001:7f8::51cc:0:168 announce AS-LINXTELECOM-DECIX
+remarks:        *** Trusted Network ***
+import:         from AS21385 80.81.192.79       action pref=60; accept AS-TNIB
+export:         to   AS21385 80.81.192.79       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS21385 2001:7f8::5389:0:1 action pref=60; accept fltr-gert_strict
+mp-export:      afi ipv6.unicast
+                to   AS21385 2001:7f8::5389:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** MAnet GmbH ***
+import:         from AS21473 80.81.192.3        action pref=60; accept AS-MANET
+export:         to   AS21473 80.81.192.3        announce AS-LINXTELECOM-DECIX
+remarks:        *** Limelight Networks, Inc. ***
+import:         from AS22822 80.81.192.221      action pref=60; accept AS-LLNW
+export:         to   AS22822 80.81.192.221      announce AS-LINXTELECOM-DECIX
+import:         from AS22822 80.81.193.221      action pref=60; accept AS-LLNW
+export:         to   AS22822 80.81.193.221      announce AS-LINXTELECOM-DECIX
+remarks:        *** Hostway Gmbx ***
+import:         from AS24679 80.81.192.230      action pref=60; accept AS-SSERV
+export:         to   AS24679 80.81.192.230      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS24679 2001:7f8::6067:0:1 action pref=60; accept AS-SSERV
+mp-export:      afi ipv6.unicast
+                to   AS24679 2001:7f8::6067:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** INET-People Provider Services ***
+import:         from AS25074 80.81.192.200      action pref=60; accept AS-INETBONE
+export:         to   AS25074 80.81.192.200      announce AS-LINXTELECOM-DECIX
+remarks:        *** Rokscom Internet B.V. ***
+import:         from AS25232 80.81.192.205      action pref=60; accept AS-ROKSCOM
+export:         to   AS25232 80.81.192.205      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS25232 2001:7f8::78cd:0:1 action pref=60; accept AS-ROKSCOM
+mp-export:      afi ipv6.unicast
+                to   AS25232 2001:7f8::78cd:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** rh-tec Business GmbH ***
+import:         from AS25560 80.81.192.106      action pref=60; accept AS-RHTEC
+export:         to   AS25560 80.81.192.106      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS25560 2001:7f8::63d8:0:1 action pref=60; accept AS-RHTEC6
+mp-export:      afi ipv6.unicast
+                to   AS25560 2001:7f8::63d8:0:1 announce AS-LINXTELECOM-DECIX
+import:         from AS25560 80.81.193.106      action pref=60; accept AS-RHTEC
+export:         to   AS25560 80.81.193.106      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS25560  2001:7f8::63d8:1:1 action pref=60; accept AS-RHTEC6
+mp-export:      afi ipv6.unicast
+                to   AS25560  2001:7f8::63d8:1:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Probe Networks ***
+import:         from AS29686 80.81.192.133      action pref=60; accept AS-PROBENETWORKS
+export:         to   AS29686 80.81.192.133      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS29686 2001:7f8::73f6:0:1 action pref=60; accept fltr-gert_strict
+mp-export:      afi ipv6.unicast
+                to   AS29686 2001:7f8::73f6:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** interscholz Internet Services GmbH Co. KG ***
+import:         from AS33843 80.81.192.219      action pref=60; accept AS-INTERSCHOLZ
+export:         to   AS33843 80.81.192.219      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS33843  2001:7f8::8433:0:1 action pref=60; accept AS-INTERSCHOLZ
+mp-export:      afi ipv6.unicast
+                to   AS33843  2001:7f8::8433:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** arvato systems AS ***
+import:         from AS33873 80.81.192.216      action pref=60; accept AS-ARVATO
+export:         to   AS33873 80.81.192.216      announce AS-LINXTELECOM-DECIX
+remarks:        *** Kaia Global Networks Ltd. ***
+import:         from AS251 80.81.192.213      action pref=60; accept AS-EUROTRANSIT
+export:         to   AS251 80.81.192.213      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS251 2001:7f8::8486:0:1 action pref=60; accept AS-KAIAGLOBAL
+mp-export:      afi ipv6.unicast
+                to   AS251 2001:7f8::8486:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Neterra Ltd. ***
+import:         from AS34224 80.81.192.77       action pref=60; accept AS-NETERRA-DE-CIX
+export:         to   AS34224 80.81.192.77       announce AS-LINXTELECOM-DECIX
+remarks:        *** rh-tec Business GmbH ***
+import:         from AS34309 80.81.192.218      action pref=60; accept AS-LINK11
+export:         to   AS34309 80.81.192.218      announce AS-LINXTELECOM-DECIX
+remarks:        *** Jasmin Media Group Autonomus System ***
+import:         from AS34655 80.81.192.142      action pref=60; accept AS-JASMIN
+export:         to   AS34655 80.81.192.142      announce AS-LINXTELECOM-DECIX
+remarks:        *** Baltcom IP ***
+import:         from AS35254 80.81.194.75       action pref=60; accept AS-BALTCOMIP
+export:         to   AS35254 80.81.194.75       announce AS-LINXTELECOM-DECIX
+remarks:        *** euronode carrier services ***
+import:         from AS35758 80.81.192.66       action pref=60; accept AS-EURONODE
+export:         to   AS35758 80.81.192.66       announce AS-LINXTELECOM-DECIX
+remarks:        *** Open Carrier eG ***
+import:         from AS41692 80.81.192.24       action pref=60; accept AS-OPENCARRIER
+export:         to   AS41692 80.81.192.24       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS41692 2001:7f8::a2dc:0:1 action pref=60; accept AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast
+                to   AS41692 2001:7f8::a2dc:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Telenor ***
+import:         from AS2119  80.81.194.121      action pref=60; accept AS-TELENOR
+export:         to   AS2119  80.81.194.121      announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS2119 2001:7f8::847:0:1 action pref=60; accept AS-TELENOR
+mp-export:      afi ipv6.unicast
+                to   AS2119 2001:7f8::847:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Qatar Telecom ***
+import:         from AS8781  80.81.194.11       action pref=60; accept AS-QTEL-SET
+export:         to   AS8781  80.81.194.11       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS8781 2001:7f8::224d:0:1 action pref=60; accept AS-QTEL-SET
+mp-export:      afi ipv6.unicast
+                to   AS8781 2001:7f8::224d:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Amazon ***
+import:         from AS16509 80.81.194.152      action pref=60; accept AS-AMAZON
+export:         to   AS16509 80.81.194.152      announce AS-LINXTELECOM-DECIX
+remarks:        *** Nianet ***
+import:         from AS31027 80.81.194.79       action pref=60; accept AS-NIANET
+export:         to   AS31027 80.81.194.79       announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS31027 2001:7f8::7933:0:1 action pref=60; accept AS-NIANET
+mp-export:      afi ipv6.unicast
+                to   AS31027 2001:7f8::7933:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Fiord ***
+import:         from AS28917 80.81.194.28 action pref=60; accept AS-FIORD
+export:         to   AS28917 80.81.194.28 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS28917 2001:7f8::70f5:0:1 action pref=60; accept AS-FIORD
+mp-export:      afi ipv6.unicast
+                to   AS28917 2001:7f8::70f5:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Facebook ***
+import:         from AS32934 80.81.194.40      action pref=60; accept AS-FACEBOOK
+export:         to   AS32934 80.81.194.40      announce AS-LINXTELECOM-DECIX
+import:         from AS32934 80.81.195.40 action pref=60; accept AS-FACEBOOK
+export:         to   AS32934 80.81.195.40 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS32934 2001:7f8::80a6:0:1 action pref=60; accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast
+                to   AS32934 2001:7f8::80a6:0:1 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS32934 2001:7f8::80a6:0:2 action pref=60; accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast
+                to   AS32934 2001:7f8::80a6:0:2 announce AS-LINXTELECOM-DECIX
+remarks:        *** IP Transit ***
+import:         from AS46786 80.81.194.81 action pref=60; accept AS-IPTRANSIT
+export:         to   AS46786 80.81.194.81 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS46786 2001:7f8::b6c2:0:1 action pref=60; accept AS-IPTRANSIT
+mp-export:      afi ipv6.unicast
+                to   AS46786 2001:7f8::b6c2:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** NORDUnet ***
+import:         from AS2603 80.81.192.241 action pref=60; accept AS-NORDUNET
+export:         to   AS2603 80.81.192.241 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS2603 2001:7f8::a2b:0:1 action pref=60; accept AS-NORDUNET
+mp-export:      afi ipv6.unicast
+                to   AS2603 2001:7f8::a2b:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** ITandTEL E-Werk Wels AG ***
+import:         from AS21013 80.81.194.22 action pref=60; accept AS-ITANDTEL
+export:         to   AS21013 80.81.194.22 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS21013 2001:7F8::5215:0:1 action pref=60; accept AS-ITANDTEL
+mp-export:      afi ipv6.unicast
+                to   AS21013 2001:7F8::5215:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Hibernia Networks ***
+import:         from AS5580 action pref=60; accept AS-HIBERNIA
+export:         to AS5580 announce AS-LINXTELECOM-DECIX
+remarks:        *** Mobile TeleSystems OJSC ***
+import:         from AS8359 80.81.192.78 action pref=60; accept AS-MTU
+export:         to   AS8359 80.81.192.78 announce AS-LINXTELECOM-DECIX
+import:         from AS8359 80.81.193.78 action pref=60; accept AS-MTU
+export:         to   AS8359 80.81.193.78 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS8359 2001:7f8::20a7:0:1 action pref=60; accept AS-MTU-V6
+mp-export:      afi ipv6.unicast
+                to   AS8359 2001:7f8::20a7:0:1 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS8359 2001:7f8::20a7:0:2 action pref=60; accept AS-MTU-V6
+mp-export:      afi ipv6.unicast
+                to   AS8359 2001:7f8::20a7:0:2 announce AS-LINXTELECOM-DECIX
+remarks:        *** IPTriplePlay Service Network ***
+import:         from AS41095 80.81.192.47 action pref=60; accept AS-IPTP
+export:         to   AS41095 80.81.192.47 announce AS-LINXTELECOM-DECIX
+remarks:        *** Justin TV, Twitch TV ***
+import:         from AS46489  action pref=60; accept AS46489
+export:         to   AS46489  announce AS-LINXTELECOM-DECIX
+remarks:        ** EdgeCast Networks Inc. ***
+import:         from AS15133 80.81.194.37 action pref=60; accept AS-EDGECAST
+export:         to   AS15133 80.81.194.37 announce AS-LINXTELECOM-DECIX
+remarks:        *** Equinix Germany ***
+import:         from AS24989 80.81.192.234      action pref=60; accept  AS-EQUINIX-DE
+export:         to   AS24989 80.81.192.234 announce AS-LINXTELECOM-DECIX
+import:         from AS24989 80.81.193.234      action pref=60; accept  AS-EQUINIX-DE
+export:         to   AS24989 80.81.193.234      announce AS-LINXTELECOM-DECIX
+remarks:        *** Neuf Cegetel(SFR) ***
+import:         from AS15557 80.81.192.201 action pref=60; accept AS-LDCOMNET
+export:         to   AS15557 80.81.192.201 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS15557 2001:7f8::3cc5:0:2 action pref=60; accept AS-LDCOMNET
+mp-export:      afi ipv6.unicast
+                to   AS15557 2001:7f8::3cc5:0:2 announce AS-LINXTELECOM-DECIX
+remarks:        *** Media Network Services AS ***
+import:         from AS44654 80.81.192.226 action pref=60; accept AS-MNS
+export:         to   AS44654 80.81.192.226 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS44654 2001:7f8::ae6e:0:1 action pref=60; accept AS-MNS
+mp-export:      afi ipv6.unicast
+                to   AS44654 2001:7f8::ae6e:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Hetzner Online AG ***
+import:         from AS24940 80.81.192.164 action pref=60; accept AS-HETZNER
+export:         to   AS24940 80.81.192.164 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS24940 2001:7f8::616c:0:1 action pref=60; accept AS-HETZNER
+mp-export:      afi ipv6.unicast
+                to   AS24940 2001:7f8::616c:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Voxility ***
+import:         from AS39743 80.81.195.144 action pref=60; accept AS-VOXILITY-SET
+export:         to   AS39743 80.81.195.144 announce AS-LINXTELECOM-DECIX
+remarks:        *** Turk Telekom International ***
+import:         from AS6663 80.81.192.120 action pref=60; accept AS-STARNETSRO AS-PANTEL
+export:         to   AS6663 80.81.192.120 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS6663 2001:7f8::1a07:0:1 action pref=60; accept AS-STARNETSRO AS-PANTEL
+mp-export:      afi ipv6.unicast
+                to   AS6663 2001:7f8::1a07:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** TalkTalk ***
+import:         from AS13285 80.81.192.104 action pref=60; accept AS-OPAL
+export:         to   AS13285 80.81.192.104 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS13285 2001:7f8::33e5:0:1 action pref=60; accept AS-OPAL
+mp-export:      afi ipv6.unicast
+                to   AS13285 2001:7f8::33e5:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** Lepida SpA ***
+import:         from AS31638 80.81.193.203 action pref=60; accept AS31638
+export:         to   AS31638 80.81.193.203 announce AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast
+                from AS31638 2001:7f8::7b96:0:1 action pref=60; accept AS31638
+mp-export:      afi ipv6.unicast
+                to   AS31638 2001:7f8::7b96:0:1 announce AS-LINXTELECOM-DECIX
+remarks:        *** CloudFlare ***
+import:         from AS13335 action pref=60; accept AS13335
+export:         to AS13335 announce AS-LINXTELECOM-DECIX
+remarks:        *** Core-Backbone GmbH ***
+import:         from AS33891 action pref=60; accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-LINXTELECOM-DECIX
+remarks:        *** DataGroup PJSC ***
+import:         from AS21219 action pref=60; accept AS-FF-TRANSIT
+export:         to AS21219 announce AS-LINXTELECOM-DECIX
+remarks:        *** IT Systems ***
+import:         from AS13249 action pref=60; accept AS-ITS
+export:         to AS13249 announce AS-LINXTELECOM-DECIX
+remarks:        *** Zayo France ***
+import:         from AS8218 action pref=60; accept AS-NEOT
+export:         to   AS8218 announce AS-LINXTELECOM-DECIX
+remarks:        --------------------------------------------------------------
+remarks:        Latvian Internet eXchange (LIX)
+remarks:        IPv4 address: 194.8.4.42 (62.63.141.18)
+remarks:        --------------------------------------------------------------
+remarks:        *** LATNET ***
+import:         from AS2588  194.8.4.2          action pref=60; accept AS-LATVIA
+export:         to   AS2588  194.8.4.2          announce AS-LINXTELECOM-LIX
+import:         from AS2588  194.8.4.12         action pref=60; accept AS-LATVIA
+export:         to   AS2588  194.8.4.12         announce AS-LINXTELECOM-LIX
+remarks:        *** Microlink Latvia ***
+import:         from AS8724  194.8.4.3          action pref=60; accept AS-LATVIA
+export:         to   AS8724  194.8.4.3          announce AS-LINXTELECOM-LIX
+remarks:        *** Lattelekom Apollo ***
+import:         from AS12578 194.8.4.14         action pref=60; accept AS-LATVIA
+export:         to   AS12578 194.8.4.14         announce AS-LINXTELECOM-LIX
+import:         from AS12578 194.8.4.17         action pref=60; accept AS-LATVIA
+export:         to   AS12578 194.8.4.17         announce AS-LINXTELECOM-LIX
+remarks:        *** KENGANETS ***
+import:         from AS16062 194.8.4.10         action pref=60; accept AS16062
+export:         to   AS16062 194.8.4.10         announce AS-LINXTELECOM-LIX
+remarks:        *** Datagrupa 777 ***
+import:         from AS21156 194.8.4.11         action pref=60; accept AS-LATVIA
+export:         to   AS21156 194.8.4.11         announce AS-LINXTELECOM-LIX
+remarks:        *** Latvia Internet Exchange ***
+import:         from AS42480 62.63.141.17       action pref=60; accept AS-LIXLV
+export:         to   AS42480 62.63.141.17       announce AS-LINXTELECOM-LIX
+remarks:        --------------------------------------------------------------
+remarks:        Lithuanian Internet Exchange
+remarks:        IPv4 address: 193.219.13.110
+remarks:        --------------------------------------------------------------
+remarks:        *** PLC OMNITEL ***
+import:         from AS5522  193.219.13.104     action pref=60; accept AS-OMNITEL-PEER
+export:         to   AS5522  193.219.13.104     announce AS-LINXTELECOM-LIPTAM
+remarks:        *** State Enterprise Infostruktura ***
+import:         from AS6769  193.219.13.97      action pref=60; accept AS6769
+export:         to   AS6769  193.219.13.97      announce AS-LINXTELECOM-LIPTAM
+remarks:        *** Penki Kontinentai, Ltd. ***
+import:         from AS12539 193.219.13.100     action pref=60; accept AS12539
+export:         to   AS12539 193.219.13.100     announce AS-LINXTELECOM-LIPTAM
+remarks:        *** SC LRTC Internet services ***
+import:         from AS15419 193.219.13.113     action pref=60; accept AS15419
+export:         to   AS15419 193.219.13.113     announce AS-LINXTELECOM-LIPTAM
+remarks:        *** MicroLink ***
+import:         from AS15440 193.219.13.107     action pref=60; accept AS-ML
+export:         to   AS15440 193.219.13.107     announce AS-LINXTELECOM-LIPTAM
+remarks:        *** Penkiu kontinentu komunikaciju centras, Ltd. ***
+import:         from AS21211 193.219.13.108     action pref=60; accept AS21211
+export:         to   AS21211 193.219.13.108     announce AS-LINXTELECOM-LIPTAM
+remarks:        *** VINITA Internet Services ***
+import:         from AS24852 193.219.13.114     action pref=60; accept AS-VINITA
+export:         to   AS24852 193.219.13.114     announce AS-LINXTELECOM-LIPTAM
+remarks:        *** HOSTEX ***
+import:         from AS47205 193.219.13.101     action pref=60; accept AS47205
+export:         to   AS47205 193.219.13.101     announce AS-LINXTELECOM-LIPTAM
+remarks:        *** Viginta ***
+import:         from AS33922 193.219.13.118 action pref=60; accept AS33922
+export:         to   AS33922 193.219.13.118 announce AS-LINXTELECOM-LIPTAM
+remarks:        *** Cgates ***
+import:         from AS21412 193.219.13.109 action pref=60; accept AS21412
+export:         to   AS21412 193.219.13.109 announce AS-LINXTELECOM-LIPTAM
+remarks:        *** Mikrovisatos TV ***
+import:         from AS28679 193.219.13.119 action pref=60; accept AS28679
+export:         to   AS28679 193.219.13.119 announce AS-LINXTELECOM-LIPTAM
+remarks:        --------------------------------------------------------------
+remarks:        Tartu Internet Exchange (MIX-LAN)
+remarks:        IPv4 address: 193.40.10.226
+remarks:        IPv6 address: 2001:7f8:15:1::226
+remarks:        --------------------------------------------------------------
+remarks:        *** EENet ***
+import:         from AS3221  193.40.10.225      action pref=60; accept AS3221
+export:         to   AS3221  193.40.10.225      announce AS3327
+mp-import:      afi ipv6.unicast
+                from AS3221  2001:7f8:15:1::225 action pref=60; accept AS3221
+mp-export:      afi ipv6.unicast
+                to   AS3221  2001:7f8:15:1::225 announce AS3327
+remarks:        *** ASO ***
+import:         from AS8240  193.40.10.227      action pref=60; accept AS8240
+export:         to   AS8240  193.40.10.227      announce AS3327
+remarks:        *** Kernel ***
+import:         from AS39038 193.40.10.231      action pref=60; accept AS39038
+export:         to   AS39038 193.40.10.231      announce AS3327
+remarks:        --------------------------------------------------------------
+remarks:        Moscow Internet Exchange (MSK-IX)
+remarks:        IPv4 address: 193.232.244.151, 193.232.246.151
+remarks:        --------------------------------------------------------------
+remarks:        *** Russian Federal University Network ***
+import:         from AS3267 action pref=60; accept AS-RUNNETIX
+export:         to   AS3267 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Research & Education Network ***
+import:         from AS3316  193.232.244.34     action pref=60; accept  AS-RELARN
+export:         to   AS3316  193.232.244.34     announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS3316  193.232.246.34     action pref=60; accept  AS-RELARN
+export:         to   AS3316  193.232.246.34     announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Russian Backbone Network ***
+import:         from AS5568  193.232.244.32     action pref=60; accept  AS-RBNET
+export:         to   AS5568  193.232.244.32     announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS5568  193.232.246.32     action pref=60; accept  AS-RBNET
+export:         to   AS5568  193.232.246.32     announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Macomnet ***
+import:         from AS8470 action pref=60; accept  AS-MACOMNET
+export:         to   AS8470 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Routing Arbiter for Moscow Internet Exchange MMTC-9 ***
+import:         from AS8631 action pref=60; accept AS-MSKROUTESERVER
+export:         to   AS8631 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** MCC ***
+import:         from AS12958 action pref=60; accept AS-MCC
+export:         to   AS12958 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Moscow Network Access Point ***
+import:         from AS15835 193.232.244.204    action pref=60; accept AS-MAP
+export:         to   AS15835 193.232.244.204    announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS15835 193.232.246.204    action pref=60; accept AS-MAP
+export:         to   AS15835 193.232.246.204    announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Technology & Networks Co ***
+import:         from AS30833 193.232.244.143    action pref=60; accept AS30833
+export:         to   AS30833 193.232.244.143    announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS30833 193.232.246.143    action pref=60; accept AS30833
+export:         to   AS30833 193.232.246.143    announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** JSC Peterstar ***
+import:         from AS20632 193.232.244.130    action pref=60; accept AS-PETERSTAR
+export:         to   AS20632 193.232.244.130    announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS20632 193.232.246.130    action pref=60; accept AS-PETERSTAR
+export:         to   AS20632 193.232.246.130    announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Fiord ***
+import:         from AS28917 193.232.244.147 action pref=60; accept AS-FIORD
+export:         to   AS28917 193.232.244.147 announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS28917 193.232.246.147    action pref=60; accept AS-FIORD
+export:         to   AS28917 193.232.246.147 announce AS-CITICTEL-CPC-MSK-IX
+mp-import:      afi ipv6.unicast
+                from AS28917 2001:7f8:20:101::244:147 action pref=60; accept AS-FIORD
+mp-export:      afi ipv6.unicast
+                to   AS28917 2001:7f8:20:101::244:147 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Edpnet ***
+import:         from AS9031 action pref=60; accept AS-EDPNET
+export:         to   AS9031 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** National Cable Networks ***
+import:         from AS42610 action pref=60; accept AS-NCNET
+export:         to   AS42610 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Orange Business Group ***
+import:         from AS2854 action pref=60; accept AS-ROSPRINT
+export:         to   AS2854 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** MAIL.RU ***
+import:         from AS47764 action pref=60; accept AS-MAILRU
+export:         to   AS47764 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Fortex ***
+import:         from AS48166 193.232.244.151 action pref=60; accept AS-FORTEX
+export:         to   AS48166 193.232.244.151 announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS48166 193.232.246.151 action pref=60; accept AS-FORTEX
+export:         to   AS48166 193.232.246.151 announce AS-CITICTEL-CPC-MSK-IX
+mp-import:      afi ipv6.unicast
+                from AS48166 2001:7F8:20:101::244:151 action pref=60; accept AS-FORTEX
+mp-export:      afi ipv6.unicast
+                to   AS48166 2001:7F8:20:101::244:151 announce AS-CITICTEL-CPC-MSK-IX
+mp-import:      afi ipv6.unicast
+                from AS48166 2001:7F8:20:102::246:151 action pref=60; accept AS-FORTEX
+mp-export:      afi ipv6.unicast
+                to   AS48166 2001:7F8:20:102::246:151 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** DataGroup PJSC ***
+import:         from AS21219 action pref=60; accept AS-FF-TRANSIT
+export:         to AS21219 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** IT Systems ***
+import:         from AS13249 action pref=60; accept AS-ITS
+export:         to AS13249 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Foton Telecom ***
+import:         from AS49373 action pref=60; accept AS-FOTONTELECOM
+export:         to   AS49373 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Datagrupa.lv ***
+import:         from AS21156 action pref=60; accept AS-DATAGRUPARU
+export:         to   AS21156 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        --------------------------------------------------------------
+remarks:        Sankt-Petersburg Internet Exchange (SPB-IX)
+remarks:        IPv4 address: 194.226.102.108
+remarks:        --------------------------------------------------------------
+import:         from AS43690 194.226.102.100  action pref=60; accept AS-SPBROUTESERVER
+export:         to AS43690 194.226.102.100 announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS43690 194.226.100.100  action pref=60; accept AS-SPBROUTESERVER
+export:         to AS43690  194.226.100.100 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Runnet ***
+import:         from AS3267 194.226.100.36 action pref=60; accept AS-RUNNET
+export:         to   AS3267 194.226.100.36 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        --------------------------------------------------------------
+remarks:        Swedish Internet Exchange (Netnod)
+remarks:        GE-A IPv4 address: 194.68.123.164, 195.245.240.164
+remarks:        GE-A IPv6 address: 2001:7f8:d:ff::164, 2001:7f8:d:fc::164
+remarks:        GE-B IPv4 address: 194.68.128.164, 195.69.119.164
+remarks:        GE-B IPv6 address: 2001:7f8:d:fe::164, 2001:7f8:d:fb::164
+remarks:        --------------------------------------------------------------
+remarks:        *** Netnod route servers ***
+remarks:        **  RS / STH-A **
+import:         from AS52005 194.68.123.254 action pref=60; accept ANY
+export:         to   AS52005 194.68.123.254 announce AS-LINXTELECOM-NETNOD
+import:         from AS52005 195.245.240.254 action pref=60; accept ANY
+export:         to   AS52005 195.245.240.254 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS52005 2001:7f8:d:ff::254 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast
+                to   AS52005 2001:7f8:d:ff::254 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS52005 2001:7f8:d:fc::254 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast
+                to   AS52005 2001:7f8:d:fc::254 announce AS-LINXTELECOM-NETNOD
+remarks:        ** RS / STH-B **
+import:         from AS52005 194.68.128.254 action pref=60; accept ANY
+export:         to   AS52005 194.68.128.254 announce AS-LINXTELECOM-NETNOD
+import:         from AS52005 195.69.119.254 action pref=60; accept ANY
+export:         to   AS52005 195.69.119.254 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS52005 2001:7f8:d:fb::254 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast
+                to   AS52005 2001:7f8:d:fb::254 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS52005 2001:7f8:d:fe::254 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast
+                to   AS52005 2001:7f8:d:fe::254 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Packet Clearing House ***
+import:         from AS42    194.68.128.133     action pref=60; accept AS-PCH
+export:         to   AS42    194.68.128.133     announce AS-LINXTELECOM-NETNOD
+remarks:        *** TELE2 Group ***
+mp-import:      afi ipv6.unicast
+                from AS1257 2001:7F8:D:FE::21 action pref=60; accept AS-TELE2
+mp-export:      afi ipv6.unicast
+                to   AS1257 2001:7F8:D:FE::21 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS1257 2001:7F8:D:FF::21 action pref=60; accept AS-TELE2
+mp-export:      afi ipv6.unicast
+                to   AS1257 2001:7F8:D:FF::21 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Telenor Nordic Fixed ***
+import:         from AS2119  194.68.128.158     action pref=60; accept AS-TELENOR
+export:         to   AS2119  194.68.128.158     announce AS-LINXTELECOM-NETNOD
+import:         from AS2119  194.68.123.158     action pref=60; accept AS-TELENOR
+export:         to   AS2119  194.68.123.158     announce AS-LINXTELECOM-NETNOD
+remarks:        *** NORDUnet ***
+import:         from AS2603  194.68.128.24      action pref=60; accept AS-NORDUNET
+export:         to   AS2603  194.68.128.24      announce AS-LINXTELECOM-NETNOD
+import:         from AS2603  194.68.123.24      action pref=60; accept AS-NORDUNET
+export:         to   AS2603  194.68.123.24      announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS2603 2001:7F8:D:FE::24 action pref=60; accept AS-NORDUNET
+mp-export:      afi ipv6.unicast
+                to   AS2603 2001:7F8:D:FE::24 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS2603 2001:7F8:D:FF::24 action pref=60; accept AS-NORDUNET
+mp-export:      afi ipv6.unicast
+                to   AS2603 2001:7F8:D:FF::24 announce AS-LINXTELECOM-NETNOD
+remarks:        *** TDC A/S ***
+import:         from AS3292  194.68.123.41      action pref=60; accept AS-TDCNET
+export:         to   AS3292  194.68.123.41      announce AS-LINXTELECOM-NETNOD
+import:         from AS3292  194.68.128.41      action pref=60; accept AS-TDCNET
+export:         to   AS3292  194.68.128.41      announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS3292 2001:7F8:D:FE::41 action pref=60; accept AS3292
+mp-export:      afi ipv6.unicast
+                to   AS3292 2001:7F8:D:FE::41 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS3292 2001:7F8:D:FF::41 action pref=60; accept AS3292
+mp-export:      afi ipv6.unicast
+                to   AS3292 2001:7F8:D:FF::41 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Swisscom (Switzerland) Ltd ***
+import:         from AS3303  194.68.123.116     action pref=60; accept AS-SWCMGLOBAL
+export:         to   AS3303  194.68.123.116     announce AS-LINXTELECOM-NETNOD
+import:         from AS3303  194.68.128.116     action pref=60; accept AS-SWCMGLOBAL
+export:         to   AS3303  194.68.128.116     announce AS-LINXTELECOM-NETNOD
+remarks:        *** Hurricane Electric ***
+import:         from AS6939  194.68.123.187     action pref=60; accept AS-HURRICANE
+export:         to   AS6939  194.68.123.187     announce AS-LINXTELECOM-NETNOD
+import:         from AS6939  194.68.128.187     action pref=60; accept AS-HURRICANE
+export:         to   AS6939  194.68.128.187     announce AS-LINXTELECOM-NETNOD
+import:         from AS6939  195.245.240.187 action pref=60; accept AS-HURRICANE
+export:         to   AS6939  195.245.240.187 announce AS-LINXTELECOM-NETNOD
+import:         from AS6939  195.69.119.187 action pref=60; accept AS-HURRICANE
+export:         to   AS6939  195.69.119.187 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS6939 2001:7f8:d:fc::187 action pref=60; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast
+                to   AS6939 2001:7f8:d:fc::187 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS6939 2001:7f8:d:ff::187 action pref=60; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast
+                to   AS6939 2001:7f8:d:ff::187 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS6939 2001:7f8:d:fb::187 action pref=60; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast
+                to   AS6939 2001:7f8:d:fb::187 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Packet Clearing House ***
+import:         from AS3856  194.68.128.132     action pref=60; accept AS-PCH
+export:         to   AS3856  194.68.128.132     announce AS-LINXTELECOM-NETNOD
+remarks:        *** Microsoft European Data Center ***
+import:         from AS8068  195.69.119.181     action pref=60; accept AS-MICROSOFT
+export:         to   AS8068  195.69.119.181     announce AS-LINXTELECOM-NETNOD
+import:         from AS8068  195.245.240.181    action pref=60; accept AS-MICROSOFT
+export:         to   AS8068  195.245.240.181    announce AS-LINXTELECOM-NETNOD
+remarks:        *** Mobile TeleSystems OJSC ***
+import:         from AS8359  194.68.128.161     action pref=60; accept AS-MTU
+export:         to   AS8359  194.68.128.161     announce AS-LINXTELECOM-NETNOD
+import:         from AS8359  194.68.123.161     action pref=60; accept AS-MTU
+export:         to   AS8359  194.68.123.161     announce AS-LINXTELECOM-NETNOD
+remarks:        *** Bahnhof AB ***
+import:         from AS8473  194.68.128.85      action pref=60; accept AS-BAHNHOF
+export:         to   AS8473  194.68.128.85      announce AS-LINXTELECOM-NETNOD
+import:         from AS8473  194.68.123.85      action pref=60; accept AS-BAHNHOF
+export:         to   AS8473  194.68.123.85      announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS8473 2001:7F8:D:FE::85 action pref=60; accept AS-BAHNHOF
+mp-export:      afi ipv6.unicast
+                to   AS8473 2001:7F8:D:FE::85 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS8473 2001:7F8:D:FF::85 action pref=60; accept AS-BAHNHOF
+mp-export:      afi ipv6.unicast
+                to   AS8473 2001:7F8:D:FF::85 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Netnod Internet Exchange Sverige AB ***
+import:         from AS8674  194.68.128.172     action pref=60; accept AS-NETNOD
+export:         to   AS8674  194.68.128.172     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS8674  2001:7F8:D:FB::172 action pref=60; accept AS-NETNOD
+mp-export:      afi ipv6.unicast
+                to   AS8674  2001:7F8:D:FB::172 announce AS3327
+remarks:        *** ReTN.net ***
+import:         from AS9002  194.68.128.157     action pref=60; accept AS-RETN
+export:         to   AS9002  194.68.128.157     announce AS-LINXTELECOM-NETNOD
+import:         from AS9002  194.68.123.157     action pref=60; accept AS-RETN
+export:         to   AS9002  194.68.123.157     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS9002 2001:7F8:D:FE::157 action pref=60; accept AS-RETN6
+mp-export:      afi ipv6.unicast
+                to   AS9002 2001:7F8:D:FE::157 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS9002 2001:7F8:D:FF::157 action pref=60; accept AS-RETN6
+mp-export:      afi ipv6.unicast
+                to   AS9002 2001:7F8:D:FF::157 announce AS-LINXTELECOM-NETNOD
+remarks:        *** IP-Only ***
+import:         from AS12552 194.68.128.92      action pref=60; accept AS-IPO
+export:         to   AS12552 194.68.128.92      announce AS-LINXTELECOM-NETNOD
+import:         from AS12552 194.68.123.92      action pref=60; accept AS-IPO
+export:         to   AS12552 194.68.123.92      announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS12552 2001:7f8:d:ff::92 action pref=60; accept AS-IPO
+mp-export:      afi ipv6.unicast
+                to   AS12552 2001:7f8:d:ff::92 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS12552 2001:7f8:d:fe::92 action pref=60; accept AS-IPO
+mp-export:      afi ipv6.unicast
+                to   AS12552 2001:7f8:d:ff::92 announce AS-LINXTELECOM-NETNOD
+remarks:        *** RIPE NCC RIS project ***
+import:         from AS12654 194.68.123.147     action pref=60; accept AS12654:RS-RIS
+export:         to   AS12654 194.68.123.147     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS12654 2001:7F8:D:FF::147 action pref=60; accept AS12654:RS-RIS
+mp-export:      afi ipv6.unicast
+                to   AS12654 2001:7F8:D:FF::147 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Lidero Network AB ***
+import:         from AS13189 194.68.128.138     action pref=60; accept AS-LIDERO
+export:         to   AS13189 194.68.128.138     announce AS-LINXTELECOM-NETNOD
+import:         from AS13189 194.68.123.138     action pref=60; accept AS-LIDERO
+export:         to   AS13189 194.68.123.138     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS13189 2001:7F8:D:FE::138 action pref=60; accept AS-LIDERO
+mp-export:      afi ipv6.unicast
+                to   AS13189 2001:7F8:D:FE::138 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS13189 2001:7F8:D:FF::138 action pref=60; accept AS-LIDERO
+mp-export:      afi ipv6.unicast
+                to   AS13189 2001:7F8:D:FF::138 announce AS-LINXTELECOM-NETNOD
+remarks:        *** LambdaNet Communications Deutschland AG, Hannover ***
+import:         from AS13237 194.68.128.141     action pref=60; accept AS-LAMBDANET
+export:         to   AS13237 194.68.128.141     announce AS-LINXTELECOM-NETNOD
+import:         from AS13237 194.68.123.141     action pref=60; accept AS-LAMBDANET
+export:         to   AS13237 194.68.123.141     announce AS-LINXTELECOM-NETNOD
+remarks:        *** DNA, Finland ***
+import:         from AS16086 194.68.128.152     action pref=60; accept AS16086:AS-CUST
+export:         to   AS16086 194.68.128.152     announce AS-LINXTELECOM-NETNOD
+import:         from AS16086 195.69.119.152     action pref=60; accept AS16086:AS-CUST
+export:         to   AS16086 195.69.119.152     announce AS-LINXTELECOM-NETNOD
+import:         from AS16086 194.68.123.152     action pref=60; accept AS16086:AS-CUST
+export:         to   AS16086 194.68.123.152     announce AS-LINXTELECOM-NETNOD
+import:         from AS16086 195.245.240.152    action pref=60; accept AS16086:AS-CUST
+export:         to   AS16086 195.245.240.152    announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS16086 2001:7F8:D:FE::152 action pref=60; accept AS16086:AS-CUST
+mp-export:      afi ipv6.unicast
+                to   AS16086 2001:7F8:D:FE::152 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS16086 2001:7F8:D:FB::152 action pref=60; accept AS16086:AS-CUST
+mp-export:      afi ipv6.unicast
+                to   AS16086 2001:7F8:D:FB::152 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS16086 2001:7F8:D:FF::152 action pref=60; accept AS16086:AS-CUST
+mp-export:      afi ipv6.unicast
+                to   AS16086 2001:7F8:D:FF::152 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS16086 2001:7F8:D:FC::152 action pref=60; accept AS16086:AS-CUST
+mp-export:      afi ipv6.unicast
+                to   AS16086 2001:7F8:D:FC::152 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Akamai Technologies ***
+import:         from AS20940 194.68.128.170     action pref=60; accept AS-AKAMAI
+export:         to   AS20940 194.68.128.170     announce AS-LINXTELECOM-NETNOD
+import:         from AS20940 194.68.123.170     action pref=60; accept AS-AKAMAI
+export:         to   AS20940 194.68.123.170     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS20940 2001:7f8:d:ff::170 action pref=60; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast
+                to   AS20940 2001:7f8:d:ff::170 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS20940 2001:7f8:d:fe::170 action pref=60; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast
+                to   AS20940 2001:7f8:d:fe::170 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Limelight Networks ***
+import:         from AS22822 194.68.123.167     action pref=60; accept AS-LLNW
+export:         to   AS22822 194.68.123.167     announce AS-LINXTELECOM-NETNOD
+import:         from AS22822 194.68.128.167     action pref=60; accept AS-LLNW
+export:         to   AS22822 194.68.128.167     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS22822 2001:7f8:d:ff::167 action pref=60; accept AS-LLNW
+mp-export:      afi ipv6.unicast
+                to   AS22822 2001:7f8:d:ff::167 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS22822 2001:7f8:d:fe::167 action pref=60; accept AS-LLNW
+mp-export:      afi ipv6.unicast
+                to   AS22822 2001:7f8:d:fe::167 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Telecom3 Networks AB ***
+import:         from AS28908 action pref=60; accept AS-T3
+export:         to   AS28908 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Baltcom IP ***
+import:         from AS35254 194.68.128.197     action pref=60; accept AS-BALTCOMIP
+export:         to   AS35254 194.68.128.197     announce AS-LINXTELECOM-NETNOD
+import:         from AS35254 194.68.123.197     action pref=60; accept AS-BALTCOMIP
+export:         to   AS35254 194.68.123.197     announce AS-LINXTELECOM-NETNOD
+remarks:        *** Net at Once ***
+import:         from AS35706 194.68.128.153     action pref=60; accept AS-NAO
+export:         to   AS35706 194.68.128.153     announce AS-LINXTELECOM-NETNOD
+import:         from AS35706 194.68.123.153     action pref=60; accept AS-NAO
+export:         to   AS35706 194.68.123.153     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS35706 2001:7F8:D:FE::153 action pref=60; accept AS-NAO
+mp-export:      afi ipv6.unicast
+                to   AS35706 2001:7F8:D:FE::153 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS35706 2001:7F8:D:FF::153 action pref=60; accept AS-NAO
+mp-export:      afi ipv6.unicast
+                to   AS35706 2001:7F8:D:FF::153 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Com Hem Sweden ***
+import:         from AS39651 194.68.128.156     action pref=60; accept AS-COMHEM
+export:         to   AS39651 194.68.128.156     announce AS-LINXTELECOM-NETNOD
+import:         from AS39651 194.68.123.156     action pref=60; accept AS-COMHEM
+export:         to   AS39651 194.68.123.156     announce AS-LINXTELECOM-NETNOD
+remarks:        *** Portlane ***
+import:         from AS42708 194.68.123.194     action pref=60; accept AS-PORTLANE
+export:         to   AS42708 194.68.123.194     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi  ipv6.unicast
+                from AS42708 2001:7f8:d:ff::194 action pref=60; accept AS-PORTLANE
+mp-export:      afi  ipv6.unicast
+                to   AS42708 2001:7f8:d:ff::194 announce AS-LINXTELECOM-NETNOD
+import:         from AS42708 194.68.128.194     action pref=60; accept  AS-PORTLANE
+export:         to   AS42708 194.68.128.194     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi  ipv6.unicast
+                from AS42708 2001:7f8:d:fe::194 action pref=60; accept AS-PORTLANE
+mp-export:      afi  ipv6.unicast
+                to   AS42708 2001:7f8:d:fe::194 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Amazon ***
+import:         from AS16509 194.68.123.47     action pref=60; accept  AS-AMAZON
+export:         to   AS16509 194.68.123.47     announce AS-LINXTELECOM-NETNOD
+import:         from AS16509 195.245.240.47     action pref=60; accept  AS-AMAZON
+export:         to   AS16509 195.245.240.47     announce AS-LINXTELECOM-NETNOD
+remarks:        *** Nianet ***
+import:         from AS31027 194.68.123.22     action pref=60; accept AS-NIANET
+export:         to   AS31027 194.68.123.22     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi  ipv6.unicast
+                from AS31027 2001:7f8:d:ff::22 action pref=60; accept AS-NIANET
+mp-export:      afi  ipv6.unicast
+                to   AS31027 2001:7f8:d:ff::22 announce AS-LINXTELECOM-NETNOD
+import:         from AS31027 194.68.128.22     action pref=60; accept  AS-NIANET
+export:         to   AS31027 194.68.128.22     announce AS-LINXTELECOM-NETNOD
+mp-import:      afi  ipv6.unicast
+                from AS31027 2001:7f8:d:fe::22 action pref=60; accept AS-NIANET
+mp-export:      afi  ipv6.unicast
+                to   AS31027 2001:7f8:d:fe::22 announce AS-LINXTELECOM-NETNOD
+remarks:        ***VKontakte***
+import:         from AS47541 194.68.123.204     action pref=60; accept AS-VKONTAKTE
+export:         to   AS47541 194.68.123.204     announce AS-LINXTELECOM-NETNOD
+remarks:        *** Qbrick ***
+import:         from AS35742 195.245.240.203 action pref=60; accept AS-QBRICK
+export:         to   AS35742 195.245.240.203 announce AS-LINXTELECOM-NETNOD
+import:         from AS35742 195.69.119.203 action pref=60; accept AS-QBRICK
+export:         to   AS35742 195.69.119.203 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS35742 2001:7f8:d:fb::203 action pref=60; accept AS-QBRICK
+mp-export:      afi ipv6.unicast
+                to   AS35742 2001:7f8:d:fb::203 announce AS-LINXTELECOM-NETNOD
+remarks:        *** AllTele ***
+import:         from AS44581 194.68.123.183 action pref=60; accept AS-ALLTELE
+export:         to   AS44581 194.68.123.183 announce AS-LINXTELECOM-NETNOD
+import:         from AS44581 194.68.128.183 action pref=60; accept AS-ALLTELE
+export:         to   AS44581 194.68.128.183 announce AS-LINXTELECOM-NETNOD
+import:         from AS44581 195.245.240.183 action pref=60; accept AS-ALLTELE
+export:         to   AS44581 195.245.240.183 announce AS-LINXTELECOM-NETNOD
+import:         from AS44581 195.69.119.183 action pref=60; accept AS-ALLTELE
+export:         to   AS44581 195.69.119.183 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS44581 2001:7f8:d:ff::18 action pref=60; accept AS-ALLTELE
+mp-export:      afi ipv6.unicast
+                to   AS44581 2001:7f8:d:ff::18 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS44581 2001:7f8:d:fe::183 action pref=60; accept AS-ALLTELE
+mp-export:      afi ipv6.unicast
+                to   AS44581 2001:7f8:d:fe::183 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS44581 2001:7f8:d:fc::183 action pref=60; accept AS-ALLTELE
+mp-export:      afi ipv6.unicast
+                to   AS44581 2001:7f8:d:fc::183 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS44581 2001:7f8:d:fb::183 action pref=60; accept AS-ALLTELE
+mp-export:      afi ipv6.unicast
+                to   AS44581 2001:7f8:d:fb::183 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Hibernia Networks ***
+import:         from AS5580 action pref=60; accept AS-HIBERNIA
+export:         to AS5580 announce AS-LINXTELECOM-NETNOD
+remarks:        *** AT&T EMEA ***
+import:         from AS2686 194.68.123.44 action pref=60; accept AS-IGNEMEA
+export:         to   AS2686 194.68.123.44 announce AS-LINXTELECOM-NETNOD
+import:         from AS2686 194.68.128.44 action pref=60; accept AS-IGNEMEA
+export:         to   AS2686 194.68.128.44 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS2686 2001:7f8:d:ff::44 action pref=60; accept AS-IGNEMEA
+mp-export:      afi ipv6.unicast
+                to   AS2686 2001:7f8:d:ff::44 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS2686 2001:7f8:d:fe::44 action pref=60; accept AS-IGNEMEA
+mp-export:      afi ipv6.unicast
+                to   AS2686 2001:7f8:d:fe::44 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Alands Datakommunikation Ab ***
+import:         from AS3238 194.68.123.135 action pref=60; accept AS-ALCOM
+export:         to   AS3238 194.68.123.135 announce AS-LINXTELECOM-NETNOD
+import:         from AS3238 194.68.128.135 action pref=60; accept AS-ALCOM
+export:         to   AS3238 194.68.128.135 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS3238 2001:7f8:d:ff::135 action pref=60; accept AS-ALCOM
+mp-export:      afi ipv6.unicast
+                to   AS3238 2001:7f8:d:ff::135 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS3238 2001:7f8:d:fe::135 action pref=60; accept AS-ALCOM
+mp-export:      afi ipv6.unicast
+                to   AS3238 2001:7f8:d:fe::135 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Orange Business Services (Nordics) ***
+import:         from AS2874 194.68.123.17 action pref=60; accept AS-OBS-NORDICS
+export:         to   AS2874 194.68.123.17 announce AS-LINXTELECOM-NETNOD
+import:         from AS2874 194.68.128.17 action pref=60; accept AS-OBS-NORDICS
+export:         to   AS2874 194.68.128.17 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS2874 2001:7f8:d:fe::17 action pref=60; accept AS-OBS-NORDICS
+mp-export:      afi ipv6.unicast
+                to   AS2874 2001:7f8:d:fe::17 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Netflix ***
+import:         from AS2906 194.68.123.43 action pref=60; accept AS-NFLX
+export:         to   AS2906 194.68.123.43 announce AS-LINXTELECOM-NETNOD
+import:         from AS2906 194.68.128.43 action pref=60; accept AS-NFLX
+export:         to   AS2906 194.68.128.43 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS2906 2001:7f8:d:ff::43 action pref=60; accept AS-NFLX
+mp-export:      afi ipv6.unicast
+                to   AS2906 2001:7f8:d:ff::43 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS2906 2001:7f8:d:fe::43 action pref=60; accept AS-NFLX
+mp-export:      afi ipv6.unicast
+                to   AS2906 2001:7f8:d:fe::43 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Highwinds ***
+import:         from AS33438 194.68.123.150 action pref=60; accept AS33438
+export:         to   AS33438 194.68.123.150 announce AS-LINXTELECOM-NETNOD
+import:         from AS33438 195.245.240.150 action pref=60; accept AS33438
+export:         to   AS33438 195.245.240.150 announce AS-LINXTELECOM-NETNOD
+import:         from AS33438 194.68.128.150 action pref=60; accept AS33438
+export:         to   AS33438 194.68.128.150 announce AS-LINXTELECOM-NETNOD
+import:         from AS33438 195.69.119.150 action pref=60; accept AS33438
+export:         to   AS33438 195.69.119.150 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS33438 2001:7f8:d:ff::150 action pref=60; accept AS33438
+mp-export:      afi ipv6.unicast
+                to   AS33438 2001:7f8:d:ff::150 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS33438 2001:7f8:d:fc::150 action pref=60; accept AS33438
+mp-export:      afi ipv6.unicast
+                to   AS33438 2001:7f8:d:fc::150 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS33438 2001:7f8:d:fe::150 action pref=60; accept AS33438
+mp-export:      afi ipv6.unicast
+                to   AS33438 2001:7f8:d:fe::150 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS33438 2001:7f8:d:fb::150 action pref=60; accept AS33438
+mp-export:      afi ipv6.unicast
+                to   AS33438 2001:7f8:d:fb::150 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Mainloop ***
+import:         from AS43893 194.68.123.210 action pref=60; accept AS-MAINLOOP
+export:         to   AS43893 194.68.123.210 announce AS-LINXTELECOM-NETNOD
+import:         from AS43893 194.68.128.210 action pref=60; accept AS-MAINLOOP
+export:         to   AS43893 194.68.128.210 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS43893 2001:7f8:d:ff::210 action pref=60; accept AS-MAINLOOP
+mp-export:      afi ipv6.unicast
+                to   AS43893 2001:7f8:d:ff::210 announce AS-LINXTELECOM-NETNOD
+mp-import:      afi ipv6.unicast
+                from AS43893 2001:7f8:d:fe::210 action pref=60; accept AS-MAINLOOP
+mp-export:      afi ipv6.unicast
+                to   AS43893 2001:7f8:d:fe::210 announce AS-LINXTELECOM-NETNOD
+remarks:        *** CloudFlare ***
+import:         from AS13335 action pref=60; accept AS13335
+export:         to AS13335 announce AS-LINXTELECOM-NETNOD
+remarks:        *** Core-Backbone GmbH ***
+import:         from AS33891 action pref=60; accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-LINXTELECOM-NETNOD
+remarks:        --------------------------------------------------------------
+remarks:        Polish Internet eXchange (PL-IX)
+remarks:        IPv4 address: 195.182.218.45
+remarks:        IPv6 address: 2001:7f8:42::a500:3327:1
+remarks:        --------------------------------------------------------------
+remarks:        *** PL-IX ***
+import:         from AS8545  195.182.218.99     action pref=60; accept AS-PL-IX
+export:         to   AS8545  195.182.218.99     announce AS-LINXTELECOM-PLIX
+import:         from AS8545  195.182.218.100    action pref=60; accept AS-PL-IX
+export:         to   AS8545  195.182.218.100    announce AS-LINXTELECOM-PLIX
+mp-import:      afi ipv6.unicast
+                from AS8545  2001:7f8:42::A500:8545:1 action pref=60; accept AS-PLIX6
+mp-export:      afi ipv6.unicast
+                to   AS8545  2001:7f8:42::A500:8545:1 announce AS-LINXTELECOM-PLIX
+remarks:        *** MNI S.A. IP Backbone ***
+import:         from AS24709 195.182.218.24     action pref=60; accept AS-MNI
+export:         to   AS24709 195.182.218.24     announce AS-LINXTELECOM-PLIX
+remarks:        *** Hurricane Electric ***
+import:         from AS6939 195.182.218.197 action pref=60; accept AS-HURRICANE
+export:         to   AS6939 195.182.218.197 announce AS-LINXTELECOM-PLIX
+mp-import:      afi ipv6.unicast
+                from AS6939 2001:7f8:42::a500:6939:1 action pref=60; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast
+                to   AS6939 2001:7f8:42::a500:6939:1 announce AS-LINXTELECOM-PLIX
+remarks:        *** Hibernia Networks ***
+import:         from AS5580 action pref=60; accept AS-HIBERNIA
+export:         to AS5580 announce AS-LINXTELECOM-PLIX
+remarks:        *** Packet Clearing House ***
+import:         from AS42 195.182.218.189 action pref=60; accept AS-PCH
+export:         to   AS42 195.182.218.189 announce AS-LINXTELECOM-PLIX
+mp-import:      afi ipv6.unicast
+                from AS42 2001:7f8:42::a500:0042:1 action pref=60; accept AS-PCH
+mp-export:      afi ipv6.unicast
+                to   AS42 2001:7f8:42::a500:0042:1 announce AS-LINXTELECOM-PLIX
+remarks:        *** Packet Clearing House ***
+import:         from AS3856 195.182.218.190 action pref=60; accept AS-PCH
+export:         to   AS3856 195.182.218.190  announce AS-LINXTELECOM-PLIX
+mp-import:      afi ipv6.unicast
+                from AS3856 2001:7f8:42::a500:3856:1 action pref=60; accept AS-PCH
+mp-export:      afi ipv6.unicast
+                to   AS3856 2001:7f8:42::a500:3856:1 announce AS-LINXTELECOM-PLIX
+remarks:        *** Provektor ***
+import:         from AS35745 195.69.147.20 action pref=60; accept AS35745:AS-Provector
+export:         to   AS35745 195.69.147.20 announce AS-LINXTELECOM-PLIX
+mp-import:      afi ipv6.unicast
+                from AS35745 2001:7f8:42::a503:5745:1 action pref=60; accept AS35745:AS-Provector
+mp-export:      afi ipv6.unicast
+                to   AS35745 2001:7f8:42::a503:5745:1 announce AS-LINXTELECOM-PLIX
+remarks:        *** Telekomunikacja Internetowa Sp. z o.o. ***
+import:         from AS5526 195.182.218.124 action pref=60; accept AS-5526TR
+export:         to   AS5526 195.182.218.124 announce AS-LINXTELECOM-PLIX
+remarks:        *** CloudFlare ***
+import:         from AS13335 action pref=60; accept AS13335
+export:         to AS13335 announce AS-LINXTELECOM-PLIX
+remarks:        *** Dolsat ***
+import:         from AS41201 action pref=60; accept AS41201
+export:         to   AS41201 announce AS-LINXTELECOM-PLIX
+remarks:        --------------------------------------------------------------
+remarks:        Tallinn Internet Exchange (TLLIX)
+remarks:        IPv4 address: 195.137.179.10
+remarks:        IPv6 address: 2001:7f8:39:1:0:cff:0:10
+remarks:        --------------------------------------------------------------
+remarks:        *** Elisa ***
+import:         from AS2586  195.137.179.12     action pref=50; accept AS-UNINET-TIX
+export:         to   AS2586  195.137.179.12     announce AS-LINXTELECOM
+import:         from AS2586  195.137.179.26     action pref=50; accept AS-UNINET-TIX
+export:         to   AS2586  195.137.179.26     announce AS-LINXTELECOM
+remarks:        *** EENet ***
+import:         from AS3221  195.137.179.11     action pref=50; accept AS3221
+export:         to   AS3221  195.137.179.11     announce AS-LINXTELECOM
+remarks:        *** INFONET.EE ***
+import:         from AS8728  195.137.179.13     action pref=50; accept AS8728
+export:         to   AS8728  195.137.179.13     announce AS-LINXTELECOM
+remarks:        *** Viatel ***
+import:         from AS39211 195.137.179.14     action pref=50; accept AS-PROGROUP-EEIX
+export:         to   AS39211 195.137.179.14     announce AS-LINXTELECOM
+import:         from AS39211 195.137.179.24     action pref=50; accept AS-PROGROUP-EEIX
+export:         to   AS39211 195.137.179.24     announce AS-LINXTELECOM
+remarks:        *** Televorgu AS ***
+import:         from AS39301 195.137.179.15     action pref=50; accept AS-TELEVORK
+export:         to   AS39301 195.137.179.15     announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS39301 2001:7f8:39:1:0:9985:0:15 action pref=60; accept AS-TELEVORK
+mp-export:      afi ipv6.unicast
+                to   AS39301 2001:7f8:39:1:0:9985:0:15 announce AS3327
+mp-import:      afi ipv6.unicast
+                from AS39301 2001:7f8:39:1:0:9985:0:27 action pref=60; accept AS-TELEVORK
+mp-export:      afi ipv6.unicast
+                to   AS39301 2001:7f8:39:1:0:9985:0:27 announce AS-LINXTELECOM
+remarks:        *** Compic Ltd. ***
+import:         from AS39823 195.137.179.17     action pref=50; accept AS39823
+export:         to   AS39823 195.137.179.17     announce AS-LINXTELECOM AS-TIX-LAN
+remarks:        *** CSC Telecom ***
+import:         from AS42300 195.137.179.19     action pref=50; accept AS42300
+export:         to   AS42300 195.137.179.19     announce AS-LINXTELECOM
+remarks:        --------------------------------------------------------------
+remarks:        Tallinn Governmental Internet eXchange (RTIX)
+remarks:        IPv4 address: 213.184.52.10, 213.184.52.22
+remarks:        IPv6 address: 2001:7F8:50:1:0:CFF:0:10, 2001:7F8:50:1:0:CFF:0:22
+remarks:        --------------------------------------------------------------
+remarks:        *** ASO ***
+import:         from AS8240  213.184.52.20  action pref=45; accept as-8240-set
+export:         to   AS8240  213.184.52.20      announce AS-LINXTELECOM-RTIX
+mp-import:      afi ipv6.unicast
+                from AS8240 2001:7f8:50:1:0:2030:0:20 action pref=45; accept as-8240-set
+mp-export:      afi ipv6.unicast
+                to   AS8240 2001:7f8:50:1:0:2030:0:20 announce AS3327
+remarks:        afi ipv6.unicast
+remarks:        *** Packet Clearing House ***
+import:         from AS42 213.184.52.130 action pref=45; accept AS-PCH
+export:         to   AS42 213.184.52.130 announce AS-LINXTELECOM-RTIX
+mp-import:      afi ipv6.unicast
+                from AS42 2001:7f8:50:1:0:2a:0:130 action pref=45; accept AS-PCH
+mp-export:      afi ipv6.unicast
+                to   AS42 2001:7f8:50:1:0:2a:0:130 announce AS-LINXTELECOM-RTIX
+remarks:        *** Packet Clearing House ***
+import:         from AS3856 213.184.52.131 action pref=45; accept AS-PCH
+export:         to   AS3856 213.184.52.131 announce AS-LINXTELECOM-RTIX
+mp-import:      afi ipv6.unicast
+                from AS3856 2001:7f8:50:1:0:f10:0:131 action pref=45; accept AS-PCH
+mp-export:      afi ipv6.unicast
+                to   AS3856 2001:7f8:50:1:0:f10:0:131 announce AS-LINXTELECOM-RTIX
+remarks:        --------------------------------------------------------------
+remarks:        Tallinn Internet eXchange (TIX-LAN)
+remarks:        IPv4 address: 194.116.188.13, 194.116.188.14
+remarks:        IPv6 address: 2001:7f8:15::cff:1, 2001:7f8:15::cff:2
+remarks:        --------------------------------------------------------------
+remarks:        *** Elisa ***
+import:         from AS2586  194.116.188.18     action pref=60; accept AS-UNINET-TIX
+export:         to   AS2586  194.116.188.18     announce AS-LINXTELECOM-TIXLAN
+remarks:        *** EENet ***
+import:         from AS3221  194.116.188.19     action pref=60; accept AS3221
+export:         to   AS3221  194.116.188.19     announce AS-LINXTELECOM-TIXLAN
+mp-import:      afi ipv6.unicast
+                from AS3221  2001:7f8:15::c95:1 action pref=60; accept AS3221
+mp-export:      afi ipv6.unicast
+                to   AS3221  2001:7f8:15::c95:1 announce AS3327
+remarks:        *** ASO ***
+import:         from AS8240  194.116.188.20     action pref=60; accept as-8240-set
+export:         to   AS8240  194.116.188.20     announce AS-LINXTELECOM-TIXLAN
+remarks:        *** INFONET.EE ***
+import:         from AS8728  194.116.188.22     action pref=60; accept AS8728
+export:         to   AS8728  194.116.188.22     announce AS-LINXTELECOM-TIXLAN
+import:         from AS8728  194.116.188.29     action pref=60; accept AS8728
+export:         to   AS8728  194.116.188.29     announce AS-LINXTELECOM-TIXLAN
+mp-import:      afi ipv6.unicast
+                from AS8728  2001:7f8:15::2218:1 action pref=60; accept AS8728
+mp-export:      afi ipv6.unicast
+                to   AS8728  2001:7f8:15::2218:1 announce AS3327
+remarks:        *** Starman ***
+import:         from AS13272 194.116.188.23     action pref=60; accept AS13272
+export:         to   AS13272 194.116.188.23     announce AS-LINXTELECOM-TIXLAN
+mp-import:      afi ipv6.unicast
+                from AS13272 2001:7f8:15::33d8:1 action pref=60; accept AS13272
+mp-export:      afi ipv6.unicast
+                to   AS13272 2001:7f8:15::33d8:1 announce AS3327
+remarks:        *** Kernel ***
+import:         from AS39038 194.116.188.32     action pref=60; accept AS39038
+export:         to   AS39038 194.116.188.32     announce AS-LINXTELECOM-TIXLAN
+remarks:        --------------------------------------------------------------
+remarks:        DTEL-IX, Kiev, Ukraine
+remarks:        IPv4 address: 193.25.180.196
+remarks:        IPv6 address: 2001:7f8:63::C4/64
+remarks:        --------------------------------------------------------------
+remarks:        *** DTEL-IX Route-server ***
+import:         from AS31210  193.25.180.255    action pref=60; accept AS-DTEL-IX
+export:         to   AS31210  193.25.180.255      announce AS-LINXTELECOM-DTELIX
+mp-import:      afi ipv6.unicast
+                from AS31210 2001:7f8:63::ff action pref=60; accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast
+                to   AS31210 2001:7f8:63::ff announce AS-LINXTELECOM-DTELIX
+remarks:        --------------------------------------------------------------
+remarks:        Private peers
+remarks:        --------------------------------------------------------------
+remarks:        *** Elion Enterprises Ltd. ***
+import:         from AS3249  195.250.170.21     action pref=50; accept AS-ESTPAK
+export:         to   AS3249  195.250.170.21     announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS3249  2001:7d0:f000:8003::1 action pref=50; accept AS-ESTPAK
+mp-export:      afi ipv6.unicast
+                to   AS3249  2001:7d0:f000:8003::1 announce AS-LINXTELECOM
+remarks:        *** LVRTC ***
+import:         from AS8194  195.244.144.245    action pref=50; accept AS-VITA
+export:         to   AS8194  195.244.144.245    announce AS-CITICTEL-CPC-EE AS-LINXTELECOM-LT AS-CITICTEL-CPC-LV
+mp-import:      afi ipv6.unicast
+                from AS8194 2a00:1780:8194:1337::3327:0 action pref=50; accept AS-VITA
+mp-export:      afi ipv6.unicast
+                to   AS8194 2a00:1780:8194:1337::3327:0 announce AS-CITICTEL-CPC-EE AS-LINXTELECOM-LT AS-CITICTEL-CPC-LV
+remarks:        *** Bite GSM & Internet Services ***
+import:         from AS13194 213.226.156.238    action pref=50; accept AS-BITE
+export:         to   AS13194 213.226.156.238    announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS13194 2a00:f500:10:1::1 action pref=50; accept AS-BITE
+mp-export:      afi ipv6.unicast
+                to   AS13194 2a00:f500:10:1::1 announce AS-LINXTELECOM
+remarks:        *** Google Inc. ***
+import:         from AS15169 217.28.253.33      action pref=50; accept AS-GOOGLE
+export:         to   AS15169 217.28.253.33      announce AS-LINXTELECOM
+import:         from AS15169 74.125.50.61 action pref=50; accept AS-GOOGLE
+export:         to   AS15169 74.125.50.61 announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS15169 2001:ad0:ff:42::2 action pref=50; accept AS-GOOGLE
+mp-export:      afi ipv6.unicast
+                to   AS15169 2001:ad0:ff:42::2 announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS15169 2001:4860:1:1:0:3b41:0:c action pref=50; accept AS-GOOGLE
+mp-export:      afi ipv6.unicast
+                to   AS15169 2001:4860:1:1:0:3b41:0:c announce AS-LINXTELECOM
+remarks:        *** DGC ***
+import:         from AS21195 217.28.253.46      action pref=50; accept AS-DGCSYSTEMS
+export:         to   AS21195 217.28.253.46      announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS21195 2001:ad0:ff:40::2 action pref=50; accept AS-DGCSYSTEMS
+mp-export:      afi ipv6.unicast
+                to   AS21195 2001:ad0:ff:40::2 announce AS-LINXTELECOM
+remarks:        *** Baltcom IP (Baltcom Fiber) ***
+import:         from AS35254 217.28.243.203     action pref=60; accept AS-BALTCOMIP
+export:         to   AS35254 217.28.243.203     announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS35254 2001:ad0:ff:41::2 action pref=60; accept AS-BALTCOMIP
+mp-export:      afi ipv6.unicast
+                to   AS35254 2001:ad0:ff:41::2 announce AS-LINXTELECOM
+remarks:        *** Lattelecom ***
+import:         from AS12578 80.232.187.209     action pref=50; accept AS-LATTELEKOM
+export:         to   AS12578 80.232.187.209 announce AS-LINXTELECOM
+mp-import:      afi ipv6.unicast
+                from AS12578 2a02:2330:c:8::1 action pref=50; accept AS-LATTELEKOM
+mp-export:      afi ipv6.unicast
+                to   AS12578 2a02:2330:c:8::1 announce AS-LINXTELECOM
+remarks:        *** Filanco (Citytelecom) ***
+import:         from AS29076 31.28.19.1  action pref=50; accept AS-CITYTELECOM
+export:         to   AS29076 31.28.19.1  announce AS-CITICTEL-CPC-MSK-IX
+import:         from AS29076 31.28.19.254 action pref=50; accept AS-CITYTELECOM
+export:         to   AS29076 31.28.19.254 announce AS-CITICTEL-CPC-MSK-IX
+mp-import:      afi ipv6.unicast
+                from AS29076 2a00:13c0:3:1::1f1c:1301 action pref=50; accept AS-CITYTELECOMV6
+mp-export:      afi ipv6.unicast
+                to   AS29076 2a00:13c0:3:1::1f1c:1301 announce AS-CITICTEL-CPC-MSK-IX
+mp-import:      afi ipv6.unicast
+                from AS29076 2a00:13c0:3:1::1f1c:13fe action pref=50; accept AS-CITYTELECOMV6
+mp-export:      afi ipv6.unicast
+                to   AS29076 2a00:13c0:3:1::1f1c:13fe announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Wnet ***
+import:         from AS15772 action pref=50; accept AS-WNET
+export:         to   AS15772 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        *** Yandex LLC ***
+import:         from AS13238 action pref=50; accept AS-YANDEX
+export:         to   AS13238 announce AS-CITICTEL-CPC-MSK-IX
+remarks:        --------------------------------------------------------------
+remarks:        Customers
+remarks:        --------------------------------------------------------------
+remarks:        *** ASO ***
+import:         from AS8240  212.47.215.193     action pref=40; accept as-8240-set
+export:         to   AS8240  212.47.215.193     announce ANY
+remarks:        *** INFONET.EE ***
+import:         from AS8728  212.47.215.29      action pref=40; accept AS8728
+export:         to   AS8728  212.47.215.29      announce {0.0.0.0/0}
+import:         from AS8728  212.47.215.141     action pref=40; accept AS8728
+export:         to   AS8728  212.47.215.141     announce {0.0.0.0/0}
+import:         from AS8728  212.47.215.143     action pref=40; accept AS8728
+export:         to   AS8728  212.47.215.143     announce {0.0.0.0/0}
+mp-import:      afi ipv6.unicast
+                from AS8728  2001:ad0:1ff::1    action pref=40; accept AS8728
+mp-export:      afi ipv6.unicast
+                to   AS8728  2001:ad0:1ff::1    announce ANY
+remarks:        *** WideXS ***
+import:         from AS12976 217.28.244.78      action pref=40; accept AS-CWSVYAZ
+export:         to   AS12976 217.28.244.78      announce ANY
+remarks:        *** PENKI ***
+import:         from AS21211 217.28.248.45 action pref=40; accept AS-PENKI
+export:         to AS21211   announce ANY
+import:         from AS21211 217.28.248.81 action pref=40; accept AS-PENKI
+export:         to AS21211   announce ANY
+import:         from AS12539 217.28.248.82 action pref=40; accept AS-5CI-MACRO
+export:         to AS12539   announce ANY
+remarks:        *** IF Insurance ***
+import:         from AS21147 195.222.21.26 action pref=40; accept AS21147
+export:         to   AS21147 195.222.21.26 announce ANY
+remarks:        *** SIA "OPTRON" ***
+import:         from AS28886 217.28.249.9       action pref=40; accept AS-OPTRONET
+export:         to   AS28886 217.28.249.9       announce ANY
+mp-import:      afi ipv6.unicast
+                from AS28886 2001:ad0:6000:0f01::2 action pref=40; accept AS28886
+mp-export:      afi ipv6.unicast
+                to   AS28886 2001:ad0:6000:0f01::2 announce ANY
+remarks:        *** Wavecom ***
+import:         from AS34702 195.222.7.174 action pref=40; accept AS34702
+export:         to   AS34702 195.222.7.174 announce ANY
+import:         from AS34702 195.222.7.170 action pref=40; accept AS34702
+export:         to   AS34702 195.222.7.170      announce ANY
+mp-import:      afi ipv6.unicast
+                from AS34702 2001:AD0:C12:2::1  action pref=40; accept AS34702
+mp-export:      afi ipv6.unicast
+                to   AS34702 2001:AD0:C12:2::1 announce ANY
+mp-import:      afi ipv6.unicast
+                from AS34702 2001:AD0:C10:4::1  action pref=40; accept AS34702
+mp-export:      afi ipv6.unicast
+                to   AS34702 2001:AD0:C10:4::1 announce ANY
+remarks:        *** Silberauto ***
+import:         from AS34729 212.47.215.134 at 212.47.215.133 action pref=40; accept AS34729
+export:         to   AS34729 212.47.215.134 at 212.47.215.133 announce ANY
+remarks:        *** Kernel ***
+import:         from AS39038 212.47.215.249     action pref=40; accept AS39038
+export:         to   AS39038 212.47.215.249     announce {0.0.0.0/0}
+remarks:        *** Viatel ***
+import:         from AS39211 195.222.12.62     action pref=40; accept AS-PROGROUP
+export:         to   AS39211 195.222.12.62     announce ANY
+mp-import:      afi ipv6.unicast
+                from AS39211 2001:ad0:ff:26::2 action pref=40; accept AS-PROGROUP
+mp-export:      afi ipv6.unicast
+                to   AS39211 2001:ad0:ff:26::2 announce ANY
+remarks:        *** Compic Ltd. ***
+import:         from AS39823 212.47.215.7       action pref=50; accept AS-COMPIC
+export:         to   AS39823 212.47.215.7       announce ANY
+remarks:        ***  Joint Stock Company Top Connect ***
+import:         from AS42300 212.47.216.30     action pref=40; accept AS-TOPCONNECT
+export:         to   AS42300 212.47.216.30     announce ANY
+import:         from AS42300 212.47.216.34     action pref=40; accept AS-TOPCONNECT
+export:         to   AS42300 212.47.216.34     announce ANY
+remarks:        *** AS SEB Eesti Yhispank ***
+import:         from AS43682 212.47.216.10     action pref=40; accept AS43682
+export:         to   AS43682 212.47.216.10     announce ANY
+import:         from AS43682 212.47.216.14     action pref=40; accept AS43682
+export:         to   AS43682 212.47.216.14     announce ANY
+remarks:        *** Telegrupp AS ***
+import:         from AS44839 212.47.215.238     action pref=40; accept AS44839
+export:         to   AS44839 212.47.215.238     announce ANY
+remarks:        *** Teqli Telecom ***
+import:         from AS47371 217.28.243.30      action pref=40; accept AS47371
+export:         to   AS47371 217.28.243.30      announce ANY
+remarks:        *** Zone Media OU ***
+import:         from AS49604 212.47.215.26      action pref=40; accept AS-ZONE
+export:         to   AS49604 212.47.215.26      announce ANY
+remarks:        *** AS Levira ***
+import:         from AS50794 195.222.14.197     action pref=40; accept AS50794
+export:         to   AS50794 195.222.14.197     announce ANY
+remarks:        *** Estonian Defence Forces ***
+import:         from AS57201 195.222.10.166     action pref=40; accept AS57201
+export:         to   AS57201 195.222.10.166     announce ANY
+mp-import:      afi ipv6.unicast
+                from AS57201 2001:ad0:ff:38::2 action pref=40; accept AS57201
+mp-export:      afi ipv6.unicast
+                to AS57201 2001:ad0:ff:38::2 announce ANY
+remarks:        *** OKPROCESSING-AS ***
+import:         from AS57157 217.28.246.225 action pref=40; accept AS57157
+export:         to AS57157 217.28.246.225 announce ANY
+remarks:        *** ERGO Kindlustuse AS ***
+import:         from AS196785 212.47.215.1      action pref=40; accept AS196785
+export:         to   AS196785 212.47.215.1      announce ANY
+remarks:        *** Konekeskuste OY ***
+import:         from AS197060 212.47.216.21      action pref=40; accept AS197060
+export:         to   AS197060 212.47.216.21      announce ANY
+remarks:        *** Helmes AS ***
+import:         from AS197289 212.47.215.5      action pref=40; accept AS197289
+export:         to   AS197289 212.47.215.5      announce ANY
+remarks:        *** Salva Kindlustuse AS ***
+import:         from AS197517 195.222.7.2 action pref=40; accept AS197517
+export:         to   AS197517 195.222.7.2 announce ANY
+remarks:        *** Ekspress Digital ***
+import:         from AS199328 195.222.19.117 action pref=40; accept AS199328
+export:         to   AS199328 195.222.19.117 announce ANY
+import:         from AS199328 195.222.19.119 action pref=40; accept AS199328
+export:         to   AS199328 195.222.19.119 announce ANY
+import:         from AS199328 195.222.19.33 action pref=40; accept AS199328
+export:         to   AS199328 195.222.19.33 announce ANY
+import:         from AS199328 195.222.19.35 action pref=40; accept AS199328
+export:         to   AS199328 195.222.19.35 announce ANY
+remarks:        *** Elkdata OY ***
+import:         from AS61189 212.47.215.206 action pref=40; accept AS61189
+export:         to AS61189 212.47.215.206 announce ANY
+remarks:        *** NSS hosting ***
+import:         from AS200804 195.222.6.199 action pref=40; accept AS200804
+export:         to  AS200804 195.222.6.199 announce ANY
+import:         from AS200804   195.222.6.197   action pref=40; accept AS200804
+export:         to      AS200804 195.222.6.197  announce ANY
+remarks:        *** Sonictest Ltd. **
+import:         from AS57873 195.222.24.194 action pref=40; accept AS57873
+export:         to AS57873 195.222.24.194 announce ANY
+remarks:        *** Laboratory Kaspersky ***
+mp-import:      afi ipv6.unicast
+                from AS41983 2001:ad0:c22:1::2 action pref=40; accept AS41983
+mp-export:      afi ipv6.unicast
+                to   AS41983 2001:ad0:c22:1::2 announce ANY
+import:         from AS200107 217.28.244.102 action pref=40; accept AS200107
+export:         to   AS200107 217.28.244.102 announce ANY
+remarks:        *** Lovo ***
+import:         from AS48487 217.28.252.56 action pref=40; accept AS48487
+export:         to   AS48487 217.28.252.56 announce ANY
+remarks:        *** Cloud.ee ***
+import:         from AS61952 195.222.17.26      action pref=40; accept AS61952
+export:         to   AS61952 195.222.17.26      announce ANY
+mp-import:      afi ipv6.unicast
+                from AS61952 2001:ad0:c12:4::2 action pref=40; accept AS61952
+mp-export:      afi ipv6.unicast
+                to   AS61952 2001:ad0:c12:4::2 announce ANY
+remarks:        *** Atea ***
+import:         from AS198379 212.47.216.18     action pref=40; accept AS198379
+export:         to   AS198379 212.47.216.18     announce ANY
+remarks:        *** Liberty Insurance ***
+import:         from AS200823                   action pref=40; accept AS200823
+export:         to   AS200823                   announce ANY
+remarks:        *** KassirRU ***
+import:         from AS21314                    action pref=40; accept AS21314
+export:         to   AS21314                    announce ANY
+remarks:        *** MobiMoney ***
+import:         from AS51376                    action pref=40; accept AS51376
+export:         to   AS51376                    announce ANY
+remarks:        *** BFA Bank ***
+import:         from AS198609                   action pref=40; accept AS198609
+export:         to   AS198609                   announce ANY
+remarks:        *** SIAB Bank ***
+import:         from AS51981                    action pref=40; accept AS51981
+export:         to   AS51981                    announce ANY
+remarks:        *** Ulmart ***
+import:         from AS59880                    action pref=40; accept AS59880
+export:         to   AS59880                    announce ANY
+remarks:        *** Korus Consulting ***
+import:         from AS62065                    action pref=40; accept AS62065
+export:         to   AS62065                    announce ANY
+remarks:        *** Eurolot ***
+import:         from AS44518 212.27.226.62 action pref=40; accept AS44518
+export:         to   AS44518 212.27.226.62 announce ANY
+remarks:        *** EVIO-POLSKA ***
+import:         from AS57665   action pref=40; accept AS57665
+export:         to AS57665   announce ANY
+remarks:        *** Loginet ***
+import:         from AS60415    action pref=40; accept AS60415
+export:         to   AS60415    announce ANY
+remarks:        *** Alegna Trading ***
+import:         from AS58315   action pref=40; accept AS58315
+export:         to   AS58315   announce ANY
+import:         from AS203076   action pref=40; accept AS203076
+export:         to   AS203076   announce ANY
+remarks:        *** VeriSign ***
+import:         from AS26415 212.47.215.154 action pref=40; accept AS26415
+export:         to   AS26415 212.47.215.154 announce ANY
+import:         from AS26415 212.47.215.158     action pref=40; accept AS26415
+export:         to   AS26415 212.47.215.158     announce ANY
+remarks:        *** Termnet ***
+import:         from AS198632 195.222.10.242 action pref=40; accept AS198632
+export:         to   AS198632 195.222.10.242 announce ANY
+mp-import:      afi ipv6.unicast
+                from AS198632 2001:ad0:c10:6::2 action pref=40; accept AS198632
+mp-export:      afi ipv6.unicast
+                to   AS198632 2001:ad0:c10:6::2 announce ANY
+remarks:        *** White-Wizard ***
+import:         from AS207254 195.222.14.199 action pref=40; accept AS207254
+export:         to   AS207254 195.222.14.199 announce ANY
+remarks:        *** virtuaal.com ***
+import:         from AS205930 212.47.215.233    action pref=40; accept AS205930
+export:         to   AS205930 212.47.215.233    announce ANY
+remarks:        *** RUCARD ***
+import:         from AS202071 217.28.246.197    action pref=40; accept AS202071
+export:         to   AS202071 217.28.246.197    announce ANY
+remarks:        *** ETM Electromateriali ***
+import:         from AS202537 217.28.247.49 action pref=40; accept AS202537
+export:         to   AS202071 217.28.247.49 announce ANY
+remarks:        *** Itelma ***
+import:         from AS50523 217.28.246.238 action pref=40; accept AS50523
+export:         to   AS50523 217.28.246.238     announce ANY
+remarks:        *** CITIC CPC  Tutor ***
+import:         from AS4058 217.28.250.52      action pref=40; accept AS4058
+export:         to   AS4058 217.28.250.52      announce ANY
+mp-import:      afi ipv6.unicast
+                from AS4058 2001:ad0:c30:1::1  action pref=40; accept AS4058
+mp-export:      afi ipv6.unicast
+                to   AS4058 2001:ad0:c30:1::1 announce ANY
+remarks:        *** CITIC CPC ***
+import:         from AS4058 217.28.250.54      action pref=40; accept AS4058
+export:         to   AS4058 217.28.250.54      announce ANY
+mp-import:      afi ipv6.unicast
+                from AS4058 2001:ad0:c30:2::1  action pref=40; accept AS4058
+mp-export:      afi ipv6.unicast
+                to   AS4058 2001:ad0:c30:2::1 announce ANY
+remarks:        --------------------------------------------------------------
+remarks:        Upstreams
+remarks:        --------------------------------------------------------------
+remarks:        *** Liberty Global, London ***
+import:         from AS6830 213.46.175.33 action pref=80; accept ANY AND NOT fltr-bogons
+export:         to AS6830 213.46.175.33 announce AS-CITICTEL-CPC
+mp-import:      afi ipv6.unicast from AS6830 2001:730:2902:15::d52e:af21 action pref=80; accept ANY
+mp-export:      afi ipv6.unicast to AS6830 2001:730:2902:15::d52e:af21 announce AS-CITICTEL-CPC
+remarks:        *** MTS, Moscow ***
+import:         from AS8359 212.188.16.225 action pref=80; accept ANY AND NOT fltr-bogons
+export:         to   AS8359 212.188.16.225 announce AS-CITICTEL-CPC-RU
+mp-import:      afi ipv6.unicast
+                from AS8359 2a02:28:1:2::5f:11 action pref=80; accept ANY AND NOT fltr-bogons
+mp-export:      afi ipv6.unicast
+                to   AS8359 2a02:28:1:2::5f:11 announce AS-CITICTEL-CPC-RU
+remarks:        *** TTK, Moscow ***
+export:         to AS20485 217.150.58.34        announce AS-CITICTEL-CPC-RU
+import:         from AS20485 217.150.58.34      action pref=80; accept ANY AND NOT fltr-bogons
+remarks:        *** Netia ***
+import:         from AS12741 81.219.213.84 action pref=80; accept ANY AND NOT fltr-bogons
+export:         to   AS12741 81.219.213.84 announce AS-LINXTELECOM-PL
+mp-import:      afi ipv6.unicast
+                from AS12741 2001:41B0:1FF:20C::1 action pref=80; accept ANY AND NOT fltr-bogons
+mp-export:      afi ipv6.unicast
+                to   AS12741 2001:41B0:1FF:20C::1 announce AS-LINXTELECOM-PL
+remarks:        +-------------------------------------------------------------
+remarks:        | LOCALPREF COMMUNITIES - IPT CUSTOMER SETTABLE
+remarks:        |
+remarks:        | 3327:170      Set localpref to 170 (highest possible)
+remarks:        | 3327:160      Set localpref to 160 (default IPT customer)
+remarks:        | 3327:150      Set localpref to 150 (preferred private peering)
+remarks:        | 3327:140      Set localpref to 140 (public peering)
+remarks:        | 3327:130      Set localpref to 130 (backup private peering)
+remarks:        | 3327:120      Set localpref to 120 (primary uplink)
+remarks:        | 3327:110      Set localpref to 110 (backup uplink)
+remarks:        | 3327:90       Set localpref to 90  (lowest possible)
+remarks:        | 3327:104      localpref -= 5
+remarks:        | 3327:106      localpref += 5
+remarks:        |
+remarks:        +-------------------------------------------------------------
+remarks:        | TRAFFIC ENGINEERING COMMUNITIES - IPT CUSTOMER SETTABLE
+remarks:        |
+remarks:        | Action:
+remarks:        | y=0           Announce as is
+remarks:        | y=1           Prepend AS-path with "3327"
+remarks:        | y=2           Prepend AS-path with "3327 3327"
+remarks:        | y=3           Prepend AS-path with "3327 3327 3327"
+remarks:        | y=5           Prepend AS-path with "3327 3327 3327 3327 3327"
+remarks:        | y=7           Reset Multi-Exit Discriminator (MED) to 0
+remarks:        | y=9           Do no export
+remarks:        |
+remarks:        | 3327:5110y    $y to NTT / NTT-COMMUNICATIONS / NTT (AS 2914)
+remarks:        | 3327:5130y    $y to MTS (AS8359)
+remarks:        | 3327:5140y    $y to Netia (AS12741)
+remarks:        | 3327:5150y    $y to TTK (AS20485)
+remarks:        | 3327:5170y    $y to DataGroup (AS21219)
+remarks:        | 3327:5180y    $y to Liberty Global (AS6830)
+remarks:        | 3327:5199y    $y to all upstreams
+remarks:        | 3327:5211y    $y to Tallinn Internet Exchange (TIX-LAN)
+remarks:        | 3327:5212y    $y to Tallinn Internet Exchange (TLLIX)
+remarks:        | 3327:5213y    $y to Tallinn Internet Exchange (RTIX)
+remarks:        | 3327:5221y    $y to Moscow Internet Exchange (MSK-IX)
+remarks:        | 3327:5222y    $y to Saint-Petersburg Internet Exchange (SPB-IX)
+remarks:        | 3327:5231y    $y to Latvian Internet eXchange (LIX)
+remarks:        | 3327:5232y    $y to Latvian Internet eXchange (SMILE)
+remarks:        | 3327:5241y    $y to Frankfurt Internet Exchange (DE-CIX)
+remarks:        | 3327:5251y    $y to Amsterdam Intenet Exchange (AMS-IX)
+remarks:        | 3327:5261y    $y to Polish Internet eXchange (PL-IX)
+remarks:        | 3327:5271y    $y to Netnod Internet Exchange
+remarks:        | 3327:5281y    $y to Lithuania Internet Exchange (LIPTAM)
+remarks:        | 3327:5299y    $y to all peers
+remarks:        |
+remarks:        | 3327:666      Blackhole/nullroute (/32 or /128 only)
+remarks:        |               Also sent to upstreams
+remarks:        |
+remarks:        | NOTE: All communities checked in the same order they are
+remarks:        |       listed here. Any number of them can be used together
+remarks:        |
+remarks:        | NOTE: Default actions for IPT customers are:
+remarks:        |       set localpref 160
+remarks:        |       announce as is to all primary uplinks and customers
+remarks:        |       announce as is or not at all to different peers
+remarks:        |       prefixes longer than /24 or /48 are not permitted
+remarks:        +-------------------------------------------------------------
+remarks:        |
+remarks:        | ROUTE ORIGIN COMMUNITIES - NOT SETTABLE BY CUSTOMERS
+remarks:        |
+remarks:        | 3327:30CCC    CCC is ISO 3166 Country Code
+remarks:        | 3327:3000     Upstream
+remarks:        | 3327:3001     Public (IX) peer
+remarks:        | 3327:3002     Public (IX) routeserver
+remarks:        | 3327:3003     Private peer
+remarks:        | 3327:3004     IPT (downstream) customer
+remarks:        | 3327:3327     AS3327 originated prefix
+remarks:        |
+remarks:        +-------------------------------------------------------------
+remarks:        | PeeringDB record: http://as3327.peeringdb.com/
+remarks:        |
+remarks:        | For more information please use the email address
+remarks:        |                 noc@linxtelecom.com
+remarks:        +-------------------------------------------------------------
+admin-c:        LNO5-RIPE
+tech-c:         LNO5-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS3327-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2019-01-15T13:45:35Z
+source:         RIPE # Filtered
+
+organisation:   ORG-LTB1-RIPE
+org-name:       CITIC Telecom CPC Netherlands B.V.
+org-type:       LIR
+address:        Karspeldreef 8(7th floor)
+address:        1101 CJ
+address:        Amsterdam
+address:        NETHERLANDS
+phone:          +3726223390
+phone:          +31205672000
+phone:          +3726223399
+fax-no:         +31205672020
+fax-no:         +3726542942
+admin-c:        DEUS1
+admin-c:        MAR1
+abuse-c:        LNO5-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS3327-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS3327-MNT
+created:        2004-04-17T11:42:11Z
+last-modified:  2017-10-11T13:08:30Z
+source:         RIPE # Filtered
+
+role:           Linxtelecom Network Operations
+address:        Linxtelecom Estonia
+address:        Mustamae tee 46
+address:        10621 Tallinn
+address:        ESTONIA
+phone:          +372 622 3370
+phone:          +372 517 8778
+fax-no:         +372 654 2942
+abuse-mailbox:  abuse@citictel-cpc.com
+admin-c:        DEUS1
+admin-c:        MAR1
+tech-c:         AL2221-RIPE
+tech-c:         JJ3992-RIPE
+tech-c:         MAR1
+tech-c:         AGV77-RIPE
+tech-c:         DVM72-RIPE
+tech-c:         VAHU1
+nic-hdl:        LNO5-RIPE
+mnt-by:         AS3327-MNT
+created:        2006-07-06T07:21:59Z
+last-modified:  2019-01-10T09:32:09Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

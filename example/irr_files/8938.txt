@@ -1,0 +1,190 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8771 - AS9128'
+
+as-block:       AS8771 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8938'
+
+% Abuse contact for 'AS8938' is 'bgp4@gtsenergis.pl'
+
+aut-num:        AS8938
+as-name:        ENERGIS-IP
+org:            ORG-EPSz1-RIPE
+import:         from AS5617 accept ANY
+export:         to AS5617 announce AS-ENERGISPL
+import:         from AS3320 accept ANY
+export:         to AS3320 announce AS-ENERGISPL
+import:         from AS3327 accept ANY
+export:         to AS3327 announce AS-ENERGISPL
+import:         from AS8246 accept ANY
+export:         to AS8246 announce AS-ENERGISPL
+import:         from AS15443 accept AS15443
+export:         to AS15443 announce ANY
+import:         from AS20486 accept AS20486
+export:         to AS20486 announce ANY
+import:         from AS25410 accept AS25410
+export:         to AS25410 announce ANY
+import:         from AS21169 accept AS21169
+export:         to AS21169 announce ANY
+import:         from AS29235 accept AS29235
+export:         to AS29235 announce ANY
+import:         from AS29227 accept AS29227
+export:         to AS29227 announce ANY
+import:         from AS34298 accept AS34298
+export:         to AS34298 announce ANY
+import:         from AS33826 accept AS33826
+export:         to AS33826 announce ANY
+import:         from AS31280 accept AS31280
+export:         to AS31280 announce ANY
+import:         from AS35199 accept AS35199
+export:         to AS35199 announce ANY
+import:         from AS39112 accept AS39112
+export:         to AS39112 announce ANY
+import:         from AS40979 accept AS40979
+export:         to AS40979 announce ANY
+import:         from AS41476 accept AS41476
+export:         to AS41476 announce ANY
+import:         from AS41776 accept AS41776
+export:         to AS41776 announce ANY
+import:         from AS43638 accept AS43638
+export:         to AS43638 announce ANY
+import:         from AS44501 accept AS44501
+export:         to AS44501 announce ANY
+import:         from AS47520 accept AS47520
+export:         to AS47520 announce ANY
+import:         from AS50830 accept AS50830
+export:         to AS50830 announce ANY
+admin-c:        EPOP1-RIPE
+tech-c:         EPOP1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:
+remarks:        Peering requests : bgp4@gtsenergis.pl
+remarks:
+remarks:        Spam and Abuse issues: abuse@gtsenergis.pl
+remarks:
+remarks:        Communities to control traffic:
+remarks:        Community    Definition
+remarks:        --------------------------------------------------------
+remarks:        8938:4000   Do not announce to any upstream provider
+remarks:        8938:4001   Single prepend when announcing to any upstream
+remarks:        8938:4002   Double prepend when announcing to any upstream
+remarks:        8938:4500   Do not announce to TPSA
+remarks:        8938:4501   Single prepend when announcing to TPSA
+remarks:        8938:4502   Double prepend when announcing to TPSA
+remarks:        8938:4800   Do not announce to T-Systems
+remarks:        8938:4801   Single prepend when announcing to T-Systems
+remarks:        8938:4802   Double prepend when announcing to T-Systems
+remarks:        8938:4900   Do not announce to LinxTelecom
+remarks:        8938:4901   Single prepend when announcing to LinxTelecom
+remarks:        8938:4902   Double prepend when announcing to LinxTelecom
+remarks:        all customers tagged with 8938:1
+remarks:        all customers in Poland tagged with 8938:48
+remarks:        all routes from TPSA tagged with 8938:2500
+remarks:        all routes from TeleGlobe tagged with 8938:2100
+remarks:        all routes from T-Systems tagged with 8938:2800
+remarks:        all routes from LinxTelecom tagged with 8938:2900
+remarks:        all routes from a peering partner tagged with 8938:6000
+remarks:        all routes from a peering partner at WIX tagged with
+remarks:        8938:6900
+remarks:
+remarks:        ========================================================
+remarks:        Applied Route Flap Damping Policy conformant to RIPE-229
+remarks:        <<<<>>>>
+remarks:        ========================================================
+remarks:
+mnt-by:         AS8938-MAINT
+mnt-by:         AS8246-MNT
+created:        2002-09-03T08:45:44Z
+last-modified:  2017-11-15T09:17:04Z
+source:         RIPE
+
+organisation:   ORG-EPSz1-RIPE
+org-name:       T-Mobile Polska S.A.
+org-type:       LIR
+address:        Marynarska 12
+address:        02-674
+address:        Warszawa
+address:        POLAND
+phone:          +48 22 488 80 00
+fax-no:         +48 22 488 14 21
+admin-c:        MG2129-RIPE
+admin-c:        AC549-RIPE
+admin-c:        KW1106-RIPE
+admin-c:        MI1397-RIPE
+admin-c:        PU254-RIPE
+admin-c:        KK393-RIPE
+admin-c:        PJ682-RIPE
+admin-c:        AKUL1-RIPE
+admin-c:        TZ382-RIPE
+admin-c:        WW1265-RIPE
+admin-c:        RO895-RIPE
+admin-c:        PCH1-RIPE
+admin-c:        MK172-RIPE
+admin-c:        LG2314-RIPE
+admin-c:        DM4016-RIPE
+admin-c:        MJ2852-RIPE
+admin-c:        JU276-RIPE
+admin-c:        PH1227-RIPE
+admin-c:        JW2118-RIPE
+admin-c:        EPOP1-RIPE
+abuse-c:        AR16394-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8938-MAINT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8938-MAINT
+created:        2004-04-17T11:47:00Z
+last-modified:  2016-08-17T09:39:12Z
+source:         RIPE # Filtered
+
+role:           Energis Polska IP Team
+address:        Energis Polska Sp. z o.o.
+address:        ul. Jana Pawla II 66
+address:        05-500 Piaseczno
+address:        Poland
+phone:          +48 22 4888700
+fax-no:         +48 22 4888799
+admin-c:        PCH1-RIPE
+tech-c:         AKUL1-RIPE
+tech-c:         PH1227-RIPE
+tech-c:         PJ682-RIPE
+tech-c:         MG2129-RIPE
+tech-c:         MK172-RIPE
+tech-c:         AC549-RIPE
+tech-c:         WW1265-RIPE
+tech-c:         KW1106-RIPE
+tech-c:         TT1019-RIPE
+tech-c:         BK1693-RIPE
+tech-c:         MS9743-RIPE
+tech-c:         MK258-RIPE
+tech-c:         LG4803-RIPE
+tech-c:         GZ2578-RIPE
+nic-hdl:        EPOP1-RIPE
+remarks:        >>>>>>>>>>>>>>>>>>>>>>*<<<<<<<<<<<<<<<<<<<<<<<<<<
+remarks:        In case of abuse (intrusion attempts, hacking,
+remarks:        spamming or other unaccepted behavior) from
+remarks:        Energis Polska addresses space, please contact:
+remarks:        abuse@energis.pl
+remarks:        >>>>>>>>>>>>>>>>>>>>>>*<<<<<<<<<<<<<<<<<<<<<<<<<<
+mnt-by:         AS8938-MAINT
+created:        2002-09-02T12:45:28Z
+last-modified:  2012-01-10T08:48:20Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

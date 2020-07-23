@@ -1,0 +1,207 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS49673'
+
+% Abuse contact for 'AS49673' is 'abuse@truenetwork.ru'
+
+aut-num:        AS49673
+as-name:        TRUENETWORK
+descr:          Truenetwork IP Network
+remarks:        RIPE database as-set object: AS-TRUENETWORK
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        ********************  IPv4 Routing Policy *********************
+remarks:        ---------------------------------------------------------------
+remarks:
+import:         from AS112 action pref=700; accept AS112
+export:         to AS112 announce ANY
+import:         from AS2914 action pref=390; accept ANY
+export:         to AS2914 announce AS-TRUENETWORK
+import:         from AS3356 action pref=390; accept ANY
+export:         to AS3356 announce AS-TRUENETWORK
+import:         from AS6939 action pref=390; accept ANY
+export:         to AS6939 announce AS-TRUENETWORK
+import:         from AS8359 action pref=200; accept ANY
+export:         to AS8359 announce AS-TRUENETWORK
+import:         from AS12389 action pref=200; accept ANY
+export:         to AS12389 announce AS-TRUENETWORK
+import:         from AS13094 action pref=390; accept ANY
+export:         to AS13094 announce AS-TRUENETWORK
+import:         from AS15169 action pref=200; accept ANY
+export:         to AS15169 announce AS-TRUENETWORK
+import:         from AS20144 action pref=700; accept AS20144
+export:         to AS20144 announce ANY
+import:         from AS20485 action pref=100; accept ANY
+export:         to AS20485 announce AS-TRUENETWORK
+import:         from AS21127 action pref=200; accept ANY
+export:         to AS21127 announce AS-TRUENETWORK
+import:         from AS24811 action pref=200; accept ANY
+export:         to AS24811 announce AS-TRUENETWORK
+import:         from AS31133 action pref=200; accept ANY
+export:         to AS31133 announce AS-TRUENETWORK
+import:         from AS48472 action pref=700; accept AS48472
+export:         to AS48472 announce ANY
+import:         from AS48858 action pref=200; accept ANY
+export:         to AS48858 announce AS-TRUENETWORK
+import:         from AS50384 action pref=200; accept ANY
+export:         to AS50384 announce AS-TRUENETWORK
+import:         from AS57822 action pref=700; accept AS57822
+export:         to AS57822 announce ANY
+import:         from AS59954 action pref=400; accept ANY
+export:         to AS59954 announce AS-TRUENETWORK
+import:         from AS60763 action pref=390; accept ANY
+export:         to AS60763 announce AS-TRUENETWORK
+import:         from AS199524 action pref=390; accept ANY
+export:         to AS199524 announce AS-TRUENETWORK
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        ********************  IPv6 Routing Policy *********************
+remarks:        ---------------------------------------------------------------
+remarks:
+mp-import:      afi ipv6.unicast from AS112 action pref=700; accept AS112
+mp-export:      afi ipv6.unicast to AS112 announce ANY
+mp-import:      afi ipv6.unicast from AS6939 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-TRUENETWORK-V6
+mp-import:      afi ipv6.unicast from AS13094 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS13094 announce AS-TRUENETWORK-V6
+mp-import:      afi ipv6.unicast from AS20144 action pref=700; accept AS20144
+mp-export:      afi ipv6.unicast to AS20144 announce ANY
+mp-import:      afi ipv6.unicast from AS21127 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS21127 announce AS-TRUENETWORK-V6
+mp-import:      afi ipv6.unicast from AS48858 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS48858 announce AS-TRUENETWORK-V6
+mp-import:      afi ipv6.unicast from AS57822 action pref=700; accept AS57822
+mp-export:      afi ipv6.unicast to AS57822 announce ANY
+mp-import:      afi ipv6.unicast from AS59954 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS59954 announce AS-TRUENETWORK-V6
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        To watch for your announces you can use looking glass at
+remarks:        lg.truenetwork.ru
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        Communities are accepted only to customers
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        6500x:<ASN> - do action 'x' for AS<ASN>
+remarks:        6501x:<z> - do action 'x' for zone<z>
+remarks:
+remarks:        here 'x' may be:
+remarks:        x=0 - advertise with no changes
+remarks:        x=1,2,3,5 - advertise with 1,2,3,5 prepends
+remarks:        x=7 - advertise with no-export community
+remarks:        x=9 - do not advertise
+remarks:
+remarks:        Valid zones:
+remarks:        0 - the whole world
+remarks:        1 - all customers
+remarks:        2 - all upstreams
+remarks:        3 - all peers
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        Local preference control
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        49673:11 - decrease local preference by 100
+remarks:        49673:13 - decrease local preference by 300
+remarks:        49673:14 - decrease local preference by 400
+remarks:        49673:16 - decrease local preference by 600
+remarks:
+remarks:        49673:666 - blackhole
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        Local preference used within AS49673
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        1000 - locally originated aggregate route
+remarks:        900 - locally originated specific route
+remarks:        800 - more preferred customer route
+remarks:        700 - regular customer route
+remarks:        600 - customer backup # 1 route
+remarks:        400 - customer backup # 2 route
+remarks:        400 - peer route
+remarks:        300 - customer fallback
+remarks:        200 - transit route
+remarks:        100 - backup route
+remarks:        1 - bogus route
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        Notes
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Any other 49673:*, 6500x:*, 6501x:*
+remarks:        communities are removed on input.
+remarks:        All other *:* communities are passed intact.
+remarks:        None of own communities are accepted to peers/upstreams
+remarks:        We do accept MED attribute.
+remarks:
+remarks:
+admin-c:        TN2777-RIPE
+tech-c:         TN2777-RIPE
+status:         ASSIGNED
+org:            ORG-CL261-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-TN
+created:        2016-02-04T13:46:38Z
+last-modified:  2018-12-14T16:39:00Z
+source:         RIPE
+
+organisation:   ORG-CL261-RIPE
+org-name:       CTV-Belovo LLC
+org-type:       LIR
+address:        Marksa st, 5 B
+address:        652600
+address:        Belovo city
+address:        RUSSIAN FEDERATION
+phone:          +7 499 3482552
+admin-c:        KES40-RIPE
+abuse-c:        AR32222-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-TN
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-TN
+created:        2014-04-22T08:21:42Z
+last-modified:  2017-12-09T15:50:20Z
+source:         RIPE # Filtered
+
+role:           Network Operation Center
+address:        Russian Federation
+phone:          +7 499 348-25-10
+remarks:        ******************************************
+remarks:        Truenetwork NOC engineers available 24x7
+remarks:        ******************************************
+remarks:        Contact addresses:
+remarks:        Routing & peering: noc(at)truenetwork.ru
+remarks:        Spam & security: abuse(at)truenetwork.ru
+remarks:        mail: postmaster(at)truenetwork.ru
+remarks:        ddos reports: ddos(at)truenetwork.ru
+remarks:        ******************************************
+nic-hdl:        TN2777-RIPE
+mnt-by:         MNT-TN
+created:        2014-06-30T08:26:40Z
+last-modified:  2016-12-19T12:34:06Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@truenetwork.ru
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

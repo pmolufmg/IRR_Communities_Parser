@@ -1,0 +1,271 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS29675 - AS29695'
+
+as-block:       AS29675 - AS29695
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:32Z
+last-modified:  2018-11-22T15:27:32Z
+source:         RIPE
+
+% Information related to 'AS29686'
+
+% Abuse contact for 'AS29686' is 'abuse@probe-networks.de'
+
+aut-num:        AS29686
+org:            ORG-PN3-RIPE
+as-name:        PROBENETWORKS-AS
+remarks:
+remarks:        too many import/exports to list
+remarks:        contact us or use our looking-glass at
+remarks:        http://probe-networks.de/lg
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        NOC contact (24/7 operations):
+remarks:        noc(at)probe-networks.de or call +49 6861 90897-10
+remarks:        Abuse contact: abuse@probe-networks.de
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        We currently have an open peering policy
+remarks:        Please mail peering(at)probe-networks.de
+remarks:        We are happy to peer via IPv4 as well as IPv6.
+remarks:        Currently available naps/peering points:
+remarks:
+remarks:        IX/NAP                 Address/Location
+remarks:        -------------------    ---------------------------------
+remarks:        DE-CIX (Telecity)      Gutleutstrasse 310, FFM, DE
+remarks:        KleyRex (AN & TC)      Kleyerstrasse 90, FFM, DE
+remarks:
+remarks:
+remarks:        More locations (incl. private) available on request.
+remarks:        See also:
+remarks:        http://probe-networks.de/index.php?page=peering
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        We are no longer using a Route flap dampening policy
+remarks:        according to RIPE recommendation:
+remarks:        ftp://ftp.ripe.net/ripe/docs/ripe-378.txt
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        We filter announcements listed in RFC3330.
+remarks:        We filter incoming announcements of routes
+remarks:        originating in AS29686.
+remarks:        We do not accept any route more specific than /24.
+remarks:        We preserve to filter incoming communities, metrics
+remarks:        and alike.
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        Communities tagged on inbound routes:
+remarks:
+remarks:        Community  Definition
+remarks:        ---------  ----------------------------------------
+remarks:
+remarks:        [Customers]
+remarks:        29686:500  Routes received from any customers
+remarks:        29686:501  Routes received from german customers
+remarks:        29686:502  Routes received from french customers
+remarks:        29686:503  Routes received from dutch customers
+remarks:        29686:504  Routes received from english customers
+remarks:        29686:505  Routes received from belgian customers
+remarks:        29686:506  Routes received from US customers
+remarks:
+remarks:        [Transit]
+remarks:        29686:600  Routes received from any transit
+remarks:        29686:601  Routes received from TeliaSonera/AS1299
+remarks:        29686:602  Routes received from OpenTransit/AS5511
+remarks:        29686:603  Routes received from Tiscali/AS3257
+remarks:        29686:604  Routes received from TataComm/AS6453
+remarks:        29686:605  Routes received from NTT/AS2914
+remarks:
+remarks:        [Peers]
+remarks:        29686:700  Routes received from any peering
+remarks:        29686:701  Routes received from european peerings
+remarks:        29686:702  Routes received from US peerings
+remarks:        29686:703  Routes received from asian peerings
+remarks:
+remarks:        [Geographical Tagging]
+remarks:        29686:801  Routes received in frankfurt
+remarks:        29686:802  Routes received in amsterdam
+remarks:        29686:803  Routes received in london
+remarks:        29686:804  Routes received in paris
+remarks:        29686:805  Routes received in ashburn, US
+remarks:        29686:806  Routes received in brussels
+remarks:        29686:807  Routes received in new york
+remarks:        29686:808  Routes received in seattle
+remarks:
+remarks:        [IX Tagging]
+remarks:        29686:900  Routes received at any IX
+remarks:        29686:901  Routes received at DE-CIX
+remarks:        29686:902  Routes received at AMS-IX
+remarks:        29686:903  Routes received at LINX
+remarks:        29686:904  Routes received at XchangePoint Amsterdam
+remarks:        29686:905  Routes received at NL-IX
+remarks:        29686:906  Routes received at Equinix ashburn
+remarks:        29686:907  Routes received at XchangePoint Frankfurt
+remarks:        29686:908  Routes received at PacketExchange
+remarks:        29686:909  Routes received at XchangePoint London
+remarks:        29686:910  Routes received at KleyRex
+remarks:        29686:911  Routes received at BNIX
+remarks:        29686:912  Routes received at FreeBIX
+remarks:        29686:913  Routes received at SIX
+remarks:
+remarks:
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        BGP Community support for transit customers:
+remarks:
+remarks:        Community     Action
+remarks:        -----------   --------------------
+remarks:        29686:9999    Blackhole prefix globally
+remarks:        29686:101x    Announcements to TeliaSonera/1299
+remarks:        29686:102x    Announcements to Tiscali/3257
+remarks:        29686:103x    Announcements to NTT/2914
+remarks:        29686:111x    Announcements to DE-CIX
+remarks:        29686:112x    Announcements to AMSIX
+remarks:        29686:113x    Announcements to NLIX
+remarks:        29686:114x    Announcements to KleyReX
+remarks:        29686:115x    Announcements to BNIX
+remarks:
+remarks:
+remarks:        (incomplete, please mail for current communitys)
+remarks:
+remarks:        Where x is the number of prepends (x=1,2,3) or do NOT
+remarks:        announce (x=0)
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        Public Looking Glass available at:
+remarks:        http://probe-networks.de/lg/
+remarks:        ---------------------------------------------------
+remarks:
+admin-c:        PROB1-RIPE
+tech-c:         JF855-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PROBE-MNT
+created:        2003-11-11T16:59:38Z
+last-modified:  2018-09-04T09:59:26Z
+source:         RIPE
+
+organisation:   ORG-PN3-RIPE
+org-name:       Probe Networks
+org-type:       LIR
+address:        Auf Strtzberg 26
+address:        66663
+address:        Merzig
+address:        GERMANY
+phone:          +4968619381843
+fax-no:         +4968619381846
+admin-c:        PROB1-RIPE
+admin-c:        JF855-RIPE
+abuse-c:        PROB1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        PROBE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PROBE-MNT
+created:        2004-04-17T11:11:29Z
+last-modified:  2016-06-22T10:17:44Z
+source:         RIPE # Filtered
+
+role:           Probe Networks
+address:        Probe Networks
+address:        Auf Struetzberg 26
+address:        66663 Merzig
+address:        Germany
+phone:          +49 180 5959723
+fax-no:         +49 180 5998480
+remarks:        trouble:      In case of trouble please mail trouble@probe-networks.de
+remarks:        trouble:      Abuse contact abuse@probe-networks.de
+remarks:        for more information check http://www.probe-networks.de
+admin-c:        JF855-RIPE
+tech-c:         JF855-RIPE
+nic-hdl:        PROB1-RIPE
+mnt-by:         PROBE-MNT
+created:        2003-07-12T16:15:19Z
+last-modified:  2009-08-12T09:54:51Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@probe-networks.de
+
+person:         Jonas Frey
+address:        Probe Networks
+                Auf Struetzberg 26
+                D-66663 Merzig
+                Germany
+phone:          +49 180 5959723
+fax-no:         +49 180 5998480
+nic-hdl:        JF855-RIPE
+remarks:        Handle is superceded by PROB1-RIPE
+mnt-by:         PROBE-MNT
+created:        2002-10-26T19:25:20Z
+last-modified:  2009-08-12T09:49:18Z
+source:         RIPE # Filtered
+
+% Information related to 'AS28672 - AS29695'
+
+as-block:       AS28672 - AS29695
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are further assigned to network
+                operators in the RIPE NCC service region. AS
+                assignment policy is documented in:
+                <http://www.ripe.net/ripe/docs/asn-assignment.html>
+                RIPE NCC members can request AS Numbers using the
+                form located at:
+                <http://lirportal.ripe.net/lirportal/liruser/resource_request/draw.html?name=as-number>
+remarks:        data has been transferred from RIPE Whois Database 20050221
+org:            ORG-AFNC1-AFRINIC
+mnt-by:         AFRINIC-HM-MNT
+mnt-lower:      AFRINIC-HM-MNT
+source:         AFRINIC-GRS
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the AFRINIC Database at:
+remarks:        * http://www.afrinic.net/
+remarks:        ****************************
+
+organisation:   ORG-AFNC1-AFRINIC
+org-name:       African Network Information Center - ( AfriNIC Ltd. )
+org-type:       RIR
+remarks:        =======================================
+remarks:        For more information on AFRINIC assigned blocks,
+remarks:        querry whois.afrinic.net port 43, or the web based
+remarks:        query at http://whois.afrinic.net or www.afrinic.net
+remarks:        website: www.afrinic.net
+remarks:        Other Contacts:
+remarks:        ===============
+remarks:        hostmaster@afrinic.net  - for IP resources
+remarks:        new-member@afrinic.net  - for new members and other
+remarks:        inquiries.
+address:        ***
+address:        ***
+address:        Ebne
+phone:          tel:+230.........
+fax-no:         tel:+230.........
+e-mail:         ***@afrinic.net
+admin-c:        CA15-AFRINIC
+tech-c:         IT7-AFRINIC
+mnt-ref:        AFRINIC-HM-MNT
+mnt-ref:        AFRINIC-IT-MNT
+mnt-ref:        AFRINIC-DB-MNT
+notify:         ***@afrinic.net
+mnt-by:         AFRINIC-HM-MNT
+source:         AFRINIC-GRS
+
+% This query was served by the RIPE Database Query Service version 1.93.2 (ANGUS)
+
+

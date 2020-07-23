@@ -1,0 +1,65 @@
+aut-num:    AS20853
+as-name:    ETOP-1
+descr:      ETOP SP. Z O.O.
+admin-c:    Michal Denis
+tech-c:     Michal Denis
+mnt-by:     MAINT-AS20853
+changed:    denis@etop.pl 20140723  #07:08:27Z
+source:     RADB
+
+aut-num:        AS20853
+as-name:        ETOP-AS
+org:            ORG-eszo2-RIPE
+remarks:        ----------------------------------------------------------
+import:         from AS174 action pref=70; accept ANY
+import:         from AS2914 action pref=70; accept ANY
+import:         from AS3257 action pref=70; accept ANY
+import:         from AS5617 action pref=80; accept ANY
+import:         from AS6453 action pref=70; accept ANY
+import:         from AS6695 action pref=90; accept ANY
+import:         from AS8545 action pref=90; accept ANY
+import:         from AS24748 action pref=90; accept ANY
+import:         from AS29535 action pref=90; accept ANY
+import:         from AS48850 action pref=90; accept ANY
+import:         from AS50607 action pref=90; accept ANY
+export:         to AS174 announce AS-ETOP
+export:         to AS2914 announce AS-ETOP
+export:         to AS3257 announce AS-ETOP
+export:         to AS5617 announce AS-ETOP
+export:         to AS6453 announce AS-ETOP
+export:         to AS6695 announce AS-ETOP
+export:         to AS8545 announce AS-ETOP
+export:         to AS24748 announce AS-ETOP
+export:         to AS29535 announce AS-ETOP
+export:         to AS48850 announce AS-ETOP
+export:         to AS50607 announce AS-ETOP
+remarks:        -----------------------------------------------------------
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        -----------------------------------------------------------------------------------
+remarks:        Community Definitions
+remarks:        -----------------------------------------------------------------------------------
+remarks:        Supported Community for AS20853 Customers
+remarks:        -----------------------------------------------------------------------------------
+remarks:        20853:1010 do not announce to COGENT (AS174)
+remarks:        20853:101[1,2,3] prepend 1,2,3 times when announcing to COGENT
+remarks:        20853:1020 do not announce to TINET (AS3257)
+remarks:        20853:102[1,2,3] prepend 1,2,3 times when announcing to TINET
+remarks:
+remarks:        20853:1030 do not announce to TPNET (AS5617)
+remarks:        20853:103[1,2,3] prepend 1,2,3 times when announcing to TPNET
+remarks:        ----------------------------------------------------------------------------------
+notify:         konrad.olszewski@etop.pl
+mnt-by:         ETOP-MNT
+created:        2013-01-30T12:20:08Z
+last-modified:  2017-11-15T12:27:21Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,305 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS20717
+as-name:       DECIX-MRS-AS
+descr:         DE-CIX Management GmbH
+descr:         DE-CIX Marseille
+descr:         FR
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS112    185.1.47.77                    at                   185.1.47.252 accept   AS112
+import:        from AS112    185.1.47.77                    at                   185.1.47.253 accept   AS112
+import:        from AS3225   185.1.47.37                    at                   185.1.47.252 accept   AS-UCC
+import:        from AS3225   185.1.47.37                    at                   185.1.47.253 accept   AS-UCC
+import:        from AS3303   185.1.47.36                    at                   185.1.47.252 accept   AS-SWCMGLOBAL
+import:        from AS3303   185.1.47.36                    at                   185.1.47.253 accept   AS-SWCMGLOBAL
+import:        from AS4788   185.1.47.49                    at                   185.1.47.252 accept   AS-4788
+import:        from AS4788   185.1.47.49                    at                   185.1.47.253 accept   AS-4788
+import:        from AS5511   185.1.47.57                    at                   185.1.47.252 accept   AS-OPENTRANSIT
+import:        from AS5511   185.1.47.57                    at                   185.1.47.253 accept   AS-OPENTRANSIT
+import:        from AS51531  185.1.47.110                   at                   185.1.47.252 accept   AS-DECIX-SERVICES
+import:        from AS51531  185.1.47.110                   at                   185.1.47.253 accept   AS-DECIX-SERVICES
+import:        from AS51531  185.1.47.116                   at                   185.1.47.252 accept   AS-DECIX-SERVICES
+import:        from AS51531  185.1.47.116                   at                   185.1.47.253 accept   AS-DECIX-SERVICES
+import:        from AS6774   185.1.47.29                    at                   185.1.47.252 accept   AS6774:AS-BICS-TRANSIT
+import:        from AS6774   185.1.47.29                    at                   185.1.47.253 accept   AS6774:AS-BICS-TRANSIT
+import:        from AS6939   185.1.47.2                     at                   185.1.47.252 accept   AS-HURRICANE
+import:        from AS6939   185.1.47.2                     at                   185.1.47.253 accept   AS-HURRICANE
+import:        from AS7363   185.1.47.50                    at                   185.1.47.252 accept   AS-YOMURA
+import:        from AS7363   185.1.47.50                    at                   185.1.47.253 accept   AS-YOMURA
+import:        from AS7713   185.1.47.27                    at                   185.1.47.252 accept   AS7713:AS-TELKOM-TRANSIT
+import:        from AS7713   185.1.47.27                    at                   185.1.47.253 accept   AS7713:AS-TELKOM-TRANSIT
+import:        from AS8075   185.1.47.13                    at                   185.1.47.252 accept   AS-MICROSOFT
+import:        from AS8075   185.1.47.13                    at                   185.1.47.253 accept   AS-MICROSOFT
+import:        from AS8309   185.1.47.12                    at                   185.1.47.252 accept   AS-SPH
+import:        from AS8309   185.1.47.12                    at                   185.1.47.253 accept   AS-SPH
+import:        from AS8966   185.1.47.61                    at                   185.1.47.252 accept   AS-EMIX
+import:        from AS8966   185.1.47.61                    at                   185.1.47.253 accept   AS-EMIX
+import:        from AS9002   185.1.47.59                    at                   185.1.47.252 accept   AS-RETN
+import:        from AS9002   185.1.47.59                    at                   185.1.47.253 accept   AS-RETN
+import:        from AS9119   185.1.47.68                    at                   185.1.47.252 accept   AS-SOFTNET
+import:        from AS9119   185.1.47.68                    at                   185.1.47.253 accept   AS-SOFTNET
+import:        from AS9498   185.1.47.7                     at                   185.1.47.252 accept   AS9498:AS-BHARTI-IN
+import:        from AS9498   185.1.47.7                     at                   185.1.47.253 accept   AS9498:AS-BHARTI-IN
+import:        from AS10282  185.1.47.60                    at                   185.1.47.252 accept   AS-OBS-CEEUR
+import:        from AS10282  185.1.47.60                    at                   185.1.47.253 accept   AS-OBS-CEEUR
+import:        from AS10310  185.1.47.54                    at                   185.1.47.252 accept   AS-YAHOO
+import:        from AS10310  185.1.47.54                    at                   185.1.47.253 accept   AS-YAHOO
+import:        from AS10310  185.1.47.55                    at                   185.1.47.252 accept   AS-YAHOO
+import:        from AS10310  185.1.47.55                    at                   185.1.47.253 accept   AS-YAHOO
+import:        from AS12850  185.1.47.30                    at                   185.1.47.252 accept   AS-ENTER
+import:        from AS12850  185.1.47.30                    at                   185.1.47.253 accept   AS-ENTER
+import:        from AS12883  185.1.47.67                    at                   185.1.47.252 accept   AS-UCOMLINE
+import:        from AS12883  185.1.47.67                    at                   185.1.47.253 accept   AS-UCOMLINE
+import:        from AS12956  185.1.47.40                    at                   185.1.47.252 accept   AS-TDATANET
+import:        from AS12956  185.1.47.40                    at                   185.1.47.253 accept   AS-TDATANET
+import:        from AS13335  185.1.47.4                     at                   185.1.47.252 accept   AS-CLOUDFLARE
+import:        from AS13335  185.1.47.4                     at                   185.1.47.253 accept   AS-CLOUDFLARE
+import:        from AS14413  185.1.47.41                    at                   185.1.47.252 accept   AS-LINKEDIN
+import:        from AS14413  185.1.47.41                    at                   185.1.47.253 accept   AS-LINKEDIN
+import:        from AS15133  185.1.47.56                    at                   185.1.47.252 accept   AS-EDGECAST
+import:        from AS15133  185.1.47.56                    at                   185.1.47.253 accept   AS-EDGECAST
+import:        from AS15169  185.1.47.3                     at                   185.1.47.252 accept   AS-GOOGLE
+import:        from AS15169  185.1.47.3                     at                   185.1.47.253 accept   AS-GOOGLE
+import:        from AS16347  185.1.47.11                    at                   185.1.47.252 accept   AS-RMI
+import:        from AS16347  185.1.47.11                    at                   185.1.47.253 accept   AS-RMI
+import:        from AS16509  185.1.47.48                    at                   185.1.47.252 accept   AS-AMAZON
+import:        from AS16509  185.1.47.48                    at                   185.1.47.253 accept   AS-AMAZON
+import:        from AS20717  185.1.47.249                   at                   185.1.47.252 accept   AS-NADA
+import:        from AS20717  185.1.47.249                   at                   185.1.47.253 accept   AS-NADA
+import:        from AS21320  185.1.47.34                    at                   185.1.47.252 accept   AS-GEANT-EUPEER
+import:        from AS21320  185.1.47.34                    at                   185.1.47.253 accept   AS-GEANT-EUPEER
+import:        from AS22822  185.1.47.28                    at                   185.1.47.252 accept   AS-LLNW
+import:        from AS22822  185.1.47.28                    at                   185.1.47.253 accept   AS-LLNW
+import:        from AS30844  185.1.47.38                    at                   185.1.47.252 accept   AS-LIQUID
+import:        from AS30844  185.1.47.38                    at                   185.1.47.253 accept   AS-LIQUID
+import:        from AS30990  185.1.47.25                    at                   185.1.47.252 accept   AS-ADJIB
+import:        from AS30990  185.1.47.25                    at                   185.1.47.253 accept   AS-ADJIB
+import:        from AS32934  185.1.47.9                     at                   185.1.47.252 accept   AS-FACEBOOK
+import:        from AS32934  185.1.47.9                     at                   185.1.47.253 accept   AS-FACEBOOK
+import:        from AS32934  185.1.47.26                    at                   185.1.47.252 accept   AS-FACEBOOK
+import:        from AS32934  185.1.47.26                    at                   185.1.47.253 accept   AS-FACEBOOK
+import:        from AS35432  185.1.47.14                    at                   185.1.47.252 accept   AS-WAVESPEED
+import:        from AS35432  185.1.47.14                    at                   185.1.47.253 accept   AS-WAVESPEED
+import:        from AS35838  185.1.47.47                    at                   185.1.47.252 accept   AS-CCANET
+import:        from AS35838  185.1.47.47                    at                   185.1.47.253 accept   AS-CCANET
+import:        from AS37100  185.1.47.6                     at                   185.1.47.252 accept   AS-SET-SEACOM
+import:        from AS37100  185.1.47.6                     at                   185.1.47.253 accept   AS-SET-SEACOM
+import:        from AS37662  185.1.47.19                    at                   185.1.47.252 accept   AS-WIOCC
+import:        from AS37662  185.1.47.19                    at                   185.1.47.253 accept   AS-WIOCC
+import:        from AS38001  185.1.47.62                    at                   185.1.47.252 accept   AS-NEWMEDIAEXPRESS
+import:        from AS38001  185.1.47.62                    at                   185.1.47.253 accept   AS-NEWMEDIAEXPRESS
+import:        from AS39180  185.1.47.33                    at                   185.1.47.252 accept   AS-LASOTEL
+import:        from AS39180  185.1.47.33                    at                   185.1.47.253 accept   AS-LASOTEL
+import:        from AS39405  185.1.47.18                    at                   185.1.47.252 accept   AS-FULLSAVE
+import:        from AS39405  185.1.47.18                    at                   185.1.47.253 accept   AS-FULLSAVE
+import:        from AS41095  185.1.47.35                    at                   185.1.47.252 accept   AS-IPTP
+import:        from AS41095  185.1.47.35                    at                   185.1.47.253 accept   AS-IPTP
+import:        from AS199330 185.1.47.69                    at                   185.1.47.252 accept   AS-CNIC
+import:        from AS199330 185.1.47.69                    at                   185.1.47.253 accept   AS-CNIC
+import:        from AS42411  185.1.47.43                    at                   185.1.47.252 accept   AS-TSC-MRS-IX
+import:        from AS42411  185.1.47.43                    at                   185.1.47.253 accept   AS-TSC-MRS-IX
+import:        from AS42456  185.1.47.63                    at                   185.1.47.252 accept   AS-CHMURTZ
+import:        from AS42456  185.1.47.63                    at                   185.1.47.253 accept   AS-CHMURTZ
+import:        from AS42473  185.1.47.10                    at                   185.1.47.252 accept   AS-ANEXIA
+import:        from AS42473  185.1.47.10                    at                   185.1.47.253 accept   AS-ANEXIA
+import:        from AS43531  185.1.47.5                     at                   185.1.47.252 accept   AS-IXREACH
+import:        from AS43531  185.1.47.5                     at                   185.1.47.253 accept   AS-IXREACH
+import:        from AS43996  185.1.47.65                    at                   185.1.47.252 accept   AS-BOOKING
+import:        from AS43996  185.1.47.65                    at                   185.1.47.253 accept   AS-BOOKING
+import:        from AS44356  185.1.47.31                    at                   185.1.47.252 accept   AS-44356-CUSTOMERS
+import:        from AS44356  185.1.47.31                    at                   185.1.47.253 accept   AS-44356-CUSTOMERS
+import:        from AS45489  185.1.47.22                    at                   185.1.47.252 accept   AS-SLT-GLOBAL
+import:        from AS45489  185.1.47.22                    at                   185.1.47.253 accept   AS-SLT-GLOBAL
+import:        from AS46489  185.1.47.45                    at                   185.1.47.252 accept   AS-TWITCH
+import:        from AS46489  185.1.47.45                    at                   185.1.47.253 accept   AS-TWITCH
+import:        from AS46489  185.1.47.46                    at                   185.1.47.252 accept   AS-TWITCH
+import:        from AS46489  185.1.47.46                    at                   185.1.47.253 accept   AS-TWITCH
+import:        from AS47794  185.1.47.32                    at                   185.1.47.252 accept   AS-ATHEEB-PEERS
+import:        from AS47794  185.1.47.32                    at                   185.1.47.253 accept   AS-ATHEEB-PEERS
+import:        from AS51254  185.1.47.8                     at                   185.1.47.252 accept   AS-GIANTS
+import:        from AS51254  185.1.47.8                     at                   185.1.47.253 accept   AS-GIANTS
+import:        from AS63008  185.1.47.15                    at                   185.1.47.252 accept   AS63008
+import:        from AS63008  185.1.47.15                    at                   185.1.47.253 accept   AS63008
+import:        from AS56630  185.1.47.64                    at                   185.1.47.252 accept   AS-MELBICOM
+import:        from AS56630  185.1.47.64                    at                   185.1.47.253 accept   AS-MELBICOM
+import:        from AS59605  185.1.47.24                    at                   185.1.47.252 accept   AS-ZAINGP
+import:        from AS59605  185.1.47.24                    at                   185.1.47.253 accept   AS-ZAINGP
+import:        from AS60427  185.1.47.1                     at                   185.1.47.252 accept   AS-SYSTEM-NET
+import:        from AS60427  185.1.47.1                     at                   185.1.47.253 accept   AS-SYSTEM-NET
+import:        from AS62955  185.1.47.51                    at                   185.1.47.252 accept   AS-EBAYMTBB
+import:        from AS62955  185.1.47.51                    at                   185.1.47.253 accept   AS-EBAYMTBB
+import:        from AS64049  185.1.47.23                    at                   185.1.47.252 accept   AS-RJIL-ILD-IN
+import:        from AS64049  185.1.47.23                    at                   185.1.47.253 accept   AS-RJIL-ILD-IN
+import:        from AS198435 185.1.47.39                    at                   185.1.47.252 accept   AS-EDXNETWORK
+import:        from AS198435 185.1.47.39                    at                   185.1.47.253 accept   AS-EDXNETWORK
+import:        from AS327700 185.1.47.53                    at                   185.1.47.252 accept   AS327700
+import:        from AS327700 185.1.47.53                    at                   185.1.47.253 accept   AS327700
+import:        from AS327700 185.1.47.58                    at                   185.1.47.252 accept   AS327700
+import:        from AS327700 185.1.47.58                    at                   185.1.47.253 accept   AS327700
+export:        to   AS112    185.1.47.77                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS112    185.1.47.77                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS3225   185.1.47.37                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS3225   185.1.47.37                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS3303   185.1.47.36                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS3303   185.1.47.36                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS4788   185.1.47.49                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS4788   185.1.47.49                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS5511   185.1.47.57                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS5511   185.1.47.57                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS51531  185.1.47.110                   at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS51531  185.1.47.110                   at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS51531  185.1.47.116                   at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS51531  185.1.47.116                   at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS6774   185.1.47.29                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS6774   185.1.47.29                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS6939   185.1.47.2                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS6939   185.1.47.2                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS7363   185.1.47.50                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS7363   185.1.47.50                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS7713   185.1.47.27                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS7713   185.1.47.27                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS8075   185.1.47.13                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS8075   185.1.47.13                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS8309   185.1.47.12                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS8309   185.1.47.12                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS8966   185.1.47.61                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS8966   185.1.47.61                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS9002   185.1.47.59                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS9002   185.1.47.59                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS9119   185.1.47.68                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS9119   185.1.47.68                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS9498   185.1.47.7                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS9498   185.1.47.7                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS10282  185.1.47.60                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS10282  185.1.47.60                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS10310  185.1.47.54                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS10310  185.1.47.54                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS10310  185.1.47.55                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS10310  185.1.47.55                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS12850  185.1.47.30                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS12850  185.1.47.30                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS12883  185.1.47.67                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS12883  185.1.47.67                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS12956  185.1.47.40                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS12956  185.1.47.40                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS13335  185.1.47.4                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS13335  185.1.47.4                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS14413  185.1.47.41                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS14413  185.1.47.41                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS15133  185.1.47.56                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS15133  185.1.47.56                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS15169  185.1.47.3                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS15169  185.1.47.3                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS16347  185.1.47.11                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS16347  185.1.47.11                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS16509  185.1.47.48                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS16509  185.1.47.48                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS20717  185.1.47.249                   at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS20717  185.1.47.249                   at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS21320  185.1.47.34                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS21320  185.1.47.34                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS22822  185.1.47.28                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS22822  185.1.47.28                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS30844  185.1.47.38                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS30844  185.1.47.38                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS30990  185.1.47.25                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS30990  185.1.47.25                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS32934  185.1.47.9                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS32934  185.1.47.9                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS32934  185.1.47.26                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS32934  185.1.47.26                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS35432  185.1.47.14                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS35432  185.1.47.14                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS35838  185.1.47.47                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS35838  185.1.47.47                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS37100  185.1.47.6                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS37100  185.1.47.6                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS37662  185.1.47.19                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS37662  185.1.47.19                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS38001  185.1.47.62                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS38001  185.1.47.62                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS39180  185.1.47.33                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS39180  185.1.47.33                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS39405  185.1.47.18                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS39405  185.1.47.18                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS41095  185.1.47.35                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS41095  185.1.47.35                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS199330 185.1.47.69                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS199330 185.1.47.69                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS42411  185.1.47.43                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS42411  185.1.47.43                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS42456  185.1.47.63                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS42456  185.1.47.63                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS42473  185.1.47.10                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS42473  185.1.47.10                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS43531  185.1.47.5                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS43531  185.1.47.5                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS43996  185.1.47.65                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS43996  185.1.47.65                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS44356  185.1.47.31                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS44356  185.1.47.31                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS45489  185.1.47.22                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS45489  185.1.47.22                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS46489  185.1.47.45                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS46489  185.1.47.45                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS46489  185.1.47.46                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS46489  185.1.47.46                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS47794  185.1.47.32                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS47794  185.1.47.32                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS51254  185.1.47.8                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS51254  185.1.47.8                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS63008  185.1.47.15                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS63008  185.1.47.15                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS56630  185.1.47.64                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS56630  185.1.47.64                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS59605  185.1.47.24                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS59605  185.1.47.24                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS60427  185.1.47.1                     at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS60427  185.1.47.1                     at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS62955  185.1.47.51                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS62955  185.1.47.51                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS64049  185.1.47.23                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS64049  185.1.47.23                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS198435 185.1.47.39                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS198435 185.1.47.39                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS327700 185.1.47.53                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS327700 185.1.47.53                    at                   185.1.47.253 announce AS-DECIX-MRS
+export:        to   AS327700 185.1.47.58                    at                   185.1.47.252 announce AS-DECIX-MRS
+export:        to   AS327700 185.1.47.58                    at                   185.1.47.253 announce AS-DECIX-MRS
+remarks:       
+remarks:       You may use BGP (Extended) Communities to control
+remarks:       route advertisement via the Route Servers:
+remarks:       
+remarks:       (20717:20717): Redistribute to all Route Server peers
+remarks:       (20717:$PEER-AS), (rt:20717:$PEER-AS): Redistribute to $PEER-AS
+remarks:       (0:$PEER-AS), (rt:0:$PEER-AS): Redistribute to all peers except $PEER-AS
+remarks:       (0:20717): Do not redistribute
+remarks:       
+remarks:       If $PEER-AS uses a 2B ASN, you may use Standard or Extended Communities
+remarks:       If $PEER-AS uses a 4B ASN, you have to use Extended Communities
+remarks:       
+remarks:       There are additional communities for controlling announcements:
+remarks:       
+remarks:       65535:666  set community BLACKHOLE
+remarks:       20717:65281 set community NO-EXPORT
+remarks:       20717:65282 set community NO-ADVERTISE
+remarks:       
+remarks:       For more information on Route Server control and Blackholing, please see:
+remarks:       https://portal.de-cix.net/home/documentation/routeserver-guides/
+remarks:       https://portal.de-cix.net/home/documentation/blackholing-guide/
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        notify-6695@de-cix.net
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        DECIX-MNT
+source:        RIPE
+
+

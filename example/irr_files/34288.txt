@@ -1,0 +1,1359 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS34288'
+
+% Abuse contact for 'AS34288' is 'abuse@ksz.ch'
+
+aut-num:        AS34288
+as-name:        AS34288
+descr:          EDU-ZG-CH - Public Schools in the Canton of Zug
+org:            ORG-KZ1-RIPE
+remarks:        Kantonsschule Zug
+remarks:        Luessiweg 24
+remarks:        Postfach 2359
+remarks:        CH6302 Zug
+remarks:        Switzerland
+remarks:
+remarks:        WGS84: 47 10'28" N 8 31'24" E
+remarks:
+remarks:        Google Maps: http://tinyurl.com/as34288-CH-ZLM-KSZ
+remarks:        WebMap:      http://tinyurl.com/as34288-CH-ZLM-KSZ-ZUGIS
+remarks:
+remarks:        ++++++++++++++++++++++++++++++++++++++++++++
+remarks:        ++++++++++++++++++++++++++++++++++++++++++++
+remarks:        ++ Abuse / Spam / Harassment / Complaints ++
+remarks:        ++++++++++++++++++++++++++++++++++++++++++++
+remarks:        ++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        Contact 'abuse@ksz.ch' only, please. Email to other addresses
+remarks:        will be ignored silently!
+remarks:
+remarks:        +++++++++++++
+remarks:        +++++++++++++
+remarks:        ++ Peering ++
+remarks:        +++++++++++++
+remarks:        +++++++++++++
+remarks:
+remarks:        OPEN - We peer with everyone. Please send your peering request
+remarks:        to 'peering@kanti-zug.ch'.
+remarks:
+remarks:        Details: http://www.peeringdb.com/view.php?asn=34288
+remarks:
+remarks:        ********
+remarks:        * IXPs *
+remarks:        ********
+remarks:
+remarks:        Germany, Munich:
+remarks:        .  ALP-IX, http://www.alp-ix.net/
+remarks:
+remarks:        .      AS-SET: AS34288:AS-IX:AS-ALPIX
+remarks:
+remarks:        .      IPv4: 80.81.202.16
+remarks:        .      IPv6: 2001:7f8:3d::85f0:0:1
+remarks:
+remarks:        The Netherlands, Amsterdam:
+remarks:        .  AMS-IX, http://www.ams-ix.net/
+remarks:
+remarks:        .      AS-SET: AS34288:AS-IX:AS-AMSIX
+remarks:
+remarks:        .      IPv4: 195.69.145.29
+remarks:        .      IPv6: 2001:7f8:1::A503:4288:1
+remarks:
+remarks:        Germany, Frankfurt:
+remarks:        .  KleyRex, http://www.kleyrex.de/
+remarks:
+remarks:        .      AS-SET: AS34288:AS-IX:AS-KLEYREX
+remarks:
+remarks:        .      IPv4: 193.189.82.152
+remarks:        .      IPv6: 2001:7F8:33::A103:4288:1
+remarks:
+remarks:        Switzerland, Zurich:
+remarks:        .  SwissIX, http://www.swissix.ch/
+remarks:
+remarks:        .      AS-SET: AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        .      IPv4: 91.206.52.70
+remarks:        .            91.206.52.71
+remarks:        .      IPv6: 2001:7f8:24::46
+remarks:        .            2001:7f8:24::47
+remarks:
+remarks:        ********
+remarks:        * POPs *
+remarks:        ********
+remarks:
+remarks:        Switzerland, Zurich
+remarks:        .  Interxion Glattbrugg
+remarks:        .  Sagereistrasse 29
+remarks:        .  CH8152 Glattbrugg
+remarks:        .  Switzerland
+remarks:
+remarks:        .  Google Maps: http://tinyurl.com/as34288-CH-GTG-Interxion
+remarks:
+remarks:        Switzerland, Zurich
+remarks:        .  Equinix Z?rich 2
+remarks:        .  Josefstrasse 225
+remarks:        .  CH8005 Zurich
+remarks:        .  Switzerland
+remarks:
+remarks:        .  Google Maps: http://tinyurl.com/as34288-CH-ZUR-Equinix
+remarks:
+remarks:        *** SECONDARY SITES
+remarks:
+remarks:        Amsterdam, The Netherlands
+remarks:        .  SARA
+remarks:        .  Science Park 121
+remarks:        .  NL1098 XG Amsterdam
+remarks:        .  The Netherlands
+remarks:
+remarks:        .  Google Maps: http://tinyurl.com/as34288-NL-AMS-SARA
+remarks:
+remarks:        Frankfurt, Germany
+remarks:        .  Interxion
+remarks:        .  Hanauer Landstrasse 302
+remarks:        .  DE60314 Frankfurt/Main
+remarks:        .  Germany
+remarks:
+remarks:        .  Google Maps: http://tinyurl.com/as34288-DE-FRA-Interxion
+remarks:
+remarks:        Munich, Germany
+remarks:        .  Equinix MU1
+remarks:        .  Seidlstrasse 3
+remarks:        .  DE80335 Munich
+remarks:        .  Germany
+remarks:
+remarks:        .  Google Maps: http://tinyurl.com/as34288-DE-MUC-Equinix
+remarks:
+remarks:        +++++++++++++++++
+remarks:        +++++++++++++++++
+remarks:        ++ Communities ++
+remarks:        +++++++++++++++++
+remarks:        +++++++++++++++++
+remarks:
+remarks:        ************
+remarks:        * Outbound *
+remarks:        ************
+remarks:        ............
+remarks:        . Overview .
+remarks:        ............
+remarks:
+remarks:        34288:1xxx  Origin: Customer/Partner
+remarks:        34288:2xxx  Origin: Peer
+remarks:        34288:3xxx  Origin: Transit
+remarks:
+remarks:        34288:8xxx  Origin: Geographic Location
+remarks:        34288:9xxx  Origin: Location
+remarks:
+remarks:        .....................
+remarks:        . customer/partners .
+remarks:        .....................
+remarks:
+remarks:        34288:1000  All customers or partners
+remarks:
+remarks:        34288:1100  KSZ
+remarks:        34288:1101  progon engineering
+remarks:        34288:1102  ZUGERNET - AS28859
+remarks:
+remarks:        ............
+remarks:        . Peerings .
+remarks:        ............
+remarks:
+remarks:        34288:2000 from a peering
+remarks:        34288:2010 from a direct peering
+remarks:        34288:2011 from a Route Server
+remarks:
+remarks:        34288:2100 SwissIX @GTG-CH
+remarks:        34288:2101 SwissIX Route Server @GTG-CH
+remarks:
+remarks:        34288:2110 KleyRex @FRA-DE
+remarks:        34288:2111 KleyRex Route Server @FRA-DE
+remarks:
+remarks:        34288:2120 ECIX @DUS-DE
+remarks:        34288:2121 ECIX @DUS-DE Route Server
+remarks:
+remarks:        34288:2130 AMS-IX @AMS-NL
+remarks:        34288:2131 AMS-IX Route Server @AMS-NL
+remarks:        34288:2132 AMS-IX OpenPeering Route Server @AMS-NL
+remarks:
+remarks:        34288:2140 ALP-IX @MUC-DE
+remarks:        34288:2141 ALP-IX Route Server @MUC-DE
+remarks:
+remarks:        34288:2150 DE-CIX @FRA-DE
+remarks:        34288:2151 DE-CIX Route Server @FRA-DE
+remarks:
+remarks:        ...........
+remarks:        . Transit .
+remarks:        ...........
+remarks:
+remarks:        34288:3000  All transits
+remarks:
+remarks:        34288:3020  Cogent - AS174
+remarks:        34288:3030  Tiscali International - AS3257
+remarks:        34288:3050  Zugernet - AS28859
+remarks:        34288:3040  Level3 - AS3356
+remarks:
+remarks:        34288:3910  Init7 - AS13030 (partial transit, only)
+remarks:        34288:3920  ReTN - AS19002 (partial transit, only)
+remarks:        34288:3930  OpenCarrier e.G. - AS41692 (partial transit, only)
+remarks:
+remarks:        .......................
+remarks:        . Geographic Location .
+remarks:        .......................
+remarks:
+remarks:        UN/LOCODE is used for geographic coding
+remarks:        .  <http://en.wikipedia.org/wiki/UN/LOCODE>
+remarks:        .  <http://www.unece.org/cefact/locode/>
+remarks:
+remarks:        34288:8000  CH        - Switzerland
+remarks:        34288:8100  DE        - Germany
+remarks:        34288:8200  NL        - The Netherlands
+remarks:
+remarks:        ............
+remarks:        . Location .
+remarks:        ............
+remarks:
+remarks:        34288:9000  Kantonsschule Zug
+remarks:        34288:9010  Interxion ZRH1
+remarks:        34288:9011  Interxion FRA1
+remarks:        34288:9012  Interxion DUS1
+remarks:        34288:9013  SARA AMS
+remarks:        34288:9014  Equinix MUC1
+remarks:
+remarks:        ***********
+remarks:        * Inbound *
+remarks:        ***********
+remarks:
+remarks:        .......................
+remarks:        . Ingress Blackholing .
+remarks:        .......................
+remarks:
+remarks:        34288:666 blackhole traffic
+remarks:
+remarks:        Please inform noc@ksz.ch as soon as possible
+remarks:        on (D)DOS attacks!
+remarks:
+remarks:        ....................
+remarks:        . Local Preference .
+remarks:        ....................
+remarks:
+remarks:        34288:50  Local Preference  50
+remarks:        34288:100 Local Preference 100 [Transit]
+remarks:        34288:150 Local Preference 150
+remarks:        34288:200 Local Preference 200 [Peer]
+remarks:        34288:250 Local Preference 250
+remarks:        34288:300 Local Preference 300 [Private Peer]
+remarks:        34288:350 Local Preference 350
+remarks:        34288:400 Local Preference 400 [Partner]
+remarks:        34288:450 Local Preference 450
+remarks:        34288:550 Local Preference 500 [Customers]
+remarks:        34288:600 Local Preference 600
+remarks:
+remarks:        ..............
+remarks:        . Prepending .
+remarks:        ..............
+remarks:
+remarks:        65000:yyyy do NOT announce to yyyy
+remarks:
+remarks:        65001:yyyy prepend 1x AS34288 to yyyy [default]
+remarks:        65002:yyyy prepend 2x AS34288 to yyyy
+remarks:        65003:yyyy prepend 3x AS34288 to yyyy
+remarks:        65004:yyyy prepend 4x AS34288 to yyyy
+remarks:        65005:yyyy prepend 5x AS34288 to yyyy
+remarks:        65006:yyyy prepend 6x AS34288 to yyyy
+remarks:        65007:yyyy prepend 7x AS34288 to yyyy
+remarks:        65008:yyyy prepend 8x AS34288 to yyyy
+remarks:        65009:yyyy prepend 9x AS34288 to yyyy
+remarks:
+remarks:        ++++++++++++++++++++
+remarks:        ++++++++++++++++++++
+remarks:        ++ Routing Policy ++
+remarks:        ++++++++++++++++++++
+remarks:        ++++++++++++++++++++
+remarks:
+remarks:        We do *NOT* do Flap Damping!
+remarks:
+remarks:        see: Route Flap Damping: Harmful!
+remarks:        .  <http://ripe.net/ripe/meetings/ripe-43/presentations/ripe43-routing-flap.pdf>
+remarks:
+remarks:        ***********
+remarks:        * Transit *
+remarks:        ***********
+remarks:
+remarks:        @[TRANSIT][Init7] Init7
+import:         from AS13030 action pref=900; accept   ANY
+export:         to   AS13030                  announce AS-KSZ
+remarks:
+remarks:        @[TRANSIT][Cogent] Cogent Communications <http://www.cogentco.com/>
+import:         from AS174   action community.={34288:3}; pref=100; accept ANY
+export:         to   AS174                                          announce AS34288:AS-TRANSIT:AS-COGENT
+remarks:
+remarks:        @[TRANSIT][Tinet] Tiscali International <http://www.tinet.net/>
+import:         from AS3257  action community.={34288:4}; pref=100; accept ANY
+export:         to   AS3257                                         announce AS34288:AS-TRANSIT:AS-TINET
+remarks:
+remarks:        @[TRANSIT][Level3] Level(3) Communications <http://www.level3.com/>
+import:         from AS3356  action community.={34288:4}; pref=100; accept ANY
+export:         to   AS3356                                         announce AS34288:AS-TRANSIT:AS-LEVEL3
+remarks:
+remarks:        @[TRANSIT][OpenCarrier] OpenCarrier e.G. <http://www.opencarrier.eu/>
+import:         from AS41692 action community.={34288:5}; pref=100; accept   ANY
+export:         to   AS41692                                        announce AS34288:AS-TRANSIT:AS-OPENCARRIER
+remarks:
+remarks:        ************
+remarks:        * Peerings *
+remarks:        ************
+remarks:
+remarks:        .... ###....##.......########..........####.##.....##
+remarks:        ... ##.##...##.......##.....##..........##...##...##.
+remarks:        .. ##...##..##.......##.....##..........##....##.##..
+remarks:        . ##.....##.##.......########..#######..##.....###...
+remarks:        . #########.##.......##.................##....##.##..
+remarks:        . ##.....##.##.......##.................##...##...##.
+remarks:        . ##.....##.########.##................####.##.....##
+remarks:
+remarks:        ALP-IX Route Servers
+remarks:
+import:         from AS47228 accept   ANY
+export:         to   AS47228 announce AS34288:AS-IX:AS-ALPIX
+remarks:
+remarks:        .... ###....##.....##..######..........####.##.....##
+remarks:        ... ##.##...###...###.##....##..........##...##...##.
+remarks:        .. ##...##..####.####.##................##....##.##..
+remarks:        . ##.....##.##.###.##..######..#######..##.....###...
+remarks:        . #########.##.....##.......##..........##....##.##..
+remarks:        . ##.....##.##.....##.##....##..........##...##...##.
+remarks:        . ##.....##.##.....##..######..........####.##.....##
+remarks:
+remarks:        AMS-IX ASN
+remarks:
+import:         from AS1200  accept   AS1200
+export:         to   AS1200  announce AS34288:AS-IX:AS-AMSIX
+remarks:
+remarks:        AMS-IX Route Servers
+remarks:
+import:         from AS6777  accept   ANY
+export:         to   AS6777  announce AS34288:AS-IX:AS-AMSIX
+remarks:
+remarks:        OpenPeering MLPA
+remarks:
+import:         from AS20562 accept   AS-OPENPEERING
+export:         to   AS20562 announce AS34288:AS-IX:AS-OPENPEERING
+remarks:
+remarks:        . ##....##.##.......########.##....##.########..########.##.....##
+remarks:        . ##...##..##.......##........##..##..##.....##.##........##...##.
+remarks:        . ##..##...##.......##.........####...##.....##.##.........##.##..
+remarks:        . #####....##.......######......##....########..######......###...
+remarks:        . ##..##...##.......##..........##....##...##...##.........##.##..
+remarks:        . ##...##..##.......##..........##....##....##..##........##...##.
+remarks:        . ##....##.########.########....##....##.....##.########.##.....##
+remarks:
+remarks:        . ########..########..........######..####.##.....##
+remarks:        . ##.....##.##...............##....##..##...##...##.
+remarks:        . ##.....##.##...............##........##....##.##..
+remarks:        . ##.....##.######...#######.##........##.....###...
+remarks:        . ##.....##.##...............##........##....##.##..
+remarks:        . ##.....##.##...............##....##..##...##...##.
+remarks:        . ########..########..........######..####.##.....##
+remarks:
+remarks:        DE-CIX Route Servers
+remarks:
+import:         from AS6695  accept   AS-DECIX
+export:         to   AS6695  announce AS34288:AS-IX:AS-DECIX
+remarks:
+remarks:        .. ######..##......##.####..######...######..####.##.....##
+remarks:        . ##....##.##..##..##..##..##....##.##....##..##...##...##.
+remarks:        . ##.......##..##..##..##..##.......##........##....##.##..
+remarks:        .. ######..##..##..##..##...######...######...##.....###...
+remarks:        ....... ##.##..##..##..##........##.......##..##....##.##..
+remarks:        . ##....##.##..##..##..##..##....##.##....##..##...##...##.
+remarks:        .. ######...###..###..####..######...######..####.##.....##
+remarks:
+remarks:        Route Server
+remarks:        ------------
+remarks:
+remarks:        @[SwissIX][SwissIX-RS] SwissIX Route Server
+import:         from AS42476 91.206.52.251 at 91.206.52.70  action community.={34288:101}; pref=1000; accept   AS-SWISSIX-RS AND {0.0.0.0/0^8-24}
+export:         to   AS42476 91.206.52.251 at 91.206.52.70                                            announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS42476 91.206.52.252 at 91.206.52.70  action community.={34288:101}; pref=1000; accept   AS-SWISSIX-RS AND {0.0.0.0/0^8-24}
+export:         to   AS42476 91.206.52.252 at 91.206.52.70                                            announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS42476 91.206.52.251 at 91.206.52.71  action community.={34288:101}; pref=1000; accept   AS-SWISSIX-RS AND {0.0.0.0/0^8-24}
+export:         to   AS42476 91.206.52.251 at 91.206.52.71                                            announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS42476 91.206.52.252 at 91.206.52.71  action community.={34288:101}; pref=1000; accept   AS-SWISSIX-RS AND {0.0.0.0/0^8-24}
+export:         to   AS42476 91.206.52.252 at 91.206.52.71                                            announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        Peers
+remarks:        -----
+remarks:
+remarks:        @[SwissIX][Akamai] Akamai
+import:         from AS20940 91.206.52.56  at 91.206.52.70  action pref=1100;  accept   AS-AKAMAI AND {0.0.0.0/0^8-24}
+export:         to   AS20940 91.206.52.56  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS20940 91.206.52.56  at 91.206.52.71  action pref=1100;  accept   AS-AKAMAI AND {0.0.0.0/0^8-24}
+export:         to   AS20940 91.206.52.56  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Altecom] Altecom
+import:         from AS20940 91.206.52.69  at 91.206.52.70  action pref=1100;  accept   AS-ALTECOM AND {0.0.0.0/0^8-24}
+export:         to   AS20940 91.206.52.69  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS20940 91.206.52.69  at 91.206.52.71  action pref=1100;  accept   AS-ALTECOM AND {0.0.0.0/0^8-24}
+export:         to   AS20940 91.206.52.69  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Antares] Antares Kommunikations Technik
+import:         from AS20940 91.206.52.54  at 91.206.52.70  action pref=1100;  accept   AS-ANTANET AND {0.0.0.0/0^8-24}
+export:         to   AS20940 91.206.52.54  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS20940 91.206.52.54  at 91.206.52.71  action pref=1100;  accept   AS-ANTANET AND {0.0.0.0/0^8-24}
+export:         to   AS20940 91.206.52.54  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Artmotion] Artmotion GmbH
+import:         from AS48983 91.206.52.162 at 91.206.52.70  action pref=1100;  accept   AS48983 AND {0.0.0.0/0^8-24}
+export:         to   AS48983 91.206.52.162 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS48983 91.206.52.162 at 91.206.52.71  action pref=1100;  accept   AS48983 AND {0.0.0.0/0^8-24}
+export:         to   AS48983 91.206.52.162 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Atrila] Atrila GmbH
+import:         from AS44919 91.206.52.166 at 91.206.52.70  action pref=1100;  accept   AS-ATRILA AND {0.0.0.0/0^8-24}
+export:         to   AS44919 91.206.52.166 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS44919 91.206.52.166 at 91.206.52.71  action pref=1100;  accept   AS-ATRILA AND {0.0.0.0/0^8-24}
+export:         to   AS44919 91.206.52.166 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Aurax] aurax connecta ag
+import:         from AS31662 91.206.52.63  at 91.206.52.70  action pref=1100;  accept   AS-KNSURSELVA AND {0.0.0.0/0^8-24}
+export:         to   AS31662 91.206.52.63  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS31662 91.206.52.63  at 91.206.52.71  action pref=1100;  accept   AS-KNSURSELVA AND {0.0.0.0/0^8-24}
+export:         to   AS31662 91.206.52.63  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Backbone] Backbone Solutions AG
+import:         from AS13250 91.206.52.19  at 91.206.52.70  action pref=1100;  accept   AS13250 AND {0.0.0.0/0^8-24}
+export:         to   AS13250 91.206.52.19  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS13250 91.206.52.19  at 91.206.52.71  action pref=1100;  accept   AS13250 AND {0.0.0.0/0^8-24}
+export:         to   AS13250 91.206.52.19  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Baldata] Baledata/IWB
+import:         from AS43284 91.206.52.136 at 91.206.52.70  action pref=1100;  accept   AS-IWB AND {0.0.0.0/0^8-24}
+export:         to   AS43284 91.206.52.136 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS43284 91.206.52.136 at 91.206.52.71  action pref=1100;  accept   AS-IWB AND {0.0.0.0/0^8-24}
+export:         to   AS43284 91.206.52.136 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][basis06] basis06 AG
+import:         from AS39040 91.206.52.68  at 91.206.52.70  action pref=1100;  accept   AS-BASIS06 AND {0.0.0.0/0^8-24}
+export:         to   AS39040 91.206.52.68  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS39040 91.206.52.68  at 91.206.52.71  action pref=1100;  accept   AS-BASIS06 AND {0.0.0.0/0^8-24}
+export:         to   AS39040 91.206.52.68  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS39040 91.206.52.109 at 91.206.52.70  action pref=1100;  accept   AS-BASIS06 AND {0.0.0.0/0^8-24}
+export:         to   AS39040 91.206.52.109 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS39040 91.206.52.109 at 91.206.52.71  action pref=1100;  accept   AS-BASIS06 AND {0.0.0.0/0^8-24}
+export:         to   AS39040 91.206.52.109 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][BIT] Bundesamt fuer Informatik
+import:         from AS33845 91.206.52.46  at 91.206.52.70  action pref=1100;  accept   AS-SWISSGOV AND {0.0.0.0/0^8-24}
+export:         to   AS33845 91.206.52.46  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS33845 91.206.52.46  at 91.206.52.71  action pref=1100;  accept   AS-SWISSGOV AND {0.0.0.0/0^8-24}
+export:         to   AS33845 91.206.52.46  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Burstfire] Burstfire Networks Ltd
+import:         from AS9153  91.206.52.80  at 91.206.52.70  action pref=1100;  accept   AS-BURSTFIRE AND {0.0.0.0/0^8-24}
+export:         to   AS9153  91.206.52.80  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS9153  91.206.52.80  at 91.206.52.71  action pref=1100;  accept   AS-BURSTFIRE AND {0.0.0.0/0^8-24}
+export:         to   AS9153  91.206.52.80  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][COLT] COLT
+import:         from AS8220  91.206.52.172 at 91.206.52.70  action pref=1100;  accept   AS-COLT AND {0.0.0.0/0^8-24}
+export:         to   AS8220  91.206.52.172 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8220  91.206.52.172 at 91.206.52.71  action pref=1100;  accept   AS-COLT AND {0.0.0.0/0^8-24}
+export:         to   AS8220  91.206.52.172 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Comparis] Comparis.ch AG
+import:         from AS44635 91.206.52.112 at 91.206.52.70  action pref=1100;  accept   AS-COMPARIS AND {0.0.0.0/0^8-24}
+export:         to   AS44635 91.206.52.112 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS44635 91.206.52.112 at 91.206.52.71  action pref=1100;  accept   AS-COMPARIS AND {0.0.0.0/0^8-24}
+export:         to   AS44635 91.206.52.112 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Computerline] Computerline GmbH
+import:         from AS41913 91.206.52.91  at 91.206.52.70  action pref=1100;  accept   AS-COMPUTERLINE AND {0.0.0.0/0^8-24}
+export:         to   AS41913 91.206.52.91  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS41913 91.206.52.91  at 91.206.52.71  action pref=1100;  accept   AS-COMPUTERLINE AND {0.0.0.0/0^8-24}
+export:         to   AS41913 91.206.52.91  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Cyberlink] Cyberlink
+import:         from AS15623 91.206.52.15  at 91.206.52.70  action pref=1100;  accept   AS-CYBERLINK AND {0.0.0.0/0^8-24}
+export:         to   AS15623 91.206.52.15  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15623 91.206.52.15  at 91.206.52.71  action pref=1100;  accept   AS-CYBERLINK AND {0.0.0.0/0^8-24}
+export:         to   AS15623 91.206.52.15  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15623 91.206.52.55  at 91.206.52.70  action pref=1100;  accept   AS-CYBERLINK AND {0.0.0.0/0^8-24}
+export:         to   AS15623 91.206.52.55  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15623 91.206.52.55  at 91.206.52.71  action pref=1100;  accept   AS-CYBERLINK AND {0.0.0.0/0^8-24}
+export:         to   AS15623 91.206.52.55  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][dataway] dataway GmbH
+import:         from AS8237  91.206.52.23  at 91.206.52.70  action pref=1100;  accept   AS-DATAWAY AND {0.0.0.0/0^8-24}
+export:         to   AS8237  91.206.52.23  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8237  91.206.52.23  at 91.206.52.71  action pref=1100;  accept   AS-DATAWAY AND {0.0.0.0/0^8-24}
+export:         to   AS8237  91.206.52.23  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Dolphin] Dolphin Systems AG
+import:         from AS39764 91.206.52.82  at 91.206.52.70  action pref=1100;  accept   AS-DOLPHIN AND {0.0.0.0/0^8-24}
+export:         to   AS39764 91.206.52.82  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS39764 91.206.52.82  at 91.206.52.71  action pref=1100;  accept   AS-DOLPHIN AND {0.0.0.0/0^8-24}
+export:         to   AS39764 91.206.52.82  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Dreamlab] Dreamlab Technologies AG
+import:         from AS49237 91.206.52.164 at 91.206.52.70  action pref=1100;  accept   AS-DREAMLAB AND {0.0.0.0/0^8-24}
+export:         to   AS49237 91.206.52.164 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS49237 91.206.52.164 at 91.206.52.71  action pref=1100;  accept   AS-DREAMLAB AND {0.0.0.0/0^8-24}
+export:         to   AS49237 91.206.52.164 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][E4A] E4A s.r.l.
+import:         from AS34695 91.206.52.47  at 91.206.52.70  action pref=1100;  accept   AS34695 AND {0.0.0.0/0^8-24}
+export:         to   AS34695 91.206.52.47  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS34695 91.206.52.47  at 91.206.52.71  action pref=1100;  accept   AS34695 AND {0.0.0.0/0^8-24}
+export:         to   AS34695 91.206.52.47  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Easynet] easynet AG
+import:         from AS4589  91.206.52.18  at 91.206.52.70  action pref=1100;  accept   AS-EASYNET AND {0.0.0.0/0^8-24}
+export:         to   AS4589  91.206.52.18  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS4589  91.206.52.18  at 91.206.52.71  action pref=1100;  accept   AS-EASYNET AND {0.0.0.0/0^8-24}
+export:         to   AS4589  91.206.52.18  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][EBM] EBM Telecom AG
+import:         from AS42346 91.206.52.146 at 91.206.52.70  action pref=1100;  accept   AS-EBM AND {0.0.0.0/0^8-24}
+export:         to   AS42346 91.206.52.146 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS42346 91.206.52.146 at 91.206.52.71  action pref=1100;  accept   AS-EBM AND {0.0.0.0/0^8-24}
+export:         to   AS42346 91.206.52.146 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Engine] Engine Networks
+import:         from AS47316 91.206.52.141 at 91.206.52.70  action pref=1100;  accept   AS-ENGINE-NETWORKS AND {0.0.0.0/0^8-24}
+export:         to   AS47316 91.206.52.141 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS47316 91.206.52.141 at 91.206.52.71  action pref=1100;  accept   AS-ENGINE-NETWORKS AND {0.0.0.0/0^8-24}
+export:         to   AS47316 91.206.52.141 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Fibrelac] Fibrelac
+import:         from AS15479 91.206.52.42  at 91.206.52.70  action pref=1100;  accept   AS15479 AND {0.0.0.0/0^8-24}
+export:         to   AS15479 91.206.52.42  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15479 91.206.52.42  at 91.206.52.71  action pref=1100;  accept   AS15479 AND {0.0.0.0/0^8-24}
+export:         to   AS15479 91.206.52.42  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Finecom] Finecom Telecommunications AG
+import:         from AS15600 91.206.52.21  at 91.206.52.70  action pref=1100;  accept   AS-FINECOM AND {0.0.0.0/0^8-24}
+export:         to   AS15600 91.206.52.21  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15600 91.206.52.21  at 91.206.52.71  action pref=1100;  accept   AS-FINECOM AND {0.0.0.0/0^8-24}
+export:         to   AS15600 91.206.52.21  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15600 91.206.52.27  at 91.206.52.70  action pref=1100;  accept   AS-FINECOM AND {0.0.0.0/0^8-24}
+export:         to   AS15600 91.206.52.27  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15600 91.206.52.27  at 91.206.52.71  action pref=1100;  accept   AS-FINECOM AND {0.0.0.0/0^8-24}
+export:         to   AS15600 91.206.52.27  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Futurelab] Futurelab
+import:         from AS34182 91.206.52.36  at 91.206.52.70  action pref=1100;  accept   AS-FUTURELAB AND {0.0.0.0/0^8-24}
+export:         to   AS34182 91.206.52.36  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS34182 91.206.52.36  at 91.206.52.71  action pref=1100;  accept   AS-FUTURELAB AND {0.0.0.0/0^8-24}
+export:         to   AS34182 91.206.52.36  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Genotec] Genotec Internet Consulting AG
+import:         from AS16215 91.206.52.16  at 91.206.52.70  action pref=1100;  accept   AS-GENOTEC AND {0.0.0.0/0^8-24}
+export:         to   AS16215 91.206.52.16  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS16215 91.206.52.16  at 91.206.52.71  action pref=1100;  accept   AS-GENOTEC AND {0.0.0.0/0^8-24}
+export:         to   AS16215 91.206.52.16  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS16215 91.206.52.168 at 91.206.52.70  action pref=1100;  accept   AS-GENOTEC AND {0.0.0.0/0^8-24}
+export:         to   AS16215 91.206.52.168 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS16215 91.206.52.168 at 91.206.52.71  action pref=1100;  accept   AS-GENOTEC AND {0.0.0.0/0^8-24}
+export:         to   AS16215 91.206.52.168 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][GGA] GGA Maur
+import:         from AS21232 91.206.52.32  at 91.206.52.70  action pref=1100;  accept   AS-GGAMAUR AND {0.0.0.0/0^8-24}
+export:         to   AS21232 91.206.52.32  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS21232 91.206.52.32  at 91.206.52.71  action pref=1100;  accept   AS-GGAMAUR AND {0.0.0.0/0^8-24}
+export:         to   AS21232 91.206.52.32  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Global] Global Networks Schweiz AG
+import:         from AS6775  91.206.52.40  at 91.206.52.70  action pref=1100;  accept   AS-GLOBALNETWORKS AND {0.0.0.0/0^8-24}
+export:         to   AS6775  91.206.52.40  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS6775  91.206.52.40  at 91.206.52.71  action pref=1100;  accept   AS-GLOBALNETWORKS AND {0.0.0.0/0^8-24}
+export:         to   AS6775  91.206.52.40  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][GSCF] Global Supply Chain Finance AG
+import:         from AS33958 91.206.52.79  at 91.206.52.70  action pref=1100;  accept   AS-GSCF AND {0.0.0.0/0^8-24}
+export:         to   AS33958 91.206.52.79  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS33958 91.206.52.79  at 91.206.52.71  action pref=1100;  accept   AS-GSCF AND {0.0.0.0/0^8-24}
+export:         to   AS33958 91.206.52.79  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Google] Google
+import:         from AS15169 91.206.52.74  at 91.206.52.70  action pref=1100;  accept   AS-GOOGLE AND {0.0.0.0/0^8-24}
+export:         to   AS15169 91.206.52.74  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15169 91.206.52.74  at 91.206.52.71  action pref=1100;  accept   AS-GOOGLE AND {0.0.0.0/0^8-24}
+export:         to   AS15169 91.206.52.74  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][GPS] GPS Technik
+import:         from AS8833  91.206.52.86  at 91.206.52.70  action pref=1100;  accept   AS-GPS AND {0.0.0.0/0^8-24}
+export:         to   AS8833  91.206.52.86  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8833  91.206.52.86  at 91.206.52.71  action pref=1100;  accept   AS-GPS AND {0.0.0.0/0^8-24}
+export:         to   AS8833  91.206.52.86  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Green] green.ch AG The Internet Company
+import:         from AS1836  91.206.52.10  at 91.206.52.70  action pref=1100;  accept   AS-GREEN AND {0.0.0.0/0^8-24}
+export:         to   AS1836  91.206.52.10  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS1836  91.206.52.10  at 91.206.52.71  action pref=1100;  accept   AS-GREEN AND {0.0.0.0/0^8-24}
+export:         to   AS1836  91.206.52.10  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS1836  91.206.52.94  at 91.206.52.70  action pref=1100;  accept   AS-GREEN AND {0.0.0.0/0^8-24}
+export:         to   AS1836  91.206.52.94  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS1836  91.206.52.94  at 91.206.52.71  action pref=1100;  accept   AS-GREEN AND {0.0.0.0/0^8-24}
+export:         to   AS1836  91.206.52.94  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Hattick] Hattrick.org
+import:         from AS12786 91.206.52.90  at 91.206.52.70  action pref=1100;  accept   AS-HATTRICK AND {0.0.0.0/0^8-24}
+export:         to   AS12786 91.206.52.90  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS12786 91.206.52.90  at 91.206.52.71  action pref=1100;  accept   AS-HATTRICK AND {0.0.0.0/0^8-24}
+export:         to   AS12786 91.206.52.90  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Hispaweb] Hispaweb Network
+import:         from AS45037 91.206.52.104 at 91.206.52.70  action pref=1100;  accept   AS-Hispaweb AND {0.0.0.0/0^8-24}
+export:         to   AS45037 91.206.52.104 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS45037 91.206.52.104 at 91.206.52.71  action pref=1100;  accept   AS-Hispaweb AND {0.0.0.0/0^8-24}
+export:         to   AS45037 91.206.52.104 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][HE] Hurricane Electric
+import:         from AS6939  91.206.52.170 at 91.206.52.70  action pref=1100;  accept   AS-HURRICANE AND {0.0.0.0/0^8-24}
+export:         to   AS6939  91.206.52.170 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS6939  91.206.52.170 at 91.206.52.71  action pref=1100;  accept   AS-HURRICANE AND {0.0.0.0/0^8-24}
+export:         to   AS6939  91.206.52.170 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Homing] Homing.ch AG
+import:         from AS35406 91.206.52.59  at 91.206.52.70  action pref=1100;  accept   AS-HOMING AND {0.0.0.0/0^8-24}
+export:         to   AS35406 91.206.52.59  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS35406 91.206.52.59  at 91.206.52.71  action pref=1100;  accept   AS-HOMING AND {0.0.0.0/0^8-24}
+export:         to   AS35406 91.206.52.59  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Hostpoint] Hostpoint AG
+import:         from AS29097 91.206.52.4   at 91.206.52.70  action pref=1100;  accept   AS-HOSTPOINT AND {0.0.0.0/0^8-24}
+export:         to   AS29097 91.206.52.4   at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS29097 91.206.52.4   at 91.206.52.71  action pref=1100;  accept   AS-HOSTPOINT AND {0.0.0.0/0^8-24}
+export:         to   AS29097 91.206.52.4   at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][IMP] ImproWare Network Services
+import:         from AS6772  91.206.52.20  at 91.206.52.70  action pref=1100;  accept   AS-IMPNET AND {0.0.0.0/0^8-24}
+export:         to   AS6772  91.206.52.20  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS6772  91.206.52.20  at 91.206.52.71  action pref=1100;  accept   AS-IMPNET AND {0.0.0.0/0^8-24}
+export:         to   AS6772  91.206.52.20  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][IPX] IP Exchange GmbH
+import:         from AS15598 91.206.52.41  at 91.206.52.70  action pref=1100;  accept   AS-IPX AND {0.0.0.0/0^8-24}
+export:         to   AS15598 91.206.52.41  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15598 91.206.52.41  at 91.206.52.71  action pref=1100;  accept   AS-IPX AND {0.0.0.0/0^8-24}
+export:         to   AS15598 91.206.52.41  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][ISPPro] ISPpro Internet KG
+import:         from AS35366 91.206.52.161 at 91.206.52.70  action pref=1100;  accept   AS-ISPPRO AND {0.0.0.0/0^8-24}
+export:         to   AS35366 91.206.52.161 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS35366 91.206.52.161 at 91.206.52.71  action pref=1100;  accept   AS-ISPPRO AND {0.0.0.0/0^8-24}
+export:         to   AS35366 91.206.52.161 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][ISPSolutions] ISP Solutions SA
+import:         from AS34146 91.206.52.177 at 91.206.52.70  action pref=1100;  accept     AS-ISP-SOLUTIONS AND {0.0.0.0/0^8-24}
+export:         to   AS34146 91.206.52.177 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS34146 91.206.52.177 at 91.206.52.71  action pref=1100;  accept     AS-ISP-SOLUTIONS AND {0.0.0.0/0^8-24}
+export:         to   AS34146 91.206.52.177 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][iway] iway AG
+import:         from AS8758  91.206.52.2   at 91.206.52.70  action pref=1100;  accept   AS-DOLPHINS AND {0.0.0.0/0^8-24}
+export:         to   AS8758  91.206.52.2   at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8758  91.206.52.2   at 91.206.52.71  action pref=1100;  accept   AS-DOLPHINS AND {0.0.0.0/0^8-24}
+export:         to   AS8758  91.206.52.2   at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8758  91.206.52.6   at 91.206.52.70  action pref=1100;  accept   AS-DOLPHINS AND {0.0.0.0/0^8-24}
+export:         to   AS8758  91.206.52.6   at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8758  91.206.52.6   at 91.206.52.71  action pref=1100;  accept   AS-DOLPHINS AND {0.0.0.0/0^8-24}
+export:         to   AS8758  91.206.52.6   at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][KGT] KGT new media
+import:         from AS48039 91.206.52.159 at 91.206.52.70  action pref=1100;  accept   AS-KGT AND {0.0.0.0/0^8-24}
+export:         to   AS48039 91.206.52.159 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS48039 91.206.52.159 at 91.206.52.71  action pref=1100;  accept   AS-KGT AND {0.0.0.0/0^8-24}
+export:         to   AS48039 91.206.52.159 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Kyberna] Kyberna AG
+import:         from AS39145 91.206.52.57  at 91.206.52.70  action pref=1100;  accept   AS39145 AND {0.0.0.0/0^8-24}
+export:         to   AS39145 91.206.52.57  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS39145 91.206.52.57  at 91.206.52.71  action pref=1100;  accept   AS39145 AND {0.0.0.0/0^8-24}
+export:         to   AS39145 91.206.52.57  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Litecom] Litecom AG
+import:         from AS33965 91.206.52.144 at 91.206.52.70  action pref=1100;  accept   AS-LITECOM AND {0.0.0.0/0^8-24}
+export:         to   AS33965 91.206.52.144 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS33965 91.206.52.144 at 91.206.52.71  action pref=1100;  accept   AS-LITECOM AND {0.0.0.0/0^8-24}
+export:         to   AS33965 91.206.52.144 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][mhs] mhs@internet
+import:         from AS16242 91.206.52.44  at 91.206.52.70  action pref=1100;  accept   AS-MHS AND {0.0.0.0/0^8-24}
+export:         to   AS16242 91.206.52.44  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS16242 91.206.52.44  at 91.206.52.71  action pref=1100;  accept   AS-MHS AND {0.0.0.0/0^8-24}
+export:         to   AS16242 91.206.52.44  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Microsoft] Microsoft
+import:         from AS8068  91.206.52.152 at 91.206.52.70  action pref=1100;  accept   AS-MICROSOFT AND {0.0.0.0/0^8-24}
+export:         to   AS8068  91.206.52.152 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8068  91.206.52.152 at 91.206.52.71  action pref=1100;  accept   AS-MICROSOFT AND {0.0.0.0/0^8-24}
+export:         to   AS8068  91.206.52.152 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][MINX] MINX
+import:         from AS24933 91.206.52.102 at 91.206.52.70  action pref=1100;  accept   AS-MINXS AND {0.0.0.0/0^8-24}
+export:         to   AS24933 91.206.52.102 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS24933 91.206.52.102 at 91.206.52.71  action pref=1100;  accept   AS-MINXS AND {0.0.0.0/0^8-24}
+export:         to   AS24933 91.206.52.102 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Monzoon] Monzoon
+import:         from AS24889 91.206.52.33  at 91.206.52.70  action pref=1100;  accept   AS-MONZOON AND {0.0.0.0/0^8-24}
+export:         to   AS24889 91.206.52.33  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS24889 91.206.52.33  at 91.206.52.71  action pref=1100;  accept   AS-MONZOON AND {0.0.0.0/0^8-24}
+export:         to   AS24889 91.206.52.33  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Networx] Internet Business Solutions AG
+import:         from AS8271  91.206.52.31  at 91.206.52.70  action pref=1100;  accept   AS-CH AND {0.0.0.0/0^8-24}
+export:         to   AS8271  91.206.52.31  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8271  91.206.52.31  at 91.206.52.71  action pref=1100;  accept   AS-CH AND {0.0.0.0/0^8-24}
+export:         to   AS8271  91.206.52.31  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:        @[SwissIX][Neocarrier] Neocarrier Communications Ltd
+import:         from AS48885 91.206.52.165 at 91.206.52.70  action pref=1100;  accept   AS-NEOCARRIER AND {0.0.0.0/0^8-24}
+export:         to   AS48885 91.206.52.165 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS48885 91.206.52.165 at 91.206.52.71  action pref=1100;  accept   AS-NEOCARRIER AND {0.0.0.0/0^8-24}
+export:         to   AS48885 91.206.52.165 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Neolution] Neolution AG
+import:         from AS42784 91.206.52.107 at 91.206.52.70  action pref=1100;  accept   AS-NEOLUTION AND {0.0.0.0/0^8-24}
+export:         to   AS42784 91.206.52.107 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS42784 91.206.52.107 at 91.206.52.71  action pref=1100;  accept   AS-NEOLUTION AND {0.0.0.0/0^8-24}
+export:         to   AS42784 91.206.52.107 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Netcetera] Netcetera AG
+import:         from AS34960 91.206.52.89  at 91.206.52.70  action pref=1100;  accept   AS-CH-NETCETERA AND {0.0.0.0/0^8-24}
+export:         to   AS34960 91.206.52.89  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS34960 91.206.52.89  at 91.206.52.71  action pref=1100;  accept   AS-CH-NETCETERA AND {0.0.0.0/0^8-24}
+export:         to   AS34960 91.206.52.89  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Netstream] Netstream AG
+import:         from AS15517 91.206.52.95  at 91.206.52.70  action pref=1100;  accept   AS-NETSTREAM-CH AND {0.0.0.0/0^8-24}
+export:         to   AS15517 91.206.52.95  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15517 91.206.52.95  at 91.206.52.71  action pref=1100;  accept   AS-NETSTREAM-CH AND {0.0.0.0/0^8-24}
+export:         to   AS15517 91.206.52.95  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][ND] Network Design GmbH
+import:         from AS44706 91.206.52.45  at 91.206.52.70  action pref=1100;  accept   AS-NDNET AND {0.0.0.0/0^8-24}
+export:         to   AS44706 91.206.52.45  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS44706 91.206.52.45  at 91.206.52.71  action pref=1100;  accept   AS-NDNET AND {0.0.0.0/0^8-24}
+export:         to   AS44706 91.206.52.45  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS44706 91.206.52.111 at 91.206.52.70  action pref=1100;  accept   AS-NDNET AND {0.0.0.0/0^8-24}
+export:         to   AS44706 91.206.52.111 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS44706 91.206.52.111 at 91.206.52.71  action pref=1100;  accept   AS-NDNET AND {0.0.0.0/0^8-24}
+export:         to   AS44706 91.206.52.111 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Newsnet] newsnet ag
+import:         from AS35223 91.206.52.43  at 91.206.52.70  action pref=1100;  accept   AS-NEWSNET AND {0.0.0.0/0^8-24}
+export:         to   AS35223 91.206.52.43  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS35223 91.206.52.43  at 91.206.52.71  action pref=1100;  accept   AS-NEWSNET AND {0.0.0.0/0^8-24}
+export:         to   AS35223 91.206.52.43  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Nexanet] Nexanet GmbH
+import:         from AS47506 91.206.52.142 at 91.206.52.70  action pref=1100;  accept   AS-NEXANET AND {0.0.0.0/0^8-24}
+export:         to   AS47506 91.206.52.142 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS47506 91.206.52.142 at 91.206.52.71  action pref=1100;  accept   AS-NEXANET AND {0.0.0.0/0^8-24}
+export:         to   AS47506 91.206.52.142 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][nexellent] nexellent ag
+import:         from AS31424 91.206.52.17  at 91.206.52.70  action pref=1100;  accept   AS-NEXELLENT AND {0.0.0.0/0^8-24}
+export:         to   AS31424 91.206.52.17  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS31424 91.206.52.17  at 91.206.52.71  action pref=1100;  accept   AS-NEXELLENT AND {0.0.0.0/0^8-24}
+export:         to   AS31424 91.206.52.17  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS31424 91.206.52.49  at 91.206.52.70  action pref=1100;  accept   AS-NEXELLENT AND {0.0.0.0/0^8-24}
+export:         to   AS31424 91.206.52.49  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS31424 91.206.52.49  at 91.206.52.71  action pref=1100;  accept   AS-NEXELLENT AND {0.0.0.0/0^8-24}
+export:         to   AS31424 91.206.52.49  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Nine] Nine Internet Solutions AG
+import:         from AS29691 91.206.52.9   at 91.206.52.70  action pref=1100;  accept   AS-NINE AND {0.0.0.0/0^8-24}
+export:         to   AS29691 91.206.52.9   at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS29691 91.206.52.9   at 91.206.52.71  action pref=1100;  accept   AS-NINE AND {0.0.0.0/0^8-24}
+export:         to   AS29691 91.206.52.9   at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS29691 91.206.52.99  at 91.206.52.70  action pref=1100;  accept   AS-NINE AND {0.0.0.0/0^8-24}
+export:         to   AS29691 91.206.52.99  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS29691 91.206.52.99  at 91.206.52.71  action pref=1100;  accept   AS-NINE AND {0.0.0.0/0^8-24}
+export:         to   AS29691 91.206.52.99  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][NovaTrend] NovaTrend Services GmbH
+import:         from AS35206 91.206.52.60  at 91.206.52.70  action pref=1100;  accept   AS-NOVATREND AND {0.0.0.0/0^8-24}
+export:         to   AS35206 91.206.52.60  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS35206 91.206.52.60  at 91.206.52.71  action pref=1100;  accept   AS-NOVATREND AND {0.0.0.0/0^8-24}
+export:         to   AS35206 91.206.52.60  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][NTS] NTS Workspace AG
+import:         from AS15576 91.206.52.22  at 91.206.52.70  action pref=1100;  accept   AS-NTS AND {0.0.0.0/0^8-24}
+export:         to   AS15576 91.206.52.22  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15576 91.206.52.22  at 91.206.52.71  action pref=1100;  accept   AS-NTS AND {0.0.0.0/0^8-24}
+export:         to   AS15576 91.206.52.22  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][OCAG] Online Consulting AG
+import:         from AS16111 91.206.52.51  at 91.206.52.70  action pref=1100;  accept   AS-OCAG AND {0.0.0.0/0^8-24}
+export:         to   AS16111 91.206.52.51  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS16111 91.206.52.51  at 91.206.52.71  action pref=1100;  accept   AS-OCAG AND {0.0.0.0/0^8-24}
+export:         to   AS16111 91.206.52.51  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Open-CH] Open Systems
+import:         from AS9092  91.206.52.34  at 91.206.52.70  action pref=1100;  accept   AS-OPENSYSTEMS AND {0.0.0.0/0^8-24}
+export:         to   AS9092  91.206.52.34  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS9092  91.206.52.34  at 91.206.52.71  action pref=1100;  accept   AS-OPENSYSTEMS AND {0.0.0.0/0^8-24}
+export:         to   AS9092  91.206.52.34  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][OpenCarrier] OpenCarrier e.G.
+import:         from AS41692 91.206.52.138 at 91.206.52.70  action pref=1100;  accept   AS-OPENCARRIER AND {0.0.0.0/0^8-24}
+export:         to   AS41692 91.206.52.138 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS41692 91.206.52.138 at 91.206.52.71  action pref=1100;  accept   AS-OPENCARRIER AND {0.0.0.0/0^8-24}
+export:         to   AS41692 91.206.52.138 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Origon] Origon AG
+import:         from AS16221 91.206.52.88  at 91.206.52.70  action pref=1100;  accept   AS-PIPELINE AND {0.0.0.0/0^8-24}
+export:         to   AS16221 91.206.52.88  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS16221 91.206.52.88  at 91.206.52.71  action pref=1100;  accept   AS-PIPELINE AND {0.0.0.0/0^8-24}
+export:         to   AS16221 91.206.52.88  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][PCH-A] Packet Clearing House
+import:         from AS42    91.206.52.12  at 91.206.52.70  action pref=1100;  accept   AS-PCH AND {0.0.0.0/0^8-24}
+export:         to   AS42    91.206.52.12  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS42    91.206.52.12  at 91.206.52.71  action pref=1100;  accept   AS-PCH AND {0.0.0.0/0^8-24}
+export:         to   AS42    91.206.52.12  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][PCH-B] Packet Clearing House
+import:         from AS3856  91.206.52.24  at 91.206.52.70  action pref=1100;  accept   AS-PCH AND {0.0.0.0/0^8-24}
+export:         to   AS3856  91.206.52.24  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS3856  91.206.52.24  at 91.206.52.71  action pref=1100;  accept   AS-PCH AND {0.0.0.0/0^8-24}
+export:         to   AS3856  91.206.52.24  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][RETN] RETN
+import:         from AS9002  91.206.52.143 at 91.206.52.70  action pref=1100;  accept   AS-RETN AND {0.0.0.0/0^8-24}
+export:         to   AS9002  91.206.52.143 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS9002  91.206.52.143 at 91.206.52.71  action pref=1100;  accept   AS-RETN AND {0.0.0.0/0^8-24}
+export:         to   AS9002  91.206.52.143 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][ScanPlus] Scan Plus
+import:         from AS12399 91.206.52.50  at 91.206.52.70  action pref=1100;  accept   AS-SPXS AND {0.0.0.0/0^8-24}
+export:         to   AS12399 91.206.52.50  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS12399 91.206.52.50  at 91.206.52.71  action pref=1100;  accept   AS-SPXS AND {0.0.0.0/0^8-24}
+export:         to   AS12399 91.206.52.50  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][senseLAN] senseLAN
+import:         from AS31736 91.206.52.25  at 91.206.52.70  action pref=1100;  accept   AS-SENSELAN AND {0.0.0.0/0^8-24}
+export:         to   AS31736 91.206.52.25  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS31736 91.206.52.25  at 91.206.52.71  action pref=1100;  accept   AS-SENSELAN AND {0.0.0.0/0^8-24}
+export:         to   AS31736 91.206.52.25  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][SIG] SIG / IP-MAN
+import:         from AS20932 91.206.52.84  at 91.206.52.70  action pref=1100;  accept   AS-IP-MAN AND {0.0.0.0/0^8-24}
+export:         to   AS20932 91.206.52.84  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS20932 91.206.52.84  at 91.206.52.71  action pref=1100;  accept   AS-IP-MAN AND {0.0.0.0/0^8-24}
+export:         to   AS20932 91.206.52.84  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][SIMA] SIMA Lausanne
+import:         from AS34781 91.206.52.148 at 91.206.52.70  action pref=1100;  accept   AS-SIMA-LAUSANNE AND {0.0.0.0/0^8-24}
+export:         to   AS34781 91.206.52.148 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS34781 91.206.52.148 at 91.206.52.71  action pref=1100;  accept   AS-SIMA-LAUSANNE AND {0.0.0.0/0^8-24}
+export:         to   AS34781 91.206.52.148 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Solnet] Solnet
+import:         from AS9044  91.206.52.14  at 91.206.52.70  action pref=1100;  accept   AS-SOLNET AND {0.0.0.0/0^8-24}
+export:         to   AS9044  91.206.52.14  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS9044  91.206.52.14  at 91.206.52.71  action pref=1100;  accept   AS-SOLNET AND {0.0.0.0/0^8-24}
+export:         to   AS9044  91.206.52.14  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS9044  91.206.52.37  at 91.206.52.70  action pref=1100;  accept   AS-SOLNET AND {0.0.0.0/0^8-24}
+export:         to   AS9044  91.206.52.37  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS9044  91.206.52.37  at 91.206.52.71  action pref=1100;  accept   AS-SOLNET AND {0.0.0.0/0^8-24}
+export:         to   AS9044  91.206.52.37  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][SYSTEM-CLINCH] SYSTEM-CLINCH Internet Services GmbH
+import:         from AS20893 91.206.52.66  at 91.206.52.70  action pref=1100;  accept   AS20893 AND {0.0.0.0/0^8-24}
+export:         to   AS20893 91.206.52.66  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS20893 91.206.52.66  at 91.206.52.71  action pref=1100;  accept   AS20893 AND {0.0.0.0/0^8-24}
+export:         to   AS20893 91.206.52.66  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Telecom-LI] Telecom Liechtenstein AG
+import:         from AS20634 91.206.52.8   at 91.206.52.70  action pref=1100;  accept   (AS-LIECOMTEL AS-TELECOM) AND {0.0.0.0/0^8-24}
+export:         to   AS20634 91.206.52.8   at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS20634 91.206.52.8   at 91.206.52.71  action pref=1100;  accept   (AS-LIECOMTEL AS-TELECOM) AND {0.0.0.0/0^8-24}
+export:         to   AS20634 91.206.52.8   at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][TheNet] TheNet Internet Services
+import:         from AS6776  91.206.52.35  at 91.206.52.70  action pref=1100;  accept   AS-THENET AND {0.0.0.0/0^8-24}
+export:         to   AS6776  91.206.52.35  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS6776  91.206.52.35  at 91.206.52.71  action pref=1100;  accept   AS-THENET AND {0.0.0.0/0^8-24}
+export:         to   AS6776  91.206.52.35  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Ticinocom] Ticinocom
+import:         from AS12620 91.206.52.26  at 91.206.52.70  action pref=1100;  accept   AS-TICINOCOM AND {0.0.0.0/0^8-24}
+export:         to   AS12620 91.206.52.26  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS12620 91.206.52.26  at 91.206.52.71  action pref=1100;  accept   AS-TICINOCOM AND {0.0.0.0/0^8-24}
+export:         to   AS12620 91.206.52.26  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Trenka] Trenka Informatik AG
+import:         from AS29655 91.206.52.28  at 91.206.52.70  action pref=1100;  accept   AS-TRENKA AND {0.0.0.0/0^8-24}
+export:         to   AS29655 91.206.52.28  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS29655 91.206.52.28  at 91.206.52.71  action pref=1100;  accept   AS-TRENKA AND {0.0.0.0/0^8-24}
+export:         to   AS29655 91.206.52.28  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Viatel] Viatel
+import:         from AS8190  91.206.52.169 at 91.206.52.70  action pref=1100;  accept   AS-VIATEL AND {0.0.0.0/0^8-24}
+export:         to   AS8190  91.206.52.169 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS8190  91.206.52.169 at 91.206.52.71  action pref=1100;  accept   AS-VIATEL AND {0.0.0.0/0^8-24}
+export:         to   AS8190  91.206.52.169 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][VTX] VTX
+import:         from AS12350 91.206.52.77  at 91.206.52.70  action pref=1100;  accept   AS-VTX AND {0.0.0.0/0^8-24}
+export:         to   AS12350 91.206.52.77  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS12350 91.206.52.77  at 91.206.52.71  action pref=1100;  accept   AS-VTX AND {0.0.0.0/0^8-24}
+export:         to   AS12350 91.206.52.77  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Warinet] Warinet
+import:         from AS15469 91.206.52.30  at 91.206.52.70  action pref=1100;  accept   AS-WARINET AND {0.0.0.0/0^8-24}
+export:         to   AS15469 91.206.52.30  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS15469 91.206.52.30  at 91.206.52.71  action pref=1100;  accept   AS-WARINET AND {0.0.0.0/0^8-24}
+export:         to   AS15469 91.206.52.30  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Webland] Webland AG
+import:         from AS25563 91.206.52.110 at 91.206.52.70  action pref=1100;  accept   AS-WEBLAND AND {0.0.0.0/0^8-24}
+export:         to   AS25563 91.206.52.110 at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS25563 91.206.52.110 at 91.206.52.71  action pref=1100;  accept   AS-WEBLAND AND {0.0.0.0/0^8-24}
+export:         to   AS25563 91.206.52.110 at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Webtuning] Webtuning GmbH
+import:         from AS35256 91.206.52.58  at 91.206.52.70  action pref=1100;  accept   AS-WEBTUNING AND {0.0.0.0/0^8-24}
+export:         to   AS35256 91.206.52.58  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS35256 91.206.52.58  at 91.206.52.71  action pref=1100;  accept   AS-WEBTUNING AND {0.0.0.0/0^8-24}
+export:         to   AS35256 91.206.52.58  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+remarks:        @[SwissIX][Zugernet] ZUGERNET (Hofmann Informatik)
+import:         from AS28859 91.206.52.64  at 91.206.52.70  action pref=1100;  accept   AS-ZUGERNET AND {0.0.0.0/0^8-24}
+export:         to   AS28859 91.206.52.64  at 91.206.52.70                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+import:         from AS28859 91.206.52.64  at 91.206.52.71  action pref=1100;  accept   AS-ZUGERNET AND {0.0.0.0/0^8-24}
+export:         to   AS28859 91.206.52.64  at 91.206.52.71                     announce AS34288:AS-IX:AS-SWISSIX
+remarks:
+admin-c:        PNOC-RIPE
+tech-c:         PNOC-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         KSZ-CH-MNT
+mnt-by:         PROGON-MNT
+created:        2004-12-08T12:04:58Z
+last-modified:  2018-09-04T10:06:10Z
+source:         RIPE # Filtered
+
+organisation:   ORG-KZ1-RIPE
+org-name:       Kantonsschule Zug
+org-type:       LIR
+address:        Luessiweg 24 Postfach 7363
+address:        6302
+address:        Zug
+address:        SWITZERLAND
+phone:          +41417281330
+fax-no:         +41417281201
+admin-c:        KSZ-RIPE
+abuse-c:        DARN-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        KSZ-CH-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         KSZ-CH-MNT
+created:        2004-12-07T07:11:34Z
+last-modified:  2016-05-30T07:30:10Z
+source:         RIPE # Filtered
+
+role:           progon NOC
+address:        Haldenstrasse 6
+admin-c:        wiwi-ripe
+tech-c:         wiwi-ripe
+nic-hdl:        PNOC-RIPE
+mnt-by:         PROGON-MNT
+created:        2005-08-02T07:36:23Z
+last-modified:  2010-10-30T13:49:46Z
+source:         RIPE # Filtered
+
+% Information related to 'DARN-RIPE'
+
+role:           AS34288 Abuse Role
+address:        Kantonsschule Zug
+address:        Attn: Informatik
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH6302 Zug
+address:        Switzerland
+abuse-mailbox:  abuse@ksz.ch
+admin-c:        KSZ66-RIPE
+tech-c:         WIWI-RIPE
+tech-c:         AM6745-RIPE
+tech-c:         PS9731-RIPE
+nic-hdl:        DARN-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2013-03-31T14:05:44Z
+last-modified:  2013-03-31T14:05:44Z
+source:         RIPE # Filtered
+
+role:           AS34288 Administrative Role
+address:        Kantonsschule Zug
+address:        Attn: Verwaltung
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH6302 Zug
+address:        Switzerland
+abuse-mailbox:  abuse@ksz.ch
+admin-c:        WIWI-RIPE
+admin-c:        AK794-RIPE
+tech-c:         KSZ-RIPE
+nic-hdl:        KSZ66-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2009-11-02T11:47:48Z
+last-modified:  2009-11-02T12:57:45Z
+source:         RIPE # Filtered
+
+person:         Alex Meier
+org:            ORG-KZ1-RIPE
+address:        Kantonsschule Zug
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH-6302 Zug
+address:        Switzerland
+phone:          +41 41 7281398
+mnt-by:         KSZ-CH-MNT
+nic-hdl:        AM6745-RIPE
+created:        2004-12-07T16:56:01Z
+last-modified:  2013-07-28T10:43:48Z
+source:         RIPE
+
+person:         Patrick Schriber
+org:            ORG-KZ1-RIPE
+address:        Kantonsschule Zug
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH-6302 Zug
+address:        Switzerland
+phone:          +41 41 7281392
+nic-hdl:        PS9731-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2009-11-01T20:19:23Z
+last-modified:  2013-07-28T10:45:02Z
+source:         RIPE
+
+person:         Christian Wittenhorst
+address:        Haldenstrasse 6
+address:        CH-6300 Zug
+address:        Switzerland
+mnt-by:         PROGON-NET-MNT
+phone:          +41 79 4603040
+nic-hdl:        WIWI-RIPE
+created:        2005-07-28T14:33:11Z
+last-modified:  2005-07-28T14:33:11Z
+source:         RIPE
+
+% Information related to 'KSZ-RIPE'
+
+role:           AS34288 Technical Role
+address:        Kantonsschule Zug
+address:        Attn: Informatik
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH6302 Zug
+address:        Switzerland
+abuse-mailbox:  abuse@ksz.ch
+admin-c:        KSZ66-RIPE
+tech-c:         WIWI-RIPE
+tech-c:         AM6745-RIPE
+tech-c:         PS9731-RIPE
+nic-hdl:        KSZ-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2009-11-02T11:46:33Z
+last-modified:  2009-11-02T12:58:32Z
+source:         RIPE # Filtered
+
+role:           AS34288 Administrative Role
+address:        Kantonsschule Zug
+address:        Attn: Verwaltung
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH6302 Zug
+address:        Switzerland
+abuse-mailbox:  abuse@ksz.ch
+admin-c:        WIWI-RIPE
+admin-c:        AK794-RIPE
+tech-c:         KSZ-RIPE
+nic-hdl:        KSZ66-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2009-11-02T11:47:48Z
+last-modified:  2009-11-02T12:57:45Z
+source:         RIPE # Filtered
+
+person:         Alex Meier
+org:            ORG-KZ1-RIPE
+address:        Kantonsschule Zug
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH-6302 Zug
+address:        Switzerland
+phone:          +41 41 7281398
+mnt-by:         KSZ-CH-MNT
+nic-hdl:        AM6745-RIPE
+created:        2004-12-07T16:56:01Z
+last-modified:  2013-07-28T10:43:48Z
+source:         RIPE
+
+person:         Patrick Schriber
+org:            ORG-KZ1-RIPE
+address:        Kantonsschule Zug
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH-6302 Zug
+address:        Switzerland
+phone:          +41 41 7281392
+nic-hdl:        PS9731-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2009-11-01T20:19:23Z
+last-modified:  2013-07-28T10:45:02Z
+source:         RIPE
+
+person:         Christian Wittenhorst
+address:        Haldenstrasse 6
+address:        CH-6300 Zug
+address:        Switzerland
+mnt-by:         PROGON-NET-MNT
+phone:          +41 79 4603040
+nic-hdl:        WIWI-RIPE
+created:        2005-07-28T14:33:11Z
+last-modified:  2005-07-28T14:33:11Z
+source:         RIPE
+
+% Information related to 'KSZ66-RIPE'
+
+role:           AS34288 Administrative Role
+address:        Kantonsschule Zug
+address:        Attn: Verwaltung
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH6302 Zug
+address:        Switzerland
+abuse-mailbox:  abuse@ksz.ch
+admin-c:        WIWI-RIPE
+admin-c:        AK794-RIPE
+tech-c:         KSZ-RIPE
+nic-hdl:        KSZ66-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2009-11-02T11:47:48Z
+last-modified:  2009-11-02T12:57:45Z
+source:         RIPE # Filtered
+
+role:           AS34288 Technical Role
+address:        Kantonsschule Zug
+address:        Attn: Informatik
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH6302 Zug
+address:        Switzerland
+abuse-mailbox:  abuse@ksz.ch
+admin-c:        KSZ66-RIPE
+tech-c:         WIWI-RIPE
+tech-c:         AM6745-RIPE
+tech-c:         PS9731-RIPE
+nic-hdl:        KSZ-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2009-11-02T11:46:33Z
+last-modified:  2009-11-02T12:58:32Z
+source:         RIPE # Filtered
+
+person:         Andre Kottmeyer
+address:        Kantonsschule Zug
+address:        Luessiweg 24
+address:        Postfach 2359
+address:        CH6302 Zug
+address:        Switzerland
+phone:          +41 41 728 1221
+nic-hdl:        AK794-RIPE
+mnt-by:         KSZ-CH-MNT
+created:        2009-11-01T20:38:50Z
+last-modified:  2009-11-01T20:42:54Z
+source:         RIPE # Filtered
+
+person:         Christian Wittenhorst
+address:        Haldenstrasse 6
+address:        CH-6300 Zug
+address:        Switzerland
+mnt-by:         PROGON-NET-MNT
+phone:          +41 79 4603040
+nic-hdl:        WIWI-RIPE
+created:        2005-07-28T14:33:11Z
+last-modified:  2005-07-28T14:33:11Z
+source:         RIPE
+
+% Information related to 'AS33792 - AS34815'
+
+as-block:       AS33792 - AS34815
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are further assigned to network
+                operators in the RIPE NCC service region. AS
+                assignment policy is documented in:
+                <http://www.ripe.net/ripe/docs/asn-assignment.html>
+                RIPE NCC members can request AS Numbers using the
+                form located at:
+                <http://lirportal.ripe.net/lirportal/liruser/resource_request/draw.html?name=as-number>
+remarks:        data has been transferred from RIPE Whois Database 20050221
+org:            ORG-AFNC1-AFRINIC
+mnt-by:         AFRINIC-HM-MNT
+mnt-lower:      AFRINIC-HM-MNT
+source:         AFRINIC-GRS
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the AFRINIC Database at:
+remarks:        * http://www.afrinic.net/
+remarks:        ****************************
+
+organisation:   ORG-AFNC1-AFRINIC
+org-name:       African Network Information Center - ( AfriNIC Ltd. )
+org-type:       RIR
+remarks:        =======================================
+remarks:        For more information on AFRINIC assigned blocks,
+remarks:        querry whois.afrinic.net port 43, or the web based
+remarks:        query at http://whois.afrinic.net or www.afrinic.net
+remarks:        website: www.afrinic.net
+remarks:        Other Contacts:
+remarks:        ===============
+remarks:        hostmaster@afrinic.net  - for IP resources
+remarks:        new-member@afrinic.net  - for new members and other
+remarks:        inquiries.
+address:        ***
+address:        ***
+address:        Ebne
+phone:          tel:+230.........
+fax-no:         tel:+230.........
+e-mail:         ***@afrinic.net
+admin-c:        CA15-AFRINIC
+tech-c:         IT7-AFRINIC
+mnt-ref:        AFRINIC-HM-MNT
+mnt-ref:        AFRINIC-IT-MNT
+mnt-ref:        AFRINIC-DB-MNT
+notify:         ***@afrinic.net
+mnt-by:         AFRINIC-HM-MNT
+source:         AFRINIC-GRS
+
+% This query was served by the RIPE Database Query Service version 1.93.2 (HEREFORD)
+
+

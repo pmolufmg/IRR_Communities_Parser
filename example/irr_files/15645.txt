@@ -1,0 +1,436 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS15645
+as-name:       AS15645
+descr:         DE "Ukrainian Internet Exchange" (UA-IX)
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS112 action pref=100; accept AS112
+import:        from AS3254 action pref=100; accept AS-LUCKY
+import:        from AS3255 action pref=100; accept AS-UARNET AS-PLNET AS-ENERGOTEL
+import:        from AS3261 action pref=100; accept AS-DONBASS
+import:        from AS3326 action pref=100; accept AS3326:AS-EXT
+import:        from AS6702 action pref=100; accept AS-APEX
+import:        from AS6712 action pref=100; accept AS-FORMAT
+import:        from AS6768 action pref=100; accept AS-EUROTELE
+import:        from AS6846 action pref=100; accept AS-UKRPACK-UAIX
+import:        from AS6849 action pref=100; accept AS6849
+import:        from AS6876 action pref=100; accept AS-TENET-UA
+import:        from AS6886 action pref=100; accept AS-INTS
+import:        from AS6939 action pref=100; accept AS6939
+import:        from AS8258 action pref=100; accept AS-VISTI
+import:        from AS8343 action pref=100; accept AS-DORIS
+import:        from AS8674 action pref=100; accept AS-NETNOD-ANYCAST
+import:        from AS8788 action pref=100; accept AS-ADAM-UA
+import:        from AS8856 action pref=100; accept AS-UKRNET
+import:        from AS12294 action pref=100; accept AS-TSUAUA
+import:        from AS12548 action pref=100; accept AS12548
+import:        from AS12578 action pref=100; accept AS-LATTELEKOM
+import:        from AS12593 action pref=100; accept AS-UKRHUB
+import:        from AS12662 action pref=100; accept AS-NEMI
+import:        from AS12687 action pref=100; accept AS-URAN-UA
+import:        from AS12700 action pref=100; accept AS12700
+import:        from AS12788 action pref=100; accept AS-NBI
+import:        from AS12883 action pref=100; accept AS-UCOMLINE
+import:        from AS12963 action pref=100; accept AS12963:AS-CUST2UAIX
+import:        from AS12998 action pref=100; accept AS-BGN-UA
+import:        from AS13032 action pref=100; accept AS-UNIV
+import:        from AS13053 action pref=100; accept AS-STKIX
+import:        from AS13121 action pref=100; accept AS-NAVIGATOR-UA
+import:        from AS13188 action pref=100; accept AS-BANKINFORM
+import:        from AS13249 action pref=100; accept AS-ITS-UAIX
+import:        from AS13307 action pref=100; accept AS-SKIF
+import:        from AS13335 action pref=100; accept AS13335
+import:        from AS15169 action pref=100; accept AS-GOOGLE
+import:        from AS15377 action pref=100; accept AS-FREGAT
+import:        from AS15497 action pref=100; accept AS-COLOCALL-UA
+import:        from AS15738 action pref=100; accept AS-EXPRESSUA
+import:        from AS15895 action pref=100; accept AS15895:AS-ALL AS15895:AS-UAIX
+import:        from AS16007 action pref=100; accept AS-KANCOM
+import:        from AS16066 action pref=100; accept AS-CITYNET
+import:        from AS20516 action pref=100; accept AS-SVUA
+import:        from AS20714 action pref=100; accept AS-MERLINTELECOM-UA
+import:        from AS20833 action pref=100; accept AS-XTC
+import:        from AS20873 action pref=100; accept AS-P5
+import:        from AS20940 action pref=100; accept AS20940
+import:        from AS21219 action pref=100; accept AS-NEWLINE
+import:        from AS21312 action pref=100; accept AS-CHEREDA-SM
+import:        from AS21379 action pref=100; accept AS-ISV
+import:        from AS21488 action pref=100; accept AS-EMPLOT
+import:        from AS21497 action pref=100; accept AS-UMC-CUSTOMERS
+import:        from AS24593 action pref=100; accept AS-MOBICOM AS-MOBIKOM
+import:        from AS24700 action pref=100; accept as-iprosrv
+import:        from AS24703 action pref=100; accept AS-UNITED
+import:        from AS24896 action pref=100; accept AS-INTELLECOM
+import:        from AS24962 action pref=100; accept AS-TSUKRAINE
+import:        from AS24995 action pref=100; accept AS-MIK
+import:        from AS25133 action pref=100; accept AS-MCLAUT2UA-PEERS
+import:        from AS25143 action pref=100; accept AS-IU-UAIX
+import:        from AS25229 action pref=100; accept AS25229:AS-CUST AS-SET-DCS
+import:        from AS25385 action pref=100; accept AS-BELCOMUA
+import:        from AS25386 action pref=100; accept AS-CYFRA-UA
+import:        from AS25500 action pref=100; accept AS-KPI
+import:        from AS25505 action pref=100; accept AS25505:AS-CHEREDA-IX
+import:        from AS25521 action pref=100; accept AS-IPNETUAUA
+import:        from AS25526 action pref=100; accept AS25526
+import:        from AS28761 action pref=100; accept AS28761
+import:        from AS28773 action pref=100; accept AS-MASTER
+import:        from AS28804 action pref=100; accept AS28804
+import:        from AS28858 action pref=100; accept AS-LECOS
+import:        from AS28907 action pref=100; accept AS-MIROHOST-A
+import:        from AS28917 action pref=100; accept AS-FIORD
+import:        from AS28994 action pref=100; accept AS28994
+import:        from AS29062 action pref=100; accept AS-VOKS
+import:        from AS29074 action pref=100; accept AS-FAUST
+import:        from AS29102 action pref=100; accept AS-UPC-NET
+import:        from AS29107 action pref=100; accept AS-SYNAPSE
+import:        from AS29491 action pref=100; accept AS-TERABIT
+import:        from AS29632 action pref=100; accept AS-NETASSIST
+import:        from AS30128 action pref=100; accept AS30128:AS-SET
+import:        from AS30779 action pref=100; accept AS-INET-UA
+import:        from AS31061 action pref=100; accept AS31061
+import:        from AS31148 action pref=100; accept AS-FNT
+import:        from AS31272 action pref=100; accept AS-WILDPARK
+import:        from AS31343 action pref=100; accept AS-INTERTELECOM
+import:        from AS31725 action pref=100; accept AS-SHTORM
+import:        from AS33817 action pref=100; accept AS-TELEGROUP
+import:        from AS34056 action pref=100; accept AS-KIEVNET
+import:        from AS34214 action pref=100; accept AS-IPMG
+import:        from AS34251 action pref=100; accept AS-IMC
+import:        from AS34265 action pref=100; accept AS-SILVERTELECOM
+import:        from AS34312 action pref=100; accept AS-ITMEDIA-UAIX
+import:        from AS34700 action pref=100; accept AS-KHMAXNET
+import:        from AS34743 action pref=100; accept AS-NASHNET
+import:        from AS34792 action pref=100; accept AS-FSS_UA-IX
+import:        from AS34867 action pref=100; accept AS-COSMONOVA
+import:        from AS35004 action pref=100; accept AS-NETGRUP
+import:        from AS35213 action pref=100; accept AS-PCN
+import:        from AS35297 action pref=100; accept AS-DL-UAIX
+import:        from AS35320 action pref=100; accept AS-ETT
+import:        from AS35352 action pref=100; accept AS-UKRTELEBUD
+import:        from AS35362 action pref=100; accept AS-35362
+import:        from AS35365 action pref=100; accept AS-VICATV-UA
+import:        from AS35562 action pref=100; accept AS35562
+import:        from AS35795 action pref=100; accept AS-VEDEKON
+import:        from AS39399 action pref=100; accept AS-FENIXVT-UAIX
+import:        from AS39431 action pref=100; accept AS-ARGOCOM
+import:        from AS39608 action pref=100; accept AS-LANETUA
+import:        from AS39810 action pref=100; accept AS-WICOM
+import:        from AS39928 action pref=100; accept AS-1PLUS1
+import:        from AS41096 action pref=100; accept AS41096
+import:        from AS41165 action pref=100; accept AS-UNTC
+import:        from AS41360 action pref=100; accept AS-NEOCOM
+import:        from AS41435 action pref=100; accept AS-NETUNDER
+import:        from AS41709 action pref=100; accept AS41709
+import:        from AS41710 action pref=100; accept AS-MIIT
+import:        from AS41820 action pref=100; accept AS-NOVI
+import:        from AS42088 action pref=100; accept AS-DBOSOFT
+import:        from AS42126 action pref=100; accept AS42126
+import:        from AS42331 action pref=100; accept AS-FREEHOST
+import:        from AS42352 action pref=100; accept AS-QOS
+import:        from AS42396 action pref=100; accept AS-PPLnet
+import:        from AS42458 action pref=100; accept AS42458
+import:        from AS42504 action pref=100; accept AS-UKRBIT
+import:        from AS42510 action pref=100; accept AS-WDM-UA
+import:        from AS42512 action pref=100; accept AS42512
+import:        from AS42546 action pref=100; accept AS-UOS-IX
+import:        from AS43022 action pref=100; accept AS-UASEECH
+import:        from AS43110 action pref=100; accept AS-ROSTNET
+import:        from AS43139 action pref=100; accept AS-MAXIMUM
+import:        from AS43332 action pref=100; accept AS-IDSTRATEGY
+import:        from AS43409 action pref=100; accept AS43409
+import:        from AS43418 action pref=100; accept AS-ANTIDOT
+import:        from AS43554 action pref=100; accept AS-MYTRINITY
+import:        from AS43576 action pref=100; accept AS-KUMIR-UAIX
+import:        from AS43658 action pref=100; accept AS-INTRAFFIC
+import:        from AS43668 action pref=100; accept AS-ELHIM
+import:        from AS43967 action pref=100; accept AS-TEREMKI
+import:        from AS44416 action pref=100; accept AS-SNS-SLAV
+import:        from AS44600 action pref=100; accept AS-GGT
+import:        from AS44827 action pref=100; accept AS-BRAVOPORT
+import:        from AS48117 action pref=100; accept AS48117
+import:        from AS48229 action pref=100; accept AS-STARLIGHT
+import:        from AS48239 action pref=100; accept AS-INFTECH
+import:        from AS48278 action pref=100; accept as-ukrdatacom
+import:        from AS48385 action pref=100; accept AS-INFOAURA
+import:        from AS48533 action pref=100; accept AS-TANGRAM-UA
+import:        from AS48648 action pref=100; accept AS-KLNK
+import:        from AS48650 action pref=100; accept AS-ETHERLINK
+import:        from AS48683 action pref=100; accept AS-BILINK
+import:        from AS48919 action pref=100; accept AS-UACITY
+import:        from AS48964 action pref=100; accept AS-ENTERRA
+import:        from AS49029 action pref=100; accept AS-PROLINK
+import:        from AS49038 action pref=100; accept AS49038
+import:        from AS49183 action pref=100; accept AS49183:AS-CUSTOMERS
+import:        from AS49223 action pref=100; accept AS-EVEREST
+import:        from AS49461 action pref=100; accept AS-KAMPOD
+import:        from AS49588 action pref=100; accept AS-SDS
+import:        from AS49824 action pref=100; accept AS-ACTPA
+import:        from AS50204 action pref=100; accept AS50204
+import:        from AS50401 action pref=100; accept AS50401
+import:        from AS50499 action pref=100; accept AS-TELEPARK-UA
+import:        from AS50581 action pref=100; accept AS-UTG-UA
+import:        from AS50643 action pref=100; accept AS-LU
+import:        from AS50856 action pref=100; accept AS-INI-NET
+import:        from AS50864 action pref=100; accept AS-ITTELENET-UAIX
+import:        from AS50949 action pref=100; accept AS-AGRONET
+import:        from AS51069 action pref=100; accept AS-DNEPRONET
+import:        from AS51273 action pref=100; accept AS-SKYNET-UA
+import:        from AS51500 action pref=100; accept AS-KOPIYKA
+import:        from AS52180 action pref=100; accept AS-EL
+import:        from AS56835 action pref=100; accept AS-UTELS
+import:        from AS56972 action pref=100; accept AS-AXON
+import:        from AS57422 action pref=100; accept AS-PAVUTYNA
+import:        from AS57463 action pref=100; accept AS-NETIX-NET
+import:        from AS57864 action pref=100; accept AS-MEGABIT
+import:        from AS58309 action pref=100; accept AS58309
+import:        from AS59492 action pref=100; accept AS-MEGOGO-UA
+import:        from AS59497 action pref=100; accept AS-BUKNET-UAIX
+import:        from AS59536 action pref=100; accept AS-MIXMEDIA-IX
+import:        from AS59636 action pref=100; accept AS59636
+import:        from AS60173 action pref=100; accept AS60173
+import:        from AS60777 action pref=100; accept AS60777
+import:        from AS60953 action pref=100; accept AS-PROT
+import:        from AS61297 action pref=100; accept AS61297:AS-UA
+import:        from AS61371 action pref=100; accept AS-UA-STARNET
+import:        from AS62206 action pref=100; accept AS-PITLINE
+import:        from AS196645 action pref=100; accept AS-HOSTPRO
+import:        from AS196777 action pref=100; accept AS-SKYNET-BRV
+import:        from AS196924 action pref=100; accept AS196924
+import:        from AS197520 action pref=100; accept AS-UNIONCOM
+import:        from AS198227 action pref=100; accept AS-NEWTELECOM
+import:        from AS199450 action pref=100; accept AS199450
+import:        from AS199995 action pref=100; accept AS199995:AS-PEER
+import:        from AS200000 action pref=100; accept AS-DELTAX
+import:        from AS200582 action pref=100; accept AS200582
+import:        from AS201872 action pref=100; accept AS-MIXNET
+import:        from AS25372 action pref=600; accept { 0.0.0.0/0 }
+export:        to AS112 announce AS-UAIX
+export:        to AS3254 announce AS-UAIX
+export:        to AS3255 announce AS-UAIX
+export:        to AS3261 announce AS-UAIX
+export:        to AS3326 announce AS-UAIX
+export:        to AS6702 announce AS-UAIX
+export:        to AS6712 announce AS-UAIX
+export:        to AS6768 announce AS-UAIX
+export:        to AS6846 announce AS-UAIX
+export:        to AS6849 announce AS-UAIX
+export:        to AS6876 announce AS-UAIX
+export:        to AS6886 announce AS-UAIX
+export:        to AS6939 announce AS-UAIX
+export:        to AS8258 announce AS-UAIX
+export:        to AS8343 announce AS-UAIX
+export:        to AS8674 announce AS-UAIX
+export:        to AS8788 announce AS-UAIX
+export:        to AS8856 announce AS-UAIX
+export:        to AS12294 announce AS-UAIX
+export:        to AS12548 announce AS-UAIX
+export:        to AS12578 announce AS-UAIX
+export:        to AS12593 announce AS-UAIX
+export:        to AS12662 announce AS-UAIX
+export:        to AS12687 announce AS-UAIX
+export:        to AS12700 announce AS-UAIX
+export:        to AS12788 announce AS-UAIX
+export:        to AS12883 announce AS-UAIX
+export:        to AS12963 announce AS-UAIX
+export:        to AS12998 announce AS-UAIX
+export:        to AS13032 announce AS-UAIX
+export:        to AS13053 announce AS-UAIX
+export:        to AS13121 announce AS-UAIX
+export:        to AS13188 announce AS-UAIX
+export:        to AS13249 announce AS-UAIX
+export:        to AS13307 announce AS-UAIX
+export:        to AS13335 announce AS-UAIX
+export:        to AS15169 announce AS-UAIX
+export:        to AS15377 announce AS-UAIX
+export:        to AS15497 announce AS-UAIX
+export:        to AS15738 announce AS-UAIX
+export:        to AS15895 announce AS-UAIX
+export:        to AS16007 announce AS-UAIX
+export:        to AS16066 announce AS-UAIX
+export:        to AS20516 announce AS-UAIX
+export:        to AS20714 announce AS-UAIX
+export:        to AS20833 announce AS-UAIX
+export:        to AS20873 announce AS-UAIX
+export:        to AS20940 announce AS-UAIX
+export:        to AS21219 announce AS-UAIX
+export:        to AS21312 announce AS-UAIX
+export:        to AS21379 announce AS-UAIX
+export:        to AS21488 announce AS-UAIX
+export:        to AS21497 announce AS-UAIX
+export:        to AS24593 announce AS-UAIX
+export:        to AS24700 announce AS-UAIX
+export:        to AS24703 announce AS-UAIX
+export:        to AS24896 announce AS-UAIX
+export:        to AS24962 announce AS-UAIX
+export:        to AS24995 announce AS-UAIX
+export:        to AS25133 announce AS-UAIX
+export:        to AS25143 announce AS-UAIX
+export:        to AS25229 announce AS-UAIX
+export:        to AS25385 announce AS-UAIX
+export:        to AS25386 announce AS-UAIX
+export:        to AS25500 announce AS-UAIX
+export:        to AS25505 announce AS-UAIX
+export:        to AS25521 announce AS-UAIX
+export:        to AS25526 announce AS-UAIX
+export:        to AS28761 announce AS-UAIX
+export:        to AS28773 announce AS-UAIX
+export:        to AS28804 announce AS-UAIX
+export:        to AS28858 announce AS-UAIX
+export:        to AS28907 announce AS-UAIX
+export:        to AS28917 announce AS-UAIX
+export:        to AS28994 announce AS-UAIX
+export:        to AS29062 announce AS-UAIX
+export:        to AS29074 announce AS-UAIX
+export:        to AS29102 announce AS-UAIX
+export:        to AS29107 announce AS-UAIX
+export:        to AS29491 announce AS-UAIX
+export:        to AS29632 announce AS-UAIX
+export:        to AS30128 announce AS-UAIX
+export:        to AS30779 announce AS-UAIX
+export:        to AS31061 announce AS-UAIX
+export:        to AS31148 announce AS-UAIX
+export:        to AS31272 announce AS-UAIX
+export:        to AS31343 announce AS-UAIX
+export:        to AS31725 announce AS-UAIX
+export:        to AS33817 announce AS-UAIX
+export:        to AS34056 announce AS-UAIX
+export:        to AS34214 announce AS-UAIX
+export:        to AS34251 announce AS-UAIX
+export:        to AS34265 announce AS-UAIX
+export:        to AS34312 announce AS-UAIX
+export:        to AS34700 announce AS-UAIX
+export:        to AS34743 announce AS-UAIX
+export:        to AS34792 announce AS-UAIX
+export:        to AS34867 announce AS-UAIX
+export:        to AS35004 announce AS-UAIX
+export:        to AS35213 announce AS-UAIX
+export:        to AS35297 announce AS-UAIX
+export:        to AS35320 announce AS-UAIX
+export:        to AS35352 announce AS-UAIX
+export:        to AS35362 announce AS-UAIX
+export:        to AS35365 announce AS-UAIX
+export:        to AS35562 announce AS-UAIX
+export:        to AS35795 announce AS-UAIX
+export:        to AS39399 announce AS-UAIX
+export:        to AS39431 announce AS-UAIX
+export:        to AS39608 announce AS-UAIX
+export:        to AS39810 announce AS-UAIX
+export:        to AS39928 announce AS-UAIX
+export:        to AS41096 announce AS-UAIX
+export:        to AS41165 announce AS-UAIX
+export:        to AS41360 announce AS-UAIX
+export:        to AS41435 announce AS-UAIX
+export:        to AS41709 announce AS-UAIX
+export:        to AS41710 announce AS-UAIX
+export:        to AS41820 announce AS-UAIX
+export:        to AS42088 announce AS-UAIX
+export:        to AS42126 announce AS-UAIX
+export:        to AS42331 announce AS-UAIX
+export:        to AS42352 announce AS-UAIX
+export:        to AS42396 announce AS-UAIX
+export:        to AS42458 announce AS-UAIX
+export:        to AS42504 announce AS-UAIX
+export:        to AS42510 announce AS-UAIX
+export:        to AS42512 announce AS-UAIX
+export:        to AS42546 announce AS-UAIX
+export:        to AS43022 announce AS-UAIX
+export:        to AS43110 announce AS-UAIX
+export:        to AS43139 announce AS-UAIX
+export:        to AS43332 announce AS-UAIX
+export:        to AS43409 announce AS-UAIX
+export:        to AS43418 announce AS-UAIX
+export:        to AS43554 announce AS-UAIX
+export:        to AS43576 announce AS-UAIX
+export:        to AS43658 announce AS-UAIX
+export:        to AS43668 announce AS-UAIX
+export:        to AS43967 announce AS-UAIX
+export:        to AS44416 announce AS-UAIX
+export:        to AS44600 announce AS-UAIX
+export:        to AS44827 announce AS-UAIX
+export:        to AS48117 announce AS-UAIX
+export:        to AS48229 announce AS-UAIX
+export:        to AS48239 announce AS-UAIX
+export:        to AS48278 announce AS-UAIX
+export:        to AS48385 announce AS-UAIX
+export:        to AS48533 announce AS-UAIX
+export:        to AS48648 announce AS-UAIX
+export:        to AS48650 announce AS-UAIX
+export:        to AS48683 announce AS-UAIX
+export:        to AS48919 announce AS-UAIX
+export:        to AS48964 announce AS-UAIX
+export:        to AS49029 announce AS-UAIX
+export:        to AS49038 announce AS-UAIX
+export:        to AS49183 announce AS-UAIX
+export:        to AS49223 announce AS-UAIX
+export:        to AS49461 announce AS-UAIX
+export:        to AS49588 announce AS-UAIX
+export:        to AS49824 announce AS-UAIX
+export:        to AS50204 announce AS-UAIX
+export:        to AS50401 announce AS-UAIX
+export:        to AS50499 announce AS-UAIX
+export:        to AS50581 announce AS-UAIX
+export:        to AS50643 announce AS-UAIX
+export:        to AS50856 announce AS-UAIX
+export:        to AS50864 announce AS-UAIX
+export:        to AS50949 announce AS-UAIX
+export:        to AS51069 announce AS-UAIX
+export:        to AS51273 announce AS-UAIX
+export:        to AS51500 announce AS-UAIX
+export:        to AS52180 announce AS-UAIX
+export:        to AS56835 announce AS-UAIX
+export:        to AS56972 announce AS-UAIX
+export:        to AS57422 announce AS-UAIX
+export:        to AS57463 announce AS-UAIX
+export:        to AS57864 announce AS-UAIX
+export:        to AS58309 announce AS-UAIX
+export:        to AS59492 announce AS-UAIX
+export:        to AS59497 announce AS-UAIX
+export:        to AS59536 announce AS-UAIX
+export:        to AS59636 announce AS-UAIX
+export:        to AS60173 announce AS-UAIX
+export:        to AS60777 announce AS-UAIX
+export:        to AS60953 announce AS-UAIX
+export:        to AS61297 announce AS-UAIX
+export:        to AS61371 announce AS-UAIX
+export:        to AS62206 announce AS-UAIX
+export:        to AS196645 announce AS-UAIX
+export:        to AS196777 announce AS-UAIX
+export:        to AS196924 announce AS-UAIX
+export:        to AS197520 announce AS-UAIX
+export:        to AS198227 announce AS-UAIX
+export:        to AS199450 announce AS-UAIX
+export:        to AS199995 announce AS-UAIX
+export:        to AS200000 announce AS-UAIX
+export:        to AS200582 announce AS-UAIX
+export:        to AS201872 announce AS-UAIX
+export:        to AS25372 announce AS15645 AND NOT { 195.35.65.0/24 }
+remarks:       IPv6 peering info
+remarks:       ===== Uplink
+remarks:       
+remarks:       ======================================================
+remarks:       Informational BGP communities advertised to customers:
+remarks:       
+remarks:       15645:5  - announce received on G50
+remarks:       15645:7  - announce received on Comstar
+remarks:       15645:9  - announce received on Vega
+remarks:       
+remarks:       Community attributes accepted from customers:
+remarks:       
+remarks:       15645:9999 - blackhole (only for /32 prefixes)
+remarks:       ======================================================
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        admin@ix.net.ua
+mnt-by:        UAIX-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

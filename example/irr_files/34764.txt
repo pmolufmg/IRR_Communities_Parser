@@ -1,0 +1,189 @@
+aut-num:        AS34764
+as-name:        FISDE-AS
+remarks:        trading as Funke Internet Services
+org:            ORG-MF25-RIPE
+remarks:
+remarks:
+remarks:        Upstreams:
+remarks:        ==========================================================
+remarks:
+remarks:        # Lightup Network Solutions
+import:         from AS25486 accept ANY
+export:         to AS25486 announce AS-FISDE
+remarks:
+remarks:        # Inteliquent (former TiNet)
+import:         from AS3257 accept any
+export:         to AS3257 announce AS-FISDE
+remarks:
+remarks:        # Inline Internet Online Dienste
+import:         from AS31147 accept any
+export:         to AS31147 announce AS-FISDE
+remarks:
+remarks:        # Hurricane Electric
+import:         from AS6939 accept ANY
+export:         to AS6939 announce AS-FISDE
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:        Peers:
+remarks:        ==========================================================
+remarks:
+remarks:
+import:         from AS31142 accept AS-KLEYREX-RS1
+export:         to AS31142 announce AS-FISDE
+remarks:
+import:         from AS41692 accept AS-OPENCARRIER
+export:         to AS41692 announce AS-FISDE
+remarks:
+import:         from AS23456 accept AS-BLANK
+export:         to AS23456 announce AS-FISDE
+remarks:
+import:         from AS29471 accept AS-WEBJANSSEN
+export:         to AS29471 announce AS-FISDE
+remarks:
+import:         from AS44146 accept AS-STARHOSTING
+export:         to AS44146 announce AS-FISDE
+remarks:
+import:         from AS29066 accept AS-VELIANET
+export:         to AS29066 announce AS-FISDE
+remarks:
+import:         from AS34154 accept AS-CONFIGO
+export:         to AS34154 announce AS-FISDE
+remarks:
+import:         from AS12759 accept AS-SOCO
+export:         to AS12759 announce AS-FISDE
+remarks:
+import:         from AS31400 accept AS-ACCELERATED
+export:         to AS31400 announce AS-FISDE
+remarks:
+import:         from AS39792 accept AS-ANDERS
+export:         to AS39792 announce AS-FISDE
+remarks:
+import:         from AS42456 accept AS-CHMURTZ
+export:         to AS42456 announce AS-FISDE
+remarks:
+import:         from AS42366 accept AS-TERRATRANSIT
+export:         to AS42366 announce AS-FISDE
+remarks:
+import:         from AS25489 accept AS-AQUATIX
+export:         to AS25489 announce AS-FISDE
+remarks:
+import:         from AS15844 accept AS-TGCTOKLEYREX
+export:         to AS15844 announce AS-FISDE
+remarks:
+import:         from AS29208 accept AS-WITCOM
+export:         to AS29208 announce AS-FISDE
+remarks:
+import:         from AS28676 accept AS29208
+export:         to AS28676 announce AS-FISDE
+remarks:
+import:         from AS34309 accept AS-LINK11
+export:         to AS34309 announce AS-FISDE
+remarks:
+import:         from AS36408 accept AS-PANTHER
+export:         to AS36408 announce AS-FISDE
+remarks:
+import:         from AS28753 accept AS-NETDIRECT
+export:         to AS28753 announce AS-FISDE
+remarks:
+import:         from AS25220 accept AS-GLOBALNOC
+export:         to AS25220 announce AS-FISDE
+remarks:
+import:         from AS21413 accept AS-ENVIATEL
+export:         to AS21413 announce AS-FISDE
+remarks:
+import:         from AS33811 accept AS-PIXEL-UP
+export:         to AS33811 announce AS-FISDE
+remarks:
+import:         from AS25279 accept AS-TREML-STURM
+export:         to AS25279 announce AS-FISDE
+remarks:
+import:         from AS21385 accept AS-TNIB
+export:         to AS21385 announce AS-FISDE
+remarks:
+import:         from AS9063 accept AS-SAARGATE
+export:         to AS9063 announce AS-FISDE
+remarks:
+import:         from AS12682 accept AS-LTT
+export:         to AS12682 announce AS-FISDE
+remarks:
+import:         from AS34549 accept AS-LAXIN
+export:         to AS34549 announce AS-FISDE
+remarks:
+import:         from AS48835 accept AS-FERONET
+export:         to AS48835 announce AS-FISDE
+remarks:
+import:         from AS58329 accept AS-RACKPLACE
+export:         to AS58329 announce AS-FISDE
+remarks:
+import:         from AS199071 accept AS-PRUNK
+export:         to AS199071 announce AS-FISDE
+remarks:
+import:         from AS62078 accept AS-VELDER
+export:         to AS62078 announce AS-FISDE
+remarks:
+import:         from AS201206 accept AS-LINEVAST
+export:         to AS201206 announce AS-FISDE
+remarks:
+import:         from AS61337 accept AS-GXT
+export:         to AS61337 announce AS-FISDE
+remarks:
+import:         from AS206499 accept AS-MMNETWORKS
+export:         to AS206499 announce AS-FISDE
+remarks:
+import:         from AS49697 accept AS-JOEYNETWORK
+export:         to AS49697 announce AS-FISDE
+remarks:
+import:         from AS205777 accept AS-TGLASS
+export:         to AS205777 announce AS-FISDE
+remarks:
+import:         from AS51391 accept AS-TOMMYBOWDITCH
+export:         to AS51391 announce AS-FISDE
+remarks:
+import:         from AS205593 accept AS-TAKEN
+export:         to AS205593 announce AS-FISDE
+remarks:
+import:         from AS203729 accept AS-IGLOO22225
+export:         to AS203729 announce AS-FISDE
+remarks:
+import:         from AS135164 accept AS-GOTROOT
+export:         to AS135164 announce AS-FISDE
+remarks:
+remarks:
+remarks:        Last updated: 20170929
+remarks:
+remarks:
+remarks:        Customer readable/settable Communities:
+remarks:        ----------------------------------------------------------
+remarks:
+remarks:        34764:1000 Routes learned from AS12586 in Frankfurt am Main, DE
+remarks:        34764:1001 Routes learned from AS31147 in Frankfurt am Main, DE
+remarks:        34764:1003 Routes learned from AS3257 in Frankfurt am Main, DE
+remarks:        34764:1004 Routes learned from AS25486 in Frankfurt am Main, DE
+remarks:        34764:3001 Routes learned from AS6939 in Fremont, US
+remarks:
+remarks:        34764:6000 Routes learned from KleyReX-RS in Frankfurt am Main, DE
+remarks:        34764:6501 Routes learned from KleyReX peers in Frankfurt am Main, DE
+remarks:
+remarks:        34764:666 Nullroute within the backbone and export nullrouting to peers
+remarks:        34764:700   Do not announce to KleyReX Routeserver
+remarks:        34764:701   Do not announce to KleyReX peers
+remarks:
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-routes:     FISDE-MNT
+mnt-by:         FISDE-MNT
+created:        2005-03-31T09:12:03Z
+last-modified:  2017-11-15T09:43:20Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

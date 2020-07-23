@@ -1,0 +1,155 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS49895'
+
+% Abuse contact for 'AS49895' is 'abuse-ripe@dcenter.pl'
+
+aut-num:        AS49895
+as-name:        DCENTER-AS
+remarks:        Autonomous System for DCENTER-NET
+org:            ORG-dszo13-RIPE
+admin-c:        DCN4-RIPE
+tech-c:         DCN4-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:
+remarks:        BGP COMMUNITIES SUPPORTED IN DCENTER.PL
+remarks:        -------------------------------------------------------
+remarks:        Communities to determine entry point of route
+remarks:        -= POLAND =-
+remarks:        49895:1129 - ACX
+remarks:        49895:1139 - EPIX
+remarks:        49895:1149 - PLIX
+remarks:        49895:1169 - PIONIER-PLIX
+remarks:        -= GLOBAL =-
+remarks:        49895:1519 - TISCALI
+remarks:        49895:1539 - ATRATO
+remarks:        49895:1549 - COGENT
+remarks:
+remarks:        Traffic Control Communities
+remarks:        49895:3000 - do not announce to ALL
+remarks:        49895:300[123] - prepend 1,2,3 times when announcing to ALL
+remarks:        -= POLAND =-
+remarks:        49895:1100 - do not announce to ALL POLISH PEERS
+remarks:        49895:110[123] - prepend 1,2,3 times when announcing to POLISH PEERS
+remarks:        49895:1120 - do not announce to ACX
+remarks:        49895:112[123] - prepend 1,2,3 times when announcing to ACX
+remarks:        49895:1130 - do not announce to EPIX
+remarks:        49895:113[123] - prepend 1,2,3 times when announcing to EPIX
+remarks:        49895:1140 - do not announce to PLIX
+remarks:        49895:114[123] - prepend 1,2,3 times when announcing to PLIX
+remarks:        49895:1160 - do not announce to PIONIER-PLIX
+remarks:        49895:116[123] - prepend 1,2,3 times when announcing to PIONIER-PLIX
+remarks:        -= GLOBAL =-
+remarks:        49895:1500 - do not announce to ALL GLOBAL PEERS
+remarks:        49895:150[123] - prepend 1,2,3 times when announcing to ALL GLOBAL PEERS
+remarks:        49895:1510 - do not announce to TISCALI
+remarks:        49895:151[123] - prepend 1,2,3 times when announcing to TISCALI
+remarks:        49895:1530 - do not announce to ATRATO
+remarks:        49895:153[123] - prepend 1,2,3 times when announcing to ATRATO
+remarks:        49895:1540 - do not announce to COGENT
+remarks:        49895:154[123] - prepend 1,2,3 times when announcing to COGENT
+remarks:
+remarks:        For more information please contact noc@dcenter.pl
+remarks:
+remarks:        BGP PEERS
+remarks:        -------------------------------------------------------
+import:         from AS3257 accept ANY
+import:         from AS24748 accept ANY
+import:         from AS48850 accept AS-KIKE
+import:         from AS39760 accept AS-EFUZJA
+import:         from AS42483 accept AS42483
+import:         from AS44033 accept AS-KOMSTER-NET
+import:         from AS44655 accept AS-METROLINE
+import:         from AS48896 accept AS-DHOSTING
+import:         from AS50153 accept AS-NET-BIS
+import:         from AS50366 accept AS-ALTERTEL
+import:         from AS50411 accept AS50411
+import:         from AS50728 accept AS50728
+import:         from AS51146 accept AS51146
+import:         from AS196883 accept AS196883
+import:         from AS51203 accept AS51203
+import:         from AS60589 accept AS60589
+export:         to AS3257 announce AS-DCENTER
+export:         to AS24748 announce AS-DCENTER
+export:         to AS48850 announce AS-DCENTER
+export:         to AS39760 announce ANY
+export:         to AS42483 announce ANY
+export:         to AS44033 announce ANY
+export:         to AS44655 announce ANY
+export:         to AS48896 announce ANY
+export:         to AS50153 announce ANY
+export:         to AS50366 announce ANY
+export:         to AS50411 announce ANY
+export:         to AS50728 announce ANY
+export:         to AS51146 announce ANY
+export:         to AS196883 announce ANY
+export:         to AS51203 announce ANY
+export:         to AS60589 announce ANY
+mnt-by:         DCENTER-MNT
+created:        2009-10-05T13:47:06Z
+last-modified:  2018-09-04T10:44:58Z
+source:         RIPE
+
+organisation:   ORG-dszo13-RIPE
+org-name:       dcenter.pl sp. z o.o.
+org-type:       LIR
+address:        Al. Jerozolimskie 81
+address:        02-001
+address:        Warszawa
+address:        POLAND
+phone:          +48222920000
+fax-no:         +48222920001
+admin-c:        ES7219-RIPE
+admin-c:        SZYM1-RIPE
+abuse-c:        DCN4-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DCENTER-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DCENTER-MNT
+created:        2010-12-08T14:19:26Z
+last-modified:  2016-06-05T17:46:47Z
+source:         RIPE # Filtered
+
+role:           DCENTER.PL NOC
+address:        dcenter.pl sp. z o.o.
+address:        Al. Jerozolimskie 81
+address:        02-001 Warszawa
+address:        POLAND
+phone:          +48.22.2920000
+fax-no:         +48.22.2920001
+abuse-mailbox:  abuse-ripe@dcenter.pl
+admin-c:        SZYM1-RIPE
+tech-c:         SZYM1-RIPE
+nic-hdl:        DCN4-RIPE
+mnt-by:         DCENTER-MNT
+created:        2009-10-06T11:28:11Z
+last-modified:  2016-01-31T14:35:38Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

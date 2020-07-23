@@ -1,0 +1,99 @@
+aut-num:        AS33891
+as-name:        CORE-BACKBONE
+remarks:        *********************************************
+remarks:        Upstreams:
+remarks:        ---------------------------------------------
+remarks:        LEVEL3
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-CORE-BACKBONE
+remarks:        ---------------------------------------------
+remarks:        TELIA
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-CORE-BACKBONE
+remarks:        ---------------------------------------------
+remarks:        *********************************************
+remarks:        Heavy abstraction of accepting routes at peerings
+remarks:        as we do peer at many points with many networks and
+remarks:        do apply filter with their AS-SET, apply filters for
+remarks:        more specific than /24 prefixes, have max-prefix
+remarks:        filters applied, but we do not want to maintain always
+remarks:        a list here:
+import:         from AS-ANY accept ANY
+remarks:        Also, we do filter very strict our customers at
+remarks:        same very hard level.
+remarks:        ---------------------------------------------
+remarks:        Customers:
+remarks:        ---------------------------------------------
+export:         to AS-CORE-BACKBONE announce ANY
+remarks:        ---------------------------------------------
+remarks:        Peerings:
+remarks:        ---------------------------------------------
+export:         to AS-ANY announce AS-CORE-BACKBONE
+remarks:        ---------------------------------------------
+import-via:     AS6777 from AS-ANY EXCEPT AS-CORE-BACKBONE:AS-EXCEPTIONS accept ANY
+export-via:     AS6777 to AS-ANY EXCEPT AS-CORE-BACKBONE:AS-EXCEPTIONS announce ANY
+remarks:        *********************************************
+org:            ORG-IICG1-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ** BGP communities for Core-Backbone customers **
+remarks:        ****************************************************
+remarks:        Origin communities on received routes:
+remarks:        33891:33889 National Peering Transit
+remarks:        33891:33890 BLACKHOLE Community
+remarks:        33891:33891 Core-Backbone
+remarks:        33891:33892 Customers/Downstreams
+remarks:        33891:33893 Core-Backbone Peering Transit
+remarks:        ----------------------------------------------------
+remarks:        33891:33894 Routes learned at NIX, Germany
+remarks:        33891:33895 Routes learned at DECIX, Germany
+remarks:        33891:33896 Routes learned at LINX, England
+remarks:        33891:33897 Routes learned at AMSIX, The Netherlands
+remarks:        33891:33898 Routes learned at SWISSIX, Switzerland
+remarks:        33891:33899 Routes learned at VIX, Austria
+remarks:        33891:33900 Routes learned via Private Peerings
+remarks:        33891:33901 Routes learned at PEERINGCZ, Czech Republic
+remarks:        33891:33903 Routes learned at DECIX NY, United States
+remarks:        33891:33904 Routes learned at NYIIX, United States
+remarks:        33891:33905 Routes learned at ECIX DUS, Germany
+remarks:        33891:33906 Routes learned at STHIX, Sweden
+remarks:        33891:33907 Routes learned at NETNOD, Sweden
+remarks:        33891:33908 Routes learned at NIXCZ, Czech Republic
+remarks:        33891:33909 Routes learned at SAIX, Austria
+remarks:        33891:33910 Routes learned at EQUINIX, Singapore
+remarks:        33891:33911 Routes learned at BCIX, Germany
+remarks:        ****************************************************
+remarks:        Prepend communities for advertising routes:
+remarks:        33891:400X Routes announced via NIX, Germany
+remarks:        33891:500X Routes announced via DECIX, Germany
+remarks:        33891:600X Routes announced via LINX, England
+remarks:        33891:700X Routes announced via AMSIX, The Netherlands
+remarks:        33891:800X Routes announced via SWISSIX, Switzerland
+remarks:        33891:900X Routes announced via VIX, Austria
+remarks:        33891:1000X Routes announced via PEERINGCZ, Czech Republic
+remarks:        33891:1200X Routes announced via DECIX NY, United States
+remarks:        33891:1300X Routes announced via NYIIX, United States
+remarks:        33891:1400X Routes announced via ECIX DUS, Germany
+remarks:        33891:1500X Routes announced via STHIX, Sweden
+remarks:        33891:1600X Routes announced via NETNOD, Sweden
+remarks:        33891:1700X Routes announced via NIXCZ, Czech Republic
+remarks:        33891:1800X Routes announced via SAIX, Austria
+remarks:        33891:1900X Routes announced via EQUINIX, Singapore
+remarks:        33891:2000X Routes announced via BCIX, Germany
+remarks:        ---------------------------------------------------
+remarks:        X stands for 1-3 prepends or 0 for do not annouce
+remarks:        ****************************************************
+mnt-routes:     CORE-BACKBONE
+mnt-by:         CORE-BACKBONE
+created:        2004-09-01T12:28:10Z
+last-modified:  2017-11-15T09:42:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

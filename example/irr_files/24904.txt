@@ -1,0 +1,142 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS24904
+as-name:       KWAOO
+descr:         K-NET SARL
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+remarks:       
+remarks:       ========================================================
+remarks:       ========================================================
+remarks:       -     __  __     __   __     ______     ______         -
+remarks:       -    /\ \/ /    /\ "-.\ \   /\  ___\   /\__  _\        -
+remarks:       -    \ \  _"-.  \ \ \-.  \  \ \  __\   \/_/\ \/        -
+remarks:       -     \ \_\ \_\  \ \_\\"\_\  \ \_____\    \ \_\        -
+remarks:       -      \/_/\/_/   \/_/ \/_/   \/_____/     \/_/        -
+remarks:       -                                                      -
+remarks:       ========================================================
+remarks:       Kwaoo, K-net Points of Presence
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       == France ==
+remarks:       Paris:
+remarks:       -        Telehouse Paris 2 (Voltaire)
+remarks:       -        Illiad DC2 (Vitry)
+remarks:       Lyon:
+remarks:       -        LDCOM Netcenter Lyon-Venissieux
+remarks:       
+remarks:       == Switzerland ==
+remarks:       Geneva:
+remarks:       -        Equinix GV1 (Confederation)
+remarks:       -        CERN
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       Peering Informations
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       == GENERALLY OPEN PEERING POLICY on these internet exchange points ==
+remarks:       -  (see notes on PeeringDB)
+remarks:       
+remarks:       Exchange   Location       IPv4            IPv6
+remarks:       ---------  -------------  --------------  -----------------------
+remarks:       AMS-IX     Amsterdam  NL  80.249.210.22   2001:7F8:1::A502:4904:1
+remarks:       CIXP       Geneva     CH  192.65.185.146  2001:7F8:1C:24A::6148:1
+remarks:       Equinix    Paris      FR  195.42.144.220  2001:7F8:43::2:4904:1
+remarks:       FranceIX   Paris      FR  37.49.236.105   2001:7F8:54::105
+remarks:       LyonIX     Lyon       FR  77.95.71.67     2001:7F8:47:47::43
+remarks:       
+remarks:       Peering contact : peering@kwaoo.net
+remarks:       Infos page : https://as24904.kwaoo.net
+remarks:       PeeringDB : https://www.peeringdb.com/asn/24904
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       AS MACRO
+remarks:       --------------------------------------------------------
+remarks:       We are using the following AS-Macro for all AS announcements
+remarks:       from K-net :
+remarks:       -                     --------------
+remarks:       -                     :  AS-KWAOO  :
+remarks:       -                     --------------
+remarks:       
+remarks:       ========================================================
+remarks:       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:       ++++++++++++++++++++++ Community +++++++++++++++++++++++
+remarks:       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       ========================================================
+remarks:       Communities definition sent to customers
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       == Peering                24904:1000 matches all ==
+remarks:       
+remarks:       24904:1010 Prefix received from FranceIX (TH2)
+remarks:       24904:1020 Prefix received from AMS-IX (Amsterdam)
+remarks:       24904:1030 Prefix received from CIXP (Cern)
+remarks:       24904:1040 Prefix received from LyonIX (Lyon)
+remarks:       24904:1050 Prefix received from Equinix Paris (TH2)
+remarks:       
+remarks:       == Transit                24904:2000 matches all ==
+remarks:       
+remarks:       24904:2010 Prefix received from AS172 Cogent (paris)
+remarks:       24904:2020 Prefix received from AS1299 Telia (Paris)
+remarks:       24904:2030 Prefix received from AS174 Cogent (Geneva)
+remarks:       24904:2040 Prefix received from AS29075 IELO (Paris)
+remarks:       24904:2050 Prefix received from AS29075 IELO (Geneva)
+remarks:       
+remarks:       == Partial Transit / PNI  24904:3000 matches all ==
+remarks:       
+remarks:       24904:3010 Prefix received from AS34019 Hivane (TH2)
+remarks:       24904:3020 Prefix received from AS3303 Swisscom through CIXP, FRANCE-IX, AMS-IX
+remarks:       24904:3030 Prefix received from AS12876 Poney Telecom (DC2)
+remarks:       24904:3040 Prefix received from AS15169 Google (TH2)
+remarks:       24904:3050 Prefix received from AS2906 Netflix (TH2)
+remarks:       
+remarks:       == Customers             24904:18000 matches all ==
+remarks:       
+remarks:       24904:18010 Prefix received from AS60478 KSYS
+remarks:       24904:18020 Prefix received from AS61026 Hasgard
+remarks:       24904:18030 Prefix received from AS203382 Oxid Telecom
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       Communities definition accepted from customers (disabled)
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       24904:500x  act on AS1299/Telia         (Paris)
+remarks:       24904:505x  act on AS29075/IELO         (TH2)
+remarks:       24904:515x  act on AS174/Cogent         (Geneva)
+remarks:       
+remarks:       24904:600x  act on CIXP                 (Geneva)
+remarks:       24904:605x  act on AMS-IX               (Amsterdam)
+remarks:       24904:610x  act on LyonIX               (Lyon)
+remarks:       24904:615x  act on Equinix Paris        (TH2)
+remarks:       24904:620x  act on France-IX            (TH2)
+remarks:       
+remarks:       x = 1 : Prepend once
+remarks:       x = 2 : Prepend twice
+remarks:       x = 3 : Prepend three times
+remarks:       x = 4 : don't announce
+remarks:       
+remarks:       24904:18001 Customer secondary session (localpref 10 less)
+remarks:       24904:18002 Customer tertiary session (localpref 20 less)
+remarks:       
+remarks:       24904:0 Null-route/Blackhole (limited to /32 prefixes)
+remarks:       
+remarks:       Well Known communities :
+remarks:       NO_EXPORT 65535:65281
+remarks:       NO_ADVERTISE 65535:65282
+remarks:       
+remarks:       ========================================================
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        MNT-KWAOO
+source:        RIPE
+
+

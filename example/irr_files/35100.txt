@@ -1,0 +1,85 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS35100
+as-name:       PatrikWeb-Core
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS29518 83.233.28.13 at 83.233.28.14 action pref=100; accept any;
+import:        from AS1257 212.247.38.193 at 212.247.38.194 action pref=100; accept any;
+import:        from AS35706 217.10.127.65 at 217.10.127.66 action pref=120; accept AS-NAO AS-NAO-PEERS ANY;
+import:        from AS8473 85.24.152.68 at 85.24.152.69 action pref=100; accept any;
+import:        from AS34468 accept any
+import:        from AS39525 195.60.81.1 at 195.60.81.5 action pref=150; accept AS39525;
+import:        from AS43071 195.60.81.2 at 195.60.81.5 action pref=150; accept AS43071;
+import:        from AS43071 195.60.81.3 at 195.60.81.5 action pref=150; accept AS43071;
+import:        from AS35706 195.60.81.6 at 195.60.81.5 action pref=150; accept AS35706;
+import:        from AS13214 91.90.24.234 at 91.90.24.233 action pref=150; accept AS13214;
+export:        to AS29518 83.233.28.13 at 83.233.28.14 announce AS-PATRIKWEB;
+export:        to AS1257 212.247.38.193 at 212.247.38.194 announce AS35100;
+export:        to AS35706 217.10.127.65 at 217.10.127.66 announce AS35100 AS-CONNEC2IP AS-PATRIKWEB;
+export:        to AS8473 85.24.152.68 at 85.24.152.69 announce AS-PATRIKWEB;
+export:        to AS34468 announce AS35100
+export:        to AS39525 195.60.81.1 at 195.60.81.5 announce AS-PATRIKWEB;
+export:        to AS43071 195.60.81.2 at 195.60.81.5 announce AS-PATRIKWEB;
+export:        to AS43071 195.60.81.3 at 195.60.81.5 announce AS-PATRIKWEB;
+export:        to AS35706 195.60.81.6 at 195.60.81.5 announce AS-PATRIKWEB;
+export:        to AS13214 91.90.24.234 at 91.90.24.233 announce ANY;
+remarks:       ..
+remarks:       # Transit
+remarks:       # BOR-IX
+remarks:       # CUSTOMER
+remarks:       =======================================================================
+remarks:       Contact:
+remarks:       NOC 24/7: noc@patrikweb.net +46 704430895
+remarks:       ABUSE Only Send To abuse@patrikweb.net.
+remarks:       =======================================================================
+remarks:       +---------------------------------------------------------
+remarks:       | We are currently present at: |
+remarks:       | * Vaxjo, CNV |
+remarks:       | * Boras, BSG |
+remarks:       | * BOR-IX |
+remarks:       | |
+remarks:       +---------------------------------------------------------
+remarks:       | Communites:
+remarks:       +---------------------------------------------------------
+remarks:       | 35100:1 Prefix from Nordis Transit
+remarks:       | 35100:2 Prefix from Global Transit
+remarks:       | 35100:3 Prefix from Peer
+remarks:       | 35100:4 Prefix from Cust
+remarks:       +---------------------------------------------------------
+remarks:       | 35100:100 Announce to Nordic Transit
+remarks:       | 35100:200 Announce to Global Transit
+remarks:       | 35100:300 Announce to Peer
+remarks:       | 35100:400 Announce to All (Transit and Peer)
+remarks:       +---------------------------------------------------------
+remarks:       | 35100:101 Prepend 1 X to Nordic Transit
+remarks:       | 35100:102 Prepend 2 X to Nordic Transit
+remarks:       | 35100:103 Prepend 3 X to Nordic Transit
+remarks:       | 35100:104 Prepend 4 X to Nordic Transit
+remarks:       +---------------------------------------------------------
+remarks:       | 35100:201 Prepend 1 X to Global Transit
+remarks:       | 35100:202 Prepend 2 X to Global Transit
+remarks:       | 35100:203 Prepend 3 X to Global Transit
+remarks:       | 35100:204 Prepend 4 X to Global Transit
+remarks:       +---------------------------------------------------------
+remarks:       | 35100:301 Prepend 1 X to Peer
+remarks:       | 35100:302 Prepend 2 X to Peer
+remarks:       | 35100:303 Prepend 3 X to Peer
+remarks:       | 35100:304 Prepend 4 X to Peer
+remarks:       +---------------------------------------------------------
+remarks:       | 35100:666 Blackhole
+remarks:       | |
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        MNT-PATRIKWEB
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

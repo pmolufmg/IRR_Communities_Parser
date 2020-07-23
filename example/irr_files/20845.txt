@@ -1,0 +1,86 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS20845
+as-name:       DIGICABLE
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS8708 action pref=100; accept ANY
+import:        from AS21229 action pref=200; accept AS-TVNETWORK
+import:        from AS197523 action pref=110; accept AS197523
+import:        from AS34226 action pref=110; accept AS34226
+import:        from AS57657 action pref=110; accept AS57657
+import:        from AS45020 action pref=110; accept AS45020
+import:        from AS44945 action pref=110; accept AS44945
+import:        from AS29657 action pref=110; accept AS29657
+import:        from AS41015 action pref=110; accept AS41015
+import:        from AS204168 action pref=110; accept AS204168
+import:        from AS5507 action pref=110; accept AS-BIX
+import:        from AS12301 action pref=150; accept AS12301:AS-ROUTES
+import:        from AS15169 action pref=150; accept AS-GOOGLE
+import:        from AS29278 action pref=150; accept AS-DENINET
+import:        from AS8448 action pref=150; accept AS8448
+export:        to AS8708 announce AS-DIGICABLE
+export:        to AS21229 announce ANY
+export:        to AS197523 announce ANY
+export:        to AS34226 announce ANY
+export:        to AS57657 announce ANY
+export:        to AS45020 announce ANY
+export:        to AS44945 announce ANY
+export:        to AS29657 announce ANY
+export:        to AS41015 announce ANY
+export:        to AS204168 announce ANY
+export:        to AS5507 announce AS-DIGICABLE
+export:        to AS12301 announce AS-DIGICABLE
+export:        to AS15169 announce AS-DIGICABLE
+export:        to AS29278 announce AS-DIGICABLE
+export:        to AS8448 announce AS-DIGICABLE
+remarks:       
+remarks:       *** IPv4 Uplinks ***
+remarks:       
+remarks:       *** IPv6 Uplinks ***
+remarks:       
+remarks:       *** IPv4 CLIENTS ***
+remarks:       
+remarks:       *** IPv4 PEERS ***
+remarks:       
+remarks:       *** IPv6 PEERS ***
+remarks:       
+remarks:       ------------------------------------------------
+remarks:       DIGI filters out inbound prefixes longer than /24
+remarks:       
+remarks:       Communities definitions
+remarks:       ------------------------------------------------
+remarks:       20845:80 Set local preference to 80 inside DIGI
+remarks:       20845:120 Set local preference to 120 inside DIGI
+remarks:       20845:1000 Advertise the prefix
+remarks:       20845:1001 Prepend 1*20845 when advertising
+remarks:       20845:1002 Prepend 2*20845 when advertising
+remarks:       20845:1003 Prepend 3*20845 when advertising
+remarks:       
+remarks:       20845:2001 Prepend 1*20845 when announcing to domestic peers
+remarks:       20845:2002 Prepend 2*20845 when announcing to domestic peers
+remarks:       20845:2003 Prepend 3*20845 when announcing to domestic peers
+remarks:       
+remarks:       Default local preference
+remarks:       --------------------------------------------------------
+remarks:       Customer 110
+remarks:       Peers 100
+remarks:       Backup 80
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       NOC (24x7): noc@hu.digi.tv
+remarks:       Peering issues: peering@hu.digi.tv
+remarks:       --------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        HDSNET-MNT
+source:        RIPE
+
+

@@ -1,0 +1,86 @@
+aut-num:        AS13830
+as-name:        NEXRIL
+descr:          Corex Solutions LLC
+remarks:    
+remarks:    
+remarks:        *** Transit Providers ***
+remarks:    
+remarks:        Cogent Communications - AS174
+mp-import:      afi any.unicast from AS174  action pref = 90; accept ANY
+mp-export:      afi any.unicast to AS174   announce AS-NEXRIL
+remarks:    
+remarks:        Psychz Networks - AS40676
+mp-import:      afi any.unicast from AS40676  action pref = 100; accept ANY
+mp-export:      afi any.unicast to AS40676   announce AS-NEXRIL
+remarks:    
+remarks:    
+remarks:        *** Transit Customers ***
+remarks:    
+mp-import:      afi any.unicast from AS-NEXRIL-CUST  action pref = 130; accept AS-NEXRIL-CUST
+mp-export:      afi any.unicast to AS-NEXRIL-CUST   announce ANY
+remarks:    
+remarks:    
+remarks:        *** Peers ***
+remarks:    
+mp-import:      afi any.unicast from AS-NEXRIL-PEER  action pref = 120; accept PeerAS
+mp-export:      afi any.unicast to AS-NEXRIL-PEER   announce AS-NEXRIL
+remarks:    
+remarks:    
+remarks:        +=======================================================+
+remarks:        |                                                       |
+remarks:        |                    BGP Communities                    |
+remarks:        |                                                       |
+remarks:        +=======================================================+
+remarks:        |            Local Preference and AS Prepend            |
+remarks:        +=======================================================+
+remarks:        | 13830:50   | Local Preference = 50 (Lowest)           |
+remarks:        | 13830:80   | Local Preference = 80 (Below Transit)    |
+remarks:        | 13830:110  | Local Preference = 110 (Below Peers)     |
+remarks:        | 13830:125  | Local Preference = 125 (Below Customers) |
+remarks:        | 13830:135  | Local Preference = 135 (Above Customers) |
+remarks:        | 13830:140  | Local Preference = 140 (Above Customers) |
+remarks:        | 13830:150  | Local Preference = 150 (Above Customers) |
+remarks:        +-------------------------------------------------------+
+remarks:        | 13830:1001 | Prepend AS13830 1x                       |
+remarks:        | 13830:1002 | Prepend AS13830 2x                       |
+remarks:        | 13830:1003 | Prepend AS13830 3x                       |
+remarks:        | 13830:1004 | Prepend AS13830 4x                       |
+remarks:        +=======================================================+
+remarks:        |                RTBH and Do Not Export                 |
+remarks:        +=======================================================+
+remarks:        | 13830:666  | BGP Blackhole                            |
+remarks:        +-------------------------------------------------------+
+remarks:        | 13830:2000 | Do not export                            |
+remarks:        | 13830:2001 | Do not export to AS174                   |
+remarks:        +=======================================================+
+remarks:        |                  Origin Communities                   |
+remarks:        +=======================================================+
+remarks:        | 13830:3000 | Internal Route                           |
+remarks:        | 13830:3001 | Customer Route                           |
+remarks:        | 13830:3002 | Peer Route                               |
+remarks:        | 13830:3003 | Transit Route                            |
+remarks:        | 13830:3004 | Noction Optimized Route                  |
+remarks:        +-------------------------------------------------------+
+remarks:        | 13830:4000 | Dallas, Texas                            |
+remarks:        +-------------------------------------------------------+
+remarks:        | 13830:5000 | United States                            |
+remarks:        +-------------------------------------------------------+
+remarks:    
+remarks:    
+admin-c:        James Wang
+tech-c:         Nexril NOC
+mnt-by:         MAINT-AS13830
+changed:        james@nexril.net 20180702  #08:00:00Z
+source:         RADB
+
+person:         James Wang
+address:        No.10, Aly. 1, Ln. 136, Sec. 1, Chongren Rd., Beitou Dist.
+                 Taipei City  11242 TW
+country:        TW
+phone:          +1.866.398.7638
+e-mail:         james_wang@e-innovator.com
+mnt-by:         MAINT-SOFTLAYER-AP
+nic-hdl:        JW3402-AP
+changed:        ipadmin@softlayer.com 20140724
+abuse-mailbox:  james_wang@e-innovator.com
+source:         APNIC

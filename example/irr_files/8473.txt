@@ -1,0 +1,114 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8473'
+
+% Abuse contact for 'AS8473' is 'abuse@bahnhof.net'
+
+aut-num:        AS8473
+as-name:        BAHNHOF
+org:            ORG-BIA1-RIPE
+descr:          http://www.bahnhof.net/
+remarks:        +-------------------------------------------+
+remarks:        | Bahnhof - AS8473                          |
+remarks:        +-------------------------------------------+
+remarks:        Please see https://as8473.peeringdb.com for
+remarks:        IXPs and facilities where we are present.
+remarks:
+remarks:        AS-set announced: AS-BAHNHOF
+remarks:        +-------------------------------------------+
+remarks:        | Control section                           |
+remarks:        +-------------------------------------------+
+remarks:        Advanced communities for customers:
+remarks:
+remarks:        8473:1050 Set lowest preference
+remarks:        8473:1100 Set transit preference
+remarks:        8473:1150 Set backup peer preference
+remarks:        8473:1200 Set peer preference
+remarks:        8473:1250 Set backup downstream preference
+remarks:
+remarks:        8473:2000 Do not announce to transits
+remarks:        8473:2001 Announce to transits prepend x1
+remarks:        8473:2002 Announce to transits prepend x2
+remarks:        8473:2004 Announce to transits
+remarks:
+remarks:        8473:3000 Do not announce to peers
+remarks:        8473:3001 Announce to peers prepend x1
+remarks:        8473:3002 Announce to peers prepend x2
+remarks:        8473:3004 Announce to peers
+remarks:
+remarks:        8473:999 Blackhole community
+remarks:        +-------------------------------------------+
+remarks:        | Contact                                   |
+remarks:        +-------------------------------------------+
+remarks:        * Routing: ncc@bahnhof.net
+remarks:        * Peering: peering@bahnhof.net
+remarks:        * Abuse:   abuse@bahnhof.net
+remarks:        +-------------------------------------------+
+remarks:        | Bahnhof applies selective peering         |
+remarks:        +-------------------------------------------+
+import-via:     AS6777 from AS-ANY ACCEPT ANY
+export-via:     AS6777 to AS-ANY EXCEPT AS20940 announce AS-BAHNHOF
+admin-c:        BD856-RIPE
+tech-c:         BD856-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         BAHNHOF-NCC
+created:        2001-12-10T13:09:20Z
+last-modified:  2017-11-15T09:15:49Z
+source:         RIPE
+
+organisation:   ORG-BIA1-RIPE
+org-name:       Bahnhof AB
+org-type:       LIR
+address:        Fack 534 FE 756
+address:        751 75
+address:        Uppsala
+address:        SWEDEN
+phone:          +46(0)8 55577155
+fax-no:         +46855577199
+abuse-c:        AR13477-RIPE
+admin-c:        MP18473-RIPE
+admin-c:        NW1687-RIPE
+admin-c:        BD856-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        BAHNHOF-NCC
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         BAHNHOF-NCC
+created:        2004-04-17T12:02:22Z
+last-modified:  2018-06-19T12:00:01Z
+source:         RIPE # Filtered
+
+role:           Bahnhof DBM
+address:        Bahnhof AB
+address:        Isafjordsgatan 32B
+address:        164 40 Kista
+address:        Sweden
+admin-c:        BD856-RIPE
+tech-c:         BD856-RIPE
+nic-hdl:        BD856-RIPE
+mnt-by:         BAHNHOF-NCC
+created:        2004-03-01T23:41:37Z
+last-modified:  2012-08-16T09:14:55Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

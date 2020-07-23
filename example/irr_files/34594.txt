@@ -1,0 +1,539 @@
+aut-num:        AS34594
+as-name:        OT-AS
+org:            ORG-Otd1-RIPE
+remarks:        ----------------------------------------------------------------
+remarks:        ------------------------- IPv4 UPSTREAM ------------------------
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - Hurricane Electric
+remarks:        from AS6939 accept ANY
+remarks:        to AS6939 announce AS-OPTIMA
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - DTAG:
+import:         from AS3320 accept ANY
+export:         to AS3320 announce AS-OPTIMA
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - Croatian Telecom:
+import:         from AS5391 accept ANY
+export:         to AS5391 announce AS-OPTIMA
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - TELIA:
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-OPTIMA
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        ------------------------- IPv6 UPSTREAM ------------------------
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:
+remarks:        - DTAG:
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+mp-export:      afi ipv6.unicast to AS3320 announce AS-OPTIMA-IPV6
+remarks:
+remarks:
+remarks:        -Croatian Telecom
+mp-import:      afi ipv6.unicast from AS5391 accept ANY
+mp-export:      afi ipv6.unicast to AS5391 announce AS-OPTIMA-IPV6
+remarks:
+remarks:        -Telia
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-OPTIMA-IPV6
+remarks:
+remarks:        - Hurricane Electric:
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-OPTIMA-IPV6
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        ---------- Customers of Optima Telekom d.d. --------------------
+remarks:        ---------- Announced in AS-OPTIMA --------------------
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - Spar:
+import:         from AS31095 accept AS31095
+export:         to AS31095 announce ANY
+remarks:        - HEP:
+import:         from AS25328 accept AS-HEP
+export:         to AS25328 announce ANY
+remarks:        - Kreditna banka:
+import:         from AS48621 accept AS48621
+export:         to AS48621 announce ANY
+remarks:        - Sedmi odjel:
+import:         from AS198785 accept AS-SEDMIODJEL
+export:         to AS198785 announce ANY
+remarks:        - Voljatel HR:
+import:         from AS34362 accept AS-VLT-HR
+export:         to AS34362 announce ANY
+remarks:        - Akton:
+import:         from AS25467 accept AS-AKTON
+export:         to AS25467 announce ANY
+remarks:        - MZSS:
+import:         from AS197823 accept AS197823
+export:         to AS197823 announce ANY
+remarks:        - Hrvatska posta:
+import:         from AS196622 accept AS196622
+export:         to AS196622 announce ANY
+remarks:        - Multikomunikacije:
+import:         from AS197716 accept AS197716
+export:         to AS197716 announce ANY
+remarks:        - OiV:
+import:         from AS48797 accept AS48797
+export:         to AS48797 announce ANY
+remarks:        - Overseas express
+import:         from AS198548 accept AS198548
+export:         to AS198548 announce {0.0.0.0/0}
+remarks:        - APIS IT d.o.o.
+import:         from AS199401 accept AS199401
+export:         to AS199401 announce {0.0.0.0/0}
+remarks:        - Splitska Banka
+import:         from AS59786 accept AS59786
+export:         to AS59786 announce AS-OPTIMA AND {0.0.0.0/0}
+remarks:        - Reversing Labs
+import:         from AS201679 accept AS201679
+export:         to AS201679 announce {0.0.0.0/0}
+remarks:        - KTVnet
+import:         from AS203254 accept AS203254
+export:         to AS203254 announce ANY
+remarks:        - Fina
+import:         from AS41336 accept AS41336
+export:         to AS41336 announce ANY
+remarks:        - H1 Telekom
+import:         from AS34748 accept AS-PORTUS
+export:         to AS34748 announce ANY
+remarks:        ----------------------------------------------------------------
+remarks:        ----------------------------------------------------------------
+remarks:        ----------------------------------------------------------------
+remarks:        ---------- IPv6 Customers of Optima Telekom d.d. ---------------
+remarks:        ---------- Announced in AS-OPTIMA-IPV6 ---------------
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - Sedmi odjel:
+mp-import:      afi ipv6.unicast from AS198785 accept AS198785
+mp-export:      afi ipv6.unicast to AS198785 announce ANY
+remarks:
+remarks:        - Splitska Banka:
+mp-import:      afi ipv6.unicast from AS59786 accept AS59786
+mp-export:      afi ipv6.unicast to AS59786 announce AS-OPTIMA AND {::/0}
+remarks:
+remarks:        - H1 Telekom
+mp-export:      afi ipv6.unicast to AS34748 announce ANY
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        ---------- CIX - Croatian Internet Exchange --------------------
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - Vodatel:
+import:         from AS25528 action pref=900; accept AS-VODATEL
+export:         to AS25528 announce AS-OPTIMA
+remarks:        - Iskon:
+import:         from AS13046 action pref=900; accept AS-ISKON
+export:         to AS13046 announce AS-OPTIMA
+remarks:        - CARNet:
+import:         from AS2108 action pref=900; accept AS2108
+export:         to AS2108 announce AS-OPTIMA
+remarks:        - SoftNet:
+import:         from AS9119 action pref=900; accept AS9119 and AS31095
+export:         to AS9119 announce AS-OPTIMA
+remarks:        - Vipnet:
+import:         from AS12810 action pref=900; accept AS12810
+export:         to AS12810 announce AS-OPTIMA
+remarks:        - Vox Mundi:
+import:         from AS25064 action pref=900; accept AS25064
+export:         to AS25064 announce AS-OPTIMA
+remarks:        - B.NET:
+import:         from AS31012 action pref=900; accept AS-DCM-ASSET
+export:         to AS31012 announce AS-OPTIMA
+remarks:        - Metronet:
+import:         from AS35549 action pref=900; accept AS-METRONET
+export:         to AS35549 announce AS-OPTIMA
+remarks:        - OKTV:
+import:         from AS41454 action pref=900; accept AS41454
+export:         to AS41454 announce AS-OPTIMA
+remarks:        - AMIS Hrvatska:
+import:         from AS29485 action pref=900; accept AS-AMIS
+export:         to AS29485 announce AS-OPTIMA
+remarks:        - HEP:
+import:         from AS25328 action pref=900; accept AS25328
+export:         to AS25328 announce AS-OPTIMA
+remarks:        - i3b:
+import:         from AS39912 action pref=900; accept AS-I3B
+export:         to AS39912 announce AS-OPTIMA
+remarks:        - Omonia:
+import:         from AS44306 action pref=900; accept AS44306
+export:         to AS44306 announce AS-OPTIMA
+remarks:        - Magic Telekom:
+import:         from AS44377 action pref=900; accept AS44377
+export:         to AS44377 announce AS-OPTIMA
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        ---------- IPv6 peering at Croatian Internet Exchange - CIX ----
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - CARNet:
+mp-import:      afi ipv6.unicast from AS2108 accept AS2108
+mp-export:      afi ipv6.unicast to AS2108 announce AS-OPTIMA-IPV6
+remarks:        - Iskon
+mp-import:      afi ipv6.unicast from AS13046 accept AS13046
+mp-export:      afi ipv6.unicast to AS13046 announce AS-OPTIMA-IPV6
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        ---------- Vienna Internet Exchange - VIX ----------------------
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - Packet Clearing House
+import:         from AS42 action pref=300; accept AS42
+export:         to AS42 announce AS-OPTIMA
+remarks:        - Service ACOnet
+import:         from AS1120 action pref=300; accept AS-ACOSERV
+export:         to AS1120 announce AS-OPTIMA
+remarks:        - ACOnet Backbone
+import:         from AS1853 action pref=300; accept AS-ACONETTOVIX
+export:         to AS1853 announce AS-OPTIMA
+remarks:        - Eunet-ag.at:
+import:         from AS1901 action pref=300; accept AS-EUNETAT
+export:         to AS1901 announce AS-OPTIMA
+remarks:        - ARCOR.net:
+import:         from AS3209 action pref=300; accept AS-ARCORGLOBAL
+export:         to AS3209 announce AS-OPTIMA
+remarks:        - Triera.net:
+import:         from AS3212 action pref=300; accept AS-TRIERA
+export:         to AS3212 announce AS-OPTIMA
+remarks:        - SIL.at:
+import:         from AS3248 action pref=300; accept AS-SILAT
+export:         to AS3248 announce AS-OPTIMA
+remarks:        - Swisscom, IP-Plus.net:
+import:         from AS3303 action pref=300; accept AS-SWCMGLOBAL
+export:         to AS3303 announce AS-OPTIMA
+remarks:        - OEBBTel.at:
+import:         from AS3330 action pref=300; accept AS-PROFINET
+export:         to AS3330 announce AS-OPTIMA
+remarks:        - PCH.net:
+import:         from AS3856 action pref=300; accept AS-PCH
+export:         to AS3856 announce AS-OPTIMA
+remarks:        - APA.at:
+import:         from AS5403 action pref=300; accept AS-APA
+export:         to AS5403 announce AS-OPTIMA
+remarks:        - GTS CE/Antel.net:
+import:         from AS5588 action pref=300; accept AS-GTS-CE
+export:         to AS5588 announce AS-OPTIMA
+remarks:        - kabsi.at:
+import:         from AS8339 action pref=300; accept AS-KABS
+export:         to AS8339 announce AS-OPTIMA
+remarks:        - T-Systems.at:
+import:         from AS8387 action pref=300; accept AS8387
+export:         to AS8387 announce AS-OPTIMA
+remarks:        - T-mobile.at:
+import:         from AS8412 action pref=300; accept AS8412
+export:         to AS8412 announce AS-OPTIMA
+remarks:        - SalzburgAG.at:
+import:         from AS8445 action pref=300; accept AS-SALZBURGAG
+export:         to AS8445 announce AS-OPTIMA
+remarks:        - Telekom Austria.at:
+import:         from AS8447 action pref=300; accept AS-PTA
+export:         to AS8447 announce AS-OPTIMA
+remarks:        - UPC Austria GmbH:
+import:         from AS8514 action pref=300; accept AS-INODE
+export:         to AS8514 announce AS-OPTIMA
+remarks:        - B.net Burgenland Telekom GmbH :
+import:         from AS8559 action pref=300; accept AS-WELLCOMAT
+export:         to AS8559 announce AS-OPTIMA
+remarks:        - Amis.net:
+import:         from AS8591 action pref=300; accept AS-AMIS
+export:         to AS8591 announce AS-OPTIMA
+remarks:        - hotze.com:
+import:         from AS8596 action pref=300; accept AS-HOTZE
+export:         to AS8596 announce AS-OPTIMA
+remarks:        - RDSNET:
+import:         from AS8708 action pref=300; accept AS-RDSNET
+export:         to AS8708 announce AS-OPTIMA
+remarks:        - RETN.net:
+import:         from AS9002 action pref=300; accept AS-RETN
+export:         to AS9002 announce AS-OPTIMA
+remarks:        - softnet.si:
+import:         from AS9119 action pref=300; accept AS-SOFTNET
+export:         to AS9119 announce AS-OPTIMA
+remarks:        - Orange Business Services:
+import:         from AS10282 action pref=300; accept AS-EQUANT-CEEUR
+export:         to AS10282 announce AS-OPTIMA
+remarks:        - invitel
+import:         from AS12301 action pref=300; accept AS12301:AS-ROUTES
+export:         to AS12301 announce AS-OPTIMA
+remarks:        - Scan-Plus.de:
+import:         from AS12399 action pref=300; accept AS-SPXS
+export:         to AS12399 announce AS-OPTIMA
+remarks:        - YUBC.net:
+import:         from AS12558 action pref=300; accept AS-YUBC
+export:         to AS12558 announce AS-OPTIMA
+remarks:        - MMC.at:
+import:         from AS12577 action pref=300; accept AS12577
+export:         to AS12577 announce AS-OPTIMA
+remarks:        - LIWEST.at:
+import:         from AS12605 action pref=300; accept AS-LIWESTAT
+export:         to AS12605 announce AS-OPTIMA
+remarks:        - ONE.at:
+import:         from AS12635 action pref=300; accept AS12635
+export:         to AS12635 announce AS-OPTIMA
+remarks:        - RIS RIPE:
+import:         from AS12654 action pref=300; accept AS-RISATVIX AS12654
+export:         to AS12654 announce AS-OPTIMA
+remarks:        - eTel.at:
+import:         from AS12793 action pref=300; accept AS-ETELGROUP
+export:         to AS12793 announce AS-OPTIMA
+remarks:        - biosnet.at:
+import:         from AS12971 action pref=300; accept AS-BIOSTOVIX
+export:         to AS12971 announce AS-OPTIMA
+remarks:        - init7:
+import:         from AS13030 action pref=300; accept AS13030:AS-INIT7
+export:         to AS13030 announce AS-OPTIMA
+remarks:        - CNet.at:
+import:         from AS13064 action pref=300; accept AS13064
+export:         to AS13064 announce AS-OPTIMA
+remarks:        - EDVG.at:
+import:         from AS15598 action pref=300; accept AS-IPX
+export:         to AS15598 announce AS-OPTIMA
+remarks:        - LeaseWeb:
+import:         from AS16265 action pref=300; accept AS-LEASEWEB
+export:         to AS16265 announce AS-OPTIMA
+remarks:        - KAV
+import:         from AS16314 action pref=300; accept AS16314
+export:         to AS16314 announce AS-OPTIMA
+remarks:        - funknetz.at:
+import:         from AS20704 action pref=300; accept AS-FUNKNETZ
+export:         to AS20704 announce AS-OPTIMA
+remarks:        - CIX.at:
+import:         from AS20751 action pref=300; accept AS-MAX4EU
+export:         to AS20751 announce AS-OPTIMA
+remarks:        - ITandTel:
+import:         from AS21013 action pref=300; accept AS-ITANDTEL
+export:         to AS21013 announce AS-OPTIMA
+remarks:        - Cyberservice.net:
+import:         from AS21213 action pref=300; accept AS-CYBERSERVICE
+export:         to AS21213 announce AS-OPTIMA
+remarks:        - empirion.at:
+import:         from AS21360 action pref=300; accept AS-EMPIRION
+export:         to AS21360 announce AS-OPTIMA
+remarks:        - TNIB.de:
+import:         from AS21385 action pref=300; accept AS-TNIB
+export:         to AS21386 announce AS-OPTIMA
+remarks:        - Raiffeisen Informatik GmbH:
+import:         from AS24864 action pref=300; accept AS24864
+export:         to AS24864 announce AS-OPTIMA
+remarks:        - carrier66.net:
+import:         from AS24953 action pref=300; accept AS-CARRIER66
+export:         to AS24953 announce AS-OPTIMA
+remarks:        - Akton.net:
+import:         from AS25467 action pref=300; accept AS25467
+export:         to AS25467 announce AS-OPTIMA
+remarks:        - domaintechnik.at:
+import:         from AS25575 action pref=300; accept AS-DOMAINTECHNIK
+export:         to AS25575 announce AS-OPTIMA
+remarks:        - Infotech.at:
+import:         from AS28760 action pref=300; accept AS-INFOTECH
+export:         to AS28760 announce AS-OPTIMA
+remarks:        - CSC-Austria.at:
+import:         from AS28857 action pref=300; accept AS28857
+export:         to AS28857 announce AS-OPTIMA
+remarks:        - GSTW.at:
+import:         from AS29056 action pref=300; accept AS-GSTWAT
+export:         to AS29056 announce AS-OPTIMA
+remarks:        - Wienstrom GmbH Blizznet
+import:         from AS29287 action pref=300; accept AS29287
+export:         to AS29287 announce AS-OPTIMA
+remarks:        - kabelbw.de:
+import:         from AS29562 action pref=300; accept AS-KABELBW
+export:         to AS29562 announce AS-OPTIMA
+remarks:        - IKB:
+import:         from AS31510 action pref=300; accept AS31510
+export:         to AS31510 announce AS-OPTIMA
+remarks:        - Denic:
+import:         from AS31529 action pref=300; accept AS31529
+export:         to AS31529 announce AS-OPTIMA
+remarks:        - Mynet:
+import:         from AS31543 action pref=300; accept AS31543
+export:         to AS31543 announce AS-OPTIMA
+remarks:        - PXP:
+import:         from AS33890 action pref=300; accept AS-PXPAT
+export:         to AS33890 announce AS-OPTIMA
+remarks:        - CORE-BACKBONE:
+import:         from AS33891 action pref=300; accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-OPTIMA
+remarks:        - citynet@hall:
+import:         from AS34347 action pref=300; accept AS-CNHAT
+export:         to AS34347 announce AS-OPTIMA
+remarks:        - Lagis ISP:
+import:         from AS35369 action pref=300; accept AS-LAGIS
+export:         to AS35369 announce AS-OPTIMA
+remarks:        - ASFINAG:
+import:         from AS39478 action pref=300; accept AS39478
+export:         to AS39478 announce AS-OPTIMA
+remarks:        - I3B:
+import:         from AS39912 action pref=300; accept AS-I3B
+export:         to AS39912 announce AS-OPTIMA
+remarks:        - STW Kapfenberg:
+import:         from AS41491 action pref=300; accept AS41491
+export:         to AS41491 announce AS-OPTIMA
+remarks:        - Make.at:
+import:         from AS44765 action pref=300; accept AS-MAKENEWMEDIA
+export:         to AS44765 announce AS-OPTIMA
+remarks:        - Microsoft:
+import:         from AS12076 action pref=300; accept AS-MICROSOFT
+export:         to AS12076 announce AS-OPTIMA
+remarks:        - ISPro:
+import:         from AS35366 action pref=300; accept AS-ISPRO
+export:         to AS35366 announce AS-OPTIMA
+remarks:        - H3G.at:
+import:         from AS25255 action pref=300; accept AS25255
+export:         to AS25255 announce AS-OPTIMA
+remarks:        - World2You:
+import:         from AS38955 action pref=300; accept AS-WORLD4YOU
+export:         to AS38955 announce AS-OPTIMA
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        ---------- IPv6 peering at Vienna Internet Exchange - VIX ------
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - Service ACOnet
+mp-import:      afi ipv6.unicast from AS1120 accept AS1120
+mp-export:      afi ipv6.unicast to AS1120 announce AS-OPTIMA-IPV6
+remarks:        - ACOnet Backbone
+mp-import:      afi ipv6.unicast from AS1853 accept AS1853
+mp-export:      afi ipv6.unicast to AS1853 announce AS-OPTIMA-IPV6
+remarks:        - Eunet-ag.at:
+mp-import:      afi ipv6.unicast from AS1901 accept AS1901
+mp-export:      afi ipv6.unicast to AS1901 announce AS-OPTIMA-IPV6
+remarks:        - SIL.at:
+mp-import:      afi ipv6.unicast from AS3248 accept AS3248
+mp-export:      afi ipv6.unicast to AS3248 announce AS-OPTIMA-IPV6
+remarks:        - APA.at:
+mp-import:      afi ipv6.unicast from AS5403 accept AS5403
+mp-export:      afi ipv6.unicast to AS5403 announce AS-OPTIMA-IPV6
+remarks:        - T-Systems.at:
+mp-import:      afi ipv6.unicast from AS8387 accept AS8387
+mp-export:      afi ipv6.unicast to AS8387 announce AS-OPTIMA-IPV6
+remarks:        - Telekom Austria.at:
+mp-import:      afi ipv6.unicast from AS8447 accept AS-TA6
+mp-export:      afi ipv6.unicast to AS8447 announce AS-OPTIMA-IPV6
+remarks:        - UPC Austria GmbH:
+mp-import:      afi ipv6.unicast from AS8514 accept AS8514
+mp-export:      afi ipv6.unicast to AS8514 announce AS-OPTIMA-IPV6
+remarks:        - RETN.net:
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-export:      afi ipv6.unicast to AS9002 announce AS-OPTIMA-IPV6
+remarks:        - ip-exchange:
+mp-import:      afi ipv6.unicast from AS15598 accept AS-IPX-6
+mp-export:      afi ipv6.unicast to AS15598 announce AS-OPTIMA-IPV6
+remarks:        - eTel.at:
+mp-import:      afi ipv6.unicast from AS12793 accept AS12793
+mp-export:      afi ipv6.unicast to AS12793 announce AS-OPTIMA-IPV6
+remarks:        - funknetz.at:
+mp-import:      afi ipv6.unicast from AS20704 accept AS20704
+mp-export:      afi ipv6.unicast to AS20704 announce AS-OPTIMA-IPV6
+remarks:        - ITandTel:
+mp-import:      afi ipv6.unicast from AS21013 accept AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS21013 announce AS-OPTIMA-IPV6
+remarks:        - CSC-Austria.at:
+mp-import:      afi ipv6.unicast from AS28857 accept AS28857
+mp-export:      afi ipv6.unicast to AS28857 announce AS-OPTIMA-IPV6
+remarks:        - Denic:
+mp-import:      afi ipv6.unicast from AS31529 accept AS31529
+mp-export:      afi ipv6.unicast to AS31529 announce AS-OPTIMA-IPV6
+remarks:        - CORE-BACKBONE:
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-export:      afi ipv6.unicast to AS33891 announce AS-OPTIMA-IPV6
+remarks:        - CORE-BACKBONE:
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-export:      afi ipv6.unicast to AS33891 announce AS-OPTIMA-IPV6
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        ---------------- Private Peerings -----------------------------
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        - Voljatel:
+import:         from AS34362 action pref=900; accept AS34362
+export:         to AS34362 announce AS-OPTIMA
+remarks:        - OiV:
+import:         from AS48797 action pref=900; accept AS48797
+export:         to AS48797 announce AS-OPTIMA
+remarks:        - SiOL:
+import:         from AS5603 accept AS-SIOL
+export:         to AS5603 announce AS-OPTIMA
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        ---------- BGP community support for transit customers ---------
+remarks:        ----------------------------------------------------------------
+remarks:        34594:200 - Customer route
+remarks:        34594:100 - Peer route
+remarks:        ----------------------------------------------------------------
+remarks:        Regional communities:
+remarks:        ----------------------------------------------------------------
+remarks:        34594:10 - POP Zagreb, HR
+remarks:        34594:20 - CIX - Croatian Internet Exchange, Zagreb, HR
+remarks:        34594:30 - VIX - Vienna Internet Exchange, Interxion, Vienna, AT
+remarks:
+remarks:        Those communites are removed at ingress and they are set only by
+remarks:        Optima Telekom.
+remarks:        ----------------------------------------------------------------
+remarks:        Accepted communities
+remarks:        ----------------------------------------------------------------
+remarks:        Customer traffic engineering communities - LocalPref
+remarks:        ----------------------------------------------------------------
+remarks:        34594:70 - set local preference to 70
+remarks:        34594:80 - set local preference to 80
+remarks:        34594:90 - set local preference to 90
+remarks:        ----------------------------------------------------------------
+remarks:        Customer traffic engineering communities - Suppression
+remarks:        ----------------------------------------------------------------
+remarks:        34594:1120 - do not announce route to AS1299 (Telia)
+remarks:        34594:1130 - do not announce route to AS34362 (Voljatel HR)
+remarks:        34594:1140 - do not announce route to CIX peers
+remarks:        34594:1150 - do not announce route to VIX peers
+remarks:        34594:1160 - do not announce route to AS6939 (Hurricane Electric)
+remarks:        34594:1170 - do not announce route to AS5603 (SiOL)
+remarks:        34594:1180 - do not announce route to AS5391 (Hrvatski Telekom)
+remarks:        34594:1190 - do not announce route to AS3320 (Deutsche Telekom)
+remarks:        ----------------------------------------------------------------
+remarks:        Customer traffic engineering communities - Prepending
+remarks:        ----------------------------------------------------------------
+remarks:        34594:1001 - prepend once to all upstream providers
+remarks:        34594:1002 - prepend twice to all upstream providers
+remarks:        34594:1003 - prepend three times to all upstream providers
+remarks:        34594:1021 - prepend once to AS1299 (Telia)
+remarks:        34594:1022 - prepend twice to AS1299 (Telia)
+remarks:        34594:1023 - prepend three times to AS1299 (Telia)
+remarks:        34594:1071 - prepend once to AS6939 (Hurricane Electric)
+remarks:        34594:1072 - prepend twice to AS6939 (Hurricane Electric)
+remarks:        34594:1073 - prepend three times to AS6939 (Hurricane Electric)
+remarks:        34594:1081 - prepend once to AS5391 (Hrvatski Telekom)
+remarks:        34594:1082 - prepend twice to AS5391 (Hrvatski Telekom)
+remarks:        34594:1083 - prepend three times to AS5391 (Hrvatski Telekom)
+remarks:        34594:1091 - prepend once to AS3320 (Deutsche Telekom)
+remarks:        34594:1092 - prepend twice to AS3320 (Deutsche Telekom)
+remarks:        34594:1093 - prepend three times to AS3320 (Deutsche Telekom)
+remarks:        ----------------------------------------------------------------
+remarks:        Customer traffic engineering communities - Blackhole
+remarks:        ----------------------------------------------------------------
+remarks:        34594:666
+remarks:        Blackholing is possible only for routes registred at customer's
+remarks:        own AS number and not for entire AS-SET
+remarks:        ----------------------------------------------------------------
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-routes:     OT-MNT
+mnt-by:         OT-MNT
+created:        2005-02-21T07:40:25Z
+last-modified:  2018-03-14T09:20:02Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

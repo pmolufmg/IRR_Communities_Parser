@@ -1,0 +1,181 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20485 - AS20857'
+
+as-block:       AS20485 - AS20857
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20569'
+
+% Abuse contact for 'AS20569' is 'abuse@aina.fi'
+
+aut-num:        AS20569
+org:            ORG-FCO1-RIPE
+as-name:        AINAIP-AS
+descr:          http://www.ainacom.fi
+remarks:        --------------------------------------------------------------------
+remarks:        Customer peers
+remarks:        --------------------------------------------------------------------
+remarks:        --------------------------------------------------------------------
+remarks:        Transit peers
+remarks:        --------------------------------------------------------------------
+import:         from AS12552 accept ANY
+export:         to AS12552 announce AS-AINAIP
+import:         from AS1759 accept ANY
+export:         to AS1759 announce AS-AINAIP
+remarks:        --------------------------------------------------------------------
+remarks:        Ficix 2 peers
+remarks:        --------------------------------------------------------------------
+import:         { from AS1342 193.110.224.26 action pref=120; accept AS-ICLFI; from AS1741 193.110.224.14 action pref=120; accept AS-FUNET; from AS16086 193.110.224.20 action pref=120; accept AS-FINNET; from AS30798 193.110.224.22 action pref=120; accept AS-TNNET; from AS3246 193.110.224.36 action pref=120; accept AS-TDCSONG; from AS20542 193.110.224.24 action pref=120; accept AS-WELHO; from AS21856 193.110.224.44 action pref=120; accept AS21856; from AS24751 193.110.224.28 action pref=120; accept AS-MULTIFI; from AS25152 193.110.224.46 action pref=120; accept RS-KROOT; from AS29154 193.110.224.52 action pref=120; accept AS-ACADEMICAFI; from AS29422 193.110.224.48 action pref=120; accept AS-NBLNETFI; from AS9002 193.110.224.40 action pref=120; accept AS-RETN; from AS34188 193.110.224.54 action pref=120; accept AS34188; from AS47605 193.110.224.64 action pref=120; accept AS-set-FNE; from AS1759 193.110.224.34 action pref=120; accept AS-SONERA; from AS12659 193.110.224.58 action pref=120; accept AS-BBNWKS; from AS12552 193.110.224.60 action pref=120; accept AS-IPO; from AS39792 193.110.224.62 action pref=120; accept AS-ANDERS; from AS43646 193.110.224.70 action pref=120; accept AS-TDFPMM; from AS43646 193.110.224.71 action pref=120; accept AS-TDFPMM; }
+mp-import:      { from AS1741 2001:7f8:7:1::1741:1 action pref=120; accept AS-FUNET; from AS29422 2001:7f8:7:1::2:9422:1 action pref=120; accept AS-NBLNETFI; from AS9002 2001:7f8:7:1::9002:1 action pref=120; accept AS-RETN6; from AS12552 2001:7f8:7:1::1:2552:1 action pref=120; accept AS-IPO6; from AS16086 2001:7f8:7:1::1:6086:1 action pref=120; accept AS-DNA; from AS1759 2001:7b8:7:1::1759:1 action pref=120; accept AS-TSF-National; from AS25152 2001:7b8:7:1:0:2:5125:1 action pref=120; accept RS-KROOT-FICIX; from AS29154 2001:7b8:7:1:0:2:9154:1 action pref=120; accept AS-ACADEMICAFI; from AS30798 2001:7b8:7:1:0:3:798:1 action pref=120; accept AS-TNNET; from AS43646 2001:7f8:7:1:0:4:3646:1 action pref=120; accept AS-TDFPMM; from AS43646 2001:7f8:7:1:0:4:3646:2 action pref=120; accept AS-TDFPMM; }
+export:         { to AS1342 193.110.224.26 announce AS-AINAIP; to AS1741 193.110.224.14 announce AS-AINAIP; to AS16086 193.110.224.20 announce AS-AINAIP; to AS30798 193.110.224.22 announce AS-AINAIP; to AS3246 193.110.224.36 announce AS-AINAIP; to AS20542 193.110.224.24 announce AS-AINAIP; to AS21856 193.110.224.44 announce AS-AINAIP; to AS20569 193.110.224.28 announce AS-AINAIP; to AS24751 193.110.224.28 announce AS-AINAIP; to AS25152 193.110.224.46 announce AS-AINAIP; to AS29154 193.110.224.52 announce AS-AINAIP; to AS29422 193.110.224.48 announce AS-AINAIP; to AS9002 193.110.224.40 announce AS-AINAIP; to AS34188 193.110.224.54 announce AS-AINAIP; to AS47605 193.110.224.64 announce AS-AINAIP; to AS1759 193.110.224.34 announce AS-AINAIP; to AS12659 193.110.224.58 announce AS-AINAIP; to AS12552 193.110.224.60 announce AS-AINAIP; to AS39792 193.110.224.62 announce AS-AINAIP; to AS43646 193.110.224.70 announce AS-AINAIP; to AS43646 193.110.224.71 announce AS-AINAIP; }
+mp-export:      { to AS1741 2001:7f8:7:1::1741:1 announce AS-AINAIP; to AS29422 2001:7f8:7:1::2:9422:1 announce AS-AINAIP; to AS9002 2001:7f8:7:1::9002:1 announce AS-AINAIP; to AS12552 2001:7f8:7:1::1:2552:1 announce AS-AINAIP; to AS16086 2001:7f8:7:1::1:6086:1 announce AS-AINAIP; to AS1759 2001:7b8:7:1::1759:1 announce AS-AINAIP; to AS25152 2001:7b8:7:1::2:5152:1 announce AS-AINAIP; to AS29154 2001:7b8:7:1::2:9154:1 announce AS-AINAIP; to AS30798 2001:7b8:7:1::3:798:1 announce AS-AINAIP; to AS43646 2001:7f8:7:1:0:4:3646:1 announce AS-AINAIP; to AS43646 2001:7f8:7:1:0:4:3646:2 announce AS-AINAIP; }
+remarks:        --------------------------------------------------------------------
+remarks:        Trex peers
+remarks:        --------------------------------------------------------------------
+import:         { from AS29432 195.140.192.9 action pref=120; accept AS29432:AS-PEERING AS29432:RS-PEERING; from AS29432 195.140.192.10 action pref=120; accept AS29432:AS-PEERING AS29432:RS-PEERING; from AS51164 195.140.192.20 action pref=120; accept AS51164; from AS51164 195.140.192.20 action pref=120; accept AS51164; from AS35382 195.140.192.23 action pref=120; accept AS35382; from AS42 195.140.192.28 action pref=120; accept AS-PCH; from AS3856 195.140.192.29 action pref=120; accept AS-PCH; from AS58003 195.140.192.30 action pref=120; accept AS58003; from AS16302 195.140.192.31 action pref=120; accept AS-SUOMICOM; }
+mp-import:      { from AS29432 2001:7f8:1d:4::72f8:1 action pref=120; accept AS29432:AS-PEERING AS29432:RS-PEERING; from AS29432 2001:7f8:1d:4::72f8:2 action pref=120; accept AS29432:AS-PEERING AS29432:RS-PEERING; from AS51164 2001:7f8:1d:4::c7dc:1 action pref=120; accept AS51164; from AS51164 2001:7f8:1d:4::c7dc:2 action pref=120; accept AS51164; from AS42 2001:7f8:1d:4::2a:1 action pref=120; accept AS-PCH; from AS3856 2001:7f8:1d:4::f10:1 action pref=120; accept AS-PCH; from AS35382 2001:7F8:1D:4::8A36:1 action pref=120; accept AS35382; from AS16302 2001:7F8:1D:4::3FAE:1 action pref=120; accept AS-SUOMICOM; }
+export:         { to AS29432 195.140.192.9 announce AS-AINAIP; to AS29432 195.140.192.10 announce AS-AINAIP; to AS51164 195.140.192.20 announce AS-AINAIP; to AS51164 195.140.192.21 announce AS-AINAIP; to AS35382 195.140.192.23 announce AS-AINAIP; to AS42 195.140.192.28 announce AS-AINAIP; to AS3856 195.140.192.29 announce AS-AINAIP; to AS58003 195.140.192.30 announce AS-AINAIP; to AS16302 195.140.192.31 announce AS-AINAIP; }
+mp-export:      { to AS29432 2001:7f8:1d:4::72f8:1 announce AS-AINAIP; to AS29432 2001:7f8:1d:4::72f8:2 announce AS-AINAIP; to AS51164 2001:7f8:1d:4::c7dc:1 announce AS-AINAIP; to AS51164 2001:7f8:1d:4::c7dc:2 announce AS-AINAIP; to AS42 2001:7f8:1d:4::2a:1 announce AS-AINAIP; to AS3856 2001:7f8:1d:4::f10:1 announce AS-AINAIP; to AS35382 2001:7F8:1D:4::8A36:1 announce AS-AINAIP; to AS16302 2001:7F8:1D:4::3FAE:1 announce AS-AINAIP; }
+remarks:        ---------------------------------------------------------------------
+admin-c:        ACOA-RIPE
+tech-c:         ACHM-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        -------------------------------------
+remarks:
+remarks:        * A I N A C O M *
+remarks:
+remarks:        Aina Internet Number Authority
+remarks:
+remarks:        . . - - - - - - - - - - - - - . .
+remarks:
+remarks:        AS20569 is AS for AinaCom.
+remarks:
+remarks:        AinaCom is service and transit
+remarks:        provider which operates mainly
+remarks:        in Finland.
+remarks:
+remarks:        We are currently present in following
+remarks:        public peering points:
+remarks:        - Ficix 2 (193.110.224.56)
+remarks:        - Ficix2 ipv6 2001:7f8:7:1::2:0569:1
+remarks:
+remarks:        - Trex (195.140.192.33)
+remarks:        - Trex (2001:7f8:1d:4::5059:1)
+remarks:
+remarks:
+remarks:        Peering changes and requests can be
+remarks:        sent to peering@ainaip.net.
+remarks:
+remarks:
+remarks:
+remarks:        Customers can use these communities to control how their prefixes are
+remarks:        announced to peers:
+remarks:
+remarks:
+remarks:        1. Communities controlling AS20569 internal use:
+remarks:
+remarks:        Default Local Preference for customer prefix = 130
+remarks:
+remarks:        20569:125 - Set LP to 125
+remarks:        20569:135 - Set LP to 135
+remarks:
+remarks:        2. Communities controlling egress distribution:
+remarks:
+remarks:        20569:3001 - Prepend 20569 1 time
+remarks:        20569:3002 - Prepend 20569 2 time
+remarks:        20569:3003 - Prepend 20569 3 time
+remarks:        20569:3009 - Don't announce
+remarks:
+remarks:        3. AinaCom send out following communities based on where the prefix is learned
+remarks:
+remarks:        20569:1000 - Prefix learned from Ficix-peers and Trex-peers
+remarks:        20569:2000 - Prefix learned from Other peers
+remarks:        20569:4000 - Prefix learned from AinaCom customer peer or it's AinaCom internal
+remarks:
+remarks:
+remarks:        -------------------------------------
+mnt-by:         AS20569-MNT
+created:        2002-09-09T08:06:29Z
+last-modified:  2019-02-06T11:20:09Z
+source:         RIPE
+
+organisation:   ORG-FCO1-RIPE
+org-name:       Telia Communication Oy
+org-type:       LIR
+address:        Vuorikatu 20
+address:        00100
+address:        Helsinki
+address:        FINLAND
+phone:          +358 75 755 2000
+fax-no:         +358 9 4242 2256
+admin-c:        PARE-RIPE
+admin-c:        SA31890-RIPE
+admin-c:        ACHM-RIPE
+admin-c:        TH5574-RIPE
+admin-c:        PR14401-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AINA-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AINA-MNT
+abuse-c:        ACHM-RIPE
+created:        2004-04-17T11:20:25Z
+last-modified:  2019-02-07T16:22:46Z
+source:         RIPE # Filtered
+
+role:           Telia Communication Oy Hostmaster
+address:        Vanajantie 7, 13110 Hameenlinna
+remarks:        ---------------------------------------------
+remarks:        Peering requests: peering@ainaip.net
+remarks:        Abuse and spam report:
+remarks:        Please, contact the admin-c of appropriate
+remarks:        inetnum object. If that is unreachable
+remarks:        then abuse@aina.fi
+remarks:        ---------------------------------------------
+admin-c:        PARE-RIPE
+tech-c:         PARE-RIPE
+tech-c:         SA31890-RIPE
+abuse-mailbox:  abuse@aina.fi
+nic-hdl:        ACHM-RIPE
+mnt-by:         AS20569-MNT
+created:        2006-08-18T14:51:56Z
+last-modified:  2019-02-06T11:50:18Z
+source:         RIPE # Filtered
+
+role:           Telia Communication Oy Administrator
+address:        Vanajantie 7, 13110 Hameenlinna
+remarks:        ---------------------------------------------
+remarks:        Peering requests: peering@ainaip.net
+remarks:        Abuse and spam report: abuse@aina.fi
+remarks:        ---------------------------------------------
+admin-c:        PARE-RIPE
+tech-c:         PARE-RIPE
+tech-c:         SA31890-RIPE
+nic-hdl:        ACOA-RIPE
+mnt-by:         AS20569-MNT
+created:        2006-08-18T14:54:29Z
+last-modified:  2019-02-06T11:49:09Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

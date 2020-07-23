@@ -1,0 +1,393 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS56320 - AS58367'
+
+as-block:       AS56320 - AS58367
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS56534'
+
+% Abuse contact for 'AS56534' is 'abuse@comfortel.pro'
+
+aut-num:        AS56534
+as-name:        PIRIX-INET-AS
+descr:          PIRIX, St.Petersburg, Russia
+org:            ORG-CL253-RIPE
+remarks:        --- IPv4 Routing Policy ---
+remarks:        --- UPSTREAMS ---
+import:         from AS9002 action pref=105; accept ANY
+export:         to AS9002 announce AS-PIRIXINET
+import:         from AS20764 action pref=105; accept ANY
+export:         to AS20764 announce AS-PIRIXINET
+import:         from AS25478 action pref=105; accept ANY
+export:         to AS25478 announce AS-PIRIXINET
+import:         from AS31500 action pref=105; accept ANY
+export:         to AS31500 announce AS-PIRIXINET
+remarks:        --- PEERS ---
+import:         from AS31210 action pref=110; accept AS-DTEL-IX
+export:         to AS31210 announce AS-PIRIXINET
+import:         from AS48625 action pref=110; accept AS-PIRIX
+export:         to AS48625 announce AS-PIRIXINET
+import:         from AS3267 action pref=110; accept AS-RUNNET
+export:         to AS3267 announce AS-PIRIXINET
+import:         from AS43690 action pref=110; accept AS-SPBROUTESERVER
+export:         to AS43690 announce AS-PIRIXINET
+import:         from AS8631 action pref=110; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-PIRIXINET
+import:         from AS52005 action pref=110; accept AS52005
+export:         to AS52005 announce AS-PIRIXINET
+import:         from AS199524 action pref=110; accept AS-GCORE
+export:         to AS199524 announce AS-PIRIXINET
+import:         from AS203921 action pref=110; accept AS-ELBA-IX-ROUTESERVER
+export:         to AS203921 announce AS-PIRIXINET
+remarks:        --- DOWNSTREAMS ---
+import:         from AS2585 action pref=130; accept AS2585
+export:         to AS2585 announce ANY
+import:         from AS3227 action pref=130; accept AS3227
+export:         to AS3227 announce ANY
+import:         from AS8219 action pref=130; accept AS8219
+export:         to AS8219 announce ANY
+import:         from AS13105 action pref=130; accept AS-LUKOIL
+export:         to AS13105 announce ANY
+import:         from AS31321 action pref=130; accept AS-STARTELECOMSPB
+export:         to AS31321 announce ANY
+import:         from AS31444 action pref=130; accept AS-SEANET
+export:         to AS31444 announce ANY
+import:         from AS34042 action pref=130; accept AS34042
+export:         to AS34042 announce ANY
+import:         from AS34223 action pref=130; accept AS-NREGION
+export:         to AS34223 announce ANY
+import:         from AS34232 action pref=130; accept AS-PULNET
+export:         to AS34232 announce ANY
+import:         from AS34574 action pref=130; accept AS34574
+export:         to AS34574 announce ANY
+import:         from AS35278 action pref=130; accept AS35278
+export:         to AS35278 announce ANY
+import:         from AS39101 action pref=130; accept AS39101
+export:         to AS39101 announce ANY
+import:         from AS39598 action pref=130; accept AS-TIERA
+export:         to AS39598 announce ANY
+import:         from AS41337 action pref=130; accept AS-PROSERV
+export:         to AS41337 announce ANY
+import:         from AS43031 action pref=130; accept AS-VLAN
+export:         to AS43031 announce ANY
+import:         from AS43106 action pref=130; accept AS-NEVACOM
+export:         to AS43106 announce ANY
+import:         from AS43317 action pref=130; accept AS-RNET
+export:         to AS43317 announce ANY
+import:         from AS43362 action pref=130; accept AS43362
+export:         to AS43362 announce ANY
+import:         from AS44478 action pref=130; accept AS-ETALON
+export:         to AS44478 announce ANY
+import:         from AS44484 action pref=130; accept AS-XTRIM
+export:         to AS44484 announce ANY
+import:         from AS44640 action pref=130; accept AS44640
+export:         to AS44640 announce ANY
+import:         from AS44882 action pref=130; accept AS-VSEVNET
+export:         to AS44882 announce ANY
+import:         from AS45054 action pref=130; accept AS45054
+export:         to AS45054 announce ANY
+import:         from AS47133 action pref=130; accept AS-PL-NET
+export:         to AS47133 announce ANY
+import:         from AS47149 action pref=130; accept AS47149
+export:         to AS47149 announce ANY
+import:         from AS47211 action pref=130; accept AS-KOLPINONET
+export:         to AS47211 announce ANY
+import:         from AS47363 action pref=130; accept AS47363
+export:         to AS47363 announce ANY
+import:         from AS48180 action pref=130; accept AS48180
+export:         to AS48180 announce ANY
+import:         from AS48223 action pref=130; accept AS-SENATOR
+export:         to AS48223 announce ANY
+import:         from AS48235 action pref=130; accept AS48235
+export:         to AS48235 announce ANY
+import:         from AS48257 action pref=130; accept AS-SATNETSPB
+export:         to AS48257 announce ANY
+import:         from AS48370 action pref=130; accept AS-WESTCOM
+export:         to AS48370 announce ANY
+import:         from AS48416 action pref=130; accept AS-INFOLAN
+export:         to AS48416 announce ANY
+import:         from AS48601 action pref=130; accept AS48601
+export:         to AS48601 announce ANY
+import:         from AS48773 action pref=130; accept AS-EPS
+export:         to AS48773 announce ANY
+import:         from AS48890 action pref=130; accept AS48890
+export:         to AS48890 announce ANY
+import:         from AS49017 action pref=130; accept AS49017
+export:         to AS49017 announce ANY
+import:         from AS49255 action pref=130; accept AS49255
+export:         to AS49255 announce ANY
+import:         from AS49304 action pref=130; accept AS49304
+export:         to AS49304 announce ANY
+import:         from AS50082 action pref=130; accept AS50082
+export:         to AS50082 announce ANY
+import:         from AS50167 action pref=130; accept AS-CTTELECOM
+export:         to AS50167 announce ANY
+import:         from AS50538 action pref=130; accept AS50538
+export:         to AS50538 announce ANY
+import:         from AS50717 action pref=130; accept AS-FORTIS
+export:         to AS50717 announce ANY
+import:         from AS51478 action pref=130; accept AS51478
+export:         to AS51478 announce ANY
+import:         from AS51562 action pref=130; accept AS51562
+export:         to AS51562 announce ANY
+import:         from AS51783 action pref=130; accept AS51783
+export:         to AS51783 announce ANY
+import:         from AS51836 action pref=130; accept AS51836
+export:         to AS51836 announce ANY
+import:         from AS51973 action pref=130; accept AS51973
+export:         to AS51973 announce ANY
+import:         from AS57010 action pref=130; accept AS57010
+export:         to AS57010 announce ANY
+import:         from AS57246 action pref=130; accept AS57246
+export:         to AS57246 announce ANY
+import:         from AS57439 action pref=130; accept AS57439
+export:         to AS57439 announce ANY
+import:         from AS58007 action pref=130; accept AS58007
+export:         to AS58007 announce ANY
+import:         from AS58082 action pref=130; accept AS58082
+export:         to AS58082 announce ANY
+import:         from AS58158 action pref=130; accept AS58158
+export:         to AS58158 announce ANY
+import:         from AS59482 action pref=130; accept AS59482
+export:         to AS59482 announce ANY
+import:         from AS59627 action pref=130; accept AS59627
+export:         to AS59627 announce ANY
+import:         from AS60357 action pref=130; accept AS60357
+export:         to AS60357 announce ANY
+import:         from AS61286 action pref=130; accept AS61286
+export:         to AS61286 announce ANY
+import:         from AS62205 action pref=130; accept AS-UNITELECOM-NET
+export:         to AS62205 announce ANY
+import:         from AS62251 action pref=130; accept AS-DREAMLESS
+export:         to AS62251 announce ANY
+import:         from AS196750 action pref=130; accept AS196750
+export:         to AS196750 announce ANY
+import:         from AS196879 action pref=130; accept AS196879
+export:         to AS196879 announce ANY
+import:         from AS197303 action pref=130; accept AS197303
+export:         to AS197303 announce ANY
+import:         from AS198070 action pref=130; accept AS-PUDLINK
+export:         to AS198070 announce ANY
+import:         from AS199112 action pref=130; accept AS199112
+export:         to AS199112 announce ANY
+import:         from AS199732 action pref=130; accept AS199732
+export:         to AS199732 announce ANY
+import:         from AS200679 action pref=130; accept AS200679
+export:         to AS200679 announce ANY
+import:         from AS201016 action pref=130; accept AS201016
+export:         to AS201016 announce ANY
+import:         from AS201190 action pref=130; accept AS201190
+export:         to AS201190 announce ANY
+import:         from AS201496 action pref=130; accept AS-SET-SANG
+export:         to AS201496 announce ANY
+import:         from AS201601 action pref=130; accept AS201601
+export:         to AS201601 announce ANY
+import:         from AS201694 action pref=130; accept AS201694
+export:         to AS201694 announce ANY
+import:         from AS201797 action pref=130; accept AS201797
+export:         to AS201797 announce ANY
+import:         from AS201848 action pref=130; accept AS201848
+export:         to AS201848 announce ANY
+import:         from AS201861 action pref=130; accept AS-CROSSMIX-TELECOM
+export:         to AS201861 announce ANY
+import:         from AS202317 action pref=130; accept AS202317
+export:         to AS202317 announce ANY
+import:         from AS202633 action pref=130; accept AS202633
+export:         to AS202633 announce ANY
+import:         from AS202689 action pref=130; accept AS202689
+export:         to AS202689 announce ANY
+import:         from AS202775 action pref=130; accept AS202775
+export:         to AS202775 announce ANY
+import:         from AS202974 action pref=130; accept AS202974
+export:         to AS202974 announce ANY
+import:         from AS202976 action pref=130; accept AS202976
+export:         to AS202976 announce ANY
+import:         from AS202990 action pref=130; accept AS202990
+export:         to AS202990 announce ANY
+import:         from AS203004 action pref=130; accept AS203004
+export:         to AS203004 announce ANY
+import:         from AS203126 action pref=130; accept AS203126
+export:         to AS203126 announce ANY
+import:         from AS203139 action pref=130; accept AS203139
+export:         to AS203139 announce ANY
+import:         from AS203387 action pref=130; accept AS203387
+export:         to AS203387 announce ANY
+import:         from AS203553 action pref=130; accept AS203553
+export:         to AS203553 announce ANY
+import:         from AS203674 action pref=130; accept AS203674
+export:         to AS203674 announce ANY
+import:         from AS205378 action pref=130; accept AS205378
+export:         to AS205378 announce ANY
+import:         from AS205454 action pref=130; accept AS205454
+export:         to AS205454 announce ANY
+import:         from AS205489 action pref=130; accept AS205489
+export:         to AS205489 announce ANY
+import:         from AS205601 action pref=130; accept AS205601
+export:         to AS205601 announce ANY
+import:         from AS205701 action pref=130; accept AS205701
+export:         to AS205701 announce ANY
+import:         from AS206403 action pref=130; accept AS206403
+export:         to AS206403 announce ANY
+import:         from AS206647 action pref=130; accept AS206647
+export:         to AS206647 announce ANY
+import:         from AS206812 action pref=130; accept AS206812
+export:         to AS206812 announce ANY
+import:         from AS207168 action pref=130; accept AS207168
+export:         to AS207168 announce ANY
+import:         from AS207256 action pref=130; accept AS207256
+export:         to AS207256 announce ANY
+import:         from AS209667 action pref=130; accept AS209667
+export:         to AS209667 announce ANY
+import:         from AS209679 action pref=130; accept AS209679
+export:         to AS209679 announce ANY
+remarks:        --- IPv6 Routing Policy ---
+remarks:        --- UPSTREAMS ---
+mp-import:      afi ipv6.unicast from AS3267 action pref=105; accept AS-ANY
+mp-export:      afi ipv6.unicast to AS3267 announce AS-CMFT6
+mp-import:      afi ipv6.unicast from AS20764 action pref=105; accept AS-ANY
+mp-export:      afi ipv6.unicast to AS20764 announce AS-CMFT6
+mp-import:      afi ipv6.unicast from AS9002 action pref=105; accept AS-ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-CMFT6
+mp-import:      afi ipv6.unicast from AS31500 action pref=105; accept AS-ANY
+mp-export:      afi ipv6.unicast to AS31500 announce AS-CMFT6
+remarks:        --- PEERS ---
+mp-import:      afi ipv6.unicast from AS48625 action pref=110; accept AS-PIRIX
+mp-export:      afi ipv6.unicast to AS48625 announce AS-CMFT6
+mp-import:      afi ipv6.unicast from AS43690 action pref=110; accept AS-SPBROUTESERVER
+mp-export:      afi ipv6.unicast to AS43690 announce AS-PIRIXINET
+mp-import:      afi ipv6.unicast from AS8631 action pref=110; accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-PIRIXINET
+mp-import:      afi ipv6.unicast from AS203921 action pref=110; accept AS-ELBA-IX-ROUTESERVER
+mp-export:      afi ipv6.unicast to AS203921 announce AS-PIRIXINET
+remarks:        --- DOWNSTREAMS ---
+mp-import:      afi ipv6.unicast from AS43031 action pref=130; accept AS-VLAN
+mp-export:      afi ipv6.unicast to AS43031 announce AS-ANY
+mp-import:      afi ipv6.unicast from AS44484 action pref=130; accept AS44484
+mp-export:      afi ipv6.unicast to AS44484 announce AS-ANY
+mp-import:      afi ipv6.unicast from AS47211 action pref=130; accept AS-KOLPINONET
+mp-export:      afi ipv6.unicast to AS47211 announce AS-ANY
+mp-import:      afi ipv6.unicast from AS51783 action pref=130; accept AS51783
+mp-export:      afi ipv6.unicast to AS51783 announce AS-ANY
+mp-import:      afi ipv6.unicast from AS201848 action pref=130; accept AS201848
+mp-export:      afi ipv6.unicast to AS201848 announce AS-ANY
+mp-import:      afi ipv6.unicast from AS62251 action pref=130; accept AS-DREAMLESS
+mp-export:      afi ipv6.unicast to AS62251 announce AS-ANY
+remarks:        ----------------------------------
+remarks:        External communities may be set by external peers when
+remarks:        talking to AS56534.
+remarks:        Community Meaning
+remarks:        56534:1000x When advertising to any UPSTREAM peer
+remarks:        56534:1010x When advertising to ReTN
+remarks:        56534:1030x When advertising to iHome
+remarks:        56534:1040x When advertising to RASCOM
+remarks:        56534:1050x When advertising to GlobalNet
+remarks:        56534:2000x When advertising to any PIRIX peer
+remarks:        56534:2010x When advertising to any SPB-IX peer
+remarks:        56534:2020x When advertising to any MSK-IX peer
+remarks:        56534:2030x When advertising to any G-CORE peer
+remarks:        56534:2040x When advertising to any DATAIX peer
+remarks:        56534:2050x When advertising to any DATALINE peer
+remarks:        ...x=0 - do not advertise
+remarks:        ...x=1,2,4 or 6 - prepend 56534 1,2,4 or 6 times
+remarks:        Internal comminuties are assigned only internally, and are
+remarks:        always deleted from incoming updates at the border routers.
+remarks:        They may be used by peers to filter some prefixes.
+remarks:        56534:1000 Receieved from an UPSTREAM peer
+remarks:        56534:1010 Receieved from ReTN
+remarks:        56534:1030 Receieved from iHome
+remarks:        56534:1040 Receieved from RASCOM
+remarks:        56534:1050 Receieved from GlobalNet
+remarks:        56534:2000 Receieved from PIRIX
+remarks:        56534:2010 Receieved from SPB-IX
+remarks:        56534:2020 Receieved from MSK-IX
+remarks:        56534:2030 Receieved from G-CORE
+remarks:        56534:2040 Receieved from DATAIX
+remarks:        56534:2050 Receieved from DATALINE
+remarks:        56534:1020 Receieved from RunNET
+remarks:        56534:3000 Receieved from IX peer
+remarks:        56534:9900 Origin in SPB
+remarks:        Blackhole community for downstreams peers 56534:6666
+remarks:        Other communities are accepted but ignored.
+remarks:        -------------------------------
+remarks:        Public Looking Glass: lg.comfortel.pro
+remarks:        -------------------------------
+admin-c:        PIRX-RIPE
+tech-c:         PIRX-RIPE
+status:         ASSIGNED
+mnt-by:         PIRIX-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2011-03-11T14:49:01Z
+last-modified:  2019-02-05T07:56:57Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CL253-RIPE
+org-name:       Comfortel Ltd.
+org-type:       LIR
+address:        Detskiy str 5 office 304
+address:        196084
+address:        Saint-Petersburg
+address:        RUSSIAN FEDERATION
+phone:          +78126700000
+fax-no:         +78126700000 ext. 4
+admin-c:        PIRX-RIPE
+tech-c:         PIRX-RIPE
+abuse-c:        PIRX-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        PIRIX-MNT
+mnt-ref:        RUNNET-MNT
+mnt-ref:        MNT-PINSUPPORT
+mnt-ref:        OY-RR
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PIRIX-MNT
+created:        2014-01-31T10:00:31Z
+last-modified:  2016-12-27T08:27:32Z
+source:         RIPE # Filtered
+
+role:           Comfortel Ltd Contacts Data
+address:        Oktyabrskaya 10-1
+address:        193091 St.Petersburg Russia
+phone:          +7 812 670 00 00
+fax-no:         +7 812 670 00 00 ext. 4
+abuse-mailbox:  abuse@comfortel.pro
+admin-c:        ME3174-RIPE
+tech-c:         POOF-RIPE
+remarks:        -----------------------------------------
+remarks:        General questions: lir@comfortel.pro
+remarks:        Spam & Abuse: abuse@comfortel.pro
+remarks:        Routing issues: noc@comfortel.pro
+remarks:        Peering issues: team@pirix.ru
+remarks:        -----------------------------------------
+remarks:        --------- A T T E N T I O N !!! ---------
+remarks:        -----------------------------------------
+remarks:        Please use abuse@comfortel.pro e-mail address
+remarks:        for spam and abuse complaints.
+remarks:        Mails for other addresses will be ignored!
+remarks:        -----------------------------------------
+nic-hdl:        PIRX-RIPE
+mnt-by:         PIRIX-MNT
+created:        2011-04-18T08:43:24Z
+last-modified:  2018-08-02T11:00:25Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

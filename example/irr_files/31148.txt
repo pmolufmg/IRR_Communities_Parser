@@ -1,0 +1,137 @@
+aut-num:        AS31148
+as-name:        FREENET-AS
+org:            ORG-FL18-RIPE
+import:         from AS174 accept ANY
+import:         from AS13228 action pref=160; accept ANY
+import:         from AS15645 action pref=150; accept AS-UAIX
+import:         from AS35530 action pref=140; accept AS35530
+import:         from AS34143 action pref=140; accept AS34143
+import:         from AS198238 accept AS198238
+import:         from AS20873 accept AS20873
+import:         from AS49622 accept AS49622
+import:         from AS31210 action pref=150; accept AS-DTEL-IX
+import:         from AS51357 accept AS51357
+import:         from AS41510 accept AS41510
+import:         from AS13252 accept AS13252
+import:         from AS28761 accept AS28761
+import:         from AS201776 accept AS201776
+import:         from AS28917 accept AS28917
+import:         from AS50042 accept AS50042
+import:         from AS43222 accept AS-CRIMEA-IX
+import:         from AS6939 accept ANY
+import:         from AS35297 accept ANY
+import:         from AS47598 accept AS47598
+import:         from AS3326 accept ANY
+import:         from AS21219 accept ANY
+import:         from AS41158 accept AS41158
+import:         from AS6695 accept AS-DECIX
+import:         from AS47898 accept AS47898
+export:         to AS174 announce AS-FNT
+export:         to AS13228 announce AS-FNT
+export:         to AS15645 announce AS-FNT
+export:         to AS35530 announce ANY
+export:         to AS13252 announce ANY
+export:         to AS34143 announce ANY
+export:         to AS49622 announce ANY
+export:         to AS20873 announce ANY
+export:         to AS198238 announce ANY
+export:         to AS31210 announce AS-FNT
+export:         to AS51357 announce ANY
+export:         to AS41510 announce ANY
+export:         to AS28761 announce AS-FNT
+export:         to AS201776 announce AS-FNT
+export:         to AS28917 announce AS-FNT
+export:         to AS50042 announce ANY
+export:         to AS43222 announce AS-FNT
+export:         to AS6939 announce AS-FNT
+export:         to AS35297 announce AS-FNT
+export:         to AS47598 announce ANY
+export:         to AS3326 announce AS-FNT
+export:         to AS21219 announce AS-FNT
+export:         to AS41158 announce ANY
+export:         to AS6695 announce AS-FNT
+export:         to AS47898 announce AS-FNT
+remarks:        ========================== IPv6 Uplinks ==========================
+mp-import:      afi ipv6.unicast from AS21219 accept ANY
+mp-export:      afi ipv6.unicast to AS21219 announce AS-FNT-v6
+mp-import:      afi ipv6.unicast from AS21011 accept ANY
+mp-export:      afi ipv6.unicast to AS21011 announce AS-FNT-v6
+mp-import:      afi ipv6.unicast from AS3326 accept ANY
+mp-export:      afi ipv6.unicast to AS3326 announce AS-FNT-v6
+mp-import:      afi ipv6.unicast from AS35297 accept ANY
+mp-export:      afi ipv6.unicast to AS35297 announce AS-FNT-v6
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-FNT-v6
+remarks:        ========================== IPv6 UA ==============================
+mp-import:      afi ipv6.unicast from AS15645 accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-FNT-v6
+mp-import:      afi ipv6.unicast from AS59613 accept AS-UBNIX
+mp-export:      afi ipv6.unicast to AS59613 announce AS-FNT-v6
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-FNT-v6
+remarks:        ==========================================================================================
+remarks:        Ingress communities (outbound traffic)
+remarks:        ==========================================================================================
+remarks:        31148:100 all ukrainian prefixes
+remarks:        31148:101 only freenet prefixes (AS31148)
+remarks:        31148:200 prefixes from ukrainian peers
+remarks:        31148:300 prefixes from ukrainian IXPs
+remarks:        31148:3XX prefixes from specific IXP
+remarks:        31148:400 all non-ukrainian prefixes
+remarks:        31148:4XX prefixes from specific uplink
+remarks:        ==========================================================================================
+remarks:        Communities for inbound traffic engineering
+remarks:        ==========================================================================================
+remarks:        31148:10000 do not announce to any peer
+remarks:        31148:1000[1,3,5] announce to all peers with prepend 1,3,5
+remarks:        31148:20000 do not announce to ukrainian peers
+remarks:        31148:2000[1,3,5] announce to ukrainian peers with prepend 1,3,5
+remarks:        31148:2XX00 do not announce to specific ukrainian peer
+remarks:        31148:2XX0[1,3,5] announce to specific ukrainian peer with prepend 1,3,5
+remarks:        31148:30000 do not announce to ukrainian IXPs
+remarks:        31148:3000[1,3,5] announce to ukrainian IXPs with prepend 1,3,5
+remarks:        31148:3XX00 do not announce to specific IXP
+remarks:        31148:3XX0[1,3,5] announce to specific IXP with prepend 1,3,5
+remarks:        31148:40000 do not announce to uplinks
+remarks:        31148:4000[1,3,5] announce to uplinks with prepend 1,3,5
+remarks:        31148:4XX00 do not announce to specific uplink
+remarks:        31148:4XX0[1,3,5] announce to specific uplink with prepend 1,3,5
+remarks:        ==========================================================================================
+remarks:        List of peers for community TE (XX=code)
+remarks:        ==========================================================================================
+remarks:        [2] 01 Topnet (peering)
+remarks:        [2] 02 Dataline (peering)
+remarks:        [2] 03 Gigatrans
+remarks:        [2] 04 Adamant
+remarks:        [2] 05 Colocall
+remarks:        [2] 06 Triolan
+remarks:        [2] 07 Kyivstar
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        [3] 01 UA-IX
+remarks:        [3] 02 Dtel-IX
+remarks:        [3] 03 Giganet-IX
+remarks:        ------------------------------------------------------------------------------------------
+remarks:        [4] 01 Topnet (world)
+remarks:        [4] 02 Dataline (world)
+remarks:        [4] 03 MSK-IX via Topnet
+remarks:        [4] 04 vk.com via Datagroup
+remarks:        [4] 05 Wnet
+remarks:        [4] 06 Fiord
+remarks:        [4] 07 Datagroup
+remarks:        ==========================================================================================
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-routes:     MNT-FREENET
+mnt-by:         MNT-FREENET
+created:        2004-03-09T16:56:03Z
+last-modified:  2018-08-08T12:20:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

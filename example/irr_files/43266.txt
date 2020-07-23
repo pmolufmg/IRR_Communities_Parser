@@ -1,0 +1,91 @@
+aut-num:        AS43266
+as-name:        VOLIA-AS
+org:            ORG-VI4-RIPE
+import:         from AS3356 action pref=85; accept ANY
+export:         to AS3356 announce AS-ABSET
+import:         from AS56558 action pref=120; accept AS56558
+export:         to AS56558 announce ANY
+import:         from AS20850 action pref=100; accept ANY
+export:         to AS20850 announce ANY
+import:         from AS44193 action pref=97; accept AS-ODIX
+export:         to AS44193 announce AS43266
+import:         from AS15645 action pref=97; accept AS-UAIX
+export:         to AS15645 announce AS43266
+import:         from AS21219 accept any
+export:         to AS21219 announce AS-ABSET
+import:         from AS12883 accept any
+export:         to AS12883 announce AS43266
+import:         from AS25372 action pref=100; accept AS-ITCON
+export:         to AS25372 announce any
+import:         from AS25132 action pref=200; accept ANY
+export:         to AS25132 announce AS43266
+import:         from AS6876 accept AS-Tenet-ua
+export:         to AS6876 announce AS-ABSET
+import:         from AS34187 accept AS-RENOME
+export:         to AS34187 announce AS-ABSET
+import:         from AS3255 action pref=85; accept ANY
+export:         to AS3255 announce AS-ABSET
+remarks:
+remarks:
+remarks:        BGP Clients
+remarks:
+import:         from AS47890 action pref=120; accept AS47890
+export:         to AS47890 announce ANY
+import:         from AS29034 action pref=120; accept AS-ABUA-KH
+export:         to AS29034 announce ANY
+import:         from AS57979 action pref=120; accept AS57979
+export:         to AS57979 announce ANY
+import:         from AS62206 action pref=120; accept AS-PITLINE-LVIV
+export:         to AS62206 announce ANY
+import:         from AS35325 action pref=120; accept AS35325
+export:         to AS35325 announce ANY
+remarks:
+remarks:        IPv6 Connectivity
+remarks:
+mp-import:      afi ipv6.unicast from AS20850 accept ANY
+mp-export:      afi ipv6.unicast to AS20850 announce AS-ABSETv6
+mp-import:      afi ipv6.unicast from AS60354 accept AS60354
+mp-export:      afi ipv6.unicast to AS60354 announce ANY
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-ABSETv6
+mp-import:      afi ipv6.unicast from AS62206 accept AS-PITLINE-LVIV
+mp-export:      afi ipv6.unicast to AS62206 announce ANY
+remarks:
+remarks:        =====================================================================================
+remarks:        | Communities may be set by our customers when talking to AS43266, first match wins |
+remarks:        ===================================World Uplinks=====================================
+remarks:        Community meaning 43266:ppxxy where 'y' is action:
+remarks:        | 5115x - advertise or not to TINET
+remarks:        | 5120x - advertise or not to MTS
+remarks:
+remarks:
+remarks:        | 0 - Do not advertise
+remarks:        | 1 - advertise and prepend 1 times
+remarks:        | 3 - advertise and prepend 3 times
+remarks:        | 5 - advertise and prepend 5 times
+remarks:        | 7 - advertise and prepend 7 times
+remarks:        ===================================Other actions=====================================
+remarks:        | 43266:50 will set Local Preference to 50 for use as Backup
+remarks:        | 43266:150 will set Local Preference to 150 for use as Main
+remarks:        | 43266:999 Blackhole (32-bit prefix only) drop traffic for this ip!
+remarks:        | Attention Blackhole will work only with ip from your subnet !
+remarks:        ===================================End Other actions=================================
+remarks:        Looking glass: http://lg.airbites.ua
+remarks:        Routing issues : noc@airbites.net.ua
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+notify:         taras.kramarets@valor.ua
+mnt-by:         VOLIA-MNT
+created:        2007-07-05T09:34:38Z
+last-modified:  2017-11-15T09:49:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,168 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8708'
+
+% Abuse contact for 'AS8708' is 'abuse@rcs-rds.ro'
+
+aut-num:        AS8708
+as-name:        RCS-RDS
+descr:          73-75 Dr. Staicovici
+descr:          Bucharest, ROMANIA
+org:            ORG-RA18-RIPE
+admin-c:        GEPU1-RIPE
+tech-c:         RDS-RIPE
+remarks:        ------------------------------------------------
+remarks:        RDS filters out inbound prefixes longer than /24
+remarks:        MEDs are overwritten unless special arrangements have been made
+remarks:
+remarks:        Communities
+remarks:        ------------------------------------------------
+remarks:        8708:80   Set local preference to 80 inside RDS
+remarks:        8708:120  Set local preference to 120 inside RDS
+remarks:
+remarks:        8708:1001 Prepend 1*8708 when advertising to transit providers and international peers
+remarks:        8708:1002 Prepend 2*8708 when advertising to transit providers and international peers
+remarks:        8708:1003 Prepend 3*8708 when advertising to transit providers and international peers
+remarks:        8708:1009 Do not advertise to transit providers
+remarks:
+remarks:        8708:2001 Prepend 1*8708 when announcing to Bucharest peers
+remarks:        8708:2002 Prepend 2*8708 when announcing to Bucharest peers
+remarks:        8708:2003 Prepend 3*8708 when announcing to Bucharest peers
+remarks:        8708:2009 Do not advertise to Bucharest peers
+remarks:
+remarks:        8708:2101 Prepend 1*8708 when announcing to Budapest peers
+remarks:        8708:2102 Prepend 2*8708 when announcing to Budapest peers
+remarks:        8708:2103 Prepend 3*8708 when announcing to Budapest peers
+remarks:        8708:2109 Do not advertise to Budapest peers
+remarks:
+remarks:        8708:2201 Prepend 1*8708 when announcing to Frankfurt peers
+remarks:        8708:2202 Prepend 2*8708 when announcing to Frankfurt peers
+remarks:        8708:2203 Prepend 3*8708 when announcing to Frankfurt peers
+remarks:        8708:2209 Do not advertise to Frankfurt peers
+remarks:
+remarks:        8708:2301 Prepend 1*8708 when announcing to Amsterdam peers
+remarks:        8708:2302 Prepend 2*8708 when announcing to Amsterdam peers
+remarks:        8708:2303 Prepend 3*8708 when announcing to Amsterdam peers
+remarks:        8708:2309 Do not advertise to Amsterdam peers
+remarks:
+remarks:        8708:2401 Prepend 1*8708 when announcing to London peers
+remarks:        8708:2402 Prepend 2*8708 when announcing to London peers
+remarks:        8708:2403 Prepend 3*8708 when announcing to London peers
+remarks:        8708:2409 Do not advertise to London peers
+remarks:
+remarks:        8708:2501 Prepend 1*8708 when announcing to Sofia peers
+remarks:        8708:2502 Prepend 2*8708 when announcing to Sofia peers
+remarks:        8708:2503 Prepend 3*8708 when announcing to Sofia peers
+remarks:        8708:2509 Do not advertise to Sofia peers
+remarks:
+remarks:        8708:100 RDS aggregates and BGP customers
+remarks:        8708:200 Bucharest peers
+remarks:        8708:301 Budapest peers
+remarks:        8708:302 Frankfurt peers
+remarks:        8708:303 Amsterdam peers
+remarks:        8708:304 London peers
+remarks:        8708:305 Sofia peers
+remarks:
+remarks:        8708:9999 Blackhole (discard) traffic (for filtering purposes, only /32 blocks)
+remarks:
+remarks:        Local preference
+remarks:        --------------------------------------------------------
+remarks:        Customer prefer  120
+remarks:        Customer default  110
+remarks:        Customer backup  80
+remarks:        Bucharest peers  75
+remarks:        International peers  [50-70]
+remarks:        Transit providers  [30-40]
+remarks:
+remarks:        BGP customers requests: http://clienti.rcs-rds.ro/net/bgp/
+remarks:        Peering requests: peering@rcs-rds.ro
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        Call center (24x7) +40 31 400 4401
+remarks:        NOC (24x7): nmc@rcs-rds.ro
+remarks:        Peering issues: peering@rcs-rds.ro
+remarks:        --------------------------------------------------------
+remarks:
+export:         to AS5507 announce AS-RDSNET
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8708-MNT
+created:        2002-08-27T06:24:01Z
+last-modified:  2018-08-22T13:22:43Z
+source:         RIPE # Filtered
+
+organisation:   ORG-RA18-RIPE
+org-name:       RCS & RDS SA
+org-type:       LIR
+address:        Forum 2000 Building
+                75 Dr. Staicovici
+address:        050557
+address:        Bucharest
+address:        ROMANIA
+phone:          +40 314 004 444
+phone:          +40 314 004 440
+fax-no:         +40 314 004 441
+admin-c:        GEPU1-RIPE
+admin-c:        MANU5-RIPE
+abuse-c:        RDS-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8708-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8708-MNT
+created:        2004-04-17T11:49:55Z
+last-modified:  2018-10-16T09:44:12Z
+source:         RIPE # Filtered
+
+role:           RCS & RDS NOC
+address:        75 Dr. Staicovici
+address:        Bucharest / ROMANIA
+phone:          +40 314 004 440
+fax-no:         +40 314 004 441
+abuse-mailbox:  abuse@rcs-rds.ro
+admin-c:        GEPU1-RIPE
+admin-c:        VIG10-RIPE
+tech-c:         GEPU1-RIPE
+tech-c:         VIG10-RIPE
+nic-hdl:        RDS-RIPE
+mnt-by:         AS8708-MNT
+remarks:        +--------------------------------------------------------------+
+remarks:        |    ABUSE CONTACT: abuse@rcs-rds.ro IN CASE OF HACK ATTACKS,  |
+remarks:        |    ILLEGAL ACTIVITY, VIOLATION, SCANS, PROBES, SPAM, ETC.    |
+remarks:        | !! PLEASE DO NOT CONTACT OTHER PERSONS FOR THESE PROBLEMS !! |
+remarks:        +--------------------------------------------------------------+
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-07-20T12:31:46Z
+source:         RIPE # Filtered
+
+person:         Dan Epure
+address:        RCS & RDS S.A
+address:        Forum 2000 Building 71-75 Dr. Staicovici
+address:        Bucharest, ROMANIA
+phone:          +40 31 400 4240
+fax-no:         +40 31 400 4207
+nic-hdl:        GEPU1-RIPE
+mnt-by:         AS8708-MNT
+created:        2002-06-17T10:14:28Z
+last-modified:  2013-05-10T23:02:58Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

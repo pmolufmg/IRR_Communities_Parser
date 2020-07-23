@@ -1,0 +1,75 @@
+aut-num:        AS855
+as-name:        BELL-ALIANT-AS
+descr:          Bell Aliant - Atlantic Canadian Core
+import:         from AS577  action pref = 100; accept ANY
+import:         from AS3356  action pref = 100; accept ANY
+import:         from AS701  action pref = 100; accept ANY
+import:         from AS855:AS-CUSTOMERS  action pref = 120; accept ANY
+import:         from AS6777   accept ANY AND NOT <^[AS6939 AS6407 AS8473 AS34224]>
+export:         to AS855:AS-CUSTOMERS   announce ANY
+export:         to AS577   announce ANY
+export:         to AS701   announce ANY
+export:         to AS3356   announce ANY
+export:         to AS6777  action community .= {6777:6777, 6777:6939, 6777:6407}; announce ANY
+admin-c:        Jeff Gallagher
+tech-c:         Trevor Awalt
+remarks:        =============================================================
+remarks:        Communities accepted from customers
+remarks:        =============================================================
+remarks:        -------------------------------------------------------------
+remarks:        Customer Traffic Engineering Communities - Prepending
+remarks:        -------------------------------------------------------------
+remarks:        855:1  Prepend once
+remarks:        855:2  Prepend twice
+remarks:        855:3  Prepend three times (3x)
+remarks:        -------------------------------------------------------------
+remarks:        Customer Traffic Engineering Communities - Local Preference
+remarks:        -------------------------------------------------------------
+remarks:        855:120  Set LP=120 (Customer Default)
+remarks:        855:110  Set LP=110 (Peer Default)
+remarks:        855:100  Set LP=100 (Transit Route Default)
+remarks:        855:90   Set LP=90  (Suppress Route)
+remarks:        855:80   Set LP=80  (Suppress More)
+remarks:        -------------------------------------------------------------
+remarks:        Customer Traffic Engineering Communities - Suppression
+remarks:        -------------------------------------------------------------
+remarks:        855:500  AS855 Only, Similar to NO-EXPORT
+remarks:        855:550 AS855 and customers only, do not advertise to transit
+remarks:        -------------------------------------------------------------
+remarks:        Customer Traffic Engineering Communities - Blackhole
+remarks:        -------------------------------------------------------------
+remarks:        855:666  Blackhole (discard) traffic
+remarks:        The prefix must be from an existing netblock that is
+remarks:        permitted in the customers BGP ingress filter.
+remarks:        Only individual host routes (/32) will be accepted.
+remarks:        Please contact inoc@aliant.ca with any questions.
+remarks:        --------------------------------------------------------------
+remarks:        See route set RS-BELL-ALIANT for RIR/CR/Legacy Netblock Allocation
+notify:         jeff.gallagher@aliant.ca
+mnt-by:         MAINT-AS855
+changed:        inoc@bellaliant.ca 20120309  #18:38:54Z
+source:         RADB
+
+person:     Jeff Gallagher
+address:    50 Allandale Road
+            St. John's, NL
+            Canada
+            A1C 5H6
+phone:      709/739-2088
+e-mail:     jeff.gallagher@aliant.ca
+nic-hdl:    JG4265
+mnt-by:     MAINT-AS855
+changed:    jeff.gallagher@aliant.ca 20061201  #20:22:26(UTC)
+source:     RADB
+
+person:     Trevor Awalt
+address:    5788 North Street
+            Halifax, NS
+            Canada
+            B3K 1N7
+phone:      902/486-5148
+e-mail:     trevor.awalt@aliant.ca
+nic-hdl:    TA61582
+mnt-by:     MAINT-AS855
+changed:    trevor.awalt@aliant.ca 20061205  #19:40:13(UTC)
+source:     RADB

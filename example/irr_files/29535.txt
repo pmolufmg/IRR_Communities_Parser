@@ -1,0 +1,35 @@
+aut-num:        AS29535
+as-name:        TPIX
+remarks:        TPIX & TPContent
+org:            ORG-PT1-RIPE
+remarks:
+remarks:        ================================================
+remarks:        Communities used in AS29535
+remarks:        ================================================
+remarks:
+remarks:        0:peer - do not advertise to the peer
+remarks:        29535:peer - advertise to the peer
+remarks:        0:29535 - do not advertise (at all)
+remarks:        29535:29535 - advertise to all (default)
+remarks:
+remarks:        29535:110 - do not advertise to Google Cache
+remarks:        29535:120 - do not advertise to TP CDN
+remarks:
+remarks:        ================================================
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS5617-MNT
+mnt-routes:     AS5617-MNT
+created:        2003-10-07T12:09:13Z
+last-modified:  2017-11-15T09:21:40Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

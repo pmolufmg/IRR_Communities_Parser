@@ -1,0 +1,104 @@
+aut-num:        AS8779
+as-name:        INFOCOM-KM
+descr:          Khmelnitsky, Ukraine
+remarks:        ------ IPv4 Peering ------
+import:         from AS6846 action pref=100; accept ANY # LLC "Infocom"
+import:         from AS21219 action pref=100; accept ANY # JSC "Datagroup"
+import:         from AS21219 action pref=150; accept AS-UAIX # JSC "Datagroup"
+import:         from AS28681 action pref=200; accept AS-KMIX # Khmelnitskiy internet Exange
+import:         from AS28773 action pref=100; accept AS-MASTER # LLC "GTU"
+import:         from AS28917 action pref=100; accept ANY # TRC "FIORD"
+import:         from AS29663 action pref=100; accept AS29663 # Secondary.net.ua
+import:         from AS31210 action pref=150; accept AS-DTEL-IX # Digital Telecom IX LLC
+import:         from AS35297 action pref=100; accept ANY # Dataline LLC
+import:         from AS50384 action pref=150; accept AS-W-IX # W-IX
+import:         from AS50952 action pref=150; accept AS-DATAIX-UA # DATA-IX
+import:         from AS51784 action pref=100; accept AS51784 # LLC "X-City"
+import:         from AS52061 action pref=100; accept AS52061 # PE Ivanov Vadim Sergeevich
+import:         from AS56423 action pref=100; accept AS56423 # PE Lisovskiy Dmitro Sergiyovich
+import:         from AS201094 action pref=100; accept AS201094 # PE Mulgin A.S.
+export:         to AS6846 announce AS-IC
+export:         to AS21219 announce AS-IC
+export:         to AS28681 announce ANY
+export:         to AS28773 announce ANY
+export:         to AS28917 announce AS-IC
+export:         to AS29663 announce ANY
+export:         to AS31210 announce AS-IC
+export:         to AS35297 announce AS-IC
+export:         to AS50384 announce AS-IC
+export:         to AS50952 announce AS-IC
+export:         to AS51784 announce ANY
+export:         to AS52061 announce ANY
+export:         to AS56423 announce ANY
+export:         to AS201094 announce ANY
+remarks:        ------ IPv6 Peering ------
+mp-import:      afi ipv6.unicast from AS21219 accept ANY # JSC "Datagroup"
+mp-export:      afi ipv6.unicast to AS21219 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS28681 accept AS-KMIX # Khmelnitskiy internet Exange
+mp-export:      afi ipv6.unicast to AS28681 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS29663 accept AS29663 # Secondary.net.ua
+mp-export:      afi ipv6.unicast to AS29663 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6 # Digital Telecom IX LLC
+mp-export:      afi ipv6.unicast to AS31210 announce AS-IC-v6
+mp-import:      afi ipv6.unicast from AS201094 accept AS201094
+mp-export:      afi ipv6.unicast to AS201094 announce AS-IC-v6
+remarks:
+remarks:        ---------------------------------------------
+remarks:        BGP communities support for AS8779 customers:
+remarks:        ---------------------------------------------
+remarks:
+remarks:        1. Community advertised to customers:
+remarks:        8779:100 KM-IX
+remarks:        8779:200 UA-IX
+remarks:        8779:300 Datagroup
+remarks:        8779:500 Downstreams
+remarks:        8779:600 DTEL-IX
+remarks:        8779:700 W-IX
+remarks:        8779:800 DATA-IX
+remarks:        8779:900 GTU
+remarks:        8779:1000 Dataline
+remarks:
+remarks:        2. Communities accepted from customers:
+remarks:        ---------------------------------------
+remarks:        Community Action
+remarks:        --------- ------
+remarks:        8779:102x to Datagroup (AS21219)
+remarks:        8779:103x to GTU (AS28773)
+remarks:        8779:104x to Dataline (AS35297)
+remarks:
+remarks:
+remarks:        8779:200x to UA-IX (AS15645)
+remarks:        8779:201x to KM-IX (AS28681)
+remarks:        8779:202x to DTEL-IX (AS31210)
+remarks:        8779:203x to W-IX (AS50384)
+remarks:        8779:204x to DATA-IX (AS50952)
+remarks:
+remarks:        Where x is number of prepends (x=1,2,4,6) or do NOT advertise (x=0)
+remarks:
+remarks:        8779:65500 Don't advertise to any peer
+remarks:        8779:65505 Announce to customers but not to upstream
+remarks:        8779:666 Blackhole community
+remarks:
+remarks:        Points of contact for :
+remarks:        SPAM/Network security issues: abuse@ic.km.ua
+remarks:        routing and peering issues: hostmaster@ic.km.ua
+remarks:        general information: office@ic.km.ua
+remarks:
+org:            ORG-KL33-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         IC-MNT
+created:        2002-07-03T07:30:26Z
+last-modified:  2017-11-15T09:15:59Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

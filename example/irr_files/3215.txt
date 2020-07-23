@@ -1,0 +1,326 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS3215
+as-name:       AS3215
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS5511 action pref=430; accept ANY
+import:        from AS5511 action pref=305; accept AS-OPENTRANSIT
+import:        from AS2486 action pref=290; accept AS2486
+import:        from AS2917 action pref=290; accept AS-OLEANE
+import:        from AS4589 action pref=290; accept AS-EASYNET
+import:        from AS5410 action pref=290; accept AS-T-ONLINEFRANCE
+import:        from AS5436 action pref=290; accept AS5436
+import:        from AS8220 action pref=290; accept AS-COLTFR
+import:        from AS8228 action pref=290; accept AS-CEGETEL
+import:        from AS8918 action pref=290; accept AS-CARRIERONE
+import:        from AS12322 action pref=290; accept AS-PROXAD
+import:        from AS12876 action pref=290; accept AS-TISCALIFR
+import:        from AS13193 action pref=290; accept AS-NERIM
+import:        from AS15557 action pref=290; accept AS-LDCOMNET
+import:        from AS6 action pref=200; accept AS6
+import:        from AS1301 action pref=200; accept AS1301
+import:        from AS1708 action pref=200; accept AS1708
+import:        from AS2103 action pref=200; accept AS2103
+import:        from AS2129 action pref=200; accept AS2129
+import:        from AS2187 action pref=200; accept AS2187
+import:        from AS2188 action pref=200; accept AS2188
+import:        from AS2278 action pref=200; accept AS2278
+import:        from AS3259 action pref=200; accept AS3259
+import:        from AS3295 action pref=200; accept AS3295
+import:        from AS3296 action pref=200; accept AS3296
+import:        from AS3298 action pref=200; accept AS3298
+import:        from AS5377 action pref=200; accept AS-MARLINK
+import:        from AS8255 action pref=200; accept AS8255
+import:        from AS8362 action pref=200; accept AS8362
+import:        from AS8677 action pref=200; accept AS8677
+import:        from AS8891 action pref=200; accept AS8891
+import:        from AS8908 action pref=200; accept AS8908
+import:        from AS9089 action pref=200; accept AS9089
+import:        from AS9159 action pref=200; accept AS9159
+import:        from AS9180 action pref=200; accept AS9180
+import:        from AS12318 action pref=200; accept AS12318
+import:        from AS12601 action pref=200; accept AS12601
+import:        from AS12645 action pref=200; accept AS12645
+import:        from AS12744 action pref=200; accept AS12744
+import:        from AS12765 action pref=200; accept AS12765
+import:        from AS12826 action pref=200; accept AS12826
+import:        from AS13223 action pref=200; accept AS13223
+import:        from AS15401 action pref=200; accept AS15401
+import:        from AS15499 action pref=200; accept AS15499
+import:        from AS15846 action pref=200; accept AS15846
+import:        from AS16017 action pref=200; accept AS16017
+import:        from AS16057 action pref=200; accept AS16057
+import:        from AS16071 action pref=200; accept AS16071
+import:        from AS16077 action pref=200; accept AS16077
+import:        from AS16101 action pref=200; accept AS16101
+import:        from AS16236 action pref=200; accept AS16236
+import:        from AS16254 action pref=200; accept AS16254
+import:        from AS20482 action pref=200; accept AS20482
+import:        from AS20541 action pref=200; accept AS20541
+import:        from AS20563 action pref=200; accept AS20563
+import:        from AS20672 action pref=200; accept AS20672
+import:        from AS20926 action pref=200; accept AS20926
+import:        from AS21203 action pref=200; accept AS21203
+import:        from AS21272 action pref=200; accept AS21272
+import:        from AS21304 action pref=200; accept AS21304
+import:        from AS24954 action pref=200; accept AS24954
+import:        from AS25442 action pref=200; accept AS25442
+import:        from AS28768 action pref=200; accept AS-XSALTO
+import:        from AS29057 action pref=200; accept AS29057
+import:        from AS29118 action pref=200; accept AS29118
+import:        from AS29199 action pref=200; accept AS29199
+import:        from AS29313 action pref=200; accept AS29313
+import:        from AS31136 action pref=200; accept AS31136
+import:        from AS31180 action pref=200; accept AS31180
+import:        from AS31629 action pref=200; accept AS31629
+import:        from AS31660 action pref=200; accept AS31660
+import:        from AS33930 action pref=200; accept AS33930
+import:        from AS33945 action pref=200; accept AS33945
+import:        from AS34000 action pref=200; accept AS34000
+import:        from AS34064 action pref=200; accept AS34064
+import:        from AS34493 action pref=200; accept AS34493
+import:        from AS34572 action pref=200; accept AS34572
+import:        from AS35012 action pref=200; accept AS35012
+import:        from AS35152 action pref=200; accept AS35152
+import:        from AS35169 action pref=200; accept AS35169
+import:        from AS35420 action pref=200; accept AS35420
+import:        from AS35676 action pref=200; accept AS35676
+import:        from AS38926 action pref=200; accept AS38926
+import:        from AS39509 action pref=200; accept AS39509
+import:        from AS39552 action pref=200; accept AS39552
+import:        from AS39534 action pref=200; accept AS39534
+import:        from AS39694 action pref=200; accept AS39694
+import:        from AS39771 action pref=200; accept AS39771
+import:        from AS39899 action pref=200; accept AS39899
+import:        from AS39931 action pref=200; accept AS39931
+import:        from AS41402 action pref=200; accept AS41402
+import:        from AS41559 action pref=200; accept AS41559
+import:        from AS42308 action pref=200; accept AS42308
+import:        from AS42795 action pref=200; accept AS42795
+import:        from AS43249 action pref=200; accept AS43249
+import:        from AS44527 action pref=200; accept AS44527
+import:        from AS44842 action pref=200; accept AS44842
+import:        from AS45039 action pref=200; accept AS45039
+import:        from AS47127 action pref=200; accept AS47127
+import:        from AS47233 action pref=200; accept AS47233
+import:        from AS47420 action pref=200; accept AS47420
+import:        from AS47818 action pref=200; accept AS47818
+import:        from AS48125 action pref=200; accept AS48125
+import:        from AS48413 action pref=200; accept AS48413
+import:        from AS48613 action pref=200; accept AS48613
+import:        from AS48702 action pref=200; accept AS48702
+import:        from AS49566 action pref=200; accept AS49566
+import:        from AS50758 action pref=200; accept AS50758
+import:        from AS50982 action pref=200; accept AS50982
+import:        from AS51822 action pref=200; accept AS51822
+import:        from AS51870 action pref=200; accept AS51870
+import:        from AS52039 action pref=200; accept AS52039
+import:        from AS56774 action pref=200; accept AS56774
+import:        from AS57183 action pref=200; accept AS57183
+import:        from AS57348 action pref=200; accept AS57348
+import:        from AS58004 action pref=200; accept AS58004
+import:        from AS59518 action pref=200; accept AS59518
+import:        from AS60174 action pref=200; accept AS60174
+import:        from AS60595 action pref=200; accept AS60595
+import:        from AS60620 action pref=200; accept AS60620
+import:        from AS60697 action pref=200; accept AS60697
+import:        from AS196670 action pref=200; accept AS196670
+import:        from AS197369 action pref=200; accept AS197369
+import:        from AS197384 action pref=200; accept AS197384
+import:        from AS197638 action pref=200; accept AS197638
+import:        from AS197788 action pref=200; accept AS197788
+import:        from AS198060 action pref=200; accept AS198060
+import:        from AS198340 action pref=200; accept AS198340
+import:        from AS198641 action pref=200; accept AS198641
+import:        from AS198952 action pref=200; accept AS198952
+import:        from AS199565 action pref=200; accept AS199565
+import:        from AS201072 action pref=200; accept AS201072
+import:        from AS201393 action pref=200; accept AS201393
+import:        from AS201974 action pref=200; accept AS201974
+import:        from AS202669 action pref=200; accept AS202669
+import:        from AS202898 action pref=200; accept AS202898
+import:        from AS204207 action pref=200; accept AS204207
+import:        from AS205862 action pref=200; accept AS205862
+import:        from AS206015 action pref=200; accept AS206015
+import:        from AS206086 action pref=200; accept AS206086
+import:        from AS206443 action pref=200; accept AS206443
+import:        from AS206709 action pref=200; accept AS206709
+export:        to AS5511 announce AS-FTFR
+export:        to AS2486 announce AS-FTFR
+export:        to AS2917 announce AS-RAIN
+export:        to AS4589 announce AS-FTFR
+export:        to AS5410 announce AS-FTFR
+export:        to AS5436 announce AS-FTFR
+export:        to AS8220 announce AS-FTFR
+export:        to AS8228 announce AS-FTFR
+export:        to AS8918 announce AS-RAIN
+export:        to AS12322 announce AS-FTFR
+export:        to AS12876 announce AS-FTFR
+export:        to AS13193 announce AS-FTFR
+export:        to AS15557 announce AS-FTFR
+export:        to AS6 announce ANY
+export:        to AS1301 announce ANY
+export:        to AS1708 announce ANY
+export:        to AS2103 announce ANY
+export:        to AS2129 announce ANY
+export:        to AS2187 announce ANY
+export:        to AS2188 announce ANY
+export:        to AS2278 announce ANY
+export:        to AS3259 announce ANY
+export:        to AS3295 announce ANY
+export:        to AS3296 announce ANY
+export:        to AS3298 announce ANY
+export:        to AS5377 announce ANY
+export:        to AS8255 announce ANY
+export:        to AS8362 announce ANY
+export:        to AS8677 announce ANY
+export:        to AS8891 announce ANY
+export:        to AS8908 announce ANY
+export:        to AS9089 announce ANY
+export:        to AS9159 announce ANY
+export:        to AS9180 announce ANY
+export:        to AS12318 announce ANY
+export:        to AS12601 announce ANY
+export:        to AS12645 announce ANY
+export:        to AS12744 announce ANY
+export:        to AS12765 announce ANY
+export:        to AS12826 announce ANY
+export:        to AS13223 announce ANY
+export:        to AS15401 announce ANY
+export:        to AS15499 announce ANY
+export:        to AS15846 announce ANY
+export:        to AS16017 announce ANY
+export:        to AS16057 announce ANY
+export:        to AS16071 announce ANY
+export:        to AS16077 announce ANY
+export:        to AS16101 announce ANY
+export:        to AS16236 announce ANY
+export:        to AS16254 announce ANY
+export:        to AS20482 announce ANY
+export:        to AS20541 announce ANY
+export:        to AS20563 announce ANY
+export:        to AS20672 announce ANY
+export:        to AS20926 announce ANY
+export:        to AS21203 announce ANY
+export:        to AS21272 announce ANY
+export:        to AS21304 announce ANY
+export:        to AS24954 announce ANY
+export:        to AS25442 announce ANY
+export:        to AS28768 announce ANY
+export:        to AS29057 announce ANY
+export:        to AS29118 announce ANY
+export:        to AS29199 announce ANY
+export:        to AS29313 announce ANY
+export:        to AS31136 announce ANY
+export:        to AS31180 announce ANY
+export:        to AS31629 announce ANY
+export:        to AS31660 announce ANY
+export:        to AS33930 announce ANY
+export:        to AS33945 announce ANY
+export:        to AS34000 announce ANY
+export:        to AS34064 announce ANY
+export:        to AS34493 announce ANY
+export:        to AS34572 announce ANY
+export:        to AS35012 announce ANY
+export:        to AS35152 announce ANY
+export:        to AS35169 announce ANY
+export:        to AS35420 announce ANY
+export:        to AS35676 announce ANY
+export:        to AS38926 announce ANY
+export:        to AS39509 announce ANY
+export:        to AS39534 announce ANY
+export:        to AS39552 announce ANY
+export:        to AS39694 announce ANY
+export:        to AS39771 announce ANY
+export:        to AS39899 announce ANY
+export:        to AS39931 announce ANY
+export:        to AS41402 announce ANY
+export:        to AS41559 announce ANY
+export:        to AS42308 announce ANY
+export:        to AS42795 announce ANY
+export:        to AS43249 announce ANY
+export:        to AS44527 announce ANY
+export:        to AS44842 announce ANY
+export:        to AS45039 announce ANY
+export:        to AS47127 announce ANY
+export:        to AS47233 announce ANY
+export:        to AS47420 announce ANY
+export:        to AS47818 announce ANY
+export:        to AS48125 announce ANY
+export:        to AS48413 announce ANY
+export:        to AS48613 announce ANY
+export:        to AS48702 announce ANY
+export:        to AS49566 announce ANY
+export:        to AS50758 announce ANY
+export:        to AS50982 announce ANY
+export:        to AS51822 announce ANY
+export:        to AS51870 announce ANY
+export:        to AS52039 announce ANY
+export:        to AS56774 announce ANY
+export:        to AS57183 announce ANY
+export:        to AS57348 announce ANY
+export:        to AS58004 announce ANY
+export:        to AS59518 announce ANY
+export:        to AS60174 announce ANY
+export:        to AS60595 announce ANY
+export:        to AS60620 announce ANY
+export:        to AS60697 announce ANY
+export:        to AS196670 announce ANY
+export:        to AS197369 announce ANY
+export:        to AS197384 announce ANY
+export:        to AS197638 announce ANY
+export:        to AS197788 announce ANY
+export:        to AS198060 announce ANY
+export:        to AS198340 announce ANY
+export:        to AS198641 announce ANY
+export:        to AS198952 announce ANY
+export:        to AS199565 announce ANY
+export:        to AS201072 announce ANY
+export:        to AS201393 announce ANY
+export:        to AS201974 announce ANY
+export:        to AS202669 announce ANY
+export:        to AS202898 announce ANY
+export:        to AS204207 announce ANY
+export:        to AS205862 announce ANY
+export:        to AS206015 announce ANY
+export:        to AS206086 announce ANY
+export:        to AS206443 announce ANY
+export:        to AS206709 announce ANY
+remarks:       France Telecom - Orange
+remarks:       IP Backbone for Enterprise and french consumers
+remarks:       ----------------------------import------------------------------
+remarks:       -----------------------------export------------------------------
+remarks:       -----------------------------------------------------------------
+remarks:       Communities to control traffic
+remarks:       (settable by BGP customers)
+remarks:       
+remarks:       Please contact peering.as3215@orange.com before applying
+remarks:       
+remarks:       Community Definition
+remarks:       -----------------------------------------------------------------
+remarks:       3215:481 Do not announce to OPENTRANSIT
+remarks:       AS5511 (Upstream)
+remarks:       3215:400 Prepend one AS when announing OPENTRANSIT
+remarks:       3215:401 Prepend two AS when announing OPENTRANSIT
+remarks:       
+remarks:       3215:483 Do not announce to PARIX NAP
+remarks:       (see Peers with cost of 290)
+remarks:       3215:411 Prepend two AS when announing PARIX NAP
+remarks:       -----------------------------------------------------------------
+remarks:       Please send peering requests to gestip.rain@orange.com
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        gestip.rain@orange.com
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        RAIN-TRANSPAC
+mnt-by:        FT-BRX
+source:        RIPE
+
+

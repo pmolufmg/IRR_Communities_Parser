@@ -1,0 +1,337 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12557 - AS13223'
+
+as-block:       AS12557 - AS13223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12732'
+
+% Abuse contact for 'AS12732' is 'alf@all.de'
+
+aut-num:        AS12732
+as-name:        GUTCON-NET
+descr:          Carrier51 GmbH, GutCon GmbH
+org:            ORG-GG17-RIPE
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-UP
+import:         from AS248 accept AS248
+export:         to AS248 announce ANY
+import:         from AS249 accept AS249
+export:         to AS249 announce ANY
+import:         from AS250 accept AS250
+export:         to AS250 announce ANY
+import:         from AS251 accept AS251
+export:         to AS251 announce ANY
+import:         from AS286 accept ANY
+export:         to AS286 announce AS-UP
+import:         from AS680 accept AS-DFNTOWINISP AND NOT {0.0.0.0/0}
+export:         to AS680 announce AS-ALL
+import:         from AS1200 accept AS1200
+export:         to AS1200 announce AS-UP
+import:         from AS1273 accept ANY
+export:         to AS1273 announce AS-UP
+import:         from AS1275 accept ANY
+export:         to AS1275 announce AS-UP
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-UP
+import:         from AS1755 accept ANY
+export:         to AS1755 announce AS-UP
+import:         from AS3209 accept AS-ARCORGLOBAL
+export:         to AS3209 announce AS-UP
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-UP
+import:         from AS4589 accept AS-EASYNET
+export:         to AS4589 announce AS-ALL
+import:         from AS5430 accept AS-FREENETDE
+export:         to AS5430 announce AS-UP
+import:         from AS5464 accept AS5464
+export:         to AS5464 announce AS-ALL
+import:         from AS6724 accept AS-STRATORZ
+export:         to AS6724 announce AS-UP
+import:         from AS6777 accept ANY
+export:         to AS6777 announce AS-UP
+import:         from AS6786 accept AS6786 AS517
+export:         to AS6786 announce AS-UP
+import:         from AS8627 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS8627 announce AS-ALL
+import:         from AS8210 accept AS8210
+export:         to AS8210 announce AS-ALL
+import:         from AS8365 accept AS-MANDA
+export:         to AS8365 announce AS-ALL
+import:         from AS8741 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS8741 announce AS-ALL
+import:         from AS8852 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS8852 announce AS-ALL
+import:         from AS8859 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS8859 announce AS-ALL
+import:         from AS8875 accept AS8875
+export:         to AS8875 announce ANY AND NOT {0.0.0.0/0}
+import:         from AS8881 accept AS-VT-TRANSIT
+export:         to AS8881 announce AS-UP
+import:         from AS8928 accept AS8928 AS-INTEROUTE
+export:         to AS8928 announce AS-UP
+import:         from AS8966 accept AS-EMIX
+export:         to AS8966 announce AS-UP
+import:         from AS9002 accept AS-RETN
+export:         to AS9002 announce AS-UP
+import:         from AS9033 accept AS9033 AS-ECIX-BER AS-ECIX-DUS AS-ECIX-HAM
+export:         to AS9033 announce AS-UP
+import:         from AS9057 accept ANY
+export:         to AS9057 announce AS-UP
+import:         from AS9145 accept AS9145 AS-EWETEL AS-OSNATEL AS-TELEOS AS-EGGENET AS-BCC
+export:         to AS9145 announce AS-ALL
+import:         from AS9132 accept ANY
+export:         to AS9132 announce AS-UP
+import:         from AS12189 accept AS12189 AS-PHOENIXNAP
+export:         to AS12189 announce AS-ALL
+import:         from AS12306 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS12306 announce AS-UP
+import:         from AS12568 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS12568 announce AS-ALL
+import:         from AS12574 accept AS-ROUTING
+export:         to AS12574 announce AS-ALL
+import:         from AS12693 accept AS-EDISCOM
+export:         to AS12693 announce AS-ALL
+import:         from AS12899 accept AS12899
+export:         to AS12899 announce ANY
+import:         from AS13020 accept AS13020 AS-27C3
+export:         to AS13020 announce ANY
+import:         from AS13058 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS13058 announce AS-ALL
+import:         from AS13129 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS13129 announce AS-UP
+import:         from AS13184 accept AS-HANSENET
+export:         to AS13184 announce AS-UP
+import:         from AS13237 accept ANY
+export:         to AS13237 announce AS-UP
+import:         from AS13270 accept AS-DDKOMPEERS
+export:         to AS13270 announce AS-UP
+import:         from AS15336 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS15366 announce ANY AND NOT {0.0.0.0/0}
+import:         from AS15506 accept AS15506 AS8220
+export:         to AS15506 announce ANY AND NOT {0.0.0.0/0}
+import:         from AS15891 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS15891 announce AS-ALL
+import:         from AS15366 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS15366 announce AS-ALL AS-BCIX
+import:         from AS15598 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS15598 announce AS-ALL AS-BCIX
+import:         from AS15657 accept ANY AND NOT {0.0.0.0/0}
+export:         to AS15960 announce ANY
+import:         from AS15960 accept AS-GLOBALACCESS
+export:         to AS15657 announce ANY
+import:         from AS16103 accept AS16103
+export:         to AS16103 announce AS-ALL AS-BCIX
+import:         from AS16374 accept AS-BCIX
+export:         to AS16374 announce AS-UP
+import:         from AS20676 accept AS-QSC
+export:         to AS20676 announce AS-UP
+import:         from AS20646 accept AS-IPB
+export:         to AS20646 announce ANY
+import:         from AS20886 accept AS-BLATZ
+export:         to AS20886 announce AS-ALL
+import:         from AS20488 accept AS20488
+export:         to AS20488 announce AS-ALL
+import:         from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce AS-ALL
+import:         from AS20980 accept AS20980
+export:         to AS20980 announce AS-ALL
+import:         from AS21478 accept AS-PLEX
+export:         to AS21478 announce AS-UP
+import:         from AS21083 accept AS21083
+export:         to AS21083 announce AS-ALL
+import:         from AS25074 accept AS-INETBONE
+export:         to AS25074 announce AS-UP
+import:         from AS25291 accept ANY
+export:         to AS25291 announce ANY
+import:         from AS25516 accept AS25516
+export:         to AS25516 announce ANY
+import:         from AS29083 accept AS29083
+export:         to AS29083 announce ANY
+import:         from AS29254 accept AS29254
+export:         to AS29254 announce ANY
+import:         from AS29670 accept AS-IN-BERLIN
+export:         to AS29670 announce ANY
+import:         from AS30742 accept AS30742 AS-BRITE ANY
+export:         to AS30742 announce AS12732 AS-UP ANY
+import:         from AS31078 accept AS31078 AS-NETSIGN
+export:         to AS31078 announce ANY
+import:         from AS31142 accept AS-KLEYREX-RS1
+export:         to AS31142 announce AS-UP
+import:         from AS31529 accept AS31529
+export:         to AS31529 announce AS-ALL
+import:         from AS31622 accept AS31622
+export:         to AS31622 announce ANY
+import:         from AS31529 accept AS31529
+export:         to AS31529 announce ANY
+import:         from AS33811 accept AS33811
+export:         to AS33811 announce ANY
+import:         from AS34171 accept AS34171 AS-INTERDOTNET
+export:         to AS34171 announce ANY
+import:         from AS37100 accept AS37100 AS-SET-SEACOM
+export:         to AS37100 announce AS-ALL
+import:         from AS42027 accept AS42027
+export:         to AS42027 announce ANY
+import:         from AS42473 accept AS42473 AS-ANEXIA
+export:         to AS42473 announce AS-UP
+import:         from AS44066 accept AS44066 AS-FIRSTCOLO
+export:         to AS44066 announce AS-UP
+import:         from AS44716 accept AS44716
+export:         to AS44716 announce ANY
+import:         from AS47815 accept AS47815 AS58265 AS-SERVERWARE
+export:         to AS47815 announce ANY
+import:         from AS50472 accept AS-CHAOS
+export:         to AS50472 announce any
+import:         from AS50469 accept AS50469 AS-HESSENKOM-UP
+export:         to AS50469 announce any
+import:         from AS199724 accept AS199724
+export:         to AS199724 announce ANY
+import:         from AS199725 accept AS199725
+export:         to AS199725 announce ANY
+import:         from AS199726 accept AS199726
+export:         to AS199726 announce ANY
+import:         from AS202238 accept AS202238
+export:         to AS202238 announce ANY
+admin-c:        AS33-RIPE
+tech-c:         AS33-RIPE
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS25291
+member-of:      AS3320:AS-AUTH-PILOT-ROUTEPRIO-FROM-AS25291
+remarks:        --------------------------------------------------------
+remarks:        Applied Route Flap Damping Policy conformant to RIPE-178
+remarks:        --------------------------------------------------------
+remarks:
+remarks:        Peerings (IPv4 & IPv6) are welcome ;-)
+remarks:
+remarks:        Community Support Definitions for Customers
+remarks:
+remarks:        1. Communities controlling AS path prepending for
+remarks:        customer routes on egress:
+remarks:
+remarks:        community effect
+remarks:        12732:1000 do not announce at BCIX
+remarks:        12732:1001 prepend one at BCIX
+remarks:        12732:1002 prepend two at BCIX
+remarks:
+remarks:        12732:2000 do not announce at FFM/DeCIX
+remarks:        12732:2001 prepend one at FFM/DeCIX
+remarks:        12732:2002 prepend two at FFM/DeCIX
+remarks:
+remarks:        12732:3000 do not announce at DUS/ECIX
+remarks:        12732:3001 prepend one at DUS/ECIX
+remarks:        12732:3002 prepend two at DUS/ECIX
+remarks:
+remarks:        12732:3050 do not announce at BLN/ECIX
+remarks:        12732:3051 prepend one at BLN/ECIX
+remarks:        12732:3052 prepend two at BLN/ECIX
+remarks:
+remarks:        12732:3100 do not announce at HBG/ECIX
+remarks:        12732:3101 prepend one at HBG/ECIX
+remarks:        12732:3102 prepend two at HBG/ECIX
+remarks:
+remarks:        12732:4000 do not announce at KLEYREX
+remarks:        12732:4001 prepend one at KLEYREX
+remarks:        12732:4002 prepend two at KLEYREX
+remarks:
+remarks:        12732:4100 do not announce at QSC
+remarks:        12732:4101 prepend one at QSC
+remarks:        12732:4102 prepend two at QSC
+remarks:
+remarks:        12732:4200 do not announce at DECIX
+remarks:        12732:4201 prepend one at DECIX
+remarks:        12732:4202 prepend two at DECIX
+remarks:
+remarks:        12732:4300 do not announce at AMSIX
+remarks:        12732:4301 prepend one at AMSIX
+remarks:        12732:4302 prepend two at AMSIX
+remarks:
+remarks:        12732:4400 do not announce at LINX
+remarks:        12732:4401 prepend one at LINX
+remarks:        12732:4402 prepend two at LINX
+remarks:
+remarks:        12732:9000 backup only (below peers, uplink, customer)
+remarks:        12732:9001 to customer only
+remarks:        12732:9001 to customer and peering
+remarks:
+remarks:        12732:9010 do not announce to PL
+remarks:        12732:9011 do not announce to LA
+remarks:        12732:9012 do not announce to ME
+remarks:        12732:9013 do not announce to CO
+remarks:        12732:9014 do not announce to KP
+remarks:        12732:9015 do not announce to L3
+remarks:        12732:9016 do not announce to SY
+remarks:
+remarks:        2. Communities tagging the source of routes
+remarks:
+remarks:        12732:100 peer route, learned at BCIX
+remarks:        12732:200 peer route, learned at DECIX
+remarks:        12732:300 peer route, learned at ECIX-DUS
+remarks:        12732:305 peer route, learned at ECIX-BLN
+remarks:        12732:310 peer route, learned at ECIX-HBG
+remarks:        12732:400 peer route, learned at KLEYREX
+remarks:        12732:410 peer route, learned at QSC
+remarks:        12732:420 peer route, learned at DECIX
+remarks:        12732:430 peer route, learned at AMSIX
+remarks:        12732:440 peer route, learned at LINX
+remarks:
+remarks:        12732:21 peer route, learned in Duesseldorf
+remarks:        12732:31 peer route, learned in Amsterdam
+remarks:        12732:30 peer route, learned in Berlin
+remarks:        12732:40 peer route, learned in Hamburg
+remarks:        12732:69 peer route, learned in Frankfurt
+remarks:
+remarks:        --------------------------------------------------------
+status:         ASSIGNED
+mnt-by:         ALL-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-07-24T00:39:28Z
+last-modified:  2017-11-15T09:15:58Z
+source:         RIPE
+sponsoring-org: ORG-bEN1-RIPE
+
+organisation:   ORG-GG17-RIPE
+org-name:       GutCon GmbH
+org-type:       OTHER
+address:        Offenwardenermoor 14
+address:        27628 Sandstedt
+address:        Germany
+phone:          +49 30 52004 3328
+fax-no:         +49 30 52004 3329
+admin-c:        AS33-RIPE
+tech-c:         AS33-RIPE
+abuse-c:        GRD22-RIPE
+mnt-ref:        ALL-MNT
+mnt-by:         ALL-MNT
+created:        2008-02-19T15:15:39Z
+last-modified:  2013-11-14T00:12:08Z
+source:         RIPE # Filtered
+
+person:         Alfred Schweder
+address:        Offenwardenermoor 14
+address:        D-27628 Sandstedt
+address:        Germany
+phone:          +49 30 52004 3328
+phone:          +49 177 219 4627
+fax-no:         +49 30 52004 3329
+nic-hdl:        AS33-RIPE
+mnt-by:         ALL-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-10-30T21:44:49Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

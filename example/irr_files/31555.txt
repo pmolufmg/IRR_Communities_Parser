@@ -1,0 +1,140 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS31246 - AS31618'
+
+as-block:       AS31246 - AS31618
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS31555'
+
+% Abuse contact for 'AS31555' is 'abuse@zayo.com'
+
+aut-num:        AS31555
+as-name:        GROUPEMIT-AS
+org:            ORG-NTG3-RIPE
+remarks:        ---------------- import upstreams ---------------------
+import:         from AS174  accept ANY
+import:         from AS8218  accept ANY
+remarks:        ---------------- export upstreams ---------------------
+export:         to AS174 announce AS-MIT
+export:         to AS8218 announce AS-MIT
+remarks:        ---------------------------------------------------------
+remarks:        Community Support Definitions
+remarks:
+remarks:        Communities to control Local preference by customer
+remarks:
+remarks:        Default Pref: 100
+remarks:
+remarks:        Community Definition
+remarks:        ------------------------------------------------------
+remarks:        31555:999     Routes received from customer
+remarks:        31555:31555   Routes announced to customer only
+remarks:
+remarks:        Communities to determine entry-point of customer route
+remarks:
+remarks:        Community         Entry Point
+remarks:        ------------------------------------------------------
+remarks:        31555:10         Montpellier MIT, France
+remarks:        31555:20         Paris Telehouse 2, France
+remarks:        31555:20         Montpellier COGENT, France
+remarks:
+remarks:
+remarks:        Communities tagged on inbound routes:
+remarks:
+remarks:        Community         Definition
+remarks:        ------------------------------------------------------
+remarks:        31555:100         Routes Received from Cogent
+remarks:        31555:300         Routes Received from NeoTelecoms
+remarks:
+remarks:        Communities to control outbound routing announcements
+remarks:
+remarks:        Community         Definition
+remarks:        ------------------------------------------------------
+remarks:        31555:1100        do not announce to Cogent
+remarks:        31555:1101        Prepend 31555 to Cogent
+remarks:        31555:1102        Prepend 31555 31555 to Cogent
+remarks:
+remarks:        31555:1300        do not announce to NeoTelecoms
+remarks:        31555:1301        Prepend 31555 to NeoTelecoms
+remarks:        31555:1302        Prepend 31555 31555 to NeoTelecoms
+remarks:
+remarks:
+remarks:        &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+remarks:
+admin-c:        NTS10-RIPE
+tech-c:         NTS10-RIPE
+status:         ASSIGNED
+mnt-by:         NEO-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2004-06-11T09:36:58Z
+last-modified:  2018-09-04T10:03:08Z
+source:         RIPE
+
+organisation:   ORG-NTG3-RIPE
+org-name:       Zayo France SAS
+org-type:       LIR
+address:        19-21 rue Poissonniere
+address:        75002
+address:        Paris
+address:        FRANCE
+phone:          +331 7997 9646
+fax-no:         +33149970730
+admin-c:        SMA8218-RIPE
+admin-c:        VG40-RIPE
+admin-c:        CM13648-RIPE
+abuse-c:        NEOT1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        NEO-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NEO-MNT
+created:        2004-04-17T11:22:56Z
+last-modified:  2017-06-29T06:15:25Z
+source:         RIPE # Filtered
+
+role:           Zayo Europe Engineering
+address:        Zayo France
+address:        19-21 rue Poissonniere
+address:        75002 Paris
+address:        France
+phone:          +33 1 49 97 07 37
+org:            ORG-NTG3-RIPE
+admin-c:        SMA8218-RIPE
+admin-c:        NA5707-RIPE
+admin-c:        VG40-RIPE
+admin-c:        CM13648-RIPE
+admin-c:        NPC
+tech-c:         BHW1-RIPE
+tech-c:         NA5707-RIPE
+tech-c:         CM13648-RIPE
+tech-c:         VG40-RIPE
+tech-c:         SMA8218-RIPE
+tech-c:         JM19456-RIPE
+tech-c:         NPC
+nic-hdl:        NTS10-RIPE
+abuse-mailbox:  abuse@zayo.com
+mnt-by:         NEO-MNT
+created:        2006-07-06T08:59:16Z
+last-modified:  2017-10-19T07:45:49Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

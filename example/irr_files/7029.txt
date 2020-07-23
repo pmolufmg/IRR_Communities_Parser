@@ -1,0 +1,43 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS7029
+as-name:       WINDSTREAM-1
+descr:         WINDSTREAM COMMUNICATION
+admin-c:       WIN RADb Admin
+tech-c:        WIN RADb Admin
+remarks:       For network related issues, please contact our Data NOC at:
+               dnoc@windstream.com or call 866.366.2911, option 1
+               All peering requests should be sent to:
+               wci.peering@windstream.com or refer to as7029.peeringdb.com
+remarks:       -------------------------------------------------------------
+               Windstream accepts these communities from customers:
+               -------------------------------------------------------------
+               Modify local preference on AS7029 (Default is 100)
+               -------------------------------------------------------------
+               7029:50     Set local preference to 50
+               7029:60     Set local preference to 60
+               7029:70     Set local preference to 70
+               7029:80     Set local preference to 80
+               7029:90     Set local preference to 90
+               7029:120    Set local preference to 120
+               -------------------------------------------------------------
+               AS path prepending (Added on export to transit)
+               -------------------------------------------------------------
+               7029:01     Prepend 7029 1X
+               7029:02     Prepend 7029 2X
+               7029:03     Prepend 7029 3X
+               7029:04     Prepend 7029 4X
+               7029:05     Prepend 7029 5X
+               -------------------------------------------------------------
+               Special purpose communities
+               -------------------------------------------------------------
+               7029:4506   Blackhole route on AS7029 only
+               7029:4507   Blackhole route on AS7029 and advertise to our transit providers
+               7029:166    Advertise to transit as backup path only
+               -------------------------------------------------------------
+mnt-by:        MAINT-AS7029
+changed:       david.friant@windstream.com 20180514  #16:09:26Z
+source:        RADB
+
+

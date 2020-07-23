@@ -1,0 +1,155 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS50606'
+
+% Abuse contact for 'AS50606' is 'abuse@virtuaoperator.pl'
+
+aut-num:        AS50606
+as-name:        VIRTUAOPERATOR-AS
+org:            ORG-VSZO14-RIPE
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-PL-FUZ
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-PL-FUZ
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS-PL-FUZ
+remarks:
+remarks:        ====================================================
+remarks:        Communities used in AS50606
+remarks:        ====================================================
+remarks:        Communities for specific link are 50606:xxxyy
+remarks:        Where y are:
+remarks:        y=01 - Prepend 1 time
+remarks:        y=02 - Prepend 2 times
+remarks:        y=03 - Prepend 3 times
+remarks:        y=09 - Do Not Advertise
+remarks:
+remarks:        Where x are:
+remarks:
+remarks:        x=110 - RETN (AS9002)
+remarks:        x=120 - VECTRA (AS29314)
+remarks:        x=130 - LEVEL3 (AS3356)
+remarks:        x=140 - PLIX Internet Exchange (AS8545)
+remarks:        x=150 - THINX (formerly ACX) (AS24748)
+remarks:        x=160 - Telia Sonera (AS1299)
+remarks:        x=200 - TPIX Internet Exchange (AS29535)
+remarks:        x=210 - Google Global Cache (only do no advertise)
+remarks:        x=220 - GTS Polska (AS8246)
+remarks:        x=230 - NETIA (AS12741)
+remarks:        x=250 - UPC (AS6830)
+remarks:        x=260 - ORANGE POLAND (AS5617)
+remarks:        x=270 - GOOGLE (AS15169)
+remarks:        x=280 - TWITCH (AS46489)
+remarks:        x=310 - POZIX (AS44896)
+remarks:        x=320 - MICROSOFT (AS8075)
+remarks:        x=330 - EVIO (AS57665)
+remarks:
+remarks:        Example:
+remarks:        Prepend 2 times to Telia Sonera
+remarks:        50606:16002
+remarks:
+remarks:        50606:997 blackhole community (not enabled by default)
+remarks:
+remarks:        We reserve communities 50606:xxxx
+remarks:        where xxxx are from 1 to 9999 for internal use
+remarks:
+remarks:        Looking glass available on: lg.virtuaoperator.pl
+remarks:        Routing problems: noc@virtuaoperator.pl
+remarks:        We speak Polish, English
+remarks:
+remarks:        ====================================================
+remarks:        VirtuaOperator uses multiple virtual-routing
+remarks:        instances (VRF):
+remarks:        1. Transit PL - partial routing table - consist routes from PL only
+remarks:
+remarks:        2. Quality Internet - full routing table -
+remarks:        consist best routes from all routing tables
+remarks:
+remarks:        Since some customers are available only on specific
+remarks:        routing instance announced routes may differ
+remarks:        ================================================
+remarks:        General Policy:
+remarks:        We do not strip customer communities, as long as they
+remarks:        aren't restricted by VirtuaOperator (internal use communities)
+remarks:
+remarks:        We do not accept all RFC1997 communities (no-export etc.)
+remarks:
+remarks:        RFC1918 and other reserved networks and subnets
+remarks:        are not permitted
+remarks:
+remarks:        Advertisements with reserved ASes in the path
+remarks:        (ie 64512 - 65535) are not permitted
+remarks:
+remarks:        Prefixes shorter than /8 or longer than /24 are not permitted.
+remarks:
+remarks:        Advertisements tagged with our own "internal use only"
+remarks:        communities will have all of their communities
+remarks:        stripped from them at ingress
+remarks:        All customer peering sessions are prefix-filtered inbound using
+remarks:        a customer specified import policy pulled from RIPE public registry
+remarks:
+remarks:        Localpref for customer routes will be set to 200 by default
+remarks:
+remarks:        ================================================
+remarks:
+remarks:
+remarks:
+remarks:
+admin-c:        VO844-RIPE
+tech-c:         VO844-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-VIRTUAOPERATOR
+created:        2010-02-17T15:11:46Z
+last-modified:  2018-10-11T09:46:20Z
+source:         RIPE # Filtered
+
+organisation:   ORG-VSZO14-RIPE
+org-name:       Virtuaoperator Sp. z o.o.
+org-type:       LIR
+address:        ul. Obwodowa 17
+address:        07-200
+address:        Wyszkow
+address:        POLAND
+phone:          +48 221022222
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-VIRTUAOPERATOR
+mnt-ref:        NETRONIK-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-VIRTUAOPERATOR
+abuse-c:        VO844-RIPE
+created:        2014-05-01T13:55:54Z
+last-modified:  2018-07-13T06:16:53Z
+source:         RIPE # Filtered
+
+role:           VIRTUAOPERATOR MNTERS
+address:        ul. Obwodowa 17
+address:        07-200 Wyszkow
+abuse-mailbox:  abuse@virtuaoperator.pl
+nic-hdl:        VO844-RIPE
+mnt-by:         MNT-VIRTUAOPERATOR
+created:        2014-05-02T11:38:37Z
+last-modified:  2015-03-19T14:19:34Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

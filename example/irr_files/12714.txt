@@ -1,0 +1,761 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12557 - AS13223'
+
+as-block:       AS12557 - AS13223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12714'
+
+% Abuse contact for 'AS12714' is 'abuse@ti.ru'
+
+aut-num:        AS12714
+as-name:        TI-AS
+descr:          Moscow, Russia
+descr:          http://www.netbynet.ru
+org:            ORG-TL8-RIPE
+remarks:        =========
+remarks:        Upstreams
+remarks:        =========
+remarks:        --- Megafon ---
+import:         from AS31133 action pref=200; accept ANY
+export:         to AS31133 announce AS-TI^+
+remarks:        --- TeliaSonera ---
+import:         from AS1299 action pref=200; accept ANY
+export:         to AS1299 announce AS-TI^+
+remarks:        --- Cogent Communications ---
+import:         from AS174 action pref=200; accept ANY
+export:         to AS174 announce AS-TI^+
+remarks:        ===================
+remarks:        International peers
+remarks:        ===================
+remarks:        --- Apple, Inc. ---
+import:         from AS714 action pref=400; accept AS-APPLE
+export:         to AS714 announce AS-TI^+
+remarks:        --- Twitch ---
+import:         from AS46489 action pref=400; accept AS46489
+export:         to AS46489 announce AS-TI^+
+remarks:        --- Facebook, Inc. ---
+import:         from AS32934 action pref=400; accept AS32934
+export:         to AS32934 announce AS-TI^+
+remarks:        --- Limelight Networks ---
+import:         from AS22822 action pref=400; accept AS-LLNW
+export:         to AS22822 announce AS-TI^+
+remarks:        --- Valve Corporation ---
+import:         from AS32590 action pref=400; accept AS-VALVE
+export:         to AS32590 announce AS-TI^+
+remarks:        --- Verizon Digital Media Services, Inc. ---
+import:         from AS15133 action pref=400; accept AS-EDGECAST
+export:         to AS15133 announce AS-TI^+
+remarks:        ----------------------------
+remarks:        === AMS-IX Public Peering ===
+import:         from AS6777 action pref=400; accept ANY AND NOT <^[AS3216 AS6697 AS8342 AS8402 AS8492 AS8641 AS8732 AS8744 AS9002 AS12530 AS13238 AS15895 AS20485 AS20764 AS21011 AS21414 AS24638 AS24739 AS25229 AS25478 AS25532 AS28809 AS28917 AS29076 AS30751 AS31133 AS34456 AS39792 AS41095 AS42610 AS42861 AS43727 AS47541 AS47542 AS49373 AS5563 AS31500 AS16509]>
+export:         to AS6777 action community .= { 6777:6777, 6777:3216, 6777:6697, 6777:8342, 6777:8402, 6777:8492, 6777:8641, 6777:8732, 6777:8744, 6777:9002, 6777:12530, 6777:13238, 6777:15895, 6777:20485, 6777:20764, 6777:21011, 6777:21414, 6777:24638, 6777:24739, 6777:25229, 6777:25478, 6777:25532, 6777:28809, 6777:28917, 6777:29076, 6777:30751, 6777:31133, 6777:34456, 6777:39792, 6777:42610, 6777:42861, 6777:43727, 6777:47541, 6777:47542, 6777:49373, 6777:714, 6777:8075, 6777:5563, 6777:31500, 6777:16509}; announce AS-TI^+
+remarks:        --- Booking.com BV ---
+import:         from AS43996 action pref=400; accept AS-BOOKING
+export:         to AS43996 announce AS-TI^+
+remarks:        --- Blizzard Entertainment, Inc ---
+import:         from AS57976 action pref=400; accept AS57976
+export:         to AS57976 announce AS-TI^+
+remarks:        --- LeaseWeb B.V. ---
+import:         from AS16265 action pref=400; accept AS-LEASEWEB
+export:         to AS16265 announce AS-TI^+
+remarks:        --- Hurricane Electric, Inc. ---
+import:         from AS6939 action pref=400; accept AS-HURRICANE
+export:         to AS6939 announce AS-TI^+
+remarks:        --- YISP B.V. ---
+import:         from AS58073 action pref=400; accept AS58073
+export:         to AS58073 announce AS-TI^+
+remarks:        --- Apple, Inc. ---
+import:         from AS714 action pref=400; accept AS-APPLE
+export:         to AS714 announce AS-TI^+
+remarks:        --- Limelight Networks ---
+import:         from AS22822 action pref=400; accept AS-LLNW
+export:         to AS22822 announce AS-TI^+
+remarks:        --- Linkedin ---
+import:         from AS14413 action pref=400; accept AS14413
+export:         to AS14413 announce AS-TI^+
+remarks:        --- GLOBECORP-NETWORKS ---
+import:         from AS63113 action pref=400; accept AS63113
+export:         to AS63113 announce AS-TI^+
+remarks:        ----------------------------
+remarks:        === DEC-IX Public Peering ===
+import:         from AS6695 accept AS-DECIX AND NOT <^[AS3216 AS6697 AS8342 AS8402 AS8492 AS8641 AS8732 AS8744 AS9002 AS12530 AS13002 AS13238 AS15895 AS16265 AS20485 AS20764 AS21011 AS21414 AS24638 AS24739 AS25229 AS25478 AS25532 AS28809 AS28917 AS29076 AS30751 AS31133 AS34456 AS39792 AS42610 AS42861 AS43307 AS43727 AS47541 AS47542]>
+export:         to AS6695 action community .= { 6695:6695, 0:3216, 0:6697, 0:8342, 0:8402, 0:8492, 0:8641, 0:8732, 0:8744, 0:9002, 0:12530, 0:13002, 0:13238, 0:15895, 0:16265, 0:20485, 0:20764, 0:21011, 0:21414, 0:24638, 0:24739, 0:25229, 0:25478, 0:25532, 0:28809, 0:28917, 0:29076, 0:30751, 0:31133, 0:34456, 0:39792, 0:42610, 0:42861, 0:43307, 0:43727, 0:47541, 0:47542 }; announce AS-TI^+
+remarks:        --- Man-da.de GmbH ---
+import:         from AS8365 action pref=400; accept AS-MANDA
+export:         to AS8365 announce AS-TI^+
+remarks:        --- Akamai Technologies ---
+import:         from AS20940 action pref=400; accept AS-AKAMAI
+export:         to AS20940 announce AS-TI^+
+remarks:        --- CDNetworks Inc. ---
+import:         from AS36408 action pref=400; accept AS-CDNETWORKS-EU
+export:         to AS36408 announce AS-TI^+
+remarks:        --- Telenor Norge AS ---
+import:         from AS2119 action pref=400; accept AS-TELENOR
+export:         to AS2119 announce AS-TI^+
+remarks:        --- IPHH Internet Port Hamburg GmbH ---
+import:         from AS12731 action pref=400; accept AS-IPHH
+export:         to AS12731 announce AS-TI^+
+remarks:        --- NORDUnet ---
+import:         from AS2603 action pref=400; accept AS-NORDUNET
+export:         to AS2603 announce AS-TI^+
+remarks:        --- Facebook, Inc. ---
+import:         from AS32934 action pref=400; accept AS32934
+export:         to AS32934 announce AS-TI^+
+remarks:        --- next layer Telekommunikationsdienstleistungs- GmbH ---
+import:         from AS1764 action pref=400; accept AS-NEXTLAYER
+export:         to AS1764 announce AS-TI^+
+remarks:        --- OpenCarrier eG ---
+import:         from AS41692 action pref=400; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-TI^+
+remarks:        --- Naukowa i Akademicka Siec Komputerowa Instytut Badawczy ---
+import:         from AS8308 action pref=400; accept AS-NASK
+export:         to AS8308 announce AS-TI^+
+remarks:        --- Limelight Networks ---
+import:         from AS22822 action pref=400; accept AS-LLNW
+export:         to AS22822 announce AS-TI^+
+remarks:        --- China Mobile International ltd. ---
+import:         from AS58453 action pref=400; accept AS58453
+export:         to AS58453 announce AS-TI^+
+remarks:        --- Init7 (Switzerland) Ltd. ---
+import:         from AS13030 action pref=400; accept AS-INIT7
+export:         to AS13030 announce AS-TI^+
+remarks:        --- Valve Corporation ---
+import:         from AS32590 action pref=400; accept AS-VALVE
+export:         to AS32590 announce AS-TI^+
+remarks:        --- Hurricane Electric, Inc. ---
+import:         from AS6939 action pref=400; accept AS-HURRICANE
+export:         to AS6939 announce AS-TI^+
+remarks:        --- Packet Clearing House ---
+import:         from AS42 action pref=400; accept AS42
+export:         to AS42 announce AS-TI^+
+remarks:        --- Packet Clearing House ---
+import:         from AS3856 action pref=400; accept AS3856
+export:         to AS3856 announce AS-TI^+
+remarks:        --- LeaseWeb B.V. ---
+import:         from AS16265 action pref=400; accept AS-LEASEWEB
+export:         to AS16265 announce AS-TI^+
+remarks:        --- Apple, Inc. ---
+import:         from AS714 action pref=400; accept AS-APPLE
+export:         to AS714 announce AS-TI^+
+remarks:        --- Linkedin ---
+import:         from AS14413 action pref=400; accept AS14413
+export:         to AS14413 announce AS-TI^+
+remarks:        ----------------------------
+remarks:        === NL-IX Public Peering ===
+remarks:        --- NL-IX ---
+import:         from AS34307 action pref=400; accept AS34307
+export:         to AS34307 announce AS-TI^+
+remarks:        --- LeaseWeb B.V. ---
+import:         from AS16265 action pref=400; accept AS-LEASEWEB
+export:         to AS16265 announce AS-TI^+
+remarks:        --- Akamai Technologies ---
+import:         from AS20940 action pref=400; accept AS-AKAMAI
+export:         to AS20940 announce AS-TI^+
+remarks:        --- Hurricane Electric, Inc. ---
+import:         from AS6939 action pref=400; accept AS-HURRICANE
+export:         to AS6939 announce AS-TI^+
+remarks:        --- Apple, Inc. ---
+import:         from AS714 action pref=400; accept AS-APPLE
+export:         to AS714 announce AS-TI^+
+remarks:        --- Limelight Networks ---
+import:         from AS22822 action pref=400; accept AS-LLNW
+export:         to AS22822 announce AS-TI^+
+remarks:        --- Linkedin ---
+import:         from AS14413 action pref=400; accept AS14413
+export:         to AS14413 announce AS-TI^+
+remarks:        === NETNOD-IX Public Peering ===
+remarks:        --- NETNOD-IX ---
+import:         from AS52005 action pref=400; accept AS-NETNOD
+export:         to AS52005 announce AS-TI^+
+remarks:        --- Yahoo ---
+import:         from AS10310 action pref=400; accept AS-YAHOO
+export:         to AS10310 announce AS-TI^+
+remarks:        --- Amazon ---
+import:         from AS16509 action pref=400; accept AS-AMAZON-NA
+export:         to AS16509 announce AS-TI^+
+remarks:        --- Highwinds ---
+import:         from AS33438 action pref=400; accept AS33438
+export:         to AS33438 announce AS-TI^+
+remarks:        ==============
+remarks:        National peers
+remarks:        ==============
+remarks:        === MSK-IX ===
+import:         from AS8631 action pref=400; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-TI^+
+remarks:        === SPB-IX ===
+import:         from AS43690 action pref=400; accept AS-SPBROUTESERVER
+export:         to AS43690 announce AS-TI^+
+remarks:        === RND-IX ===
+import:         from AS48216 action pref=400; accept AS-RNDROUTESERVER
+export:         to AS48216 action community .= { 0:52041 }; announce AS-TI^+
+remarks:        === W-IX ===
+import:         from AS50384 action pref=400; accept AS-W-IX
+export:         to AS50384 announce AS-TI^+
+remarks:        === Data-IX ===
+import:         from AS50952 action pref=400; accept AS-DATAIX
+export:         to AS50952 announce AS-TI^+
+remarks:        === VLV-IX ===
+import:         from AS48531 action pref=400; accept AS-VLVROUTESERVER
+export:         to AS48531 announce AS-TI^+
+remarks:        ==============
+import:         from AS3216 action pref=400; accept AS-SOVAM
+export:         to AS3216 announce AS-TI^+
+import:         from AS8402 action pref=400; accept AS-CORBINA
+export:         to AS8402 announce AS-TI^+
+import:         from AS8732 action pref=400; accept AS-COMCOR
+export:         to AS8732 announce AS-TI^+
+import:         from AS9002 action pref=400; accept AS-RETN
+export:         to AS9002 announce AS-TI^+
+import:         from AS13238 action pref=400; accept AS-YANDEX
+export:         to AS13238 announce AS-TI^+
+import:         from AS15169 action pref=400; accept AS-GOOGLE
+export:         to AS15169 announce AS-TI^+
+import:         from AS47764 action pref=400; accept AS-MAILRU
+export:         to AS47764 announce AS-TI^+
+import:         from AS42610 action pref=400; accept AS-NCNET
+export:         to AS42610 announce AS-TI^+
+import:         from AS48061 action pref=400; accept AS48061
+export:         to AS48061 announce AS-TI^+
+import:         from AS8615 action pref=400; accept AS-CNTPEERS
+export:         to AS8615 announce AS-TI^+
+import:         from AS28917 action pref=400; accept AS-FIORD
+export:         to AS28917 announce AS-TI^+
+import:         from AS57629 action pref=400; accept AS57629
+export:         to AS57629 announce AS-TI^+
+import:         from AS24638 action pref=400; accept AS-RAMTEL
+export:         to AS24638 announce AS-TI^+
+import:         from AS16083 action pref=400; accept AS-STACK
+export:         to AS16083 announce AS-TI^+
+import:         from AS47541 action pref=400; accept AS-VKONTAKTE
+export:         to AS47541 announce AS-TI^+
+import:         from AS47542 action pref=400; accept AS-VKONTAKTE
+export:         to AS47542 announce AS-TI^+
+import:         from AS9049 action pref=400; accept AS-ERTH
+export:         to AS9049 announce AS-TI^+
+import:         from AS29076 action pref=400; accept AS-CITYTELECOM
+export:         to AS29076 announce AS-TI^+
+import:         from AS34456 action pref=400; accept AS-RCPEERS
+export:         to AS34456 announce AS-TI^+
+import:         from AS57363 action pref=400; accept AS-CDNVIDEO
+export:         to AS57363 announce AS-TI^+
+import:         from AS42632 action pref=400; accept AS42632
+export:         to AS42632 announce AS-TI^+
+import:         from AS3326 action pref=400; accept AS3326:AS-EXT
+export:         to AS3326 announce AS-TI^+
+import:         from AS21011 action pref=400; accept AS21011:AS-EXT
+export:         to AS21011 announce AS-TI^+
+import:         from AS34879 action pref=400; accept AS-NGENIX
+export:         to AS34879 announce AS-TI^+
+remarks:        --- DDoS-Guard.net ---
+import:         from AS262254 action pref=400; accept AS-DANCOM
+export:         to AS262254 announce AS-TI^+
+remarks:        --- G-Core Labs S.A. ---
+import:         from AS199524 action pref=400; accept AS-WGI
+export:         to AS199524 announce AS-TI^+
+remarks:        --- ARTPLANET ---
+import:         from AS49542 action pref=400; accept AS-ARTPLANET
+export:         to AS49542 announce AS-TI^+
+remarks:        --- Microsoft ---
+import:         from AS8075 action pref=400; accept AS8075
+export:         to AS8075 announce AS-TI^+
+remarks:        --- NaukaNet ---
+import:         from AS8641 action pref=400; accept AS-NAUKANET
+export:         to AS8641 announce AS-TI^+
+remarks:        --- INSYS Ekaterinburg ---
+import:         from AS28890 action pref=400; accept AS-INSYS-EKB
+export:         to AS28890 announce AS-TI^+
+remarks:        --- Tele-plus ---
+import:         from AS30855 action pref=400; accept AS30855
+export:         to AS30855 announce AS-TI^+
+remarks:        ===================
+remarks:        National IPv6 peers
+remarks:        ===================
+mp-import:      afi ipv6.unicast from AS8631 accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-TI
+mp-import:      afi ipv6.unicast from AS43690 accept AS-SPBROUTESERVER
+mp-export:      afi ipv6.unicast to AS43690 announce AS-TI
+mp-import:      afi ipv6.unicast from AS48216 accept AS-RNDROUTESERVER
+mp-export:      afi ipv6.unicast to AS48216 announce AS-TI
+remarks:        --- Corbina ipv6 peering ---
+mp-import:      afi ipv6.unicast from AS8402 accept AS8402
+mp-export:      afi ipv6.unicast to AS8402 announce AS-TI
+remarks:        --- Google ipv6 peering ---
+mp-import:      afi ipv6.unicast from AS15169 accept AS15169
+mp-export:      afi ipv6.unicast to AS15169 announce AS-TI
+remarks:        --- Golden Telecom ---
+mp-import:      afi ipv6.unicast from AS3216 accept AS3216
+mp-export:      afi ipv6.unicast to AS3216 announce AS-TI
+remarks:        --- Onlime-NKS (peer) ---
+mp-import:      afi ipv6.unicast from AS42610 accept AS42610
+mp-export:      afi ipv6.unicast to AS42610 announce AS-TI
+remarks:        --- RETN.Net ---
+mp-import:      afi ipv6.unicast from AS9002 accept AS9002
+mp-export:      afi ipv6.unicast to AS9002 announce AS-TI
+remarks:        --- StartTelecom (peer) ---
+mp-import:      afi ipv6.unicast from AS8744 accept AS8744
+mp-export:      afi ipv6.unicast to AS8744 announce AS-TI
+remarks:        --- RUTube (peer) ---
+mp-import:      afi ipv6.unicast from AS48061 accept AS48061
+mp-export:      afi ipv6.unicast to AS48061 announce AS-TI
+remarks:        --- Citytelecom (Filanco) ---
+mp-import:      afi ipv6.unicast from AS29076 accept AS29076
+mp-export:      afi ipv6.unicast to AS29076 announce AS-TI
+remarks:        ===================
+remarks:        International IPv6 peers
+remarks:        ===================
+remarks:        --- Apple, Inc. ---
+mp-import:      afi ipv6.unicast from AS714 accept AS714
+mp-export:      afi ipv6.unicast to AS714 announce AS-TI
+remarks:        --- Twitch ---
+mp-import:      afi ipv6.unicast from AS46489 accept AS46489
+mp-export:      afi ipv6.unicast to AS46489 announce AS-TI
+remarks:        --- Facebook, Inc. ---
+mp-import:      afi ipv6.unicast from AS32934 accept AS32934
+mp-export:      afi ipv6.unicast to AS32934 announce AS-TI
+remarks:        --- Limelight Networks ---
+mp-import:      afi ipv6.unicast from AS22822 accept AS-LLNW
+mp-export:      afi ipv6.unicast to AS22822 announce AS-TI
+remarks:        --- Valve Corporation ---
+mp-import:      afi ipv6.unicast from AS32590 accept AS-VALVE
+mp-export:      afi ipv6.unicast to AS32590 announce AS-TI
+remarks:        --- Verizon Digital Media Services, Inc. ---
+mp-import:      afi ipv6.unicast from AS15133 accept AS-EDGECAST
+mp-export:      afi ipv6.unicast to AS15133 announce AS-TI
+remarks:        ===========
+remarks:        Downstreams ( Customers V6 )
+remarks:        ===========
+remarks:        --- GLOBALNET ---
+mp-import:      afi ipv6.unicast from AS31500 accept AS-GLOBAL-NET-v6
+mp-export:      afi ipv6.unicast to AS31500 announce ANY
+remarks:        ===========
+remarks:        Downstreams ( Customers )
+remarks:        ===========
+import:         from AS34123 action pref=700; accept AS-NETORN
+export:         to AS34123 announce ANY
+import:         from AS43319 action pref=700; accept AS43319
+export:         to AS43319 announce ANY
+import:         from AS8331 action pref=700; accept AS-RINET
+export:         to AS8331 announce ANY
+import:         from AS38978 action pref=700; accept AS38978
+export:         to AS38978 announce ANY
+import:         from AS196963 action pref=700; accept AS196963
+export:         to AS196963 announce ANY
+import:         from AS61075 action pref=700; accept AS61075
+export:         to AS61075 announce ANY
+import:         from AS58279 action pref=700; accept AS58279
+export:         to AS58279 announce ANY
+import:         from AS50771 action pref=700; accept AS-TTK-LTD
+export:         to AS50771 announce ANY
+import:         from AS42420 action pref=700; accept AS-CHEBNET
+export:         to AS42420 announce { 0.0.0.0/0 }
+import:         from AS50396 action pref=700; accept AS50396
+export:         to AS50396 announce ANY
+import:         from AS62461 action pref=700; accept AS62461
+export:         to AS62461 announce ANY
+import:         from AS62309 action pref=700; accept AS62309
+export:         to AS62309 announce ANY
+import:         from AS39596 action pref=700; accept AS-GOLDENSET
+export:         to AS39596 announce ANY
+import:         from AS8905 action pref=700; accept AS-DIGIT1
+export:         to AS8905 announce ANY
+remarks:        Synterra-UG
+import:         from AS47218 action pref=700; accept AS47218
+export:         to AS47218 announce ANY
+remarks:        T-Lan (Rostov-na-Donu)
+import:         from AS197185 action pref=700; accept AS197185
+export:         to AS197185 announce ANY
+remarks:        Intertelecom Ltd.
+import:         from AS38978 action pref=700; accept AS38978
+export:         to AS38978 announce { 0.0.0.0/0 }
+remarks:        Atlant Telecom
+import:         from AS35310 action pref=700; accept AS35310
+export:         to AS35310 announce ANY
+remarks:        MUP Razvitie infrastruktury Mytischi
+import:         from AS49702 action pref=700; accept AS49702
+export:         to AS49702 announce { 0.0.0.0/0 }
+remarks:        OOO "ENDS "Glonass-Navigator"
+import:         from AS48510 action pref=700; accept AS48510
+export:         to AS48510 announce { 0.0.0.0/0 }
+remarks:        OOO SALON 2116 Electronic Post Office
+import:         from AS34033 action pref=700; accept AS-SALON2116
+export:         to AS34033 announce ANY
+remarks:        Akamai Technologies Inc.
+import:         from AS20940 action pref=700; accept AS-AKAMAI
+export:         to AS20940 announce ANY
+import:         from AS34164 action pref=700; accept AS-AKAMAI
+export:         to AS34164 announce ANY
+remarks:        Lealta Ltd
+import:         from AS41275 action pref=700; accept AS-TUT
+export:         to AS41275 announce ANY
+remarks:        Association of international Road Carriers (ASMAP)
+import:         from AS61436 action pref=700; accept AS61436
+export:         to AS61436 announce { 0.0.0.0/0 }
+remarks:        ZAO "ADM-telecom"
+import:         from AS51621 action pref=700; accept AS51621
+export:         to AS51621 announce ANY
+remarks:        ExpaNet LLC
+import:         from AS51939 action pref=700; accept AS-EXPATEL
+export:         to AS51939 announce ANY
+remarks:        JSC Startel-center
+import:         from AS57204 action pref=700; accept AS-STARTELECOM-CENTER
+export:         to AS57204 announce ANY
+remarks:        Lokomotiv
+import:         from AS57680 action pref=700; accept AS57680
+export:         to AS57680 announce { 0.0.0.0/0 }
+remarks:        Korston
+import:         from AS8853 action pref=700; accept AS8853
+export:         to AS8853 announce ANY
+remarks:        MTS PJSC Ural Branch
+import:         from AS41822 action pref=700; accept AS41822
+export:         to AS41822 announce ANY
+remarks:        MediaNet Ltd.
+import:         from AS50688 action pref=700; accept AS50688
+export:         to AS50688 announce ANY
+remarks:        FasTel LLC
+import:         from AS34230 action pref=700; accept AS34230
+export:         to AS34230 announce { 0.0.0.0/0 }
+remarks:        CHUVASHCREDITPROMBANK
+import:         from AS62339 action pref=700; accept AS62339
+export:         to AS62339 announce ANY
+remarks:        Bridge-Connect
+import:         from AS39735 action pref=700; accept AS-MIRIT
+export:         to AS39735 announce ANY
+remarks:        OOO Necstel
+import:         from AS61068 action pref=700; accept AS61068
+export:         to AS61068 announce ANY
+remarks:        OOO Telekommunikacii SJeZ Nahodka
+import:         from AS31512 action pref=700; accept AS31512
+export:         to AS31512 announce ANY
+remarks:        Gevura-AS
+import:         from AS205047 action pref=700; accept AS205047
+export:         to AS205047 announce ANY
+remarks:        RUTAXI
+import:         from AS61228 action pref=700; accept AS61228
+export:         to AS61228 announce ANY
+remarks:        ISKRATELECOM
+import:         from AS29124 action pref=700; accept AS-7SKY
+export:         to AS29124 announce ANY
+remarks:        ISKRATELECOM
+import:         from AS30784 action pref=700; accept AS-7SKY
+export:         to AS30784 announce ANY
+remarks:        IT-NET-LTD-AS
+import:         from AS57798 action pref=700; accept AS57798
+export:         to AS57798 announce ANY
+remarks:        SOCHITEL
+import:         from AS205246 action pref=700; accept AS205246
+export:         to AS205246 announce ANY
+remarks:        DELFA
+import:         from AS8915 action pref=700; accept AS-DELFA
+export:         to AS8915 announce ANY
+remarks:        AVTOSOYUZ-PLUS
+import:         from AS47763 action pref=700; accept AS47763
+export:         to AS47763 announce ANY
+remarks:        ASGREENLINE
+import:         from AS59559 action pref=700; accept AS59559
+export:         to AS59559 announce ANY
+remarks:        TE-AS
+import:         from AS49533 action pref=700; accept AS49533
+export:         to AS49533 announce ANY
+remarks:        ARTCOMS
+import:         from AS21353 action pref=700; accept AS21353
+export:         to AS21353 announce ANY
+remarks:        SNGI
+import:         from AS199576 action pref=700; accept AS199576
+export:         to AS199576 announce ANY
+remarks:        MEGIONLINK
+import:         from AS60554 action pref=700; accept AS-MLINK
+export:         to AS60554 announce ANY
+remarks:        TNGS-NORTH
+import:         from AS41822 action pref=700; accept AS41822
+export:         to AS41822 announce ANY
+remarks:        URIIT
+import:         from AS28899 action pref=700; accept AS28899
+export:         to AS28899 announce ANY
+remarks:        FASTEL
+import:         from AS34230 action pref=700; accept AS34230
+export:         to AS34230 announce ANY
+remarks:        YUGORSKGAZTELECOM
+import:         from AS49361 action pref=700; accept AS49361
+export:         to AS49361 announce ANY
+remarks:        NKK
+import:         from AS48333 action pref=700; accept AS48333
+export:         to AS48333 announce { 0.0.0.0/0 }
+remarks:        TECCO
+import:         from AS196664 action pref=700; accept AS196664
+export:         to AS196664 announce { 0.0.0.0/0 }
+remarks:        QUANTUM
+import:         from AS12418 action pref=700; accept AS12418
+export:         to AS12418 announce ANY
+remarks:        CHUVSU
+import:         from AS8630 action pref=700; accept AS8630
+export:         to AS8630 announce ANY
+remarks:        MMTS
+import:         from AS60299 action pref=700; accept AS-MMTS
+export:         to AS60299 announce ANY
+remarks:        LKOMNet
+import:         from AS50806 action pref=700; accept AS-LKOM
+export:         to AS50806 announce ANY
+remarks:        DELTELECOM
+import:         from AS51147 action pref=700; accept AS-DELTELECOM
+export:         to AS51147 announce ANY
+remarks:        SPARKTELL
+import:         from AS199624 action pref=700; accept AS-SPARKTELL
+export:         to AS199624 announce ANY
+remarks:        STARLINE
+import:         from AS201511 action pref=700; accept AS201511
+export:         to AS201511 announce ANY
+remarks:        mcntelecom
+import:         from AS34352 action pref=700; accept AS-MCN
+export:         to AS34352 announce ANY
+remarks:        Deil-AS
+import:         from AS57661 action pref=700; accept AS57661
+export:         to AS57661 announce ANY
+remarks:        METEOTELECOM
+import:         from AS30853 action pref=700; accept AS30853
+export:         to AS30853 announce ANY
+remarks:        Quantil
+import:         from AS204720 action pref=700; accept AS204720
+export:         to AS204720 announce ANY
+remarks:        KVANT-TELECOM
+import:         from AS43727 action pref=700; accept AS-SETKT
+export:         to AS43727 announce ANY
+remarks:        KOLVY
+import:         from AS60666 action pref=700; accept AS60666
+export:         to AS60666 announce ANY
+remarks:        GLOBALNET
+import:         from AS31500 action pref=700; accept AS-GLOBAL-NET
+export:         to AS31500 announce ANY
+remarks:        Neocom
+import:         from AS48462 action pref=700; accept AS48462
+export:         to AS48462 announce ANY
+remarks:        ============================================
+remarks:        Communities are accepted only from customers
+remarks:        ============================================
+remarks:        ---------------------------
+remarks:        Advertisement scope control
+remarks:        ---------------------------
+remarks:        6490x:<ASN> - do action 'x' for AS<ASN>
+remarks:        6491x:<z> - do action 'x' for zone <z>
+remarks:        here 'x' may be:
+remarks:        x=0 - advertise with no changes
+remarks:        x=1,3,5 - advertise with 1,3,5 prepends
+remarks:        x=9 - do not advertise
+remarks:        ======================
+remarks:        Valid upstreams <ASN>:
+remarks:        ======================
+remarks:        174 - Cogent
+remarks:        1299 - TeliaSonera
+remarks:        31133 - Megafon
+remarks:        ============
+remarks:        Valid zones:
+remarks:        ============
+remarks:        0 - the whole world
+remarks:        1 - all customers
+remarks:        2 - all upstreams
+remarks:        3 - all peers
+remarks:        4 - Msk-ix
+remarks:        5 - Dec-ix
+remarks:        6 - Cloud-ix
+remarks:        7 - Nl-ix
+remarks:        8 - Data-ix
+remarks:        9 - Ams-ix
+remarks:        10 - Netnod
+remarks:        11 - Spb-ix
+remarks:        12 - Rnd-ix
+remarks:        13 - Global-ix
+remarks:        14 - Dataline-ix (Elba-ix)
+remarks:        15 - W-ix
+remarks:        16 - VLV-ix
+remarks:        17 - Piter-ix
+remarks:        18 - Sea-ix
+remarks:        ==================
+remarks:        Valid peers <ASN>:
+remarks:        ==================
+remarks:        3216 - Golden Telecom
+remarks:        8732 - AKADO
+remarks:        8402 - Corbina Telecom
+remarks:        8615 - QWERTY
+remarks:        8641 - NaukaNet
+remarks:        8732 - COMCOR
+remarks:        9002 - RETN
+remarks:        9049 - ER-Telecom
+remarks:        13238 - Yandex
+remarks:        15169 - Google
+remarks:        16083 - SafeData
+remarks:        20764 - Rascom
+remarks:        21011 - Topnet
+remarks:        3326 - Datagroup
+remarks:        24638 - Rambler
+remarks:        28917 - FIORD
+remarks:        29124 - GORCOM
+remarks:        30855 - Tele-plus
+remarks:        34456 - RIALCOM
+remarks:        34879 - Ngenix
+remarks:        34892 - INFOLINK
+remarks:        42610 - Onlime
+remarks:        42632 - Mnogobyte
+remarks:        47395 - Yota
+remarks:        47542 - Vkontakte
+remarks:        47764 - Mail.ru
+remarks:        47775 - ufanet
+remarks:        48061 - RUTube
+remarks:        57363 - CDNVideo
+remarks:        57629 - IVI
+remarks:        ==========================
+remarks:        Valid europen peers <ASN>:
+remarks:        ==========================
+remarks:        714 - Apple
+remarks:        15133 - Verizon VDMS
+remarks:        22822 - Limelight
+remarks:        32590 - Valve
+remarks:        32934 - Facebook
+remarks:        46489 - Twitch
+remarks:        ------------------------
+remarks:        Local preference control
+remarks:        ------------------------
+remarks:        12714:11 - decrease local preference by 100
+remarks:        12714:13 - decrease local preference by 300
+remarks:        12714:14 - decrease local preference by 400
+remarks:        --------------------------------
+remarks:        ---- Blackhole  -------
+remarks:        --------------------------------
+remarks:        12714:666 - blackhole (discard) traffic
+remarks:        Traffic destined for any prefixes tagged with this
+remarks:        community will be discarded at ingress to the Netbynet
+remarks:        network. Permit only /32 ipv4 prefixes
+remarks:        ------------------------------------
+remarks:        Local preference used within AS12714
+remarks:        ------------------------------------
+remarks:        1000 - locally originated aggregate route
+remarks:        900 - locally originated special route
+remarks:        800 - more preferred customer route
+remarks:        700 - regular customer route
+remarks:        600 - customer backup
+remarks:        400 - customer backup
+remarks:        400 - 415 peer route
+remarks:        300 - customer fallback
+remarks:        200 - transit route
+remarks:        150 - backup route
+remarks:        1 - bogus route
+remarks:        --------------------------------
+remarks:        Advertised route's type coloring
+remarks:        --------------------------------
+remarks:        12714:701 - bogus route
+remarks:        12714:702 - aggregate route
+remarks:        12714:703 - traffic-engineering aggregate route
+remarks:        12714:710 - customer route
+remarks:        12714:720 - peer route
+remarks:        12714:730 - transit route
+remarks:        -----
+remarks:        Notes
+remarks:        -----
+remarks:        Any other 12714:or src net, 6490x:or src net and 6491x:or src net communities
+remarks:        are removed on input.
+remarks:        All other or src net:or src net communities are passed intact.
+remarks:        None of own communities are accepted to peers/upstreams
+remarks:        We do accept MED attribute.
+remarks:        ==========================================================
+remarks:        Public looking glass: https://lg.ti.ru
+remarks:        ==========================================================
+admin-c:        TI805-RIPE
+tech-c:         TI805-RIPE
+tech-c:         TI
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         TI-MNT
+mnt-by:         TI-NOC-MNT
+created:        2002-07-18T12:38:14Z
+last-modified:  2019-02-11T08:16:36Z
+source:         RIPE # Filtered
+
+organisation:   ORG-TL8-RIPE
+org-name:       Net By Net Holding LLC
+org-type:       LIR
+address:        Oruzhejnyj pereulok, 41
+address:        127006
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74959802800
+fax-no:         +74957404811
+admin-c:        TAT-RIPE
+admin-c:        ZK-RIPE
+admin-c:        LX-RIPE
+admin-c:        NP4378-RIPE
+admin-c:        KS8124-RIPE
+admin-c:        ES9318-RIPE
+admin-c:        PP13917-RIPE
+admin-c:        TI805-RIPE
+abuse-c:        TI844-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TI-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TI-MNT
+created:        2004-04-17T11:59:52Z
+last-modified:  2017-05-19T08:08:12Z
+source:         RIPE # Filtered
+
+role:           TI NOC
+org:            ORG-TL8-RIPE
+address:        NetByNet holding
+address:        Moscow, Russia, 127006
+address:        Oruzhejnyj pereulok, 41
+remarks:        *****************************************
+remarks:        Please send abuse reports to abuse@ti.ru.ONLY
+remarks:        Abuse reports sent to other email will be SILENTLY DISCARDED
+remarks:        *****************************************
+abuse-mailbox:  abuse@ti.ru
+phone:          +7 495 980 2800
+fax-no:         +7 495 740 4811
+admin-c:        TI805-RIPE
+tech-c:         TI805-RIPE
+nic-hdl:        TI
+mnt-by:         TI-MNT
+created:        2006-08-28T14:46:41Z
+last-modified:  2017-10-18T14:55:46Z
+source:         RIPE # Filtered
+
+role:           TI RIPE Team
+org:            ORG-TL8-RIPE
+address:        Net By Net Holding LLC
+address:        Moscow, Russia, 127006
+address:        Oruzhejnyj pereulok, 41
+remarks:        *****************************************
+remarks:        Please send abuse reports to abuse@ti.ru ONLY
+remarks:        Abuse reports sent to other email will be SILENTLY DISCARDED
+remarks:        *****************************************
+abuse-mailbox:  abuse@ti.ru
+phone:          +7 495 980 2800
+fax-no:         +7 495 740 4811
+admin-c:        LX-RIPE
+admin-c:        NP4378-RIPE
+tech-c:         ZK-RIPE
+tech-c:         TAT-RIPE
+nic-hdl:        TI805-RIPE
+mnt-by:         TI-MNT
+created:        2012-11-02T11:54:10Z
+last-modified:  2017-10-18T14:54:34Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

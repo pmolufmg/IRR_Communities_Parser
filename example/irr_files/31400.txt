@@ -1,0 +1,478 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS31246 - AS31618'
+
+as-block:       AS31246 - AS31618
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS31400'
+
+% Abuse contact for 'AS31400' is 'abuse@accelerated.de'
+
+aut-num:        AS31400
+as-name:        ACCELERATED-IT
+remarks:
+remarks:        +++ Upstreams +++
+remarks:
+import:         from AS2914 accept ANY
+export:         to AS2914 announce AS-ACCELERATED
+import:         from AS3223 accept ANY
+export:         to AS3223 announce AS-ACCELERATED
+import:         from AS3257 accept ANY
+export:         to AS3257 announce AS-ACCELERATED
+import:         from AS3320 accept ANY
+export:         to AS3320 announce AS-ACCELERATED
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-ACCELERATED
+import:         from AS12586 accept ANY
+export:         to AS12586 announce AS-ACCELERATED
+import:         from AS21385 accept ANY
+export:         to AS21385 announce AS-ACCELERATED
+remarks:
+remarks:        +++ Customers +++
+remarks:
+import:         from AS8746 accept AS8746
+export:         to AS8746 announce ANY
+import:         from AS12586 accept AS12586
+export:         to AS12586 announce ANY
+import:         from AS44569 accept AS44569
+export:         to AS44569 announce ANY
+import:         from AS44569 accept AS44569
+export:         to AS44569 announce ANY
+import:         from AS50198 accept AS50198
+export:         to AS50198 announce ANY
+import:         from AS62255 accept AS62255
+export:         to AS62255 announce ANY
+import:         from AS197745 accept AS197745
+export:         to AS197745 announce ANY
+import:         from AS395831 accept AS395831
+export:         to AS395831 announce ANY
+remarks:
+remarks:        +++ DE-CIX Peerings +++
+remarks:
+import:         from AS42 accept AS-PCH
+export:         to AS42 announce AS-ACCELERATED
+import:         from AS714 accept AS-APPLE
+export:         to AS714 announce AS-ACCELERATED
+import:         from AS1248 accept AS-NOK
+export:         to AS1248 announce AS-ACCELERATED
+import:         from AS1267 accept AS-INFOSTRADA
+export:         to AS1267 announce AS-ACCELERATED
+import:         from AS1764 accept AS-NEXTLAYER
+export:         to AS1764 announce AS-ACCELERATED
+import:         from AS2484 accept AS2484
+export:         to AS2484 announce AS-ACCELERATED
+import:         from AS2857 accept AS-RLP-NET
+export:         to AS2857 announce AS-ACCELERATED
+import:         from AS3209 accept AS-ARCORGLOBAL
+export:         to AS3209 announce AS-ACCELERATED
+import:         from AS3223 accept AS-VOXILITY-SET
+export:         to AS3223 announce AS-ACCELERATED
+import:         from AS3856 accept AS-PCH
+export:         to AS3856 announce AS-ACCELERATED
+import:         from AS4589 accept AS-EASYNET
+export:         to AS4589 announce AS-ACCELERATED
+import:         from AS5430 accept AS-FREENETDE
+export:         to AS5430 announce AS-ACCELERATED
+import:         from AS5588 accept AS-GTS-CE
+export:         to AS5588 announce AS-ACCELERATED
+import:         from AS5605 accept AS-NETUSE
+export:         to AS5605 announce AS-ACCELERATED
+import:         from AS6661 accept AS-PTLU
+export:         to AS6661 announce AS-ACCELERATED
+import:         from AS6667 accept AS-EUNETIP
+export:         to AS6667 announce AS-ACCELERATED
+import:         from AS6695 accept AS-DECIX
+export:         to AS6695 announce AS-ACCELERATED
+import:         from AS6724 accept AS-STRATORZ
+export:         to AS6724 announce AS-ACCELERATED
+import:         from AS6805 accept AS-TDDE
+export:         to AS6805 announce AS-ACCELERATED
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-ACCELERATED
+import:         from AS8075 accept AS-MICROSOFT
+export:         to AS8075 announce AS-ACCELERATED
+import:         from AS8262 accept AS-EVOLINK
+export:         to AS8262 announce AS-ACCELERATED
+import:         from AS8365 accept AS-MANDA
+export:         to AS8365 announce AS-ACCELERATED
+import:         from AS8422 accept AS-NETCOLOGNE
+export:         to AS8422 announce AS-ACCELERATED
+import:         from AS8447 accept AS-PTA
+export:         to AS8447 announce AS-ACCELERATED
+import:         from AS8468 accept AS-ENTANET
+export:         to AS8468 announce AS-ACCELERATED
+import:         from AS8469 accept AS-PIRONETNDH
+export:         to AS8469 announce AS-ACCELERATED
+import:         from AS8551 accept AS-BEZEQINT
+export:         to AS8551 announce AS-ACCELERATED
+import:         from AS8560 accept AS-1AND1
+export:         to AS8560 announce AS-ACCELERATED
+import:         from AS8648 accept AS-KAMP
+export:         to AS8648 announce AS-ACCELERATED
+import:         from AS8657 accept AS-CPRM
+export:         to AS8657 announce AS-ACCELERATED
+import:         from AS8674 accept AS-NETNOD
+export:         to AS8674 announce AS-ACCELERATED
+import:         from AS8717 accept AS-SPNET
+export:         to AS8717 announce AS-ACCELERATED
+import:         from AS8767 accept AS-MNETDE
+export:         to AS8767 announce AS-ACCELERATED
+import:         from AS8859 accept AS-OSN
+export:         to AS8859 announce AS-ACCELERATED
+import:         from AS8879 accept AS-DTS
+export:         to AS8879 announce AS-ACCELERATED
+import:         from AS8966 accept AS-EMIX
+export:         to AS8966 announce AS-ACCELERATED
+import:         from AS9063 accept AS-SAARGATE
+export:         to AS9063 announce AS-ACCELERATED
+import:         from AS9116 accept AS-GOLDEN
+export:         to AS9116 announce AS-ACCELERATED
+import:         from AS9145 accept AS-EWETEL
+export:         to AS9145 announce AS-ACCELERATED
+import:         from AS9189 accept AS-ACCOM
+export:         to AS9189 announce AS-ACCELERATED
+import:         from AS12041 accept AS12041:AS-AFILIAS
+export:         to AS12041 announce AS-ACCELERATED
+import:         from AS12301 accept AS12301:AS-ROUTES
+export:         to AS12301 announce AS-ACCELERATED
+import:         from AS12306 accept AS-PLUSLINE
+export:         to AS12306 announce AS-ACCELERATED
+import:         from AS12322 accept AS-PROXAD
+export:         to AS12322 announce AS-ACCELERATED
+import:         from AS12348 accept AS-ODNDE
+export:         to AS12348 announce AS-ACCELERATED
+import:         from AS12399 accept AS-SPXS
+export:         to AS12399 announce AS-ACCELERATED
+import:         from AS12713 accept AS-OTEGLOBE
+export:         to AS12713 announce AS-ACCELERATED
+import:         from AS12731 accept AS-IPHH
+export:         to AS12731 announce AS-ACCELERATED
+import:         from AS13030 accept AS-INIT7
+export:         to AS13030 announce AS-ACCELERATED
+import:         from AS13101 accept AS-TNG
+export:         to AS13101 announce AS-ACCELERATED
+import:         from AS13157 accept AS-GOPAS
+export:         to AS13157 announce AS-ACCELERATED
+import:         from AS13184 accept AS-HANSENET
+export:         to AS13184 announce AS-ACCELERATED
+import:         from AS13238 accept AS-YANDEX
+export:         to AS13238 announce AS-ACCELERATED
+import:         from AS13249 accept AS-ITS-DECIX
+export:         to AS13249 announce AS-ACCELERATED
+import:         from AS13285 accept AS-OPAL
+export:         to AS13285 announce AS-ACCELERATED
+import:         from AS13301 accept AS-UNITEDCOLO
+export:         to AS13301 announce AS-ACCELERATED
+import:         from AS15133 accept AS-EDGECAST
+export:         to AS15133 announce AS-ACCELERATED
+import:         from AS15444 accept AS-NETSERVICES
+export:         to AS15444 announce AS-ACCELERATED
+import:         from AS15598 accept AS-IPX
+export:         to AS15598 announce AS-ACCELERATED
+import:         from AS15743 accept AS-IPH
+export:         to AS15743 announce AS-ACCELERATED
+import:         from AS15763 accept AS-DOKOM21
+export:         to AS15763 announce AS-ACCELERATED
+import:         from AS15802 accept AS-EITC-DU
+export:         to AS15802 announce AS-ACCELERATED
+import:         from AS15830 accept AS-TELECITYLON
+export:         to AS15830 announce AS-ACCELERATED
+import:         from AS16150 accept AS16150:AS-CUSTOMERS
+export:         to AS16150 announce AS-ACCELERATED
+import:         from AS16509 accept AS-AMAZON
+export:         to AS16509 announce AS-ACCELERATED
+import:         from AS20504 accept AS-RTL
+export:         to AS20504 announce AS-ACCELERATED
+import:         from AS20773 accept AS20773:AS-HOSTEUROPE
+export:         to AS20773 announce AS-ACCELERATED
+import:         from AS20810 accept AS-NETCOM
+export:         to AS20810 announce AS-ACCELERATED
+import:         from AS20940 accept AS-AKAMAI
+export:         to AS20940 announce AS-ACCELERATED
+import:         from AS21219 accept AS-FF-TRANSIT
+export:         to AS21219 announce AS-ACCELERATED
+import:         from AS21336 accept AS-IR
+export:         to AS21336 announce AS-ACCELERATED
+import:         from AS21345 accept AS-MESSAGELABSEUROPE
+export:         to AS21345 announce AS-ACCELERATED
+import:         from AS24724 accept AS24724:AS-FOREIGN
+export:         to AS24724 announce AS-ACCELERATED
+import:         from AS24940 accept AS-HETZNER
+export:         to AS24940 announce AS-ACCELERATED
+import:         from AS24963 accept AS-YACAST
+export:         to AS24963 announce AS-ACCELERATED
+import:         from AS24989 accept AS-EQUINIX-DE
+export:         to AS24989 announce AS-ACCELERATED
+import:         from AS25279 accept AS-TREML-STURM
+export:         to AS25279 announce AS-ACCELERATED
+import:         from AS28917 accept AS-FIORD
+export:         to AS28917 announce AS-ACCELERATED
+import:         from AS29066 accept AS-VELIANET
+export:         to AS29066 announce AS-ACCELERATED
+import:         from AS29140 accept AS-HOSTSERVER
+export:         to AS29140 announce AS-ACCELERATED
+import:         from AS29834 accept AS-USTR
+export:         to AS29834 announce AS-ACCELERATED
+import:         from AS31019 accept AS-MEANIE
+export:         to AS31019 announce AS-ACCELERATED
+import:         from AS31042 accept AS-SBB
+export:         to AS31042 announce AS-ACCELERATED
+import:         from AS31252 accept AS-STARNET
+export:         to AS31252 announce AS-ACCELERATED
+import:         from AS31334 accept AS-KDG
+export:         to AS31334 announce AS-ACCELERATED
+import:         from AS31400 accept AS-ACCELERATED
+export:         to AS31400 announce AS-ACCELERATED
+import:         from AS31500 accept AS-GLOBAL-NET
+export:         to AS31500 announce AS-ACCELERATED
+import:         from AS31529 accept AS-DENIC-ANY
+export:         to AS31529 announce AS-ACCELERATED
+import:         from AS32934 accept AS32934
+export:         to AS32934 announce AS-ACCELERATED
+import:         from AS33082 accept AS33082
+export:         to AS33082 announce AS-ACCELERATED
+import:         from AS33873 accept AS-ARVATO
+export:         to AS33873 announce AS-ACCELERATED
+import:         from AS33891 accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-ACCELERATED
+import:         from AS34309 accept AS-LINK11
+export:         to AS34309 announce AS-ACCELERATED
+import:         from AS34655 accept AS-DOCLER
+export:         to AS34655 announce AS-ACCELERATED
+import:         from AS34695 accept AS34695:AS-TRANSIT
+export:         to AS34695 announce AS-ACCELERATED
+import:         from AS35366 accept AS-ISPPRO
+export:         to AS35366 announce AS-ACCELERATED
+import:         from AS36351 accept AS-SOFTLAYER
+export:         to AS36351 announce AS-ACCELERATED
+import:         from AS36408 accept AS-CDNETWORKS-EU
+export:         to AS36408 announce AS-ACCELERATED
+import:         from AS37100 accept AS-SET-SEACOM
+export:         to AS37100 announce AS-ACCELERATED
+import:         from AS39702 accept AS-SIT
+export:         to AS39702 announce AS-ACCELERATED
+import:         from AS39912 accept AS-I3B
+export:         to AS39912 announce AS-ACCELERATED
+import:         from AS41692 accept AS-OPENCARRIER
+export:         to AS41692 announce AS-ACCELERATED
+import:         from AS42416 accept AS42416
+export:         to AS42416 announce AS-ACCELERATED
+import:         from AS42456 accept AS-CHMURTZ
+export:         to AS42456 announce AS-ACCELERATED
+import:         from AS42459 accept AS-FOBUL
+export:         to AS42459 announce AS-ACCELERATED
+import:         from AS42473 accept AS-ANEXIA
+export:         to AS42473 announce AS-ACCELERATED
+import:         from AS42708 accept AS-PORTLANE
+export:         to AS42708 announce AS-ACCELERATED
+import:         from AS44053 accept AS-UNILINK
+export:         to AS44053 announce AS-ACCELERATED
+import:         from AS44066 accept AS-FIRSTCOLO
+export:         to AS44066 announce AS-ACCELERATED
+import:         from AS44654 accept AS-MNS
+export:         to AS44654 announce AS-ACCELERATED
+import:         from AS47195 accept AS-GAMEFORGE
+export:         to AS47195 announce AS-ACCELERATED
+import:         from AS47215 accept AS-FILOO
+export:         to AS47215 announce AS-ACCELERATED
+import:         from AS47447 accept AS-23MEDIA
+export:         to AS47447 announce AS-ACCELERATED
+import:         from AS48200 accept AS-OPTEAMAX-v4
+export:         to AS48200 announce AS-ACCELERATED
+import:         from AS49544 accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-ACCELERATED
+import:         from AS50837 accept AS-CLOUDSIGMA
+export:         to AS50837 announce AS-ACCELERATED
+import:         from AS52041 accept AS-CITYLAN
+export:         to AS52041 announce AS-ACCELERATED
+import:         from AS60169 accept AS-RKOM
+export:         to AS60169 announce AS-ACCELERATED
+remarks:
+remarks:        +++ DE-CIX Peerings v6 +++
+remarks:
+import:         from AS714 accept AS714
+export:         to AS714 announce AS-ACCELERATED
+import:         from AS1764 accept AS-NEXTLAYER-V6
+export:         to AS1764 announce AS-ACCELERATED
+import:         from AS2484 accept AS2484
+export:         to AS2484 announce AS-ACCELERATED
+import:         from AS3209 accept AS3209
+export:         to AS3209 announce AS-ACCELERATED
+import:         from AS6805 accept AS6805
+export:         to AS6805 announce AS-ACCELERATED
+import:         from AS8262 accept AS-EVOLINK6
+export:         to AS8262 announce AS-ACCELERATED
+import:         from AS8674 accept AS-NETNOD
+export:         to AS8674 announce AS-ACCELERATED
+import:         from AS12713 accept AS-OTEGLOBE
+export:         to AS12713 announce AS-ACCELERATED
+import:         from AS15763 accept AS15763
+export:         to AS15763 announce AS-ACCELERATED
+import:         from AS20773 accept AS20773:AS-HOSTEUROPE
+export:         to AS20773 announce AS-ACCELERATED
+import:         from AS20810 accept AS-NETCOMv6
+export:         to AS20810 announce AS-ACCELERATED
+import:         from AS29140 accept AS-HOSTSERVER
+export:         to AS29140 announce AS-ACCELERATED
+import:         from AS33891 accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-ACCELERATED
+import:         from AS34309 accept AS-LINK11-V6
+export:         to AS34309 announce AS-ACCELERATED
+import:         from AS34695 accept AS34695:AS-TRANSIT
+export:         to AS34695 announce AS-ACCELERATED
+import:         from AS37100 accept AS-SET-SEACOM
+export:         to AS37100 announce AS-ACCELERATED
+import:         from AS39702 accept AS-SIT
+export:         to AS39702 announce AS-ACCELERATED
+import:         from AS41692 accept AS-OPENCARRIER6
+export:         to AS41692 announce AS-ACCELERATED
+import:         from AS42459 accept AS-FOBUL-V6
+export:         to AS42459 announce AS-ACCELERATED
+import:         from AS42473 accept AS-ANEXIA
+export:         to AS42473 announce AS-ACCELERATED
+import:         from AS44053 accept AS-UNILINK
+export:         to AS44053 announce AS-ACCELERATED
+import:         from AS48200 accept AS-OPTEAMAX
+export:         to AS48200 announce AS-ACCELERATED
+import:         from AS49544 accept AS-INTERACTIVE3D
+export:         to AS49544 announce AS-ACCELERATED
+import:         from AS52041 accept AS-CITYLAN-V6
+export:         to AS52041 announce AS-ACCELERATED
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        NOC contact (24/7 operations):
+remarks:        noc(at)accelerated.de or call +49 69 900 180 247
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        We filter announcements listed in RFC3330.
+remarks:        We filter incoming announcements of routes
+remarks:        originating in AS31400.
+remarks:        We do not accept any route more specific than /24.
+remarks:        We preserve to filter incoming communities, metrics
+remarks:        and alike.
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        We are currently available for Public Peering at:
+remarks:
+remarks:        - DE-CIX (Frankfurt/Main, Germany) (IPv4, IPv6)
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        For peering requests send e-mail to
+remarks:        peering(at)accelerated.de
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        Communities tagged on inbound routes:
+remarks:
+remarks:        Community Definition
+remarks:        --------- ----------------------------------------
+remarks:
+remarks:        31400:2000 Route received from any Transit Provider
+remarks:        31400:2010 Route received from GTT (AS3257)
+remarks:        31400:2030 Route received from DTAG (AS3320)
+remarks:        31400:2040 Route received from NTT (AS2914)
+remarks:
+remarks:        31400:2100 Route received from any public peering
+remarks:        31400:2101 Route received from any Route-Server
+remarks:        31400:2110 Route received from DE-CIX
+remarks:        31400:2130 Route received from AMS-IX
+remarks:
+remarks:        31400:2200 Route received from any private peering
+remarks:        31400:2300 Route originated in AS31400
+remarks:        31400:2500 Route originated from an IP-Transit customer
+remarks:        ---------------------------------------------------
+remarks:
+remarks:        ---------------------------------------------------
+remarks:        BGP Community support for transit customers:
+remarks:
+remarks:        Community Action
+remarks:        --------- ----------------------------------------
+remarks:        31400:9999 Blackhole prefix globally
+remarks:        31400:101x Prepend routes to GTT (AS3257)
+remarks:        31400:103x Prepend routes to DTAG (AS3320)
+remarks:        31400:104x Prepend routes to NTT (AS2914)
+remarks:        31400:111x Prepend routes to DE-CIX
+remarks:        31400:113x Prepend routes to AMS-IX
+remarks:
+remarks:        Where x is the number of prepends
+remarks:        (x=1,2,3,4,5 or do NOT announce (x=0)
+remarks:        ---------------------------------------------------
+remarks:
+remarks:
+org:            ORG-AISG3-RIPE
+admin-c:        ACC-RIPE
+tech-c:         ACC-RIPE
+status:         ASSIGNED
+mnt-by:         ACCELERATED-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2004-05-06T09:12:57Z
+last-modified:  2018-09-04T10:02:28Z
+source:         RIPE
+
+organisation:   ORG-AISG3-RIPE
+org-name:       Accelerated IT Services & Consulting GmbH
+org-type:       LIR
+address:        Kruppstr. 105
+address:        60388
+address:        Frankfurt am Main
+address:        GERMANY
+phone:          +49 69 900 180 60
+fax-no:         +49 69 900 180 90
+admin-c:        MT16005-RIPE
+admin-c:        OK765-RIPE
+admin-c:        NKA-RIPE
+abuse-c:        ACC-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ACCELERATED-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ACCELERATED-MNT
+created:        2007-07-27T14:25:55Z
+last-modified:  2019-01-25T10:41:48Z
+source:         RIPE # Filtered
+
+role:           Accelerated NOC
+address:        Accelerated IT Services GmbH
+address:        -Network Operation Center-
+address:        Kruppstr. 105
+address:        D-60388 Frankfurt am Main
+address:        Germany
+phone:          +49 (0) 69 900 180 0
+fax-no:         +49 (0) 69 900 180 90
+abuse-mailbox:  abuse@accelerated.de
+remarks:        ********************************************
+remarks:        * more information on www.accelerated.de *
+remarks:        ********************************************
+admin-c:        NKA-RIPE
+admin-c:        OK765-RIPE
+tech-c:         NKA-RIPE
+nic-hdl:        ACC-RIPE
+mnt-by:         ACCELERATED-MNT
+created:        2009-06-06T09:43:43Z
+last-modified:  2016-04-05T22:57:42Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

@@ -1,0 +1,98 @@
+aut-num:    AS9658
+as-name:    ETPI
+descr:      Eastern Telecom Phils., Inc
+import:     from AS4775
+            accept AS4775 AND NOT {0.0.0.0/0}
+import:     from AS9670
+            accept ANY AND NOT {0.0.0.0/0}
+import:     from AS1026
+            accept ANY AND NOT {0.0.0.0/0}
+import:     from AS-ETPI
+            action pref=100;
+            accept AS-ETPI
+import:     from AS4766
+            accept ANY AND NOT {0.0.0.0/0}
+import:     from AS9299
+            action pref=80;
+            accept AS9299 AND NOT {0.0.0.0/0}
+import:     from AS7018
+            accept ANY AND NOT {0.0.0.0/0}
+import:     from AS4637
+            accept ANY AND NOT {0.0.0.0/0}
+export:     to AS4637
+            announce AS-ETPI
+export:     to AS24071
+            announce ANY
+export:     to AS24511
+            announce ANY
+export:     to AS17921
+            announce ANY
+export:     to AS37980
+            announce ANY
+export:     to AS10026
+            announce AS-ETPI
+export:     to AS38262
+            announce ANY
+export:     to AS7018
+            announce AS-ETPI
+export:     to AS38262
+            announce ANY
+export:     to AS38334
+            announce ANY
+export:     to AS23732
+            announce ANY
+export:     to AS15084
+            announce ANY
+export:     to AS4766
+            announce AS-ETPI
+export:     to AS9299
+            announce AS9658
+export:     to AS38657
+            announce ANY
+export:     to AS9670
+            announce AS-ETPI
+export:     to AS4766
+            announce AS-ETPI
+export:     to AS24322
+            announce ANY
+export:     to AS9425
+            announce ANY
+export:     to AS38180
+            announce ANY
+export:     to AS7306
+            announce ANY
+export:     to AS38279
+            announce ANY
+export:     to AS24456
+            announce ANY
+export:     to AS24079
+            announce ANY
+export:     to AS38467
+            announce ANY
+export:     to AS38291
+            announce ANY
+export:     to AS17433
+            announce ANY
+export:     to AS18005
+            announce ANY
+export:     to AS38291
+            announce ANY
+export:     to AS34529
+            announce ANY
+export:     to AS3356
+            announce ANY
+admin-c:    Ramon Cerezo
+tech-c:     Randolfo Vidal
+tech-c:     Maria Leah Villalobos
+remarks:    to major peerings:
+remarks:    ETPI BGP customers to affect announcements
+remarks:    9658:1002 prepend twice to ALL upstreams
+remarks:    9658:1003 prepend thrice to ALL upstreams
+remarks:    9658:1000 do NOT announce to ALL upstreams
+remarks:    9658:1001 prepend once to ALL upstreams
+remarks:    The following BGP communities can be set by
+remarks:    All peering requests to ipnetworks@etpi.com.ph
+notify:     cerezor@etpi.com.ph
+mnt-by:     MAINT-AS9658
+changed:    cerezor@etpi.com.ph 20110321  #16:51:57Z
+source:     RADB

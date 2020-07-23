@@ -1,0 +1,86 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS9026
+as-name:       ULI-MAIN
+descr:         ULI
+descr:         Utility Line Italia S.r.l.
+descr:         Via Mezzera 29/A
+descr:         I-20030 Seveso (MI)
+descr:         ITALY
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS5602 accept ANY
+import:        from AS49605 accept ANY
+import:        from AS206588 accept AS-ULI
+import:        from AS-ANY accept ANY
+export:        to AS5602 announce AS-ULI
+export:        to AS49605 announce AS-ULI
+export:        to AS206588 announce ANY
+export:        to AS-ANY announce AS-ULI
+remarks:       
+remarks:       --------------- UPSTREAMS/CUSTOMERS --------------
+remarks:       
+remarks:       
+remarks:       -------------- COMMUNITIES IN USE ----------------
+remarks:       
+remarks:       == Route Tags ==
+remarks:       9026:0000 Routes announced by 9026
+remarks:       9026:0001 ULI routes announced by 9026
+remarks:       9026:0002 Customer routes announced by 9026
+remarks:       
+remarks:       9026:1000 Route Learned from transit peers
+remarks:       9026:1001 Route Learned from AS5602 (KPN Italia)
+remarks:       9026:1004 Route Learned from AS49605 (DTS)
+remarks:       
+remarks:       9026:2000 Route Learned from IT-MIX peers
+remarks:       9026:2XXX Route Learned from IT-MIX member XXX
+remarks:       
+remarks:       9026:3000 Customer routes
+remarks:       9026:3001 Customer routes from AS206588
+remarks:       
+remarks:       == Internal Announcement Control ==
+remarks:       9026:5000 Announce to Peerings
+remarks:       9026:5001 Announce to Transits
+remarks:       
+remarks:       == Announcement Control for customers ==
+remarks:       9026:10001 Set Local-Preference to 50
+remarks:       9026:10002 Set Local-Preference to 150
+remarks:       9026:10003 Set Local-Preference to 200
+remarks:       9026:10004 Set Local-Preference to 250
+remarks:       
+remarks:       9026:10010 Do not announce to MIX
+remarks:       9026:10011 1 prepend announcing to MIX
+remarks:       9026:10012 2 prepends announcing to MIX
+remarks:       9026:10013 3 prepends announcing to MIX
+remarks:       9026:10014 4 prepends announcing to MIX
+remarks:       9026:10019 Set no-export announcing to MIX
+remarks:       
+remarks:       9026:10020 Do not announce to AS5602
+remarks:       9026:10021 1 prepend announcing to AS5602
+remarks:       9026:10022 2 prepends announcing to AS5602
+remarks:       9026:10023 3 prepends announcing to AS5602
+remarks:       9026:10024 4 prepends announcing to AS5602
+remarks:       9026:10029 Set no-export announcing to AS5602
+remarks:       
+remarks:       9026:10070 Do not announce to AS49605
+remarks:       9026:10071 1 prepend announcing to AS49605
+remarks:       9026:10072 2 prepends announcing to AS49605
+remarks:       9026:10073 3 prepends announcing to AS49605
+remarks:       9026:10074 4 prepends announcing to AS49605
+remarks:       9026:10079 Set no-export announcing to AS49605
+remarks:       
+remarks:       -----------------------------------------------------
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        ULI-NOC
+source:        RIPE
+
+

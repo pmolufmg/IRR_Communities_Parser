@@ -1,0 +1,200 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS34655'
+
+% Abuse contact for 'AS34655' is 'abuse@duodecadits.com'
+
+aut-num:        AS34655
+as-name:        DOCLER-AS
+remarks:        ---------------------------------------------------------------------
+remarks:        --=> IP Transit Uplinks <=--
+remarks:        ---------------------------------------------------------------------
+import:         from AS1299 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS1299 announce AS-DDITS
+import:         from AS2914 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS2914 announce AS-DDITS
+import:         from AS3549 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS3549 announce AS-DDITS
+import:         from AS3356 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS3356 announce AS-DDITS
+import:         from AS6453 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS6453 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS2914 accept ANY
+mp-export:      afi ipv6.unicast to AS2914 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS3549 accept ANY
+mp-export:      afi ipv6.unicast to AS3549 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS6453 accept ANY
+mp-export:      afi ipv6.unicast to AS6453 announce AS-DDITS
+remarks:        ---------------------------------------------------------------------
+remarks:        --=> Private Peerings <=--
+remarks:        ---------------------------------------------------------------------
+import:         from AS3320 action pref=110; accept AS3320:AS-DTAG
+export:         to AS3320 announce AS-DDITS
+import:         from AS7922 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS7922 announce AS-DDITS
+import:         from AS5511 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS5511 announce AS-DDITS
+import:         from AS4637 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS4637 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS7922 accept ANY
+mp-export:      afi ipv6.unicast to AS7922 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS5511 accept ANY
+mp-export:      afi ipv6.unicast to AS5511 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS4637 accept ANY
+mp-export:      afi ipv6.unicast to AS4637 announce AS-DDITS
+remarks:        ---------------------------------------------------------------------
+remarks:        --=> IP Transit Customers <=--
+remarks:        ---------------------------------------------------------------------
+import:         from AS50144 action pref=120; accept AS50144
+export:         to AS50144 announce ANY
+mp-import:      afi ipv6.unicast from AS50144 accept AS50144
+mp-export:      afi ipv6.unicast to AS50144 announce ANY
+remarks:        ---------------------------------------------------------------------
+remarks:        --=> Public Peerings - More info: http://as34655.peeringdb.com <=--
+remarks:        ---------------------------------------------------------------------
+import:         from AS-DDITS:AS-PEERS action pref=110; accept ANY AND NOT {0.0.0.0/0}
+export:         to AS-DDITS:AS-PEERS announce AS-DDITS
+export:         to AS5507 announce AS-DDITS
+mp-import:      afi ipv6.unicast from AS-DDITS:AS-PEERS accept ANY
+mp-export:      afi ipv6.unicast to AS-DDITS:AS-PEERS announce AS-DDITS
+mp-export:      afi ipv6.unicast to AS5507 announce AS-DDITS
+remarks:        ---------------------------------------------------------------------
+remarks:        --=> BGP communities <=--
+remarks:        ---------------------------------------------------------------------
+remarks:        community route origin type
+remarks:        --------- ------------------------------------------
+remarks:        34655:1 Customer route
+remarks:        34655:2 Peer route
+remarks:        34655:3 Transit route
+remarks:        community customer options
+remarks:        --------- ------------------------------------------
+remarks:        34655:200 Do not advertise to peers
+remarks:        34655:201 Prepend 1x to peers
+remarks:        34655:202 Prepend 2x to peers
+remarks:        34655:300 Do not advertise to transits
+remarks:        34655:301 Prepend 1x to transits
+remarks:        34655:302 Prepend 2x to transits
+remarks:        community internet exchange point name
+remarks:        --------- ------------------------------------------
+remarks:        34655:2000 Private peer
+remarks:        34655:2002 DE-CIX
+remarks:        34655:2003 AMS-IX
+remarks:        34655:2005 LINX
+remarks:        34655:2007 France-IX
+remarks:        34655:2008 Equinix IX Paris
+remarks:        34655:2009 LU-CIX
+remarks:        34655:2101 Any2 LAX SJC
+remarks:        34655:2102 NYIIX NYC
+remarks:        community city/pop name
+remarks:        --------- -------------------------------------------
+remarks:        34655:4010 FRA Ancotel Frankfurt am Main
+remarks:        34655:4020 AMS Telecity2 SE Amsterdam
+remarks:        34655:4030 LON Telehouse East London
+remarks:        34655:4050 PAR Equinix PAR3 Paris
+remarks:        34655:4060 LUX LuxConnect Bettembourg
+remarks:        34655:4200 LAX One Wilshire Los Angeles
+remarks:        34655:4201 NYC Digital Realty New York
+remarks:        34655:4400 SIN Equinix SG3 Singapore
+remarks:        community country name
+remarks:        --------- -------------------------------------------
+remarks:        34655:401 Germany
+remarks:        34655:402 Netherlands
+remarks:        34655:403 United Kingdom
+remarks:        34655:405 France
+remarks:        34655:406 Luxembourg
+remarks:        34655:420 United States of America
+remarks:        34655:440 Singapore
+remarks:        community regional name
+remarks:        --------- ------------------------------------------
+remarks:        34655:40 Europe
+remarks:        34655:42 North America
+remarks:        34655:44 Asia Pacific
+remarks:        ---------------------------------------------------------------------
+remarks:        - Duodecad IT Services have an open peering policy, -
+remarks:        - but we don't accept prefixes longer than /24. -
+remarks:        - We advertise different prefixes in Europe and North America -
+remarks:        - Looking Glass / SpeedTest / Atlas URL: http://as34655.net -
+remarks:        - For peering request send an e-mail to: peering@duodecadits.com -
+remarks:        ---------------------------------------------------------------------
+org:            ORG-DISL4-RIPE
+admin-c:        DDIT-RIPE
+tech-c:         DDIT-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DDITS-MNT
+created:        2014-04-07T12:47:42Z
+last-modified:  2019-01-17T07:15:55Z
+source:         RIPE
+
+organisation:   ORG-DISL4-RIPE
+org-name:       DuoDecad IT Services Luxembourg S.a r.l.
+org-type:       LIR
+address:        44 Avenue John F. Kennedy
+address:        1855
+address:        Luxembourg
+address:        LUXEMBOURG
+phone:          +3522611181
+fax-no:         +35227397115
+admin-c:        TAMA5-RIPE
+admin-c:        DDIT-RIPE
+admin-c:        KZS5-RIPE
+tech-c:         DDIT-RIPE
+abuse-c:        DDIT-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DDITS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DDITS-MNT
+created:        2012-12-11T09:25:39Z
+last-modified:  2017-05-10T12:22:46Z
+source:         RIPE # Filtered
+
+role:           Duodecad IT Services NOC
+address:        Duodecad IT Services Luxembourg
+address:        44 Avenue John F. Kennedy
+address:        L-1855 Luxembourg (Kirchberg)
+address:        Luxembourg
+phone:          +352 26111840
+fax-no:         +352 27397115
+admin-c:        KZS5-RIPE
+tech-c:         TAMA5-RIPE
+nic-hdl:        DDIT-RIPE
+mnt-by:         DDITS-MNT
+abuse-mailbox:  abuse@duodecadits.com
+remarks:        ---------------------------------------------
+remarks:        Please send all abuse and spam complaints to:
+remarks:        abuse@duodecadits.com
+remarks:        ---------------------------------------------
+created:        2012-12-11T11:54:06Z
+last-modified:  2017-05-10T12:20:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

@@ -1,0 +1,91 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS25376
+as-name:       NETNORTH-ASN
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+remarks:       +------------------+----------------------------------+---------+
+remarks:       | Netnorth Limited |    http://www.netnorth.co.uk/    | AS25376 |
+remarks:       +------------------+----------------------------------+---------+
+remarks:       | Netnorth Limited (AS25376) operates an 'open peering' policy. |
+remarks:       |                                                               |
+remarks:       | Peering requests:                      support@netnorth.co.uk |
+remarks:       | Abuse complaints:                        abuse@netnorth.co.uk |
+remarks:       +---------------------------------------------------------------+
+remarks:       |     We are members of IXmanchester - http://www.linx.net/     |
+remarks:       |             We also peer at LINX Juniper/Extreme              |
+remarks:       +---------------------------------------------------------------+
+remarks:       | We accept private peering in the following locations:         |
+remarks:       |   Telecity Manchester                  Unit 5, Williams House |
+remarks:       |   LDeX2 Manchester                     LDeX1 London           |
+remarks:       +---------------------------------------------------------------+
+remarks:       
+remarks:       +++++++++++++++++++++
+remarks:       | TRANSIT Providers |
+remarks:       +++++++++++++++++++++
+remarks:       
+remarks:       # AS174: Cogent Communications
+remarks:       
+remarks:       # AS3257: GTT
+remarks:       
+remarks:       # AS3356: Level3 Communications
+remarks:       
+remarks:       +++++++++++++++++++++++++++++++++++++++
+remarks:       | Public peering: IXmanchester (LINX) |
+remarks:       +++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       ++++++++++++++++++++++++++++++++++++++
+remarks:       | Public peering: LINX - Juniper LAN |
+remarks:       ++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       ++++++++++++++++++++++++++++++++++++++
+remarks:       | Public peering: LINX - Extreme LAN |
+remarks:       ++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       +++++++++++++
+remarks:       | Customers |
+remarks:       +++++++++++++
+remarks:       # AS57672: Daniel Austin MBCS
+remarks:       
+remarks:       +++++++++++++++++++
+remarks:       | BGP Communities |
+remarks:       +++++++++++++++++++
+remarks:       
+remarks:       25376:65000        Route is a Transit route
+remarks:       25376:65010        Route is a Public Peering route
+remarks:       25376:65012        Route received via IXmanchester
+remarks:       25376:65014        Route received via LINX Juniper
+remarks:       25376:65016        Route received via LINX Extreme
+remarks:       25376:65020        Route is a Private Peering route
+remarks:       25376:65099        Route is a customer route
+remarks:       
+remarks:       25376:174          Route received via Cogent Communications
+remarks:       25376:3257         Route received via GTT
+remarks:       25376:3356         Route received via Level3 Communications
+remarks:       
+remarks:       # The following can be set by downstreams to affect egress
+remarks:       
+remarks:       25376:64999        Blackhole/null-route IP/IP block
+remarks:       25376:65100        Do not announce to Transit Providers
+remarks:       25376:65101        Do not announce to Cogent Communications
+remarks:       25376:65102        Do not announce to Level3 Communications
+remarks:       25376:65103        Do not announce to GTT
+remarks:       25376:65110        Do not announce to Public Peers
+remarks:       25376:65112        Do not announce to IXmanchester
+remarks:       25376:65114        Do not announce to LINX Juniper
+remarks:       25376:65116        Do not announce to LINX Extreme
+remarks:       25376:65120        Do not announce to Private Peers
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        NETNORTH-MNT
+source:        RIPE
+
+

@@ -1,0 +1,1616 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS2057 - AS2136'
+
+as-block:       AS2057 - AS2136
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:16Z
+last-modified:  2018-11-22T15:27:16Z
+source:         RIPE
+
+% Information related to 'AS2119'
+
+% Abuse contact for 'AS2119' is 'abuse@telenor.net'
+
+aut-num:        AS2119
+as-name:        TELENOR-NEXTEL
+descr:          Telenor Norge AS
+descr:          T.net
+descr:          Telenor Nordic Fixed
+descr:          (former Telenor Networks, Telenor Business Solutions,
+descr:          Nextra, Telenor Nextel)
+import:         from AS42 action pref=100; accept AS-PCH
+import:         from AS224 action pref=100; accept AS-UNINETT
+import:         from AS286 action pref=100; accept AS-KPN
+import:         from AS553 action pref=100; accept AS-BELWUE
+import:         from AS559 action pref=100; accept AS-SWITCH
+import:         from AS680 action pref=100; accept AS-DFNTOWINISP
+import:         from AS702 action pref=100; accept AS702
+import:         from AS714 action pref=100; accept AS-APPLE
+import:         from AS786 action pref=100; accept AS-JANETPLUS
+import:         from AS1103 action pref=100; accept AS-SURFNET
+import:         from AS1126 action pref=100; accept RS-SARA-COM-ROUTESET
+import:         from AS1136 action pref=100; accept AS-KPN
+import:         from AS1140 action pref=100; accept AS-1140
+import:         from AS1200 action pref=100; accept AS1200
+import:         from AS1241 action pref=100; accept AS1241
+import:         from AS1257 action pref=100; accept AS-TELE2
+import:         from AS1267 action pref=100; accept AS1267
+import:         from AS1299 action pref=100; accept ANY
+import:         from AS1547 action pref=100; accept AS-IDK
+import:         from AS1653 action pref=100; accept AS-SUNET
+import:         from AS1764 action pref=100; accept AS-NEXTLAYER
+import:         from AS1836 action pref=100; accept AS-GREEN
+import:         from AS1880 action pref=100; accept AS1880
+import:         from AS2116 action pref=100; accept AS-CATCHCOM
+import:         from AS2484 action pref=100; accept AS-AFNIC
+import:         from AS2497 action pref=100; accept AS-IIJ
+import:         from AS2516 action pref=100; accept AS2516
+import:         from AS2529 action pref=100; accept AS-DEMON
+import:         from AS2603 action pref=100; accept AS-NORDUNET
+import:         from AS2611 action pref=100; accept AS-BELNET
+import:         from AS2635 action pref=100; accept AS-AUTOMATTIC
+import:         from AS2686 action pref=100; accept AS2686
+import:         from AS2818 action pref=100; accept AS-BBC
+import:         from AS2828 action pref=100; accept AS2828
+import:         from AS2852 action pref=100; accept AS-CESNET
+import:         from AS2856 action pref=100; accept AS-BTGB
+import:         from AS2860 action pref=100; accept AS-NOVIS
+import:         from AS3209 action pref=100; accept AS-ARCORGLOBAL
+import:         from AS3213 action pref=100; accept AS-BOGONS
+import:         from AS3216 action pref=100; accept AS-SOVAM
+import:         from AS3223 action pref=100; accept AS-VOXILITY-SET
+import:         from AS3238 action pref=100; accept AS3238
+import:         from AS3262 action pref=100; accept AS-SARENET
+import:         from AS3265 action pref=100; accept AS-ACCESSFORALL
+import:         from AS3267 action pref=100; accept AS-RUNNET
+import:         from AS3292 action pref=100; accept AS-TDCNET
+import:         from AS3301 action pref=100; accept AS-TELIANETSE
+import:         from AS3303 action pref=100; accept AS-SWCMGLOBAL
+import:         from AS3326 action pref=100; accept AS3326
+import:         from AS3327 action pref=100; accept AS-CITICTEL-CPC
+import:         from AS3333 action pref=100; accept AS-RIPENCC
+import:         from AS3356 action pref=100; accept ANY
+import:         from AS3491 action pref=100; accept AS3491
+import:         from AS3741 action pref=100; accept AS-IS
+import:         from AS3856 action pref=100; accept AS-PCH
+import:         from AS3910 action pref=100; accept AS3910
+import:         from AS4004 action pref=100; accept AS-OBS-UK
+import:         from AS4134 action pref=100; accept AS4134
+import:         from AS4637 action pref=100; accept AS4637
+import:         from AS4651 action pref=100; accept AS-THIX
+import:         from AS4657 action pref=100; accept AS-STARHUBINTERNET
+import:         from AS4766 action pref=100; accept AS-KORNETBGP
+import:         from AS4788 action pref=100; accept AS4788
+import:         from AS4800 action pref=100; accept AS-LINTASARTA-NAP
+import:         from AS4837 action pref=100; accept AS4837
+import:         from AS5378 action pref=100; accept AS5378
+import:         from AS5390 action pref=100; accept AS-EURONETNL
+import:         from AS5394 action pref=100; accept AS5394
+import:         from AS5400 action pref=100; accept AS-BT-EU
+import:         from AS5410 action pref=100; accept AS-BOUYGTEL-ISP
+import:         from AS5413 action pref=100; accept AS5413
+import:         from AS5430 action pref=100; accept AS-FREENETDE
+import:         from AS5459 action pref=100; accept AS-LINX
+import:         from AS5466 action pref=100; accept AS-EIRCOM
+import:         from AS5483 action pref=100; accept AS5483
+import:         from AS5503 action pref=100; accept AS-RMIFL
+import:         from AS5524 action pref=100; accept AS-BREEDBANDNEDERLAND
+import:         from AS5539 action pref=100; accept AS-SPACENET
+import:         from AS5564 action pref=100; accept AS-SOL
+import:         from AS5568 action pref=100; accept AS-RBNET
+import:         from AS5583 action pref=100; accept AS-OBS-BENELUX
+import:         from AS5588 action pref=100; accept AS-GTS-CE
+import:         from AS5603 action pref=100; accept AS-SIOL
+import:         from AS5605 action pref=100; accept AS-NETUSE
+import:         from AS5607 action pref=100; accept AS-BSKYB-BROADBAND
+import:         from AS5619 action pref=100; accept AS5619
+import:         from AS6067 action pref=100; accept AS-ONYX
+import:         from AS6453 action pref=100; accept AS-GLOBEINTERNET
+import:         from AS6461 action pref=100; accept AS-MFNX
+import:         from AS6507 action pref=100; accept AS6507
+import:         from AS6659 action pref=100; accept AS-NEXINTO
+import:         from AS6661 action pref=100; accept AS-PLTU
+import:         from AS6663 action pref=100; accept AS-STARNETSRO
+import:         from AS6667 action pref=100; accept AS-EUNETIP
+import:         from AS6677 action pref=100; accept AS-ICENET
+import:         from AS6724 action pref=100; accept AS-STRATORZ
+import:         from AS6730 action pref=100; accept AS-GLOBAL
+import:         from AS6735 action pref=100; accept AS-SDTAMSIX
+import:         from AS6774 action pref=100; accept AS6774
+import:         from AS6805 action pref=100; accept AS-TDDE
+import:         from AS6830 action pref=100; accept AS-AORTA
+import:         from AS6866 action pref=100; accept AS-CYTANET
+import:         from AS6894 action pref=100; accept AS-KDDIEU
+import:         from AS6900 action pref=100; accept AS6900
+import:         from AS6908 action pref=100; accept AS-DATAHOP
+import:         from AS6910 action pref=100; accept AS-DIALTELECOMRO
+import:         from AS6939 action pref=100; accept AS-HURRICANE
+import:         from AS7342 action pref=100; accept AS-GTLD
+import:         from AS7363 action pref=100; accept AS-YOMURA
+import:         from AS7385 action pref=100; accept AS-INTEGRA
+import:         from AS7473 action pref=100; accept AS7473
+import:         from AS7642 action pref=100; accept AS7642
+import:         from AS7713 action pref=100; accept AS7713
+import:         from AS8075 action pref=100; accept AS-MICROSOFT
+import:         from AS8190 action pref=100; accept AS-MDNX
+import:         from AS8218 action pref=100; accept AS-NEOT
+import:         from AS8220 action pref=100; accept AS-COLT
+import:         from AS8262 action pref=100; accept AS-EVOLINK
+import:         from AS8283 action pref=100; accept AS-COLOCLUE
+import:         from AS8301 action pref=100; accept AS8301
+import:         from AS8304 action pref=100; accept AS-ECRITEL
+import:         from AS8309 action pref=100; accept AS-SIPARTECH
+import:         from AS8315 action pref=100; accept AS8315
+import:         from AS8359 action pref=100; accept AS-MTU
+import:         from AS8365 action pref=100; accept AS-MANDA
+import:         from AS8368 action pref=100; accept AS-BENESOL
+import:         from AS8391 action pref=100; accept AS-IRONDNS
+import:         from AS8400 action pref=100; accept AS-TELEKOM
+import:         from AS8403 action pref=100; accept AS-SPOTIFY
+import:         from AS8422 action pref=100; accept AS-NETCOLOGNE
+import:         from AS8426 action pref=100; accept AS-CLARANET
+import:         from AS8447 action pref=100; accept AS-PTA
+import:         from AS8452 action pref=100; accept AS8452
+import:         from AS8455 action pref=100; accept AS-ATOM86
+import:         from AS8468 action pref=100; accept AS-ENTANET
+import:         from AS8473 action pref=100; accept AS-BAHNHOF
+import:         from AS8529 action pref=100; accept AS8529
+import:         from AS8551 action pref=100; accept AS-BEZEQINT
+import:         from AS8553 action pref=100; accept AS-AVENSYS
+import:         from AS8560 action pref=100; accept AS-1AND1
+import:         from AS8587 action pref=100; accept AS-INFRACOMNL
+import:         from AS8591 action pref=100; accept AS-A1SI
+import:         from AS8607 action pref=100; accept AS-TIMICO
+import:         from AS8608 action pref=100; accept AS-QINIP
+import:         from AS8632 action pref=100; accept AS8632
+import:         from AS8657 action pref=100; accept AS-CPRM
+import:         from AS8674 action pref=100; accept AS-NETNOD
+import:         from AS8681 action pref=100; accept AS-JERSEYTELECOM
+import:         from AS8683 action pref=100; accept AS-NOMINET
+import:         from AS8708 action pref=100; accept AS-RDSNET
+import:         from AS8717 action pref=100; accept AS-SPNET
+import:         from AS8728 action pref=100; accept AS-INFONETDC
+import:         from AS8732 action pref=100; accept AS-COMCOR
+import:         from AS8758 action pref=100; accept AS-IWAYCH
+import:         from AS8764 action pref=100; accept AS-LTELECOM
+import:         from AS8767 action pref=100; accept AS-MNETDE
+import:         from AS8781 action pref=100; accept AS-QTEL-SET
+import:         from AS8821 action pref=100; accept AS-TELEZUG
+import:         from AS8851 action pref=100; accept AS-GCICOM
+import:         from AS8866 action pref=100; accept AS-BTC-UP
+import:         from AS8881 action pref=100; accept AS-VT-TRANSIT
+import:         from AS8896 action pref=100; accept AS-XFIBER
+import:         from AS8897 action pref=100; accept AS-KCOMSPN
+import:         from AS8902 action pref=100; accept AS8902
+import:         from AS8943 action pref=100; accept AS-JUMP
+import:         from AS8966 action pref=100; accept AS-EMIX
+import:         from AS9002 action pref=100; accept AS-RETN
+import:         from AS9009 action pref=100; accept AS-GBXS6
+import:         from AS9031 action pref=100; accept AS-EDPNET
+import:         from AS9044 action pref=100; accept AS-SOLNET
+import:         from AS9050 action pref=100; accept AS-RTD
+import:         from AS9116 action pref=100; accept AS-GOLDEN
+import:         from AS9119 action pref=100; accept AS-SOFTNET
+import:         from AS9145 action pref=100; accept AS-EWETEL
+import:         from AS9150 action pref=100; accept AS-INTERCONNECT
+import:         from AS9153 action pref=100; accept AS-BURSTFIRE
+import:         from AS9158 action pref=100; accept AS-TELENOR-DENMARK
+import:         from AS9201 action pref=100; accept AS-SWAF
+import:         from AS9269 action pref=100; accept AS9269
+import:         from AS9304 action pref=100; accept AS9304
+import:         from AS9318 action pref=100; accept AS9318
+import:         from AS9498 action pref=100; accept AS9498
+import:         from AS10026 action pref=100; accept AS-PACNET
+import:         from AS10310 action pref=100; accept AS-YAHOO
+import:         from AS10474 action pref=100; accept AS10474
+import:         from AS11666 action pref=100; accept AS-NEXICOM
+import:         from AS12189 action pref=100; accept AS-PHOENIXNAP
+import:         from AS12301 action pref=100; accept AS12301
+import:         from AS12306 action pref=100; accept AS-PLUSLINE
+import:         from AS12312 action pref=100; accept AS-ECOTEL
+import:         from AS12322 action pref=100; accept AS-PROXAD
+import:         from AS12350 action pref=100; accept AS-VTX
+import:         from AS12355 action pref=100; accept AS-HELINET-V4
+import:         from AS12389 action pref=100; accept AS-ROSTELECOM
+import:         from AS12390 action pref=100; accept AS-KINGSTONUK
+import:         from AS12399 action pref=100; accept AS-SPXS
+import:         from AS12414 action pref=100; accept AS-SOLCON6
+import:         from AS12496 action pref=100; accept AS-IDNET
+import:         from AS12552 action pref=100; accept AS-IPO
+import:         from AS12576 action pref=100; accept AS12576
+import:         from AS12578 action pref=100; accept AS-LATTELEKOM
+import:         from AS12597 action pref=100; accept AS-GOTANET
+import:         from AS12625 action pref=100; accept AS-DBG
+import:         from AS12676 action pref=100; accept AS-NCORE
+import:         from AS12678 action pref=100; accept AS-BADOO
+import:         from AS12703 action pref=100; accept AS-LUMISON
+import:         from AS12713 action pref=100; accept AS-OTEGLOBE
+import:         from AS12714 action pref=100; accept AS-TI
+import:         from AS12731 action pref=100; accept AS-IPHH
+import:         from AS12741 action pref=100; accept AS-NETIA
+import:         from AS12759 action pref=100; accept AS-SOCO
+import:         from AS12779 action pref=100; accept AS12779
+import:         from AS12859 action pref=100; accept AS-BIT6
+import:         from AS12871 action pref=100; accept AS-CONCEPTS
+import:         from AS12874 action pref=100; accept AS-FASTWEB-GLOBAL
+import:         from AS12876 action pref=100; accept AS12876
+import:         from AS12902 action pref=100; accept AS-LUNA
+import:         from AS12941 action pref=100; accept AS-INTERSAAR
+import:         from AS12956 action pref=100; accept AS-TDATANET
+import:         from AS12989 action pref=100; accept AS-HIGHWINDS
+import:         from AS13005 action pref=100; accept AS-C2INTERNET
+import:         from AS13009 action pref=100; accept AS-REDCENTRIC
+import:         from AS13030 action pref=100; accept AS-INIT7
+import:         from AS13037 action pref=100; accept AS-ZEN
+import:         from AS13101 action pref=100; accept AS-TNG
+import:         from AS13122 action pref=100; accept AS-MANX
+import:         from AS13124 action pref=100; accept AS-IBGC
+import:         from AS13157 action pref=100; accept AS-GOPAS
+import:         from AS13189 action pref=100; accept AS-LIDERO
+import:         from AS13194 action pref=100; accept AS-BITE
+import:         from AS13213 action pref=100; accept AS-UK2NET
+import:         from AS13237 action pref=100; accept AS-LAMBDANET
+import:         from AS13238 action pref=100; accept AS-YANDEX
+import:         from AS13243 action pref=100; accept AS-COMACE
+import:         from AS13285 action pref=100; accept AS-OPAL
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+import:         from AS13414 action pref=100; accept AS-TWITTER
+import:         from AS13445 action pref=100; accept AS-WEBEX
+import:         from AS13768 action pref=100; accept AS-CUSTOMERS
+import:         from AS14061 action pref=100; accept AS14061
+import:         from AS14340 action pref=100; accept AS-SALESFORCE
+import:         from AS14413 action pref=100; accept AS-LINKEDIN
+import:         from AS14537 action pref=100; accept AS-MOHAWK-TRANSIT
+import:         from AS14907 action pref=100; accept AS-WIKIMEDIA
+import:         from AS15133 action pref=100; accept AS-EDGECAST
+import:         from AS15169 action pref=100; accept AS-GOOGLE
+import:         from AS15366 action pref=100; accept AS-DNSNET
+import:         from AS15412 action pref=100; accept AS-FLAGP
+import:         from AS15426 action pref=100; accept AS-XENOSITE
+import:         from AS15435 action pref=100; accept AS-KABELFOON
+import:         from AS15447 action pref=100; accept AS15447
+import:         from AS15516 action pref=100; accept AS-DK-DANSKKABELTV
+import:         from AS15542 action pref=100; accept AS-ZEELANDNET
+import:         from AS15557 action pref=100; accept AS-LDCOMNET
+import:         from AS15576 action pref=100; accept AS-NTS
+import:         from AS15600 action pref=100; accept AS-FINECOM
+import:         from AS15659 action pref=100; accept AS-NEXTGENTEL
+import:         from AS15695 action pref=100; accept AS-EXPEREO
+import:         from AS15703 action pref=100; accept AS-TRUE
+import:         from AS15772 action pref=100; accept AS-WNET
+import:         from AS15773 action pref=100; accept AS-INCLARITY
+import:         from AS15830 action pref=100; accept AS-TELECITYGROUP
+import:         from AS15879 action pref=100; accept AS-KPNIS
+import:         from AS15943 action pref=100; accept AS-WTNET
+import:         from AS15958 action pref=100; accept AS-TELENORDOO
+import:         from AS16082 action pref=100; accept AS-SPITFIRE
+import:         from AS16086 action pref=100; accept AS-CUST
+import:         from AS16175 action pref=100; accept AS-SIGNAL
+import:         from AS16253 action pref=100; accept AS-BORDERLIGHT
+import:         from AS16265 action pref=100; accept AS-LEASEWEB
+import:         from AS16276 action pref=100; accept AS-OVH
+import:         from AS16298 action pref=100; accept AS-INTERBOX
+import:         from AS16302 action pref=100; accept AS-SUOMICOM
+import:         from AS16353 action pref=100; accept AS-MERULA
+import:         from AS16509 action pref=100; accept AS-AMAZON
+import:         from AS17451 action pref=100; accept AS17451
+import:         from AS17511 action pref=100; accept AS-EO
+import:         from AS17557 action pref=100; accept AS-SETPTCL
+import:         from AS17660 action pref=100; accept AS-DRUKNET-TRANSIT
+import:         from AS18106 action pref=100; accept AS18106
+import:         from AS19399 action pref=100; accept AS-SLL
+import:         from AS19551 action pref=100; accept AS-INCAPSULA
+import:         from AS19679 action pref=100; accept AS-DROPBOX
+import:         from AS20080 action pref=100; accept RS-AS20080
+import:         from AS20473 action pref=100; accept AS-CHOOPA
+import:         from AS20485 action pref=100; accept AS-TTK
+import:         from AS20495 action pref=100; accept AS-WEDARE
+import:         from AS20504 action pref=100; accept AS-RTL
+import:         from AS20559 action pref=100; accept AS-FUNDAMENTS
+import:         from AS20562 action pref=100; accept AS-OPENPEERING
+import:         from AS20634 action pref=100; accept AS-LIECOMTEL
+import:         from AS20640 action pref=100; accept AS-TITANNET
+import:         from AS20676 action pref=100; accept AS-QSC
+import:         from AS20764 action pref=100; accept AS-RASCOM
+import:         from AS20766 action pref=100; accept AS-GITOYEN
+import:         from AS20773 action pref=100; accept AS20773
+import:         from AS20799 action pref=100; accept AS-DATANETUK
+import:         from AS20810 action pref=100; accept AS-NETCOM
+import:         from AS20811 action pref=100; accept AS-BCOMIT
+import:         from AS20847 action pref=100; accept AS-PREVIDER
+import:         from AS20857 action pref=100; accept AS-TRANSIP
+import:         from AS20860 action pref=100; accept AS-IOMART
+import:         from AS20932 action pref=100; accept AS-IP-MAN-V6
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+import:         from AS20952 action pref=100; accept AS-VENUSBC
+import:         from AS20953 action pref=100; accept AS-INFO
+import:         from AS20969 action pref=100; accept AS-NOB
+import:         from AS21067 action pref=100; accept AS21067
+import:         from AS21099 action pref=100; accept AS-GAMEGROUP-LIPEX
+import:         from AS21195 action pref=100; accept AS-DGCSYSTEMS
+import:         from AS21221 action pref=100; accept AS-INFOPACT
+import:         from AS21263 action pref=100; accept AS-TELEDATA
+import:         from AS21293 action pref=100; accept AS21293
+import:         from AS21297 action pref=100; accept AS21297
+import:         from AS21320 action pref=100; accept AS-GEANT-EUPEER
+import:         from AS21331 action pref=100; accept AS21331
+import:         from AS21345 action pref=100; accept AS-MESSAGELABSEUROPE
+import:         from AS21371 action pref=100; accept AS-EQUINIX-EU
+import:         from AS21385 action pref=100; accept AS-TNIB
+import:         from AS21396 action pref=100; accept AS-NETCONNEX
+import:         from AS21478 action pref=100; accept AS21478
+import:         from AS21859 action pref=100; accept AS21859
+import:         from AS22697 action pref=100; accept AS-ROBLOX
+import:         from AS22822 action pref=100; accept AS-LLNW
+import:         from AS23106 action pref=100; accept AS-CEMIGTelecom-CLIENTES
+import:         from AS23148 action pref=100; accept AS-TWW
+import:         from AS23393 action pref=100; accept AS-NUCDN
+import:         from AS23576 action pref=100; accept AS23576
+import:         from AS24167 action pref=100; accept AS-ASGC
+import:         from AS24218 action pref=100; accept AS-SET-GTI
+import:         from AS24482 action pref=100; accept AS24482
+import:         from AS24586 action pref=100; accept AS-INTERMAX
+import:         from AS24642 action pref=100; accept AS-CAVEO
+import:         from AS24875 action pref=100; accept AS-IPSERVICES
+import:         from AS24904 action pref=100; accept AS-KVAOO
+import:         from AS24931 action pref=100; accept AS-DEDIPOWER
+import:         from AS24940 action pref=100; accept AS-HETZNER
+import:         from AS24961 action pref=100; accept AS-MYLOC
+import:         from AS24989 action pref=100; accept AS-EQUINIX-DE
+import:         from AS25061 action pref=100; accept AS-ANLX
+import:         from AS25074 action pref=100; accept AS-INETBONE
+import:         from AS25091 action pref=100; accept AS-IP-MAX
+import:         from AS25148 action pref=100; accept AS-BASEFARM
+import:         from AS25151 action pref=100; accept AS-CYSO
+import:         from AS25169 action pref=100; accept AS25169
+import:         from AS25178 action pref=100; accept AS-KEYCOM
+import:         from AS25180 action pref=100; accept AS-EXPONENTIAL-e
+import:         from AS25182 action pref=100; accept AS-PUBLIEKEOMROEP
+import:         from AS25220 action pref=100; accept AS-GLOBALNOC
+import:         from AS25291 action pref=100; accept AS-SYSELEVEN
+import:         from AS25358 action pref=100; accept AS-NOVSO
+import:         from AS25369 action pref=100; accept AS-KILLERCREATION
+import:         from AS25542 action pref=100; accept AS-DENIT
+import:         from AS25577 action pref=100; accept AS-C4L
+import:         from AS25596 action pref=100; accept AS-CAMBRIUM
+import:         from AS25605 action pref=100; accept AS25605
+import:         from AS26415 action pref=100; accept AS26415
+import:         from AS26496 action pref=100; accept AS-GDG
+import:         from AS26667 action pref=100; accept AS-RUBICONPROJECT
+import:         from AS27471 action pref=100; accept AS-27471
+import:         from AS27822 action pref=100; accept AS-EMC
+import:         from AS28716 action pref=100; accept AS-RETELIT
+import:         from AS28725 action pref=100; accept AS-CETIN
+import:         from AS28748 action pref=100; accept AS-ALPHACRON
+import:         from AS28788 action pref=100; accept AS28788
+import:         from AS28795 action pref=100; accept AS28795
+import:         from AS28836 action pref=100; accept AS-ICSNL
+import:         from AS28876 action pref=100; accept AS-SUEC-DACOR
+import:         from AS28917 action pref=100; accept AS-FIORD
+import:         from AS28929 action pref=100; accept AS-ASDASD
+import:         from AS29009 action pref=100; accept AS-UKBB
+import:         from AS29017 action pref=100; accept AS-GYRON
+import:         from AS29073 action pref=100; accept AS-ECATEL
+import:         from AS29075 action pref=100; accept AS-IELO
+import:         from AS29076 action pref=100; accept AS-CITYTELECOM
+import:         from AS29119 action pref=100; accept AS-SERVIHOSTING
+import:         from AS29140 action pref=100; accept AS-HOSTSERVER
+import:         from AS29208 action pref=100; accept AS-DIALTELECOM
+import:         from AS29263 action pref=100; accept AS-HAAGNET
+import:         from AS29314 action pref=100; accept AS-VECTRA
+import:         from AS29396 action pref=100; accept AS-UNET
+import:         from AS29518 action pref=100; accept AS-BREDBAND2
+import:         from AS29527 action pref=100; accept AS-OTHELLOTECH
+import:         from AS29545 action pref=100; accept AS-IPLAC
+import:         from AS29550 action pref=100; accept AS29550
+import:         from AS29632 action pref=100; accept AS-NETASSIST
+import:         from AS29636 action pref=100; accept AS-CATALYST2
+import:         from AS29668 action pref=100; accept AS-QUBE
+import:         from AS29695 action pref=100; accept AS-LYSETELE
+import:         from AS29697 action pref=100; accept AS29697
+import:         from AS29791 action pref=100; accept AS29791
+import:         from AS29838 action pref=100; accept AS-AMC
+import:         from AS30094 action pref=100; accept AS-GIGANEWS-ALL
+import:         from AS30132 action pref=100; accept AS30132
+import:         from AS30736 action pref=100; accept AS-EASYSPEEDY
+import:         from AS30740 action pref=100; accept AS-EXA
+import:         from AS30781 action pref=100; accept AS-JAGUAR
+import:         from AS30827 action pref=100; accept AS-XTRAORDINARY
+import:         from AS30844 action pref=100; accept AS-LIQUID
+import:         from AS30889 action pref=100; accept AS-WAYCOM
+import:         from AS30914 action pref=100; accept AS-IOKO
+import:         from AS30950 action pref=100; accept AS-BKK
+import:         from AS31019 action pref=100; accept AS-MEANIE
+import:         from AS31027 action pref=100; accept AS-NIANET
+import:         from AS31042 action pref=100; accept AS-SBB
+import:         from AS31122 action pref=100; accept AS-DIGIWEB
+import:         from AS31133 action pref=100; accept AS-MF-MGSM
+import:         from AS31216 action pref=100; accept AS-BSOCOM
+import:         from AS31252 action pref=100; accept AS-STARNET
+import:         from AS31270 action pref=100; accept AS-FMN
+import:         from AS31287 action pref=100; accept AS-IPACCT
+import:         from AS31319 action pref=100; accept AS-ESTRACOM
+import:         from AS31334 action pref=100; accept AS-KDG
+import:         from AS31383 action pref=100; accept AS-COMPUTEL
+import:         from AS31477 action pref=100; accept AS-DUOCAST
+import:         from AS31500 action pref=100; accept AS-GLOBAL-NET
+import:         from AS31529 action pref=100; accept AS-DENIC-ANY
+import:         from AS31638 action pref=100; accept AS31638
+import:         from AS31715 action pref=100; accept AS-NETRINO
+import:         from AS32590 action pref=100; accept AS-VALVE
+import:         from AS32787 action pref=100; accept AS-PROLE
+import:         from AS32934 action pref=100; accept AS-FACEBOOK
+import:         from AS33011 action pref=100; accept AS-BOX
+import:         from AS33047 action pref=100; accept AS-INSTART
+import:         from AS33079 action pref=100; accept AS33079
+import:         from AS33081 action pref=100; accept AS33081
+import:         from AS33082 action pref=100; accept AS33082
+import:         from AS33353 action pref=100; accept AS-SONY-CGEI
+import:         from AS33438 action pref=100; accept AS-HIGHWINDS
+import:         from AS33873 action pref=100; accept AS-ARVATO
+import:         from AS33885 action pref=100; accept AS-OWNIT
+import:         from AS33891 action pref=100; accept AS-CORE-BACKBONE
+import:         from AS33915 action pref=100; accept AS-TNF
+import:         from AS34019 action pref=100; accept AS-HIVANE
+import:         from AS34066 action pref=100; accept AS-TELAPPLIANT
+import:         from AS34087 action pref=100; accept AS-NTE
+import:         from AS34106 action pref=100; accept AS-TELEGRAAF
+import:         from AS34141 action pref=100; accept AS-IN2IP
+import:         from AS34177 action pref=100; accept AS-CELESTE
+import:         from AS34224 action pref=100; accept AS-NETERRA-INT
+import:         from AS34244 action pref=100; accept AS-TELESERVICE
+import:         from AS34245 action pref=100; accept AS-MAGNETLOCAL
+import:         from AS34270 action pref=100; accept AS-INETC
+import:         from AS34288 action pref=100; accept AS34288
+import:         from AS34305 action pref=100; accept AS-BASEIP
+import:         from AS34309 action pref=100; accept AS-LINK11
+import:         from AS34442 action pref=100; accept AS-AMATISNETWORKS
+import:         from AS34468 action pref=100; accept AS34468
+import:         from AS34555 action pref=100; accept AS-CCSLEEDS
+import:         from AS34569 action pref=100; accept AS34569
+import:         from AS34610 action pref=100; accept AS-RIKSNET
+import:         from AS34655 action pref=100; accept AS-DOCLER
+import:         from AS34772 action pref=100; accept AS-NEOTEL-SET
+import:         from AS34790 action pref=100; accept AS34790
+import:         from AS34822 action pref=100; accept AS34822
+import:         from AS34968 action pref=100; accept AS-IUNXI
+import:         from AS35028 action pref=100; accept AS-MULTIPLAY
+import:         from AS35132 action pref=100; accept AS-ENIVEST
+import:         from AS35228 action pref=100; accept AS35228
+import:         from AS35297 action pref=100; accept AS-DL-WORLD
+import:         from AS35311 action pref=100; accept AS-PRTELECOM
+import:         from AS35320 action pref=100; accept AS-ETT
+import:         from AS35366 action pref=100; accept AS-ISPPRO
+import:         from AS35425 action pref=100; accept AS-BYTEMARK
+import:         from AS35565 action pref=100; accept AS35565
+import:         from AS35574 action pref=100; accept AS-LOTTOMATICA
+import:         from AS35575 action pref=100; accept AS-VAIONI
+import:         from AS35625 action pref=100; accept AS35625
+import:         from AS35703 action pref=100; accept AS-TV2-NO
+import:         from AS35706 action pref=100; accept AS-NAO
+import:         from AS35745 action pref=100; accept AS-PROVECTOR
+import:         from AS35916 action pref=100; accept AS-35916-TRANSIT
+import:         from AS36131 action pref=100; accept AS36131
+import:         from AS36236 action pref=100; accept AS-HOSTVIRTUAL
+import:         from AS36351 action pref=100; accept AS-SOFTLAYER
+import:         from AS36408 action pref=100; accept AS-PANTHER
+import:         from AS36459 action pref=100; accept AS-GITHUB
+import:         from AS36692 action pref=100; accept AS-OPENDNS
+import:         from AS36891 action pref=100; accept AS36891
+import:         from AS36944 action pref=100; accept AS-TERTIARY
+import:         from AS37100 action pref=100; accept AS37100
+import:         from AS37179 action pref=100; accept AS-AFRICAINX
+import:         from AS37271 action pref=100; accept AS37271
+import:         from AS37282 action pref=100; accept AS-MAINONE
+import:         from AS37468 action pref=100; accept AS-ANGOLACABLES
+import:         from AS37564 action pref=100; accept AS-WIRU
+import:         from AS38001 action pref=100; accept AS-NEWMEDIAEXPRESS
+import:         from AS38040 action pref=100; accept AS38040
+import:         from AS38082 action pref=100; accept AS38082
+import:         from AS38158 action pref=100; accept AS-NAPCBN
+import:         from AS38880 action pref=100; accept AS-M21
+import:         from AS38915 action pref=100; accept AS-HEERLEN
+import:         from AS39029 action pref=100; accept AS-LINPRO
+import:         from AS39090 action pref=100; accept AS-BRANDL
+import:         from AS39122 action pref=100; accept AS-BLACKNIGHT
+import:         from AS39180 action pref=100; accept AS-LASOTEL
+import:         from AS39309 action pref=100; accept AS-EDUTEL
+import:         from AS39326 action pref=100; accept AS-GOSCOMB
+import:         from AS39351 action pref=100; accept AS-ESAB
+import:         from AS39637 action pref=100; accept AS-NETLOGICS
+import:         from AS39642 action pref=100; accept AS-SE-NET
+import:         from AS39647 action pref=100; accept AS-REDHOSTING
+import:         from AS39651 action pref=100; accept AS-COMHEM
+import:         from AS39704 action pref=100; accept AS-CJ2
+import:         from AS39737 action pref=100; accept AS-NETVISIONTEL
+import:         from AS39787 action pref=100; accept AS-TV2-NO
+import:         from AS39792 action pref=100; accept AS-ANDERS
+import:         from AS39832 action pref=100; accept AS-OPERA
+import:         from AS39840 action pref=100; accept AS39840
+import:         from AS39870 action pref=100; accept AS-NETNOD
+import:         from AS39871 action pref=100; accept AS-NETNOD
+import:         from AS39912 action pref=100; accept AS-I3B
+import:         from AS39923 action pref=100; accept AS-UNIXSOLUTIONS
+import:         from AS40676 action pref=100; accept AS-40676
+import:         from AS41059 action pref=100; accept AS-T-CIX-INT
+import:         from AS41095 action pref=100; accept AS-IPTP
+import:         from AS41164 action pref=100; accept AS-GET
+import:         from AS41230 action pref=100; accept AS-ASK4
+import:         from AS41313 action pref=100; accept AS-NOVATEL
+import:         from AS41412 action pref=100; accept AS-MIVITEC
+import:         from AS41552 action pref=100; accept AS41552
+import:         from AS41572 action pref=100; accept AS-HAFSLUND
+import:         from AS41690 action pref=100; accept AS-DAILYMOTION
+import:         from AS41692 action pref=100; accept AS41692
+import:         from AS41695 action pref=100; accept AS-VOSTRON
+import:         from AS41729 action pref=100; accept AS41729
+import:         from AS41741 action pref=100; accept AS41741
+import:         from AS41811 action pref=100; accept AS41811
+import:         from AS41887 action pref=100; accept AS41887
+import:         from AS41913 action pref=100; accept AS-COMPUTERLINE
+import:         from AS42455 action pref=100; accept AS-WIMANX
+import:         from AS42459 action pref=100; accept AS-FOBUL
+import:         from AS42541 action pref=100; accept AS-FIBERBY
+import:         from AS42579 action pref=100; accept AS-SARGASSO-UK
+import:         from AS42649 action pref=100; accept AS-BAFFIN
+import:         from AS42689 action pref=100; accept AS-INUK
+import:         from AS42708 action pref=100; accept AS-PORTLANE
+import:         from AS42831 action pref=100; accept AS-UKSERVERS
+import:         from AS42841 action pref=100; accept AS-ANTIK
+import:         from AS43341 action pref=100; accept AS-MDLINK
+import:         from AS43350 action pref=100; accept AS-NFORCE
+import:         from AS43516 action pref=100; accept AS43516
+import:         from AS43531 action pref=100; accept AS-IXREACH
+import:         from AS43561 action pref=100; accept AS-NET1OUT
+import:         from AS43727 action pref=100; accept AS-SETKT
+import:         from AS43796 action pref=100; accept AS43796
+import:         from AS43893 action pref=100; accept AS-MAINLOOP
+import:         from AS43905 action pref=100; accept AS43905
+import:         from AS43996 action pref=100; accept AS-BOOKING
+import:         from AS44034 action pref=100; accept AS-HI3G
+import:         from AS44066 action pref=100; accept AS-FIRSTCOLO
+import:         from AS44123 action pref=100; accept AS-TELAVOX
+import:         from AS44381 action pref=100; accept AS-ITSJEFEN
+import:         from AS44444 action pref=100; accept AS-WHS-EU
+import:         from AS44654 action pref=100; accept AS-MNS
+import:         from AS44684 action pref=100; accept AS-MYTHIC
+import:         from AS44763 action pref=100; accept AS44763
+import:         from AS44788 action pref=100; accept AS44788
+import:         from AS44843 action pref=100; accept AS-OBTEL
+import:         from AS45011 action pref=100; accept AS-A3
+import:         from AS45102 action pref=100; accept AS45102
+import:         from AS45177 action pref=100; accept AS-LAYER2
+import:         from AS45489 action pref=100; accept AS45489
+import:         from AS45629 action pref=100; accept AS-TRIPLENET
+import:         from AS45758 action pref=100; accept AS-TRIPLENET
+import:         from AS46489 action pref=100; accept AS-TWITCH
+import:         from AS46562 action pref=100; accept AS-COLOAT
+import:         from AS46786 action pref=100; accept AS-IPTRANSIT
+import:         from AS47143 action pref=100; accept AS47143
+import:         from AS47155 action pref=100; accept AS47155
+import:         from AS47172 action pref=100; accept AS-GREENHOST
+import:         from AS47195 action pref=100; accept AS-GAMEFORGE
+import:         from AS47215 action pref=100; accept AS-FILOO
+import:         from AS47232 action pref=100; accept AS47232
+import:         from AS47329 action pref=100; accept AS-WDM-NET
+import:         from AS47447 action pref=100; accept AS-23MEDIA
+import:         from AS47474 action pref=100; accept AS-Virtual1
+import:         from AS47622 action pref=100; accept AS-DATATECHUK
+import:         from AS47692 action pref=100; accept AS-NESSUS
+import:         from AS47764 action pref=100; accept AS-MAILRU
+import:         from AS47869 action pref=100; accept AS-NETROUTING
+import:         from AS47886 action pref=100; accept AS-EQUINIX-EU
+import:         from AS47936 action pref=100; accept AS47936
+import:         from AS47950 action pref=100; accept AS-LNK
+import:         from AS48166 action pref=100; accept AS-FORTEX
+import:         from AS48173 action pref=100; accept AS-UNBELIEVABLE
+import:         from AS48237 action pref=100; accept AS-MOBILY
+import:         from AS48345 action pref=100; accept AS48345
+import:         from AS48514 action pref=100; accept AS-CSBNET
+import:         from AS48519 action pref=100; accept AS-IRONDNS
+import:         from AS48526 action pref=100; accept AS-TANGO
+import:         from AS49102 action pref=100; accept AS49102
+import:         from AS49222 action pref=100; accept AS49222
+import:         from AS49310 action pref=100; accept AS49310
+import:         from AS49375 action pref=100; accept AS-TRUNKNETWORKS
+import:         from AS49409 action pref=100; accept AS-DATAOPPDRAG
+import:         from AS49453 action pref=100; accept AS-49453
+import:         from AS49515 action pref=100; accept AS-NSC
+import:         from AS49544 action pref=100; accept AS-INTERACTIVE3D-LINE
+import:         from AS49572 action pref=100; accept AS49572
+import:         from AS49605 action pref=100; accept AS-DTSRETEIVO
+import:         from AS49685 action pref=100; accept AS-ITIS
+import:         from AS49770 action pref=100; accept AS49770
+import:         from AS49788 action pref=100; accept AS-NEXTHOP
+import:         from AS49820 action pref=100; accept AS-PICTURA
+import:         from AS49952 action pref=100; accept AS49952
+import:         from AS49981 action pref=100; accept AS-WORLDSTREAM
+import:         from AS50033 action pref=100; accept AS-PATIENTSKY
+import:         from AS50217 action pref=100; accept AS50217
+import:         from AS50245 action pref=100; accept AS-SERVEREL
+import:         from AS50266 action pref=100; accept AS-WIERICKE
+import:         from AS50270 action pref=100; accept AS50270
+import:         from AS50300 action pref=100; accept AS-CUSTDC
+import:         from AS50304 action pref=100; accept AS-BLIX
+import:         from AS50384 action pref=100; accept AS-W-IX
+import:         from AS50629 action pref=100; accept AS-LWL
+import:         from AS50673 action pref=100; accept AS-SERVERIUS
+import:         from AS50837 action pref=100; accept AS-CLOUDSIGMA
+import:         from AS50923 action pref=100; accept AS-METRO-SET
+import:         from AS50986 action pref=100; accept AS-EHSAB
+import:         from AS50989 action pref=100; accept AS50989
+import:         from AS51088 action pref=100; accept AS-A2B
+import:         from AS51185 action pref=100; accept AS-MAINSOFT-V6
+import:         from AS51406 action pref=100; accept AS-2CONNECTUK
+import:         from AS51468 action pref=100; accept AS-ONECOM
+import:         from AS51483 action pref=100; accept AS-SASG
+import:         from AS51752 action pref=100; accept AS-WACHTTOREN
+import:         from AS51852 action pref=100; accept AS51852
+import:         from AS51918 action pref=100; accept AS-CERBERUSNETWORKS
+import:         from AS51945 action pref=100; accept AS-CONNETU
+import:         from AS52157 action pref=100; accept AS-VITNETT
+import:         from AS52320 action pref=100; accept AS-GNT
+import:         from AS52873 action pref=100; accept AS52873
+import:         from AS53264 action pref=100; accept AS-CDC
+import:         from AS54104 action pref=100; accept AS-STACKPATH
+import:         from AS54113 action pref=100; accept AS-FASTLY
+import:         from AS54994 action pref=100; accept AS54994
+import:         from AS55195 action pref=100; accept AS55195
+import:         from AS55967 action pref=100; accept AS55967
+import:         from AS56478 action pref=100; accept AS56478
+import:         from AS56630 action pref=100; accept AS-MELBICOM
+import:         from AS56647 action pref=100; accept AS56647
+import:         from AS56665 action pref=100; accept AS-TELINDUSLUX
+import:         from AS56704 action pref=100; accept AS-FARICE
+import:         from AS57208 action pref=100; accept AS57208
+import:         from AS57344 action pref=100; accept AS-57344
+import:         from AS57463 action pref=100; accept AS-NETIX-NET
+import:         from AS57811 action pref=100; accept AS57811
+import:         from AS57928 action pref=100; accept AS57928
+import:         from AS57976 action pref=100; accept AS-BLIZZARD
+import:         from AS58073 action pref=100; accept AS-YISP
+import:         from AS58453 action pref=100; accept AS-CMI-ALL
+import:         from AS58552 action pref=100; accept AS-MULTIDATA-ID-AP
+import:         from AS58601 action pref=100; accept AS58601
+import:         from AS59318 action pref=100; accept AS59318
+import:         from AS59605 action pref=100; accept AS59605
+import:         from AS59835 action pref=100; accept AS-DHAB
+import:         from AS60011 action pref=100; accept AS60011
+import:         from AS60052 action pref=100; accept AS-MOD
+import:         from AS60068 action pref=100; accept AS-CDN77
+import:         from AS60144 action pref=100; accept AS-3W-INFRA
+import:         from AS60169 action pref=100; accept AS-GFIT
+import:         from AS60171 action pref=100; accept AS-SET-AFRIX
+import:         from AS60294 action pref=100; accept AS-DGW
+import:         from AS60522 action pref=100; accept AS-KOMMITT
+import:         from AS60586 action pref=100; accept AS60586
+import:         from AS60610 action pref=100; accept AS60610
+import:         from AS60687 action pref=100; accept AS-INFIBER
+import:         from AS60717 action pref=100; accept AS-BAYONETTE
+import:         from AS60745 action pref=100; accept AS60745
+import:         from AS60830 action pref=100; accept AS60830
+import:         from AS61012 action pref=100; accept AS-LIVEDRIVE
+import:         from AS61049 action pref=100; accept AS-EXASCALE
+import:         from AS61244 action pref=100; accept AS-EUROSAT
+import:         from AS61275 action pref=100; accept AS-NEASNO
+import:         from AS61337 action pref=100; accept AS-GXT
+import:         from AS61955 action pref=100; accept AS-COLOCATIONIX
+import:         from AS62044 action pref=100; accept AS-ZSCALER
+import:         from AS62183 action pref=100; accept AS-NORDICCOM
+import:         from AS62217 action pref=100; accept AS62217
+import:         from AS62225 action pref=100; accept AS62225
+import:         from AS62240 action pref=100; accept AS-CLOUVIDER
+import:         from AS62955 action pref=100; accept AS-EBAYMTBB
+import:         from AS63113 action pref=100; accept AS63113
+import:         from AS63927 action pref=100; accept AS63927
+import:         from AS63949 action pref=100; accept AS-LINODE
+import:         from AS64049 action pref=100; accept AS64049
+import:         from AS64050 action pref=100; accept AS64050
+import:         from AS64424 action pref=100; accept AS64424
+import:         from AS64440 action pref=100; accept AS64440
+import:         from AS132203 action pref=100; accept AS132203
+import:         from AS132876 action pref=100; accept AS-132876
+import:         from AS134390 action pref=100; accept AS-ARI
+import:         from AS134512 action pref=100; accept AS134512
+import:         from AS135391 action pref=100; accept AS-AOFEI-Intl
+import:         from AS196752 action pref=100; accept AS-TILAA
+import:         from AS196788 action pref=100; accept AS-AKFP-AKER
+import:         from AS196844 action pref=100; accept AS196844
+import:         from AS197090 action pref=100; accept AS197090
+import:         from AS197212 action pref=100; accept AS-AARDALSNETT
+import:         from AS197540 action pref=100; accept AS-NETCUP
+import:         from AS197541 action pref=100; accept AS-VIDEOPLAZA
+import:         from AS197595 action pref=100; accept AS-OBENETWORK
+import:         from AS197617 action pref=100; accept AS-MRFRIDAY
+import:         from AS197943 action pref=100; accept AS-NORKRING
+import:         from AS198093 action pref=100; accept AS-DFRI
+import:         from AS198385 action pref=100; accept AS-ALPINEDC
+import:         from AS198792 action pref=100; accept AS-DSTORAGE
+import:         from AS198930 action pref=100; accept AS-VSM
+import:         from AS199524 action pref=100; accept AS199524
+import:         from AS199672 action pref=100; accept AS199672
+import:         from AS199791 action pref=100; accept AS-EMBRIQ
+import:         from AS199900 action pref=100; accept AS199900
+import:         from AS199990 action pref=100; accept AS199990
+import:         from AS199999 action pref=100; accept AS199999
+import:         from AS200037 action pref=100; accept AS200037
+import:         from AS200052 action pref=100; accept AS-FERAL
+import:         from AS200139 action pref=100; accept AS200139
+import:         from AS200168 action pref=100; accept AS200168
+import:         from AS200187 action pref=100; accept AS-CK
+import:         from AS200507 action pref=100; accept AS200507
+import:         from AS200612 action pref=100; accept AS-SETGBI
+import:         from AS200665 action pref=100; accept AS-NORDFIBER
+import:         from AS200781 action pref=100; accept AS-TAMPNET
+import:         from AS200915 action pref=100; accept AS200915
+import:         from AS201229 action pref=100; accept AS201229
+import:         from AS201454 action pref=100; accept AS201454
+import:         from AS201627 action pref=100; accept AS201627
+import:         from AS201641 action pref=100; accept AS201641
+import:         from AS202020 action pref=100; accept AS202020
+import:         from AS202033 action pref=100; accept AS202033
+import:         from AS202053 action pref=100; accept AS-UPCLOUD
+import:         from AS202128 action pref=100; accept AS202128
+import:         from AS202204 action pref=100; accept AS-TROLLFJORD
+import:         from AS202230 action pref=100; accept AS202230
+import:         from AS202932 action pref=100; accept AS-CLOUDMERGE
+import:         from AS202954 action pref=100; accept AS-RAPIDDOT
+import:         from AS203424 action pref=100; accept AS203424
+import:         from AS203673 action pref=100; accept AS203673
+import:         from AS203733 action pref=100; accept AS203733
+import:         from AS204728 action pref=100; accept AS204728
+import:         from AS205388 action pref=100; accept AS205388
+import:         from AS206264 action pref=100; accept AS206264
+import:         from AS206725 action pref=100; accept AS206725
+import:         from AS206993 action pref=100; accept AS206993
+import:         from AS207035 action pref=100; accept AS207035
+import:         from AS210307 action pref=100; accept AS210307
+import:         from AS262788 action pref=100; accept AS262788
+import:         from AS328145 action pref=100; accept AS-LYCA
+import:         from AS394354 action pref=100; accept AS394354
+export:         to AS42 announce AS-TELENOR
+export:         to AS224 announce AS-TELENOR
+export:         to AS286 announce AS-TELENOR
+export:         to AS553 announce AS-TELENOR
+export:         to AS559 announce AS-TELENOR
+export:         to AS680 announce AS-TELENOR
+export:         to AS702 announce AS-TELENOR
+export:         to AS714 announce AS-TELENOR
+export:         to AS786 announce AS-TELENOR
+export:         to AS1103 announce AS-TELENOR
+export:         to AS1126 announce AS-TELENOR
+export:         to AS1136 announce AS-TELENOR
+export:         to AS1140 announce AS-TELENOR
+export:         to AS1200 announce AS-TELENOR
+export:         to AS1241 announce AS-TELENOR
+export:         to AS1257 announce AS-TELENOR
+export:         to AS1267 announce AS-TELENOR
+export:         to AS1299 announce AS-TELENOR
+export:         to AS1547 announce AS-TELENOR
+export:         to AS1653 announce AS-TELENOR
+export:         to AS1764 announce AS-TELENOR
+export:         to AS1836 announce AS-TELENOR
+export:         to AS1880 announce AS-TELENOR
+export:         to AS2116 announce AS-TELENOR
+export:         to AS2484 announce AS-TELENOR
+export:         to AS2497 announce AS-TELENOR
+export:         to AS2516 announce AS-TELENOR
+export:         to AS2529 announce AS-TELENOR
+export:         to AS2603 announce AS-TELENOR
+export:         to AS2611 announce AS-TELENOR
+export:         to AS2635 announce AS-TELENOR
+export:         to AS2686 announce AS-TELENOR
+export:         to AS2818 announce AS-TELENOR
+export:         to AS2828 announce AS-TELENOR
+export:         to AS2852 announce AS-TELENOR
+export:         to AS2856 announce AS-TELENOR
+export:         to AS2860 announce AS-TELENOR
+export:         to AS3209 announce AS-TELENOR
+export:         to AS3213 announce AS-TELENOR
+export:         to AS3216 announce AS-TELENOR
+export:         to AS3223 announce AS-TELENOR
+export:         to AS3238 announce AS-TELENOR
+export:         to AS3262 announce AS-TELENOR
+export:         to AS3265 announce AS-TELENOR
+export:         to AS3267 announce AS-TELENOR
+export:         to AS3292 announce AS-TELENOR
+export:         to AS3301 announce AS-TELENOR
+export:         to AS3303 announce AS-TELENOR
+export:         to AS3326 announce AS-TELENOR
+export:         to AS3327 announce AS-TELENOR
+export:         to AS3333 announce AS-TELENOR
+export:         to AS3356 announce AS-TELENOR
+export:         to AS3491 announce AS-TELENOR
+export:         to AS3741 announce AS-TELENOR
+export:         to AS3856 announce AS-TELENOR
+export:         to AS3910 announce AS-TELENOR
+export:         to AS4004 announce AS-TELENOR
+export:         to AS4134 announce AS-TELENOR
+export:         to AS4637 announce AS-TELENOR
+export:         to AS4651 announce AS-TELENOR
+export:         to AS4657 announce AS-TELENOR
+export:         to AS4766 announce AS-TELENOR
+export:         to AS4788 announce AS-TELENOR
+export:         to AS4800 announce AS-TELENOR
+export:         to AS4837 announce AS-TELENOR
+export:         to AS5378 announce AS-TELENOR
+export:         to AS5390 announce AS-TELENOR
+export:         to AS5394 announce AS-TELENOR
+export:         to AS5400 announce AS-TELENOR
+export:         to AS5410 announce AS-TELENOR
+export:         to AS5413 announce AS-TELENOR
+export:         to AS5430 announce AS-TELENOR
+export:         to AS5459 announce AS-TELENOR
+export:         to AS5466 announce AS-TELENOR
+export:         to AS5483 announce AS-TELENOR
+export:         to AS5503 announce AS-TELENOR
+export:         to AS5524 announce AS-TELENOR
+export:         to AS5539 announce AS-TELENOR
+export:         to AS5564 announce AS-TELENOR
+export:         to AS5568 announce AS-TELENOR
+export:         to AS5583 announce AS-TELENOR
+export:         to AS5588 announce AS-TELENOR
+export:         to AS5603 announce AS-TELENOR
+export:         to AS5605 announce AS-TELENOR
+export:         to AS5607 announce AS-TELENOR
+export:         to AS5619 announce ANY
+export:         to AS6067 announce AS-TELENOR
+export:         to AS6453 announce AS-TELENOR
+export:         to AS6461 announce AS-TELENOR
+export:         to AS6507 announce AS-TELENOR
+export:         to AS6659 announce AS-TELENOR
+export:         to AS6661 announce AS-TELENOR
+export:         to AS6663 announce AS-TELENOR
+export:         to AS6667 announce AS-TELENOR
+export:         to AS6677 announce AS-TELENOR
+export:         to AS6724 announce AS-TELENOR
+export:         to AS6730 announce AS-TELENOR
+export:         to AS6735 announce AS-TELENOR
+export:         to AS6774 announce AS-TELENOR
+export:         to AS6805 announce AS-TELENOR
+export:         to AS6830 announce AS-TELENOR
+export:         to AS6866 announce AS-TELENOR
+export:         to AS6894 announce AS-TELENOR
+export:         to AS6900 announce AS-TELENOR
+export:         to AS6908 announce AS-TELENOR
+export:         to AS6910 announce AS-TELENOR
+export:         to AS6939 announce AS-TELENOR
+export:         to AS7342 announce AS-TELENOR
+export:         to AS7363 announce AS-TELENOR
+export:         to AS7385 announce AS-TELENOR
+export:         to AS7473 announce AS-TELENOR
+export:         to AS7642 announce AS-TELENOR
+export:         to AS7713 announce AS-TELENOR
+export:         to AS8075 announce AS-TELENOR
+export:         to AS8190 announce AS-TELENOR
+export:         to AS8218 announce AS-TELENOR
+export:         to AS8220 announce AS-TELENOR
+export:         to AS8262 announce AS-TELENOR
+export:         to AS8283 announce AS-TELENOR
+export:         to AS8301 announce AS-TELENOR
+export:         to AS8304 announce AS-TELENOR
+export:         to AS8309 announce AS-TELENOR
+export:         to AS8315 announce AS-TELENOR
+export:         to AS8359 announce AS-TELENOR
+export:         to AS8365 announce AS-TELENOR
+export:         to AS8368 announce AS-TELENOR
+export:         to AS8391 announce AS-TELENOR
+export:         to AS8400 announce AS-TELENOR
+export:         to AS8403 announce AS-TELENOR
+export:         to AS8422 announce AS-TELENOR
+export:         to AS8426 announce AS-TELENOR
+export:         to AS8447 announce AS-TELENOR
+export:         to AS8452 announce AS-TELENOR
+export:         to AS8455 announce AS-TELENOR
+export:         to AS8468 announce AS-TELENOR
+export:         to AS8473 announce AS-TELENOR
+export:         to AS8529 announce AS-TELENOR
+export:         to AS8551 announce AS-TELENOR
+export:         to AS8553 announce AS-TELENOR
+export:         to AS8560 announce AS-TELENOR
+export:         to AS8587 announce AS-TELENOR
+export:         to AS8591 announce AS-TELENOR
+export:         to AS8607 announce AS-TELENOR
+export:         to AS8608 announce AS-TELENOR
+export:         to AS8632 announce AS-TELENOR
+export:         to AS8657 announce AS-TELENOR
+export:         to AS8674 announce AS-TELENOR
+export:         to AS8681 announce AS-TELENOR
+export:         to AS8683 announce AS-TELENOR
+export:         to AS8708 announce AS-TELENOR
+export:         to AS8717 announce AS-TELENOR
+export:         to AS8728 announce AS-TELENOR
+export:         to AS8732 announce AS-TELENOR
+export:         to AS8758 announce AS-TELENOR
+export:         to AS8764 announce AS-TELENOR
+export:         to AS8767 announce AS-TELENOR
+export:         to AS8781 announce AS-TELENOR
+export:         to AS8821 announce AS-TELENOR
+export:         to AS8851 announce AS-TELENOR
+export:         to AS8866 announce AS-TELENOR
+export:         to AS8881 announce AS-TELENOR
+export:         to AS8896 announce AS-TELENOR
+export:         to AS8897 announce AS-TELENOR
+export:         to AS8902 announce AS-TELENOR
+export:         to AS8943 announce AS-TELENOR
+export:         to AS8966 announce AS-TELENOR
+export:         to AS9002 announce AS-TELENOR
+export:         to AS9009 announce AS-TELENOR
+export:         to AS9031 announce AS-TELENOR
+export:         to AS9044 announce AS-TELENOR
+export:         to AS9050 announce AS-TELENOR
+export:         to AS9116 announce AS-TELENOR
+export:         to AS9119 announce AS-TELENOR
+export:         to AS9145 announce AS-TELENOR
+export:         to AS9150 announce AS-TELENOR
+export:         to AS9153 announce AS-TELENOR
+export:         to AS9158 announce ANY
+export:         to AS9201 announce AS-TELENOR
+export:         to AS9269 announce AS-TELENOR
+export:         to AS9304 announce AS-TELENOR
+export:         to AS9318 announce AS-TELENOR
+export:         to AS9498 announce AS-TELENOR
+export:         to AS10026 announce AS-TELENOR
+export:         to AS10310 announce AS-TELENOR
+export:         to AS10474 announce AS-TELENOR
+export:         to AS11666 announce AS-TELENOR
+export:         to AS12189 announce AS-TELENOR
+export:         to AS12301 announce AS-TELENOR
+export:         to AS12306 announce AS-TELENOR
+export:         to AS12312 announce AS-TELENOR
+export:         to AS12322 announce AS-TELENOR
+export:         to AS12350 announce AS-TELENOR
+export:         to AS12355 announce AS-TELENOR
+export:         to AS12389 announce AS-TELENOR
+export:         to AS12390 announce AS-TELENOR
+export:         to AS12399 announce AS-TELENOR
+export:         to AS12414 announce AS-TELENOR
+export:         to AS12496 announce AS-TELENOR
+export:         to AS12552 announce AS-TELENOR
+export:         to AS12576 announce AS-TELENOR
+export:         to AS12578 announce AS-TELENOR
+export:         to AS12597 announce AS-TELENOR
+export:         to AS12625 announce AS-TELENOR
+export:         to AS12676 announce AS-TELENOR
+export:         to AS12678 announce AS-TELENOR
+export:         to AS12703 announce AS-TELENOR
+export:         to AS12713 announce AS-TELENOR
+export:         to AS12714 announce AS-TELENOR
+export:         to AS12731 announce AS-TELENOR
+export:         to AS12741 announce AS-TELENOR
+export:         to AS12759 announce AS-TELENOR
+export:         to AS12779 announce AS-TELENOR
+export:         to AS12859 announce AS-TELENOR
+export:         to AS12871 announce AS-TELENOR
+export:         to AS12874 announce AS-TELENOR
+export:         to AS12876 announce AS-TELENOR
+export:         to AS12902 announce AS-TELENOR
+export:         to AS12941 announce AS-TELENOR
+export:         to AS12956 announce AS-TELENOR
+export:         to AS12989 announce AS-TELENOR
+export:         to AS13005 announce AS-TELENOR
+export:         to AS13009 announce AS-TELENOR
+export:         to AS13030 announce AS-TELENOR
+export:         to AS13037 announce AS-TELENOR
+export:         to AS13101 announce AS-TELENOR
+export:         to AS13122 announce AS-TELENOR
+export:         to AS13124 announce AS-TELENOR
+export:         to AS13157 announce AS-TELENOR
+export:         to AS13189 announce AS-TELENOR
+export:         to AS13194 announce AS-TELENOR
+export:         to AS13213 announce AS-TELENOR
+export:         to AS13237 announce AS-TELENOR
+export:         to AS13238 announce AS-TELENOR
+export:         to AS13243 announce AS-TELENOR
+export:         to AS13285 announce AS-TELENOR
+export:         to AS13335 announce AS-TELENOR
+export:         to AS13414 announce AS-TELENOR
+export:         to AS13445 announce AS-TELENOR
+export:         to AS13768 announce AS-TELENOR
+export:         to AS14061 announce AS-TELENOR
+export:         to AS14340 announce AS-TELENOR
+export:         to AS14413 announce AS-TELENOR
+export:         to AS14537 announce AS-TELENOR
+export:         to AS14907 announce AS-TELENOR
+export:         to AS15133 announce AS-TELENOR
+export:         to AS15169 announce AS-TELENOR
+export:         to AS15366 announce AS-TELENOR
+export:         to AS15412 announce AS-TELENOR
+export:         to AS15426 announce AS-TELENOR
+export:         to AS15435 announce AS-TELENOR
+export:         to AS15447 announce AS-TELENOR
+export:         to AS15516 announce AS-TELENOR
+export:         to AS15542 announce AS-TELENOR
+export:         to AS15557 announce AS-TELENOR
+export:         to AS15576 announce AS-TELENOR
+export:         to AS15600 announce AS-TELENOR
+export:         to AS15659 announce ANY
+export:         to AS15695 announce AS-TELENOR
+export:         to AS15703 announce AS-TELENOR
+export:         to AS15772 announce AS-TELENOR
+export:         to AS15773 announce AS-TELENOR
+export:         to AS15830 announce AS-TELENOR
+export:         to AS15879 announce AS-TELENOR
+export:         to AS15943 announce AS-TELENOR
+export:         to AS15958 announce AS-TELENOR
+export:         to AS16082 announce AS-TELENOR
+export:         to AS16086 announce AS-TELENOR
+export:         to AS16175 announce AS-TELENOR
+export:         to AS16253 announce AS-TELENOR
+export:         to AS16265 announce AS-TELENOR
+export:         to AS16276 announce AS-TELENOR
+export:         to AS16298 announce AS-TELENOR
+export:         to AS16302 announce AS-TELENOR
+export:         to AS16353 announce AS-TELENOR
+export:         to AS16509 announce AS-TELENOR
+export:         to AS17451 announce AS-TELENOR
+export:         to AS17511 announce AS-TELENOR
+export:         to AS17557 announce AS-TELENOR
+export:         to AS17660 announce AS-TELENOR
+export:         to AS18106 announce AS-TELENOR
+export:         to AS19399 announce AS-TELENOR
+export:         to AS19551 announce AS-TELENOR
+export:         to AS19679 announce AS-TELENOR
+export:         to AS20080 announce AS-TELENOR
+export:         to AS20473 announce AS-TELENOR
+export:         to AS20485 announce AS-TELENOR
+export:         to AS20495 announce AS-TELENOR
+export:         to AS20504 announce AS-TELENOR
+export:         to AS20559 announce AS-TELENOR
+export:         to AS20562 announce AS-TELENOR
+export:         to AS20634 announce AS-TELENOR
+export:         to AS20640 announce AS-TELENOR
+export:         to AS20676 announce AS-TELENOR
+export:         to AS20764 announce AS-TELENOR
+export:         to AS20766 announce AS-TELENOR
+export:         to AS20773 announce AS-TELENOR
+export:         to AS20799 announce AS-TELENOR
+export:         to AS20810 announce AS-TELENOR
+export:         to AS20811 announce AS-TELENOR
+export:         to AS20847 announce AS-TELENOR
+export:         to AS20857 announce AS-TELENOR
+export:         to AS20860 announce AS-TELENOR
+export:         to AS20932 announce AS-TELENOR
+export:         to AS20940 announce AS-TELENOR
+export:         to AS20952 announce AS-TELENOR
+export:         to AS20953 announce AS-TELENOR
+export:         to AS20969 announce AS-TELENOR
+export:         to AS21067 announce ANY
+export:         to AS21099 announce AS-TELENOR
+export:         to AS21195 announce AS-TELENOR
+export:         to AS21221 announce AS-TELENOR
+export:         to AS21263 announce AS-TELENOR
+export:         to AS21293 announce AS-TELENOR
+export:         to AS21297 announce ANY
+export:         to AS21320 announce AS-TELENOR
+export:         to AS21331 announce ANY
+export:         to AS21345 announce AS-TELENOR
+export:         to AS21371 announce AS-TELENOR
+export:         to AS21385 announce AS-TELENOR
+export:         to AS21396 announce AS-TELENOR
+export:         to AS21478 announce AS-TELENOR
+export:         to AS21859 announce AS-TELENOR
+export:         to AS22697 announce AS-TELENOR
+export:         to AS22822 announce AS-TELENOR
+export:         to AS23106 announce AS-TELENOR
+export:         to AS23148 announce AS-TELENOR
+export:         to AS23393 announce AS-TELENOR
+export:         to AS23576 announce AS-TELENOR
+export:         to AS24167 announce AS-TELENOR
+export:         to AS24218 announce AS-TELENOR
+export:         to AS24482 announce AS-TELENOR
+export:         to AS24586 announce AS-TELENOR
+export:         to AS24642 announce AS-TELENOR
+export:         to AS24875 announce AS-TELENOR
+export:         to AS24904 announce AS-TELENOR
+export:         to AS24931 announce AS-TELENOR
+export:         to AS24940 announce AS-TELENOR
+export:         to AS24961 announce AS-TELENOR
+export:         to AS24989 announce AS-TELENOR
+export:         to AS25061 announce AS-TELENOR
+export:         to AS25074 announce AS-TELENOR
+export:         to AS25091 announce AS-TELENOR
+export:         to AS25148 announce AS-TELENOR
+export:         to AS25151 announce AS-TELENOR
+export:         to AS25169 announce ANY
+export:         to AS25178 announce AS-TELENOR
+export:         to AS25180 announce AS-TELENOR
+export:         to AS25182 announce AS-TELENOR
+export:         to AS25220 announce AS-TELENOR
+export:         to AS25291 announce AS-TELENOR
+export:         to AS25358 announce AS-TELENOR
+export:         to AS25369 announce AS-TELENOR
+export:         to AS25542 announce AS-TELENOR
+export:         to AS25577 announce AS-TELENOR
+export:         to AS25596 announce AS-TELENOR
+export:         to AS25605 announce AS-TELENOR
+export:         to AS26415 announce AS-TELENOR
+export:         to AS26496 announce AS-TELENOR
+export:         to AS26667 announce AS-TELENOR
+export:         to AS27471 announce AS-TELENOR
+export:         to AS27822 announce AS-TELENOR
+export:         to AS28716 announce AS-TELENOR
+export:         to AS28725 announce AS-TELENOR
+export:         to AS28748 announce AS-TELENOR
+export:         to AS28788 announce AS-TELENOR
+export:         to AS28795 announce ANY
+export:         to AS28836 announce AS-TELENOR
+export:         to AS28876 announce AS-TELENOR
+export:         to AS28917 announce AS-TELENOR
+export:         to AS28929 announce AS-TELENOR
+export:         to AS29009 announce AS-TELENOR
+export:         to AS29017 announce AS-TELENOR
+export:         to AS29073 announce AS-TELENOR
+export:         to AS29075 announce AS-TELENOR
+export:         to AS29076 announce AS-TELENOR
+export:         to AS29119 announce AS-TELENOR
+export:         to AS29140 announce AS-TELENOR
+export:         to AS29208 announce AS-TELENOR
+export:         to AS29263 announce AS-TELENOR
+export:         to AS29314 announce AS-TELENOR
+export:         to AS29396 announce AS-TELENOR
+export:         to AS29518 announce AS-TELENOR
+export:         to AS29527 announce AS-TELENOR
+export:         to AS29545 announce AS-TELENOR
+export:         to AS29550 announce AS-TELENOR
+export:         to AS29632 announce AS-TELENOR
+export:         to AS29636 announce AS-TELENOR
+export:         to AS29668 announce AS-TELENOR
+export:         to AS29695 announce AS-TELENOR
+export:         to AS29697 announce AS-TELENOR
+export:         to AS29791 announce AS-TELENOR
+export:         to AS29838 announce AS-TELENOR
+export:         to AS30094 announce AS-TELENOR
+export:         to AS30132 announce AS-TELENOR
+export:         to AS30736 announce AS-TELENOR
+export:         to AS30740 announce AS-TELENOR
+export:         to AS30781 announce AS-TELENOR
+export:         to AS30827 announce AS-TELENOR
+export:         to AS30844 announce AS-TELENOR
+export:         to AS30889 announce AS-TELENOR
+export:         to AS30914 announce AS-TELENOR
+export:         to AS30950 announce AS-TELENOR
+export:         to AS31019 announce AS-TELENOR
+export:         to AS31027 announce AS-TELENOR
+export:         to AS31042 announce AS-TELENOR
+export:         to AS31122 announce AS-TELENOR
+export:         to AS31133 announce AS-TELENOR
+export:         to AS31216 announce AS-TELENOR
+export:         to AS31252 announce AS-TELENOR
+export:         to AS31270 announce AS-TELENOR
+export:         to AS31287 announce AS-TELENOR
+export:         to AS31319 announce AS-TELENOR
+export:         to AS31334 announce AS-TELENOR
+export:         to AS31383 announce AS-TELENOR
+export:         to AS31477 announce AS-TELENOR
+export:         to AS31500 announce AS-TELENOR
+export:         to AS31529 announce AS-TELENOR
+export:         to AS31638 announce AS-TELENOR
+export:         to AS31715 announce AS-TELENOR
+export:         to AS32590 announce AS-TELENOR
+export:         to AS32787 announce AS-TELENOR
+export:         to AS32934 announce AS-TELENOR
+export:         to AS33011 announce AS-TELENOR
+export:         to AS33047 announce AS-TELENOR
+export:         to AS33079 announce AS-TELENOR
+export:         to AS33081 announce AS-TELENOR
+export:         to AS33082 announce AS-TELENOR
+export:         to AS33353 announce AS-TELENOR
+export:         to AS33438 announce AS-TELENOR
+export:         to AS33873 announce AS-TELENOR
+export:         to AS33885 announce ANY
+export:         to AS33891 announce AS-TELENOR
+export:         to AS33915 announce AS-TELENOR
+export:         to AS34019 announce AS-TELENOR
+export:         to AS34066 announce AS-TELENOR
+export:         to AS34087 announce AS-TELENOR
+export:         to AS34106 announce AS-TELENOR
+export:         to AS34141 announce AS-TELENOR
+export:         to AS34177 announce AS-TELENOR
+export:         to AS34224 announce AS-TELENOR
+export:         to AS34244 announce AS-TELENOR
+export:         to AS34245 announce AS-TELENOR
+export:         to AS34270 announce AS-TELENOR
+export:         to AS34288 announce AS-TELENOR
+export:         to AS34305 announce AS-TELENOR
+export:         to AS34309 announce AS-TELENOR
+export:         to AS34442 announce AS-TELENOR
+export:         to AS34468 announce ANY
+export:         to AS34555 announce AS-TELENOR
+export:         to AS34569 announce AS-TELENOR
+export:         to AS34610 announce AS-TELENOR
+export:         to AS34655 announce AS-TELENOR
+export:         to AS34772 announce AS-TELENOR
+export:         to AS34790 announce AS-TELENOR
+export:         to AS34822 announce AS-TELENOR
+export:         to AS34968 announce AS-TELENOR
+export:         to AS35028 announce AS-TELENOR
+export:         to AS35132 announce ANY
+export:         to AS35228 announce AS-TELENOR
+export:         to AS35297 announce AS-TELENOR
+export:         to AS35311 announce AS-TELENOR
+export:         to AS35320 announce AS-TELENOR
+export:         to AS35366 announce AS-TELENOR
+export:         to AS35425 announce AS-TELENOR
+export:         to AS35565 announce ANY
+export:         to AS35574 announce AS-TELENOR
+export:         to AS35575 announce AS-TELENOR
+export:         to AS35625 announce AS-TELENOR
+export:         to AS35703 announce ANY
+export:         to AS35706 announce AS-TELENOR
+export:         to AS35745 announce AS-TELENOR
+export:         to AS35916 announce AS-TELENOR
+export:         to AS36131 announce AS-TELENOR
+export:         to AS36236 announce AS-TELENOR
+export:         to AS36351 announce AS-TELENOR
+export:         to AS36408 announce AS-TELENOR
+export:         to AS36459 announce AS-TELENOR
+export:         to AS36692 announce AS-TELENOR
+export:         to AS36891 announce AS-TELENOR
+export:         to AS36944 announce AS-TELENOR
+export:         to AS37100 announce AS-TELENOR
+export:         to AS37179 announce AS-TELENOR
+export:         to AS37271 announce AS-TELENOR
+export:         to AS37282 announce AS-TELENOR
+export:         to AS37468 announce AS-TELENOR
+export:         to AS37564 announce AS-TELENOR
+export:         to AS38001 announce AS-TELENOR
+export:         to AS38040 announce AS-TELENOR
+export:         to AS38082 announce AS-TELENOR
+export:         to AS38158 announce AS-TELENOR
+export:         to AS38880 announce AS-TELENOR
+export:         to AS38915 announce AS-TELENOR
+export:         to AS39029 announce ANY
+export:         to AS39090 announce AS-TELENOR
+export:         to AS39122 announce AS-TELENOR
+export:         to AS39180 announce AS-TELENOR
+export:         to AS39309 announce AS-TELENOR
+export:         to AS39326 announce AS-TELENOR
+export:         to AS39351 announce AS-TELENOR
+export:         to AS39637 announce AS-TELENOR
+export:         to AS39642 announce AS-TELENOR
+export:         to AS39647 announce AS-TELENOR
+export:         to AS39651 announce AS-TELENOR
+export:         to AS39704 announce AS-TELENOR
+export:         to AS39737 announce AS-TELENOR
+export:         to AS39787 announce ANY
+export:         to AS39792 announce AS-TELENOR
+export:         to AS39832 announce AS-TELENOR
+export:         to AS39840 announce AS-TELENOR
+export:         to AS39870 announce AS-TELENOR
+export:         to AS39871 announce AS-TELENOR
+export:         to AS39912 announce AS-TELENOR
+export:         to AS39923 announce AS-TELENOR
+export:         to AS40676 announce AS-TELENOR
+export:         to AS41059 announce AS-TELENOR
+export:         to AS41095 announce AS-TELENOR
+export:         to AS41164 announce AS-TELENOR
+export:         to AS41230 announce AS-TELENOR
+export:         to AS41313 announce AS-TELENOR
+export:         to AS41412 announce AS-TELENOR
+export:         to AS41552 announce AS-TELENOR
+export:         to AS41572 announce ANY
+export:         to AS41690 announce AS-TELENOR
+export:         to AS41692 announce AS-TELENOR
+export:         to AS41695 announce AS-TELENOR
+export:         to AS41729 announce ANY
+export:         to AS41741 announce ANY
+export:         to AS41811 announce AS-TELENOR
+export:         to AS41887 announce AS-TELENOR
+export:         to AS41913 announce AS-TELENOR
+export:         to AS42455 announce AS-TELENOR
+export:         to AS42459 announce AS-TELENOR
+export:         to AS42541 announce AS-TELENOR
+export:         to AS42579 announce AS-TELENOR
+export:         to AS42649 announce AS-TELENOR
+export:         to AS42689 announce AS-TELENOR
+export:         to AS42708 announce AS-TELENOR
+export:         to AS42831 announce AS-TELENOR
+export:         to AS42841 announce AS-TELENOR
+export:         to AS43341 announce AS-TELENOR
+export:         to AS43350 announce AS-TELENOR
+export:         to AS43516 announce ANY
+export:         to AS43531 announce AS-TELENOR
+export:         to AS43561 announce AS-TELENOR
+export:         to AS43727 announce AS-TELENOR
+export:         to AS43796 announce ANY
+export:         to AS43893 announce AS-TELENOR
+export:         to AS43905 announce ANY
+export:         to AS43996 announce AS-TELENOR
+export:         to AS44034 announce AS-TELENOR
+export:         to AS44066 announce AS-TELENOR
+export:         to AS44123 announce AS-TELENOR
+export:         to AS44381 announce ANY
+export:         to AS44444 announce AS-TELENOR
+export:         to AS44654 announce AS-TELENOR
+export:         to AS44684 announce AS-TELENOR
+export:         to AS44763 announce ANY
+export:         to AS44788 announce AS-TELENOR
+export:         to AS44843 announce AS-TELENOR
+export:         to AS45011 announce AS-TELENOR
+export:         to AS45102 announce AS-TELENOR
+export:         to AS45177 announce AS-TELENOR
+export:         to AS45489 announce AS-TELENOR
+export:         to AS45629 announce AS-TELENOR
+export:         to AS45758 announce AS-TELENOR
+export:         to AS46489 announce AS-TELENOR
+export:         to AS46562 announce AS-TELENOR
+export:         to AS46786 announce AS-TELENOR
+export:         to AS47143 announce AS-TELENOR
+export:         to AS47155 announce AS-TELENOR
+export:         to AS47172 announce AS-TELENOR
+export:         to AS47195 announce AS-TELENOR
+export:         to AS47215 announce AS-TELENOR
+export:         to AS47232 announce AS-TELENOR
+export:         to AS47329 announce AS-TELENOR
+export:         to AS47447 announce AS-TELENOR
+export:         to AS47474 announce AS-TELENOR
+export:         to AS47622 announce AS-TELENOR
+export:         to AS47692 announce AS-TELENOR
+export:         to AS47764 announce AS-TELENOR
+export:         to AS47869 announce AS-TELENOR
+export:         to AS47886 announce AS-TELENOR
+export:         to AS47936 announce ANY
+export:         to AS47950 announce AS-TELENOR
+export:         to AS48166 announce AS-TELENOR
+export:         to AS48173 announce AS-TELENOR
+export:         to AS48237 announce AS-TELENOR
+export:         to AS48345 announce AS-TELENOR
+export:         to AS48514 announce AS-TELENOR
+export:         to AS48519 announce AS-TELENOR
+export:         to AS48526 announce AS-TELENOR
+export:         to AS49102 announce AS-TELENOR
+export:         to AS49222 announce ANY
+export:         to AS49310 announce ANY
+export:         to AS49375 announce AS-TELENOR
+export:         to AS49409 announce ANY
+export:         to AS49453 announce AS-TELENOR
+export:         to AS49515 announce AS-TELENOR
+export:         to AS49544 announce AS-TELENOR
+export:         to AS49572 announce AS-TELENOR
+export:         to AS49605 announce AS-TELENOR
+export:         to AS49685 announce AS-TELENOR
+export:         to AS49770 announce AS-TELENOR
+export:         to AS49788 announce AS-TELENOR
+export:         to AS49820 announce AS-TELENOR
+export:         to AS49952 announce ANY
+export:         to AS49981 announce AS-TELENOR
+export:         to AS50033 announce ANY
+export:         to AS50217 announce ANY
+export:         to AS50245 announce AS-TELENOR
+export:         to AS50266 announce AS-TELENOR
+export:         to AS50270 announce AS-TELENOR
+export:         to AS50300 announce AS-TELENOR
+export:         to AS50304 announce AS-TELENOR
+export:         to AS50384 announce AS-TELENOR
+export:         to AS50629 announce AS-TELENOR
+export:         to AS50673 announce AS-TELENOR
+export:         to AS50837 announce AS-TELENOR
+export:         to AS50923 announce AS-TELENOR
+export:         to AS50986 announce AS-TELENOR
+export:         to AS50989 announce AS-TELENOR
+export:         to AS51088 announce AS-TELENOR
+export:         to AS51185 announce AS-TELENOR
+export:         to AS51406 announce AS-TELENOR
+export:         to AS51468 announce AS-TELENOR
+export:         to AS51483 announce AS-TELENOR
+export:         to AS51752 announce AS-TELENOR
+export:         to AS51852 announce AS-TELENOR
+export:         to AS51918 announce AS-TELENOR
+export:         to AS51945 announce AS-TELENOR
+export:         to AS52157 announce ANY
+export:         to AS52320 announce AS-TELENOR
+export:         to AS52873 announce AS-TELENOR
+export:         to AS53264 announce AS-TELENOR
+export:         to AS54104 announce AS-TELENOR
+export:         to AS54113 announce AS-TELENOR
+export:         to AS54994 announce AS-TELENOR
+export:         to AS55195 announce AS-TELENOR
+export:         to AS55967 announce AS-TELENOR
+export:         to AS56478 announce AS-TELENOR
+export:         to AS56630 announce AS-TELENOR
+export:         to AS56647 announce AS-TELENOR
+export:         to AS56665 announce AS-TELENOR
+export:         to AS56704 announce AS-TELENOR
+export:         to AS57208 announce AS-TELENOR
+export:         to AS57344 announce AS-TELENOR
+export:         to AS57463 announce AS-TELENOR
+export:         to AS57811 announce AS-TELENOR
+export:         to AS57928 announce AS-TELENOR
+export:         to AS57976 announce AS-TELENOR
+export:         to AS58073 announce AS-TELENOR
+export:         to AS58453 announce AS-TELENOR
+export:         to AS58552 announce AS-TELENOR
+export:         to AS58601 announce AS-TELENOR
+export:         to AS59318 announce AS-TELENOR
+export:         to AS59605 announce AS-TELENOR
+export:         to AS59835 announce AS-TELENOR
+export:         to AS60011 announce AS-TELENOR
+export:         to AS60052 announce ANY
+export:         to AS60068 announce AS-TELENOR
+export:         to AS60144 announce AS-TELENOR
+export:         to AS60169 announce AS-TELENOR
+export:         to AS60171 announce AS-TELENOR
+export:         to AS60294 announce AS-TELENOR
+export:         to AS60522 announce AS-TELENOR
+export:         to AS60586 announce ANY
+export:         to AS60610 announce AS-TELENOR
+export:         to AS60687 announce ANY
+export:         to AS60717 announce ANY
+export:         to AS60745 announce ANY
+export:         to AS60830 announce ANY
+export:         to AS61012 announce AS-TELENOR
+export:         to AS61049 announce AS-TELENOR
+export:         to AS61244 announce AS-TELENOR
+export:         to AS61275 announce ANY
+export:         to AS61337 announce AS-TELENOR
+export:         to AS61955 announce AS-TELENOR
+export:         to AS62044 announce AS-TELENOR
+export:         to AS62183 announce AS-TELENOR
+export:         to AS62217 announce AS-TELENOR
+export:         to AS62225 announce ANY
+export:         to AS62240 announce AS-TELENOR
+export:         to AS62955 announce AS-TELENOR
+export:         to AS63113 announce AS-TELENOR
+export:         to AS63927 announce AS-TELENOR
+export:         to AS63949 announce AS-TELENOR
+export:         to AS64049 announce AS-TELENOR
+export:         to AS64050 announce AS-TELENOR
+export:         to AS64424 announce ANY
+export:         to AS64440 announce ANY
+export:         to AS132203 announce AS-TELENOR
+export:         to AS132876 announce AS-TELENOR
+export:         to AS134390 announce AS-TELENOR
+export:         to AS134512 announce AS-TELENOR
+export:         to AS135391 announce AS-TELENOR
+export:         to AS196752 announce AS-TELENOR
+export:         to AS196788 announce ANY
+export:         to AS196844 announce AS-TELENOR
+export:         to AS197090 announce ANY
+export:         to AS197212 announce ANY
+export:         to AS197540 announce AS-TELENOR
+export:         to AS197541 announce AS-TELENOR
+export:         to AS197595 announce AS-TELENOR
+export:         to AS197617 announce AS-TELENOR
+export:         to AS197943 announce ANY
+export:         to AS198093 announce AS-TELENOR
+export:         to AS198385 announce AS-TELENOR
+export:         to AS198792 announce AS-TELENOR
+export:         to AS198930 announce AS-TELENOR
+export:         to AS199524 announce AS-TELENOR
+export:         to AS199672 announce ANY
+export:         to AS199791 announce ANY
+export:         to AS199900 announce ANY
+export:         to AS199990 announce ANY
+export:         to AS199999 announce ANY
+export:         to AS200037 announce ANY
+export:         to AS200052 announce AS-TELENOR
+export:         to AS200139 announce ANY
+export:         to AS200168 announce ANY
+export:         to AS200187 announce AS-TELENOR
+export:         to AS200507 announce AS-TELENOR
+export:         to AS200612 announce AS-TELENOR
+export:         to AS200665 announce ANY
+export:         to AS200781 announce AS-TELENOR
+export:         to AS200915 announce ANY
+export:         to AS201229 announce AS-TELENOR
+export:         to AS201454 announce ANY
+export:         to AS201627 announce ANY
+export:         to AS201641 announce AS-TELENOR
+export:         to AS202020 announce AS-TELENOR
+export:         to AS202033 announce ANY
+export:         to AS202053 announce AS-TELENOR
+export:         to AS202128 announce ANY
+export:         to AS202204 announce ANY
+export:         to AS202230 announce ANY
+export:         to AS202932 announce AS-TELENOR
+export:         to AS202954 announce AS-TELENOR
+export:         to AS203424 announce ANY
+export:         to AS203673 announce ANY
+export:         to AS203733 announce ANY
+export:         to AS204728 announce ANY
+export:         to AS205388 announce AS-TELENOR
+export:         to AS206264 announce AS-TELENOR
+export:         to AS206725 announce ANY
+export:         to AS206993 announce ANY
+export:         to AS207035 announce ANY
+export:         to AS210307 announce ANY
+export:         to AS262788 announce AS-TELENOR
+export:         to AS328145 announce AS-TELENOR
+export:         to AS394354 announce AS-TELENOR
+org:            ORG-NA38-RIPE
+admin-c:        OT207-RIPE
+tech-c:         TRR5-RIPE
+remarks:
+remarks:        For peering requests, mailto:peering@telenor.net
+remarks:
+remarks:        If you have peering trouble, call our 24h NOC
+remarks:        at +47 81555760 or mailto:noc@telenor.net
+remarks:
+remarks:        For complaints about our users,
+remarks:        mailto:abuse@telenor.net
+remarks:
+remarks:
+remarks:        Community values available for our customers:
+remarks:
+remarks:        2119:900    Do not announce to upstream providers
+remarks:        2119:901    Prepend when announcing to upstream providers
+remarks:
+remarks:        2119:990    Set local-preference to 90
+remarks:        2119:991    Set local-preference to 110
+remarks:
+remarks:        Additional community value available for our customers in Norway:
+remarks:
+remarks:        2119:995    Blackhole (discard) traffic
+remarks:
+remarks:
+status:         LEGACY
+mnt-by:         AS8210-MNT
+mnt-by:         AS2119-MNT
+mnt-by:         RIPE-NCC-LEGACY-MNT
+created:        2002-07-31T15:37:06Z
+last-modified:  2019-02-07T10:11:24Z
+source:         RIPE
+
+organisation:   ORG-NA38-RIPE
+org-name:       Telenor Norge AS
+org-type:       LIR
+address:        Snaroyveien 30
+address:        N-1360
+address:        Fornebu
+address:        NORWAY
+phone:          +4781077000
+admin-c:        EOE-RIPE
+admin-c:        THK-RIPE
+admin-c:        TNA4-RIPE
+admin-c:        HSO3-RIPE
+admin-c:        TBS-RIPE
+abuse-c:        tiar5-ripe
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS2119-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS2119-MNT
+created:        2004-04-17T11:46:05Z
+last-modified:  2017-10-30T14:34:51Z
+source:         RIPE # Filtered
+
+role:           Telenor Routing Registry
+address:        Telenor Norge AS
+address:        Snaroyveien 30
+address:        N-1360 Fornebu
+address:        Norway
+phone:          +47 67 89 00 00
+admin-c:        TNA4-RIPE
+tech-c:         TNA4-RIPE
+tech-c:         THA-RIPE
+nic-hdl:        TRR5-RIPE
+mnt-by:         AS2119-MNT
+created:        2002-07-31T15:07:37Z
+last-modified:  2017-06-12T10:08:41Z
+source:         RIPE # Filtered
+
+person:         Ove Toien
+address:        Telenor Norge AS
+address:        Snaroeyveien 30
+address:        N-1360 Fornebu
+address:        Norway
+phone:          +47 67 89 00 00
+nic-hdl:        OT207-RIPE
+mnt-by:         AS2119-MNT
+created:        2003-12-03T12:35:05Z
+last-modified:  2017-06-12T10:29:30Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

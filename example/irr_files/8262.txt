@@ -1,0 +1,169 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8262'
+
+% Abuse contact for 'AS8262' is 'abuse@evolink.com'
+
+aut-num:        AS8262
+as-name:        EVOLINK-AS
+org:            ORG-NAL1-RIPE
+remarks:
+remarks:        --------------------------------------------------------
+remarks:        Please send any abuse reports to abuse@evolink.com
+remarks:        For peering questions to peering@evolink.com
+remarks:        For any other issues use support@evolink.com
+remarks:        --------------------------------------------------------
+remarks:
+remarks:        - RFC1918 and other reserved networks and subnet
+remarks:        are not permitted.
+remarks:
+remarks:        - Advertisements with reserved ASes in the path
+remarks:        (ie 64512 - 65535) are not permitted.
+remarks:
+remarks:        - Prefixes shorter than /8 or longer than /24 are
+remarks:        not permitted.
+remarks:
+remarks:        - Localpref will be set to 300 by default, subject
+remarks:        to modification based on received communities as
+remarks:        outlined below.
+remarks:
+remarks:        - A hard limit is placed on the number of routes a
+remarks:        peer is allowed to announce to us. This number
+remarks:        is based on their registered routes plus a bit
+remarks:        of extra overhead.
+remarks:
+remarks:        - It's required to have properly created objects in RIPE
+remarks:        database to exchange prefixes with us.
+remarks:
+remarks:        - Our as-set in AS-EVOLINK
+remarks:
+remarks:        - Looking glass is available at http://lg.evolink.net
+remarks:
+remarks:        - This object is auto generated
+remarks:
+remarks:        +------------------------------------------------------+
+remarks:        | Communities in use |
+remarks:        +------------------------------------------------------+
+remarks:
+remarks:        8262:300 - Received from customers
+remarks:        8262:500 - Received from private exchange peers
+remarks:        8262:600 - Received from BIX
+remarks:        8262:1300 - Received from NTT
+remarks:        8262:1500 - Received from AMS-IX
+remarks:        8262:1600 - Received from DE-CIX
+remarks:        8262:1700 - Received from IX REACH
+remarks:        8262:1800 - Received from Telia
+remarks:        8262:3100 - Received from France IX
+remarks:        8262:3200 - Received from Equinix Paris
+remarks:
+remarks:        8262:2300 - Announce to NTT
+remarks:        8262:2310 - Announce to NTT with prepend
+remarks:        8262:2500 - Announce to AMS-IX
+remarks:        8262:2510 - Announce to AMS-IX with prepend
+remarks:        8262:2600 - Announce to DE-CIX
+remarks:        8262:2610 - Announce to DE-CIX with prepend
+remarks:        8262:2700 - Announce to IX REACH
+remarks:        8262:2710 - Announce to IX REACH with prepend
+remarks:        8262:2800 - Announce to Telia
+remarks:        8262:2810 - Announce to Telia with prepend
+remarks:        8262:4100 - Announce to France IX
+remarks:        8262:4110 - Announce to France IX with prepend
+remarks:        8262:4200 - Announce to Equinix Paris
+remarks:        8262:4210 - Announce to Equinix Paris with prepend
+remarks:
+remarks:
+remarks:
+admin-c:        LNAC1-RIPE
+tech-c:         LNTC1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8262-MNT
+created:        2001-10-02T18:17:30Z
+last-modified:  2017-11-15T09:16:38Z
+source:         RIPE
+
+organisation:   ORG-NAL1-RIPE
+org-name:       Evolink AD
+org-type:       LIR
+address:        16V Barzaritsa str.
+address:        1111
+address:        Sofia
+address:        BULGARIA
+phone:          +359 2 9 691 555
+fax-no:         +359 2 971 00 84
+admin-c:        KOBE-RIPE
+admin-c:        ZV33-RIPE
+admin-c:        MIS111-RIPE
+admin-c:        EGG-RIPE
+admin-c:        MS11516-RIPE
+admin-c:        SH2902-RIPE
+admin-c:        NC4450-RIPE
+abuse-c:        LNAB1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS8262-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS8262-MNT
+created:        2004-04-17T11:01:16Z
+last-modified:  2017-09-18T10:01:34Z
+source:         RIPE # Filtered
+
+role:           Evolink administrative contact
+remarks:        trouble: billing, legal, case clearing
+remarks:        trouble: and other administrative issues
+address:        ul. Barzaritsa 16V
+address:        1618 Sofia,
+address:        Bulgaria
+phone:          +359 2 969 1555
+fax-no:         +359 2 971 0084
+admin-c:        SH2902-RIPE
+tech-c:         LNTC1-RIPE
+nic-hdl:        LNAC1-RIPE
+mnt-by:         AS8262-MNT
+created:        2001-12-06T11:06:20Z
+last-modified:  2018-01-29T08:53:28Z
+source:         RIPE # Filtered
+
+role:           Evolink Technical Contact
+remarks:        trouble: +-----------------------------------------------------------------------
+remarks:        trouble: | Abuse contact: abuse@evolink.com in case of Hack Attacks, |
+remarks:        trouble: | Illegal Activity, Violation,routing, filters and other technical |
+remarks:        trouble: | issues. |
+remarks:        trouble: +-----------------------------------------------------------------------
+address:        ul. Barzaritsa 16V
+address:        1618 Sofia,
+address:        Bulgaria
+phone:          +359 2 969 1555
+fax-no:         +359 2 971 0084
+admin-c:        LNAC1-RIPE
+tech-c:         MS11516-RIPE
+tech-c:         ZV33-RIPE
+tech-c:         MIS111-RIPE
+tech-c:         EGG-RIPE
+tech-c:         KOBE-RIPE
+nic-hdl:        LNTC1-RIPE
+mnt-by:         AS8262-MNT
+created:        2002-07-18T16:24:01Z
+last-modified:  2018-08-30T08:03:49Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@evolink.com
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

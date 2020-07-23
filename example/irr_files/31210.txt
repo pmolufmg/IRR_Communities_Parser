@@ -1,0 +1,633 @@
+aut-num:        AS31210
+as-name:        DTEL-IX-AS
+org:            ORG-DTIX1-RIPE
+remarks:        --------------------------- Ukrainian Peers ----------------------------------
+import:         from AS3202  action pref=100; accept AS-DS              # Digital Screens LLC
+export:         to   AS3202  announce AS-DTEL-IX
+import:         from AS3255  action pref=100; accept AS-UARNET          # UAR Net
+export:         to   AS3255  announce AS-DTEL-IX
+import:         from AS3261  action pref=100; accept AS-DIPT            # Fticom
+export:         to   AS3261  announce AS-DTEL-IX
+import:         from AS6663  action pref=100; accept AS-PANTEL          # Turk Telecom International
+export:         to   AS6663  announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS6563 accept AS-EWRO6
+mp-export:      afi ipv6.unicast to   AS6663 announce AS-DTEL-IX-V6
+import:         from AS6712  action pref=100; accept AS-FORMAT          # MSP Format
+export:         to   AS6712  announce AS-DTEL-IX
+import:         from AS6723  action pref=100; accept AS-6723            # PE Vereschinskiy
+export:         to   AS6723  announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS6723 accept AS-6723-V6
+mp-export:      afi ipv6.unicast to   AS6723 announce AS-DTEL-IX-V6
+import:         from AS6768  action pref=100; accept AS-EUROTELE        # Eurotel LLC
+export:         to   AS6768  announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS6768 accept AS-EUROTELE
+mp-export:      afi ipv6.unicast to   AS6768 announce AS-DTEL-IX-V6
+import:         from AS6807  action pref=100; accept AS6807             # CIT Kharkiv Online
+export:         to   AS6807  announce AS-DTEL-IX
+import:         from AS6849  action pref=100; accept AS-UKRTELBT        # Ukrtelecom
+export:         to   AS6849  announce AS-DTEL-IX
+import:         from AS6876  action pref=100; accept AS-TENET-UA        # Tenet LLC
+export:         to   AS6876  announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS6876 accept AS-TENET-UA
+mp-export:      afi ipv6.unicast to   AS6876 announce AS-DTEL-IX-V6
+import:         from AS6886  action pref=100; accept AS-INTS            # Data Internet LLC
+export:         to   AS6886  announce AS-DTEL-IX
+import:         from AS8343  action pref=100; accept AS-DORIS           # Doris PrJSC
+export:         to   AS8343  announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS8343 accept AS-DORIS
+mp-export:      afi ipv6.unicast to   AS8343 announce AS-DTEL-IX-V6
+import:         from AS8779  action pref=100; accept AS-IC              # KhmelnitskInfocom LLC
+export:         to   AS8779  announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS8779 accept AS-IC-v6
+mp-export:      afi ipv6.unicast to   AS8779 announce AS-DTEL-IX-V6
+import:         from AS8788  action pref=100; accept AS-ADAM-UA         # Adamant
+export:         to   AS8788  announce AS-DTEL-IX
+import:         from AS8870  action pref=100; accept AS-OVOD            # Tomak PE
+export:         to   AS8870  announce AS-DTEL-IX
+import:         from AS8926  action pref=100; accept AS-MOLDTELECOM     # Moldtelecom JSC
+export:         to   AS8926  announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS8926 accept AS-MOLDTELECOM-V6
+mp-export:      afi ipv6.unicast to   AS8926 announce AS-DTEL-IX-V6
+import:         from AS12883 action pref=100; accept AS-UCOMLINE        # Vega Telecom
+export:         to   AS12883 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS12883 accept AS-UCOMLINE
+mp-export:      afi ipv6.unicast to   AS12883 announce AS-DTEL-IX-V6
+import:         from AS12963 action pref=100; accept AS12963:AS-CUST2UAIX # VOLZ SIF LLC
+export:         to   AS12963 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS12963 accept AS12963:AS-CUST2UAIX-v6
+mp-export:      afi ipv6.unicast to   AS12963 announce AS-DTEL-IX-V6
+import:         from AS13032 action pref=100; accept AS-UNIV            # Kyiv National University
+export:         to   AS13032 announce AS-DTEL-IX
+import:         from AS13188 action pref=100; accept AS-BANKINFORM      # Triolan
+export:         to   AS13188 announce AS-DTEL-IX
+import:         from AS13249 action pref=100; accept AS-ITS             # IT Systems LLC
+export:         to   AS13249 announce AS-DTEL-IX
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE      # Cloudflare, Inc.
+export:         to   AS13335 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS13335 accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to   AS13335 announce AS-DTEL-IX-V6
+import:         from AS15169 action pref=100; accept AS-GOOGLE          # Google Inc.
+export:         to   AS15169 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169 announce AS-DTEL-IX-V6
+import:         from AS15377 action pref=100; accept AS-FREGAT          # Fregat
+export:         to   AS15377 announce AS-DTEL-IX
+import:         from AS15497 action pref=100; accept AS-COLOCALL        # Colocall LLC
+export:         to   AS15497 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS15497 accept AS-COLOCALL6
+mp-export:      afi ipv6.unicast to   AS15497 announce AS-DTEL-IX-V6
+import:         from AS15772 action pref=100; accept AS-WNET:AS-PP      # WNet
+export:         to   AS15772 announce AS-DTEL-IX
+import:         from AS15895 action pref=100; accept AS15895:AS-DTEL-IX # Kyivstar JSC
+export:         to   AS15895 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS15895 accept AS15895:AS-ALL-IPV6
+mp-export:      afi ipv6.unicast to   AS15895 announce AS-DTEL-IX-V6
+import:         from AS16066 action pref=100; accept AS-TESTUA          # T.E.S.T. LLC
+export:         to   AS16066 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS16066 accept AS-TESTUA6
+mp-export:      afi ipv6.unicast to   AS16066 announce AS-DTEL-IX-V6
+import:         from AS20940 action pref=100; accept AS-AKAMAI          # Akamai International B.V.
+export:         to   AS20940 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS20940 accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to   AS20940 announce AS-DTEL-IX-V6
+import:         from AS3326  action pref=100; accept AS3326:AS-EXT      # Datagroup PrJSC
+import:         from AS21219 action pref=100; accept AS-NEWLINE
+export:         to   AS3326
+                to   AS21219
+                announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS3326  accept AS3326:AS-EXT
+mp-import:      afi ipv6.unicast from AS21219 accept AS-NEWLINE
+mp-export:      afi ipv6.unicast
+                to AS3326
+                to AS21219
+                announce AS-DTEL-IX-V6
+import:         from AS21488 action pref=100; accept AS-EMPLOT          # Emplot LLC
+export:         to   AS21488 announce AS-DTEL-IX
+import:         from AS21497 action pref=100; accept AS-UMC-CUSTOMERS   # MTS Ukraine PrJSC
+export:         to   AS21497 announce AS-DTEL-IX
+import:         from AS24700 action pref=100; accept as-iprosrv         # Paritet Web LLC
+export:         to   AS24700 announce AS-DTEL-IX
+import:         from AS24703 action pref=100; accept AS-UNITED          # United Networks of Ukraine LLC
+export:         to   AS24703 announce AS-DTEL-IX
+import:         from AS25133 action pref=100; accept AS-MCLAUT          # McLaut Invest LLC
+export:         to   AS25133 announce AS-DTEL-IX
+import:         from AS25143 action pref=100; accept AS-IU-DTEL-IX      # General Networks LLC
+export:         to   AS25143 announce AS-DTEL-IX
+import:         from AS25229 action pref=100; accept AS25229:AS-CUST    # Volia
+export:         to   AS25229 announce AS-DTEL-IX
+import:         from AS25372 action pref=100; accept AS25372:AS-PEER    # IT Consulting LLC
+export:         to   AS25372 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS25372 accept AS-ITCON-IPV6
+mp-export:      afi ipv6.unicast to   AS25372 announce AS-DTEL-IX-V6
+import:         from AS25482 action pref=100; accept AS25482:AS-CUSTOMERS # Law Firm Status, PE
+export:         to   AS25482 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS25482 accept AS-STATUS-V6
+mp-export:      afi ipv6.unicast to   AS25482 announce AS-DTEL-IX-V6
+import:         from AS25526 action pref=100; accept AS25526            # Lambda Net LLC
+export:         to   AS25526 announce AS-DTEL-IX
+import:         from AS25505 action pref=100; accept AS25505:AS-CHEREDA-IX # Chereda PE
+import:         from AS21312 action pref=100; accept AS-CHEREDA-SM
+export:         to   AS25505
+                to   AS21312
+                announce AS-DTEL-IX
+import:         from AS28681 action pref=100; accept AS-KMIX            # KM-IX
+export:         to   AS28681 announce AS-DTEL-IX
+import:         from AS28773 action pref=100; accept AS-MASTER          # Global Technologies of Ukraine
+export:         to   AS28773 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS28773 accept AS-GTU-v6
+mp-export:      afi ipv6.unicast to   AS28773 announce AS-DTEL-IX-V6
+import:         from AS28917 action pref=100; accept AS-FIORD           # Fiord
+export:         to   AS28917 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS28917 accept AS-FIORD
+mp-export:      afi ipv6.unicast to   AS28917 announce AS-DTEL-IX-V6
+import:         from AS29076 action pref=100; accept AS-CITYTELECOM     # Filanco LLC
+export:         to   AS29076 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS29076 accept AS-CITYTELECOM
+mp-export:      afi ipv6.unicast to   AS29076 announce AS-DTEL-IX-V6
+import:         from AS29107 action pref=100; accept AS-SYNAPSE         # Synapse
+export:         to   AS29107 announce AS-DTEL-IX
+import:         from AS29203 action pref=100; accept AS29203            # House of Informational Technologies LLC
+export:         to   AS29203 announce AS-DTEL-IX
+import:         from AS29632 action pref=100; accept AS-NETASSIST       # Netassist LLC
+export:         to   AS29632 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS29632 accept AS-NETASSIST
+mp-export:      afi ipv6.unicast to   AS29632 announce AS-DTEL-IX-V6
+import:         from AS30886 action pref=100; accept AS-KOMITEX         # Kom i Tex PE
+export:         to   AS30886 announce AS-DTEL-IX
+import:         from AS31148 action pref=100; accept AS-FNT             # Freenet LLC
+export:         to   AS31148 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS31148 accept AS-FNT-v6
+mp-export:      afi ipv6.unicast to   AS31148 announce AS-DTEL-IX-V6
+import:         from AS31272 action pref=100; accept AS-WILDPARK        # Wild Park
+export:         to   AS31272 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS31272 accept AS-WILDPARK-V6
+mp-export:      afi ipv6.unicast to   AS31272 announce AS-DTEL-IX-V6
+import:         from AS31343 action pref=100; accept AS-INTERTELECOM    # Intertelecom
+export:         to   AS31343 announce AS-DTEL-IX
+import:         from AS31725 action pref=100; accept AS-SHTORM          # Shtorm LLC
+export:         to   AS31725 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS31725 accept AS-SHTORM-V6
+mp-export:      afi ipv6.unicast to   AS31725 announce AS-DTEL-IX-V6
+import:         from AS34056 action pref=100; accept AS-KIEVNET         # Kyivnet LLC
+export:         to   AS34056 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS34056 accept AS-KIEVNETV6
+mp-export:      afi ipv6.unicast to   AS34056 announce AS-DTEL-IX-V6
+import:         from AS34214 action pref=100; accept AS-IPMG            # IP Media Group LLC
+export:         to   AS34214 announce AS-DTEL-IX
+import:         from AS34251 action pref=100; accept AS-IMC             # IMC LLC
+export:         to   AS34251 announce AS-DTEL-IX
+import:         from AS34312 action pref=100; accept AS-ITMEDIA-UAIX    # PE Boyko O.M.
+export:         to   AS34312 announce AS-DTEL-IX
+import:         from AS34700 action pref=100; accept AS-KHMAXNET        # Maxnet LLC
+export:         to   AS34700 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS34700 accept AS-KHMAXNET
+mp-export:      afi ipv6.unicast to   AS34700 announce AS-DTEL-IX-V6
+import:         from AS34867 action pref=100; accept AS-COSMONOVA       # Cosmonova
+export:         to   AS34867 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS34867 accept AS-COSMONOVA
+mp-export:      afi ipv6.unicast to   AS34867 announce AS-DTEL-IX-V6
+import:         from AS35213 action pref=100; accept AS-PCN             # Kahovka Net LLC
+export:         to   AS35213 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS35213 accept AS-PCN-V6
+mp-export:      afi ipv6.unicast to   AS35213 announce AS-DTEL-IX-V6
+import:         from AS35297 action pref=100; accept AS-DL-DTELIX       # Dataline LLC
+export:         to   AS35297 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS35297 accept AS-DL-v6
+mp-export:      afi ipv6.unicast to   AS35297 announce AS-DTEL-IX-V6
+import:         from AS35320 action pref=100; accept AS-ETT             # Eurotranstelecom LLC
+export:         to   AS35320 announce AS-DTEL-IX
+import:         from AS35362 action pref=100; accept AS-35362           # BEST LLC
+export:         to   AS35362 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS35362 accept AS-35362-6
+mp-export:      afi ipv6.unicast to   AS35362 announce AS-DTEL-IX-V6
+import:         from AS35562 action pref=100; accept AS35562            # Kedr LLC
+export:         to   AS35562 announce AS-DTEL-IX
+import:         from AS35614 action pref=100; accept AS-TH              # Levin PE
+export:         to   AS35614 announce AS-DTEL-IX
+import:         from AS39399 action pref=100; accept AS-FENIXVT         # PPF Fenix VT
+export:         to   AS39399 announce AS-DTEL-IX
+import:         from AS39608 action pref=100; accept AS-LANETUA         # Lanet
+export:         to   AS39608 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS39608 accept AS-LANETUA-v6
+mp-export:      afi ipv6.unicast to   AS39608 announce AS-DTEL-IX-V6
+import:         from AS39728 action pref=100; accept AS-Luganet         # TK Driada LLC
+export:         to   AS39728 announce AS-DTEL-IX
+import:         from AS39848 action pref=100; accept AS-CITYLANUA       # Citylan LLC
+export:         to   AS39848 announce AS-DTEL-IX
+import:         from AS39862 action pref=100; accept AS-DIGIUA          # Digital Communications PE
+export:         to   AS39862 announce AS-DTEL-IX
+import:         from AS39928 action pref=100; accept AS-1PLUS1          # 1+1
+export:         to   AS39928 announce AS-DTEL-IX
+import:         from AS41095 action pref=100; accept AS-IPTP            # IPTP
+export:         to   AS41095 announce AS-DTEL-IX
+import:         from AS41096 action pref=100; accept AS41096            # TRC TIM LLC
+export:         to   AS41096 announce AS-DTEL-IX
+import:         from AS41119 action pref=100; accept AS41119            # Union of Groups LLC
+export:         to   AS41119 announce AS-DTEL-IX
+import:         from AS41165 action pref=100; accept AS-UNTC            # UNTC LLC
+export:         to   AS41165 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS41165 accept AS-UNTC-V6
+mp-export:      afi ipv6.unicast to   AS41165 announce AS-DTEL-IX-V6
+import:         from AS41360 action pref=100; accept AS-NEOCOM          # Neocom LLC
+export:         to   AS41360 announce AS-DTEL-IX
+import:         from AS41435 action pref=100; accept AS-NETUNDER        # Undernet LLC
+export:         to   AS41435 announce AS-DTEL-IX
+import:         from AS41820 action pref=100; accept AS-PICS            # New Information Systems PE
+export:         to   AS41820 announce AS-DTEL-IX
+import:         from AS42331 action pref=100; accept AS-FREEHOST        # Freehost PE
+export:         to   AS42331 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS42331 accept AS-FREEHOST
+mp-export:      afi ipv6.unicast to   AS42331 announce AS-DTEL-IX-V6
+import:         from AS42396 action pref=100; accept AS-PPLnet          # Telesystems of Ukraine
+export:         to   AS42396 announce AS-DTEL-IX
+import:         from AS43022 action pref=100; accept AS-UASEECH         # Seech-Infocom LLC
+export:         to   AS43022 announce AS-DTEL-IX
+import:         from AS43110 action pref=100; accept AS-ROSTNET         # RostNet
+export:         to   AS43110 announce AS-DTEL-IX
+import:         from AS43139 action pref=100; accept AS-MAXIMUM-EUROTEL # Maximum-Net LLC
+export:         to   AS43139 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS43139 accept AS-MAXIMUM-V6
+mp-export:      afi ipv6.unicast to   AS43139 announce AS-DTEL-IX-V6
+import:         from AS43332 action pref=100; accept AS-IDSTRATEGY      # IDStrategy LLC
+export:         to   AS43332 announce AS-DTEL-IX
+import:         from AS43418 action pref=100; accept AS-ANTIDOT         # New Networks of Ukraine LLC
+export:         to   AS43418 announce AS-DTEL-IX
+import:         from AS43554 action pref=100; accept AS-MYTRINITY       # Trinity
+export:         to   AS43554 announce AS-DTEL-IX
+import:         from AS43576 action pref=100; accept AS-KUMIR-PARITY    # Kumir Telecom
+export:         to   AS43576 announce AS-DTEL-IX
+import:         from AS43656 action pref=100; accept AS43656            # KP Intertelecom LLC
+export:         to   AS43656 announce AS-DTEL-IX
+import:         from AS43668 action pref=100; accept AS-ELHIM           # Bignet LLC
+export:         to   AS43668 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS43668 accept AS-ELHIM
+mp-export:      afi ipv6.unicast to   AS43668 announce AS-DTEL-IX-V6
+import:         from AS44416 action pref=100; accept AS-SNS-SLAV        # Satellite Net Service LLC
+export:         to   AS44416 announce AS-DTEL-IX
+import:         from AS44532 action pref=100; accept AS44532            # Iricom-Ukraine LLC
+export:         to   AS44532 announce AS-DTEL-IX
+import:         from AS44629 action pref=100; accept AS-POINTUA         # Pointnet PE
+export:         to   AS44629 announce AS-DTEL-IX
+import:         from AS44863 action pref=100; accept AS-STAR-NET        # TC Starnet LLC
+export:         to   AS44863 announce AS-DTEL-IX
+import:         from AS47513 action pref=100; accept AS-SKYLINE-KH      # Zubenko V.O. PE
+export:         to   AS47513 announce AS-DTEL-IX
+import:         from AS47702 action pref=100; accept AS-DISCOVERY       # TRC Discovery LLC
+export:         to   AS47702 announce AS-DTEL-IX
+import:         from AS48094 action pref=100; accept AS-ELECTRA         # Electra PMBC
+export:         to   AS48094 announce AS-DTEL-IX
+import:         from AS48117 action pref=100; accept AS-48117           # C.T.Net
+export:         to   AS48117 announce AS-DTEL-IX
+import:         from AS48442 action pref=100; accept AS-IT-STARCOM      # IT Starcom LLC
+export:         to   AS48442 announce AS-DTEL-IX
+import:         from AS48641 action pref=100; accept AS-GRATUS          # Syntegra Systems LLC
+export:         to   AS48641 announce AS-DTEL-IX
+import:         from AS48648 action pref=100; accept AS-KLNK            # K-Link LLC
+export:         to   AS48648 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS48648 accept AS-KLNK-v6
+mp-export:      afi ipv6.unicast to   AS48648 announce AS-DTEL-IX-V6
+import:         from AS48897 action pref=100; accept AS-KBAVIA          # KB Avia
+export:         to   AS48897 announce AS-DTEL-IX
+import:         from AS48919 action pref=100; accept AS-UACITY          # Uacity LLC
+export:         to   AS48919 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS48919 accept AS-UACITY
+mp-export:      afi ipv6.unicast to   AS48919 announce AS-DTEL-IX-V6
+import:         from AS48964 action pref=100; accept AS-ENTERRA         # Enterra PE
+export:         to   AS48964 announce AS-DTEL-IX
+import:         from AS49029 action pref=100; accept AS-PROLINK         # Prolink LLC
+export:         to   AS49029 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS49029 accept AS-PROLINK-6
+mp-export:      afi ipv6.unicast to   AS49029 announce AS-DTEL-IX-V6
+import:         from AS49183 action pref=100; accept AS49183:AS-CUSTOMERS # Galician Telecommunications LLC
+export:         to   AS49183 announce AS-DTEL-IX
+import:         from AS49223 action pref=100; accept AS-EVEREST         # TRC Everest
+export:         to   AS49223 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS49223 accept AS-EVEREST-IPV6
+mp-export:      afi ipv6.unicast to   AS49223 announce AS-DTEL-IX-V6
+import:         from AS49588 action pref=100; accept AS-SDS             # SDS Group LLC
+export:         to   AS49588 announce AS-DTEL-IX
+import:         from AS49824 action pref=100; accept AS-ACTPA           # Astra-Lviv LLC
+export:         to   AS49824 announce AS-DTEL-IX
+import:         from AS50204 action pref=100; accept AS50204            # Arhat LLC
+export:         to   AS50204 announce AS-DTEL-IX
+import:         from AS50211 action pref=100; accept AS-INTERTELCOM     # If-Ix PE
+export:         to   AS50211 announce AS-DTEL-IX
+import:         from AS50281 action pref=100; accept AS50281            # Studnet Telecom LLC
+export:         to   AS50281 announce AS-DTEL-IX
+import:         from AS50579 action pref=100; accept AS-SIM-LTD         # Modern Information Networks LLC
+export:         to   AS50579 announce AS-DTEL-IX
+import:         from AS50581 action pref=100; accept AS-UTG-UA          # UTG LLC
+export:         to   AS50581 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS50581 accept AS-UTG-v6
+mp-export:      afi ipv6.unicast to   AS50581 announce AS-DTEL-IX-V6
+import:         from AS50643 action pref=100; accept AS-LU              # Lurenet PE
+export:         to   AS50643 announce AS-DTEL-IX
+import:         from AS50803 action pref=100; accept AS50803            # Serykh O.P. PE
+export:         to   AS50803 announce AS-DTEL-IX
+import:         from AS51069 action pref=100; accept AS-DNEPRONET       # Dnipronet LLC
+export:         to   AS51069 announce AS-DTEL-IX
+import:         from AS51464 action pref=100; accept AS51464            # DBO Soft LLC
+export:         to   AS51464 announce AS-DTEL-IX
+import:         from AS51500 action pref=100; accept AS51500            # Servicenet LLC
+export:         to   AS51500 announce AS-DTEL-IX
+import:         from AS51784 action pref=100; accept AS-XCITY           # X-City LLC
+export:         to   AS51784 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS51784 accept AS-XCITY
+mp-export:      afi ipv6.unicast to   AS51784 announce AS-DTEL-IX-V6
+import:         from AS51972 action pref=100; accept AS-SIMTELECOM      # Sim-Telecom LLC
+export:         to   AS51972 announce AS-DTEL-IX
+import:         from AS52180 action pref=100; accept AS-EL              # Internet East Group LLC
+export:         to   AS52180 announce AS-DTEL-IX
+import:         from AS56404 action pref=100; accept AS56404            # Norma-4 PE
+export:         to   AS56404 announce AS-DTEL-IX
+import:         from AS57864 action pref=100; accept AS-MEGABIT         # Megabit Service LLC
+export:         to   AS57864 announce AS-DTEL-IX
+import:         from AS59492 action pref=100; accept AS-MEGOGO-UA       # Megogo
+export:         to   AS59492 announce AS-DTEL-IX
+import:         from AS59497 action pref=100; accept AS-BUKNET-DTEL     # Buknet LLC
+export:         to   AS59497 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS59497 accept AS-BUKNET-UA
+mp-export:      afi ipv6.unicast to   AS59497 announce AS-DTEL-IX-V6
+import:         from AS59513 action pref=100; accept AS59513            # Intec Trade Inc.
+export:         to   AS59513 announce AS-DTEL-IX
+import:         from AS59536 action pref=100; accept AS-MIXMEDIA-IX     # Mixmedia LLC
+export:         to   AS59536 announce AS-DTEL-IX
+import:         from AS60359 action pref=100; accept AS60359:AS-PEER    # Rozvytok LLC
+export:         to   AS60359 announce AS-DTEL-IX
+import:         from AS60754 action pref=100; accept AS-DIANETUA        # Dianet LLC
+export:         to   AS60754 announce AS-DTEL-IX
+import:         from AS60860 action pref=100; accept AS60860            # Altair-Center LLC
+export:         to   AS60860 announce AS-DTEL-IX
+import:         from AS57033 action pref=100; accept AS-POKROVSK
+export:         to   AS57033 announce AS-DTEL-IX
+import:         from AS34092 action pref=100; accept AS-TVCOM
+export:         to   AS34092 announce AS-DTEL-IX
+import:         from AS62206 action pref=100; accept AS-PITLINE         # Pitline LLC
+export:         to   AS62206 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS62206 accept AS-PITLINE-V6
+mp-export:      afi ipv6.unicast to   AS62206 announce AS-DTEL-IX-V6
+import:         from AS196957 action pref=100; accept AS-CITKH          # CIT Kharkiv Online
+export:         to   AS196957 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS196957 accept AS-CITKH
+mp-export:      afi ipv6.unicast to   AS196957 announce AS-DTEL-IX-V6
+import:         from AS197058 action pref=100; accept AS197058          # PE Pimonenko S.V.
+export:         to   AS197058 announce AS-DTEL-IX
+import:         from AS197218 action pref=100; accept AS197218          # Lanpro
+export:         to   AS197218 announce AS-DTEL-IX
+import:         from AS199995 action pref=100; accept AS199995:AS-PEER  # Omega Telecom LLC
+export:         to   AS199995 announce AS-DTEL-IX
+import:         from AS200000 action pref=100; accept AS-DELTAX         # Hosting Ukraine LLC
+export:         to   AS200000 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS200000 accept AS-DELTAX
+mp-export:      afi ipv6.unicast to   AS200000 announce AS-DTEL-IX-V6
+import:         from AS201094 action pref=100; accept AS201094          # GM Host
+export:         to   AS201094 announce AS-DTEL-IX
+import:         from AS202023 action pref=100; accept AS-LLHOST         # LLHost Inc.
+export:         to   AS202023 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS202023 accept AS-LLHOST
+mp-export:      afi ipv6.unicast to   AS202023 announce AS-DTEL-IX-V6
+import:         from AS204384 action pref=100; accept AS204384          # OTT Ukraine LLC
+export:         to   AS204384 announce AS-DTEL-IX
+import:         from AS206507 action pref=100; accept AS206507          # Novanet LLC
+export:         to   AS206507 announce AS-DTEL-IX
+import:         from AS206907 action pref=100; accept AS-UAG            # UAGroup LLC
+export:         to   AS206907 announce AS-DTEL-IX
+import:         from AS207085 action pref=100; accept AS207085          # Rackplace LLC
+export:         to   AS207085 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS207085 accept AS207085
+mp-export:      afi ipv6.unicast to   AS207085 announce AS-DTEL-IX-V6
+remarks:        --------------------------- Russian Peers ----------------------------------
+import:         from AS13094 action pref=100; accept AS-MILECOM-RS      # Milecom LLC
+export:         to   AS13094 announce AS-DTEL-IX
+import:         from AS20764 action pref=100; accept AS-RASCOM          # Rascom CJSC
+export:         to   AS20764 announce AS-DTEL-IX
+import:         from AS24955 action pref=100; accept AS-UBN             # Ufanet OJSC
+export:         to   AS24955 announce AS-DTEL-IX
+import:         from AS31500 action pref=100; accept AS-GLOBAL-NET      # Globalnet LLC
+export:         to   AS31500 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS31500 accept AS-GLOBAL-NET-v6
+mp-export:      afi ipv6.unicast to   AS31500 announce AS-DTEL-IX-V6
+import:         from AS34123 action pref=100; accept AS-NETORN          # Netorn LLC
+export:         to   AS34123 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS34123 accept AS-NETORN
+mp-export:      afi ipv6.unicast to   AS34123 announce AS-DTEL-IX-V6
+import:         from AS35000 action pref=100; accept AS-PROMETEY        # Prometey LLC
+export:         to   AS35000 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS35000 accept AS-PROMETEY-V6
+mp-export:      afi ipv6.unicast to   AS35000 announce AS-DTEL-IX-V6
+import:         from AS42253 action pref=100; accept AS-TELSP           # Telecom SP LLC
+export:         to   AS42253 announce AS-DTEL-IX
+import:         from AS44050 action pref=100; accept AS-PIN-DTELIX      # PIN LLC
+export:         to   AS44050 announce AS-DTEL-IX
+import:         from AS44843 action pref=100; accept AS-AMSTEL          # Obtel LLC
+export:         to   AS44843 announce AS-DTEL-IX
+import:         from AS50384 action pref=100; accept AS-W-IX            # W-IX LTD.
+export:         to   AS50384 announce AS-DTEL-IX
+import:         from AS56534 action pref=100; accept AS-PIRIXINET       # Comfortel LLC
+export:         to   AS56534 announce AS-DTEL-IX
+import:         from AS60764 action pref=100; accept AS-TKTEL           # TK-Telecom LLC
+export:         to   AS60764 announce AS-DTEL-IX
+remarks:        -------------------------- CDN Nodes -----------------------------------
+import:         from AS34879 action pref=100; accept AS34879            # Ngenix
+export:         to   AS34879 announce AS-DTEL-IX
+import:         from AS57363 action pref=100; accept { }                # SDN-Video LLC
+export:         to   AS57363 announce AS-DTEL-IX
+import:         from AS200430 action pref=100; accept AS200430          # Webo LLC
+export:         to   AS200430 announce AS-DTEL-IX
+remarks:        ----------------------- Belarussian Peers --------------------------------
+remarks:        * Beltelecom RUE
+import:         from AS6697 action pref=100; accept AS-BELPAK
+export:         to   AS6697 announce AS-DTEL-IX
+remarks:        ----------------------- Bulgarian Peers --------------------------------
+remarks:        * Caucasus Online LLC
+import:         from AS20771 action pref=100; accept as-delta
+export:         to   AS20771 announce AS-DTEL-IX
+remarks:        * IPACCT LLC
+import:         from AS31287 action pref=100; accept AS-IPACCT
+export:         to   AS31287 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS31287 accept AS-IPACCT
+mp-export:      afi ipv6.unicast to   AS31287 announce AS-DTEL-IX-V6
+remarks:        * Neotel DOO
+import:         from AS34772 action pref=100; accept AS-NEOTEL-SET
+export:         to   AS34772 announce AS-DTEL-IX
+remarks:        * Bulsatcom EAD
+import:         from AS43205 action pref=100; accept AS-BULSATCOM
+export:         to   AS43205 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS43205 accept AS-BULSATCOM-V6
+mp-export:      afi ipv6.unicast to   AS43205 announce AS-DTEL-IX-V6
+remarks:        * Sofia Connect EOOD
+import:         from AS47872 action pref=100; accept AS-SOFIA-CONNECT
+export:         to   AS47872 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS47872 accept AS-SOFIA-CONNECT-V6
+mp-export:      afi ipv6.unicast to   AS47872 announce AS-DTEL-IX-V6
+remarks:        * 3T Com Ltd.
+import:         from AS51555 action pref=100; accept AS-3TCOM
+export:         to   AS51555 announce AS-DTEL-IX
+remarks:        * NetIX Communications Ltd.
+import:         from AS57463 action pref=100; accept AS-NETIX-INT
+export:         to   AS57463 announce AS-DTEL-IX
+remarks:        -------------------------- Baltic Peers ------------------------------------
+remarks:        * TEO LT, AB
+import:         from AS8764 action pref=100; accept AS-LTELECOM
+export:         to   AS8764 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS8764 accept AS-TEO6
+mp-export:      afi ipv6.unicast to   AS8764 announce AS-DTEL-IX-V6
+remarks:        * Baltnetos Komunikacijos JSC
+import:         from AS15440 action pref=100; accept AS-ML
+import:         from AS42549 action pref=100; accept AS-BNK-DC
+export:         to AS15440
+                to AS42549
+                announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS15440 accept AS-ML
+mp-import:      afi ipv6.unicast from AS42549 accept AS-BNK-DC
+mp-export:      afi ipv6.unicast
+                to AS15440
+                to AS42549
+                announce AS-DTEL-IX-V6
+remarks:        * StreamLogic Corp.
+import:         from AS199103 action pref=100; accept AS-STREAMLOG2DTEL
+export:         to   AS199103 announce AS-DTEL-IX
+remarks:        --------------------------- Polish Peers -----------------------------------
+remarks:        * Exatel
+import:         from AS20804 action pref=100; accept AS-EXATEL-INT
+export:         to   AS20804 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS20804 accept AS-EXATEL-INT
+mp-export:      afi ipv6.unicast to   AS20804 announce AS-DTEL-IX-V6
+remarks:        * ATM S.A.
+import:         from AS24724 action pref=100; accept AS24724:AS-FOREIGN
+export:         to   AS24724 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS24724 accept AS24724:AS-FOREIGN6
+mp-export:      afi ipv6.unicast to   AS24724 announce AS-DTEL-IX-V6
+remarks:        ------------------------- Kazakhstan Peers ---------------------------------
+remarks:        * Transtelecom
+import:         from AS41798 action pref=100; accept AS-TRANSKZ
+export:         to   AS41798 announce AS-DTEL-IX
+remarks:        * TNS-Plus LLC
+import:         from AS197556 action pref=100; accept AS-SET_TNSPLUS
+export:         to   AS197556 announce AS-DTEL-IX
+remarks:        ---------------------------- Other EU Peers --------------------------------
+import:         from AS1547 action pref=100; accept AS-IDK              # Tirastel GmbH
+export:         to   AS1547 announce AS-DTEL-IX
+import:         from AS16276 action pref=100; accept AS-OVH             # OVH
+export:         to   AS16276 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS16276 accept AS-OVH
+mp-export:      afi ipv6.unicast to   AS16276 announce AS-DTEL-IX-V6
+import:         from AS24745 action pref=100; accept AS-BALCANIX        # Telekom Romania
+export:         to   AS24745 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS24745 accept AS-BALCANIX
+mp-export:      afi ipv6.unicast to   AS24745 announce AS-DTEL-IX-V6
+import:         from AS59701 action pref=100; accept AS-LYTSENIT        # Lytzen-IT A/S
+export:         to   AS59701 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS59701 accept AS-LYTZENIT
+mp-export:      afi ipv6.unicast to   AS59701 announce AS-DTEL-IX-V6
+remarks:        -------------------------------- US Peers ----------------------------------
+import:         from AS6939  action pref=100; accept AS-HURRICANE       # Hurricane Electric, Inc.
+export:         to   AS6939  announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANEv6
+mp-export:      afi ipv6.unicast to   AS6939 announce AS-DTEL-IX-V6
+remarks:        -------------------------- Asian/Pacific Peers -----------------------------
+remarks:        * Telekom Indonesia International
+import:         from AS7713 action pref=100; accept AS7713:AS-TELKOM-TRANSIT
+export:         to   AS7713 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS7713 accept AS7713:AS-TELKOM-TRANSIT
+mp-export:      afi ipv6.unicast to   AS7713 announce AS-DTEL-IX-V6
+remarks:        ----------------------------- CDN Gateway ----------------------------------
+import:         from AS43380 action pref=100; accept AS-DTEL-IX-EXT
+export:         to   AS43380 announce AS-DTEL-IX
+mp-import:      afi ipv6.unicast from AS43380 accept AS-DTEL-IX-EXT
+mp-export:      afi ipv6.unicast to   AS43380 announce AS-DTEL-IX-V6
+remarks:        -------------------------- BGP Routing Policy ------------------------------
+remarks:        DTEL-IX Route Servers support following RFC and Drafts:
+remarks:        * RFC 1997              BGP Communities Attribute;
+remarks:        * RFC 4360              BGP Extended Communities Attribute;
+remarks:        * RFC 4384              BGP Communities for Data Collection;
+remarks:        * RFC 4893, 6793        BGP Support for Four-Octet Autonomous System (AS) Number Space;
+remarks:        * RFC 7947              Internet Exchange BGP Route Server;
+remarks:        * draft-hilliard-ix-bgp-route-server-operations-03;
+remarks:
+remarks:        Each of route-server DOES NOT modify, process or remove
+remarks:        communities received from customers except those communities
+remarks:        which are processed by the route-servers themselves:
+remarks:        0:*, 31210:*, 65000..65007:*
+remarks:
+remarks:        = Communities accepted from customers =
+remarks:
+remarks:        * Communities affecting announces to all peers:
+remarks:        0:31210         - Do not announce route to all peers
+remarks:        31210:31210     - Announce routes to all peers
+remarks:
+remarks:        * Communities affecting announces to certain peer:
+remarks:        0:X             - Do not announce route to peer ASX
+remarks:        31210:X         - Announce route to peer ASX only
+remarks:
+remarks:        If peer's AS is 32-bit then BGP extended community attribute
+remarks:        should be used:
+remarks:        rt:0:X          - Do not announce route to peer ASX
+remarks:        rt:31210:X      - Announce route to peer ASX only
+remarks:
+remarks:        RFC1997 communities 'no-export' and 'no-advertise' are also
+remarks:        supported. Other RFC1997 well-known communities are not
+remarks:        supported and stripped.
+remarks:
+remarks:        Global blocking community 0:31210 has the highest precedence.
+remarks:        Thus if a route have both 0:31210 and 31210:X then it will
+remarks:        not be announced to any peer.
+remarks:
+remarks:        * Blackholing
+remarks:        Only /32 accepted for blackholing. In order to blackhole
+remarks:        certain /32 prefix customer should add communities 0:0 and 31210:X
+remarks:        where X is an AS number of peer from which traffic should be
+remarks:        blackholed. If X is 31210 then traffic will be blackholed from
+remarks:        all peers.
+remarks:
+remarks:        = Communities sent to customers =
+remarks:
+remarks:        * Information about source ASN:
+remarks:        31210:X, ro:31210:X - Route was received from ASX
+remarks:
+remarks:        * Information about contry (gained from Maxmind GeoIP Database):
+remarks:        6500M:10CCC - Network is used in country CCC on continent M, where:
+remarks:        M is 1-digit continet code as it is defined in RFC4384:
+remarks:        1       -> Africa (AF)
+remarks:        2       -> Oceania (OC)
+remarks:        3       -> Asia (AS)
+remarks:        4       -> Antarctica (AQ)
+remarks:        5       -> Europe (EU)
+remarks:        6       -> Latin America/Caribbean Islands (LAC)
+remarks:        7       -> North America (NA)
+remarks:        CCC is 3-digit country code as it is defined in ISO3166;
+remarks:        ... if information is available in GeoIP Database.
+remarks:        Examples:
+remarks:        65005:10804 - Ukraine
+remarks:        65005:10616 - Poland
+remarks:        65006:10132 - Argentina
+remarks:        65007:10124 - Canada
+remarks:        If there is no information about exact country in GeoIP database
+remarks:        then following communities are applied:
+remarks:        65000:10000 - Neither country nor region is known;
+remarks:        65003:10000 - Asian/Pacific Region;
+remarks:        65005:10000 - European Union;
+remarks:        65008:10000 - Anonymous Proxy;
+remarks:        65009:10000 - Satellite Provider/Anycast.
+remarks:        See http://dev.maxmind.com/geoip/legacy/codes/iso3166/ for more details.
+remarks:
+remarks:        Public looking glass: http://dtel-ix.net/en/looking-glass
+remarks:        ----------------------------------------------------------------------------
+sponsoring-org: ORG-ICL20-RIPE
+status:         ASSIGNED
+notify:         noc@dtel-ix.net
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DTEL-MNT
+mnt-routes:     DTEL-MNT
+created:        2004-03-23T11:23:56Z
+last-modified:  2018-07-19T12:18:31Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

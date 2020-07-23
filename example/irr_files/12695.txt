@@ -1,0 +1,305 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12557 - AS13223'
+
+as-block:       AS12557 - AS13223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12695'
+
+% Abuse contact for 'AS12695' is 'lir@di-net.ru'
+
+aut-num:        AS12695
+as-name:        DINET-AS
+org:            ORG-DNJ1-RIPE
+remarks:        Moscow, Russia
+remarks:        http://www.di-net.ru
+remarks:
+remarks:        ---------------------------------------------
+remarks:        IPv4 Routing Policy
+remarks:        ---------------------------------------------
+remarks:
+remarks:        ============================================
+remarks:        Upstreams
+remarks:        --------------------------------------------
+import:         { from AS8359 action pref=200; from AS31133 action pref=200; from AS3216 action pref=200; accept ANY; }
+export:         { to AS8359 to AS31133 to AS3216 announce AS-DINET^+; }
+remarks:
+remarks:        =============================================
+remarks:        MSK-IX Peers
+remarks:        ---------------------------------------------
+import:         { from AS12695:PRNG-MSK-IX action pref=400; accept AS12695:FLTR-PEERS-IN; }
+export:         { to AS8631 announce AS-DINET; to AS12695:PRNG-MSK-IX announce AS-DINET^+; }
+remarks:
+remarks:        =============================================
+remarks:        SPB-IX Peers
+remarks:        -------------------------------------------
+import:         { from AS12695:PRNG-SPB-IX action pref=300; accept AS12695:FLTR-PEERS-IN; }
+export:         { to AS43690 announce AS-DINET; to AS12695:PRNG-SPB-IX announce AS-DINET^+; }
+remarks:
+remarks:        ===============================================
+remarks:        Peers
+remarks:        -----------------------------------------------
+remarks:
+import:         from AS6777 action pref=390; accept ANY AND NOT <^[AS21414]>
+export:         to AS6777 action community .= { 6777:6777, 6777:21414, 6777:20485 }; announce AS-DINET
+remarks:
+remarks:        ==============================================
+remarks:        IPv6 Routing Policy
+remarks:        ----------------------------------------------
+remarks:
+remarks:        ===============================================
+remarks:        Upstreams
+remarks:        -----------------------------------------------
+mp-import:      afi ipv6.unicast from AS9002 action pref=340; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS6939 action pref=340; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-DINET-V6
+remarks:
+remarks:        ===============================================
+remarks:        Peers
+remarks:        -----------------------------------------------
+mp-import:      afi ipv6.unicast from AS13030 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS13030 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS1764 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS1764 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS2857 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS2857 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS5577 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS5577 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS6724 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS6724 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS8365 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS8365 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS8763 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS8763 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS8767 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS8767 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS9063 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS9063 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS24724 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS24724 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS25279 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS25279 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS39912 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS39912 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS44654 action pref=400; accept ANY
+mp-export:      afi ipv6.unicast to AS44654 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS8631 action pref=400; accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-DINET-V6
+mp-import:      afi ipv6.unicast from AS43690 action pref=400; accept AS-SPBROUTESERVER
+mp-export:      afi ipv6.unicast to AS43690 announce AS-DINET-V6
+remarks:
+remarks:        ==============================================
+remarks:        Downstreams
+remarks:        ----------------------------------------------
+mp-import:      afi ipv6.unicast from AS29182 action pref=700; accept AS29182
+mp-export:      afi ipv6.unicast to AS29182 announce ANY
+mp-import:      afi ipv6.unicast from AS34123 action pref=700; accept AS-NETORN
+mp-export:      afi ipv6.unicast to AS34123 announce ANY
+remarks:        ===============================================
+remarks:
+remarks:        Communities are accepted only to customers
+remarks:
+remarks:        ----------------------------------------------
+remarks:        Advertisement scope control
+remarks:        ----------------------------------------------
+remarks:
+remarks:        ----------------------------------------------
+remarks:        For COLO customers:
+remarks:        ----------------------------------------------
+remarks:
+remarks:        6540x:<ASN> - do action 'x' for AS<ASN>
+remarks:        6541x:<z> - do action 'x' for zone<z>
+remarks:
+remarks:        ----------------------------------------------
+remarks:        For CHANNEL customers:
+remarks:        ----------------------------------------------
+remarks:
+remarks:        6550x:<ASN> - do action 'x' for AS<ASN>
+remarks:        6551x:<z> - do action 'x' for zone<z>
+remarks:
+remarks:        here 'x' may be:
+remarks:        x=0 - advertise with no changes
+remarks:        x=1,2,3,5 - advertise with 1,2,3,5 prepends
+remarks:        x=7 - advertise with no-export community
+remarks:        x=9 - do not advertise
+remarks:
+remarks:        Valid zones:
+remarks:        0 - the whole world
+remarks:        1 - all customers
+remarks:        2 - all upstreams
+remarks:        3 - all peers
+remarks:        4 - MSK-IX RS/peers
+remarks:        5 - DE-CIX RS/peers
+remarks:        6 - AMS-IX RS/peers
+remarks:        7 - DATA-IX RS
+remarks:
+remarks:        Valid<ASN>
+remarks:        Upstreams:
+remarks:        3216 - Beeline
+remarks:        8359 - MTS
+remarks:        31133 - MEGAFON
+remarks:        Peers:
+remarks:        50952 - DATA-IX RS
+remarks:        47764 - Mail.ru
+remarks:        47541 - VKontakte
+remarks:        42861 - Prime Line
+remarks:        31500 - GlobalNet
+remarks:        29076 - Filanko
+remarks:        13238 - Yandex
+remarks:        9049 - ER-Telecom
+remarks:        15169 - Google
+remarks:        48347 - MTW
+remarks:        28917 - Fiord
+remarks:        41722 - Miran
+remarks:        21011 - TopNet
+remarks:        20392 - DataLine (AS203921)
+remarks:        29124 - Iskratelecom
+remarks:        8641 - Nauka Svyaz
+remarks:        50473 - Eco Telecom
+remarks:
+remarks:        ----------------------------------------------
+remarks:        Local preference control
+remarks:        ----------------------------------------------
+remarks:
+remarks:        12695:11 - decrease local preference by 100
+remarks:        12695:13 - decrease local preference by 300
+remarks:        12695:14 - decrease local preference by 400
+remarks:        12695:16 - decrease local preference by 600
+remarks:        12695:666 - blackhole
+remarks:
+remarks:        ----------------------------------------------
+remarks:        Local preference used within AS12695
+remarks:        ----------------------------------------------
+remarks:
+remarks:        1000 - locally originated aggregate route
+remarks:        900 - locally originated specific route
+remarks:        800 - more preferred customer route
+remarks:        700 - regular customer route
+remarks:        600 - customer backup  #  1 route
+remarks:        400 - customer backup  #  2 route
+remarks:        400 - peer route
+remarks:        300 - customer fallback
+remarks:        200 - transit route
+remarks:        100 - backup route
+remarks:        1 - bogus route
+remarks:
+remarks:        ----------------------------------------------
+remarks:        Advertised route type coloring
+remarks:        ----------------------------------------------
+remarks:
+remarks:        12695:701 - bogus route
+remarks:        12695:702 - aggregate route
+remarks:        12695:703 - traffic-engineering aggregate route
+remarks:        12695:707 - local
+remarks:        12695:710 - customer route
+remarks:        12695:711 - aggregatable
+remarks:        12695:720 - peer route
+remarks:        12695:730 - transit route
+remarks:
+remarks:        ----------------------------------------------
+remarks:        Advertised route origin coloring
+remarks:        ----------------------------------------------
+remarks:        12695:20zz
+remarks:        Upstreams:
+remarks:        zz=01 - Beeline AS3216
+remarks:        zz=02 - MTS AS8359
+remarks:        zz=03 - Megafon AS31133
+remarks:        Peers:
+remarks:        zz=04 - MSK-IX Main RS
+remarks:        zz=06 - MSK-IX Peers
+remarks:        zz=10 - Mail.ru
+remarks:        zz=11 - Prime Line
+remarks:        zz=12 - GlobalNet
+remarks:        zz=13 - Filanko
+remarks:        zz=14 - Yandex
+remarks:        zz=15 - Ecotelecom
+remarks:        zz=16 - Nauka-Svyaz
+remarks:        zz=17 - DATA-IX
+remarks:        zz=18 - FIORD
+remarks:        zz=20 - ER-Telecom
+remarks:        zz=22 - Mnogobyte/MIRAN
+remarks:        zz=24 - Google
+remarks:        zz=26 - TAFFI-TV
+remarks:        zz=28 - SEVENSKY/ISKRATELECOM
+remarks:        12695:21zz - international peers
+remarks:        12695:2100 - All international peers
+remarks:        zz=01 - DE-CIX
+remarks:        zz=17 - DATA-IX
+remarks:        ----------------------------------------------
+remarks:        Notes
+remarks:        ----------------------------------------------
+remarks:
+remarks:        Any other 12695:*, 6540x:*, 6541x:*, 6550x:* and 6551x:*
+remarks:        communities are removed on input.
+remarks:        All other *:* communities are passed intact.
+remarks:        None of own communities are accepted to peers/upstreams
+remarks:        We do accept MED attribute.
+remarks:
+remarks:        ===============================================
+admin-c:        DNO-RIPE
+tech-c:         DNO-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DN-MNT
+created:        2002-08-06T10:41:40Z
+last-modified:  2018-12-17T14:08:19Z
+source:         RIPE
+
+organisation:   ORG-DNJ1-RIPE
+org-name:       LLC Digital Network
+org-type:       LIR
+address:        13?, Yaroslavskaya st.
+address:        129366
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +7 495 660 8383
+fax-no:         +7 495 660 8383
+abuse-c:        AR16635-RIPE
+admin-c:        RRA123-RIPE
+admin-c:        ARTK83-RIPE
+admin-c:        MIF
+admin-c:        AR16635-RIPE
+admin-c:        POIZ-RIPE
+admin-c:        OE784-RIPE
+admin-c:        AS39349-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DN-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DN-MNT
+created:        2004-04-17T11:52:03Z
+last-modified:  2018-10-11T14:14:10Z
+source:         RIPE # Filtered
+
+role:           Digital Network NOC
+address:        13a, Yaroslavskaya st.,
+address:        Moscow, Russia, 129366
+phone:          +7 495 660 8383
+fax-no:         +7 495 660 8383
+admin-c:        MIF
+admin-c:        ARTK83-RIPE
+tech-c:         ARTK83-RIPE
+tech-c:         OE784-RIPE
+abuse-mailbox:  abuse@msm.ru
+nic-hdl:        DNO-RIPE
+mnt-by:         DN-MNT
+created:        2005-03-12T15:28:40Z
+last-modified:  2017-05-10T09:14:04Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

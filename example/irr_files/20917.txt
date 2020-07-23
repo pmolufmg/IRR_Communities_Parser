@@ -1,0 +1,187 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20859 - AS20927'
+
+as-block:       AS20859 - AS20927
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20917'
+
+% Abuse contact for 'AS20917' is 'abuse@nexto.fr'
+
+aut-num:        AS20917
+as-name:        FIDUCIAL-CLOUD-AS
+org:            ORG-NS143-RIPE
+remarks:
+remarks:        ---------------------------import------------------------------
+remarks:
+import:         from AS174 action pref=400; accept ANY
+import:         from AS5511 action pref=400; accept ANY
+import:         from AS8928 action pref=400; accept ANY
+import:         from AS16189 action pref=8000; accept AS16189
+import:         from AS51231 action pref=8000; accept AS51231
+import:         from AS2200 action pref=1000; accept AS2200
+import:         from AS35625 action pref=1000; accept AS35625
+import:         from AS34019 action pref=1000; accept AS34019
+import:         from AS28855 action pref=1000; accept AS28855
+import:         from AS41157 action pref=1000; accept AS41157
+import:         from AS50620 action pref=1000; accept AS50620
+import:         from AS13193 action pref=1000; accept AS13193
+import:         from AS31576 action pref=1000; accept AS31576
+import:         from AS50858 action pref=1000; accept AS50858
+import:         from AS2486 action pref=1000; accept AS2486
+import:         from AS3856 action pref=1000; accept AS3856
+import:         from AS198184 action pref=8000; accept AS198184
+remarks:
+mp-import:      afi ipv6.unicast from AS8928 action pref=400; accept ANY
+mp-import:      afi ipv6.unicast from AS174 action pref=400; accept ANY
+mp-import:      afi ipv6.unicast from AS198184 action pref=8000; accept AS198184
+remarks:
+remarks:        ---------------------------export------------------------------
+remarks:
+export:         to AS174 announce AS-KHEOPS
+export:         to AS5511 announce AS-KHEOPS
+export:         to AS8928 announce AS-KHEOPS
+export:         to AS51231 announce ANY
+export:         to AS16189 announce ANY
+export:         to AS2200 announce AS-KHEOPS
+export:         to AS35625 announce AS-KHEOPS
+export:         to AS34019 announce AS-KHEOPS
+export:         to AS28855 announce AS-KHEOPS
+export:         to AS41157 announce AS-KHEOPS
+export:         to AS50620 announce AS-KHEOPS
+export:         to AS13193 announce AS-KHEOPS
+export:         to AS31576 announce AS-KHEOPS
+export:         to AS50858 announce AS-KHEOPS
+export:         to AS2486 announce AS-KHEOPS
+export:         to AS3856 announce AS-KHEOPS
+export:         to AS198184 announce AS-KHEOPS
+remarks:
+mp-export:      afi ipv6.unicast to AS8928 announce AS-KHEOPS
+mp-export:      afi ipv6.unicast to AS174 announce AS-KHEOPS
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Communities to control traffic (for IP Transit customers).
+remarks:        Community Definition
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        20917:100 No announcement to INTEROUTE
+remarks:        20917:150 Prepend twice 20917 when announcing to INTEROUTE
+remarks:        20917:125 Prepend once 20917 when announcing to INTEROUTE
+remarks:
+remarks:        20917:275 No announcement to OPENTRANSIT
+remarks:        20917:250 Prepend twice 20917 when announcing to OPENTRANSIT
+remarks:        20917:225 Prepend once 20917 when announcing to OPENTRANSIT
+remarks:
+remarks:        20917:375 No announcement to COGENT
+remarks:        20917:350 Prepend twice 20917 when announcing to COGENT
+remarks:        20917:325 Prepend once 20917 when announcing to COGENT
+remarks:
+remarks:        20917:600 No announcement to Peering Point EQUINIX
+remarks:        20917:650 Prepend twice 20917 when announcing to EQUINIX Peer
+remarks:        20917:625 Prepend once 20917 when announcing to EQUINIX Peer
+remarks:
+remarks:        20917:700 No announcement to Peering Point Sfinx
+remarks:        20917:750 Prepend twice 20917 when announcing to Sfinx Peer
+remarks:        20917:725 Prepend once 20917 when announcing to Sfinx Peer
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+remarks:        Peering & Network Informations
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:        For Peering request please send email to : peering at kheops.org
+remarks:
+remarks:        Our public peering point of presence are :
+remarks:
+remarks:        EQUINIX PARIS - 1G - 195.42.145.47 - 2001:7F8:43::2:917:1/64 - http://www.equinix.fr/
+remarks:        SFINX - 100M - 194.68.129.122 - http://www.sfinx.tm.fr
+remarks:
+remarks:        ---------------------------------------------------------------
+remarks:
+admin-c:        KOLC1-RIPE
+tech-c:         KOTC1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-KHEOPS-ORGANISATION
+created:        2002-06-02T09:52:57Z
+last-modified:  2018-09-04T12:42:38Z
+source:         RIPE
+
+organisation:   ORG-NS143-RIPE
+org-name:       FIDUCIAL CLOUD SASU
+org-type:       LIR
+address:        7 Avenue Andre Roussin
+address:        13016
+address:        Marseille
+address:        FRANCE
+phone:          +33491020188
+fax-no:         +33484910095
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        NEXTO-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+abuse-c:        NXTA143-RIPE
+created:        2012-06-15T10:02:17Z
+last-modified:  2015-09-08T06:59:08Z
+source:         RIPE # Filtered
+
+role:           KHEOPS Organisation legal contact
+address:        45 avenue de l'europe
+address:        78140 VELIZY-VILLACOUBLAY
+address:        FRANCE
+phone:          +33141360010
+fax-no:         +33141360019
+org:            ORG-KO1-RIPE
+nic-hdl:        KOLC1-RIPE
+mnt-by:         MNT-KHEOPS-ORGANISATION
+admin-c:        SC3533-RIPE
+admin-c:        MJ2223-RIPE
+tech-c:         SC3533-RIPE
+tech-c:         MJ2223-RIPE
+created:        2013-10-22T15:30:49Z
+last-modified:  2013-10-22T15:30:49Z
+source:         RIPE # Filtered
+
+role:           KHEOPS Organisation technical contact
+address:        45 avenue de l'europe
+address:        78140 VELIZY-VILLACOUBLAY
+address:        FRANCE
+phone:          +33141360010
+fax-no:         +33141360019
+org:            ORG-KO1-RIPE
+nic-hdl:        KOTC1-RIPE
+mnt-by:         MNT-KHEOPS-ORGANISATION
+admin-c:        SC3533-RIPE
+admin-c:        MJ2223-RIPE
+admin-c:        MB16774-RIPE
+tech-c:         SC3533-RIPE
+tech-c:         MJ2223-RIPE
+tech-c:         MB16774-RIPE
+abuse-mailbox:  abuse@kheops.org
+created:        2013-10-22T15:22:20Z
+last-modified:  2013-10-22T15:40:29Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

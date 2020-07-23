@@ -1,0 +1,190 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS42383 - AS45055'
+
+as-block:       AS42383 - AS45055
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS42910'
+
+% Abuse contact for 'AS42910' is 'tr.abuse@eu.equinix.com'
+
+aut-num:        AS42910
+as-name:        EQUINIX-TURKEY-INTERNET-HIZMETLERI-ANONIM-SIRKETI
+descr:          Equinix Turkey
+org:            ORG-HIHL1-RIPE
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        SUPPORTED BGP COMMUNITIES
+remarks:        -----------------------------------------------------
+remarks:
+remarks:        - Traffic Control Communities
+remarks:        42910:444 - do not announce to except Turkish Local Operators (IP Transit) (/24 Exact)
+remarks:        42910:555 - do not announce to except Turkish Local Operators (IP Transit) (/24-/32 orlonger)
+remarks:        42910:600 - Route Traffic to DDoS Mitigation Center (/24 Exact) (Who has the Anti-DDoS Service)
+remarks:        42910:605 - Route Traffic to DDoS Mitigation Center and Local Operators(/24 Exact) (Who has the Anti-DDoS Service)
+remarks:        - Blackhole - RTBH
+remarks:        42910:666 - Blackhole (/24-/32)
+remarks:
+mp-import:      afi ipv6.unicast from AS9121 accept ANY
+mp-import:      afi ipv6.unicast from AS34984 accept ANY
+mp-import:      afi ipv6.unicast from AS201364 accept ANY
+mp-export:      afi ipv6.unicast to AS9121 announce AS201364
+import:         from AS201364 accept ANY
+export:         to AS9121 announce AS201364
+mp-import:      afi ipv6.unicast from AS20649 accept ANY
+mp-export:      afi ipv6.unicast to AS9121 announce AS42910
+mp-export:      afi ipv6.unicast to AS9121 announce AS20649
+mp-export:      afi ipv6.unicast to AS34984 announce AS42910
+import:         from AS9121 accept ANY
+import:         from AS34984 accept ANY
+import:         from AS20649 accept ANY
+import:         from AS59674 accept ANY
+import:         from AS15656 accept ANY
+import:         from AS199556 accept ANY
+import:         from AS58242 accept ANY
+import:         from AS61148 accept ANY
+import:         from AS30840 accept ANY
+import:         from AS30734 accept ANY
+import:         from AS197143 accept ANY
+export:         to AS9121 announce AS42910
+export:         to AS9021 announce AS42910
+export:         to AS34984 announce ANY
+export:         to AS9121 announce AS30734
+export:         to AS9121 announce AS34984
+export:         to AS9121 announce AS197143
+export:         to AS9121 announce AS20649
+export:         to AS9121 announce AS59674
+export:         to AS9121 announce AS15656
+export:         to AS9121 announce AS199556
+export:         to AS9121 announce AS58242
+export:         to AS9121 announce AS61148
+export:         to AS9121 announce AS30840
+export:         to AS9121 announce AS-MARSNET
+remarks:        Euronet  # Euronet
+import:         from AS201178 accept ANY
+export:         to AS9121 announce AS201178
+remarks:        ATLASONLINE  # Sunucuyeri
+import:         from AS12599 accept ANY
+export:         to AS9121 announce AS12599
+remarks:        AVENCOM  # AVENCOM
+import:         from AS48497 accept ANY
+export:         to AS9121 announce AS48497
+remarks:        Bulutistan
+import:         from AS47952 accept ANY
+export:         to AS47952 announce ANY
+descr:          AKAMAI
+import:         from AS20940 accept ANY
+export:         to AS9121 announce AS-AKAMAI
+mp-import:      afi ipv6.unicast from AS20940 accept ANY
+mp-export:      afi ipv6.unicast to AS9121 announce AS-AKAMAI
+admin-c:        SIA97-RIPE
+remarks:        Markum
+import:         from AS56363 accept ANY
+export:         to AS56363 announce ANY
+remarks:        GarantiServer
+import:         from AS201079 accept ANY
+export:         to AS201079 announce ANY
+descr:          INTERNETSAHIBI
+import:         from AS42216 accept ANY
+export:         to AS42216 announce ANY
+tech-c:         SN5365-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS42910
+created:        2007-05-09T11:10:06Z
+last-modified:  2018-09-04T10:23:57Z
+source:         RIPE # Filtered
+
+organisation:   ORG-HIHL1-RIPE
+org-name:       Equinix Turkey Internet Hizmetleri Anonim Sirketi
+org-type:       LIR
+address:        Otakcilar Cad. No. 78 Flat Ofis Kat 4 Eyup
+address:        34050
+address:        ISTANBUL
+address:        TURKEY
+phone:          +902124378787
+fax-no:         +902124378560
+abuse-c:        AR17378-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS42910
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-SADECEHOSTINGMNT
+created:        2007-05-07T09:23:23Z
+last-modified:  2016-10-18T20:37:49Z
+source:         RIPE # Filtered
+
+person:         EQUINIX TR IP Administrator
+address:        Otakcilar Cad. No: 78 Kat 4 FlatOfis 34050
+address:        EYUP/ISTANBUL/TURKEY
+phone:          +90 212 437 87 87
+fax-no:         +90 212 437 85 60
+nic-hdl:        SIA97-RIPE
+mnt-by:         AS42910
+created:        2014-07-17T13:20:11Z
+last-modified:  2018-04-25T12:47:08Z
+source:         RIPE
+
+person:         Sadecehosting NOC
+address:        Otakcilar Cad. No:78 Kat:4 FlatOfis 34050
+address:        EYUP/ISTANBUL/TURKEY
+phone:          +90 212 437 87 87
+fax-no:         +90 212 437 85 60
+nic-hdl:        SN5365-RIPE
+mnt-by:         MNT-SADECEHOSTINGMNT
+created:        2014-07-17T14:14:34Z
+last-modified:  2017-10-30T22:37:10Z
+source:         RIPE # Filtered
+
+% Information related to 'AS42910'
+
+mntner:         AS42910
+admin-c:        SIA97-RIPE
+tech-c:         ETN10-RIPE
+descr:          Equinix TR AS Maintainer
+auth:           SSO # Filtered
+auth:           SSO # Filtered
+auth:           SSO # Filtered
+auth:           SSO # Filtered
+auth:           MD5-PW # Filtered
+mnt-by:         AS42910
+created:        2016-10-14T13:26:43Z
+last-modified:  2017-12-14T10:24:18Z
+source:         RIPE # Filtered
+
+person:         Equinix TR NOC
+address:        Otakcilar Cad. No:78 Kat:4 FlatOfis 34050 EYUP/ISTANBUL/TURKEY
+phone:          +90 212 437 87 87
+nic-hdl:        ETN10-RIPE
+mnt-by:         AS42910
+created:        2016-10-14T14:11:38Z
+last-modified:  2017-10-30T23:26:41Z
+source:         RIPE # Filtered
+
+person:         EQUINIX TR IP Administrator
+address:        Otakcilar Cad. No: 78 Kat 4 FlatOfis 34050
+address:        EYUP/ISTANBUL/TURKEY
+phone:          +90 212 437 87 87
+fax-no:         +90 212 437 85 60
+nic-hdl:        SIA97-RIPE
+mnt-by:         AS42910
+created:        2014-07-17T13:20:11Z
+last-modified:  2018-04-25T12:47:08Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

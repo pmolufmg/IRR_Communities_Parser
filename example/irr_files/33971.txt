@@ -1,0 +1,112 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS33971'
+
+% Abuse contact for 'AS33971' is 'BPT-DirectiaTelecomunicatii@BANCPOST.RO'
+
+aut-num:        AS33971
+as-name:        Bancpost-AS
+descr:          Splaiul Independentei 319
+descr:          Bucharest, ROMANIA
+import:         from AS12302 action pref=100; accept ANY
+import:         from AS8708 action pref=100; accept ANY
+import:         from AS34130 action pref=110; accept AS34130
+import:         from AS34258 action pref=110; accept AS34258
+import:         from AS8717 action pref=110; accept AS8717
+import:         from AS8953 action pref=100; accept ANY
+import:         from AS9050 action pref=100; accept ANY
+export:         to AS12302 announce AS33971 AS34130
+export:         to AS8708 announce AS33971 AS34130
+export:         to AS34130 announce ANY
+export:         to AS34258 announce AS33971 AS34130
+export:         to AS8717 announce AS33971 AS34130
+export:         to AS8953 announce AS33971 AS34130
+export:         to AS9050 announce AS33971 AS34130
+admin-c:        DT5059-RIPE
+tech-c:         DT5059-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+org:            ORG-BPS1-RIPE
+remarks:        -----------------------------------------------------------
+remarks:        Bancpost filters out inbound prefixes longer than /24
+remarks:
+remarks:        Communities definitions
+remarks:        -----------------------------------------------------------
+remarks:        33971:80   Set local preference to 80 inside Bancpost
+remarks:        33971:120  Set local preference to 120 inside Bancpost (*)
+remarks:        33971:1000 Announce to upstreams (*)
+remarks:        33971:1001 Prepend 1*33971 when announcing to upstreams (*)
+remarks:        33971:1002 Prepend 2*33971 when announcing to upstreams (*)
+remarks:        33971:1003 Prepend 3*33971 when announcing to upstreams (*)
+remarks:        33971:2000 Announce to peers
+remarks:        33971:2001 Prepend 1*33971 when announcing to peers
+remarks:        33971:2002 Prepend 2*33971 when announcing to peers
+remarks:        33971:2003 Prepend 3*33971 when announcing to peers
+remarks:        (*) only group partners can use this community
+remarks:
+remarks:        Default local preference
+remarks:        ------------------------------------------------------------
+remarks:        Partners   110
+remarks:        Transit    101
+remarks:        Peers      100
+remarks:        Backup      80
+remarks:
+remarks:        ------------------------------------------------------------
+remarks:        Peering issues: dan.tacke@bancpost.ro
+remarks:        ------------------------------------------------------------
+mnt-by:         BANCPOST-MNT
+created:        2004-09-20T13:39:11Z
+last-modified:  2018-09-04T10:04:51Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-RA18-RIPE
+
+organisation:   ORG-BPS1-RIPE
+org-name:       Bancpost S.A
+org-type:       OTHER
+address:        Dimitrie Pompeiu 6A,
+address:        Bucharest, ROMANIA
+phone:          +40-1-4077803
+abuse-c:        AR27365-RIPE
+admin-c:        DT5059-RIPE
+tech-c:         DT5059-RIPE
+mnt-by:         BANCPOST-MNT
+mnt-ref:        BANCPOST-MNT
+created:        2004-09-16T09:57:03Z
+last-modified:  2014-11-17T22:30:38Z
+source:         RIPE # Filtered
+
+person:         Dan Tacke
+address:        Dimitrie Pompeiu Blvd.
+phone:          +40-21-3800987
+nic-hdl:        DT5059-RIPE
+mnt-by:         BANCPOST-MNT
+created:        2012-05-08T15:01:30Z
+last-modified:  2014-01-24T12:50:40Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

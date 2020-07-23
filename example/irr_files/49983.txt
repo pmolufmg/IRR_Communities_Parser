@@ -1,0 +1,245 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS49983'
+
+% Abuse contact for 'AS49983' is 'abuse@mironet.ch'
+
+aut-num:        AS49983
+as-name:        MIRONET-AS
+org:            ORG-MG33-RIPE
+remarks:
+remarks:        ---------------------
+remarks:        ** HOW TO REACH US **
+remarks:        ---------------------
+remarks:
+remarks:        Phone   +41 61 201 30 92
+remarks:        Fax   +41 61 201 30 99
+remarks:
+remarks:        https://www.mironet.ch/
+remarks:        https://as49983.net/
+remarks:
+remarks:        ----------------------------------
+remarks:        Peering  peering@mironet.ch
+remarks:        NOC   noc@mironet.ch
+remarks:        Abuse   abuse@mironet.ch
+remarks:        ----------------------------------
+remarks:
+remarks:        Office hours: Mon - Fri (excluding holidays)
+remarks:        08:30 - 12:00 CET/CEST, 13:30 - 18:00 CET/CEST
+remarks:
+remarks:        Outside office hours please use the e-mail
+remarks:        contacts above.
+remarks:
+remarks:        Concerning abuse:
+remarks:        Please use the abuse contact
+remarks:        above in case you get spammed,
+remarks:        hammered, SYN flooded etc.
+remarks:
+remarks:        Requests to admin-c or tech-c will NOT BE IGNORED
+remarks:        but if you send your request to abuse@mironet.ch
+remarks:        it goes directly to the right person.
+remarks:
+remarks:
+remarks:        --------------
+remarks:        ** PREFIXES **
+remarks:        --------------
+remarks:
+remarks:        We originate the following prefixes:
+remarks:
+remarks:        IPv4:  91.212.196.0/24
+remarks:        IPv4:  109.71.96.0/21
+remarks:        IPv4:  195.130.196.0/24
+remarks:        IPv4:  185.19.168.0/22
+remarks:
+remarks:        IPv6:  2a00:17e0::/32
+remarks:
+remarks:
+remarks:        -------------
+remarks:        ** TRANSIT **
+remarks:        -------------
+remarks:
+remarks:        // CenturyLink
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS3356 announce AS-MIRONET
+mp-import:      afi ipv6.unicast from AS3356 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-MIRONET
+remarks:
+remarks:        // Cogent Communications
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-MIRONET
+mp-import:      afi ipv6.unicast from AS174 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-MIRONET
+remarks:
+remarks:        // Init7 AG
+import:         from AS13030 action pref=100; accept ANY
+export:         to AS13030 announce AS-MIRONET
+mp-import:      afi ipv6.unicast from AS13030 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS13030 announce AS-MIRONET
+remarks:
+remarks:        -------------
+remarks:        ** DOWNSTREAM **
+remarks:        -------------
+remarks:
+remarks:        // AS196960
+import:         from AS-MIRONET-ANYCAST action pref=100; accept AS-MIRONET-ANYCAST
+export:         to AS-MIRONET-ANYCAST announce ANY
+mp-import:      afi ipv6.unicast from AS-MIRONET-ANYCAST action pref=100; accept AS-MIRONET-ANYCAST
+mp-export:      afi ipv6.unicast to AS-MIRONET-ANYCAST announce ANY
+remarks:
+remarks:        -------------
+remarks:        ** PEERING **
+remarks:        -------------
+remarks:
+remarks:        We follow an open peering policy and will gladly
+remarks:        answer any peering request as soon as possible.
+remarks:
+remarks:        Q: Peering contract required?
+remarks:        A: No. But if you have one and need it, send it in.
+remarks:
+remarks:        Q: MD5 secret required?
+remarks:        A: No.
+remarks:
+remarks:
+remarks:        Points of presence:
+remarks:
+remarks:        Quickline DataCube, Weidenstrasse 41, Muenchenstein, Switzerland
+remarks:        IPv4: 109.71.99.128/25
+remarks:        IPv6: 2a00:17e0:a::/56
+remarks:
+remarks:        SwissIX, InterXion, Glattbrugg, Switzerland
+remarks:        IPv4: 91.206.52.179/23
+remarks:        IPv6: 2001:7f8:24::b3/64
+remarks:
+remarks:
+remarks:        ------------------
+remarks:        ** PUBLIC PEERS **
+remarks:        ------------------
+remarks:
+import:         from AS-MIRONET-SWISSIX-PEERS action pref=50; community.append(49983:50000); accept PeerAS
+export:         to AS-MIRONET-SWISSIX-PEERS announce AS-MIRONET
+mp-import:      afi ipv6.unicast from AS-MIRONET-SWISSIX-PEERS action pref=50; accept PeerAS
+mp-export:      afi ipv6.unicast to AS-MIRONET-SWISSIX-PEERS announce AS-MIRONET
+remarks:
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-MIRONET
+remarks:
+remarks:        -------------------
+remarks:        ** PRIVATE PEERS **
+remarks:        -------------------
+remarks:
+import:         from AS-MIRONET-PRIVATE-PEERS action pref=75; community.append(49983:30000); accept PeerAS
+export:         to AS-MIRONET-PRIVATE-PEERS announce AS-MIRONET
+mp-import:      afi ipv6.unicast from AS-MIRONET-PRIVATE-PEERS action pref=75; accept PeerAS
+mp-export:      afi ipv6.unicast to AS-MIRONET-PRIVATE-PEERS announce AS-MIRONET
+remarks:
+remarks:
+remarks:        ---------------------
+remarks:        ** BGP COMMUNITIES **
+remarks:        ---------------------
+remarks:
+remarks:        ** Egress Communities **
+remarks:        These communities are relayed to AS49983 peers.
+remarks:
+remarks:        // Origin Communities
+remarks:        49983:2000   MiroNet transit route
+remarks:        49983:3000   MiroNet peer route
+remarks:        49983:4000   MiroNet customer route
+remarks:        49983:5000   MiroNet own route
+remarks:
+remarks:        // Exchange Points
+remarks:        49983:30000   Route learned from private peers
+remarks:        49983:30001 - 30100  Incremental number of private interconnects
+remarks:
+remarks:        49983:50000 - 50100  Route learned at public exchanges
+remarks:        49983:50001   Route learned at SwissIX InterXion, Glattbrugg
+remarks:        49983:50xxx   Route learned at SwissIX xxx
+remarks:
+remarks:        ** Ingress Communities **
+remarks:        These communities can be used to control traffic within AS49983.
+remarks:        Please check back with noc@mironet.ch before sending communities.
+remarks:
+remarks:        // Well-known Communities
+remarks:        65535:65281   NO_EXPORT (RFC1997)
+remarks:        65535:65282   NO_ADVERTISE (RFC1997)
+remarks:        65535:65284   NOPEER (RFC1997)
+remarks:
+remarks:        // Local Preference
+remarks:        49983:19299   give routes localpref below private routes (300)
+remarks:        49983:19149   give routes localpref below public peer routes (150)
+remarks:        49983:19099   give routes localpref below normal routes (100)
+remarks:
+remarks:        // Prepends
+remarks:        49983:1031   prepend 1x to upstream
+remarks:        49983:1032   prepend 2x to upstream
+remarks:        49983:1033   prepend 3x to upstream
+remarks:
+remarks:        // Blackhole (contact noc@mironet.ch first)
+remarks:        49983:666   blackhole (discard) traffic
+remarks:
+remarks:
+admin-c:        MG11901-RIPE
+tech-c:         MG11901-RIPE
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MIRONET-NOC
+created:        2009-10-21T12:30:24Z
+last-modified:  2018-09-04T10:45:28Z
+source:         RIPE
+
+organisation:   ORG-MG33-RIPE
+org-name:       MiroNet AG
+org-type:       LIR
+address:        Uferstrasse 90
+address:        4057
+address:        Basel
+address:        SWITZERLAND
+phone:          +41612013090
+fax-no:         +41612013099
+admin-c:        MG11901-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MIRONET-NOC
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MIRONET-NOC
+abuse-c:        MG11901-RIPE
+created:        2009-11-17T11:01:22Z
+last-modified:  2018-02-14T09:04:34Z
+source:         RIPE # Filtered
+
+role:           MiroNet AG
+address:        Uferstrasse 90, CH-4057 Basel
+abuse-mailbox:  abuse@mironet.ch
+admin-c:        MR10282-RIPE
+tech-c:         SM11432-RIPE
+nic-hdl:        MG11901-RIPE
+created:        2009-04-22T07:45:30Z
+last-modified:  2015-08-20T12:47:54Z
+source:         RIPE # Filtered
+mnt-by:         MIRONET-NOC
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

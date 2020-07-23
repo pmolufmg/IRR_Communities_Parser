@@ -1,0 +1,281 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15707 - AS15803'
+
+as-block:       AS15707 - AS15803
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15756'
+
+% Abuse contact for 'AS15756' is 'helpdesk@avantel.ru'
+
+aut-num:        AS15756
+as-name:        CARAVAN
+org:            ORG-Mt4-RIPE
+remarks:
+remarks:        ===================
+remarks:        IPv6 routing policy
+remarks:        ===================
+remarks:        Uplinks
+remarks:        ------------
+mp-import:      afi ipv6.unicast from AS8359 accept ANY;
+mp-import:      afi ipv6.unicast from AS1299 accept ANY;
+mp-export:      afi ipv6.unicast to AS8359 announce AS-CARAVAN;
+mp-export:      afi ipv6.unicast to AS1299 announce AS-CARAVAN;
+remarks:        ------------
+remarks:
+remarks:        Peers
+remarks:        ------------
+mp-import:      afi ipv6.unicast from AS8631 accept AS-MSKROUTESERVER;
+mp-export:      afi ipv6.unicast to AS8631 announce AS-CARAVANRUS;
+remarks:        ------------
+remarks:
+remarks:
+remarks:        ===================
+remarks:        IPv4 routing policy
+remarks:        ===================
+remarks:        Uplinks
+import:         from AS8359 accept ANY;
+import:         from AS20485 accept ANY;
+import:         from AS25532 accept AS-MASTERHOST;
+import:         from AS1299 accept ANY;
+import:         from AS9002 accept ANY;
+import:         from AS31133 accept ANY;
+export:         to AS8359 announce AS-CARAVAN;
+export:         to AS20485 announce AS-CARAVAN;
+export:         to AS25532 announce AS-CARAVAN;
+export:         to AS1299 announce AS-CARAVAN;
+export:         to AS9002 announce AS-CARAVAN;
+export:         to AS31133 announce AS-CARAVAN;
+remarks:
+remarks:        Customers
+import:         from AS3287 accept AS-REDLINE;
+import:         from AS13230 accept AS-NCPORT;
+import:         from AS41349 accept AS-MVM;
+import:         from AS43776 accept AS43776;
+import:         from AS43621 accept AS43621;
+import:         from AS43523 accept AS43523;
+import:         from AS6761 accept AS6761;
+import:         from AS48916 accept AS48916;
+import:         from AS35770 accept AS-NCTRADE;
+import:         from AS43518 accept AS43518;
+import:         from AS49832 accept AS49832;
+import:         from AS50265 accept AS-GT;
+import:         from AS51226 accept AS51226;
+import:         from AS50878 accept AS50878;
+import:         from AS197526 accept AS197526;
+import:         from AS57857 accept AS-WNNR;
+import:         from AS49268 accept AS49268;
+import:         from AS58020 accept AS58020;
+import:         from AS199651 accept AS199651;
+import:         from AS201956 accept AS201956;
+import:         from AS62051 accept AS62051;
+import:         from AS202696 accept AS202696;
+import:         from AS200457 accept AS200457;
+import:         from AS57494 accept AS57494;
+import:         from AS202752 accept AS202752;
+export:         to AS3287 announce ANY;
+export:         to AS13230 announce ANY;
+export:         to AS41349 announce ANY;
+export:         to AS43776 announce ANY;
+export:         to AS43621 announce ANY;
+export:         to AS43523 announce ANY;
+export:         to AS6761 announce ANY;
+export:         to AS48916 announce ANY;
+export:         to AS35770 announce ANY;
+export:         to AS43518 announce ANY;
+export:         to AS49832 announce ANY;
+export:         to AS50265 announce ANY;
+export:         to AS51226 announce ANY;
+export:         to AS50878 announce ANY;
+export:         to AS197526 announce ANY;
+export:         to AS57857 announce ANY;
+export:         to AS49268 announce ANY;
+export:         to AS58020 announce ANY;
+export:         to AS199651 announce ANY;
+export:         to AS201956 announce ANY;
+export:         to AS62051 announce ANY;
+export:         to AS202696 announce ANY;
+export:         to AS200457 announce ANY;
+export:         to AS57494 announce ANY;
+export:         to AS202752 announce ANY;
+remarks:
+remarks:        Peers
+import:         from AS8631 accept AS-MSKROUTESERVER;
+import:         from AS15169 accept AS-GOOGLE;
+import:         from AS2578 accept AS-DEMOS AS-RUDEMOS;
+import:         from AS2683 accept AS-RADIOMSU;
+import:         from AS2820 accept AS-ELVISPEERS;
+import:         from AS2848 accept AS-MSURUNNET;
+import:         from AS2854 accept AS-ROSPRINT;
+import:         from AS2895 accept AS-FREENET;
+import:         from AS3267 accept AS-RUNNET;
+import:         from AS3316 accept AS-RELARN;
+import:         from AS5467 accept AS-MIPT;
+import:         from AS5523 accept AS-RMT;
+import:         from AS5568 accept AS-RBNET;
+import:         from AS6863 accept AS-ROSNET;
+import:         from AS6854 accept AS-SYNTERRA;
+import:         from AS6903 accept AS-ZENON;
+import:         from AS8241 accept AS-RELLINE;
+import:         from AS8377 accept AS-PETERLINK;
+import:         from AS8470 accept AS-MACOMNET;
+import:         from AS8615 accept AS-CNTPEERS;
+import:         from AS8744 accept AS-WIMAX;
+import:         from AS9110 accept AS-AGTEL-RUS;
+import:         from AS12690 accept AS-MKSNET;
+import:         from AS13238 accept AS-COMPTEK;
+import:         from AS15835 accept AS-MAP;
+import:         from AS15934 accept AS-ZEBRA;
+import:         from AS24638 accept AS-RAMTEL;
+import:         from AS20632 accept AS-PETERSTAR;
+import:         from AS25478 accept AS-IHOME;
+import:         from AS28917 accept AS-FIORD;
+import:         from AS39792 accept AS-ANDERS;
+import:         from AS28968 accept AS-EUT;
+import:         from AS21414 accept AS-RCNET;
+import:         from AS30124 accept AS30124;
+import:         from AS35000 accept AS-PROMETEY;
+import:         from AS12695 accept AS-DINET;
+import:         from AS5537 accept AS-GPT;
+import:         from AS43832 accept AS-NS5_RIPN_NET;
+import:         from AS35297 accept AS-DL-WORLD;
+import:         from AS29076 accept AS-CITYTELECOM;
+import:         from AS9031 accept AS-EDPNET;
+import:         from AS30751 accept AS-EUROTEL;
+import:         from AS13002 accept AS-LINKEY;
+import:         from AS8905 accept AS-DIGIT1;
+import:         from AS31430 accept AS-TEL-NET;
+import:         from AS52201 accept AS-TCTEL;
+import:         from AS50952 accept AS-DATAIX;
+import:         from AS9002 accept AS-RETN and not AS25532;
+export:         to AS8631 announce AS-CARAVANRUS;
+export:         to AS15169 announce AS-CARAVANRUS;
+export:         to AS2578 announce AS-CARAVANRUS;
+export:         to AS2683 announce AS-CARAVANRUS;
+export:         to AS2820 announce AS-CARAVANRUS;
+export:         to AS2848 announce AS-CARAVANRUS;
+export:         to AS2854 announce AS-CARAVANRUS;
+export:         to AS2895 announce AS-CARAVANRUS;
+export:         to AS3267 announce AS-CARAVANRUS;
+export:         to AS3316 announce AS-CARAVANRUS;
+export:         to AS5467 announce AS-CARAVANRUS;
+export:         to AS5523 announce AS-CARAVANRUS;
+export:         to AS5568 announce AS-CARAVANRUS;
+export:         to AS6863 announce AS-CARAVANRUS;
+export:         to AS6854 announce AS-CARAVANRUS;
+export:         to AS6903 announce AS-CARAVANRUS;
+export:         to AS8241 announce AS-CARAVANRUS;
+export:         to AS8377 announce AS-CARAVANRUS;
+export:         to AS8470 announce AS-CARAVANRUS;
+export:         to AS8615 announce AS-CARAVANRUS;
+export:         to AS8744 announce AS-CARAVANRUS;
+export:         to AS9110 announce AS-CARAVANRUS;
+export:         to AS12690 announce AS-CARAVANRUS;
+export:         to AS13238 announce AS-CARAVANRUS;
+export:         to AS15835 announce AS-CARAVANRUS;
+export:         to AS15934 announce AS-CARAVANRUS;
+export:         to AS24638 announce AS-CARAVANRUS;
+export:         to AS20632 announce AS-CARAVANRUS;
+export:         to AS25478 announce AS-CARAVANRUS;
+export:         to AS28917 announce AS-CARAVANRUS;
+export:         to AS30124 announce AS-CARAVANRUS;
+export:         to AS39792 announce AS-CARAVANRUS;
+export:         to AS28968 announce AS-CARAVANRUS;
+export:         to AS21414 announce AS-CARAVANRUS;
+export:         to AS35000 announce AS-CARAVANRUS;
+export:         to AS12695 announce AS-CARAVANRUS;
+export:         to AS5537 announce AS-CARAVANRUS;
+export:         to AS43832 announce AS-CARAVANRUS;
+export:         to AS35297 announce AS-CARAVANRUS;
+export:         to AS29076 announce AS-CARAVANRUS;
+export:         to AS9031 announce AS-CARAVANRUS;
+export:         to AS30751 announce AS-CARAVANRUS;
+export:         to AS13002 announce AS-CARAVANRUS;
+export:         to AS8905 announce AS-CARAVANRUS;
+export:         to AS31430 announce AS-CARAVANRUS;
+export:         to AS52201 announce AS-CARAVANRUS;
+export:         to AS50952 announce AS-CARAVANRUS;
+export:         to AS9002 announce AS-CARAVANRUS;
+remarks:        -------------------------------------------------
+remarks:
+remarks:        BGP COMMUNITIES ACCEPTED FROM AS15756 CUSTOMERS
+remarks:
+remarks:        Community Action
+remarks:
+remarks:        15756:666 Set blackhole community for uplinks
+remarks:        15756:911 Set local pref to 50 (backup)
+remarks:        15756:200x Set prepend for uplinks
+remarks:        15756:300x Set prepend for peers
+remarks:
+remarks:        Where x is number of prepends (x=1,2,4,6) or
+remarks:        do NOT announce (x=9).
+remarks:
+remarks:        -------------------------------------------------
+remarks:
+remarks:        BGP INFORMATIONAL COMMUNITIES, ADVERTISED TO AS15756 CUSTOMERS
+remarks:
+remarks:        Community Meaning
+remarks:
+remarks:        15756:1301 AS15756 itself
+remarks:        15756:1302 Direct bgp clients
+remarks:        15756:1304 Peers
+remarks:        15756:1300 All of the above (AS15756 itself, Direct bgp clients, Peers)
+remarks:
+remarks:        15756:1200 Uplinks
+remarks:
+remarks:        --------------------------------------------------
+remarks:
+admin-c:        GRUK-RIPE
+tech-c:         GRUK-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         RU-MATRIXTELECOM-MNT
+created:        2002-08-22T16:10:25Z
+last-modified:  2018-09-04T09:48:16Z
+source:         RIPE
+
+organisation:   ORG-Mt4-RIPE
+org-name:       Avantel, Close Joint Stock Company
+org-type:       LIR
+address:        1-15, Skladochnaya street
+address:        127018
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74959090999
+fax-no:         +74959568930
+admin-c:        MOST-RIPE
+abuse-c:        AR16780-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        RU-MATRIXTELECOM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         RU-MATRIXTELECOM-MNT
+created:        2004-04-17T11:55:00Z
+last-modified:  2017-10-30T15:28:02Z
+source:         RIPE # Filtered
+
+person:         Grigory Ukraintsev
+address:        Moscow, Russia
+phone:          +7 495 2312255
+nic-hdl:        gruk-RIPE
+created:        2010-03-22T13:52:20Z
+last-modified:  2013-07-31T07:52:42Z
+source:         RIPE # Filtered
+mnt-by:         RU-MATRIXTELECOM-MNT
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

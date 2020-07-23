@@ -1,0 +1,313 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS34867'
+
+% Abuse contact for 'AS34867' is 'abuse@cosmonova.net.ua'
+
+aut-num:        AS34867
+as-name:        COSMONOVA-AS
+descr:          Cosmonova LLC
+descr:          Kiev, Ukraine
+remarks:        ----------------------------------------------------------------
+remarks:        COSMONOVA-AS TRANSITS
+remarks:        ----------------------------------------------------------------
+import:         from AS174 action pref=100; accept ANY
+export:         to AS174 announce AS-COSMONOVA
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS3356 announce AS-COSMONOVA
+import:         from AS9002 action pref=100; accept ANY
+export:         to AS9002 announce AS-COSMONOVA
+import:         from AS21497 action pref=100; accept ANY
+export:         to AS21497 announce AS-COSMONOVA
+remarks:        ----------------------------------------------------------------
+remarks:        COSMONOVA-AS IX
+remarks:        ----------------------------------------------------------------
+import:         from AS6695 action pref=145; accept AS-DECIX
+export:         to AS6695 announce AS-COSMONOVA
+import:         from AS15645 action pref=145; accept AS-UAIX
+export:         to AS15645 announce AS-COSMONOVA
+import:         from AS31210 action pref=145; accept AS-DTEL-IX
+export:         to AS31210 announce AS-COSMONOVA
+import:         from AS50384 action pref=145; accept AS-W-IX
+export:         to AS50384 announce AS-COSMONOVA
+import:         from AS50952 action pref=145; accept AS-DATAIX
+export:         to AS50952 announce AS-COSMONOVA
+import:         from AS59613 action pref=145; accept AS-UBNIX
+export:         to AS59613 announce AS-COSMONOVA
+remarks:        ----------------------------------------------------------------
+remarks:        COSMONOVA-AS PEERS
+remarks:        ----------------------------------------------------------------
+import:         from AS42 action pref=145; accept AS42
+export:         to AS42 announce AS-COSMONOVA
+import:         from AS251 action pref=145; accept AS-KAIAGLOBAL
+export:         to AS251 announce AS-COSMONOVA
+import:         from AS714 action pref=145; accept AS714
+export:         to AS714 announce AS-COSMONOVA
+import:         from AS1547 action pref=145; accept AS-IDK
+export:         to AS1547 announce AS-COSMONOVA
+import:         from AS3223 action pref=145; accept AS3223
+export:         to AS3223 announce AS-COSMONOVA
+import:         from AS3255 action pref=145; accept AS-UARNET
+export:         to AS3255 announce AS-COSMONOVA
+import:         from AS3261 action pref=145; accept AS-DIPT
+export:         to AS3261 announce AS-COSMONOVA
+import:         from AS6768 action pref=145; accept AS-EUROTELE
+export:         to AS6768 announce AS-COSMONOVA
+import:         from AS6849 action pref=145; accept AS-UKRTELBT
+export:         to AS6849 announce AS-COSMONOVA
+import:         from AS6939 action pref=145; accept AS-HURRICANE
+export:         to AS6939 announce AS-COSMONOVA
+import:         from AS12294 action pref=145; accept AS-TSUA-PARITY
+export:         to AS12294 announce AS-COSMONOVA
+import:         from AS12611 action pref=145; accept AS-RKOM
+export:         to AS12611 announce AS-COSMONOVA
+import:         from AS12883 action pref=145; accept AS-UCOMLINE
+export:         to AS12883 announce AS-COSMONOVA
+import:         from AS12963 action pref=145; accept AS12963
+export:         to AS12963 announce AS-COSMONOVA
+import:         from AS13188 action pref=145; accept AS-TRIOLAN
+export:         to AS13188 announce AS-COSMONOVA
+import:         from AS13307 action pref=145; accept AS-SKIF
+export:         to AS13307 announce AS-COSMONOVA
+import:         from AS15169 action pref=145; accept AS15169
+export:         to AS15169 announce AS-COSMONOVA
+import:         from AS15497 action pref=145; accept AS-COLOCALL
+export:         to AS15497 announce AS-COSMONOVA
+import:         from AS20562 action pref=145; accept AS-OPENPEERING
+export:         to AS20562 announce AS-COSMONOVA
+import:         from AS20640 action pref=145; accept AS-TITANNET
+export:         to AS20640 announce AS-COSMONOVA
+import:         from AS20940 action pref=145; accept AS-AKAMAI
+export:         to AS20940 announce AS-COSMONOVA
+import:         from AS24989 action pref=145; accept AS-EQUINIX-DE
+export:         to AS24989 announce AS-COSMONOVA
+import:         from AS25229 action pref=145; accept AS25229:AS-CUST
+export:         to AS25229 announce AS-COSMONOVA
+import:         from AS28917 action pref=145; accept AS-FIORD
+export:         to AS28917 announce AS-COSMONOVA
+import:         from AS29632 action pref=145; accept AS-NETASSIST
+export:         to AS29632 announce AS-COSMONOVA
+import:         from AS32934 action pref=145; accept AS-FACEBOOK
+export:         to AS32934 announce AS-COSMONOVA
+import:         from AS41692 action pref=145; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-COSMONOVA
+import:         from AS42473 action pref=145; accept AS-ANEXIA
+export:         to AS42473 announce AS-COSMONOVA
+import:         from AS43727 action pref=145; accept AS-SETKT
+export:         to AS43727 announce AS-COSMONOVA
+import:         from AS44600 action pref=145; accept AS-GGT
+export:         to AS44600 announce AS-COSMONOVA
+import:         from AS44654 action pref=145; accept AS-MNS
+export:         to AS44654 announce AS-COSMONOVA
+import:         from AS49019 action pref=145; accept AS-OLLIE
+export:         to AS49019 announce AS-COSMONOVA
+import:         from AS59492 action pref=145; accept AS-TELEFAX
+export:         to AS59492 announce AS-COSMONOVA
+import:         from AS61955 action pref=145; accept AS-COLOCATIONIX
+export:         to AS61955 announce AS-COSMONOVA
+remarks:        ----------------------------------------------------------------
+remarks:        COSMONOVA-AS CUSTOMERS
+remarks:        ----------------------------------------------------------------
+import:         from AS30860 action pref=160; accept AS-VSYS
+export:         to AS30860 announce {0.0.0.0/0}
+import:         from AS31378 action pref=160; accept AS31378
+export:         to AS31378 announce {0.0.0.0/0}
+import:         from AS34743 action pref=160; accept AS-NASHNET
+export:         to AS34743 announce ANY
+import:         from AS35345 action pref=160; accept AS35345
+export:         to AS35345 announce ANY
+import:         from AS39299 action pref=160; accept AS-GLOBALLOGIC
+export:         to AS39299 announce {0.0.0.0/0}
+import:         from AS41910 action pref=160; accept AS-GELIOS
+export:         to AS41910 announce ANY
+import:         from AS42824 action pref=160; accept AS42824
+export:         to AS42824 announce {0.0.0.0/0} and AS-COSMONOVA-PARITY
+import:         from AS43576 action pref=160; accept AS-KUMIR
+export:         to AS43576 announce ANY
+import:         from AS44379 action pref=160; accept AS44379
+export:         to AS44379 announce {0.0.0.0/0} and AS-COSMONOVA-PARITY
+import:         from AS47889 action pref=160; accept AS-SUNNET
+export:         to AS47889 announce {0.0.0.0/0}
+import:         from AS47900 action pref=160; accept AS47900
+export:         to AS47900 announce ANY
+import:         from AS48919 action pref=160; accept AS-UACITY
+export:         to AS48919 announce ANY
+import:         from AS50221 action pref=160; accept AS50221
+export:         to AS50221 announce {0.0.0.0/0}
+import:         from AS50310 action pref=160; accept AS50310
+export:         to AS50310 announce ANY
+import:         from AS50847 action pref=160; accept AS50847
+export:         to AS50847 announce {0.0.0.0/0}
+import:         from AS50864 action pref=160; accept AS-ITTELENET
+export:         to AS50864 announce ANY
+import:         from AS52066 action pref=160; accept AS52066
+export:         to AS52066 announce {0.0.0.0/0}
+import:         from AS57311 action pref=160; accept AS-NEOHOST
+export:         to AS57311 announce ANY
+import:         from AS57999 action pref=160; accept AS57999
+export:         to AS57999 announce {0.0.0.0/0}
+import:         from AS58277 action pref=160; accept AS-LOCO
+export:         to AS58277 announce {0.0.0.0/0}
+import:         from AS62427 action pref=160; accept AS62427
+export:         to AS62427 announce {0.0.0.0/0}
+import:         from AS64454 action pref=160; accept AS64454
+export:         to AS64454 announce ANY
+import:         from AS196777 action pref=160; accept AS196777
+export:         to AS196777 announce ANY
+import:         from AS197125 action pref=160; accept AS197125
+export:         to AS197125 announce ANY
+import:         from AS198168 action pref=160; accept AS198168
+export:         to AS198168 announce ANY
+import:         from AS203332 action pref=160; accept AS203332
+export:         to AS203332 announce {0.0.0.0/0}
+import:         from AS207085 action pref=160; accept AS207085
+export:         to AS207085 announce ANY
+remarks:        ----------------------------------------------------------------
+remarks:        COSMONOVA-AS IPv6 TRANSITS
+remarks:        ----------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS174 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS3356 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS9002 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS21497 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS21497 announce AS-COSMONOVA
+remarks:        ----------------------------------------------------------------
+remarks:        COSMONOVA-AS IPv6 IX
+remarks:        ----------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS6695 action pref=145; accept AS-DECIX
+mp-export:      afi ipv6.unicast to AS6695 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS15645 action pref=145; accept AS-UAIX
+mp-export:      afi ipv6.unicast to AS15645 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS31210 action pref=145; accept AS-DTEL-IX
+mp-export:      afi ipv6.unicast to AS31210 announce AS-COSMONOVA
+remarks:        ----------------------------------------------------------------
+remarks:        COSMONOVA-AS IPv6 PEERS
+remarks:        ----------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS251 action pref=145; accept AS-KAIAGLOBAL
+mp-export:      afi ipv6.unicast to AS251 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS714 action pref=145; accept AS714
+mp-export:      afi ipv6.unicast to AS714 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS6939 action pref=145; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS12611 action pref=145; accept AS-RKOM
+mp-export:      afi ipv6.unicast to AS12611 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS15169 action pref=145; accept AS15169
+mp-export:      afi ipv6.unicast to AS15169 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS20562 action pref=145; accept AS-OPENPEERING
+mp-export:      afi ipv6.unicast to AS20562 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS20640 action pref=145; accept AS-TITANNET
+mp-export:      afi ipv6.unicast to AS20640 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS20940 action pref=145; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS41692 action pref=145; accept AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast to AS41692 announce AS-COSMONOVA
+mp-import:      afi ipv6.unicast from AS42473 action pref=145; accept AS-ANEXIA
+mp-export:      afi ipv6.unicast to AS42473 announce AS-COSMONOVA
+remarks:        ----------------------------------------------------------------
+remarks:        COSMONOVA-AS IPv6 CUSTOMERS
+remarks:        ----------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS30860 action pref=160; accept AS-VSYS
+mp-export:      afi ipv6.unicast to AS30860 announce {0.0.0.0/0}
+mp-import:      afi ipv6.unicast from AS39299 action pref=160; accept AS-GLOBALLOGIC
+mp-export:      afi ipv6.unicast to AS39299 announce {0.0.0.0/0}
+mp-import:      afi ipv6.unicast from AS48919 action pref=160; accept AS-UACITY
+mp-export:      afi ipv6.unicast to AS48919 announce ANY
+mp-import:      afi ipv6.unicast from AS198168 action pref=160; accept AS198168
+mp-export:      afi ipv6.unicast to AS198168 announce ANY
+mp-import:      afi ipv6.unicast from AS207085 action pref=160; accept AS207085
+mp-export:      afi ipv6.unicast to AS207085 announce ANY
+remarks:
+remarks:        ALL peering requests send to noc@cosmonova.net.ua
+remarks:        ----------------------------------------------------------------
+remarks:
+remarks:        The following BGP communities can be set by COSMONOVA
+remarks:        BGP customers to affect announcements to peers,ix and transits.
+remarks:
+remarks:        34867:2009 not announce to all COSMONOVA UPLINKS
+remarks:        34867:201X announce to transit VODAFONE with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:        34867:202X announce to transit RETN with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:        34867:203X announce to transit HURRICANE ELECTRIC with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:        34867:204X announce to transit COGENT with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:        34867:205X announce to transit LEVEL3 with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:        34867:200X announce to all COSMONOVA UPLINKS with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:
+remarks:        34867:3009 not announce to all COSMONOVA IX's and PARITIES
+remarks:        34867:301X announce to UA-IX with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:        34867:302X announce to DTEL-IX with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:        34867:303X announce to GIGANET-IX with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:        34867:300X announce to all COSMONOVA IX's and PARITIES with X=1,2,3,4,5 prepend, X=9 NOT announce
+remarks:
+remarks:        34867:9999 blackhole traffic to this prefix (only /32 accepted)
+remarks:
+remarks:        ----------------------------------------------------------------
+remarks:        For additional information, please contact Cosmonova NOC <noc@cosmonova.net.ua>.
+remarks:        ----------------------------------------------------------------
+org:            ORG-CL126-RIPE
+admin-c:        CMNV
+tech-c:         CMNV
+remarks:        For information on "status:" attribute read https://www.ripe.net/data-tools/db/faq/faq-status-values-legacy-resources
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         Cosmonova-MNT
+created:        2005-04-20T15:16:26Z
+last-modified:  2018-11-22T12:39:05Z
+source:         RIPE
+
+organisation:   ORG-CL126-RIPE
+org-name:       Cosmonova LLC
+org-type:       LIR
+address:        Mykoly Grinchenka st. 2/1, block "G"
+address:        03680
+address:        Kiev
+address:        UKRAINE
+phone:          +380443590000
+fax-no:         +380443590019
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        COSMONOVA-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         Cosmonova-MNT
+abuse-c:        CMNV
+created:        2009-09-24T11:39:30Z
+last-modified:  2018-05-14T06:52:15Z
+source:         RIPE # Filtered
+
+role:           Cosmonova ISP
+address:        Cosmonova
+address:        Mykoly Grinchenka st. 2/1, block "G"
+address:        Kyiv-03680
+phone:          +380443590000
+fax-no:         +380443590019
+remarks:        *** ABUSE-related reports and trouble mailto: abuse@cosmonova.net.ua ***
+remarks:        *** Routing-related reports and trouble mailto: noc@cosmonova.net.ua ***
+admin-c:        TAR70-RIPE
+tech-c:         TAR70-RIPE
+nic-hdl:        CMNV
+mnt-by:         Cosmonova-MNT
+created:        2007-02-23T10:42:24Z
+last-modified:  2013-08-16T08:46:06Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@cosmonova.net.ua
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

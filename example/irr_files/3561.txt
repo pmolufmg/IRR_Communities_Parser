@@ -1,0 +1,2499 @@
+aut-num:      AS3561
+as-name:      SAVVIS
+descr:        SAVVIS Communications
+import:	      from AS1982 208.173.49.38 action pref=100; accept AS-NEXUS
+import:	      from AS6636 208.172.108.34 action pref=100; accept AS6636
+import:	      from AS7366 208.173.178.254 action pref=100; accept AS-IPTRANSIT
+import:	      from AS15519 212.124.240.218 action pref=100; accept AS15519
+import:	      from AS209 63.146.27.137 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7296 216.89.82.62 action pref=100; accept AS-ALCHEMY
+import:	      from AS14576 216.89.83.70 action pref=100; accept AS14576
+import:	      from AS11160 208.172.39.198 action pref=100; accept AS11160
+import:	      from AS10432 209.144.203.210 action pref=100; accept AS-APCOM
+import:	      from AS19080 209.144.203.70 action pref=100; accept AS-WBS
+import:	      from AS5769 216.113.125.41 action pref=100; accept AS5769:AS-CUSTOMERS
+import:	      from AS5400 80.81.193.84 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS22300 208.174.57.186 action pref=100; accept AS22300
+import:	      from AS36068 216.89.82.238 action pref=100; accept rs-networks01
+import:	      from AS10361 208.173.135.114 action pref=100; accept AS10361
+import:	      from AS6130 208.172.38.2 action pref=100; accept AS-ADNC-SAN
+import:	      from AS26373 208.173.38.2 action pref=100; accept AS26373
+import:	      from AS33736 216.91.97.38 action pref=100; accept AS33736
+import:	      from AS10292 208.138.43.179 action pref=100; accept AS-CWJAMAICA
+import:	      from AS33597 208.173.12.130 action pref=100; accept AS-INFORELAY
+import:	      from AS19730 216.89.82.170 action pref=100; accept AS19730
+import:	      from AS35916 208.172.36.102 action pref=100; accept AS-35916-TRANSIT
+import:	      from AS13345 216.89.82.202 action pref=100; accept AS-ROCKYNET
+import:	      from AS16688 208.175.59.102 action pref=100; accept AS16688
+import:	      from AS33231 64.240.112.226 action pref=100; accept AS33231
+import:	      from AS577 216.89.91.134 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS11816 208.173.90.130 action pref=100; accept AS11816
+import:	      from AS11817 208.173.129.26 action pref=100; accept AS11817
+import:	      from AS16320 64.243.224.170 action pref=100; accept AS16320:AS-DISCOVERYTEL
+import:	      from AS36649 166.63.144.26 action pref=100; accept AS36649
+import:	      from AS20495 208.174.49.170 action pref=100; accept AS-WEDARE
+import:	      from AS3595 216.89.82.82 action pref=100; accept AS3595
+import:	      from AS19739 170.164.253.249 action pref=100; accept AS19739
+import:	      from AS10946 208.173.131.70 action pref=100; accept AS10946
+import:	      from AS14725 216.91.249.102 action pref=100; accept AS14725
+import:	      from AS12111 208.173.50.102 action pref=100; accept AS-OEN
+import:	      from AS22671 208.170.15.30 action pref=100; accept AS22671
+import:	      from AS29863 208.172.163.130 action pref=100; accept AS-DATA393-INV01
+import:	      from AS12116 208.172.135.2 action pref=100; accept AS12116
+import:	      from AS14585 208.175.10.82 action pref=100; accept AS-CIFNET
+import:	      from AS7012 207.171.0.1 action pref=100; accept AS-PHYBER
+import:	      from AS25650 208.173.86.130 action pref=100; accept AS25650
+import:	      from AS26526 216.91.49.22 action pref=100; accept AS26526
+import:	      from AS25653 216.89.82.118 action pref=100; accept AS-FORTRESS
+import:	      from AS27257 216.89.82.126 action pref=100; accept AS27257
+import:	      from AS23112 208.174.194.34 action pref=100; accept AS23112
+import:	      from AS33673 216.91.15.234 action pref=100; accept AS33673
+import:	      from AS13789 208.173.129.62 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7018 192.205.36.97 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS53563 208.173.55.82 action pref=100; accept AS-XPLUSONE
+import:	      from AS11179 64.243.225.54 action pref=100; accept AS-TRIOTEL
+import:	      from AS19740 206.155.32.34 action pref=100; accept AS19740
+import:	      from AS30266 209.144.203.70 action pref=100; accept AS30266
+import:	      from AS9121 208.173.135.66 action pref=100; accept AS-TTNET
+import:	      from AS26893 208.175.18.138 action pref=100; accept AS26893
+import:	      from AS32446 216.91.97.2 action pref=100; accept AS32446
+import:	      from AS7385 206.24.240.162 action pref=100; accept AS-INTEGRA
+import:	      from AS14663 216.198.140.2 action pref=100; accept AS14663
+import:	      from AS29944 216.88.34.162 action pref=100; accept AS-PULLTHEPLUG
+import:	      from AS13790 208.172.161.178 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS46786 208.173.178.130 action pref=100; accept AS-IPTRANSIT
+import:	      from AS46859 64.243.225.142 action pref=100; accept AS46859
+import:	      from AS4046 208.170.29.198 action pref=100; accept AS4046
+import:	      from AS12129 208.174.117.42 action pref=100; accept AS-I123
+import:	      from AS11255 208.174.226.70 action pref=100; accept AS11255
+import:	      from AS11328 204.188.3.253 action pref=100; accept AS11328
+import:	      from AS26393 208.170.2.174 action pref=100; accept AS26393
+import:	      from AS30340 216.89.83.102 action pref=100; accept AS30340
+import:	      from AS9498 208.174.194.18 action pref=100; accept AS9498:AS-BHARTI-IN
+import:	      from AS11907 216.91.69.26 action pref=100; accept AS11907
+import:	      from AS35937 216.89.82.38 action pref=100; accept AS-MARQUISNET
+import:	      from AS33251 208.172.54.2 action pref=100; accept AS-33251-TRANSIT-CUSTOMERS
+import:	      from AS11691 208.173.173.18 action pref=100; accept AS11691
+import:	      from AS33182 216.89.79.150 action pref=100; accept AS33182
+import:	      from AS3320 62.156.138.105 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14742 208.172.51.230 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14743 208.175.172.10 action pref=100; accept AS-PNAPSFO
+import:	      from AS21962 208.173.159.26 action pref=100; accept AS21962
+import:	      from AS14745 208.172.65.222 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS11404 208.173.48.134 action pref=100; accept AS-VOBIZ
+import:	      from AS40111 216.89.82.86 action pref=100; accept AS40111
+import:	      from AS36167 216.89.82.90 action pref=100; accept AS36167
+import:	      from AS19181 209.188.10.222 action pref=100; accept AS19181
+import:	      from AS40042 64.243.225.58 action pref=100; accept AS-SCG
+import:	      from AS3257 89.149.178.25 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS10462 208.144.187.69 action pref=100; accept AS10462
+import:	      from AS13878 216.89.79.142 action pref=100; accept AS-DIVEO-TRANSIT
+import:	      from AS36097 208.172.130.166 action pref=100; accept AS36097
+import:	      from AS40045 65.91.93.1 action pref=100; accept AS40045
+import:	      from AS33400 208.173.107.66 action pref=100; accept AS33400
+import:	      from AS14173 208.175.173.2 action pref=100; accept AS14173
+import:	      from AS4637 202.84.152.29 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7610 208.173.157.30 action pref=100; accept AS7610
+import:	      from AS47098 64.240.143.6 action pref=100; accept AS47098
+import:	      from AS22195 208.175.194.14 action pref=100; accept AS22195
+import:	      from AS17223 209.176.218.110 action pref=100; accept AS-DATA393-INV01
+import:	      from AS18963 208.170.5.178 action pref=100; accept AS18963
+import:	      from AS9145 208.174.49.138 action pref=100; accept AS-EWETEL
+import:	      from AS32607 64.28.84.54 action pref=100; accept AS32607
+import:	      from AS46944 208.81.87.34 action pref=100; accept AS46944
+import:	      from AS18966 64.243.255.242 action pref=100; accept AS18966
+import:	      from AS22915 69.5.31.236 action pref=100; accept AS22915
+import:	      from AS14751 208.172.49.154 action pref=100; accept AS-CONV
+import:	      from AS46945 206.24.199.122 action pref=100; accept AS46945
+import:	      from AS19697 64.243.223.190 action pref=100; accept rs-AS19697
+import:	      from AS14752 208.173.138.142 action pref=100; accept AS14752
+import:	      from AS4134 202.97.32.92 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS22773 208.173.170.2 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14755 208.172.169.50 action pref=100; accept RS-MHOexpanded
+import:	      from AS4208 208.175.15.226 action pref=100; accept AS4208
+import:	      from AS174 130.117.14.201 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS25822 64.241.138.114 action pref=100; accept AS25822
+import:	      from AS11343 209.176.218.114 action pref=100; accept AS11343
+import:	      from AS25751 208.173.172.198 action pref=100; accept AS25751
+import:	      from AS18534 204.8.22.1 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14688 208.170.33.26 action pref=100; accept AS14688
+import:	      from AS26627 64.243.225.30 action pref=100; accept AS-PILOSOFT
+import:	      from AS22410 208.170.17.102 action pref=100; accept AS22410
+import:	      from AS5511 206.24.169.58 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS25755 208.170.5.170 action pref=100; accept AS25755
+import:	      from AS32035 216.89.82.142 action pref=100; accept AS32035
+import:	      from AS23071 64.240.36.106 action pref=100; accept AS23071
+import:	      from AS30361 206.24.195.138 action pref=100; accept AS-SWIFTWILL2
+import:	      from AS1668 208.174.57.30 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS25759 208.175.15.102 action pref=100; accept AS25759
+import:	      from AS65530 165.193.172.78 action pref=100; accept AS65530
+import:	      from AS19840 166.63.159.78 action pref=100; accept AS19840
+import:	      from AS3770 208.172.114.98 action pref=100; accept AS3770
+import:	      from AS65534 204.71.39.10 action pref=100; accept AS3561:AS-NONE
+import:	      from AS16798 67.220.159.74 action pref=100; accept AS16798
+import:	      from AS26054 67.220.159.86 action pref=100; accept AS26054
+import:	      from AS11855 208.172.227.202 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS11856 64.243.225.114 action pref=100; accept AS11856
+import:	      from AS38861 208.173.55.70 action pref=100; accept AS-STARHUBINTERNET
+import:	      from AS46953 64.241.66.146 action pref=100; accept AS46953
+import:	      from AS1239 208.174.49.162 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS10985 208.172.230.70 action pref=100; accept AS10985
+import:	      from AS40495 208.172.88.30 action pref=100; accept AS-MARCHEX01
+import:	      from AS9800 208.173.57.2 action pref=100; accept AS9800:AS-CU
+import:	      from AS12221 208.175.200.82 action pref=100; accept AS12221
+import:	      from AS20240 64.241.66.138 action pref=100; accept AS20240
+import:	      from AS46887 208.172.51.146 action pref=100; accept AS46887
+import:	      from AS27435 208.173.50.166 action pref=100; accept AS27435
+import:	      from AS36183 208.173.51.150 action pref=100; accept AS36183
+import:	      from AS19271 208.174.84.14 action pref=100; accept rs-Peak10_All
+import:	      from AS36184 216.91.101.158 action pref=100; accept AS36184
+import:	      from AS26634 216.91.253.166 action pref=100; accept AS26634
+import:	      from AS36185 64.241.148.6 action pref=100; accept AS36185
+import:	      from AS12083 208.173.60.230 action pref=100; accept AS12083
+import:	      from AS11281 206.155.32.42 action pref=100; accept AS11281
+import:	      from AS27367 216.90.236.254 action pref=100; accept AS27367
+import:	      from AS16943 208.172.112.6 action pref=100; accept AS16943
+import:	      from AS4651 202.47.253.9 action pref=100; accept AS-THIX
+import:	      from AS11289 64.243.225.22 action pref=100; accept AS-STRATICOM
+import:	      from AS30373 67.220.159.198 action pref=100; accept AS30373:AS-CUSTOMERS
+import:	      from AS14338 206.26.104.6 action pref=100; accept AS14338
+import:	      from AS5459 195.66.225.254 action pref=100; accept AS3561:AS-NONE
+import:	      from AS4657 205.216.164.2 action pref=100; accept AS-STARHUBINTERNET
+import:	      from AS4589 208.173.135.214 action pref=100; accept AS-EASYNET
+import:	      from AS17318 216.89.83.34 action pref=100; accept AS17318
+import:	      from AS42178 64.242.237.162 action pref=100; accept AS42178
+import:	      from AS26067 209.144.203.74 action pref=100; accept AS26067
+import:	      from AS11795 216.89.82.186 action pref=100; accept AS11795
+import:	      from AS6762 195.69.144.196 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS17248 64.243.225.146 action pref=100; accept AS17248
+import:	      from AS8001 206.152.3.210 action pref=100; accept AS-NETACCESS
+import:	      from AS27514 166.63.144.202 action pref=100; accept AS27514
+import:	      from AS11504 208.175.104.78 action pref=100; accept AS11504
+import:	      from AS7203 216.91.16.2 action pref=100; accept AS7203
+import:	      from AS26644 64.240.176.82 action pref=100; accept AS26644
+import:	      from AS3356 212.73.240.201 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS20258 208.172.55.26 action pref=100; accept AS20258
+import:	      from AS18482 64.243.228.158 action pref=100; accept AS18482
+import:	      from AS36197 66.100.47.98 action pref=100; accept AS36197
+import:	      from AS6405 208.173.52.6 action pref=100; accept AS-AINET
+import:	      from AS26648 208.174.67.122 action pref=100; accept AS26648
+import:	      from AS10565 206.24.240.194 action pref=100; accept AS10565 OR AS10565:AS-CUSTOMERS
+import:	      from AS25847 209.144.203.78 action pref=100; accept AS-SERVINT
+import:	      from AS18559 206.24.195.166 action pref=100; accept AS-BLIP
+import:	      from AS22293 67.220.159.78 action pref=100; accept AS22293
+import:	      from AS6195 208.174.224.138 action pref=100; accept AS6195
+import:	      from AS30458 208.172.99.158 action pref=100; accept AS30458
+import:	      from AS32631 216.89.82.190 action pref=100; accept AS32631
+import:	      from AS19863 190.80.0.1 action pref=100; accept AS19863
+import:	      from AS28685 213.144.232.109 action pref=100; accept AS28685
+import:	      from AS12749 208.173.59.54 action pref=100; accept AS12749
+import:	      from AS14925 208.172.65.210 action pref=100; accept AS14925
+import:	      from AS31769 64.243.225.110 action pref=100; accept AS31769:AS-CUSTOMERS
+import:	      from AS27524 208.172.44.22 action pref=100; accept AS-XEEX
+import:	      from AS36347 208.173.173.22 action pref=100; accept AS36347
+import:	      from AS25923 208.173.60.134 action pref=100; accept AS25923
+import:	      from AS3292 195.69.144.104 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS27455 206.24.204.2 action pref=100; accept AS27455
+import:	      from AS9829 208.173.57.102 action pref=100; accept AS9829
+import:	      from AS29999 208.173.143.62 action pref=100; accept AS29999
+import:	      from AS32136 64.243.225.118 action pref=100; accept AS32136
+import:	      from AS12179 208.175.175.18 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS40156 66.100.47.162 action pref=100; accept AS40156
+import:	      from AS852 154.11.0.208 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS46475 208.175.175.102 action pref=100; accept AS46475
+import:	      from AS11013 209.176.218.102 action pref=100; accept AS11013:AS-CUSTOMER
+import:	      from AS19871 64.240.208.10 action pref=100; accept AS19871
+import:	      from AS14288 207.50.14.6 action pref=100; accept AS-RN-SCT
+import:	      from AS35985 216.89.79.178 action pref=100; accept AS35985
+import:	      from AS11888 201.172.12.65 action pref=100; accept AS-MULTIMEDIOS
+import:	      from AS17267 208.173.23.74 action pref=100; accept AS17267
+import:	      from AS26731 208.174.118.142 action pref=100; accept AS26731
+import:	      from AS20416 208.172.217.82 action pref=100; accept AS20416
+import:	      from AS12180 208.172.108.18 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS286 134.222.93.29 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS12181 208.174.194.26 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS12182 208.173.55.162 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14501 208.172.130.130 action pref=100; accept AS14501
+import:	      from AS6423 208.172.88.42 action pref=100; accept AS6423
+import:	      from AS13700 208.172.164.102 action pref=100; accept AS13700
+import:	      from AS21720 206.24.199.6 action pref=100; accept AS21720
+import:	      from AS8966 195.69.145.89 action pref=100; accept AS-EMIX
+import:	      from AS13703 208.173.59.50 action pref=100; accept AS13703
+import:	      from AS40093 208.173.157.34 action pref=100; accept AS40093
+import:	      from AS15308 64.242.232.250 action pref=100; accept AS15308
+import:	      from AS14361 209.160.62.174 action pref=100; accept RS-AS14361-ALL-COMBINED
+import:	      from AS6428 216.91.36.210 action pref=100; accept AS6428
+import:	      from AS23184 24.139.25.126 action pref=100; accept AS23184
+import:	      from AS40099 64.242.171.22 action pref=100; accept AS40099
+import:	      from AS32720 208.173.129.126 action pref=100; accept AS32720
+import:	      from AS26163 208.175.194.18 action pref=100; accept AS-DATAGRAM
+import:	      from AS35994 208.172.112.2 action pref=100; accept AS35994
+import:	      from AS31923 208.173.116.202 action pref=100; accept AS31923
+import:	      from AS40818 208.172.108.22 action pref=100; accept AS40818
+import:	      from AS22020 206.24.218.114 action pref=100; accept AS22020
+import:	      from AS1273 208.173.158.10 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS32580 208.175.168.202 action pref=100; accept AS32580
+import:	      from AS31926 208.175.169.122 action pref=100; accept AS31926
+import:	      from AS4250 208.173.180.30 action pref=100; accept AS4250
+import:	      from AS17348 208.173.18.234 action pref=100; accept AS17348
+import:	      from AS7738 208.173.90.90 action pref=100; accept AS-TELEMARNET
+import:	      from AS8100 208.144.187.66 action pref=100; accept AS8100
+import:	      from AS4181 208.172.13.198 action pref=100; accept AS-TDS-TRANSIT
+import:	      from AS293 206.24.240.202 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS19452 208.173.37.134 action pref=100; accept AS19452
+import:	      from AS27473 208.172.135.2 action pref=100; accept AS27473
+import:	      from AS11608 208.173.50.54 action pref=100; accept AS-ACCRETIVE
+import:	      from AS40170 208.172.163.186 action pref=100; accept AS40170
+import:	      from AS46562 216.89.82.78 action pref=100; accept AS-COLOAT
+import:	      from AS10594 208.172.91.10 action pref=100; accept AS10594
+import:	      from AS30480 206.24.233.2 action pref=100; accept AS30480
+import:	      from AS23265 216.89.83.106 action pref=100; accept AS-POCKETINET
+import:	      from AS15247 216.89.83.114 action pref=100; accept AS15247
+import:	      from AS5564 206.24.169.118 action pref=100; accept AS5564
+import:	      from AS15249 208.174.127.26 action pref=100; accept AS15249
+import:	      from AS5639 190.58.140.253 action pref=100; accept AS5639
+import:	      from AS19024 208.173.180.134 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS13577 216.89.79.170 action pref=100; accept AS13577
+import:	      from AS21597 208.174.193.150 action pref=100; accept AS21597
+import:	      from AS19029 208.173.53.130 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS30121 206.24.240.134 action pref=100; accept AS-TELLME
+import:	      from AS18800 206.24.202.98 action pref=100; accept AS18800
+import:	      from AS65222 216.90.108.10 action pref=100; accept AS3561:AS-NONE
+import:	      from AS2730 208.172.234.22 action pref=100; accept AS2730
+import:	      from AS26821 208.173.90.38 action pref=100; accept AS-RN-ALL
+import:	      from AS36444 64.243.182.110 action pref=100; accept AS-NEXCESS
+import:	      from AS19461 208.173.55.2 action pref=100; accept AS19461
+import:	      from AS25950 64.243.204.38 action pref=100; accept AS25950
+import:	      from AS6440 205.149.7.1 action pref=100; accept AS6440
+import:	      from AS23342 216.89.83.162 action pref=100; accept AS-UNITEDLAYER
+import:	      from AS27487 208.175.97.178 action pref=100; accept AS27487
+import:	      from AS32164 208.172.236.14 action pref=100; accept AS32164
+import:	      from AS23271 208.175.51.134 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS30490 206.155.32.22 action pref=100; accept AS30490
+import:	      from AS20940 208.173.52.34 action pref=100; accept AS-AKAMAI
+import:	      from AS21816 208.81.87.10 action pref=100; accept AS21816
+import:	      from AS6447 128.223.51.103 action pref=100; accept AS3561:AS-NONE
+import:	      from AS13725 208.170.5.182 action pref=100; accept AS13725
+import:	      from AS40188 216.89.82.158 action pref=100; accept AS40188
+import:	      from AS30568 208.173.180.26 action pref=100; accept AS30568
+import:	      from AS13582 204.70.151.198 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS15189 208.173.159.18 action pref=100; accept AS15189
+import:	      from AS53430 208.170.5.206 action pref=100; accept AS53430
+import:	      from AS1290 216.219.73.78 action pref=100; accept AS-PSINETUK
+import:	      from AS46215 216.19.160.68 action pref=100; accept AS-TERRANOVANET
+import:	      from AS32748 208.173.176.218 action pref=100; accept AS-STEADFAST
+import:	      from AS16566 208.172.41.82 action pref=100; accept AS16566
+import:	      from AS1299 208.173.52.122 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS27560 208.175.15.242 action pref=100; accept AS27560
+import:	      from AS11622 208.174.110.2 action pref=100; accept AS11622
+import:	      from AS33112 208.170.0.74 action pref=100; accept AS33112
+import:	      from AS36529 208.173.176.206 action pref=100; accept AS36529
+import:	      from AS19617 166.63.154.154 action pref=100; accept AS19617
+import:	      from AS3549 64.215.195.145 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS46723 208.171.192.2 action pref=100; accept AS46723
+import:	      from AS32244 206.24.225.226 action pref=100; accept AS32244
+import:	      from AS6450 216.88.34.182 action pref=100; accept AS-READNEWS
+import:	      from AS5650 74.40.7.66 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS40193 206.155.32.14 action pref=100; accept AS-TRIT
+import:	      from AS6453 208.173.129.30 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS46584 216.89.83.46 action pref=100; accept AS-VOXCOMET-NETWORK
+import:	      from AS10689 208.173.180.58 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS31377 208.172.51.170 action pref=100; accept AS31377
+import:	      from AS29748 208.173.10.250 action pref=100; accept RS-CARPATHIA OR AS-CARPATHIA
+import:	      from AS14395 208.170.17.98 action pref=100; accept AS14395
+import:	      from AS4788 208.172.38.50 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7907 208.174.194.62 action pref=100; accept AS-NETWORLD
+import:	      from AS33556 208.170.0.38 action pref=100; accept AS33556
+import:	      from AS30142 208.173.10.210 action pref=100; accept AS30142
+import:	      from AS26198 208.175.169.134 action pref=100; accept AS26198
+import:	      from AS9002 208.173.129.38 action pref=100; accept AS-RETN
+import:	      from AS46085 209.144.128.102 action pref=100; accept AS46085
+import:	      from AS4282 204.71.39.10 action pref=100; accept AS4282
+import:	      from AS8132 208.172.113.234 action pref=100; accept AS8132
+import:	      from AS32322 208.172.21.70 action pref=100; accept AS32322
+import:	      from AS2828 67.111.23.181 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS20385 216.88.196.131 action pref=100; accept AS20385
+import:	      from AS2686 195.69.144.37 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS6461 208.173.180.38 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS4930 208.144.187.67 action pref=100; accept AS4930
+import:	      from AS22561 208.172.216.126 action pref=100; accept AS22561
+import:	      from AS32257 208.173.68.110 action pref=100; accept AS32257
+import:	      from AS6539 208.173.176.210 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS19121 64.242.127.38 action pref=100; accept AS19121
+import:	      from AS13743 208.173.162.138 action pref=100; accept AS13743
+import:	      from AS12006 204.70.147.234 action pref=100; accept AS12006
+import:	      from AS5668 69.29.186.2 action pref=100; accept AS5668
+import:	      from AS46302 64.243.225.26 action pref=100; accept AS46302:AS-TRANSIT
+import:	      from AS32761 208.173.130.106 action pref=100; accept AS32761
+import:	      from AS32837 208.170.25.126 action pref=100; accept AS32837
+import:	      from AS33569 64.240.98.6 action pref=100; accept AS-AHS
+import:	      from AS10269 200.32.192.149 action pref=100; accept AS10269
+import:	      from AS10910 216.89.77.22 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS22137 208.173.3.170 action pref=100; accept AS22137
+import:	      from AS10911 208.173.173.14 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS4509 64.243.47.110 action pref=100; accept AS4509
+import:	      from AS10912 208.174.196.38 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS10913 208.173.159.2 action pref=100; accept AS-PNAPWDC002
+import:	      from AS14985 64.243.225.50 action pref=100; accept RS-VEROXITY-BLKS
+import:	      from AS4293 216.89.108.230 action pref=100; accept AS4293
+import:	      from AS10844 208.175.101.50 action pref=100; accept AS10844
+import:	      from AS10845 208.173.57.6 action pref=100; accept AS-ATWOKONE
+import:	      from AS7342 195.69.145.232 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS22712 208.173.3.34 action pref=100; accept AS22712
+import:	      from AS8075 208.173.50.86 action pref=100; accept AS-MICROSOFT
+import:	      from AS11579 64.243.225.122 action pref=100; accept AS11579
+import:	      from AS29761 216.89.83.58 action pref=100; accept AS29761
+import:	      from AS25986 208.81.87.14 action pref=100; accept AS25986
+import:	      from AS7349 208.174.125.110 action pref=100; accept AS-7349-TRANSIT-CUSTOMERS
+import:	      from AS4943 208.172.129.10 action pref=100; accept AS4943
+import:	      from AS21844 209.85.2.241 action pref=100; accept AS21844
+import:	      from AS23376 208.170.14.214 action pref=100; accept AS23376
+import:	      from AS30666 204.70.151.182 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7922 208.172.41.162 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS12956 213.140.32.154 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS32770 208.173.162.182 action pref=100; accept AS32770
+import:	      from AS35176 208.171.171.34 action pref=100; accept AS35176
+import:	      from AS19066 208.175.10.98 action pref=100; accept AS-WIREDTREE
+import:	      from AS65400 146.242.128.226 action pref=100; accept AS3561:AS-NONE
+import:	      from AS32774 208.174.194.46 action pref=100; accept AS32774
+import:	      from AS53463 208.173.56.194 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7784 208.173.50.246 action pref=100; accept AS-AOI
+import:	      from AS19710 206.155.32.10 action pref=100; accept AS-DINOSET
+import:	      from AS2911 206.24.239.30 action pref=100; accept AS2911
+import:	      from AS14990 208.172.230.26 action pref=100; accept AS14990
+import:	      from AS2914 195.69.144.36 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS8220 80.81.192.61 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS30094 208.173.50.202 action pref=100; accept AS-GIGANEWS-ALL
+import:	      from AS40430 208.144.187.10 action pref=100; accept AS-40430
+import:	      from AS558 208.173.57.58 action pref=100; accept AS-NET2EZ
+import:	      from AS18915 216.89.83.42 action pref=100; accept AS18915
+import:	      from AS30097 208.174.194.2 action pref=100; accept AS30097
+import:	      from AS26792 216.89.83.110 action pref=100; accept AS-CSSNW
+import:	      from AS22653 208.173.59.62 action pref=100; accept AS-GLOBALCOMPASS
+import:	      from AS26799 12.30.238.37 action pref=100; accept AS26799
+import:	      from AS25700 208.172.81.134 action pref=100; accept AS25700
+import:	      from AS26503 208.173.118.2 action pref=100; accept AS26503
+import:	      from AS11150 208.172.164.202 action pref=100; accept AS11150
+import:	      from AS16810 208.173.176.10 action pref=100; accept AS-CAVALIER
+import:	      from AS26435 208.173.79.10 action pref=100; accept AS26435
+import:	      from AS13768 208.173.50.6 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS701 63.137.84.18 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS702 158.43.0.181 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS36700 216.89.82.122 action pref=100; accept AS-Actforex
+import:	      from AS32857 166.63.148.10 action pref=100; accept AS32857
+import:	      from AS6126 208.174.14.106 action pref=100; accept AS6126
+import:	      from AS6128 65.19.101.25 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS13407 64.69.100.142 action pref=100; accept AS-13407 OR RS-ONECOMM-C1
+import:	      from AS7796 206.155.32.6 action pref=100; accept AS7796
+import:	      from AS36563 208.172.135.6 action pref=100; accept AS-TELX-DALLAS
+import:	      from AS2924 209.44.21.202 action pref=100; accept rs-AS2924
+export:       to AS1982 208.173.49.38 announce ANY
+export:       to AS6636 208.172.108.34 announce ANY
+export:       to AS7366 208.173.178.254 announce ANY
+export:       to AS15519 212.124.240.218 announce ANY
+export:       to AS209 63.146.27.137 announce AS-SAVVIS-TRANSIT
+export:       to AS7296 216.89.82.62 announce ANY
+export:       to AS14576 216.89.83.70 announce ANY
+export:       to AS11160 208.172.39.198 announce rs-savvis
+export:       to AS10432 209.144.203.210 announce ANY
+export:       to AS19080 209.144.203.70 announce ANY
+export:       to AS5769 216.113.125.41 announce ANY
+export:       to AS5400 80.81.193.84 announce ANY
+export:       to AS22300 208.174.57.186 announce ANY
+export:       to AS36068 216.89.82.238 announce ANY
+export:       to AS10361 208.173.135.114 announce ANY
+export:       to AS6130 208.172.38.2 announce ANY
+export:       to AS26373 208.173.38.2 announce rs-savvis
+export:       to AS33736 216.91.97.38 announce AS-SAVVIS-TRANSIT
+export:       to AS10292 208.138.43.179 announce ANY
+export:       to AS33597 208.173.12.130 announce ANY
+export:       to AS19730 216.89.82.170 announce ANY
+export:       to AS35916 208.172.36.102 announce ANY
+export:       to AS13345 216.89.82.202 announce ANY
+export:       to AS16688 208.175.59.102 announce AS-SAVVIS-TRANSIT
+export:       to AS33231 64.240.112.226 announce {0.0.0.0/0}
+export:       to AS577 216.89.91.134 announce ANY
+export:       to AS11816 208.173.90.130 announce ANY
+export:       to AS11817 208.173.129.26 announce ANY
+export:       to AS16320 64.243.224.170 announce ANY
+export:       to AS36649 166.63.144.26 announce ANY
+export:       to AS20495 208.174.49.170 announce ANY
+export:       to AS3595 216.89.82.82 announce ANY
+export:       to AS19739 170.164.253.249 announce ANY
+export:       to AS10946 208.173.131.70 announce {0.0.0.0/0}
+export:       to AS14725 216.91.249.102 announce {0.0.0.0/0}
+export:       to AS12111 208.173.50.102 announce ANY
+export:       to AS22671 208.170.15.30 announce ANY
+export:       to AS29863 208.172.163.130 announce ANY
+export:       to AS12116 208.172.135.2 announce rs-savvis
+export:       to AS14585 208.175.10.82 announce ANY
+export:       to AS7012 207.171.0.1 announce ANY
+export:       to AS25650 208.173.86.130 announce ANY
+export:       to AS26526 216.91.49.22 announce {0.0.0.0/0}
+export:       to AS25653 216.89.82.118 announce ANY
+export:       to AS27257 216.89.82.126 announce ANY
+export:       to AS23112 208.174.194.34 announce ANY
+export:       to AS33673 216.91.15.234 announce rs-savvis
+export:       to AS13789 208.173.129.62 announce ANY
+export:       to AS7018 192.205.36.97 announce AS-SAVVIS-TRANSIT
+export:       to AS53563 208.173.55.82 announce ANY
+export:       to AS11179 64.243.225.54 announce ANY
+export:       to AS19740 206.155.32.34 announce {0.0.0.0/0}
+export:       to AS30266 209.144.203.70 announce ANY
+export:       to AS9121 208.173.135.66 announce ANY
+export:       to AS26893 208.175.18.138 announce rs-savvis
+export:       to AS32446 216.91.97.2 announce {0.0.0.0/0}
+export:       to AS7385 206.24.240.162 announce ANY
+export:       to AS14663 216.198.140.2 announce ANY
+export:       to AS29944 216.88.34.162 announce ANY
+export:       to AS13790 208.172.161.178 announce ANY
+export:       to AS46786 208.173.178.130 announce ANY
+export:       to AS46859 64.243.225.142 announce ANY
+export:       to AS4046 208.170.29.198 announce {0.0.0.0/0}
+export:       to AS12129 208.174.117.42 announce ANY
+export:       to AS11255 208.174.226.70 announce {0.0.0.0/0}
+export:       to AS11328 204.188.3.253 announce AS-SAVVIS-TRANSIT
+export:       to AS26393 208.170.2.174 announce {0.0.0.0/0}
+export:       to AS30340 216.89.83.102 announce ANY
+export:       to AS9498 208.174.194.18 announce ANY
+export:       to AS11907 216.91.69.26 announce ANY
+export:       to AS35937 216.89.82.38 announce ANY
+export:       to AS33251 208.172.54.2 announce ANY
+export:       to AS11691 208.173.173.18 announce {0.0.0.0/0}
+export:       to AS33182 216.89.79.150 announce ANY
+export:       to AS3320 62.156.138.105 announce AS-SAVVIS-TRANSIT
+export:       to AS14742 208.172.51.230 announce ANY
+export:       to AS14743 208.175.172.10 announce ANY
+export:       to AS21962 208.173.159.26 announce ANY
+export:       to AS14745 208.172.65.222 announce ANY
+export:       to AS11404 208.173.48.134 announce ANY
+export:       to AS40111 216.89.82.86 announce ANY
+export:       to AS36167 216.89.82.90 announce ANY
+export:       to AS19181 209.188.10.222 announce ANY
+export:       to AS40042 64.243.225.58 announce {0.0.0.0/0}
+export:       to AS3257 89.149.178.25 announce AS-SAVVIS-TRANSIT
+export:       to AS10462 208.144.187.69 announce {0.0.0.0/0}
+export:       to AS13878 216.89.79.142 announce ANY
+export:       to AS36097 208.172.130.166 announce ANY
+export:       to AS40045 65.91.93.1 announce {0.0.0.0/0}
+export:       to AS33400 208.173.107.66 announce {0.0.0.0/0}
+export:       to AS14173 208.175.173.2 announce ANY
+export:       to AS4637 202.84.152.29 announce {0.0.0.0/0}
+export:       to AS7610 208.173.157.30 announce ANY
+export:       to AS47098 64.240.143.6 announce {0.0.0.0/0}
+export:       to AS22195 208.175.194.14 announce ANY
+export:       to AS17223 209.176.218.110 announce ANY
+export:       to AS18963 208.170.5.178 announce ANY
+export:       to AS9145 208.174.49.138 announce ANY
+export:       to AS32607 64.28.84.54 announce {0.0.0.0/0}
+export:       to AS46944 208.81.87.34 announce ANY
+export:       to AS18966 64.243.255.242 announce ANY
+export:       to AS22915 69.5.31.236 announce ANY
+export:       to AS14751 208.172.49.154 announce ANY
+export:       to AS46945 206.24.199.122 announce {0.0.0.0/0}
+export:       to AS19697 64.243.223.190 announce ANY
+export:       to AS14752 208.173.138.142 announce {0.0.0.0/0}
+export:       to AS4134 202.97.32.92 announce AS-SAVVIS-TRANSIT
+export:       to AS22773 208.173.170.2 announce AS-SAVVIS-TRANSIT
+export:       to AS14755 208.172.169.50 announce ANY
+export:       to AS4208 208.175.15.226 announce {0.0.0.0/0}
+export:       to AS174 130.117.14.201 announce AS-SAVVIS-TRANSIT
+export:       to AS25822 64.241.138.114 announce {0.0.0.0/0}
+export:       to AS11343 209.176.218.114 announce ANY
+export:       to AS25751 208.173.172.198 announce ANY
+export:       to AS18534 204.8.22.1 announce ANY
+export:       to AS14688 208.170.33.26 announce AS-SAVVIS-TRANSIT
+export:       to AS26627 64.243.225.30 announce ANY
+export:       to AS22410 208.170.17.102 announce {0.0.0.0/0}
+export:       to AS5511 206.24.169.58 announce AS-SAVVIS-TRANSIT
+export:       to AS25755 208.170.5.170 announce {0.0.0.0/0}
+export:       to AS32035 216.89.82.142 announce ANY
+export:       to AS23071 64.240.36.106 announce AS-SAVVIS-TRANSIT
+export:       to AS30361 206.24.195.138 announce ANY
+export:       to AS1668 208.174.57.30 announce AS-SAVVIS-TRANSIT
+export:       to AS25759 208.175.15.102 announce {0.0.0.0/0}
+export:       to AS65530 165.193.172.78 announce {0.0.0.0/0}
+export:       to AS19840 166.63.159.78 announce ANY
+export:       to AS3770 208.172.114.98 announce ANY
+export:       to AS65534 204.71.39.10 announce ANY
+export:       to AS16798 67.220.159.74 announce ANY
+export:       to AS26054 67.220.159.86 announce ANY
+export:       to AS11855 208.172.227.202 announce ANY
+export:       to AS11856 64.243.225.114 announce ANY
+export:       to AS38861 208.173.55.70 announce ANY
+export:       to AS46953 64.241.66.146 announce {0.0.0.0/0}
+export:       to AS1239 208.174.49.162 announce AS-SAVVIS-TRANSIT
+export:       to AS10985 208.172.230.70 announce rs-savvis
+export:       to AS40495 208.172.88.30 announce ANY
+export:       to AS9800 208.173.57.2 announce ANY
+export:       to AS12221 208.175.200.82 announce ANY
+export:       to AS20240 64.241.66.138 announce ANY
+export:       to AS46887 208.172.51.146 announce ANY
+export:       to AS27435 208.173.50.166 announce ANY
+export:       to AS36183 208.173.51.150 announce ANY
+export:       to AS19271 208.174.84.14 announce ANY
+export:       to AS36184 216.91.101.158 announce ANY
+export:       to AS26634 216.91.253.166 announce {0.0.0.0/0}
+export:       to AS36185 64.241.148.6 announce {0.0.0.0/0}
+export:       to AS12083 208.173.60.230 announce ANY
+export:       to AS11281 206.155.32.42 announce ANY
+export:       to AS27367 216.90.236.254 announce {0.0.0.0/0}
+export:       to AS16943 208.172.112.6 announce ANY
+export:       to AS4651 202.47.253.9 announce ANY
+export:       to AS11289 64.243.225.22 announce ANY
+export:       to AS30373 67.220.159.198 announce ANY
+export:       to AS14338 206.26.104.6 announce ANY
+export:       to AS5459 195.66.225.254 announce {0.0.0.0/0}
+export:       to AS4657 205.216.164.2 announce ANY
+export:       to AS4589 208.173.135.214 announce ANY
+export:       to AS17318 216.89.83.34 announce ANY
+export:       to AS42178 64.242.237.162 announce ANY
+export:       to AS26067 209.144.203.74 announce ANY
+export:       to AS11795 216.89.82.186 announce ANY
+export:       to AS6762 195.69.144.196 announce ANY
+export:       to AS17248 64.243.225.146 announce AS-SAVVIS-TRANSIT
+export:       to AS8001 206.152.3.210 announce ANY
+export:       to AS27514 166.63.144.202 announce rs-savvis
+export:       to AS11504 208.175.104.78 announce ANY
+export:       to AS7203 216.91.16.2 announce ANY
+export:       to AS26644 64.240.176.82 announce ANY
+export:       to AS3356 212.73.240.201 announce AS-SAVVIS-TRANSIT
+export:       to AS20258 208.172.55.26 announce rs-savvis
+export:       to AS18482 64.243.228.158 announce AS-SAVVIS-TRANSIT
+export:       to AS36197 66.100.47.98 announce ANY
+export:       to AS6405 208.173.52.6 announce ANY
+export:       to AS26648 208.174.67.122 announce rs-savvis
+export:       to AS10565 206.24.240.194 announce ANY
+export:       to AS25847 209.144.203.78 announce ANY
+export:       to AS18559 206.24.195.166 announce {0.0.0.0/0}
+export:       to AS22293 67.220.159.78 announce ANY
+export:       to AS6195 208.174.224.138 announce AS-SAVVIS-TRANSIT
+export:       to AS30458 208.172.99.158 announce ANY
+export:       to AS32631 216.89.82.190 announce {0.0.0.0/0}
+export:       to AS19863 190.80.0.1 announce ANY
+export:       to AS28685 213.144.232.109 announce rs-savvis
+export:       to AS12749 208.173.59.54 announce ANY
+export:       to AS14925 208.172.65.210 announce ANY
+export:       to AS31769 64.243.225.110 announce {0.0.0.0/0}
+export:       to AS27524 208.172.44.22 announce ANY
+export:       to AS36347 208.173.173.22 announce ANY
+export:       to AS25923 208.173.60.134 announce ANY
+export:       to AS3292 195.69.144.104 announce ANY
+export:       to AS27455 206.24.204.2 announce rs-savvis
+export:       to AS9829 208.173.57.102 announce AS-SAVVIS-TRANSIT
+export:       to AS29999 208.173.143.62 announce AS-SAVVIS-TRANSIT
+export:       to AS32136 64.243.225.118 announce ANY
+export:       to AS12179 208.175.175.18 announce ANY
+export:       to AS40156 66.100.47.162 announce ANY
+export:       to AS852 154.11.0.208 announce ANY
+export:       to AS46475 208.175.175.102 announce ANY
+export:       to AS11013 209.176.218.102 announce ANY
+export:       to AS19871 64.240.208.10 announce ANY
+export:       to AS14288 207.50.14.6 announce AS-SAVVIS-TRANSIT
+export:       to AS35985 216.89.79.178 announce ANY
+export:       to AS11888 201.172.12.65 announce ANY
+export:       to AS17267 208.173.23.74 announce AS-SAVVIS-TRANSIT
+export:       to AS26731 208.174.118.142 announce AS-SAVVIS-TRANSIT
+export:       to AS20416 208.172.217.82 announce ANY
+export:       to AS12180 208.172.108.18 announce ANY
+export:       to AS286 134.222.93.29 announce ANY
+export:       to AS12181 208.174.194.26 announce ANY
+export:       to AS12182 208.173.55.162 announce ANY
+export:       to AS14501 208.172.130.130 announce ANY
+export:       to AS6423 208.172.88.42 announce AS-SAVVIS-TRANSIT
+export:       to AS13700 208.172.164.102 announce {0.0.0.0/0}
+export:       to AS21720 206.24.199.6 announce AS-SAVVIS-TRANSIT
+export:       to AS8966 195.69.145.89 announce rs-savvis
+export:       to AS13703 208.173.59.50 announce ANY
+export:       to AS40093 208.173.157.34 announce ANY
+export:       to AS15308 64.242.232.250 announce {0.0.0.0/0}
+export:       to AS14361 209.160.62.174 announce ANY
+export:       to AS6428 216.91.36.210 announce ANY
+export:       to AS23184 24.139.25.126 announce ANY
+export:       to AS40099 64.242.171.22 announce ANY
+export:       to AS32720 208.173.129.126 announce ANY
+export:       to AS26163 208.175.194.18 announce ANY
+export:       to AS35994 208.172.112.2 announce ANY
+export:       to AS31923 208.173.116.202 announce ANY
+export:       to AS40818 208.172.108.22 announce ANY
+export:       to AS22020 206.24.218.114 announce AS-SAVVIS-TRANSIT
+export:       to AS1273 208.173.158.10 announce ANY
+export:       to AS32580 208.175.168.202 announce ANY
+export:       to AS31926 208.175.169.122 announce {0.0.0.0/0}
+export:       to AS4250 208.173.180.30 announce ANY
+export:       to AS17348 208.173.18.234 announce ANY
+export:       to AS7738 208.173.90.90 announce ANY
+export:       to AS8100 208.144.187.66 announce ANY
+export:       to AS4181 208.172.13.198 announce ANY
+export:       to AS293 206.24.240.202 announce AS-SAVVIS-TRANSIT
+export:       to AS19452 208.173.37.134 announce ANY
+export:       to AS27473 208.172.135.2 announce ANY
+export:       to AS11608 208.173.50.54 announce ANY
+export:       to AS40170 208.172.163.186 announce {0.0.0.0/0}
+export:       to AS46562 216.89.82.78 announce ANY
+export:       to AS10594 208.172.91.10 announce ANY
+export:       to AS30480 206.24.233.2 announce rs-savvis
+export:       to AS23265 216.89.83.106 announce ANY
+export:       to AS15247 216.89.83.114 announce ANY
+export:       to AS5564 206.24.169.118 announce ANY
+export:       to AS15249 208.174.127.26 announce ANY
+export:       to AS5639 190.58.140.253 announce ANY
+export:       to AS19024 208.173.180.134 announce ANY
+export:       to AS13577 216.89.79.170 announce ANY
+export:       to AS21597 208.174.193.150 announce ANY
+export:       to AS19029 208.173.53.130 announce ANY
+export:       to AS30121 206.24.240.134 announce ANY
+export:       to AS18800 206.24.202.98 announce {0.0.0.0/0}
+export:       to AS65222 216.90.108.10 announce ANY
+export:       to AS2730 208.172.234.22 announce ANY
+export:       to AS26821 208.173.90.38 announce ANY
+export:       to AS36444 64.243.182.110 announce ANY
+export:       to AS19461 208.173.55.2 announce ANY
+export:       to AS25950 64.243.204.38 announce {0.0.0.0/0}
+export:       to AS6440 205.149.7.1 announce ANY
+export:       to AS23342 216.89.83.162 announce ANY
+export:       to AS27487 208.175.97.178 announce {0.0.0.0/0}
+export:       to AS32164 208.172.236.14 announce ANY
+export:       to AS23271 208.175.51.134 announce {0.0.0.0/0}
+export:       to AS30490 206.155.32.22 announce ANY
+export:       to AS20940 208.173.52.34 announce ANY
+export:       to AS21816 208.81.87.10 announce ANY
+export:       to AS6447 128.223.51.103 announce ANY
+export:       to AS13725 208.170.5.182 announce {0.0.0.0/0}
+export:       to AS40188 216.89.82.158 announce ANY
+export:       to AS30568 208.173.180.26 announce ANY
+export:       to AS13582 204.70.151.198 announce rs-savvis
+export:       to AS15189 208.173.159.18 announce ANY
+export:       to AS53430 208.170.5.206 announce ANY
+export:       to AS1290 216.219.73.78 announce ANY
+export:       to AS46215 216.19.160.68 announce ANY
+export:       to AS32748 208.173.176.218 announce ANY
+export:       to AS16566 208.172.41.82 announce ANY
+export:       to AS1299 208.173.52.122 announce AS-SAVVIS-TRANSIT
+export:       to AS27560 208.175.15.242 announce rs-savvis
+export:       to AS11622 208.174.110.2 announce ANY
+export:       to AS33112 208.170.0.74 announce ANY
+export:       to AS36529 208.173.176.206 announce ANY
+export:       to AS19617 166.63.154.154 announce rs-savvis
+export:       to AS3549 64.215.195.145 announce rs-savvis
+export:       to AS46723 208.171.192.2 announce {0.0.0.0/0}
+export:       to AS32244 206.24.225.226 announce ANY
+export:       to AS6450 216.88.34.182 announce ANY
+export:       to AS5650 74.40.7.66 announce ANY
+export:       to AS40193 206.155.32.14 announce ANY
+export:       to AS6453 208.173.129.30 announce AS-SAVVIS-TRANSIT
+export:       to AS46584 216.89.83.46 announce ANY
+export:       to AS10689 208.173.180.58 announce ANY
+export:       to AS31377 208.172.51.170 announce {0.0.0.0/0}
+export:       to AS29748 208.173.10.250 announce ANY
+export:       to AS14395 208.170.17.98 announce rs-savvis
+export:       to AS4788 208.172.38.50 announce ANY
+export:       to AS7907 208.174.194.62 announce ANY
+export:       to AS33556 208.170.0.38 announce ANY
+export:       to AS30142 208.173.10.210 announce ANY
+export:       to AS26198 208.175.169.134 announce ANY
+export:       to AS9002 208.173.129.38 announce AS-SAVVIS-TRANSIT
+export:       to AS46085 209.144.128.102 announce {0.0.0.0/0}
+export:       to AS4282 204.71.39.10 announce {0.0.0.0/0}
+export:       to AS8132 208.172.113.234 announce ANY
+export:       to AS32322 208.172.21.70 announce rs-savvis
+export:       to AS2828 67.111.23.181 announce AS-SAVVIS-TRANSIT
+export:       to AS20385 216.88.196.131 announce rs-savvis
+export:       to AS2686 195.69.144.37 announce rs-savvis
+export:       to AS6461 208.173.180.38 announce AS-SAVVIS-TRANSIT
+export:       to AS4930 208.144.187.67 announce ANY
+export:       to AS22561 208.172.216.126 announce ANY
+export:       to AS32257 208.173.68.110 announce ANY
+export:       to AS6539 208.173.176.210 announce ANY
+export:       to AS19121 64.242.127.38 announce {0.0.0.0/0}
+export:       to AS13743 208.173.162.138 announce {0.0.0.0/0}
+export:       to AS12006 204.70.147.234 announce ANY
+export:       to AS5668 69.29.186.2 announce ANY
+export:       to AS46302 64.243.225.26 announce ANY
+export:       to AS32761 208.173.130.106 announce rs-savvis
+export:       to AS32837 208.170.25.126 announce rs-savvis
+export:       to AS33569 64.240.98.6 announce ANY
+export:       to AS10269 200.32.192.149 announce ANY
+export:       to AS10910 216.89.77.22 announce ANY
+export:       to AS22137 208.173.3.170 announce AS-SAVVIS-TRANSIT
+export:       to AS10911 208.173.173.14 announce ANY
+export:       to AS4509 64.243.47.110 announce ANY
+export:       to AS10912 208.174.196.38 announce ANY
+export:       to AS10913 208.173.159.2 announce ANY
+export:       to AS14985 64.243.225.50 announce ANY
+export:       to AS4293 216.89.108.230 announce rs-savvis
+export:       to AS10844 208.175.101.50 announce AS-SAVVIS-TRANSIT
+export:       to AS10845 208.173.57.6 announce ANY
+export:       to AS7342 195.69.145.232 announce ANY
+export:       to AS22712 208.173.3.34 announce rs-savvis
+export:       to AS8075 208.173.50.86 announce ANY
+export:       to AS11579 64.243.225.122 announce rs-savvis
+export:       to AS29761 216.89.83.58 announce ANY
+export:       to AS25986 208.81.87.14 announce {0.0.0.0/0}
+export:       to AS7349 208.174.125.110 announce ANY
+export:       to AS4943 208.172.129.10 announce ANY
+export:       to AS21844 209.85.2.241 announce ANY
+export:       to AS23376 208.170.14.214 announce ANY
+export:       to AS30666 204.70.151.182 announce ANY
+export:       to AS7922 208.172.41.162 announce AS-SAVVIS-TRANSIT
+export:       to AS12956 213.140.32.154 announce AS-SAVVIS-TRANSIT
+export:       to AS32770 208.173.162.182 announce {0.0.0.0/0}
+export:       to AS35176 208.171.171.34 announce ANY
+export:       to AS19066 208.175.10.98 announce ANY
+export:       to AS65400 146.242.128.226 announce ANY
+export:       to AS32774 208.174.194.46 announce ANY
+export:       to AS53463 208.173.56.194 announce ANY
+export:       to AS7784 208.173.50.246 announce ANY
+export:       to AS19710 206.155.32.10 announce {0.0.0.0/0}
+export:       to AS2911 206.24.239.30 announce ANY
+export:       to AS14990 208.172.230.26 announce ANY
+export:       to AS2914 195.69.144.36 announce ANY
+export:       to AS8220 80.81.192.61 announce ANY
+export:       to AS30094 208.173.50.202 announce ANY
+export:       to AS40430 208.144.187.10 announce ANY
+export:       to AS558 208.173.57.58 announce ANY
+export:       to AS18915 216.89.83.42 announce ANY
+export:       to AS30097 208.174.194.2 announce ANY
+export:       to AS26792 216.89.83.110 announce ANY
+export:       to AS22653 208.173.59.62 announce ANY
+export:       to AS26799 12.30.238.37 announce ANY
+export:       to AS25700 208.172.81.134 announce ANY
+export:       to AS26503 208.173.118.2 announce rs-savvis
+export:       to AS11150 208.172.164.202 announce {0.0.0.0/0}
+export:       to AS16810 208.173.176.10 announce ANY
+export:       to AS26435 208.173.79.10 announce {0.0.0.0/0}
+export:       to AS13768 208.173.50.6 announce ANY
+export:       to AS701 63.137.84.18 announce AS-SAVVIS-TRANSIT
+export:       to AS702 158.43.0.181 announce AS-SAVVIS-TRANSIT
+export:       to AS36700 216.89.82.122 announce ANY
+export:       to AS32857 166.63.148.10 announce {0.0.0.0/0}
+export:       to AS6126 208.174.14.106 announce ANY
+export:       to AS6128 65.19.101.25 announce ANY
+export:       to AS13407 64.69.100.142 announce ANY
+export:       to AS7796 206.155.32.6 announce ANY
+export:       to AS36563 208.172.135.6 announce ANY
+export:       to AS2924 209.44.21.202 announce ANY
+remarks:      +----------------------------------------------------------
+remarks:      | NOTE - Filtering on /24 boundary is applied - we do not
+remarks:      |    reannounce any route more specific than a /24.
+remarks:      |
+remarks:      | NOTE - please see savvis-rr.savvis.net for further documentation
+remarks:      +----------------------------------------------------------
+remarks:      | Community Definition -- Local Preference/No-Export
+remarks:      |
+remarks:      | Local-preference control for customer links (to be set by customer)
+remarks:      |
+remarks:      | By default customer routes are assigned a
+remarks:      | local preferences of 100
+remarks:      |
+remarks:      | 3561:70        Set local preference 70
+remarks:      | 3561:80        Set local preference 80
+remarks:      | 3561:90        Set local preference 90
+remarks:      | no-export Set do not export beyond AS3561
+remarks:      +----------------------------------------------------------
+remarks:      | Community Definition -- (Suppression) Prepend/Do not announce
+remarks:      | Communities to control traffic (to be set by customer)
+remarks:      |
+remarks:      | Community values accepted by SAVVIS to affect
+remarks:      | traffic flows off-net.
+remarks:      | Suppression and Prepend community values are defined
+remarks:      | by 3561:30PPN, whereas PP is a assigned peer-number and
+remarks:      | the suppression or prepend N value is prescribed
+remarks:      | by the following table
+remarks:      |
+remarks:      | N Value            Meaning
+remarks:      | ----------------------------------
+remarks:      | 0                  Do not export
+remarks:      | 1                  Prepend once
+remarks:      | 2                  Prepend twice
+remarks:      | 3                  Prepend thrice
+remarks:      | 9                  Announce-only
+remarks:      |
+remarks:      | * Please note, the only valid N value for
+remarks:      | * all peers (PP code 00) is 0 (do not export)
+remarks:      |
+remarks:      | 3561:3002[1-3]  Prepend 1-3 times to Sprint (AS1239)
+remarks:      | 3561:30029      Announce only to Sprint (AS1239)
+remarks:      | 3561:30020      Do not announce to Sprint (AS1239)
+remarks:      |
+remarks:      | 3561:3003[1-3]  Prepend 1-3 times to TINET (AS3257)
+remarks:      | 3561:30039      Announce only to TINET (AS3257)
+remarks:      | 3561:30030      Do not announce to TINET (AS3257)
+remarks:      |
+remarks:      | 3561:3003[1-3]  Prepend 1-3 times to Tiscali (AS3257)
+remarks:      | 3561:30039      Announce only to Tiscali (AS3257)
+remarks:      | 3561:30030      Do not announce to Tiscali (AS3257)
+remarks:      |
+remarks:      | 3561:3003[1-3]  Prepend 1-3 times to Tiscali-TINET (AS3257)
+remarks:      | 3561:30039      Announce only to Tiscali-TINET (AS3257)
+remarks:      | 3561:30030      Do not announce to Tiscali-TINET (AS3257)
+remarks:      |
+remarks:      | 3561:3003[1-3]  Prepend 1-3 times to Tiscali/TINET (AS3257)
+remarks:      | 3561:30039      Announce only to Tiscali/TINET (AS3257)
+remarks:      | 3561:30030      Do not announce to Tiscali/TINET (AS3257)
+remarks:      |
+remarks:      | 3561:3004[1-3]  Prepend 1-3 times to Qwest (AS209)
+remarks:      | 3561:30049      Announce only to Qwest (AS209)
+remarks:      | 3561:30040      Do not announce to Qwest (AS209)
+remarks:      |
+remarks:      | 3561:3004[1-3]  Prepend 1-3 times to Qwest - LINX pub-exch. (AS209)
+remarks:      | 3561:30049      Announce only to Qwest - LINX pub-exch. (AS209)
+remarks:      | 3561:30040      Do not announce to Qwest - LINX pub-exch. (AS209)
+remarks:      |
+remarks:      | 3561:3006[1-3]  Prepend 1-3 times to Verio/NTT (AS2914)
+remarks:      | 3561:30069      Announce only to Verio/NTT (AS2914)
+remarks:      | 3561:30060      Do not announce to Verio/NTT (AS2914)
+remarks:      |
+remarks:      | 3561:3007[1-3]  Prepend 1-3 times to Level 3 (AS3356)
+remarks:      | 3561:30079      Announce only to Level 3 (AS3356)
+remarks:      | 3561:30070      Do not announce to Level 3 (AS3356)
+remarks:      |
+remarks:      | 3561:3008[1-3]  Prepend 1-3 times to Global Crossing (AS3549)
+remarks:      | 3561:30089      Announce only to Global Crossing (AS3549)
+remarks:      | 3561:30080      Do not announce to Global Crossing (AS3549)
+remarks:      |
+remarks:      | 3561:3009[1-3]  Prepend 1-3 times to France Telecom (AS5511)
+remarks:      | 3561:30099      Announce only to France Telecom (AS5511)
+remarks:      | 3561:30090      Do not announce to France Telecom (AS5511)
+remarks:      |
+remarks:      | 3561:3011[1-3]  Prepend 1-3 times to Deutsche Telekom AG (AS3320)
+remarks:      | 3561:30119      Announce only to Deutsche Telekom AG (AS3320)
+remarks:      | 3561:30110      Do not announce to Deutsche Telekom AG (AS3320)
+remarks:      |
+remarks:      | 3561:3012[1-3]  Prepend 1-3 times to XO Communications (AS2828)
+remarks:      | 3561:30129      Announce only to XO Communications (AS2828)
+remarks:      | 3561:30120      Do not announce to XO Communications (AS2828)
+remarks:      |
+remarks:      | 3561:3013[1-3]  Prepend 1-3 times to AboveNet (AS6461)
+remarks:      | 3561:30139      Announce only to AboveNet (AS6461)
+remarks:      | 3561:30130      Do not announce to AboveNet (AS6461)
+remarks:      |
+remarks:      | 3561:3013[1-3]  Prepend 1-3 times to AboveNet/MFN (AS6461)
+remarks:      | 3561:30139      Announce only to AboveNet/MFN (AS6461)
+remarks:      | 3561:30130      Do not announce to AboveNet/MFN (AS6461)
+remarks:      |
+remarks:      | 3561:3014[1-3]  Prepend 1-3 times to VerizonBusiness (AS701)
+remarks:      | 3561:30149      Announce only to VerizonBusiness (AS701)
+remarks:      | 3561:30140      Do not announce to VerizonBusiness (AS701)
+remarks:      |
+remarks:      | 3561:3015[1-3]  Prepend 1-3 times to AT&T (AS7018)
+remarks:      | 3561:30159      Announce only to AT&T (AS7018)
+remarks:      | 3561:30150      Do not announce to AT&T (AS7018)
+remarks:      |
+remarks:      | 3561:3018[1-3]  Prepend 1-3 times to Cogent (AS174)
+remarks:      | 3561:30189      Announce only to Cogent (AS174)
+remarks:      | 3561:30180      Do not announce to Cogent (AS174)
+remarks:      |
+remarks:      | 3561:3021[1-3]  Prepend 1-3 times to ATDN (AS1668)
+remarks:      | 3561:30219      Announce only to ATDN (AS1668)
+remarks:      | 3561:30210      Do not announce to ATDN (AS1668)
+remarks:      |
+remarks:      | 3561:3030[1-3]  Prepend 1-3 times to Teleglobe (AS6453)
+remarks:      | 3561:30309      Announce only to Teleglobe (AS6453)
+remarks:      | 3561:30300      Do not announce to Teleglobe (AS6453)
+remarks:      |
+remarks:      | 3561:3041[1-3]  Prepend 1-3 times to Colt (AS8220)
+remarks:      | 3561:30419      Announce only to Colt (AS8220)
+remarks:      | 3561:30410      Do not announce to Colt (AS8220)
+remarks:      |
+remarks:      | 3561:3044[1-3]  Prepend 1-3 times to UUNet-EU (AS702)
+remarks:      | 3561:30449      Announce only to UUNet-EU (AS702)
+remarks:      | 3561:30440      Do not announce to UUNet-EU (AS702)
+remarks:      |
+remarks:      | 3561:3045[1-3]  Prepend 1-3 times to Telecom Italia (AS6762)
+remarks:      | 3561:30459      Announce only to Telecom Italia (AS6762)
+remarks:      | 3561:30450      Do not announce to Telecom Italia (AS6762)
+remarks:      |
+remarks:      | 3561:3046[1-3]  Prepend 1-3 times to Telia (AS1299)
+remarks:      | 3561:30469      Announce only to Telia (AS1299)
+remarks:      | 3561:30460      Do not announce to Telia (AS1299)
+remarks:      |
+remarks:      | 3561:3047[1-3]  Prepend 1-3 times to KPN (AS286)
+remarks:      | 3561:30479      Announce only to KPN (AS286)
+remarks:      | 3561:30470      Do not announce to KPN (AS286)
+remarks:      |
+remarks:      | 3561:3048[1-3]  Prepend 1-3 times to Cox Communications Inc. (AS22773)
+remarks:      | 3561:30489      Announce only to Cox Communications Inc. (AS22773)
+remarks:      | 3561:30480      Do not announce to Cox Communications Inc. (AS22773)
+remarks:      |
+remarks:      | 3561:3049[1-3]  Prepend 1-3 times to Telefonica (AS12956)
+remarks:      | 3561:30499      Announce only to Telefonica (AS12956)
+remarks:      | 3561:30490      Do not announce to Telefonica (AS12956)
+remarks:      |
+remarks:      | 3561:3049[1-3]  Prepend 1-3 times to Telefonical (AS12956)
+remarks:      | 3561:30499      Announce only to Telefonical (AS12956)
+remarks:      | 3561:30490      Do not announce to Telefonical (AS12956)
+remarks:      |
+remarks:      | 3561:3050[1-3]  Prepend 1-3 times to AT&T EMEA (AS2686)
+remarks:      | 3561:30509      Announce only to AT&T EMEA (AS2686)
+remarks:      | 3561:30500      Do not announce to AT&T EMEA (AS2686)
+remarks:      |
+remarks:      | 3561:3053[1-3]  Prepend 1-3 times to Comcast (AS7922)
+remarks:      | 3561:30539      Announce only to Comcast (AS7922)
+remarks:      | 3561:30530      Do not announce to Comcast (AS7922)
+remarks:      |
+remarks:      +----------------------------------------------------------
+remarks:      |   Community Definition -- BLACKHOLE/DDOS COMMUNITY STRING
+remarks:      |
+remarks:      |   For customers that have a host or block under a
+remarks:      |   DDoS, the affected host/block can be advertised
+remarks:      |   to AS3561 with community string 3561:666.
+remarks:      |   This will cause all traffic to that host to be
+remarks:      |   blackholed at the core of the network.
+remarks:      |
+remarks:      |   This action will trigger emails sent to the
+remarks:      |   appropriate security and operations groups for
+remarks:      |   notification purposes.  After advertising the
+remarks:      |   prefix with 3561:666, the customer should open a
+remarks:      |   priority one incident report at
+remarks:      |   http://www.security.savvis.net (Report an Incident)
+remarks:      |   email: security@savvis.net
+remarks:      |
+remarks:      |   Once the attack has been mitigated, the customer
+remarks:      |   will be responsible for removing the prefix from
+remarks:      |   being advertised.
+remarks:      |
+remarks:      |
+remarks:      |   SAVVIS Communications will not be held responsible for
+remarks:      |   customers who errantly advertise prefixes with the
+remarks:      |   blackhole community string.
+remarks:      +----------------------------------------------------------
+remarks:      | Community Definition -- Route Origin
+remarks:      |
+remarks:      | Communities that define the origin/type of routes
+remarks:      | Defined by SAVVIS, not defined/accepted from customer
+remarks:      |
+remarks:      | Transit/Non-Transit definition
+remarks:      | 3561:1xxxx Customer routes
+remarks:      | 3561:2xxxx Peer routes
+remarks:      |
+remarks:      | Region definition
+remarks:      | 3561:x1xxx North America (U.S.A and Canada)
+remarks:      | 3561:x2xxx Europe
+remarks:      | 3561:x3xxx Asia (including Japan)
+remarks:      | 3561:x4xxx Australia
+remarks:      | 3561:x5xxx South America
+remarks:      | 3561:x6xxx Middle East
+remarks:      | 3561:x7xxx Available for future region definitions
+remarks:      | 3561:x8xxx Available for future region definitions
+remarks:      | 3561:x9xxx Available for future region definitions
+remarks:      | 3561:x0xxx Available for future region definitions
+remarks:      |
+remarks:      | Country defintion
+remarks:      | 3561:xxCCC (comunity format)
+remarks:      +----------------------------------------------------------
+remarks:      |        Country                       Country Abbr.      CCC Code
+remarks:      |        AFGHANISTAN                              AF      004
+remarks:      |        ALBANIA                                  AL      008
+remarks:      |        ALGERIA                                  DZ      012
+remarks:      |        AMERICAN SAMOA                           AS      016
+remarks:      |        ANDORRA                                  AD      020
+remarks:      |        ANGOLA                                   AO      024
+remarks:      |        ANGUILLA                                 AI      660
+remarks:      |        ANTARCTICA                               AQ      010
+remarks:      |        ANTIGUA AND BARBUDA                      AG      028
+remarks:      |        ARGENTINA                                AR      032
+remarks:      |        ARMENIA                                  AM      051
+remarks:      |        ARUBA                                    AW      533
+remarks:      |        AUSTRALIA                                AU      036
+remarks:      |        AUSTRIA                                  AT      040
+remarks:      |        AZERBAIJAN                               AZ      031
+remarks:      |        BAHAMAS                                  BS      044
+remarks:      |        BAHRAIN                                  BH      048
+remarks:      |        BANGLADESH                               BD      050
+remarks:      |        BARBADOS                                 BB      052
+remarks:      |        BELARUS                                  BY      112
+remarks:      |        BELGIUM                                  BE      056
+remarks:      |        BELIZE                                   BZ      084
+remarks:      |        BENIN                                    BJ      204
+remarks:      |        BERMUDA                                  BM      060
+remarks:      |        BHUTAN                                   BT      064
+remarks:      |        BOLIVIA                                  BO      068
+remarks:      |        BOSNIA AND HERZEGOWINA                   BA      070
+remarks:      |        BOTSWANA                                 BW      072
+remarks:      |        BOUVET ISLAND                            BV      074
+remarks:      |        BRAZIL                                   BR      076
+remarks:      |        BRITISH INDIAN OCEAN TERRITORY           IO      086
+remarks:      |        BRUNEI DARUSSALAM                        BN      096
+remarks:      |        BULGARIA                                 BG      100
+remarks:      |        BURKINA FASO                             BF      854
+remarks:      |        BURUNDI                                  BI      108
+remarks:      |        CAMBODIA                                 KH      116
+remarks:      |        CAMEROON                                 CM      120
+remarks:      |        CANADA                                   CA      124
+remarks:      |        CAPE VERDE                               CV      132
+remarks:      |        CAYMAN ISLANDS                           KY      136
+remarks:      |        CENTRAL AFRICAN REPUBLIC                 CF      140
+remarks:      |        CHAD                                     TD      148
+remarks:      |        CHILE                                    CL      152
+remarks:      |        CHINA                                    CN      156
+remarks:      |        CHRISTMAS ISLAND                         CX      162
+remarks:      |        COCOS (KEELING) ISLANDS                  CC      166
+remarks:      |        COLOMBIA                                 CO      170
+remarks:      |        COMOROS                                  KM      174
+remarks:      |        CONGO                                    CG      178
+remarks:      |        CONGO, THE DEMOCRATIC REPUBLIC OF THE    CD      180
+remarks:      |        COOK ISLANDS                             CK      184
+remarks:      |        COSTA RICA                               CR      188
+remarks:      |        COTE D'IVOIRE                            CI      384
+remarks:      |        CROATIA (local name: Hrvatska)           HR      191
+remarks:      |        CUBA                                     CU      192
+remarks:      |        CYPRUS                                   CY      196
+remarks:      |        CZECH REPUBLIC                           CZ      203
+remarks:      |        DENMARK                                  DK      208
+remarks:      |        DJIBOUTI                                 DJ      262
+remarks:      |        DOMINICA                                 DM      212
+remarks:      |        DOMINICAN REPUBLIC                       DO      214
+remarks:      |        EAST TIMOR                               TP      626
+remarks:      |        ECUADOR                                  EC      218
+remarks:      |        EGYPT                                    EG      818
+remarks:      |        EL SALVADOR                              SV      222
+remarks:      |        EQUATORIAL GUINEA                        GQ      226
+remarks:      |        ERITREA                                  ER      232
+remarks:      |        ESTONIA                                  EE      233
+remarks:      |        ETHIOPIA                                 ET      231
+remarks:      |        FALKLAND ISLANDS (MALVINAS)              FK      238
+remarks:      |        FAROE ISLANDS                            FO      234
+remarks:      |        FIJI                                     FJ      242
+remarks:      |        FINLAND                                  FI      246
+remarks:      |        FRANCE                                   FR      250
+remarks:      |        FRANCE, METROPOLITAN                     FX      249
+remarks:      |        FRENCH GUIANA                            GF      254
+remarks:      |        FRENCH POLYNESIA                         PF      258
+remarks:      |        FRENCH SOUTHERN TERRITORIES              TF      260
+remarks:      |        GABON                                    GA      266
+remarks:      |        GAMBIA                                   GM      270
+remarks:      |        GEORGIA                                  GE      268
+remarks:      |        GERMANY                                  DE      276
+remarks:      |        GHANA                                    GH      288
+remarks:      |        GIBRALTAR                                GI      292
+remarks:      |        GREECE                                   GR      300
+remarks:      |        GREENLAND                                GL      304
+remarks:      |        GRENADA                                  GD      308
+remarks:      |        GUADELOUPE                               GP      312
+remarks:      |        GUAM                                     GU      316
+remarks:      |        GUATEMALA                                GT      320
+remarks:      |        GUINEA                                   GN      324
+remarks:      |        GUINEA-BISSAU                            GW      624
+remarks:      |        GUYANA                                   GY      328
+remarks:      |        HAITI                                    HT      332
+remarks:      |        HEARD AND MC DONALD ISLANDS              HM      334
+remarks:      |        HOLY SEE (VATICAN CITY STATE)            VA      336
+remarks:      |        HONDURAS                                 HN      340
+remarks:      |        HONG KONG                                HK      344
+remarks:      |        HUNGARY                                  HU      348
+remarks:      |        ICELAND                                  IS      352
+remarks:      |        INDIA                                    IN      356
+remarks:      |        INDONESIA                                ID      360
+remarks:      |        IRAN (ISLAMIC REPUBLIC OF)               IR      364
+remarks:      |        IRAQ                                     IQ      368
+remarks:      |        IRELAND                                  IE      372
+remarks:      |        ISRAEL                                   IL      376
+remarks:      |        ITALY                                    IT      380
+remarks:      |        JAMAICA                                  JM      388
+remarks:      |        JAPAN                                    JP      392
+remarks:      |        JORDAN                                   JO      400
+remarks:      |        KAZAKHSTAN                               KZ      398
+remarks:      |        KENYA                                    KE      404
+remarks:      |        KIRIBATI                                 KI      296
+remarks:      |        KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF   KP      408
+remarks:      |        KOREA, REPUBLIC OF                       KR      410
+remarks:      |        KUWAIT                                   KW      414
+remarks:      |        KYRGYZSTAN                               KG      417
+remarks:      |        LAO PEOPLE'S DEMOCRATIC REPUBLIC         LA      418
+remarks:      |        LATVIA                                   LV      428
+remarks:      |        LEBANON                                  LB      422
+remarks:      |        LESOTHO                                  LS      426
+remarks:      |        LIBERIA                                  LR      430
+remarks:      |        LIBYAN ARAB JAMAHIRIYA                   LY      434
+remarks:      |        LIECHTENSTEIN                            LI      438
+remarks:      |        LITHUANIA                                LT      440
+remarks:      |        LUXEMBOURG                               LU      442
+remarks:      |        MACAU                                    MO      446
+remarks:      |        MACEDONIA, FORMER YUGOSLAV REPUBLIC OF   MK      807
+remarks:      |        MADAGASCAR                               MG      450
+remarks:      |        MALAWI                                   MW      454
+remarks:      |        MALAYSIA                                 MY      458
+remarks:      |        MALDIVES                                 MV      462
+remarks:      |        MALI                                     ML      466
+remarks:      |        MALTA                                    MT      470
+remarks:      |        MARSHALL ISLANDS                         MH      584
+remarks:      |        MARTINIQUE                               MQ      474
+remarks:      |        MAURITANIA                               MR      478
+remarks:      |        MAURITIUS                                MU      480
+remarks:      |        MAYOTTE                                  YT      175
+remarks:      |        MEXICO                                   MX      484
+remarks:      |        MICRONESIA, FEDERATED STATES OF          FM      583
+remarks:      |        MOLDOVA, REPUBLIC OF                     MD      498
+remarks:      |        MONACO                                   MC      492
+remarks:      |        MONGOLIA                                 MN      496
+remarks:      |        MONTSERRAT                               MS      500
+remarks:      |        MOROCCO                                  MA      504
+remarks:      |        MOZAMBIQUE                               MZ      508
+remarks:      |        MYANMAR                                  MM      104
+remarks:      |        NAMIBIA                                  NA      516
+remarks:      |        NAURU                                    NR      520
+remarks:      |        NEPAL                                    NP      524
+remarks:      |        NETHERLANDS                              NL      528
+remarks:      |        NETHERLANDS ANTILLES                     AN      530
+remarks:      |        NEW CALEDONIA                            NC      540
+remarks:      |        NEW ZEALAND                              NZ      554
+remarks:      |        NICARAGUA                                NI      558
+remarks:      |        NIGER                                    NE      562
+remarks:      |        NIGERIA                                  NG      566
+remarks:      |        NIUE                                     NU      570
+remarks:      |        NORFOLK ISLAND                           NF      574
+remarks:      |        NORTHERN MARIANA ISLANDS                 MP      580
+remarks:      |        NORWAY                                   NO      578
+remarks:      |        OMAN                                     OM      512
+remarks:      |        PAKISTAN                                 PK      586
+remarks:      |        PALAU                                    PW      585
+remarks:      |        PALESTINIAN TERRITORY, OCCUPIED          PS      275
+remarks:      |        PANAMA                                   PA      591
+remarks:      |        PAPUA NEW GUINEA                         PG      598
+remarks:      |        PARAGUAY                                 PY      600
+remarks:      |        PERU                                     PE      604
+remarks:      |        PHILIPPINES                              PH      608
+remarks:      |        PITCAIRN                                 PN      612
+remarks:      |        POLAND                                   PL      616
+remarks:      |        PORTUGAL                                 PT      620
+remarks:      |        PUERTO RICO                              PR      630
+remarks:      |        QATAR                                    QA      634
+remarks:      |        REUNION                                  RE      638
+remarks:      |        ROMANIA                                  RO      642
+remarks:      |        RUSSIAN FEDERATION                       RU      643
+remarks:      |        RWANDA                                   RW      646
+remarks:      |        SAINT KITTS AND NEVIS                    KN      659
+remarks:      |        SAINT LUCIA                              LC      662
+remarks:      |        SAINT VINCENT AND THE GRENADINES         VC      670
+remarks:      |        SAMOA                                    WS      882
+remarks:      |        SAN MARINO                               SM      674
+remarks:      |        SAO TOME AND PRINCIPE                    ST      678
+remarks:      |        SAUDI ARABIA                             SA      682
+remarks:      |        SENEGAL                                  SN      686
+remarks:      |        SEYCHELLES                               SC      690
+remarks:      |        SIERRA LEONE                             SL      694
+remarks:      |        SINGAPORE                                SG      702
+remarks:      |        SLOVAKIA (Slovak Republic)               SK      703
+remarks:      |        SLOVENIA                                 SI      705
+remarks:      |        SOLOMON ISLANDS                          SB      090
+remarks:      |        SOMALIA                                  SO      706
+remarks:      |        SOUTH AFRICA                             ZA      710
+remarks:      |        SOUTH GEORGIA & SOUTH SANDWICH ISLANDS   GS      239
+remarks:      |        SPAIN                                    ES      724
+remarks:      |        SRI LANKA                                LK      144
+remarks:      |        ST. HELENA                               SH      654
+remarks:      |        ST. PIERRE AND MIQUELON                  PM      666
+remarks:      |        SUDAN                                    SD      736
+remarks:      |        SURINAME                                 SR      740
+remarks:      |        SVALBARD AND JAN MAYEN ISLANDS           SJ      744
+remarks:      |        SWAZILAND                                SZ      748
+remarks:      |        SWEDEN                                   SE      752
+remarks:      |        SWITZERLAND                              CH      756
+remarks:      |        SYRIAN ARAB REPUBLIC                     SY      760
+remarks:      |        TAIWAN, PROVINCE OF CHINA                TW      158
+remarks:      |        TAJIKISTAN                               TJ      762
+remarks:      |        TANZANIA, UNITED REPUBLIC OF             TZ      834
+remarks:      |        THAILAND                                 TH      764
+remarks:      |        TOGO                                     TG      768
+remarks:      |        TOKELAU                                  TK      772
+remarks:      |        TONGA                                    TO      776
+remarks:      |        TRINIDAD AND TOBAGO                      TT      780
+remarks:      |        TUNISIA                                  TN      788
+remarks:      |        TURKEY                                   TR      792
+remarks:      |        TURKMENISTAN                             TM      795
+remarks:      |        TURKS AND CAICOS ISLANDS                 TC      796
+remarks:      |        TUVALU                                   TV      798
+remarks:      |        UGANDA                                   UG      800
+remarks:      |        UKRAINE                                  UA      804
+remarks:      |        UNITED ARAB EMIRATES                     AE      784
+remarks:      |        UNITED KINGDOM                           GB      826
+remarks:      |        UNITED STATES                            US      840
+remarks:      |        UNITED STATES MINOR OUTLYING ISLANDS     UM      581
+remarks:      |        URUGUAY                                  UY      858
+remarks:      |        UZBEKISTAN                               UZ      860
+remarks:      |        VANUATU                                  VU      548
+remarks:      |        VENEZUELA                                VE      862
+remarks:      |        VIET NAM                                 VN      704
+remarks:      |        VIRGIN ISLANDS (BRITISH)                 VG      092
+remarks:      |        VIRGIN ISLANDS (U.S.)                    VI      850
+remarks:      |        WALLIS AND FUTUNA ISLANDS                WF      876
+remarks:      |        WESTERN SAHARA                           EH      732
+remarks:      |        YEMEN                                    YE      887
+remarks:      |        YUGOSLAVIA                               YU      891
+remarks:      |        ZAMBIA                                   ZM      894
+remarks:      |        ZIMBABWE                                 ZW      716
+remarks:      |
+remarks:      |
+remarks:      | Examples
+remarks:      |
+remarks:      |    3561:11840   customer, North America, United States
+remarks:      |    3561:22380           peer, Europe, Italy
+remarks:      |
+remarks:      +----------------------------------------------------------
+admin-c:      RR-SAVVIS
+tech-c:       RR-SAVVIS
+notify:       savvis-rr@savvis.net
+mnt-by:       SAVVIS-BACKBONE
+changed:      savvis-rr@savvis.net 20110526
+source:       SAVVIS
+
+aut-num:      AS3561
+as-name:      SAVVIS
+descr:        SAVVIS Communications
+import:	      from AS1982 208.173.49.38 action pref=100; accept AS-NEXUS
+import:	      from AS6636 208.172.108.34 action pref=100; accept AS6636
+import:	      from AS7366 208.173.178.254 action pref=100; accept AS-IPTRANSIT
+import:	      from AS15519 212.124.240.218 action pref=100; accept AS15519
+import:	      from AS209 63.146.27.137 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7296 216.89.82.62 action pref=100; accept AS-ALCHEMY
+import:	      from AS14576 216.89.83.70 action pref=100; accept AS14576
+import:	      from AS11160 208.172.39.198 action pref=100; accept AS11160
+import:	      from AS10432 209.144.203.210 action pref=100; accept AS-APCOM
+import:	      from AS19080 209.144.203.70 action pref=100; accept AS-WBS
+import:	      from AS5769 216.113.125.41 action pref=100; accept AS5769:AS-CUSTOMERS
+import:	      from AS5400 80.81.193.84 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS22300 208.174.57.186 action pref=100; accept AS22300
+import:	      from AS36068 216.89.82.238 action pref=100; accept rs-networks01
+import:	      from AS10361 208.173.135.114 action pref=100; accept AS10361
+import:	      from AS6130 208.172.38.2 action pref=100; accept AS-ADNC-SAN
+import:	      from AS26373 208.173.38.2 action pref=100; accept AS26373
+import:	      from AS33736 216.91.97.38 action pref=100; accept AS33736
+import:	      from AS10292 208.138.43.179 action pref=100; accept AS-CWJAMAICA
+import:	      from AS33597 208.173.12.130 action pref=100; accept AS-INFORELAY
+import:	      from AS19730 216.89.82.170 action pref=100; accept AS19730
+import:	      from AS35916 208.172.36.102 action pref=100; accept AS-35916-TRANSIT
+import:	      from AS13345 216.89.82.202 action pref=100; accept AS-ROCKYNET
+import:	      from AS16688 208.175.59.102 action pref=100; accept AS16688
+import:	      from AS33231 64.240.112.226 action pref=100; accept AS33231
+import:	      from AS577 216.89.91.134 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS11816 208.173.90.130 action pref=100; accept AS11816
+import:	      from AS11817 208.173.129.26 action pref=100; accept AS11817
+import:	      from AS16320 64.243.224.170 action pref=100; accept AS16320:AS-DISCOVERYTEL
+import:	      from AS36649 166.63.144.26 action pref=100; accept AS36649
+import:	      from AS20495 208.174.49.170 action pref=100; accept AS-WEDARE
+import:	      from AS3595 216.89.82.82 action pref=100; accept AS3595
+import:	      from AS19739 170.164.253.249 action pref=100; accept AS19739
+import:	      from AS10946 208.173.131.70 action pref=100; accept AS10946
+import:	      from AS14725 216.91.249.102 action pref=100; accept AS14725
+import:	      from AS12111 208.173.50.102 action pref=100; accept AS-OEN
+import:	      from AS22671 208.170.15.30 action pref=100; accept AS22671
+import:	      from AS29863 208.172.163.130 action pref=100; accept AS-DATA393-INV01
+import:	      from AS12116 208.172.135.2 action pref=100; accept AS12116
+import:	      from AS14585 208.175.10.82 action pref=100; accept AS-CIFNET
+import:	      from AS7012 207.171.0.1 action pref=100; accept AS-PHYBER
+import:	      from AS25650 208.173.86.130 action pref=100; accept AS25650
+import:	      from AS26526 216.91.49.22 action pref=100; accept AS26526
+import:	      from AS25653 216.89.82.118 action pref=100; accept AS-FORTRESS
+import:	      from AS27257 216.89.82.126 action pref=100; accept AS27257
+import:	      from AS23112 208.174.194.34 action pref=100; accept AS23112
+import:	      from AS33673 216.91.15.234 action pref=100; accept AS33673
+import:	      from AS13789 208.173.129.62 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7018 192.205.36.97 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS53563 208.173.55.82 action pref=100; accept AS-XPLUSONE
+import:	      from AS11179 64.243.225.54 action pref=100; accept AS-TRIOTEL
+import:	      from AS19740 206.155.32.34 action pref=100; accept AS19740
+import:	      from AS30266 209.144.203.70 action pref=100; accept AS30266
+import:	      from AS9121 208.173.135.66 action pref=100; accept AS-TTNET
+import:	      from AS26893 208.175.18.138 action pref=100; accept AS26893
+import:	      from AS32446 216.91.97.2 action pref=100; accept AS32446
+import:	      from AS7385 206.24.240.162 action pref=100; accept AS-INTEGRA
+import:	      from AS14663 216.198.140.2 action pref=100; accept AS14663
+import:	      from AS29944 216.88.34.162 action pref=100; accept AS-PULLTHEPLUG
+import:	      from AS13790 208.172.161.178 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS46786 208.173.178.130 action pref=100; accept AS-IPTRANSIT
+import:	      from AS46859 64.243.225.142 action pref=100; accept AS46859
+import:	      from AS4046 208.170.29.198 action pref=100; accept AS4046
+import:	      from AS12129 208.174.117.42 action pref=100; accept AS-I123
+import:	      from AS11255 208.174.226.70 action pref=100; accept AS11255
+import:	      from AS11328 204.188.3.253 action pref=100; accept AS11328
+import:	      from AS26393 208.170.2.174 action pref=100; accept AS26393
+import:	      from AS30340 216.89.83.102 action pref=100; accept AS30340
+import:	      from AS9498 208.174.194.18 action pref=100; accept AS9498:AS-BHARTI-IN
+import:	      from AS11907 216.91.69.26 action pref=100; accept AS11907
+import:	      from AS35937 216.89.82.38 action pref=100; accept AS-MARQUISNET
+import:	      from AS33251 208.172.54.2 action pref=100; accept AS-33251-TRANSIT-CUSTOMERS
+import:	      from AS11691 208.173.173.18 action pref=100; accept AS11691
+import:	      from AS33182 216.89.79.150 action pref=100; accept AS33182
+import:	      from AS3320 62.156.138.105 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14742 208.172.51.230 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14743 208.175.172.10 action pref=100; accept AS-PNAPSFO
+import:	      from AS21962 208.173.159.26 action pref=100; accept AS21962
+import:	      from AS14745 208.172.65.222 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS11404 208.173.48.134 action pref=100; accept AS-VOBIZ
+import:	      from AS40111 216.89.82.86 action pref=100; accept AS40111
+import:	      from AS36167 216.89.82.90 action pref=100; accept AS36167
+import:	      from AS19181 209.188.10.222 action pref=100; accept AS19181
+import:	      from AS40042 64.243.225.58 action pref=100; accept AS-SCG
+import:	      from AS3257 89.149.178.25 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS10462 208.144.187.69 action pref=100; accept AS10462
+import:	      from AS13878 216.89.79.142 action pref=100; accept AS-DIVEO-TRANSIT
+import:	      from AS36097 208.172.130.166 action pref=100; accept AS36097
+import:	      from AS40045 65.91.93.1 action pref=100; accept AS40045
+import:	      from AS33400 208.173.107.66 action pref=100; accept AS33400
+import:	      from AS14173 208.175.173.2 action pref=100; accept AS14173
+import:	      from AS4637 202.84.152.29 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7610 208.173.157.30 action pref=100; accept AS7610
+import:	      from AS47098 64.240.143.6 action pref=100; accept AS47098
+import:	      from AS22195 208.175.194.14 action pref=100; accept AS22195
+import:	      from AS17223 209.176.218.110 action pref=100; accept AS-DATA393-INV01
+import:	      from AS18963 208.170.5.178 action pref=100; accept AS18963
+import:	      from AS9145 208.174.49.138 action pref=100; accept AS-EWETEL
+import:	      from AS32607 64.28.84.54 action pref=100; accept AS32607
+import:	      from AS46944 208.81.87.34 action pref=100; accept AS46944
+import:	      from AS18966 64.243.255.242 action pref=100; accept AS18966
+import:	      from AS22915 69.5.31.236 action pref=100; accept AS22915
+import:	      from AS14751 208.172.49.154 action pref=100; accept AS-CONV
+import:	      from AS46945 206.24.199.122 action pref=100; accept AS46945
+import:	      from AS19697 64.243.223.190 action pref=100; accept rs-AS19697
+import:	      from AS14752 208.173.138.142 action pref=100; accept AS14752
+import:	      from AS4134 202.97.32.92 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS22773 208.173.170.2 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14755 208.172.169.50 action pref=100; accept RS-MHOexpanded
+import:	      from AS4208 208.175.15.226 action pref=100; accept AS4208
+import:	      from AS174 130.117.14.201 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS25822 64.241.138.114 action pref=100; accept AS25822
+import:	      from AS11343 209.176.218.114 action pref=100; accept AS11343
+import:	      from AS25751 208.173.172.198 action pref=100; accept AS25751
+import:	      from AS18534 204.8.22.1 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14688 208.170.33.26 action pref=100; accept AS14688
+import:	      from AS26627 64.243.225.30 action pref=100; accept AS-PILOSOFT
+import:	      from AS22410 208.170.17.102 action pref=100; accept AS22410
+import:	      from AS5511 206.24.169.58 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS25755 208.170.5.170 action pref=100; accept AS25755
+import:	      from AS32035 216.89.82.142 action pref=100; accept AS32035
+import:	      from AS23071 64.240.36.106 action pref=100; accept AS23071
+import:	      from AS30361 206.24.195.138 action pref=100; accept AS-SWIFTWILL2
+import:	      from AS1668 208.174.57.30 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS25759 208.175.15.102 action pref=100; accept AS25759
+import:	      from AS65530 165.193.172.78 action pref=100; accept AS65530
+import:	      from AS19840 166.63.159.78 action pref=100; accept AS19840
+import:	      from AS3770 208.172.114.98 action pref=100; accept AS3770
+import:	      from AS65534 204.71.39.10 action pref=100; accept AS3561:AS-NONE
+import:	      from AS16798 67.220.159.74 action pref=100; accept AS16798
+import:	      from AS26054 67.220.159.86 action pref=100; accept AS26054
+import:	      from AS11855 208.172.227.202 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS11856 64.243.225.114 action pref=100; accept AS11856
+import:	      from AS38861 208.173.55.70 action pref=100; accept AS-STARHUBINTERNET
+import:	      from AS46953 64.241.66.146 action pref=100; accept AS46953
+import:	      from AS1239 208.174.49.162 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS10985 208.172.230.70 action pref=100; accept AS10985
+import:	      from AS40495 208.172.88.30 action pref=100; accept AS-MARCHEX01
+import:	      from AS9800 208.173.57.2 action pref=100; accept AS9800:AS-CU
+import:	      from AS12221 208.175.200.82 action pref=100; accept AS12221
+import:	      from AS20240 64.241.66.138 action pref=100; accept AS20240
+import:	      from AS46887 208.172.51.146 action pref=100; accept AS46887
+import:	      from AS27435 208.173.50.166 action pref=100; accept AS27435
+import:	      from AS36183 208.173.51.150 action pref=100; accept AS36183
+import:	      from AS19271 208.174.84.14 action pref=100; accept rs-Peak10_All
+import:	      from AS36184 216.91.101.158 action pref=100; accept AS36184
+import:	      from AS26634 216.91.253.166 action pref=100; accept AS26634
+import:	      from AS36185 64.241.148.6 action pref=100; accept AS36185
+import:	      from AS12083 208.173.60.230 action pref=100; accept AS12083
+import:	      from AS11281 206.155.32.42 action pref=100; accept AS11281
+import:	      from AS27367 216.90.236.254 action pref=100; accept AS27367
+import:	      from AS16943 208.172.112.6 action pref=100; accept AS16943
+import:	      from AS4651 202.47.253.9 action pref=100; accept AS-THIX
+import:	      from AS11289 64.243.225.22 action pref=100; accept AS-STRATICOM
+import:	      from AS30373 67.220.159.198 action pref=100; accept AS30373:AS-CUSTOMERS
+import:	      from AS14338 206.26.104.6 action pref=100; accept AS14338
+import:	      from AS5459 195.66.225.254 action pref=100; accept AS3561:AS-NONE
+import:	      from AS4657 205.216.164.2 action pref=100; accept AS-STARHUBINTERNET
+import:	      from AS4589 208.173.135.214 action pref=100; accept AS-EASYNET
+import:	      from AS17318 216.89.83.34 action pref=100; accept AS17318
+import:	      from AS42178 64.242.237.162 action pref=100; accept AS42178
+import:	      from AS26067 209.144.203.74 action pref=100; accept AS26067
+import:	      from AS11795 216.89.82.186 action pref=100; accept AS11795
+import:	      from AS6762 195.69.144.196 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS17248 64.243.225.146 action pref=100; accept AS17248
+import:	      from AS8001 206.152.3.210 action pref=100; accept AS-NETACCESS
+import:	      from AS27514 166.63.144.202 action pref=100; accept AS27514
+import:	      from AS11504 208.175.104.78 action pref=100; accept AS11504
+import:	      from AS7203 216.91.16.2 action pref=100; accept AS7203
+import:	      from AS26644 64.240.176.82 action pref=100; accept AS26644
+import:	      from AS3356 212.73.240.201 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS20258 208.172.55.26 action pref=100; accept AS20258
+import:	      from AS18482 64.243.228.158 action pref=100; accept AS18482
+import:	      from AS36197 66.100.47.98 action pref=100; accept AS36197
+import:	      from AS6405 208.173.52.6 action pref=100; accept AS-AINET
+import:	      from AS26648 208.174.67.122 action pref=100; accept AS26648
+import:	      from AS10565 206.24.240.194 action pref=100; accept AS10565 OR AS10565:AS-CUSTOMERS
+import:	      from AS25847 209.144.203.78 action pref=100; accept AS-SERVINT
+import:	      from AS18559 206.24.195.166 action pref=100; accept AS-BLIP
+import:	      from AS22293 67.220.159.78 action pref=100; accept AS22293
+import:	      from AS6195 208.174.224.138 action pref=100; accept AS6195
+import:	      from AS30458 208.172.99.158 action pref=100; accept AS30458
+import:	      from AS32631 216.89.82.190 action pref=100; accept AS32631
+import:	      from AS19863 190.80.0.1 action pref=100; accept AS19863
+import:	      from AS28685 213.144.232.109 action pref=100; accept AS28685
+import:	      from AS12749 208.173.59.54 action pref=100; accept AS12749
+import:	      from AS14925 208.172.65.210 action pref=100; accept AS14925
+import:	      from AS31769 64.243.225.110 action pref=100; accept AS31769:AS-CUSTOMERS
+import:	      from AS27524 208.172.44.22 action pref=100; accept AS-XEEX
+import:	      from AS36347 208.173.173.22 action pref=100; accept AS36347
+import:	      from AS25923 208.173.60.134 action pref=100; accept AS25923
+import:	      from AS3292 195.69.144.104 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS27455 206.24.204.2 action pref=100; accept AS27455
+import:	      from AS9829 208.173.57.102 action pref=100; accept AS9829
+import:	      from AS29999 208.173.143.62 action pref=100; accept AS29999
+import:	      from AS32136 64.243.225.118 action pref=100; accept AS32136
+import:	      from AS12179 208.175.175.18 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS40156 66.100.47.162 action pref=100; accept AS40156
+import:	      from AS852 154.11.0.208 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS46475 208.175.175.102 action pref=100; accept AS46475
+import:	      from AS13480 216.89.83.62 action pref=100; accept AS13480
+import:	      from AS11013 209.176.218.102 action pref=100; accept AS11013:AS-CUSTOMER
+import:	      from AS19871 64.240.208.10 action pref=100; accept AS19871
+import:	      from AS14288 207.50.14.6 action pref=100; accept AS-RN-SCT
+import:	      from AS35985 216.89.79.178 action pref=100; accept AS35985
+import:	      from AS11888 201.172.12.65 action pref=100; accept AS-MULTIMEDIOS
+import:	      from AS17267 208.173.23.74 action pref=100; accept AS17267
+import:	      from AS26731 208.174.118.142 action pref=100; accept AS26731
+import:	      from AS20416 208.172.217.82 action pref=100; accept AS20416
+import:	      from AS12180 208.172.108.18 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS286 134.222.93.29 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS12181 208.174.194.26 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS12182 208.173.55.162 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS14501 208.172.130.130 action pref=100; accept AS14501
+import:	      from AS6423 208.172.88.42 action pref=100; accept AS6423
+import:	      from AS13700 208.172.164.102 action pref=100; accept AS13700
+import:	      from AS21720 206.24.199.6 action pref=100; accept AS21720
+import:	      from AS8966 195.69.145.89 action pref=100; accept AS-EMIX
+import:	      from AS13703 208.173.59.50 action pref=100; accept AS13703
+import:	      from AS40093 208.173.157.34 action pref=100; accept AS40093
+import:	      from AS15308 64.242.232.250 action pref=100; accept AS15308
+import:	      from AS14361 209.160.62.174 action pref=100; accept RS-AS14361-ALL-COMBINED
+import:	      from AS6428 216.91.36.210 action pref=100; accept AS6428
+import:	      from AS23184 24.139.25.126 action pref=100; accept AS23184
+import:	      from AS40099 64.242.171.22 action pref=100; accept AS40099
+import:	      from AS32720 208.173.129.126 action pref=100; accept AS32720
+import:	      from AS26163 208.175.194.18 action pref=100; accept AS-DATAGRAM
+import:	      from AS35994 208.172.112.2 action pref=100; accept AS35994
+import:	      from AS31923 208.173.116.202 action pref=100; accept AS31923
+import:	      from AS40818 208.172.108.22 action pref=100; accept AS40818
+import:	      from AS22020 206.24.218.114 action pref=100; accept AS22020
+import:	      from AS1273 208.173.158.10 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS32580 208.175.168.202 action pref=100; accept AS32580
+import:	      from AS31926 208.175.169.122 action pref=100; accept AS31926
+import:	      from AS4250 208.173.180.30 action pref=100; accept AS4250
+import:	      from AS17348 208.173.18.234 action pref=100; accept AS17348
+import:	      from AS7738 208.173.90.90 action pref=100; accept AS-TELEMARNET
+import:	      from AS8100 208.144.187.66 action pref=100; accept AS8100
+import:	      from AS4181 208.172.13.198 action pref=100; accept AS-TDS-TRANSIT
+import:	      from AS293 206.24.240.202 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS19452 208.173.37.134 action pref=100; accept AS19452
+import:	      from AS27473 208.172.135.2 action pref=100; accept AS27473
+import:	      from AS11608 208.173.50.54 action pref=100; accept AS-ACCRETIVE
+import:	      from AS40170 208.172.163.186 action pref=100; accept AS40170
+import:	      from AS46562 216.89.82.78 action pref=100; accept AS-COLOAT
+import:	      from AS10594 208.172.91.10 action pref=100; accept AS10594
+import:	      from AS30480 206.24.233.2 action pref=100; accept AS30480
+import:	      from AS23265 216.89.83.106 action pref=100; accept AS-POCKETINET
+import:	      from AS15247 216.89.83.114 action pref=100; accept AS15247
+import:	      from AS5564 206.24.169.118 action pref=100; accept AS5564
+import:	      from AS15249 208.174.127.26 action pref=100; accept AS15249
+import:	      from AS5639 190.58.140.253 action pref=100; accept AS5639
+import:	      from AS19024 208.173.180.134 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS13577 216.89.79.170 action pref=100; accept AS13577
+import:	      from AS21597 208.174.193.150 action pref=100; accept AS21597
+import:	      from AS19029 208.173.53.130 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS30121 206.24.240.134 action pref=100; accept AS-TELLME
+import:	      from AS18800 206.24.202.98 action pref=100; accept AS18800
+import:	      from AS65222 216.90.108.10 action pref=100; accept AS3561:AS-NONE
+import:	      from AS2730 208.172.234.22 action pref=100; accept AS2730
+import:	      from AS26821 208.173.90.38 action pref=100; accept AS-RN-ALL
+import:	      from AS36444 64.243.182.110 action pref=100; accept AS-NEXCESS
+import:	      from AS19461 208.173.55.2 action pref=100; accept AS19461
+import:	      from AS25950 64.243.204.38 action pref=100; accept AS25950
+import:	      from AS6440 205.149.7.1 action pref=100; accept AS6440
+import:	      from AS23342 216.89.83.162 action pref=100; accept AS-UNITEDLAYER
+import:	      from AS27487 208.175.97.178 action pref=100; accept AS27487
+import:	      from AS32164 208.172.236.14 action pref=100; accept AS32164
+import:	      from AS23271 208.175.51.134 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS30490 206.155.32.22 action pref=100; accept AS30490
+import:	      from AS20940 208.173.52.34 action pref=100; accept AS-AKAMAI
+import:	      from AS21816 208.81.87.10 action pref=100; accept AS21816
+import:	      from AS6447 128.223.51.103 action pref=100; accept AS3561:AS-NONE
+import:	      from AS13725 208.170.5.182 action pref=100; accept AS13725
+import:	      from AS40188 216.89.82.158 action pref=100; accept AS40188
+import:	      from AS30568 208.173.180.26 action pref=100; accept AS30568
+import:	      from AS13582 204.70.151.198 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS15189 208.173.159.18 action pref=100; accept AS15189
+import:	      from AS53430 208.170.5.206 action pref=100; accept AS53430
+import:	      from AS1290 216.219.73.78 action pref=100; accept AS-PSINETUK
+import:	      from AS46215 216.19.160.68 action pref=100; accept AS-TERRANOVANET
+import:	      from AS32748 208.173.176.218 action pref=100; accept AS-STEADFAST
+import:	      from AS16566 208.172.41.82 action pref=100; accept AS16566
+import:	      from AS1299 208.173.52.122 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS27560 208.175.15.242 action pref=100; accept AS27560
+import:	      from AS11622 208.174.110.2 action pref=100; accept AS11622
+import:	      from AS33112 208.170.0.74 action pref=100; accept AS33112
+import:	      from AS36529 208.173.176.206 action pref=100; accept AS36529
+import:	      from AS19617 166.63.154.154 action pref=100; accept AS19617
+import:	      from AS3549 64.215.195.145 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS46723 208.171.192.2 action pref=100; accept AS46723
+import:	      from AS32244 206.24.225.226 action pref=100; accept AS32244
+import:	      from AS6450 216.88.34.182 action pref=100; accept AS-READNEWS
+import:	      from AS5650 74.40.7.66 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS40193 206.155.32.14 action pref=100; accept AS-TRIT
+import:	      from AS6453 208.173.129.30 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS46584 216.89.83.46 action pref=100; accept AS-VOXCOMET-NETWORK
+import:	      from AS10689 208.173.180.58 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS31377 208.172.51.170 action pref=100; accept AS31377
+import:	      from AS29748 208.173.10.250 action pref=100; accept RS-CARPATHIA OR AS-CARPATHIA
+import:	      from AS14395 208.170.17.98 action pref=100; accept AS14395
+import:	      from AS4788 208.172.38.50 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7907 208.174.194.62 action pref=100; accept AS-NETWORLD
+import:	      from AS33556 208.170.0.38 action pref=100; accept AS33556
+import:	      from AS30142 208.173.10.210 action pref=100; accept AS30142
+import:	      from AS26198 208.175.169.134 action pref=100; accept AS26198
+import:	      from AS9002 208.173.129.38 action pref=100; accept AS-RETN
+import:	      from AS46085 209.144.128.102 action pref=100; accept AS46085
+import:	      from AS4282 204.71.39.10 action pref=100; accept AS4282
+import:	      from AS8132 208.172.113.234 action pref=100; accept AS8132
+import:	      from AS32322 208.172.21.70 action pref=100; accept AS32322
+import:	      from AS2828 67.111.23.181 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS20385 216.88.196.131 action pref=100; accept AS20385
+import:	      from AS2686 195.69.144.37 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS6461 208.173.180.38 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS4930 208.144.187.67 action pref=100; accept AS4930
+import:	      from AS22561 208.172.216.126 action pref=100; accept AS22561
+import:	      from AS32257 208.173.68.110 action pref=100; accept AS32257
+import:	      from AS6539 208.173.176.210 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS19121 64.242.127.38 action pref=100; accept AS19121
+import:	      from AS13743 208.173.162.138 action pref=100; accept AS13743
+import:	      from AS12006 204.70.147.234 action pref=100; accept AS12006
+import:	      from AS5668 69.29.186.2 action pref=100; accept AS5668
+import:	      from AS46302 64.243.225.26 action pref=100; accept AS46302:AS-TRANSIT
+import:	      from AS32761 208.173.130.106 action pref=100; accept AS32761
+import:	      from AS32837 208.170.25.126 action pref=100; accept AS32837
+import:	      from AS33569 64.240.98.6 action pref=100; accept AS-AHS
+import:	      from AS10269 200.32.192.149 action pref=100; accept AS10269
+import:	      from AS10910 216.89.77.22 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS22137 208.173.3.170 action pref=100; accept AS22137
+import:	      from AS10911 208.173.173.14 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS4509 64.243.47.110 action pref=100; accept AS4509
+import:	      from AS10912 208.174.196.38 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS10913 208.173.159.2 action pref=100; accept AS-PNAPWDC002
+import:	      from AS14985 64.243.225.50 action pref=100; accept RS-VEROXITY-BLKS
+import:	      from AS4293 216.89.108.230 action pref=100; accept AS4293
+import:	      from AS10844 208.175.101.50 action pref=100; accept AS10844
+import:	      from AS10845 208.173.57.6 action pref=100; accept AS-ATWOKONE
+import:	      from AS7342 195.69.145.232 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS22712 208.173.3.34 action pref=100; accept AS22712
+import:	      from AS8075 208.173.50.86 action pref=100; accept AS-MICROSOFT
+import:	      from AS11579 64.243.225.122 action pref=100; accept AS11579
+import:	      from AS29761 216.89.83.58 action pref=100; accept AS29761
+import:	      from AS25986 208.81.87.14 action pref=100; accept AS25986
+import:	      from AS7349 208.174.125.110 action pref=100; accept AS-7349-TRANSIT-CUSTOMERS
+import:	      from AS4943 208.172.129.10 action pref=100; accept AS4943
+import:	      from AS21844 209.85.2.241 action pref=100; accept AS21844
+import:	      from AS23376 208.170.14.214 action pref=100; accept AS23376
+import:	      from AS30666 204.70.151.182 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7922 208.172.41.162 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS12956 213.140.32.154 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS32770 208.173.162.182 action pref=100; accept AS32770
+import:	      from AS35176 208.171.171.34 action pref=100; accept AS35176
+import:	      from AS19066 208.175.10.98 action pref=100; accept AS-WIREDTREE
+import:	      from AS65400 146.242.128.226 action pref=100; accept AS3561:AS-NONE
+import:	      from AS32774 208.174.194.46 action pref=100; accept AS32774
+import:	      from AS53463 208.173.56.194 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS7784 208.173.50.246 action pref=100; accept AS-AOI
+import:	      from AS19710 206.155.32.10 action pref=100; accept AS-DINOSET
+import:	      from AS2911 206.24.239.30 action pref=100; accept AS2911
+import:	      from AS14990 208.172.230.26 action pref=100; accept AS14990
+import:	      from AS2914 195.69.144.36 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS8220 80.81.192.61 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS30094 208.173.50.202 action pref=100; accept AS-GIGANEWS-ALL
+import:	      from AS40430 208.144.187.10 action pref=100; accept AS-40430
+import:	      from AS558 208.173.57.58 action pref=100; accept AS-NET2EZ
+import:	      from AS18915 216.89.83.42 action pref=100; accept AS18915
+import:	      from AS30097 208.174.194.2 action pref=100; accept AS30097
+import:	      from AS26792 216.89.83.110 action pref=100; accept AS-CSSNW
+import:	      from AS22653 208.173.59.62 action pref=100; accept AS-GLOBALCOMPASS
+import:	      from AS26799 12.30.238.37 action pref=100; accept AS26799
+import:	      from AS25700 208.172.81.134 action pref=100; accept AS25700
+import:	      from AS26503 208.173.118.2 action pref=100; accept AS26503
+import:	      from AS11150 208.172.164.202 action pref=100; accept AS11150
+import:	      from AS16810 208.173.176.10 action pref=100; accept AS-CAVALIER
+import:	      from AS26435 208.173.79.10 action pref=100; accept AS26435
+import:	      from AS13768 208.173.50.6 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS701 63.137.84.18 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS702 158.43.0.181 action pref=80; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS36700 216.89.82.122 action pref=100; accept AS-Actforex
+import:	      from AS32857 166.63.148.10 action pref=100; accept AS32857
+import:	      from AS6126 208.174.14.106 action pref=100; accept AS6126
+import:	      from AS6128 65.19.101.25 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:	      from AS13407 64.69.100.142 action pref=100; accept AS-13407 OR RS-ONECOMM-C1
+import:	      from AS7796 206.155.32.6 action pref=100; accept AS7796
+import:	      from AS36563 208.172.135.6 action pref=100; accept AS-TELX-DALLAS
+import:	      from AS2924 209.44.21.202 action pref=100; accept rs-AS2924
+export:       to AS1982 208.173.49.38 announce ANY
+export:       to AS6636 208.172.108.34 announce ANY
+export:       to AS7366 208.173.178.254 announce ANY
+export:       to AS15519 212.124.240.218 announce ANY
+export:       to AS209 63.146.27.137 announce AS-SAVVIS-TRANSIT
+export:       to AS7296 216.89.82.62 announce ANY
+export:       to AS14576 216.89.83.70 announce ANY
+export:       to AS11160 208.172.39.198 announce rs-savvis
+export:       to AS10432 209.144.203.210 announce ANY
+export:       to AS19080 209.144.203.70 announce ANY
+export:       to AS5769 216.113.125.41 announce ANY
+export:       to AS5400 80.81.193.84 announce ANY
+export:       to AS22300 208.174.57.186 announce ANY
+export:       to AS36068 216.89.82.238 announce ANY
+export:       to AS10361 208.173.135.114 announce ANY
+export:       to AS6130 208.172.38.2 announce ANY
+export:       to AS26373 208.173.38.2 announce rs-savvis
+export:       to AS33736 216.91.97.38 announce AS-SAVVIS-TRANSIT
+export:       to AS10292 208.138.43.179 announce ANY
+export:       to AS33597 208.173.12.130 announce ANY
+export:       to AS19730 216.89.82.170 announce ANY
+export:       to AS35916 208.172.36.102 announce ANY
+export:       to AS13345 216.89.82.202 announce ANY
+export:       to AS16688 208.175.59.102 announce AS-SAVVIS-TRANSIT
+export:       to AS33231 64.240.112.226 announce {0.0.0.0/0}
+export:       to AS577 216.89.91.134 announce ANY
+export:       to AS11816 208.173.90.130 announce ANY
+export:       to AS11817 208.173.129.26 announce ANY
+export:       to AS16320 64.243.224.170 announce ANY
+export:       to AS36649 166.63.144.26 announce ANY
+export:       to AS20495 208.174.49.170 announce ANY
+export:       to AS3595 216.89.82.82 announce ANY
+export:       to AS19739 170.164.253.249 announce ANY
+export:       to AS10946 208.173.131.70 announce {0.0.0.0/0}
+export:       to AS14725 216.91.249.102 announce {0.0.0.0/0}
+export:       to AS12111 208.173.50.102 announce ANY
+export:       to AS22671 208.170.15.30 announce ANY
+export:       to AS29863 208.172.163.130 announce ANY
+export:       to AS12116 208.172.135.2 announce rs-savvis
+export:       to AS14585 208.175.10.82 announce ANY
+export:       to AS7012 207.171.0.1 announce ANY
+export:       to AS25650 208.173.86.130 announce ANY
+export:       to AS26526 216.91.49.22 announce {0.0.0.0/0}
+export:       to AS25653 216.89.82.118 announce ANY
+export:       to AS27257 216.89.82.126 announce ANY
+export:       to AS23112 208.174.194.34 announce ANY
+export:       to AS33673 216.91.15.234 announce rs-savvis
+export:       to AS13789 208.173.129.62 announce ANY
+export:       to AS7018 192.205.36.97 announce AS-SAVVIS-TRANSIT
+export:       to AS53563 208.173.55.82 announce ANY
+export:       to AS11179 64.243.225.54 announce ANY
+export:       to AS19740 206.155.32.34 announce {0.0.0.0/0}
+export:       to AS30266 209.144.203.70 announce ANY
+export:       to AS9121 208.173.135.66 announce ANY
+export:       to AS26893 208.175.18.138 announce rs-savvis
+export:       to AS32446 216.91.97.2 announce {0.0.0.0/0}
+export:       to AS7385 206.24.240.162 announce ANY
+export:       to AS14663 216.198.140.2 announce ANY
+export:       to AS29944 216.88.34.162 announce ANY
+export:       to AS13790 208.172.161.178 announce ANY
+export:       to AS46786 208.173.178.130 announce ANY
+export:       to AS46859 64.243.225.142 announce ANY
+export:       to AS4046 208.170.29.198 announce {0.0.0.0/0}
+export:       to AS12129 208.174.117.42 announce ANY
+export:       to AS11255 208.174.226.70 announce {0.0.0.0/0}
+export:       to AS11328 204.188.3.253 announce AS-SAVVIS-TRANSIT
+export:       to AS26393 208.170.2.174 announce {0.0.0.0/0}
+export:       to AS30340 216.89.83.102 announce ANY
+export:       to AS9498 208.174.194.18 announce ANY
+export:       to AS11907 216.91.69.26 announce ANY
+export:       to AS35937 216.89.82.38 announce ANY
+export:       to AS33251 208.172.54.2 announce ANY
+export:       to AS11691 208.173.173.18 announce {0.0.0.0/0}
+export:       to AS33182 216.89.79.150 announce ANY
+export:       to AS3320 62.156.138.105 announce AS-SAVVIS-TRANSIT
+export:       to AS14742 208.172.51.230 announce ANY
+export:       to AS14743 208.175.172.10 announce ANY
+export:       to AS21962 208.173.159.26 announce ANY
+export:       to AS14745 208.172.65.222 announce ANY
+export:       to AS11404 208.173.48.134 announce ANY
+export:       to AS40111 216.89.82.86 announce ANY
+export:       to AS36167 216.89.82.90 announce ANY
+export:       to AS19181 209.188.10.222 announce ANY
+export:       to AS40042 64.243.225.58 announce {0.0.0.0/0}
+export:       to AS3257 89.149.178.25 announce AS-SAVVIS-TRANSIT
+export:       to AS10462 208.144.187.69 announce {0.0.0.0/0}
+export:       to AS13878 216.89.79.142 announce ANY
+export:       to AS36097 208.172.130.166 announce ANY
+export:       to AS40045 65.91.93.1 announce {0.0.0.0/0}
+export:       to AS33400 208.173.107.66 announce {0.0.0.0/0}
+export:       to AS14173 208.175.173.2 announce ANY
+export:       to AS4637 202.84.152.29 announce {0.0.0.0/0}
+export:       to AS7610 208.173.157.30 announce ANY
+export:       to AS47098 64.240.143.6 announce {0.0.0.0/0}
+export:       to AS22195 208.175.194.14 announce ANY
+export:       to AS17223 209.176.218.110 announce ANY
+export:       to AS18963 208.170.5.178 announce ANY
+export:       to AS9145 208.174.49.138 announce ANY
+export:       to AS32607 64.28.84.54 announce {0.0.0.0/0}
+export:       to AS46944 208.81.87.34 announce ANY
+export:       to AS18966 64.243.255.242 announce ANY
+export:       to AS22915 69.5.31.236 announce ANY
+export:       to AS14751 208.172.49.154 announce ANY
+export:       to AS46945 206.24.199.122 announce {0.0.0.0/0}
+export:       to AS19697 64.243.223.190 announce ANY
+export:       to AS14752 208.173.138.142 announce {0.0.0.0/0}
+export:       to AS4134 202.97.32.92 announce AS-SAVVIS-TRANSIT
+export:       to AS22773 208.173.170.2 announce AS-SAVVIS-TRANSIT
+export:       to AS14755 208.172.169.50 announce ANY
+export:       to AS4208 208.175.15.226 announce {0.0.0.0/0}
+export:       to AS174 130.117.14.201 announce AS-SAVVIS-TRANSIT
+export:       to AS25822 64.241.138.114 announce {0.0.0.0/0}
+export:       to AS11343 209.176.218.114 announce ANY
+export:       to AS25751 208.173.172.198 announce ANY
+export:       to AS18534 204.8.22.1 announce ANY
+export:       to AS14688 208.170.33.26 announce AS-SAVVIS-TRANSIT
+export:       to AS26627 64.243.225.30 announce ANY
+export:       to AS22410 208.170.17.102 announce {0.0.0.0/0}
+export:       to AS5511 206.24.169.58 announce AS-SAVVIS-TRANSIT
+export:       to AS25755 208.170.5.170 announce {0.0.0.0/0}
+export:       to AS32035 216.89.82.142 announce ANY
+export:       to AS23071 64.240.36.106 announce AS-SAVVIS-TRANSIT
+export:       to AS30361 206.24.195.138 announce ANY
+export:       to AS1668 208.174.57.30 announce AS-SAVVIS-TRANSIT
+export:       to AS25759 208.175.15.102 announce {0.0.0.0/0}
+export:       to AS65530 165.193.172.78 announce {0.0.0.0/0}
+export:       to AS19840 166.63.159.78 announce ANY
+export:       to AS3770 208.172.114.98 announce ANY
+export:       to AS65534 204.71.39.10 announce ANY
+export:       to AS16798 67.220.159.74 announce ANY
+export:       to AS26054 67.220.159.86 announce ANY
+export:       to AS11855 208.172.227.202 announce ANY
+export:       to AS11856 64.243.225.114 announce ANY
+export:       to AS38861 208.173.55.70 announce ANY
+export:       to AS46953 64.241.66.146 announce {0.0.0.0/0}
+export:       to AS1239 208.174.49.162 announce AS-SAVVIS-TRANSIT
+export:       to AS10985 208.172.230.70 announce rs-savvis
+export:       to AS40495 208.172.88.30 announce ANY
+export:       to AS9800 208.173.57.2 announce ANY
+export:       to AS12221 208.175.200.82 announce ANY
+export:       to AS20240 64.241.66.138 announce ANY
+export:       to AS46887 208.172.51.146 announce ANY
+export:       to AS27435 208.173.50.166 announce ANY
+export:       to AS36183 208.173.51.150 announce ANY
+export:       to AS19271 208.174.84.14 announce ANY
+export:       to AS36184 216.91.101.158 announce ANY
+export:       to AS26634 216.91.253.166 announce {0.0.0.0/0}
+export:       to AS36185 64.241.148.6 announce {0.0.0.0/0}
+export:       to AS12083 208.173.60.230 announce ANY
+export:       to AS11281 206.155.32.42 announce ANY
+export:       to AS27367 216.90.236.254 announce {0.0.0.0/0}
+export:       to AS16943 208.172.112.6 announce ANY
+export:       to AS4651 202.47.253.9 announce ANY
+export:       to AS11289 64.243.225.22 announce ANY
+export:       to AS30373 67.220.159.198 announce ANY
+export:       to AS14338 206.26.104.6 announce ANY
+export:       to AS5459 195.66.225.254 announce {0.0.0.0/0}
+export:       to AS4657 205.216.164.2 announce ANY
+export:       to AS4589 208.173.135.214 announce ANY
+export:       to AS17318 216.89.83.34 announce ANY
+export:       to AS42178 64.242.237.162 announce ANY
+export:       to AS26067 209.144.203.74 announce ANY
+export:       to AS11795 216.89.82.186 announce ANY
+export:       to AS6762 195.69.144.196 announce ANY
+export:       to AS17248 64.243.225.146 announce AS-SAVVIS-TRANSIT
+export:       to AS8001 206.152.3.210 announce ANY
+export:       to AS27514 166.63.144.202 announce rs-savvis
+export:       to AS11504 208.175.104.78 announce ANY
+export:       to AS7203 216.91.16.2 announce ANY
+export:       to AS26644 64.240.176.82 announce ANY
+export:       to AS3356 212.73.240.201 announce AS-SAVVIS-TRANSIT
+export:       to AS20258 208.172.55.26 announce rs-savvis
+export:       to AS18482 64.243.228.158 announce AS-SAVVIS-TRANSIT
+export:       to AS36197 66.100.47.98 announce ANY
+export:       to AS6405 208.173.52.6 announce ANY
+export:       to AS26648 208.174.67.122 announce rs-savvis
+export:       to AS10565 206.24.240.194 announce ANY
+export:       to AS25847 209.144.203.78 announce ANY
+export:       to AS18559 206.24.195.166 announce {0.0.0.0/0}
+export:       to AS22293 67.220.159.78 announce ANY
+export:       to AS6195 208.174.224.138 announce AS-SAVVIS-TRANSIT
+export:       to AS30458 208.172.99.158 announce ANY
+export:       to AS32631 216.89.82.190 announce {0.0.0.0/0}
+export:       to AS19863 190.80.0.1 announce ANY
+export:       to AS28685 213.144.232.109 announce rs-savvis
+export:       to AS12749 208.173.59.54 announce ANY
+export:       to AS14925 208.172.65.210 announce ANY
+export:       to AS31769 64.243.225.110 announce {0.0.0.0/0}
+export:       to AS27524 208.172.44.22 announce ANY
+export:       to AS36347 208.173.173.22 announce ANY
+export:       to AS25923 208.173.60.134 announce ANY
+export:       to AS3292 195.69.144.104 announce ANY
+export:       to AS27455 206.24.204.2 announce rs-savvis
+export:       to AS9829 208.173.57.102 announce AS-SAVVIS-TRANSIT
+export:       to AS29999 208.173.143.62 announce AS-SAVVIS-TRANSIT
+export:       to AS32136 64.243.225.118 announce ANY
+export:       to AS12179 208.175.175.18 announce ANY
+export:       to AS40156 66.100.47.162 announce ANY
+export:       to AS852 154.11.0.208 announce ANY
+export:       to AS46475 208.175.175.102 announce ANY
+export:       to AS13480 216.89.83.62 announce ANY
+export:       to AS11013 209.176.218.102 announce ANY
+export:       to AS19871 64.240.208.10 announce ANY
+export:       to AS14288 207.50.14.6 announce AS-SAVVIS-TRANSIT
+export:       to AS35985 216.89.79.178 announce ANY
+export:       to AS11888 201.172.12.65 announce ANY
+export:       to AS17267 208.173.23.74 announce AS-SAVVIS-TRANSIT
+export:       to AS26731 208.174.118.142 announce AS-SAVVIS-TRANSIT
+export:       to AS20416 208.172.217.82 announce ANY
+export:       to AS12180 208.172.108.18 announce ANY
+export:       to AS286 134.222.93.29 announce ANY
+export:       to AS12181 208.174.194.26 announce ANY
+export:       to AS12182 208.173.55.162 announce ANY
+export:       to AS14501 208.172.130.130 announce ANY
+export:       to AS6423 208.172.88.42 announce AS-SAVVIS-TRANSIT
+export:       to AS13700 208.172.164.102 announce {0.0.0.0/0}
+export:       to AS21720 206.24.199.6 announce AS-SAVVIS-TRANSIT
+export:       to AS8966 195.69.145.89 announce rs-savvis
+export:       to AS13703 208.173.59.50 announce ANY
+export:       to AS40093 208.173.157.34 announce ANY
+export:       to AS15308 64.242.232.250 announce {0.0.0.0/0}
+export:       to AS14361 209.160.62.174 announce ANY
+export:       to AS6428 216.91.36.210 announce ANY
+export:       to AS23184 24.139.25.126 announce ANY
+export:       to AS40099 64.242.171.22 announce ANY
+export:       to AS32720 208.173.129.126 announce ANY
+export:       to AS26163 208.175.194.18 announce ANY
+export:       to AS35994 208.172.112.2 announce ANY
+export:       to AS31923 208.173.116.202 announce ANY
+export:       to AS40818 208.172.108.22 announce ANY
+export:       to AS22020 206.24.218.114 announce AS-SAVVIS-TRANSIT
+export:       to AS1273 208.173.158.10 announce ANY
+export:       to AS32580 208.175.168.202 announce ANY
+export:       to AS31926 208.175.169.122 announce {0.0.0.0/0}
+export:       to AS4250 208.173.180.30 announce ANY
+export:       to AS17348 208.173.18.234 announce ANY
+export:       to AS7738 208.173.90.90 announce ANY
+export:       to AS8100 208.144.187.66 announce ANY
+export:       to AS4181 208.172.13.198 announce ANY
+export:       to AS293 206.24.240.202 announce AS-SAVVIS-TRANSIT
+export:       to AS19452 208.173.37.134 announce ANY
+export:       to AS27473 208.172.135.2 announce ANY
+export:       to AS11608 208.173.50.54 announce ANY
+export:       to AS40170 208.172.163.186 announce {0.0.0.0/0}
+export:       to AS46562 216.89.82.78 announce ANY
+export:       to AS10594 208.172.91.10 announce ANY
+export:       to AS30480 206.24.233.2 announce rs-savvis
+export:       to AS23265 216.89.83.106 announce ANY
+export:       to AS15247 216.89.83.114 announce ANY
+export:       to AS5564 206.24.169.118 announce ANY
+export:       to AS15249 208.174.127.26 announce ANY
+export:       to AS5639 190.58.140.253 announce ANY
+export:       to AS19024 208.173.180.134 announce ANY
+export:       to AS13577 216.89.79.170 announce ANY
+export:       to AS21597 208.174.193.150 announce ANY
+export:       to AS19029 208.173.53.130 announce ANY
+export:       to AS30121 206.24.240.134 announce ANY
+export:       to AS18800 206.24.202.98 announce {0.0.0.0/0}
+export:       to AS65222 216.90.108.10 announce ANY
+export:       to AS2730 208.172.234.22 announce ANY
+export:       to AS26821 208.173.90.38 announce ANY
+export:       to AS36444 64.243.182.110 announce ANY
+export:       to AS19461 208.173.55.2 announce ANY
+export:       to AS25950 64.243.204.38 announce {0.0.0.0/0}
+export:       to AS6440 205.149.7.1 announce ANY
+export:       to AS23342 216.89.83.162 announce ANY
+export:       to AS27487 208.175.97.178 announce {0.0.0.0/0}
+export:       to AS32164 208.172.236.14 announce ANY
+export:       to AS23271 208.175.51.134 announce {0.0.0.0/0}
+export:       to AS30490 206.155.32.22 announce ANY
+export:       to AS20940 208.173.52.34 announce ANY
+export:       to AS21816 208.81.87.10 announce ANY
+export:       to AS6447 128.223.51.103 announce ANY
+export:       to AS13725 208.170.5.182 announce {0.0.0.0/0}
+export:       to AS40188 216.89.82.158 announce ANY
+export:       to AS30568 208.173.180.26 announce ANY
+export:       to AS13582 204.70.151.198 announce rs-savvis
+export:       to AS15189 208.173.159.18 announce ANY
+export:       to AS53430 208.170.5.206 announce ANY
+export:       to AS1290 216.219.73.78 announce ANY
+export:       to AS46215 216.19.160.68 announce ANY
+export:       to AS32748 208.173.176.218 announce ANY
+export:       to AS16566 208.172.41.82 announce ANY
+export:       to AS1299 208.173.52.122 announce AS-SAVVIS-TRANSIT
+export:       to AS27560 208.175.15.242 announce rs-savvis
+export:       to AS11622 208.174.110.2 announce ANY
+export:       to AS33112 208.170.0.74 announce ANY
+export:       to AS36529 208.173.176.206 announce ANY
+export:       to AS19617 166.63.154.154 announce rs-savvis
+export:       to AS3549 64.215.195.145 announce rs-savvis
+export:       to AS46723 208.171.192.2 announce {0.0.0.0/0}
+export:       to AS32244 206.24.225.226 announce ANY
+export:       to AS6450 216.88.34.182 announce ANY
+export:       to AS5650 74.40.7.66 announce ANY
+export:       to AS40193 206.155.32.14 announce ANY
+export:       to AS6453 208.173.129.30 announce AS-SAVVIS-TRANSIT
+export:       to AS46584 216.89.83.46 announce ANY
+export:       to AS10689 208.173.180.58 announce ANY
+export:       to AS31377 208.172.51.170 announce {0.0.0.0/0}
+export:       to AS29748 208.173.10.250 announce ANY
+export:       to AS14395 208.170.17.98 announce rs-savvis
+export:       to AS4788 208.172.38.50 announce ANY
+export:       to AS7907 208.174.194.62 announce ANY
+export:       to AS33556 208.170.0.38 announce ANY
+export:       to AS30142 208.173.10.210 announce ANY
+export:       to AS26198 208.175.169.134 announce ANY
+export:       to AS9002 208.173.129.38 announce AS-SAVVIS-TRANSIT
+export:       to AS46085 209.144.128.102 announce {0.0.0.0/0}
+export:       to AS4282 204.71.39.10 announce {0.0.0.0/0}
+export:       to AS8132 208.172.113.234 announce ANY
+export:       to AS32322 208.172.21.70 announce rs-savvis
+export:       to AS2828 67.111.23.181 announce AS-SAVVIS-TRANSIT
+export:       to AS20385 216.88.196.131 announce rs-savvis
+export:       to AS2686 195.69.144.37 announce rs-savvis
+export:       to AS6461 208.173.180.38 announce AS-SAVVIS-TRANSIT
+export:       to AS4930 208.144.187.67 announce ANY
+export:       to AS22561 208.172.216.126 announce ANY
+export:       to AS32257 208.173.68.110 announce ANY
+export:       to AS6539 208.173.176.210 announce ANY
+export:       to AS19121 64.242.127.38 announce {0.0.0.0/0}
+export:       to AS13743 208.173.162.138 announce {0.0.0.0/0}
+export:       to AS12006 204.70.147.234 announce ANY
+export:       to AS5668 69.29.186.2 announce ANY
+export:       to AS46302 64.243.225.26 announce ANY
+export:       to AS32761 208.173.130.106 announce rs-savvis
+export:       to AS32837 208.170.25.126 announce rs-savvis
+export:       to AS33569 64.240.98.6 announce ANY
+export:       to AS10269 200.32.192.149 announce ANY
+export:       to AS10910 216.89.77.22 announce ANY
+export:       to AS22137 208.173.3.170 announce AS-SAVVIS-TRANSIT
+export:       to AS10911 208.173.173.14 announce ANY
+export:       to AS4509 64.243.47.110 announce ANY
+export:       to AS10912 208.174.196.38 announce ANY
+export:       to AS10913 208.173.159.2 announce ANY
+export:       to AS14985 64.243.225.50 announce ANY
+export:       to AS4293 216.89.108.230 announce rs-savvis
+export:       to AS10844 208.175.101.50 announce AS-SAVVIS-TRANSIT
+export:       to AS10845 208.173.57.6 announce ANY
+export:       to AS7342 195.69.145.232 announce ANY
+export:       to AS22712 208.173.3.34 announce rs-savvis
+export:       to AS8075 208.173.50.86 announce ANY
+export:       to AS11579 64.243.225.122 announce rs-savvis
+export:       to AS29761 216.89.83.58 announce ANY
+export:       to AS25986 208.81.87.14 announce {0.0.0.0/0}
+export:       to AS7349 208.174.125.110 announce ANY
+export:       to AS4943 208.172.129.10 announce ANY
+export:       to AS21844 209.85.2.241 announce ANY
+export:       to AS23376 208.170.14.214 announce ANY
+export:       to AS30666 204.70.151.182 announce ANY
+export:       to AS7922 208.172.41.162 announce AS-SAVVIS-TRANSIT
+export:       to AS12956 213.140.32.154 announce AS-SAVVIS-TRANSIT
+export:       to AS32770 208.173.162.182 announce {0.0.0.0/0}
+export:       to AS35176 208.171.171.34 announce ANY
+export:       to AS19066 208.175.10.98 announce ANY
+export:       to AS65400 146.242.128.226 announce ANY
+export:       to AS32774 208.174.194.46 announce ANY
+export:       to AS53463 208.173.56.194 announce ANY
+export:       to AS7784 208.173.50.246 announce ANY
+export:       to AS19710 206.155.32.10 announce {0.0.0.0/0}
+export:       to AS2911 206.24.239.30 announce ANY
+export:       to AS14990 208.172.230.26 announce ANY
+export:       to AS2914 195.69.144.36 announce ANY
+export:       to AS8220 80.81.192.61 announce ANY
+export:       to AS30094 208.173.50.202 announce ANY
+export:       to AS40430 208.144.187.10 announce ANY
+export:       to AS558 208.173.57.58 announce ANY
+export:       to AS18915 216.89.83.42 announce ANY
+export:       to AS30097 208.174.194.2 announce ANY
+export:       to AS26792 216.89.83.110 announce ANY
+export:       to AS22653 208.173.59.62 announce ANY
+export:       to AS26799 12.30.238.37 announce ANY
+export:       to AS25700 208.172.81.134 announce ANY
+export:       to AS26503 208.173.118.2 announce rs-savvis
+export:       to AS11150 208.172.164.202 announce {0.0.0.0/0}
+export:       to AS16810 208.173.176.10 announce ANY
+export:       to AS26435 208.173.79.10 announce {0.0.0.0/0}
+export:       to AS13768 208.173.50.6 announce ANY
+export:       to AS701 63.137.84.18 announce AS-SAVVIS-TRANSIT
+export:       to AS702 158.43.0.181 announce AS-SAVVIS-TRANSIT
+export:       to AS36700 216.89.82.122 announce ANY
+export:       to AS32857 166.63.148.10 announce {0.0.0.0/0}
+export:       to AS6126 208.174.14.106 announce ANY
+export:       to AS6128 65.19.101.25 announce ANY
+export:       to AS13407 64.69.100.142 announce ANY
+export:       to AS7796 206.155.32.6 announce ANY
+export:       to AS36563 208.172.135.6 announce ANY
+export:       to AS2924 209.44.21.202 announce ANY
+remarks:      +----------------------------------------------------------
+remarks:      | NOTE - Filtering on /24 boundary is applied - we do not
+remarks:      |    reannounce any route more specific than a /24.
+remarks:      |
+remarks:      | NOTE - please see savvis-rr.savvis.net for further documentation
+remarks:      +----------------------------------------------------------
+remarks:      | Community Definition -- Local Preference/No-Export
+remarks:      |
+remarks:      | Local-preference control for customer links (to be set by customer)
+remarks:      |
+remarks:      | By default customer routes are assigned a
+remarks:      | local preferences of 100
+remarks:      |
+remarks:      | 3561:70        Set local preference 70
+remarks:      | 3561:80        Set local preference 80
+remarks:      | 3561:90        Set local preference 90
+remarks:      | no-export Set do not export beyond AS3561
+remarks:      +----------------------------------------------------------
+remarks:      | Community Definition -- (Suppression) Prepend/Do not announce
+remarks:      | Communities to control traffic (to be set by customer)
+remarks:      |
+remarks:      | Community values accepted by SAVVIS to affect
+remarks:      | traffic flows off-net.
+remarks:      | Suppression and Prepend community values are defined
+remarks:      | by 3561:30PPN, whereas PP is a assigned peer-number and
+remarks:      | the suppression or prepend N value is prescribed
+remarks:      | by the following table
+remarks:      |
+remarks:      | N Value            Meaning
+remarks:      | ----------------------------------
+remarks:      | 0                  Do not export
+remarks:      | 1                  Prepend once
+remarks:      | 2                  Prepend twice
+remarks:      | 3                  Prepend thrice
+remarks:      | 9                  Announce-only
+remarks:      |
+remarks:      | * Please note, the only valid N value for
+remarks:      | * all peers (PP code 00) is 0 (do not export)
+remarks:      |
+remarks:      | 3561:3002[1-3]  Prepend 1-3 times to Sprint (AS1239)
+remarks:      | 3561:30029      Announce only to Sprint (AS1239)
+remarks:      | 3561:30020      Do not announce to Sprint (AS1239)
+remarks:      |
+remarks:      | 3561:3003[1-3]  Prepend 1-3 times to TINET (AS3257)
+remarks:      | 3561:30039      Announce only to TINET (AS3257)
+remarks:      | 3561:30030      Do not announce to TINET (AS3257)
+remarks:      |
+remarks:      | 3561:3003[1-3]  Prepend 1-3 times to Tiscali (AS3257)
+remarks:      | 3561:30039      Announce only to Tiscali (AS3257)
+remarks:      | 3561:30030      Do not announce to Tiscali (AS3257)
+remarks:      |
+remarks:      | 3561:3003[1-3]  Prepend 1-3 times to Tiscali-TINET (AS3257)
+remarks:      | 3561:30039      Announce only to Tiscali-TINET (AS3257)
+remarks:      | 3561:30030      Do not announce to Tiscali-TINET (AS3257)
+remarks:      |
+remarks:      | 3561:3003[1-3]  Prepend 1-3 times to Tiscali/TINET (AS3257)
+remarks:      | 3561:30039      Announce only to Tiscali/TINET (AS3257)
+remarks:      | 3561:30030      Do not announce to Tiscali/TINET (AS3257)
+remarks:      |
+remarks:      | 3561:3004[1-3]  Prepend 1-3 times to Qwest (AS209)
+remarks:      | 3561:30049      Announce only to Qwest (AS209)
+remarks:      | 3561:30040      Do not announce to Qwest (AS209)
+remarks:      |
+remarks:      | 3561:3004[1-3]  Prepend 1-3 times to Qwest - LINX pub-exch. (AS209)
+remarks:      | 3561:30049      Announce only to Qwest - LINX pub-exch. (AS209)
+remarks:      | 3561:30040      Do not announce to Qwest - LINX pub-exch. (AS209)
+remarks:      |
+remarks:      | 3561:3006[1-3]  Prepend 1-3 times to Verio/NTT (AS2914)
+remarks:      | 3561:30069      Announce only to Verio/NTT (AS2914)
+remarks:      | 3561:30060      Do not announce to Verio/NTT (AS2914)
+remarks:      |
+remarks:      | 3561:3007[1-3]  Prepend 1-3 times to Level 3 (AS3356)
+remarks:      | 3561:30079      Announce only to Level 3 (AS3356)
+remarks:      | 3561:30070      Do not announce to Level 3 (AS3356)
+remarks:      |
+remarks:      | 3561:3008[1-3]  Prepend 1-3 times to Global Crossing (AS3549)
+remarks:      | 3561:30089      Announce only to Global Crossing (AS3549)
+remarks:      | 3561:30080      Do not announce to Global Crossing (AS3549)
+remarks:      |
+remarks:      | 3561:3009[1-3]  Prepend 1-3 times to France Telecom (AS5511)
+remarks:      | 3561:30099      Announce only to France Telecom (AS5511)
+remarks:      | 3561:30090      Do not announce to France Telecom (AS5511)
+remarks:      |
+remarks:      | 3561:3011[1-3]  Prepend 1-3 times to Deutsche Telekom AG (AS3320)
+remarks:      | 3561:30119      Announce only to Deutsche Telekom AG (AS3320)
+remarks:      | 3561:30110      Do not announce to Deutsche Telekom AG (AS3320)
+remarks:      |
+remarks:      | 3561:3012[1-3]  Prepend 1-3 times to XO Communications (AS2828)
+remarks:      | 3561:30129      Announce only to XO Communications (AS2828)
+remarks:      | 3561:30120      Do not announce to XO Communications (AS2828)
+remarks:      |
+remarks:      | 3561:3013[1-3]  Prepend 1-3 times to AboveNet (AS6461)
+remarks:      | 3561:30139      Announce only to AboveNet (AS6461)
+remarks:      | 3561:30130      Do not announce to AboveNet (AS6461)
+remarks:      |
+remarks:      | 3561:3013[1-3]  Prepend 1-3 times to AboveNet/MFN (AS6461)
+remarks:      | 3561:30139      Announce only to AboveNet/MFN (AS6461)
+remarks:      | 3561:30130      Do not announce to AboveNet/MFN (AS6461)
+remarks:      |
+remarks:      | 3561:3014[1-3]  Prepend 1-3 times to VerizonBusiness (AS701)
+remarks:      | 3561:30149      Announce only to VerizonBusiness (AS701)
+remarks:      | 3561:30140      Do not announce to VerizonBusiness (AS701)
+remarks:      |
+remarks:      | 3561:3015[1-3]  Prepend 1-3 times to AT&T (AS7018)
+remarks:      | 3561:30159      Announce only to AT&T (AS7018)
+remarks:      | 3561:30150      Do not announce to AT&T (AS7018)
+remarks:      |
+remarks:      | 3561:3018[1-3]  Prepend 1-3 times to Cogent (AS174)
+remarks:      | 3561:30189      Announce only to Cogent (AS174)
+remarks:      | 3561:30180      Do not announce to Cogent (AS174)
+remarks:      |
+remarks:      | 3561:3021[1-3]  Prepend 1-3 times to ATDN (AS1668)
+remarks:      | 3561:30219      Announce only to ATDN (AS1668)
+remarks:      | 3561:30210      Do not announce to ATDN (AS1668)
+remarks:      |
+remarks:      | 3561:3030[1-3]  Prepend 1-3 times to Teleglobe (AS6453)
+remarks:      | 3561:30309      Announce only to Teleglobe (AS6453)
+remarks:      | 3561:30300      Do not announce to Teleglobe (AS6453)
+remarks:      |
+remarks:      | 3561:3041[1-3]  Prepend 1-3 times to Colt (AS8220)
+remarks:      | 3561:30419      Announce only to Colt (AS8220)
+remarks:      | 3561:30410      Do not announce to Colt (AS8220)
+remarks:      |
+remarks:      | 3561:3044[1-3]  Prepend 1-3 times to UUNet-EU (AS702)
+remarks:      | 3561:30449      Announce only to UUNet-EU (AS702)
+remarks:      | 3561:30440      Do not announce to UUNet-EU (AS702)
+remarks:      |
+remarks:      | 3561:3045[1-3]  Prepend 1-3 times to Telecom Italia (AS6762)
+remarks:      | 3561:30459      Announce only to Telecom Italia (AS6762)
+remarks:      | 3561:30450      Do not announce to Telecom Italia (AS6762)
+remarks:      |
+remarks:      | 3561:3046[1-3]  Prepend 1-3 times to Telia (AS1299)
+remarks:      | 3561:30469      Announce only to Telia (AS1299)
+remarks:      | 3561:30460      Do not announce to Telia (AS1299)
+remarks:      |
+remarks:      | 3561:3047[1-3]  Prepend 1-3 times to KPN (AS286)
+remarks:      | 3561:30479      Announce only to KPN (AS286)
+remarks:      | 3561:30470      Do not announce to KPN (AS286)
+remarks:      |
+remarks:      | 3561:3048[1-3]  Prepend 1-3 times to Cox Communications Inc. (AS22773)
+remarks:      | 3561:30489      Announce only to Cox Communications Inc. (AS22773)
+remarks:      | 3561:30480      Do not announce to Cox Communications Inc. (AS22773)
+remarks:      |
+remarks:      | 3561:3049[1-3]  Prepend 1-3 times to Telefonica (AS12956)
+remarks:      | 3561:30499      Announce only to Telefonica (AS12956)
+remarks:      | 3561:30490      Do not announce to Telefonica (AS12956)
+remarks:      |
+remarks:      | 3561:3049[1-3]  Prepend 1-3 times to Telefonical (AS12956)
+remarks:      | 3561:30499      Announce only to Telefonical (AS12956)
+remarks:      | 3561:30490      Do not announce to Telefonical (AS12956)
+remarks:      |
+remarks:      | 3561:3050[1-3]  Prepend 1-3 times to AT&T EMEA (AS2686)
+remarks:      | 3561:30509      Announce only to AT&T EMEA (AS2686)
+remarks:      | 3561:30500      Do not announce to AT&T EMEA (AS2686)
+remarks:      |
+remarks:      | 3561:3053[1-3]  Prepend 1-3 times to Comcast (AS7922)
+remarks:      | 3561:30539      Announce only to Comcast (AS7922)
+remarks:      | 3561:30530      Do not announce to Comcast (AS7922)
+remarks:      |
+remarks:      +----------------------------------------------------------
+remarks:      |   Community Definition -- BLACKHOLE/DDOS COMMUNITY STRING
+remarks:      |
+remarks:      |   For customers that have a host or block under a
+remarks:      |   DDoS, the affected host/block can be advertised
+remarks:      |   to AS3561 with community string 3561:666.
+remarks:      |   This will cause all traffic to that host to be
+remarks:      |   blackholed at the core of the network.
+remarks:      |
+remarks:      |   This action will trigger emails sent to the
+remarks:      |   appropriate security and operations groups for
+remarks:      |   notification purposes.  After advertising the
+remarks:      |   prefix with 3561:666, the customer should open a
+remarks:      |   priority one incident report at
+remarks:      |   http://www.security.savvis.net (Report an Incident)
+remarks:      |   email: security@savvis.net
+remarks:      |
+remarks:      |   Once the attack has been mitigated, the customer
+remarks:      |   will be responsible for removing the prefix from
+remarks:      |   being advertised.
+remarks:      |
+remarks:      |
+remarks:      |   SAVVIS Communications will not be held responsible for
+remarks:      |   customers who errantly advertise prefixes with the
+remarks:      |   blackhole community string.
+remarks:      +----------------------------------------------------------
+remarks:      | Community Definition -- Route Origin
+remarks:      |
+remarks:      | Communities that define the origin/type of routes
+remarks:      | Defined by SAVVIS, not defined/accepted from customer
+remarks:      |
+remarks:      | Transit/Non-Transit definition
+remarks:      | 3561:1xxxx Customer routes
+remarks:      | 3561:2xxxx Peer routes
+remarks:      |
+remarks:      | Region definition
+remarks:      | 3561:x1xxx North America (U.S.A and Canada)
+remarks:      | 3561:x2xxx Europe
+remarks:      | 3561:x3xxx Asia (including Japan)
+remarks:      | 3561:x4xxx Australia
+remarks:      | 3561:x5xxx South America
+remarks:      | 3561:x6xxx Middle East
+remarks:      | 3561:x7xxx Available for future region definitions
+remarks:      | 3561:x8xxx Available for future region definitions
+remarks:      | 3561:x9xxx Available for future region definitions
+remarks:      | 3561:x0xxx Available for future region definitions
+remarks:      |
+remarks:      | Country defintion
+remarks:      | 3561:xxCCC (comunity format)
+remarks:      +----------------------------------------------------------
+remarks:      |        Country                       Country Abbr.      CCC Code
+remarks:      |        AFGHANISTAN                              AF      004
+remarks:      |        ALBANIA                                  AL      008
+remarks:      |        ALGERIA                                  DZ      012
+remarks:      |        AMERICAN SAMOA                           AS      016
+remarks:      |        ANDORRA                                  AD      020
+remarks:      |        ANGOLA                                   AO      024
+remarks:      |        ANGUILLA                                 AI      660
+remarks:      |        ANTARCTICA                               AQ      010
+remarks:      |        ANTIGUA AND BARBUDA                      AG      028
+remarks:      |        ARGENTINA                                AR      032
+remarks:      |        ARMENIA                                  AM      051
+remarks:      |        ARUBA                                    AW      533
+remarks:      |        AUSTRALIA                                AU      036
+remarks:      |        AUSTRIA                                  AT      040
+remarks:      |        AZERBAIJAN                               AZ      031
+remarks:      |        BAHAMAS                                  BS      044
+remarks:      |        BAHRAIN                                  BH      048
+remarks:      |        BANGLADESH                               BD      050
+remarks:      |        BARBADOS                                 BB      052
+remarks:      |        BELARUS                                  BY      112
+remarks:      |        BELGIUM                                  BE      056
+remarks:      |        BELIZE                                   BZ      084
+remarks:      |        BENIN                                    BJ      204
+remarks:      |        BERMUDA                                  BM      060
+remarks:      |        BHUTAN                                   BT      064
+remarks:      |        BOLIVIA                                  BO      068
+remarks:      |        BOSNIA AND HERZEGOWINA                   BA      070
+remarks:      |        BOTSWANA                                 BW      072
+remarks:      |        BOUVET ISLAND                            BV      074
+remarks:      |        BRAZIL                                   BR      076
+remarks:      |        BRITISH INDIAN OCEAN TERRITORY           IO      086
+remarks:      |        BRUNEI DARUSSALAM                        BN      096
+remarks:      |        BULGARIA                                 BG      100
+remarks:      |        BURKINA FASO                             BF      854
+remarks:      |        BURUNDI                                  BI      108
+remarks:      |        CAMBODIA                                 KH      116
+remarks:      |        CAMEROON                                 CM      120
+remarks:      |        CANADA                                   CA      124
+remarks:      |        CAPE VERDE                               CV      132
+remarks:      |        CAYMAN ISLANDS                           KY      136
+remarks:      |        CENTRAL AFRICAN REPUBLIC                 CF      140
+remarks:      |        CHAD                                     TD      148
+remarks:      |        CHILE                                    CL      152
+remarks:      |        CHINA                                    CN      156
+remarks:      |        CHRISTMAS ISLAND                         CX      162
+remarks:      |        COCOS (KEELING) ISLANDS                  CC      166
+remarks:      |        COLOMBIA                                 CO      170
+remarks:      |        COMOROS                                  KM      174
+remarks:      |        CONGO                                    CG      178
+remarks:      |        CONGO, THE DEMOCRATIC REPUBLIC OF THE    CD      180
+remarks:      |        COOK ISLANDS                             CK      184
+remarks:      |        COSTA RICA                               CR      188
+remarks:      |        COTE D'IVOIRE                            CI      384
+remarks:      |        CROATIA (local name: Hrvatska)           HR      191
+remarks:      |        CUBA                                     CU      192
+remarks:      |        CYPRUS                                   CY      196
+remarks:      |        CZECH REPUBLIC                           CZ      203
+remarks:      |        DENMARK                                  DK      208
+remarks:      |        DJIBOUTI                                 DJ      262
+remarks:      |        DOMINICA                                 DM      212
+remarks:      |        DOMINICAN REPUBLIC                       DO      214
+remarks:      |        EAST TIMOR                               TP      626
+remarks:      |        ECUADOR                                  EC      218
+remarks:      |        EGYPT                                    EG      818
+remarks:      |        EL SALVADOR                              SV      222
+remarks:      |        EQUATORIAL GUINEA                        GQ      226
+remarks:      |        ERITREA                                  ER      232
+remarks:      |        ESTONIA                                  EE      233
+remarks:      |        ETHIOPIA                                 ET      231
+remarks:      |        FALKLAND ISLANDS (MALVINAS)              FK      238
+remarks:      |        FAROE ISLANDS                            FO      234
+remarks:      |        FIJI                                     FJ      242
+remarks:      |        FINLAND                                  FI      246
+remarks:      |        FRANCE                                   FR      250
+remarks:      |        FRANCE, METROPOLITAN                     FX      249
+remarks:      |        FRENCH GUIANA                            GF      254
+remarks:      |        FRENCH POLYNESIA                         PF      258
+remarks:      |        FRENCH SOUTHERN TERRITORIES              TF      260
+remarks:      |        GABON                                    GA      266
+remarks:      |        GAMBIA                                   GM      270
+remarks:      |        GEORGIA                                  GE      268
+remarks:      |        GERMANY                                  DE      276
+remarks:      |        GHANA                                    GH      288
+remarks:      |        GIBRALTAR                                GI      292
+remarks:      |        GREECE                                   GR      300
+remarks:      |        GREENLAND                                GL      304
+remarks:      |        GRENADA                                  GD      308
+remarks:      |        GUADELOUPE                               GP      312
+remarks:      |        GUAM                                     GU      316
+remarks:      |        GUATEMALA                                GT      320
+remarks:      |        GUINEA                                   GN      324
+remarks:      |        GUINEA-BISSAU                            GW      624
+remarks:      |        GUYANA                                   GY      328
+remarks:      |        HAITI                                    HT      332
+remarks:      |        HEARD AND MC DONALD ISLANDS              HM      334
+remarks:      |        HOLY SEE (VATICAN CITY STATE)            VA      336
+remarks:      |        HONDURAS                                 HN      340
+remarks:      |        HONG KONG                                HK      344
+remarks:      |        HUNGARY                                  HU      348
+remarks:      |        ICELAND                                  IS      352
+remarks:      |        INDIA                                    IN      356
+remarks:      |        INDONESIA                                ID      360
+remarks:      |        IRAN (ISLAMIC REPUBLIC OF)               IR      364
+remarks:      |        IRAQ                                     IQ      368
+remarks:      |        IRELAND                                  IE      372
+remarks:      |        ISRAEL                                   IL      376
+remarks:      |        ITALY                                    IT      380
+remarks:      |        JAMAICA                                  JM      388
+remarks:      |        JAPAN                                    JP      392
+remarks:      |        JORDAN                                   JO      400
+remarks:      |        KAZAKHSTAN                               KZ      398
+remarks:      |        KENYA                                    KE      404
+remarks:      |        KIRIBATI                                 KI      296
+remarks:      |        KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF   KP      408
+remarks:      |        KOREA, REPUBLIC OF                       KR      410
+remarks:      |        KUWAIT                                   KW      414
+remarks:      |        KYRGYZSTAN                               KG      417
+remarks:      |        LAO PEOPLE'S DEMOCRATIC REPUBLIC         LA      418
+remarks:      |        LATVIA                                   LV      428
+remarks:      |        LEBANON                                  LB      422
+remarks:      |        LESOTHO                                  LS      426
+remarks:      |        LIBERIA                                  LR      430
+remarks:      |        LIBYAN ARAB JAMAHIRIYA                   LY      434
+remarks:      |        LIECHTENSTEIN                            LI      438
+remarks:      |        LITHUANIA                                LT      440
+remarks:      |        LUXEMBOURG                               LU      442
+remarks:      |        MACAU                                    MO      446
+remarks:      |        MACEDONIA, FORMER YUGOSLAV REPUBLIC OF   MK      807
+remarks:      |        MADAGASCAR                               MG      450
+remarks:      |        MALAWI                                   MW      454
+remarks:      |        MALAYSIA                                 MY      458
+remarks:      |        MALDIVES                                 MV      462
+remarks:      |        MALI                                     ML      466
+remarks:      |        MALTA                                    MT      470
+remarks:      |        MARSHALL ISLANDS                         MH      584
+remarks:      |        MARTINIQUE                               MQ      474
+remarks:      |        MAURITANIA                               MR      478
+remarks:      |        MAURITIUS                                MU      480
+remarks:      |        MAYOTTE                                  YT      175
+remarks:      |        MEXICO                                   MX      484
+remarks:      |        MICRONESIA, FEDERATED STATES OF          FM      583
+remarks:      |        MOLDOVA, REPUBLIC OF                     MD      498
+remarks:      |        MONACO                                   MC      492
+remarks:      |        MONGOLIA                                 MN      496
+remarks:      |        MONTSERRAT                               MS      500
+remarks:      |        MOROCCO                                  MA      504
+remarks:      |        MOZAMBIQUE                               MZ      508
+remarks:      |        MYANMAR                                  MM      104
+remarks:      |        NAMIBIA                                  NA      516
+remarks:      |        NAURU                                    NR      520
+remarks:      |        NEPAL                                    NP      524
+remarks:      |        NETHERLANDS                              NL      528
+remarks:      |        NETHERLANDS ANTILLES                     AN      530
+remarks:      |        NEW CALEDONIA                            NC      540
+remarks:      |        NEW ZEALAND                              NZ      554
+remarks:      |        NICARAGUA                                NI      558
+remarks:      |        NIGER                                    NE      562
+remarks:      |        NIGERIA                                  NG      566
+remarks:      |        NIUE                                     NU      570
+remarks:      |        NORFOLK ISLAND                           NF      574
+remarks:      |        NORTHERN MARIANA ISLANDS                 MP      580
+remarks:      |        NORWAY                                   NO      578
+remarks:      |        OMAN                                     OM      512
+remarks:      |        PAKISTAN                                 PK      586
+remarks:      |        PALAU                                    PW      585
+remarks:      |        PALESTINIAN TERRITORY, OCCUPIED          PS      275
+remarks:      |        PANAMA                                   PA      591
+remarks:      |        PAPUA NEW GUINEA                         PG      598
+remarks:      |        PARAGUAY                                 PY      600
+remarks:      |        PERU                                     PE      604
+remarks:      |        PHILIPPINES                              PH      608
+remarks:      |        PITCAIRN                                 PN      612
+remarks:      |        POLAND                                   PL      616
+remarks:      |        PORTUGAL                                 PT      620
+remarks:      |        PUERTO RICO                              PR      630
+remarks:      |        QATAR                                    QA      634
+remarks:      |        REUNION                                  RE      638
+remarks:      |        ROMANIA                                  RO      642
+remarks:      |        RUSSIAN FEDERATION                       RU      643
+remarks:      |        RWANDA                                   RW      646
+remarks:      |        SAINT KITTS AND NEVIS                    KN      659
+remarks:      |        SAINT LUCIA                              LC      662
+remarks:      |        SAINT VINCENT AND THE GRENADINES         VC      670
+remarks:      |        SAMOA                                    WS      882
+remarks:      |        SAN MARINO                               SM      674
+remarks:      |        SAO TOME AND PRINCIPE                    ST      678
+remarks:      |        SAUDI ARABIA                             SA      682
+remarks:      |        SENEGAL                                  SN      686
+remarks:      |        SEYCHELLES                               SC      690
+remarks:      |        SIERRA LEONE                             SL      694
+remarks:      |        SINGAPORE                                SG      702
+remarks:      |        SLOVAKIA (Slovak Republic)               SK      703
+remarks:      |        SLOVENIA                                 SI      705
+remarks:      |        SOLOMON ISLANDS                          SB      090
+remarks:      |        SOMALIA                                  SO      706
+remarks:      |        SOUTH AFRICA                             ZA      710
+remarks:      |        SOUTH GEORGIA & SOUTH SANDWICH ISLANDS   GS      239
+remarks:      |        SPAIN                                    ES      724
+remarks:      |        SRI LANKA                                LK      144
+remarks:      |        ST. HELENA                               SH      654
+remarks:      |        ST. PIERRE AND MIQUELON                  PM      666
+remarks:      |        SUDAN                                    SD      736
+remarks:      |        SURINAME                                 SR      740
+remarks:      |        SVALBARD AND JAN MAYEN ISLANDS           SJ      744
+remarks:      |        SWAZILAND                                SZ      748
+remarks:      |        SWEDEN                                   SE      752
+remarks:      |        SWITZERLAND                              CH      756
+remarks:      |        SYRIAN ARAB REPUBLIC                     SY      760
+remarks:      |        TAIWAN, PROVINCE OF CHINA                TW      158
+remarks:      |        TAJIKISTAN                               TJ      762
+remarks:      |        TANZANIA, UNITED REPUBLIC OF             TZ      834
+remarks:      |        THAILAND                                 TH      764
+remarks:      |        TOGO                                     TG      768
+remarks:      |        TOKELAU                                  TK      772
+remarks:      |        TONGA                                    TO      776
+remarks:      |        TRINIDAD AND TOBAGO                      TT      780
+remarks:      |        TUNISIA                                  TN      788
+remarks:      |        TURKEY                                   TR      792
+remarks:      |        TURKMENISTAN                             TM      795
+remarks:      |        TURKS AND CAICOS ISLANDS                 TC      796
+remarks:      |        TUVALU                                   TV      798
+remarks:      |        UGANDA                                   UG      800
+remarks:      |        UKRAINE                                  UA      804
+remarks:      |        UNITED ARAB EMIRATES                     AE      784
+remarks:      |        UNITED KINGDOM                           GB      826
+remarks:      |        UNITED STATES                            US      840
+remarks:      |        UNITED STATES MINOR OUTLYING ISLANDS     UM      581
+remarks:      |        URUGUAY                                  UY      858
+remarks:      |        UZBEKISTAN                               UZ      860
+remarks:      |        VANUATU                                  VU      548
+remarks:      |        VENEZUELA                                VE      862
+remarks:      |        VIET NAM                                 VN      704
+remarks:      |        VIRGIN ISLANDS (BRITISH)                 VG      092
+remarks:      |        VIRGIN ISLANDS (U.S.)                    VI      850
+remarks:      |        WALLIS AND FUTUNA ISLANDS                WF      876
+remarks:      |        WESTERN SAHARA                           EH      732
+remarks:      |        YEMEN                                    YE      887
+remarks:      |        YUGOSLAVIA                               YU      891
+remarks:      |        ZAMBIA                                   ZM      894
+remarks:      |        ZIMBABWE                                 ZW      716
+remarks:      |
+remarks:      |
+remarks:      | Examples
+remarks:      |
+remarks:      |    3561:11840   customer, North America, United States
+remarks:      |    3561:22380           peer, Europe, Italy
+remarks:      |
+remarks:      +----------------------------------------------------------
+admin-c:      RR-SAVVIS
+tech-c:       RR-SAVVIS
+notify:       savvis-rr@savvis.net
+mnt-by:       SAVVIS-BACKBONE
+changed:      savvis-rr@savvis.net 20110527
+source:       SAVVIS
+
+aut-num:        AS3561
+as-name:        SAVVIS-AS
+descr:          SAVVIS-AS3561
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         OTHER
+mnt-by:         RIPE-SAVVIS-MNT
+created:        2012-12-27T20:38:12Z
+last-modified:  2017-11-15T12:27:06Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

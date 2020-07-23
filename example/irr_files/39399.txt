@@ -1,0 +1,162 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS38912 - AS39935'
+
+as-block:       AS38912 - AS39935
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS39399'
+
+% Abuse contact for 'AS39399' is 'abuse@fenix-vt.net'
+
+aut-num:        AS39399
+as-name:        FENIXVT-AS
+remarks:        Opensvit (tm)
+org:            ORG-PFV1-RIPE
+remarks:
+remarks:        // KYIVSTAR
+import:         from AS15895 action pref=100; accept ANY
+export:         to AS15895 announce AS-FENIXVT
+remarks:        // DATAGROUP
+import:         from AS21219 action pref=100; accept ANY
+export:         to AS21219 announce AS-FENIXVT
+remarks:        // UARNET
+import:         from AS3255 action pref=100; accept ANY
+export:         to AS3255 announce AS-FENIXVT
+remarks:        // IXes and Peers
+remarks:        -----------------------------------------------------------
+remarks:        //GOOGLE-PEERING
+import:         from AS15169 action pref=85; accept AS-GOOGLE
+export:         to AS15169 announce AS-FENIXVT
+remarks:        //GIGANET
+import:         from AS59613 action pref=90; accept ANY
+export:         to AS59613 announce AS-FENIXVT
+remarks:        //UA-IX
+import:         from AS15645 action pref=90; accept AS-UAIX
+export:         to AS15645 announce AS-FENIXVT-UAIX
+remarks:        //Langate
+import:         from AS48006 action pref=85; accept AS48006
+export:         to AS48006 announce AS-FENIXVT
+remarks:        //DATA-IX
+import:         from AS50952 action pref=85; accept AS50952
+export:         to AS50952 announce AS-FENIXVT
+remarks:        //DTEL-IX
+import:         from AS31210 action pref=85; accept AS-DTEL-IX
+export:         to AS31210 announce AS-FENIXVT
+remarks:        //CTNET
+import:         from AS48117 action pref=80; accept AS48117
+export:         to AS48117 announce AS-FENIXVT
+remarks:        -----------------------------------------------------------
+remarks:        // Customers
+import:         from AS48665 action pref=80; accept AS48665
+export:         to AS48665 announce {0.0.0.0/0} AS-UAIX
+import:         from AS50005 action pref=80; accept AS50005
+export:         to AS50005 announce {0.0.0.0/0} AS-UAIX
+import:         from AS50211 action pref=80; accept AS-INTERTELCOM
+export:         to AS50211 announce {0.0.0.0/0} AS-UAIX
+import:         from AS50574 action pref=80; accept AS50574
+export:         to AS50574 announce {0.0.0.0/0} AS-UAIX
+import:         from AS197218 action pref=80; accept AS197218
+export:         to AS197218 announce {0.0.0.0/0} ANY
+import:         from AS51252 action pref=80; accept AS51252
+export:         to AS51252 announce {0.0.0.0/0} AS-UAIX
+import:         from AS59652 action pref=80; accept AS59652
+export:         to AS59652 announce {0.0.0.0/0} AS-UAIX
+import:         from AS21131 action pref=80; accept AS21131
+export:         to AS21131 announce {0.0.0.0/0} ANY
+remarks:        -----------------------------------------------------------
+remarks:        // UA-IX IPv6
+mp-import:      afi ipv6.unicast from AS15645 action pref=90; accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-FENIXVT-UAIX
+mp-import:      afi ipv6.unicast from AS21131 action pref=90; accept AS21131
+mp-export:      afi ipv6.unicast to AS21131 announce AS-FENIXVT-UAIX
+remarks:
+remarks:        -----------------------------------------------------------
+remarks:        Communities
+remarks:        -----------------------------------------------------------
+remarks:
+remarks:        1. Community advertised to customers:
+remarks:        ---------------------------------------
+remarks:        39399:0 -- AS39399 itself
+remarks:        39399:100 -- Downstreams
+remarks:        39399:200 -- Ukrainian peers
+remarks:        39399:500 -- Other peers
+remarks:
+remarks:        39399:x
+remarks:        Where "x" is ASN of our peer
+remarks:
+remarks:        2. Communities accepted from customers:
+remarks:        ---------------------------------------
+remarks:        Community Action
+remarks:        --------- ------
+remarks:        39399:200 -- DO NOT advertise to Ukrainian peers
+remarks:        39399:500 -- DO NOT advertise to others peers
+remarks:        39399:x -- DO NOT advertise to AS x
+remarks:        Where "x" is ASN of our peer
+remarks:        All communities different from listed above will be deleted
+remarks:
+remarks:
+admin-c:        TEVO-RIPE
+tech-c:         DMSH-RIPE
+remarks:
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         FENIXVT-MNT
+created:        2006-02-14T14:48:23Z
+last-modified:  2018-11-01T09:04:57Z
+source:         RIPE
+sponsoring-org: ORG-DL9-RIPE
+
+organisation:   ORG-PFV1-RIPE
+org-name:       Private Enterprise Firma Fenix VT
+org-type:       OTHER
+descr:          Private Enterprise Firma Fenix VT
+address:        Chernivtsi, Ukraine
+address:        114A/218, Nezalezhnosti ave.
+phone:          +38 0372 558341
+abuse-c:        AR24457-RIPE
+admin-c:        TEVO-RIPE
+tech-c:         DMSH-RIPE
+mnt-ref:        FENIXVT-MNT
+mnt-by:         FENIXVT-MNT
+created:        2006-02-14T13:58:01Z
+last-modified:  2018-06-14T12:21:33Z
+source:         RIPE # Filtered
+
+person:         Mr. Dmytro Sharaburiak
+address:        58029, Ukraine, Chernivtsi, Nezal ave. 114a/218
+phone:          +380662148648
+nic-hdl:        DMSH-RIPE
+mnt-by:         FENIXVT-MNT
+created:        2014-02-27T12:31:17Z
+last-modified:  2017-04-07T07:11:27Z
+source:         RIPE # Filtered
+
+person:         Tetyana Voloshynyuk
+address:        Ukraine, Chernivtsi
+address:        114A/218, Nezalezhnosti ave.
+phone:          +38 0372 558341
+nic-hdl:        TEVO-RIPE
+org:            ORG-PFV1-RIPE
+mnt-by:         FENIXVT-MNT
+created:        2010-05-12T12:46:27Z
+last-modified:  2010-05-12T12:46:27Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

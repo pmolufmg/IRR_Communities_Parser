@@ -1,0 +1,212 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12288 - AS12454'
+
+as-block:       AS12288 - AS12454
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12294'
+
+% Abuse contact for 'AS12294' is 'noc@mts.com.ua'
+
+aut-num:        AS12294
+as-name:        TSYSTEMS
+descr:          Kiev, Ukraine
+descr:          ---
+descr:          Uplinks
+descr:          ---
+import:         from AS8359     action pref=40; accept ANY
+export:         to   AS8359      announce AS-TSUA
+descr:          ---
+descr:          IXes
+descr:          ---
+import:         from AS15645       action pref=30; accept AS-UAIX
+export:         to   AS15645       announce AS-TSUAUA
+mp-import:      afi ipv6.unicast from AS15645   action pref=30; accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to   AS15645   announce AS12294:AS-V6
+descr:          ---
+descr:          Parities
+descr:          ---
+import:         from AS21219     action pref=20; accept AS-NEWLINE
+import:         from AS8788         action pref=20; accept AS-ADAM-UA
+import:         from AS24703         action pref=20; accept AS-UNITED
+import:         from AS15497         action pref=20; accept AS-COLOCALL
+import:         from AS13032         action pref=20; accept AS-UNIV
+import:         from AS13249         action pref=20; accept AS-ITS-CLIENTS
+import:         from AS43103     action pref=20; accept AS-ONETELECOM
+import:         from AS6876     action pref=20; accept AS-TENET-UA
+import:         from AS8813     action pref=20; accept AS-EUROCOM
+import:         from AS20850     action pref=20; accept AS-KV-VL-UA
+import:         from AS15595     action pref=20; accept AS-SKYLINE-TO-ODEX
+import:         from AS21011     action pref=20; accept AS21011:AS-UA-KIEV
+mp-import:      afi ipv6.unicast from AS21011   action pref=20; accept AS21011
+export:         to   AS21219     announce AS-TSUAUA
+export:         to   AS8788         announce AS-TSUAUA
+export:         to   AS24703         announce AS-TSUAUA
+export:         to   AS15497         announce AS-TSUAUA
+export:         to   AS13032         announce AS-TSUAUA
+export:         to   AS13249         announce AS-TSUAUA
+export:         to   AS43103     announce AS12294:AS-ODESSA
+export:         to   AS6876     announce AS12294:AS-ODESSA
+export:         to   AS8813     announce AS12294:AS-ODESSA
+export:         to   AS20850     announce AS-TSUAUA
+export:         to   AS15595     announce AS12294:AS-ODESSA
+export:         to   AS21011     announce AS-TSUAUA
+mp-export:      afi ipv6.unicast to AS21011   announce AS12294:AS-V6
+descr:          ---
+descr:          Customers
+descr:          ---
+import:         from AS29067 212.40.43.70   at 212.40.43.69 action pref=10; accept AS29067
+import:         from AS29067 212.40.35.30   at 212.40.35.29 action pref=10; accept AS29067
+import:         from AS34867 89.209.10.14   at 89.209.10.13   action pref=10; accept AS-COSMONOVA
+import:         from AS34867 89.209.11.34   at 89.209.11.33 action pref=10; accept AS-COSMONOVA
+import:         from AS34118 212.40.45.82   at 212.40.45.81   action pref=10; accept AS34118
+import:         from AS34118 212.40.45.122  at 212.40.45.121  action pref=10; accept AS34118
+import:         from AS12872      action pref=10; accept AS-MEGASTYLEUA
+import:         from AS24682      action pref=10; accept AS24682
+import:         from AS21488      action pref=10; accept AS-EMPLOT
+import:         from AS29253     action pref=10; accept AS29253
+import:         from AS35308         action pref=10; accept AS-LAMIS
+import:         from AS24962         action pref=10; accept AS-TSUKRAINE
+import:         from AS16327         action pref=10; accept AS16327
+import:         from AS31247         action pref=10; accept AS31247
+import:         from AS41375                                    action pref=10; accept AS41375
+import:         from AS15713                                    action pref=10; accept AS15713
+import:         from AS42546                                    action pref=10; accept AS-UOS
+import:         from AS41665     action pref=10; accept AS41665
+import:         from AS13279     action pref=10; accept AS13279
+import:         from AS29442     action pref=10; accept AS-AS-INETCOM
+import:         from AS20850     action pref=10; accept AS-VALOR
+import:         from AS15738     action pref=10; accept AS-EXPRESSUA
+import:         from AS42126     action pref=10; accept AS-TISA
+import:         from AS34046     action pref=10; accept AS-SHIELD
+import:         from AS25521     action pref=10; accept AS-IPNETUA
+import:         from AS12883     action pref=10; accept AS-UCOMLINE
+import:         from AS21379     action pref=10; accept AS-ISV
+import:         from AS16007     action pref=10; accept AS-KANCOM
+export:         to   AS29067 212.40.43.70   at 212.40.43.69   announce {0.0.0.0/0} AS-TSUA-PARITY
+export:         to   AS29067 212.40.35.30   at 212.40.35.29     announce {0.0.0.0/0} AS-TSUA-PARITY
+export:         to   AS34867 89.209.10.14   at 89.209.10.13   announce {0.0.0.0/0}
+export:         to   AS34867 89.209.11.34   at 89.209.11.34 announce AS-TSUA-PARITY
+export:         to   AS34118 212.40.45.82   at 212.40.45.81   announce AS-TSUA-PARITY
+export:         to   AS34118 212.40.45.122  at 212.40.45.121 announce {0.0.0.0/0}
+export:         to   AS12872      announce ANY
+export:         to   AS24682      announce ANY
+export:         to   AS21488     announce {0.0.0.0/0} ANY
+export:         to   AS29253     announce ANY
+export:         to   AS35308         announce AS-TSUA-PARITY
+export:         to   AS24962         announce AS-TSUA-PARITY
+export:         to   AS24962         announce {0.0.0.0/0} AS-TSUA-PARITY
+export:         to   AS16327         announce AS-TSUA-PARITY
+export:         to   AS31247         announce {0.0.0.0/0} AS-TSUA-PARITY
+export:         to   AS41375                                    announce {0.0.0.0/0} AS-TSUA-PARITY
+export:         to   AS15713         announce {0.0.0.0/0}
+export:         to   AS42546                                    announce {0.0.0.0/0} AS-TSUA-PARITY
+export:         to   AS41665     announce ANY
+export:         to   AS13279     announce ANY
+export:         to   AS29442     announce ANY
+export:         to   AS20850     announce ANY
+export:         to   AS15738     announce ANY
+export:         to   AS42126     announce ANY
+export:         to   AS34046     announce ANY
+export:         to   AS25521     announce ANY
+export:         to   AS12883     announce ANY
+export:         to   AS21379     announce ANY
+export:         to   AS16007     announce ANY
+remarks:        ---
+remarks:        Communities influencing customer's routes local-pref within AS12294.
+remarks:        All customer routes announced to AS12294 will receive the highest
+remarks:        local-pref possible by default.
+remarks:        12294:0  set the lowest local-pref possible
+remarks:        12294:1  set local-pref equal to parities local-pref
+remarks:        ---
+remarks:        Communities influencing customer's routes propagation:
+remarks:        12294:100 announce to all TSUA parities
+remarks:        12294:10X announce to all TSUA parities with X prepends, X<=3
+remarks:        12294:109 do not announce to all TSUA parities
+remarks:
+remarks:        12294:200 announce to UAIX internet exchange
+remarks:        12294:20X announce to UAIX internet exchange with X prepends, X<=3
+remarks:        12294:209 do not announce to UAIX internet exchange
+remarks:
+remarks:        12294:400       announce to all internet exchanges TSUA is connected to
+remarks:        12294:40X       announce to all internet exchanges TSUA is connected to with X prepends, X<=3
+remarks:        12294:409       do not announce to all internet exchanges TSUA is connected to
+remarks:
+remarks:        12294:500 announce to all TSUA customers
+remarks:        12294:50X announce to all TSUA customers with X prepends, X<=3
+remarks:
+remarks:        12294:600 announce to all TSUA uplinks
+remarks:        12294:60X announce to all TSUA uplinks with X prepends, X<=3
+remarks:        12294:609 do not announce to all TSUA uplinks
+remarks:        ---
+remarks:        We do NOT accept well known communities NO_EXPORT and NO_ADVERTISE (IANA) from our customers.
+remarks:        ---
+remarks:        We can provide our customers with BLACKHOLE functionality.
+remarks:        Additional BGP session need to be established for these purposes.
+remarks:        ---
+remarks:        For additional information, please contact Technological Systems NOC <noc@tsua.net>.
+remarks:        ---
+org:            ORG-UMC1-RIPE
+admin-c:        UMC-RIPE
+tech-c:         UMC-RIPE
+status:         ASSIGNED
+mnt-by:         UMC-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-09-18T16:37:57Z
+last-modified:  2017-11-15T09:16:40Z
+source:         RIPE # Filtered
+
+organisation:   ORG-UMC1-RIPE
+org-name:       PrJSC "VF UKRAINE"
+org-type:       LIR
+address:        15, Leiptsigska str.
+address:        01601
+address:        Kyiv
+address:        UKRAINE
+phone:          +380442300257
+fax-no:         +380501107990
+abuse-c:        AR17460-RIPE
+admin-c:        JAR-RIPE
+admin-c:        STK-RIPE
+admin-c:        VKH-RIPE
+mnt-ref:        UMC-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         UMC-MNT
+created:        2004-04-17T12:10:11Z
+last-modified:  2018-04-24T08:21:07Z
+source:         RIPE # Filtered
+
+role:           UMC NOC
+address:        Ukrainian Mobile Communications
+address:        49 Peremohy ave.
+address:        Kiev 03680
+address:        Ukraine
+fax-no:         +380 50 110 7990
+abuse-mailbox:  abuse@mts.com.ua
+admin-c:        JAR-RIPE
+tech-c:         JAR-RIPE
+tech-c:         STK-RIPE
+tech-c:         MVTY-RIPE
+nic-hdl:        UMC-RIPE
+mnt-by:         UMC-MNT
+created:        2003-01-09T14:55:12Z
+last-modified:  2018-01-24T08:14:54Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

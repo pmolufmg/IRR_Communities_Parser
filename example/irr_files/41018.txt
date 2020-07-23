@@ -1,0 +1,166 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS40960 - AS42381'
+
+as-block:       AS40960 - AS42381
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS41018'
+
+% Abuse contact for 'AS41018' is 'abuse@omnilance.com'
+
+aut-num:        AS41018
+as-name:        OMNILANCE
+descr:          http://omnilance.com
+remarks:        Cloud Technologies, Data Center Ukraine
+org:            ORG-OL148-RIPE
+remarks:        ---------------------------------------------------------------
+remarks:        *************** OMNILANCE IPv4 Routing Policy *****************
+remarks:        ---------------------------------------------------------------
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS-OMNILANCE
+import:         from AS3255 accept ANY
+export:         to AS3255 announce AS-OMNILANCE
+remarks:        ---------------------------------------------------
+remarks:        ******* Exchanges
+remarks:        ---------------------------------------------------
+import:         from AS59613 accept AS-UBNIX
+export:         to AS59613 announce AS-OMNILANCE
+import:         from AS44193 accept ANY
+export:         to AS44193 announce AS-OMNILANCE
+import:         from AS8695 accept AS-KS-IX
+export:         to AS8695 announce AS-OMNILANCE
+import:         from AS50952 accept AS-DATAIX
+export:         to AS50952 announce AS-OMNILANCE
+import:         from AS15645 accept AS-UAIX
+export:         to AS15645 announce AS-OMNILANCE
+remarks:        ---------------------------------------------------
+remarks:        ******* Peering
+remarks:        ---------------------------------------------------
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-OMNILANCE
+import:         from AS39512 accept AS39512
+export:         to AS39512 announce AS-OMNILANCE
+import:         from AS13335 accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-OMNILANCE
+import:         from AS15169 accept AS-GOOGLE
+export:         to AS15169 announce AS-OMNILANCE
+remarks:        ---------------------------------------------------------------
+remarks:        *************** OMNILANCE IPv6 Routing Policy *****************
+remarks:        ---------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS9002 accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-OMNILANCE-V6
+mp-import:      afi ipv6.unicast from AS3255 accept ANY
+mp-export:      afi ipv6.unicast to AS3255 announce AS-OMNILANCE-V6
+remarks:        ---------------------------------------------------
+remarks:        ******* Exchanges v6
+remarks:        ---------------------------------------------------
+mp-import:      afi ipv6.unicast from AS59613 accept AS-UBNIX-v6
+mp-export:      afi ipv6.unicast to AS59613 announce AS-OMNILANCE-V6
+mp-import:      afi ipv6.unicast from AS44193 accept ANY
+mp-export:      afi ipv6.unicast to AS44193 announce AS-OMNILANCE-V6
+mp-import:      afi ipv6.unicast from AS8695 accept AS-KS-IX-V6
+mp-export:      afi ipv6.unicast to AS8695 announce AS-OMNILANCE-V6
+mp-import:      afi ipv6.unicast from AS50952 accept AS-DATAIX
+mp-export:      afi ipv6.unicast to AS50952 announce AS-OMNILANCE-V6
+mp-import:      afi ipv6.unicast from AS15645 accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-OMNILANCE-V6
+remarks:        ---------------------------------------------------
+remarks:        ******* Peering v6
+remarks:        ---------------------------------------------------
+mp-import:      afi ipv6.unicast  from AS6939 accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-OMNILANCE-V6
+mp-import:      afi ipv6.unicast from AS39512 accept AS39512
+mp-export:      afi ipv6.unicast to AS39512 announce AS-OMNILANCE-V6
+mp-import:      afi ipv6.unicast from AS13335 accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS-OMNILANCE-V6
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 announce AS-OMNILANCE-V6
+remarks:        ---------------------------------------------------------------
+remarks:        *************** Information and url *****************
+remarks:        ---------------------------------------------------------------
+remarks:        Looking Glass http://lg.omnilance.com
+remarks:        Web Site http://omnilance.com
+remarks:        ---------------------------------------------------------------
+remarks:        Traffic management communities
+remarks:        0:666 - Blackhole community (/32 prefixes only)
+remarks:        ---------------------------------------------------------------
+admin-c:        OMNI77-RIPE
+tech-c:         OMNI77-RIPE
+status:         ASSIGNED
+mnt-by:         OMNILANCE-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2006-05-31T12:36:08Z
+last-modified:  2018-11-20T07:31:02Z
+source:         RIPE
+
+organisation:   ORG-OL148-RIPE
+org-name:       OMNILANCE LTD
+org-type:       LIR
+address:        Velika Morska str. 23, of. 28
+address:        54030
+address:        Mykolayiv
+address:        UKRAINE
+phone:          +380 44 593-74-78
+phone:          +380 512 76-68-78
+admin-c:        PRO-RIPE
+tech-c:         PRO-RIPE
+abuse-c:        AR34246-RIPE
+mnt-ref:        OMNILANCE-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         OMNILANCE-MNT
+created:        2015-11-12T12:13:55Z
+last-modified:  2017-08-06T07:15:03Z
+source:         RIPE # Filtered
+
+role:           OMNILANCE LLC Network Operations
+address:        OMNILANCE LLC
+address:        Ukraine
+address:        Kyiv
+address:        str. Bolshaya Morkaya 23, of.28
+phone:          +380445937478
+fax-no:         +380445937478
+remarks:        ----------------------------------------------------------
+remarks:        O | M | N | I | L | A | N | C | E
+remarks:        ----------------------------------------------------------
+remarks:        OMNILANCE LLC Network Operations is available 24 x 7
+remarks:        ----------------------------------------------------------
+remarks:        Points of contact for OMNILANCE LLC Network Operations
+remarks:        ----------------------------------------------------------
+remarks:        SPAM and Network security issues: abuse [at] omnilance.com
+remarks:        Routing and peering: noc [at] omnilance.com
+remarks:        Abuse: abuse [at] omnilance.com
+remarks:        Customer support: support-box [at] omnilance.com
+remarks:        Dealer service: partner [at] omnilance.com
+remarks:        ----------------------------------------------------------
+admin-c:        PRO-RIPE
+tech-c:         PRO-RIPE
+nic-hdl:        OMNI77-RIPE
+mnt-by:         OMNILANCE-MNT
+created:        2012-04-06T08:22:39Z
+last-modified:  2017-08-05T15:11:37Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@omnilance.com
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

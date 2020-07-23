@@ -1,0 +1,89 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS36281
+as-name:       XION-AS-NET
+descr:         XION LLC.
+admin-c:       DLA80-ARIN
+tech-c:        MPE70-ARIN
+import:        from AS13645  action pref = 100; accept AS13645 AND NOT {0.0.0.0/0}
+import:        from AS19962  action pref = 100; accept AS19962:AS-CUSTOMERS AND NOT {0.0.0.0/0}
+export:        to AS-ANY   announce AS-XION
+remarks:       ========================================================
+remarks:       Abuse reports to abuse@xion.com
+remarks:       ========================================================
+remarks:       - RFC1918 and other reserved networks and subnets are
+remarks:       not permitted.
+remarks:       - Advertisements with reserved ASes in the path
+remarks:       (ie 64512 - 65535) are not permitted.
+remarks:       - Advertisements are subject to route-flap dampening
+remarks:       according to the parameters documented in RIPE-229.
+remarks:       - Prefixes longer than /24 are not permitted. This
+remarks:       excludes prefixes tagged with the bgp community-id
+remarks:       of 36281:911 (blackhole). Prefixes tagged with the
+remarks:       blackhole bgp community-id, can be up to and include a
+remarks:       /32 in length.
+remarks:       - Advertisements containing the AS of a network with
+remarks:       which we have a non-customer peering relationship are
+remarks:       not permitted.
+remarks:       - Advertisements tagged with our own "internal use only"
+remarks:       communities will have all of their communities
+remarks:       stripped from them at ingress, and any communities
+remarks:       meant to affect localpref, prepending, etc are thus
+remarks:       ignored. Advertisements tagged with the well-known
+remarks:       communities of no-advertise, or no-export sub-confed
+remarks:       will also have all of their communities stripped
+remarks:       from them at ingress. However, advertisements with
+remarks:       the well-known community of no-export will be accepted
+remarks:       and honored.
+remarks:       - Prefixes not matching the per-peer import policy
+remarks:       as documented above are not permitted.
+remarks:       - A hard limit is sometimes placed on the number of
+remarks:       routes a peer is allowed to announce to us. This number
+remarks:       is based on their registered routes plus a bit of extra
+remarks:       overhead.
+remarks:       The following import actions are common to every
+remarks:       Host.net non-customer peering session:
+remarks:       - RFC1918 and other reserved networks and subnets are
+remarks:       not permitted.
+remarks:       - Advertisements with reserved ASes in the path
+remarks:       (ie 64512 - 65535) are not permitted.
+remarks:       - Advertisements are subject to route-flap dampening
+remarks:       according to the parameters documented in RIPE-229.
+remarks:       - Prefixes shorter longer than /27 are not permitted.
+remarks:       - Advertisements tagged with our own "internal use"
+remarks:       or "customer use" communities (as outlined below)
+remarks:       will have all of their communities stripped from them
+remarks:       at ingress. Advertisements tagged with the well-known
+remarks:       communities of no-advertise, or no-export-subconfed
+remarks:       will also have all of their communities stripped
+remarks:       from them at ingress. However, advertisements with
+remarks:       the well-known community of no-export will be accepted
+remarks:       and honored.
+remarks:       - MEDs are overwritten unless special arrangements
+remarks:       have been made.
+remarks:       - Peers who register their routes with meaningful
+remarks:       policies may have a prefix filter applied based on
+remarks:       this policy.
+remarks:       - Localpref is set to 200 or lower.
+remarks:       - A hard limit is placed on the number of routes a peer
+remarks:       is allowed to announce to us. This number is based
+remarks:       on a historical view of the number of routes they have
+remarks:       been advertising plus a bit of extra overhead.
+remarks:       The following export actions are common to every
+remarks:       Host.net peering session:
+remarks:       - RFC1918 and other reserved networks and subnets are
+remarks:       not announced.
+remarks:       - Advertisements with reserved ASes in the path
+remarks:       (ie 64512 - 65535) are not announced.
+remarks:       - Prefixes longer than /27 are not announced.
+remarks:       - Suppression and prepend actions as outlined in the
+remarks:       community list below are taken for announcements to
+remarks:       non-customer peers.
+remarks:       --------------------------------------------------------
+notify:        noc@xion.com
+mnt-by:        MAINT-XION
+changed:       noc@xion.com 20051117
+source:        HOST
+
+

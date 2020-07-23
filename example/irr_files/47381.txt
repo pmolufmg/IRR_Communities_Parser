@@ -1,0 +1,67 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS47381
+as-name:       DOCLERNET
+descr:         DoclerNet Hosting Kft.
+descr:         Budapest, Hungary
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS1299 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:        from AS8928 action pref=100; accept ANY AND NOT {0.0.0.0/0}
+import:        from AS20523 action pref=120; accept AS-NOVOTRON
+import:        from AS57747 action pref=120; accept AS57747
+import:        from AS-DOCLERWEB:AS-PEERS action pref=110; accept ANY AND NOT {0.0.0.0/0}
+import:        from AS5507 action pref=110; accept AS-BIX
+export:        to AS1299 announce AS-DOCLERWEB
+export:        to AS8928 announce AS-DOCLERWEB
+export:        to AS20523 announce ANY
+export:        to AS57747 announce ANY
+export:        to AS-DOCLERWEB:AS-PEERS announce AS-DOCLERWEB
+export:        to AS5507 announce AS-DOCLERWEB
+remarks:       -----------------------------------------------------------------------
+remarks:       --=> IP Transit Uplinks <=--
+remarks:       -----------------------------------------------------------------------
+remarks:       -----------------------------------------------------------------------
+remarks:       --=> IP Transit Customers <=--
+remarks:       -----------------------------------------------------------------------
+remarks:       -----------------------------------------------------------------------
+remarks:       --=> Public Peerings <=--
+remarks:       -----------------------------------------------------------------------
+remarks:       -----------------------------------------------------------------------
+remarks:       --=> BGP communities <=--
+remarks:       -----------------------------------------------------------------------
+remarks:       community route origin type
+remarks:       --------- ------------------------------------
+remarks:       47381:1 Customer route
+remarks:       47381:2 Peer route
+remarks:       47381:3 Transit route
+remarks:       community internet exchange point name
+remarks:       --------- ------------------------------------
+remarks:       47381:200 Private peer
+remarks:       47381:201 BIX
+remarks:       community customer options
+remarks:       --------- ------------------------------------
+remarks:       47381:9000 Do not advertise to peers
+remarks:       47381:9001 Prepend 1x to peers
+remarks:       47381:9002 Prepend 2x to peers
+remarks:       47381:9000 Do not advertise to transits
+remarks:       47381:9001 Prepend 1x to transits
+remarks:       47381:9002 Prepend 2x to transits
+remarks:       -----------------------------------------------------------------------
+remarks:       - DoclerWeb have an open peering policy, -
+remarks:       - but we don't accept prefixes longer than /24. -
+remarks:       - For peering request send an e-mail to: peering@docler.net -
+remarks:       -----------------------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        DOCLER-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

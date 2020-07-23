@@ -1,0 +1,182 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS51555'
+
+% Abuse contact for 'AS51555' is 'abuse-3t@3tcom.net'
+
+aut-num:        AS51555
+as-name:        IXP-3T
+remarks:        3T IXP
+org:            ORG-EL101-RIPE
+remarks:        ========================================================
+remarks:        Communities applied at ingress
+remarks:        ========================================================
+remarks:        --------------------------------------------------------
+remarks:        Communties applied from customers
+remarks:        --------------------------------------------------------
+remarks:        51555:900 - IX customer route
+remarks:        51555:966 - IX route
+remarks:        51555:peerAS - Learned from peerAS route
+remarks:        1:1 - Announce to all peers
+remarks:        --------------------------------------------------------
+remarks:        Communities accepted from customers
+remarks:        --------------------------------------------------------
+remarks:        0:peerAS - Do not announce prefix to peerAS.
+remarks:        0:1 - Do not announce prefix to all peers.
+remarks:        0:666 - Blackhole traffic to specified prefix.
+remarks:        ========================================================
+remarks:        **** IN ****
+import:         from AS-BGPEER accept any
+import:         from AS-BGPEERS accept any
+import:         from AS174 accept any
+import:         from AS714 accept any
+import:         from AS2914 accept any
+import:         from AS3356 accept any
+import:         from AS5459 accept AS-LINX
+import:         from AS6695 accept AS-DECIX
+import:         from AS6777 accept any
+import:         from AS6939 accept any
+import:         from AS8365 accept AS-MANDA
+import:         from AS8714 accept AS-LINX
+import:         from AS8928 accept any
+import:         from AS8966 accept AS-EMIX
+import:         from AS13335 accept any
+import:         from AS15669 accept AS-BIX-BG
+import:         from AS16298 accept AS-INTERBOX
+import:         from AS25151 accept AS25151
+import:         from AS29119 accept AS-SERVIHOSTING
+import:         from AS29582 accept AS-29582
+import:         from AS29667 accept AS-ATLANTISNET
+import:         from AS31029 accept AS-MREAL
+import:         from AS31210 accept AS-DTEL-IX
+import:         from AS32590 accept any
+import:         from AS33873 accept AS-ARVATO
+import:         from AS34295 accept AS-ETABG
+import:         from AS42248 accept AS-VIDAOPTICS
+import:         from AS42473 accept AS-ANEXIA
+import:         from AS43205 accept AS-BULSATCOM
+import:         from AS43561 accept AS-NET1OUT
+import:         from AS47872 accept any
+import:         from AS49401 accept any
+import:         from AS50952 accept AS-DATAIX
+import:         from AS50952 accept AS-DATAIX-UA
+import:         from AS52005 accept AS52005
+import:         from AS59899 accept AS-OM-NIX
+import:         from AS59900 accept AS-BALKAN-IX
+import:         from AS59900 accept AS-BALKAN-IX-RG
+import:         from AS61955 accept AS-COLOCATIONIX
+import:         from AS199524 accept AS-WGI
+remarks:        **** OUT ****
+export:         to AS-BGPEER announce AS51555
+export:         to AS-BGPEERS announce AS51555
+export:         to AS174 announce AS-3TCOM
+export:         to AS714 announce AS-3TCOM
+export:         to AS2914 announce AS-3TCOM
+export:         to AS3356 announce AS-3TCOM
+export:         to AS5459 announce AS-3TCOM
+export:         to AS6695 announce AS-3TCOM
+export:         to AS6777 announce AS-3TCOM
+export:         to AS6939 announce AS-3TCOM
+export:         to AS8365 announce AS-3TCOM
+export:         to AS8714 announce AS-3TCOM
+export:         to AS8928 announce AS-3TCOM
+export:         to AS8966 announce AS-3TCOM
+export:         to AS13335 announce AS-3TCOM
+export:         to AS15669 announce AS-3TCOM
+export:         to AS16298 announce AS-3TCOM
+export:         to AS25151 announce AS-3TCOM
+export:         to AS29119 announce AS-3TCOM
+export:         to AS29582 announce ANY
+export:         to AS29667 announce ANY
+export:         to AS31029 announce ANY
+export:         to AS31210 announce AS-3TCOM
+export:         to AS32590  announce AS-3TCOM
+export:         to AS33873 announce AS-3TCOM
+export:         to AS34295 announce ANY
+export:         to AS42248 announce ANY
+export:         to AS42473 announce AS-3TCOM
+export:         to AS43205 announce any
+export:         to AS43561 announce any
+export:         to AS47872 announce AS-3TCOM
+export:         to AS49401 announce AS-3TCOM
+export:         to AS50952 announce AS-3TCOM
+export:         to AS52005 announce AS-3TCOM
+export:         to AS59899 announce AS-3TCOM
+export:         to AS59900 announce AS-3TCOM
+export:         to AS61955 announce AS-3TCOM
+export:         to AS199524 announce AS51555
+remarks:        **** ---- ****
+admin-c:        JP4854-RIPE
+tech-c:         VTZM-RIPE
+tech-c:         MS44793-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-3T
+created:        2010-09-28T07:53:58Z
+last-modified:  2018-09-04T10:54:27Z
+source:         RIPE
+sponsoring-org: ORG-NA318-RIPE
+
+organisation:   ORG-EL101-RIPE
+org-name:       3T Com Ltd
+org-type:       OTHER
+address:        Bulgaria, Sofia, jk. Krasno selo bl.207A, en.A, ap.3
+admin-c:        JP4854-RIPE
+tech-c:         VTZM-RIPE
+tech-c:         MS44793-RIPE
+abuse-c:        AR31031-RIPE
+mnt-ref:        MNT-3T
+mnt-by:         MNT-3T
+created:        2010-08-03T08:07:26Z
+last-modified:  2017-11-16T00:02:03Z
+source:         RIPE # Filtered
+
+person:         Jassen Paspalev
+address:        Sofia, Bulgaria
+phone:          +359 (88) 903 80 35
+nic-hdl:        JP4854-RIPE
+mnt-by:         MNT-3T
+created:        2010-08-03T07:58:12Z
+last-modified:  2010-12-21T14:03:42Z
+source:         RIPE # Filtered
+
+person:         Milen Spiridonov
+address:        Sofia, Bulgaria
+phone:          +359 887 357 113
+nic-hdl:        MS44793-RIPE
+mnt-by:         MNT-3T
+created:        2017-11-15T23:58:34Z
+last-modified:  2017-11-15T23:58:34Z
+source:         RIPE # Filtered
+
+person:         Velichko Todorov
+address:        Bulgaria, Sofia, jk. Krasno selo bl.207A, en.A, ap.3
+phone:          +359 88 562 2522
+nic-hdl:        VTZM-RIPE
+remarks:        3T COM (ORG-EL101-RIPE)
+mnt-by:         MNT-3T
+created:        2014-11-18T00:43:52Z
+last-modified:  2017-10-26T10:57:28Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

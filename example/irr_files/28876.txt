@@ -1,0 +1,966 @@
+aut-num:        AS28876
+as-name:        SUEC-DACOR-AS
+remarks:        ISP Coburg, Germany
+org:            ORG-sdG3-RIPE
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        Peering Summary
+remarks:
+remarks:        We have an open peering-policy
+remarks:        For details see: http://as28876.peeringdb.com
+remarks:
+remarks:        We are present at DECIX, ECIX, AMSIX and N-IX
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        IPv4 Transit
+remarks:
+import:         from AS3320 action pref=200; accept ANY
+export:         to AS3320 announce AS-SUEC-DACOR
+import:         from AS33891 action pref=200; accept ANY
+export:         to AS33891 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        IPv6 Transit
+remarks:
+mp-import:      afi ipv6.unicast from AS3320 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS3320 announce AS-SUEC-DACOR
+mp-import:      afi ipv6.unicast from AS33891 action pref=200; accept ANY
+mp-export:      afi ipv6.unicast to AS33891 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        Customers
+remarks:
+remarks:        IPv4
+remarks:
+import:         from AS198570 action pref=50; accept AS-STNB
+export:         to AS198570 announce ANY
+remarks:
+import:         from AS44545 action pref=50; accept AS44545
+export:         to AS44545 announce ANY
+remarks:
+import:         from AS29008 action pref=50; accept AS29008
+export:         to AS29008 announce ANY
+remarks:
+import:         from AS50642 action pref=50; accept AS50642
+export:         to AS50642 announce ANY
+remarks:
+import:         from AS24978 action pref=50; accept AS-TNEC-OUT
+export:         to AS24978 announce ANY
+remarks:
+import:         from AS200062 action pref=50; accept AS200062
+export:         to AS200062 announce ANY
+remarks:
+import:         from AS44974 action pref=50; accept AS44974
+import:         from AS44974 action pref=50; accept AS203986
+import:         from AS44974 action pref=50; accept AS20686
+export:         to AS44974 announce ANY
+remarks:
+import:         from AS13020 action pref=50; accept AS-CCC-EVENT
+export:         to AS13020 announce ANY
+remarks:
+import:         from AS205100 action pref=50; accept AS205100
+export:         to AS205100 announce ANY
+remarks:
+import:         from AS64427 action pref=50; accept AS64427
+export:         to AS64427 announce ANY
+remarks:
+remarks:        IPv6
+remarks:
+mp-import:      afi ipv6.unicast from AS198570 action pref=50; accept AS-STNB
+mp-export:      afi ipv6.unicast to AS198570 announce ANY
+remarks:
+mp-import:      afi ipv6.unicast from AS29008 action pref=50; accept AS29008
+mp-export:      afi ipv6.unicast to AS29008 announce ANY
+remarks:
+mp-import:      afi ipv6.unicast from AS50642 action pref=50; accept AS50642
+mp-export:      afi ipv6.unicast to AS50642 announce ANY
+remarks:
+mp-import:      afi ipv6.unicast from AS24978 action pref=50; accept AS-TNEC-OUT
+mp-export:      afi ipv6.unicast to AS24978  announce ANY
+remarks:
+mp-import:      afi ipv6.unicast from AS200062 action pref=50; accept AS200062
+mp-export:      afi ipv6.unicast to AS200062  announce ANY
+remarks:
+mp-import:      afi ipv6.unicast from AS44974 action pref=50; accept AS44974
+mp-export:      afi ipv6.unicast to AS44974 announce ANY
+remarks:
+mp-import:      afi ipv6.unicast from AS13020 action pref=50; accept AS-CCC-EVENT
+mp-export:      afi ipv6.unicast to AS13020 announce ANY
+remarks:
+mp-import:      afi ipv6.unicast from AS205100 action pref=50; accept AS205100
+mp-export:      afi ipv6.unicast to AS205100 announce ANY
+remarks:
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        DECIX Peers IPv4
+remarks:
+import:         from AS6695 action pref=100; accept AS-DECIX
+export:         to AS6695 announce AS-SUEC-DACOR
+remarks:
+import:         from AS13285 action pref=100; accept AS-OPAL
+export:         to AS13285 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS35366 action pref=100; accept AS-ISPPRO
+export:         to AS35366 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8365 action pref=100; accept AS-MANDA
+export:         to AS8365 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS42473 action pref=100; accept AS-ANEXIA
+export:         to AS42473 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS6939 action pref=100; accept AS-HURRICANE
+export:         to AS6939 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS41692 action pref=100; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS25291 action pref=100; accept AS-SYSELEVEN
+export:         to AS25291 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS42416 action pref=100; accept AS42416
+export:         to AS42416 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS20640 action pref=100; accept AS-TITANNET
+export:         to AS20640 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS39138 action pref=100; accept AS-OPENAP
+export:         to AS39138 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS47215 action pref=100; accept AS-FILOO
+export:         to AS47215 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS42 action pref=100; accept AS-PCH
+export:         to AS42 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS3856 action pref=100; accept AS-PCH
+export:         to AS3856 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS16509 action pref=100; accept AS-AMAZON
+export:         to AS16509 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS39743 action pref=100; accept AS39743
+export:         to AS39743 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS15594 action pref=100; accept AS-NQ
+export:         to AS15594 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS20562 action pref=100; accept AS-OPENPEERING
+export:         to AS20562 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS714 action pref=100; accept AS714
+export:         to AS714 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS33873 action pref=100; accept AS-ARVATO
+export:         to AS33873 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS44654 action pref=100; accept AS-MNS
+export:         to AS44654 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS12713 action pref=100; accept AS-OTEGLOBE
+export:         to AS12713 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS680 action pref=100; accept AS-DFNTOWINISP
+export:         to AS680 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8767 action pref=100; accept AS-MNETDE
+export:         to AS8767 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS12611 action pref=100; accept AS-RKOM
+export:         to AS12611 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS46489 action pref=100; accept AS46489
+export:         to AS46489 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS31078 action pref=100; accept AS-NETSIGN
+export:         to AS31078 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS41552 action pref=100; accept AS-ECG
+export:         to AS41552 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS24989 action pref=100; accept AS-EQUINIX-DE
+export:         to AS24989 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS20485 action pref=100; accept AS-TTK
+export:         to AS20485 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS5430 action pref=100; accept AS-FREENETDE
+export:         to AS5430 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS13335 action pref=100; accept AS13335
+export:         to AS13335 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS5466 action pref=100; accept AS-EIRCOM
+export:         to AS5466 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS553 action pref=100; accept AS-BELWUE
+export:         to AS553 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+export:         to AS20940 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS6805 action pref=100; accept AS-TDDE
+export:         to AS6805 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8560 action pref=100; accept AS-1AND1
+export:         to AS8560 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8447 action pref=100; accept AS-PTA
+export:         to AS8447 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS13030 action pref=100; accept AS-INIT7
+export:         to AS13030 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS31334 action pref=100; accept AS-KDG
+export:         to AS31334 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS2119 action pref=100; accept AS-TELENOR
+export:         to AS2119 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS36408 action pref=100; accept AS-CDNETWORKS
+export:         to AS36408 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS2119 action pref=100; accept AS-TELENOR
+export:         to AS2119 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS16276 action pref=100; accept AS-OVH
+export:         to AS16276 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS39912 action pref=100; accept AS-I3B-TRANSIT-V4
+export:         to AS39912 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS3216 action pref=100; accept AS-SOVAM
+export:         to AS3216 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS2635 action pref=100; accept AS2635
+export:         to AS2635 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS29686 action pref=100; accept AS-PROBENETWORKS
+export:         to AS29686 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS32590 action pref=100; accept AS-VALVE
+export:         to AS32590 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS14413 action pref=100; accept AS-LINKEDIN
+export:         to AS14413 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS5603 action pref=100; accept AS-SIOL
+export:         to AS5603 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS13768 action pref=100; accept AS13768:AS-CUSTOMERS
+export:         to AS13768 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8403 action pref=100; accept AS-SPOTIFY
+export:         to AS8403 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS34309 action pref=100; accept AS-LINK11
+export:         to AS34309 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        DECIX Peers IPv6
+remarks:
+mp-import:      afi ipv6.unicast from AS6695 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6695 announce AS-SUEC-DACOR
+remarks:
+mp-import:      afi ipv6.unicast from AS13285 action pref=100; accept AS-OPAL
+mp-export:      afi ipv6.unicast to AS13285 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS35366 action pref=100; accept AS-ISPPRO
+mp-export:      afi ipv6.unicast to AS35366 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS8365 action pref=100; accept AS-MANDA
+mp-export:      afi ipv6.unicast to AS8365 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS42473 action pref=100; accept AS-ANEXIA
+mp-export:      afi ipv6.unicast to AS42473 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS41692 action pref=100; accept AS-OPENCARRIER
+mp-export:      afi ipv6.unicast to AS41692 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS25291 action pref=100; accept AS-SYSELEVEN
+mp-export:      afi ipv6.unicast to AS25291 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS42416 action pref=100; accept AS42416
+mp-export:      afi ipv6.unicast to AS42416 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS20640 action pref=100; accept AS-TITANNET
+mp-export:      afi ipv6.unicast to AS20640 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS39138 action pref=100; accept AS-OPENAP
+mp-export:      afi ipv6.unicast to AS39138 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS47215 action pref=100; accept AS-FILOO
+mp-export:      afi ipv6.unicast to AS47215 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS42 action pref=100; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS3856 action pref=100; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS16509 action pref=100; accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS39743 action pref=100; accept AS39743
+mp-export:      afi ipv6.unicast to AS39743 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS20562 action pref=100; accept AS-OPENPEERING
+mp-export:      afi ipv6.unicast to AS20562 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS714 action pref=100; accept AS714
+mp-export:      afi ipv6.unicast to AS714 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS33873 action pref=100; accept AS-ARVATO
+mp-export:      afi ipv6.unicast to AS33873 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS44654 action pref=100; accept AS-MNS
+mp-export:      afi ipv6.unicast to AS44654 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS12713 action pref=100; accept AS-OTEGLOBE
+mp-export:      afi ipv6.unicast to AS12713 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS12713 action pref=100; accept AS-OTEGLOBE
+mp-export:      afi ipv6.unicast to AS12713 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS680 action pref=100; accept AS-DFNTOWINISP
+mp-export:      afi ipv6.unicast to AS680 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS8767 action pref=100; accept AS-MNETDE
+mp-export:      afi ipv6.unicast to AS8767 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS12611 action pref=100; accept AS-RKOM
+mp-export:      afi ipv6.unicast to AS12611 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS13030 action pref=100; accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS31334 action pref=100; accept AS-KDG
+mp-export:      afi ipv6.unicast to AS31334 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS2119 action pref=100; accept AS-TELENOR
+mp-export:      afi ipv6.unicast to AS2119 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        ECIX Peers IPv4
+remarks:
+import:         from AS9033 action pref=100; accept ANY
+export:         to AS9033 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8365 action pref=100; accept AS-MANDA
+export:         to AS8365 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS2906 action pref=100; accept AS-NFLX
+export:         to AS2906 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS2906 action pref=100; accept AS-NFLX
+export:         to AS2906 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS31078 action pref=100; accept AS-NETSIGN
+export:         to AS31078 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS13335 action pref=100; accept AS13335
+export:         to AS13335 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS553 action pref=100; accept AS-BELWUE
+export:         to AS553 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+export:         to AS20940 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS42 action pref=100; accept AS-PCH
+export:         to AS42 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS3856 action pref=100; accept AS-PCH
+export:         to AS3856 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS6939 action pref=100; accept AS-HURRICANE
+export:         to AS6939 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS714 action pref=100; accept AS714
+export:         to AS714 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        ECIX Peers IPv6
+remarks:
+mp-import:      afi ipv6.unicast from AS9033 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS9033 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS8365 action pref=100; accept AS-MANDA
+mp-export:      afi ipv6.unicast to AS8365 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS2906 action pref=100; accept as-nflx
+mp-export:      afi ipv6.unicast to AS2906 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS31078 action pref=100; accept AS-NETSIGN
+mp-export:      afi ipv6.unicast to AS31078 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS13335 action pref=100; accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS553 action pref=100; accept AS-BELWUE
+mp-export:      afi ipv6.unicast to AS553 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS20940 action pref=100; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS42 action pref=100; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS3856 action pref=100; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS714 action pref=100; accept AS714
+mp-export:      afi ipv6.unicast to AS714 announce AS-SUEC-DACOR
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        AMSIX Peers IPv4
+remarks:
+import:         from AS6777 action pref=100; accept ANY
+export:         to AS6777 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS714 action pref=100; accept AS714
+export:         to AS714 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS41692 action pref=100; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS43142 action pref=100; accept AS43142
+export:         to AS43142 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS44654 action pref=100; accept AS-MNS
+export:         to AS44654 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS42473 action pref=100; accept AS-ANEXIA
+export:         to AS42473 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS51185 action pref=100; accept AS-MAINSOFT
+export:         to AS51185 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS21478 action pref=100; accept AS21478
+export:         to AS21478 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS30844 action pref=100; accept AS-LIQUID
+export:         to AS30844 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS12713 action pref=100; accept AS-OTEGLOBE
+export:         to AS12713 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8767 action pref=100; accept AS-MNETDE
+export:         to AS8767 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS46489 action pref=100; accept AS46489
+export:         to AS46489 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS31078 action pref=100; accept AS-NETSIGN
+export:         to AS31078 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS41552 action pref=100; accept AS-ECG
+export:         to AS41552 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS20485 action pref=100; accept AS-TTK
+export:         to AS20485 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS13335 action pref=100; accept AS13335
+export:         to AS13335 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS5466 action pref=100; accept AS-EIRCOM
+export:         to AS5466 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+export:         to AS20940 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS6805 action pref=100; accept AS-TDDE
+export:         to AS6805 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8447 action pref=100; accept AS-PTA
+export:         to AS8447 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS13030 action pref=100; accept AS-INIT7
+export:         to AS13030 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS6939 action pref=100; accept AS-HURRICANE
+export:         to AS6939 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS197422 action pref=100; accept AS-TETANEUTRAL-NET
+export:         to AS197422 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS50304 action pref=100; accept AS-BLIX
+export:         to AS50304 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS13285 action pref=100; accept AS-OPAL
+export:         to AS13285 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS3265 action pref=100; accept AS-ACCESSFORALL
+export:         to AS3265 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS39651 action pref=100; accept AS-COMHEM
+export:         to AS39651 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS1103 action pref=100; accept AS-SURFNET
+export:         to AS1103 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS1103 action pref=100; accept AS57976
+export:         to AS1103 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS33873 action pref=100; accept AS-ARVATO
+export:         to AS33873 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8560 action pref=100; accept AS-1AND1
+export:         to AS8560 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS31334 action pref=100; accept AS-KDG
+export:         to AS31334 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS2119 action pref=100; accept AS-TELENOR
+export:         to AS2119 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS3267 action pref=100; accept AS-RUNNET
+export:         to AS3267 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS36408 action pref=100; accept AS-CDNETWORKS
+export:         to AS36408 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        AMSIX Peers IPv6
+remarks:
+mp-import:      afi ipv6.unicast from AS6777 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6777 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS714 action pref=100; accept AS714
+mp-export:      afi ipv6.unicast to AS714 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS41692 action pref=100; accept AS-OPENCARRIER
+mp-export:      afi ipv6.unicast to AS41692 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS43142 action pref=100; accept AS43142
+mp-export:      afi ipv6.unicast to AS43142 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS44654 action pref=100; accept AS-MNS
+mp-export:      afi ipv6.unicast to AS44654 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS42473 action pref=100; accept AS-ANEXIA
+mp-export:      afi ipv6.unicast to AS42473 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS51185 action pref=100; accept AS-MAINSOFT
+mp-export:      afi ipv6.unicast to AS51185 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS21478 action pref=100; accept AS21478
+mp-export:      afi ipv6.unicast to AS21478 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS30844 action pref=100; accept AS-LIQUID
+mp-export:      afi ipv6.unicast to AS30844 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS12713 action pref=100; accept AS-OTEGLOBE
+mp-export:      afi ipv6.unicast to AS12713 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS8767 action pref=100; accept AS-MNETDE
+mp-export:      afi ipv6.unicast to AS8767 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS46489 action pref=100; accept AS46489
+mp-export:      afi ipv6.unicast to AS46489 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS31078 action pref=100; accept AS-NETSIGN
+export:         to AS31078 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS41552 action pref=100; accept AS-ECG
+mp-export:      afi ipv6.unicast to AS41552 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS20485 action pref=100; accept AS-TTK
+mp-export:      afi ipv6.unicast to AS20485 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS13335 action pref=100; accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS5466 action pref=100; accept AS-EIRCOM
+mp-export:      afi ipv6.unicast to AS5466 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS20940 action pref=100; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS6805 action pref=100; accept AS-TDDE
+mp-export:      afi ipv6.unicast to AS6805 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS8447 action pref=100; accept AS-PTA
+mp-export:      afi ipv6.unicast to AS8447 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS13030 action pref=100; accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS197422 action pref=100; accept AS-TETANEUTRAL-NET
+mp-export:      afi ipv6.unicast to AS197422 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS50304 action pref=100; accept AS-BLIX
+mp-export:      afi ipv6.unicast to AS50304 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS13285 action pref=100; accept AS-OPAL
+mp-export:      afi ipv6.unicast to AS13285 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS3265 action pref=100; accept AS-ACCESSFORALL
+mp-export:      afi ipv6.unicast to AS3265 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS39651 action pref=100; accept AS-COMHEM
+mp-export:      afi ipv6.unicast to AS39651 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS1103 action pref=100; accept AS-SURFNET
+mp-export:      afi ipv6.unicast to AS1103 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS1103 action pref=100; accept AS57976
+mp-export:      afi ipv6.unicast to AS1103 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS33873 action pref=100; accept AS-ARVATO
+mp-export:      afi ipv6.unicast to AS33873 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS8560 action pref=100; accept AS-1AND1
+mp-export:      afi ipv6.unicast to AS8560 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS31334 action pref=100; accept AS-KDG
+mp-export:      afi ipv6.unicast to AS31334 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS2119 action pref=100; accept AS-TELENOR
+mp-export:      afi ipv6.unicast to AS2119 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS3267 action pref=100; accept AS-RUNNET
+mp-export:      afi ipv6.unicast to AS3267 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        NIX Peers IPv4
+remarks:
+import:         from AS21083 action pref=100; accept ANY
+export:         to AS21083 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS12337 action pref=100; accept AS-NORIS
+export:         to AS12337 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS41692 action pref=100; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS13289 action pref=100; accept AS-IWELT
+export:         to AS13289 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS24940 action pref=100; accept AS-HETZNER
+export:         to AS24940 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS21385 action pref=100; accept AS-TNIB
+export:         to AS21385 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS60955 action pref=100; accept AS-WAVECON
+export:         to AS60955 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS16316 action pref=100; accept AS-TMT
+export:         to AS16316 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS12348 action pref=100; accept AS-ODNDE
+export:         to AS12348 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8767 action pref=100; accept AS-MNETDE
+export:         to AS8767 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8859 action pref=100; accept AS-OSN
+export:         to AS8859 announce AS-SUEC-DACOR
+remarks:
+remarks:
+import:         from AS8741 action pref=100; accept AS-ECORE
+export:         to AS8741 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        N-IX Peers IPv6
+remarks:
+mp-import:      afi ipv6.unicast from AS21083 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS21083 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS12337 action pref=100; accept AS-NORIS
+mp-export:      afi ipv6.unicast to AS12337 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS41692 action pref=100; accept AS-OPENCARRIER
+mp-export:      afi ipv6.unicast to AS41692 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS13289 action pref=100; accept AS-IWELT
+mp-export:      afi ipv6.unicast to AS13289 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS24940 action pref=100; accept AS-HETZNER
+mp-export:      afi ipv6.unicast to AS24940 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS21385 action pref=100; accept AS-TNIB
+mp-export:      afi ipv6.unicast to AS21385 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS60955 action pref=100; accept AS-WAVECON
+mp-export:      afi ipv6.unicast to AS60955 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS16316 action pref=100; accept AS-TMT
+mp-export:      afi ipv6.unicast to AS16316 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS12348 action pref=100; accept AS-ODNDE
+mp-export:      afi ipv6.unicast to AS12348 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS8767 action pref=100; accept AS-MNETDE
+mp-export:      afi ipv6.unicast to AS8767 announce AS-SUEC-DACOR
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS8741 action pref=100; accept AS-ECORE
+mp-export:      afi ipv6.unicast to AS8741 announce AS-SUEC-DACOR
+remarks:
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:
+remarks:        Communities applied at ingress
+remarks:
+remarks:        28876:1000 - Transit Route
+remarks:        28876:1010 - Deutsche Telekom Route
+remarks:        28876:1020 - CoreBackbone Route
+remarks:
+remarks:        28876:4000 - Peer Route
+remarks:        28876:4010 - DECIX Peer Route
+remarks:        28876:4020 - ECIX Peer Route
+remarks:        28876:4030 - AMSIX Peer Route
+remarks:        28876:4040 - N-IX Peer Route
+remarks:
+remarks:        28876:8000 - Customer Route
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+remarks:        Communities accepted from Customers
+remarks:
+remarks:        28876:20XY
+remarks:        X - Transit
+remarks:        1 - Deutsche Telekom
+remarks:        2 - CoreBackbone
+remarks:
+remarks:        Y - Action
+remarks:        0 - Do not announce to Upstream X
+remarks:        1 - Prepend 1x to X
+remarks:        2 - Prepend 2x to X
+remarks:        3 - Prepend 3x to X
+remarks:
+remarks:        Blackhole Community: 28876:666
+remarks:
+remarks:        +++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SUEC-DACOR-MNT
+created:        2003-03-25T13:18:13Z
+last-modified:  2018-06-19T16:56:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

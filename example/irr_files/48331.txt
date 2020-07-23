@@ -1,0 +1,61 @@
+aut-num:        AS48331
+as-name:        GLOBNET-AS
+remarks:        -------------------------------------------
+remarks:        str. Drumul Viilor 28/2
+remarks:        Chisinau Republica Moldova MD-2021
+remarks:
+remarks:        -> JV "Sun Communications"
+remarks:
+import:         from AS31204 83.218.223.1 at 83.218.223.7 action pref=90; accept ANY
+export:         to AS31204 83.218.223.1 at 83.218.223.7 announce AS48331
+remarks:
+remarks:        -> S.A. "TeleMediaGroup"
+remarks:
+import:         from AS25454 action pref=100; accept ANY
+export:         to AS25454 announce AS48331
+remarks:
+remarks:        -> S.A. "Starnet"
+remarks:
+import:         from AS31252 action pref=100; accept ANY
+export:         to AS31252 announce AS48331
+remarks:
+remarks:        -> "Simpals"
+import:         from AS51954 action pref=100; accept ANY
+export:         to AS51954 announce AS48331
+remarks:
+default:        to AS31204
+default:        to AS25454
+default:        to AS31252
+remarks:        -------------------------------------------------
+remarks:        Communities applied at ingress
+remarks:        -----------
+remarks:        48331:XXX - Customer route, XXX - customer ASn
+remarks:        -------------------------------------------------
+remarks:        Communities accepted from customers
+remarks:        -----------
+remarks:        65000:0   - Blackhole (discard) traffic (inc./32)
+remarks:        65001:0   - Prepend once to all peers
+remarks:        65002:0   - Prepend twice to all peers
+remarks:        65003:0   - Prepend thrice to all peers
+remarks:        -------------------------------------------------
+remarks:
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+org:            ORG-JSTS1-RIPE
+status:         ASSIGNED
+notify:         zi@globnet.md
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SunTV-MNT
+mnt-by:         GLOBNET-MNT
+mnt-routes:     GLOBNET-MNT
+created:        2008-11-12T14:27:41Z
+last-modified:  2017-11-15T09:53:18Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,127 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS38912 - AS39935'
+
+as-block:       AS38912 - AS39935
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS39168'
+
+% Abuse contact for 'AS39168' is 'abuse@wasko.pl'
+
+aut-num:        AS39168
+as-name:        HOSTINGCENTER-AS
+descr:          Hosting Center Autonomous System
+descr:          Al. Jerozolimskie 81
+descr:          02-001 Warszawa, Poland
+remarks:        ============================================================
+remarks:
+remarks:        BGP support and peering requests: bgp@hostingcenter.pl
+remarks:        Information and questions: info@hostingcenter.pl
+remarks:
+remarks:        ============================================================
+remarks:
+remarks:        BGP COMMUNITIES
+remarks:
+remarks:        Communities to determine entry point
+remarks:        39168:1000 - ATMAN-GLOBAL
+remarks:        39168:1200 - ATMAN-TP
+remarks:        39168:1300 - TPSA
+remarks:        39168:2000 - EFUZJA
+remarks:        39168:2100 - DCENTER
+remarks:        39168:5000 - PLIX
+remarks:        39168:5100 - WIX
+remarks:
+remarks:        Traffic Control Communities
+remarks:        39168:0 - DO NOT ANNOUNCE TO UPLINKS
+remarks:
+remarks:        ============================================================
+org:            ORG-WS13-RIPE
+admin-c:        HCNE-RIPE
+tech-c:         HCNE-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+admin-c:        RW1621-RIPE
+tech-c:         RK7605-RIPE
+mnt-by:         HCNET-MNT
+created:        2005-12-27T14:42:32Z
+last-modified:  2018-09-04T10:13:21Z
+source:         RIPE
+sponsoring-org: ORG-COIG2-RIPE
+
+organisation:   ORG-WS13-RIPE
+org-name:       WASKO S.A.
+org-type:       OTHER
+address:        ul.Berbeckiego 6
+address:        44-100 Gliwice
+address:        Poland
+phone:          +48 32 3325500
+abuse-c:        WAR22-RIPE
+admin-c:        RW1621-RIPE
+tech-c:         RK7605-RIPE
+mnt-ref:        TPNET
+mnt-by:         WASKO-MNT
+mnt-by:         HOGA-MNT
+created:        2006-11-30T14:35:44Z
+last-modified:  2015-03-25T08:10:47Z
+source:         RIPE # Filtered
+
+role:           WASKO Hosting Center NOC
+address:        Al. Jerozolimskie 81
+address:        02-001 Warszawa
+address:        Poland
+phone:          +48 22 321 321 3
+fax-no:         +48 22 321 321 1
+admin-c:        RW1621-RIPE
+tech-c:         RK7605-RIPE
+nic-hdl:        HCNE-RIPE
+mnt-by:         HCNET-MNT
+mnt-by:         WASKO-MNT
+created:        2009-12-04T18:53:26Z
+last-modified:  2014-05-21T11:17:18Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@hostingcenter.pl
+
+person:         Remigiusz Kosztowny
+address:        WASKO S.A.
+address:        Ul. Berbeckiego 6
+address:        44-100 Gliwice
+phone:          +48 32 3325622
+nic-hdl:        RK7605-RIPE
+mnt-by:         RK60226-MNT
+mnt-by:         WASKO-MNT
+created:        2013-11-29T09:45:55Z
+last-modified:  2017-10-30T22:31:14Z
+source:         RIPE # Filtered
+fax-no:         +48 32 3325510
+
+person:         Roman Wons
+address:        WASKO S.A.
+address:        ul. Berbeckiego 6
+address:        44-100 Gliwice
+address:        POLAND
+phone:          +48 32 3325613
+phone:          +48 501 525267
+nic-hdl:        RW1621-RIPE
+mnt-by:         TPNET
+mnt-by:         WASKO-MNT
+created:        2005-12-29T10:26:05Z
+last-modified:  2010-08-02T13:17:38Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

@@ -1,0 +1,674 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS31066 - AS31244'
+
+as-block:       AS31066 - AS31244
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS31216'
+
+% Abuse contact for 'AS31216' is 'abuse@bsonetwork.com'
+
+aut-num:        AS31216
+as-name:        BSOCOM
+org:            ORG-BCS3-RIPE
+import:         from AS3356 accept ANY # Level 3 Transit
+import:         from AS3549 accept ANY # Global Crossing Transit
+import:         from AS5511 accept ANY
+import:         from AS42 accept AS42 # WoodyNet
+import:         from AS112 accept AS112 # RootServer
+import:         from AS174 accept AS174
+import:         from AS1103 accept AS-SURFNET
+import:         from AS1126 accept AS-SARA
+import:         from AS1140 accept AS1140 # SIDN
+import:         from AS1200 accept AS-AMSIX-PEERS
+import:         from AS1257 accept AS-SWIPNET # Tele2
+import:         from AS2529 accept AS-DEMON
+import:         from AS2611 accept AS-BELNET
+import:         from AS2686 accept AS2686 # AT&T Global Services
+import:         from AS2818 accept AS-BBC
+import:         from AS2914 accept AS2914 # NTT Verio
+import:         from AS3209 accept AS-ARCORGLOBAL
+import:         from AS3212 accept AS-TRIERA
+import:         from AS3213 accept AS-BOGONS
+import:         from AS3246 accept AS-TDC
+import:         from AS3262 accept AS-SARENET
+import:         from AS3265 accept AS-ACCESSFORALL
+import:         from AS3291 accept AS-PSINETEU
+import:         from AS3303 accept AS-SWCMGLOBAL # Swisscom
+import:         from AS3333 accept AS-RIPENCC
+import:         from AS3491 accept AS3491 # PCCW Gbobal
+import:         from AS3602 accept AS3602 # Rogers Telecom
+import:         from AS3856 accept AS3856 # PCH
+import:         from AS4004 accept AS4004 # Equant UK
+import:         from AS4513 accept AS-GLOBIX
+import:         from AS4589 accept AS-EASYNETFR
+import:         from AS4766 accept AS4766 # Korea Telecom
+import:         from AS5089 accept AS-NTLI
+import:         from AS5090 accept AS-EUROACCESS
+import:         from AS5410 accept AS-T-ONLINEFRANCE
+import:         from AS5430 accept AS-FREENETDE
+import:         from AS5436 accept AS-BTAH # FLUXUS/British Telecom France
+import:         from AS5463 accept AS-PERCEVAL
+import:         from AS5568 accept AS-RBNET
+import:         from AS5583 accept AS-GIPNL
+import:         from AS5587 accept AS-BUSINESSSERVE
+import:         from AS5604 accept AS-PIPEX
+import:         from AS5612 accept AS-HANDELSWEG
+import:         from AS5669 accept AS-VIA
+import:         from AS6320 accept AS-TELECOMPLETE
+import:         from AS6327 accept AS6327 # Shaw Communication
+import:         from AS6461 accept AS-MFNX
+import:         from AS6667 accept AS6667 # EUNet Finland
+import:         from AS6728 accept AS-PIPEX
+import:         from AS6730 accept AS-SUNRISE
+import:         from AS6735 accept AS-SDT
+import:         from AS6770 accept AS6770 # The Aeximus
+import:         from AS6774 accept AS-BELGACOM
+import:         from AS6805 accept AS-TDDE
+import:         from AS6830 accept AS-AORTA
+import:         from AS6939 accept AS6939 # Hurricane Electric
+import:         from AS7132 accept AS7132 # SBC Internet Services
+import:         from AS8068 accept AS-MICROSOFTEU
+import:         from AS8195 accept AS-IONIP
+import:         from AS8220 accept AS-COLT
+import:         from AS8228 accept AS-CEGETEL
+import:         from AS8341 accept AS-QUICKNET
+import:         from AS8342 accept AS8342 # RTComm
+import:         from AS8404 accept AS-CABLECOM
+import:         from AS8422 accept AS-NETCOLOGNE
+import:         from AS8447 accept AS8447 # Telekom Austria
+import:         from AS8468 accept AS-ENTANET
+import:         from AS8546 accept AS8546 # Your Comm
+import:         from AS8560 accept AS-SCHLUND
+import:         from AS8586 accept AS-REDNET
+import:         from AS8608 accept AS-QINIP
+import:         from AS8642 accept AS-BREDBAND
+import:         from AS8708 accept AS-RDSNET
+import:         from AS8737 accept AS-KPN-IS
+import:         from AS8784 accept AS-MGN
+import:         from AS8820 accept AS-TAL
+import:         from AS8839 accept AS-SDV
+import:         from AS8918 accept AS-CARRIER1
+import:         from AS8928 accept AS-INTEROUTE
+import:         from AS8966 accept AS8966 # Emirates
+import:         from AS8975 accept AS-CLARANET
+import:         from AS9003 accept AS9003 # Altitude Telecom
+import:         from AS9009 accept AS-GBXS
+import:         from AS9031 accept AS9031 # EDPnet
+import:         from AS9143 accept AS9143 # @Home.nl
+import:         from AS9153 accept AS-BURSTFIRE
+import:         from AS9264 accept AS9264 # ASNET
+import:         from AS9318 accept AS9318 # Hanaro
+import:         from AS12222 accept AS-AKAMAI
+import:         from AS12306 accept AS-PLUSLINE
+import:         from AS12322 accept AS-PROXAD
+import:         from AS12399 accept AS12399 # ScanPlus Network
+import:         from AS12414 accept AS-SOLCON
+import:         from AS12634 accept AS-SCARLET
+import:         from AS12670 accept AS-COMPLETEL
+import:         from AS12676 accept AS-NCORE
+import:         from AS12713 accept AS-OTEGLOBE
+import:         from AS12793 accept AS12793 # ETel Sat
+import:         from AS12859 accept AS-BIT
+import:         from AS12871 accept AS12871 # NL Concepts
+import:         from AS12876 accept AS-TIF
+import:         from AS12902 accept AS-LUNA
+import:         from AS12989 accept AS-EWEKA
+import:         from AS13005 accept AS13005 # C2 internet
+import:         from AS13030 accept AS-INIT7
+import:         from AS13049 accept AS13049 # FRONTIER
+import:         from AS13101 accept AS-TNG
+import:         from AS13122 accept AS-MANX
+import:         from AS13127 accept AS-VERSATEL
+import:         from AS13184 accept AS-HANSENET
+import:         from AS13193 accept AS-NERIM
+import:         from AS13237 accept AS-LAMBDANET
+import:         from AS13285 accept AS-OPAL
+import:         from AS13768 accept AS13768 # Peer1
+import:         from AS13773 accept AS13773 # InterLinks
+import:         from AS14453 accept AS14453 # NetSurf
+import:         from AS15169 accept AS-GOOGLE
+import:         from AS15290 accept AS-ALLSTREAM
+import:         from AS15412 accept AS15412 # Flag Telecom
+import:         from AS15422 accept AS-PPR
+import:         from AS15435 accept AS-KABELFOON
+import:         from AS15436 accept AS-WITBE
+import:         from AS15444 accept AS-NETSERVICES
+import:         from AS15535 accept AS-VIRTUALXS
+import:         from AS15542 accept AS-ZEELANDNET
+import:         from AS15557 accept AS-LDCOMNET
+import:         from AS15600 accept AS-FINECOM
+import:         from AS15635 accept AS-YAHOOEU
+import:         from AS15670 accept AS15670 # BBNed BV
+import:         from AS15703 accept AS-TRUE
+import:         from AS15879 accept AS15879 # ASNIS
+import:         from AS16030 accept AS-ALTECOM
+import:         from AS16082 accept AS-SPITFIRE
+import:         from AS16128 accept AS-AGARIK
+import:         from AS16131 accept AS-GRAFIX
+import:         from AS16150 accept AS16150 # Port80
+import:         from AS16237 accept AS-NXS
+import:         from AS16243 accept AS-VIRTU
+import:         from AS16265 accept AS-LEASEWEB
+import:         from AS16276 accept AS-OVH
+import:         from AS16298 accept AS-INTERBOX
+import:         from AS19752 accept AS19752 # HydroNet Telecom
+import:         from AS20495 accept AS-WEDARE
+import:         from AS20504 accept AS-RTL-NL
+import:         from AS20507 accept AS-INTERNLNET
+import:         from AS20532 accept AS-FLATBOX
+import:         from AS20547 accept AS20547 # UK Solutions
+import:         from AS20562 accept AS-OPENPEERING
+import:         from AS20634 accept AS-LIECOMTEL
+import:         from AS20639 accept AS-NETLAND
+import:         from AS20640 accept AS-TITANNET
+import:         from AS20676 accept AS-QSC
+import:         from AS20679 accept AS-HSO
+import:         from AS20834 accept AS-CALADAN
+import:         from AS20847 accept AS-INTROWEB
+import:         from AS20857 accept AS20857 # Transit IP NL
+import:         from AS20932 accept AS-IP-MAN
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS20953 accept AS20953 # Info-NL
+import:         from AS20976 accept AS-HOTLINKS
+import:         from AS21055 accept AS-WEBTAPESTRY
+import:         from AS21155 accept AS-PROSERVE
+import:         from AS21221 accept AS-INFOPACT
+import:         from AS21478 accept AS-PLEX
+import:         from AS21502 accept AS21502 # NC-NUMERICABLE
+import:         from AS22822 accept AS22822 # Limelight Networks
+import:         from AS24587 accept AS24587 # NL IO
+import:         from AS24642 accept AS-CAVEO
+import:         from AS24730 accept AS-NETHOLDING
+import:         from AS24841 accept AS-SUPERNEWS
+import:         from AS24875 accept AS-ISPSERVICES
+import:         from AS24974 accept AS-TACHYON-EU
+import:         from AS25232 accept AS-ROKSCOM
+import:         from AS25310 accept AS-CW
+import:         from AS25462 accept AS-RETN
+import:         from AS25463 accept AS25463 # RIPE NCC
+import:         from AS25542 accept AS-DENIT
+import:         from AS25596 accept AS-CAMBRIUM
+import:         from AS26531 accept AS-NEXUS
+import:         from AS27299 accept AS27299 # CIRA Canadian
+import:         from AS28677 accept AS-AMEN
+import:         from AS28788 accept AS-UNILOGIC
+import:         from AS28836 accept AS28836 # IC-S NL
+import:         from AS28877 accept AS-AZURIA
+import:         from AS28878 accept AS-SIGNET
+import:         from AS29017 accept AS-GYRON
+import:         from AS29055 accept AS-PRODIGY
+import:         from AS29131 accept AS-RAPIDSWITCH
+import:         from AS29263 accept AS-HAAGNET
+import:         from AS29396 accept AS-UNET
+import:         from AS29502 accept AS-INSTANTXS
+import:         from AS29550 accept AS29550 # Euroconnex Network
+import:         from AS29640 accept AS-COMNED
+import:         from AS29686 accept AS-PROBENETWORKS
+import:         from AS30094 accept AS-GIGANEWS
+import:         from AS30126 accept AS30126 # ISC CDG1
+import:         from AS30776 accept AS-CASEMAISP
+import:         from AS30913 accept AS-INTERXS
+import:         from AS31221 accept AS31221 # Kasstelecom sophia
+import:         from AS31235 accept AS-SKIWEBCENTER
+import:         from AS31383 accept AS31383 # NederlandNet
+import:         from AS31458 accept AS-SMART
+import:         from AS31752 accept AS31752 # Unitz
+import:         from AS33915 accept AS-TNF
+import:         from AS34033 accept AS-MODULONET
+import:         from AS34106 accept AS-TELEGRAAF
+import:         from AS34141 accept AS-IN2IP
+import:         from AS34215 accept AS-ATINET
+import:         from AS34305 accept AS-EUROACCESS
+import:         from AS35260 accept AS35260 # IU Networks
+import:         from AS39309 accept AS-EDUTEL
+import:         from AS28677 accept AS28677 # AMEN
+import:         from AS28877 accept AS-ECGLOBAL
+import:         from AS39072 accept AS39072 # OWS
+import:         from AS47427 accept AS47427 # LIVEBANNER
+import:         from AS43646 accept AS-TDFPMM
+import:         from AS47494 accept AS47494 # SNRM
+import:         from AS43424 accept AS43424 # AS-PROCEAU
+import:         from AS34924 accept AS34924
+import:         from AS48813 accept AS48813
+import:         from AS8945 accept AS8945
+import:         from AS51095 accept AS51095
+remarks:        --------------------------------------------------
+export:         to AS3356 announce AS-BSOCOM
+export:         to AS3549 announce AS-BSOCOM
+export:         to AS42 announce AS-BSOCOM
+export:         to AS112 announce AS-BSOCOM
+export:         to AS174 announce AS-BSOCOM
+export:         to AS1103 announce AS-BSOCOM
+export:         to AS1126 announce AS-BSOCOM
+export:         to AS1140 announce AS-BSOCOM
+export:         to AS1200 announce AS-BSOCOM
+export:         to AS1257 announce AS-BSOCOM
+export:         to AS2529 announce AS-BSOCOM
+export:         to AS2611 announce AS-BSOCOM
+export:         to AS2686 announce AS-BSOCOM
+export:         to AS2818 announce AS-BSOCOM
+export:         to AS2914 announce AS-BSOCOM
+export:         to AS3209 announce AS-BSOCOM
+export:         to AS3212 announce AS-BSOCOM
+export:         to AS3213 announce AS-BSOCOM
+export:         to AS3246 announce AS-BSOCOM
+export:         to AS3262 announce AS-BSOCOM
+export:         to AS3265 announce AS-BSOCOM
+export:         to AS3291 announce AS-BSOCOM
+export:         to AS3303 announce AS-BSOCOM
+export:         to AS3333 announce AS-BSOCOM
+export:         to AS3491 announce AS-BSOCOM
+export:         to AS3602 announce AS-BSOCOM
+export:         to AS3856 announce AS-BSOCOM
+export:         to AS4004 announce AS-BSOCOM
+export:         to AS4513 announce AS-BSOCOM
+export:         to AS4589 announce AS-BSOCOM
+export:         to AS4766 announce AS-BSOCOM
+export:         to AS5089 announce AS-BSOCOM
+export:         to AS5090 announce AS-BSOCOM
+export:         to AS5410 announce AS-BSOCOM
+export:         to AS5430 announce AS-BSOCOM
+export:         to AS5436 announce AS-BSOCOM
+export:         to AS5463 announce AS-BSOCOM
+export:         to AS5568 announce AS-BSOCOM
+export:         to AS5583 announce AS-BSOCOM
+export:         to AS5587 announce AS-BSOCOM
+export:         to AS5604 announce AS-BSOCOM
+export:         to AS5612 announce AS-BSOCOM
+export:         to AS5569 announce AS-BSOCOM
+export:         to AS6320 announce AS-BSOCOM
+export:         to AS6327 announce AS-BSOCOM
+export:         to AS6461 announce AS-BSOCOM
+export:         to AS6667 announce AS-BSOCOM
+export:         to AS6728 announce AS-BSOCOM
+export:         to AS6730 announce AS-BSOCOM
+export:         to AS6735 announce AS-BSOCOM
+export:         to AS6770 announce AS-BSOCOM
+export:         to AS6774 announce AS-BSOCOM
+export:         to AS6805 announce AS-BSOCOM
+export:         to AS6830 announce AS-BSOCOM
+export:         to AS6939 announce AS-BSOCOM
+export:         to AS7132 announce AS-BSOCOM
+export:         to AS8068 announce AS-BSOCOM
+export:         to AS8195 announce AS-BSOCOM
+export:         to AS8220 announce AS-BSOCOM
+export:         to AS8341 announce AS-BSOCOM
+export:         to AS8342 announce AS-BSOCOM
+export:         to AS8404 announce AS-BSOCOM
+export:         to AS8422 announce AS-BSOCOM
+export:         to AS8447 announce AS-BSOCOM
+export:         to AS8468 announce AS-BSOCOM
+export:         to AS8546 announce AS-BSOCOM
+export:         to AS8560 announce AS-BSOCOM
+export:         to AS8586 announce AS-BSOCOM
+export:         to AS8608 announce AS-BSOCOM
+export:         to AS8642 announce AS-BSOCOM
+export:         to AS8708 announce AS-BSOCOM
+export:         to AS8737 announce AS-BSOCOM
+export:         to AS8228 announce AS-BSOCOM
+export:         to AS8784 announce AS-BSOCOM
+export:         to AS8820 announce AS-BSOCOM
+export:         to AS8839 announce AS-BSOCOM
+export:         to AS8918 announce AS-BSOCOM
+export:         to AS8928 announce AS-BSOCOM
+export:         to AS8966 announce AS-BSOCOM
+export:         to AS8975 announce AS-BSOCOM
+export:         to AS9003 announce AS-BSOCOM
+export:         to AS9009 announce AS-BSOCOM
+export:         to AS9031 announce AS-BSOCOM
+export:         to AS9143 announce AS-BSOCOM
+export:         to AS9153 announce AS-BSOCOM
+export:         to AS9264 announce AS-BSOCOM
+export:         to AS9318 announce AS-BSOCOM
+export:         to AS12222 announce AS-BSOCOM
+export:         to AS12306 announce AS-BSOCOM
+export:         to AS12322 announce AS-BSOCOM
+export:         to AS12399 announce AS-BSOCOM
+export:         to AS12414 announce AS-BSOCOM
+export:         to AS12634 announce AS-BSOCOM
+export:         to AS12670 announce AS-BSOCOM
+export:         to AS12676 announce AS-BSOCOM
+export:         to AS12713 announce AS-BSOCOM
+export:         to AS12793 announce AS-BSOCOM
+export:         to AS12859 announce AS-BSOCOM
+export:         to As12871 announce AS-BSOCOM
+export:         to AS12876 announce AS-BSOCOM
+export:         to AS12902 announce AS-BSOCOM
+export:         to AS12989 announce AS-BSOCOM
+export:         to AS13005 announce AS-BSOCOM
+export:         to AS13030 announce AS-BSOCOM
+export:         to AS13049 announce AS-BSOCOM
+export:         to AS13101 announce AS-BSOCOM
+export:         to AS13122 announce AS-BSOCOM
+export:         to AS13127 announce AS-BSOCOM
+export:         to AS13184 announce AS-BSOCOM
+export:         to AS13193 announce AS-BSOCOM
+export:         to AS13237 announce AS-BSOCOM
+export:         to AS13285 announce AS-BSOCOM
+export:         to AS13768 announce AS-BSOCOM
+export:         to AS13773 announce AS-BSOCOM
+export:         to AS14453 announce AS-BSOCOM
+export:         to AS15169 announce AS-BSOCOM
+export:         to AS15290 announce AS-BSOCOM
+export:         to AS15412 announce AS-BSOCOM
+export:         to AS15422 announce AS-BSOCOM
+export:         to AS15435 announce AS-BSOCOM
+export:         to AS15436 announce AS-BSOCOM
+export:         to AS15444 announce AS-BSOCOM
+export:         to AS15535 announce AS-BSOCOM
+export:         to AS15542 announce AS-BSOCOM
+export:         to AS15557 announce AS-BSOCOM
+export:         to AS15600 announce AS-BSOCOM
+export:         to AS15635 announce AS-BSOCOM
+export:         to AS15670 announce AS-BSOCOM
+export:         to AS15703 announce AS-BSOCOM
+export:         to AS15879 announce AS-BSOCOM
+export:         to AS16030 announce AS-BSOCOM
+export:         to AS16082 announce AS-BSOCOM
+export:         to AS16128 announce AS-BSOCOM
+export:         to AS16131 announce AS-BSOCOM
+export:         to AS16150 announce AS-BSOCOM
+export:         to AS16237 announce AS-BSOCOM
+export:         to AS16243 announce AS-BSOCOM
+export:         to AS16265 announce AS-BSOCOM
+export:         to AS16276 announce AS-BSOCOM
+export:         to AS16298 announce AS-BSOCOM
+export:         to AS19752 announce AS-BSOCOM
+export:         to AS20495 announce AS-BSOCOM
+export:         to AS20504 announce AS-BSOCOM
+export:         to AS20507 announce AS-BSOCOM
+export:         to AS20532 announce AS-BSOCOM
+export:         to AS20547 announce AS-BSOCOM
+export:         to AS20562 announce AS-BSOCOM
+export:         to AS20634 announce AS-BSOCOM
+export:         to AS20639 announce AS-BSOCOM
+export:         to AS20640 announce AS-BSOCOM
+export:         to AS20676 announce AS-BSOCOM
+export:         to AS20679 announce AS-BSOCOM
+export:         to AS20834 announce AS-BSOCOM
+export:         to AS20847 announce AS-BSOCOM
+export:         to AS20857 announce AS-BSOCOM
+export:         to AS20932 announce AS-BSOCOM
+export:         to AS20940 announce AS-BSOCOM
+export:         to AS20953 announce AS-BSOCOM
+export:         to AS20976 announce AS-BSOCOM
+export:         to AS21055 announce AS-BSOCOM
+export:         to AS21155 announce AS-BSOCOM
+export:         to AS21221 announce AS-BSOCOM
+export:         to AS21478 announce AS-BSOCOM
+export:         to AS21502 announce AS-BSOCOM
+export:         to AS22822 announce AS-BSOCOM
+export:         to AS24587 announce AS-BSOCOM
+export:         to AS24642 announce AS-BSOCOM
+export:         to AS24730 announce AS-BSOCOM
+export:         to AS24841 announce AS-BSOCOM
+export:         to AS24875 announce AS-BSOCOM
+export:         to AS24974 announce AS-BSOCOM
+export:         to AS25232 announce AS-BSOCOM
+export:         to AS25310 announce AS-BSOCOM
+export:         to AS25462 announce AS-BSOCOM
+export:         to AS25463 announce AS-BSOCOM
+export:         to AS25542 announce AS-BSOCOM
+export:         to AS25596 announce AS-BSOCOM
+export:         to AS26531 announce AS-BSOCOM
+export:         to AS27299 announce AS-BSOCOM
+export:         to AS28677 announce AS-BSOCOM
+export:         to AS28788 announce AS-BSOCOM
+export:         to AS28836 announce AS-BSOCOM
+export:         to AS28877 announce AS-BSOCOM
+export:         to AS28878 announce AS-BSOCOM
+export:         to AS29017 announce AS-BSOCOM
+export:         to AS29055 announce AS-BSOCOM
+export:         to AS29131 announce AS-BSOCOM
+export:         to AS29263 announce AS-BSOCOM
+export:         to AS29396 announce AS-BSOCOM
+export:         to AS29502 announce AS-BSOCOM
+export:         to AS29550 announce AS-BSOCOM
+export:         to AS29640 announce AS-BSOCOM
+export:         to AS29686 announce AS-BSOCOM
+export:         to AS30094 announce AS-BSOCOM
+export:         to AS30126 announce AS-BSOCOM
+export:         to AS30776 announce AS-BSOCOM
+export:         to AS30916 announce AS-BSOCOM
+export:         to AS31221 announce AS-BSOCOM
+export:         to AS31235 announce AS-BSOCOM
+export:         to AS31383 announce AS-BSOCOM
+export:         to AS31458 announce AS-BSOCOM
+export:         to AS31752 announce AS-BSOCOM
+export:         to AS33915 announce AS-BSOCOM
+export:         to AS34033 announce AS-BSOCOM
+export:         to AS34106 announce AS-BSOCOM
+export:         to AS34141 announce AS-BSOCOM
+export:         to AS34215 announce AS-BSOCOM
+export:         to AS34305 announce AS-BSOCOM
+export:         to AS35260 announce AS-BSOCOM
+export:         to AS39309 announce AS-BSOCOM
+export:         to AS39072 announce AS-BSOCOM
+export:         to AS47427 announce AS-BSOCOM
+export:         to AS43646 announce AS-BSOCOM
+export:         to AS47494 announce AS-BSOCOM
+export:         to AS43424 announce AS-BSOCOM
+export:         to AS34924 announce AS-BSOCOM
+export:         to AS48813 announce AS-BSOCOM
+export:         to AS8945 announce AS-BSOCOM
+export:         to AS5511 announce AS-BSOCOM
+export:         to AS51095 announce ANY
+export:         to AS28677 announce ANY
+export:         to AS28877 announce ANY
+remarks:        ----------- Community list -----------
+remarks:        31216:1 Deny OUT Global
+remarks:        31216:2 Deny OUT EU
+remarks:        31216:3 Deny OUT AMERICA
+remarks:        31216:4 Deny OUT Asia
+remarks:        31216:5 Deny OUT ME
+remarks:        31216:11 prepend x3 Global
+remarks:        31216:12 prepend x3 EU
+remarks:        31216:13 prepend x3 AMERICA
+remarks:        31216:14 prepend x3 Asia
+remarks:        31216:15 prepend x3 ME
+remarks:        31216:20 Level3 Deny
+remarks:        31216:21 Level3 Prepend x1
+remarks:        31216:22 Level3 Prepend x2
+remarks:        31216:23 Level3 Prepend x3
+remarks:        31216:30 OpenTransit Deny
+remarks:        31216:31 OpenTransit Prepend x1
+remarks:        31216:32 OpenTransit Prepend x2
+remarks:        31216:33 OpenTransit Prepend x3
+remarks:        31216:60 Telstra Deny
+remarks:        31216:61 Telstra Prepend x1
+remarks:        31216:62 Telstra Prepend x2
+remarks:        31216:63 Telstra Prepend x3
+remarks:        31216:80 TATA Deny
+remarks:        31216:81 TATA Prepend x1
+remarks:        31216:82 TATA Prepend x2
+remarks:        31216:83 TATA Prepend x3
+remarks:        31216:90 Hopus Deny
+remarks:        31216:91 Hopus Prepend x1
+remarks:        31216:92 Hopus Prepend x2
+remarks:        31216:93 Hopus Prepend x3
+remarks:        31216:100 from Level3
+remarks:        31216:101 from Level3 FR
+remarks:        31216:102 from Level3 NY
+remarks:        31216:103 from Level3 SJ
+remarks:        31216:104 from Level3 UK
+remarks:        31216:105 from Level3 IT
+remarks:        31216:106 from Level3 NL
+remarks:        31216:107 from Level3 JP
+remarks:        31215:120 from OpenTransit
+remarks:        31215:121 from OpenTransit FR
+remarks:        31215:130 from TATA
+remarks:        31215:131 from TATA FR
+remarks:        31215:131 from TATA NY
+remarks:        31215:140 from Telstra
+remarks:        31215:141 from Telstra HK
+remarks:        31215:142 from Telstra JP
+remarks:        31215:150 from HOPUS
+remarks:        31216:200 from EU IX
+remarks:        31216:201 from France IX
+remarks:        31216:202 from Equinix IX Paris
+remarks:        31216:203 from LINX
+remarks:        31216:204 from SFINX
+remarks:        31216:205 from DE-CIX FRA
+remarks:        31216:206 from DE-CIX MAD
+remarks:        31216:207 from AMS-IX
+remarks:        31216:210 from Asia IX
+remarks:        31216:211 from UAE-IX
+remarks:        31216:220 from US IX
+remarks:        31216:221 from Equinix IX San Jose
+remarks:        31216:250 from France
+remarks:        31216:251 from UK
+remarks:        31216:252 from Germany
+remarks:        31216:253 from Netherlands
+remarks:        31216:254 from Italy
+remarks:        31216:260 from New York
+remarks:        31216:261 from Chicago
+remarks:        31216:262 from California
+remarks:        31216:270 from Japan
+remarks:        31216:271 from Hong Kong
+remarks:        31216:272 from Singapore
+remarks:        31216:280 from UAE
+remarks:        31216:300 FranceIX Deny
+remarks:        31216:301 FranceIX Prepend x1
+remarks:        31216:302 FranceIX Prepend x2
+remarks:        31216:303 FranceIX Prepend x3
+remarks:        31216:309 FranceIX Deny RS
+remarks:        31216:310 Equinix IX Paris Deny
+remarks:        31216:311 Equinix IX Paris Prepend x1
+remarks:        31216:312 Equinix IX Paris Prepend x2
+remarks:        31216:313 Equinix IX Paris Prepend x3
+remarks:        31216:319 Equinix IX Paris Deny RS
+remarks:        31216:320 LINX Deny
+remarks:        31216:321 LINX Prepend x1
+remarks:        31216:322 LINX Prepend x2
+remarks:        31216:323 LINX Prepend x3
+remarks:        31216:329 LINX Deny RS
+remarks:        31216:330 SFINX Deny
+remarks:        31216:331 SFINX Prepend x1
+remarks:        31216:332 SFINX Prepend x2
+remarks:        31216:333 SFINX Prepend x3
+remarks:        31216:339 SFINX Deny RS
+remarks:        31216:340 DE-CIX FRA Deny
+remarks:        31216:341 DE-CIX FRA Prepend x1
+remarks:        31216:342 DE-CIX FRA Prepend x2
+remarks:        31216:343 DE-CIX FRA Prepend x3
+remarks:        31216:349 DE-CIX FRA Deny RS
+remarks:        31216:350 DE-CIX MAD Deny
+remarks:        31216:351 DE-CIX MAD Prepend x1
+remarks:        31216:352 DE-CIX MAD Prepend x2
+remarks:        31216:353 DE-CIX MAD Prepend x3
+remarks:        31216:359 DE-CIX MAD Deny RS
+remarks:        31216:360 AMS-IX Deny
+remarks:        31216:361 AMS-IX Prepend x1
+remarks:        31216:362 AMS-IX Prepend x2
+remarks:        31216:363 AMS-IX Prepend x3
+remarks:        31216:369 AMS-IX Deny RS
+remarks:        31216:370 LINX Deny
+remarks:        31216:371 LINX prepend x1
+remarks:        31216:372 LINX prepend x2
+remarks:        31216:373 LINX prepend x3
+remarks:        31216:379 LINX Deny RS
+remarks:        31216:380 UAEFIX Deny
+remarks:        31216:381 UAEFIX Prepend x1
+remarks:        31216:382 UAEFIX Prepend x2
+remarks:        31216:383 UAEFIX Prepend x3
+remarks:        31216:389 UAEFIX Deny RS
+remarks:        31216:390 Equinix IX SJ Deny
+remarks:        31216:391 Equinix IX SJ Prepend x1
+remarks:        31216:392 Equinix IX SJ Prepend x2
+remarks:        31216:393 Equinix IX SJ Prepend x3
+remarks:        31216:394 Equinix IX SJ Deny RS
+remarks:        31216:666 RTBH
+remarks:        31216:3000 Customer Transit
+remarks:        31216:3010 Customer Transit EU
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:
+admin-c:        BSOC-RIPE
+tech-c:         MO876-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         BSOCOM-MNT
+created:        2004-03-24T11:06:43Z
+last-modified:  2018-05-21T11:20:54Z
+source:         RIPE
+
+organisation:   ORG-BCS3-RIPE
+org-name:       BSO Network Solutions SAS
+org-type:       LIR
+address:        81 avenue Francois Arago
+address:        92000
+address:        Nanterre
+address:        FRANCE
+phone:          +33177361100
+admin-c:        CB2464-RIPE
+admin-c:        BD3262-RIPE
+admin-c:        MO876-RIPE
+mnt-ref:        BSOCOM-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         BSOCOM-MNT
+abuse-c:        BSOC-RIPE
+created:        2006-07-28T10:11:04Z
+last-modified:  2017-02-06T13:08:11Z
+source:         RIPE # Filtered
+
+role:           BSO Communication NOC
+address:        81 avenue Francois Arago
+address:        92000 Nanterre
+address:        France
+nic-hdl:        BSOC-RIPE
+admin-c:        MO876-RIPE
+admin-c:        CB2464-RIPE
+tech-c:         MO876-RIPE
+remarks:        ------------------------------------------------------------
+remarks:        Please report any problem to eusupport@bsonetwork.com
+remarks:        ------------------------------------------------------------
+remarks:        For any peering request contact us at peering@bsonetwork.com
+remarks:        ------------------------------------------------------------
+mnt-by:         BSOCOM-MNT
+created:        2004-04-02T19:42:20Z
+last-modified:  2013-06-03T21:12:55Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@bsonetwork.com
+
+person:         Michael Ourabah
+address:        BSO Network Solutions
+address:        19 rue Emile Duclaux
+address:        92150 Suresnes
+address:        FRANCE
+phone:          +44 2072224555
+fax-no:         +33 1 47 17 64 96
+nic-hdl:        MO876-RIPE
+mnt-by:         BSOCOM-MNT
+created:        2004-04-02T19:26:16Z
+last-modified:  2016-03-19T00:38:23Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

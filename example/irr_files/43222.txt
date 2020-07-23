@@ -1,0 +1,153 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS43222
+as-name:       CRIMEAN_INTERNET_EXCHANGE_AUTONOMOUS_SYSTEM
+descr:         Republic of Crimea , Russian Federation, Simferopol
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS28761 accept AS-SEVSKY-CRIMEA-IX
+import:        from AS6789 accept AS-CRELCOM
+import:        from AS8654 accept AS-CRIMEAINFOCOM
+import:        from AS12507 accept AS-SWIFT-TRACE
+import:        from AS42896 accept AS-ACSGROUP
+import:        from AS42239 accept AS-FARLINE
+import:        from AS25203 accept AS-SIMFINET
+import:        from AS12408 accept AS-BIKENT
+import:        from AS43802 accept AS-MYST
+import:        from AS41161 accept AS-REALWEB
+import:        from AS50949 accept AS50949
+import:        from AS12883 accept AS-UCOMLINE
+import:        from AS196705 accept AS-ARDINVEST
+import:        from AS48330 accept AS48330
+import:        from AS43400 accept AS43400
+import:        from AS35816 accept AS-LANCOM
+import:        from AS42238 accept AS-BOSPOR
+import:        from AS15169 accept AS15169
+import:        from AS201069 accept AS-SET-APEX
+import:        from AS44387 accept AS44387
+import:        from AS198293 accept AS198293
+import:        from AS59823 accept AS59823
+import:        from AS51211 accept AS51211
+import:        from AS205515 accept AS205515
+import:        from AS59808 accept AS59808
+import:        from AS57629 accept AS57629
+import:        from AS34879 accept AS34879
+import:        from AS50169 accept AS50169
+import:        from AS13238 accept AS-YANDEX
+import:        from AS203139 accept AS203139
+import:        from AS197152 accept AS197152
+import:        from AS204161 accept AS204161
+import:        from AS43822 accept AS43822
+import:        from AS200420 accept AS200420
+import:        from AS204259 accept AS204259
+import:        from AS196665 accept AS196665
+import:        from AS35381 accept AS35381
+import:        from AS41269 accept AS41269
+import:        from AS42975 accept AS42975
+import:        from AS47349 accept AS47349
+import:        from AS58000 accept AS58000
+import:        from AS198669 accept AS198669
+import:        from AS41308 accept AS41308
+import:        from AS59833 accept AS59833
+import:        from AS48722 accept AS-CRISTAL-NET
+import:        from AS206448 accept AS206448
+import:        from AS21030 accept AS21030
+import:        from AS5593 accept AS-CRIS
+import:        from AS57679 accept AS57679
+import:        from AS57899 accept AS57899
+import:        from AS51214 accept AS51214
+import:        from AS48004 accept AS48004
+import:        from AS200922 accept AS200922
+import:        from AS50042 accept AS50042
+import:        from AS59744 accept AS59744
+import:        from AS41227 accept AS41227
+import:        from AS200702 accept AS200702
+import:        from AS56587 accept AS56587
+import:        from AS43936 accept AS43936
+import:        from AS35680 accept AS35680
+import:        from AS48086 accept AS48086
+import:        from AS44533 accept AS44533
+export:        to AS5593 announce AS-CRIMEA-IX
+export:        to AS21030 announce AS-CRIMEA-IX
+export:        to AS57679 announce AS-CRIMEA-IX
+export:        to AS51214 announce AS-CRIMEA-IX
+export:        to AS205515 announce AS-CRIMEA-IX
+export:        to AS48004 announce AS-CRIMEA-IX
+export:        to AS200922 announce AS-CRIMEA-IX
+export:        to AS44533 announce AS-CRIMEA-IX
+export:        to AS50042 announce AS-CRIMEA-IX
+export:        to AS59744 announce AS-CRIMEA-IX
+export:        to AS41227 announce AS-CRIMEA-IX
+export:        to AS200702 announce AS-CRIMEA-IX
+export:        to AS56587 announce AS-CRIMEA-IX
+export:        to AS43936 announce AS-CRIMEA-IX
+export:        to AS57899 announce AS-CRIMEA-IX
+export:        to AS48722 announce AS-CRIMEA-IX
+export:        to AS59833 announce AS-CRIMEA-IX
+export:        to AS41308 announce AS-CRIMEA-IX
+export:        to AS198669 announce AS-CRIMEA-IX
+export:        to AS58000 announce AS-CRIMEA-IX
+export:        to AS47349 announce AS-CRIMEA-IX
+export:        to AS204259 announce AS-CRIMEA-IX
+export:        to AS42975 announce AS-CRIMEA-IX
+export:        to AS41269 announce AS-CRIMEA-IX
+export:        to AS35381 announce AS-CRIMEA-IX
+export:        to AS196665 announce AS-CRIMEA-IX
+export:        to AS200420 announce AS-CRIMEA-IX
+export:        to AS43822 announce AS-CRIMEA-IX
+export:        to AS204161 announce AS-CRIMEA-IX
+export:        to AS197152 announce AS-CRIMEA-IX
+export:        to AS203139 announce AS-CRIMEA-IX
+export:        to AS13238 announce AS-CRIMEA-IX
+export:        to AS50169 announce AS-CRIMEA-IX
+export:        to AS28761 announce AS-CRIMEA-IX
+export:        to AS6789 announce AS-CRIMEA-IX
+export:        to AS8654 announce AS-CRIMEA-IX
+export:        to AS12507 announce AS-CRIMEA-IX
+export:        to AS42896 announce AS-CRIMEA-IX
+export:        to AS42239 announce AS-CRIMEA-IX
+export:        to AS25203 announce AS-CRIMEA-IX
+export:        to AS12408 announce AS-CRIMEA-IX
+export:        to AS43802 announce AS-CRIMEA-IX
+export:        to AS41161 announce AS-CRIMEA-IX
+export:        to AS50949 announce AS-CRIMEA-IX
+export:        to AS12883 announce AS-CRIMEA-IX
+export:        to AS196705 announce AS-CRIMEA-IX
+export:        to AS48330 announce AS-CRIMEA-IX
+export:        to AS43400 announce AS-CRIMEA-IX
+export:        to AS35816 announce AS-CRIMEA-IX
+export:        to AS42238 announce AS-CRIMEA-IX
+export:        to AS15169 announce AS-CRIMEA-IX
+export:        to AS201069 announce AS-CRIMEA-IX
+export:        to AS44387 announce AS-CRIMEA-IX
+export:        to AS59823 announce AS-CRIMEA-IX
+export:        to AS51211 announce AS-CRIMEA-IX
+export:        to AS59808 announce AS-CRIMEA-IX
+export:        to AS57629 announce AS-CRIMEA-IX
+export:        to AS34879 announce AS-CRIMEA-IX
+export:        to AS206448 announce AS-CRIMEA-IX
+export:        to AS35680 announce AS-CRIMEA-IX
+export:        to AS48086 announce AS-CRIMEA-IX
+remarks:       
+remarks:       -=-=-=-=-=-=-=-=-=-=-=- Crimean Peers -=-=-=-=-=-=-=-=-=-=-=-
+remarks:       Communities accepted from Customers:
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       1. 0:43222 Do not advertise to any peer
+remarks:       2. 0:<peer-as> Do not advertise to <peer-as>
+remarks:       3. 43222:43222 Advertise to all peers
+remarks:       -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        noc@crimea-ix.net
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        CRIMEA-MNT
+source:        RIPE
+
+

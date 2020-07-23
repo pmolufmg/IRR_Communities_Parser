@@ -1,0 +1,253 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS25251 - AS25361'
+
+as-block:       AS25251 - AS25361
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:30Z
+last-modified:  2018-11-22T15:27:30Z
+source:         RIPE
+
+% Information related to 'AS25309'
+
+% Abuse contact for 'AS25309' is 'networking@top-ix.org'
+
+aut-num:        AS25309
+as-name:        TOPIX-AS
+descr:          Consorzio Topix - Torino e Piemonte Exchange Point
+descr:          Torino - ITALY
+org:            ORG-CTIT2-RIPE
+remarks:        -----------------------------------------------------
+remarks:        Information: http://www.top-ix.org/
+remarks:        Peering requests: networking@top-ix.org
+remarks:        Members technical support: networking@top-ix.org
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        The following communities are applied by the route-server:
+remarks:
+remarks:        *****************************************************
+remarks:        ** WARNING
+remarks:        ** You should not set any of these by yourself
+remarks:        ** If you do so, your routes will be rejected
+remarks:        *****************************************************
+remarks:        25309:64900 = Prefix received from a peer on TOP-IX
+remarks:        25309:64901 = Prefix received from a peer on LyonIX
+remarks:        25309:64902 = Prefix received from a peer on VSIX
+remarks:        25309:64903 = Prefix received from a peer on FranceIX
+remarks:        -----------------------------------------------------
+remarks:        The following communities can be used by members on our Route-Servers:
+remarks:
+remarks:        *****************************************************
+remarks:        ** Note: These communities are evaluated
+remarks:        ** on a "first match win" basis
+remarks:        *****************************************************
+remarks:        0:peer-as = Don't send route to this peer as
+remarks:        25309:peer-as = Send route to this peer as
+remarks:        0:25309 = Don't send route to any peer
+remarks:        25309:25309 = Send route to all peers
+remarks:        *****************************************************
+remarks:        ** Communities for Google Cache hosted in TOP-IX
+remarks:        *****************************************************
+remarks:        0:65535 = Don't send route to GC1
+remarks:        0:11344 = Don't send route to GC2
+remarks:        *****************************************************
+remarks:        ** Note: the community (25309: 25309) is applied
+remarks:        ** by default by the route-server
+remarks:        *****************************************************
+remarks:        25309:65000 =  Send route to TOP-IX's members
+remarks:        0:65000 = Don't send route to TOP-IX's members
+remarks:        25309:65001 =  Send route to LyonIX's members
+remarks:        0:65001 = Don't send route to LyonIX's members
+remarks:        25309:65002 = Send route to VSIX's members
+remarks:        0:65002 =  Don't send route to VSIX's members
+remarks:        25309:65003 =  Send route to FranceIX's members
+remarks:        0:65003 =  Don't send route to VSIX's members
+remarks:        -----------------------------------------------------
+remarks:        Prepend and MED
+remarks:
+remarks:        65001:peer-as = Prepend 1 for peer-as
+remarks:        65002:peer-as = Prepend 2 for peer-as
+remarks:        65003:peer-as = Prepend 3 for peer-as
+remarks:        65101:peer-as = MED 50 for peer-as
+remarks:        65102:peer-as = MED 100 for peer-as
+remarks:        65103:peer-as = MED 200 for peer-as
+remarks:
+remarks:        25309:65101 = prepend 1 for all TOP-IX's members
+remarks:        25309:65102 = prepend 2 for all TOP-IX's members
+remarks:        25309:65103 = prepend 3 for all TOP-IX's members
+remarks:        25309:65111 = prepend 1 for all LyonIX's members
+remarks:        25309:65112 = prepend 2 for all LyonIX's members
+remarks:        25309:65113 = prepend 3 for all LyonIX's members
+remarks:        25309:65121 = prepend 1 for all VSIX's members
+remarks:        25309:65122 = prepend 2 for all VSIX's members
+remarks:        25309:65123 = prepend 3 for all VSIX's members
+remarks:        25309:65131 = prepend 1 for all FranceIX's members
+remarks:        25309:65132 = prepend 2 for all FranceIX's members
+remarks:        25309:65133 = prepend 3 for all FranceIX's members
+remarks:
+remarks:        25309:65301 = MED 50 for all TOP-IX's members
+remarks:        25309:65302 = MED 100 for all TOP-IX's members
+remarks:        25309:65303 = MED 200 for all TOP-IX's members
+remarks:        25309:65311 = MED 50 for all LyonIX's members
+remarks:        25309:65312 = MED 100 for all LyonIX's members
+remarks:        25309:65313 = MED 200 for all LyonIX's members
+remarks:        25309:65321 = MED 50 for all VSIX's members
+remarks:        25309:65322 = MED 100 for all VSIX's members
+remarks:        25309:65323 = MED 200 for all VSIX's members
+remarks:        25309:65331 = MED 50 for all FranceIX's members
+remarks:        25309:65332 = MED 100 for all FranceIX's members
+remarks:        25309:65333 = MED 200 for all FranceIX's members
+remarks:        -----------------------------------------------------
+remarks:        Set peer-as value as listed below for 32 bits ASNs:
+remarks:
+remarks:        198240 => 64600 DIGISAT (VSIX)
+remarks:        196983 => 64601 ELSYNET (TOP-IX)
+remarks:        199125 => 64602 ALLIANCE-RESEAUX (TOP-IX)
+remarks:        198287 => 64603 CNSI (FRANCE-IX)
+remarks:        198435 => 64604 EDX Network (LYON-IX)
+remarks:        199837 => 64605 3P System (VSIX)
+remarks:        200794 => 64606 ZGELETTRONICA (VSIX)
+remarks:        199947 => 64607 Nexus (VSIX)
+remarks:        200043 => 64608 Cesena Net S.r.l. (VSIX)
+remarks:        201877 => 64609 NETandWORK (VSIX)
+remarks:        199547 => 64610 Voix s.r.l. (VSIX)
+remarks:        200480 => 64611 Pasubio Tecnologia S.r.l. (VSIX)
+remarks:        203223 => 64612 Unica Telecomunicazioni (VSIX)
+remarks:        207028 => 64613 Associazione Senza Fili Senza
+remarks:        198721 => 64614 Progetto8 (VSIX)
+remarks:        203367 => 64615 SailWeb S.r.l
+remarks:        205005 => 64616 Misco S.r.l
+remarks:        205926 => 64617 Auxilium S.r.l
+remarks:        201198 => 64618 Airgrid S.r.l
+remarks:        210144 => 64619 Zadea S.r.l
+remarks:        205139 => 64620 Lepida SPA
+remarks:        -----------------------------------------------------
+remarks:
+remarks:        Communities that are in the public range
+remarks:        (1-64495:x) and (131072-4199999999:x)
+remarks:        will be preserved by the route-servers
+remarks:        -----------------------------------------------------
+remarks:
+remarks:        Martians or RFC1918 ** are rejected ** on Route Servers
+remarks:        -----------------------------------------------------
+import:         from AS2594 action pref=100; accept AS2594
+import:         from AS12779 action pref=100; accept AS12779
+import:         from AS12874 action pref=100; accept AS12874
+import:         from AS12797 action pref=100; accept AS12797
+import:         from AS12761 action pref=100; accept AS12761
+import:         from AS3269 action pref=100; accept AS3269
+import:         from AS16210 action pref=100; accept AS16210
+import:         from AS2686 action pref=100; accept AS2686
+import:         from AS13113 action pref=100; accept AS13113
+import:         from AS12974 action pref=100; accept AS12974
+import:         from AS2595 action pref=100; accept AS2595
+import:         from AS5609 action pref=100; accept AS5609
+export:         to AS2594 announce AS25309
+export:         to AS12779 announce AS25309
+export:         to AS12797 announce AS25309
+export:         to AS12761 announce AS25309
+export:         to AS3269 announce AS25309
+export:         to AS16210 announce AS25309
+export:         to AS2686 announce AS25309
+export:         to AS13113 announce AS25309
+export:         to AS12974 announce AS25309
+export:         to AS2595 announce AS25309
+export:         to AS5609 announce AS25309
+admin-c:        BB3486
+tech-c:         RR4744-RIPE
+tech-c:         LB313-RIPE
+tech-c:         GR5326-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         CSP-MNT
+mnt-by:         TOPIX-MNT
+mnt-lower:      CSP-MNT
+mnt-lower:      TOPIX-MNT
+created:        2002-09-26T14:07:25Z
+last-modified:  2018-12-10T14:13:27Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CTIT2-RIPE
+org-name:       CONSORZIO TOP IX - TORINO E PIEMONTE EXCHANGE POINT CC
+org-type:       LIR
+address:        Via Maria Vittoria 38
+address:        10123
+address:        Torino
+address:        ITALY
+phone:          +390118390191
+fax-no:         +390118802619
+abuse-c:        AC32171-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TOPIX-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TOPIX-MNT
+created:        2014-10-23T13:43:06Z
+last-modified:  2016-07-07T09:36:42Z
+source:         RIPE # Filtered
+
+person:         Roberto Borri
+address:        CSP s.c. a r.l.
+address:        Strada del Lionetto, 6
+address:        I-10146 Torino
+address:        Italy
+phone:          +39 011 4815184
+fax-no:         +39 011 4815001
+nic-hdl:        BB3486
+mnt-by:         CSP-MNT
+created:        2002-07-29T10:17:40Z
+last-modified:  2016-09-08T08:55:03Z
+source:         RIPE # Filtered
+
+person:         Gabriele Rocca
+address:        Via Maria Vittoria 38 - 10123 Torino, Italy
+phone:          +39(011)8390191
+nic-hdl:        GR5326-RIPE
+created:        2010-06-14T08:26:03Z
+last-modified:  2016-07-07T09:55:37Z
+source:         RIPE # Filtered
+mnt-by:         TOPIX-MNT
+
+person:         Luca Broglio
+address:        CSP
+address:        strada del lionetto, 6
+address:        I-10146 Torino
+address:        Italy
+phone:          +39 011 4815111
+fax-no:         +39 011 4815001
+nic-hdl:        LB313-RIPE
+mnt-by:         CSP-MNT
+created:        2002-07-29T10:16:38Z
+last-modified:  2018-09-03T09:04:01Z
+source:         RIPE # Filtered
+
+person:         Roberto Recchia
+address:        CSP s.c. a r.l.
+address:        Innovazione nelle ICT
+address:        Strada del Lionetto, 6
+address:        I-10146 - Torino - Italy
+phone:          +39 011 4815111
+fax-no:         +39 011 4815001
+nic-hdl:        RR4744-RIPE
+mnt-by:         AEMNET-MNT
+created:        2002-07-12T12:35:56Z
+last-modified:  2018-08-23T09:20:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

@@ -1,0 +1,813 @@
+aut-num:        AS21013
+org:            ORG-iEWA1-RIPE
+as-name:        ITANDTEL-AS
+descr:          Wels, AT
+remarks:        ---------------------------------------------
+remarks:        IPv4 UPSTREAMS
+remarks:        ---------------------------------------------
+import:         from AS174 accept ANY
+import:         from AS1764 accept ANY
+import:         from AS2914 accept ANY
+import:         from AS3257 accept ANY
+import:         from AS3356 accept ANY
+import:         from AS6830 accept ANY
+import:         from AS8928 accept ANY
+import:         from AS12605 accept ANY
+export:         to AS174 announce AS-ITANDTEL
+export:         to AS1764 announce AS-ITANDTEL
+export:         to AS2914 announce AS-ITANDTEL
+export:         to AS3257 announce AS-ITANDTEL
+export:         to AS3356 announce AS-ITANDTEL
+export:         to AS6830 announce AS-ITANDTEL
+export:         to AS8928 announce AS-ITANDTEL
+export:         to AS12605 announce AS-ITANDTEL
+remarks:        ---------------------------------------------
+remarks:        IPv6 UPSTREAMS
+remarks:        ---------------------------------------------
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-import:      afi ipv6.unicast from AS1764 accept ANY
+mp-import:      afi ipv6.unicast from AS2914 accept ANY
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-import:      afi ipv6.unicast from AS6939 accept ANY
+mp-import:      afi ipv6.unicast from AS12605 accept ANY
+mp-import:      afi ipv6.unicast from AS13030 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS1764 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS2914 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS3257 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS3356 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS12605 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS13030 announce AS-ITANDTEL-IPV6
+remarks:        ---------------------------------------------
+remarks:        IPv4 CUSTOMERS
+remarks:        ---------------------------------------------
+import:         from AS3330 accept AS-PROFINET
+import:         from AS12991 accept AS12991
+import:         from AS28919 accept AS28919
+import:         from AS29085 accept AS29085
+import:         from AS30946 accept AS30946
+import:         from AS34318 accept AS-MINNIBERGER
+import:         from AS34694 accept AS34694
+import:         from AS34785 accept AS-SET-STW
+import:         from AS39285 accept AS39285
+import:         from AS39555 accept AS-SCHWAZ-NET
+import:         from AS41384 accept AS41384
+import:         from AS43848 accept AS43848
+import:         from AS44760 accept AS44760
+import:         from AS49864 accept AS49864
+import:         from AS38955 accept AS38955
+import:         from AS47297 accept AS47297
+import:         from AS51187 accept AS51187
+import:         from AS61022 accept AS61022
+import:         from AS12447 accept AS12447
+import:         from AS196668 accept AS196668
+import:         from AS200932 accept AS200932
+import:         from AS206778 accept AS206778
+import:         from AS204560 accept AS-LENZEDER
+import:         from AS205687 accept AS205687
+import:         from AS205202 accept AS205202
+export:         to AS3330 announce ANY
+export:         to AS12991 announce ANY
+export:         to AS29085 announce ANY
+export:         to AS28919 announce ANY
+export:         to AS30946 announce ANY
+export:         to AS34318 announce ANY
+export:         to AS34694 announce ANY
+export:         to AS34785 announce ANY
+export:         to AS39285 announce ANY
+export:         to AS39555 announce ANY
+export:         to AS41384 announce ANY
+export:         to AS43848 announce ANY
+export:         to AS44760 announce ANY
+export:         to AS38955 announce ANY
+export:         to AS47297 announce ANY
+export:         to AS49864 announce ANY
+export:         to AS51187 announce ANY
+export:         to AS61022 announce ANY
+export:         to AS12447 announce ANY
+export:         to AS196668 announce ANY
+export:         to AS200932 announce ANY
+export:         to AS206778 announce ANY
+export:         to AS204560 announce ANY
+export:         to AS205687 announce ANY
+export:         to AS205202 announce ANY
+remarks:        ---------------------------------------------
+remarks:        IPv6 CUSTOMERS
+remarks:        ---------------------------------------------
+mp-import:      afi ipv6.unicast from AS12991 accept AS12991
+mp-import:      afi ipv6.unicast from AS28919 accept AS28919
+mp-import:      afi ipv6.unicast from AS34318 accept AS-MINNIBERGER
+mp-import:      afi ipv6.unicast from AS34694 accept AS34694
+mp-import:      afi ipv6.unicast from AS34785 accept AS-SET-STW
+mp-import:      afi ipv6.unicast from AS38955 accept AS38955
+mp-import:      afi ipv6.unicast from AS39555 accept AS-SCHWAZ-NET
+mp-import:      afi ipv6.unicast from AS44760 accept AS44760
+mp-import:      afi ipv6.unicast from AS49864 accept AS49864
+mp-import:      afi ipv6.unicast from AS61022 accept AS61022
+mp-import:      afi ipv6.unicast from AS200932 accept AS200932
+mp-import:      afi ipv6.unicast from AS205202 accept AS205202
+mp-export:      afi ipv6.unicast to AS12991 announce ANY
+mp-export:      afi ipv6.unicast to AS28919 announce ANY
+mp-export:      afi ipv6.unicast to AS34318 announce ANY
+mp-export:      afi ipv6.unicast to AS34694 announce ANY
+mp-export:      afi ipv6.unicast to AS34785 announce ANY
+mp-export:      afi ipv6.unicast to AS38955 announce ANY
+mp-export:      afi ipv6.unicast to AS39555 announce ANY
+mp-export:      afi ipv6.unicast to AS44760 announce ANY
+mp-export:      afi ipv6.unicast to AS49864 announce ANY
+mp-export:      afi ipv6.unicast to AS61022 announce ANY
+mp-export:      afi ipv6.unicast to AS200932 announce ANY
+mp-export:      afi ipv6.unicast to AS205202 announce ANY
+remarks:        ---------------------------------------------
+remarks:        IPv4 DE-CIX PEERINGS
+remarks:        ---------------------------------------------
+import:         from AS42 accept AS-PCH
+import:         from AS714 accept AS-APPLE
+import:         from AS1248 accept AS-NOK
+import:         from AS1267 accept AS-INFOSTRADA
+import:         from AS2484 accept AS-AFNIC
+import:         from AS2857 accept AS-RLP-NET
+import:         from AS3223 accept AS-VOXILITY-SET
+import:         from AS3327 accept AS-LINXTELECOM-DECIX
+import:         from AS3856 accept AS-PCH
+import:         from AS4788 accept AS-TMNET-CUSTOMERS
+import:         from AS5603 accept AS-SIOL
+import:         from AS5605 accept AS-NETUSE
+import:         from AS6661 accept AS-PTLU
+import:         from AS6695 accept AS-DECIX
+import:         from AS6730 accept AS-GLOBAL
+import:         from AS6805 accept AS-TDDE
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS7342 accept AS-GTLD
+import:         from AS8075 accept AS-MICROSOFT
+import:         from AS8262 accept AS-EVOLINK
+import:         from AS8308 accept AS-NASK
+import:         from AS8359 accept AS-MTU
+import:         from AS8365 accept AS-MANDA
+import:         from AS8422 accept AS-NETCOLOGNE
+import:         from AS8551 accept AS-BEZEQ-INTERNATIONAL
+import:         from AS8560 accept AS-1AND1
+import:         from AS8708 accept AS-RDSNET
+import:         from AS8741 accept AS-RATIOKONTAKT
+import:         from AS8781 accept AS-QTEL-SET
+import:         from AS8859 accept AS-OSN
+import:         from AS8878 accept AS-NFON
+import:         from AS8879 accept AS-DTS
+import:         from AS8966 accept AS-EMIX
+import:         from AS9044 accept AS-SOLNET
+import:         from AS9116 accept AS-GOLDEN
+import:         from AS9189 accept AS-ACCOM
+import:         from AS10310 accept AS-YAHOO
+import:         from AS12041 accept AS12041:AS-AFILIAS
+import:         from AS12713 accept AS-OTEGLOBE
+import:         from AS12874 accept AS-FASTWEB
+import:         from AS13030 accept AS13030:AS-INIT7
+import:         from AS13157 accept AS-GOPAS
+import:         from AS13184 accept AS-HANSENET
+import:         from AS13285 accept AS-OPAL
+import:         from AS13335 accept AS13335
+import:         from AS13445 accept AS13445
+import:         from AS15133 accept AS-EDGECAST
+import:         from AS15169 accept AS-GOOGLE
+import:         from AS16276 accept AS-OVH
+import:         from AS16509 accept AS-AMAZON
+import:         from AS19151 accept AS-BBOI
+import:         from AS20562 accept AS-OPENPEERING-EU
+import:         from AS20647 accept AS-IPB
+import:         from AS20764 accept AS-RASCOM
+import:         from AS20811 accept AS-BCOMIT
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS21336 accept AS-IR
+import:         from AS21385 accept AS-TNIB
+import:         from AS22822 accept AS22822
+import:         from AS23393 accept AS-ISPRIME
+import:         from AS25279 accept AS-TREML-STURM
+import:         from AS29076 accept AS-CITYTELECOM
+import:         from AS29140 accept AS-HOSTSERVER
+import:         from AS29208 accept AS-DIALTELECOM
+import:         from AS31019 accept AS-MEANIE
+import:         from AS31103 accept AS-KEYWEB
+import:         from AS31529 accept AS31529
+import:         from AS32787 accept AS-PROLE
+import:         from AS32934 accept AS32934
+import:         from AS32934 accept AS32934
+import:         from AS33873 accept AS-ARVATO
+import:         from AS34309 accept AS-LINK11
+import:         from AS36408 accept AS-36408
+import:         from AS41692 accept AS-OPENCARRIER
+import:         from AS42416 accept AS42416
+import:         from AS44066 accept AS-FIRSTCOLO
+import:         from AS47195 accept AS-GAMEFORGE
+import:         from AS47215 accept AS-FILOO
+import:         from AS47447 accept AS-23MEDIA
+import:         from AS47692 accept AS-NESSUS
+import:         from AS48484 accept AS-IGNEL
+import:         from AS49544 accept AS-INTERACTIVE3D
+import:         from AS61955 accept AS-AS-COLOCATIONIX
+import:         from AS63949 accept AS63949
+import:         from AS57724 accept AS-DDOS-GUARD
+import:         from AS46489 accept AS-TWITCH
+import:         from AS20640 accept AS-TITANNET
+import:         from AS56630 accept AS-MELBICOM
+import:         from AS57344 accept AS-57344
+import:         from AS24961 accept AS-MYLOC
+import:         from AS15830 accept AS-EQUINIX
+import:         from AS24989 accept AS-EQUINIX
+import:         from AS197915 accept AS-ALL-FOR-ONE
+import:         from AS205388 accept AS-SRV
+export:         to AS42 announce AS-ITANDTEL_DECIX
+export:         to AS714 announce AS-ITANDTEL_DECIX
+export:         to AS1248 announce AS-ITANDTEL_DECIX
+export:         to AS1267 announce AS-ITANDTEL_DECIX
+export:         to AS2484 announce AS-ITANDTEL_DECIX
+export:         to AS2857 announce AS-ITANDTEL_DECIX
+export:         to AS3223 announce AS-ITANDTEL_DECIX
+export:         to AS3327 announce AS-ITANDTEL_DECIX
+export:         to AS3856 announce AS-ITANDTEL_DECIX
+export:         to AS4788 announce AS-ITANDTEL_DECIX
+export:         to AS5603 announce AS-ITANDTEL_DECIX
+export:         to AS5605 announce AS-ITANDTEL_DECIX
+export:         to AS6661 announce AS-ITANDTEL_DECIX
+export:         to AS6695 announce AS-ITANDTEL_DECIX
+export:         to AS6730 announce AS-ITANDTEL_DECIX
+export:         to AS6805 announce AS-ITANDTEL_DECIX
+export:         to AS6939 announce AS-ITANDTEL_DECIX
+export:         to AS7342 announce AS-ITANDTEL_DECIX
+export:         to AS8075 announce AS-ITANDTEL_DECIX
+export:         to AS8262 announce AS-ITANDTEL_DECIX
+export:         to AS8308 announce AS-ITANDTEL_DECIX
+export:         to AS8359 announce AS-ITANDTEL_DECIX
+export:         to AS8365 announce AS-ITANDTEL_DECIX
+export:         to AS8422 announce AS-ITANDTEL_DECIX
+export:         to AS8560 announce AS-ITANDTEL_DECIX
+export:         to AS8708 announce AS-ITANDTEL_DECIX
+export:         to AS8741 announce AS-ITANDTEL_DECIX
+export:         to AS8781 announce AS-ITANDTEL_DECIX
+export:         to AS8859 announce AS-ITANDTEL_DECIX
+export:         to AS8878 announce AS-ITANDTEL_DECIX
+export:         to AS8879 announce AS-ITANDTEL_DECIX
+export:         to AS8966 announce AS-ITANDTEL_DECIX
+export:         to AS9044 announce AS-ITANDTEL_DECIX
+export:         to AS9116 announce AS-ITANDTEL_DECIX
+export:         to AS9189 announce AS-ITANDTEL_DECIX
+export:         to AS10310 announce AS-ITANDTEL_DECIX
+export:         to AS12041 announce AS-ITANDTEL_DECIX
+export:         to AS12713 announce AS-ITANDTEL-DECIX
+export:         to AS12874 announce AS-ITANDTEL_DECIX
+export:         to AS13030 announce AS-ITANDTEL_DECIX
+export:         to AS13157 announce AS-ITANDTEL_DECIX
+export:         to AS13184 announce AS-ITANDTEL_DECIX
+export:         to AS13285 announce AS-ITANDTEL_DECIX
+export:         to AS13335 announce AS-ITANDTEL_DECIX
+export:         to AS13445 announce AS-ITANDTEL_DECIX
+export:         to AS15133 announce AS-ITANDTEL_DECIX
+export:         to AS15169 announce AS-ITANDTEL_DECIX
+export:         to AS16276 announce AS-ITANDTEL_DECIX
+export:         to AS16509 announce AS-ITANDTEL_DECIX
+export:         to AS19151 announce AS-ITANDTEL_DECIX
+export:         to AS20562 announce AS-ITANDTEL_DECIX
+export:         to AS20647 announce AS-ITANDTEL_DECIX
+export:         to AS20764 announce AS-ITANDTEL_DECIX
+export:         to AS20811 announce AS-ITANDTEL_DECIX
+export:         to AS20940 announce AS-ITANDTEL_DECIX
+export:         to AS21336 announce AS-ITANDTEL_DECIX
+export:         to AS21385 announce AS-ITANDTEL_DECIX
+export:         to AS22822 announce AS-ITANDTEL_DECIX
+export:         to AS23393 announce AS-ITANDTEL_DECIX
+export:         to AS25279 announce AS-ITANDTEL_DECIX
+export:         to AS29076 announce AS-ITANDTEL_DECIX
+export:         to AS29140 announce AS-ITANDTEL_DECIX
+export:         to AS29208 announce AS-ITANDTEL_DECIX
+export:         to AS31019 announce AS-ITANDTEL_DECIX
+export:         to AS31103 announce AS-ITANDTEL_DECIX
+export:         to AS31529 announce AS-ITANDTEL_DECIX
+export:         to AS32787 announce AS-ITANDTEL_DECIX
+export:         to AS32934 announce AS-ITANDTEL_DECIX
+export:         to AS32934 announce AS-ITANDTEL_DECIX
+export:         to AS33873 announce AS-ITANDTEL_DECIX
+export:         to AS34309 announce AS-ITANDTEL_DECIX
+export:         to AS36408 announce AS-ITANDTEL_DECIX
+export:         to AS41692 announce AS-ITANDTEL_DECIX
+export:         to AS42416 announce AS-ITANDTEL_DECIX
+export:         to AS44066 announce AS-ITANDTEL_DECIX
+export:         to AS47195 announce AS-ITANDTEL_DECIX
+export:         to AS47215 announce AS-ITANDTEL_DECIX
+export:         to AS47447 announce AS-ITANDTEL_DECIX
+export:         to AS47692 announce AS-ITANDTEL_DECIX
+export:         to AS48484 announce AS-ITANDTEL_DECIX
+export:         to AS49544 announce AS-ITANDTEL_DECIX
+export:         to AS61955 announce AS-ITANDTEL_DECIX
+export:         to AS63949 announce AS-ITANDTEL_DECIX
+export:         to AS57724 announce AS-ITANDTEL_DECIX
+export:         to AS46489 announce AS-ITANDTEL_DECIX
+export:         to AS20640 announce AS-ITANDTEL_DECIX
+export:         to AS56630 announce AS-ITANDTEL_DECIX
+export:         to AS57344 announce AS-ITANDTEL_DECIX
+export:         to AS24961 announce AS-ITANDTEL_DECIX
+export:         to AS15830 announce AS-ITANDTEL_DECIX
+export:         to AS24989 announce AS-ITANDTEL_DECIX
+export:         to AS197915 announce AS-ITANDTEL_DECIX
+export:         to AS205388 announce AS-ITANDTEL_DECIX
+remarks:        ---------------------------------------------
+remarks:        IPv4 VIX PEERINGS
+remarks:        ---------------------------------------------
+import:         from AS42 accept AS-PCH
+import:         from AS1120 accept AS-ACOSERV
+import:         from AS1853 accept AS-ACONETTOVIX
+import:         from AS2906 accept AS-NFLX
+import:         from AS3209 accept AS-ARCORGLOBAL
+import:         from AS3212 accept AS-TRIERA
+import:         from AS3330 accept AS-PROFINET
+import:         from AS3856 accept AS-PCH
+import:         from AS5403 accept AS-APA
+import:         from AS5588 accept AS-GTS-CE
+import:         from AS6720 accept AS-MAGWIEN
+import:         from AS6730 accept AS-GLOBAL
+import:         from AS6798 accept AS-NET4YOU
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8075 accept AS-MICROSOFT
+import:         from AS8245 accept AS-VB
+import:         from AS8339 accept AS-KABS
+import:         from AS8387 accept AS8387:AS-T-SYSTEMS-AT
+import:         from AS8412 accept AS-TMA2VIX
+import:         from AS8445 accept AS-SALZBURG-AG
+import:         from AS8447 accept AS-PTA
+import:         from AS8559 accept AS-WELLCOMAT
+import:         from AS9002 accept AS-RETN
+import:         from AS9119 accept AS-SOFTNET
+import:         from AS12989 accept AS12989
+import:         from AS12401 accept AS12401
+import:         from AS12577 accept AS-MMC-AT
+import:         from AS12654 accept AS12654:RS-RIS
+import:         from AS12971 accept AS-BIOSTOVIX
+import:         from AS13030 accept AS13030:AS-INIT7
+import:         from AS13101 accept AS-TNG
+import:         from AS13335 accept AS13335
+import:         from AS15498 accept AS-CPSIPVTOVIX
+import:         from AS16265 accept AS-LEASEWEB-PEERING
+import:         from AS16276 accept AS-OVH
+import:         from AS16314 accept AS16314
+import:         from AS20704 accept AS-FUNKNETZ
+import:         from AS20751 accept AS-MAX4EU
+import:         from AS20940 accept AS-AKAMAI
+import:         from AS21360 accept AS-EMPIRION
+import:         from AS21385 accept AS-TNIB
+import:         from AS24864 accept AS24864
+import:         from AS24953 accept AS-CARRIER66
+import:         from AS25575 accept AS-DOMAINTECHNIK
+import:         from AS28760 accept AS-INFOTECH
+import:         from AS28857 accept AS28857
+import:         from AS28889 accept AS-LINZNET
+import:         from AS29056 accept AS-GSTWAT
+import:         from AS31529 accept AS31529
+import:         from AS31543 accept AS31543
+import:         from AS32934 accept AS32934
+import:         from AS33891 accept AS-CORE-BACKBONE
+import:         from AS34347 accept AS-CNHAT
+import:         from AS35369 accept AS-LAGIS
+import:         from AS39478 accept AS39478
+import:         from AS39912 accept AS-I3B
+import:         from AS41491 accept AS41491
+import:         from AS44765 accept AS-MAKENEWMEDIA
+import:         from AS46489 accept AS-TWITCH
+export:         to AS42 announce AS-ITANDTEL
+export:         to AS1120 announce AS-ITANDTEL
+export:         to AS2906 announce AS-ITANDTEL
+export:         to AS1853 announce AS-ITANDTEL
+export:         to AS3209 announce AS-ITANDTEL
+export:         to AS3212 announce AS-ITANDTEL
+export:         to AS3330 announce AS-ITANDTEL
+export:         to AS3856 announce AS-ITANDTEL
+export:         to AS5403 announce AS-ITANDTEL
+export:         to AS5588 announce AS-ITANDTEL
+export:         to AS6720 announce AS-ITANDTEL
+export:         to AS6730 announce AS-ITANDTEL
+export:         to AS6798 announce AS-ITANDTEL
+export:         to AS6939 announce AS-ITANDTEL
+export:         to AS8075 announce AS-ITANDTEL
+export:         to AS8245 announce AS-ITANDTEL
+export:         to AS8339 announce AS-ITANDTEL
+export:         to AS8387 announce AS-ITANDTEL
+export:         to AS8412 announce AS-ITANDTEL
+export:         to AS8445 announce AS-ITANDTEL
+export:         to AS8447 announce AS-ITANDTEL
+export:         to AS8559 announce AS-ITANDTEL
+export:         to AS9002 announce AS-ITANDTEL
+export:         to AS9119 announce AS-ITANDTEL
+export:         to AS12577 announce AS-ITANDTEL
+export:         to AS12654 announce AS-ITANDTEL
+export:         to AS12989 announce AS-ITANDTEL
+export:         to AS12971 announce AS-ITANDTEL
+export:         to AS13030 announce AS-ITANDTEL
+export:         to AS13101 announce AS-ITANDTEL
+export:         to AS13335 announce AS-ITANDTEL
+export:         to AS15498 announce AS-ITANDTEL
+export:         to AS16265 announce AS-ITANDTEL
+export:         to AS16276 announce AS-ITANDTEL
+export:         to AS16314 announce AS-ITANDTEL
+export:         to AS20704 announce AS-ITANDTEL
+export:         to AS20751 announce AS-ITANDTEL
+export:         to AS20940 announce AS-ITANDTEL
+export:         to AS21360 announce AS-ITANDTEL
+export:         to AS21385 announce AS-ITANDTEL
+export:         to AS24864 announce AS-ITANDTEL
+export:         to AS24953 announce AS-ITANDTEL
+export:         to AS25575 announce AS-ITANDTEL
+export:         to AS28760 announce AS-ITANDTEL
+export:         to AS28857 announce AS-ITANDTEL
+export:         to AS28889 announce AS-ITANDTEL
+export:         to AS29056 announce AS-ITANDTEL
+export:         to AS31529 announce AS-ITANDTEL
+export:         to AS31543 announce AS-ITANDTEL
+export:         to AS32934 announce AS-ITANDTEL
+export:         to AS33891 announce AS-ITANDTEL
+export:         to AS34347 announce AS-ITANDTEL
+export:         to AS35369 announce AS-ITANDTEL
+export:         to AS39478 announce AS-ITANDTEL
+export:         to AS39912 announce AS-ITANDTEL
+export:         to AS41491 announce AS-ITANDTEL
+export:         to AS44765 announce AS-ITANDTEL
+export:         to AS46489 announce AS-ITANDTEL
+remarks:        ---------------------------------------------
+remarks:        IPv4 PHOENIX PEERINGS
+remarks:        ---------------------------------------------
+import:         from AS35369 accept AS-LAGIS
+import:         from AS49808 accept AS-POWERSPEED
+export:         to AS35369 announce AS-ITANDTEL
+export:         to AS49808 announce AS-ITANDTEL
+remarks:        ---------------------------------------------
+remarks:        IPv4 AMS-IX PEERINGS
+remarks:        ---------------------------------------------
+import:         from AS42 accept AS-PCH
+import:         from AS714 accept AS-APPLE
+import:         from AS1200 accept AS1200
+import:         from AS3856 accept AS-PCH
+import:         from AS6939 accept AS-HURRICANE
+import:         from AS8365 accept AS-MANDA
+import:         from AS8455 accept AS-ATOM86
+import:         from AS8551 accept AS-BEZEQ-INTERNATIONAL
+import:         from AS9150 accept AS-INTERCONNECT
+import:         from AS10310 accept AS-YAHOO
+import:         from AS12414 accept AS-NL-SOLCON
+import:         from AS15695 accept AS-EXPEREO
+import:         from AS15958 accept AS-TELENORDOO
+import:         from AS16298 accept AS-INTERBOX
+import:         from AS21478 accept AS-PLEX
+import:         from AS45352 accept AS-IPSERVERONE
+import:         from AS46489 accept AS-TWITCH
+import:         from AS57976 accept AS-BLIZZEU
+import:         from AS20640 accept AS-TITANNET
+import:         from AS56630 accept AS-MELBICOM
+import:         from AS24961 accept AS-MYLOC
+export:         to AS42 announce AS-ITANDTEL_DECIX
+export:         to AS714 announce AS-ITANDTEL_DECIX
+export:         to AS1200 announce AS-ITANDTEL_DECIX
+export:         to AS3856 announce AS-ITANDTEL_DECIX
+export:         to AS6939 announce AS-ITANDTEL_DECIX
+export:         to AS8365 announce AS-ITANDTEL_DECIX
+export:         to AS8455 announce AS-ITANDTEL_DECIX
+export:         to AS8551 announce AS-ITANDTEL_DECIX
+export:         to AS9150 announce AS-ITANDTEL_DECIX
+export:         to AS10310 announce AS-ITANDTEL_DECIX
+export:         to AS12414 announce AS-ITANDTEL_DECIX
+export:         to AS15695 announce AS-ITANDTEL_DECIX
+export:         to AS15958 announce AS-ITANDTEL_DECIX
+export:         to AS16298 announce AS-ITANDTEL_DECIX
+export:         to AS21478 announce AS-ITANDTEL_DECIX
+export:         to AS45352 announce AS-ITANDTEL_DECIX
+export:         to AS46489 announce AS-ITANDTEL_DECIX
+export:         to AS57976 announce AS-ITANDTEL_DECIX
+export:         to AS20640 announce AS-ITANDTEL_DECIX
+export:         to AS56630 announce AS-ITANDTEL_DECIX
+export:         to AS24961 announce AS-ITANDTEL_DECIX
+remarks:        ---------------------------------------------
+remarks:        IPv6 DE-CIX PEERINGS
+remarks:        ---------------------------------------------
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS2484 accept AS-AFNIC
+mp-import:      afi ipv6.unicast from AS2857 accept AS-RLP-NET
+mp-import:      afi ipv6.unicast from AS3327 accept AS-LINXTELECOM-DECIX
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS5603 accept AS-SIOL
+mp-import:      afi ipv6.unicast from AS6695 accept AS-DECIX-V6
+mp-import:      afi ipv6.unicast from AS6730 accept AS-GLOBAL
+mp-import:      afi ipv6.unicast from AS6805 accept AS-TDDE
+mp-import:      afi ipv6.unicast from AS7342 accept AS-GTLD
+mp-import:      afi ipv6.unicast from AS8075 accept AS-MICROSOFT
+mp-import:      afi ipv6.unicast from AS8262 accept AS-EVOLINK6
+mp-import:      afi ipv6.unicast from AS8359 accept AS-MTU-V6
+mp-import:      afi ipv6.unicast from AS8365 accept AS-MANDA
+mp-import:      afi ipv6.unicast from AS8560 accept AS-1AND1
+mp-import:      afi ipv6.unicast from AS8708 accept AS-RDSNET
+mp-import:      afi ipv6.unicast from AS8741 accept AS-RATIOKONTAKT
+mp-import:      afi ipv6.unicast from AS8878 accept AS-NFON
+mp-import:      afi ipv6.unicast from AS8879 accept AS-DTS-V6
+mp-import:      afi ipv6.unicast from AS9044 accept AS-SOLNET
+mp-import:      afi ipv6.unicast from AS9189 accept AS-NETAACHEN-V6
+mp-import:      afi ipv6.unicast from AS10310 accept AS-YAHOO
+mp-import:      afi ipv6.unicast from AS12041 accept AS12041:AS-AFILIAS
+mp-import:      afi ipv6.unicast from AS13285 accept AS-OPAL
+mp-import:      afi ipv6.unicast from AS13445 accept AS13445
+mp-import:      afi ipv6.unicast from AS15133 accept AS-EDGECAST
+mp-import:      afi ipv6.unicast from AS15925 accept AS-MEGA
+mp-import:      afi ipv6.unicast from AS16276 accept AS-OVH
+mp-import:      afi ipv6.unicast from AS16509 accept AS-AMAZON
+mp-import:      afi ipv6.unicast from AS19151 accept AS-BBOI
+mp-import:      afi ipv6.unicast from AS20562 accept AS-OPENPEERING-EU
+mp-import:      afi ipv6.unicast from AS20647 accept AS-IPB
+mp-import:      afi ipv6.unicast from AS20764 accept AS-RASCOM
+mp-import:      afi ipv6.unicast from AS20811 accept AS-BCOMIT
+mp-import:      afi ipv6.unicast from AS20940 accept AS-AKAMAI
+mp-import:      afi ipv6.unicast from AS23393 accept AS-ISPRIME
+mp-import:      afi ipv6.unicast from AS25279 accept AS-TREML-STURM
+mp-import:      afi ipv6.unicast from AS29076 accept AS-CITYTELECOMV6
+mp-import:      afi ipv6.unicast from AS29140 accept AS-HOSTSERVER
+mp-import:      afi ipv6.unicast from AS31019 accept AS-MEANIE
+mp-import:      afi ipv6.unicast from AS31103 accept AS-KEYWEB
+mp-import:      afi ipv6.unicast from AS31529 accept AS31529
+mp-import:      afi ipv6.unicast from AS32787 accept AS-PROLE
+mp-import:      afi ipv6.unicast from AS32934 accept AS32934
+mp-import:      afi ipv6.unicast from AS33891 accept AS-CORE-BACKBONE
+mp-import:      afi ipv6.unicast from AS41692 accept AS-DECIX-V6
+mp-import:      afi ipv6.unicast from AS44066 accept AS-FIRSTCOLO
+mp-import:      afi ipv6.unicast from AS47447 accept AS-23MEDIA
+mp-import:      afi ipv6.unicast from AS47692 accept AS-NESSUS-V6
+mp-import:      afi ipv6.unicast from AS49544 accept AS-INTERACTIVE3D
+mp-import:      afi ipv6.unicast from AS63949 accept AS63949
+mp-import:      afi ipv6.unicast from AS57724 accept AS-DDOS-GUARD
+mp-import:      afi ipv6.unicast from AS46489 accept AS-TWITCH
+mp-import:      afi ipv6.unicast from AS20640 accept AS-TITANNET
+mp-import:      afi ipv6.unicast from AS56630 accept AS-MELBICOM
+mp-import:      afi ipv6.unicast from AS24961 accept AS-MYLOC
+mp-import:      afi ipv6.unicast from AS15830 accept AS-EQUINIX
+mp-import:      afi ipv6.unicast from AS24989 accept AS-EQUINIX
+mp-import:      afi ipv6.unicast from AS205388 accept AS-SRV
+mp-export:      afi ipv6.unicast to AS42 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS2484 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS2857 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS3327 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS3856 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS5603 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS6695 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS6730 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS6805 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS7342 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8075 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8262 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8359 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8365 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8560 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8708 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8741 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8878 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8879 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS9044 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS9189 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS10310 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS12041 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS13285 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS13445 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS15133 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS15925 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS16276 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS16509 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS19151 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS20562 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS20647 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS20764 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS20811 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS20940 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS23393 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS25279 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS29076 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS29140 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS31019 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS31103 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS31529 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS32787 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS32934 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS33891 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS41692 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS44066 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS47447 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS47692 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS49544 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS63949 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS57724 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS46489 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS20640 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS56630 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS24961 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS15830 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS24989 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS205388 announce AS-ITANDTEL-IPV6_DECIX
+remarks:        ---------------------------------------------
+remarks:        IPv6 VIX PEERINGS
+remarks:        ---------------------------------------------
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS1120 accept AS-ACOSERV
+mp-import:      afi ipv6.unicast from AS2906 accept AS-NFLX
+mp-import:      afi ipv6.unicast from AS1853 accept AS-ACONETTOVIX-V6
+mp-import:      afi ipv6.unicast from AS3209 accept AS-ARCORGLOBAL
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS5403 accept AS-APA
+mp-import:      afi ipv6.unicast from AS6730 accept AS-GLOBAL
+mp-import:      afi ipv6.unicast from AS8075 accept AS-MICROSOFT
+mp-import:      afi ipv6.unicast from AS8387 accept AS8387:AS-T-SYSTEMS-AT-V6
+mp-import:      afi ipv6.unicast from AS8412 accept AS8412
+mp-import:      afi ipv6.unicast from AS8447 accept AS-TA6
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-import:      afi ipv6.unicast from AS15169 accept AS-GOOGLE
+mp-import:      afi ipv6.unicast from AS15498 accept AS-CPSon2VIX6
+mp-import:      afi ipv6.unicast from AS16265 accept AS-LEASEWEB
+mp-import:      afi ipv6.unicast from AS20940 accept AS-AKAMAI
+mp-import:      afi ipv6.unicast from AS21385 accept AS-TNIB
+mp-import:      afi ipv6.unicast from AS29056 accept AS-GSTWAT-IPV6
+mp-import:      afi ipv6.unicast from AS32934 accept AS32934
+mp-import:      afi ipv6.unicast from AS35369 accept AS-LAGIS6
+mp-import:      afi ipv6.unicast from AS39912 accept AS-I3B
+mp-import:      afi ipv6.unicast from AS46489 accept AS-TWITCH
+mp-export:      afi ipv6.unicast to AS42 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS1120 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS1853 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS2906 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS3209 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS3856 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS5403 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS6730 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS8075 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS8387 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS8412 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS8447 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS9002 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS15169 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS15498 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS16265 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS20940 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS21385 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS29056 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS32934 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS35369 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS39912 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS46489 announce AS-ITANDTEL-IPV6
+remarks:        ---------------------------------------------
+remarks:        IPv6 PHOENIX PEERINGS
+remarks:        ---------------------------------------------
+mp-import:      afi ipv6.unicast from AS35369 accept AS-LAGIS6
+mp-import:      afi ipv6.unicast from AS49808 accept AS-POWERSPEED-V6
+mp-export:      afi ipv6.unicast to AS35369 announce AS-ITANDTEL-IPV6
+mp-export:      afi ipv6.unicast to AS49808 announce AS-ITANDTEL-IPV6
+remarks:        ---------------------------------------------
+remarks:        IPv6 AMS-IX PEERINGS
+remarks:        ---------------------------------------------
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS1200 accept AS1200
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANE
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-import:      afi ipv6.unicast from AS8365 accept AS-MANDA
+mp-import:      afi ipv6.unicast from AS8455 accept AS-ATOM86
+mp-import:      afi ipv6.unicast from AS8551 accept AS-BEZEQ-INTERNATIONAL
+mp-import:      afi ipv6.unicast from AS8551 accept AS-YAHOO
+mp-import:      afi ipv6.unicast from AS12414 accept AS-NL-SOLCON
+mp-import:      afi ipv6.unicast from AS16298 accept AS-INTERBOX
+mp-import:      afi ipv6.unicast from AS45352 accept AS-IPSERVERONE
+mp-import:      afi ipv6.unicast from AS57976 accept AS-BLIZZEU
+mp-import:      afi ipv6.unicast from AS46489 accept AS-TWITCH
+mp-import:      afi ipv6.unicast from AS20640 accept AS-TITANNET
+mp-import:      afi ipv6.unicast from AS56630 accept AS-MELBICOM
+mp-import:      afi ipv6.unicast from AS24961 accept AS-MYLOC
+mp-export:      afi ipv6.unicast to AS42 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS1200 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS3856 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS6939 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8365 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8455 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS8551 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS10310 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS12414 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS16298 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS45352 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS57976 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS46489 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS20640 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS56630 announce AS-ITANDTEL-IPV6_DECIX
+mp-export:      afi ipv6.unicast to AS24961 announce AS-ITANDTEL-IPV6_DECIX
+remarks:        ---------------------------------------------
+remarks:        IPv4 Private-Peerings
+remarks:        ---------------------------------------------
+import:         from AS48362 accept AS-TKSWF
+import:         from AS198400 accept AS198400
+export:         to AS48362 announce AS-ITANDTEL
+export:         to AS198400 announce AS-ITANDTEL
+remarks:        ---------------------------------------------
+remarks:        IPv6 Private-Peerings
+remarks:        ---------------------------------------------
+remarks:        ---------------------------------------------
+remarks:        IPv4 Transit-Peerings
+remarks:        ---------------------------------------------
+remarks:        from AS12605 accept AS-LIWESTAT
+remarks:        to AS12605 announce ANY
+remarks:        ---------------------------------------------
+remarks:        send peering requests to peering@itandtel.at
+remarks:        ---------------------------------------------
+remarks:        BGP communities for customers
+remarks:        21013:666 RTBH remote triggered black hole route (only /32 prefixes accepted)
+remarks:        21013:1000 backup route (lowest local preference)
+remarks:        21013:1100 Do not announce to any Upstreams
+remarks:        21013:1101 Prepend 1x to all Upstreams
+remarks:        21013:1102 Prepend 2x to all Upstreams
+remarks:        21013:1103 Prepend 3x to all Upstreams
+remarks:        21013:1200 Do not announce to any Peers (PRIVATE, VIX, DECIX, AMS-IX, PHOENIX)
+remarks:        21013:1201 Prepend 1x to all Peers
+remarks:        21013:1202 Prepend 2x to all Peers
+remarks:        21013:1203 Prepend 3x to all Peers
+remarks:        21013:1110 Do not announce to COGENT (IPv4 UPSTREAM)
+remarks:        21013:1111 Prepend 1x to COGENT
+remarks:        21013:1112 Prepend 2x to COGENT
+remarks:        21013:1113 Prepend 3x to COGENT
+remarks:        21013:1120 Do not announce to NEXTLAYER (IPv4 + IPv6 UPSTREAM)
+remarks:        21013:1121 Prepend 1x to NEXTLAYER
+remarks:        21013:1122 Prepend 2x to NEXTLAYER
+remarks:        21013:1123 Prepend 3x to NEXTLAYER
+remarks:        21013:1130 Do not announce to LIWEST (IPv4 UPSTREAM)
+remarks:        21013:1131 Prepend 1x to LIWEST
+remarks:        21013:1132 Prepend 2x to LIWEST
+remarks:        21013:1133 Prepend 3x to LIWEST
+remarks:        21013:1140 Do not announce to INIT7 (IPv6 UPSTREAM)
+remarks:        21013:1141 Prepend 1x to INIT7
+remarks:        21013:1142 Prepend 2x to INIT7
+remarks:        21013:1143 Prepend 3x to INIT7
+remarks:        21013:1150 Do not announce to HURRICANE ELECTRIC (IPv6 UPSTREAM)
+remarks:        21013:1151 Prepend 1x to HURRICANE ELECTRIC
+remarks:        21013:1152 Prepend 2x to HURRICANE ELECTRIC
+remarks:        21013:1153 Prepend 3x to HURRICANE ELECTRIC
+remarks:        21013:1160 Do not announce to GTT/TINET (IPv4 + IPV6 UPSTREAM)
+remarks:        21013:1161 Prepend 1x to GTT/TINET
+remarks:        21013:1162 Prepend 2x to GTT/TINET
+remarks:        21013:1163 Prepend 3x to GTT/TINET
+remarks:        21013:1170 Do not announce to UPC (IPv4)
+remarks:        21013:1171 Prepend 1x to UPC
+remarks:        21013:1172 Prepend 2x to UPC
+remarks:        21013:1173 Prepend 3x to UPC
+remarks:        21013:1180 Do not announce to LEVEL3 (IPv4 + IPV6 UPSTREAM)
+remarks:        21013:1181 Prepend 1x to LEVEL3
+remarks:        21013:1182 Prepend 2x to LEVEL3
+remarks:        21013:1183 Prepend 3x to LEVEL3
+remarks:        21013:1190 Do not announce to INTEROUTE (IPv4 UPSTREAM)
+remarks:        21013:1191 Prepend 1x to INTEROUTE
+remarks:        21013:1192 Prepend 2x to INTEROUTE
+remarks:        21013:1193 Prepend 3x to INTEROUTE
+remarks:        21013:1300 Do not announce to NTT (IPv4 + IPV6 UPSTREAM)
+remarks:        21013:1301 Prepend 1x to NTT
+remarks:        21013:1302 Prepend 2x to NTT
+remarks:        21013:1303 Prepend 3x to NTT
+remarks:        21013:1210 Do not announce to any private Peers
+remarks:        21013:1211 Prepend 1x to all private Peers
+remarks:        21013:1212 Prepend 2x to all private Peers
+remarks:        21013:1213 Prepend 3x to all private Peers
+remarks:        21013:1220 Do not announce to any VIX Peers
+remarks:        21013:1221 Prepend 1x to all VIX Peers
+remarks:        21013:1222 Prepend 2x to all VIX Peers
+remarks:        21013:1223 Prepend 3x to all VIX Peers
+remarks:        21013:1230 Do not announce to any DE-CIX Peers
+remarks:        21013:1231 Prepend 1x to all DE-CIX Peers
+remarks:        21013:1232 Prepend 2x to all DE-CIX Peers
+remarks:        21013:1233 Prepend 3x to all DE-CIX Peers
+remarks:        21013:1240 Do not announce to any PHOENIX Peers
+remarks:        21013:1241 Prepend 1x to all PHOENIX Peers
+remarks:        21013:1242 Prepend 2x to all PHOENIX Peers
+remarks:        21013:1243 Prepend 3x to all PHOENIX Peers
+remarks:        21013:1250 Do not announce to any AMS-IX Peers
+remarks:        21013:1251 Prepend 1x to all AMS-IX Peers
+remarks:        21013:1252 Prepend 2x to all AMS-IX Peers
+remarks:        21013:1253 Prepend 3x to all AMS-IX Peers
+remarks:        21013:1260 Do not announce to any SAIX Peers
+remarks:        21013:1261 Prepend 1x to all SAIX Peers
+remarks:        21013:1262 Prepend 2x to all SAIX Peers
+remarks:        21013:1263 Prepend 3x to all SAIX Peers
+remarks:        Communities used for tagging routes
+remarks:        21013:1 ITANDTEL CUSTOMERS
+remarks:        21013:2 ITANDTEL PEERS
+remarks:        21013:3 ITANDTEL UPSTREAMS
+remarks:        21013:101 VIX PEERS
+remarks:        21013:102 DECIX PEERS
+remarks:        21013:103 PHOENIX PEERS
+remarks:        21013:104 AMS-IX PEERS
+remarks:        21013:105 SAIX PEERS
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ITANDTEL-MNT
+created:        2002-07-17T11:37:38Z
+last-modified:  2018-06-19T14:36:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

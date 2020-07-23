@@ -1,0 +1,162 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21281 - AS21390'
+
+as-block:       AS21281 - AS21390
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:28Z
+last-modified:  2018-11-22T15:27:28Z
+source:         RIPE
+
+% Information related to 'AS21341'
+
+% Abuse contact for 'AS21341' is 'ripencc@sinet.ir'
+
+aut-num:        AS21341
+as-name:        SINET-AS
+descr:          Access Service Provider
+descr:          Tehran, Iran
+org:            ORG-SAVC1-RIPE
+descr:          IPM
+import:         from AS-IRANET-IPM action pref=120; accept any AND NOT fltr-bogons
+import:         from AS25306 action pref=120; accept AS25306 AND NOT fltr-bogons
+descr:          Pardazesh dadeh haye novin-PDN
+import:         from AS206862 action pref=120; accept AS206862 AND NOT fltr-bogons
+descr:          Sherkat e ertebatat e zirsakht
+import:         from AS12880 action pref=120; accept AS12880 AND NOT fltr-bogons
+import:         from AS43343 accept AS21341:RS-ROUTES:AS43343 AND NOT fltr-bogons
+import:         from AS201227 accept any AND NOT fltr-bogons
+import:         from AS42586 accept any AND NOT fltr-bogons
+import:         from AS60315 accept AS21341:RS-ROUTES:AS60315 AND NOT fltr-bogons
+import:         from AS43135 accept any AND NOT fltr-bogons
+import:         from AS15611 accept any AND NOT fltr-bogons
+import:         from AS43395 accept any AND NOT fltr-bogons
+import:         from AS56796 accept AS21341:RS-ROUTES:AS56796 AND NOT fltr-bogons
+import:         from AS62367 accept any AND NOT fltr-bogons
+import:         from AS59961 accept any AND NOT fltr-bogons
+import:         from AS25184 accept any AND NOT fltr-bogons
+export:         to AS6736 announce any AND NOT fltr-bogons
+export:         to AS25113 announce AS-SINET AND NOT fltr-bogons
+export:         to AS286 announce AS-SINET AND NOT fltr-bogons
+export:         to AS-IRANET-IPM announce Any AND NOT fltr-bogons
+export:         to AS25306 announce Any AND NOT fltr-bogons
+export:         to AS12880 announce Any AND NOT fltr-bogons
+export:         to as43343 announce any AND NOT fltr-bogons
+export:         to AS44889 announce any AND NOT fltr-bogons
+export:         to AS60315 announce any AND NOT fltr-bogons
+export:         to AS43135 announce any AND NOT fltr-bogons
+export:         to AS15611 announce any AND NOT fltr-bogons
+export:         to AS34918 announce any AND NOT fltr-bogons
+export:         to AS49100 announce any AND NOT fltr-bogons
+export:         to AS56796 announce any AND NOT fltr-bogons
+export:         to AS62367 announce any AND NOT fltr-bogons
+export:         to AS59961 announce any AND NOT fltr-bogons
+export:         to AS56687 announce any AND NOT fltr-bogons
+export:         to AS25184 announce any AND NOT fltr-bogons
+descr:          Asiatech-FCP
+export:         to AS43754 announce any AND NOT fltr-bogons
+export:         to AS41881 announce any AND NOT fltr-bogons
+export:         to AS24631 announce any AND NOT fltr-bogons
+remarks:        +----------------------------------------------------------
+remarks:        | Cummunities schema:
+remarks:        |
+remarks:        |
+remarks:        | The Following BGP communities can be set by
+remarks:        | SINET Customers/Peers to affect BGP announcments.
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | Communities to control Local preference
+remarks:        | 21341:50 Set Local Pref 50 within AS21341
+remarks:        | 21341:80 Set Local Pref 80 within AS21341
+remarks:        | 21341:100 Set Local Pref 100 within AS21341
+remarks:        | 21341:120 Set Local Pref 120 within AS21341
+remarks:        | 21341:150 Set Local Pref 150 within AS21341
+remarks:        |
+remarks:        | Default for Transit Peers routes: 80
+remarks:        | Default for Customers-Peers routes: 120
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | Communities to control outbound routing announcements
+remarks:        | 21341:200 Don't announce to Transit Peers.
+remarks:        | 21341:201 Prepend AS21341 once at the Edge of SINET to Transit Peers.
+remarks:        | 21341:202 Prepend AS21341 twice at the Edge of SINET to Transit Peers.
+remarks:        | 21341:203 Prepend AS21341 thrice at the Edge of SINET to Transit Peers.
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | Other Communities
+remarks:        |
+remarks:        | 21341:9XXXXX Don't Advertise to ASXXXXX peer.
+remarks:        | 21341:NO_EXPORT Do not advertise to any neighbor of AS21341. (Well known)
+remarks:        | 21341:NO_ADVERTISE Do not advertise beyond the AS21341-router receiving the advertisement. (Well known)
+remarks:        |
+remarks:        | Example: 21341:900001 Don't Advertise the route to AS1 peer!
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | Communities to distingushe Route Origin - NOT SETTABLE BY CUSTOMERS
+remarks:        | 21341:400 Local Customers/Peers routes
+remarks:        | 21341:410 Transit Peers routes.
+remarks:        |
+remarks:        +----------------------------------------------------------
+remarks:        | NOTE - Filtering on /24 boundary is applied - we do not
+remarks:        | reannounce any route more specific than a /24.
+remarks:        +----------------------------------------------------------
+remarks:        | Send trouble queries or problems to noc at tehran.sinet.ir
+remarks:        +----------------------------------------------------------
+remarks:        | SPAM or net abuse please mail to abuse@sinet.ir
+remarks:        +----------------------------------------------------------
+remarks:        | Last Community Change: 2004/06/15
+remarks:        +----------------------------------------------------------
+status:         ASSIGNED
+admin-c:        SAMH3-RIPE
+tech-c:         SAMH3-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SINET-MNT
+descr:          cto@sinet.ir
+created:        2002-07-29T15:43:02Z
+last-modified:  2018-04-29T09:10:55Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SAVC1-RIPE
+org-name:       Soroush Rasanheh Company Ltd
+org-type:       LIR
+address:        No 1, 5th East St., Seoul St.
+address:        19959-63451
+address:        Tehran
+address:        IRAN, ISLAMIC REPUBLIC OF
+phone:          +982184371111
+fax-no:         +982122618694
+abuse-c:        AR13606-RIPE
+admin-c:        SAMH3-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SINET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SINET-MNT
+created:        2004-04-17T11:28:28Z
+last-modified:  2018-08-27T08:48:27Z
+source:         RIPE # Filtered
+
+person:         Seyed Ali Mir Heidari
+address:        No. 1, East 5th Alley, North Seoul St. , Tehran, Iran
+address:        No. 4, Firooze Dead end, Dr. Shariati St. ,Tehran, Iran
+phone:          +982184371111
+phone:          +982122618700
+phone:          +989126445181
+nic-hdl:        SAMH3-RIPE
+mnt-by:         SINET-MNT
+created:        2018-01-10T13:10:25Z
+last-modified:  2018-08-27T08:34:18Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

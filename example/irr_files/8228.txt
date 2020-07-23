@@ -1,0 +1,74 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS8228
+as-name:       CEGETEL-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS15557 action pref=210; accept ANY
+import:        from AS8255 action pref=400; accept AS8255
+import:        from AS12744 action pref=400; accept AS12744
+import:        from AS15890 action pref=400; accept AS15890
+import:        from AS16048 action pref=400; accept AS16048
+import:        from AS16071 action pref=400; accept AS-LEGRAND
+import:        from AS20900 action pref=400; accept AS20900:RS-ANNOUNCED
+import:        from AS21165 action pref=400; accept AS21165
+import:        from AS29092 action pref=400; accept AS29092
+import:        from AS29137 action pref=400; accept AS29137
+import:        from AS29660 action pref=400; accept AS29660
+import:        from AS29679 action pref=400; accept AS29679
+import:        from AS30741 action pref=400; accept AS30741
+import:        from AS34338 action pref=400; accept AS34338
+import:        from AS35103 action pref=400; accept AS35103
+import:        from AS39552 action pref=400; accept AS39552
+export:        to AS15557 announce AS-CEGETEL
+export:        to AS8255 announce ANY
+export:        to AS12744 announce ANY
+export:        to AS15890 announce ANY
+export:        to AS16048 announce ANY
+export:        to AS16071 announce ANY
+export:        to AS20900 announce ANY
+export:        to AS21165 announce ANY
+export:        to AS29092 announce ANY
+export:        to AS29137 announce ANY
+export:        to AS29660 announce ANY
+export:        to AS29679 announce ANY
+export:        to AS30741 announce ANY
+export:        to AS34338 announce ANY
+export:        to AS35103 announce ANY
+remarks:       ----------------------------import------------------------------
+remarks:       # Transit:
+remarks:       # Customers:
+remarks:       -----------------------------export------------------------------
+remarks:       # Transit:
+remarks:       # Customers:
+remarks:       -----------------------------------------------------------------
+remarks:       -----------------------------------------------------------------
+remarks:       Communities to control traffic (settable by BGP customers).
+remarks:       Community Definition
+remarks:       --------------------------------------------------------------
+remarks:       8228:410 No announcement to LEVEL3
+remarks:       8228:411 Prepend once 8228 when announcing to LEVEL3
+remarks:       
+remarks:       8228:420 No announcement to TELIA
+remarks:       8228:421 Prepend once 8228 when announcing to TELIA
+remarks:       
+remarks:       8228:450 No announcement to french peers
+remarks:       8228:451 Prepend once 8228 when announcing to french peers
+remarks:       
+remarks:       8228:460 No announcement to international peers
+remarks:       8228:461 Prepend once 8228 when announcing to international peers
+remarks:       -----------------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        CEGETEL-ENTREPRISES
+mnt-by:        SFR-MNT
+source:        RIPE
+
+

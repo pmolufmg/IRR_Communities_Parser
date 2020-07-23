@@ -1,0 +1,268 @@
+aut-num:    AS19229
+as-name:    INFOCROSSING-1
+descr:      Infocrossing, Inc
+admin-c:    Khurram Bajwa
+tech-c:     Khurram Bajwa
+remarks:    aut-num: AS19229
+            as-name: DCCS
+            descr: Wipro Data Center and Cloud Services
+            admin-c: usnetwork-services@wipro.com
+            tech-c: usnetwork-services@wipro.com
+            remarks: ========================================================
+            remarks:   RFC1918 and other reserved networks and subnets are
+remarks:    not permitted.
+            remarks: Communities applied at ingress
+            remarks:
+remarks:    19229:41101
+remarks:    TRANSIT Edge, ARIN, East US, ATL11-Level 3
+remarks:    19229:41101
+            remarks:
+remarks:    19229:41102
+remarks:    TRANSIT Edge, ARIN, East US, CLT11-Level 3
+remarks:    19229:41102
+            remarks:
+remarks:    19229:412##
+remarks:    TRANSIT Edge, ARIN, Central US
+remarks:    remarks:
+remarks:    19229:41201
+remarks:    TRANSIT Edge, ARIN, Central US, OMA11-Century Link
+remarks:    19229:41201
+            remarks:
+remarks:    19229:413##
+remarks:    TRANSIT Edge, ARIN, Western US
+remarks:    remarks:
+remarks:    19229:41301
+remarks:    TRANSIT Edge, ARIN, Western US, PHX11-Level3
+remarks:    19229:41301
+            remarks:
+remarks:    19229:42###
+remarks:    TRANSIT Edge, RIPE
+remarks:    remarks:
+remarks:    19229:421##
+remarks:    TRANSIT Edge, RIPE, DE
+remarks:    remarks:
+remarks:    19229:42101
+remarks:    TRANSIT Edge, RIPE, DE, FRA11-Level3
+remarks:    19229:42101
+            remarks:
+remarks:    19229:42102
+remarks:    TRANSIT Edge, RIPE, DE, FRA11-Century Link
+remarks:    19229:42102
+            remarks:
+remarks:    19229:42103
+remarks:    TRANSIT Edge, RIPE, DE,DUS12-DT
+remarks:    19229:42103
+            remarks:
+remarks:    19229:43###
+remarks:    TRANSIT Edge, APNIC
+remarks:    remarks:
+remarks:    19229:431##
+remarks:    TRANSIT Edge, APNIC, SG
+remarks:    remarks:
+remarks:    19229:43101
+remarks:    TRANSIT Edge, APNIC, SG, SIN11-NTT
+remarks:    19229:43101
+            remarks:
+remarks:    19229:43102
+remarks:    TRANSIT Edge, APNIC, SG, SIN11-KDDI
+remarks:    19229:43102
+remarks:    remarks:
+            remarks: ========================================================
+            remarks:
+            remarks: --------------------------------------------------------
+            remarks: prefix type communities
+            remarks: --------------------------------------------------------
+            remarks: --------------------------------------------------------
+            remarks: Customer Edge Communities
+            remarks:
+remarks:    19229:10010
+remarks:    Customer Edge, PB, CLT01
+remarks:    19229:10010
+            remarks:
+remarks:    19229:10011
+remarks:    Customer Edge, PB, PHX01
+remarks:    19229:10011
+            remarks:
+remarks:    19229:10012
+remarks:    Customer Edge, PB, DUS01
+remarks:    19229:10012
+            remarks:
+remarks:    19229:1002#
+remarks:    Customer Edge, Avaya
+remarks:    remarks:
+remarks:    19229:10021
+remarks:    Customer Edge, Avaya, OMA1
+remarks:    19229:10021
+            remarks:
+remarks:    19229:1003#
+remarks:    Customer Edge, Stora
+remarks:    remarks:
+remarks:    19229:10031
+remarks:    Customer Edge, Stora, DUS01
+remarks:    19229:10031
+            remarks:
+remarks:    Customer Edge, Stora, DUS02
+remarks:    remarks:
+remarks:    19229:10041
+remarks:    Customer Edge, Takeda DUS01
+remarks:    19229:10041
+            remarks:
+remarks:    19229:10042
+remarks:    Customer Edge, Takeda DUS02
+remarks:    19229:10042
+            remarks:
+remarks:    19229:1005#
+remarks:    Customer Edge , AssaAbloy AB
+remarks:    remarks:
+remarks:    19229:10051
+remarks:    Customer Edge , AssaAbloy AB DUS 01
+remarks:    19229:10051
+            remarks:
+remarks:    19229:10052
+remarks:    Customer Edge , AssaAbloy AB DUS 02
+remarks:    19229:10052
+            remarks:
+remarks:    19229:10061
+remarks:    Customer Edge , Leonia DC AS19187
+remarks:    19229:10061
+            remarks:
+remarks:    19229:10071
+remarks:    Customer Edge, campbells CLT
+remarks:    19229:10071
+            remarks:
+remarks:    19229:10071
+remarks:    Customer Edge, campbells CLT
+remarks:    remarks:
+remarks:    19229:10072
+remarks:    Customer Edge, campbells PHX
+remarks:    remarks:
+remarks:    19229:10072
+remarks:    Customer Edge, campbells PHX
+remarks:    19229:10072
+            remarks: --------------------------------------------------------
+            remarks: 19229:1.... - DCCS Customer Assigned Prefixes and AS
+            remarks:
+remarks:    AS 11086
+            remarks:
+remarks:    19229:10010 , 19229:10011 , 19229:10012
+            remarks: --------------------------------------------------------
+            remarks: --------------------------------------------------------
+            remarks: Private Edge Communities
+            remarks: --------------------------------------------------------
+            remarks: NOT FOR EXPORT BEYOND AS19229
+            remarks: --------------------------------------------------------
+            remarks: --------------------------------------------------------
+            remarks: Public Edge Communities - NAP
+            remarks: --------------------------------------------------------
+            remarks: 19229:3.... - DCCS NAP Prefixes
+            remarks: --------------------------------------------------------
+            remarks: --------------------------------------------------------
+            remarks: Transit Edge Communities
+            remarks: --------------------------------------------------------
+            remarks: 19229:41101 - ATL11 - Atlanta
+            remarks: 19229:41102 - CLT11 - Charlotte
+            remarks: 19229:41201 - OMA11 - Omaha
+            remarks: 19229:41202 - PHX11 - Phoenix
+            remarks: 19229:42101 - FRA11 - Frankfurt Transit 1
+            remarks: 19229:42102 - FRA11 - Frankfurt Transit 2
+            remarks: 19229:42103 - DUS12 - Dusseldorf
+            remarks: 19229:43101 - SIN11 - Singapore Transit 1
+            remarks: 19229:43102 - SIN11 - Singapore Transit 2
+            remarks: --------------------------------------------------------
+            remarks: --------------------------------------------------------
+            remarks: DC Edge Communities
+            remarks: --------------------------------------------------------
+            remarks: 19229:51101 - CLT01 - KDC
+            remarks: 19229:51102 - PHX01 - TDC
+            remarks: 19229:51103 - OMA01 - ODC
+            remarks: 19229:51104 - ATL01 - NDC
+            remarks: 19229:52001 - DUS01 - MDC
+            remarks: 19229:52002 - DUS02 - DDC
+            remarks: 19229:53001 - SIN01 - SDC
+            remarks: --------------------------------------------------------
+            remarks: --------------------------------------------------------
+            remarks: ========================================================
+            remarks:
+            remarks: Communities accepted from customers
+            remarks:   custom commuinites work in progress
+            remarks: ========================================================
+            remarks:
+            remarks: --------------------------------------------------------
+            remarks: ASNEEDED
+            remarks: --------------------------------------------------------
+            aut-num: AS19229
+            as-name: DCCS
+            descr: Wipro Data Center and Cloud Services
+            admin-c: usnetwork-services@wipro.com
+            tech-c: usnetwork-services@wipro.com
+            import: from AS209 67.148.245.149 accept ANY
+            import: from AS2914 116.51.27.29 accept ANY
+            import: from AS2516 59.128.58.29 accept ANY
+            import: from AS3320 62.157.251.193 accept ANY
+            import: from AS3356 64.215.26.221 accept ANY
+            import: from AS3356 4.71.124.49 accept ANY
+            import: from AS3356 212.162.25.37 accept ANY
+            import: from AS3356 4.53.105.73 accept ANY
+            import: from AS3910 65.100.13.113 accept ANY
+            import: from AS11086 171.74.144.20 accept 199.33.137.0/24
+            import: from AS11086 171.74.144.21 accept 199.33.137.0/24
+            import: from AS11086 152.144.252.49 accept 199.33.137.0/24
+            import: from AS11086 198.160.80.37 accept 199.33.137.0/24
+            import: from AS11086 198.160.80.36 accept 199.33.137.0/24
+            import: from AS11086 176.32.239.64 accept 199.33.137.0/24
+            import: from AS11086 176.32.239.65 accept 199.33.137.0/24
+            export: to AS209 4.78.140.10 announce ANY
+            export: to AS2914 116.51.27.29 announce ANY
+            export: to AS2516 59.128.58.29 announce ANY
+            export: to AS3320 62.157.251.193 announce ANY
+            export: to AS3356 64.215.26.221 announce ANY
+            export: to AS3356 4.71.124.49 announce ANY
+            export: to AS3356 212.162.25.37 announce ANY
+            export: to AS3356 4.53.105.73 announce ANY
+            export: to AS3910 65.100.13.113 announce ANY
+            export: to AS11086 171.74.144.20 announce {0.0.0.0/0}
+            export: to AS11086 171.74.144.21 announce {0.0.0.0/0}
+            export: to AS11086 152.144.252.49 announce {0.0.0.0/0}
+            export: to AS11086 198.160.80.36 announce {0.0.0.0/0}
+            export: to AS11086 198.160.80.37 announce {0.0.0.0/0}
+            export: to AS11086 176.32.239.64 announce {0.0.0.0/0}
+            export: to AS11086 176.32.239.65 announce {0.0.0.0/0}
+notify:     usnetwork-services@wipro.com
+mnt-by:     MAINT-AS19229
+changed:    khurram.bajwa@wipro.com 20170314  #15:26:20Z
+source:     RADB
+
+aut-num:    AS19229
+as-name:    ASN-NFCR
+descr:      Infocrossing, a Wipro Company
+import:     from AS-ANY   accept ANY
+export:     to AS-ANY   announce AS-NFCR
+remarks:    BGP announcements are registered under as-set AS-NFCR
+remarks:    Technical/Network issues:  noc@infocrossing.com
+admin-c:    ADMIN1417-ARIN
+tech-c:     IRA12-ARIN
+notify:     ipadmin@infocrossing.com
+mnt-by:     MAINT-NFCR
+changed:    joshua.sahala@infocrossing.com 20110221
+source:     ALTDB
+
+aut-num:        AS19229
+as-name:        AS19229
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:        aut-num: AS19229 as-name: DCCS descr: Wipro Data Center and Cloud Services admin-c: usnetwork-services@wipro.com tech-c: usnetwork-services@wipro.com remarks: ======================================================== remarks:   RFC1918 and other reserved networks and subnets are   not permitted.  remarks: Communities applied at ingress    remarks: 19229:41101 TRANSIT Edge, ARIN, East US, ATL11-Level 3   19229:41101 remarks: 19229:41102 TRANSIT Edge, ARIN, East US, CLT11-Level 3   19229:41102 remarks: 19229:412## TRANSIT Edge, ARIN, Central US  remarks: 19229:41201 TRANSIT Edge, ARIN, Central US, OMA11-Century Link  19229:41201 remarks: 19229:413## TRANSIT Edge, ARIN, Western US  remarks: 19229:41301 TRANSIT Edge, ARIN, Western US, PHX11-Level3   19229:41301 remarks: 19229:42### TRANSIT Edge, RIPE  remarks: 19229:421## TRANSIT Edge, RIPE, DE  remarks: 19229:42101 TRANSIT Edge, RIPE, DE, FRA11-Level3    19229:42101 remarks: 19229:42102 TRANSIT Edge, RIPE, DE, FRA11-Century Link   19229:42102 remarks: 19229:42103 TRANSIT Edge, RIPE, DE,DUS12-DT 19229:42103 remarks: 19229:43### TRANSIT Edge, APNIC  remarks: 19229:431## TRANSIT Edge, APNIC, SG  remarks: 19229:43101 TRANSIT Edge, APNIC, SG, SIN11-NTT    19229:43101 remarks: 19229:43102 TRANSIT Edge, APNIC, SG, SIN11-KDDI    19229:43102      remarks: remarks: ======================================================== remarks: remarks: -------------------------------------------------------- remarks: prefix type communities remarks: -------------------------------------------------------- remarks: -------------------------------------------------------- remarks: Customer Edge Communities  remarks: 19229:10010 Customer Edge, PB, CLT01 19229:10010 remarks: 19229:10011 Customer Edge, PB, PHX01 19229:10011 remarks: 19229:10012 Customer Edge, PB, DUS01 19229:10012 remarks: 19229:1002# Customer Edge, Avaya  remarks: 19229:10021 Customer Edge, Avaya, OMA1 19229:10021 remarks: 19229:1003# Customer Edge, Stora  remarks
+: 19229:10031 Customer Edge, Stora, DUS01 19229:10031 remarks:  Customer Edge, Stora, DUS02  remarks: 19229:10041 Customer Edge, Takeda DUS01 19229:10041 remarks: 19229:10042 Customer Edge, Takeda DUS02 19229:10042 remarks: 19229:1005# Customer Edge , AssaAbloy AB  remarks: 19229:10051 Customer Edge , AssaAbloy AB DUS 01 19229:10051 remarks: 19229:10052 Customer Edge , AssaAbloy AB DUS 02 19229:10052 remarks: 19229:10061 Customer Edge , Leonia DC AS19187 19229:10061 remarks: 19229:10071 Customer Edge, campbells CLT 19229:10071 remarks: 19229:10071 Customer Edge, campbells CLT  remarks: 19229:10072 Customer Edge, campbells PHX  remarks: 19229:10072 Customer Edge, campbells PHX 19229:10072  remarks: -------------------------------------------------------- remarks: 19229:1.... - DCCS Customer Assigned Prefixes and AS remarks: AS 11086 remarks: 19229:10010 , 19229:10011 , 19229:10012   remarks: -------------------------------------------------------- remarks: -------------------------------------------------------- remarks: Private Edge Communities remarks: --------------------------------------------------------  remarks: NOT FOR EXPORT BEYOND AS19229  remarks: -------------------------------------------------------- remarks: -------------------------------------------------------- remarks: Public Edge Communities - NAP remarks: -------------------------------------------------------- remarks: 19229:3.... - DCCS NAP Prefixes remarks: -------------------------------------------------------- remarks: -------------------------------------------------------- remarks: Transit Edge Communities remarks: -------------------------------------------------------- remarks: 19229:41101 - ATL11 - Atlanta remarks: 19229:41102 - CLT11 - Charlotte remarks: 19229:41201 - OMA11 - Omaha remarks: 19229:41202 - PHX11 - Phoenix remarks: 19229:42101 - FRA11 - Frankfurt Transit 1 remarks: 19229:42102 - FRA11 - Frankfurt Transit 2 remarks: 19229:42103 - DUS12 - Dusseldorf remarks: 19229:43101 
+- SIN11 - Singapore Transit 1 remarks: 19229:43102 - SIN11 - Singapore Transit 2 remarks: -------------------------------------------------------- remarks: -------------------------------------------------------- remarks: DC Edge Communities remarks: -------------------------------------------------------- remarks: 19229:51101 - CLT01 - KDC remarks: 19229:51102 - PHX01 - TDC remarks: 19229:51103 - OMA01 - ODC remarks: 19229:51104 - ATL01 - NDC remarks: 19229:52001 - DUS01 - MDC remarks: 19229:52002 - DUS02 - DDC remarks: 19229:53001 - SIN01 - SDC remarks: -------------------------------------------------------- remarks: -------------------------------------------------------- remarks: ======================================================== remarks: remarks: Communities accepted from customers remarks:   custom commuinites work in progress remarks: ======================================================== remarks: remarks: -------------------------------------------------------- remarks: ASNEEDED remarks: -------------------------------------------------------- aut-num: AS19229 as-name: DCCS descr: Wipro Data Center and Cloud Services admin-c: usnetwork-services@wipro.com tech-c: usnetwork-services@wipro.com    import: from AS209 67.148.245.149 accept ANY import: from AS2914 116.51.27.29 accept ANY import: from AS2516 59.128.58.29 accept ANY import: from AS3320 62.157.251.193 accept ANY import: from AS3356 64.215.26.221 accept ANY import: from AS3356 4.71.124.49 accept ANY import: from AS3356 212.162.25.37 accept ANY import: from AS3356 4.53.105.73 accept ANY import: from AS3910 65.100.13.113 accept ANY import: from AS11086 171.74.144.20 accept 199.33.137.0/24  import: from AS11086 171.74.144.21 accept 199.33.137.0/24  import: from AS11086 152.144.252.49 accept 199.33.137.0/24  import: from AS11086 198.160.80.37 accept 199.33.137.0/24  import: from AS11086 198.160.80.36 accept 199.33.137.0/24  import: from AS11086 176.32.239.64 accept 199.33.137.0/24  import: from A
+S11086 176.32.239.65 accept 199.33.137.0/24  export: to AS209 4.78.140.10 announce ANY export: to AS2914 116.51.27.29 announce ANY export: to AS2516 59.128.58.29 announce ANY export: to AS3320 62.157.251.193 announce ANY export: to AS3356 64.215.26.221 announce ANY export: to AS3356 4.71.124.49 announce ANY export: to AS3356 212.162.25.37 announce ANY export: to AS3356 4.53.105.73 announce ANY export: to AS3910 65.100.13.113 announce ANY export: to AS11086 171.74.144.20 announce {0.0.0.0/0}  export: to AS11086 171.74.144.21 announce {0.0.0.0/0}  export: to AS11086 152.144.252.49 announce {0.0.0.0/0}  export: to AS11086 198.160.80.36 announce {0.0.0.0/0}  export: to AS11086 198.160.80.37 announce {0.0.0.0/0}  export: to AS11086 176.32.239.64 announce {0.0.0.0/0} export: to AS11086 176.32.239.65 announce {0.0.0.0/0}
+status:         OTHER
+mnt-by:         WIPRO-MNT
+created:        2017-03-08T15:48:30Z
+last-modified:  2017-11-15T12:41:14Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

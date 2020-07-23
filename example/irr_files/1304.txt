@@ -1,0 +1,171 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS1304
+as-name:       FR-SFINX
+descr:         SFINX Route Servers
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS29608 accept AS-W2MY
+import:        from AS2484 accept AS-AFNIC
+import:        from AS2486 accept AS-AFNIC
+import:        from AS41653 accept AS-AQUARAY
+import:        from AS42929 accept AS-ARTEWAN
+import:        from AS35625 accept AS-ATE-CUST
+import:        from AS112 accept AS-AS112
+import:        from AS35189 accept AS-KAZAR
+import:        from AS57468 accept AS-AZA-TELECOM
+import:        from AS50620 accept AS-BLUENETECH
+import:        from AS8565 accept AS-BLUEGIX
+import:        from AS199660 accept AS-CLOUDATA
+import:        from AS30972 accept AS-CYREALIS
+import:        from AS44141 accept AS-DEVCLIC
+import:        from AS6738 accept AS-DRI
+import:        from AS43573 accept AS-EBSD
+import:        from AS8304 accept AS-ECRITEL
+import:        from AS25187 accept AS-FCV
+import:        from AS28855 accept AS-GALACSYS
+import:        from AS29169 accept AS-GANDI
+import:        from AS20766 accept AS-GITOYEN
+import:        from AS15422 accept AS15422
+import:        from AS34019 accept AS-HIVANE
+import:        from AS8674 accept AS-NETNOD
+import:        from AS29075 accept AS-IELO
+import:        from AS21409 accept AS-IKOULA
+import:        from AS25286 accept AS-IPERCAST
+import:        from AS39180 accept AS-LASOTEL
+import:        from AS50618 accept AS-LIAZO
+import:        from AS43100 accept AS43100:AS-MEMBERS
+import:        from AS25593 accept AS-LINKBYNET
+import:        from AS201703 accept AS-AS201703
+import:        from AS57119 accept AS-NAITWAYS
+import:        from AS8218 accept AS-NEOT
+import:        from AS9036 accept AS-NEURONNEXION
+import:        from AS15826 accept AS-NFRANCE
+import:        from AS25358 accept AS-NOVSO
+import:        from AS41157 accept AS-OXYMIUM
+import:        from AS8487 accept AS-PHIBEE-TELECOM
+import:        from AS8784 accept AS-MGN
+import:        from AS2200 accept AS-RENATER
+import:        from AS16347 accept AS-RMI
+import:        from AS44334 accept AS-RTLFR
+import:        from AS20932 accept AS-SIG-TELECOM
+import:        from AS50858 accept AS-SOLUINFO
+import:        from AS31688 accept AS-SPLIO
+import:        from AS16211 accept AS-STELLANET
+import:        from AS3303 accept AS-SWCMGLOBAL
+import:        from AS198335 accept AS-TRANSATEL
+import:        from AS34006 accept AS-VEEPEE
+import:        from AS8190 accept AS-MDNX
+import:        from AS30889 accept AS-WAYCOM
+import:        from AS42456 accept AS-CHMURTZ-SFX
+import:        from AS24963 accept AS-YACAST
+export:        to AS29608 announce AS-SFINX-RS-MEMBERS
+export:        to AS2484 announce AS-SFINX-RS-MEMBERS
+export:        to AS2486 announce AS-SFINX-RS-MEMBERS
+export:        to AS41653 announce AS-SFINX-RS-MEMBERS
+export:        to AS42929 announce AS-SFINX-RS-MEMBERS
+export:        to AS35625 announce AS-SFINX-RS-MEMBERS
+export:        to AS112 announce AS-SFINX-RS-MEMBERS
+export:        to AS35189 announce AS-SFINX-RS-MEMBERS
+export:        to AS57468 announce AS-SFINX-RS-MEMBERS
+export:        to AS50620 announce AS-SFINX-RS-MEMBERS
+export:        to AS8565 announce AS-SFINX-RS-MEMBERS
+export:        to AS199660 announce AS-SFINX-RS-MEMBERS
+export:        to AS30972 announce AS-SFINX-RS-MEMBERS
+export:        to AS44141 announce AS-SFINX-RS-MEMBERS
+export:        to AS6738 announce AS-SFINX-RS-MEMBERS
+export:        to AS43573 announce AS-SFINX-RS-MEMBERS
+export:        to AS8304 announce AS-SFINX-RS-MEMBERS
+export:        to AS25187 announce AS-SFINX-RS-MEMBERS
+export:        to AS28855 announce AS-SFINX-RS-MEMBERS
+export:        to AS29169 announce AS-SFINX-RS-MEMBERS
+export:        to AS20766 announce AS-SFINX-RS-MEMBERS
+export:        to AS15422 announce AS-SFINX-RS-MEMBERS
+export:        to AS34019 announce AS-SFINX-RS-MEMBERS
+export:        to AS8674 announce AS-SFINX-RS-MEMBERS
+export:        to AS29075 announce AS-SFINX-RS-MEMBERS
+export:        to AS21409 announce AS-SFINX-RS-MEMBERS
+export:        to AS25286 announce AS-SFINX-RS-MEMBERS
+export:        to AS39180 announce AS-SFINX-RS-MEMBERS
+export:        to AS50618 announce AS-SFINX-RS-MEMBERS
+export:        to AS43100 announce AS-SFINX-RS-MEMBERS
+export:        to AS25593 announce AS-SFINX-RS-MEMBERS
+export:        to AS201703 announce AS-SFINX-RS-MEMBERS
+export:        to AS57119 announce AS-SFINX-RS-MEMBERS
+export:        to AS8218 announce AS-SFINX-RS-MEMBERS
+export:        to AS9036 announce AS-SFINX-RS-MEMBERS
+export:        to AS15826 announce AS-SFINX-RS-MEMBERS
+export:        to AS25358 announce AS-SFINX-RS-MEMBERS
+export:        to AS41157 announce AS-SFINX-RS-MEMBERS
+export:        to AS8487 announce AS-SFINX-RS-MEMBERS
+export:        to AS8784 announce AS-SFINX-RS-MEMBERS
+export:        to AS2200 announce AS-SFINX-RS-MEMBERS
+export:        to AS16347 announce AS-SFINX-RS-MEMBERS
+export:        to AS44334 announce AS-SFINX-RS-MEMBERS
+export:        to AS20932 announce AS-SFINX-RS-MEMBERS
+export:        to AS50858 announce AS-SFINX-RS-MEMBERS
+export:        to AS31688 announce AS-SFINX-RS-MEMBERS
+export:        to AS16211 announce AS-SFINX-RS-MEMBERS
+export:        to AS3303 announce AS-SFINX-RS-MEMBERS
+export:        to AS198335 announce AS-SFINX-RS-MEMBERS
+export:        to AS34006 announce AS-SFINX-RS-MEMBERS
+export:        to AS8190 announce AS-SFINX-RS-MEMBERS
+export:        to AS30889 announce AS-SFINX-RS-MEMBERS
+export:        to AS42456 announce AS-SFINX-RS-MEMBERS
+export:        to AS24963 announce AS-SFINX-RS-MEMBERS
+remarks:       
+remarks:       -----------------------------------------------------
+remarks:       
+remarks:       This ASN is used by SFINX route-servers
+remarks:       
+remarks:       -----------------------------------------------------
+remarks:       
+remarks:       Information: http://www.sfinx.fr/
+remarks:       Peering requests: support@sfinx.fr
+remarks:       Customers technical support: support@sfinx.fr
+remarks:       
+remarks:       -----------------------------------------------------
+remarks:       
+remarks:       Following communities can be used by members:
+remarks:       
+remarks:       0:peeras = Don't sent to this peer
+remarks:       1304:peeras = Send to this peer
+remarks:       0:1304 = Don't send to any peer
+remarks:       1304:1304 = Send to all peers
+remarks:       1304:65281 = Apply NO-EXPORT community
+remarks:       1304:65282 = Apply NO-ADVERTISE community
+remarks:       65101:peeras = Prepend 1 for this peer
+remarks:       65102:peeras = Prepend 2 for this peer
+remarks:       65103:peeras = Prepend 3 for this peer
+remarks:       65201:peeras = Set MED 50 for this peer
+remarks:       65202:peeras = Set MED 100 for this peer
+remarks:       65203:peeras = Set MED 200 for this peer
+remarks:       
+remarks:       Set peer-as value as listed below for the following 32-bit AS numbers:
+remarks:       
+remarks:       Member                 AS-number  peer-as/Community
+remarks:       TRANSATEL              198335     64512
+remarks:       CLOUDATA               199660     64513
+remarks:       MHZ-BOUTEILLER-PARIS   201703     64514
+remarks:       
+remarks:       Following communities are applied by the route-server:
+remarks:       
+remarks:       1304:64666 = Prefixes with invalid route origin
+remarks:       1304:65001 = Prefixes received from a peer on SFINX1
+remarks:       1304:65002 = Prefixes received from a peer on SFINX2
+remarks:       
+remarks:       -----------------------------------------------------
+remarks:       
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RENATER-MNT
+source:        RIPE
+
+

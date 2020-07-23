@@ -1,0 +1,306 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS48039'
+
+% Abuse contact for 'AS48039' is 'abuse@ghostnet.de'
+
+aut-num:        AS48039
+as-name:        KGT-AS
+descr:          Moellendorffstr. 108-109
+descr:          D-10367 Berlin
+org:            ORG-GG3-RIPE
+remarks:        ------------------------------------------------
+remarks:        - NOC Contact: noc (at) kgtnewmedia.de -
+remarks:        - Abuse Contact: abuse (at) kgtnewmedia.de -
+remarks:        - Peering Contact: peering (at) kgtnewmedia.de -
+remarks:        ------------------------------------------------
+remarks:        - Peering policy is generally selective -
+remarks:        - -
+remarks:        - Please refer to http://as48039.net and -
+remarks:        - http://as48039.peeringdb.com for details -
+remarks:        ------------------------------------------------
+remarks:
+remarks:
+remarks:
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Transit
+remarks:        ------------------------------------------------
+import:         from AS3320 accept ANY
+export:         to AS3320 announce AS-KGT
+import:         from AS3257 accept ANY
+export:         to AS3257 announce AS-KGT
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-KGT
+import:         from AS12586 accept ANY
+export:         to AS12586 announce AS-KGT
+remarks:
+remarks:
+mp-import:      afi ipv6.unicast from AS3320 accept ANY
+mp-export:      afi ipv6.unicast to AS3320 announce AS-KGTv6
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-export:      afi ipv6.unicast to AS3257 announce AS-KGTv6
+mp-import:      afi ipv6.unicast from AS174 accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-KGTv6
+mp-import:      afi ipv6.unicast from AS12586 accept ANY
+mp-export:      afi ipv6.unicast to AS12586 announce AS-KGTv6
+remarks:
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Private Peering
+remarks:        ------------------------------------------------
+import:         from AS25560 accept AS-RHTEC
+export:         to AS25560 announce AS-KGT
+mp-import:      afi ipv6.unicast from AS25560 accept AS-RHTEC
+mp-export:      afi ipv6.unicast to AS25560 announce AS-KGTv6
+import:         from AS8596 accept AS-HOTZE
+export:         to AS8596 announce ANY
+mp-import:      afi ipv6.unicast from AS8596 accept AS-HOTZE-V6
+mp-export:      afi ipv6.unicast to AS8596 announce ANY
+import:         from AS34309 accept AS-LINK11
+export:         to AS134309 announce AS-KGT
+mp-import:      afi ipv6.unicast from AS34309 accept AS-LINK11
+mp-export:      afi ipv6.unicast to AS34309 announce AS-KGTv6
+remarks:
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Customer
+remarks:        ------------------------------------------------
+import:         from AS57821 accept AS-NONATTACHED
+export:         to AS57821 announce ANY
+mp-import:      afi ipv6.unicast from AS57821 accept AS-NONATTACHED
+mp-export:      afi ipv6.unicast to AS57821 announce ANY
+import:         from AS58329 accept AS58329
+export:         to AS58329 announce ANY
+mp-import:      afi ipv6.unicast from AS58329 accept AS58329
+mp-export:      afi ipv6.unicast to AS58329 announce ANY
+import:         from AS61430 accept AS-MILDE
+export:         to AS61430 announce ANY
+mp-import:      afi ipv6.unicast from AS61430 accept AS-MILDE
+mp-export:      afi ipv6.unicast to AS61430 announce ANY
+import:         from AS47138 accept AS47138
+export:         to AS47138 announce ANY
+mp-import:      afi ipv6.unicast from AS47138 accept AS47138
+mp-export:      afi ipv6.unicast to AS47138 announce ANY
+import:         from AS21158 accept AS21158
+export:         to AS21158 announce ANY
+mp-import:      afi ipv6.unicast from AS21158 accept AS21158
+mp-export:      afi ipv6.unicast to AS21158 announce ANY
+import:         from AS49018 accept AS49018
+export:         to AS49018 announce ANY
+import:         from AS41723 accept AS41723
+export:         to AS41723 announce ANY
+mp-import:      afi ipv6.unicast from AS41723 accept AS41723
+mp-export:      afi ipv6.unicast to AS41723 announce ANY
+import:         from AS49296 accept AS49296
+export:         to AS49296 announce ANY
+mp-import:      afi ipv6.unicast from AS49296 accept AS49296
+mp-export:      afi ipv6.unicast to AS49296 announce ANY
+import:         from AS201987 accept AS201987
+export:         to AS201987 announce ANY
+mp-import:      afi ipv6.unicast from AS201987 accept AS201987
+mp-export:      afi ipv6.unicast to AS201987 announce ANY
+import:         from AS204188 accept AS204188
+export:         to AS204188 announce ANY
+mp-import:      afi ipv6.unicast from AS204188 accept AS204188
+mp-export:      afi ipv6.unicast to AS204188 announce ANY
+import:         from AS206384 accept AS206384
+export:         to AS206384 announce ANY
+mp-import:      afi ipv6.unicast from AS206384 accept AS206384
+mp-export:      afi ipv6.unicast to AS206384 announce ANY
+import:         from AS49018 accept AS49018
+export:         to AS49018 announce ANY
+mp-import:      afi ipv6.unicast from AS49018 accept AS49018
+mp-export:      afi ipv6.unicast to AS49018 announce ANY
+import:         from AS206216 accept AS206216
+export:         to AS206216 announce ANY
+mp-import:      afi ipv6.unicast from AS206216 accept AS206216
+mp-export:      afi ipv6.unicast to AS206216 announce ANY
+remarks:
+remarks:
+remarks:        ------------------------------------------------
+remarks:        DE-CIX Peering (via AS31025)
+remarks:        ------------------------------------------------
+import:         from AS31025 accept ANY
+export:         to AS31025 announce AS-KGT
+mp-import:      afi ipv6.unicast from AS31025 accept ANY
+mp-export:      afi ipv6.unicast to AS31025 announce AS-KGTv6
+remarks:
+remarks:
+remarks:        ---------------------------------------------------------------------------
+remarks:        - We are filtering prefixes which are listed as BOGON. -
+remarks:        - IPv4 Bogon List: http://www.cymru.com/Documents/bogon-bn-nonagg.txt -
+remarks:        - IPv6 Bogon List: http://www.cymru.com/Bogons/v6bogon.html -
+remarks:        - -
+remarks:        - We will not accept/announce any prefixes more specific than /24. -
+remarks:        - -
+remarks:        - We filter incoming announcements of routes originating in AS48039. -
+remarks:        ----------------------------------------------------------------------------
+remarks:
+member-of:      AS3320:AS-AUTH-PILOT-BLACKHOLE-FROM-AS12586
+remarks:
+remarks:
+remarks:        ===================
+remarks:        = BGP Communities =
+remarks:        ===================
+remarks:
+remarks:        Informatiol Tags
+remarks:        =================
+remarks:
+remarks:        Community Definition
+remarks:
+remarks:        48039:49 route learned from bgp partner in DE
+remarks:        48039:43 route learned from bgp partner in AT
+remarks:        48039:31 route learned from bgp partner in NL
+remarks:        48039:44 route learned from bgp partner in UK
+remarks:
+remarks:        48039:3320 route learned from Deutsche Telekom (AS3320)
+remarks:        48039:174 route learned from Cogent (AS174)
+remarks:        48039:3257 route learned from Tinet (AS3257)
+remarks:
+remarks:        48039:8596 route learned from private peering partner (AS8596)
+remarks:        48039:25560 route learned from private peering partner (AS25560)
+remarks:
+remarks:        48039:nnnnn route learned from bgp4 customer (ASnnnnn)
+remarks:
+remarks:        48039:3440 route learned from DE-CIX v4 peer
+remarks:        48039:3640 route learned from DE-CIX v6 peer
+remarks:        48039:4440 route learned from DE-CIX RS v4 peer
+remarks:        48039:4640 route learned from DE-CIX RS v6 peer
+remarks:        48039:3450 route learned from AMS-IX v4 peer
+remarks:        48039:3650 route learned from AMS-IX v6 peer
+remarks:        48039:4450 route learned from AMS-IX RS v4 peer
+remarks:        48039:4650 route learned from AMS-IX RS v6 peer
+remarks:        48039:3460 route learned from LINX v4 peer
+remarks:        48039:3660 route learned from LINX v6 peer
+remarks:        48039:4460 route learned from LINX RS v4 peer
+remarks:        48039:4660 route learned from LINX RS v6 peer
+remarks:        48039:3470 route learned from KLEYREX v4 peer
+remarks:        48039:3670 route learned from KLEYREX v6 peer
+remarks:        48039:4470 route learned from KLEYREX RS v4 peer
+remarks:        48039:4670 route learned from KLEYREX RS v6 peer
+remarks:        48039:3480 route learned from VIX v4 peer
+remarks:        48039:3680 route learned from VIX v6 peer
+remarks:        48039:4480 route learned from VIX RS v4 peer
+remarks:        48039:4680 route learned from VIX RS v6 peer
+remarks:
+remarks:        Action Tags
+remarks:        ============
+remarks:
+remarks:        Communities described below can be triggered by downstream AS
+remarks:
+remarks:        Blackhole Community (up to /32 and /128 possible)
+remarks:        -------------------------------------------------
+remarks:
+remarks:        48039:666
+remarks:
+remarks:        Prepending
+remarks:        -----------
+remarks:
+remarks:        48039:1010 prepend once
+remarks:        48039:1020 prepend twice
+remarks:        48039:1030 prepend triple
+remarks:
+remarks:        No announce globally
+remarks:        ---------------------
+remarks:
+remarks:        48039:1000
+remarks:
+remarks:        Not announce to upstream
+remarks:        -------------------------
+remarks:
+remarks:
+remarks:        48039:1100 Not announce to DTAG (AS3320)
+remarks:        48039:1110 Not announce to GHOSTnet (AS12586)
+remarks:        48039:1120 Not announce to TiNet (AS3257)
+remarks:        48039:1130 Not announce to Cogent (AS174)
+remarks:        48039:1140 Not announce to DE-CIX (AS31025)
+remarks:
+remarks:
+remarks:        IPv4/IPv6 and L2-Connectivity are possible at the following locations:
+remarks:
+remarks:        FRA1: Ancotel, Kleyerstrasse 88-90, D-60326 Frankfurt, Germany
+remarks:        FRA2: InterXion (FRA2), Hanauer Landstrasse 304, D-60314 Frankfurt, Germany
+remarks:        FRA3: Telecity (Gutleut), Gutleutstrasse 310, D-60327 Frankfurt, Germany
+remarks:        FRA4: NewColo, Mainzer Landstr. 351-353, D-60326 Frankfurt, Germany
+remarks:
+remarks:
+admin-c:        KGT-RIPE
+tech-c:         KGT-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         KGT-MNT
+mnt-by:         GHOSTNET-MNT
+created:        2008-10-02T11:22:51Z
+last-modified:  2018-09-04T10:36:06Z
+source:         RIPE # Filtered
+
+organisation:   ORG-GG3-RIPE
+org-name:       GHOSTnet GmbH
+org-type:       LIR
+address:        Am Dachsbau  17
+address:        65812
+address:        Bad Soden a.Ts.
+address:        GERMANY
+phone:          +49 6172 185025
+fax-no:         +49 6172 185029
+admin-c:        GNSB-RIPE
+admin-c:        GN-RIPE
+admin-c:        GNSG-RIPE
+tech-c:         GN-RIPE
+abuse-c:        GN-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        GHOSTNET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         GHOSTNET-MNT
+created:        2004-04-17T11:07:35Z
+last-modified:  2018-10-10T07:53:52Z
+source:         RIPE # Filtered
+
+role:           KGT Hostmaster
+address:        KGT new media
+address:        Moellendorffstrasse 108-109
+address:        D-10367 Berlin
+address:        DE
+phone:          +49 30 2148030 0
+fax-no:         +49 30 2148030 99
+remarks:        +++++++++++++++++++++++++++++++++++++++
+remarks:        In case of SPAM, Hacking, Illegal activities
+remarks:        use the following contact:
+remarks:        abuse@kgtnewmedia.de
+remarks:        +++++++++++++++++++++++++++++++++++++++
+abuse-mailbox:  abuse@kgtnewmedia.de
+mnt-by:         KGT-MNT
+admin-c:        KGT-RIPE
+tech-c:         KGT-RIPE
+nic-hdl:        KGT-RIPE
+created:        2008-09-12T05:54:38Z
+last-modified:  2010-10-11T14:46:39Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

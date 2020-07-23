@@ -1,0 +1,64 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS50244
+as-name:       iTelecom
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS3356 accept ANY
+import:        from AS5606 accept ANY
+import:        from AS2914 accept ANY
+export:        to AS3356 announce AS-ITELECOM
+export:        to AS5606 announce AS-ITELECOM
+export:        to AS2914 announce AS-ITELECOM
+remarks:       http://www.itelecom.ro/bgp/
+remarks:       +---------------------------------------------------------------------------
+remarks:       | Routing Policy for ITelecom
+remarks:       +---------------------------------------------------------------------------
+remarks:       | COMMUNITIES - CUSTOMER-SETTABLE
+remarks:       |
+remarks:       | 50244:1080 - set local preference to 80
+remarks:       | 50244:1100 - set local preference to 100
+remarks:       | 50244:1120 - set local preference to 120
+remarks:       |
+remarks:       | 50244:3000 - Announce to upstream with no prepends
+remarks:       | 50244:3001 - Announce to upstream with 1 prepend
+remarks:       | 50244:3002 - Announce to upstream with 2 prepends
+remarks:       | 50244:3003 - Announce to upstream with 3 prepends
+remarks:       | 50244:3009 - Do not announce to upstream
+remarks:       |
+remarks:       | 50244:4100 - Announce to GTS  with no prepends
+remarks:       | 50244:4101 - Announce to GTS  with 1 prepend
+remarks:       | 50244:4102 - Announce to GTS  with 2 prepends
+remarks:       | 50244:4103 - Announce to GTS  with 3 prepends
+remarks:       | 50244:4109 - do not announce to GTS
+remarks:       |
+remarks:       | 50244:4400 - Announce to GBLX with no prepends
+remarks:       | 50244:4401 - Announce to GBLX with 1 prepend
+remarks:       | 50244:4402 - Announce to GBLX with 2 prepends
+remarks:       | 50244:4403 - Announce to GBLX with 3 prepends
+remarks:       | 50244:4409 - Do not announce to GBLX
+remarks:       |
+remarks:       | 50244:4300 - Announce to COGENT with no prepends
+remarks:       | 50244:4301 - Announce to COGENT with 1 prepend
+remarks:       | 50244:4302 - Announce to COGENT with 2 prepends
+remarks:       | 50244:4303 - Announce to COGENT with 3 prepends
+remarks:       | 50244:4309 - Do not announce to COGENT
+remarks:       |
+remarks:       | NOTE:  If used, 50244:4x0y overrides the 50244:300z communities.
+remarks:       +---------------------------------------------------------------------------
+remarks:       *******************************************
+remarks:       * for abuse please use abuse@itelecom.ro  *
+remarks:       *******************************************
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        ITELECOM-MNT
+source:        RIPE
+
+

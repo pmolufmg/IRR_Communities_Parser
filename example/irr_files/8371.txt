@@ -1,0 +1,200 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8371'
+
+% Abuse contact for 'AS8371' is 'abuse-b2b@beeline.ru'
+
+aut-num:        AS8371
+as-name:        Vimpelcom-NN
+descr:          Vimpelcom, Nizhniy Novgorod branch, fixed network
+descr:          Nizhny Novgorod, Russia
+org:            ORG-ES15-RIPE
+import:         from AS200121 action pref=120; accept AS200121
+export:         to AS200121 announce ANY
+import:         from AS57193 action pref=120; accept AS-RUWEBNN
+export:         to AS57193 announce ANY
+import:         from AS34030 action pref=120; accept AS34030
+export:         to AS34030 announce ANY
+import:         from AS198415 action pref=120; accept AS-KOMPLEX-INFO
+export:         to AS198415 announce ANY
+import:         from AS198842 action pref=120; accept AS198842
+export:         to AS198842 announce ANY
+import:         from AS47614 action pref=120; accept AS-MEGANN
+export:         to AS47614 announce ANY
+import:         from AS31724 action pref=120; accept AS31724
+export:         to AS31724 announce ANY
+import:         from AS12289 action pref=120; accept AS12289
+export:         to AS12289 announce ANY
+import:         from AS57104 action pref=120; accept AS57104
+export:         to AS57104 announce ANY
+import:         from AS15370 action pref=120; accept AS15370
+export:         to AS15370 announce ANY
+import:         from AS48733 action pref=120; accept AS48733
+export:         to AS48733 announce ANY
+import:         from AS42940 action pref=120; accept AS42940
+export:         to AS42940 announce ANY
+import:         from AS24626 action pref=100; accept AS24626
+export:         to AS24626 announce AS-KIS
+import:         from AS8580 action pref=100; accept AS8580 AS5471
+export:         to AS8580 announce AS-KIS
+import:         from AS8623 action pref=100; accept AS8623
+export:         to AS8623 announce AS-KIS
+import:         from AS8744 action pref=100; accept AS-NIS
+export:         to AS8744 announce ANY
+import:         from AS43730 action pref=120; accept AS43730
+export:         to AS43730 announce ANY
+import:         from AS199459 action pref=120; accept AS199459
+export:         to AS199459 announce ANY
+import:         from AS200619 action pref=100; accept AS200619
+export:         to AS200619 announce ANY
+import:         from AS2854 action pref=100; accept AS-ROSPRINT
+export:         to AS2854 announce AS-KIS
+import:         from AS43975 action pref=100; accept AS-VOLGATELECOM
+export:         to AS43975 announce AS-KIS
+import:         from AS34528 action pref=100; accept AS34528
+export:         to AS34528 announce ANY
+import:         from AS203868 action pref=120; accept AS203868
+export:         to AS203868 announce ANY
+import:         from AS3216 action pref=90; accept ANY
+export:         to AS3216 announce AS-KIS
+import:         from AS200479 action pref=120; accept AS-MERANN
+export:         to AS200479 announce ANY
+import:         from  AS204048 action pref=120; accept AS204048
+export:         to AS204048 announce ANY
+mp-import:      afi ipv6 from AS3216 action pref=90; accept ANY
+mp-export:      afi ipv6 to AS3216 announce AS-KIS-V6
+mp-import:      afi ipv6 from AS15370 action pref=90; accept AS15370
+mp-export:      afi ipv6 to AS15370 announce ANY
+mp-import:      afi ipv6 from AS200479 action pref=90; accept AS-MERANN
+mp-export:      afi ipv6 to AS200479 announce ANY
+import:         from AS12389 action pref=90; accept ANY
+export:         to AS12389 announce AS-KIS
+default:        to AS3216 action pref=90; networks ANY
+remarks:        External communities may be set by external peers when
+remarks:        talking to AS8371. They are in range 8371:5000-8371:5999.
+remarks:        Community Meaning
+remarks:        8371:5000 - Do not export outside AS8371
+remarks:        8371:5001 - Export to all clients and peers but don't export
+remarks:        to all uplinks
+remarks:        8371:501x - When advertising to Rostelecom peer
+remarks:        8371:502x - When advertising to TTK-NN peer
+remarks:        8371:503x - When advertising to StartTelecom peer
+remarks:        ...x=0 - Do not advertise
+remarks:        x=1,2,4,6 - prepend 8371 1,2,4,6 times.
+remarks:        8371:5500 - Do not advertise to OTHER peers.
+remarks:        8371:5510 - Do not advertise to ALL peers.
+remarks:        8371:5880 - set local preference to 80 (the lowest value
+remarks:        used in the network (BACKUP).
+remarks:        Internal comminuties are assigned only internally.
+remarks:        are always deleted from incoming updates at the border
+remarks:        routers.
+remarks:        They may be used by peers to filter some prefixes.
+remarks:        8371:1000 - prefixes originated from Uplinks
+remarks:        8371:1101 - prefixes originated from Rostelecom peer
+remarks:        8371:1102 - prefixes originated from TTK-NN peer
+remarks:        8371:1103 - prefixes originated from StartTelecom peer
+remarks:        8371:1150 - prefixes originated from OTHER peers
+remarks:        8371:1151 - prefixes originated from ALL peers
+remarks:        8371:1200 - prefixes originated from clients in Nizhniy
+remarks:        Novgorod
+remarks:        8371:1201 - prefixes originated from clients in Bor
+admin-c:        DV15-RIPE
+tech-c:         DV15-RIPE
+admin-c:        SVNT2-RIPE
+tech-c:         SVNT1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8371-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-09-04T09:49:04Z
+source:         RIPE # Filtered
+
+organisation:   ORG-ES15-RIPE
+org-name:       PJSC "Vimpelcom"
+org-type:       LIR
+remarks:        VEON Group
+address:        8 Marta str, 10, bld. 14
+address:        127083
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +79037600747
+fax-no:         +74957871990
+admin-c:        SVNT1-RIPE
+admin-c:        SVNT2-RIPE
+admin-c:        IAI1-RIPE
+admin-c:        DM3740-RIPE
+admin-c:        BEE15-RIPE
+mnt-ref:        SOVINTEL-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SOVINTEL-MNT
+abuse-c:        SVNT2-RIPE
+created:        2004-04-17T11:58:43Z
+last-modified:  2018-11-08T08:54:48Z
+source:         RIPE # Filtered
+
+role:           Sovintel NOC
+remarks:        now PAO Vimpelcom - formely Sovam Teleport/Teleross
+remarks:        aka Sovintel - Golden Telecom
+address:        111250 Russia Moscow Krasnokazarmennaya, 12
+mnt-by:         SOVINTEL-MNT
+org:            ORG-ES15-RIPE
+phone:          +7 800 7008061
+fax-no:         +7 495 7871010
+abuse-mailbox:  abuse-b2b@beeline.ru
+admin-c:        IAI1-RIPE
+admin-c:        DM3740-RIPE
+tech-c:         DM3740-RIPE
+tech-c:         SVNT2-RIPE
+nic-hdl:        SVNT1-RIPE
+created:        2004-05-13T11:50:32Z
+last-modified:  2018-12-19T09:43:59Z
+source:         RIPE # Filtered
+
+role:           Sovintel Abuse Department
+remarks:        now Vimpelcom Business Abuse Department
+address:        111250 Russia Moscow, Krasnokazarmennaya, 12
+org:            ORG-ES15-RIPE
+fax-no:         +7 495 7254300
+phone:          +7 495 7871000
+nic-hdl:        SVNT2-RIPE
+admin-c:        SVNT1-RIPE
+tech-c:         SVNT1-RIPE
+mnt-by:         SOVINTEL-MNT
+created:        2004-05-14T10:21:01Z
+last-modified:  2018-11-08T08:46:48Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse-b2b@beeline.ru
+
+person:         Dmitry Valdov
+address:        Business Communication Agency, Ltd.
+address:        12, Sovetskaya st.,
+address:        N.Novgorod, 603002
+address:        Russia
+phone:          +7 8312 777780
+nic-hdl:        DV15-RIPE
+mnt-by:         AS8371-MNT
+created:        2002-04-24T14:31:47Z
+last-modified:  2015-06-10T08:37:34Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

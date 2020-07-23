@@ -1,0 +1,176 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5537 - AS5631'
+
+as-block:       AS5537 - AS5631
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5617'
+
+% Abuse contact for 'AS5617' is 'cert.opl@orange.com'
+
+aut-num:        AS5617
+as-name:        TPNET
+org:            ORG-PT1-RIPE
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-TPNET
+import:         from AS5511 accept ANY
+export:         to AS5511 announce AS-TPNET
+remarks:        TPNET peers upstream with Telia and OpenTransit
+remarks:        and with customers in Poland
+remarks:
+remarks:        ================================================
+remarks:        Communities used in AS5617
+remarks:        ================================================
+remarks:
+remarks:        5617:103 - prefix is not announced to foreign peers
+remarks:
+remarks:        We do not accept all RFC1997 communities (no-export etc.)
+remarks:
+remarks:        communities for specific link are 5617:ab0x :
+remarks:        x=0 for "do not advertise"; x=1,2,3 for "prepend 1,2,3 times"
+remarks:
+remarks:        for AS1299 Telia 5617:110x
+remarks:        for AS5511 OpenTransit 5617:120x
+remarks:        for AS16283 Lodman 5617:220x
+remarks:        for AS8664 ICM 5617:240x
+remarks:        for AS8501 Pionier 5617:250x
+remarks:        for AS8890 Kampus Ochota 5617:260x
+remarks:        for AS12464 Politechnika W-wska 5617:270x
+remarks:        for AS8508 Silweb 5617:280x
+remarks:        for AS5550 TASK 5617:290x
+remarks:
+remarks:        ================================================
+remarks:
+remarks:        5617:997 - BLACKHOLING COMMUNITY
+remarks:
+remarks:        Blackhole community for /32 routes available for peers
+remarks:        advertising only one AS
+remarks:
+remarks:        ================================================
+remarks:
+remarks:        ================================================
+remarks:
+remarks:        We accept MED from our customers
+remarks:
+remarks:        ================================================
+remarks:
+remarks:        ================================================
+remarks:
+remarks:        ENTRY POINT INDICATORS IN AS5617
+remarks:
+remarks:        ================================================
+remarks:
+remarks:        5617:3385: Bialystok
+remarks:        5617:3352: Bydgoszcz
+remarks:        5617:3358: Gdansk
+remarks:        5617:3332: Katowice
+remarks:        5617:3341: Kielce
+remarks:        5617:3312: Krakow
+remarks:        5617:3342: Lodz
+remarks:        5617:3381: Lublin
+remarks:        5617:3389: Olsztyn
+remarks:        5617:3361: Poznan
+remarks:        5617:3317: Rzeszow
+remarks:        5617:3391: Szczecin
+remarks:        5617:3322: Warszawa
+remarks:        5617:3371: Wroclaw
+remarks:
+remarks:        ================================================
+remarks:        BGP issues: registry@tpnet.pl
+remarks:        ================================================
+remarks:
+remarks:        ================================================
+remarks:        IP address space: ip@telekomunikacja.pl
+remarks:        ================================================
+remarks:
+remarks:        ================================================
+remarks:        Our looking-glass: http://lg.tpnet.pl
+remarks:        ================================================
+remarks:
+admin-c:        TPRG
+tech-c:         TPRG
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS5617-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-11-15T09:13:23Z
+source:         RIPE
+
+organisation:   ORG-PT1-RIPE
+org-name:       Orange Polska Spolka Akcyjna
+org-type:       LIR
+address:        Al. Jerozolimskie 160
+address:        02-326
+address:        Warszawa
+address:        POLAND
+phone:          +48225230173
+fax-no:         +48225230178
+admin-c:        EHD2-RIPE
+admin-c:        KP21-RIPE
+admin-c:        AD13130-RIPE
+abuse-c:        OPHT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        TPNET
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         TPNET
+created:        2004-04-17T11:48:22Z
+last-modified:  2017-10-30T14:50:54Z
+source:         RIPE # Filtered
+
+role:           TPNET REGISTRY
+address:        Orange Polska SA
+address:        Aleje Jerozolimskie 160
+address:        02-326 Warszawa
+address:        POLAND
+remarks:
+remarks:        ================================
+remarks:        BGP PROBLEMS
+remarks:        ================================
+remarks:        In case of routing problems,
+remarks:        please send mail to registry contact.
+remarks:
+remarks:        registry@tpnet.pl
+remarks:
+remarks:        ================================
+remarks:        ABUSE ISSUES
+remarks:        ================================
+remarks:        In case of abuse (intrusion attempts, hacking,
+remarks:        spamming or other unaccepted behavior) from
+remarks:        TP S.A. address space, please mail only to:
+remarks:        abuse-mailbox. Notifications sent to other
+remarks:        mailboxes will be left without any action.
+remarks:
+remarks:        ================================
+remarks:        abuse phone: +48 22 8871788
+remarks:        ================================
+remarks:
+remarks:        ================================
+abuse-mailbox:  abuse@tpnet.pl
+remarks:        ================================
+remarks:
+admin-c:        KP21-RIPE
+admin-c:        PT2864-RIPE
+tech-c:         LT2220-RIPE
+tech-c:         PT2864-RIPE
+nic-hdl:        TPRG
+mnt-by:         AS5617-MNT
+created:        2007-01-03T09:36:46Z
+last-modified:  2018-12-20T12:02:16Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

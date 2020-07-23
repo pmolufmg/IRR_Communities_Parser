@@ -1,0 +1,138 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS3209 - AS3353'
+
+as-block:       AS3209 - AS3353
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:19Z
+last-modified:  2018-11-22T15:27:19Z
+source:         RIPE
+
+% Information related to 'AS3214'
+
+% Abuse contact for 'AS3214' is 'abuse@xtom.com'
+
+aut-num:        AS3214
+abuse-c:        XAD3-RIPE
+as-name:        XTOM
+org:            ORG-XL46-RIPE
+descr:          xTom Limited
+remarks:        https://xtom.com/
+remarks:        ----------------------
+remarks:        ----------------------
+remarks:        ======== Tier 1 & 2 IP Transit Providers ========
+remarks:        ----------------------
+remarks:        ----------------------
+remarks:        - Level 3
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-XTOM
+remarks:        - NTT
+import:         from AS2914 accept ANY
+export:         to AS2914 announce AS-XTOM
+remarks:        - Telia
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-XTOM
+remarks:        - GTT
+import:         from AS3257 accept ANY
+export:         to AS3257 announce AS-XTOM
+remarks:        - China Telecom CN1
+import:         from AS4134 accept ANY
+export:         to AS4134 announce AS-XTOM
+remarks:        - China Telecom CN2
+import:         from AS4809 accept ANY
+export:         to AS4809 announce AS-XTOM
+remarks:        - HE
+import:         from AS6939 accept ANY
+export:         to AS6939 announce AS-XTOM
+remarks:        - Hydra
+import:         from AS25369 accept ANY
+export:         to AS25369 announce AS-XTOM
+remarks:        - Choopa
+import:         from AS20473 accept ANY
+export:         to AS20473 announce AS-XTOM
+remarks:        ----------------------
+remarks:        ----------------------
+remarks:        ======== AS3214 BGP Community ========
+remarks:        ----------------------
+remarks:        ----------------------
+remarks:        - 3214:29146 DO NOT announce to NTT
+remarks:        - 3214:12996 DO NOT announce to Telia
+remarks:        - 3214:33566 DO NOT announce to Level 3
+remarks:        - 3214:32576 DO NOT announce to GTT
+remarks:        - 3214:41346 DO NOT announce to China Telecom
+remarks:        ----------------------
+remarks:        - 3214:29147 Announce to NTT only
+remarks:        - 3214:12997 Announce to Telia only
+remarks:        - 3214:33567 Announce to Level 3 only
+remarks:        - 3214:32577 Announce to GTT only
+remarks:        - 3214:41347 Announce to China Telecom ony
+remarks:        ----------------------
+remarks:        - 3214:666 Blackhole Community
+remarks:        ----------------------
+remarks:        - 3214:29143 Lower preference for NTT (lower than transit)
+remarks:        - 3214:12993 Lower preference for Telia (lower than transit)
+remarks:        - 3214:33563 Lower preference for Level 3 (lower than transit)
+remarks:        - 3214:32573 Lower preference for GTT (lower than transit)
+remarks:        - 3214:41343 Lower preference for China Telecom (lower than transit)
+remarks:        ----------------------
+remarks:        - 3214:6666 DO NOT announce to all peers and transit providers
+remarks:        ----------------------
+remarks:        - 3214:56666 DO NOT announce to route servers
+remarks:        ----------------------
+remarks:        - 3214:66 DO NOT announce to transit providers, only annouce to AMS-IX
+remarks:        ----------------------
+remarks:        - You can only use one community rule for DO NOT Announce type, otherwise our router will not accept your prefixes.
+remarks:        ----------------------
+remarks:        - Please contact noc@xtom.com for BGP issues.
+remarks:        ----------------------
+remarks:        ----------------------
+admin-c:        XN170-RIPE
+tech-c:         XN170-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         xtom
+mnt-lower:      xtom
+created:        2015-11-16T13:48:20Z
+last-modified:  2019-01-15T08:36:49Z
+source:         RIPE
+
+organisation:   ORG-XL46-RIPE
+org-name:       xTom Limited
+org-type:       LIR
+address:        3rd Floor 86-90 Paul Street
+address:        EC2A 4NE
+address:        London
+address:        UNITED KINGDOM
+admin-c:        XN170-RIPE
+tech-c:         XN170-RIPE
+abuse-c:        XAD3-RIPE
+mnt-ref:        xtom
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         xtom
+created:        2018-08-15T13:56:54Z
+last-modified:  2018-08-28T14:09:54Z
+source:         RIPE # Filtered
+phone:          +44 2038085333
+fax-no:         +44 2038085333
+
+role:           xTom NOC Department
+address:        3rd Floor 86-90 Paul Street, London, England, EC2A 4NE
+abuse-mailbox:  abuse@xtom.com
+nic-hdl:        XN170-RIPE
+mnt-by:         xtom
+created:        2018-08-20T14:21:19Z
+last-modified:  2018-08-20T14:22:56Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

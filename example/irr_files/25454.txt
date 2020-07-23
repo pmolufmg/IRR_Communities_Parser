@@ -1,0 +1,177 @@
+aut-num:        AS25454
+as-name:        ASN-OMD-FNO
+org:            ORG-OMS3-RIPE
+descr:          Orange Moldova Fixed Network Autonomous System
+descr:          Chisinau, MD
+remarks:        +------------------------------------------------------
+remarks:        | Available BGP Communities for Customers:
+remarks:        |------------------------------------------------------
+remarks:        | 25454:1 - Prepend 25454 once to upstream
+remarks:        | 25454:2 - Prepend 25454 twice to upstream
+remarks:        | 25454:3 - Prepend 25454 thrice to upstream
+remarks:        | 25454:0 - Don't anounce to upstream
+remarks:        +------------------------------------------------------
+remarks:        | Anything longer than /24 prefix are not accept.
+remarks:        | We accept /32 prefix for dDOS attack filtering.
+remarks:        |------------------------------------------------------
+remarks:        | 25454:66 - Block prefix in the OMD FN Backbone
+remarks:        | 25454:99 - Block prefix in the INTERNET Backbone
+remarks:        +------------------------------------------------------
+remarks:
+remarks:        +------------------------------------------------------
+remarks:        | IPv4 Peering:
+remarks:        +------------------------------------------------------
+import:         from AS3223 accept ANY
+import:         from AS8917 accept AS8917
+import:         from AS8926 accept ANY
+import:         from AS8953 accept ANY
+import:         from AS9050 accept ANY
+import:         from AS9199 accept AS9199
+import:         from AS50952 accept ANY
+import:         from AS25129 accept AS25129
+import:         from AS25527 accept AS25527
+import:         from AS28990 accept AS28990
+import:         from AS29616 accept AS-KIVIX
+import:         from AS31557 accept AS31557
+import:         from AS34529 accept AS34529
+import:         from AS34645 accept AS34645
+import:         from AS35210 accept ANY
+import:         from AS41053 accept AS41053
+import:         from AS41879 accept AS41879
+import:         from AS42086 accept AS42086
+import:         from AS42424 accept AS42424
+import:         from AS43289 accept AS43289:AS-EXPORT
+import:         from AS43588 accept AS-SECURED
+import:         from AS43831 accept AS43831
+import:         from AS43831 accept AS-MEDIANET-MD
+import:         from AS43870 accept AS43870 AS48872
+import:         from AS44388 accept AS44388
+import:         from AS47791 accept AS47791
+import:         from AS48232 accept AS48232
+import:         from AS48331 accept AS-SUN
+import:         from AS48691 accept AS48691 AS203861
+import:         from AS49527 accept AS49527
+import:         from AS49691 accept AS49691
+import:         from AS49947 accept AS49947
+import:         from AS50950 accept AS50950
+import:         from AS51141 accept AS51141
+import:         from AS51267 accept AS51267
+import:         from AS51770 accept AS51770
+import:         from AS56792 accept AS56792
+import:         from AS57040 accept AS57040
+import:         from AS57428 accept AS57428
+import:         from AS57776 accept AS57776
+import:         from AS60127 accept AS60127
+import:         from AS60405 accept AS60405 AS35529
+import:         from AS60581 accept AS60581
+import:         from AS61077 accept AS61077
+import:         from AS62071 accept AS62071
+import:         from AS62232 accept AS62232
+import:         from AS62337 accept AS62337
+import:         from AS12450 accept AS12450
+import:         from AS200019 accept AS200019
+import:         from AS200189 accept AS200189
+import:         from AS202723 accept AS202723
+import:         from AS202822 accept AS202822
+import:         from AS202966 accept AS202966
+import:         from AS205606 accept AS205606
+import:         from AS206445 accept AS206445
+import:         from AS206678 accept AS206678
+export:         to AS3223 announce AS-ORANGEMD
+export:         to AS8917 announce AS-ORANGEMD
+export:         to AS8926 announce AS-ORANGEMD
+export:         to AS8926 announce AS-TELEMEDIA
+export:         to AS8953 announce AS-ORANGEMD
+export:         to AS9050 announce AS-ORANGEMD
+export:         to AS9199 announce AS-ORANGEMD
+export:         to AS50952 announce AS-ORANGEMD
+export:         to AS25129 announce AS-ORANGEMD
+export:         to AS25527 announce AS-ORANGEMD
+export:         to AS28990 announce AS-ORANGEMD
+export:         to AS29616 announce AS-ORANGEMD
+export:         to AS31557 announce AS-ORANGEMD
+export:         to AS34529 announce AS-ORANGEMD
+export:         to AS34645 announce AS-ORANGEMD
+export:         to AS35210 announce AS-ORANGEMD
+export:         to AS41053 announce AS-ORANGEMD
+export:         to AS41879 announce AS-ORANGEMD
+export:         to AS42086 announce AS-ORANGEMD
+export:         to AS42424 announce AS-ORANGEMD
+export:         to AS43289 announce AS-ORANGEMD
+export:         to AS43831 announce AS-ORANGEMD
+export:         to AS43870 announce AS-ORANGEMD
+export:         to AS44388 announce AS-ORANGEMD
+export:         to AS47791 announce AS-ORANGEMD
+export:         to AS48232 announce AS-ORANGEMD
+export:         to AS48691 announce AS-ORANGEMD
+export:         to AS49527 announce AS-ORANGEMD
+export:         to AS49691 announce AS-ORANGEMD
+export:         to AS49947 announce AS-ORANGEMD
+export:         to AS50950 announce AS-ORANGEMD
+export:         to AS51141 announce AS-ORANGEMD
+export:         to AS51267 announce AS-ORANGEMD
+export:         to AS51770 announce AS-ORANGEMD
+export:         to AS56792 announce AS-ORANGEMD
+export:         to AS57040 announce AS-ORANGEMD
+export:         to AS57428 announce AS-ORANGEMD
+export:         to AS57776 announce AS-ORANGEMD
+export:         to AS60127 announce AS-ORANGEMD
+export:         to AS60405 announce AS-ORANGEMD
+export:         to AS60581 announce AS-ORANGEMD
+export:         to AS61077 announce AS-ORANGEMD
+export:         to AS62071 announce AS-ORANGEMD
+export:         to AS62232 announce AS-ORANGEMD
+export:         to AS62337 announce AS-ORANGEMD
+export:         to AS612450 announce AS-ORANGEMD
+export:         to AS200019 announce AS-ORANGEMD
+export:         to AS200189 announce AS-ORANGEMD
+export:         to AS202723 announce AS-ORANGEMD
+export:         to AS202822 announce AS-ORANGEMD
+export:         to AS202966 announce AS-ORANGEMD
+export:         to AS205606 announce AS-ORANGEMD
+export:         to AS206445 announce AS-ORANGEMD
+export:         to AS206678 announce AS-ORANGEMD
+export:         to AS-SECURED announce AS-ORANGEMD
+export:         to AS-SUN announce ANY
+export:         to AS-Norma announce ANY
+export:         to AS-MEDIANET-MD announce ANY
+remarks:        ---IPv6 Uplink Peering---
+mp-import:      afi ipv6.unicast from AS8953 accept ANY
+mp-export:      afi ipv6.unicast to AS8953 announce AS-ORANGEMD6
+remarks:        ---IPv6 KIVIX Peering---
+mp-import:      afi ipv6.unicast from AS29616 accept AS-KIVIX
+mp-export:      afi ipv6.unicast to AS29616 announce AS-ORANGEMD6
+remarks:        ---IPv4/IPv6 Customers---
+remarks:        Prosenix-Con SRL
+mp-import:      afi any.unicast from AS51267 accept AS51267
+mp-export:      afi any.unicast to AS51267 announce ANY
+remarks:        DANIS SRL
+mp-import:      afi any.unicast from AS43870 accept AS43870
+mp-export:      afi any.unicast to AS43870 announce ANY
+remarks:        Alex-B SRL
+mp-import:      afi any.unicast from AS59728 accept AS59728
+mp-export:      afi any.unicast to AS59728 announce ANY
+remarks:        Airstream SRL
+mp-import:      afi any.unicast from AS204467 accept AS204467
+mp-export:      afi any.unicast to AS204467 announce ANY
+remarks:        Inet Tehno SRL
+mp-import:      afi any.unicast from AS51056 accept AS51056
+mp-export:      afi any.unicast to AS51056 announce ANY
+remarks:        +------------------------------------------------------
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ORANGE-MD-NOC
+mnt-routes:     ORANGE-MD-NOC
+mnt-routes:     TRABIA-MNT
+created:        2002-11-27T15:04:22Z
+last-modified:  2018-04-25T14:15:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

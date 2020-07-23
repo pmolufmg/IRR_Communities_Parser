@@ -1,0 +1,904 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS2854
+as-name:       ROSPRINT-AS
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS8075 accept AS-MICROSOFT
+import:        from AS61955 accept AS-COLOCATIONIX
+import:        from AS3223 accept AS-VOXILITY-SET
+import:        from AS57928 accept AS-PRODWARE
+import:        from AS16509 accept AS-AMAZON
+import:        from AS8365 accept AS-MANDA
+import:        from AS8455 accept AS-ATOM86
+import:        from AS13335 accept AS-CLOUDFLARE
+import:        from AS714 accept AS-APPLE
+import:        from AS63541 accept AS63541
+import:        from AS8075 accept AS-MICROSOFT
+import:        from AS3223 accept AS-VOXILITY-SET
+import:        from AS61955 accept AS-COLOCATIONIX
+import:        from AS33873 accept AS-ARVATO
+import:        from AS57928 accept AS-PRODWARE
+import:        from AS16509 accept AS-AMAZON
+import:        from AS8365 accept AS-MANDA
+import:        from AS8220 accept AS-COLT
+import:        from AS12678 accept AS-BADOO
+import:        from AS13335 accept AS-CLOUDFLARE
+import:        from AS714 accept AS-APPLE
+import:        from AS8075 accept AS-MICROSOFT
+import:        from AS13335 accept AS-CLOUDFLARE
+import:        from AS2578 accept AS-DEMOS AS-RUDEMOS
+import:        from AS2683 accept AS-RADIOMSU
+import:        from AS2820 accept AS-ELVISPEERS
+import:        from AS3218 accept AS-COSMOS
+import:        from AS5468 accept AS5468
+import:        from AS5537 accept AS-GARANTPARK
+import:        from AS5568 accept AS-RBNET AND NOT AS-RELARN
+import:        from AS6699 accept AS-URAN
+import:        from AS6854 accept AS-SYNTERRA
+import:        from AS8263 accept AS-PORTAL
+import:        from AS8470 accept AS-MACOMNET
+import:        from AS8492 accept AS-OBIT
+import:        from AS8537 accept AS8537
+import:        from AS8615 accept AS-CNTPEERS
+import:        from AS8641 accept AS-NAUKANET
+import:        from AS8755 accept AS8755
+import:        from AS9002 accept AS-RETN
+import:        from AS9110 accept AS-AGTEL
+import:        from AS12314 accept AS-ROPNET
+import:        from AS12654 accept AS12654
+import:        from AS13238 accept AS-YANDEX
+import:        from AS15169 accept AS-GOOGLE
+import:        from AS15756 accept AS-CARAVAN
+import:        from AS16054 accept AS16054
+import:        from AS20483 accept AS20483
+import:        from AS21414 accept AS-RCNET
+import:        from AS24638 accept AS-RAMTEL
+import:        from AS25478 accept AS-IHOME
+import:        from AS26415 accept AS-GTLD
+import:        from AS28917 accept AS-FIORD
+import:        from AS28968 accept AS-EUT
+import:        from AS30943 accept AS-UTRANSIT-PG-EU
+import:        from AS29076 accept AS-CITYTELECOM
+import:        from AS31133 accept AS-MF-MGSM
+import:        from AS42861 accept AS-PRIME-LINE
+import:        from AS43832 accept AS-NS5_RIPN_NET
+import:        from AS8631 accept AS-MSKROUTESERVER
+import:        from AS49813 accept AS-INN
+import:        from AS48061 accept AS48061
+import:        from AS39792 accept AS-ANDERS
+import:        from AS47764 accept AS-MAILRU
+import:        from AS3327 accept AS-LINXTELECOM
+import:        from AS6695 accept AS-DECIX
+import:        from AS6777 accept AS-AMS-IX-RS-SETS
+import:        from AS56931 accept AS-EURASIAPEERING_RS
+import:        from AS50952 accept AS-DATAIX
+import:        from AS50952 accept AS-DATAIX
+import:        from AS6939 accept AS-HURRICANE
+import:        from AS12714 accept AS-TI
+import:        from AS31500 accept AS-GLOBAL-NET
+import:        from AS2118 accept AS-RELCOM
+import:        from AS5433 accept AS-ROKSON
+import:        from AS12418 accept AS-QUANTUM
+import:        from AS20632 accept AS-PETERSTAR
+import:        from AS8482 accept AS-DPBSPBIX
+import:        from AS35000 accept AS-PROMETEY-IX
+import:        from AS45029 accept AS-NS9_RIPN_NET
+import:        from AS13238 accept AS-YANDEX
+import:        from AS43690 accept AS-SPBROUTESERVER
+import:        from AS34879 accept AS-NGENIX-SPB
+import:        from AS3277 accept AS-RUSNETIX
+import:        from AS8371 accept AS-KIS
+import:        from AS8623 accept AS8623
+import:        from AS34821 accept AS-PSN
+import:        from AS13238 accept AS-YANDEX
+import:        from AS42385 accept AS42385
+import:        from AS50706 accept AS-KZNROUTESERVER
+import:        from AS44597 accept AS-NS9_RIPN_NET
+import:        from AS13238 accept AS-YANDEX
+import:        from AS39042 accept AS-GLOBAL63RU
+import:        from AS43975 accept AS-VOLGATELECOM
+import:        from AS47882 accept AS-SMRROUTESERVER
+import:        from AS57056 accept AS-STWROUTESERVER
+import:        from AS47445 accept AS-NS9_RIPN_NET
+import:        from AS13238 accept AS-YANDEX
+import:        from AS44775 accept AS-ELECTROCOM
+import:        from AS48216 accept AS-RNDROUTESERVER
+import:        from AS15974 accept AS-VTT
+import:        from AS13238 accept AS-YANDEX
+import:        from AS42728 accept AS-NS9_RIPN_NET
+import:        from AS36040 accept AS36040
+import:        from AS43213 accept AS-EKTROUTESERVER
+import:        from AS13238 accept AS-YANDEX
+import:        from AS25535 accept AS25535
+import:        from AS42139 accept AS-NS9_RIPN_NET
+import:        from AS34879 accept AS-NGENIX-NSK
+import:        from AS3216 accept AS-SOVAM
+import:        from AS42403 accept AS-NSKROUTESERVER
+import:        from AS41440 accept AS-Sibnet
+import:        from AS21127 accept AS-ZSTTK-SET
+import:        from AS48531 accept AS-VLVROUTESERVER
+import:        from AS45018 accept AS-NS9_RIPN_NET
+import:        from AS13238 accept AS-YANDEX
+import:        from AS50125 accept AS-ULNIX
+import:        from AS59428 accept AS-KRD-RS
+import:        from AS9049 accept AS-ER-TELECOM
+import:        from AS60764 accept AS-TKTEL
+import:        from AS198873 accept AS198873
+import:        from AS41258 accept AS41258
+import:        from AS204357 accept AS204357
+import:        from AS41065 accept AS41065
+import:        from AS28989 accept AS28989
+import:        from AS202378 accept AS202378
+import:        from AS199537 accept AS199537
+import:        from AS205391 accept AS205391
+import:        from AS41551 accept AS41551
+import:        from AS6863 accept AS6863 AS205750
+import:        from AS1849 accept AS1849
+import:        from AS58257 accept AS58257
+import:        from AS205750 accept AS205750
+import:        from AS200627 accept AS200627
+import:        from AS51213 accept AS51213
+import:        from AS44704 accept AS44704
+import:        from AS49356 accept AS49356
+import:        from AS202070 accept AS202070
+import:        from AS5589 accept AS5589
+import:        from AS41673 accept AS41673
+import:        from AS62287 accept AS62287
+import:        from AS60361 accept AS60361
+import:        from AS48349 accept AS48349
+import:        from AS42558 accept AS42558
+import:        from AS34336 accept AS34336
+import:        from AS48396 accept AS48396
+import:        from AS200779 accept AS200779
+import:        from AS202156 accept AS202156
+import:        from AS201672 accept AS201672
+import:        from AS201394 accept AS201394
+import:        from AS59792 accept AS59792
+import:        from AS201856 accept AS201856
+import:        from AS56725 accept AS56725
+import:        from AS201571 accept AS201571
+import:        from AS59986 accept AS59986
+import:        from AS50701 accept AS50701
+import:        from AS60716 accept AS60716
+import:        from AS42554 accept AS42554
+import:        from AS62389 accept AS62389
+import:        from AS30924 accept AS30924
+import:        from AS4983 accept AS4983
+import:        from AS8974 accept AS8974
+import:        from AS11414 accept AS11414
+import:        from AS13225 accept AS13225
+import:        from AS15632 accept AS15632
+import:        from AS15682 accept AS-ITERANET
+import:        from AS15707 accept AS15707
+import:        from AS16173 accept AS16173
+import:        from AS16230 accept AS16230
+import:        from AS16287 accept AS16287
+import:        from AS20806 accept AS20806
+import:        from AS21231 accept AS21231
+import:        from AS21240 accept AS21240
+import:        from AS21252 accept AS21252
+import:        from AS21275 accept AS21275
+import:        from AS21479 accept AS21479
+import:        from AS24823 accept AS24823
+import:        from AS25296 accept AS25296
+import:        from AS25511 accept AS-NET21
+import:        from AS28712 accept AS-TELSYCOM AS57512
+import:        from AS28829 accept AS28829
+import:        from AS28899 accept AS28899
+import:        from AS28927 accept AS28927
+import:        from AS29450 accept AS29450
+import:        from AS30974 accept AS30974
+import:        from AS31359 accept AS-FORATEC
+import:        from AS33844 accept AS33844
+import:        from AS33936 accept AS33936
+import:        from AS34098 accept AS34098
+import:        from AS34147 accept AS34147
+import:        from AS34232 accept AS34232 AS198580
+import:        from AS34291 accept AS34291
+import:        from AS34495 accept AS34495
+import:        from AS34504 accept AS34504
+import:        from AS34662 accept AS34662
+import:        from AS34802 accept AS34802
+import:        from AS34995 accept AS34995
+import:        from AS34998 accept AS34998
+import:        from AS35021 accept AS35021
+import:        from AS35022 accept AS35022
+import:        from AS35354 accept AS35354
+import:        from AS35398 accept AS35398 AS35195
+import:        from AS35793 accept AS35793
+import:        from AS39165 accept AS39165
+import:        from AS39267 accept AS39267
+import:        from AS39612 accept AS39612
+import:        from AS39678 accept AS39678
+import:        from AS41067 accept AS41067
+import:        from AS41217 accept AS41217
+import:        from AS41300 accept AS41300
+import:        from AS41592 accept AS41592
+import:        from AS41928 accept AS41928
+import:        from AS42190 accept AS42190
+import:        from AS42231 accept AS42231
+import:        from AS42522 accept AS42522
+import:        from AS42693 accept AS42693
+import:        from AS42801 accept AS42801
+import:        from AS43000 accept AS43000
+import:        from AS43042 accept AS43042
+import:        from AS43396 accept AS43396
+import:        from AS43632 accept AS43632
+import:        from AS43673 accept AS43673
+import:        from AS43721 accept AS43721
+import:        from AS43730 accept AS43730
+import:        from AS43900 accept AS43900
+import:        from AS43946 accept AS43946
+import:        from AS43952 accept AS43952
+import:        from AS44121 accept AS44121
+import:        from AS44192 accept AS44192
+import:        from AS44232 accept AS44232
+import:        from AS44299 accept AS44299
+import:        from AS44547 accept AS44547
+import:        from AS44550 accept AS44550
+import:        from AS44734 accept AS44734
+import:        from AS44810 accept AS44810
+import:        from AS44900 accept AS44900
+import:        from AS47271 accept AS47271
+import:        from AS47819 accept AS47819
+import:        from AS47909 accept AS-BAIKAL
+import:        from AS47976 accept AS47976
+import:        from AS48312 accept AS48312
+import:        from AS48386 accept AS48386
+import:        from AS49132 accept AS49132
+import:        from AS48914 accept AS-ZEPPELIN
+import:        from AS49208 accept AS49208
+import:        from AS49410 accept AS49410
+import:        from AS49841 accept AS49841
+import:        from AS49852 accept AS49852
+import:        from AS49897 accept AS-ALLTELECOM
+import:        from AS47852 accept AS47852
+import:        from AS48548 accept AS48548
+import:        from AS48820 accept AS48820
+import:        from AS49241 accept AS49241
+import:        from AS49899 accept AS49899
+import:        from AS49953 accept AS49953
+import:        from AS49799 accept AS49799
+import:        from AS50279 accept AS50279
+import:        from AS50038 accept AS50038
+import:        from AS50639 accept AS50639
+import:        from AS50141 accept AS50141
+import:        from AS50425 accept AS50425
+import:        from AS50869 accept AS50869 AS42862
+import:        from AS50992 accept AS50992
+import:        from AS51283 accept AS51283
+import:        from AS50356 accept AS50356
+import:        from AS51193 accept AS51193
+import:        from AS51690 accept AS51690
+import:        from AS51771 accept AS51771
+import:        from AS52164 accept AS52164
+import:        from AS56686 accept AS56686
+import:        from AS57580 accept AS57580
+import:        from AS57645 accept AS57645
+import:        from AS197010 accept AS197010
+import:        from AS197084 accept AS197084
+import:        from AS42974 accept AS42974
+import:        from AS196923 accept AS196923
+import:        from AS197258 accept AS197258
+import:        from AS197559 accept AS197559
+import:        from AS197574 accept AS197574
+import:        from AS52013 accept AS52013
+import:        from AS52198 accept AS52198
+import:        from AS56533 accept AS56533
+import:        from AS56880 accept AS56880
+import:        from AS56741 accept AS56741
+import:        from AS56797 accept AS56797
+import:        from AS-DON-PLUS accept AS-DON-PLUS AS49679 AS60365 AS61074
+import:        from AS197821 accept AS197821
+import:        from AS197821 accept AS197821
+import:        from AS56889 accept AS56889
+import:        from AS34472 accept AS34472
+import:        from AS205482 accept AS205482
+import:        from AS197986 accept AS197986
+import:        from AS20611 accept AS20611
+import:        from AS52038 accept AS52038
+import:        from AS25296 accept AS25296
+import:        from AS197366 accept AS197366
+import:        from AS197861 accept AS197861
+import:        from AS197952 accept AS197952
+import:        from AS198258 accept AS198258
+import:        from AS5563 accept AS5563
+import:        from AS57589 accept AS-GAZKOMPLEKTSERVICE
+import:        from AS198645 accept AS198645
+import:        from AS50878 accept AS50878
+import:        from AS198929 accept AS198929
+import:        from AS8706 accept AS8706
+import:        from AS39264 accept AS39264
+import:        from AS44479 accept AS44479
+import:        from AS198480 accept AS198480
+import:        from AS57298 accept AS57298
+import:        from AS197786 accept AS197786
+import:        from AS24913 accept AS24913
+import:        from AS198844 accept AS198844
+import:        from AS59571 accept AS59571
+import:        from AS42843 accept AS42843
+import:        from AS61197 accept AS61197
+import:        from AS49675 accept AS49675
+import:        from AS48441 accept AS-MAGLAN
+import:        from AS42559 accept AS42559
+import:        from AS57247 accept AS57247
+import:        from AS49955 accept AS49955
+import:        from AS60988 accept AS60988
+import:        from AS43429 accept AS43429
+import:        from AS57631 accept AS57631
+import:        from AS57531 accept AS57531
+import:        from AS16179 accept AS16179
+import:        from AS60796 accept AS60796
+import:        from AS51193 accept AS51193
+import:        from AS58231 accept AS58231
+import:        from AS51721 accept AS51721
+import:        from AS199314 accept AS199314
+import:        from AS60526 accept AS60526
+import:        from AS60544 accept AS60544
+import:        from AS60748 accept AS60748
+import:        from AS60702 accept AS60702
+import:        from AS44915 accept AS44915
+import:        from AS56631 accept AS56631
+import:        from AS41060 accept AS41060
+import:        from AS60379 accept AS60379
+import:        from AS30952 accept AS30952
+import:        from AS198712 accept AS198712
+import:        from AS197092 accept AS197092
+import:        from AS62253 accept AS62253
+import:        from AS49679 accept AS49679
+import:        from AS60598 accept AS60598
+import:        from AS46100 accept AS46100
+import:        from AS49108 accept AS49108
+import:        from AS28734 accept AS28734
+import:        from AS15454 accept AS-ARBUZ
+import:        from AS43600 accept AS43600
+import:        from AS44315 accept AS44315
+import:        from AS201774 accept AS201774
+import:        from AS60017 accept AS60017
+import:        from AS201195 accept AS201195
+import:        from AS201485 accept AS201485
+import:        from AS12686 accept AS12686
+import:        from AS57031 accept AS57031
+import:        from AS59846 accept AS59846
+import:        from AS34155 accept AS34155
+import:        from AS201490 accept AS201490
+import:        from AS60186 accept AS60186
+import:        from AS200078 accept AS200078
+import:        from AS201486 accept AS201486
+import:        from AS57477 accept AS57477
+import:        from AS203832 accept AS203832
+import:        from AS60347 accept AS60347
+import:        from AS50339 accept AS50339
+import:        from AS47168 accept AS47168
+import:        from AS196914 accept AS196914
+import:        from AS203697 accept AS203697
+import:        from AS38029 accept AS38029
+import:        from AS202851 accept AS202851
+import:        from AS202801 accept AS202801
+import:        from AS200830 accept AS200830
+import:        from AS56793 accept AS56793
+import:        from AS34853 accept AS34853
+import:        from AS200926 accept AS200926
+import:        from AS50477 accept AS50477
+import:        from AS42920 accept AS42920
+import:        from AS206179 accept AS206179
+import:        from AS197987 accept AS197987
+import:        from AS199825 accept AS199825
+import:        from AS62236 accept AS62236
+import:        from AS35039 accept AS35039
+import:        from AS44165 accept AS44165
+import:        from AS39594 accept AS39594
+import:        from AS205153 accept AS205153
+import:        from AS205444 accept AS205444
+import:        from AS204910 accept AS204910
+import:        from AS202849 accept AS202849
+import:        from AS204492 accept AS204492
+import:        from AS25451 accept AS25451
+import:        from AS41983 accept AS41983
+import:        from AS2874 accept ANY
+import:        from AS20764 accept ANY
+import:        from AS31133 accept ANY
+import:        from AS39811 accept ANY
+import:        from AS20485 accept ANY
+import:        from AS8359 accept ANY
+import:        from AS12389 accept ANY
+export:        to AS8075 announce AS-ROSPRINT
+export:        to AS61955 announce AS-ROSPRINT
+export:        to AS3223 announce AS-ROSPRINT
+export:        to AS57928 announce AS-ROSPRINT
+export:        to AS16509 announce AS-ROSPRINT
+export:        to AS8365 announce AS-ROSPRINT
+export:        to AS8455 announce AS-ROSPRINT
+export:        to AS13335 announce AS-ROSPRINT
+export:        to AS714 announce AS-ROSPRINT
+export:        to AS63541 announce AS-ROSPRINT
+export:        to AS8075 announce AS-ROSPRINT
+export:        to AS3223 announce AS-ROSPRINT
+export:        to AS61955 announce AS-ROSPRINT
+export:        to AS33873 announce AS-ROSPRINT
+export:        to AS57928 announce AS-ROSPRINT
+export:        to AS16509 announce AS-ROSPRINT
+export:        to AS8365 announce AS-ROSPRINT
+export:        to AS8220 announce AS-ROSPRINT
+export:        to AS12678 announce AS-ROSPRINT
+export:        to AS13335 announce AS-ROSPRINT
+export:        to AS714 announce AS-ROSPRINT
+export:        to AS8075 announce AS-ROSPRINT
+export:        to AS13335 announce AS-ROSPRINT
+export:        to AS2578 announce AS-ROSPRINT
+export:        to AS2683 announce AS-ROSPRINT
+export:        to AS2820 announce AS-ROSPRINT
+export:        to AS3218 announce AS-ROSPRINT
+export:        to AS5468 announce AS-ROSPRINT
+export:        to AS5537 announce AS-ROSPRINT
+export:        to AS5568 announce AS-ROSPRINT
+export:        to AS6699 announce AS-ROSPRINT
+export:        to AS6854 announce AS-ROSPRINT
+export:        to AS8263 announce AS-ROSPRINT
+export:        to AS8470 announce AS-ROSPRINT
+export:        to AS8492 announce AS-ROSPRINT
+export:        to AS8537 announce AS-ROSPRINT
+export:        to AS8615 announce AS-ROSPRINT
+export:        to AS8641 announce AS-ROSPRINT
+export:        to AS8755 announce AS-ROSPRINT
+export:        to AS9002 announce AS-ROSPRINT
+export:        to AS9110 announce AS-ROSPRINT
+export:        to AS12314 announce AS-ROSPRINT
+export:        to AS12654 announce AS-ROSPRINT
+export:        to AS13238 announce AS-ROSPRINT
+export:        to AS15169 announce AS-ROSPRINT
+export:        to AS15756 announce AS-ROSPRINT
+export:        to AS16054 announce AS-ROSPRINT
+export:        to AS20483 announce AS-ROSPRINT
+export:        to AS21414 announce AS-ROSPRINT
+export:        to AS24638 announce AS-ROSPRINT
+export:        to AS25478 announce AS-ROSPRINT
+export:        to AS26415 announce AS-ROSPRINT
+export:        to AS28917 announce AS-ROSPRINT
+export:        to AS28968 announce AS-ROSPRINT
+export:        to AS29076 announce AS-ROSPRINT
+export:        to AS31359 announce AS-ROSPRINT
+export:        to AS31133 announce AS-ROSPRINT
+export:        to AS42861 announce AS-ROSPRINT
+export:        to AS43832 announce AS-ROSPRINT
+export:        to AS8631 announce AS-ROSPRINT
+export:        to AS49813 announce AS-ROSPRINT
+export:        to AS48061 announce AS-ROSPRINT
+export:        to AS39792 announce AS-ROSPRINT
+export:        to AS47764 announce AS-ROSPRINT
+export:        to AS3327 announce AS-ROSPRINT
+export:        to AS6695 announce AS-ROSPRINT
+export:        to AS6777 announce AS-ROSPRINT
+export:        to AS56931 announce AS-ROSPRINT
+export:        to AS50952 announce AS-ROSPRINT
+export:        to AS50952 announce AS-ROSPRINT
+export:        to AS6939 announce AS-ROSPRINT
+export:        to AS12714 announce AS-ROSPRINT
+export:        to AS31500 announce AS-ROSPRINT
+export:        to AS2118 announce AS-ROSPRINT
+export:        to AS5433 announce AS-ROSPRINT
+export:        to AS12418 announce AS-ROSPRINT
+export:        to AS20632 announce AS-ROSPRINT
+export:        to AS8482 announce AS-ROSPRINT
+export:        to AS35000 announce AS-ROSPRINT
+export:        to AS45029 announce AS-ROSPRINT
+export:        to AS13238 announce AS-ROSPRINT
+export:        to AS43690 announce AS-ROSPRINT
+export:        to AS34879 announce AS-ROSPRINT
+export:        to AS3277 announce AS-ROSPRINT
+export:        to AS8371 announce AS-ROSPRINT
+export:        to AS8623 announce AS-ROSPRINT
+export:        to AS34821 announce AS-ROSPRINT
+export:        to AS13238 announce AS-ROSPRINT
+export:        to AS42385 announce AS-ROSPRINT
+export:        to AS50706 announce AS-ROSPRINT
+export:        to AS44597 announce AS-ROSPRINT
+export:        to AS13238 announce AS-ROSPRINT
+export:        to AS39042 announce AS-ROSPRINT
+export:        to AS43975 announce AS-ROSPRINT
+export:        to AS47882 announce AS-ROSPRINT
+export:        to AS57056 announce AS-ROSPRINT
+export:        to AS47445 announce AS-ROSPRINT
+export:        to AS13238 announce AS-ROSPRINT
+export:        to AS44775 announce AS-ROSPRINT
+export:        to AS48216 announce AS-ROSPRINT
+export:        to AS15974 announce AS-ROSPRINT
+export:        to AS13238 announce AS-ROSPRINT
+export:        to AS42728 announce AS-ROSPRINT
+export:        to AS36040 announce AS-ROSPRINT
+export:        to AS43213 announce AS-ROSPRINT
+export:        to AS13238 announce AS-ROSPRINT
+export:        to AS25535 announce AS-ROSPRINT
+export:        to AS42139 announce AS-ROSPRINT
+export:        to AS34879 announce AS-ROSPRINT
+export:        to AS3216 announce AS-ROSPRINT
+export:        to AS42403 announce AS-ROSPRINT
+export:        to AS41440 announce AS-ROSPRINT
+export:        to AS21127 announce AS-ROSPRINT
+export:        to AS48531 announce AS-ROSPRINT
+export:        to AS45018 announce AS-ROSPRINT
+export:        to AS13238 announce AS-ROSPRINT
+export:        to AS50125 announce AS-ROSPRINT
+export:        to AS59428 announce AS-ROSPRINT
+export:        to AS9049 announce AS-ROSPRINT
+export:        to AS60764 announce AS-ROSPRINT
+export:        to AS198873 announce ANY
+export:        to AS41258 announce ANY
+export:        to AS204357 announce ANY
+export:        to AS41065 announce ANY
+export:        to AS28989 announce ANY
+export:        to AS202378 announce ANY
+export:        to AS199537 announce ANY
+export:        to AS205391 announce ANY
+export:        to AS41551 announce ANY
+export:        to AS6863 announce ANY
+export:        to AS1849 announce ANY
+export:        to AS58257 announce ANY
+export:        to AS205750 announce ANY
+export:        to AS200627 announce ANY
+export:        to AS51213 announce ANY
+export:        to AS44704 announce ANY
+export:        to AS49356 announce ANY
+export:        to AS202070 announce ANY
+export:        to AS5589 announce ANY
+export:        to AS41673 announce ANY
+export:        to AS62287 announce ANY
+export:        to AS60361 announce ANY
+export:        to AS48349 announce ANY
+export:        to AS42558 announce ANY
+export:        to AS34336 announce ANY
+export:        to AS48396 announce ANY
+export:        to AS200779 announce ANY
+export:        to AS202156 announce ANY
+export:        to AS201672 announce ANY
+export:        to AS201394 announce ANY
+export:        to AS59792 announce ANY
+export:        to AS201856 announce ANY
+export:        to AS56725 announce ANY
+export:        to AS201571 announce ANY
+export:        to AS59986 announce ANY
+export:        to AS50701 announce ANY
+export:        to AS60716 announce ANY
+export:        to AS42554 announce ANY
+export:        to AS62389 announce ANY
+export:        to AS30924 announce ANY
+export:        to AS4983 announce ANY
+export:        to AS8974 announce ANY
+export:        to AS11414 announce ANY
+export:        to AS13225 announce ANY
+export:        to AS15632 announce ANY
+export:        to AS15682 announce ANY
+export:        to AS15707 announce ANY
+export:        to AS16173 announce ANY
+export:        to AS16230 announce ANY
+export:        to AS16287 announce ANY
+export:        to AS20806 announce ANY
+export:        to AS21231 announce ANY
+export:        to AS21240 announce ANY
+export:        to AS21252 announce ANY
+export:        to AS21275 announce ANY
+export:        to AS21479 announce ANY
+export:        to AS24823 announce ANY
+export:        to AS25296 announce ANY
+export:        to AS25511 announce ANY
+export:        to AS28712 announce ANY
+export:        to AS28829 announce ANY
+export:        to AS28899 announce ANY
+export:        to AS28927 announce ANY
+export:        to AS29450 announce ANY
+export:        to AS30974 announce ANY
+export:        to AS31359 announce ANY
+export:        to AS33936 announce ANY
+export:        to AS33844 announce ANY
+export:        to AS34098 announce ANY
+export:        to AS34147 announce ANY
+export:        to AS34232 announce ANY
+export:        to AS34291 announce ANY
+export:        to AS34495 announce ANY
+export:        to AS34504 announce ANY
+export:        to AS34662 announce ANY
+export:        to AS34802 announce ANY
+export:        to AS34995 announce ANY
+export:        to AS34998 announce ANY
+export:        to AS35021 announce ANY
+export:        to AS35022 announce ANY
+export:        to AS35354 announce ANY
+export:        to AS35398 announce ANY
+export:        to AS35793 announce ANY
+export:        to AS39165 announce ANY
+export:        to AS39267 announce ANY
+export:        to AS39612 announce ANY
+export:        to AS39678 announce ANY
+export:        to AS41067 announce ANY
+export:        to AS41217 announce ANY
+export:        to AS41300 announce ANY
+export:        to AS41592 announce ANY
+export:        to AS41928 announce ANY
+export:        to AS42190 announce ANY
+export:        to AS42231 announce ANY
+export:        to AS42522 announce ANY
+export:        to AS42693 announce ANY
+export:        to AS42801 announce ANY
+export:        to AS43000 announce ANY
+export:        to AS43042 announce ANY
+export:        to AS43396 announce ANY
+export:        to AS43632 announce ANY
+export:        to AS43673 announce ANY
+export:        to AS43721 announce ANY
+export:        to AS43730 announce ANY
+export:        to AS43900 announce ANY
+export:        to AS43946 announce ANY
+export:        to AS43952 announce ANY
+export:        to AS44121 announce ANY
+export:        to AS44192 announce ANY
+export:        to AS44232 announce ANY
+export:        to AS44299 announce ANY
+export:        to AS44547 announce ANY
+export:        to AS44550 announce ANY
+export:        to AS44734 announce ANY
+export:        to AS44810 announce ANY
+export:        to AS44900 announce ANY
+export:        to AS47271 announce ANY
+export:        to AS47819 announce ANY
+export:        to AS47909 announce ANY
+export:        to AS47976 announce ANY
+export:        to AS48312 announce ANY
+export:        to AS48386 announce ANY
+export:        to AS49132 announce ANY
+export:        to AS48914 announce ANY
+export:        to AS49208 announce ANY
+export:        to AS49410 announce ANY
+export:        to AS49841 announce ANY
+export:        to AS49852 announce ANY
+export:        to AS49897 announce ANY
+export:        to AS47852 announce ANY
+export:        to AS48548 announce ANY
+export:        to AS48820 announce ANY
+export:        to AS49241 announce ANY
+export:        to AS49899 announce ANY
+export:        to AS49953 announce ANY
+export:        to AS49799 announce ANY
+export:        to AS50279 announce ANY
+export:        to AS50038 announce ANY
+export:        to AS50639 announce ANY
+export:        to AS50141 announce ANY
+export:        to AS50425 announce ANY
+export:        to AS50869 announce ANY
+export:        to AS50992 announce ANY
+export:        to AS51283 announce ANY
+export:        to AS50356 announce ANY
+export:        to AS51193 announce ANY
+export:        to AS51690 announce ANY
+export:        to AS51771 announce ANY
+export:        to AS52164 announce ANY
+export:        to AS56686 announce ANY
+export:        to AS57580 announce ANY
+export:        to AS57645 announce ANY
+export:        to AS197010 announce ANY
+export:        to AS197084 announce ANY
+export:        to AS42974 announce ANY
+export:        to AS196923 announce ANY
+export:        to AS197258 announce ANY
+export:        to AS197559 announce ANY
+export:        to AS197574 announce ANY
+export:        to AS52013 announce ANY
+export:        to AS52198 announce ANY
+export:        to AS56533 announce ANY
+export:        to AS56880 announce ANY
+export:        to AS56741 announce ANY
+export:        to AS56797 announce ANY
+export:        to AS-DON-PLUS announce ANY
+export:        to AS197821 announce ANY
+export:        to AS197821 announce ANY
+export:        to AS56889 announce ANY
+export:        to AS34472 announce ANY
+export:        to AS205482 announce ANY
+export:        to AS197986 announce ANY
+export:        to AS20611 announce ANY
+export:        to AS52038 announce ANY
+export:        to AS25296 announce ANY
+export:        to AS197366 announce ANY
+export:        to AS197861 announce ANY
+export:        to AS197952 announce ANY
+export:        to AS198258 announce ANY
+export:        to AS5563 announce ANY
+export:        to AS57589 announce ANY
+export:        to AS198645 announce ANY
+export:        to AS50878 announce ANY
+export:        to AS198929 announce ANY
+export:        to AS8706 announce ANY
+export:        to AS39264 announce ANY
+export:        to AS44479 announce ANY
+export:        to AS198480 announce ANY
+export:        to AS57298 announce ANY
+export:        to AS197786 announce ANY
+export:        to AS24913 announce ANY
+export:        to AS198844 announce ANY
+export:        to AS59571 announce ANY
+export:        to AS42843 announce ANY
+export:        to AS61197 announce ANY
+export:        to AS49675 announce ANY
+export:        to AS48441 announce ANY
+export:        to AS42559 announce ANY
+export:        to AS57247 announce ANY
+export:        to AS49955 announce ANY
+export:        to AS60988 announce ANY
+export:        to AS43429 announce ANY
+export:        to AS57631 announce ANY
+export:        to AS57531 announce ANY
+export:        to AS16179 announce ANY
+export:        to AS60796 announce ANY
+export:        to AS51193 announce ANY
+export:        to AS58231 announce ANY
+export:        to AS51721 announce ANY
+export:        to AS199314 announce ANY
+export:        to AS60526 announce ANY
+export:        to AS60544 announce ANY
+export:        to AS60748 announce ANY
+export:        to AS60702 announce ANY
+export:        to AS44915 announce ANY
+export:        to AS56631 announce ANY
+export:        to AS41060 announce ANY
+export:        to AS60379 announce ANY
+export:        to AS30952 announce ANY
+export:        to AS198712 announce ANY
+export:        to AS197092 announce ANY
+export:        to AS62253 announce ANY
+export:        to AS49679 announce ANY
+export:        to AS60598 announce ANY
+export:        to AS46100 announce ANY
+export:        to AS49108 announce ANY
+export:        to AS28734 announce ANY
+export:        to AS15454 announce ANY
+export:        to AS43600 announce ANY
+export:        to AS44315 announce ANY
+export:        to AS201774 announce ANY
+export:        to AS60017 announce ANY
+export:        to AS201195 announce ANY
+export:        to AS201485 announce ANY
+export:        to AS12686 announce ANY
+export:        to AS57031 announce ANY
+export:        to AS59846 announce ANY
+export:        to AS34155 announce ANY
+export:        to AS201490 announce ANY
+export:        to AS60186 announce ANY
+export:        to AS200078 announce ANY
+export:        to AS201486 announce ANY
+export:        to AS57477 announce ANY
+export:        to AS203832 announce ANY
+export:        to AS60347 announce ANY
+export:        to AS50339 announce ANY
+export:        to AS47168 announce ANY
+export:        to AS196914 announce ANY
+export:        to AS203697 announce ANY
+export:        to AS38029 announce ANY
+export:        to AS202851 announce ANY
+export:        to AS202801 announce ANY
+export:        to AS200830 announce ANY
+export:        to AS56793 announce ANY
+export:        to AS34853 announce ANY
+export:        to AS200926 announce ANY
+export:        to AS50477 announce ANY
+export:        to AS42920 announce ANY
+export:        to AS206179 announce ANY
+export:        to AS197987 announce ANY
+export:        to AS199825 announce ANY
+export:        to AS62236 announce ANY
+export:        to AS35039 announce ANY
+export:        to AS44165 announce ANY
+export:        to AS39594 announce ANY
+export:        to AS205153 announce ANY
+export:        to AS205444 announce ANY
+export:        to AS204910 announce ANY
+export:        to AS202849 announce ANY
+export:        to AS204492 announce ANY
+export:        to AS25451 announce ANY
+export:        to AS41983 announce ANY
+export:        to AS2874 announce AS-ROSPRINT
+export:        to AS20764 announce AS-ROSPRINT
+export:        to AS31133 announce AS-ROSPRINT
+export:        to AS39811 announce AS-ROSPRINT
+export:        to AS20485 announce AS-ROSPRINT
+export:        to AS8359 announce AS-ROSPRINT
+export:        to AS12389 announce AS-ROSPRINT
+remarks:       ************ IX *******************
+remarks:       *****
+remarks:       ************ AMS-IX ***************
+remarks:       *****
+remarks:       ************ DE-CIX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ MSK-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ******** EURASIA-IX ***
+remarks:       *****
+remarks:       *****
+remarks:       ******** DATAIX MSK ***
+remarks:       *****
+remarks:       *****
+remarks:       ******** DATAIX SPB ***
+remarks:       *****
+remarks:       *****
+remarks:       ************ SPB-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ NNG-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ KZN-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ SMR-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ STW-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ RND-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ VOG-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ EKT-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ NSK-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ VLD-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ ULN-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ SEA-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       *****
+remarks:       ************ IRK-IX ***************
+remarks:       *****
+remarks:       *****
+remarks:       ************ TKTEL ***************
+remarks:       *****
+remarks:       *****
+remarks:       *****
+remarks:       ************ CLIENTS *******************
+remarks:       *****
+remarks:       *************************************************
+remarks:       ************* IPv6 CLIENTS *********************
+remarks:       *************************************************
+remarks:       **********************************************
+remarks:       *********** UpLink *************************
+remarks:       **********************************************
+remarks:       -RTK-VLV-
+remarks:       **********************************************
+remarks:       External communities may be set by external peers when
+remarks:       talking to AS2854. .
+remarks:       Community Meaning :
+remarks:       2854:171,172,173 - set prepend(1-3) when advertising to any IX peer
+remarks:       2854:181,182,183 - set prepend(1-3) when advertising to INTERNATIONAL links
+remarks:       2854:191,192,193 - set prepend(1-3) when advertising to INTERNATIONAL links andIX
+remarks:       2854:189 - do not advertise to INTERNATIONAL links
+remarks:       2854:179 - do not advertise to IX
+remarks:       2854:199 - do not advertise to IX and on INTERNATIONAL links
+remarks:       2854:666 - blackhole community - accepts from clients prefixes /32 with community 2854:666
+remarks:       ***************************************************************
+remarks:       ************* IPv6 *******************************
+remarks:       ***************************************************************
+remarks:       ***************************************************************
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        ROSPRINT-NCC
+source:        RIPE
+
+

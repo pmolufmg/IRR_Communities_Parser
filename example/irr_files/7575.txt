@@ -1,0 +1,1190 @@
+aut-num:    AS7575
+as-name:    AARNET-AS-AP
+descr:      Australia's Research and Education Network (AARNet3)
+admin-c:    SM6-AP
+tech-c:     ANOC-AP
+remarks:    IPv4 international Research Peers
+mp-import:  afi ipv4.unicast {
+	           from AS-ANY action pref=5; community = { 7575:1001, 7575:8003};
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS24 207.231.245.131 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS24 207.231.245.131 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept ANY;
+	           from AS47 207.231.241.141 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS47 207.231.241.141 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept { 68.181.0.0/16, 128.125.0.0/16, 192.5.10.0/24, 204.57.0.0/21};
+	           from AS101 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS101 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept AS-PNW-GIGAPOP;
+	           from AS293 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS293 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept AS-ESNET;
+	           from AS2153 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS2153 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept AS-CALRENHPR OR <^AS2153+ (AS18592|AS20965)>;
+	           from AS2907 at 202.158.192.21 action community.append(7575:6004,7575:2021); aspath.prepend(AS2907);
+	           from AS2907 at 202.158.192.22 action community.append(7575:6004,7575:2022); aspath.prepend(AS2907);
+	           accept <^PeerAS+ AS7660> AND NOT { 0.0.0.0/0 };
+	           from AS2907 at 202.158.192.21 action community.append(7575:6004,7575:2021);
+	           from AS2907 at 202.158.192.22 action community.append(7575:6004,7575:2022);
+	           accept ANY  AND NOT { 0.0.0.0/0 };
+	           from AS6509 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS6509 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept ANY;
+	           from AS7539 at 202.158.192.21 action community.append(7575:6004,7575:2021);
+	           from AS7539 at 202.158.192.22 action community.append(7575:6004,7575:2022);
+	           accept NOT <^AS7539+ AS9505>;
+	           from AS11537 at 202.158.192.21 action community.append(7575:6003,7575:2021); aspath.prepend(AS11537);
+	           accept ANY AND <^PeerAS+ (AS2907|AS7660)>;
+	           from AS11537 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           accept ANY;
+	           from AS11537 at 202.158.192.22 action community.append(7575:6003,7575:2022); aspath.prepend(AS11537);
+	           accept ANY AND <^PeerAS+ (AS2907|AS7660)>;
+	           from AS11537 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept ANY;
+	           from AS14221 207.231.240.5 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept { 198.48.76.0/22 };
+	           from AS17579 at 202.158.192.21 action community.append(7575:6004,7575:2021);
+	           from AS17579 at 202.158.192.22 action community.append(7575:6004,7575:2022);
+	           accept AS1237 OR AS1781 OR AS3784 OR AS7560 OR AS7561 OR AS7564 OR AS7626 OR AS9270 OR AS9274 OR AS9275 OR AS9317 OR AS9452 OR AS9488 OR AS9521 OR AS9686 OR AS9720 OR AS9769 OR AS9870 OR AS9949 OR AS9982 OR AS10063 OR AS10166 OR AS17595 OR AS18026 OR AS18297 OR AS18298 OR AS18300 OR AS23565;
+	           from AS18592 at 202.158.192.21 action community.append(7575:6006,7575:2021);
+	           from AS18592 at 202.158.192.22 action community.append(7575:6006,7575:2022);
+	           accept ANY;
+	           from AS19401 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS19401 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept ANY;
+	           from AS20144 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS20144 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept AS20144^0-24;
+	           from AS23796 at 202.158.192.21 action community.append(7575:6004,7575:2021);
+	           from AS23796 at 202.158.192.22 action community.append(7575:6004,7575:2022);
+	           accept { 210.229.96.0/19 };
+	           from AS27750 at 202.158.192.21 action community.append(7575:6006,7575:2021);
+	           from AS27750 at 202.158.192.22 action community.append(7575:6006,7575:2022);
+	           accept ANY;
+	           from AS32361 at 202.158.192.21 action community.append(7575:6003,7575:2021);
+	           from AS32361 at 202.158.192.22 action community.append(7575:6003,7575:2022);
+	           accept { 192.84.86.0/24, 198.32.43.0/24, 198.32.44.0/24 };
+	           }
+mp-import:  afi ipv4.unicast  {
+	           from AS-ANY action pref=5; community = {7575:1001,7575:2023, 7575:8003};
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS24 207.231.248.131 at 202.158.192.23 action community.append(7575:6003);
+	           accept ANY;
+	           from AS101 207.231.242.1 at 202.158.192.23 action community.append(7575:6003);
+	           accept AS-PNW-GIGAPOP;
+	           from AS226 at 202.158.192.23 action community.append(7575:6003);
+	           accept AS-LOSNETTOS;
+	           from AS293 at 202.158.192.23 action community.append(7575:6003);
+	           accept AS-ESNET;
+	           from AS668 at 202.158.192.23 action community.append(7575:6003);
+	           accept AS-DREN^0-24 OR AS568^0-24 OR AS13^0-24 OR AS37^0-24;
+	           from AS2153 at 202.158.192.23 action community.append(7575:6003);
+	           accept ANY;
+	           from AS2907 at 202.158.192.23 action community.append(7575:6004); aspath.prepend(AS2907, AS2907);
+	           accept ANY;
+	           from AS6509 at 202.158.192.23 action community.append(7575:6003);
+	           accept ANY;
+	           from AS7539 at 202.158.192.23 action community.append(7575:6004);
+	           accept NOT <^AS7539+ AS9505>;
+	           from AS7610 at 202.158.192.23 action community.append(7575:6005); aspath.prepend(AS7610);
+	           accept ANY;
+	           from AS11537 at 202.158.192.23 action community.append(7575:6003); aspath.prepend(AS11537);
+	           accept ANY AND <^PeerAS+ (AS2907|AS7660)>;
+	           from AS11537 at 202.158.192.23 action community.append(7575:6003);
+	           accept ANY;
+	           from AS18592 at 202.158.192.23 action community.append(7575:6006);
+	           accept ANY;
+	           from AS19401 at 202.158.192.23 action community.append(7575:6003);
+	           accept ANY;
+	           from AS20144 at 202.158.192.23 action community.append(7575:6003);
+	           accept AS20144^0-24;
+	           from AS23796 at 202.158.192.23 action community.append(7575:6004);
+	           accept ANY;
+	           from AS27750 at 202.158.192.23 action community.append(7575:6006);
+	           accept ANY;
+	           from AS32361 at 202.158.192.23 action community.append(7575:6003);
+	           accept { 192.84.86.0/24, 198.32.43.0/24, 198.32.44.0/24 };
+	           }
+mp-import:  afi ipv4.unicast{
+	           from AS-ANY action community = { 7575:6003, 7575:8003 };
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS6360 at 202.158.192.25 action community.append(7575:2025);
+	           accept ANY AND NOT community.contains(17819:1000);
+	           } refine {
+	           from AS-ANY action pref=5; community.append(7575:1001);
+	           accept community.contains(6360:442);
+	           from AS-ANY action pref=10; community.append(7575:1002);
+	           accept community.contains(6360:449);
+	           from AS-ANY action pref=5; community.append(7575:1001); aspath.prepend(AS6360);
+	           accept ANY;
+	           }
+mp-import:  afi ipv4.unicast {
+	           from AS-ANY action pref=5; community = { 7575:1001, 7575:8005 };
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS23855 at 202.158.192.18 action community.append(7575:6004, 7575:2018);
+	           accept ANY;
+	           from AS7610 at 202.158.192.18 action community.append(7575:6005, 7575:2018);
+	           accept ANY;
+	           from AS24167 at 202.158.192.18 action community.append(7575:6004, 7575:2018);
+	           accept AS-ASNET^0-24 AND community.contains(24167:1100, 24167:1200, 24167:1300);
+	           from AS24490 at 202.158.192.18 action community.append(7575:6004, 7575:2018);
+	           accept community.contains(20965:155, 20965:21320, 20965:2018);
+	           from AS24490 at 202.158.192.18 action community.append(7575:6004, 7575:2018);
+	           accept community.contains(9270:65155);
+	           from AS24490 at 202.158.192.18 action community.append(7575:6004, 7575:2018);
+	           accept community.contains(24489:65155) AND NOT community.contains(24489:7660);
+	           from AS24490 at 202.158.192.18 action community.append(7575:6004, 7575:2018);
+	           accept community.contains(24489:7660) AND NOT <^AS24490+ .* AS7660+ [AS10764 AS22388]~+>;
+	           from AS65432 at 202.158.192.18
+	           accept NOT ANY;
+	           }
+remarks:    
+remarks:    Domestic IPv6 peer routes
+remarks:    
+mp-import:  afi ipv6.unicast {
+	           from AS-ANY action pref=7; community = {7575:1002, 7575:6001, 7575:8001};
+	           accept ANY;
+	           } refine {
+            from AS4608 at 2001:388:1::30 action community.append(7575:2048, 7575:3004);
+            from AS4608 at 2001:388:1::31 action community.append(7575:2049, 7575:3002);
+            accept AS4608;
+            from AS4739 at 2001:388:1::29 action community.append(7575:2041, 7575:3001);
+	           from AS4739 at 2001:388:1::2A action community.append(7575:2042, 7575:3005);
+	           from AS4739 at 2001:388:1::2E action community.append(7575:2046, 7575:3006);
+	           from AS4739 at 2001:388:1::2F action community.append(7575:2047, 7575:3003);
+	           from AS4739 at 2001:388:1::30 action community.append(7575:2048, 7575:3004);
+	           from AS4739 at 2001:388:1::31 action community.append(7575:2049, 7575:3002);
+	           accept AS-4739;
+	           from AS15169 at 2001:388:1::2D action community.append(7575:2045, 7575:3006);
+	           from AS15169 at 2001:388:1::2E action community.append(7575:2046, 7575:3006);
+	           from AS15169 at 2001:388:1::31 action community.append(7575:2049, 7575:3002);
+	           accept AS-GOOGLE;
+	           from AS23708 at 2001:388:1::30 action community.append(7575:2048, 7575:3004);
+	           accept AS23708 OR AS3557;
+	           from AS30071 at 2001:388:1::31 action community.append(7575:2049, 7575:3002);
+	           accept AS30071;
+	           }
+remarks:    
+remarks:    Domestic multilateral IPv6 peer routes
+remarks:    
+mp-import:  afi ipv6.unicast {
+	           from AS-ANY
+	           action pref=10; community = {7575:1002, 7575:5010, 7575:6001, 7575:8001};
+	           accept ANY;
+	           } refine {
+	           from AS9722 at  2001:388:1::30 action community.append(7575:2048, 7575:3004);
+	           from AS7606 at  2001:388:1::2E action community.append(7575:2046, 7575:3006);
+	           from AS17819 at 2001:388:1::31 action community.append(7575:2049, 7575:3002);
+	           accept ANY;
+	           }
+remarks:    
+remarks:    Domestic IPv4 peer routes
+remarks:    
+mp-import:  afi ipv4.unicast {
+	           from AS-ANY action pref=7; med=0; community = { 7575:1002, 7575:8001 };
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS42 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           from AS42 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           from AS3856 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           from AS3856 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS-PCH^0-24;
+	           from AS703 at 202.158.192.49 action community.append(7575:2049, 7575:3002 , 7575:6001);
+	           accept ANY AND NOT AS7604;
+	           from AS3491 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6004);
+	           accept ANY AND NOT <AS4637|AS1221|AS4768|AS8071|AS8069|AS8075|AS2687>;
+	           from AS4608 at 202.158.192.48 action community.append(7575:2048, 7575:3004, 7575:6001);
+	           from AS4608 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+            accept AS4608;
+            from AS4739 at 202.158.192.41 action community.append(7575:2041, 7575:3001, 7575:6001);
+	           from AS4739 at 202.158.192.42 action community.append(7575:2042, 7575:3005, 7575:6001);
+	           from AS4739 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           from AS4739 at 202.158.192.47 action community.append(7575:2047, 7575:3003, 7575:6001);
+	           from AS4739 at 202.158.192.48 action community.append(7575:2048, 7575:3004, 7575:6001);
+	           from AS4739 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS-4739^0-24;
+	           from AS4802 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           from AS4802 at 202.158.192.41 action community.append(7575:2041, 7575:3001, 7575:6001);
+	           from AS4802 at 202.158.192.48 action community.append(7575:2048, 7575:3001, 7575:6001);
+	           from AS4802 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS4802^0-24 OR AS9543^0-24;
+	           from AS10026 at 202.158.192.46 action community.append( 7575:2046, 7575:3006, 7575:6001);
+	           from AS10026 at 202.158.192.48 action community.append( 7575:2048, 7575:3004, 7575:6001);
+	           from AS10026 at 202.158.192.49 action community.append( 7575:2049, 7575:3002, 7575:6001);
+	           accept AS-PACNET^0-24;
+	           from AS12076 at 202.158.192.49 action community.append( 7575:2049, 7575:3002, 7575:6001);
+	           accept AS-MICROSOFT^0-24;
+	           from AS15133 at 202.158.192.49 action community.append( 7575:2049, 7575:3002, 7575:6001);
+	           accept AS-EDGECAST^0-24;
+	           from AS15169 at 202.158.192.45 action community.append( 7575:2045, 7575:3002, 7575:6001);
+	           from AS15169 at 202.158.192.46 action community.append( 7575:2046, 7575:3006, 7575:6001);
+	           from AS15169 at 202.158.192.49 action community.append( 7575:2049, 7575:3002, 7575:6001);
+	           accept AS-GOOGLE^0-24;
+	           from AS7543 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS7543;
+	           from AS7583 at 202.158.192.49 action community.append( 7575:2049, 7575:3002, 7575:6001);
+	           accept AS7583;
+	           from AS8674 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           accept AS-NETNOD-ANYCAST OR AS8674;
+	           from AS9266 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS9266:AS-CUSTOMER^0-24;
+	           from AS9342 at 202.158.192.45 action community.append(7575:2045, 7575:3002, 7575:6001);
+	           accept AS9342^0-24;
+	           from AS9443 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           from AS9443 at 202.158.192.48 action community.append(7575:2048, 7575:3004, 7575:6001);
+	           from AS9443 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS9443;
+	           from AS10310 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS10310 OR AS7233;
+	           from AS20940 at 202.158.192.49 action community.append( 7575:2049, 7575:3002, 7575:6001);
+	           accept AS-AKAMAI^0-24;
+	           from AS23708 at 202.158.192.48 action community.append(7575:2048, 7575:3004, 7575:6001);
+	           from AS23708 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept PeerAS^0-24 OR AS23708;
+	           from AS30081 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           from AS30081 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS-CACHENETWORKS^0-24;
+	           from AS31800 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           accept AS31800^0-24;
+	           from AS38583 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001 );
+	           accept AS38583;
+	           from AS38622 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001 );
+	           accept AS-LLNW^0-24;
+	           from AS38858 at 202.158.192.62 action community.append(7575:2062, 7575:3002, 7575:6001 );
+	           accept AS38858;
+	           from AS36408 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001 );
+	           accept AS-PANTHER^0-24;
+	           from AS40009 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           accept AS-BITGRAVITY^0-24;
+	           from AS45671 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+	           accept AS45671^0-24;
+	           from AS131229 at 202.158.192.46 action community.append(7575:2046, 7575:3006, 7575:6001);
+	           accept AS131229^0-24;
+	           from AS54994 at 202.158.192.49 action community.append(7575:2049, 7575:3002, 7575:6001);
+            accept AS54994;
+	           }
+remarks:    
+remarks:    IPv6 International peers
+remarks:    
+mp-import:  afi ipv6.unicast {
+	           from AS-ANY action pref=10; community = { 7575:1002 };
+	           accept ANY;
+	           } refine {
+	           from AS293 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-ESNET;
+	           from AS1273 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS1280 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-ISC;
+	           from AS2497 at 2001:388:1::13 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS2497 at 2001:388:1::14 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept AS-IIJ;
+	           from AS2500 at 2001:388:1::14 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept AS2500;
+	           from AS2516 at 2001:388:1::13 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS2516 at 2001:388:1::14 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept AS-KDDCUSTOMER OR RS-KDDI;
+	           from AS3043 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS3043 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-IOS;
+	           from AS4589 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS4589 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-EASYNET;
+	           from AS4716 at 2001:388:1::13 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS4716 at 2001:388:1::14 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept AS-PWD;
+	           from AS4725 at 2001:388:1::13 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS4725 at 2001:388:1::14 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           from AS4725 at 2001:388:1::17 action community = { 7575:2023, 7575:6004, 7575:8003 };
+	           accept AS-JAPAN-TELECOM;
+	           from AS6456 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS6456;
+	           from AS6762 at 2001:388:1::13 action community = { 7575:2019, 7575:6002, 7575:8003 };
+	           accept AS-SEABONE;
+	           from AS6939 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS6939 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS6939 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-HURRICANE;
+	           from AS7012 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-PHYBER;
+	           from AS7385 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS7385 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS7385 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-INTEGRA;
+	           from AS7473 at 2001:388:1::13 action community = { 7575:2019, 7575:6005, 7575:8003 };
+	           from AS7473 at 2001:388:1::14 action community = { 7575:2020, 7575:6005, 7575:8003 };
+	           accept ( AS-SINGTEL OR RS-SINGTEL ) AND NOT <AS4804|AS7474>;
+	           from AS7500 at 2001:388:1::13 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept AS7500;
+	           from AS8047 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-ANY;
+	           from AS8075 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS8075 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS8075 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-MICROSOFT;
+	           from AS8092 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS8092 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-YGNITION;
+	           from AS8121 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS8121 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-LAYER42;
+	           from AS9002 at 2001:388:1::14 action community = { 7575:2020, 7575:6002, 7575:8003 };
+	           accept AS-RETN;
+	           from AS9264 at 2001:388:1::13 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept AS-ASNET;
+	           from AS9304 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS9304;
+	           from AS9497 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-DIGITELONE;
+	           from AS9505 at 2001:388:1::13 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept AS-TWIG OR AS33717;
+	           from AS11274 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-ADHOST-PEERING;
+	           from AS11666 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS11666 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-NEXICOM;
+	           from AS12111 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-OEN;
+	           from AS12989 at 2001:388:1::13 action community = { 7575:2019, 7575:6002, 7575:8003 };
+	           from AS12989 at 2001:388:1::14 action community = { 7575:2020, 7575:6002, 7575:8003 };
+	           accept AS-HIGHWINDS;
+	           from AS13030 at 2001:388:1::14 action community = { 7575:2020, 7575:6002, 7575:8003 };
+	           accept AS-INIT7;
+	           from AS13680 at 2001:388:1::17 action community = { 7575:2023, 7575:6002, 7575:8003 };
+	           accept AS-HGTN;
+	           from AS13768 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS13768 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS13768 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS13768:AS-CUSTOMERS;
+	           from AS14277 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-NOKIA;
+	           from AS14589 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-DWNI;
+	           from AS15169 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS15169 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS15169 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-GOOGLE;
+	           from AS18508 at 2001:388:1::13
+	           accept NOT ANY;
+	           from AS19151 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS19151 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS19151 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-WVFIBER;
+	           from AS19740 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-SUDJAM;
+	           from AS20144 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS20144;
+	           from AS21513 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS21513;
+	           from AS21947 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS21947;
+	           from AS22212 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS22212 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS22212 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-INTERNAP;
+	           from AS23265 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-POCKETINET;
+	           from AS23342 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS23342 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-UNITEDLAYER;
+	           from AS23504 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS23504 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS23504 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-SPEAKEASY;
+	           from AS25885 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-BATBLUE;
+	           from AS25899 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS25899;
+	           from AS27318 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS27318;
+	           from AS32354 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-UNWIRED;
+	           from AS32748 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS32748 at 2001:388:1::14 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-STEADFAST;
+	           from AS36692 at 2001:388:1::13 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS36692 at 2001:388:1::17 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-OPENDNS;
+	           }
+remarks:    
+remarks:    IPv4 International peers
+remarks:    
+mp-import:  afi ipv4.unicast {
+	           from AS-ANY action pref=10; community = { 7575:1002 };
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS24 at 202.158.192.19 action community = {7575:2019, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS42 at 202.158.192.19 action community = {7575:2019, 7575:6003, 7575:8003 };
+	           from AS42 at 202.158.192.20 action community = {7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-PCH^0-24;
+	           from AS174 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS226 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-LOSNETTOS^0-24;
+	           from AS293 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-ESNET^0-24;
+	           from AS297 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS1273 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS1280 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-ISC^0-24;
+	           from AS1784 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS1785 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-PAETEC-1785^0-24;
+	           from AS1982 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-NEXUS^0-24;
+	           from AS2044 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-2044^0-24;
+	           from AS2152 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS2152 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-CALRENDC^0-24;
+	           from AS2497 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS2497 at 202.158.192.20 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept AS-IIJ^0-24;
+	           from AS2500 at 202.158.192.20 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept ANY;
+	           from AS2516 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS2516 at 202.158.192.20 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept AS-KDDCUSTOMER^0-24 OR RS-KDDI^0-24;
+	           from AS2647 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS2647;
+	           from AS3043 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           from AS3043 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-IOS^0-24;
+	           from AS3130 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-RGNET^0-24;
+	           from AS3303 at 202.158.192.19 action community = { 7575:2019, 7575:6002, 7575:8003 };
+	           accept AS-SWCMGLOBAL^0-24;
+	           from AS3491 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS3491 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept ANY AND NOT <AS4637|AS1221|AS4768|AS8071|AS8069|AS8075|AS2687>;
+	           from AS3699 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS3720 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-MAINSTREET^0-24;
+	           from AS3742 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-SEMA^0-24;
+	           from AS3786 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept AS-DACOM^0-24;
+	           from AS3856 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS3856 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-PCH^0-24;
+	           from AS4134 at 202.158.192.20 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept ANY;
+	           from AS4355 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS4355^0-24 OR AS19029^0-24;
+	           from AS4513 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS4513;
+	           from AS4554 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS4554^0-24;
+	           from AS4565 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS4565 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-EPOCH^0-24;
+	           from AS4589 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS4589 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-EASYNET^0-24;
+	           from AS4648 at 202.158.192.19 action community = { 7575:2019, 7575:6001, 7575:8003 };
+	           accept ANY AND NOT <AS2764>;
+	           from AS4716 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS4716 at 202.158.192.20 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept AS-PWD^0-24;
+	           from AS4725 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS4725 at 202.158.192.20 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           from AS4725 at 202.158.192.23 action community = { 7575:2023, 7575:6004, 7575:8003 };
+	           accept AS-JAPAN-TELECOM^0-24;
+	           from AS4766 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept AS-KORNET^0-24;
+	           from AS4780 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept AS4780 OR AS18045 OR AS18421 OR AS18422 OR AS23712 OR AS9216;
+	           from AS4788 at 202.158.192.19 action community = { 7575:2019, 7575:6005, 7575:8003 };
+	           accept AS-TMNET-CUSTOMERS^0-24;
+	           from AS4844 at 202.158.192.18 action community = { 7575:2018, 7575:6005, 7575:8005 };
+	           accept AS4844;
+	           from AS5726 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-INTERWORLD^0-24;
+	           from AS6130 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-ADNC-SAN^0-24;
+	           from AS6327 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS6327 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-BIGPIPE^0-24;
+	           from AS6456 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS6456;
+	           from AS6539 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS6539 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-GT^0-24;
+	           from AS6730 at 202.158.192.19 action community = { 7575:2019, 7575:6002, 7575:8003 };
+	           accept AS-GLOBAL^0-24;
+	           from AS6762 at 202.158.192.19 action community = { 7575:2019, 7575:6002, 7575:8003 };
+	           accept AS-SEABONE^0-24;
+	           from AS6939 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS6939 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS6939 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-HURRICANE^0-24 AND NOT  <^PeerAS+ [AS10026]+ .*$>;
+	           from AS7012 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-PHYBER^0-24;
+	           from AS7091 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-VIANET^0-24;
+	           from AS7132 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS7132 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-SBCIS-7132^0-24;
+	           from AS7385 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS7385 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS7385 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-INTEGRA^0-24;
+	           from AS7473 at 202.158.192.19 action community = { 7575:2019, 7575:6005, 7575:8003 };
+	           from AS7473 at 202.158.192.20 action community = { 7575:2020, 7575:6005, 7575:8003 };
+	           accept ( AS-SINGTEL OR RS-SINGTEL ) AND NOT <AS4804|AS7474>;
+	           from AS7500 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept { 202.12.27.0/24, 192.50.43.0/24 };
+	           from AS7782 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-ACS-TRANSIT^0-24;
+	           from AS7829 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-NEXT-WEB^0-24;
+	           from AS8047 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS8071 at 202.158.192.18 action community = { 7575:2018, 7575:6005, 7575:8005 };
+	           from AS8075 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS8075 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS8075 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-MICROSOFT^0-24;
+	           from AS8092 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS8092 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-YGNITION^0-24;
+	           from AS8121 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS8121 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-LAYER42^0-24;
+	           from AS9002 at 202.158.192.20 action community = { 7575:2020, 7575:6002, 7575:8003 };
+	           accept AS-RETN^0-24;
+	           from AS9264 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept AS-ASNET^0-24;
+	           from AS9304 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS9304^0-24;
+	           from AS9318 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept ANY;
+	           from AS9497 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-DIGITELONE^0-24;
+	           from AS9505 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           accept AS-TWIG^0-24 OR AS33717^0-24;
+	           from AS9924 at 202.158.192.19 action community = { 7575:2019, 7575:6004, 7575:8003 };
+	           from AS9924 at 202.158.192.20 action community = { 7575:2020, 7575:6004, 7575:8003 };
+	           accept AS-TFN-TRANSIT1^0-24;
+	           from AS10310 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS10310 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-YAHOO^0-24;
+	           from AS10557 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-ISOMEDIA^0-24;
+	           from AS10594 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS10594 OR AS20271;
+	           from AS10848 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-TELLURIAN;
+	           from AS11274 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-ADHOST-PEERING^0-24;
+	           from AS11404 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-VOBIZ^0-24;
+	           from AS11666 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS11666 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-NEXICOM^0-24;
+	           from AS11726 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-ACUMEN^0-24;
+	           from AS11867 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-PRTL^0-24;
+	           from AS11922 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-RBN^0-24;
+	           from AS12008 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS12008^0-24;
+	           from AS12111 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-OEN^0-24;
+	           from AS12654 at 202.158.192.19 action community = { 7575:2019, 7575:6002, 7575:8003 };
+	           accept AS12654:RS-RIS^0-24;
+	           from AS12989 at 202.158.192.19 action community = { 7575:2019, 7575:6002, 7575:8003 };
+	           from AS12989 at 202.158.192.20 action community = { 7575:2020, 7575:6002, 7575:8003 };
+	           accept AS-HIGHWINDS;
+	           from AS13030 at 202.158.192.20 action community = { 7575:2020, 7575:6002, 7575:8003 };
+	           accept AS-INIT7;
+	           from AS13680 at 202.158.192.23 action community = { 7575:2023, 7575:6002, 7575:8003 };
+	           accept AS-HGTN^0-24;
+	           from AS13768 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS13768 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS13768 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS13768:AS-CUSTOMERS^0-24;
+	           from AS14277 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-NOKIA^0-24;
+	           from AS14361 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS14361 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS14361 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-HOPONE^0-24;
+	           from AS14589 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-DWNI^0-24;
+	           from AS15133 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           from AS15133 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-EDGECAST^0-24;
+	           from AS15169 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS15169 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS15169 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-GOOGLE^0-24;
+	           from AS15290 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-ALLSTREAM^0-24;
+	           from AS15412 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS15412 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-FLAGP^0-24;
+	           from AS16276 at 202.158.192.19 action community = { 7575:2019, 7575:6002, 7575:8003 };
+	           accept AS-OVH^0-24;
+	           from AS16467 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS16467 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-NEXTWEB;
+	           from AS16509 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS16509 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-AMAZON;
+	           from AS16586 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS16586;
+	           from AS16713 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-NOANET-PEERING^0-24;
+	           from AS17388 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept { 198.87.24.0/24, 198.87.25.0/24, 198.87.26.0/24 };
+	           from AS17451 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           from AS18508 at 202.158.192.19
+	           accept NOT ANY;
+	           from AS18530 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-ISOMEDIA^0-24;
+	           from AS19029 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-NEWEDGE^0-24;
+	           from AS19080 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS19080 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-WBS^0-24;
+	           from AS19092 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-360C^0-24;
+	           from AS19151 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS19151 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS19151 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-WVFIBER^0-24;
+	           from AS19166 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS19166 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-AS19166^0-24;
+	           from AS19475 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-GOBANZA^0-24;
+	           from AS19740 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-SUDJAM^0-24;
+	           from AS19996 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept ANY AND NOT <AS36561> AND NOT <AS19181> AND NOT <AS38570> ;
+	           from AS20144 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS20144;
+	           from AS20161 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS20161;
+	           from AS20940 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS20940 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS20940 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-AKAMAI^0-24;
+	           from AS21513 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS21513;
+	           from AS21519 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS21519;
+	           from AS21947 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS21947;
+	           from AS22059 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-APVIO^0-24;
+	           from AS22212 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS22212 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS22212 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-INTERNAP^0-24;
+	           from AS22773 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS22773;
+	           from AS22822 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS22822 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS22822 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-LLNW^0-24;
+	           from AS23033 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS23033;
+	           from AS23148 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-TWW^0-24;
+	           from AS23260 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS23260;
+	           from AS23265 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-POCKETINET^0-24;
+	           from AS23292 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS23292;
+	           from AS23342 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS23342 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-UNITEDLAYER;
+	           from AS23504 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS23504 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS23504 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-SPEAKEASY^0-24;
+	           from AS25668 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS25668;
+	           from AS25899 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS25899;
+	           from AS25700 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS25700;
+	           from AS25885 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-BATBLUE^0-24;
+	           from AS25973 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS25973 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-MZIMA^0-24;
+	           from AS25976 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS25976:AS-CUSTOMER^0-24 OR AS25976^0-24;
+	           from AS26769 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS26769 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-BANDCON^0-24;
+	           from AS26803 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS26803 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-26803;
+	           from AS26935 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-NOELC^0-24;
+	           from AS27008 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS27008 OR AS11080 OR AS21561;
+	           from AS27318 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS27318;
+	           from AS27345 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-SEEQPOD^0-24;
+	           from AS27524 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-XEEX^0-24;
+	           from AS29791 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-VOXEL^0-24;
+	           from AS30340 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS31800 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           from AS31800 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept ANY;
+	           from AS32354 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-UNWIRED^0-24;
+	           from AS32748 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS32748 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-STEADFAST^0-24;
+	           from AS32934 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS32934 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS32934;
+	           from AS33211 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS33211;
+	           from AS33569 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS33569;
+	           from AS33626 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS33626;
+	           from AS34655 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-DOCLER-US^0-24;
+	           from AS34763 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-VIRGINRADIO^0-24;
+	           from AS35908 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS35908^0-24 OR AS11188^0-24 OR AS13990^0-24;
+	           from AS35916 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS35916;
+	           from AS35937 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS35937;
+	           from AS36119 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS36119 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-IMEEM^0-24;
+	           from AS36236 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS36236;
+	           from AS36408 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-PANTHER;
+	           from AS36620 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-GTLD;
+	           from AS36624 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-GTLD;
+	           from AS36692 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS36692 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS-OPENDNS;
+	           from AS36824 at 202.158.192.23 action community = { 7575:2023, 7575:6003, 7575:8003 };
+	           accept AS36824;
+	           from AS37958 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-CHINACACHE;
+	           from AS39326 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-GOSCOMB^0-24;
+	           from AS40739 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           accept AS-BLINKMIND^0-24;
+	           from AS45147 at 202.158.192.18 action community = { 7575:2018, 7575:6005, 7575:8005 };
+	           accept AS45147:AS-PEERING;
+	           from AS40193 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS-TRIT^0-24;
+	           from AS46489 at 202.158.192.19 action community = { 7575:2019, 7575:6003, 7575:8003 };
+	           from AS46489 at 202.158.192.20 action community = { 7575:2020, 7575:6003, 7575:8003 };
+	           accept AS46489;
+	           }
+remarks:    
+remarks:    Domestic multilateral peerings
+remarks:    
+mp-import:  afi ipv4.unicast {
+	           from AS-ANY
+	           action med=0; community = { 7575:1002, 7575:5010, 7575:6001, 7575:8001 };
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS703 at 202.158.192.49 action pref=10; community.append(7575:2049, 7575:3002 , 7575:6001);
+	           accept AS7604;
+	           from AS7606 at 202.158.192.46 action pref=5; community.append(7575:2046, 7575:3006 );
+	           accept { 218.100.43.0/24 };
+	           from AS7606 at 202.158.192.46 action pref=5; community.append(7575:2046, 7575:3006 );
+	           accept AS10084 AND <^PeerAS+ AS10084+>;
+	           from AS7606 at 202.158.192.46 action pref=10; community.append(7575:2046, 7575:3006 );
+	           accept ANY AND NOT <^PeerAS+ AS10084+>;
+	           from AS9722 at 202.158.192.48 action pref=5; community.append(7575:2048, 7575:3004 );
+	           accept AS9313 AND <^PeerAS+ AS9313+>;
+	           from AS9722 at 202.158.192.48 action pref=10; community.append(7575:2048, 7575:3004 );
+	           accept ANY AND NOT <^PeerAS+ AS9313+>;
+	           from AS17819 at 202.158.192.49 action pref=10; community.append( 7575:2049, 7575:3002 );
+	           accept ANY AND NOT <AS9716>;
+	           from AS37928 at 202.158.192.41 action pref=10; community.append(7575:2041, 7575:3001 );
+	           accept ANY AND NOT <^PeerAS+ [AS17819]+ .*$>;
+	           }
+remarks:    
+remarks:    Domestic transit
+remarks:    
+mp-import:  afi ipv4.unicast {
+	           from AS-ANY action med=0; community = { 7575:6001, 7575:8001 };
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS7474 at 202.158.192.45 action pref=15; community.append(7575:1003, 7575:2045);
+	           from AS7474 at 202.158.192.46 action pref=15; community.append(7575:1003, 7575:2046);
+	           from AS7474 at 202.158.192.47 action pref=15; community.append(7575:1003, 7575:2047);
+	           from AS7474 at 202.158.192.48 action pref=15; community.append(7575:1003, 7575:2048);
+	           accept community.contains(7474:1202, 7474:1203, 7474:1204, 7474:1205, 7474:1206) OR AS7474^0-24;
+	           }
+remarks:    
+remarks:    IPv4 International transit
+remarks:    
+mp-import:  afi ipv4.unicast {
+	           from AS-ANY action med=0; community = { 7575:1003};
+	           accept ANY AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS2914 at 202.158.192.19 action pref=20; community.append(7575:2019, 7575:6003, 7575:8003);
+	           from AS6461 at 202.158.192.19 action pref=20; community.append(7575:2019, 7575:6003, 7575:8003);
+	           from AS2914 at 202.158.192.20 action pref=20; community.append(7575:2020, 7575:6003, 7575:8003);
+	           from AS6461 at 202.158.192.20 action pref=20; community.append(7575:2020, 7575:6003, 7575:8003);
+	           accept NOT { 198.32.146.0/24 };
+	           from AS10026 at 202.158.192.18 action pref=20; community.append(7575:2018, 7575:8005);
+	           accept ANY AND NOT <AS1221|AS7474|AS2764> AND NOT { 0.0.0.0/0 };
+	           }
+remarks:    
+remarks:    IPv6 International transit
+remarks:    
+mp-import:  afi ipv6.unicast {
+	           from AS-ANY action med=0; community = { 7575:1003};
+	           accept ANY;
+	           } refine {
+	           from AS2914 at 2001:388:1::13 action pref=20; community.append(7575:2019, 7575:6003, 7575:8003);
+	           from AS2914 at 2001:388:1::14 action pref=20; community.append(7575:2020, 7575:6003, 7575:8003);
+	           accept ANY;
+	           }
+remarks:    
+remarks:    IPv4 route-views servers
+remarks:    
+mp-import:  afi ipv4.unicast {
+	           from AS6447 at 202.158.192.19
+	           from AS6447 at 202.158.192.22
+	           from AS21357
+	           from AS7575:AS-VIEWS
+	           accept NOT ANY;
+	           }
+remarks:    
+remarks:    Policy to all R&E connected peers
+remarks:    
+mp-export:  afi ipv4.unicast {
+	           to AS-ANY announce community.contains(7575:1000) and NOT community.contains(7575:2);
+	           } refine {
+	           to AS-ANY action community = { no_export }; announce community.contains(7575:1);
+	           to AS-ANY announce ANY;
+	           } refine {
+	           to AS101
+	           to AS7575:AS-RESEARCH at 202.158.192.18
+	           to AS7575:AS-RESEARCH at 202.158.192.21
+	           to AS7575:AS-RESEARCH at 202.158.192.22
+	           to AS7575:AS-RESEARCH at 202.158.192.25
+	           to AS7575:AS-RESEARCH at 202.158.192.49
+	           action med=igp_cost;
+	           to AS7575:AS-RESEARCH at 202.158.192.23
+	           action med=785;
+	           announce { 0.0.0.0/0^0-24 };
+            }
+mp-export:  afi ipv4.unicast {
+	           to AS293 at 202.158.192.23
+	           to AS668 at 202.158.192.23
+	           to AS6509 at 202.158.192.23
+	           to AS7539 at 202.158.192.23
+	           to AS6360 at 202.158.192.25
+	           action med=igp_cost;
+	           to AS11537 at 202.158.192.23
+	           action med=igp_cost; community.append(11537:40);
+	           announce { 0.0.0.0/0^0-24 } and community.contains(24489:65156);
+	           }
+remarks:    
+remarks:    R&E IPv6 peers
+remarks:    
+mp-export:  afi ipv6.unicast {
+	           to AS-ANY action med=igp_cost; announce community.contains(7575:1001);
+	           } refine {
+            to AS38018 at 2001:388:1::31 action aspath.prepend(AS7575);
+	           announce community.contains(11537:950);
+	           }
+remarks:    
+remarks:    R&E peers
+remarks:    
+mp-export:  afi ipv4.unicast {
+	           to AS-ANY action med=igp_cost; announce community.contains(7575:1001);
+	           } refine {
+	           to AS6360 at 202.158.192.27
+	           to AS6360 at 202.158.192.24
+	           announce ANY;
+	           to AS101 at 202.158.192.21
+	           to AS101 at 202.158.192.22
+	           to AS293 at 202.158.192.21
+	           to AS293 at 202.158.192.22
+	           to AS2153 at 202.158.192.21
+	           to AS2153 at 202.158.192.22
+	           to AS2907 at 202.158.192.21
+	           to AS2907 at 202.158.192.22
+	           to AS6509 at 202.158.192.21
+	           to AS6509 at 202.158.192.22
+	           to AS7539 at 202.158.192.21
+	           to AS7539 at 202.158.192.22
+	           to AS11537 at 202.158.192.21
+	           to AS11537 at 202.158.192.22
+	           to AS19401 at 202.158.192.21
+	           to AS19401 at 202.158.192.22
+	           announce <^AS6360+ [AS22739 AS25640]~*$>;
+	           to AS38018 at 202.158.192.49 action aspath.prepend(AS7575);
+	           announce community.contains(11537:950);
+            }
+mp-export:  afi ipv6.unicast {
+	           to AS-ANY announce community.contains(7575:1000) and NOT community.contains(7575:2, 7575:5002);
+	           } refine {
+	           to AS-ANY action community = { no_export }; announce community.contains(7575:1);
+	           to AS-ANY action med=igp_cost; announce ANY;
+	           } refine {
+	           to AS7575:AS-PEER at 2001:388:1::12
+	           to AS7575:AS-PEER at 2001:388:1::13
+	           to AS7575:AS-PEER at 2001:388:1::14
+	           to AS7575:AS-PEER at 2001:388:1::15
+	           to AS7575:AS-PEER at 2001:388:1::16
+	           to AS7575:AS-PEER at 2001:388:1::17
+	           to AS7575:AS-PEER at 2001:388:1::18
+	           to AS7575:AS-PEER at 2001:388:1::19
+	           to AS7575:AS-PEER at 2001:388:1::1A
+	           to AS7575:AS-PEER at 2001:388:1::28
+	           to AS7575:AS-PEER at 2001:388:1::29
+	           to AS7575:AS-PEER at 2001:388:1::2A
+	           to AS7575:AS-PEER at 2001:388:1::2B
+	           to AS7575:AS-PEER at 2001:388:1::2C
+	           to AS7575:AS-PEER at 2001:388:1::2D
+	           to AS7575:AS-PEER at 2001:388:1::2E
+	           to AS7575:AS-PEER at 2001:388:1::2F
+	           to AS7575:AS-PEER at 2001:388:1::30
+	           to AS7575:AS-PEER at 2001:388:1::31
+	           to AS7606  at 2001:388:1::2E
+	           to AS9722  at 2001:388:1::30
+	           to AS17819 at 2001:388:1::31
+	           announce ANY;
+	           }
+remarks:    
+remarks:    Policy to all peers
+remarks:    
+mp-export:  afi ipv4.unicast {
+	           to AS-ANY announce community.contains(7575:1000) and NOT community.contains(7575:2, 7575:5002);
+	           } refine {
+	           to AS-ANY action community = { no_export }; announce community.contains(7575:1);
+	           to AS-ANY action med=igp_cost; announce ANY;
+	           } refine {
+	           to AS9722  at 202.158.192.48 announce { 0.0.0.0/0^0-24 } and community.contains(7575:3004);
+	           to AS37928 at 202.158.192.41 announce { 0.0.0.0/0^0-24 } and community.contains(7575:3001);
+	           to AS17819 at 202.158.192.49 announce { 0.0.0.0/0^0-24 } and community.contains(7575:3002);
+	           to AS17819 at 202.158.192.49 action community = { no_export }; announce { 0.0.0.0/0^0-24 } and NOT community.contains(7575:3002);
+	           to AS7606  at 202.158.192.46 announce { 0.0.0.0/0^0-24 } and community.contains(7575:3006);
+	           to AS38858 at 202.158.192.62 announce { 0.0.0.0/0^0-24 } and community.contains(7575:3002);
+	           to AS15169 at 202.158.192.46 announce { 0.0.0.0/0^0-24 } and community.contains(7575:3006);
+	           to AS15169 at 202.158.192.19 action aspath.prepend(AS7575);
+	           to AS15169 at 202.158.192.20 action aspath.prepend(AS7575);
+	           to AS15169 at 202.158.192.23 action aspath.prepend(AS7575);
+	           to AS19996 at 202.158.192.20 action community.append(19996:36561,19996:19181);
+	           to AS7575:AS-PEER at 202.158.192.18
+	           to AS7575:AS-PEER at 202.158.192.19
+	           to AS7575:AS-PEER at 202.158.192.20
+	           to AS7575:AS-PEER at 202.158.192.21
+	           to AS7575:AS-PEER at 202.158.192.22
+	           to AS7575:AS-PEER at 202.158.192.23
+	           to AS7575:AS-PEER at 202.158.192.24
+	           to AS7575:AS-PEER at 202.158.192.25
+	           to AS7575:AS-PEER at 202.158.192.41
+	           to AS7575:AS-PEER at 202.158.192.42
+	           to AS7575:AS-PEER at 202.158.192.45
+	           to AS7575:AS-PEER at 202.158.192.46
+	           to AS7575:AS-PEER at 202.158.192.47
+	           to AS7575:AS-PEER at 202.158.192.48
+	           to AS7575:AS-PEER at 202.158.192.49
+	           announce { 0.0.0.0/0^0-24 };
+	           }
+remarks:    
+remarks:    IPv4 export policy to domestic transit
+remarks:    
+mp-export:  afi ipv4.unicast {
+	           to AS-ANY action aspath.prepend(AS7575);
+	           announce community.contains(7575:1000) AND NOT community.contains(7575:2, 7575:5002, 7575:5004) AND NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           to AS-ANY action community = { no_export }; announce community.contains(7575:1);
+	           to AS-ANY announce ANY;
+	           } refine {
+	           to AS-ANY action aspath.prepend(AS7575, AS7575); announce community.contains(7575:4);
+	           to AS-ANY action aspath.prepend(AS7575, AS7575, AS7575); announce community.contains(7575:5);
+	           to AS-ANY announce ANY;
+	           } refine {
+	           to AS7474 at 202.158.192.45
+	           action community.append(7473:70, 7575:7045); med=88;
+	           announce community.contains(7575:3003) ANY AND NOT community.contains(7575:5003);
+	           to AS7474 at 202.158.192.45
+	           action community.append(7473:70, 7575:7045); med=344;
+	           announce community.contains(7575:3007) ANY AND NOT community.contains(7575:5003);
+	           to AS7474 at 202.158.192.45 action community.append(7473:70, 7575:7045); med=igp_cost;
+	           to AS7474 at 202.158.192.46 action community.append(7473:70, 7575:7046); med=igp_cost;
+	           to AS7474 at 202.158.192.47 action community.append(7473:70, 7575:7047); med=igp_cost;
+	           to AS7474 at 202.158.192.48 action community.append(7473:70, 7575:7048); med=igp_cost;
+	           announce ANY AND NOT community.contains(7575:5003);
+	           }
+remarks:    
+remarks:    Policy to international transit
+remarks:    
+mp-export:  afi ipv4.unicast {
+	           to AS-ANY action med=igp_cost;
+	           announce community.contains(7575:1000) AND NOT community.contains(7575:2, 7575:5002, 7575:5003, 7575:5004) AND NOT { 0.0.0.0/0^25-32 };
+            } refine {
+	           to AS-ANY action community = { no_export }; announce community.contains(7575:1);
+	           to AS-ANY announce ANY;
+            } refine {
+	           to AS-ANY action aspath.prepend(AS7575); announce community.contains(7575:3);
+	           to AS-ANY action aspath.prepend(AS7575, AS7575); announce community.contains(7575:4);
+	           to AS-ANY action aspath.prepend(AS7575, AS7575, AS7575); announce community.contains(7575:5);
+	           to AS-ANY announce ANY;
+            } refine {
+	           to AS10026 at 202.158.192.18 action community.append(7575:7018);
+	           to AS6461 at 202.158.192.19 action community.append(7575:7019, 6461:5220);
+	           to AS6461 at 202.158.192.20 action community.append(7575:7020, 6461:5220);
+	           to AS2914 at 202.158.192.19 action community.append(2914:421, 2914:480, 7575:7019);
+	           to AS2914 at 202.158.192.20 action community.append(2914:421, 7575:7020);
+	           announce ANY;
+            }
+remarks:    
+remarks:    Policy to route-views
+remarks:    
+mp-export:  afi ipv4.unicast {
+	           to AS21357 announce community.contains(7575:1000) AND NOT community.contains(7575:5002, 7575:2);
+	           }
+mp-export:  afi ipv4.unicast {
+	           to AS21357 announce community.contains(7575:1002);
+	           } refine {
+	           to AS21357 announce community.contains(7575:6002) AND NOT community.contains(7575:5010);
+	           } refine {
+	           to AS21357 announce ANY AND NOT <AS2764|AS703|AS1221|AS7474|AS10026|AS9509|AS3491|AS38858>;
+	           }
+mp-export:  afi ipv4.unicast {
+	           to AS7575:AS-VIEWS action med=igp_cost; announce ANY AND NOT { 192.168.1.0/24^32 };
+	           }
+remarks:    
+remarks:    Community Description
+remarks:    ---------------------------
+remarks:    7575:1  Export external to AARNet with "no-export"
+remarks:    7575:2  No export beyond AARNet
+remarks:    7575:3  Prepend AS7575 once
+remarks:    7575:4  Prepend AS7575 twice
+remarks:    7575:5  Prepend AS7575 thrice
+remarks:    7575:6  Blackhole traffic
+remarks:    7575:7  Regional only
+remarks:    7575:70  AARNet local preference 70
+remarks:    7575:80  AARNet local preference 80
+remarks:    7575:90  AARNet local preference 90
+remarks:    7575:1000 Originated on member network
+remarks:    7575:1001 Originated on affiliated R&E network
+remarks:    7575:1002 Originated on peer network
+remarks:    7575:1003 Originated through transit network
+remarks:    7575:2xxx Originated in Location
+remarks:    7575:2001 Perth GigaPOP at Amnet IX
+remarks:    7575:2002 Perth GigaPOP at CSIRO ARRC
+remarks:    7575:2003 Adelaide GigaPOP at 10 Pulteney Street
+remarks:    7575:2004 Adelaide GigaPOP at Hostworks
+remarks:    7575:2005 Melbourne GigaPOP at Nextgen
+remarks:    7575:2006 Melbourne GigaPOP at Queensbery
+remarks:    7575:2007 Canberra GigaPOP at TransACT
+remarks:    7575:2008 Canberra GigaPOP at ANU
+remarks:    7575:2009 Sydney GigaPOP at UTS
+remarks:    7575:2010 Sydney GigaPOP at Nextgen
+remarks:    7575:2011 Brisbane GigaPOP at UQ
+remarks:    7575:2012 Brisbane GigaPOP at QUT
+remarks:    7575:2013 Hobart POP at UTas
+remarks:    7575:2014 Alice Springs POP at CDU
+remarks:    7575:2015 Darwin POP at CDU
+remarks:    7575:2018   Singapore POP at GlobalSwitch, Singapore
+remarks:    7575:2019 Palo Alto POP at PAIX
+remarks:    7575:2020 Los Angeles POP at Telehouse America
+remarks:    7575:2020 Los Angeles POP at CENIC
+remarks:    7575:2022 Seattle GigaPOP (SX TransPORT) at Pacific Wave
+remarks:    7575:2023 Seattle GigaPOP at Pacific Wave
+remarks:    7575:2024 Honolulu GigaPOP (SX TransPORT) at University of Hawai`i
+remarks:    7575:2025 Honolulu GigaPOP at University of Hawai`i
+remarks:    7575:2026 Suva POP at SCCN Cable Station
+remarks:    7575:2027 Hawaii POP at Kona
+remarks:    7575:2039 Sydney Multicast/IPv6 Tunnel Router
+remarks:    7575:2041 TransACT Peering Router
+remarks:    7575:2042 Adelaide Peering Router
+remarks:    7575:2045 UTS Peering Router
+remarks:    7575:2046 AMNetIX Peering Router
+remarks:    7575:2047 Melbourne Peering Router
+remarks:    7575:2048 Brisbane Peering Router
+remarks:    7575:2049 Equinix Sydney Peering Router
+remarks:    7575:21xx CPE Router
+remarks:    7575:22xx CPE Router
+remarks:    7575:30xx State or Territory
+remarks:    7575:3001 ACT
+remarks:    7575:3002 NSW
+remarks:    7575:3003 Victoria
+remarks:    7575:3004 Queensland
+remarks:    7575:3005 SA
+remarks:    7575:3006 WA
+remarks:    7575:3007 Tasmania
+remarks:    7575:3008 Northern Territory
+remarks:    7575:40xx DSCP code point
+remarks:    7575:5xxx Special (internal) codes
+remarks:    7575:5001 Don't export to SX TransSPORT
+remarks:    7575:5002 Don't export to Commodity Internet
+remarks:    7575:5003 Don't export to Offshore Commodity Internet
+remarks:    7575:5004 Don't export to Domestic Transit
+remarks:    7575:5010 ML acquired routes
+remarks:    7575:5021 Lower GEANT preference
+remarks:    7575:6xxx Locality codes
+remarks:    7575:6001 Australasian network
+remarks:    7575:6002 European network
+remarks:    7575:6003 North American network
+remarks:    7575:6004 North Asian network
+remarks:    7575:6005 South Asian network
+remarks:    7575:6006 Latin American network
+remarks:    7575:6007 African network
+remarks:    7575:7xxx Announced from Location
+remarks:    7575:7019 Announced from Palo Alto
+remarks:    7575:7020 Announced from Los Angeles
+remarks:    7575:8xxx Location of peering
+remarks:    7575:8001 Australasia
+remarks:    7575:8003 North America (SIX, Pacific Wave, PAIX, LAIIX)
+remarks:    7575:8005 South Asia (GlobalSwitch)
+remarks:    
+notify:     irrcontact@aarnet.edu.au
+mnt-by:     MAINT-ASAARNET
+changed:    nobody@aarnet.edu.au 20161025
+source:     RADB
+
+aut-num:        AS7575
+as-name:        AARNET-AS-AP
+descr:          Australian Academic and Reasearch Network (AARNet)
+descr:          Australia's Advanced Research and Education Network
+descr:          GPO Box 1559
+descr:          Canberra, ACT 2601
+admin-c:        SM6-AP
+tech-c:         ANOC-AP
+country:        AU
+org:            ORG-AAAR1-AP
+remarks:        See aut-num object registered at RADB for actual policy
+mnt-by:         MAINT-AARNET-AP
+mnt-irt:        IRT-AARNET-AU
+last-modified:  2017-10-16T00:29:49Z
+source:         APNIC

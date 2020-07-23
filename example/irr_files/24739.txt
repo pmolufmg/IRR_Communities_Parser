@@ -1,0 +1,214 @@
+aut-num:        AS24739
+as-name:        SEVEREN-TELECOM
+descr:          St.Petersburg, Russia
+remarks:        -----------------------------------------
+remarks:        ---------------- UPSTREAMS---------------
+remarks:        -----------------------------------------
+import:         from AS3216 action pref=100; accept ANY
+export:         to AS3216 announce AS-SEVEREN-TELECOM
+import:         from AS9002 action pref=100; accept ANY
+export:         to AS9002 announce AS-SEVEREN-TELECOM
+import:         from AS12389 action pref=100; accept ANY
+export:         to AS12389 announce AS-SEVEREN-TELECOM
+import:         from AS20485 action pref=100; accept ANY
+export:         to AS20485 announce AS-SEVEREN-TELECOM
+import:         from AS20764 action pref=100; accept ANY
+export:         to AS20764 announce AS-SEVEREN-TELECOM
+remarks:        -----------------------------------------
+remarks:        ---------------- IX-V4 -----------
+remarks:        -----------------------------------------
+remarks:        SPB-IX
+import:         from AS43690 action pref=100; accept ANY
+export:         to AS43690 announce AS-SEVEREN-TELECOM
+remarks:        MSK-IX
+import:         from AS8631 action pref=100; accept ANY
+export:         to AS8631 announce AS-SEVEREN-TELECOM
+remarks:        -----------------------------------------
+remarks:        ---------------- IX-V6 -----------
+remarks:        -----------------------------------------
+remarks:        SPB-IX
+mp-import:      afi ipv6.unicast from AS43690 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS43690 announce AS-SEVEREN-TELECOM-V6
+remarks:        MSK-IX
+mp-import:      afi ipv6.unicast from AS8631 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS8631 announce AS-SEVEREN-TELECOM-V6
+remarks:        -----------------------------------------
+remarks:        ---------------- CUSTOMERS --------------
+remarks:        -----------------------------------------
+import:         from AS20611 action pref=200; accept AS20611
+export:         to AS20611 announce ANY
+import:         from AS42339 action pref=200; accept AS-CHTP
+export:         to AS42339 announce ANY
+import:         from AS49905 action pref=200; accept AS49905
+export:         to AS49905 announce ANY
+import:         from AS58042 action pref=200; accept AS58042
+export:         to AS58042 announce ANY
+import:         from AS198907 action pref=200; accept AS198907
+export:         to AS198907 announce ANY
+import:         from AS50640 action pref=200; accept AS50640
+export:         to AS50640 announce ANY
+import:         from AS199072 action pref=200; accept AS199072
+export:         to AS199072 announce ANY
+import:         from AS61271 action pref=200; accept AS61271
+export:         to AS61271 announce ANY
+import:         from AS60832 action pref=200; accept AS60832
+export:         to AS60832 announce ANY
+import:         from AS59399 action pref=200; accept AS59399
+export:         to AS59399 announce ANY
+import:         from AS201721 action pref=200; accept AS201721
+export:         to AS201721 announce ANY
+import:         from AS201515 action pref=200; accept AS201515
+export:         to AS201515 announce ANY
+import:         from AS57528 action pref=200; accept AS-EKASSIR
+export:         to AS57528 announce ANY
+import:         from AS201511 action pref=200; accept AS201511
+export:         to AS201511 announce ANY
+import:         from AS58082 action pref=200; accept AS58082
+export:         to AS58082 announce ANY
+import:         from AS207056 action pref=200; accept AS-BONCH-IT
+export:         to AS207056 announce ANY
+import:         from AS61228 action pref=200; accept AS61228
+export:         to AS61228 announce ANY
+import:         from AS57274 action pref=200; accept AS57274
+export:         to AS57274 announce ANY
+import:         from AS31321 action pref=200; accept AS-STARTELECOMSPB
+export:         to AS31321 announce ANY
+import:         from AS200823 action pref=200; accept AS200823
+export:         to AS200823 announce ANY
+import:         from AS206403 action pref=200; accept AS206403
+export:         to AS206403 announce ANY
+import:         from AS205849 action pref=200; accept AS205849
+export:         to AS205849 announce ANY
+import:         from AS206647 action pref=200; accept AS206647
+export:         to AS206647 announce ANY
+import:         from AS44840 action pref=200; accept AS44840
+export:         to AS44840 announce ANY
+import:         from AS201664 action pref=200; accept AS201664
+export:         to AS201664 announce ANY
+import:         from AS51638 action pref=200; accept AS51638
+export:         to AS51638 announce ANY
+import:         from AS204492 action pref=200; accept AS204492
+export:         to AS204492 announce ANY
+import:         from AS48223 action pref=200; accept AS-SENATOR
+export:         to AS48223 announce ANY
+import:         from AS200685 action pref=200; accept AS-SENATOR
+export:         to AS200685 announce ANY
+import:         from AS51552 action pref=200; accept AS51552
+export:         to AS51552 announce ANY
+import:         from AS48225 action pref=200; accept AS48225
+export:         to AS48225 announce ANY
+import:         from AS61383 action pref=200; accept AS61383
+export:         to AS61383 announce ANY
+import:         from AS59434 action pref=200; accept AS59434
+export:         to AS59434 announce ANY
+import:         from AS25185 action pref=200; accept AS25185
+export:         to AS25185 announce ANY
+import:         from AS199365 action pref=200; accept AS-PROSTODNS-ANYCAST-2
+export:         to AS199365 announce ANY
+import:         from AS44174 action pref=200; accept AS44174
+export:         to AS44174 announce ANY
+remarks:        -----------------------------------------
+remarks:        ------------------ IPv6 -----------------
+remarks:        -----------------------------------------
+mp-import:      afi ipv6.unicast from AS3216 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS3216 announce AS-SEVEREN-TELECOM-V6
+mp-import:      afi ipv6.unicast from AS9002 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-SEVEREN-TELECOM-V6
+mp-import:      afi ipv6.unicast from AS9031 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS9031 announce AS-SEVEREN-TELECOM-V6
+mp-import:      afi ipv6.unicast from AS20764 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS20764 announce AS-SEVEREN-TELECOM-V6
+remarks:        -----------------------------------------
+remarks:        ---------------- CUSTOMERS-V6 -----------
+remarks:        -----------------------------------------
+mp-import:      afi ipv6.unicast from AS58042 action pref=200; accept AS58042
+mp-export:      afi ipv6.unicast to AS58042 announce ANY
+mp-import:      afi ipv6.unicast from AS60832 action pref=200; accept AS60832
+mp-export:      afi ipv6.unicast to AS60832 announce ANY
+mp-import:      afi ipv6.unicast from AS207056 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS207056 announce AS-SEVEREN-TELECOM-V6
+mp-import:      afi ipv6.unicast from AS48223 action pref=200; accept AS-SENATOR
+mp-export:      afi ipv6.unicast to AS48223 announce ANY
+remarks:
+remarks:        -------------------------------------------
+remarks:
+remarks:        Routing communities
+remarks:
+remarks:        External communities may be set by customers peers when
+remarks:        talking to AS24739. They are in range: 24739:4000 -
+remarks:        24739:4999.
+remarks:
+remarks:        24739:401x Advertising to Rascom
+remarks:        24739:402x Advertising to Rostelecom
+remarks:        24739:403x Advertising to TTK
+remarks:        24739:404x Advertising to Beeline
+remarks:        24739:408x Advertising to RETN
+remarks:        24739:410x Advertising to any Russian peer
+remarks:        24739:413x Advertising to any PRIVATE peer
+remarks:        24739:450x Advertising to any INTERNATIONAL peer
+remarks:        24739:453x Advertising to any PRIVATE peer
+remarks:
+remarks:        ...x=0 - do not advertise
+remarks:        ...x=1,2,4 - prepend 1,2,4 times
+remarks:
+remarks:        24739:4999 Do not advertise to any peers and uplinks
+remarks:
+remarks:        Customers routes get local preference of 200 (highest)
+remarks:        Peers routes get local preference in the range of 151-199.
+remarks:        Uplinks routes get local preference in the range of 95-105.
+remarks:
+remarks:        24739:4950 Set local preference 190
+remarks:        24739:4900 Set local preference 151
+remarks:
+remarks:        24739:4998 Blackhole (discard) traffic
+remarks:        Traffic destined for any /24-/32 prefixes tagged with
+remarks:        this community will be discarded at ingress to the
+remarks:        Severen-Telecom network.
+remarks:
+remarks:        Other communities in range 24739:4000-24739:4999 are
+remarks:        accepted but ignored.
+remarks:
+remarks:        Informational communities
+remarks:
+remarks:        Informational communities 24739:* (except 24739:4xxx) are
+remarks:        assigned only internally and are always deleted from
+remarks:        incoming updates at the border routers. They may be
+remarks:        used by peers to filter some prefixes.
+remarks:
+remarks:        24739:1000 Russian peers
+remarks:        24739:1004 Private peers in St.Petersburg
+remarks:        24739:1005 Private peers in Moscow
+remarks:        24739:2000 International peers
+remarks:        24739:3001 Originated in St.Petersburg
+remarks:        24739:3002 Originated in Moscow
+remarks:        24739:5001 Rascom
+remarks:        24739:5002 Rostelecom
+remarks:        24739:5003 TTK
+remarks:        24739:5004 Beeline
+remarks:        24739:5008 RETN
+remarks:
+remarks:        Other 24739:* communities are always deleted from incoming
+remarks:        updates at the border routers.
+remarks:
+remarks:        Other *:* communities are passed to all peers.
+remarks:
+remarks:        Last Update: 21 May 2018
+remarks:        --------------------------------------
+remarks:
+org:            ORG-SL18-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         SEVEREN-MNT
+mnt-routes:     SEVEREN-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-03-08T13:26:34Z
+last-modified:  2018-07-02T09:09:22Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

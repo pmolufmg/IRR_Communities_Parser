@@ -1,0 +1,87 @@
+aut-num:        AS43843
+as-name:        BRIANTEL
+org:            ORG-BS53-RIPE
+remarks:
+remarks:
+remarks:        Go to http://noc.briantel.com for more info
+remarks:
+remarks:
+remarks:        ******************************
+remarks:        *      BGP communities       *
+remarks:        ******************************
+remarks:
+remarks:        1  43843:10000 our prefixes
+remarks:        10 43843:10001 customers
+remarks:        20 43843:10002 don't announce to IX and UPSTREAMS
+remarks:        30 43843:20001 Telecom Italia transit routes
+remarks:        50 43843:20002 Promo/Colt transit routes
+remarks:        60 43843:20003 ASDASD transit routes
+remarks:        70 43843:20004 KPNQwest Italia transit routes
+remarks:        80 43843:30001 MINAP routes
+remarks:        900 43843:20900 Full transit routes
+remarks:        43843:65001 do not announce to MINAP
+remarks:
+remarks:
+remarks:        ******************************
+remarks:        *       Transit peers        *
+remarks:        ******************************
+remarks:
+import:         From AS3269 accept any
+import:         From AS5602 accept any
+import:         From AS8855 accept any
+import:         From AS28929 accept any
+remarks:        --
+export:         To AS3269 announce AS-BRIANTEL
+export:         To AS5602 announce AS-BRIANTEL
+export:         To AS8855 announce AS-BRIANTEL
+export:         To AS28929 announce AS-BRIANTEL
+remarks:
+remarks:        ******************************
+remarks:        *       MINAP peers          *
+remarks:        ******************************
+remarks:
+import:         From AS5392 accept AS-TELNET
+import:         From AS6734 accept AS-SPIN-1
+import:         From AS6760 accept AS6760
+import:         From AS8816 accept AS-METROLINK-IT
+import:         From AS12637 accept AS12637:AS-CUSTOMERS
+import:         From AS13284 accept AS-BRT
+import:         From AS29449 accept AS-TPN
+import:         From AS34695 accept AS34695:AS-TRANSIT
+import:         From AS39912 accept AS39912
+import:         From AS41102 accept AS41102
+import:         From AS44160 accept AS44160
+import:         From AS47358 accept AS47358
+import:         From AS47880 accept AS47880
+remarks:        --
+export:         To AS5392 announce AS-BRIANTEL
+export:         To AS6734 announce AS-BRIANTEL
+export:         To AS6760 announce AS-BRIANTEL
+export:         To AS8816 announce AS-BRIANTEL
+export:         To AS12637 announce AS-BRIANTEL
+export:         To AS13284 announce AS-BRIANTEL
+export:         To AS29449 announce AS-BRIANTEL
+export:         To AS34695 announce AS-BRIANTEL
+export:         To AS39912 announce AS-BRIANTEL
+export:         To AS41102 announce AS-BRIANTEL
+export:         To AS44160 announce AS-BRIANTEL
+export:         To AS47358 announce AS-BRIANTEL
+export:         To AS47880 announce AS-BRIANTEL
+remarks:
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         BRIANTEL-MNT
+mnt-routes:     BRIANTEL-MNT
+created:        2007-10-09T07:43:58Z
+last-modified:  2017-11-15T09:49:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

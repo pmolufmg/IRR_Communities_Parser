@@ -1,0 +1,230 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS49621'
+
+% Abuse contact for 'AS49621' is 'support@thinfactory.com'
+
+aut-num:        AS49621
+as-name:        THINFACTORY
+descr:          Thinfactory N.V.
+org:            ORG-TN22-RIPE
+status:         ASSIGNED
+remarks:
+remarks:        .............................................................
+remarks:        .                          Transits                         .
+remarks:        .............................................................
+remarks:
+mp-import:      afi ipv4.unicast from AS1299   accept ANY AND NOT {0.0.0.0/0}
+mp-export:      afi ipv4.unicast to AS1299   announce AS-THINFACTORY
+mp-import:      afi ipv6.unicast from AS1299   accept ANY AND NOT {0::0/0}
+mp-export:      afi ipv6.unicast to AS1299   announce AS-THINFACTORY
+remarks:
+mp-import:      afi ipv4.unicast from AS2914   accept ANY AND NOT {0.0.0.0/0}
+mp-export:      afi ipv4.unicast to AS2914   announce AS-THINFACTORY
+mp-import:      afi ipv6.unicast from AS2914   accept ANY AND NOT {0::0/0}
+mp-export:      afi ipv6.unicast to AS2914   announce AS-THINFACTORY
+remarks:
+mp-import:      afi ipv4.unicast from AS3257   accept ANY AND NOT {0.0.0.0/0}
+mp-export:      afi ipv4.unicast to AS3257   announce AS-THINFACTORY
+mp-import:      afi ipv6.unicast from AS3257   accept ANY AND NOT {0::0/0}
+mp-export:      afi ipv6.unicast to AS3257   announce AS-THINFACTORY
+remarks:
+mp-import:      afi ipv4.unicast from AS28707  accept ANY AND NOT {0.0.0.0/0}
+mp-export:      afi ipv4.unicast to AS28707  announce AS-THINFACTORY
+mp-import:      afi ipv6.unicast from AS28707  accept ANY AND NOT {0::0/0}
+mp-export:      afi ipv6.unicast to AS28707  announce AS-THINFACTORY
+remarks:
+mp-import:      afi ipv4.unicast from AS38983  accept ANY AND NOT {0.0.0.0/0}
+mp-export:      afi ipv4.unicast to AS38983  announce AS-THINFACTORY
+mp-import:      afi ipv6.unicast from AS38983  accept ANY AND NOT {0::0/0}
+mp-export:      afi ipv6.unicast to AS38983  announce AS-THINFACTORY
+remarks:
+remarks:        .............................................................
+remarks:        .                            Peers                          .
+remarks:        .............................................................
+remarks:
+mp-import:      afi ipv4.unicast from AS199139 accept AS-WERITECH
+mp-export:      afi ipv4.unicast to AS199139 announce AS-THINFACTORY
+mp-import:      afi ipv6.unicast from AS199139 accept AS-WERITECH
+mp-export:      afi ipv6.unicast to AS199139 announce AS-THINFACTORY
+remarks:
+remarks:        .............................................................
+remarks:        .             External route object privileges              .
+remarks:        .............................................................
+remarks:
+remarks:        None.
+remarks:
+remarks:        .............................................................
+remarks:        . Network Operations Center: (24/7 operations)              .
+remarks:        .                                                           .
+remarks:        .     Email: noc@thinfactory.com                            .
+remarks:        .     Phone: +32 2 669 05 00                                .
+remarks:        .............................................................
+remarks:
+remarks:        .............................................................
+remarks:        . Peering policy:                                           .
+remarks:        .                                                           .
+remarks:        .     We currently have an open peering policy.             .
+remarks:        .     Please mail noc@thinfactory.com with your             .
+remarks:        .     exchange point, IP, ASN and AS-macro. We are          .
+remarks:        .     happy to peer via IPv4 as well as IPv6.               .
+remarks:        .                                                           .
+remarks:        . Currently available private peering points:               .
+remarks:        .                                                           .
+remarks:        .     Private Peering Points                                .
+remarks:        .     ======================                                .
+remarks:        .                                                           .
+remarks:        .     InterXion Zaventem (Brussels)                         .
+remarks:        .     Orange Nossegem (Brussels)                            .
+remarks:        .............................................................
+remarks:
+remarks:        .............................................................
+remarks:        . Community tags:                                           .
+remarks:        .                                                           .
+remarks:        . Community:    Definition:                                 .
+remarks:        . ----------    -----------                                 .
+remarks:        .                                                           .
+remarks:        . 49621:1***    Prefix-type tagging:                        .
+remarks:        . ---------    --------------------                         .
+remarks:        .                                                           .
+remarks:        . 49621:1001    Thinfactory own prefixes                    .
+remarks:        . 49621:1002    Routes received from transit customers      .
+remarks:        . 49621:1003    Routes received from peering partners       .
+remarks:        . 49621:1004    Routes received from a transit provider     .
+remarks:        .                                                           .
+remarks:        . 49621:2***    Internet Exchange tagging:                  .
+remarks:        . ----------    --------------------------                  .
+remarks:        .                                                           .
+remarks:        . Will be added in the near future.                         .
+remarks:        .                                                           .
+remarks:        . 49621:4***    Transit tagging:                            .
+remarks:        . ----------    ----------------                            .
+remarks:        .                                                           .
+remarks:        . 49621:4001    Routes received from GTT                    .
+remarks:        . 49621:4002    Routes received from Stuart                 .
+remarks:        . 49621:4003    Routes received from Telia                  .
+remarks:        . 49621:4004    Routes received from NTT                    .
+remarks:        .                                                           .
+remarks:        . 49621:5***    City tagging:                               .
+remarks:        . ----------    -------------                               .
+remarks:        .                                                           .
+remarks:        . 49621:5001    Routes received in Brussels                 .
+remarks:        .                                                           .
+remarks:        . 49621:6***    Country tagging:                            .
+remarks:        . ----------    ----------------                            .
+remarks:        .                                                           .
+remarks:        . 49621:6001    Routes received in Belgium                  .
+remarks:        .                                                           .
+remarks:        . 49621:1**     Route prepending:                           .
+remarks:        . ----------    -----------------                           .
+remarks:        .                                                           .
+remarks:        . 49621:101     Lower your local-preference by 100          .
+remarks:        . 49621:151     Raise your local-preference by 100          .
+remarks:        .                                                           .
+remarks:        . 49621:6**     Export manipulation                         .
+remarks:        . ----------    -------------------                         .
+remarks:        .                                                           .
+remarks:        . 49621:601     Do not export to anyone                     .
+remarks:        . 49621:602     Do not export to transits                   .
+remarks:        . 49621:603     Do not export to peers                      .
+remarks:        . 49621:604     Do not export to customers                  .
+remarks:        . 49621:611     Do not export to transit GTT                .
+remarks:        . 49621:612     Do not export to transit Stuart             .
+remarks:        . 49621:613     Do not export to transit Telia              .
+remarks:        . 49621:614     Do not export to transit NTT                .
+remarks:        . 49621:666     Blackhole Community                         .
+remarks:        .............................................................
+remarks:
+remarks:        .............................................................
+remarks:        . Import filters:                                           .
+remarks:        .                                                           .
+remarks:        .     - Prefixes listed in rfc6890.                         .
+remarks:        .     - IPv4 prefixes longer than /24.                      .
+remarks:        .     - IPv6 prefixes longer than /48.                      .
+remarks:        .............................................................
+remarks:
+admin-c:        THIN-RIPE
+tech-c:         THIN-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-THIN
+created:        2009-07-15T09:01:13Z
+last-modified:  2019-01-18T18:24:22Z
+source:         RIPE # Filtered
+sponsoring-org: ORG-TA425-RIPE
+
+organisation:   ORG-TN22-RIPE
+org-name:       Thinfactory N.V
+org-type:       OTHER
+address:        Ikaroslaan 25
+address:        1930
+address:        Zaventem
+address:        BELGIUM
+phone:          +3226690500
+abuse-c:        AR14201-RIPE
+admin-c:        GH1063-RIPE
+mnt-ref:        MNT-THIN
+mnt-by:         MNT-THIN
+created:        2009-07-08T10:42:49Z
+last-modified:  2018-12-21T10:13:01Z
+source:         RIPE # Filtered
+
+person:         Customer Care - Support
+address:        Thinfactory N.V
+address:        Ikaroslaan 25
+address:        1930 Zaventem
+address:        Belgium
+phone:          +32 2 669 05 00
+remarks:
+remarks:        .........................................................
+remarks:        .                   Abuse Information                   .
+remarks:        .........................................................
+remarks:
+remarks:        If you suspect unusual activity  originating from this
+remarks:        network: send relevant logfiles, IP adresses, protocol
+remarks:        and port numbers, UTC timestamps and other useful extra
+remarks:        information to noc@thinfactory.com in plain ASCII
+remarks:        text. Do not send HTML, proprietary encodings, graphical
+remarks:        formats or mime attachments.
+remarks:
+remarks:        .........................................................
+remarks:        .                   Spam Information                    .
+remarks:        .........................................................
+remarks:
+remarks:        For spam complaints please email the owner of the netblock
+remarks:        (CIDR IP-Range) and not Thinfactory. Every inetnum has
+remarks:        administrative contact information for information and
+remarks:        complaints. Please report only technical problems to
+remarks:        Thinfactory.
+remarks:
+nic-hdl:        THIN-RIPE
+mnt-by:         MNT-THIN
+created:        2009-07-08T12:41:02Z
+last-modified:  2018-05-09T15:38:39Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

@@ -1,0 +1,27 @@
+aut-num:    AS22799
+as-name:    DCC
+descr:      Delta Cable
+            An EastLink company
+import:     from AS22799:AS-TRANSIT   accept ANY AND NOT fltr-bogons
+import:     from AS22799:AS-CUSTOMERS   accept <^AS22799:AS-CUSTOMERS+$>
+mp-import:  afi ipv6.unicast from AS22799:AS-TRANSIT   accept ANY
+mp-import:  afi ipv6.unicast from AS22799:AS-CUSTOMERS   accept <^AS22799:AS-CUSTOMERS+$>
+export:     to AS22799:AS-TRANSIT   announce AS-EASTLINK-DELTA
+export:     to AS22799:AS-CUSTOMERS   announce ANY AND NOT fltr-bogons
+mp-export:  afi ipv6.unicast to AS6453   announce AS-EASTLINK-DELTA
+mp-export:  afi ipv6.unicast to AS6539   announce AS-EASTLINK-DELTA
+mp-export:  afi ipv6.unicast to AS3257   announce AS-EASTLINK-DELTA
+mp-export:  afi ipv6.unicast to AS32233   announce ANY
+admin-c:    AT5623
+tech-c:     AT5623
+remarks:    Customer Communities
+            22799:80  Sets Eastlink local-pref to 80 (backup)
+            22799:100 Sets Eastlink local-pref to 100 (transit default)
+            22799:120 Sets Eastlink local-pref to 120 (peering default)
+            22799:130 Sets Eastlink local-pref to 130 (customer default)
+            22799:150 Sets Eastlink local-pref to 150
+            22799:999 Blackholes a host prefix (/32s only)
+notify:     mtherr@deltacable.com
+mnt-by:     MAINT-AS22799
+changed:    larry.brinton@deltacable.com 20110530  #14:05:59Z
+source:     RADB

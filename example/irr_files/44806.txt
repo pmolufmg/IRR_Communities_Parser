@@ -1,0 +1,78 @@
+aut-num:        AS44806
+as-name:        KINAMO-BACKBONE
+org:            ORG-FN20-RIPE
+remarks:
+import:         from AS3257 accept ANY
+import:         from AS8368 accept ANY
+import:         from AS3304 accept ANY
+mp-import:      afi ipv6.unicast from AS3257 accept ANY
+mp-import:      afi ipv6.unicast from AS8368 accept ANY
+remarks:
+export:         to AS3257 announce AS-KINAMO
+export:         to AS8368 announce AS-KINAMO
+export:         to AS3304 announce AS-KINAMO
+mp-export:      afi ipv6.unicast to AS3257 announce AS-KINAMO
+mp-export:      afi ipv6.unicast to AS8368 announce AS-KINAMO
+remarks:
+remarks:        Network Operations Center: (24/7 operations) Email: support@kinamo.be Phone: +32 (0)3 230 85 82
+remarks:        Website: http://www.kinamo.be
+remarks:
+remarks:        [[ Peering policy ]]
+remarks:        We have an open peering policy.
+remarks:        Please mail support@kinamo.be with your
+remarks:        exchange point, ip, asn and as-macro.
+remarks:        We are happy to configure private peering to
+remarks:        improve the quality of our services.
+remarks:
+remarks:        [[ Private Peering Points ]]
+remarks:
+remarks:        InterXion Brussels (Zaventem)
+remarks:        Mobistar (KPN) Brussels (Nossegem)
+remarks:
+remarks:        Community tags:
+remarks:
+remarks:        44806:1*** Prefix-type tagging:
+remarks:        44806:1001 Kinamo own prefixes
+remarks:        44806:1002 Routes received from transit customers
+remarks:        44806:1003 Routes received from peering partners
+remarks:        44806:1004 Routes received from a transit provider
+remarks:
+remarks:        44806:4*** Transit tagging:
+remarks:        44806:4001 Routes received from Tiscali
+remarks:        44806:4002 Routes received from Benesol
+remarks:
+remarks:        44806:5*** City tagging:
+remarks:        44806:5001 Routes received in Brussels
+remarks:
+remarks:        44806:6*** Country tagging:
+remarks:        44806:6001 Routes received in Belgium
+remarks:
+remarks:        44806:1** Route prepending:
+remarks:        44806:101 Lower your local-preference by 100
+remarks:        44806:102 Raise your local-preference by 100
+remarks:
+remarks:        44806:6** Export manipulation
+remarks:        44806:601 Do not export to anyone
+remarks:        44806:602 Do not export to transits
+remarks:        44806:603 Do not export to peers
+remarks:        44806:604 Do not export to customers
+remarks:        44806:666 Nullroute (discard) traffic
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-KINAMO
+mnt-routes:     MNT-KINAMO
+created:        2008-03-13T14:29:14Z
+last-modified:  2017-11-15T09:51:05Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

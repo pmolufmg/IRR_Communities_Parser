@@ -1,0 +1,305 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS1836
+as-name:       GREEN
+descr:         green.ch AG Autonomous System
+descr:         former TIC The Internet Company AG Autonomous System
+descr:         former VIA NET.WORKS CH Autonomous System
+descr:         former KPNQwest CH Autonomous System
+descr:         former EUnet CH Autonomous System
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+remarks:       
+remarks:       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       Multi-Protocol BGP4 - Address Family IPv4, SAFI Unicast
+remarks:       
+remarks:       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 IPv4 Transit & Downstream Customers
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 IPv4 Transit Upstream Partners & Peers
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 IPv4 Private Peers
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 IPv4 Public Peers
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       SWISS-IX, Zurich, CH: 91.206.52.94, 2001:7f8:24::5e
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       EQUINIX 1, Zurich, CH: 194.42.48.63, 2001:7f8:c:8235:194:42:48:63
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       DE-CIX, Frankfurt, DE: 80.81.195.163
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       new, build-up ongoing
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AMS-IX, Amsterdam, NL: 195.69.144.192
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       HK-IX, Hong Kong, CN: 202.40.161.144
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       Multi-Protocol BGP4 - Address Family IPv6, SAFI Unicast
+remarks:       
+remarks:       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 IPv6 Transit & Downstream Customers
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       AS1836 IPv6 Transit Upstream Partners & Peers
+remarks:       
+remarks:       
+remarks:       ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 IPv6 Private Peers
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 IPv6 Public Peers
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       SWISS-IX, Zurich, CH: 2001:7f8:24::5e/64
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       EQUINIX 1, Zurich, CH: 2001:7F8:C:8235:194:42:48:63/64
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       DE-CIX, Frankfurt, DE: 2001:7f8::72c:0:1
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       new, build-up ongoing
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AMS-IX, Amsterdam, NL: 2001:7F8:1::A500:1836:1/64
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 BGP4 Exterior Routing & Peering Policy
+remarks:       
+remarks:       - ISP & Content Provider peering partners preferred
+remarks:       - http://as1836.peeringdb.com
+remarks:       - http://www.swissix.ch/peeringdetails.php?as=1836
+remarks:       
+remarks:       - Announce AS-GREEN to AS-GREEN-PEERS
+remarks:       - Announce AS-GREEN-IPv6 to AS-GREEN-IPv6-PEERS
+remarks:       - MD5 authentication - preferred & supported
+remarks:       - Please advise IPv4/v6 count & max-prefix recommendations
+remarks:       - DENY 0/0 - 0/7
+remarks:       - DENY >= /25
+remarks:       - DENY IANA reserved - RFC 1356, 1700, 1918, 3068 & 3330
+remarks:       - DENY AS1836 originated prefixes
+remarks:       - DENY AS1836 communities
+remarks:       - DO NOT point 0/0 or ::/0 - you will be perma-banned.
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AUT-NUM: 1836
+remarks:       AS-SET IPv4: AS-GREEN
+remarks:       AS-SET IPv6: AS-GREEN-IPv6
+remarks:       
+remarks:       Prefix count IPv4: 150
+remarks:       Recommended IPv4 max-prefix: 400
+remarks:       
+remarks:       Prefix count IPv6: 30
+remarks:       Recommended IPv6 max-prefix: 50
+remarks:       
+remarks:       SWISS-IX: 91.206.52.94/23
+remarks:       SWISS-IX: 2001:7f8:24::5e/64
+remarks:       
+remarks:       EQUINIX 1: 194.42.48.63/25
+remarks:       EQUINIX 1: 2001:7F8:C:8235:194:42:48:63/64
+remarks:       
+remarks:       AMS-IX: 195.69.144.192/23
+remarks:       AMS-IX: 2001:7F8:1::A500:1836:1/64
+remarks:       
+remarks:       HK-IX: 202.40.161.144/23
+remarks:       HK-IX: 2001:7FA:0:1::CA28:A190/64
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 BGP4 Private Communities
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       1836:100 Minimal route-set
+remarks:       1836:110 National route-set (incl. Swiss peers)
+remarks:       1836:120 European route-set (incl. Intl peers/ customers)
+remarks:       1836:150 Internal Backup Route
+remarks:       
+remarks:       1836:2000 Swiss customer route
+remarks:       1836:3000 Swiss public peer route
+remarks:       1836:3001 Swiss private peer route
+remarks:       
+remarks:       1836:3010 EQUINIX public peer route
+remarks:       1836:3020 SWISS-IX public peer route
+remarks:       
+remarks:       1836:3100 European public peer route
+remarks:       1836:3101 European private peer route
+remarks:       1836:3110 AMS-IX public peer route
+remarks:       
+remarks:       1836:3200 Asian public peer route
+remarks:       1836:3201 Asian private peer route
+remarks:       1836:3210 HK-IX public peer route
+remarks:       
+remarks:       1836:6000 AS1836 Upstream Partner IP Transit route
+remarks:       1836:6001 Global Crossing, AS3549
+remarks:       1836:6031 Cogent Communications, AS174
+remarks:       1836:6041 Init7, AS13030
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       AS1836 BGP4 Customer Traffic-Engineering
+remarks:       
+remarks:       - Customer-Triggered Remote Traffic Black-Holing - /27-/32 prefix-length-range ONLY
+remarks:       - Set Local Pref = 400, default = 500 within AS1836
+remarks:       - AS1836 AS_Path pre-pending to eBGP peers
+remarks:       - No_Export to eBGP peers.
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       1836:666 Customer-Triggered Remote Traffic Black-Holing AS1836 INTERNAL
+remarks:       1836:999 Customer-Triggered Remote Traffic Black-Holing AS1836 EXTERNAL
+remarks:       
+remarks:       1836:19999 Decrease Local Preference 500->400 within AS1836
+remarks:       
+remarks:       1836:10000 Do NOT announce to ANY Upstream Carrier
+remarks:       
+remarks:       1836:10001 Pre-pend AS1836 1x to Level(3), AS3356
+remarks:       1836:10002 Pre-pend AS1836 2x to Level(3), AS3356
+remarks:       1836:10003 Pre-pend AS1836 3x to Level(3), AS3356
+remarks:       1836:10006 No Export to Level(3), AS3356
+remarks:       
+remarks:       1836:10031 Pre-pend AS1836 1x to Cogent Communications, AS174
+remarks:       1836:10032 Pre-pend AS1836 2x to Cogent Communications, AS174
+remarks:       1836:10033 Pre-pend AS1836 3x to Cogent Communications, AS174
+remarks:       1836:10036 No Export to Cogent Communications, AS174
+remarks:       
+remarks:       1836:10041 Pre-pend AS1836 1x to Init7, AS13030
+remarks:       1836:10042 Pre-pend AS1836 2x to Init7, AS13030
+remarks:       1836:10043 Pre-pend AS1836 3x to Init7, AS13030
+remarks:       1836:10046 No Export to Init7, AS13030
+remarks:       
+remarks:       1836:11000 No Export to Swiss Peers
+remarks:       1836:11100 No Export to European Peers
+remarks:       1836:11200 No Export to Asian Peers
+remarks:       
+remarks:       1836:13011 Pre-pend AS1836 1x to EQUINIX
+remarks:       1836:13012 Pre-pend AS1836 2x to EQUINIX
+remarks:       1836:13013 Pre-pend AS1836 3x to EQUINIX
+remarks:       1836:13016 No Export to EQUINIX
+remarks:       
+remarks:       1836:13021 Pre-pend AS1836 1x to SWISS-IX
+remarks:       1836:13022 Pre-pend AS1836 2x to SWISS-IX
+remarks:       1836:13023 Pre-pend AS1836 3x to SWISS-IX
+remarks:       1836:13026 No Export to SWISS-IX
+remarks:       
+remarks:       1836:13041 Pre-pend AS1836 1x to Swisscom, AS3303
+remarks:       1836:13042 Pre-pend AS1836 2x to Swisscom, AS3303
+remarks:       1836:13043 Pre-pend AS1836 3x to Swisscom, AS3303
+remarks:       1836:13046 No Export to Swisscom, AS3303
+remarks:       
+remarks:       1836:13051 Pre-pend AS1836 1x to UPC, AS6830
+remarks:       1836:13052 Pre-pend AS1836 2x to UPC, AS6830
+remarks:       1836:13053 Pre-pend AS1836 3x to UPC, AS6830
+remarks:       1836:13056 No Export to UPC, AS6830
+remarks:       
+remarks:       1836:13111 Pre-pend AS1836 1x to AMS-IX
+remarks:       1836:13112 Pre-pend AS1836 2x to AMS-IX
+remarks:       1836:13113 Pre-pend AS1836 3x to AMS-IX
+remarks:       1836:13116 No Export to AMS-IX
+remarks:       
+remarks:       1836:13211 Pre-pend AS1836 1x to HK-IX
+remarks:       1836:13212 Pre-pend AS1836 2x to HK-IX
+remarks:       1836:13213 Pre-pend AS1836 3x to HK-IX
+remarks:       1836:13216 No Export to HK-IX
+remarks:       
+remarks:       ****************************************************************
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        AS1836-MNT
+source:        RIPE
+
+

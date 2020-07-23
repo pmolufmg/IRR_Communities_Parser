@@ -1,0 +1,141 @@
+aut-num:    AS38809
+as-name:    NXGNET-AS-AP
+descr:      Nextgen Networks, Internet Service Provider, AU
+import:     from AS1221  action pref = 15; accept ANY
+import:     from AS4826  action pref = 15; accept ANY
+import:     from AS24115  action pref = 10; accept ANY
+import:     from AS7606  action pref = 10; accept ANY
+import:     from AS15169  action pref = 5; accept ANY
+import:     from AS7583  action pref = 5; accept ANY
+import:     from AS30071  action pref = 5; accept ANY
+import:     from AS18398  action pref = 10; accept ANY
+import:     from AS8075  action pref = 5; accept ANY
+import:     from AS16509  action pref = 5; accept ANY
+import:     from AS13335  action pref = 5; accept ANY
+import:     from AS13414  action pref = 5; accept ANY
+import:     from AS15133  action pref = 5; accept ANY
+import:     from AS2906  action pref = 5; accept ANY
+import:     from AS714  action pref = 5; accept ANY
+import:     from AS2687  action pref = 5; accept ANY
+import:     from AS32934  action pref = 5; accept ANY
+import:     from AS38622  action pref = 5; accept ANY
+import:     from AS36351  action pref = 5; accept ANY
+import:     from AS17457  action pref = 5; accept ANY
+import:     from AS20940  action pref = 5; accept ANY
+import:     from AS54104  action pref = 5; accept ANY
+export:     to AS1221   announce AS38809:AS-COMPLETE
+export:     to AS4826   announce AS38809:AS-COMPLETE
+export:     to AS24115   announce AS38809:AS-COMPLETE
+export:     to AS7606   announce AS38809:AS-COMPLETE
+export:     to AS15169   announce AS38809:AS-COMPLETE
+export:     to AS7583   announce AS38809:AS-COMPLETE
+export:     to AS6447   announce AS38809:AS-COMPLETE
+export:     to AS30071   announce AS38809:AS-COMPLETE
+export:     to AS18398   announce AS38809:AS-COMPLETE
+export:     to AS8075   announce AS38809:AS-COMPLETE
+export:     to AS16509   announce AS38809:AS-COMPLETE
+export:     to AS13335   announce AS38809:AS-COMPLETE
+export:     to AS13414   announce AS38809:AS-COMPLETE
+export:     to AS15133   announce AS38809:AS-COMPLETE
+export:     to AS2906   announce AS38809:AS-COMPLETE
+export:     to AS714   announce AS38809:AS-COMPLETE
+export:     to AS2687   announce AS38809:AS-COMPLETE
+export:     to AS32934   announce AS38809:AS-COMPLETE
+export:     to AS38622   announce AS38809:AS-COMPLETE
+export:     to AS36351   announce AS38809:AS-COMPLETE
+export:     to AS17457   announce AS38809:AS-COMPLETE
+export:     to AS20940   announce AS38809:AS-COMPLETE
+export:     to AS54104   announce AS38809:AS-COMPLETE
+admin-c:    SC1489-AP
+tech-c:     CC2188-AP
+notify:     apnic@nn.com.au
+mnt-by:     MAINT-AU-NXGNET
+changed:    chris.chaundy@nn.com.au 20170207
+remarks:    Nextgen Networks Customer Communities
+remarks:    ---------------------------------------------------------------------
+remarks:    38809:1     Prepend AS38809 once to peer announcements
+remarks:    38809:2     Prepend AS38809 twice to peer announcements
+remarks:    38809:3     Prepend AS38809 thrice to peer announcements
+remarks:    38809:10    Announce to Nextgen customers only
+remarks:    38809:11    Announce to Nextgen customers and peers only
+remarks:    38809:12    Announce to Australia domestic only
+remarks:    38809:66    RTBH (IPv4 /32 only, IPv6 /128 only)
+remarks:    ---------------------------------------------------------------------
+remarks:    Minimum external prefix size IPv4 /24, IPv6 /48
+remarks:    Please send security/abuse email to abuse@nn.com.au
+remarks:    ---------------------------------------------------------------------
+source:     NTTCOM
+
+aut-num:        AS38809
+as-name:        NXGNET-AS-AP
+descr:          Nextgen Networks
+descr:          Internet Service Provider
+descr:          Australia
+country:        AU
+org:            ORG-NN1-AP
+import:         from AS1221 action pref=15; accept ANY
+import:         from AS24115 action pref=10; accept ANY
+import:         from AS7606 action pref=10; accept ANY
+import:         from AS15169 action pref=5; accept ANY
+import:         from AS7583 action pref=5; accept ANY
+import:         from AS30071 action pref=5; accept ANY
+import:         from AS18398 action pref=10; accept ANY
+import:         from AS8075 action pref=5; accept ANY
+import:         from AS16509 action pref=5; accept ANY
+import:         from AS13335 action pref=5; accept ANY
+import:         from AS2906 action pref=5; accept ANY
+import:         from AS714 action pref=5; accept ANY
+import:         from AS2687 action pref=5; accept ANY
+import:         from AS4826 action pref=15; accept ANY
+import:         from AS13414 action pref = 5; accept ANY
+import:         from AS15133 action pref = 5; accept ANY
+import:         from AS32934 action pref = 5; accept ANY
+import:         from AS38622 action pref = 5; accept ANY
+import:         from AS36351 action pref = 5; accept ANY
+import:         from AS20940 action pref = 5; accept ANY
+import:         from AS17457 action pref = 5; accept ANY
+import:         from AS54104 action pref = 5; accept ANY
+export:         to AS1221 announce AS38809
+export:         to AS24115 announce AS38809
+export:         to AS7606 announce AS38809
+export:         to AS15169 announce AS38809
+export:         to AS7583 announce AS38809
+export:         to AS6447 announce AS38809
+export:         to AS30071 announce AS38809
+export:         to AS18398 announce AS38809
+export:         to AS8075 announce AS38809
+export:         to AS16509 announce AS38809
+export:         to AS13335 announce AS38809
+export:         to AS2906 announce AS38809
+export:         to AS714 announce AS38809
+export:         to AS2687 announce AS38809
+export:         to AS4826 announce AS38809
+export:         to AS13414 announce AS38809
+export:         to AS15133 announce AS38809
+export:         to AS32934 announce AS38809
+export:         to AS38622 announce AS38809
+export:         to AS36351 announce AS38809
+export:         to AS20940 announce AS38809
+export:         to AS17457 announce AS38809
+export:         to AS54104 announce AS38809
+admin-c:        SC1489-AP
+tech-c:         NNIA1-AP
+notify:         apnic@nn.com.au
+mnt-routes:     MAINT-AU-NXGNET
+mnt-by:         MAINT-AU-NXGNET
+mnt-irt:        IRT-NXGNET-AU
+remarks:        Nextgen Networks Customer Communities
+remarks:        ---------------------------------------------------------------------
+remarks:        38809:1     Prepend AS38809 once to peer announcements
+remarks:        38809:2     Prepend AS38809 twice to peer announcements
+remarks:        38809:3     Prepend AS38809 thrice to peer announcements
+remarks:        38809:10    Announce to Nextgen customers only
+remarks:        38809:11    Announce to Nextgen customers and peers only
+remarks:        38809:12    Announce to Australia domestic only
+remarks:        38809:66    RTBH (IPv4 /32 only, IPv6 /128 only)
+remarks:        ---------------------------------------------------------------------
+remarks:        Minimum external prefix size IPv4 /24, IPv6 /48
+remarks:        Please send security/abuse email to abuse@nn.com.au
+remarks:        ---------------------------------------------------------------------
+last-modified:  2017-10-16T00:18:24Z
+source:         APNIC

@@ -1,0 +1,232 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS21153 - AS21241'
+
+as-block:       AS21153 - AS21241
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS21219'
+
+% Abuse contact for 'AS21219' is 'abuse@ip.datagroup.ua'
+
+aut-num:        AS21219
+as-name:        Datagroup
+org:            ORG-DL9-RIPE
+remarks:        -------------------
+remarks:        GBLX
+remarks:        -------------------
+import:         from AS3549 accept ANY
+export:         to AS3549 announce AS-FF-TRANSIT
+remarks:        -------------------
+remarks:        UA-IX
+remarks:        -------------------
+import:         from AS15645 accept AS-UAIX
+export:         to AS15645 announce AS-NEWLINE
+mp-import:      afi ipv6.unicast from AS15645 accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-DATAGROUP-v6
+remarks:        -------------------
+remarks:        GIGANET-IX
+remarks:        -------------------
+import:         from AS59613 accept AS-UBNIX
+export:         to AS59613 announce AS-NEWLINE
+remarks:        -------------------
+remarks:        DTEL-IX
+remarks:        -------------------
+import:         from AS31210 accept   AS-DTEL-IX
+export:         to   AS31210 announce AS-NEWLINE
+mp-import:      afi ipv6.unicast from AS31210 accept   AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to   AS31210 announce AS-NEWLINE
+remarks:        -------------------
+remarks:        DE-CIX
+remarks:        -------------------
+import:         from AS6695 80.81.192.157 accept AS-DECIX
+import:         from AS6695 80.81.193.157 accept AS-DECIX
+export:         to AS6695 80.81.192.157 announce AS-FF-TRANSIT
+export:         to AS6695 80.81.193.157 announce AS-FF-TRANSIT
+remarks:        -------------------
+remarks:        AMS-IX
+remarks:        -------------------
+import:         from AS6777 accept ANY
+export:         to AS6777 announce AS-FF-TRANSIT
+remarks:        -------------------
+remarks:        MSK-IX
+remarks:        -------------------
+import:         from AS8631 193.232.244.100 accept AS-MSKROUTESERVER
+import:         from AS8631 193.232.246.100 accept AS-MSKROUTESERVER
+export:         to AS8631 193.232.244.100 announce AS-FF-TRANSIT
+export:         to AS8631 193.232.246.100 announce AS-FF-TRANSIT
+remarks:
+remarks:        ------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT FOR AS21219 BGP CUSTOMERS:
+remarks:        ------------------------------------------------
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Community advertised to customers:
+remarks:        ------------------------------------------------
+remarks:        1. Prefix type communities
+remarks:        ------------------------------------------------
+remarks:        21219:65099 - Peer route
+remarks:        21219:65100 - AS21219 route
+remarks:        21219:65101 - Customer route
+remarks:        ------------------------------------------------
+remarks:        2. Country communities
+remarks:        ------------------------------------------------
+remarks:        21219:65111 Ukraine
+remarks:        21219:65400 Germany
+remarks:        21219:65401 Netherlands
+remarks:        21219:65402 Russia
+remarks:        21219:65403 Kazakhstan
+remarks:        ------------------------------------------------
+remarks:        3. Peers communities
+remarks:        ------------------------------------------------
+remarks:        21219:65XXX, where XXX peer codes:
+remarks:
+remarks:        --- Ukrainian peers ---
+remarks:        112 - Ukrtelecom (AS6849)
+remarks:        113 - GigaNet-IX (AS59613)
+remarks:        116 - UA-IX (AS15645)
+remarks:        117 - Volia (AS25229)
+remarks:        118 - Gigatrans (AS44600)
+remarks:        120 - Yandex (AS13238)
+remarks:        121 - DTEL-IX (AS31210)
+remarks:        122 - Colocall (AS15497)
+remarks:        123 - Topnet (AS21011)
+remarks:        124 - IT-Park aka EX.ua (AS21257)
+remarks:        126 - Vodafone (AS8359)
+remarks:        127 - Kievstar (AS15895)
+remarks:
+remarks:        --- European peers ---
+remarks:        201 - TeliaSonera (AS1299)
+remarks:        202 - RETN (AS9002)
+remarks:        203 - Global Crossing (AS3549)
+remarks:        206 - NL-IX (AS34307)
+remarks:        207 - DE-CIX (AS6695)
+remarks:        208 - AMS-IX (AS6777)
+remarks:
+remarks:        --- Russian peers ---
+remarks:        302 - W-IX (AS50384)
+remarks:        301 - Vkontakte (AS47541)
+remarks:        303 - MegaFon (AS31133)
+remarks:        304 - MSK-IX (AS8631)
+remarks:        305 - MnogoByte (AS42632)
+remarks:        306 - Rascom (AS20764)
+remarks:        308 - ER-Telecom (AS9049)
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Communities accepted from customers:
+remarks:        ------------------------------------------------
+remarks:        Customer TE communities - Prepending
+remarks:        ------------------------------------------------
+remarks:        64700:ASN - do not announce to AS ASN
+remarks:        64701:ASN - prepend 1x to AS ASN
+remarks:        64702:ASN - prepend 2x to AS ASN
+remarks:        64704:ASN - prepend 4x to AS ASN
+remarks:        64706:ASN - prepend 6x to AS ASN
+remarks:        64709:ASN - announce to AS ASN
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Customer TE communities - Regional
+remarks:        ------------------------------------------------
+remarks:        64710:Y - all peers
+remarks:        64711:Y - all international peers
+remarks:        64712:Y - all Ukrainian peers
+remarks:        64713:Y - all European peers
+remarks:        64714:Y - all Russian peers
+remarks:
+remarks:        Y = 1,2,4,6 - number of prepends
+remarks:        Y = 0 - announce to customers but not to peers
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Customer TE communities - LocalPref
+remarks:        ------------------------------------------------
+remarks:        21219:65535 - set local preference to 50
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Customer TE communities - Blackhole
+remarks:        ------------------------------------------------
+remarks:        21219:7777 - blackhole (discard) traffic
+remarks:        http://noc.datagroup.com.ua/our_bh_rus.txt
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Customer TE communities notes
+remarks:        ------------------------------------------------
+remarks:        1. Absence of community attribute considered
+remarks:        to be announced everywhere without prepending
+remarks:
+remarks:        2. We transparently pass communities to uplinks
+remarks:
+remarks:        3. Peer communities (6470X:ASN) have more priority
+remarks:        then Regional (6471X:Y)
+remarks:
+remarks:        PeeringDB record: http://as21219.peeringdb.com/
+remarks:
+remarks:        -------------------------------------------------
+remarks:        in case of abuse please contact: abuse@ip.datagroup.ua
+remarks:        for operational issues please contact: noc@ip.datagroup.ua
+remarks:        please direct peering requests to: peering@ip.datagroup.ua
+remarks:        -------------------------------------------------
+admin-c:        DCOM-RIPE
+tech-c:         DCOM-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DATACOM-NOC
+created:        2002-08-09T08:43:46Z
+last-modified:  2018-09-04T09:52:17Z
+source:         RIPE
+
+organisation:   ORG-DL9-RIPE
+org-name:       PRIVATE JOINT STOCK COMPANY "DATAGROUP"
+org-type:       LIR
+address:        Smolenska str. 31-33.
+address:        03005
+address:        Kyiv
+address:        UKRAINE
+phone:          +380 44 5380008
+fax-no:         +380 44 5380007
+admin-c:        VIT1-RIPE
+admin-c:        AEV-RIPE
+admin-c:        SQV-RIPE
+admin-c:        AM2233-RIPE
+admin-c:        CRF-RIPE
+abuse-c:        DCOM-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        DATACOM-NOC
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         DATACOM-NOC
+created:        2004-04-17T12:08:50Z
+last-modified:  2017-10-30T14:44:56Z
+source:         RIPE # Filtered
+
+role:           DATACOM NOC
+address:        PJSC DATAGROUP
+address:        Smolenskaya str., 31-33
+address:        03005 Kiyv
+address:        Ukraine
+remarks:        http://www.datagroup.ua
+abuse-mailbox:  abuse@ip.datagroup.ua
+remarks:        in case of abuse please contact:        abuse@ip.datagroup.ua
+remarks:        for operational issues please contact:  noc@datagroup.ua
+admin-c:        CRF-RIPE
+tech-c:         CRF-RIPE
+nic-hdl:        DCOM-RIPE
+mnt-by:         DATACOM-NOC
+created:        2002-07-02T08:26:20Z
+last-modified:  2018-05-10T08:28:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

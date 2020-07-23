@@ -1,0 +1,112 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS34527'
+
+% Abuse contact for 'AS34527' is 'artem@netfort.ru'
+
+aut-num:        AS34527
+as-name:        NETFORT-AS
+descr:          Netfort, Moscow, Russia
+remarks:        ===============================================================
+remarks:        Uplinks:
+remarks:        ===============================================================
+import:         from AS50952 action pref=300; accept AS-DATAIX
+export:         to AS50952 announce AS-NETFORT
+import:         from AS39792 action pref=200; accept ANY
+export:         to AS39792 announce AS-NETFORT
+import:         from AS8732 action pref=100; accept ANY
+export:         to AS8732 announce AS-NETFORT
+import:         { from AS47522 action pref=100; accept ANY AND NOT AS39792; from AS47522 action pref=400; accept AS39792; }
+export:         to AS47522 announce AS-NETFORT
+remarks:        ***************************************************************
+remarks:        Client inbound prefixes longer than /24 not accepted
+remarks:        ***************************************************************
+remarks:        Default Local Preference for customers and own net 400
+remarks:        ===============================================================
+remarks:        Traffic managment communities
+remarks:        ===============================================================
+remarks:        34527:350  - set localpref to 350
+remarks:        34527:666  - blackhole community (/32 prefixes only)
+remarks:        34527:100x - All uplinks
+remarks:        34527:101x - Netfort
+remarks:        34527:102x - DATA-IX
+remarks:        34527:103x - Anders
+remarks:        34527:104x - Comcor
+remarks:        34527:200x - All clients
+remarks:        where x=0  - do not announce
+remarks:        where x=9  - forced announcement to the specific upstream
+remarks:        where x=1,2,4 or 6 - add "34527" prepend 1,2,4 or 6 times
+remarks:        ===============================================================
+remarks:        Communities for route origin information
+remarks:        ===============================================================
+remarks:        34527:101 - Netfort
+remarks:        34527:102 - DATA-IX
+remarks:        34527:103 - Anders
+remarks:        34527:104 - Comcor
+remarks:        34527:200 - Clients
+remarks:        34527:300 - Own networks
+remarks:
+org:            ORG-LN7-RIPE
+admin-c:        AC33335-RIPE
+tech-c:         AC33335-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NETFORT-MNT
+created:        2005-02-08T08:46:25Z
+last-modified:  2018-09-04T10:07:12Z
+source:         RIPE
+
+organisation:   ORG-LN7-RIPE
+org-name:       LLC NETFORT
+org-type:       LIR
+address:        1/2A Nagatinskaya str.
+address:        117105
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74957874250
+fax-no:         +74957874250
+abuse-c:        AR16819-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        NETFORT-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NETFORT-MNT
+created:        2008-03-27T14:59:29Z
+last-modified:  2016-05-18T14:34:01Z
+source:         RIPE # Filtered
+
+person:         Artem Chikalenko
+address:        Moscow, Nagatinskaya st. 1
+phone:          +74957874250 ext.121
+nic-hdl:        AC33335-RIPE
+mnt-by:         achikalenko
+created:        2016-09-05T12:52:00Z
+last-modified:  2016-09-05T15:08:03Z
+source:         RIPE
+remarks:        noc@netfort.ru
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

@@ -1,0 +1,287 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS25441
+as-name:       IBIS-AS
+descr:         Imagine Group Ltd.
+descr:         Dublin, Ireland.
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS702 action pref=140;
+               accept AS702 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS1213 193.242.111.19 action pref=140;
+               accept AS-HEANET AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS1213 194.88.240.7 action pref=140;
+               accept AS-HEANET AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS2110 193.242.111.19 action pref=140;
+               accept AS-IEUNET AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS2110 194.88.240.7 action pref=140;
+               accept AS-IEUNET AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS2128 193.242.111.19 action pref=140;
+               accept AS-INEXIE AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS2128 194.88.240.7 action pref=140;
+               accept AS-INEXIE AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS5089 193.242.111.19 action pref=140;
+               accept AS-NTL AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS5466 193.242.111.19 action pref=140;
+               accept AS-EIRCOM AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS5466 194.88.240.7 action pref=140;
+               accept AS-EIRCOM AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS6830 193.242.111.19 action pref=140;
+               accept AS-AORTA AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS8068 193.242.111.19 action pref=140;
+               accept AS-MICROSOFTEU AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS8220 193.242.111.19 action pref=140;
+               accept AS-COLT AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS12293 193.242.111.19 action pref=140;
+               accept AS-IIL AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS12293 194.88.240.7 action pref=140;
+               accept AS-IIL AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS15612 193.242.111.19 action pref=140;
+               accept AS-SERVECENTRIC AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS16171 193.242.111.19 action pref=140;
+               accept AS-STRENCOM AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS26415 193.242.111.19 action pref=140;
+               accept AS26415 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS29650 193.242.111.19 action pref=140;
+               accept AS-HOSTING365 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS29650 194.88.240.7 action pref=140;
+               accept AS-HOSTING365 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS31122 193.242.111.19 action pref=140;
+               accept AS-DIGIWEB AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS31458 193.242.111.19 action pref=140;
+               accept AS-SMART AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS31641 193.242.111.19 action pref=140;
+               accept AS31641 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS34245 193.242.111.19 action pref=140;
+               accept AS-MAGNETLOCAL AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS34317 193.242.111.19 action pref=140;
+               accept AS-CLEARWIRE AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS34505 193.242.111.19 action pref=140;
+               accept AS-VISTATEC AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS34505 194.88.240.7 action pref=140;
+               accept AS-VISTATEC AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS34912 193.242.111.19 action pref=140;
+               accept AS-INTERFUSION AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS35272 193.242.111.19 action pref=140;
+               accept AS-IMAGINE AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS35272 194.88.240.7 action pref=140;
+               accept AS-IMAGINE AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS39093 193.242.111.19 action pref=140;
+               accept AS39093 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS39111 193.242.111.19 action pref=140;
+               accept AS-ADSI AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS39122 193.242.111.19 action pref=140;
+               accept AS-BLACKNIGHT AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS39122 194.88.240.7 action pref=140;
+               accept AS-BLACKNIGHT AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS39233 193.242.111.19 action pref=140;
+               accept AS-BFACE AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS39449 193.242.111.19 action pref=140;
+               accept AS-FASTCOM AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS41073 193.242.111.19 action pref=140;
+               accept AS41073 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS41073 194.88.240.7 action pref=140;
+               accept AS41073 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS41678 193.242.111.19 action pref=140;
+               accept AS41678 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS42310 193.242.111.19 action pref=140;
+               accept AS42310 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS42227 193.242.111.19 action pref=140;
+               accept AS-AIRWIRE AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS44212 193.242.111.19 action pref=140;
+               accept AS44212 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS286 action pref=200;
+               accept AS-KPN ANY
+import:        from AS3257 action pref=200;
+               accept AS-TISCALI-BACKBONE ANY
+import:        from AS3356 action pref=200;
+               accept AS-Level3
+import:        from AS3549 action pref=200;
+               accept AS-GBLX ANY
+import:        from AS6461 action pref=200;
+               accept AS-MFNX ANY
+import:        from AS6453 action pref=200;
+               accept AS-GLOBEINTERNET ANY
+import:        from AS2818 action pref=140;
+               accept AS-BBC AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS8068 action pref=120;
+               accept AS-MICROSOFTEU AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS8075 action pref=140;
+               accept AS-MSN AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS10310 action pref=140;
+               accept AS10310 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS12513 action pref=140;
+               accept AS-ECLIPSE AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS34763 action pref=140;
+               accept AS-VIRGINRADIO AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS31625 action pref=140;
+               accept AS-EXALIA AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS8586 action pref=140;
+               accept AS-REDNET AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS15169 action pref=140;
+               accept AS15169 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS21493 action pref=140;
+               accept AS-PacketExchange AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS22822 action pref=140;
+               accept AS-LLNW AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS39064 action pref=120;
+               accept AS39064 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS43359 action pref=120;
+               accept AS43359 AND NOT AS25441:FLTR-FILTERLIST
+import:        from AS43610 action pref=120;
+               accept AS43610 AND NOT AS25441:FLTR-FILTERLIST
+export:        to AS702 announce AS-IBIS
+export:        to AS1213 193.242.111.19 announce AS-IBIS
+export:        to AS1213 194.88.240.7 announce AS-IBIS
+export:        to AS2110 193.242.111.19 announce AS-IBIS
+export:        to AS2110 194.88.240.7 announce AS-IBIS
+export:        to AS2128 193.242.111.19 announce AS-IBIS
+export:        to AS2128 194.88.240.7 announce AS-IBIS
+export:        to AS5089 193.242.111.19 announce AS-IBIS
+export:        to AS5466 193.242.111.19 announce AS-IBIS
+export:        to AS5466 194.88.240.7 announce AS-IBIS
+export:        to AS6830 193.242.111.19 announce AS-IBIS
+export:        to AS8068 193.242.111.19 announce AS-IBIS
+export:        to AS8220 193.242.111.19 announce AS-IBIS
+export:        to AS12293 193.242.111.19 announce AS-IBIS
+export:        to AS12293 194.88.240.7 announce AS-IBIS
+export:        to AS15612 193.242.111.19 announce AS-IBIS
+export:        to AS16171 193.242.111.19 announce AS-IBIS
+export:        to AS26415 193.242.111.19 announce AS-IBIS
+export:        to AS29650 193.242.111.19 announce AS-IBIS
+export:        to AS29650 194.88.240.7 announce AS-IBIS
+export:        to AS31122 193.242.111.19 announce AS-IBIS
+export:        to AS31458 193.242.111.19 announce AS-IBIS
+export:        to AS31641 193.242.111.19 announce AS-IBIS
+export:        to AS34245 193.242.111.19 announce AS-IBIS
+export:        to AS34317 193.242.111.19 announce AS-IBIS
+export:        to AS34505 193.242.111.19 announce AS-IBIS
+export:        to AS34505 194.88.240.7 announce AS-IBIS
+export:        to AS34912 193.242.111.19 announce AS-IBIS
+export:        to AS35272 193.242.111.19 announce AS-IBIS
+export:        to AS35272 194.88.240.7 announce AS-IBIS
+export:        to AS39093 193.242.111.19 announce AS-IBIS
+export:        to AS39111 193.242.111.19 announce AS-IBIS
+export:        to AS39122 193.242.111.19 announce AS-IBIS
+export:        to AS39122 194.88.240.7 announce AS-IBIS
+export:        to AS39233 193.242.111.19 announce AS-IBIS
+export:        to AS39449 193.242.111.19 announce AS-IBIS
+export:        to AS41073 193.242.111.19 announce AS-IBIS
+export:        to AS41073 194.88.240.7 announce AS-IBIS
+export:        to AS41678 193.242.111.19 announce AS-IBIS
+export:        to AS42310 193.242.111.19 announce AS-IBIS
+export:        to AS42227 193.242.111.19 announce AS-IBIS
+export:        to AS44212 193.242.111.19 announce AS-IBIS
+export:        to AS286 announce AS-IBIS
+export:        to AS3257 announce AS-IBIS
+export:        to AS3356 announce AS-IBIS
+export:        to AS3549 announce AS-IBIS
+export:        to AS6461 announce AS-IBIS
+export:        to AS6453 announce AS-IBIS
+export:        to AS2128 announce AS-IBIS
+export:        to AS8068 announce AS-IBIS
+export:        to AS8075 announce AS-IBIS
+export:        to AS10310 announce AS-IBIS
+export:        to AS12513 announce AS-IBIS
+export:        to AS34763 announce AS-IBIS
+export:        to AS31625 announce AS-IBIS
+export:        to AS8586 announce AS-IBIS
+export:        to AS15169 announce AS-IBIS
+export:        to AS21493 announce AS-IBIS
+export:        to AS22822 announce AS-IBIS
+export:        to AS39064 announce ANY
+export:        to AS43359 announce ANY
+export:        to AS43610 announce ANY
+remarks:       +------------------------+-----------------------+---------+
+remarks:       | Irish Broadband Ltd    | www.irishbroadband.ie |  AS25441|
+remarks:       +------------------------+-----------------------+---------+
+remarks:       | Irish Broadband AS25441 operates a OPEN peering policy   |
+remarks:       +----------------------------------------------------------+
+remarks:       |   Peering requests:          peering@irishbroadband.ie   |
+remarks:       |   Transit requests:          sales@irishbroadband.ie     |
+remarks:       |   Abuse complaints:          abuse@irishbroadband.ie     |
+remarks:       |   Operational issues:        netops@irishbroadband.ie    |
+remarks:       +----------------------------------------------------------+
+remarks:       |        We are INEX members - www.inex.ie                 |
+remarks:       |    We peer on PE-ProXimity - www.packetexchange.net      |
+remarks:       |    We peer on PE-eXpress   - www.packetexchange.net      |
+remarks:       +----------------------------------------------------------+
+remarks:       |Private Peering, IP Transit, Long Range Ethernet services |
+remarks:       |   are available at the following locations in Europe:    |
+remarks:       |                                                          |
+remarks:       |    Dublin InterXion : Interxion datacenter, Dublin    |
+remarks:       |    Dublin DEG       : Data Electronics Datacenter, Dublin|
+remarks:       +----------------------------------------------------------+
+remarks:       +=============================+---------------+
+remarks:       |  INEX Peers                 |  pref=140     |
+remarks:       +=============================+---------------+
+remarks:       +=============================+---------------+
+remarks:       |  Transits                   |  pref=200     |
+remarks:       +=============================+---------------+
+remarks:       +=============================+---------------+
+remarks:       |  PE-Proximity               |  pref=140     |
+remarks:       +=============================+---------------+
+remarks:       +=============================+---------------+
+remarks:       |  PE-eXpress                 |  pref=140     |
+remarks:       +=============================+---------------+
+remarks:       +=============================+---------------+
+remarks:       |  Customers                 |  pref=120      |
+remarks:       +=============================+---------------+
+remarks:       
+remarks:       IPv6
+remarks:       ====
+remarks:       
+remarks:       +=============================+---------------+
+remarks:       |  Transits                   |  pref=200     |
+remarks:       +=============================+---------------+
+remarks:       
+remarks:       ===============TISCALI AS3257==================
+remarks:       
+remarks:       +=============================+---------------+
+remarks:       |  INEX Peers                 |  pref=140     |
+remarks:       +=============================+---------------+
+remarks:       
+remarks:       === AS-HEANET ===
+remarks:       === INEX ===
+remarks:       === AS-IEUNET (BT Ireland) ===
+remarks:       === AS-EIRCOM ===
+remarks:       === AS-SMART ===
+remarks:       === AS-IMAGINE ===
+remarks:       === AS-BLACKNIGHT ===
+remarks:       
+remarks:       +=============================+---------------+
+remarks:       |  eBGP Multihop Peers        |  pref=140     |
+remarks:       +=============================+---------------+
+remarks:       
+remarks:       === SixXS Ghost Route Hunter ===
+remarks:       
+remarks:       +----------------------------------------------------------+
+remarks:       | Communities applied at ingress                           |
+remarks:       +----------------------------------------------------------+
+remarks:       25441:450  - Customer route
+remarks:       25441:430  - INEX received IPv4 route
+remarks:       25441:530  - INEX received IPv6 route
+remarks:       
+remarks:       +----------------------------------------------------------+
+remarks:       | Customer Traffic Engineering Communities - Blackhole     |
+remarks:       +----------------------------------------------------------+
+remarks:       25441:0000 - blackhole (discard) traffic
+remarks:       
+remarks:       Traffic destined for any prefixes tagged with this community
+remarks:       will be discarded at ingress to the IBIS network.
+remarks:       peering@irishbroadband.ie may need to be contacted in some
+remarks:       cases.
+remarks:       +----------------------------------------------------------+
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        IBIS-MNT
+source:        RIPE
+
+

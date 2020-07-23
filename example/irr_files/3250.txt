@@ -1,0 +1,90 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS3250
+as-name:       NETSKIN
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS174 accept ANY
+import:        from AS6939 accept ANY
+import:        from AS13030 accept ANY
+import:        from AS48971 accept ANY
+import:        from AS9044 accept ANY
+import:        from AS174 accept ANY
+import:        from AS13030 accept ANY
+import:        from AS48971 accept ANY
+export:        to AS174 announce AS-NETSKIN
+export:        to AS6939 announce AS-NETSKIN
+export:        to AS13030 announce AS-NETSKIN
+export:        to AS48971 announce AS-NETSKIN
+export:        to AS9044 announce AS3250
+export:        to AS174 announce AS3250
+export:        to AS13030 announce AS3250
+export:        to AS48971 announce AS3250
+remarks:       
+remarks:       ===================================================================
+remarks:       We have an open peering policy and would like to peer with you.
+remarks:       We're present at the following IX:
+remarks:       
+remarks:       DataCenter / IX Location
+remarks:       --------------------- ------------------------------------------
+remarks:       SwissIX Switzerland
+remarks:       IWB Telecom Switzerland
+remarks:       
+remarks:       If the wanted Datacenter or IX is not on the list atop, feel
+remarks:       free to contact us.
+remarks:       
+remarks:       Please mail peering@netskin.com
+remarks:       ===================================================================
+remarks:       
+remarks:       Transit Providers:
+remarks:       -------------------------------------------------------------------
+remarks:       Cogent Communications
+remarks:       
+remarks:       Hurricane Electric
+remarks:       
+remarks:       Init7
+remarks:       
+remarks:       Datawire
+remarks:       
+remarks:       -------------------------------------------------------------------
+remarks:       We filter announcements listed in RFC3330.
+remarks:       We filter incoming announcements of routes originating in AS3250.
+remarks:       We do not accept any route more specific than /24.
+remarks:       We preserve to filter incoming communities, metrics and alike.
+remarks:       -------------------------------------------------------------------
+remarks:       
+remarks:       Community Definition (not settable by BGP customers)
+remarks:       --------- ------------------------------------------------------
+remarks:       3250:1101 Routes from Cogent Communications (AS174)
+remarks:       3250:1102 Routes from Init7 (AS13030)
+remarks:       3250:1103 Routes from Hurricane Electric (AS6939)
+remarks:       3250:1104 Routes from Datawire (AS48971)
+remarks:       3250:1200 Routes from SwissIX Peers
+remarks:       
+remarks:       Community Definition (settable by BGP customers)
+remarks:       --------- ------------------------------------------------------
+remarks:       3250:50 Set local-pref to 50
+remarks:       3250:150 Set local-pref to 150
+remarks:       3250:500 Do not announce to any peer
+remarks:       3250:501 Do not announce to any transit peer
+remarks:       3250:666 Blackhole prefix
+remarks:       3250:x0101 Prepend routes at Cogent
+remarks:       3250:x0102 Prepend routes at Init7
+remarks:       3250:x0103 Prepend routes at HE
+remarks:       3250:x0104 Prepend routes at Datawire
+remarks:       
+remarks:       Where x is the number of prepends (1,2,3) or do NOT announce (5).
+remarks:       
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        NETSKIN-MNT
+source:        RIPE
+
+

@@ -1,0 +1,200 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS47104 - AS52223'
+
+as-block:       AS47104 - AS52223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS47542'
+
+% Abuse contact for 'AS47542' is 'abuse@vk.com'
+
+aut-num:        AS47542
+as-name:        VKONTAKTE-MSK-CDN-AS
+descr:          Moscow CDN http://vk.com
+remarks:        **********************************************************************
+remarks:        Abuse, Security issues noc@vk.com
+remarks:        Network, routing issues, peering requests ncc@corp.vk.com
+remarks:        VK.com users support https://vk.com/support
+remarks:        Requests sent to wrong address will be ignored
+remarks:        **********************************************************************
+remarks:        ---------------- IX ----------------------------
+remarks:        -- DataIX
+import:         from AS50952 action pref=150; accept AS-DATAIX
+export:         to AS50952 announce AS-VKONTAKTE
+remarks:        -- MSK-IX
+import:         from AS8631 action pref=150; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-VKONTAKTE
+remarks:        -- GlobalnetIX
+import:         from AS31500 action pref=150; accept AS-GLOBAL-NET
+export:         to AS31500 announce AS-VKONTAKTE
+remarks:        -- W-IX
+import:         from AS50384 action pref=150; accept AS-W-IX AS-W-IX-IPVSIX
+export:         to AS50384 announce AS-VKONTAKTE
+remarks:        -- Cloud-IX
+import:         from AS29076 action pref=150; accept AS-CITYTELECOM AND NOT AS-CLOUD-IX-M
+export:         to AS29076 announce AS-VKONTAKTE
+remarks:        -- Megafon-IX
+import:         from AS31133 action pref=150; accept AS-MF-IX
+export:         to AS31133 announce AS-VKONTAKTE
+remarks:        -------------- Direct peers ---------------------
+remarks:        -- Beeline
+import:         from AS3216 action pref=150; accept AS-SOVAM
+export:         to AS3216 announce AS-VKONTAKTE
+remarks:        -- Comcor
+import:         from AS8732 action pref=150; accept AS-COMCOR
+export:         to AS8732 announce AS-VKONTAKTE
+remarks:        -- MTS
+import:         from AS8359 action pref=150; accept ANY
+export:         to AS8359 announce AS-VKONTAKTE
+remarks:        -- Corbina
+import:         from AS8402 action pref=150; accept AS-CORBINA
+export:         to AS8402 announce AS-VKONTAKTE
+remarks:        -- Er-Telecom
+import:         from AS9049 action pref=150; accept AS-ERTH
+export:         to AS9049 announce AS-VKONTAKTE
+remarks:        -- EuroTransTelecom
+import:         from AS35320 action pref=150; accept AS-ETT
+export:         to AS35320 announce AS-VKONTAKTE
+remarks:        -- Fiord
+import:         from AS28917 action pref=150; accept AS-FIORD
+export:         to AS28917 announce AS-VKONTAKTE
+remarks:        -- Megafon
+import:         from AS31133 action pref=150; accept AS-MF-MGSM
+export:         to AS31133 announce AS-VKONTAKTE
+remarks:        -- NetByNet
+import:         from AS12714 action pref=150; accept AS-TI^+
+export:         to AS12714 announce AS-VKONTAKTE
+remarks:        -- RETN
+import:         from AS9002 action pref=150; accept AS-RETN AS-RETN6
+export:         to AS9002 announce AS-VKONTAKTE
+remarks:        -- Rostelecom
+import:         from AS12389 action pref=150; accept AS-ROSTELECOM
+export:         to AS12389 announce AS-VKONTAKTE
+remarks:        -- TransTeleKom
+import:         from AS20485 action pref=150; accept AS-TTK
+export:         to AS20485 announce AS-VKONTAKTE
+remarks:        -- Rostelecom (ex: NCNET)
+import:         from AS42610 action pref=150; accept AS-NCNET
+export:         to AS42610 announce AS-VKONTAKTE
+remarks:        -- MailRu
+import:         from AS47764 action pref=400; accept AS-MAILRU
+export:         to AS47764 announce AS-VKONTAKTE
+remarks:        -- Setel
+import:         from AS39153 action pref=150; accept AS-SETEL
+export:         to AS39153 announce AS-VKONTAKTE
+remarks:        -- Cifra1
+import:         from AS8905 action pref=150; accept AS-DIGIT1
+export:         to AS8905 announce AS-VKONTAKTE
+remarks:        -- Kvant
+import:         from AS43727 action pref=150; accept AS43727
+export:         to AS43727 announce AS-VKONTAKTE
+remarks:        -- Miranda
+import:         from AS201776 action pref=150; accept AS-MRNDA
+export:         to AS201776 announce AS-VKONTAKTE
+remarks:        -- Piter-IX
+import:         from AS50817 action pref=150; accept AS-ST
+export:         to AS50817 announce AS-VKONTAKTE
+remarks:        -- UfaNet
+import:         from AS47775 action pref=150; accept AS-UBN
+export:         to AS47775 announce AS-VKONTAKTE
+remarks:        ***********************************************
+remarks:        ----- Our BGP communities for managing traffic
+remarks:        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+remarks:        FOR FULL LIST SUPPORTED BGP COMMUNITY
+remarks:        PLEASE USE whois as47541
+remarks:        or read
+remarks:        AS47541 OBJECT IN RIPE DATABASE
+remarks:        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+remarks:        -- CDN vk
+remarks:        47541:20<CDN_NUM> - deny import
+remarks:        47541:21<CDN_NUM> - prepend last AS to AS-PATH 1 time
+remarks:        47541:22<CDN_NUM> - prepend last AS to AS-PATH 2 times
+remarks:        47541:23<CDN_NUM> - prepend last AS to AS-PATH 3 times
+remarks:        where <CDN_NUM> is
+remarks:        01 - Russia, Moscow
+remarks:        03 - Russia, Ekaterinburg
+remarks:        04 - Russia, Novosibirsk
+remarks:        05 - Russia, Khabarovsk
+remarks:        06 - Germany, Frankfurt
+remarks:        07 - Russia, Samara
+remarks:        08 - Kazahstan, Akkol
+remarks:
+remarks:        Other CDN bgp communities
+remarks:        <AS_NUM>:20 - deny import
+remarks:        <AS_NUM>:21 - prepend last AS to AS-PATH 1 time
+remarks:        <AS_NUM>:22 - prepend last AS to AS-PATH 2 times
+remarks:        <AS_NUM>:23 - prepend last AS to AS-PATH 3 times
+remarks:        where <AS_NUM> is
+remarks:        47541 - Germany, Frankfurt and main VK in St.Petersburg(not cdn)
+remarks:        47542 - Russia, Moscow
+remarks:        28709 - Other CDNs
+remarks:
+org:            ORG-VL47-RIPE
+admin-c:        NCC31-RIPE
+tech-c:         NCC31-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         VKONTAKTE-NET-MNT
+created:        2008-07-03T14:47:28Z
+last-modified:  2018-10-24T11:40:01Z
+source:         RIPE # Filtered
+
+organisation:   ORG-VL47-RIPE
+org-name:       VKontakte Ltd
+org-type:       LIR
+address:        Prem.1-N, Bld. 12-14, Lit. A, Khersonskaya str.
+address:        191024
+address:        Saint-Petersburg
+address:        RUSSIAN FEDERATION
+phone:          +78126407240
+fax-no:         +78126407240
+abuse-c:        AR17035-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        VKONTAKTE
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         VKONTAKTE
+created:        2008-01-28T14:15:26Z
+last-modified:  2017-10-10T12:03:03Z
+source:         RIPE # Filtered
+
+role:           Vkontakte Network Control Center (NCC)
+address:        Prem.1-N, Bld. 12-14, Lit. A, Khersonskaya str.
+address:        191024
+address:        Saint-Petersburg
+address:        RUSSIAN FEDERATION
+remarks:        **********************************************************************
+remarks:        Abuse, Security issues noc@vk.com
+remarks:        Network, routing issues, peering requests ncc@corp.vk.com
+remarks:        VK.com users support https://vk.com/support
+remarks:        Requests sent to wrong address will be ignored
+remarks:        **********************************************************************
+admin-c:        smk23
+tech-c:         smk23
+nic-hdl:        NCC31-RIPE
+mnt-by:         VKONTAKTE-NET-MNT
+created:        2016-09-03T22:17:42Z
+last-modified:  2018-08-21T14:07:15Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

@@ -1,0 +1,400 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS9032
+as-name:       EDUNET-AS
+descr:         Moscow, Russia
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS34726
+               action pref=70;
+               accept ANY
+import:        from AS29076
+               action pref=70;
+               accept ANY
+import:        from AS39792
+               action pref=70;
+               accept ANY
+import:        from AS39153
+               action pref=70;
+               accept ANY
+import:        from AS8331
+               action pref=80;
+               accept ANY
+import:        from AS8631
+               action pref=80;
+               accept ANY
+import:        from AS21418
+               action pref=100;
+               accept AS21418
+import:        from AS12314
+               action pref=100;
+               accept AS-ROPNET
+import:        from AS12622
+               action pref=100;
+               accept AS-COMINTERN
+import:        from AS12790
+               action pref=100;
+               accept AS12790
+import:        from AS12958
+               action pref=100;
+               accept AS-MCC
+import:        from AS12979
+               action pref=100;
+               accept AS-TSINET
+import:        from AS13238
+               action pref=100;
+               accept AS-COMPTEK
+import:        from AS15658
+               action pref=100;
+               accept AS-INETCOMM
+import:        from AS15756
+               action pref=100;
+               accept AS-CARAVAN
+import:        from AS15777
+               action pref=100;
+               accept AS-LINIA
+import:        from AS15934
+               action pref=100;
+               accept AS15934
+import:        from AS200790
+               action pref=100;
+               accept AS200790
+import:        from AS20483
+               action pref=100;
+               accept AS-RACETEL
+import:        from AS24638
+               action pref=100;
+               accept AS-RAMTEL
+import:        from AS25478
+               action pref=100;
+               accept AS25478
+import:        from AS2118
+               action pref=100;
+               accept AS-RELCOM
+import:        from AS2578
+               action pref=100;
+               accept AS-DEMOS AS-RUDEMOS
+import:        from AS2683
+               action pref=100;
+               accept AS-RADIOMSU
+import:        from AS2895
+               action pref=100;
+               accept AS-FREENET
+import:        from AS3216
+               action pref=100;
+               accept AS-SOVAM
+import:        from AS3267
+               action pref=100;
+               accept AS-RUNNETIX
+import:        from AS5523
+               action pref=100;
+               accept AS-RMT
+import:        from AS5537
+               action pref=100;
+               accept AS-GARANTPARK
+import:        from AS5558
+               action pref=100;
+               accept AS-IIPNET
+import:        from AS58288
+               action pref=100;
+               accept AS58288
+import:        from AS6690
+               action pref=100;
+               accept AS-WEBPLUS
+import:        from AS6703
+               action pref=100;
+               accept AS-ALKAR
+import:        from AS6850
+               action pref=100;
+               accept AS-METROCOM
+import:        from AS6854
+               action pref=100;
+               accept AS-TCNET
+import:        from AS6880
+               action pref=100;
+               accept AS6880 AS5461
+import:        from AS6903
+               action pref=100;
+               accept AS-ZENON
+import:        from AS8241
+               action pref=100;
+               accept AS-RELLINE
+import:        from AS8299
+               action pref=100;
+               accept AS-INFOTEL
+import:        from AS8359
+               action pref=100;
+               accept AS-RURINET
+import:        from AS8331
+               action pref=100;
+               accept AS-RINET
+import:        from AS8395
+               action pref=100;
+               accept AS-EAST
+import:        from AS8470
+               action pref=100;
+               accept AS-MACOMNET
+import:        from AS8498
+               action pref=100;
+               accept AS-CITYLINERU
+import:        from AS8515
+               action pref=100;
+               accept AS-DATAFORCE
+import:        from AS8641
+               action pref=100;
+               accept AS-TELECORE
+import:        from AS8773
+               action pref=100;
+               accept AS-SOVINTEL
+import:        from AS8810
+               action pref=100;
+               accept AS-EXPRESS
+import:        from AS8825
+               action pref=100;
+               accept AS-NURSAT
+import:        from AS8901
+               action pref=100;
+               accept AS8901
+import:        from AS8905
+               action pref=100;
+               accept AS-SITEK
+import:        from AS9110
+               action pref=100;
+               accept AS-AGTEL
+import:        from AS2854
+               action pref=100;
+               accept AS-ROSPRINT
+import:        from AS21353
+               action pref=100;
+               accept AS-ARTCOMS
+import:        from AS25520
+               action pref=100;
+               accept AS-FUTURES
+export:        to AS12314
+               announce AS-EDUNET
+export:        to AS12622
+               announce AS-EDUNET
+export:        to AS12790
+               announce AS-EDUNET
+export:        to AS12958
+               announce AS-EDUNET
+export:        to AS12979
+               announce AS-EDUNET
+export:        to AS13238
+               announce AS-EDUNET
+export:        to AS15658
+               announce AS-EDUNET
+export:        to AS15756
+               announce AS-EDUNET
+export:        to AS15777
+               announce AS-EDUNET
+export:        to AS15934
+               announce AS-EDUNET
+export:        to AS200790
+               announce ANY
+export:        to AS20483
+               announce AS-EDUNET
+export:        to AS21353
+               announce AS-EDUNET
+export:        to AS25478
+               announce AS-EDUNET
+export:        to AS25520
+               announce AS-EDUNET
+export:        to AS24638
+               announce AS-EDUNET
+export:        to AS29076
+               announce AS-EDUNET
+export:        to AS34726
+               announce AS-EDUNET
+export:        to AS39792
+               announce AS-EDUNET
+export:        to AS2118
+               announce AS-EDUNET
+export:        to AS2578
+               announce AS-EDUNET
+export:        to AS2683
+               announce AS-EDUNET
+export:        to AS2854
+               announce AS-EDUNET
+export:        to AS2895
+               announce AS-EDUNET
+export:        to AS3216
+               announce AS-EDUNET
+export:        to AS3267
+               announce AS-EDUNET
+export:        to AS5523
+               announce AS-EDUNET
+export:        to AS5537
+               announce AS-EDUNET
+export:        to AS5558
+               announce AS-EDUNET
+export:        to AS58288
+               announce ANY
+export:        to AS6690
+               announce AS-EDUNET
+export:        to AS6703
+               announce AS-EDUNET
+export:        to AS6850
+               announce AS-EDUNET
+export:        to AS6854
+               announce AS-EDUNET
+export:        to AS6880
+               announce AS-EDUNET
+export:        to AS6903
+               announce AS-EDUNET
+export:        to AS8241
+               announce AS-EDUNET
+export:        to AS8299
+               announce AS-EDUNET
+export:        to AS8331
+               announce AS-EDUNET
+export:        to AS8359
+               announce AS-EDUNET
+export:        to AS8395
+               announce AS-EDUNET
+export:        to AS8470
+               announce AS-EDUNET
+export:        to AS8498
+               announce AS-EDUNET
+export:        to AS8515
+               announce AS-EDUNET
+export:        to AS8631
+               announce AS-EDUNET
+export:        to AS8641
+               announce AS-EDUNET
+export:        to AS8773
+               announce AS-EDUNET
+export:        to AS8810
+               announce AS-EDUNET
+export:        to AS8825
+               announce AS-EDUNET
+export:        to AS8901
+               announce AS-EDUNET
+export:        to AS8905
+               announce AS-EDUNET
+export:        to AS9002
+               announce AS-EDUNET
+export:        to AS9110
+               announce AS-EDUNET
+remarks:       -------------------------------------------------------
+remarks:       -------------------------------------------------------
+remarks:       -------------------------------------------------------
+remarks:       SOME NOTES for EDUNET (AS9032) ROUTING POLICY
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       We drop any prefixes longer than /24
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       We drop any routes announced via the following bogus ASes:
+remarks:       AS64512 - AS65536 (rfc-1930)
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       We drop any routes within the following bogus networks:
+remarks:       10.0.0.0 0.255.255.255     (rfc-1918)
+remarks:       127.0.0.0 0.255.255.255    (Loopback)
+remarks:       172.16.0.0 0.15.255.255    (rfc-1918)
+remarks:       192.168.0.0 0.0.255.255    (rfc-1918)
+remarks:       193.232.244.0 0.0.3.255    (MSK-IX)
+remarks:       224.0.0.0 31.255.255.255   (Class D)
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       We USUALLY do not pay any attention to
+remarks:       or modify any communities NOT within 9032:.* range.
+remarks:       So, we USUALLY try to be transparent.
+remarks:       
+remarks:       Nevertheless we delete the following RESERVED
+remarks:       ranges of communities: 0:.* 65535:.* (rfc-1997)
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       We use pre-defined BGP communities with our customers.
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       Communities to STOP ("DO NOT announce")
+remarks:       and PREPEND outbound routing announcements
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       Summary Table
+remarks:       -------+---------+---------+---------+---------+---------
+remarks:       Remote |DO NOT   |Prepend+1|         |Prepend+3|
+remarks:       peer or|announce |         |Prepend+2|         |Prepend+4
+remarks:       uplink |         |         |         |         |
+remarks:       AS     |(asnum+0)|(asnum+1)|(asnum+2)|(asnum+3)|(asnum+4)
+remarks:       -------+---------+---------+---------+---------+---------
+remarks:       AS3267 |9032:3267|9032:3268|9032:3269|9032:3270|9032:3271
+remarks:       AS8631 |9032:8631|9032:8632|9032:8633|9032:8634|9032:8635
+remarks:       MSK-IX*|9032:9999|9032:10K |9032:10K1|9032:10K2|and so on..
+remarks:       -------+---------+---------+---------+---------+---------
+remarks:       *** footnotes:
+remarks:       - MSK-IX* - other MSK-IX peers, but those mentioned above
+remarks:       
+remarks:       *** hint: "DO NOT announce to RUSSIA" is:
+remarks:       "9032:2118 9032:2578 9032:8631 9032:9999"
+remarks:       
+remarks:       Groups:
+remarks:       - 9032:1000 - DO NOT announce to uplinks (international)
+remarks:       - 9032:9032 - DO NOT announce to uplinks and RU peers
+remarks:       (i.e. announce to AS9032 customers only)
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       Communities to control LOCAL PREFERENCE by customer
+remarks:       -------------------------------------------------------
+remarks:       - 9032:90   - Local preference 90 (backup)
+remarks:       - 9032:120  - Local preference 120
+remarks:       Default = 100
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       WARNING! Some pre-defined BGP communities
+remarks:       may not be available to some customers
+remarks:       due to contract agreement limitations.
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       WARNING! If noticed wrong community
+remarks:       we apply default community set.
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       WARNING! Some our peers accept aggregates ONLY
+remarks:       from us and our customers.
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       Looking Glass: http://www.lg.edunet.ru/
+remarks:       (currently UNDER CONSTRUCTION)
+remarks:       -------------------------------------------------------
+remarks:       
+remarks:       -------------------------------------------------------
+remarks:       Points of contact for EDUNET Network Operations
+remarks:       -------------------------------------------------------
+remarks:       Basic issues:                        noc@edunet.ru
+remarks:       Routing issues:                      noc@edunet.ru
+remarks:       Security issues:                     noc@edunet.ru
+remarks:       Peering issues:                      peering@edunet.ru
+remarks:       DNS issues:                          dnsmaster@edunet.ru
+remarks:       Mail issues:                         postmaster@edunet.ru
+remarks:       SPAM issues:                         abuse@edunet.ru
+remarks:       News issues:                         newsmaster@edunet.ru
+remarks:       Web issues:                          webmaster@edunet.ru
+remarks:       Customer support:                    support@edunet.ru
+remarks:       Commercial issues:                   sales@edunet.ru
+remarks:       General information:                 edunet@edunet.ru
+remarks:       -------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        EDUNET-MNT
+source:        RIPE
+
+

@@ -1,0 +1,105 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS39811
+as-name:       MTSNET-FAR-EAST-AS
+descr:         An Autonomous System for the Far East divisions
+descr:         of Mobile TeleSystems OJSC
+descr:         -Blagoveshenks-
+descr:         -Buryatia-
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS20485 accept ANY
+import:        from AS12389 accept ANY
+import:        from AS8359 accept ANY
+import:        from AS31133 accept ANY
+import:        from AS21103 accept AS-MTS-SAKH
+import:        from AS52166 accept AS52166
+import:        from AS8749 accept AS8749
+import:        from AS198182 accept AS198182
+import:        from AS62413 accept AS62413
+import:        from AS42038 accept AS-VLADLINK
+import:        from AS59960 accept AS59960
+import:        from AS204112 accept AS204112
+import:        from AS50248 accept AS50248
+import:        from AS203533 accept AS203533
+import:        from AS59672 accept AS59672
+import:        from AS56720 accept AS56720
+import:        from AS13155 accept AS-SIBRON-TELECOM
+import:        from AS56959 accept AS56959
+import:        from AS12772 accept AS-ENFORTA
+import:        from AS47397 accept AS-BASE
+import:        from AS2854 accept AS-ROSPRINT
+import:        from AS49181 accept AS49181
+import:        from AS48035 accept AS48035
+import:        from AS47924 accept AS47924
+import:        from AS200764 accept AS200764
+import:        from AS57038 accept AS57038
+import:        from AS59515 accept AS59515
+import:        from AS41789 accept AS41789
+import:        from AS51396 accept AS51396
+import:        from AS206134 accept AS206134
+import:        from AS196648 accept AS196648
+export:        to AS20485 announce AS-MTSDV
+export:        to AS12389 announce AS-MTSDV
+export:        to AS8359 announce AS-MTSDV
+export:        to AS31133 announce AS-MTSDV
+export:        to AS21103 announce ANY
+export:        to AS52166 announce ANY
+export:        to AS8749 announce ANY
+export:        to AS198182 announce ANY
+export:        to AS62413 announce ANY
+export:        to AS42038 announce ANY
+export:        to AS59960 announce ANY
+export:        to AS204112 announce ANY
+export:        to AS50248 announce ANY
+export:        to AS203533 announce ANY
+export:        to AS59672 announce ANY
+export:        to AS56720 announce ANY
+export:        to AS13155 announce ANY
+export:        to AS56959 announce ANY
+export:        to AS12772 announce ANY
+export:        to AS47397 announce ANY
+export:        to AS2854 announce ANY
+export:        to AS49181 announce ANY
+export:        to AS48035 announce ANY
+export:        to AS47924 announce ANY
+export:        to AS200764 announce ANY
+export:        to AS57038 announce ANY
+export:        to AS59515 announce ANY
+export:        to AS41789 announce ANY
+export:        to AS51396 announce ANY
+export:        to AS206134 announce ANY
+export:        to AS196648 announce ANY
+remarks:       --- Upstreams ---
+remarks:       -- Peering --
+remarks:       -- MTS --
+remarks:       -- Clients --
+remarks:       - Vladivostok -
+remarks:       -Irkutsk-
+remarks:       ---Yakutiya(Sakha)---
+remarks:       -----------------------------------------------------------
+remarks:       Communities
+remarks:       -----------------------------------------------------------
+remarks:       39811:1000 - do not advertise to all upstreams
+remarks:       39811:201x - MTU
+remarks:       39822:202x - TTK
+remarks:       39811:203x - RTK
+remarks:       x:
+remarks:       0 - do not advertise
+remarks:       1..6 - prepend N times
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        lir@mtu.ru
+notify:        mpls.vld@mts.ru
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        MR-DV-MTS-MNT
+mnt-by:        MTU-NOC
+source:        RIPE
+
+

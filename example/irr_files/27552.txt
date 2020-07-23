@@ -1,0 +1,363 @@
+aut-num:       AS27552
+descr:         cus as
+admin-c:       TWDX1-LEVEL3
+tech-c:        TWDX1-LEVEL3
+member-of:     AS-TOWARDEX
+mnt-by:        MAINT-TOWARDEX
+changed:       smc@level3.com 20140522
+source:        LEVEL3
+
+aut-num:    AS27552
+as-name:    TWDX
+descr:      TOWARDEX Technologies IP BACKBONE
+admin-c:    HITS-ARIN
+tech-c:     MRB62-ARIN
+mp-import:  afi ipv4.unicast from AS-ANY   accept ANY
+mp-export:  afi ipv4.unicast to AS-ANY   announce AS-TOWARDEX
+remarks:    %TSN-R-LINEBREAK:[0] Descr="End of inet.unicast afi"
+remarks:    %TSN-R-LINEBREAK:[1] Descr="End of inet.multicast afi"
+mp-import:  afi ipv6.unicast from AS-ANY   accept ANY
+mp-export:  afi ipv6.unicast to AS-ANY   announce AS-TOWARDEX
+remarks:    %TSN-R-LINEBREAK:[2] Descr="End of inet6.unicast afi"
+remarks:    %TSN-R-LINEBREAK:[3] Descr="End of inet6.multicast afi"
+remarks:    
+remarks:    Global announcements are recorded under the following objects:
+remarks:    IPv4 unicast:  AS-TOWARDEX
+remarks:    IPv6 unicast:  AS-TOWARDEX
+remarks:    
+remarks:    ====================================================================
+remarks:    BGP COMMUNITIES
+remarks:    ____________________________________________________________________
+remarks:    INFORMATIONAL COMMUNITIES (applied at ingress)
+remarks:    
+remarks:    .---------------------------------------------.
+remarks:    | 27552:5CCCT                                 |
+remarks:    |        ||||                                 |
+remarks:    |        |||`- T: Route Type Code             |
+remarks:    |        |||                                  |
+remarks:    |        |``-- CCC: Location Code (Region)    |
+remarks:    |        `---- CCC: Location Code (Continent) |
+remarks:    `---------------------------------------------'
+remarks:    
+remarks:    CCC: LOCATION CODE
+remarks:    .--------------------------------------------------------------.
+remarks:    |  C CC                                                        |
+remarks:    |  | ``-- Region                                               |
+remarks:    |  `----- Continent (7 = North America, 8 = EMEA, 9 = Pacific) |
+remarks:    |  __________________________                                  |
+remarks:    |  7 ..   North America (CON)                                  |
+remarks:    |  7 01   Boston, US                                           |
+remarks:    |  7 02   New York, US                                         |
+remarks:    |  7 05   Chicago, US                                          |
+remarks:    |  7 06   Washington DC, US                                    |
+remarks:    |  __________________________                                  |
+remarks:    |  8 ..   EMEA (EUR/CEN)                                       |
+remarks:    |  8 01   London, UK                                           |
+remarks:    `--------------------------------------------------------------'
+remarks:    
+remarks:    T: ROUTE TYPE CODE
+remarks:    .---------------------.
+remarks:    |  1  Transit         |
+remarks:    |  2  Peer            |
+remarks:    |  4  Customer        |
+remarks:    |  5  Internal        |
+remarks:    `---------------------'
+remarks:    
+remarks:    EXAMPLES
+remarks:    .--------------------------------------------------------.
+remarks:    |  Transit route learned from New York, US:  27552:57021 |
+remarks:    |  Peering route learned from Boston, US:    27552:57012 |
+remarks:    |  Customer route learned from Chicago, US:  27552:57054 |
+remarks:    |  Internal route learned from Chicago, US:  27552:57055 |
+remarks:    `--------------------------------------------------------'
+remarks:    ____________________________________________________________________
+remarks:    SIMPLE ACTION COMMUNITIES (for customer use)
+remarks:    
+remarks:    27552:50   Set LOCAL_PREF to  50 (last resort route)
+remarks:    27552:100  Set LOCAL_PREF to 100 (default transit route)
+remarks:    27552:150  Set LOCAL_PREF to 150 (less preferred than peer)
+remarks:    27552:200  Set LOCAL_PREF to 200 (default peer route)
+remarks:    27552:250  Set LOCAL_PREF to 250 (backup customer route)
+remarks:    27552:300  Set LOCAL_PREF to 300 (default customer route)
+remarks:    
+remarks:    27552:900  Enforce hot-potato routing (set MED to 0)
+remarks:    27552:911  Discard traffic
+remarks:    27552:912  (Internal Use Only) Non-transitive discard community
+remarks:    
+remarks:    0:40000    No-export to *all* (including TWDX customers)
+remarks:    
+remarks:    Export only to TWDX customers, no-export to peers and transits:
+remarks:    27552:40005 0:40000
+remarks:    ____________________________________________________________________
+remarks:    EXTENSIVE ACTION COMMUNITIES (for customer use)
+remarks:    
+remarks:    .----------------------------------------------.
+remarks:    | AAAAA:4CCCR                                  |
+remarks:    |  |     ||||                                  |
+remarks:    |  |     |||`--R: Request Code                 |
+remarks:    |  |     |||                                   |
+remarks:    |  |     |``-- CCC: Location Code (Region)     |
+remarks:    |  |     `---- CCC: Location Code (Continent)  |
+remarks:    |  |                                           |
+remarks:    |  `--------- AAAAA: Target Group              |
+remarks:    |                                              |
+remarks:    `----------------------------------------------'
+remarks:    
+remarks:    AAAAA: TARGET GROUP
+remarks:    .---------------------------------------------------------.
+remarks:    |      0  Everyone                                        |
+remarks:    |  27552  TWDX Customers                                  |
+remarks:    |  64512  All targets in North America                    |
+remarks:    |  64513  All targets in EMEA                             |
+remarks:    |  ${AS}  Target peer or transit AS (e.g. 3356 = Level 3) |
+remarks:    `---------------------------------------------------------'
+remarks:    
+remarks:    R: REQUEST CODE
+remarks:    .------------------------------------------------------------.
+remarks:    |  0  No Export                                              |
+remarks:    |  1  Prepend x1                                             |
+remarks:    |  2  Prepend x2                                             |
+remarks:    |  3  Prepend x3                                             |
+remarks:    |  4  If supported by target: request to treat as peer route |
+remarks:    |  5  Force Export (ignore less specific no-export)          |
+remarks:    |  6  If supported by target: request to no-export           |
+remarks:    |  7  If supported by target: request no-export to transits  |
+remarks:    |  8  If supported by target: request no-export to peers     |
+remarks:    |  9  If supported by target: request no-export to customers |
+remarks:    `------------------------------------------------------------'
+remarks:    
+remarks:    EXAMPLES
+remarks:    .---------------------------------------------------------------.
+remarks:    |  No Export to everyone, including TWDX customers:             |
+remarks:    |    0:40000                                                    |
+remarks:    |                                                               |
+remarks:    |  Only export to TWDX customers; no-export to everyone else:   |
+remarks:    |    27552:40005 0:40000                                        |
+remarks:    |                                                               |
+remarks:    |  Prepend x1 to Level3 (AS3356) at everywhere:                 |
+remarks:    |    3356:40001                                                 |
+remarks:    |                                                               |
+remarks:    |  Prepend x1 to NTT (AS2914) at Boston only:                   |
+remarks:    |    2914:47011                                                 |
+remarks:    |                                                               |
+remarks:    |  Export to everyone, but not to Cogent (AS174):               |
+remarks:    |    0:40005 174:40000                                          |
+remarks:    |                                                               |
+remarks:    |  To Level3 (AS3356): export everywhere, but not in New York:  |
+remarks:    |    3356:40005 3356:47020                                      |
+remarks:    `---------------------------------------------------------------'
+remarks:    ____________________________________________________________________
+remarks:    
+remarks:    For more information about our routing policy, please visit:
+remarks:    http://www.twdx.net/Routing_policy.pdf
+remarks:    
+remarks:    For Peering Details & Site Locations: http://as27552.peeringdb.com
+remarks:    
+remarks:    ====================================================================
+remarks:    CONTACTS
+remarks:    ____________________________________________________________________
+remarks:    
+remarks:    UCE/Spam and network abuse issues:  abuse@twdx.net
+remarks:    Network Operations Center:          ip-admin@twdx.net
+remarks:    Peering inquiries:                  peering@twdx.net
+remarks:    Sales inquiries:                    sales@towardex.com
+remarks:    Customer Care:                      support@towardex.com
+remarks:    ====================================================================
+remarks:    
+mnt-by:     MAINT-TOWARDEX
+changed:    IPNMC@gnilink.net 20021013  # AS27552 TWDXNET (db=TNRA-1_1)
+changed:    mbran@towardex.com 20030930
+changed:    james@towardex.com 20040305
+changed:    rad@towardex.com 20040419
+changed:    james@towardex.com 20040518  #08:15:58(UTC)
+changed:    rad@twdx.net 20060311  #TSN20060312:0244Z-28
+changed:    rad@qmail.twdx.net 20060328  #TSN20060328:1819Z-42
+changed:    blahdy@blackmesa.twdx.net 20111103  #TSN20111103:1718Z-59
+changed:    mc@honeybadger.twdx.net 20130601  #TSN20130601:1633Z-58
+changed:    gavin@honeybadger.twdx.net 20160131  #TSN20160131:2004Z-46
+source:     ALTDB
+
+aut-num:        AS27552
+as-name:        TWDX
+descr:          TOWARDEX Technologies UK Limited
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+mp-import:      afi ipv4.unicast from AS-ANY   accept ANY
+mp-export:      afi ipv4.unicast to AS-ANY   announce AS-TOWARDEX
+remarks:        %TSN-R-LINEBREAK:[0] Descr="End of inet.unicast afi"
+remarks:        %TSN-R-LINEBREAK:[1] Descr="End of inet.multicast afi"
+mp-import:      afi ipv6.unicast from AS-ANY   accept ANY
+mp-export:      afi ipv6.unicast to AS-ANY   announce AS-TOWARDEX
+remarks:        %TSN-R-LINEBREAK:[2] Descr="End of inet6.unicast afi"
+remarks:        %TSN-R-LINEBREAK:[3] Descr="End of inet6.multicast afi"
+remarks:
+remarks:        Global announcements are recorded under the following objects:
+remarks:        IPv4 unicast:  AS-TOWARDEX
+remarks:        IPv6 unicast:  AS-TOWARDEX
+remarks:
+remarks:        ====================================================================
+remarks:        BGP COMMUNITIES
+remarks:        ____________________________________________________________________
+remarks:        INFORMATIONAL COMMUNITIES (applied at ingress)
+remarks:
+remarks:        .---------------------------------------------.
+remarks:        | 27552:5CCCT                                 |
+remarks:        |        ||||                                 |
+remarks:        |        |||`- T: Route Type Code             |
+remarks:        |        |||                                  |
+remarks:        |        |``-- CCC: Location Code (Region)    |
+remarks:        |        `---- CCC: Location Code (Continent) |
+remarks:        `---------------------------------------------'
+remarks:
+remarks:        CCC: LOCATION CODE
+remarks:        .--------------------------------------------------------------.
+remarks:        |  C CC                                                        |
+remarks:        |  | ``-- Region                                               |
+remarks:        |  `----- Continent (7 = North America, 8 = EMEA, 9 = Pacific) |
+remarks:        |  __________________________                                  |
+remarks:        |  7 ..   North America (CON)                                  |
+remarks:        |  7 01   Boston, US                                           |
+remarks:        |  7 02   New York, US                                         |
+remarks:        |  7 05   Chicago, US                                          |
+remarks:        |  7 06   Washington DC, US                                    |
+remarks:        |  __________________________                                  |
+remarks:        |  8 ..   EMEA (EUR/CEN)                                       |
+remarks:        |  8 01   London, UK                                           |
+remarks:        `--------------------------------------------------------------'
+remarks:
+remarks:        T: ROUTE TYPE CODE
+remarks:        .---------------------.
+remarks:        |  1  Transit         |
+remarks:        |  2  Peer            |
+remarks:        |  4  Customer        |
+remarks:        |  5  Internal        |
+remarks:        `---------------------'
+remarks:
+remarks:        EXAMPLES
+remarks:        .--------------------------------------------------------.
+remarks:        |  Transit route learned from New York, US:  27552:57021 |
+remarks:        |  Peering route learned from Boston, US:    27552:57012 |
+remarks:        |  Customer route learned from Chicago, US:  27552:57054 |
+remarks:        |  Internal route learned from Chicago, US:  27552:57055 |
+remarks:        `--------------------------------------------------------'
+remarks:        ____________________________________________________________________
+remarks:        SIMPLE ACTION COMMUNITIES (for customer use)
+remarks:
+remarks:        27552:50   Set LOCAL_PREF to  50 (last resort route)
+remarks:        27552:100  Set LOCAL_PREF to 100 (default transit route)
+remarks:        27552:150  Set LOCAL_PREF to 150 (less preferred than peer)
+remarks:        27552:200  Set LOCAL_PREF to 200 (default peer route)
+remarks:        27552:250  Set LOCAL_PREF to 250 (backup customer route)
+remarks:        27552:300  Set LOCAL_PREF to 300 (default customer route)
+remarks:
+remarks:        27552:900  Enforce hot-potato routing (set MED to 0)
+remarks:        27552:911  Discard traffic
+remarks:        27552:912  (Internal Use Only) Non-transitive discard community
+remarks:
+remarks:        0:40000    No-export to *all* (including TWDX customers)
+remarks:
+remarks:        Export only to TWDX customers, no-export to peers and transits:
+remarks:        27552:40005 0:40000
+remarks:        ____________________________________________________________________
+remarks:        EXTENSIVE ACTION COMMUNITIES (for customer use)
+remarks:
+remarks:        .----------------------------------------------.
+remarks:        | AAAAA:4CCCR                                  |
+remarks:        |  |     ||||                                  |
+remarks:        |  |     |||`--R: Request Code                 |
+remarks:        |  |     |||                                   |
+remarks:        |  |     |``-- CCC: Location Code (Region)     |
+remarks:        |  |     `---- CCC: Location Code (Continent)  |
+remarks:        |  |                                           |
+remarks:        |  `--------- AAAAA: Target Group              |
+remarks:        |                                              |
+remarks:        `----------------------------------------------'
+remarks:
+remarks:        AAAAA: TARGET GROUP
+remarks:        .---------------------------------------------------------.
+remarks:        |      0  Everyone                                        |
+remarks:        |  27552  TWDX Customers                                  |
+remarks:        |  64512  All targets in North America                    |
+remarks:        |  64513  All targets in EMEA                             |
+remarks:        |  ${AS}  Target peer or transit AS (e.g. 3356 = Level 3) |
+remarks:        `---------------------------------------------------------'
+remarks:
+remarks:        R: REQUEST CODE
+remarks:        .------------------------------------------------------------.
+remarks:        |  0  No Export                                              |
+remarks:        |  1  Prepend x1                                             |
+remarks:        |  2  Prepend x2                                             |
+remarks:        |  3  Prepend x3                                             |
+remarks:        |  4  If supported by target: request to treat as peer route |
+remarks:        |  5  Force Export (ignore less specific no-export)          |
+remarks:        |  6  If supported by target: request to no-export           |
+remarks:        |  7  If supported by target: request no-export to transits  |
+remarks:        |  8  If supported by target: request no-export to peers     |
+remarks:        |  9  If supported by target: request no-export to customers |
+remarks:        `------------------------------------------------------------'
+remarks:
+remarks:        EXAMPLES
+remarks:        .---------------------------------------------------------------.
+remarks:        |  No Export to everyone, including TWDX customers:             |
+remarks:        |    0:40000                                                    |
+remarks:        |                                                               |
+remarks:        |  Only export to TWDX customers; no-export to everyone else:   |
+remarks:        |    27552:40005 0:40000                                        |
+remarks:        |                                                               |
+remarks:        |  Prepend x1 to Level3 (AS3356) at everywhere:                 |
+remarks:        |    3356:40001                                                 |
+remarks:        |                                                               |
+remarks:        |  Prepend x1 to NTT (AS2914) at Boston only:                   |
+remarks:        |    2914:47011                                                 |
+remarks:        |                                                               |
+remarks:        |  Export to everyone, but not to Cogent (AS174):               |
+remarks:        |    0:40005 174:40000                                          |
+remarks:        |                                                               |
+remarks:        |  To Level3 (AS3356): export everywhere, but not in New York:  |
+remarks:        |    3356:40005 3356:47020                                      |
+remarks:        `---------------------------------------------------------------'
+remarks:        ____________________________________________________________________
+remarks:
+remarks:        For more information about our routing policy, please visit:
+remarks:        http://www.twdx.net/Routing_policy.pdf
+remarks:
+remarks:        For Peering Details & Site Locations: http://as27552.peeringdb.com
+remarks:
+remarks:        ====================================================================
+remarks:        CONTACTS
+remarks:        ____________________________________________________________________
+remarks:
+remarks:        UCE/Spam and network abuse issues:  abuse@twdx.net
+remarks:        Network Operations Center:          ip-admin@twdx.net
+remarks:        Peering inquiries:                  peering@twdx.net
+remarks:        Sales inquiries:                    sales@towardex.com
+remarks:        Customer Care:                      support@towardex.com
+remarks:        ====================================================================
+remarks:
+status:         OTHER
+mnt-by:         MAINT-TOWARDEX
+mnt-lower:      RIPE-NCC-RPSL-MNT
+created:        2013-06-12T22:51:20Z
+last-modified:  2016-02-01T01:19:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************
+
+person:        TOWARDEX Carrier Services IP Massachusetts LLC
+address:       300 Bent Street
+address:       Cambridge, MA 02141
+address:       USA
+phone:         +1-617-849-7278
+e-mail:        ip-admin@twdx.net
+nic-hdl:       TWDX1-LEVEL3
+notify:        ip-admin@twdx.net
+mnt-by:        MAINT-TOWARDEX
+changed:       irr@honeybadger.twdx.net 20151219 #TSN20151220:0102Z-37
+changed:       smc@level3.com 20140522
+changed:       phillip.freedman@level3.com 20151216
+source:        LEVEL3

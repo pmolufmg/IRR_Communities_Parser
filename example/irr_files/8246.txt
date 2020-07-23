@@ -1,0 +1,255 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS8246
+as-name:       GTS-POLSKA-AS
+descr:         ul. Marynarska 15
+descr:         02-674, Poland
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS5588 action pref=300; accept ANY
+import:        from AS6714 action pref=200; accept AS6714
+import:        from AS8308 action pref=200; accept AS-NASK
+import:        from AS41158 action pref=100; accept AS41158:AS-CUSTOMER
+import:        from AS8664 action pref=100; accept AS8664 AS8890
+import:        from AS12324 action pref=100; accept AS12324
+import:        from AS12346 action pref=100; accept AS12346
+import:        from AS12423 action pref=100; accept AS12423
+import:        from AS12476 action pref=100; accept AS12476
+import:        from AS12824 action pref=100; accept AS12824
+import:        from AS12827 action pref=100; accept AS12827
+import:        from AS12831 action pref=100; accept AS12831
+import:        from AS12912 action pref=100; accept AS12912
+import:        from AS12973 action pref=100; accept AS12973
+import:        from AS12990 action pref=100; accept AS12990
+import:        from AS12992 action pref=100; accept AS12992
+import:        from AS13061 action pref=100; accept AS13061
+import:        from AS13086 action pref=100; accept AS13086
+import:        from AS13110 action pref=100; accept AS13110
+import:        from AS13119 action pref=100; accept AS13119
+import:        from AS13123 action pref=100; accept AS13123
+import:        from AS13255 action pref=100; accept AS13255
+import:        from AS13274 action pref=100; accept AS13274
+import:        from AS15384 action pref=100; accept AS15384
+import:        from AS15396 action pref=100; accept AS15396
+import:        from AS15503 action pref=100; accept AS15503
+import:        from AS15521 action pref=100; accept AS15521
+import:        from AS15523 action pref=100; accept AS15523
+import:        from AS15694 action pref=100; accept AS15694
+import:        from AS15744 action pref=100; accept AS15744
+import:        from AS15787 action pref=100; accept AS15787
+import:        from AS15851 action pref=100; accept AS15851
+import:        from AS15857 action pref=100; accept AS15857
+import:        from AS15902 action pref=100; accept AS15902
+import:        from AS15949 action pref=100; accept AS15949
+import:        from AS15967 action pref=100; accept AS15967
+import:        from AS15997 action pref=100; accept AS15997
+import:        from AS16138 action pref=100; accept AS16138
+import:        from AS16167 action pref=100; accept AS16167
+import:        from AS16182 action pref=100; accept AS16182
+import:        from AS16274 action pref=100; accept AS16274
+import:        from AS16283 action pref=100; accept AS16283
+import:        from AS16290 action pref=100; accept AS16290
+import:        from AS16296 action pref=100; accept AS16296
+import:        from AS16340 action pref=100; accept AS16340
+import:        from AS16342 action pref=100; accept AS16342
+import:        from AS20486 action pref=100; accept AS20486
+import:        from AS20552 action pref=100; accept AS20552
+import:        from AS20656 action pref=100; accept AS20656
+import:        from AS20687 action pref=100; accept AS20687
+import:        from AS5550 action pref=100; accept AS5550
+import:        from AS5616 action pref=100; accept AS5616
+import:        from AS6714 action pref=100; accept AS6714
+import:        from AS6778 action pref=100; accept AS6778
+import:        from AS8256 action pref=100; accept AS8256
+import:        from AS8286 action pref=100; accept AS8286
+import:        from AS8323 action pref=100; accept AS8323
+import:        from AS8364 action pref=100; accept AS8364
+import:        from AS8374 action pref=100; accept AS8374
+import:        from AS8501 action pref=100; accept AS8501
+import:        from AS8508 action pref=100; accept AS8508
+import:        from AS8535 action pref=100; accept AS8535
+import:        from AS8664 action pref=100; accept AS8664
+import:        from AS8798 action pref=100; accept AS8798
+import:        from AS8890 action pref=100; accept AS8890
+import:        from AS8907 action pref=100; accept AS8907
+import:        from AS8965 action pref=100; accept AS8965
+import:        from AS9112 action pref=100; accept AS9112
+import:        from AS5550 action pref=100; accept AS5550
+import:        from AS8965 action pref=100; accept AS8965
+import:        from AS6778 action pref=100; accept AS6778
+import:        from AS8798 action pref=100; accept AS8798
+import:        from AS8907 action pref=100; accept AS8907
+import:        from AS9085 action pref=100; accept AS9085
+import:        from AS8535 action pref=100; accept AS8535
+import:        from AS5616 action pref=100; accept AS5616
+import:        from AS12631 action pref=100; accept AS12631
+import:        from AS12912 action pref=100; accept AS12912
+import:        from AS8473 action pref=100; accept AS8473
+import:        from AS8289 action pref=100; accept AS8289
+import:        from AS1257 action pref=100; accept AS1257
+import:        from AS12352 action pref=100; accept AS12352
+import:        from AS5377 action pref=100; accept AS5377
+import:        from AS8195 action pref=100; accept AS8195
+import:        from AS8984 action pref=100; accept AS8984
+import:        from AS6830 action pref=100; accept AS6830
+import:        from AS5556 action pref=100; accept AS5556
+import:        from AS6667 action pref=100; accept AS6667
+import:        from AS2874 action pref=100; accept AS2874
+import:        from AS12597 action pref=100; accept AS12597
+import:        from AS8918 action pref=100; accept AS8918
+import:        from AS8210 action pref=100; accept AS8210
+import:        from AS31599 action pref=100; accept AS31599
+import:        from AS47640 accept AS47640
+export:        to AS5617 announce AS8246:AS-TPNET
+export:        to AS5588 announce AS-IPARTNERS
+export:        to AS8308 announce AS8246:AS-NASK
+export:        to AS8664 announce AS8246 AS6714
+export:        to AS41158 announce ANY
+export:        to AS6714 announce ANY
+export:        to AS12324 announce ANY
+export:        to AS12346 announce ANY
+export:        to AS12423 announce ANY
+export:        to AS12476 announce ANY
+export:        to AS12824 announce ANY
+export:        to AS12827 announce ANY
+export:        to AS12831 announce ANY
+export:        to AS12912 announce ANY
+export:        to AS12973 announce ANY
+export:        to AS12990 announce ANY
+export:        to AS12992 announce ANY
+export:        to AS13061 announce ANY
+export:        to AS13086 announce ANY
+export:        to AS13110 announce ANY
+export:        to AS13119 announce ANY
+export:        to AS13123 announce ANY
+export:        to AS13255 announce ANY
+export:        to AS13274 announce ANY
+export:        to AS15384 announce ANY
+export:        to AS15396 announce ANY
+export:        to AS15503 announce ANY
+export:        to AS15521 announce ANY
+export:        to AS15523 announce ANY
+export:        to AS15694 announce ANY
+export:        to AS15744 announce ANY
+export:        to AS15787 announce ANY
+export:        to AS15851 announce ANY
+export:        to AS15857 announce ANY
+export:        to AS15902 announce ANY
+export:        to AS15949 announce ANY
+export:        to AS15967 announce ANY
+export:        to AS15997 announce ANY
+export:        to AS16138 announce ANY
+export:        to AS16167 announce ANY
+export:        to AS16182 announce ANY
+export:        to AS16274 announce ANY
+export:        to AS16283 announce ANY
+export:        to AS16290 announce ANY
+export:        to AS16296 announce ANY
+export:        to AS16340 announce ANY
+export:        to AS16342 announce ANY
+export:        to AS20486 announce ANY
+export:        to AS20552 announce ANY
+export:        to AS20656 announce ANY
+export:        to AS20687 announce ANY
+export:        to AS5550 announce ANY
+export:        to AS5616 announce ANY
+export:        to AS6714 announce ANY
+export:        to AS6778 announce ANY
+export:        to AS8256 announce ANY
+export:        to AS8286 announce ANY
+export:        to AS8323 announce ANY
+export:        to AS8364 announce ANY
+export:        to AS8374 announce ANY
+export:        to AS8501 announce ANY
+export:        to AS8508 announce ANY
+export:        to AS8535 announce ANY
+export:        to AS8664 announce ANY
+export:        to AS8798 announce ANY
+export:        to AS8890 announce ANY
+export:        to AS8907 announce ANY
+export:        to AS8965 announce ANY
+export:        to AS9112 announce ANY
+export:        to AS31599 announce ANY
+export:        to AS47640 announce ANY
+export:        to AS5550 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8965 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS6778 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8798 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8907 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS9085 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8535 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS5616 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS12631 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS12912 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8473 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8289 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS1257 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS12352 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS5377 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8195 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8984 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS6830 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS5556 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS6667 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS2874 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS12597 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8918 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+export:        to AS8210 announce AS8246 AS6714 AS8664 AS1314 AS8890 AS12990
+remarks:       -
+remarks:       Internet Partners BGP community support
+remarks:       e-mail contact: <bgp4@ipartners.pl>
+remarks:       ---------------------------------------
+remarks:       Communities to control traffic (settable by peers):
+remarks:       
+remarks:       8246:2000 Do not announce to GTS CE (AS5588)
+remarks:       8246:2001 Prepend +1 when announcing to GTS CE
+remarks:       8246:2002 Prepend +2 when announcing to GTS CE
+remarks:       8246:2003 Prepend +3 when announcing to GTS CE
+remarks:       
+remarks:       8246:2090 Do not announce to ALL UPSTREAMS
+remarks:       8246:2091 Prepend +1 when announcing to ALL UPSTREAMS
+remarks:       8246:2092 Prepend +2 when announcing to ALL UPSTREAMS
+remarks:       8246:2093 Prepend +3 when announcing to ALL UPSTREAMS
+remarks:       
+remarks:       8246:2100 Do not announce to TPNET (AS5617)
+remarks:       8246:2101 Prepend +1 when announcing to TPNET
+remarks:       8246:2102 Prepend +2 when announcing to TPNET
+remarks:       8246:2103 Prepend +3 when announcing to TPNET
+remarks:       
+remarks:       8246:2300 Do not announce to POL34 (AS8501)
+remarks:       
+remarks:       8246:2400 Do not announce to Sunsite ICM (AS8664)
+remarks:       8246:2401 Prepend +1 when announcing to Sunsite ICM
+remarks:       8246:2402 Prepend +2 when announcing to Sunsite ICM
+remarks:       8246:2403 Prepend +3 when announcing to Sunsite ICM
+remarks:       
+remarks:       8246:2410 Do not announce to PLIX
+remarks:       8246:2420 Do not announce to GIX
+remarks:       8246:2430 Do not announce to WIX
+remarks:       8246:2440 Do not announce to PIX
+remarks:       
+remarks:       8246:4000 Do not announce to Onet.pl (AS12990)
+remarks:       
+remarks:       8246:5000 preferred link for GTS CE (AS5588) traffic
+remarks:       
+remarks:       Communities to determine entry point of route
+remarks:       ("read only" for peers)
+remarks:       8246:1030 TPNET
+remarks:       8246:1080 GTS CE
+remarks:       
+remarks:       8246:667 upstream (GTS CE)
+remarks:       -
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        ripe@ipartners.pl
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        AS8246-MNT
+source:        RIPE
+
+

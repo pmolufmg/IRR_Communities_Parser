@@ -1,0 +1,356 @@
+aut-num:        AS21414
+as-name:        RUSCOMNET-AS
+descr:          "International Telecommunication Network" LTD
+org:            ORG-RL3-RIPE
+remarks:        ------------------------------------------------------------------
+remarks:        The pref attribute is the inverse of the local-pref attribute
+remarks:        (i.e. local-pref within AS21414 == 200 - pref).
+remarks:        ------------------------------------------------------------------
+remarks:        import from Golden Telecom
+import:         from AS3216 194.186.0.37 action pref=140;
+                community.append(21414:100, 21414:103);
+                accept ANY
+remarks:        import from GoldenTelecom-IPv6
+mp-import:      afi ipv6.unicast from AS3216 accept ANY
+remarks:        ------------------------------------------------------------------
+remarks:        import from Filanco
+import:         from AS29076 31.28.19.1 action pref=140;
+                community.append(21414:100, 21414:103);
+                accept ANY
+remarks:        import from Filanco-IPv6
+mp-import:      afi ipv6.unicast from AS29076 accept ANY
+remarks:        ------------------------------------------------------------------
+remarks:        import from TeliaSonera
+import:         from AS1299 213.248.75.146 action pref=150;
+                community.append(21414:700, 21414:709);
+                accept ANY
+remarks:        import from TELIA-IPv6
+mp-import:      afi ipv6.unicast from AS1299 accept ANY
+remarks:        ------------------------------------------------------------------
+remarks:        import from MSK-IX and Moscow Peers
+import:         {
+                from AS-ANY action pref=120;
+                community.append(21414:100, 21414:107);
+                accept ANY;
+                } refine {
+                from AS8631 accept AS-MSKROUTESERVER;
+                from AS2118 accept AS-RELCOM;
+                from AS2854 accept AS-ROSPRINT;
+                from AS3218 accept AS-COSMOS;
+                from AS3267 accept AS-RUNNETIX;
+                from AS3316 accept AS-RELARN;
+                from AS3327 accept AS-LINXTELECOM-AMSIX;
+                from AS5568 accept AS-RBNET;
+                from AS6854 accept AS-SYNTERRA;
+                from AS8331 accept AS-RURINET;
+                from AS8470 accept AS-MACOMNET;
+                from AS8744 accept AS-WIMAX;
+                from AS9110 accept AS-AGTEL;
+                from AS13238 accept AS-YANDEX;
+                from AS15756 accept AS-CARAVANRUS;
+                from AS15835 accept AS-MAP;
+                from AS16083 accept AS-STACK;
+                from AS20764 accept AS-RASCOM;
+                from AS20632 accept AS-PETERSTAR;
+                from AS24638 accept AS-RAMTEL;
+                from AS25308 accept AS-CITYLAN;
+                from AS25478 accept AS-IHOME;
+                from AS29329 accept AS-NODEX;
+                from AS30124 accept AS30124;
+                from AS30943 accept AS-UTRANSIT-PG-EU;
+                from AS31500 accept AS-GLOBAL-NET;
+                from AS35320 accept AS-ETT;
+                from AS35718 accept AS-NAUNET;
+                from AS39143 accept AS-BSB-RUS;
+                from AS41145 accept AS-TELIX;
+                from AS42610 accept AS-NCNET;
+                from AS42632 accept AS-MNOGOBYTE;
+                from AS43832 accept AS-NS5_RIPN_NET;
+                from AS47764 accept AS-MAILRU;
+                from AS48061 accept AS48061;
+                from AS50384 accept AS-W-IX;
+                from AS39792 accept AS-ANDERS;
+                from AS50952 accept AS-DATAIX;
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        import from MSK-IX-IPv6 and Moscow Peers
+mp-import:      afi ipv6.unicast from AS8631 accept ANY
+mp-import:      afi ipv6.unicast from AS13105 accept ANY
+mp-import:      afi ipv6.unicast from AS29329 accept ANY
+mp-import:      afi ipv6.unicast from AS41145 accept ANY
+mp-import:      afi ipv6.unicast from AS25308 accept ANY
+mp-import:      afi ipv6.unicast from AS39792 accept ANY
+remarks:        ------------------------------------------------------------------
+remarks:        import from W-IX
+import:         {
+                from AS-ANY action pref=115;
+                community.append(21414:700);
+                accept ANY;
+                } refine {
+                from AS50384 accept ANY;
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        import from DATAIX
+import:         {
+                from AS-ANY action pref=115;
+                community.append(21414:700);
+                accept ANY;
+                } refine {
+                from AS50952 accept ANY;
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        import from Masterhost Private Peer
+import:         from AS25532 217.16.17.57 action pref=100;
+                community.append(21414:100, 21414:104);
+                accept AS25532 OR AS35295
+remarks:        ------------------------------------------------------------------
+remarks:        import from Masterhost Private Peer
+import:         from AS25532 217.16.17.57 action pref=100;
+                community.append(21414:100, 21414:104);
+                accept AS25532 OR AS35295
+remarks:        ------------------------------------------------------------------
+remarks:        import from Customers
+import:         {
+                from AS-ANY action pref=180;
+                community.append(21414:100, 21414:101);
+                accept community.contains(21414:602);
+                from AS-ANY action pref=100;
+                community.append(21414:100, 21414:101);
+                accept ANY;
+                } refine {
+                from AS8515 accept AS-DATAFORCE;
+                from AS8563 accept AS-DIRECTNET;
+                from AS8752 accept AS-ASVT;
+                from AS8853 accept AS8853;
+                from AS9039 accept AS-IIAT;
+                from AS13105 accept AS-LUKOIL;
+                from AS15757 accept AS-GASCOM;
+                from AS15886 accept AS-KONNEKTIKA;
+                from AS16143 accept AS-RATEL;
+                from AS21135 accept AS-MTT;
+                from AS24599 accept AS-MIRTELECOM;
+                from AS25532 accept AS-MASTERHOST;
+                from AS28775 accept AS-TTCNET;
+                from AS29304 accept AS-SATISNET;
+                from AS29388 accept AS-BESTCOM;
+                from AS30784 accept AS-ISKRATELECOM;
+                from AS31514 accept AS31514;
+                from AS35743 accept AS35743;
+                from AS39125 accept AS-RUBIN;
+                from AS39156 accept AS39156;
+                from AS43226 accept AS-SAFEDATA;
+                from AS47194 accept AS47194;
+                from AS48720 accept AS48720;
+                from AS39604 accept AS39604;
+                from AS49779 accept AS49779;
+                from AS29002 accept AS-THYPHONE;
+                from AS50477 accept AS-SET-SVEN;
+                from AS57175 accept AS57175;
+                from AS34211 accept AS34211;
+                from AS57918 accept AS-ACOD;
+                from AS60775 accept as-nattelecom;
+                from AS62283 accept AS-SET-DIGICOM;
+                from AS24663 accept AS24663;
+                from AS62438 accept AS62438;
+                from AS201298 accept AS-STKTEL;
+                from AS25531 accept AS-INTINFORM;
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        import from Customers-IPv6
+mp-import:      afi ipv6.unicast from AS8752 accept AS-ASVT
+mp-import:      afi ipv6.unicast from AS49779 accept AS49779
+mp-import:      afi ipv6.unicast from AS62283 accept AS62283
+mp-import:      afi ipv6.unicast from AS28775 accept AS28775
+remarks:
+remarks:        ------------------------------------------------------------------
+remarks:        export to Golden Telecom
+export:         to AS3216 announce AS-RCNET AND NOT community.contains(21414:530)
+remarks:        ------------------------------------------------------------------
+remarks:        export to Masterhost private peer
+export:         to AS25532 announce AS-RCNET AND NOT community.contains(21414:540)
+remarks:        ------------------------------------------------------------------
+remarks:        ------------------------------------------------------------------
+remarks:        export to Filanco
+export:         to AS29076 announce AS-RCNET AND NOT community.contains(21414:590)
+remarks:        export to Filanco-IPv6
+mp-export:      afi ipv6.unicast to AS29076 announce AS-RCNET-V6 AND NOT community.contains(21414:590)
+remarks:        ------------------------------------------------------------------
+remarks:        export to TeliaSonera
+export:         to AS1299 announce AS-RCNET AND NOT community.contains(21414:590)
+remarks:        export to Telia-IPv6
+mp-export:      afi ipv6.unicast to AS1299 announce AS-RCNET-V6 AND NOT community.contains(21414:590)
+remarks:        ------------------------------------------------------------------
+remarks:        export to MSK-IX and Moscow Peers
+export:         {
+                to AS8631 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS2118 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS2854 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS3218 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS3267 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS3316 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS3327 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS5568 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS6854 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS8331 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS8470 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS8744 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS9110 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS13238 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS15756 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS15835 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS16083 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS20764 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS24638 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS25308 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS25478 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS29329 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS30124 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS30943 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS31500 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS35320 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS20632 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS35718 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS39143 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS41145 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS42610 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS42632 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS43832 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS47764 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS48061 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS50384 announce AS-RCNET AND NOT community.contains(21414:570);
+                to AS39792 announce AS-RCNET AND NOT community.contains(21414:570);
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        export to MSK-IX-IPv6 and Moscow Peers
+mp-export:      afi ipv6.unicast to AS8631  announce AS-RCNET-V6 AND NOT community.contains(21414:570)
+mp-export:      afi ipv6.unicast to AS13105 announce AS-RCNET-V6 AND NOT community.contains(21414:570)
+mp-export:      afi ipv6.unicast to AS29329 announce AS-RCNET-V6 AND NOT community.contains(21414:570)
+mp-export:      afi ipv6.unicast to AS41145 announce AS-RCNET-V6 AND NOT community.contains(21414:570)
+mp-export:      afi ipv6.unicast to AS25308 announce AS-RCNET-V6 AND NOT community.contains(21414:570)
+mp-export:      afi ipv6.unicast to AS39792 announce AS-RCNET-V6 AND NOT community.contains(21414:570)
+remarks:        ------------------------------------------------------------------
+remarks:        export to W-IX
+export:         {
+                to AS50384 announce AS-RCNET;
+                }
+remarks:
+remarks:        ------------------------------------------------------------------
+remarks:        export to Customers
+export:         {
+                to AS8515 announce ANY;
+                to AS8563 announce ANY;
+                to AS8752 announce ANY;
+                to AS8853 announce ANY;
+                to AS9039 announce ANY;
+                to AS13105 announce ANY;
+                to AS15757 announce ANY;
+                to AS15886 announce ANY;
+                to AS16143 announce ANY;
+                to AS21135 announce ANY;
+                to AS24599 announce ANY;
+                to AS25532 announce ANY;
+                to AS28775 announce ANY;
+                to AS29304 announce ANY;
+                to AS29388 announce ANY;
+                to AS30784 announce ANY;
+                to AS31514 announce ANY;
+                to AS35743 announce ANY;
+                to AS39125 announce ANY;
+                to AS39156 announce ANY;
+                to AS43226 announce ANY;
+                to AS47194 announce ANY;
+                to AS48720 announce ANY;
+                to AS39604 announce ANY;
+                to AS49779 announce ANY;
+                to AS29002 announce ANY;
+                to AS50477 announce ANY;
+                to AS57175 announce ANY;
+                to AS34211 announce ANY;
+                to AS57918 announce ANY;
+                to AS60775 announce ANY;
+                to AS62283 announce ANY;
+                to AS24663 announce ANY;
+                to AS62438 announce ANY;
+                to AS201298 announce ANY;
+                to AS25531 announce ANY;
+                }
+remarks:        ------------------------------------------------------------------
+remarks:        export to Customers-IPv6
+mp-export:      afi ipv6.unicast to AS8752 announce ANY
+mp-export:      afi ipv6.unicast to AS49779 announce ANY
+mp-export:      afi ipv6.unicast to AS62283 announce ANY
+mp-export:      afi ipv6.unicast to AS28775 announce ANY
+remarks:
+remarks:        ------------------------------------------------------------------
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:        ------------------------------------------------------------------
+remarks:        RusComNet filters out inbound prefixes longer than /24
+remarks:        except for those marked by BlackHole community
+remarks:        ------------------------------------------------------------------
+remarks:        External communities may be set by external peers when
+remarks:        talking to AS21414. They are in range 21414:500-21414:699.
+remarks:
+remarks:        Community Description
+remarks:
+remarks:        21414:53x  When advertising to Golden Telecom ...
+remarks:        21414:54x  When advertising to .Masterhost peer...
+remarks:        21414:56x  When advertising to TransTeleCom...
+remarks:        21414:57x  When advertising to any MSK-IX or private peers...
+remarks:        21414:59x  When advertising to TeliaSonera...
+remarks:        21414:61x  When advertising to W-IX...
+remarks:        21414:69x  When advertising to ALL Upstream and peers...
+remarks:        ...x=0 - do not advertise
+remarks:        ...x=1,2 or 3 - prepend 21414 1,2 or 3 times
+remarks:        ...x=8 - Set lowest local-pref within peer (if applicable)
+remarks:        21414:600  Discard all traffic (BlackHole)
+remarks:        21414:602  Set local-pref 20 within AS21414
+remarks:        (lowest value for BackUp)
+remarks:
+remarks:        Other communities in range 21414:500-21414:699
+remarks:        are accepted but ignored.
+remarks:        Other 21414:* communities are deleted.
+remarks:        All 701:*,702:*,703:* communities are deleted.
+remarks:        All 1299:* communities are deleted.
+remarks:        All 3216:* communities are deleted.
+remarks:        All 3356:* communities are deleted.
+remarks:        All 8342:* communities are deleted.
+remarks:        All 20485:* communities are deleted.
+remarks:        All 25532:* communities are deleted.
+remarks:        Other *:* communities are passed intact but not to all peers.
+remarks:
+remarks:        ------------------------------------------------------------------
+remarks:        Internal comminuties are assigned only internally.
+remarks:        They are in range 21414:000-21414:499 and 21414:700-21414:65535
+remarks:        and are always deleted from incoming updates at the border routers.
+remarks:        They may be used by peers to filter some prefixes.
+remarks:
+remarks:        Community Description
+remarks:
+remarks:        21414:0   - RusComNet originated
+remarks:        21414:100 - Receieved from an Russian peer, specifically:
+remarks:        21414:101 - Customers
+remarks:        21414:103 - Golden Telecom
+remarks:        21414:104 - Masterhost
+remarks:        21414:106 - TransTeleCom
+remarks:        21414:107 - MSK-IX
+remarks:        21414:700 - Receieved from an International peer, specifically:
+remarks:        21414:709 - TeliaSonera
+remarks:
+remarks:        ------------------------------------------------------------------
+status:         ASSIGNED
+notify:         noc@inter-telecom.net
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         RCN-NOC
+mnt-lower:      RCN-NOC
+mnt-routes:     RCN-NOC
+created:        2002-09-18T14:25:00Z
+last-modified:  2018-06-17T11:10:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

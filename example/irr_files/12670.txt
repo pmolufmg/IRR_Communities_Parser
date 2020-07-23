@@ -1,0 +1,420 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS12557 - AS13223'
+
+as-block:       AS12557 - AS13223
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS12670'
+
+% Abuse contact for 'AS12670' is 'abuse@completel.fr'
+
+aut-num:        AS12670
+as-name:        AS-COMPLETEL
+remarks:        Completel Autonomous System in France
+import:         from AS1299 action pref=100; accept ANY
+import:         from AS3573 action pref=100; accept AS3573
+import:         from AS201325 action pref=100; accept AS201325
+import:         from AS31136 action pref=100; accept AS31136
+import:         from AS197788 action pref=100; accept AS197788
+import:         from AS42449 action pref=100; accept AS42449
+import:         from AS201900 action pref=100; accept AS201900
+import:         from AS196633 action pref=100; accept AS196633
+import:         from AS49555 action pref=100; accept AS49555
+import:         from AS60401 action pref=100; accept AS60401
+import:         from AS33835 action pref=100; accept AS33835
+import:         from AS198060 action pref=100; accept AS198060
+import:         from AS197384 action pref=100; accept AS197384
+import:         from AS49137 action pref=100; accept AS49137
+import:         from AS1301 action pref=100; accept AS1301
+import:         from AS197505 action pref=100; accept AS197505
+import:         from AS51870 action pref=100; accept AS51870
+import:         from AS1899 action pref=100; accept AS-EUNETFR
+import:         from AS2200 action pref=100; accept AS-RENATER
+import:         from AS2486 action pref=100; accept AS2486
+import:         from AS2611 action pref=100; accept AS-BELNET
+import:         from AS2647 action pref=100; accept AS2647
+import:         from AS2686 action pref=100; accept AS-IGNEMEA
+import:         from AS3291 action pref=100; accept AS-PSINETEU
+import:         from AS49694 action pref=100; accept AS49694
+import:         from AS3303 action pref=100; accept AS-SWCMGLOBAL
+import:         from AS3305 action pref=100; accept AS-SIRIS
+import:         from AS3356 action pref=100; accept ANY
+import:         from AS4589 action pref=100; accept AS-EASYNET
+import:         from AS5089 action pref=100; accept AS5089
+import:         from AS5410 action pref=100; accept AS5410
+import:         from AS5436 action pref=100; accept AS5436
+import:         from AS6675 action pref=100; accept AS-IMAGINET
+import:         from AS6678 action pref=100; accept AS-CYBERCABLE
+import:         from AS6730 action pref=100; accept AS-GLOBAL
+import:         from AS6774 action pref=100; accept AS6774
+import:         from AS6805 action pref=100; accept AS-MWAYS
+import:         from AS8220 action pref=100; accept AS-COLT
+import:         from AS8228 action pref=100; accept AS-CEGETEL
+import:         from AS8255 action pref=100; accept AS8255 AS20994
+import:         from AS8304 action pref=100; accept AS8304
+import:         from AS8399 action pref=100; accept AS8399
+import:         from AS8527 action pref=100; accept AS8527
+import:         from AS8586 action pref=100; accept AS-REDNET
+import:         from AS8657 action pref=100; accept AS-CPRM
+import:         from AS8677 action pref=100; accept AS8677
+import:         from AS8784 action pref=100; accept AS-MGN
+import:         from AS8708 action pref=100; accept AS-RDSNET
+import:         from AS8839 action pref=100; accept AS8839
+import:         from AS8975 action pref=100; accept AS-CLARANET
+import:         from AS9193 action pref=100; accept AS-CONXIONEU
+import:         from AS12322 action pref=100; accept AS-PROXAD
+import:         from AS12496 action pref=100; accept AS12496
+import:         from AS12626 action pref=100; accept AS-TEL
+import:         from AS12645 action pref=100; accept AS12645
+import:         from AS12727 action pref=100; accept AS12727
+import:         from AS12876 action pref=100; accept AS-TISCALIFR
+import:         from AS12893 action pref=100; accept AS12893
+import:         from AS13049 action pref=100; accept AS-FRONTIER
+import:         from AS13193 action pref=100; accept AS-NERIM
+import:         from AS13237 action pref=100; accept AS-LNCPARIX
+import:         from AS15401 action pref=100; accept AS15401
+import:         from AS15403 action pref=100; accept AS-EUROPEASP
+import:         from AS15412 action pref=100; accept AS-FLAGP
+import:         from AS15422 action pref=100; accept AS15422
+import:         from AS15436 action pref=100; accept AS-WITBE
+import:         from AS15557 action pref=100; accept AS-LDCOMNET
+import:         from AS16009 action pref=100; accept AS16009
+import:         from AS16017 action pref=100; accept AS16017
+import:         from AS16046 action pref=100; accept AS16046
+import:         from AS16059 action pref=100; accept AS16059
+import:         from AS16073 action pref=100; accept AS16073
+import:         from AS16080 action pref=100; accept AS16080
+import:         from AS16101 action pref=100; accept AS16101
+import:         from AS16128 action pref=100; accept AS-AGARIK
+import:         from AS16140 action pref=100; accept AS16140
+import:         from AS16276 action pref=100; accept AS16276
+import:         from AS20650 action pref=100; accept AS20650
+import:         from AS20672 action pref=100; accept AS20672
+import:         from AS20766 action pref=100; accept AS-GITOYEN
+import:         from AS20926 action pref=100; accept AS20926
+import:         from AS21041 action pref=100; accept AS21041
+import:         from AS198287 action pref=100; accept AS198287
+import:         from AS21163 action pref=100; accept AS21163
+import:         from AS21247 action pref=100; accept AS-IPSYN
+import:         from AS21409 action pref=100; accept AS-IKOULA
+import:         from AS24702 action pref=100; accept AS24702
+import:         from AS24776 action pref=100; accept AS24776
+import:         from AS24963 action pref=100; accept AS-YACAST
+import:         from AS24975 action pref=100; accept AS24975
+import:         from AS25345 action pref=100; accept AS25345
+import:         from AS28768 action pref=100; accept AS28768
+import:         from AS28855 action pref=100; accept AS-GALACSYS
+import:         from AS28877 action pref=100; accept AS-AZURIA
+import:         from AS29075 action pref=100; accept AS29075
+import:         from AS29092 action pref=100; accept AS29092
+import:         from AS30741 action pref=100; accept AS30741
+import:         from AS31660 action pref=100; accept AS31660
+import:         from AS33870 action pref=100; accept AS33870
+import:         from AS34493 action pref=100; accept AS34493
+import:         from AS34536 action pref=100; accept AS34536
+import:         from AS34860 action pref=100; accept AS34860
+import:         from AS34970 action pref=100; accept AS34970
+import:         from AS35009 action pref=100; accept AS35009
+import:         from AS35012 action pref=100; accept AS35012
+import:         from AS35169 action pref=100; accept AS35169
+import:         from AS35363 action pref=100; accept AS35363
+import:         from AS35625 action pref=100; accept AS35625
+import:         from AS35600 action pref=100; accept AS35600
+import:         from AS39340 action pref=100; accept AS39340
+import:         from AS39534 action pref=100; accept AS39534
+import:         from AS39542 action pref=100; accept AS39542
+import:         from AS39715 action pref=100; accept AS39715
+import:         from AS34294 action pref=100; accept AS34294
+import:         from AS12744 action pref=100; accept AS12744
+import:         from AS34535 action pref=100; accept AS34535
+import:         from AS42188 action pref=100; accept AS42188
+import:         from AS47833 action pref=100; accept AS47833
+import:         from AS39771 action pref=100; accept AS39771
+import:         from AS15444 action pref=100; accept AS-NETSERVICES
+import:         from AS25286 action pref=100; accept AS25286
+import:         from AS29402 action pref=100; accept AS-CTN1
+import:         from AS29608 action pref=100; accept AS-ABSOLIGHT
+import:         from AS43717 action pref=100; accept AS43717
+import:         from AS43734 action pref=100; accept AS43734
+import:         from AS43249 action pref=100; accept AS43249
+import:         from AS35676 action pref=100; accept AS35676
+import:         from AS43654 action pref=100; accept AS43654
+import:         from AS42487 action pref=100; accept AS42487
+import:         from AS31178 action pref=100; accept AS31178
+import:         from AS8908 action pref=100; accept AS8908
+import:         from AS44842 action pref=100; accept AS44842
+import:         from AS39405 action pref=100; accept AS39405
+import:         from AS47599 action pref=100; accept AS47599
+import:         from AS47127 action pref=100; accept AS47127
+import:         from AS9180 action pref=100; accept AS9180
+import:         from AS44986 action pref=100; accept AS44986
+import:         from AS47858 action pref=100; accept AS47858
+remarks:        AS-COGENT
+import:         from AS174 action pref=300; accept AS174:AS-COGENT
+remarks:        AS-NUMERICABLE
+import:         from AS21502 action pref=300; accept AS-NUMERICABLE
+import:         from AS48703 action pref=100; accept AS48703
+import:         from AS47980 action pref=100; accept AS47980
+import:         from AS48819 action pref=100; accept AS48819
+import:         from AS50446 action pref=100; accept AS50446
+export:         to AS21502 announce AS-COMPLETEL AS174:AS-COGENT
+export:         to AS51870 announce ANY
+export:         to AS42449 announce ANY
+export:         to AS33835 announce ANY
+export:         to AS174 announce AS-COMPLETEL AS-NUMERICABLE
+export:         to AS1299 announce AS-COMPLETEL
+export:         to AS1899 announce AS-COMPLETEL
+export:         to AS2200 announce AS-COMPLETEL
+export:         to AS2486 announce AS-COMPLETEL
+export:         to AS2611 announce AS-COMPLETEL
+export:         to AS60401 announce ANY
+export:         to AS31136 announce ANY
+export:         to AS197788 announce ANY
+export:         to AS2647 announce AS-COMPLETEL
+export:         to AS2686 announce AS-COMPLETEL
+export:         to AS3291 announce AS-COMPLETEL
+export:         to AS197384 announce ANY
+export:         to AS47833 announce ANY
+export:         to AS3303 announce AS-COMPLETEL
+export:         to AS3305 announce AS-COMPLETEL
+export:         to AS3356 announce AS-COMPLETEL
+export:         to AS4589 announce AS-COMPLETEL
+export:         to AS5089 announce AS-COMPLETEL
+export:         to AS5410 announce AS-COMPLETEL
+export:         to AS49555 announce ANY
+export:         to AS3573 announce ANY
+export:         to AS5436 announce AS-COMPLETEL
+export:         to AS6675 announce AS-COMPLETEL
+export:         to AS197505 announce ANY
+export:         to AS196633 announce ANY
+export:         to AS6678 announce AS-COMPLETEL
+export:         to AS6730 announce AS-COMPLETEL
+export:         to AS6774 announce AS-COMPLETEL
+export:         to AS6805 announce AS-COMPLETEL
+export:         to AS8220 announce AS-COMPLETEL
+export:         to AS8228 announce AS-COMPLETEL
+export:         to AS8255 announce ANY
+export:         to AS8304 announce AS-COMPLETEL
+export:         to AS8399 announce AS-COMPLETEL
+export:         to AS8527 announce AS-COMPLETEL
+export:         to AS8586 announce AS-COMPLETEL
+export:         to AS8657 announce AS-COMPLETEL
+export:         to AS8677 announce AS-COMPLETEL
+export:         to AS8708 announce AS-COMPLETEL
+export:         to AS8784 announce AS-COMPLETEL
+export:         to AS8839 announce ANY
+export:         to AS8975 announce AS-COMPLETEL
+export:         to AS9193 announce AS-COMPLETEL
+export:         to AS12322 announce AS-COMPLETEL
+export:         to AS12496 announce AS-COMPLETEL
+export:         to AS49694 announce ANY
+export:         to AS12626 announce AS-COMPLETEL
+export:         to AS12645 announce ANY
+export:         to AS49137 announce ANY
+export:         to AS1301 announce ANY
+export:         to AS12727 announce ANY
+export:         to AS12876 announce AS-COMPLETEL
+export:         to AS12893 announce ANY
+export:         to AS13049 announce AS-COMPLETEL
+export:         to AS13193 announce AS-COMPLETEL
+export:         to AS13237 announce AS-COMPLETEL
+export:         to AS15401 announce ANY
+export:         to AS15403 announce AS-COMPLETEL
+export:         to AS15412 announce AS-COMPLETEL
+export:         to AS15422 announce ANY
+export:         to AS15436 announce AS-COMPLETEL
+export:         to AS15557 announce AS-COMPLETEL
+export:         to AS16009 announce ANY
+export:         to AS16017 announce ANY
+export:         to AS16046 announce ANY
+export:         to AS16059 announce ANY
+export:         to AS16073 announce ANY
+export:         to AS198060 announce ANY
+export:         to AS16080 announce AS-COMPLETEL
+export:         to AS16101 announce ANY
+export:         to AS16128 announce AS-COMPLETEL
+export:         to AS16140 announce AS-COMPLETEL
+export:         to AS16276 announce AS-COMPLETEL
+export:         to AS20650 announce AS-COMPLETEL
+export:         to AS20672 announce ANY
+export:         to AS20766 announce AS-COMPLETEL
+export:         to AS20926 announce ANY
+export:         to AS21041 announce ANY
+export:         to AS21163 announce AS-COMPLETEL
+export:         to AS21247 announce AS-COMPLETEL
+export:         to AS21409 announce AS-COMPLETEL
+export:         to AS24702 announce AS-COMPLETEL
+export:         to AS24776 announce ANY
+export:         to AS24963 announce AS-COMPLETEL
+export:         to AS24975 announce ANY
+export:         to AS201900 announce ANY
+export:         to AS25345 announce AS-COMPLETEL
+export:         to AS28768 announce ANY
+export:         to AS28855 announce AS-COMPLETEL
+export:         to AS198287 announce ANY
+export:         to AS28877 announce AS-COMPLETEL
+export:         to AS29075 announce AS-COMPLETEL
+export:         to AS29092 announce ANY
+export:         to AS30741 announce ANY
+export:         to AS201325 announce ANY
+export:         to AS31660 announce ANY
+export:         to AS33870 announce ANY
+export:         to AS34493 announce ANY
+export:         to AS34536 announce ANY
+export:         to AS34860 announce ANY
+export:         to AS34970 announce ANY
+export:         to AS35009 announce ANY
+export:         to AS35012 announce ANY
+export:         to AS35169 announce ANY
+export:         to AS35363 announce ANY
+export:         to AS35625 announce ANY
+export:         to AS35600 announce ANY
+export:         to AS39340 announce ANY
+export:         to AS39534 announce ANY
+export:         to AS39542 announce ANY
+export:         to AS39715 announce ANY
+export:         to AS34294 announce ANY
+export:         to AS12744 announce ANY
+export:         to AS34535 announce ANY
+export:         to AS42188 announce ANY
+export:         to AS39771 announce ANY
+export:         to AS15444 announce AS-COMPLETEL
+export:         to AS25286 announce AS-COMPLETEL
+export:         to AS29402 announce AS-COMPLETEL
+export:         to AS29608 announce AS-COMPLETEL
+export:         to AS43717 announce ANY
+export:         to AS43734 announce AS-COMPLETEL
+export:         to AS43249 announce AS-COMPLETEL
+export:         to AS35676 announce AS-COMPLETEL
+export:         to AS43654 announce AS-COMPLETEL
+export:         to AS42487 announce AS-COMPLETEL
+export:         to AS31178 announce AS-COMPLETEL
+export:         to AS8908 announce ANY
+export:         to AS44842 announce ANY
+export:         to AS39405 announce ANY
+export:         to AS47599 announce ANY
+export:         to AS47127 announce ANY
+export:         to AS9180 announce ANY
+export:         to AS44986 announce ANY
+export:         to AS47858 announce ANY
+export:         to AS48703 announce ANY
+export:         to AS47980 announce ANY
+export:         to AS48819 announce ANY
+export:         to AS50446 announce ANY
+org:            ORG-CSF1-RIPE
+admin-c:        NES19-RIPE
+tech-c:         NES19-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         CDN14-RIPE
+mnt-by:         COMPLETEL-MNT
+remarks:        ========================================================
+remarks:        Abuse reports to abuse@completel.fr
+remarks:        Peering contact is peering@completel.fr
+remarks:        ========================================================
+remarks:        ------------------------------------------------------
+remarks:        BGP COMMUNITY SUPPORT FOR AS12670 TRANSIT CUSTOMERS:
+remarks:        Community Action (default local pref 100)
+remarks:        -----------------------------------------
+remarks:        Community Action
+remarks:        --------- ------
+remarks:        65100:1299 : Drop towards Telia
+remarks:        65101:1299 : Prepend 1 AS towards Telia
+remarks:        65102:1299 : Prepend 2 AS towards Telia
+remarks:        65103:1299 : Prepend 3 AS towards Telia
+remarks:        65100:8218 : Drop towards Neo Telecom
+remarks:        65101:8218 : Prepend 1 AS towards Neo Telecom
+remarks:        65102:8218 : Prepend 2 AS towards Neo Telecom
+remarks:        65103:8218 : Prepend 3 AS towards Neo Telecom
+remarks:        65100:3356 : Drop towards Level3
+remarks:        65101:3356 : Prepend 1 AS towards Level3
+remarks:        65102:3356 : Prepend 2 AS towards Level3
+remarks:        65103:3356 : Prepend 3 AS towards Level3
+remarks:        65100:15169 : Drop towards Google
+remarks:        65101:15169 : Prepend 1 AS towards Google
+remarks:        65102:15169 : Prepend 2 AS towards Google
+remarks:        65103:15169 : Prepend 3 AS towards Google
+remarks:        65100:51706 : Drop towards FranceIX
+remarks:        65101:51706 : Prepend 1 AS towards FranceIX
+remarks:        65102:51706 : Prepend 2 AS towards FranceIX
+remarks:        65103:51706 : Prepend 3 AS towards FranceIX
+created:        2002-09-13T08:27:12Z
+last-modified:  2017-11-15T09:16:55Z
+source:         RIPE
+
+organisation:   ORG-CSF1-RIPE
+org-name:       COMPLETEL SAS
+org-type:       LIR
+address:        10 rue Albert Einstein
+                Champs-sur-Marne
+address:        77437
+address:        77437 Marne-la-Valle Cedex 2
+address:        FRANCE
+phone:          +33170017007
+fax-no:         +33172922625
+admin-c:        LIR20-RIPE
+admin-c:        AC7987-RIPE
+admin-c:        NES19-RIPE
+admin-c:        LD699-RIPE
+admin-c:        BEO13-RIPE
+mnt-ref:        COMPLETEL-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         COMPLETEL-MNT
+abuse-c:        AM34231-RIPE
+created:        2004-04-17T11:21:33Z
+last-modified:  2018-12-14T09:29:34Z
+source:         RIPE # Filtered
+
+role:           Completel Data NOC
+address:        CompleTel France
+address:        15, rue des Sorins
+address:        92741 Nanterre cedex
+address:        France
+phone:          +33 1 58584704
+fax-no:         +33 1 49064968
+remarks:        trouble: Questions and bug reports mailto:data@completel.fr
+remarks:        Abuse reports to abuse@completel.fr
+admin-c:        BEO13-RIPE
+tech-c:         BEO13-RIPE
+nic-hdl:        CDN14-RIPE
+mnt-by:         AS12670-MNT
+created:        2001-10-05T15:05:11Z
+last-modified:  2016-12-14T14:31:22Z
+source:         RIPE # Filtered
+
+person:         Nassef Essalhi
+address:        Completel SAS France
+address:        10 rue Albert Einstein
+address:        Champs-sur-Marne
+address:        77437 Marne-la-Valle Cedex 2
+address:        France
+phone:          +33172922000
+nic-hdl:        NES19-RIPE
+mnt-by:         COMPLETEL-MNT
+created:        2009-01-19T15:31:30Z
+last-modified:  2011-05-27T08:10:25Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

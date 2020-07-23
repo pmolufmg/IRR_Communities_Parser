@@ -1,0 +1,154 @@
+aut-num:        AS25482
+as-name:        ISP-STATUS
+descr:          ISP STATUS
+org:            ORG-PEF2-RIPE
+remarks:        =====================================================
+remarks:        Upstreams
+remarks:        -----------------------IPv4--------------------------
+import:         from AS35213 action pref=200; accept ANY
+export:         to AS35213 announce AS25482:AS-CUSTOMERS
+import:         from AS12883 action pref=200; accept ANY
+export:         to AS12883 announce AS25482:AS-CUSTOMERS
+import:         from AS21219 action pref=200; accept ANY
+export:         to AS21219 announce AS25482:AS-CUSTOMERS
+import:         from AS21011 action pref=200; accept ANY
+export:         to AS21011 announce AS25482:AS-CUSTOMERS
+import:         from AS3255 action pref=200; accept ANY
+export:         to AS3255 announce AS25482:AS-CUSTOMERS
+remarks:        -----------------------IPv6--------------------------
+mp-import:      afi ipv6.unicast from AS12883 accept ANY
+mp-export:      afi ipv6.unicast to AS12883 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS21219 accept ANY
+mp-export:      afi ipv6.unicast to AS21219 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS21011 accept ANY
+mp-export:      afi ipv6.unicast to AS21011 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS3255 accept ANY
+mp-export:      afi ipv6.unicast to AS3255 announce AS-STATUS-V6
+remarks:        =====================================================
+remarks:
+remarks:        =====================================================
+remarks:        Downstreams
+remarks:        -----------------------------------------------------
+import:         from AS15458 action pref=100; accept AS15458
+export:         to AS15458 announce ANY
+import:         from AS49168 action pref=100; accept AS49168
+export:         to AS49168 announce ANY
+import:         from AS44737 action pref=100; accept AS44737
+export:         to AS44737 announce ANY
+import:         from AS59500 action pref=100; accept AS59500
+export:         to AS59500 announce ANY
+import:         from AS42782 action pref=100; accept AS42782
+export:         to AS42782 announce ANY
+import:         from AS39667 action pref=100; accept AS39667
+export:         to AS39667 announce ANY
+import:         from AS21151 action pref=100; accept AS21151:AS-CUSTOMERS
+export:         to AS21151 announce ANY
+remarks:        =====================================================
+remarks:
+remarks:        =====================================================
+remarks:        IX's
+remarks:        -----------------------IPv4--------------------------
+import:         from AS8695 action pref=120; accept AS-KS-IX
+export:         to AS8695 announce AS25482:AS-CUSTOMERS
+import:         from AS59613 action pref=150; accept AS-UBNIX
+export:         to AS59613 announce AS25482:AS-CUSTOMERS
+import:         from AS50952 action pref=150; accept AS-DATAIX
+export:         to AS50952 announce AS25482:AS-CUSTOMERS
+import:         from AS31210 action pref=150; accept AS-DTEL-IX
+export:         to AS31210 announce AS25482:AS-CUSTOMERS
+import:         from AS6939 action pref=150; accept AS-HURRICANE
+export:         to AS6939 announce AS25482:AS-CUSTOMERS
+import:         from AS42 action pref=150; accept AS-PCH
+export:         to AS42 announce AS25482:AS-CUSTOMERS
+import:         from AS3856 action pref=150; accept AS-PCH
+export:         to AS3856 announce AS25482:AS-CUSTOMERS
+import:         from AS13335 action pref=150; accept AS13335
+export:         to AS13335 announce AS25482:AS-CUSTOMERS
+import:         from AS44193 action pref=125; accept AS-ODIX
+export:         to AS44193 announce AS25482:AS-CUSTOMERS
+import:         from AS12578 action pref=150; accept AS-LATTELEKOM
+export:         to AS12578 announce AS25482:AS-CUSTOMERS
+remarks:        -----------------------IPv6--------------------------
+mp-import:      afi ipv6.unicast from AS8695 accept AS-KS-IX-V6
+mp-export:      afi ipv6.unicast to AS8695 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS59613 accept AS-UBNIX-v6
+mp-export:      afi ipv6.unicast to AS59613 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS50952 accept AS-DATAIX
+mp-export:      afi ipv6.unicast to AS50952 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANEv6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS42 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS3856 accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS13335 accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 announce AS-STATUS-V6
+mp-import:      afi ipv6.unicast from AS12578 accept AS-LATTELEKOM
+mp-export:      afi ipv6.unicast to AS12578 announce AS-STATUS-V6
+remarks:        =====================================================
+remarks:
+remarks:        =====================================================
+remarks:        Customer traffic engineering communities
+remarks:        -----------------------------------------------------
+remarks:        Uplinks:
+remarks:        01 - Ucomline
+remarks:        02 - PCN
+remarks:        03 - TN
+remarks:        04 - DG
+remarks:        05 - UAR
+remarks:        90 - GGC
+remarks:        91 - LATTELEKOM
+remarks:        92 - OD-IX
+remarks:        93 - Cloudflare
+remarks:        94 - PCH
+remarks:        95 - HURRICANE
+remarks:        96 - DTEL-IX
+remarks:        97 - DataIX
+remarks:        98 - GigaNet
+remarks:        99 - KS-IX
+remarks:        -----------------------------------------------------
+remarks:        Clients:
+remarks:        01 - TLC
+remarks:        02 - Brok-X
+remarks:        03 - Next
+remarks:        04 - LineVPS
+remarks:        05 - Stream-Kherson
+remarks:        06 - Online-Net
+remarks:        07 - UKRCOM
+remarks:        -----------------------------------------------------
+remarks:        Announced communities:
+remarks:        Route type:
+remarks:        25482:65001 - From downstream
+remarks:        25482:65002 - From peer
+remarks:        Route originator:
+remarks:        25482:640XX - client XX
+remarks:        25482:641XX - uplink XX
+remarks:        25482:642XX - peer XX
+remarks:        -----------------------------------------------------
+remarks:        Accepted communities:
+remarks:        25482:63XXY - XX uplink
+remarks:        Y - 0 - do not advertise
+remarks:        Y - 1-3 - num of prepends
+remarks:        -----------------------------------------------------
+remarks:        Blackhole:
+remarks:        25482:666 - blackhole traffic at any router
+remarks:        25482:63900 - not annouce to GGC
+remarks:        =====================================================
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         STATUS-MNT
+created:        2002-12-05T16:14:25Z
+last-modified:  2018-04-19T14:09:06Z
+source:         RIPE
+sponsoring-org: ORG-ML410-RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

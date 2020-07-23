@@ -1,0 +1,506 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8771 - AS9128'
+
+as-block:       AS8771 - AS9128
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8918'
+
+% Abuse contact for 'AS8918' is 'inoc@carrier1.com'
+
+aut-num:        AS8918
+org:            ORG-CB2-RIPE
+as-name:        CARRIER1-AS
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 Upstream Connections
+remarks:        *
+remarks:        ------------------------------------------------------
+import:         from AS3320  action pref=125; accept ANY
+import:         from AS6453  action pref=125; accept ANY
+import:         from AS24785 action pref=125; accept ANY
+import:         from AS20562 action pref=125; accept ANY
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 Customers
+remarks:        *
+remarks:        ------------------------------------------------------
+import:         from AS12666 action pref=50;  accept AS12666
+import:         from AS12871 action pref=50;  accept AS-CONCEPTS
+import:         from AS12394 action pref=50;  accept AS-ENERTELNV
+import:         from AS16281 action pref=50;  accept AS16281
+import:         from AS20747 action pref=50;  accept AS-PINS
+import:         from AS20847 action pref=50;  accept AS-INTROWEB
+import:         from AS20857 action pref=50;  accept AS-TRANSIP
+import:         from AS20953 action pref=50;  accept AS-INFO
+import:         from AS24996 action pref=50;  accept AS24996
+import:         from AS30913 action pref=50;  accept AS-INTERXS
+import:         from AS31586 action pref=50;  accept AS31586
+import:         from AS33803 action pref=50;  accept AS33803
+import:         from AS34141 action pref=50;  accept AS-IN2IP
+import:         from AS34710 action pref=50; accept AS34710
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 Private Peering
+remarks:        *
+remarks:        ------------------------------------------------------
+import:         from AS702   action pref=100; accept AS702:RS-EURO
+import:         from AS702   action pref=100; accept AS702:RS-CUSTOMER
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 NL IX Peering
+remarks:        *
+remarks:        ------------------------------------------------------
+import:         from AS12414 action pref=100; accept AS-SOLCON
+import:         from AS12902 action pref=100; accept AS-LUNA
+import:         from AS13030 action pref=100; accept AS-INIT7
+import:         from AS16131 action pref=100; accept AS-GRAFIX
+import:         from AS20953 action pref=100; accept AS-INFO
+import:         from AS20847 action pref=100; accept AS-INTROWEB
+import:         from AS20857 action pref=100; accept AS-TRANSIP
+import:         from AS24875 action pref=100; accept AS-ISPSERVICES
+import:         from AS25182 action pref=100; accept AS-PUBLIEKEOMROEP
+import:         from AS25232 action pref=100; accept AS-ROKSCOM
+import:         from AS25433 action pref=100; accept AS-HENZ
+import:         from AS25542 action pref=100; accept AS-DENIT
+import:         from AS25596 action pref=100; accept AS-CAMBRIUM
+import:         from AS28747 action pref=100; accept AS-REALROOT-NLIX
+import:         from AS29028 action pref=100; accept AS29028
+import:         from AS29073 action pref=100; accept AS-COLINKS
+import:         from AS29279 action pref=100; accept AS-NETVICTORY
+import:         from AS29502 action pref=100; accept AS29502
+import:         from AS29958 action pref=100; accept AS29958
+import:         from AS30727 action pref=100; accept AS30727
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 AMS-IX Peering
+remarks:        *
+remarks:        ------------------------------------------------------
+import:         from AS112   action pref=100; accept AS112
+import:         from AS286   action pref=100; accept AS-KQ
+import:         from AS1103  action pref=100; accept AS-SURFNET
+import:         from AS1136  action pref=100; accept AS-KPN
+import:         from AS1140  action pref=100; accept AS1140
+import:         from AS1200  action pref=100; accept AS1200
+import:         from AS1257  action pref=100; accept AS-SWIPNET
+import:         from AS1299  action pref=100; accept AS-TELIANET
+import:         from AS2529  action pref=100; accept AS-DEMON
+import:         from AS2686  action pref=100; accept AS-IGNEMEA
+import:         from AS2818  action pref=100; accept AS-BBC
+import:         from AS2914  action pref=100; accept AS2914
+import:         from AS3246  action pref=100; accept AS-TELEONEEUROPE
+import:         from AS3262  action pref=100; accept AS-SARENET
+import:         from AS3265  action pref=100; accept AS-ACCESSFORALL
+import:         from AS3291  action pref=100; accept AS-PSINETEU
+import:         from AS3292  action pref=100; accept AS-TDCNET
+import:         from AS3303  action pref=100; accept AS-SWCMGLOBAL
+import:         from AS3333  action pref=100; accept AS3333
+import:         from AS4513  action pref=100; accept AS-GLOBIX
+import:         from AS4589  action pref=100; accept AS-EASYNET
+import:         from AS5390  action pref=100; accept AS-EURONETNL
+import:         from AS5413  action pref=100; accept AS5413:AS-PIPEX
+import:         from AS5417  action pref=100; accept AS-DEMON
+import:         from AS5419  action pref=100; accept AS-CUCI
+import:         from AS5430  action pref=100; accept AS-FREENETDE
+import:         from AS5462  action pref=100; accept AS-CABLEINET
+import:         from AS5466  action pref=100; accept AS-EIRCOM
+import:         from AS5583  action pref=100; accept AS-GIPNL
+import:         from AS5587  action pref=100; accept AS-BSVE
+import:         from AS5669  action pref=100; accept AS-VIA
+import:         from AS6320  action pref=100; accept AS-TELECOMPLETE
+import:         from AS6705  action pref=100; accept AS-PROFI
+import:         from AS6728  action pref=100; accept AS-NILDRAM
+import:         from AS6730  action pref=100; accept AS-GLOBAL
+import:         from AS6762  action pref=100; accept AS-SEABONE
+import:         from AS6774  action pref=100; accept AS-BELBONETOPEERS
+import:         from AS6805  action pref=100; accept AS-TDDE
+import:         from AS6830  action pref=100; accept AS-AORTA
+import:         from AS8190  action pref=100; accept AS8190
+import:         from AS8210  action pref=100; accept AS-TELENOR
+import:         from AS8220  action pref=100; accept AS-TELENOR
+import:         from AS8271  action pref=100; accept AS-PIPELINE
+import:         from AS8341  action pref=100; accept AS-QUICKNET
+import:         from AS8437  action pref=100; accept AS-UTA AS-SWCMGLOBAL
+import:         from AS8560  action pref=100; accept AS-SCHLUND
+import:         from AS8586  action pref=100; accept AS-REDNET
+import:         from AS8608  action pref=100; accept AS-QINIP
+import:         from AS8642  action pref=100; accept AS-BREDBAND
+import:         from AS8657  action pref=100; accept AS-CPRM
+import:         from AS8708  action pref=100; accept AS-RDSNET
+import:         from AS8737  action pref=100; accept AS8737
+import:         from AS8954  action pref=100; accept AS-INTOUCHPEERS
+import:         from AS9132  action pref=100; accept AS-MEDIASCAPE
+import:         from AS9143  action pref=100; accept AS-BENELUX
+import:         from AS9191  action pref=100; accept AS-NEWNET
+import:         from AS9264  action pref=100; accept AS-ASNET
+import:         from AS12347 action pref=100; accept AS-MAGNET
+import:         from AS12414 action pref=100; accept AS-SOLCON
+import:         from AS12496 action pref=100; accept AS-IDNETUK
+import:         from AS12573 action pref=100; accept AS-WIDEXS
+import:         from AS12634 action pref=100; accept AS-SCARLET
+import:         from AS12832 action pref=100; accept AS-LYCOSEU
+import:         from AS12859 action pref=100; accept AS-BIT
+import:         from AS12871 action pref=100; accept AS-CONCEPTS
+import:         from AS12902 action pref=100; accept AS-LUNA
+import:         from AS12989 action pref=100; accept AS12989
+import:         from AS13030 action pref=100; accept AS-INIT7
+import:         from AS13101 action pref=100; accept AS-TNG
+import:         from AS13127 action pref=100; accept AS-VERSATEL
+import:         from AS13129 action pref=100; accept AS-GAT
+import:         from AS13237 action pref=100; accept AS-LNCAMSIX
+import:         from AS15412 action pref=100; accept AS-FLAGP
+import:         from AS15435 action pref=100; accept AS-KABELFOON
+import:         from AS15436 action pref=100; accept AS-WITBE
+import:         from AS15569 action pref=100; accept AS-NOVAXESS
+import:         from AS15598 action pref=100; accept AS-IPX
+import:         from AS15600 action pref=100; accept AS-LAN
+import:         from AS15623 action pref=100; accept AS-CYBERLINK
+import:         from AS15670 action pref=100; accept AS15670
+import:         from AS15879 action pref=100; accept AS-IS
+import:         from AS16147 action pref=100; accept AS16147
+import:         from AS16298 action pref=100; accept AS-INTERBOX
+import:         from AS16318 action pref=100; accept AS-DEKOOI
+import:         from AS20495 action pref=100; accept AS-WDSET
+import:         from AS20504 action pref=100; accept AS20504
+import:         from AS20507 action pref=100; accept AS-INTERNLNET
+import:         from AS20532 action pref=100; accept AS-IPTOWER
+import:         from AS20562 action pref=100; accept AS-OPENPEERING
+import:         from AS20639 action pref=100; accept AS-NETLAND
+import:         from AS20640 action pref=100; accept AS-TITANNET
+import:         from AS20689 action pref=100; accept AS20689
+import:         from AS20747 action pref=100; accept AS-PINS
+import:         from AS20847 action pref=100; accept AS-INTROWEB
+import:         from AS20857 action pref=100; accept AS20857
+import:         from AS20940 action pref=100; accept AS-AKAMAI
+import:         from AS21073 action pref=100; accept AS-ZORANET
+import:         from AS21155 action pref=100; accept AS-PROSERVE
+import:         from AS21221 action pref=100; accept AS-INFOPACT
+import:         from AS21392 action pref=100; accept AS-TOO-FAST
+import:         from AS21478 action pref=100; accept AS21478
+import:         from AS24587 action pref=100; accept AS24587
+import:         from AS24646 action pref=100; accept AS-ILSEMEDIA
+import:         from AS24793 action pref=100; accept AS24793
+import:         from AS24875 action pref=100; accept AS-ISPSERVICES
+import:         from AS25152 action pref=100; accept RS-KROOT-AMS-IX
+import:         from AS25179 action pref=100; accept AS25197
+import:         from AS25209 action pref=100; accept AS25209
+import:         from AS28685 action pref=100; accept AS-ROUTIT
+import:         from AS28788 action pref=100; accept AS-UNILOGICNET
+import:         from AS28836 action pref=100; accept AS-ICSNL
+import:         from AS28878 action pref=100; accept AS-SIGNET
+import:         from AS29396 action pref=100; accept AS29396
+import:         from AS30776 action pref=100; accept AS30776
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 Upstreams
+remarks:        *
+remarks:        ------------------------------------------------------
+export:         to   AS3320  announce AS-CARRIERONE
+export:         to   AS6453  announce AS-CARRIERONE
+export:         to   AS24785 announce AS-CARRIERONE
+export:         to   AS20562 announce AS-CARRIERONE
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 Customers
+remarks:        *
+remarks:        ------------------------------------------------------
+export:         to   AS12394 announce ANY
+export:         to   AS12666 announce ANY
+export:         to   AS12871 announce ANY
+export:         to   AS16281 announce ANY
+export:         to   AS16353 announce ANY
+export:         to   AS20747 announce ANY
+export:         to   AS20847 announce ANY
+export:         to   AS20857 announce ANY
+export:         to   AS20953 announce ANY
+export:         to   AS24996 announce ANY
+export:         to   AS30785 announce ANY
+export:         to   AS30913 announce ANY
+export:         to   AS31586 announce ANY
+export:         to   AS33803 announce ANY
+export:         to   AS34710 announce ANY
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 Private Peering
+remarks:        *
+remarks:        ------------------------------------------------------
+export:         to   AS702   announce AS-CARRIERONE
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 NL-IX Peering
+remarks:        *
+remarks:        ------------------------------------------------------
+export:         to   AS12414 announce AS-CARRIERONE
+export:         to   AS12902 announce AS-CARRIERONE
+export:         to   AS13030 announce AS-CARRIERONE
+export:         to   AS16131 announce AS-CARRIERONE
+export:         to   AS20857 announce AS-CARRIERONE
+export:         to   AS20953 announce AS-CARRIERONE
+export:         to   AS24875 announce AS-CARRIERONE
+export:         to   AS25182 announce AS-CARRIERONE
+export:         to   AS25232 announce AS-CARRIERONE
+export:         to   AS25433 announce AS-CARRIERONE
+export:         to   AS25542 announce AS-CARRIERONE
+export:         to   AS25596 announce AS-CARRIERONE
+export:         to   AS20847 announce AS-CARRIERONE
+export:         to   AS28747 announce AS-CARRIERONE
+export:         to   AS29028 announce AS-CARRIERONE
+export:         to   AS29073 announce AS-CARRIERONE
+export:         to   AS29279 announce AS-CARRIERONE
+export:         to   AS29502 announce AS-CARRIERONE
+export:         to   AS29958 announce AS-CARRIERONE
+export:         to   AS30727 announce AS-CARRIERONE
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        Carrier1 AMS-IX Peering
+remarks:        *
+remarks:        ------------------------------------------------------
+export:         to   AS112   announce AS-CARRIERONE
+export:         to   AS286   announce AS-CARRIERONE
+export:         to   AS1103  announce AS-CARRIERONE
+export:         to   AS1136  announce AS-CARRIERONE
+export:         to   AS1140  announce AS-CARRIERONE
+export:         to   AS1200  announce AS-CARRIERONE
+export:         to   AS1257  announce AS-CARRIERONE
+export:         to   AS1299  announce AS-CARRIERONE
+export:         to   AS2529  announce AS-CARRIERONE
+export:         to   AS2686  announce AS-CARRIERONE
+export:         to   AS2818  announce AS-CARRIERONE
+export:         to   AS2914  announce AS-CARRIERONE
+export:         to   AS3246  announce AS-CARRIERONE
+export:         to   AS3262  announce AS-CARRIERONE
+export:         to   AS3265  announce AS-CARRIERONE
+export:         to   AS3291  announce AS-CARRIERONE
+export:         to   AS3292  announce AS-CARRIERONE
+export:         to   AS3303  announce AS-CARRIERONE
+export:         to   AS3333  announce AS-CARRIERONE
+export:         to   AS4513  announce AS-CARRIERONE
+export:         to   AS4589  announce AS-CARRIERONE
+export:         to   AS5390  announce AS-CARRIERONE
+export:         to   AS5413  announce AS-CARRIERONE
+export:         to   AS5417  announce AS-CARRIERONE
+export:         to   AS5419  announce AS-CARRIERONE
+export:         to   AS5430  announce AS-CARRIERONE
+export:         to   AS5462  announce AS-CARRIERONE
+export:         to   AS5466  announce AS-CARRIERONE
+export:         to   AS5583  announce AS-CARRIERONE
+export:         to   AS5587  announce AS-CARRIERONE
+export:         to   AS5669  announce AS-CARRIERONE
+export:         to   AS6320  announce AS-CARRIERONE
+export:         to   AS6705  announce AS-CARRIERONE
+export:         to   AS6728  announce AS-CARRIERONE
+export:         to   AS6730  announce AS-CARRIERONE
+export:         to   AS6762  announce AS-CARRIERONE
+export:         to   AS6774  announce AS-CARRIERONE
+export:         to   AS6805  announce AS-CARRIERONE
+export:         to   AS6830  announce AS-CARRIERONE
+export:         to   AS8190  announce AS-CARRIERONE
+export:         to   AS8210  announce AS-CARRIERONE
+export:         to   AS8220  announce AS-CARRIERONE
+export:         to   AS8271  announce AS-CARRIERONE
+export:         to   AS8341  announce AS-CARRIERONE
+export:         to   AS8437  announce AS-CARRIERONE
+export:         to   AS8560  announce AS-CARRIERONE
+export:         to   AS8586  announce AS-CARRIERONE
+export:         to   AS8608  announce AS-CARRIERONE
+export:         to   AS8642  announce AS-CARRIERONE
+export:         to   AS8657  announce AS-CARRIERONE
+export:         to   AS8708  announce AS-CARRIERONE
+export:         to   AS8737  announce AS-CARRIERONE
+export:         to   AS8954  announce AS-CARRIERONE
+export:         to   AS9132  announce AS-CARRIERONE
+export:         to   AS9143  announce AS-CARRIERONE
+export:         to   AS9191  announce AS-CARRIERONE
+export:         to   AS9264  announce AS-CARRIERONE
+export:         to   AS12347 announce AS-CARRIERONE
+export:         to   AS12414 announce AS-CARRIERONE
+export:         to   AS12496 announce AS-CARRIERONE
+export:         to   AS12573 announce AS-CARRIERONE
+export:         to   AS12634 announce AS-CARRIERONE
+export:         to   AS12832 announce AS-CARRIERONE
+export:         to   AS12859 announce AS-CARRIERONE
+export:         to   AS12871 announce AS-CARRIERONE
+export:         to   AS12902 announce AS-CARRIERONE
+export:         to   AS12989 announce AS-CARRIERONE
+export:         to   AS13030 announce AS-CARRIERONE
+export:         to   AS13101 announce AS-CARRIERONE
+export:         to   AS13127 announce AS-CARRIERONE
+export:         to   AS13129 announce AS-CARRIERONE
+export:         to   AS13237 announce AS-CARRIERONE
+export:         to   AS15412 announce AS-CARRIERONE
+export:         to   AS15435 announce AS-CARRIERONE
+export:         to   AS15436 announce AS-CARRIERONE
+export:         to   AS15569 announce AS-CARRIERONE
+export:         to   AS15598 announce AS-CARRIERONE
+export:         to   AS15600 announce AS-CARRIERONE
+export:         to   AS15623 announce AS-CARRIERONE
+export:         to   AS15670 announce AS-CARRIERONE
+export:         to   AS15879 announce AS-CARRIERONE
+export:         to   AS16147 announce AS-CARRIERONE
+export:         to   AS16298 announce AS-CARRIERONE
+export:         to   AS16318 announce AS-CARRIERONE
+export:         to   AS20495 announce AS-CARRIERONE
+export:         to   AS20504 announce AS-CARRIERONE
+export:         to   AS20507 announce AS-CARRIERONE
+export:         to   AS20532 announce AS-CARRIERONE
+export:         to   AS20562 announce AS-CARRIERONE
+export:         to   AS20639 announce AS-CARRIERONE
+export:         to   AS20640 announce AS-CARRIERONE
+export:         to   AS20689 announce AS-CARRIERONE
+export:         to   AS20747 announce AS-CARRIERONE
+export:         to   AS20847 announce AS-CARRIERONE
+export:         to   AS20857 announce AS-CARRIERONE
+export:         to   AS20940 announce AS-CARRIERONE
+export:         to   AS21073 announce AS-CARRIERONE
+export:         to   AS21155 announce AS-CARRIERONE
+export:         to   AS21221 announce AS-CARRIERONE
+export:         to   AS21392 announce AS-CARRIERONE
+export:         to   AS21478 announce AS-CARRIERONE
+export:         to   AS24587 announce AS-CARRIERONE
+export:         to   AS24646 announce AS-CARRIERONE
+export:         to   AS24793 announce AS-CARRIERONE
+export:         to   AS24875 announce AS-CARRIERONE
+export:         to   AS25152 announce AS-CARRIERONE
+export:         to   AS25179 announce AS-CARRIERONE
+export:         to   AS25209 announce AS-CARRIERONE
+export:         to   AS28685 announce AS-CARRIERONE
+export:         to   AS28788 announce AS-CARRIERONE
+export:         to   AS28836 announce AS-CARRIERONE
+export:         to   AS28878 announce AS-CARRIERONE
+export:         to   AS29396 announce AS-CARRIERONE
+export:         to   AS30776 announce AS-CARRIERONE
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        The Following communities can be used by Carrier1 Customers
+remarks:        to control outbound routing announcements
+remarks:        *
+remarks:        Community  Definition
+remarks:        ------------------------------------------------------
+remarks:        *
+remarks:        8918:2000  Do not announce to C1 customers
+remarks:        8918:2010  Do not announce to C1 peers, peers+ and transit
+remarks:        8918:2015  Do not announce to C1 transit providers
+remarks:        *
+remarks:        8918:2020  Do not announce to Teleglobe (AS 6453)
+remarks:        8918:2035  Do not announce to UUNet      (AS 702)
+remarks:        8918:2050  Do not announce to T-Systems (AS 3320)
+remarks:        8918:2060  Do not announce to JointTransit (AS 24785 / 20562)
+remarks:        *
+remarks:        8918:2070  Do not announce to AMS-IX peers
+remarks:        8918:2080  Do not announce to NL-IX peers
+remarks:        ----------------------------------------------------------------
+remarks:        *
+remarks:        Communities to prepend AS8918 to outbound routing announcements:
+remarks:        *
+remarks:        Community Definition
+remarks:        ----------------------------------------------------------------
+remarks:        *
+remarks:        T-Systems
+remarks:        8918:3006 T-Systems (AS 3320) prepend 8918
+remarks:        8918:3007 T-Systems (AS 3320) prepend 8918 8918
+remarks:        8918:3008 T-Systems (AS 3320) prepend 8918 8918 8918
+remarks:        8918:3009 T-systems (AS 3320) prepend 8918 8918 8918 8918
+remarks:        8918:3010 T-Systems (AS 3320) prepend 8918 8918 8918 8918 8918
+remarks:        *
+remarks:        Teleglobe
+remarks:        8918:3011 Teleglobe (AS 6453) prepend 8918
+remarks:        8918:3012 Teleglobe (AS 6453) prepend 8918 8918
+remarks:        8918:3013 Teleglobe (AS 6453) prepend 8918 8918 8918
+remarks:        8918:3014 Teleglobe (AS 6453) prepend 8918 8918 8918 8918
+remarks:        8918:3015 Teleglobe (AS 6453) prepend 8918 8918 8918 8918 8918
+remarks:        *
+remarks:        UUnet
+remarks:        8918:3026 UUNET (AS 702) prepend 8918
+remarks:        8918:3027 UUNET (AS 702) prepend 8918 8918
+remarks:        8918:3028 UUNET (AS 702) prepend 8918 8918 8918
+remarks:        8918:3029 UUNET (AS 702) prepend 8918 8918 8918 8918
+remarks:        8918:3030 UUNET (AS 702) prepend 8918 8918 8918 8918 8918
+remarks:        *
+remarks:        JointTransit
+remarks:        8918:3031 JointTransit (AS 24785 / 20562) prepend 8918
+remarks:        8918:3032 JointTransit (AS 24785 / 20562) prepend 8918 8918
+remarks:        8918:3033 JointTransit (AS 24785 / 20562) prepend 8918 8918 8918
+remarks:        8918:3034 JointTransit (AS 24785 / 20562) prepend 8918 8918 8918 8918
+remarks:        8918:3035 JointTransit (AS 24785 / 20562) prepend 8918 8918 8918 8918 8918
+remarks:        *
+remarks:        8918:3036 NL-IX Peers prepend 8918
+remarks:        8918:3037 NL-IX Peers prepend 8918 8918
+remarks:        8918:3038 NL-IX Peers prepend 8918 8918 8918
+remarks:        8918:3039 NL-IX Peers prepend 8918 8918 8918 8918
+remarks:        8918:3040 NL-IX Peers prepend 8918 8918 8918 8918 8918
+remarks:        *
+remarks:        8918:3066 AMS-IX PEERS prepend 8918
+remarks:        8918:3067 AMS-IX PEERS prepend 8918 8918
+remarks:        8918:3068 AMS-IX PEERS prepend 8918 8918 8918
+remarks:        8918:3069 AMS-IX PEERS prepend 8918 8918 8918 8918
+remarks:        8918:3070 AMS-IX PEERS prepend 8918 8918 8918 8918 8918
+remarks:        ----------------------------------------------------------------
+admin-c:        IRA6-RIPE
+tech-c:         IRA6-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ----------------------------------
+remarks:        incase of remarks contact: admin-c
+remarks:        ----------------------------------
+mnt-by:         CARRIER1-MNT
+created:        2002-02-01T10:06:23Z
+last-modified:  2017-11-15T09:15:55Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CB2-RIPE
+org-name:       Coolwave Communications B.V.
+org-type:       LIR
+address:        Unite 6 Sandyford Business Centre
+                Sandyford Industrial Estate
+address:        Dublin 18
+address:        IRELAND
+phone:          +31 20 2626 000
+fax-no:         +35314818401
+abuse-c:        AR15038-RIPE
+admin-c:        DW581-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        IBIS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         IBIS-MNT
+created:        2004-04-17T11:18:48Z
+last-modified:  2017-07-13T12:50:51Z
+source:         RIPE # Filtered
+
+role:           IBIS role account
+address:        Imagine Group Ltd.
+address:        Unit 5C & 6
+address:        Sandyford Business Centre
+address:        Blackthorn Road
+address:        Sandyford Industrial Estate,
+address:        Dublin 18,
+address:        Ireland
+phone:          +353-1-4818400
+fax-no:         +353-1-4818476
+admin-c:        BO287-RIPE
+admin-c:        DW581-RIPE
+tech-c:         DW581-RIPE
+nic-hdl:        Ira6-RIPE
+mnt-by:         IBIS-MNT
+remarks:        Please do NOT send abuse complaints to the contacts listed.
+remarks:        Please check remarks on individual inetnum records for abuse contacts, or failing
+remarks:        that email abuse reports to abuse@imaginegroup.ie
+created:        2003-06-13T11:02:07Z
+last-modified:  2012-02-17T12:17:27Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

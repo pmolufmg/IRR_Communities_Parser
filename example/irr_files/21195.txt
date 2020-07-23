@@ -1,0 +1,53 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS21195
+as-name:       DGCSYSTEMS
+descr:         Stockholm Sweden
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+remarks:       ********************************************************
+remarks:       * NETNOD PEERS *
+remarks:       ********************************************************
+remarks:       ********************************************************
+remarks:       * TRANSITS *
+remarks:       ********************************************************
+remarks:       ********************************************************
+remarks:       * CUSTOMERS IPV4 *
+remarks:       ********************************************************
+remarks:       ********************************************************
+remarks:       * CUSTOMERS IPV6 *
+remarks:       ********************************************************
+remarks:       ********************************************************
+remarks:       * COMMUNITYS *
+remarks:       * *
+remarks:       * 21195:101 - Announce to Transits prepend 1x *
+remarks:       * 21195:102 - Announce to Transits prepend 2x *
+remarks:       * 21195:103 - Announce to Transits prepend 3x *
+remarks:       * 21195:9999 - Blackhole announcement *
+remarks:       ********************************************************
+remarks:       ********************************************************
+remarks:       * PEERING POLICY *
+remarks:       * *
+remarks:       * We have a open peering policy and is willing to peer *
+remarks:       * based on a zero settlement peering. We accept *
+remarks:       * traffic to and from DGC networks and our peer *
+remarks:       * networks. Pointing default route or using our *
+remarks:       * networks for transit is not permitted. *
+remarks:       * *
+remarks:       * Peering contact: peering@dgc.se *
+remarks:       * NOC contact: noc@dgc.se *
+remarks:       ********************************************************
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+notify:        ripe-notify@dgc.se
+mnt-by:        DGCSYSTEMS-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

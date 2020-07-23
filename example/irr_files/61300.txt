@@ -1,0 +1,23 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS61300
+as-name:       FIXO
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+remarks:       61300:61300 Announce to all peers of route server
+remarks:       61300:64496 Announce ONLY to 64496
+remarks:       0:64496 Do NOT announce to 64496
+remarks:       0:0 Do not announce to any peers
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        FIXO-MNT
+source:        RIPE
+
+

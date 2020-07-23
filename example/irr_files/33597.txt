@@ -1,0 +1,110 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS33597
+as-name:       INFORELAY
+descr:         http://www.inforelay.com
+admin-c:       NOC1719-ARIN
+tech-c:        NOC1719-ARIN
+remarks:       '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+remarks:       
+remarks:       Communities applied at ingress
+remarks:       
+remarks:       '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       prefix type communities
+remarks:       --------------------------------------------------------
+remarks:       33597:200  - Customer route
+remarks:       33597:201  - Peer route
+remarks:       33597:202  - Anycast route - see below
+remarks:       --------------------------------------------------------
+remarks:       facility communities
+remarks:       --------------------------------------------------------
+remarks:       33597:1001 - IAD1 - Ashburn, VA
+remarks:       33597:1002 - IAD2 - Reston, VA
+remarks:       33597:1003 - IAD3 - Reston, VA
+remarks:       33597:1004 - IAD4 - Herndon, VA
+remarks:       33597:1005 - LGA1 - New York City
+remarks:       33597:1006 - DFW1 - Dallas
+remarks:       33597:1007 - LAX1 - Los Angeles
+remarks:       33597:1008 - LAX2 - Los Angeles
+remarks:       33597:1009 - LAX3 - Los Angeles
+remarks:       33597:1010 - SJC1 - San Jose
+remarks:       33597:1011 - SJC2 - Milpitas, CA
+remarks:       33597:1012 - MIA1 - Miami
+remarks:       33597:1013 - ORD1 - Chicago
+remarks:       33597:1014 - DCA1 - Washington, DC
+remarks:       33597:1015 - LGA2 - New York City
+remarks:       33597:1016 - LGA3 - New York City
+remarks:       
+remarks:       '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+remarks:       
+remarks:       Communities accepted from customers
+remarks:       
+remarks:       '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+remarks:       
+remarks:       --------------------------------------------------------
+remarks:       customer traffic engineering (TE) notes
+remarks:       --------------------------------------------------------
+remarks:       Communities allow suppress or prepend to peer AS, where
+remarks:       - peer AS has a peering connection to InfoRelay
+remarks:       - peer AS is not a customer of InfoRelay
+remarks:       --------------------------------------------------------
+remarks:       customer traffic engineering communities - LocalPref
+remarks:       --------------------------------------------------------
+remarks:       33597:70    - set local preference to 70
+remarks:       33597:80    - set local preference to 80
+remarks:       33597:90    - set local preference to 90
+remarks:       --------------------------------------------------------
+remarks:       customer traffic engineering communities - Suppression
+remarks:       --------------------------------------------------------
+remarks:       64960:XXX    - announce to AS XXX if 65000:0
+remarks:       65000:0    - announce to customers but not to peers
+remarks:       65000:XXX    - do not announce at peerings to AS XXX
+remarks:       --------------------------------------------------------
+remarks:       customer traffic engineering communities - Prepending
+remarks:       --------------------------------------------------------
+remarks:       65001:0    - prepend once to all peers
+remarks:       65001:XXX    - prepend once at peerings to AS XXX
+remarks:       65002:0    - prepend twice to all peers
+remarks:       65002:XXX    - prepend twice at peerings to AS XXX
+remarks:       65003:0    - prepend 3x to all peers
+remarks:       65003:XXX    - prepend 3x at peerings to AS XXX
+remarks:       65004:0    - prepend 4x to all peers
+remarks:       65004:XXX    - prepend 4x at peerings to AS XXX
+remarks:       --------------------------------------------------------
+remarks:       customer traffic engineering communities - Blackhole
+remarks:       --------------------------------------------------------
+remarks:       33597:666 - blackhole (discard) traffic
+remarks:       
+remarks:       Traffic destined for any prefixes tagged with this
+remarks:       community will be discarded at ingress to the InfoRelay
+remarks:       network.  The prefix must be one permitted by the
+remarks:       customer's existing ingress BGP filter.
+remarks:       support@inforelay.com may need to be contacted to allow
+remarks:       in some cases.
+remarks:       --------------------------------------------------------
+remarks:       customer traffic engineering communities - Anycast
+remarks:       --------------------------------------------------------
+remarks:       33597:202 - Filter route announcement to Anycast providers
+remarks:       
+remarks:       Any customer prefix tagged with this community will be
+remarks:       filtered from all providers and peers by default, and be
+remarks:       explicitly allowed to only a select set of providers that
+remarks:       we use for anycast announcements. This set of providers is
+remarks:       consistent across all markets. For additional flavor,
+remarks:       customers can combine this community with prepending
+remarks:       communities to modify their anycast route announcements
+remarks:       further.
+remarks:       
+remarks:       Please contact support@inforelay.com with any questions
+remarks:       regarding this functionality.
+remarks:       --------------------------------------------------------
+remarks:       
+remarks:       '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+mnt-by:        MAINT-AS33597
+changed:       irr@inforelay.com 20140402
+source:        ALTDB
+
+

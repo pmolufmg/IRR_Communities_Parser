@@ -1,0 +1,251 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS34757'
+
+% Abuse contact for 'AS34757' is 'abuse@211.ru'
+
+aut-num:        AS34757
+as-name:        SIBSET-NSK-AS
+org:            ORG-CNL7-RIPE
+remarks:        ----- Upstreams -----
+import:         from AS8359 action pref=100; accept ANY
+export:         to AS8359 announce AS-SIBSET
+import:         from AS21127 action pref=100; accept ANY
+export:         to AS21127 announce AS-SIBSET
+import:         from AS12389 action pref=100; accept ANY
+export:         to AS12389 announce AS-SIBSET
+import:         from AS30751 action pref=100; accept ANY
+export:         to AS30751 announce AS-SIBSET
+import:         from AS6854 action pref=100; accept ANY
+export:         to AS6854 announce AS-SIBSET
+import:         from AS50928 action pref=100; accept ANY
+export:         to AS50928 announce AS-SIBSET
+import:         from AS31133 action pref=100; accept ANY
+export:         to AS31133 announce AS-SIBSET
+import:         from AS8342 action pref=100; accept ANY
+export:         to AS8342 announce AS-SIBSET
+import:         from AS9031 action pref=100; accept ANY
+export:         to AS9031 announce AS-SIBSET
+import:         from AS41066 action pref=100; accept ANY
+export:         to AS41066 announce AS-SIBSET
+import:         from AS44587 action pref=100; accept ANY
+export:         to AS44587 announce AS-SIBSET
+import:         from AS50952 action pref=100; accept ANY
+export:         to AS50952 announce AS-SIBSET
+import:         from AS13002 action pref=100; accept ANY
+export:         to AS13002 announce AS-SIBSET
+import:         from AS20485 action pref=100; accept ANY
+export:         to AS20485 announce AS-SIBSET
+import:         from AS9002 action pref=100; accept ANY
+export:         to AS9002 announce AS-SIBSET
+import:         from AS48858 action pref=100; accept ANY
+export:         to AS48858 announce AS-SIBSET
+import:         from AS3216 action pref=100; accept ANY
+export:         to AS3216 announce AS-SIBSET
+remarks:        ------ Customers -------
+import:         from AS35018 action pref=200; accept AS35018
+export:         to AS35018 announce ANY
+import:         from AS15508 action pref=200; accept AS15508
+export:         to AS15508 announce ANY
+import:         from AS43552 action pref=200; accept AS43552
+export:         to AS43552 announce ANY
+import:         from AS62036 action pref=200; accept AS62036
+export:         to AS62036 announce ANY
+import:         from AS51574 action pref=200; accept AS51574
+export:         to AS51574 announce ANY
+import:         from AS197728 action pref=200; accept AS197728
+export:         to AS197728 announce ANY
+import:         from AS50732 action pref=200; accept AS50732
+export:         to AS50732 announce ANY
+import:         from AS41143 action pref=200; accept AS41143
+export:         to AS41143 announce ANY
+import:         from AS62331 action pref=200; accept AS62331
+export:         to AS62331 announce ANY
+import:         from AS44634 action pref=200; accept AS44634
+export:         to AS44634 announce ANY
+import:         from AS61193 action pref=200; accept AS61193
+export:         to AS61193 announce ANY
+import:         from AS42341 action pref=200; accept AS42341
+export:         to AS42341 announce ANY
+import:         from AS33871 action pref=200; accept AS33871
+export:         to AS33871 announce ANY
+import:         from AS49613 action pref=200; accept AS49613
+export:         to AS49613 announce ANY
+import:         from AS31205 action pref=200; accept AS31205
+export:         to AS31205 announce ANY
+import:         from AS21496 action pref=200; accept AS21496
+export:         to AS21496 announce ANY
+import:         from AS44206 action pref=200; accept AS44206
+export:         to AS44206 announce ANY
+import:         from AS200546 action pref=200; accept AS200546
+export:         to AS200546 announce ANY
+import:         from AS57251 action pref=200; accept AS57251
+export:         to AS57251 announce ANY
+import:         from AS42187 action pref=200; accept AS42187
+export:         to AS42187 announce ANY
+import:         from AS39586 action pref=200; accept AS39586
+export:         to AS39586 announce ANY
+import:         from AS35410 action pref=200; accept AS35410
+export:         to AS35410 announce ANY
+import:         from AS200875 action pref=200; accept AS200875
+export:         to AS200875 announce ANY
+import:         from AS57302 action pref=200; accept AS57302
+export:         to AS57302 announce ANY
+import:         from AS60119 action pref=200; accept AS60119
+export:         to AS60119 announce ANY
+import:         from AS204833 action pref=200; accept AS204833
+export:         to AS204833 announce ANY
+import:         from AS42408 action pref=200; accept AS42408
+export:         to AS42408 announce ANY
+remarks:        ------ Peers -------
+remarks:
+import:         from AS20803 action pref=200; accept AS-RISS
+export:         to AS20803 announce AS-SIBSET
+import:         from AS25549 action pref=200; accept AS25549
+export:         to AS25549 announce AS-SIBSET
+import:         from AS30788 action pref=200; accept AS30788
+export:         to AS30788 announce AS-SIBSET
+import:         from AS44310 action pref=200; accept AS44310
+export:         to AS44310 announce AS-SIBSET
+import:         from AS13094 action pref=200; accept AS-MILECOM
+export:         to AS13094 announce AS-SIBSET
+import:         from AS28709 action pref=200; accept AS-VKONTAKTE
+export:         to AS28709 announce AS-SIBSET
+remarks:        ------ MSK-IX -------
+import:         from AS8631 action pref=200; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-SIBSET
+remarks:        ------ EKT-IX -------
+import:         from AS43213 action pref=200; accept AS-EKTROUTESERVER
+export:         to AS43213 announce AS-SIBSET
+remarks:        ------KZN-IX-------
+import:         from AS50706 action pref=200; accept AS-KZNROUTESERVER
+export:         to AS50706 announce AS-SIBSET
+remarks:        ------ NSK-IX -------
+import:         from AS42403 action pref=200; accept AS-NSKROUTESERVER
+export:         to AS42403 announce AS-SIBSET
+import:         from AS3267 action pref=200; accept AS-RUNNET
+export:         to AS3267 announce AS-SIBSET
+import:         from AS5387 action pref=200; accept AS-NSC-NSKIX-SET
+export:         to AS5387 announce AS-SIBSET
+import:         from AS41787 action pref=200; accept AS-ONLINECITY
+export:         to AS41787 announce AS-SIBSET
+import:         from AS8410 action pref=200; accept AS-NIR
+export:         to AS8410 announce AS-SIBSET
+import:         from AS13238 action pref=200; accept AS-YANDEX
+export:         to AS13238 announce AS-SIBSET
+import:         from AS25152 action pref=200; accept AS25152
+export:         to AS25152 announce AS-SIBSET
+import:         from AS29175 action pref=200; accept AS29175
+export:         to AS29175 announce AS-SIBSET
+import:         from AS30871 action pref=200; accept AS30871
+export:         to AS30871 announce AS-SIBSET
+import:         from AS31738 action pref=200; accept AS-NSTU
+export:         to AS31738 announce AS-SIBSET
+import:         from AS35410 action pref=200; accept AS35410
+export:         to AS35410 announce AS-SIBSET
+import:         from AS34879 action pref=200; accept AS34879
+export:         to AS34879 announce AS-SIBSET
+import:         from AS41024 action pref=200; accept AS41024 AS48107
+export:         to AS41024 announce AS-SIBSET
+import:         from AS41440 action pref=200; accept AS41440
+export:         to AS41440 announce AS-SIBSET
+import:         from AS43478 action pref=200; accept AS43478
+export:         to AS43478 announce AS-SIBSET
+import:         from AS48100 action pref=200; accept AS-MKSNSK
+export:         to AS48100 announce AS-SIBSET
+import:         from AS30922 action pref=200; accept AS-SIBELTELECOM
+export:         to AS30922 announce AS-SIBSET
+import:         from AS31200 action pref=200; accept AS-RUNTK-SET
+export:         to AS31200 announce AS-SIBSET
+import:         from AS197482 action pref=200; accept AS197482
+export:         to AS197482 announce AS-SIBSET
+remarks:        ------ IPv6 -------
+remarks:        ----- Upstreams -----
+mp-import:      afi ipv6.unicast from AS8359 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS8359 announce AS-SIBSET
+remarks:        ------ Peers -------
+mp-import:      afi ipv6.unicast from AS21127 action pref=200; accept AS-ZSTTK6-SET
+mp-export:      afi ipv6.unicast to AS21127 announce AS-SIBSET
+mp-import:      afi ipv6.unicast from as42403 action pref=200; accept AS-NSKROUTESERVER
+mp-export:      afi ipv6.unicast to as42403 announce AS-SIBSET
+remarks:        ----- BGP communities -----
+remarks:        34757:65535 blackhole community
+remarks:        Export your blackhole prefixes from /24 to /32
+remarks:        --------------------------------------
+admin-c:        NOC211-RIPE
+tech-c:         NOC211-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SIBSET-MNT
+created:        2005-03-30T11:11:43Z
+last-modified:  2018-09-11T06:17:10Z
+source:         RIPE
+
+organisation:   ORG-CNL7-RIPE
+org-name:       Sibirskie Seti Ltd.
+org-type:       LIR
+address:        118, Saltykova-Shchedrina Str.
+address:        630132
+address:        Novosibirsk
+address:        RUSSIAN FEDERATION
+phone:          +73832050000
+phone:          +73843940000
+fax-no:         +73832050000
+fax-no:         +73843391245
+admin-c:        NOC211-RIPE
+tech-c:         NOC211-RIPE
+abuse-c:        SNAT1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SIBSET-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SIBSET-MNT
+created:        2006-05-23T10:11:04Z
+last-modified:  2018-06-09T06:56:22Z
+source:         RIPE # Filtered
+
+role:           Siberian Networks NOC
+address:        JSC Siberian Networks
+address:        1/2, Dzerzhinskogo av.
+address:        630015, Novosibirsk, Russia
+phone:          +7 383 2050000
+fax-no:         +7 383 2050000
+remarks:        ******************************************************
+remarks:        Points of contact for Siberian Networks NOC:
+remarks:        _
+remarks:        Spam and security issues: abuse@211.ru
+remarks:        Routing issues: noc@211.ru
+remarks:        Mail issues: postmaster@211.ru
+remarks:        General information: info@211.ru
+remarks:        ******************************************************
+admin-c:        PK2069-RIPE
+admin-c:        AGI16-RIPE
+tech-c:         AGI16-RIPE
+tech-c:         AD11605-RIPE
+nic-hdl:        NOC211-RIPE
+mnt-by:         SIBSET-MNT
+created:        2007-03-21T10:10:01Z
+last-modified:  2018-11-22T12:00:29Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@211.ru
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

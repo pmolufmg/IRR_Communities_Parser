@@ -1,0 +1,173 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS31246 - AS31618'
+
+as-block:       AS31246 - AS31618
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:33Z
+last-modified:  2018-11-22T15:27:33Z
+source:         RIPE
+
+% Information related to 'AS31313'
+
+% Abuse contact for 'AS31313' is 'abuse@stsisp.ro'
+
+aut-num:        AS31313
+as-name:        STS
+descr:          Bucharest, 323A Splaiul Independentei,Sector 6,060044,Romania
+descr:          RO
+org:            ORG-SdTS10-RIPE
+remarks:        -----------------upstream providers------------------
+import:         from AS2914 accept ANY
+export:         to AS2914 announce AS-STS-RO
+default:        to AS2914 action pref=100; networks any
+import:         from AS1299 accept ANY
+export:         to AS1299 announce AS-STS-RO
+default:        to AS1299 action pref=100; networks any
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS-STS-RO
+default:        to AS3356 action pref=100; networks any
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-STS-RO
+default:        to AS174 action pref=100; networks any
+import:         from AS6830 accept ANY
+export:         to AS6830 announce AS-STS-RO
+default:        to AS6830 action pref=100; networks any
+remarks:        ---------------------peerings-----------------------
+import:         from AS20530 accept AS-ROMANIA
+import:         from AS39107 accept AS-INTERLANRO
+import:         from AS8708 accept AS-RDSNET
+remarks:        ---------------------clients-------------------------
+import:         from AS20929 accept AS20929
+export:         to AS20929 announce ANY
+import:         from AS34808 accept AS34808
+export:         to AS34808 announce ANY
+import:         from AS44867 accept AS44867
+export:         to AS44867 announce ANY
+import:         from AS43899 accept AS43899
+export:         to AS43899 announce ANY
+import:         from AS48928 accept AS48928
+export:         to AS48928 announce ANY
+import:         from AS20820 accept AS20820
+export:         to AS20820 announce ANY
+import:         from AS49437 accept AS49437
+export:         to AS49437 announce ANY
+import:         from AS13011 accept AS13011
+export:         to AS13011 announce ANY
+import:         from AS49918 accept AS49918
+export:         to AS49918 announce ANY
+import:         from AS50944 accept AS50944
+export:         to AS50944 announce ANY
+import:         from AS42142 accept AS42142
+export:         to AS42142 announce ANY
+import:         from AS25278 accept AS25278
+export:         to AS25278 announce ANY
+import:         from AS47662 accept AS47662
+export:         to AS47662 announce ANY
+import:         from AS56519 accept AS56519
+export:         to AS56519 announce ANY
+import:         from AS199189 accept AS199189
+export:         to AS199189 announce ANY
+import:         from AS60583 accept AS60583
+export:         to AS60583 announce ANY
+import:         from AS60604 accept AS60604
+export:         to AS60604 announce ANY
+import:         from AS50252 accept AS50252
+export:         to AS50252 announce ANY
+import:         from AS48338 accept AS48338
+export:         to AS48338 announce ANY
+import:         from AS50192 accept AS50192
+export:         to AS50192 announce ANY
+import:         from AS56770 accept AS56770
+export:         to AS56770 announce ANY
+import:         from AS205861 accept AS205861
+export:         to AS205861 announce ANY
+import:         from AS57275 accept AS57275
+export:         to AS57275 announce ANY
+remarks:        ---------------------------------------------
+admin-c:        SD5169-RIPE
+tech-c:         MA3173-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ROSTS-MNT
+created:        2004-04-13T09:53:09Z
+last-modified:  2018-09-04T10:02:09Z
+source:         RIPE # Filtered
+remarks:        ---------------------------------------------
+remarks:        abuse reports: abuse@stsisp.ro
+remarks:        ISP Phone: +40 21 202 2660
+remarks:        ISP E-mail: isp@stsisp.ro
+remarks:        ---------------------------------------------
+remarks:        communities from customer
+remarks:        31313:666 - blackhole (discard) traffic
+remarks:        ---------------------------------------------
+remarks:        communities to customer
+remarks:        31313:200 - bucharest peers
+remarks:        ---------------------------------------------
+
+organisation:   ORG-SdTS10-RIPE
+org-name:       Serviciul de Telecomunicatii Speciale
+org-type:       LIR
+address:        323A, Splaiul Independentei
+address:        060044
+address:        Bucharest
+address:        ROMANIA
+phone:          +40212022110
+fax-no:         +40213131884
+admin-c:        LJ76-RIPE
+admin-c:        MA3173-RIPE
+admin-c:        AA2148-RIPE
+admin-c:        CP6886-RIPE
+abuse-c:        AS30407-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        ROSTS-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         ROSTS-MNT
+created:        2009-09-25T09:54:24Z
+last-modified:  2018-10-24T13:21:07Z
+source:         RIPE # Filtered
+
+role:           STS DTI
+address:        323A Splaiul Independentei, Bucharest 6
+tech-c:         MA3173-RIPE
+tech-c:         LJ76-RIPE
+tech-c:         DC1233-RIPE
+tech-c:         CP6886-RIPE
+tech-c:         AE5342-RIPE
+nic-hdl:        SD5169-RIPE
+mnt-by:         ROSTS-MNT
+abuse-mailbox:  abuse@stsisp.ro
+remarks:        send your abuse reports at: abuse@stsisp.ro
+remarks:        -------------------------------------------
+created:        2009-10-02T11:25:06Z
+last-modified:  2018-11-01T08:44:34Z
+source:         RIPE # Filtered
+
+person:         Minta Adrian
+address:        Special Telecommunications Service
+address:        323A Splaiul Independentei, Bucharest 6
+phone:          +40212022660
+nic-hdl:        MA3173-RIPE
+mnt-by:         ROSTS-MNT
+created:        2004-04-05T11:49:55Z
+last-modified:  2018-02-01T08:42:56Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

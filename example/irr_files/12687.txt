@@ -1,0 +1,73 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS12687
+as-name:       URAN
+descr:         Kiev, Ukraine
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS20965 action pref=10; accept ANY
+import:        from AS21219 action pref=10; accept ANY
+import:        from AS3255 action pref=10; accept ANY
+import:        from AS9002 action pref=10; accept ANY
+import:        from AS15645 action pref=20; accept AS-UAIX
+import:        from AS59613 action pref=20; accept ANY
+import:        from AS21219 action pref=20; accept ANY
+import:        from AS205656 accept ANY
+import:        from AS3319 action pref=10; accept AS3319 AS34118
+import:        from AS25503 action pref=10; accept AS25503
+import:        from AS29599 action pref=10; accept AS29599
+import:        from AS34776 action pref=10; accept AS34776
+import:        from AS12691 action pref=10; accept AS12691
+import:        from AS25500 action pref=10; accept AS25500 AS198378 AS20660
+import:        from AS47799 action pref=10; accept AS47799
+import:        from AS47306 action pref=10; accept AS47306
+import:        from AS197361 action pref=10; accept AS197361
+import:        from AS196957 action pref=10; accept AS196957
+import:        from AS51381 action pref=10; accept AS51381
+import:        from AS6807 action pref=10; accept AS6807
+export:        to AS20965 announce AS-URAN-GEANT
+export:        to AS21219 announce AS-URAN-INET
+export:        to AS3255 announce AS-URAN-INET
+export:        to AS9002 announce AS-URAN-INET
+export:        to AS15645 announce AS-URAN-UA
+export:        to AS59613 announce AS-URAN-UA
+export:        to AS21219 announce AS-URAN-UA
+export:        to AS205656 announce ANY
+export:        to AS3319 announce AS-URAN-NET AS-UAIX
+export:        to AS25503 announce ANY
+export:        to AS29599 announce ANY
+export:        to AS34776 announce AS-URAN-NET AS-UAIX
+export:        to AS12691 announce AS-URAN-NET AS-UAIX
+export:        to AS25500 announce AS-URAN-NET AS-UAIX
+export:        to AS47799 announce AS-URAN-NET AS-UAIX
+export:        to AS47306 announce AS-URAN-NET AS-UAIX
+export:        to AS197361 announce ANY
+export:        to AS196957 announce ANY
+export:        to AS51381 announce ANY
+export:        to AS6807 announce ANY
+remarks:       == UpLinks
+remarks:       == IX-points
+remarks:       == Paritets
+remarks:       == Infrostructure
+remarks:       == Customers
+remarks:       == Community routing policy:
+remarks:       12687:11 - announce to UA-IX
+remarks:       12687:13 - announce to GEANT
+remarks:       12687:20 - default community (announce to all URAN
+remarks:       clients and all paritets)
+remarks:       12687:71 - announce to ODEX
+remarks:       12687:99 - announce to Internet
+remarks:       12687:7777 - blackhole community
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        URAN-MNT
+source:        RIPE
+
+

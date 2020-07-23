@@ -1,0 +1,591 @@
+aut-num:        AS48850
+as-name:        EPIX-OPENPEERING-WAR
+remarks:        EPIX Internet eXchange
+org:            ORG-KIKE1-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:
+remarks:        ------------------------------------------------------------------
+remarks:        BGP COMMUNITIES SUPPORTED IN KIX
+remarks:        ------------------------------------------------------------------
+remarks:        Communities to determine entry point of route
+remarks:        48850:1000 - KIX peer
+remarks:        48850:1198 - GIGANET UA
+remarks:        48850:780 - GOOGLE
+remarks:
+remarks:        Traffic Control Communities
+remarks:        48850:10009 - do not announce to ALL
+remarks:        48850:1000[123] - prepend 1,2,3 times when announcing to ALL
+remarks:        48850:13003 - do not announce to GIGANET [AS59613]
+remarks:        48850:1300[12] - prepend 1,2 times when announcing to 59613
+remarks:        48850:14003 - do not announce to NETIA [AS12741]
+remarks:        48850:1400[12] - prepend 1,2 times when announcing to 12741
+remarks:
+remarks:        48850:65520 - do not announce to GOOGLE [AS15169]
+remarks:        48850:6552[123] - prepend 1,2 times when announcing to 15169
+remarks:
+remarks:        48850:65530 - do not announce to CDN (GGC/AKAMAI)
+remarks:        48850:6553[123] - prepend 1,2,3 times when announcing
+remarks:        ---------------------------------------------
+remarks:        New community format:
+remarks:        extcommunity: ASN:6500X
+remarks:        ASN - Member AS number
+remarks:        ---------------------------------------------
+remarks:        with X = 0,1,2,3 meaning
+remarks:        X = 0 do not announce to peer
+remarks:        X = 1 prepend "AS48850"
+remarks:        X = 2 prepend "AS48850 AS48850"
+remarks:        X = 3 prepend "AS48850 AS48850 AS48850"
+remarks:        ---------------------------------------------
+remarks:        ---------------------------------------------
+remarks:        Blackhole community
+remarks:        48850:666
+remarks:        ---------------------------------------------
+remarks:        ---------------------------------------------
+remarks:
+remarks:        For more information please contact noc@epix.net.pl
+remarks:        ------------------------------------------------------------------
+remarks:
+remarks:
+remarks:        ------------------------------------------------------------------
+remarks:        KIX PEERS / MEMBERS
+remarks:        ------------------------------------------------------------------
+remarks:
+import:         from AS50086 89.46.144.30 at 89.46.144.11 accept AS50086
+export:         to AS50086 89.46.144.30 at 89.46.144.11 announce AS-KIKE
+import:         from AS-LIMES 89.46.144.44 at 89.46.144.11 accept AS-LIMES
+export:         to AS-LIMES 89.46.144.44 at 89.46.144.11 announce AS-KIKE
+import:         from AS-KOBA 89.46.144.111 at 89.46.144.11 accept AS-KOBA
+export:         to AS-KOBA 89.46.144.111 at 89.46.144.11 announce AS-KIKE
+import:         from AS197437 89.46.144.49 at 89.46.144.11 accept AS197437
+export:         to AS197437 89.46.144.49 at 89.46.144.11 announce AS-KIKE
+import:         from AS-KRT 89.46.144.60 at 89.46.144.11 accept AS-KRT
+export:         to AS-KRT 89.46.144.60 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NETBIS 89.46.144.62 at 89.46.144.11 accept AS-NETBIS
+export:         to AS-NETBIS 89.46.144.62 at 89.46.144.11 announce AS-KIKE
+import:         from AS199341 89.46.144.133 at 89.46.144.11 accept AS199341
+export:         to AS199341 89.46.144.133 at 89.46.144.11 announce AS-KIKE
+import:         from AS-IWACOM 89.46.144.72 at 89.46.144.11 accept AS-IWACOM
+export:         to AS-IWACOM 89.46.144.72 at 89.46.144.11 announce AS-KIKE
+import:         from AS52009 89.46.144.67 at 89.46.144.11 accept AS52009
+export:         to AS52009 89.46.144.67 at 89.46.144.11 announce AS-KIKE
+import:         from AS198216 89.46.144.76 at 89.46.144.11 accept AS198216
+export:         to AS198216 89.46.144.76 at 89.46.144.11 announce AS-KIKE
+import:         from AS-FEROMEDIA 89.46.144.58 at 89.46.144.11 accept AS-FEROMEDIA
+export:         to AS-FEROMEDIA 89.46.144.58 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ESPOL-X 89.46.144.55 at 89.46.144.11 accept AS-ESPOL-X
+export:         to AS-ESPOL-X 89.46.144.55 at 89.46.144.11 announce AS-KIKE
+import:         from AS-BORKOW 89.46.144.122 at 89.46.144.11 accept AS-BORKOW
+export:         to AS-BORKOW 89.46.144.122 at 89.46.144.11 announce AS-KIKE
+import:         from AS-DATA-COM 89.46.144.134 at 89.46.144.11 accept AS-DATA-COM
+export:         to AS-DATA-COM 89.46.144.134 at 89.46.144.11 announce AS-KIKE
+import:         from AS198896 89.46.144.127 at 89.46.144.11 accept AS198896
+export:         to AS198896 89.46.144.127 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ZDNET 89.46.144.89 at 89.46.144.11 accept AS-ZDNET
+export:         to AS-ZDNET 89.46.144.89 at 89.46.144.11 announce AS-KIKE
+import:         from AS52079 89.46.144.36 at 89.46.144.11 accept AS52079
+export:         to AS52079 89.46.144.36 at 89.46.144.11 announce AS-KIKE
+import:         from AS-INFO_NET 89.46.144.139 at 89.46.144.11 accept AS-INFO_NET
+export:         to AS-INFO_NET 89.46.144.139 at 89.46.144.11 announce AS-KIKE
+import:         from AS-LASNET 89.46.144.251 at 89.46.144.11 accept AS-LASNET
+export:         to AS-LASNET 89.46.144.251 at 89.46.144.11 announce AS-KIKE
+import:         from AS60219 89.46.144.146 at 89.46.144.11 accept AS60219
+export:         to AS60219 89.46.144.146 at 89.46.144.11 announce AS-KIKE
+import:         from AS-EURONETPL 89.46.144.110 at 89.46.144.11 accept AS-EURONETPL
+export:         to AS-EURONETPL 89.46.144.110 at 89.46.144.11 announce AS-KIKE
+import:         from AS16290 89.46.144.136 at 89.46.144.11 accept AS16290
+export:         to AS16290 89.46.144.136 at 89.46.144.11 announce AS-KIKE
+import:         from AS48487 89.46.144.147 at 89.46.144.11 accept AS48487
+export:         to AS48487 89.46.144.147 at 89.46.144.11 announce AS-KIKE
+import:         from AS56575 89.46.144.69 at 89.46.144.11 accept AS56575
+export:         to AS56575 89.46.144.69 at 89.46.144.11 announce AS-KIKE
+import:         from AS-KOBA 89.46.144.112 at 89.46.144.11 accept AS-KOBA
+export:         to AS-KOBA 89.46.144.112 at 89.46.144.11 announce AS-KIKE
+import:         from AS39288:AS-IX 89.46.144.35 at 89.46.144.11 accept AS39288:AS-IX
+export:         to AS39288:AS-IX 89.46.144.35 at 89.46.144.11 announce AS-KIKE
+import:         from AS48424 89.46.144.88 at 89.46.144.11 accept AS48424
+export:         to AS48424 89.46.144.88 at 89.46.144.11 announce AS-KIKE
+import:         from AS-LANDTECH 89.46.144.27 at 89.46.144.11 accept AS-LANDTECH
+export:         to AS-LANDTECH 89.46.144.27 at 89.46.144.11 announce AS-KIKE
+import:         from AS50450 89.46.144.135 at 89.46.144.11 accept AS50450
+export:         to AS50450 89.46.144.135 at 89.46.144.11 announce AS-KIKE
+import:         from AS51948 89.46.144.113 at 89.46.144.11 accept AS51948
+export:         to AS51948 89.46.144.113 at 89.46.144.11 announce AS-KIKE
+import:         from AS-SKYNET1 89.46.144.29 at 89.46.144.11 accept AS-SKYNET1
+export:         to AS-SKYNET1 89.46.144.29 at 89.46.144.11 announce AS-KIKE
+import:         from AS199754:AS-CUSTOMERS 89.46.144.92 at 89.46.144.11 accept AS199754:AS-CUSTOMERS
+export:         to AS199754:AS-CUSTOMERS 89.46.144.92 at 89.46.144.11 announce AS-KIKE
+import:         from AS56983 89.46.144.37 at 89.46.144.11 accept AS56983
+export:         to AS56983 89.46.144.37 at 89.46.144.11 announce AS-KIKE
+import:         from AS41959 89.46.144.32 at 89.46.144.11 accept AS41959
+export:         to AS41959 89.46.144.32 at 89.46.144.11 announce AS-KIKE
+import:         from AS57332 89.46.144.93 at 89.46.144.11 accept AS57332
+export:         to AS57332 89.46.144.93 at 89.46.144.11 announce AS-KIKE
+import:         from AS-AKASHA-ARTOM 89.46.144.90 at 89.46.144.11 accept AS-AKASHA-ARTOM
+export:         to AS-AKASHA-ARTOM 89.46.144.90 at 89.46.144.11 announce AS-KIKE
+import:         from AS-LAN_NET 89.46.144.57 at 89.46.144.11 accept AS-LAN_NET
+export:         to AS-LAN_NET 89.46.144.57 at 89.46.144.11 announce AS-KIKE
+import:         from AS200539 89.46.144.95 at 89.46.144.11 accept AS200539
+export:         to AS200539 89.46.144.95 at 89.46.144.11 announce AS-KIKE
+import:         from AS-MAXNET-PL 89.46.144.51 at 89.46.144.11 accept AS-MAXNET-PL
+export:         to AS-MAXNET-PL 89.46.144.51 at 89.46.144.11 announce AS-KIKE
+import:         from AS-SET-NCORE 89.46.144.123 at 89.46.144.11 accept AS-SET-NCORE
+export:         to AS-SET-NCORE 89.46.144.123 at 89.46.144.11 announce AS-KIKE
+import:         from AS-GIGAKOMPUTER 89.46.144.54 at 89.46.144.11 accept AS-GIGAKOMPUTER
+export:         to AS-GIGAKOMPUTER 89.46.144.54 at 89.46.144.11 announce AS-KIKE
+import:         from AS-Danar 89.46.144.96 at 89.46.144.11 accept AS-Danar
+export:         to AS-Danar 89.46.144.96 at 89.46.144.11 announce AS-KIKE
+import:         from AS50095 89.46.144.28 at 89.46.144.11 accept AS50095
+export:         to AS50095 89.46.144.28 at 89.46.144.11 announce AS-KIKE
+import:         from AS48505 89.46.144.77 at 89.46.144.11 accept AS48505
+export:         to AS48505 89.46.144.77 at 89.46.144.11 announce AS-KIKE
+import:         from AS-SKYNET1 89.46.144.53 at 89.46.144.11 accept AS-SKYNET1
+export:         to AS-SKYNET1 89.46.144.53 at 89.46.144.11 announce AS-KIKE
+import:         from AS42177:AS-KIX 89.46.144.87 at 89.46.144.11 accept AS42177:AS-KIX
+export:         to AS42177:AS-KIX 89.46.144.87 at 89.46.144.11 announce AS-KIKE
+import:         from AS198948 89.46.144.141 at 89.46.144.11 accept AS198948
+export:         to AS198948 89.46.144.141 at 89.46.144.11 announce AS-KIKE
+import:         from AS47850 89.46.144.105 at 89.46.144.11 accept AS47850
+export:         to AS47850 89.46.144.105 at 89.46.144.11 announce AS-KIKE
+import:         from AS60466 89.46.144.65 at 89.46.144.11 accept AS60466
+export:         to AS60466 89.46.144.65 at 89.46.144.11 announce AS-KIKE
+import:         from AS-AMBIT-NET 89.46.144.82 at 89.46.144.11 accept AS-AMBIT-NET
+export:         to AS-AMBIT-NET 89.46.144.82 at 89.46.144.11 announce AS-KIKE
+import:         from AS52078 89.46.144.68 at 89.46.144.11 accept AS52078
+export:         to AS52078 89.46.144.68 at 89.46.144.11 announce AS-KIKE
+import:         from AS-UARNET 89.46.144.129 at 89.46.144.11 accept AS-UARNET
+export:         to AS-UARNET 89.46.144.129 at 89.46.144.11 announce AS-KIKE
+import:         from AS50016 89.46.144.31 at 89.46.144.11 accept AS50016
+export:         to AS50016 89.46.144.31 at 89.46.144.11 announce AS-KIKE
+import:         from AS52195 89.46.144.108 at 89.46.144.11 accept AS52195
+export:         to AS52195 89.46.144.108 at 89.46.144.11 announce AS-KIKE
+import:         from AS51390 89.46.144.102 at 89.46.144.11 accept AS51390
+export:         to AS51390 89.46.144.102 at 89.46.144.11 announce AS-KIKE
+import:         from AS51399 89.46.144.140 at 89.46.144.11 accept AS51399
+export:         to AS51399 89.46.144.140 at 89.46.144.11 announce AS-KIKE
+import:         from AS-STORMMEDIA 89.46.144.142 at 89.46.144.11 accept AS-STORMMEDIA
+export:         to AS-STORMMEDIA 89.46.144.142 at 89.46.144.11 announce AS-KIKE
+import:         from AS57263 89.46.144.143 at 89.46.144.11 accept AS57263
+export:         to AS57263 89.46.144.143 at 89.46.144.11 announce AS-KIKE
+import:         from AS42374 89.46.144.107 at 89.46.144.11 accept AS42374
+export:         to AS42374 89.46.144.107 at 89.46.144.11 announce AS-KIKE
+import:         from AS51068 89.46.144.114 at 89.46.144.11 accept AS51068
+export:         to AS51068 89.46.144.114 at 89.46.144.11 announce AS-KIKE
+import:         from AS57480 89.46.144.116 at 89.46.144.11 accept AS57480
+export:         to AS57480 89.46.144.116 at 89.46.144.11 announce AS-KIKE
+import:         from AS-MAXNET 89.46.144.117 at 89.46.144.11 accept AS-MAXNET
+export:         to AS-MAXNET 89.46.144.117 at 89.46.144.11 announce AS-KIKE
+import:         from AS3165 89.46.144.148 at 89.46.144.11 accept AS3165
+export:         to AS3165 89.46.144.148 at 89.46.144.11 announce AS-KIKE
+import:         from AS200125 89.46.144.149 at 89.46.144.11 accept AS200125
+export:         to AS200125 89.46.144.149 at 89.46.144.11 announce AS-KIKE
+import:         from AS-CITYPARTNER 89.46.144.150 at 89.46.144.11 accept AS-CITYPARTNER
+export:         to AS-CITYPARTNER 89.46.144.150 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NOWATEL 89.46.144.151 at 89.46.144.11 accept AS-NOWATEL
+export:         to AS-NOWATEL 89.46.144.151 at 89.46.144.11 announce AS-KIKE
+import:         from AS-GALATEA 89.46.144.156 at 89.46.144.11 accept AS-GALATEA
+export:         to AS-GALATEA 89.46.144.156 at 89.46.144.11 announce AS-KIKE
+import:         from AS57536 89.46.144.157 at 89.46.144.11 accept AS57536
+export:         to AS57536 89.46.144.157 at 89.46.144.11 announce AS-KIKE
+import:         from AS197479 89.46.144.154 at 89.46.144.11 accept AS197479
+export:         to AS197479 89.46.144.154 at 89.46.144.11 announce AS-KIKE
+import:         from AS199503 89.46.144.160 at 89.46.144.11 accept AS199503
+export:         to AS199503 89.46.144.160 at 89.46.144.11 announce AS-KIKE
+import:         from AS-BARTNET 89.46.144.162 at 89.46.144.11 accept AS-BARTNET
+export:         to AS-BARTNET 89.46.144.162 at 89.46.144.11 announce AS-KIKE
+import:         from AS50829 89.46.144.163 at 89.46.144.11 accept AS50829
+export:         to AS50829 89.46.144.163 at 89.46.144.11 announce AS-KIKE
+import:         from AS199510 89.46.144.164 at 89.46.144.11 accept AS199510
+export:         to AS199510 89.46.144.164 at 89.46.144.11 announce AS-KIKE
+import:         from AS-PROMEDIA 89.46.144.165 at 89.46.144.11 accept AS-PROMEDIA
+export:         to AS-PROMEDIA 89.46.144.165 at 89.46.144.11 announce AS-KIKE
+import:         from AS-199250-AS 89.46.144.166 at 89.46.144.11 accept AS-199250-AS
+export:         to AS-199250-AS 89.46.144.166 at 89.46.144.11 announce AS-KIKE
+import:         from AS50705 89.46.144.167 at 89.46.144.11 accept AS50705
+export:         to AS50705 89.46.144.167 at 89.46.144.11 announce AS-KIKE
+import:         from AS-TERRA-NET 89.46.144.168 at 89.46.144.11 accept AS-TERRA-NET
+export:         to AS-TERRA-NET 89.46.144.168 at 89.46.144.11 announce AS-KIKE
+import:         from AS198040  89.46.144.169 at 89.46.144.11 accept AS198040
+export:         to AS198040  89.46.144.169 at 89.46.144.11 announce AS-KIKE
+import:         from AS-RADIX 89.46.144.170 at 89.46.144.11 accept AS-RADIX
+export:         to AS-RADIX 89.46.144.170 at 89.46.144.11 announce AS-KIKE
+import:         from AS-INTERACTIVE3D 89.46.144.171 at 89.46.144.11 accept AS-INTERACTIVE3D
+export:         to AS-INTERACTIVE3D 89.46.144.171 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ETOP 89.46.144.172 at 89.46.144.11 accept AS-ETOP
+export:         to AS-ETOP 89.46.144.172 at 89.46.144.11 announce AS-KIKE
+import:         from AS198906 89.46.144.174 at 89.46.144.11 accept AS198906
+export:         to AS198906 89.46.144.174 at 89.46.144.11 announce AS-KIKE
+import:         from AS197405 89.46.144.175 at 89.46.144.11 accept AS197405
+export:         to AS197405 89.46.144.175 at 89.46.144.11 announce AS-KIKE
+import:         from AS42401 89.46.144.176 at 89.46.144.11 accept AS42401
+export:         to AS42401 89.46.144.176 at 89.46.144.11 announce AS-KIKE
+import:         from AS8535 89.46.144.178 at 89.46.144.11 accept AS8535
+export:         to AS8535 89.46.144.178 at 89.46.144.11 announce AS-KIKE
+import:         from AS59611 89.46.144.181 at 89.46.144.11 accept AS59611
+export:         to AS59611 89.46.144.181 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ZAPNET 89.46.144.182 at 89.46.144.11 accept AS-ZAPNET
+export:         to AS-ZAPNET 89.46.144.182 at 89.46.144.11 announce AS-KIKE
+import:         from AS197809 89.46.144.183 at 89.46.144.11 accept AS197809
+export:         to AS197809 89.46.144.183 at 89.46.144.11 announce AS-KIKE
+import:         from AS15169 89.46.144.185 at 89.46.144.11 accept AS15169
+export:         to AS15169 89.46.144.185 at 89.46.144.11 announce AS-KIKE
+import:         from AS206314 89.46.144.186 at 89.46.144.11 accept AS206314
+export:         to AS206314 89.46.144.186 at 89.46.144.11 announce AS-KIKE
+import:         from AS35745:AS-Provector 89.46.144.187 at 89.46.144.11 accept AS35745:AS-Provector
+export:         to AS35745:AS-Provector 89.46.144.187 at 89.46.144.11 announce AS-KIKE
+import:         from AS199475 89.46.144.188 at 89.46.144.11 accept AS199475
+export:         to AS199475 89.46.144.188 at 89.46.144.11 announce AS-KIKE
+import:         from AS6939 89.46.144.189 at 89.46.144.11 accept AS6939
+export:         to AS6939 89.46.144.189 at 89.46.144.11 announce AS-KIKE
+import:         from AS61154:AS-IntegraDesign-MyNet 89.46.144.190 at 89.46.144.11 accept AS61154:AS-IntegraDesign-MyNet
+export:         to AS61154:AS-IntegraDesign-MyNet 89.46.144.190 at 89.46.144.11 announce AS-KIKE
+import:         from AS-CSMNP-IX 89.46.144.191 at 89.46.144.11 accept AS-CSMNP-IX
+export:         to AS-CSMNP-IX 89.46.144.191 at 89.46.144.11 announce AS-KIKE
+import:         from AS42739 89.46.144.18 at 89.46.144.11 accept AS42739
+export:         to AS42739 89.46.144.18 at 89.46.144.11 announce AS-KIKE
+import:         from AS-TRAKTONET 89.46.144.159 at 89.46.144.11 accept AS-TRAKTONET
+export:         to AS-TRAKTONET 89.46.144.159 at 89.46.144.11 announce AS-KIKE
+import:         from AS199265 89.46.144.192 at 89.46.144.11 accept AS199265
+export:         to AS199265 89.46.144.192 at 89.46.144.11 announce AS-KIKE
+import:         from AS-BRK 89.46.144.193 at 89.46.144.11 accept AS-BRK
+export:         to AS-BRK 89.46.144.193 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ALLEGROGROUP 89.46.144.194 at 89.46.144.11 accept AS-ALLEGROGROUP
+export:         to AS-ALLEGROGROUP 89.46.144.194 at 89.46.144.11 announce AS-KIKE
+import:         from AS198401 89.46.144.195 at 89.46.144.11 accept AS198401
+export:         to AS198401 89.46.144.195 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ITV-MEDIA 89.46.144.59 at 89.46.144.11 accept AS-ITV-MEDIA
+export:         to AS-ITV-MEDIA 89.46.144.59 at 89.46.144.11 announce AS-KIKE
+import:         from AS57890 89.46.144.196 at 89.46.144.11 accept AS57890
+export:         to AS57890 89.46.144.196 at 89.46.144.11 announce AS-KIKE
+import:         from AS202004 89.46.144.34 at 89.46.144.11 accept AS202004
+export:         to AS202004 89.46.144.34 at 89.46.144.11 announce AS-KIKE
+import:         from AS-TORJON 89.46.144.104 at 89.46.144.11 accept AS-TORJON
+export:         to AS-TORJON 89.46.144.104 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NETCITY 89.46.144.197 at 89.46.144.11 accept AS-NETCITY
+export:         to AS-NETCITY 89.46.144.197 at 89.46.144.11 announce AS-KIKE
+import:         from AS-CELCOM-AS 89.46.144.99 at 89.46.144.11 accept AS-CELCOM-AS
+export:         to AS-CELCOM-AS 89.46.144.99 at 89.46.144.11 announce AS-KIKE
+import:         from AS199451 89.46.144.98 at 89.46.144.11 accept AS199451
+export:         to AS199451 89.46.144.98 at 89.46.144.11 announce AS-KIKE
+import:         from AS-AMSSYSTEM 89.46.144.100 at 89.46.144.11 accept AS-AMSSYSTEM
+export:         to AS-AMSSYSTEM 89.46.144.100 at 89.46.144.11 announce AS-KIKE
+import:         from AS199413 89.46.144.101 at 89.46.144.11 accept AS199413
+export:         to AS199413 89.46.144.101 at 89.46.144.11 announce AS-KIKE
+import:         from AS-PROTONET-AS 89.46.144.103 at 89.46.144.11 accept AS-PROTONET-AS
+export:         to AS-PROTONET-AS 89.46.144.103 at 89.46.144.11 announce AS-KIKE
+import:         from AS198389 89.46.144.106 at 89.46.144.11 accept AS198389
+export:         to AS198389 89.46.144.106 at 89.46.144.11 announce AS-KIKE
+import:         from AS201990 89.46.144.109 at 89.46.144.11 accept AS201990
+export:         to AS201990 89.46.144.109 at 89.46.144.11 announce AS-KIKE
+import:         from AS196927  89.46.144.115 at 89.46.144.11 accept AS196927
+export:         to AS196927  89.46.144.115 at 89.46.144.11 announce AS-KIKE
+import:         from AS-197502 89.46.144.118 at 89.46.144.11 accept AS-197502
+export:         to AS-197502 89.46.144.118 at 89.46.144.11 announce AS-KIKE
+import:         from AS-RESPL 89.46.144.119 at 89.46.144.11 accept AS-RESPL
+export:         to AS-RESPL 89.46.144.119 at 89.46.144.11 announce AS-KIKE
+import:         from AS198091 89.46.144.121 at 89.46.144.11 accept AS198091
+export:         to AS198091 89.46.144.121 at 89.46.144.11 announce AS-KIKE
+import:         from AS42374 89.46.144.124 at 89.46.144.11 accept AS42374
+export:         to AS42374 89.46.144.124 at 89.46.144.11 announce AS-KIKE
+import:         from AS8819 89.46.144.33 at 89.46.144.11 accept AS8819
+export:         to AS8819 89.46.144.33 at 89.46.144.11 announce AS-KIKE
+import:         from AS62328 89.46.144.38 at 89.46.144.11 accept AS62328
+export:         to AS62328 89.46.144.38 at 89.46.144.11 announce AS-KIKE
+import:         from AS-DOLNET 89.46.144.40 at 89.46.144.11 accept AS-DOLNET
+export:         to AS-DOLNET 89.46.144.40 at 89.46.144.11 announce AS-KIKE
+import:         from AS-DOLNETGROUP 89.46.144.41 at 89.46.144.11 accept AS-DOLNETGROUP
+export:         to AS-DOLNETGROUP 89.46.144.41 at 89.46.144.11 announce AS-KIKE
+import:         from AS203551 89.46.144.46 at 89.46.144.11 accept AS203551
+export:         to AS203551 89.46.144.46 at 89.46.144.11 announce AS-KIKE
+import:         from AS198529 89.46.144.47 at 89.46.144.11 accept AS198529
+export:         to AS198529 89.46.144.47 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NETKOMP 89.46.144.48 at 89.46.144.11 accept AS-NETKOMP
+export:         to AS-NETKOMP 89.46.144.48 at 89.46.144.11 announce AS-KIKE
+import:         from AS57665 89.46.144.50 at 89.46.144.11 accept AS57665
+export:         to AS57665 89.46.144.50 at 89.46.144.11 announce AS-KIKE
+import:         from AS50349 89.46.144.137 at 89.46.144.11 accept AS50349
+export:         to AS50349 89.46.144.137 at 89.46.144.11 announce AS-KIKE
+import:         from AS49633 89.46.144.132 at 89.46.144.11 accept AS49633
+export:         to AS49633 89.46.144.132 at 89.46.144.11 announce AS-KIKE
+import:         from AS57811 89.46.144.19 at 89.46.144.11 accept AS57811
+export:         to AS57811 89.46.144.19 at 89.46.144.11 announce AS-KIKE
+import:         from AS50661 89.46.144.52 at 89.46.144.11 accept AS50661
+export:         to AS50661 89.46.144.52 at 89.46.144.11 announce AS-KIKE
+import:         from AS198642  89.46.144.61 at 89.46.144.11 accept AS198642
+export:         to AS198642  89.46.144.61 at 89.46.144.11 announce AS-KIKE
+import:         from AS197592  89.46.144.64 at 89.46.144.11 accept AS197592
+export:         to AS197592  89.46.144.64 at 89.46.144.11 announce AS-KIKE
+import:         from AS199416 89.46.144.56 at 89.46.144.11 accept AS199416
+export:         to AS199416 89.46.144.56 at 89.46.144.11 announce AS-KIKE
+import:         from AS200176 89.46.144.63 at 89.46.144.11 accept AS200176
+export:         to AS200176 89.46.144.63 at 89.46.144.11 announce AS-KIKE
+import:         from AS199846 89.46.144.71 at 89.46.144.11 accept AS199846
+export:         to AS199846 89.46.144.71 at 89.46.144.11 announce AS-KIKE
+import:         from AS202744 89.46.144.73 at 89.46.144.11 accept AS202744
+export:         to AS202744 89.46.144.73 at 89.46.144.11 announce AS-KIKE
+import:         from AS-BOX3 89.46.144.78 at 89.46.144.11 accept AS-BOX3
+export:         to AS-BOX3 89.46.144.78 at 89.46.144.11 announce AS-KIKE
+import:         from AS203389 89.46.144.79 at 89.46.144.11 accept AS203389
+export:         to AS203389 89.46.144.79 at 89.46.144.11 announce AS-KIKE
+import:         from AS199338 89.46.144.80 at 89.46.144.11 accept AS199338
+export:         to AS199338 89.46.144.80 at 89.46.144.11 announce AS-KIKE
+import:         from AS202627 89.46.144.81 at 89.46.144.11 accept AS202627
+export:         to AS202627 89.46.144.81 at 89.46.144.11 announce AS-KIKE
+import:         from AS-CLOUDFLARE 89.46.144.83 at 89.46.144.11 accept AS-CLOUDFLARE
+export:         to AS-CLOUDFLARE 89.46.144.83 at 89.46.144.11 announce AS-KIKE
+import:         from AS-SET_PARTNERS_AS50550 89.46.144.84 at 89.46.144.11 accept AS-SET_PARTNERS_AS50550
+export:         to AS-SET_PARTNERS_AS50550 89.46.144.84 at 89.46.144.11 announce AS-KIKE
+import:         from AS50607 89.46.144.252 at 89.46.144.11 accept AS50607
+export:         to AS50607 89.46.144.252 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ELZAPPERO 89.46.144.173 at 89.46.144.11 accept AS-ELZAPPERO
+export:         to AS-ELZAPPERO 89.46.144.173 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NNET 89.46.144.152 at 89.46.144.11 accept AS-NNET
+export:         to AS-NNET 89.46.144.152 at 89.46.144.11 announce AS-KIKE
+import:         from AS-OSTROG 89.46.144.153 at 89.46.144.11 accept AS-OSTROG
+export:         to AS-OSTROG 89.46.144.153 at 89.46.144.11 announce AS-KIKE
+import:         from AS201925 89.46.144.198 at 89.46.144.11 accept AS201925
+export:         to AS201925 89.46.144.198 at 89.46.144.11 announce AS-KIKE
+import:         from AS-WIDENET 89.46.144.144 at 89.46.144.11 accept AS-WIDENET
+export:         to AS-WIDENET 89.46.144.144 at 89.46.144.11 announce AS-KIKE
+import:         from AS-PL-RAJF 89.46.144.184 at 89.46.144.11 accept AS-PL-RAJF
+export:         to AS-PL-RAJF 89.46.144.184 at 89.46.144.11 announce AS-KIKE
+import:         from AS-TELENETIKS 89.46.144.91 at 89.46.144.11 accept AS-TELENETIKS
+export:         to AS-TELENETIKS 89.46.144.91 at 89.46.144.11 announce AS-KIKE
+import:         from AS-KRT 89.46.144.70 at 89.46.144.11 accept AS-KRT
+export:         to AS-KRT 89.46.144.70 at 89.46.144.11 announce AS-KIKE
+import:         from AS41809 89.46.144.120 at 89.46.144.11 accept AS41809
+export:         to AS41809 89.46.144.120 at 89.46.144.11 announce AS-KIKE
+import:         from AS203140 89.46.144.128 at 89.46.144.11 accept AS203140
+export:         to AS203140 89.46.144.128 at 89.46.144.11 announce AS-KIKE
+import:         from AS-INTERPLUS 89.46.144.145 at 89.46.144.11 accept AS-INTERPLUS
+export:         to AS-INTERPLUS 89.46.144.145 at 89.46.144.11 announce AS-KIKE
+import:         from AS201754 89.46.144.199 at 89.46.144.11 accept AS201754
+export:         to AS201754 89.46.144.199 at 89.46.144.11 announce AS-KIKE
+import:         from AS-DOMTEL-PL 89.46.144.66 at 89.46.144.11 accept AS-DOMTEL-PL
+export:         to AS-DOMTEL-PL 89.46.144.66 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ACTUS 89.46.144.138 at 89.46.144.11 accept AS-ACTUS
+export:         to AS-ACTUS 89.46.144.138 at 89.46.144.11 announce AS-KIKE
+import:         from AS59945 89.46.144.74 at 89.46.144.11 accept AS59945
+export:         to AS59945 89.46.144.74 at 89.46.144.11 announce AS-KIKE
+import:         from AS59607 89.46.144.201 at 89.46.144.11 accept AS59607
+export:         to AS59607 89.46.144.201 at 89.46.144.11 announce AS-KIKE
+import:         from AS200750 89.46.144.43 at 89.46.144.11 accept AS200750
+export:         to AS200750 89.46.144.43 at 89.46.144.11 announce AS-KIKE
+import:         from AS201754 89.46.144.42 at 89.46.144.11 accept AS201754
+export:         to AS201754 89.46.144.42 at 89.46.144.11 announce AS-KIKE
+import:         from AS59613 89.46.144.24 at 89.46.144.11 accept AS59613
+export:         to AS59613 89.46.144.24 at 89.46.144.11 announce AS-KIKE
+import:         from AS202228 89.46.144.26 at 89.46.144.11 accept AS202228
+export:         to AS202228 89.46.144.26 at 89.46.144.11 announce AS-KIKE
+import:         from AS48850 89.46.144.125 at 89.46.144.11 accept AS48850
+export:         to AS48850 89.46.144.125 at 89.46.144.11 announce AS-KIKE
+import:         from AS206758 89.46.144.200 at 89.46.144.11 accept AS206758
+export:         to AS206758 89.46.144.200 at 89.46.144.11 announce AS-KIKE
+import:         from AS-INTERKONEKT 89.46.144.23 at 89.46.144.11 accept AS-INTERKONEKT
+export:         to AS-INTERKONEKT 89.46.144.23 at 89.46.144.11 announce AS-KIKE
+import:         from AS-GALATEA 89.46.144.202 at 89.46.144.11 accept AS-GALATEA
+export:         to AS-GALATEA 89.46.144.202 at 89.46.144.11 announce AS-KIKE
+import:         from AS197418 89.46.144.203 at 89.46.144.11 accept AS197418
+export:         to AS197418 89.46.144.203 at 89.46.144.11 announce AS-KIKE
+import:         from AS197310 89.46.144.21 at 89.46.144.11 accept AS197310
+export:         to AS197310 89.46.144.21 at 89.46.144.11 announce AS-KIKE
+import:         from AS-24IT 89.46.144.86 at 89.46.144.11 accept AS-24IT
+export:         to AS-24IT 89.46.144.86 at 89.46.144.11 announce AS-KIKE
+import:         from AS-KOLNET 89.46.144.204 at 89.46.144.11 accept AS-KOLNET
+export:         to AS-KOLNET 89.46.144.204 at 89.46.144.11 announce AS-KIKE
+import:         from AS206762 89.46.144.205 at 89.46.144.11 accept AS206762
+export:         to AS206762 89.46.144.205 at 89.46.144.11 announce AS-KIKE
+import:         from AS202805 89.46.144.206 at 89.46.144.11 accept AS202805
+export:         to AS202805 89.46.144.206 at 89.46.144.11 announce AS-KIKE
+import:         from AS203760 89.46.144.207 at 89.46.144.11 accept AS203760
+export:         to AS203760 89.46.144.207 at 89.46.144.11 announce AS-KIKE
+import:         from AS207156 89.46.144.208 at 89.46.144.11 accept AS207156
+export:         to AS207156 89.46.144.208 at 89.46.144.11 announce AS-KIKE
+import:         from AS-IT4POLSKA 89.46.144.209 at 89.46.144.11 accept AS-IT4POLSKA
+export:         to AS-IT4POLSKA 89.46.144.209 at 89.46.144.11 announce AS-KIKE
+import:         from AS51960:AS-PARTNERS 89.46.144.210 at 89.46.144.11 accept AS51960:AS-PARTNERS
+export:         to AS51960:AS-PARTNERS 89.46.144.210 at 89.46.144.11 announce AS-KIKE
+import:         from AS204019 89.46.144.211 at 89.46.144.11 accept AS204019
+export:         to AS204019 89.46.144.211 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NETIA 89.46.144.212 at 89.46.144.11 accept AS-NETIA
+export:         to AS-NETIA 89.46.144.212 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NETTELEKOM 89.46.144.213 at 89.46.144.11 accept AS-NETTELEKOM
+export:         to AS-NETTELEKOM 89.46.144.213 at 89.46.144.11 announce AS-KIKE
+import:         from AS5582:AS-CUSTOMERS 89.46.144.214 at 89.46.144.11 accept AS5582:AS-CUSTOMERS
+export:         to AS5582:AS-CUSTOMERS 89.46.144.214 at 89.46.144.11 announce AS-KIKE
+import:         from AS12618:AS-Bydgoszcz-COM-EPIX 89.46.144.94 at 89.46.144.11 accept AS12618:AS-Bydgoszcz-COM-EPIX
+export:         to AS12618:AS-Bydgoszcz-COM-EPIX 89.46.144.94 at 89.46.144.11 announce AS-KIKE
+import:         from AS199981 89.46.144.215 at 89.46.144.11 accept AS199981
+export:         to AS199981 89.46.144.215 at 89.46.144.11 announce AS-KIKE
+import:         from AS35306 89.46.144.216 at 89.46.144.11 accept AS35306
+export:         to AS35306 89.46.144.216 at 89.46.144.11 announce AS-KIKE
+import:         from AS-JDSTMF 89.46.144.217 at 89.46.144.11 accept AS-JDSTMF
+export:         to AS-JDSTMF 89.46.144.217 at 89.46.144.11 announce AS-KIKE
+import:         from AS-VOICENET 89.46.144.218 at 89.46.144.11 accept AS-VOICENET
+export:         to AS-VOICENET 89.46.144.218 at 89.46.144.11 announce AS-KIKE
+import:         from AS-GEMINI-ISTS 89.46.144.219 at 89.46.144.11 accept AS-GEMINI-ISTS
+export:         to AS-GEMINI-ISTS 89.46.144.219 at 89.46.144.11 announce AS-KIKE
+import:         from AS-FIBERLINK 89.46.144.220 at 89.46.144.11 accept AS-FIBERLINK
+export:         to AS-FIBERLINK 89.46.144.220 at 89.46.144.11 announce AS-KIKE
+import:         from AS-LUPRONET 89.46.144.221 at 89.46.144.11 accept AS-LUPRONET
+export:         to AS-LUPRONET 89.46.144.221 at 89.46.144.11 announce AS-KIKE
+import:         from AS201036 89.46.144.222 at 89.46.144.11 accept AS201036
+export:         to AS201036 89.46.144.222 at 89.46.144.11 announce AS-KIKE
+import:         from AS207101 89.46.144.223 at 89.46.144.11 accept AS207101
+export:         to AS207101 89.46.144.223 at 89.46.144.11 announce AS-KIKE
+import:         from AS48224 89.46.144.224 at 89.46.144.11 accept AS48224
+export:         to AS48224 89.46.144.224 at 89.46.144.11 announce AS-KIKE
+import:         from AS64550 89.46.144.126 at 89.46.144.11 accept AS64550
+export:         to AS64550 89.46.144.126 at 89.46.144.11 announce AS-KIKE
+import:         from AS48850 89.46.144.254 at 89.46.144.11 accept AS48850
+export:         to AS48850 89.46.144.254 at 89.46.144.11 announce AS-KIKE
+import:         from AS47790 89.46.144.10 at 89.46.144.11 accept AS47790
+export:         to AS47790 89.46.144.10 at 89.46.144.11 announce AS-KIKE
+import:         from AS-KORBANK2 89.46.144.9 at 89.46.144.11 accept AS-KORBANK2
+export:         to AS-KORBANK2 89.46.144.9 at 89.46.144.11 announce AS-KIKE
+import:         from AS198984 89.46.144.14 at 89.46.144.11 accept AS198984
+export:         to AS198984 89.46.144.14 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NETMAR-TRANSIT 89.46.144.15 at 89.46.144.11 accept AS-NETMAR-TRANSIT
+export:         to AS-NETMAR-TRANSIT 89.46.144.15 at 89.46.144.11 announce AS-KIKE
+import:         from AS2590 89.46.144.16 at 89.46.144.11 accept AS2590
+export:         to AS2590 89.46.144.16 at 89.46.144.11 announce AS-KIKE
+import:         from AS2590 89.46.144.17 at 89.46.144.11 accept AS2590
+export:         to AS2590 89.46.144.17 at 89.46.144.11 announce AS-KIKE
+import:         from AS199473 89.46.144.20 at 89.46.144.11 accept AS199473
+export:         to AS199473 89.46.144.20 at 89.46.144.11 announce AS-KIKE
+import:         from AS203741 89.46.144.22 at 89.46.144.11 accept AS203741
+export:         to AS203741 89.46.144.22 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ACTUS 89.46.144.39 at 89.46.144.11 accept AS-ACTUS
+export:         to AS-ACTUS 89.46.144.39 at 89.46.144.11 announce AS-KIKE
+import:         from AS201122 89.46.144.85 at 89.46.144.11 accept AS201122
+export:         to AS201122 89.46.144.85 at 89.46.144.11 announce AS-KIKE
+import:         from AS-MEDIATELEKOM 89.46.144.225 at 89.46.144.11 accept AS-MEDIATELEKOM
+export:         to AS-MEDIATELEKOM 89.46.144.225 at 89.46.144.11 announce AS-KIKE
+import:         from AS-197447_ITTMEDIA-AS-SET 89.46.144.161 at 89.46.144.11 accept AS-197447_ITTMEDIA-AS-SET
+export:         to AS-197447_ITTMEDIA-AS-SET 89.46.144.161 at 89.46.144.11 announce AS-KIKE
+import:         from AS200966 89.46.144.227 at 89.46.144.11 accept AS200966
+export:         to AS200966 89.46.144.227 at 89.46.144.11 announce AS-KIKE
+import:         from AS56838 89.46.144.228 at 89.46.144.11 accept AS56838
+export:         to AS56838 89.46.144.228 at 89.46.144.11 announce AS-KIKE
+import:         from AS-ARTNET 89.46.144.229 at 89.46.144.11 accept AS-ARTNET
+export:         to AS-ARTNET 89.46.144.229 at 89.46.144.11 announce AS-KIKE
+import:         from AS56658 89.46.144.230 at 89.46.144.11 accept AS56658
+export:         to AS56658 89.46.144.230 at 89.46.144.11 announce AS-KIKE
+import:         from AS-TPODLASIE 89.46.144.231 at 89.46.144.11 accept AS-TPODLASIE
+export:         to AS-TPODLASIE 89.46.144.231 at 89.46.144.11 announce AS-KIKE
+import:         from AS-HAKER 89.46.144.233 at 89.46.144.11 accept AS-HAKER
+export:         to AS-HAKER 89.46.144.233 at 89.46.144.11 announce AS-KIKE
+import:         from AS197979 89.46.144.234 at 89.46.144.11 accept AS197979
+export:         to AS197979 89.46.144.234 at 89.46.144.11 announce AS-KIKE
+import:         from AS202626 89.46.144.235 at 89.46.144.11 accept AS202626
+export:         to AS202626 89.46.144.235 at 89.46.144.11 announce AS-KIKE
+import:         from AS199449 89.46.144.236 at 89.46.144.11 accept AS199449
+export:         to AS199449 89.46.144.236 at 89.46.144.11 announce AS-KIKE
+import:         from AS-DZEU 89.46.144.237 at 89.46.144.11 accept AS-DZEU
+export:         to AS-DZEU 89.46.144.237 at 89.46.144.11 announce AS-KIKE
+import:         from AS204086 89.46.144.238 at 89.46.144.11 accept AS204086
+export:         to AS204086 89.46.144.238 at 89.46.144.11 announce AS-KIKE
+import:         from AS201439 89.46.144.177 at 89.46.144.11 accept AS201439
+export:         to AS201439 89.46.144.177 at 89.46.144.11 announce AS-KIKE
+import:         from AS201439 89.46.144.180 at 89.46.144.11 accept AS201439
+export:         to AS201439 89.46.144.180 at 89.46.144.11 announce AS-KIKE
+import:         from AS-INM 89.46.144.239 at 89.46.144.11 accept AS-INM
+export:         to AS-INM 89.46.144.239 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NETSERVICE-PL 89.46.144.240 at 89.46.144.11 accept AS-NETSERVICE-PL
+export:         to AS-NETSERVICE-PL 89.46.144.240 at 89.46.144.11 announce AS-KIKE
+import:         from AS5550:AS-TASK 89.46.144.241 at 89.46.144.11 accept AS5550:AS-TASK
+export:         to AS5550:AS-TASK 89.46.144.241 at 89.46.144.11 announce AS-KIKE
+import:         from AS201149 89.46.144.242 at 89.46.144.11 accept AS201149
+export:         to AS201149 89.46.144.242 at 89.46.144.11 announce AS-KIKE
+import:         from AS48850 94.246.179.27 at 89.46.144.11 accept AS48850
+export:         to AS48850 94.246.179.27 at 89.46.144.11 announce AS-KIKE
+import:         from AS203302 89.46.144.13 at 89.46.144.11 accept AS203302
+export:         to AS203302 89.46.144.13 at 89.46.144.11 announce AS-KIKE
+import:         from AS204263 89.46.144.244 at 89.46.144.11 accept AS204263
+export:         to AS204263 89.46.144.244 at 89.46.144.11 announce AS-KIKE
+import:         from AS206736 89.46.144.245 at 89.46.144.11 accept AS206736
+export:         to AS206736 89.46.144.245 at 89.46.144.11 announce AS-KIKE
+import:         from AS56783 89.46.144.246 at 89.46.144.11 accept AS56783
+export:         to AS56783 89.46.144.246 at 89.46.144.11 announce AS-KIKE
+import:         from AS197709 89.46.144.247 at 89.46.144.11 accept AS197709
+export:         to AS197709 89.46.144.247 at 89.46.144.11 announce AS-KIKE
+import:         from AS203548 89.46.144.248 at 89.46.144.11 accept AS203548
+export:         to AS203548 89.46.144.248 at 89.46.144.11 announce AS-KIKE
+import:         from AS202971 89.46.144.249 at 89.46.144.11 accept AS202971
+export:         to AS202971 89.46.144.249 at 89.46.144.11 announce AS-KIKE
+import:         from AS24577 89.46.144.250 at 89.46.144.11 accept AS24577
+export:         to AS24577 89.46.144.250 at 89.46.144.11 announce AS-KIKE
+import:         from AS50247 89.46.144.253 at 89.46.144.11 accept AS50247
+export:         to AS50247 89.46.144.253 at 89.46.144.11 announce AS-KIKE
+import:         from AS39566 89.46.144.8 at 89.46.144.11 accept AS39566
+export:         to AS39566 89.46.144.8 at 89.46.144.11 announce AS-KIKE
+import:         from AS-INTEREVO 89.46.144.7 at 89.46.144.11 accept AS-INTEREVO
+export:         to AS-INTEREVO 89.46.144.7 at 89.46.144.11 announce AS-KIKE
+import:         from AS60646 89.46.144.6 at 89.46.144.11 accept AS60646
+export:         to AS60646 89.46.144.6 at 89.46.144.11 announce AS-KIKE
+import:         from AS-PL-SOFT-PARTNER 89.46.144.243 at 89.46.144.11 accept AS-PL-SOFT-PARTNER
+export:         to AS-PL-SOFT-PARTNER 89.46.144.243 at 89.46.144.11 announce AS-KIKE
+import:         from AS15874 89.46.144.5 at 89.46.144.11 accept AS15874
+export:         to AS15874 89.46.144.5 at 89.46.144.11 announce AS-KIKE
+import:         from AS205810 89.46.144.4 at 89.46.144.11 accept AS205810
+export:         to AS205810 89.46.144.4 at 89.46.144.11 announce AS-KIKE
+import:         from AS-GTNET 89.46.144.3 at 89.46.144.11 accept AS-GTNET
+export:         to AS-GTNET 89.46.144.3 at 89.46.144.11 announce AS-KIKE
+import:         from AS-NETDRIVE 89.46.144.2 at 89.46.144.11 accept AS-NETDRIVE
+export:         to AS-NETDRIVE 89.46.144.2 at 89.46.144.11 announce AS-KIKE
+import:         from AS205679 89.46.144.155 at 89.46.144.11 accept AS205679
+export:         to AS205679 89.46.144.155 at 89.46.144.11 announce AS-KIKE
+import:         from AS205443 89.46.144.1 at 89.46.144.11 accept AS205443
+export:         to AS205443 89.46.144.1 at 89.46.144.11 announce AS-KIKE
+import:         from AS57055 89.46.144.45 at 89.46.144.11 accept AS57055
+export:         to AS57055 89.46.144.45 at 89.46.144.11 announce AS-KIKE
+import:         from AS201893 89.46.144.158 at 89.46.144.11 accept AS201893
+export:         to AS201893 89.46.144.158 at 89.46.144.11 announce AS-KIKE
+import:         from AS-M2M 89.46.144.97 at 89.46.144.11 accept AS-M2M
+export:         to AS-M2M 89.46.144.97 at 89.46.144.11 announce AS-KIKE
+import:         from AS60806 89.46.144.179 at 89.46.144.11 accept AS60806
+export:         to AS60806 89.46.144.179 at 89.46.144.11 announce AS-KIKE
+import:         from AS-PIRXNET 89.46.144.75 at 89.46.144.11 accept AS-PIRXNET
+export:         to AS-PIRXNET 89.46.144.75 at 89.46.144.11 announce AS-KIKE
+import:         from AS205813 89.46.144.25 at 89.46.144.11 accept AS205813
+export:         to AS205813 89.46.144.25 at 89.46.144.11 announce AS-KIKE
+import:         from AS198525 89.46.144.131 at 89.46.144.11 accept AS198525
+export:         to AS198525 89.46.144.131 at 89.46.144.11 announce AS-KIKE
+import:         from AS47884 89.46.144.130 at 89.46.144.11 accept AS47884
+export:         to AS47884 89.46.144.130 at 89.46.144.11 announce AS-KIKE
+import:         from AS199978 89.46.144.226 at 89.46.144.11 accept AS199978
+export:         to AS199978 89.46.144.226 at 89.46.144.11 announce AS-KIKE
+import:         from AS198611 89.46.144.255 at 89.46.144.11 accept AS198611
+export:         to AS198611 89.46.144.255 at 89.46.144.11 announce AS-KIKE
+import:         from AS20938 89.46.145.0 at 89.46.144.11 accept AS20938
+export:         to AS20938 89.46.145.0 at 89.46.144.11 announce AS-KIKE
+import:         from AS203230 89.46.145.10 at 89.46.144.11 accept AS203230
+export:         to AS203230 89.46.145.10 at 89.46.144.11 announce AS-KIKE
+import:         from AS197226 89.46.145.11 at 89.46.144.11 accept AS197226
+export:         to AS197226 89.46.145.11 at 89.46.144.11 announce AS-KIKE
+import:         from AS12985 89.46.145.12 at 89.46.144.11 accept AS12985
+export:         to AS12985 89.46.145.12 at 89.46.144.11 announce AS-KIKE
+import:         from AS205604 89.46.145.13 at 89.46.144.11 accept AS205604
+export:         to AS205604 89.46.145.13 at 89.46.144.11 announce AS-KIKE
+import:         from AS-SYSTEMX 89.46.145.14 at 89.46.144.11 accept AS-SYSTEMX
+export:         to AS-SYSTEMX 89.46.145.14 at 89.46.144.11 announce AS-KIKE
+remarks:
+mnt-routes:     KIKE-MNT
+mnt-routes:     ART-COM-MNT
+mnt-by:         KIKE-MNT
+mnt-by:         ITCARE-MNT
+mnt-by:         ART-COM-MNT
+mnt-by:         LEON-MNT
+created:        2009-02-18T13:24:04Z
+last-modified:  2018-02-05T21:15:00Z
+source:         RIPE
+sponsoring-org: ORG-LSzo6-RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

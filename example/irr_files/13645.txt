@@ -1,0 +1,330 @@
+aut-num:    AS13645
+as-name:    BROADBANDONE
+descr:      BroadbandONE, Inc. (Host.net)
+remarks:    
+remarks:    Host.net provides high speed internet access and network
+remarks:    transport to its enterprise, medical and governmental
+remarks:    customers throughout the United States and Canada via its
+remarks:    own OC48 and OC192 backbone.
+remarks:    In addition, the company owns and operates two colocation
+remarks:    facilities, one in Boca Raton, Florida and the other in
+remarks:    Atlanta, Georgia.
+remarks:    
+remarks:    IPv4 Transit
+remarks:    
+import:     from AS1239  action pref = 100; accept AS1239 AND NOT {0.0.0.0/0}
+import:     from AS3356  action pref = 100; accept RS-LEVEL3-TRANSIT AND NOT {0.0.0.0/0}
+import:     from AS7018  action pref = 100; accept AS7018 AND NOT {0.0.0.0/0}
+remarks:    
+remarks:    IPv4 Peers
+remarks:    
+import:     from AS42  action pref = 200; accept AS-PCH AND NOT {0.0.0.0/0}
+import:     from AS237  action pref = 200; accept AS-MICHNET AND NOT {0.0.0.0/0}
+import:     from AS293  action pref = 200; accept AS-ESNET AND NOT {0.0.0.0/0}
+import:     from AS1257  action pref = 200; accept AS-TELE2 AND NOT {0.0.0.0/0}
+import:     from AS1273  action pref = 200; accept AS-CW AND NOT {0.0.0.0/0}
+import:     from AS1784  action pref = 200; accept AS1784 AND NOT {0.0.0.0/0}
+import:     from AS1785  action pref = 200; accept AS-USLEC AND NOT {0.0.0.0/0}
+import:     from AS2152  action pref = 200; accept AS2152 AND NOT {0.0.0.0/0}
+import:     from AS2381  action pref = 200; accept AS2381 AND NOT {0.0.0.0/0}
+import:     from AS2529  action pref = 200; accept AS-DEMON AND NOT {0.0.0.0/0}
+import:     from AS2647  action pref = 200; accept AS-EQUANT AND NOT {0.0.0.0/0}
+import:     from AS2711  action pref = 200; accept AS2711 AND NOT {0.0.0.0/0}
+import:     from AS3064  action pref = 200; accept AS3064 AND NOT {0.0.0.0/0}
+import:     from AS3300  action pref = 200; accept AS-INFONET AND NOT {0.0.0.0/0}
+import:     from AS3303  action pref = 200; accept AS-SWCMGLOBAL AND NOT {0.0.0.0/0}
+import:     from AS3479  action pref = 200; accept AS-PEACHNET AND NOT {0.0.0.0/0}
+import:     from AS3491  action pref = 200; accept AS-CAIS AND NOT {0.0.0.0/0}
+import:     from AS3595  action pref = 200; accept AS-GNAXNET AND NOT {0.0.0.0/0}
+import:     from AS3605  action pref = 200; accept AS3605 AND NOT {0.0.0.0/0}
+import:     from AS3741  action pref = 200; accept AS-IS AND NOT {0.0.0.0/0}
+import:     from AS3856  action pref = 200; accept AS-PCH AND NOT {0.0.0.0/0}
+import:     from AS4181  action pref = 200; accept AS-TDS AND NOT {0.0.0.0/0}
+import:     from AS4323  action pref = 200; accept AS-TWTC AND NOT {0.0.0.0/0}
+import:     from AS4355  action pref = 200; accept AS-ERMS-EARTHLNK AND NOT {0.0.0.0/0}
+import:     from AS4513  action pref = 200; accept AS-GLOBIX AND NOT {0.0.0.0/0}
+import:     from AS4565  action pref = 200; accept AS-EPOCH AND NOT {0.0.0.0/0}
+import:     from AS4589  action pref = 200; accept AS-EASYNET AND NOT {0.0.0.0/0}
+import:     from AS4725  action pref = 200; accept AS4725 AND NOT {0.0.0.0/0}
+import:     from AS4739  action pref = 200; accept AS4739 AND NOT {0.0.0.0/0}
+import:     from AS4788  action pref = 200; accept AS-TMNET AND NOT {0.0.0.0/0}
+import:     from AS5430  action pref = 200; accept AS-FREENETDE AND NOT {0.0.0.0/0}
+import:     from AS5462  action pref = 200; accept AS-CABLEINET AND NOT {0.0.0.0/0}
+import:     from AS5704  action pref = 200; accept AS-MATRIX AND NOT {0.0.0.0/0}
+import:     from AS6128  action pref = 200; accept AS-6128 AND NOT {0.0.0.0/0}
+import:     from AS6140  action pref = 200; accept AS-IMPSAT AND NOT {0.0.0.0/0}
+import:     from AS6327  action pref = 200; accept AS-BIGPIPE AND NOT {0.0.0.0/0}
+import:     from AS6400  action pref = 200; accept AS6400 AND NOT {0.0.0.0/0}
+import:     from AS6432  action pref = 200; accept AS-DOUBLECLICK AND NOT {0.0.0.0/0}
+import:     from AS6447  action pref = 200; accept AS6447 AND NOT {0.0.0.0/0}
+import:     from AS6539  action pref = 200; accept AS6539 AND NOT {0.0.0.0/0}
+import:     from AS6667  action pref = 200; accept AS-EUNETIP AND NOT {0.0.0.0/0}
+import:     from AS6730  action pref = 200; accept AS-GLOBAL AND NOT {0.0.0.0/0}
+import:     from AS6830  action pref = 200; accept AS-AORTA AND NOT {0.0.0.0/0}
+import:     from AS6939  action pref = 200; accept AS-HURRICANE AND NOT {0.0.0.0/0}
+import:     from AS7085  action pref = 200; accept AS7085 AND NOT {0.0.0.0/0}
+import:     from AS7091  action pref = 200; accept AS-VIANET AND NOT {0.0.0.0/0}
+import:     from AS7132  action pref = 200; accept AS-SBIS AND NOT {0.0.0.0/0}
+import:     from AS7228  action pref = 200; accept AS-MCLD AND NOT {0.0.0.0/0}
+import:     from AS7270  action pref = 200; accept AS-N2PNET AND NOT {0.0.0.0/0}
+import:     from AS7303  action pref = 200; accept AS7303 AND NOT {0.0.0.0/0}
+import:     from AS7473  action pref = 200; accept AS-SINGTEL AND NOT {0.0.0.0/0}
+import:     from AS7784  action pref = 200; accept AS7784 AND NOT {0.0.0.0/0}
+import:     from AS7795  action pref = 200; accept AS-CFW AND NOT {0.0.0.0/0}
+import:     from AS7908  action pref = 200; accept AS-COMSAT AND NOT {0.0.0.0/0}
+import:     from AS8001  action pref = 200; accept AS-NAC AND NOT {0.0.0.0/0}
+import:     from AS8002  action pref = 200; accept AS-STEALTH AND NOT {0.0.0.0/0}
+import:     from AS8075  action pref = 200; accept AS-MICROSOFT AND NOT {0.0.0.0/0}
+import:     from AS8121  action pref = 200; accept AS-LAYER42 AND NOT {0.0.0.0/0}
+import:     from AS8210  action pref = 200; accept AS-TELENOR AND NOT {0.0.0.0/0}
+import:     from AS8404  action pref = 200; accept AS-CABLECOM AND NOT {0.0.0.0/0}
+import:     from AS8422  action pref = 200; accept AS-NETCOLOGNE AND NOT {0.0.0.0/0}
+import:     from AS8657  action pref = 200; accept AS-CPRM AND NOT {0.0.0.0/0}
+import:     from AS8928  action pref = 200; accept AS-INTEROUTE AND NOT {0.0.0.0/0}
+import:     from AS8966  action pref = 200; accept AS-EMIX AND NOT {0.0.0.0/0}
+import:     from AS9145  action pref = 200; accept AS-EWETEL AND NOT {0.0.0.0/0}
+import:     from AS9156  action pref = 200; accept AS-BBC AND NOT {0.0.0.0/0}
+import:     from AS9318  action pref = 200; accept AS-HANARO AND NOT {0.0.0.0/0}
+import:     from AS9505  action pref = 200; accept AS-TWIG AND NOT {0.0.0.0/0}
+import:     from AS9680  action pref = 200; accept AS-HINET AND NOT {0.0.0.0/0}
+import:     from AS10026  action pref = 200; accept AS-ANC AND NOT {0.0.0.0/0}
+import:     from AS10310  action pref = 200; accept AS-YAHOO AND NOT {0.0.0.0/0}
+import:     from AS10355  action pref = 200; accept AS-DSCGA AND NOT {0.0.0.0/0}
+import:     from AS10490  action pref = 200; accept AS10490 AND NOT {0.0.0.0/0}
+import:     from AS10848  action pref = 200; accept AS-TELLURIAN AND NOT {0.0.0.0/0}
+import:     from AS11096  action pref = 200; accept AS11096 AND NOT {0.0.0.0/0}
+import:     from AS11383  action pref = 200; accept AS11383 AND NOT {0.0.0.0/0}
+import:     from AS11686  action pref = 200; accept AS-ENA AND NOT {0.0.0.0/0}
+import:     from AS11841  action pref = 200; accept AS-LINKLINE AND NOT {0.0.0.0/0}
+import:     from AS11867  action pref = 200; accept AS-PRTL AND NOT {0.0.0.0/0}
+import:     from AS11992  action pref = 200; accept AS-CENTENNIAL AND NOT {0.0.0.0/0}
+import:     from AS12008  action pref = 200; accept AS12008 AND NOT {0.0.0.0/0}
+import:     from AS12083  action pref = 200; accept AS-KNOLOGY-NET AND NOT {0.0.0.0/0}
+import:     from AS12124  action pref = 200; accept AS-THORN AND NOT {0.0.0.0/0}
+import:     from AS12222  action pref = 200; accept AS-AKAMAI AND NOT {0.0.0.0/0}
+import:     from AS12306  action pref = 200; accept AS-PLUSLINE AND NOT {0.0.0.0/0}
+import:     from AS12322  action pref = 200; accept AS-PROXAD AND NOT {0.0.0.0/0}
+import:     from AS12715  action pref = 200; accept AS-JAZZTEL AND NOT {0.0.0.0/0}
+import:     from AS12989  action pref = 200; accept AS-EWEKA AND NOT {0.0.0.0/0}
+import:     from AS13030  action pref = 200; accept AS-INIT7 AND NOT {0.0.0.0/0}
+import:     from AS13037  action pref = 200; accept AS-ZEN AND NOT {0.0.0.0/0}
+import:     from AS13184  action pref = 200; accept AS-HANSENET AND NOT {0.0.0.0/0}
+import:     from AS13237  action pref = 200; accept AS-LAMBDANET AND NOT {0.0.0.0/0}
+import:     from AS13445  action pref = 200; accept AS13445 AND NOT {0.0.0.0/0}
+import:     from AS13680  action pref = 200; accept AS-HOSTWAY AND NOT {0.0.0.0/0}
+import:     from AS13720  action pref = 200; accept AS-SONYONLINE AND NOT {0.0.0.0/0}
+import:     from AS13768  action pref = 200; accept AS-13768 AND NOT {0.0.0.0/0}
+import:     from AS14361  action pref = 200; accept AS-HOPONE AND NOT {0.0.0.0/0}
+import:     from AS14492  action pref = 200; accept AS-DATAPIPE AND NOT {0.0.0.0/0}
+import:     from AS14891  action pref = 200; accept AS14891 AND NOT {0.0.0.0/0}
+import:     from AS15169  action pref = 200; accept AS-GOOGLE AND NOT {0.0.0.0/0}
+import:     from AS15290  action pref = 200; accept AS-ALLSTREAM AND NOT {0.0.0.0/0}
+import:     from AS15412  action pref = 200; accept AS-FLAGT AND NOT {0.0.0.0/0}
+import:     from AS16030  action pref = 200; accept AS-ALTECOM AND NOT {0.0.0.0/0}
+import:     from AS16531  action pref = 200; accept AS16531 AND NOT {0.0.0.0/0}
+import:     from AS16559  action pref = 200; accept AS-REALCONNECT AND NOT {0.0.0.0/0}
+import:     from AS16637  action pref = 200; accept AS16637 AND NOT {0.0.0.0/0}
+import:     from AS17374  action pref = 200; accept AS17374 AND NOT {0.0.0.0/0}
+import:     from AS18607  action pref = 200; accept AS-UNS AND NOT {0.0.0.0/0}
+import:     from AS19029  action pref = 200; accept AS-NEWEDGE AND NOT {0.0.0.0/0}
+import:     from AS19094  action pref = 200; accept AS-TELCOVE AND NOT {0.0.0.0/0}
+import:     from AS19151  action pref = 200; accept AS-WVFIBER AND NOT {0.0.0.0/0}
+import:     from AS19158  action pref = 200; accept AS-USCARRIER AND NOT {0.0.0.0/0}
+import:     from AS19318  action pref = 200; accept AS-NJIIX AND NOT {0.0.0.0/0}
+import:     from AS19548  action pref = 200; accept AS-ADELPHIA AND NOT {0.0.0.0/0}
+import:     from AS19817  action pref = 200; accept AS19817 AND NOT {0.0.0.0/0}
+import:     from AS19962  action pref = 200; accept AS19962:AS-CUSTOMERS AND NOT {0.0.0.0/0}
+import:     from AS20080  action pref = 200; accept AS20080 AND NOT {0.0.0.0/0}
+import:     from AS20473  action pref = 200; accept AS-CHOOPA AND NOT {0.0.0.0/0}
+import:     from AS20676  action pref = 200; accept AS-QSC AND NOT {0.0.0.0/0}
+import:     from AS22612  action pref = 200; accept AS22612 AND NOT {0.0.0.0/0}
+import:     from AS22653  action pref = 200; accept AS-GLOBALCOMPASS AND NOT {0.0.0.0/0}
+import:     from AS22691  action pref = 200; accept AS-ISPNET AND NOT {0.0.0.0/0}
+import:     from AS22773  action pref = 200; accept AS-COX-TRANSIT AND NOT {0.0.0.0/0}
+import:     from AS22822  action pref = 200; accept AS-LLNW AND NOT {0.0.0.0/0}
+import:     from AS22829  action pref = 200; accept AS-RNK AND NOT {0.0.0.0/0}
+import:     from AS23131  action pref = 200; accept AS-23131 AND NOT {0.0.0.0/0}
+import:     from AS23148  action pref = 200; accept AS-TERRENAP-US AND NOT {0.0.0.0/0}
+import:     from AS23342  action pref = 200; accept AS-UNITEDLAYER AND NOT {0.0.0.0/0}
+import:     from AS23352  action pref = 200; accept AS-SERVERCENTRAL AND NOT {0.0.0.0/0}
+import:     from AS23393  action pref = 200; accept AS-ISPRIME AND NOT {0.0.0.0/0}
+import:     from AS25462  action pref = 200; accept AS-RETN AND NOT {0.0.0.0/0}
+import:     from AS25975  action pref = 200; accept AS-GREATACCESS AND NOT {0.0.0.0/0}
+import:     from AS26067  action pref = 200; accept AS26067 AND NOT {0.0.0.0/0}
+import:     from AS26163  action pref = 200; accept AS-DGRAM AND NOT {0.0.0.0/0}
+import:     from AS27257  action pref = 200; accept AS-WEBAIR AND NOT {0.0.0.0/0}
+import:     from AS27319  action pref = 200; accept AS27319 AND NOT {0.0.0.0/0}
+import:     from AS27357  action pref = 200; accept AS-RACKSPACE AND NOT {0.0.0.0/0}
+import:     from AS27524  action pref = 200; accept AS-NETSENTRY AND NOT {0.0.0.0/0}
+import:     from AS29117  action pref = 200; accept AS29117 AND NOT {0.0.0.0/0}
+import:     from AS29748  action pref = 200; accept AS-CARPATHIA AND NOT {0.0.0.0/0}
+import:     from AS29791  action pref = 200; accept AS-VOXEL AND NOT {0.0.0.0/0}
+import:     from AS29838  action pref = 200; accept AS-CRNC AND NOT {0.0.0.0/0}
+import:     from AS29877  action pref = 200; accept AS29877 AND NOT {0.0.0.0/0}
+import:     from AS30071  action pref = 200; accept AS-OCCAID AND NOT {0.0.0.0/0}
+import:     from AS30447  action pref = 200; accept AS30447 AND NOT {0.0.0.0/0}
+import:     from AS30653  action pref = 200; accept AS-EXOBIT AND NOT {0.0.0.0/0}
+import:     from AS31529  action pref = 200; accept AS31529 AND NOT {0.0.0.0/0}
+import:     from AS31800  action pref = 200; accept AS31800 AND NOT {0.0.0.0/0}
+import:     from AS32065  action pref = 200; accept AS32065 AND NOT {0.0.0.0/0}
+import:     from AS32787  action pref = 200; accept AS-PROLE AND NOT {0.0.0.0/0}
+import:     from AS33071  action pref = 200; accept AS33071 AND NOT {0.0.0.0/0}
+import:     from AS33739  action pref = 200; accept AS-MYSPACE AND NOT {0.0.0.0/0}
+import:     from AS34763  action pref = 200; accept AS-VIRGINRADIO AND NOT {0.0.0.0/0}
+import:     from AS35985  action pref = 200; accept AS35985 AND NOT {0.0.0.0/0}
+export:     to AS-ANY   announce AS-HOST
+remarks:    
+remarks:    IPv6 Transit
+remarks:    
+import:     from AS30071  action pref = 100; accept AS-OCCAID6
+remarks:    
+remarks:    IPv6 Peers
+remarks:    
+import:     from AS1273  action pref = 200; accept AS-CW6
+import:     from AS1752  action pref = 200; accept AS1752
+import:     from AS2914  action pref = 200; accept AS-VERIO
+import:     from AS3257  action pref = 200; accept AS-TISCALI
+import:     from AS4725  action pref = 200; accept AS4725
+import:     from AS6447  action pref = 200; accept AS6447
+import:     from AS6667  action pref = 200; accept AS-EUNETIP
+import:     from AS6830  action pref = 200; accept AS-AORTA6
+import:     from AS6939  action pref = 200; accept AS-HURRICANE
+import:     from AS8121  action pref = 200; accept AS-LAYER42
+import:     from AS8298  action pref = 200; accept AS8298
+import:     from AS10745  action pref = 200; accept AS10745
+import:     from AS12654  action pref = 200; accept AS12654
+import:     from AS16030  action pref = 200; accept AS-ALTECOM
+import:     from AS19318  action pref = 200; accept AS-NJIIX
+import:     from AS20080  action pref = 200; accept AS20080
+import:     from AS27319  action pref = 200; accept AS27319
+import:     from AS29838  action pref = 200; accept AS-CRNC6
+import:     from AS29877  action pref = 200; accept AS29877
+import:     from AS30653  action pref = 200; accept AS-EXOBIT
+import:     from AS33437  action pref = 200; accept AS33437
+import:     from AS34763  action pref = 200; accept AS-VIRGINRADIO
+export:     to AS-ANY   announce AS-HOST6
+admin-c:    HNA-ORG-ARIN
+tech-c:     HNA-ORG-ARIN
+remarks:    ========================================================
+remarks:    Abuse reports to abuse@host.net
+remarks:    Peering contact is peering@host.net
+remarks:    ========================================================
+remarks:    Host.net provides a public looking glass at
+remarks:    http://lg.host.net/
+remarks:    A cli-based route-server is also available via telnet
+remarks:    at route-server.host.net.
+remarks:    The following import actions are common to every
+remarks:    Host.net customer peering session:
+remarks:    - RFC1918 and other reserved networks and subnets are
+remarks:    not permitted.
+remarks:    - Advertisements with reserved ASes in the path
+remarks:    (ie 64512 - 65535) are not permitted.
+remarks:    - Advertisements are subject to route-flap dampening
+remarks:    according to the parameters documented in RIPE-229.
+remarks:    - Prefixes longer than /24 are not permitted. This
+remarks:    excludes prefixes tagged with the bgp community-id
+remarks:    of 13645:911 (blackhole). Prefixes tagged with the
+remarks:    blackhole bgp community-id, can be up to and include a
+remarks:    /32 in length.
+remarks:    - Advertisements containing the AS of a network with
+remarks:    which we have a non-customer peering relationship are
+remarks:    not permitted.
+remarks:    - Advertisements tagged with our own "internal use only"
+remarks:    communities will have all of their communities
+remarks:    stripped from them at ingress, and any communities
+remarks:    meant to affect localpref, prepending, etc are thus
+remarks:    ignored. Advertisements tagged with the well-known
+remarks:    communities of no-advertise, or no-export sub-confed
+remarks:    will also have all of their communities stripped
+remarks:    from them at ingress. However, advertisements with
+remarks:    the well-known community of no-export will be accepted
+remarks:    and honored.
+remarks:    - Prefixes not matching the per-peer import policy
+remarks:    as documented above are not permitted.
+remarks:    - A hard limit is sometimes placed on the number of
+remarks:    routes a peer is allowed to announce to us. This number
+remarks:    is based on their registered routes plus a bit of extra
+remarks:    overhead.
+remarks:    The following import actions are common to every
+remarks:    Host.net non-customer peering session:
+remarks:    - RFC1918 and other reserved networks and subnets are
+remarks:    not permitted.
+remarks:    - Advertisements with reserved ASes in the path
+remarks:    (ie 64512 - 65535) are not permitted.
+remarks:    - Advertisements are subject to route-flap dampening
+remarks:    according to the parameters documented in RIPE-229.
+remarks:    - Prefixes shorter longer than /24 are not permitted.
+remarks:    - Advertisements tagged with our own "internal use"
+remarks:    or "customer use" communities (as outlined below)
+remarks:    will have all of their communities stripped from them
+remarks:    at ingress. Advertisements tagged with the well-known
+remarks:    communities of no-advertise, or no-export-subconfed
+remarks:    will also have all of their communities stripped
+remarks:    from them at ingress. However, advertisements with
+remarks:    the well-known community of no-export will be accepted
+remarks:    and honored.
+remarks:    - MEDs are overwritten unless special arrangements
+remarks:    have been made.
+remarks:    - Peers who register their routes with meaningful
+remarks:    policies may have a prefix filter applied based on
+remarks:    this policy.
+remarks:    - Localpref is set to 200 or lower.
+remarks:    - A hard limit is placed on the number of routes a peer
+remarks:    is allowed to announce to us. This number is based
+remarks:    on a historical view of the number of routes they have
+remarks:    been advertising plus a bit of extra overhead.
+remarks:    The following export actions are common to every
+remarks:    Host.net peering session:
+remarks:    - RFC1918 and other reserved networks and subnets are
+remarks:    not announced.
+remarks:    - Advertisements with reserved ASes in the path
+remarks:    (ie 64512 - 65535) are not announced.
+remarks:    - Prefixes longer than /24 are not announced.
+remarks:    - Suppression and prepend actions as outlined in the
+remarks:    community list below are taken for announcements to
+remarks:    non-customer peers.
+remarks:    ========================================================
+remarks:    Communities applied at ingress
+remarks:    ========================================================
+remarks:    All routes announced to customers are tagged with the
+remarks:    following information:
+remarks:    ========================================================
+remarks:    13645:TCRI
+remarks:    T The type of relationship that the route was learned through.
+remarks:    C The continent where the route was learned.
+remarks:    R The region where the route was learned, if in the US.
+remarks:    I Internal usage only.
+remarks:    ========================================================
+remarks:    Value   Type           Continent       US Region
+remarks:    1       Public Peer    North America   BCT (Boca Raton)
+remarks:    2       Private Peer   Europe          MIA (Miami)
+remarks:    3       Transit        Asia            IAD (Ashburn)
+remarks:    4       Customer       Australia       LGA (New York)
+remarks:    5       Internal       South America   DFW (Dallas)
+remarks:    6                      Middle East     ORD (Chicago)
+remarks:    7                                      LAX (Los Angeles)
+remarks:    8                                      ATL (Atlanta)
+remarks:    9
+remarks:    ========================================================
+remarks:    Communities accepted from customers
+remarks:    ========================================================
+remarks:    Community    Action
+remarks:    13645:1      Prepend 13645 to route
+remarks:    13645:2      Prepend 13645 13645 to route
+remarks:    13645:3      Prepend 13645 13645 13645 to route
+remarks:    13645:50     Set local preference to 50
+remarks:    13645:100    Set local preference to 100
+remarks:    13645:150    Set local preference to 150
+remarks:    13645:200    Set local preference to 200
+remarks:    13645:250    Set local preference to 250
+remarks:    13645:300    Set local preference to 300
+remarks:    13645:555    Null route (discard) traffic
+remarks:    13645:666    Do not export to anyone
+remarks:    13645:777    Do not export to transits
+remarks:    13645:888    Do not export to peers
+remarks:    13645:999    Do not export to customers
+remarks:    --------------------------------------------------------
+notify:     db-admin@host.net
+mnt-by:     MAINT-HOST
+changed:    db-admin@host.net 20060809
+source:     HOST

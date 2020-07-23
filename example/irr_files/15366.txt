@@ -1,0 +1,263 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15360 - AS15398'
+
+as-block:       AS15360 - AS15398
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15366'
+
+% Abuse contact for 'AS15366' is 'abuse@dns-net.de'
+
+aut-num:        AS15366
+as-name:        DNSNET
+descr:          German Internet Service Providers
+remarks:        --------------------------------------------------------
+remarks:        TRANSIT
+remarks:        --------------------------------------------------------
+import:         from AS1299 action pref=100; accept ANY
+import:         from AS3356 action pref=100; accept ANY
+export:         to AS1299 announce AS-DNSNET
+export:         to AS3356 announce AS-DNSNET
+remarks:        --------------------------------------------------------
+remarks:        DE-CIX
+remarks:        --------------------------------------------------------
+import:         from AS1267 action pref=100; accept AS1267
+import:         from AS13030 action pref=100; accept AS13030
+import:         from AS13184 action pref=100; accept AS13184
+import:         from AS15557 action pref=100; accept AS15557
+import:         from AS15830 action pref=100; accept AS15830
+import:         from AS16150 action pref=100; accept AS16150
+import:         from AS19151 action pref=100; accept AS19151
+import:         from AS20485 action pref=100; accept AS20485
+import:         from AS20500 action pref=100; accept AS20500
+import:         from AS20764 action pref=100; accept AS20764
+import:         from AS20886 action pref=100; accept AS20886
+import:         from AS2119 action pref=100; accept AS2119
+import:         from AS21336 action pref=100; accept AS21336
+import:         from AS22822 action pref=100; accept AS22822
+import:         from AS22822 action pref=100; accept AS22822
+import:         from AS248 action pref=100; accept AS248
+import:         from AS29686 action pref=100; accept AS29686
+import:         from AS31133 action pref=100; accept AS31133
+import:         from AS31334 action pref=100; accept AS31334
+import:         from AS31334 action pref=100; accept AS31334
+import:         from AS3303 action pref=100; accept AS3303
+import:         from AS3303 action pref=100; accept AS3303
+import:         from AS33082 action pref=100; accept AS33082
+import:         from AS33082 action pref=100; accept AS33082
+import:         from AS35432 action pref=100; accept AS35432
+import:         from AS35833 action pref=100; accept AS35833
+import:         from AS43134 action pref=100; accept AS43134
+import:         from AS43395 action pref=100; accept AS43395
+import:         from AS44042 action pref=100; accept AS44042
+import:         from AS44788 action pref=100; accept AS44788
+import:         from AS4788 action pref=100; accept AS4788
+import:         from AS51057 action pref=100; accept AS51057
+import:         from AS5430 action pref=100; accept AS5430
+import:         from AS5430 action pref=100; accept AS5430
+import:         from AS5580 action pref=100; accept AS5580
+import:         from AS5605 action pref=100; accept AS5605
+import:         from AS6661 action pref=100; accept AS6661
+import:         from AS6695 action pref=100; accept AS-DECIX
+import:         from AS6939 action pref=100; accept AS6939
+import:         from AS8075 action pref=100; accept AS8075
+import:         from AS8359 action pref=100; accept AS8359
+import:         from AS8359 action pref=100; accept AS8359
+import:         from AS8365 action pref=100; accept AS8365
+import:         from AS8365 action pref=100; accept AS8365
+import:         from AS8492 action pref=100; accept AS8492
+import:         from AS8513 action pref=100; accept AS8513
+import:         from AS8586 action pref=100; accept AS8586
+import:         from AS8657 action pref=100; accept AS8657
+import:         from AS8708 action pref=100; accept AS8708
+import:         from AS8781 action pref=100; accept AS8781
+import:         from AS8881 action pref=100; accept AS8881
+import:         from AS8881 action pref=100; accept AS8881
+import:         from AS8966 action pref=100; accept AS8966
+export:         to AS8365 announce AS-DNSNET
+export:         to AS5605 announce AS-DNSNET
+export:         to AS8586 announce AS-DNSNET
+export:         to AS8657 announce AS-DNSNET
+export:         to AS5430 announce AS-DNSNET
+export:         to AS8492 announce AS-DNSNET
+export:         to AS248 announce AS-DNSNET
+export:         to AS13030 announce AS-DNSNET
+export:         to AS8359 announce AS-DNSNET
+export:         to AS8881 announce AS-DNSNET
+export:         to AS8708 announce AS-DNSNET
+export:         to AS15830 announce AS-DNSNET
+export:         to AS29686 announce AS-DNSNET
+export:         to AS43134 announce AS-DNSNET
+export:         to AS6695 announce AS-DNSNET
+export:         to AS20764 announce AS-DNSNET
+export:         to AS6939 announce AS-DNSNET
+export:         to AS3303 announce AS-DNSNET
+export:         to AS21336 announce AS-DNSNET
+export:         to AS15557 announce AS-DNSNET
+export:         to AS6661 announce AS-DNSNET
+export:         to AS1267 announce AS-DNSNET
+export:         to AS19151 announce AS-DNSNET
+export:         to AS22822 announce AS-DNSNET
+export:         to AS8966 announce AS-DNSNET
+export:         to AS31133 announce AS-DNSNET
+export:         to AS31334 announce AS-DNSNET
+export:         to AS8365 announce AS-DNSNET
+export:         to AS5430 announce AS-DNSNET
+export:         to AS8359 announce AS-DNSNET
+export:         to AS8881 announce AS-DNSNET
+export:         to AS3303 announce AS-DNSNET
+export:         to AS22822 announce AS-DNSNET
+export:         to AS13184 announce AS-DNSNET
+export:         to AS31334 announce AS-DNSNET
+export:         to AS8781 announce AS-DNSNET
+export:         to AS44042 announce AS-DNSNET
+export:         to AS4788 announce AS-DNSNET
+export:         to AS20886 announce AS-DNSNET
+export:         to AS8075 announce AS-DNSNET
+export:         to AS33082 announce AS-DNSNET
+export:         to AS8513 announce AS-DNSNET
+export:         to AS5580 announce AS-DNSNET
+export:         to AS44788 announce AS-DNSNET
+export:         to AS20500 announce AS-DNSNET
+export:         to AS16150 announce AS-DNSNET
+export:         to AS20485 announce AS-DNSNET
+export:         to AS2119 announce AS-DNSNET
+export:         to AS35432 announce AS-DNSNET
+export:         to AS33082 announce AS-DNSNET
+export:         to AS43395 announce AS-DNSNET
+export:         to AS51057 announce AS-DNSNET
+export:         to AS35833 announce AS-DNSNET
+remarks:        --------------------------------------------------------
+remarks:        BCIX (if not already in the list)
+remarks:        --------------------------------------------------------
+import:         from AS680 action pref=100; accept AS-DFNTOWINISP
+import:         from AS6724 action pref=100; accept AS6724
+import:         from AS8928 action pref=100; accept ANY
+import:         from AS15813 action pref=100; accept AS15813
+import:         from AS16374 action pref=100; accept AS-BCIX
+import:         from AS20855 action pref=100; accept AS20855
+import:         from AS31529 action pref=100; accept AS31529
+import:         from AS33811 action pref=100; accept AS-PIXEL-UP
+export:         to AS680 announce AS-DNSNET
+export:         to AS4589 announce AS-DNSNET
+export:         to AS6724 announce AS-DNSNET
+export:         to AS8928 announce AS-DNSNET
+export:         to AS15813 announce ANY
+export:         to AS16374 announce AS-DNSNET
+export:         to AS20855 announce AS-DNSNET
+export:         to AS31529 announce AS-DNSNET
+remarks:        --------------------------------------------------------
+remarks:        PRIVATE (if not already in the list)
+remarks:        --------------------------------------------------------
+import:         from AS6805 action pref=100; accept AS-TDDE
+export:         to AS6805 announce AS-DNSNET
+import:         from AS51467 action pref=100; accept AS51467
+remarks:        --------------------------------------------------------
+org:            ORG-cGi1-RIPE
+admin-c:        DNET-RIPE
+tech-c:         DNET-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DNSNET-MNT
+remarks:        ---------------------------------------------------------
+remarks:        C O M M U N I T Y   D E F I N I T I O N S
+remarks:        ---------------------------------------------------------
+remarks:        community definitions applied at ingress
+remarks:
+remarks:        prefix type communities
+remarks:        ---------------------------------------------------------
+remarks:        15366:1001           customer route
+remarks:        15366:1002           peer route
+remarks:
+remarks:        peering point communities
+remarks:        ---------------------------------------------------------
+remarks:        15366:2001           DE-CIX
+remarks:        15366:2002           BCIX
+remarks:
+remarks:        city communities
+remarks:        ---------------------------------------------------------
+remarks:        15366:3001           Berlin
+remarks:        15366:3002           Hamburg
+remarks:        15366:3003           Frankfurt
+remarks:        15366:3004           Duesseldorf
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:        community definitions accepted from customers
+remarks:
+remarks:        The following communities will be accepted from customers
+remarks:        with a special agreement only:
+remarks:
+remarks:        customer traffic engineering communities - suppression
+remarks:        ---------------------------------------------------------
+remarks:        65000:0              do not announce to peers
+remarks:        65000:XXX            do not announce to AS XXX
+remarks:
+remarks:        customer traffic engineering communities - prepending
+remarks:        ---------------------------------------------------------
+remarks:        65001:XXX            prepend 1x when announcing to XXX
+remarks:        65002:XXX            prepend 2x when announcing to XXX
+remarks:        65003:XXX            prepend 3x when announcing to XXX
+remarks:        65004:XXX            prepend 4x when announcing to XXX
+remarks:
+remarks:        ---------------------------------------------------------
+created:        2002-08-29T22:18:22Z
+last-modified:  2017-11-15T09:18:04Z
+source:         RIPE
+
+organisation:   ORG-cGi1-RIPE
+org-name:       DNS:NET Internet Service GmbH
+org-type:       LIR
+address:        Zimmerstr. 23
+address:        10969
+address:        Berlin
+address:        GERMANY
+phone:          +4930667650
+fax-no:         +49 30 66765 499
+abuse-c:        AR13475-RIPE
+mnt-ref:        DNSNET-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+admin-c:        DNET-RIPE
+admin-c:        MB19506-RIPE
+admin-c:        AL6823-RIPE
+created:        2004-04-17T11:05:01Z
+last-modified:  2017-07-04T12:49:51Z
+source:         RIPE # Filtered
+
+role:           DNS NET NETWORK OPERATION CENTER
+address:        DNS:NET Internet Service GmbH
+address:        Zimmerstr. 23
+address:        10969 Berlin
+address:        Germany
+phone:          +49 30 66765 0
+fax-no:         +49 30 66765 499
+admin-c:        LUCK-RIPE
+tech-c:         LUCK-RIPE
+tech-c:         ELEK-RIPE
+nic-hdl:        DNET-RIPE
+mnt-by:         DNSNET-MNT
+remarks:        ---------------------------------------------------------
+remarks:        A 24/7 phone number is known to customers and peering
+remarks:        partners. In case of any trouble you can also send an
+remarks:        email to noc@dns-net.de.
+remarks:        ---------------------------------------------------------
+created:        2001-10-23T23:18:40Z
+last-modified:  2017-09-26T13:12:34Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

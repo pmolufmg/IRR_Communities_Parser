@@ -1,0 +1,204 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS20929 - AS21002'
+
+as-block:       AS20929 - AS21002
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:27Z
+last-modified:  2018-11-22T15:27:27Z
+source:         RIPE
+
+% Information related to 'AS20932'
+
+% Abuse contact for 'AS20932' is 'abuse@sig-telecom.net'
+
+aut-num:        AS20932
+org:            ORG-TS3-RIPE
+as-name:        SIG-ST
+descr:          Service Telecom
+remarks:
+remarks:        UPSTREAMS
+remarks:        -----------------------------------------------------------------------
+import:         from AS174 action pref=80; accept ANY
+import:         from AS1299 action pref=80; accept ANY
+import:         from AS3356 action pref=80; accept ANY
+export:         to AS174 announce AS-SIG-TELECOM
+export:         to AS1299 announce AS-SIG-TELECOM
+export:         to AS3356 announce AS-SIG-TELECOM
+remarks:
+remarks:
+remarks:        UPSTREAMS IPV6
+remarks:        -----------------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS174 action pref=80; accept ANY
+mp-import:      afi ipv6.unicast from AS1299 action pref=80; accept ANY
+mp-import:      afi ipv6.unicast from AS3356 action pref=80; accept ANY
+mp-import:      afi ipv6.unicast from AS6939 action pref=80; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-SIG-TELECOM-V6
+mp-export:      afi ipv6.unicast to AS1299 announce AS-SIG-TELECOM-V6
+mp-export:      afi ipv6.unicast to AS3356 announce AS-SIG-TELECOM-V6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-SIG-TELECOM-V6
+remarks:
+remarks:
+remarks:        CUSTOMERS
+remarks:        -----------------------------------------------------------------------
+import:         from AS2027 action pref=300; accept AS2027
+export:         to AS2027 announce ANY
+import:         from AS16114 action pref=300; accept AS16114
+export:         to AS16114 announce ANY
+import:         from AS28749 action pref=300; accept AS28749
+export:         to AS28749 announce ANY
+import:         from AS28916 action pref=300; accept AS28916
+export:         to AS28916 announce ANY
+import:         from AS28959 action pref=300; accept AS28959
+export:         to AS28959 announce ANY
+import:         from AS39381 action pref=300; accept AS39381
+export:         to AS39381 announce ANY
+import:         from AS41623 action pref=300; accept AS41623
+export:         to AS41623 announce ANY
+import:         from AS43195 action pref=300; accept AS43195
+export:         to AS43195 announce ANY
+import:         from AS48751 action pref=300; accept AS48751
+export:         to AS48751 announce ANY
+import:         from AS50350 action pref=300; accept AS50350
+export:         to AS50350 announce ANY
+remarks:
+remarks:
+remarks:        CUSTOMERS V6
+remarks:        -----------------------------------------------------------------------
+mp-export:      afi ipv6.unicast to AS-SIG-TELECOM-V6-CUST announce ANY
+remarks:
+remarks:
+remarks:        PRIVATE PEERINGS & PARTIAL PEERING
+remarks:        -----------------------------------------------------------------------
+import:         from AS20932:AS-PEERING accept AS20932:AS-SET:PeerAS
+export:         to AS20932:AS-PEERING announce AS-SIG-TELECOM
+remarks:
+remarks:
+remarks:        -----------------------------------------------------------------------
+remarks:
+remarks:        IPv4 Macro's
+remarks:
+remarks:        AS-SIG-TELECOM Set for AS20932
+remarks:        AS-SIG-TELECOM-CUST Set for Customers
+remarks:
+remarks:        IPv6 Macro's
+remarks:
+remarks:        AS-SIG-TELECOM-V6 Set for AS20932
+remarks:        AS-SIG-TELECOM-V6-CUST Set for Customers v6
+remarks:
+remarks:        -----------------------------------------------------------------------
+remarks:
+remarks:        Peering at Equinix Zurich (https://ix.equinix.com)
+remarks:        Peering at CIXP (http://www.cixp.ch)
+remarks:        Peering at NL-IX (http://www.nl-ix.net)
+remarks:        Peering at AMS-IX (http://www.ams-ix.net)
+remarks:        Peering at DE-CIX (http://www.de-cix.net)
+remarks:        Peering at SwissIX (http://www.swissix.ch)
+remarks:        Peering policy: Open
+remarks:
+remarks:        =======================================================================
+remarks:
+remarks:        Communities inbound marking:
+remarks:
+remarks:        Community Notes
+remarks:        -----------------------------------------------------------------------
+remarks:        20932:1011 Level3 AS3356 routes
+remarks:        20932:1012 Cogent AS174 routes
+remarks:        20932:1021 Telia AS1299 routes
+remarks:        20932:2011 CIXP routes
+remarks:        20932:2021 SwissIX routes
+remarks:        20932:2022 Equinix ZH routes
+remarks:        20932:2031 AMS-IX routes
+remarks:        20932:2032 NL-IX routes
+remarks:        20932:2041 DE-CIX routes
+remarks:
+remarks:        Communities accepted from customers:
+remarks:
+remarks:        Community Notes
+remarks:        -----------------------------------------------------------------------
+remarks:        174:9 Do not announce to Cogent AS174
+remarks:        174:1 Prepend 1x to Cogent AS174
+remarks:        174:2 Prepend 2x to Cogent AS174
+remarks:        174:3 Prepend 3x to Cogent AS174
+remarks:        1299:9 Do not announce to Telia AS1299
+remarks:        1299:1 Prepend 1x to Telia AS1299
+remarks:        1299:2 Prepend 2x to Telia AS1299
+remarks:        1299:3 Prepend 3x to Telia AS1299
+remarks:        3356:9 Do not announce to Level3 AS3356
+remarks:        3356:1 Prepend 1x to Level3 AS3356
+remarks:        3356:2 Prepend 2x to Level3 AS3356
+remarks:        3356:3 Prepend 3x to Level3 AS3356
+remarks:        65001:9 Do not announce to any transit
+remarks:        65001:1 Prepend 1x to all transit
+remarks:        65001:2 Prepend 2x to all transit
+remarks:        65001:3 Prepend 3x to all transit
+remarks:        65002:9000 Do not announce to any peering
+remarks:        65002:9011 Do not announce to CIXP peers
+remarks:        65002:9021 Do not announce to Swiss-IX peers
+remarks:        65002:9022 Do not announce to Equinix ZH peers
+remarks:        65002:9031 Do not announce to AMS-IX peers
+remarks:        65002:9032 Do not announce to NL-IX peers
+remarks:        65002:9041 Do not announce to DE-CIX peers
+remarks:
+remarks:        =======================================================================
+admin-c:        SIGT1-RIPE
+tech-c:         SIGT1-RIPE
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         SIG-TELECOM-MNT
+created:        2003-07-21T14:15:21Z
+last-modified:  2017-11-15T09:21:22Z
+source:         RIPE
+
+organisation:   ORG-TS3-RIPE
+org-name:       Services Industriels de Geneve
+org-type:       LIR
+address:        Chemin de Chateau-Bloch 2
+address:        1219
+address:        Le Lignon
+address:        SWITZERLAND
+phone:          +41224207126
+fax-no:         +41224209316
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        SIG-TELECOM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         SIG-TELECOM-MNT
+tech-c:         SIGT1-RIPE
+admin-c:        CJO3-RIPE
+admin-c:        SIGT1-RIPE
+admin-c:        OP51207-RIPE
+abuse-c:        AS30411-RIPE
+created:        2004-04-17T11:03:25Z
+last-modified:  2018-09-19T15:04:09Z
+source:         RIPE # Filtered
+
+role:           SIG - Service Telecom
+address:        Services Industriels de Geneve
+address:        Chemin du Chateau Bloch 2
+address:        1219 Le Lignon
+address:        Switzerland
+tech-c:         CJO3-RIPE
+tech-c:         JGN-RIPE
+admin-c:        OP51207-RIPE
+tech-c:         OP51207-RIPE
+tech-c:         FJ1508-RIPE
+nic-hdl:        SIGT1-RIPE
+mnt-by:         SIG-TELECOM-MNT
+created:        2011-10-21T08:52:06Z
+last-modified:  2014-11-05T11:02:41Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+
+

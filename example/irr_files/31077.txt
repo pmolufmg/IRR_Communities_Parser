@@ -1,0 +1,68 @@
+aut-num:        AS31077
+as-name:        DIGIAREA
+org:            ORG-LMK3-RIPE
+import:         from AS9002
+                accept ANY
+import:         from AS12837
+                accept AS12837
+import:         from AS31173
+                accept AS-GNET
+import:         from AS21194
+                accept AS21194
+import:         from AS13121
+                accept ANY
+import:         from AS13249
+                accept ANY
+import:         from AS39070
+                accept AS39070
+import:         from AS12530
+                accept ANY
+import:         from AS16181
+                accept AS16181
+import:         from AS57612
+                accept AS57612
+export:         to AS12837
+                announce ANY
+export:         to AS31173
+                announce ANY
+export:         to AS21194
+                announce ANY
+export:         to AS13121
+                announce ANY
+export:         to AS9002
+                announce AS-DIGIAREA
+export:         to AS13249
+                announce AS-DIGIAREA
+export:         to AS39070
+                announce ANY
+export:         to AS12530
+                announce AS-DIGIAREA
+export:         to AS16181
+                announce ANY
+export:         to AS57612
+                announce ANY
+remarks:
+remarks:        Community Action/Effect
+remarks:        --------- ----------------------------------------
+remarks:
+remarks:        31077:100 set announce to ua
+remarks:        31077:105 do not announce to ua
+remarks:        31077:110 set announce to default
+remarks:        31077:115 do not announce to default
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         DIGIAREA-MNT
+mnt-routes:     DIGIAREA-MNT
+created:        2004-02-23T11:52:09Z
+last-modified:  2017-11-15T09:40:41Z
+source:         RIPE
+sponsoring-org: ORG-WNI2-RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

@@ -1,0 +1,924 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS13225 - AS13311'
+
+as-block:       AS13225 - AS13311
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:24Z
+last-modified:  2018-11-22T15:27:24Z
+source:         RIPE
+
+% Information related to 'AS13249'
+
+% Abuse contact for 'AS13249' is 'registry@itsinternet.net'
+
+aut-num:        AS13249
+org:            ORG-PA25-RIPE
+as-name:        ITS-UA
+descr:          IT Systems LLC
+descr:          Kyiv, Ukraine
+remarks:        ==== Upstream ==============================================
+import:         from AS8359 89.209.10.61 action pref=600; accept ANY
+export:         to AS8359 89.209.10.61 announce AS-ITS-WORLD
+import:         from AS6762 action pref=600; accept ANY
+export:         to AS6762 announce AS-ITS-WORLD
+import:         from AS3257 action pref=600; accept ANY
+export:         to AS3257 announce AS-ITS-WORLD
+import:         from AS174 action pref=600; accept ANY
+export:         to AS174 announce AS-ITS-WORLD
+import:         from AS20764 action pref=600; accept ANY
+export:         to AS20764 announce AS-ITS-WORLD
+remarks:        ==== IX ===============================================
+import:         from AS6695 action pref=310; accept AS-DECIX
+export:         to AS6695 announce AS-ITS-DECIX
+import:         from AS8631 action pref=300; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-ITS-WORLD
+import:         from AS50952 action pref=300; accept AS-DATAIX
+export:         to AS50952 announce AS-ITS-WORLD
+import:         from AS31500 action pref=300; accept AS-GBLNET
+export:         to AS31500 announce AS-ITS-WORLD
+remarks:        ==== Peering ===============================================
+import:         from AS15169 action pref=120; accept AS-GOOGLE
+export:         to AS15169 announce AS-ITS-GOOGLE
+import:         from AS46786 action pref=400; accept AS-IPTRANSIT
+export:         to AS46786 announce AS-ITS-WORLD
+import:         from AS12389 action pref=280; accept AS-ROSTELECOM
+export:         to AS12389 announce AS-ITS-WORLD
+remarks:        ---- DE-CIX ------------------------------------------------
+import:         from AS3249 80.81.192.197 action pref=300; accept AS-ESTPAK
+export:         to AS3249 80.81.192.197 announce AS-ITS-DECIX
+import:         from AS24724 80.81.192.227 action pref=300; accept AS-FOREIGN
+export:         to AS24724 80.81.192.227 announce AS-ITS-DECIX
+import:         from AS1267 80.81.192.215 action pref=300; accept AS-INFOSTRADA
+export:         to AS1267 80.81.192.215 announce AS-ITS-DECIX
+import:         from AS13030 action pref=300; accept AS-INIT7
+export:         to AS13030 announce AS-ITS-DECIX
+import:         from AS6939 80.81.192.172 action pref=300; accept AS-HURRICANE
+export:         to AS6939 80.81.192.172 announce AS-ITS-DECIX
+import:         from AS5588 action pref=300; accept AS-GTS-CE
+export:         to AS5588 announce AS-ITS-DECIX
+import:         from AS8966 action pref=300; accept AS-EMIX
+export:         to AS8966 announce AS-ITS-DECIX
+import:         from AS6724 action pref=300; accept AS-STRATORZ
+export:         to AS6724 announce AS-ITS-DECIX
+import:         from AS8365 80.81.192.6 action pref=300; accept AS-MANDA
+export:         to AS8365 80.81.192.6 announce AS-ITS-DECIX
+import:         from AS8492 80.81.192.56 action pref=300; accept AS-OBIT
+export:         to AS8492  80.81.192.56 announce AS-ITS-DECIX
+import:         from AS34655 action pref=300; accept AS-DOCLER
+export:         to AS34655 announce AS-ITS-DECIX
+import:         from AS12859 80.81.192.95 action pref=300; accept AS-BIT
+export:         to AS12859 80.81.192.95 announce AS-ITS-DECIX
+import:         from AS12713 80.81.192.207 action pref=300; accept AS-OTEGLOBE
+export:         to AS12713 80.81.192.207 announce AS-ITS-DECIX
+import:         from AS19151 action pref=300; accept AS-WVFIBER
+export:         to AS19151 announce AS-ITS-DECIX
+import:         from AS12714 action pref=300; accept AS-TI
+export:         to AS12714 announce AS-ITS-DECIX
+import:         from AS29686 action pref=300; accept AS-PROBENETWORKS
+export:         to AS29686 announce AS-ITS-DECIX
+import:         from AS16265 action pref=300; accept AS-LEASEWEB
+export:         to AS16265 announce AS-ITS-DECIX
+import:         from AS9063 action pref=300; accept AS-SAARGATE
+export:         to AS9063 announce AS-ITS-DECIX
+import:         from AS30890 action pref=300; accept AS-EVOLVA
+export:         to AS30890 announce AS-ITS-DECIX
+import:         from AS8972 action pref=300; accept AS-PLUSSERVER
+export:         to AS8972 announce AS-ITS-DECIX
+import:         from AS6805 action pref=300; accept AS-TDDE
+export:         to AS6805 announce AS-ITS-DECIX
+import:         from AS10310 action pref=300; accept AS-YAHOO
+export:         to AS10310 announce AS-ITS-DECIX
+import:         from AS8859 action pref=300; accept AS-OSN
+export:         to AS8859 announce AS-ITS-DECIX
+import:         from AS44042 action pref=300; accept AS-ROOT
+export:         to AS44042 announce AS-ITS-DECIX
+import:         from AS5605 action pref=300; accept AS-NETUSE
+export:         to AS5605 announce AS-ITS-DECIX
+import:         from AS8586 action pref=300; accept AS-REDNET
+export:         to AS8586 announce AS-ITS-DECIX
+import:         from AS12611 action pref=300; accept AS-RKOM
+export:         to AS12611 announce AS-ITS-DECIX
+import:         from AS39912 action pref=300; accept AS-I3B
+export:         to AS39912 announce AS-ITS-DECIX
+import:         from AS21336 action pref=300; accept AS-IR
+export:         to AS21336 announce AS-ITS-DECIX
+import:         from AS9119 action pref=300; accept AS-SOFTNET
+export:         to AS9119 announce AS-ITS-DECIX
+import:         from AS20495 action pref=300; accept AS-WEDARE
+export:         to AS20495 announce AS-ITS-DECIX
+import:         from AS8422 action pref=300; accept AS-NETCOLOGNE
+export:         to AS8422 announce AS-ITS-DECIX
+import:         from AS8359 80.81.192.78 action pref=300; accept AS-MTU
+export:         to AS8359 80.81.192.78 announce AS-ITS-DECIX
+import:         from AS33873 action pref=300; accept AS-ARVATO
+export:         to AS33873 announce AS-ITS-DECIX
+import:         from AS41692 action pref=300; accept AS-OPENCARRIER
+export:         to AS41692 announce AS-ITS-DECIX
+import:         from AS12306 action pref=300; accept AS-PLUSLINE
+export:         to AS12306 announce AS-ITS-DECIX
+import:         from AS5430 action pref=300; accept AS-FREENETDE
+export:         to AS5430 announce AS-ITS-DECIX
+import:         from AS8582 action pref=300; accept AS-SUPPORT
+export:         to AS8582 announce AS-ITS-DECIX
+import:         from AS9070 action pref=300; accept AS-ITDOUT
+export:         to AS9070 announce AS-ITS-DECIX
+import:         from AS23148 action pref=300; accept AS-TWW
+export:         to AS23148 announce AS-ITS-DECIX
+import:         from AS21385 action pref=300; accept AS-TNIB
+export:         to AS21385 announce AS-ITS-DECIX
+import:         from AS8781 action pref=300; accept AS-QTEL
+export:         to AS8781 announce AS-ITS-DECIX
+import:         from AS28809 action pref=300; accept AS-NAUKANET
+export:         to AS28809 announce AS-ITS-DECIX
+import:         from AS33891 action pref=300; accept AS-CORE-BACKBONE
+export:         to AS33891 announce AS-ITS-DECIX
+import:         from AS3303 80.81.192.183 action pref=300; accept AS-SWCMGLOBAL
+export:         to AS3303 80.81.192.183 announce AS-ITS-DECIX
+import:         from AS5466 action pref=300; accept AS-EIRCOM
+export:         to AS5466 announce AS-ITS-DECIX
+import:         from AS8560 80.81.192.123 action pref=300; accept AS-1AND1
+export:         to AS8560 80.81.192.123 announce AS-ITS-DECIX
+import:         from AS3248 action pref=300; accept AS-SILAT
+export:         to AS3248 announce AS-ITS-DECIX
+import:         from AS9505 action pref=300; accept AS-TWIG
+export:         to AS9505 announce AS-ITS-DECIX
+import:         from AS9031 80.81.192.139 action pref=300; accept AS-EDPNET
+export:         to AS9031 80.81.192.139 announce AS-ITS-DECIX
+import:         from AS6661 80.81.192.204 action pref=300; accept AS-PTLU
+export:         to AS6661 80.81.192.204 announce AS-ITS-DECIX
+import:         from AS8468 action pref=300; accept AS-ENTANET
+export:         to AS8468 announce AS-ITS-DECIX
+import:         from AS6900 action pref=300; accept AS-EDS
+export:         to AS6900 announce AS-ITS-DECIX
+import:         from AS6667 80.81.192.144 action pref=300; accept AS-EUNETIP
+export:         to AS6667 80.81.192.144 announce AS-ITS-DECIX
+import:         from AS15830 action pref=300; accept AS-TELECITYLON
+export:         to AS15830 announce AS-ITS-DECIX
+import:         from AS15925 action pref=300; accept AS-MEGA
+export:         to AS15925 announce AS-ITS-DECIX
+import:         from AS9121 action pref=300; accept AS-TTNET
+export:         to AS9121 announce AS-ITS-DECIX
+import:         from AS16276 80.81.192.209 action pref=300; accept AS-OVH
+export:         to AS16276 80.81.192.209 announce AS-ITS-DECIX
+import:         from AS15600 action pref=300; accept AS-FINECOM
+export:         to AS15600 announce AS-ITS-DECIX
+import:         from AS13101 action pref=300; accept AS-TNG
+export:         to AS13101 announce AS-ITS-DECIX
+import:         from AS29208 action pref=300; accept AS-DIALTELECOM
+export:         to AS29208 announce AS-ITS-DECIX
+import:         from AS34224 action pref=300; accept AS-NETERRA-INT
+export:         to AS34224 announce AS-ITS-DECIX
+import:         from AS20940 80.81.192.28 action pref=300; accept AS-AKAMAI
+export:         to AS20940 80.81.192.28 announce AS-ITS-DECIX
+import:         from AS2818 action pref=300; accept AS-BBC
+export:         to AS2818 announce AS-ITS-DECIX
+import:         from AS13285 action pref=300; accept AS-OPAL
+export:         to AS13285 announce AS-ITS-DECIX
+import:         from AS20640 action pref=300; accept AS-TITANNET
+export:         to AS20640 announce AS-ITS-DECIX
+import:         from AS2857 action pref=300; accept AS-RLP-NET
+export:         to AS2857 announce AS-ITS-DECIX
+import:         from AS553 action pref=300; accept AS-BELWUE
+export:         to AS553 announce AS-ITS-DECIX
+import:         from AS8447 80.81.192.69 action pref=300; accept AS-PTA
+export:         to AS8447 80.81.192.69 announce AS-ITS-DECIX
+import:         from AS32934 80.81.194.40 action pref=300; accept AS-FACEBOOK
+export:         to AS32934 80.81.194.40 announce AS-ITS-DECIX
+import:         from AS6730 action pref=300; accept AS-GLOBAL
+export:         to AS6730 announce AS-ITS-DECIX
+import:         from AS31400 action pref=300; accept AS-ACCELERATED
+export:         to AS31400 announce AS-ITS-DECIX
+import:         from AS5413 action pref=300; accept AS5413:AS-CUSTOMER
+export:         to AS5413 announce AS-ITS-DECIX
+import:         from AS15133 80.81.194.37 action pref=300; accept AS-EDGECAST
+export:         to AS15133 80.81.194.37 announce AS-ITS-DECIX
+import:         from AS24739 action pref=300; accept AS-SEVEREN-TELECOM
+export:         to AS24739 announce AS-ITS-DECIX
+import:         from AS5580 action pref=300; accept AS-ATRATO
+export:         to AS5580 announce AS-ITS-DECIX
+import:         from AS31500 action pref=300; accept AS-GLOBAL-NET
+export:         to AS31500 announce AS-ITS-DECIX
+import:         from AS12695 action pref=300; accept AS-DINET
+export:         to AS12695 announce AS-ITS-DECIX
+import:         from AS25074 action pref=300; accept AS-INETBONE
+export:         to AS25074 announce AS-ITS-DECIX
+import:         from AS46786 action pref=300; accept AS-IPTRANSIT
+export:         to AS46786 announce AS-ITS-DECIX
+import:         from AS8068 action pref=300; accept AS-MICROSOFT
+export:         to AS8068 announce AS-ITS-DECIX
+import:         from AS20764 action pref=300; accept AS-RASCOM
+export:         to AS20764 announce AS-ITS-DECIX
+import:         from AS8218 80.81.192.13 action pref=300; accept AS-NEOT
+export:         to AS8218 80.81.192.13 announce AS-ITS-DECIX
+import:         from AS13301 action pref=300; accept AS-UNITEDCOLO
+export:         to AS13301 announce AS-ITS-DECIX
+import:         from AS36408 80.81.194.4 action pref=300; accept AS36408
+export:         to AS36408 80.81.194.4 announce AS-ITS-DECIX
+import:         from AS22822 80.81.192.221 action pref=300; accept AS-LLNW
+export:         to AS22822 80.81.192.221 announce AS-ITS-DECIX
+import:         from AS8220 80.81.193.61 action pref=300; accept AS-COLT
+export:         to AS8220 80.81.193.61 announce AS-ITS-DECIX
+import:         from AS42 80.81.194.42 action pref=300; accept AS-PCH
+export:         to AS42 80.81.194.42 announce AS-ITS-DECIX
+import:         from AS3856 80.81.195.42 action pref=300; accept AS-PCH
+export:         to AS3856 80.81.195.42 announce AS-ITS-DECIX
+import:         from AS2686 80.81.192.199 action pref=300; accept AS2686
+export:         to AS2686 80.81.192.199 announce AS-ITS-DECIX
+import:         from AS9116 action pref=300; accept AS-GOLDEN
+export:         to AS9116 announce AS-ITS-DECIX
+import:         from AS12989 80.81.192.224 action pref=300; accept AS-HIGHWINDS
+export:         to AS12989 80.81.192.224 announce AS-ITS-DECIX
+import:         from AS25525 action pref=300; accept AS-REASONNET
+export:         to AS25525 announce AS-ITS-DECIX
+import:         from AS5410 80.81.192.130 action pref=300; accept AS-BOUYGTEL-ISP
+export:         to AS5410 80.81.192.130 announce AS-ITS-DECIX
+import:         from AS8708 80.81.192.87 action pref=300; accept AS-RDSNET
+export:         to AS8708 80.81.192.87 announce AS-ITS-DECIX
+import:         from AS41552 80.81.194.125 action pref=300; accept AS-ECG
+export:         to AS41552 80.81.194.125 announce AS-ITS-DECIX
+import:         from AS24940 80.81.192.164 action pref=300; accept AS-HETZNER
+export:         to AS24940 80.81.192.164 announce AS-ITS-DECIX
+import:         from AS5541 80.81.194.100 action pref=300; accept AS-ADNET
+export:         to AS5541 80.81.194.100 announce AS-ITS-DECIX
+import:         from AS42708 action pref=300; accept AS-PORTLANE
+export:         to AS42708 announce AS-ITS-DECIX
+remarks:        ==== UA-IX =================================================
+import:         from AS15645 action pref=10; community.append(NO_EXPORT); accept AS15645
+import:         from AS15645 action pref=120; accept AS-UAIX AND NOT AS15645
+export:         to AS15645 announce AS-ITS-UAIX
+remarks:        ==== UA Exchange Points ====================================
+import:         from AS34189 action pref=120; accept AS-FIX
+export:         to AS34189 announce AS-ITS-FIX
+import:         from AS31210 action pref=120; accept AS-DTEL-IX
+export:         to AS31210 announce AS-ITS
+import:         from AS15497 62.149.20.65 action pref=120; accept AS-UAIX
+export:         to AS15497 62.149.20.65 announce AS-ITS-UAIX
+remarks:        ==== UA Peering ===========================================
+import:         from AS6849 action pref=120; accept AS6849
+export:         to AS6849 announce AS-ITS
+import:         from AS3261 action pref=120; accept AS-DIPT
+export:         to AS3261 announce AS-ITS-CLIENTS-UA
+import:         from AS25229 213.133.161.122 action pref=120; accept AS25229:AS-CUST
+export:         to AS25229 213.133.161.122 announce AS-ITS-CLIENTS-UA
+import:         from AS41540 action pref=120; accept AS-KOMTELUA
+export:         to AS41540 announce AS13249
+import:         from AS8788 action pref=120; accept AS-ADAM-UA
+export:         to AS8788 announce AS-ITS-CLIENTS-UA
+import:         from AS34792 action pref=120; accept AS34792
+export:         to AS34792 announce AS13249
+import:         from AS20850 action pref=120; accept AS-VALOR2PFTS
+export:         to AS20850 announce AS-ITS-CLIENTS-UA
+import:         from AS25386 action pref=120; accept AS-CYFRA-UA
+export:         to AS25386 announce AS-ITS-CLIENTS-UA
+import:         from AS34312 action pref=120; accept AS-ITMEDIA-UAIX
+export:         to AS34312 announce AS-ITS-CLIENTS-UA
+import:         from AS12294 action pref=120; accept AS-TSUAUA
+export:         to AS12294 announce AS-ITS-CLIENTS-UA
+import:         from AS34867 action pref=120; accept AS-COSMONOVA
+export:         to AS34867 announce AS-ITS-CLIENTS-UA
+import:         from AS3255 194.44.35.237 action pref=120; accept AS-UARNET-CLIENTS
+export:         to AS3255 194.44.35.237 announce AS-ITS-CLIENTS-UA
+import:         from AS13188 action pref=120; accept AS-TRIOLAN
+export:         to AS13188 announce AS-ITS-CLIENTS-UA
+import:         from AS13238 action pref=120; accept AS-YANDEX
+export:         to AS13238 announce AS-ITS
+remarks:        ==== Clients ===============================================
+import:         from AS34814 action pref=50; accept AS-DYTYNETS
+export:         to AS34814  announce ANY
+import:         from AS210092 action pref=50; accept AS210092
+export:         to AS210092  announce ANY
+import:         from AS35004 action pref=50; accept AS-NETGRUP
+export:         to AS35004  announce ANY
+import:         from AS201872 action pref=50; accept AS-MIXNET
+export:         to AS201872  announce ANY
+import:         from AS24703 action pref=50; accept AS-UNITED-CS
+export:         to AS24703  announce ANY
+import:         from AS196645 action pref=50; accept AS196645
+export:         to AS196645  announce ANY
+import:         from AS49038 action pref=50; accept AS-DYTYNETS
+export:         to AS49038  announce ANY
+import:         from AS44352 action pref=50; accept AS44352
+export:         to AS44352  announce ANY
+import:         from AS44321 action pref=50; accept AS44321
+export:         to AS44321  announce ANY
+import:         from AS57033 action pref=50; accept AS-POKROVSK
+export:         to AS57033  announce ANY
+import:         from AS39199 action pref=50; accept AS-VINRADIONET
+export:         to AS39199  announce ANY
+import:         from AS12773 action pref=50; accept AS-MIXMEDIA
+export:         to AS12773  announce ANY
+import:         from AS34092 action pref=50; accept AS-TVCOM
+export:         to AS34092  announce ANY
+import:         from AS28773 action pref=50; accept AS-MASTER
+export:         to AS28773  announce ANY
+import:         from AS48648 action pref=50; accept AS-KLNK
+export:         to AS48648  announce ANY
+import:         from AS56835 action pref=50; accept AS-UTELS
+export:         to AS56835  announce ANY
+import:         from AS29031 action pref=50; accept AS-LTC
+export:         to AS29031  announce ANY
+import:         from AS29031 action pref=50; accept AS-LTC-INET
+export:         to AS29031  announce ANY
+import:         from AS35213 action pref=50; accept AS-PCN
+export:         to AS35213  announce ANY
+import:         from AS49903 action pref=50; accept AS49903
+export:         to AS49903  announce ANY
+import:         from AS202538 action pref=50; accept AS202538
+export:         to AS202538  announce ANY
+import:         from AS28773 action pref=50; accept AS-MASTER
+export:         to AS28773  announce ANY
+import:         from AS34251 action pref=50; accept AS-IMC
+export:         to AS34251  announce ANY
+import:         from AS15461 action pref=50; accept AS-SOLVER
+export:         to AS15461  announce ANY
+import:         from AS197520 action pref=50; accept AS-UNIONCOM-WORLD
+export:         to AS197520  announce ANY
+import:         from AS24700 action pref=50; accept as-iprosrv
+export:         to AS24700  announce ANY
+import:         from AS51950 action pref=50; accept AS51950
+export:         to AS51950  announce ANY
+import:         from AS201094 action pref=50; accept AS201094
+export:         to AS201094  announce ANY
+import:         from AS60777 action pref=50; accept AS-GIM
+export:         to AS60777  announce ANY
+import:         from AS39169 action pref=50; accept AS-ALFAC
+export:         to AS39169  announce ANY
+import:         from AS200000 action pref=50; accept AS-DELTAX
+export:         to AS200000  announce ANY
+import:         from AS25505 action pref=50; accept AS-CHEREDA
+export:         to AS25505  announce ANY
+import:         from AS12397 action pref=50; accept AS12397
+export:         to AS12397  announce ANY
+import:         from AS44352 action pref=50; accept AS44352
+export:         to AS44352  announce ANY
+import:         from AS35795 action pref=50; accept AS-VEDEKON
+export:         to AS35795  announce ANY
+import:         from AS39762 action pref=50; accept AS-VAK
+export:         to AS39762  announce ANY
+import:         from AS50581 action pref=50; accept AS-UTG-UA
+export:         to AS50581  announce ANY
+import:         from AS35795 action pref=50; accept AS-VEDEKON
+export:         to AS35795  announce ANY
+import:         from AS56873 action pref=50; accept AS56873
+export:         to AS56873  announce ANY
+import:         from AS39928 action pref=50; accept AS-1PLUS1
+export:         to AS39928  announce ANY
+import:         from AS47283 action pref=50; accept AS47283
+export:         to AS34814  announce ANY
+import:         from AS51875 action pref=50; accept AS51875
+export:         to AS51875  announce ANY
+import:         from AS48117 action pref=50; accept AS-48117
+export:         to AS48117  announce ANY
+import:         from AS42798 action pref=50; accept AS42798
+export:         to AS42798  announce ANY
+import:         from AS197241 action pref=50; accept AS-GENTEL
+export:         to AS197241  announce ANY
+import:         from AS61371 action pref=50; accept AS61371
+export:         to AS61371  announce ANY
+import:         from AS50581 action pref=50; accept AS-UTG-UA
+export:         to AS50581  announce ANY
+import:         from AS39431 action pref=50; accept AS-ARGOCOM
+export:         to AS39431  announce ANY
+import:         from AS57864 action pref=50; accept AS-MEGABIT
+export:         to AS57864  announce ANY
+import:         from AS50643 action pref=50; accept AS-LU
+export:         to AS50643  announce ANY
+import:         from AS35714 action pref=50; accept AS-ISCT
+export:         to AS35714  announce ANY
+import:         from AS35731 action pref=50; accept AS35731
+export:         to AS35731  announce ANY
+import:         from AS20916 action pref=50; accept AS-PE_ARZANOVA
+export:         to AS20916  announce ANY
+import:         from AS42896 action pref=50; accept AS-ACSGROUP
+export:         to AS42896  announce ANY
+import:         from AS28761 action pref=50; accept AS28761
+export:         to AS28761  announce ANY
+import:         from AS60860 action pref=50; accept AS60860
+export:         to AS60860  announce ANY
+import:         from AS44600 action pref=50; accept AS-GGT
+export:         to AS44600  announce ANY
+import:         from AS56415 action pref=50; accept AS56415
+export:         to AS56415  announce ANY
+import:         from AS49588 action pref=50; accept AS-SDS
+export:         to AS49588  announce ANY
+import:         from AS43668 action pref=50; accept AS-ELHIM
+export:         to AS43668  announce ANY
+import:         from AS29442 action pref=50; accept AS-INETCOM
+export:         to AS29442  announce ANY
+import:         from AS61316 action pref=50; accept  AS-IPROSRV
+export:         to AS61316  announce ANY
+import:         from AS35804 action pref=50; accept AS-ALCHEVSKNET
+export:         to AS35804  announce ANY
+import:         from AS41435 action pref=50; accept AS-NETUNDER
+export:         to AS41435  announce ANY
+import:         from AS21488 action pref=50; accept AS-EMPLOT
+export:         to AS21488  announce ANY
+import:         from AS7774 action pref=50; accept AS7774
+export:         to AS7774  announce ANY
+import:         from AS44742 action pref=50; accept AS44742
+export:         to AS44742  announce ANY
+import:         from AS58055 action pref=50; accept AS58055
+export:         to AS58055  announce ANY
+import:         from AS41208 action pref=50; accept AS41208
+export:         to AS41208  announce ANY
+import:         from AS8870 action pref=50; accept AS-OVOD
+export:         to AS8870  announce ANY
+import:         from AS50027 action pref=50; accept AS50027
+export:         to AS50027  announce ANY
+import:         from AS33978 action pref=50; accept AS-YAPIC
+export:         to AS33978  announce ANY
+import:         from AS43320 action pref=50; accept AS-ASTRATELCOM
+export:         to AS43320  announce ANY
+import:         from AS57232 action pref=50; accept AS-GNETRV
+export:         to AS57232  announce ANY
+import:         from AS57954 action pref=50; accept AS-ISPHOST
+export:         to AS57954  announce ANY
+import:         from AS21096 action pref=50; accept AS-DSSZZI
+export:         to AS21096 announce ANY
+import:         from AS8856 194.44.84.6 action pref=50; accept AS-UKRNET
+export:         to AS8856 194.44.84.6 announce ANY
+import:         from AS15497 62.149.20.73 action pref=50; accept AS-COLOCALL
+export:         to AS15497 62.149.20.73 announce ANY
+import:         from AS15497 62.149.20.77 action pref=50; accept AS-COLOCALL
+export:         to AS15497 62.149.20.77 announce ANY
+import:         from AS15497 62.149.20.69 action pref=50; accept AS-COLOCALL
+export:         to AS15497 62.149.20.69 announce { 0.0.0.0/0 }
+import:         from AS24896 action pref=50; accept AS-INTELLECOM
+export:         to AS24896 announce ANY
+import:         from AS34248 action pref=50; accept AS-TC-VELTON AS-CL-VELTON AS34323
+export:         to AS34248 announce ANY
+import:         from AS25370 action pref=50; accept AS-OMEGA91
+export:         to AS25370 announce ANY
+import:         from AS30842 action pref=50; accept AS30842 AS21432
+export:         to AS30842 announce ANY
+import:         from AS29685 action pref=50; accept AS-OKNET
+export:         to AS29685 announce ANY
+import:         from AS33978 action pref=50; accept AS33978
+export:         to AS33978 announce ANY
+import:         from AS41910 action pref=50; accept AS-GELIOS
+export:         to AS41910 announce ANY
+import:         from AS31077 action pref=250; accept AS-LOGOS
+export:         to AS31077 announce ANY
+import:         from AS39742 action pref=50; accept AS-IT-MARK
+export:         to AS39742 announce ANY
+import:         from AS42138 action pref=50; accept AS42138
+export:         to AS42138 announce ANY
+import:         from AS39810 action pref=50; accept AS-WICOM
+export:         to AS39810 announce ANY
+import:         from AS6886 action pref=50; accept AS-INTS
+export:         to AS6886 announce ANY
+import:         from AS44007 action pref=50; accept AS-RADA
+export:         to AS44007 announce { 0.0.0.0/0 }
+import:         from AS3254 213.133.164.150 action pref=50; accept AS-LUCKY
+export:         to AS3254 213.133.164.150 announce ANY
+import:         from AS42396 action pref=50; accept AS-PPLNET
+export:         to AS42396 announce ANY
+import:         from AS35804 action pref=50; accept AS-ALCHEVSKNET
+export:         to AS35804 announce ANY
+import:         from AS42504 action pref=50; accept AS-UKRBIT
+export:         to AS42504 announce ANY
+import:         from AS16181 action pref=50; accept AS-MEREZHA-ALL
+export:         to AS16181 announce ANY
+import:         from AS20934 action pref=50; accept AS-MAKET
+export:         to AS20934 announce ANY
+import:         from AS34480 action pref=50; accept AS34480
+export:         to AS34480 announce { 0.0.0.0/0 }
+import:         from AS15596 action pref=50; accept AS15596
+export:         to AS15596 announce { 0.0.0.0/0 }
+import:         from AS29031 action pref=50; accept AS-LTC
+export:         to AS29031 announce { 0.0.0.0/0 }
+import:         from AS43180 action pref=50; accept AS43180
+export:         to AS43180 announce { 0.0.0.0/0 }
+import:         from AS39924 action pref=50; accept AS-KTM
+export:         to AS39924 announce { 0.0.0.0/0 }
+import:         from AS50362 action pref=50; accept AS-KTM
+export:         to AS39924 announce ANY
+import:         from AS50831 action pref=50; accept AS50831
+export:         to AS50831 announce { 0.0.0.0/0 }
+import:         from AS38961 action pref=50; accept AS-CIG
+export:         to AS38961 announce ANY
+import:         from AS34077 action pref=50; accept AS-AIKOTECH
+export:         to AS34077 announce ANY
+import:         from AS20833 action pref=50; accept AS-XTC
+export:         to AS20833 announce ANY
+import:         from AS15377 action pref=50; accept AS-FREGAT
+export:         to AS15377 announce ANY
+import:         from AS34786 action pref=50; accept AS-DN-VNET
+export:         to AS34786 announce ANY
+import:         from AS25330 action pref=50; accept AS-KW
+export:         to AS25330 announce ANY
+import:         from AS20539 action pref=50; accept AS20539:AS-CLIENTS
+export:         to AS20539 announce ANY
+import:         from AS44383 action pref=50; accept AS-KPGIC
+export:         to AS44383 announce ANY
+import:         from AS47248 action pref=50; accept AS47248
+export:         to AS47248 announce ANY
+import:         from AS21354 action pref=50; accept AS-S-NET
+export:         to AS21354 announce ANY
+import:         from AS20660 action pref=50; accept AS-LE
+export:         to AS20660 announce ANY
+import:         from AS44352 action pref=50; accept AS44352
+export:         to AS44352 announce ANY
+import:         from AS47598 action pref=50; accept AS-KHERSONTELECOM
+export:         to AS47598 announce ANY
+import:         from AS34180 action pref=50; accept AS-INKO
+export:         to AS34180 announce ANY
+import:         from AS43405 action pref=50; accept AS-MI6
+export:         to AS43405 announce ANY
+import:         from AS35737 action pref=50; accept AS-RIAD
+export:         to AS35737 announce ANY
+import:         from AS31061 action pref=50; accept AS31061
+export:         to AS31061 announce ANY
+import:         from AS31061 action pref=50; accept AS31061
+export:         to AS31061 announce ANY
+import:         from AS12507 action pref=50; accept AS-SWIFT-TRACE
+export:         to AS12507 announce ANY
+import:         from AS21390 action pref=50; accept AS-BESTNET
+export:         to AS21390 announce ANY
+import:         from AS31664 action pref=50; accept AS-UNETCOM
+export:         to AS31664 announce ANY
+import:         from AS34046 action pref=50; accept AS-SHIELD
+export:         to AS34046 announce ANY
+import:         from AS41600 action pref=50; accept AS-SYNCHRON
+export:         to AS41600 announce ANY
+import:         from AS25553 action pref=50; accept AS25553
+export:         to AS25553 announce ANY
+import:         from AS39685 action pref=50; accept AS-FIRMRADIO
+export:         to AS42238 announce { 0.0.0.0/0 }
+import:         from AS39666 action pref=50; accept AS39666
+export:         to AS39666 announce { 0.0.0.0/0 }
+import:         from AS47898 action pref=50; accept AS47898
+export:         to AS47898 announce { 0.0.0.0/0 }
+import:         from AS39608 action pref=50; accept AS-LANETUA
+export:         to AS39608 announce ANY
+import:         from AS29107 action pref=50; accept AS-SYNAPSE
+export:         to AS29107 announce ANY
+import:         from AS41165 action pref=50; accept AS-UNTC
+export:         to AS41165 announce ANY
+import:         from AS41360 action pref=50; accept AS-NEOCOM
+export:         to AS41360 announce ANY
+import:         from AS51250 action pref=50; accept AS51250
+export:         to AS51250 announce ANY
+import:         from AS51317 action pref=50; accept AS51317
+export:         to AS51317 announce ANY
+import:         from AS201872 action pref=50; accept AS-MIXNET
+export:         to AS201872 announce ANY
+import:         from AS31725 action pref=50; accept AS-SHTORM
+export:         to AS31725 announce ANY
+import:         from AS197158 action pref=50; accept AS-HORS
+export:         to AS197158 announce ANY
+import:         from AS42239 action pref=50; accept AS-FARLINE
+export:         to AS42239 announce ANY
+import:         from AS197035 action pref=50; accept AS-TVININET
+export:         to AS197035 announce ANY
+import:         from AS15800 action pref=50; accept AS-EUNIC
+export:         to AS15800 announce ANY
+import:         from AS50949 action pref=50; accept AS50949
+export:         to AS50949 announce ANY
+import:         from AS51917 action pref=50; accept AS-ICENET-UA
+export:         to AS51917 announce ANY
+import:         from AS47898 action pref=50; accept AS47898
+export:         to AS47898 announce ANY
+import:         from AS42655 action pref=50; accept AS-BESTHOSTING
+export:         to AS42655 announce ANY
+import:         from AS52218 action pref=50; accept AS-CHYUS-NET
+export:         to AS52218 announce ANY
+import:         from AS52191 action pref=50; accept AS-LOCALKA
+export:         to AS52191 announce ANY
+import:         from AS12998 action pref=50; accept AS-BGN
+export:         to AS12998 announce ANY
+import:         from AS56355 action pref=50; accept AS-ICN
+export:         to AS56355 announce ANY
+import:         from AS39199 action pref=50; accept AS-VINRADIONET
+export:         to AS39199 announce ANY
+import:         from AS57944 action pref=50; accept AS-IPC
+export:         to AS57944 announce ANY
+import:         from AS43802 action pref=50; accept AS-MYST
+export:         to AS43802 announce ANY
+import:         from AS28773 action pref=50; accept AS-MASTER
+export:         to AS28773 announce ANY
+import:         from AS41867 action pref=50; accept AS-GEONIC-TO-UA-IX
+export:         to AS41867 announce ANY
+import:         from AS51314 action pref=50; accept AS51314
+export:         to AS51314 announce ANY
+import:         from AS3254 213.133.164.150 action pref=50; accept AS-LUCKY
+export:         to AS3254 213.133.164.150 announce ANY
+import:         from AS3254 193.193.223.129 action pref=50; accept AS-LUCKY
+export:         to AS3254 193.193.223.129 announce ANY
+import:         from AS197171 action pref=50; accept AS197171
+export:         to AS197171 announce ANY
+import:         from AS16066 action pref=50; accept AS-TESTUA
+export:         to AS16066 announce ANY
+import:         from AS43656 action pref=50; accept AS43656
+export:         to AS43656 announce ANY
+import:         from AS50594 action pref=50; accept AS-VINFAST
+export:         to AS50594 announce ANY
+import:         from AS21310 action pref=50; accept AS-SATELLITE
+export:         to AS21310 announce ANY
+import:         from AS13188 action pref=50; accept AS13188
+export:         to AS13188 announce ANY
+import:         from AS41967 action pref=50; accept AS-TKS
+export:         to AS41967 announce ANY
+import:         from AS39608 action pref=50; accept AS-LANETUA
+export:         to AS39608 announce ANY
+import:         from AS12883 action pref=50; accept AS-UCOMLINE
+export:         to AS12883 announce ANY
+import:         from AS12773 action pref=50; accept AS-SONIKO
+export:         to AS12773 announce ANY
+import:         from AS42396 action pref=50; accept AS-PPLNET
+export:         to AS42396 announce ANY
+import:         from AS15448 action pref=50; accept AS15448
+export:         to AS15448 announce ANY
+import:         from AS58297 action pref=50; accept AS58297
+export:         to AS58297 announce { 0.0.0.0/0 }
+import:         from AS8343 action pref=50; accept AS-DORIS
+export:         to AS58343 announce ANY
+import:         from AS15577 213.133.167.82 action pref=50; accept AS-RNS
+export:         to AS15577 213.133.167.82 announce ANY
+import:         from AS15577 213.133.167.98 action pref=50; accept AS-RNS-UAIX
+export:         to AS15577 213.133.167.98 announce ANY
+import:         from AS42590 action pref=50; accept AS-TELEMOST
+export:         to AS42590 announce ANY
+import:         from AS31520 action pref=50; accept AS31520
+export:         to AS31520 announce ANY
+import:         from AS21257 action pref=50; accept AS21257
+export:         to AS21257 announce ANY
+import:         from AS35379 action pref=50; accept AS35379
+export:         to AS35379 announce ANY
+import:         from AS198925 action pref=50; accept AS198925
+export:         to AS198925 announce ANY
+import:         from AS48178 action pref=50; accept AS48178
+export:         to AS48178 announce ANY
+import:         from AS29491 213.133.172.38 action pref=50; accept AS-TERABIT
+export:         to AS29491 213.133.172.38 announce ANY
+import:         from AS29491 213.133.172.42 action pref=50; accept AS-TERABIT
+export:         to AS29491 213.133.172.42 announce { 0.0.0.0/0 }
+import:         from AS62206 213.133.172.46 action pref=50; accept AS-PITLINE
+export:         to AS62206 213.133.172.46 announce ANY
+import:         from AS62206 213.133.172.50 action pref=50; accept AS-PITLINE
+export:         to AS62206 213.133.172.50 announce ANY
+import:         from AS199995 action pref=50; accept AS199995:AS-EXT
+export:         to AS199995 announce ANY
+import:         from AS42702 action pref=50; accept AS-DICS
+export:         to AS42702 announce ANY
+import:         from AS34058 action pref=50; accept AS34058
+export:         to AS34058 announce ANY
+import:         from AS44590 action pref=50; accept AS-MAFLIK
+export:         to AS44590 announce ANY
+import:         from AS34187 action pref=50; accept AS-RENOME
+export:         to AS34187 announce ANY
+import:         from AS59536 action pref=50; accept AS-MIXMEDIA
+export:         to AS59536 announce ANY
+remarks:        ==== IPv6 =================================================
+remarks:        - Uplinks -
+mp-import:      afi ipv6.unicast from AS6453 action pref=600;  accept ANY
+mp-export:      afi ipv6.unicast to   AS6453                   announce AS-ITS6
+remarks:        - DE-CIX -
+mp-import:      afi ipv6.unicast from AS6695 action pref=310;  accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to   AS6695                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS6939 action pref=310;  accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to   AS6939                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS12713 action pref=310; accept AS-OTEGLOBE
+mp-export:      afi ipv6.unicast to   AS12713                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS6724  action pref=310; accept AS-STRATORZ
+mp-export:      afi ipv6.unicast to   AS6724                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS12859 action pref=310; accept AS-BIT
+mp-export:      afi ipv6.unicast to   AS12859                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS41692 action pref=310; accept AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast to   AS41692                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS6667  action pref=310; accept AS-EUNETIP
+mp-export:      afi ipv6.unicast to   AS6667                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS8220  action pref=310; accept AS-COLT
+mp-export:      afi ipv6.unicast to   AS8220                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS8560  action pref=310; accept AS-1AND1
+mp-export:      afi ipv6.unicast to   AS8560                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS42  action pref=310;   accept AS-PCH
+mp-export:      afi ipv6.unicast to   AS42                     announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS3856  action pref=310; accept AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS2686  action pref=310; accept AS2686
+mp-export:      afi ipv6.unicast to   AS2686                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS12989 action pref=310; accept AS-HIGHWINDS
+mp-export:      afi ipv6.unicast to   AS12989                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS25525 action pref=310; accept AS-REASONNET
+mp-export:      afi ipv6.unicast to   AS25525                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS5410  action pref=310; accept AS-BOUYGTEL-ISP
+mp-export:      afi ipv6.unicast to   AS5410                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS41552 action pref=310; accept AS-ECG
+mp-export:      afi ipv6.unicast to   AS41552                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS24940 action pref=310; accept AS-HETZNER
+mp-export:      afi ipv6.unicast to   AS24940                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS5541  action pref=310; accept AS-ADNET6
+mp-export:      afi ipv6.unicast to   AS5541                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS61316  action pref=310; accept AS-IPROSRV
+mp-export:      afi ipv6.unicast to   AS61316                   announce AS-ITS6
+remarks:        - AMS-IX -
+mp-import:      afi ipv6.unicast from AS6777 action pref=310;  accept AS-AMS-IX-RS
+mp-export:      afi ipv6.unicast to   AS6777                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS1200 action pref=300;  accept AS1200
+mp-export:      afi ipv6.unicast to   AS1200                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS2603 action pref=300;  accept AS-NORDUNET
+mp-export:      afi ipv6.unicast to   AS2603                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS8218 action pref=300;  accept AS-NEOT6
+mp-export:      afi ipv6.unicast to   AS8218                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS9031 action pref=300;  accept AS-EDPNET-V6
+mp-export:      afi ipv6.unicast to   AS9031                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS16276 action pref=300; accept AS-OVH
+mp-export:      afi ipv6.unicast to   AS16276                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS12552 action pref=300; accept AS-IPO
+mp-export:      afi ipv6.unicast to   AS12552                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS8220  action pref=310; accept AS-COLT
+mp-export:      afi ipv6.unicast to   AS8220                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS8560  action pref=310; accept AS-1AND1
+mp-export:      afi ipv6.unicast to   AS8560                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS9150  action pref=310; accept AS-INTERCONNECT
+mp-export:      afi ipv6.unicast to   AS9150                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS42  action pref=310;   accept AS-PCH
+mp-export:      afi ipv6.unicast to   AS42                     announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS3856  action pref=310; accept AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS1103  action pref=310; accept AS-SURFNET
+mp-export:      afi ipv6.unicast to   AS1103                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS3303  action pref=310; accept AS-SWCMGLOBAL
+mp-export:      afi ipv6.unicast to   AS3303                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS2686  action pref=310; accept AS2686
+mp-export:      afi ipv6.unicast to   AS2686                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS12989 action pref=310; accept AS-HIGHWINDS
+mp-export:      afi ipv6.unicast to   AS12989                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS5410  action pref=310; accept AS-BOUYGTEL-ISP
+mp-export:      afi ipv6.unicast to   AS5410                   announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS29073 action pref=310; accept AS-ECATEL
+mp-export:      afi ipv6.unicast to   AS29073                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS39556 action pref=310; accept AS-EASYHOSTING
+mp-export:      afi ipv6.unicast to   AS39556                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS50683 action pref=310; accept AS-I2B-GLO
+mp-export:      afi ipv6.unicast to   AS50683                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS41552 action pref=310; accept AS-ECG
+mp-export:      afi ipv6.unicast to   AS41552                  announce AS-ITS6
+mp-import:      afi ipv6.unicast from AS24940 action pref=310; accept AS-HETZNER
+mp-export:      afi ipv6.unicast to   AS24940                  announce AS-ITS6
+remarks:        - UA-IX -
+mp-import:      afi ipv6.unicast from AS15645 action pref=100; accept  AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645                    announce AS-ITS6
+remarks:        - Customers -
+mp-import:      afi ipv6.unicast from AS35213 action pref=50;  accept AS-PCN-v6
+mp-export:      afi ipv6.unicast to   AS35213                  announce ANY
+mp-import:      afi ipv6.unicast from AS48648 action pref=50;  accept AS-KLNK-v6
+mp-export:      afi ipv6.unicast to   AS48648                  announce ANY
+mp-import:      afi ipv6.unicast from AS15800 action pref=50;  accept AS-EUNIC6
+mp-export:      afi ipv6.unicast to   AS15800                  announce ANY
+mp-import:      afi ipv6.unicast from AS62206 action pref=50;  accept AS-PITLINE
+mp-export:      afi ipv6.unicast to   AS62206                  announce ANY
+mp-import:      afi ipv6.unicast from AS49588 action pref=50;  accept AS-SDS-v6
+mp-export:      afi ipv6.unicast to   AS49588                  announce ANY
+mp-import:      afi ipv6.unicast from AS21390 action pref=50;  accept AS-BESTNET
+mp-export:      afi ipv6.unicast to   AS21390                  announce ANY
+mp-import:      afi ipv6.unicast from AS41165 action pref=50;  accept AS-UNTC
+mp-export:      afi ipv6.unicast to   AS41165                  announce ANY
+mp-import:      afi ipv6.unicast from AS15497 action pref=50;  accept AS-COLOCALL6
+mp-export:      afi ipv6.unicast to   AS15497                  announce ANY
+mp-import:      afi ipv6.unicast from AS21354 action pref=50;  accept AS-S-NET
+mp-export:      afi ipv6.unicast to   AS21354                  announce ANY
+mp-import:      afi ipv6.unicast from AS3252 action pref=50;   accept AS3252
+mp-export:      afi ipv6.unicast to   AS3252                   announce ANY
+mp-import:      afi ipv6.unicast from AS57954 action pref=50;  accept AS-ISPHOST
+mp-export:      afi ipv6.unicast to   AS57954                  announce ANY
+mp-import:      afi ipv6.unicast from AS57232 action pref=50;  accept AS-GNETRV
+mp-export:      afi ipv6.unicast to   AS57232                  announce ANY
+mp-import:      afi ipv6.unicast from AS50362 action pref=50;  accept AS-KTM
+mp-export:      afi ipv6.unicast to   AS50362                  announce ANY
+mp-import:      afi ipv6.unicast from AS29442 action pref=50;  accept AS-INETCOM
+mp-export:      afi ipv6.unicast to   AS50362                  announce ANY
+mp-import:      afi ipv6.unicast from AS57944 action pref=50;  accept AS-IPC6
+mp-export:      afi ipv6.unicast to   AS57944                  announce ANY
+mp-import:      afi ipv6.unicast from AS50581 action pref=50;  accept AS-UTG-v6
+mp-export:      afi ipv6.unicast to   AS50581                  announce ANY
+mp-import:      afi ipv6.unicast from AS200000 action pref=50;  accept AS200000
+mp-export:      afi ipv6.unicast to   AS200000                  announce ANY
+mp-import:      afi ipv6.unicast from AS48693 action pref=50;  accept AS48693
+mp-export:      afi ipv6.unicast to   AS48693                  announce ANY
+remarks:        ===========================================================
+remarks:        Informational BGP communities advertised to customers:
+remarks:
+remarks:        13249:100   - announce received from upstream
+remarks:        13249:217   - announce received from peering
+remarks:        13249:218   - announce received from peering on Ancotel (Frankfurt)
+remarks:        13249:219   - announce received from peering on MSK-IX
+remarks:        13249:600   - customer's announce
+remarks:        13249:380   - announce received in Ukraine
+remarks:
+remarks:        Community attributes accepted from customers
+remarks:
+remarks:        Upstreams:
+remarks:        13249:221x  - announces to Gblnet
+remarks:        13249:222x  - announces to Comstar
+remarks:        13249:224x  - announces to IPTransit
+remarks:        13249:225x  - announces to MSK-IX
+remarks:        13249:226x  - announces to DataIX
+remarks:        13249:227x  - announces to Tisparkle
+remarks:        13249:228x  - announces to Rascom
+remarks:        13249:245x  - announces to COGENT
+remarks:        13249:229x  - announces to all upstreams
+remarks:
+remarks:        International peering:
+remarks:        13249:231x  - announces to DE-CIX
+remarks:        13249:232x  - announces to Yandex
+remarks:        13249:233x  - announces to Google
+remarks:        13249:237x  - annonce to NLIX
+remarks:        13249:236x  - annonce to AMSIX
+remarks:        13249:238x  - annonce to PLIX
+remarks:        13249:259x  - announces to all international peerings
+remarks:
+remarks:        Ukrainian peering:
+remarks:        13249:261x  - announces to UA-IX
+remarks:        13249:262x  - announces to DTEL-IX
+remarks:        13249:264x  - announces to GIGANET
+remarks:        13249:289x  - announces to all ukrainian peerings
+remarks:
+remarks:        x = 1  - prepend 1
+remarks:        x = 2  - prepend 2
+remarks:        x = 3  - prepend 3
+remarks:        x = 4  - prepend 6
+remarks:        x = 9  - do not announce
+remarks:
+remarks:        13249:3001 - set lowest localpref (full failover)
+remarks:
+remarks:        13249:9999 - blackhole (only for /32 announces)
+remarks:        ===========================================================
+remarks:        Abuse reports:             abuse@itsinternet.net
+remarks:        Network Operation Center:  noc@itsinternet.net
+remarks:        ===========================================================
+admin-c:        ITSY-RIPE
+tech-c:         ITSY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         ITSN-MNT
+created:        2002-03-27T12:35:04Z
+last-modified:  2019-01-31T13:21:07Z
+source:         RIPE # Filtered
+
+organisation:   ORG-PA25-RIPE
+org-name:       IT Systems LLC
+org-type:       LIR
+address:        b.14, Lesi Ukrainki street, Village Schastlivoe,
+                Boryspilskiy district, Kievskiy region.
+address:        08325
+address:        Village Schastlivoe
+address:        UKRAINE
+phone:          +38 0445941018
+fax-no:         +38 0445941017
+abuse-c:        AR17449-RIPE
+admin-c:        KEX-RIPE
+admin-c:        GUL-RIPE
+admin-c:        OSP-RIPE
+admin-c:        YOKO-RIPE
+mnt-ref:        PFTS-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PFTS-MNT
+created:        2004-04-17T12:09:46Z
+last-modified:  2018-03-02T09:59:40Z
+source:         RIPE # Filtered
+
+role:           IT Systems ISP Network Coordination Center
+address:        IT Systems LLC.
+address:        vlg Schastlivoe, 14 L.Ukrainki str
+address:        Kiev, Ukraine
+phone:          +380 44 5941018
+phone:          +380 44 2245308
+fax-no:         +380 44 5941017
+abuse-mailbox:  abuse@itsinternet.net
+remarks:        Points of contact for itsinternet.net
+remarks:        trouble: Abuse-related reports and troubles: abuse@itsinternet.net
+remarks:        trouble: Routing issues: noc@itsinternet.net
+remarks:        trouble: Sales: sales@itsinternet.net
+remarks:        trouble: Peering issues: peering@itsinternet.net
+remarks:        trouble: Information: http://www.itsinternet.net
+tech-c:         GUL-RIPE
+tech-c:         YOKO-RIPE
+tech-c:         KEX-RIPE
+nic-hdl:        ITSY-RIPE
+mnt-by:         ITSN-MNT
+created:        2006-04-27T08:57:34Z
+last-modified:  2017-01-25T10:48:19Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

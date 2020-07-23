@@ -1,0 +1,90 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS35002'
+
+% Abuse contact for 'AS35002' is 'abuse@next-gen.ro'
+
+aut-num:        AS35002
+as-name:        NEWCOM-ASN
+descr:          Sos. Bucuresti - Ploiesti nr. 42-44,
+descr:          Cladirea A, Aripa A2, Etaj 2,
+descr:          013696, Sector 1, Bucuresti
+remarks:
+remarks:        ========================================
+remarks:        Available BGP Communities for Customers:
+remarks:        35002:9999 /32 DoS attack filtering
+remarks:        35002:2001 Prepend 35002 once when announce to National Peerings
+remarks:        35002:2002 Prepend 35002 twice when announce to National Peerings
+remarks:        35002:2003 Prepend 35002 3 times when announce to National Peerings
+remarks:        35002:2004 Prepend 35002 4 times when announce to National Peerings
+remarks:        35002:2009 Don't announce to National Peerings
+remarks:        35002:3001 Prepend 35002 once when announce to Upstreams
+remarks:        35002:3002 Prepend 35002 twice when announce to Upstreams
+remarks:        35002:3003 Prepend 35002 3 times when announce to Upstreams
+remarks:        35002:3004 Prepend 35002 4 times when announce to Upstreams
+remarks:        35002:3009 Don't announce to Upstreams
+remarks:        ========================================
+org:            ORG-NCS10-RIPE
+admin-c:        NGEN-RIPE
+tech-c:         NGEN-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         NG-MNT
+created:        2005-05-17T07:42:58Z
+last-modified:  2018-09-04T10:09:12Z
+source:         RIPE # Filtered
+
+organisation:   ORG-NCS10-RIPE
+org-name:       NEXTGEN COMMUNICATIONS SRL
+org-type:       LIR
+address:        Baneasa Business & Technology Park Sos. Bucuresti - Ploiesti nr. 42-44 Cladirea A, Aripa A2, Etaj 2, Sector 1, Bucuresti
+address:        Cod 013696
+address:        Bucuresti
+address:        ROMANIA
+phone:          +40766240145
+fax-no:         +40213167885
+mnt-ref:        NG-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         NG-MNT
+abuse-c:        AN28466-RIPE
+created:        2009-08-10T09:46:37Z
+last-modified:  2016-10-13T12:51:44Z
+source:         RIPE # Filtered
+
+person:         Network Operation Center
+remarks:        -------------------------------------
+address:        SC NextGen Communications SRL
+address:        Baneasa Business & Technology Park
+address:        Sos. Bucuresti - Ploiesti nr. 42-44,
+address:        Cladirea A, Aripa A2, Etaj 2,
+address:        013696, Sector 1, Bucuresti
+remarks:        -------------------------------------
+phone:          +40-769-080-138
+mnt-by:         NG-MNT
+nic-hdl:        NGEN-RIPE
+created:        2009-11-19T10:53:59Z
+last-modified:  2012-03-30T22:07:45Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

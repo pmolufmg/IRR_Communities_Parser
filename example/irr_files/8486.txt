@@ -1,0 +1,226 @@
+aut-num:        AS8486
+org:            ORG-BA18-RIPE
+as-name:        BNK-AS
+descr:          BK LT Peering
+descr:          Lithuania
+remarks:        +----------------------------------------------------------+
+remarks:        |                LT Peers (65005:10440)                    |
+remarks:        +----------------------------------------------------------+
+remarks:        //-- Baltneta Customers AS
+mp-import:      afi ipv6 from AS15440 accept AS-ML
+mp-export:      afi ipv6 to AS15440 announce AS-BALT-IX-v6
+import:         from AS15440 action pref=100; accept AS-ML
+export:         to AS15440 announce AS-BALT-IX
+remarks:
+remarks:        //-- Baltneta DC AS
+mp-import:      afi ipv6 from AS42549 accept AS-ML
+mp-export:      afi ipv6 to AS42549 announce AS-BALT-IX-v6
+import:         from AS42549 action pref=100; accept AS-ML
+export:         to AS42549 announce AS-BALT-IX
+remarks:
+remarks:        //-- CGATES
+mp-import:      afi ipv6 from AS21412 accept AS21412
+mp-export:      afi ipv6 to AS21412 announce AS-BALT-IX-v6
+import:         from AS21412 action pref=100; accept AS21412
+export:         to AS21412 announce AS-BALT-IX
+remarks:
+remarks:        //-- 5ci / SKYNET
+import:         from AS21211 action pref=100; accept AS-PENKI
+export:         to AS21211 announce AS-BALT-IX
+remarks:
+remarks:        //-- LITNET
+mp-import:      afi ipv6 from AS2847 accept AS-LITNET-PEER
+mp-export:      afi ipv6 to AS2847 announce AS-BALT-IX-v6
+import:         from AS2847 action pref=100; accept AS-LITNET-PEER
+export:         to AS2847 announce AS-BALT-IX
+remarks:
+remarks:        //-- RACKRAY
+import:         from AS62282 action pref=100; accept AS-RACKRAY-DC
+export:         to AS62282 announce AS-BALT-IX
+remarks:
+remarks:        //-- INIT
+mp-import:      afi ipv6 from AS24852 accept AS-VINITA
+mp-export:      afi ipv6 to AS24852 announce AS-BALT-IX-v6
+import:         from AS24852 action pref=100; accept AS-VINITA
+export:         to AS24852 announce AS-BALT-IX
+remarks:
+remarks:        //-- BITE
+mp-import:      afi ipv6 from AS13194 accept AS-BITE-v6
+mp-export:      afi ipv6 to AS13194 announce AS-BALT-IX-v6
+import:         from AS13194 action pref=100; accept AS-BITE-LT
+export:         to AS13194 announce AS-BALT-IX
+remarks:
+remarks:        //-- LRTC
+mp-import:      afi ipv6 from AS15419 accept AS-TELECENTRAS-v6
+mp-export:      afi ipv6 to AS15419 announce AS-BALT-IX-v6
+import:         from AS15419 action pref=100; accept AS-TELECENTRAS
+export:         to AS15419 announce AS-BALT-IX
+remarks:
+remarks:        //-- FASTLINK
+import:         from AS43700 action pref=100; accept AS43700
+export:         to AS43700 announce AS-BALT-IX
+remarks:
+remarks:        //-- KIS
+import:         from AS25190 action pref=100; accept AS25190
+export:         to AS25190 announce AS-BALT-IX
+remarks:
+remarks:        //-- CSC
+import:         from AS34326 action pref=100; accept AS34326
+export:         to AS34326 announce AS-BALT-IX
+remarks:
+remarks:        //-- ESNET
+mp-import:      afi ipv6 from AS61053 accept AS61053
+mp-export:      afi ipv6 to AS61053 announce AS-BALT-IX-v6
+import:         from AS61053 action pref=100; accept AS61053
+export:         to AS61053 announce AS-BALT-IX
+remarks:
+remarks:        //-- NTT
+import:         from AS33922 action pref=100; accept AS-NTT-LT
+export:         to AS33922 announce AS-BALT-IX
+remarks:
+remarks:        //-- Globalcom
+mp-import:      afi ipv6 from AS42979 accept AS-GLOBALCOM6
+mp-export:      afi ipv6 to AS42979 announce AS-BALT-IX-v6
+import:         from AS42979 action pref=100; accept AS-GLOBALCOM_LV
+export:         to AS42979 announce AS-BALT-IX
+remarks:
+remarks:        //-- Etanetas
+import:         from AS39067 action pref=100; accept AS-ETANETAS
+export:         to AS39067 announce AS-BALT-IX
+remarks:
+remarks:        //-- Zaibas
+import:         from AS56847 action pref=100; accept AS56847
+export:         to AS56847 announce AS-BALT-IX
+remarks:
+remarks:        //-- Micronet / Krena
+import:         from AS49602 action pref=100; accept AS49602
+export:         to AS49602 announce AS-BALT-IX
+remarks:
+remarks:        //-- Kvartalas
+mp-import:      afi ipv6 from AS202085 accept AS202085
+mp-export:      afi ipv6 to AS202085 announce AS-BALT-IX-v6
+import:         from AS202085 action pref=100; accept AS202085
+export:         to AS202085 announce AS-BALT-IX
+remarks:
+remarks:        //-- Progmera
+import:         from AS202725 action pref=100; accept AS202725
+export:         to AS202725 announce AS-BALT-IX
+remarks:
+remarks:        //-- Bitosis
+import:         from AS44246 action pref=100; accept AS44246
+export:         to AS44246 announce AS-BALT-IX
+remarks:
+remarks:        //-- Magnetukas
+import:         from AS41228 action pref=100; accept AS41228
+export:         to AS41228 announce AS-BALT-IX
+remarks:
+remarks:        //-- Infostruktura
+import:         from AS6769 action pref=100; accept AS-INFOSTRUKTURA
+export:         to AS6769 announce AS-BALT-IX
+remarks:
+remarks:        //-- Blue Bridge
+import:         from AS42774 action pref=100; accept AS42774
+export:         to AS42774 announce AS-BALT-IX
+remarks:
+remarks:        //-- PARABOLE
+import:         from AS20846 action pref=100; accept AS20846
+export:         to AS20846 announce AS-BALT-IX
+remarks:
+remarks:        //-- BALTICUM-TV
+import:         from AS39007 action pref=100; accept AS39007
+export:         to AS39007 announce AS-BALT-IX
+remarks:
+remarks:        //-- HOSTLINE
+mp-import:      afi ipv6 from AS198651 accept AS-HOSTLINE-LT
+mp-export:      afi ipv6 to AS198651 announce AS-BALT-IX-v6
+import:         from AS198651 action pref=100; accept AS-HOSTLINE-LT
+export:         to AS198651 announce AS-BALT-IX
+remarks:
+remarks:        //-- SATGATE
+mp-import:      afi ipv6 from AS30721 accept AS30721
+mp-export:      afi ipv6 to AS30721 announce AS-BALT-IX-v6
+import:         from AS30721 action pref=100; accept AS-SATGATE-LT
+export:         to AS30721 announce AS-BALT-IX
+remarks:
+remarks:        +----------------------------------------------------------+
+remarks:        |              Global Peers (65000:10000)                  |
+remarks:        +----------------------------------------------------------+
+remarks:        //-- Hurricane Electric
+mp-import:      afi ipv6 from AS6939 accept AS-HURRICANEv6
+mp-export:      afi ipv6 to AS6939 announce AS-BALT-IX-v6
+import:         from AS6939 action pref=100; accept AS-HURRICANE
+export:         to AS6939 announce AS-BALT-IX
+remarks:
+remarks:        //-- Google Inc.
+mp-import:      afi ipv6 from AS15169 accept AS-GOOGLE
+mp-export:      afi ipv6 to AS15169 announce AS-BALT-IX-v6
+import:         from AS15169 action pref=100; accept AS-GOOGLE
+export:         to AS15169 announce AS-BALT-IX
+remarks:
+remarks:        //-- Cloudflare
+mp-import:      afi ipv6 from AS13335 accept AS-CLOUDFLARE
+mp-export:      afi ipv6 to AS13335 announce AS-BALT-IX-v6
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-BALT-IX
+remarks:        ============================================================
+remarks:        # --- BGP Community routing:
+remarks:        Each of route-server does not modify, process or remove
+remarks:        communities received from customers except those communities
+remarks:        which are processed by the route-servers themselves:
+remarks:        //--- Communities affecting announces to other peers:
+remarks:        0:8486       - Do not announce prefix to all peers
+remarks:        0:X          - Do not announce prefix to peer ASX
+remarks:        8486:8486    - Announce prefix to all peers
+remarks:        8486:X       - Announce prefix to peer ASX only
+remarks:
+remarks:        If peer's AS is 32-bit then BGP extended community attribute
+remarks:        should be used:
+remarks:        rt:0:X       - Do not announce prefix to peer ASX
+remarks:        rt:8486:X    - Announce prefix to peer ASX only
+remarks:
+remarks:        //--- Following communities are also applied by RS:
+remarks:
+remarks:        [65000 + <R>]:[10000 + 1000*<X> + <CC>] ~ Where (RFC4384):
+remarks:        .     <R>  is the 5-bit Region Identifier
+remarks:        .     <X>  is the 1-bit satellite link indication
+remarks:        .     <CC> is the 10-bit ISO-3166-2 country code [ISO3166]
+remarks:        .  and <R> takes the values:
+remarks:        .     Africa (AF)                            00001 (1)
+remarks:        .     Oceania (OC)                           00010 (2)
+remarks:        .     Asia (AS)                              00011 (3)
+remarks:        .     Antarctica (AQ)                        00100 (4)
+remarks:        .     Europe (EU)                            00101 (5)
+remarks:        .     Latin America/Caribbean Islands (LAC)  00110 (6)
+remarks:        .     North America (NA)                     00111 (7)
+remarks:
+remarks:        Examples:
+remarks:        .     65000:10000 - Tier1 and Tier2 ISPs
+remarks:        .     65005:10233 - Estonia
+remarks:        .     65005:10428 - Latvia
+remarks:        .     65005:10440 - Lithuania
+remarks:
+remarks:        Note: Communties are set to all prefixes recevied from BGP
+remarks:        peer, based on peer AS country code:
+remarks:        .     whois -h whois.cymru.com " -v PeerAS"
+remarks:        With some exceptions like Tier1 and Tier2 ISPs, and some oth.
+remarks:        +------------------------------------------------------------
+remarks:        RS doesn't insert its own ASN into the AS_PATH by default,
+remarks:        some routers might deny such updates, to solve this behavior
+remarks:        you should specify "no bgp enforce-first-as" (IOS/IOS-XE)
+remarks:        =============================================================
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS8486-MNT
+mnt-by:         BNK-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-07-05T06:54:41Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

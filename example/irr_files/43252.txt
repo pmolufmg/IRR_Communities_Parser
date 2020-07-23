@@ -1,0 +1,576 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS42383 - AS45055'
+
+as-block:       AS42383 - AS45055
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS43252'
+
+% Abuse contact for 'AS43252' is 'abuse@de-cix.net'
+
+aut-num:        AS43252
+as-name:        DECIX-HH-AS
+descr:          DE-CIX Management GmbH
+descr:          DE-CIX Hamburg
+descr:          DE
+org:            ORG-DtGI1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+admin-c:        DXSU6695-RIPE
+tech-c:         WT6695-RIPE
+tech-c:         DM6695-RIPE
+tech-c:         DXSU6695-RIPE
+mnt-by:         DECIX-MNT
+mnt-lower:      DECIX-MNT
+remarks:
+remarks:        You may use BGP (Extended) Communities to control
+remarks:        route advertisement via the Route Servers:
+remarks:
+remarks:        (43252:43252): Redistribute to all Route Server peers
+remarks:        (43252:$PEER-AS), (rt:43252:$PEER-AS): Redistribute to $PEER-AS
+remarks:        (0:$PEER-AS), (rt:0:$PEER-AS): Redistribute to all peers except $PEER-AS
+remarks:        (0:43252): Do not redistribute
+remarks:
+remarks:        If $PEER-AS uses a 2B ASN, you may use Standard or Extended Communities
+remarks:        If $PEER-AS uses a 4B ASN, you have to use Extended Communities
+remarks:
+remarks:        There are additional communities for controlling announcements:
+remarks:
+remarks:        65535:666  set community BLACKHOLE
+remarks:        43252:65281 set community NO-EXPORT
+remarks:        43252:65282 set community NO-ADVERTISE
+remarks:
+remarks:        For more information on Route Server control and Blackholing, please see:
+remarks:        https://portal.de-cix.net/home/documentation/routeserver-guides/
+remarks:        https://portal.de-cix.net/home/documentation/blackholing-guide/
+remarks:
+mp-import:      afi ipv6.unicast from AS42     2001:7f8:3d::2a:0:1            at          2001:7f8:3d::a8f4:0:1 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS42     2001:7f8:3d::2a:0:1            at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS42     2001:7f8:3d::2a:0:1            at          2001:7f8:3d::a8f4:0:2 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS42     2001:7f8:3d::2a:0:1            at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS42     80.81.203.46                   at                  80.81.203.252 accept   AS-PCH
+export:         to   AS42     80.81.203.46                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS42     80.81.203.46                   at                  80.81.203.253 accept   AS-PCH
+export:         to   AS42     80.81.203.46                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS3856   2001:7f8:3d::f10:0:1           at          2001:7f8:3d::a8f4:0:1 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856   2001:7f8:3d::f10:0:1           at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS3856   2001:7f8:3d::f10:0:1           at          2001:7f8:3d::a8f4:0:2 accept   AS-PCH
+mp-export:      afi ipv6.unicast to   AS3856   2001:7f8:3d::f10:0:1           at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS3856   80.81.203.49                   at                  80.81.203.252 accept   AS-PCH
+export:         to   AS3856   80.81.203.49                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS3856   80.81.203.49                   at                  80.81.203.253 accept   AS-PCH
+export:         to   AS3856   80.81.203.49                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS112    2001:7f8:3d::70:0:1            at          2001:7f8:3d::a8f4:0:1 accept   AS112
+mp-export:      afi ipv6.unicast to   AS112    2001:7f8:3d::70:0:1            at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS112    2001:7f8:3d::70:0:1            at          2001:7f8:3d::a8f4:0:2 accept   AS112
+mp-export:      afi ipv6.unicast to   AS112    2001:7f8:3d::70:0:1            at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS112    80.81.203.77                   at                  80.81.203.252 accept   AS112
+export:         to   AS112    80.81.203.77                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS112    80.81.203.77                   at                  80.81.203.253 accept   AS112
+export:         to   AS112    80.81.203.77                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS286    2001:7f8:3d::11e:0:1           at          2001:7f8:3d::a8f4:0:1 accept   AS-KPNV6
+mp-export:      afi ipv6.unicast to   AS286    2001:7f8:3d::11e:0:1           at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS286    2001:7f8:3d::11e:0:1           at          2001:7f8:3d::a8f4:0:2 accept   AS-KPNV6
+mp-export:      afi ipv6.unicast to   AS286    2001:7f8:3d::11e:0:1           at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS286    80.81.203.15                   at                  80.81.203.252 accept   AS-KPN
+export:         to   AS286    80.81.203.15                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS286    80.81.203.15                   at                  80.81.203.253 accept   AS-KPN
+export:         to   AS286    80.81.203.15                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS5391   2001:7f8:3d::150f:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-HRHINET
+mp-export:      afi ipv6.unicast to   AS5391   2001:7f8:3d::150f:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS5391   2001:7f8:3d::150f:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-HRHINET
+mp-export:      afi ipv6.unicast to   AS5391   2001:7f8:3d::150f:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS5391   80.81.203.61                   at                  80.81.203.252 accept   AS-HRHINET
+export:         to   AS5391   80.81.203.61                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS5391   80.81.203.61                   at                  80.81.203.253 accept   AS-HRHINET
+export:         to   AS5391   80.81.203.61                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS5578   2001:7f8:3d::15ca:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-BENESTRA
+mp-export:      afi ipv6.unicast to   AS5578   2001:7f8:3d::15ca:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS5578   2001:7f8:3d::15ca:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-BENESTRA
+mp-export:      afi ipv6.unicast to   AS5578   2001:7f8:3d::15ca:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS5578   80.81.203.101                  at                  80.81.203.252 accept   AS-BENESTRA
+export:         to   AS5578   80.81.203.101                  at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS5578   80.81.203.101                  at                  80.81.203.253 accept   AS-BENESTRA
+export:         to   AS5578   80.81.203.101                  at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS5605   2001:7f8:3d::15e5:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-NETUSE
+mp-export:      afi ipv6.unicast to   AS5605   2001:7f8:3d::15e5:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS5605   2001:7f8:3d::15e5:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-NETUSE
+mp-export:      afi ipv6.unicast to   AS5605   2001:7f8:3d::15e5:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS5605   80.81.203.23                   at                  80.81.203.252 accept   AS-NETUSE
+export:         to   AS5605   80.81.203.23                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS5605   80.81.203.23                   at                  80.81.203.253 accept   AS-NETUSE
+export:         to   AS5605   80.81.203.23                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS6659   2001:7f8:3d::1a03:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-NEXINTO6
+mp-export:      afi ipv6.unicast to   AS6659   2001:7f8:3d::1a03:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS6659   2001:7f8:3d::1a03:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-NEXINTO6
+mp-export:      afi ipv6.unicast to   AS6659   2001:7f8:3d::1a03:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS6659   80.81.203.6                    at                  80.81.203.252 accept   AS-NEXINTO
+export:         to   AS6659   80.81.203.6                    at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS6659   80.81.203.6                    at                  80.81.203.253 accept   AS-NEXINTO
+export:         to   AS6659   80.81.203.6                    at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS51531  80.81.203.110                  at                  80.81.203.252 accept   AS-DECIX-SERVICES
+export:         to   AS51531  80.81.203.110                  at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS51531  80.81.203.110                  at                  80.81.203.253 accept   AS-DECIX-SERVICES
+export:         to   AS51531  80.81.203.110                  at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS51531  2001:7f8:3d::c94b:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-DECIX-SERVICES-V6
+mp-export:      afi ipv6.unicast to   AS51531  2001:7f8:3d::c94b:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS51531  2001:7f8:3d::c94b:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-DECIX-SERVICES-V6
+mp-export:      afi ipv6.unicast to   AS51531  2001:7f8:3d::c94b:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS51531  80.81.203.116                  at                  80.81.203.252 accept   AS-DECIX-SERVICES
+export:         to   AS51531  80.81.203.116                  at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS51531  80.81.203.116                  at                  80.81.203.253 accept   AS-DECIX-SERVICES
+export:         to   AS51531  80.81.203.116                  at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS51531  2001:7f8:3d::c94b:0:2          at          2001:7f8:3d::a8f4:0:1 accept   AS-DECIX-SERVICES-V6
+mp-export:      afi ipv6.unicast to   AS51531  2001:7f8:3d::c94b:0:2          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS51531  2001:7f8:3d::c94b:0:2          at          2001:7f8:3d::a8f4:0:2 accept   AS-DECIX-SERVICES-V6
+mp-export:      afi ipv6.unicast to   AS51531  2001:7f8:3d::c94b:0:2          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS6697   2001:7f8:3d::1a29:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-BELPAK
+mp-export:      afi ipv6.unicast to   AS6697   2001:7f8:3d::1a29:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS6697   2001:7f8:3d::1a29:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-BELPAK
+mp-export:      afi ipv6.unicast to   AS6697   2001:7f8:3d::1a29:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS6697   80.81.203.45                   at                  80.81.203.252 accept   AS-BELPAK
+export:         to   AS6697   80.81.203.45                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS6697   80.81.203.45                   at                  80.81.203.253 accept   AS-BELPAK
+export:         to   AS6697   80.81.203.45                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:3d::1b1b:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:3d::1b1b:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS6939   2001:7f8:3d::1b1b:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to   AS6939   2001:7f8:3d::1b1b:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS6939   80.81.203.55                   at                  80.81.203.252 accept   AS-HURRICANE
+export:         to   AS6939   80.81.203.55                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS6939   80.81.203.55                   at                  80.81.203.253 accept   AS-HURRICANE
+export:         to   AS6939   80.81.203.55                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS8403   2001:7f8:3d::20d3:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-SPOTIFY
+mp-export:      afi ipv6.unicast to   AS8403   2001:7f8:3d::20d3:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS8403   2001:7f8:3d::20d3:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-SPOTIFY
+mp-export:      afi ipv6.unicast to   AS8403   2001:7f8:3d::20d3:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS8403   80.81.203.48                   at                  80.81.203.252 accept   AS-SPOTIFY
+export:         to   AS8403   80.81.203.48                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS8403   80.81.203.48                   at                  80.81.203.253 accept   AS-SPOTIFY
+export:         to   AS8403   80.81.203.48                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS8551   2001:7f8:3d::2167:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551   2001:7f8:3d::2167:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS8551   2001:7f8:3d::2167:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551   2001:7f8:3d::2167:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS8551   80.81.203.73                   at                  80.81.203.252 accept   AS-BEZEQINT
+export:         to   AS8551   80.81.203.73                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS8551   80.81.203.73                   at                  80.81.203.253 accept   AS-BEZEQINT
+export:         to   AS8551   80.81.203.73                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS8551   2001:7f8:3d::2167:0:2          at          2001:7f8:3d::a8f4:0:1 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551   2001:7f8:3d::2167:0:2          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS8551   2001:7f8:3d::2167:0:2          at          2001:7f8:3d::a8f4:0:2 accept   AS-BEZEQINT
+mp-export:      afi ipv6.unicast to   AS8551   2001:7f8:3d::2167:0:2          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS8551   80.81.203.75                   at                  80.81.203.252 accept   AS-BEZEQINT
+export:         to   AS8551   80.81.203.75                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS8551   80.81.203.75                   at                  80.81.203.253 accept   AS-BEZEQINT
+export:         to   AS8551   80.81.203.75                   at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS8687   80.81.203.2                    at                  80.81.203.252 accept   AS-PPP
+export:         to   AS8687   80.81.203.2                    at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS8687   80.81.203.2                    at                  80.81.203.253 accept   AS-PPP
+export:         to   AS8687   80.81.203.2                    at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS8804   2001:7f8:3d::2264:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-IX-REGIONET
+mp-export:      afi ipv6.unicast to   AS8804   2001:7f8:3d::2264:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS8804   2001:7f8:3d::2264:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-IX-REGIONET
+mp-export:      afi ipv6.unicast to   AS8804   2001:7f8:3d::2264:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS8804   80.81.203.26                   at                  80.81.203.252 accept   AS-IX-REGIONET
+export:         to   AS8804   80.81.203.26                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS8804   80.81.203.26                   at                  80.81.203.253 accept   AS-IX-REGIONET
+export:         to   AS8804   80.81.203.26                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS8881   2001:7f8:3d::22b1:203:35       at          2001:7f8:3d::a8f4:0:1 accept   AS-VERSATEL-V6
+mp-export:      afi ipv6.unicast to   AS8881   2001:7f8:3d::22b1:203:35       at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS8881   2001:7f8:3d::22b1:203:35       at          2001:7f8:3d::a8f4:0:2 accept   AS-VERSATEL-V6
+mp-export:      afi ipv6.unicast to   AS8881   2001:7f8:3d::22b1:203:35       at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS8881   80.81.203.35                   at                  80.81.203.252 accept   AS-VT-TRANSIT
+export:         to   AS8881   80.81.203.35                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS8881   80.81.203.35                   at                  80.81.203.253 accept   AS-VT-TRANSIT
+export:         to   AS8881   80.81.203.35                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS9009   2001:7f8:3d::2331:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-GBXS6
+mp-export:      afi ipv6.unicast to   AS9009   2001:7f8:3d::2331:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS9009   2001:7f8:3d::2331:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-GBXS6
+mp-export:      afi ipv6.unicast to   AS9009   2001:7f8:3d::2331:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS9009   80.81.203.93                   at                  80.81.203.252 accept   AS-GBXS6
+export:         to   AS9009   80.81.203.93                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS9009   80.81.203.93                   at                  80.81.203.253 accept   AS-GBXS6
+export:         to   AS9009   80.81.203.93                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS9063   2001:7f8:3d::2367:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-SAARGATE-V6
+mp-export:      afi ipv6.unicast to   AS9063   2001:7f8:3d::2367:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS9063   2001:7f8:3d::2367:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-SAARGATE-V6
+mp-export:      afi ipv6.unicast to   AS9063   2001:7f8:3d::2367:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS9063   80.81.203.63                   at                  80.81.203.252 accept   AS-SAARGATE
+export:         to   AS9063   80.81.203.63                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS9063   80.81.203.63                   at                  80.81.203.253 accept   AS-SAARGATE
+export:         to   AS9063   80.81.203.63                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS9145   2001:7f8:3d::23b9:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-EWETEL-V6
+mp-export:      afi ipv6.unicast to   AS9145   2001:7f8:3d::23b9:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS9145   2001:7f8:3d::23b9:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-EWETEL-V6
+mp-export:      afi ipv6.unicast to   AS9145   2001:7f8:3d::23b9:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS9145   80.81.203.56                   at                  80.81.203.252 accept   AS-EWETEL
+export:         to   AS9145   80.81.203.56                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS9145   80.81.203.56                   at                  80.81.203.253 accept   AS-EWETEL
+export:         to   AS9145   80.81.203.56                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS9211   2001:7f8:3d::23fb:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-WORK
+mp-export:      afi ipv6.unicast to   AS9211   2001:7f8:3d::23fb:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS9211   2001:7f8:3d::23fb:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-WORK
+mp-export:      afi ipv6.unicast to   AS9211   2001:7f8:3d::23fb:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS9211   80.81.203.1                    at                  80.81.203.252 accept   AS-WORK
+export:         to   AS9211   80.81.203.1                    at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS9211   80.81.203.1                    at                  80.81.203.253 accept   AS-WORK
+export:         to   AS9211   80.81.203.1                    at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS12189  2001:7f8:3d::2f9d:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-PHOENIXNAP
+mp-export:      afi ipv6.unicast to   AS12189  2001:7f8:3d::2f9d:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS12189  2001:7f8:3d::2f9d:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-PHOENIXNAP
+mp-export:      afi ipv6.unicast to   AS12189  2001:7f8:3d::2f9d:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS12189  80.81.203.85                   at                  80.81.203.252 accept   AS-PHOENIXNAP
+export:         to   AS12189  80.81.203.85                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS12189  80.81.203.85                   at                  80.81.203.253 accept   AS-PHOENIXNAP
+export:         to   AS12189  80.81.203.85                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS12684  2001:7f8:3d::318c:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-SES-NET
+mp-export:      afi ipv6.unicast to   AS12684  2001:7f8:3d::318c:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS12684  2001:7f8:3d::318c:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-SES-NET
+mp-export:      afi ipv6.unicast to   AS12684  2001:7f8:3d::318c:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS12684  80.81.203.97                   at                  80.81.203.252 accept   AS-SES-NET
+export:         to   AS12684  80.81.203.97                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS12684  80.81.203.97                   at                  80.81.203.253 accept   AS-SES-NET
+export:         to   AS12684  80.81.203.97                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS12731  2001:7f8:3d::31bb:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-IPHH-V6
+mp-export:      afi ipv6.unicast to   AS12731  2001:7f8:3d::31bb:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS12731  2001:7f8:3d::31bb:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-IPHH-V6
+mp-export:      afi ipv6.unicast to   AS12731  2001:7f8:3d::31bb:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS12731  80.81.203.4                    at                  80.81.203.252 accept   AS-IPHH
+export:         to   AS12731  80.81.203.4                    at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS12731  80.81.203.4                    at                  80.81.203.253 accept   AS-IPHH
+export:         to   AS12731  80.81.203.4                    at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS12822  2001:7f8:3d::3216:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-LYNET-V6
+mp-export:      afi ipv6.unicast to   AS12822  2001:7f8:3d::3216:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS12822  2001:7f8:3d::3216:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-LYNET-V6
+mp-export:      afi ipv6.unicast to   AS12822  2001:7f8:3d::3216:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS12822  80.81.203.8                    at                  80.81.203.252 accept   AS-LYNET
+export:         to   AS12822  80.81.203.8                    at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS12822  80.81.203.8                    at                  80.81.203.253 accept   AS-LYNET
+export:         to   AS12822  80.81.203.8                    at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS12883  2001:7f8:3d::3253:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-UCOMLINE
+mp-export:      afi ipv6.unicast to   AS12883  2001:7f8:3d::3253:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS12883  2001:7f8:3d::3253:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-UCOMLINE
+mp-export:      afi ipv6.unicast to   AS12883  2001:7f8:3d::3253:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS12883  80.81.203.43                   at                  80.81.203.252 accept   AS-UCOMLINE
+export:         to   AS12883  80.81.203.43                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS12883  80.81.203.43                   at                  80.81.203.253 accept   AS-UCOMLINE
+export:         to   AS12883  80.81.203.43                   at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS12923  80.81.203.12                   at                  80.81.203.252 accept   AS-WIZARD
+export:         to   AS12923  80.81.203.12                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS12923  80.81.203.12                   at                  80.81.203.253 accept   AS-WIZARD
+export:         to   AS12923  80.81.203.12                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS12931  2001:7f8:3d::3283:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-IDKOM
+mp-export:      afi ipv6.unicast to   AS12931  2001:7f8:3d::3283:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS12931  2001:7f8:3d::3283:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-IDKOM
+mp-export:      afi ipv6.unicast to   AS12931  2001:7f8:3d::3283:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS12931  80.81.203.72                   at                  80.81.203.252 accept   AS-IDKOM
+export:         to   AS12931  80.81.203.72                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS12931  80.81.203.72                   at                  80.81.203.253 accept   AS-IDKOM
+export:         to   AS12931  80.81.203.72                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS33438  2001:7f8:3d::829e:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-HIGHWINDS
+mp-export:      afi ipv6.unicast to   AS33438  2001:7f8:3d::829e:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS33438  2001:7f8:3d::829e:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-HIGHWINDS
+mp-export:      afi ipv6.unicast to   AS33438  2001:7f8:3d::829e:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS33438  80.81.203.81                   at                  80.81.203.252 accept   AS-HIGHWINDS
+export:         to   AS33438  80.81.203.81                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS33438  80.81.203.81                   at                  80.81.203.253 accept   AS-HIGHWINDS
+export:         to   AS33438  80.81.203.81                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS13101  2001:7f8:3d::332d:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-TNG
+mp-export:      afi ipv6.unicast to   AS13101  2001:7f8:3d::332d:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS13101  2001:7f8:3d::332d:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-TNG
+mp-export:      afi ipv6.unicast to   AS13101  2001:7f8:3d::332d:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS13101  80.81.203.13                   at                  80.81.203.252 accept   AS-TNG
+export:         to   AS13101  80.81.203.13                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS13101  80.81.203.13                   at                  80.81.203.253 accept   AS-TNG
+export:         to   AS13101  80.81.203.13                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS13132  2001:7f8:3d::334c:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-CYBERWAYS
+mp-export:      afi ipv6.unicast to   AS13132  2001:7f8:3d::334c:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS13132  2001:7f8:3d::334c:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-CYBERWAYS
+mp-export:      afi ipv6.unicast to   AS13132  2001:7f8:3d::334c:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS13132  80.81.203.65                   at                  80.81.203.252 accept   AS-CYBERWAYS
+export:         to   AS13132  80.81.203.65                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS13132  80.81.203.65                   at                  80.81.203.253 accept   AS-CYBERWAYS
+export:         to   AS13132  80.81.203.65                   at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS13157  80.81.203.32                   at                  80.81.203.252 accept   AS13157
+export:         to   AS13157  80.81.203.32                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS13157  80.81.203.32                   at                  80.81.203.253 accept   AS13157
+export:         to   AS13157  80.81.203.32                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS13157  2001:7f8:3d::3365:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS13157
+mp-export:      afi ipv6.unicast to   AS13157  2001:7f8:3d::3365:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS13157  2001:7f8:3d::3365:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS13157
+mp-export:      afi ipv6.unicast to   AS13157  2001:7f8:3d::3365:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS13194  2001:7f8:3d::338a:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-BITE
+mp-export:      afi ipv6.unicast to   AS13194  2001:7f8:3d::338a:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS13194  2001:7f8:3d::338a:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-BITE
+mp-export:      afi ipv6.unicast to   AS13194  2001:7f8:3d::338a:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS13194  80.81.203.50                   at                  80.81.203.252 accept   AS-BITE
+export:         to   AS13194  80.81.203.50                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS13194  80.81.203.50                   at                  80.81.203.253 accept   AS-BITE
+export:         to   AS13194  80.81.203.50                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS13237  2001:7f8:3d::33b5:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-LAMBDANET
+mp-export:      afi ipv6.unicast to   AS13237  2001:7f8:3d::33b5:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS13237  2001:7f8:3d::33b5:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-LAMBDANET
+mp-export:      afi ipv6.unicast to   AS13237  2001:7f8:3d::33b5:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS13237  80.81.203.33                   at                  80.81.203.252 accept   AS-LAMBDANET
+export:         to   AS13237  80.81.203.33                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS13237  80.81.203.33                   at                  80.81.203.253 accept   AS-LAMBDANET
+export:         to   AS13237  80.81.203.33                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS13335  2001:7f8:3d::3417:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to   AS13335  2001:7f8:3d::3417:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS13335  2001:7f8:3d::3417:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to   AS13335  2001:7f8:3d::3417:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS13335  80.81.203.10                   at                  80.81.203.252 accept   AS-CLOUDFLARE
+export:         to   AS13335  80.81.203.10                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS13335  80.81.203.10                   at                  80.81.203.253 accept   AS-CLOUDFLARE
+export:         to   AS13335  80.81.203.10                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS14340  2001:7f8:3d::3804:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-SALESFORCE
+mp-export:      afi ipv6.unicast to   AS14340  2001:7f8:3d::3804:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS14340  2001:7f8:3d::3804:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-SALESFORCE
+mp-export:      afi ipv6.unicast to   AS14340  2001:7f8:3d::3804:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS14340  80.81.203.51                   at                  80.81.203.252 accept   AS-SALESFORCE
+export:         to   AS14340  80.81.203.51                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS14340  80.81.203.51                   at                  80.81.203.253 accept   AS-SALESFORCE
+export:         to   AS14340  80.81.203.51                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS15133  2001:7f8:3d::3b1d:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-EDGECAST
+mp-export:      afi ipv6.unicast to   AS15133  2001:7f8:3d::3b1d:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15133  2001:7f8:3d::3b1d:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-EDGECAST
+mp-export:      afi ipv6.unicast to   AS15133  2001:7f8:3d::3b1d:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15133  2001:7f8:3d::3b1d:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-EDGECAST
+mp-export:      afi ipv6.unicast to   AS15133  2001:7f8:3d::3b1d:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15133  2001:7f8:3d::3b1d:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-EDGECAST
+mp-export:      afi ipv6.unicast to   AS15133  2001:7f8:3d::3b1d:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS15133  80.81.203.76                   at                  80.81.203.252 accept   AS-EDGECAST
+export:         to   AS15133  80.81.203.76                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS15133  80.81.203.76                   at                  80.81.203.253 accept   AS-EDGECAST
+export:         to   AS15133  80.81.203.76                   at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS15133  80.81.203.76                   at                  80.81.203.252 accept   AS-EDGECAST
+export:         to   AS15133  80.81.203.76                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS15133  80.81.203.76                   at                  80.81.203.253 accept   AS-EDGECAST
+export:         to   AS15133  80.81.203.76                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS15169  2001:7f8:3d::3b41:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:7f8:3d::3b41:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15169  2001:7f8:3d::3b41:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-GOOGLE
+mp-export:      afi ipv6.unicast to   AS15169  2001:7f8:3d::3b41:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS15169  80.81.203.34                   at                  80.81.203.252 accept   AS-GOOGLE
+export:         to   AS15169  80.81.203.34                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS15169  80.81.203.34                   at                  80.81.203.253 accept   AS-GOOGLE
+export:         to   AS15169  80.81.203.34                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS15388  2001:7f8:3d::3c1c:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-OMC
+mp-export:      afi ipv6.unicast to   AS15388  2001:7f8:3d::3c1c:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15388  2001:7f8:3d::3c1c:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-OMC
+mp-export:      afi ipv6.unicast to   AS15388  2001:7f8:3d::3c1c:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS15388  80.81.203.7                    at                  80.81.203.252 accept   AS-OMC
+export:         to   AS15388  80.81.203.7                    at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS15388  80.81.203.7                    at                  80.81.203.253 accept   AS-OMC
+export:         to   AS15388  80.81.203.7                    at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS15695  2001:7f8:3d::3d4f:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-EXPEREO
+mp-export:      afi ipv6.unicast to   AS15695  2001:7f8:3d::3d4f:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15695  2001:7f8:3d::3d4f:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-EXPEREO
+mp-export:      afi ipv6.unicast to   AS15695  2001:7f8:3d::3d4f:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS15695  80.81.203.54                   at                  80.81.203.252 accept   AS-EXPEREO
+export:         to   AS15695  80.81.203.54                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS15695  80.81.203.54                   at                  80.81.203.253 accept   AS-EXPEREO
+export:         to   AS15695  80.81.203.54                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS15772  2001:7f8:3d::3d9c:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-WNET
+mp-export:      afi ipv6.unicast to   AS15772  2001:7f8:3d::3d9c:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15772  2001:7f8:3d::3d9c:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-WNET
+mp-export:      afi ipv6.unicast to   AS15772  2001:7f8:3d::3d9c:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS15772  80.81.203.109                  at                  80.81.203.252 accept   AS-WNET
+export:         to   AS15772  80.81.203.109                  at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS15772  80.81.203.109                  at                  80.81.203.253 accept   AS-WNET
+export:         to   AS15772  80.81.203.109                  at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS15943  2001:7f8:3d::3e47:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-WTNET
+mp-export:      afi ipv6.unicast to   AS15943  2001:7f8:3d::3e47:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15943  2001:7f8:3d::3e47:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-WTNET
+mp-export:      afi ipv6.unicast to   AS15943  2001:7f8:3d::3e47:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS15943  80.81.203.37                   at                  80.81.203.252 accept   AS-WTNET
+export:         to   AS15943  80.81.203.37                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS15943  80.81.203.37                   at                  80.81.203.253 accept   AS-WTNET
+export:         to   AS15943  80.81.203.37                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS15967  2001:7f8:3d::3e5f:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-NAZWAPL
+mp-export:      afi ipv6.unicast to   AS15967  2001:7f8:3d::3e5f:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS15967  2001:7f8:3d::3e5f:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-NAZWAPL
+mp-export:      afi ipv6.unicast to   AS15967  2001:7f8:3d::3e5f:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS15967  80.81.203.90                   at                  80.81.203.252 accept   AS-NAZWAPL
+export:         to   AS15967  80.81.203.90                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS15967  80.81.203.90                   at                  80.81.203.253 accept   AS-NAZWAPL
+export:         to   AS15967  80.81.203.90                   at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS16378  80.81.203.18                   at                  80.81.203.252 accept   AS-OTTO
+export:         to   AS16378  80.81.203.18                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS16378  80.81.203.18                   at                  80.81.203.253 accept   AS-OTTO
+export:         to   AS16378  80.81.203.18                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS19551  2001:7f8:3d::4c5f:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-INCAPSULA
+mp-export:      afi ipv6.unicast to   AS19551  2001:7f8:3d::4c5f:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS19551  2001:7f8:3d::4c5f:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-INCAPSULA
+mp-export:      afi ipv6.unicast to   AS19551  2001:7f8:3d::4c5f:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS19551  80.81.203.106                  at                  80.81.203.252 accept   AS-INCAPSULA
+export:         to   AS19551  80.81.203.106                  at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS19551  80.81.203.106                  at                  80.81.203.253 accept   AS-INCAPSULA
+export:         to   AS19551  80.81.203.106                  at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS20562  2001:7f8:3d::5052:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-OPENPEERING
+mp-export:      afi ipv6.unicast to   AS20562  2001:7f8:3d::5052:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS20562  2001:7f8:3d::5052:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-OPENPEERING
+mp-export:      afi ipv6.unicast to   AS20562  2001:7f8:3d::5052:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS20562  80.81.203.64                   at                  80.81.203.252 accept   AS-OPENPEERING
+export:         to   AS20562  80.81.203.64                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS20562  80.81.203.64                   at                  80.81.203.253 accept   AS-OPENPEERING
+export:         to   AS20562  80.81.203.64                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS20694  2001:7f8:3d::50d6:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-NMMN
+mp-export:      afi ipv6.unicast to   AS20694  2001:7f8:3d::50d6:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS20694  2001:7f8:3d::50d6:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-NMMN
+mp-export:      afi ipv6.unicast to   AS20694  2001:7f8:3d::50d6:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS20694  80.81.203.27                   at                  80.81.203.252 accept   AS-NMMN
+export:         to   AS20694  80.81.203.27                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS20694  80.81.203.27                   at                  80.81.203.253 accept   AS-NMMN
+export:         to   AS20694  80.81.203.27                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS20764  2001:7f8:3d::511c:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-RASCOM
+mp-export:      afi ipv6.unicast to   AS20764  2001:7f8:3d::511c:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS20764  2001:7f8:3d::511c:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-RASCOM
+mp-export:      afi ipv6.unicast to   AS20764  2001:7f8:3d::511c:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS20764  80.81.203.82                   at                  80.81.203.252 accept   AS-RASCOM
+export:         to   AS20764  80.81.203.82                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS20764  80.81.203.82                   at                  80.81.203.253 accept   AS-RASCOM
+export:         to   AS20764  80.81.203.82                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS20773  2001:7f8:3d::5125:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS20773:AS-HOSTEUROPE
+mp-export:      afi ipv6.unicast to   AS20773  2001:7f8:3d::5125:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS20773  2001:7f8:3d::5125:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS20773:AS-HOSTEUROPE
+mp-export:      afi ipv6.unicast to   AS20773  2001:7f8:3d::5125:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS20773  80.81.203.21                   at                  80.81.203.252 accept   AS20773:AS-HOSTEUROPE
+export:         to   AS20773  80.81.203.21                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS20773  80.81.203.21                   at                  80.81.203.253 accept   AS20773:AS-HOSTEUROPE
+export:         to   AS20773  80.81.203.21                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS20804  2001:7f8:3d::5144:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-EXATEL-INT
+mp-export:      afi ipv6.unicast to   AS20804  2001:7f8:3d::5144:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS20804  2001:7f8:3d::5144:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-EXATEL-INT
+mp-export:      afi ipv6.unicast to   AS20804  2001:7f8:3d::5144:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS20804  80.81.203.117                  at                  80.81.203.252 accept   AS-EXATEL-INT
+export:         to   AS20804  80.81.203.117                  at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS20804  80.81.203.117                  at                  80.81.203.253 accept   AS-EXATEL-INT
+export:         to   AS20804  80.81.203.117                  at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS20847  2001:7f8:3d::516f:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-PREVIDER
+mp-export:      afi ipv6.unicast to   AS20847  2001:7f8:3d::516f:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS20847  2001:7f8:3d::516f:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-PREVIDER
+mp-export:      afi ipv6.unicast to   AS20847  2001:7f8:3d::516f:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS20847  80.81.203.39                   at                  80.81.203.252 accept   AS-PREVIDER
+export:         to   AS20847  80.81.203.39                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS20847  80.81.203.39                   at                  80.81.203.253 accept   AS-PREVIDER
+export:         to   AS20847  80.81.203.39                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS20928  2001:7f8:3d::51c0:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-NOOR
+mp-export:      afi ipv6.unicast to   AS20928  2001:7f8:3d::51c0:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS20928  2001:7f8:3d::51c0:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-NOOR
+mp-export:      afi ipv6.unicast to   AS20928  2001:7f8:3d::51c0:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS20928  80.81.203.112                  at                  80.81.203.252 accept   AS-NOOR
+export:         to   AS20928  80.81.203.112                  at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS20928  80.81.203.112                  at                  80.81.203.253 accept   AS-NOOR
+export:         to   AS20928  80.81.203.112                  at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS21385  2001:7f8:3d::5389:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-TNIB
+mp-export:      afi ipv6.unicast to   AS21385  2001:7f8:3d::5389:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS21385  2001:7f8:3d::5389:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-TNIB
+mp-export:      afi ipv6.unicast to   AS21385  2001:7f8:3d::5389:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS21385  80.81.203.3                    at                  80.81.203.252 accept   AS-TNIB
+export:         to   AS21385  80.81.203.3                    at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS21385  80.81.203.3                    at                  80.81.203.253 accept   AS-TNIB
+export:         to   AS21385  80.81.203.3                    at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS24640  80.81.203.19                   at                  80.81.203.252 accept   AS-BSWS
+export:         to   AS24640  80.81.203.19                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS24640  80.81.203.19                   at                  80.81.203.253 accept   AS-BSWS
+export:         to   AS24640  80.81.203.19                   at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS24657  80.81.203.30                   at                  80.81.203.252 accept   AS24657
+export:         to   AS24657  80.81.203.30                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS24657  80.81.203.30                   at                  80.81.203.253 accept   AS24657
+export:         to   AS24657  80.81.203.30                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS24961  2001:7f8:3d::6181:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-MYLOC
+mp-export:      afi ipv6.unicast to   AS24961  2001:7f8:3d::6181:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS24961  2001:7f8:3d::6181:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-MYLOC
+mp-export:      afi ipv6.unicast to   AS24961  2001:7f8:3d::6181:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS24961  80.81.203.31                   at                  80.81.203.252 accept   AS-MYLOC
+export:         to   AS24961  80.81.203.31                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS24961  80.81.203.31                   at                  80.81.203.253 accept   AS-MYLOC
+export:         to   AS24961  80.81.203.31                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS25091  2001:7f8:3d::6203:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-IP-MAX-V6
+mp-export:      afi ipv6.unicast to   AS25091  2001:7f8:3d::6203:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS25091  2001:7f8:3d::6203:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-IP-MAX-V6
+mp-export:      afi ipv6.unicast to   AS25091  2001:7f8:3d::6203:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS25091  80.81.203.95                   at                  80.81.203.252 accept   AS-IP-MAX
+export:         to   AS25091  80.81.203.95                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS25091  80.81.203.95                   at                  80.81.203.253 accept   AS-IP-MAX
+export:         to   AS25091  80.81.203.95                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS25415  2001:7f8:3d::6347:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-ADDIX
+mp-export:      afi ipv6.unicast to   AS25415  2001:7f8:3d::6347:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS25415  2001:7f8:3d::6347:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-ADDIX
+mp-export:      afi ipv6.unicast to   AS25415  2001:7f8:3d::6347:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS25415  80.81.203.42                   at                  80.81.203.252 accept   AS-ADDIX
+export:         to   AS25415  80.81.203.42                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS25415  80.81.203.42                   at                  80.81.203.253 accept   AS-ADDIX
+export:         to   AS25415  80.81.203.42                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS25560  2001:7f8:3d::63d8:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-RHTEC6
+mp-export:      afi ipv6.unicast to   AS25560  2001:7f8:3d::63d8:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS25560  2001:7f8:3d::63d8:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-RHTEC6
+mp-export:      afi ipv6.unicast to   AS25560  2001:7f8:3d::63d8:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS25560  80.81.203.44                   at                  80.81.203.252 accept   AS-RHTEC
+export:         to   AS25560  80.81.203.44                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS25560  80.81.203.44                   at                  80.81.203.253 accept   AS-RHTEC
+export:         to   AS25560  80.81.203.44                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS21345  2001:7f8:3d::5361:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-SYMC
+mp-export:      afi ipv6.unicast to   AS21345  2001:7f8:3d::5361:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS21345  2001:7f8:3d::5361:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-SYMC
+mp-export:      afi ipv6.unicast to   AS21345  2001:7f8:3d::5361:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS21345  80.81.203.67                   at                  80.81.203.252 accept   AS-SYMC
+export:         to   AS21345  80.81.203.67                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS21345  80.81.203.67                   at                  80.81.203.253 accept   AS-SYMC
+export:         to   AS21345  80.81.203.67                   at                  80.81.203.253 announce AS-DECIX-HAM
+import:         from AS28917  80.81.203.74                   at                  80.81.203.252 accept   AS-FIORD
+export:         to   AS28917  80.81.203.74                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS28917  80.81.203.74                   at                  80.81.203.253 accept   AS-FIORD
+export:         to   AS28917  80.81.203.74                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS28917  2001:7f8:3d::70f5:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-FIORD-V6
+mp-export:      afi ipv6.unicast to   AS28917  2001:7f8:3d::70f5:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS28917  2001:7f8:3d::70f5:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-FIORD-V6
+mp-export:      afi ipv6.unicast to   AS28917  2001:7f8:3d::70f5:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS29014  2001:7f8:3d::7156:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-INTERNET4YOU
+mp-export:      afi ipv6.unicast to   AS29014  2001:7f8:3d::7156:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS29014  2001:7f8:3d::7156:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-INTERNET4YOU
+mp-export:      afi ipv6.unicast to   AS29014  2001:7f8:3d::7156:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS29014  80.81.203.20                   at                  80.81.203.252 accept   AS-INTERNET4YOU
+export:         to   AS29014  80.81.203.20                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS29014  80.81.203.20                   at                  80.81.203.253 accept   AS-INTERNET4YOU
+export:         to   AS29014  80.81.203.20                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS29404  2001:7f8:3d::72dc:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-ELBRACHT
+mp-export:      afi ipv6.unicast to   AS29404  2001:7f8:3d::72dc:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS29404  2001:7f8:3d::72dc:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-ELBRACHT
+mp-export:      afi ipv6.unicast to   AS29404  2001:7f8:3d::72dc:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS29404  80.81.203.83                   at                  80.81.203.252 accept   AS-ELBRACHT
+export:         to   AS29404  80.81.203.83                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS29404  80.81.203.83                   at                  80.81.203.253 accept   AS-ELBRACHT
+export:         to   AS29404  80.81.203.83                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS29505  2001:7f8:3d::7341:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-TRAVEKOM
+mp-export:      afi ipv6.unicast to   AS29505  2001:7f8:3d::7341:0:1          at          2001:7f8:3d::a8f4:0:1 announce AS-DECIX-HAM-V6
+mp-import:      afi ipv6.unicast from AS29505  2001:7f8:3d::7341:0:1          at          2001:7f8:3d::a8f4:0:2 accept   AS-TRAVEKOM
+mp-export:      afi ipv6.unicast to   AS29505  2001:7f8:3d::7341:0:1          at          2001:7f8:3d::a8f4:0:2 announce AS-DECIX-HAM-V6
+import:         from AS29505  80.81.203.14                   at                  80.81.203.252 accept   AS-TRAVEKOM
+export:         to   AS29505  80.81.203.14                   at                  80.81.203.252 announce AS-DECIX-HAM
+import:         from AS29505  80.81.203.14                   at                  80.81.203.253 accept   AS-TRAVEKOM
+export:         to   AS29505  80.81.203.14                   at                  80.81.203.253 announce AS-DECIX-HAM
+mp-import:      afi ipv6.unicast from AS31133  2001:7f8:3d::799d:0:1          at          2001:7f8:3d::a8f4:0:1 accept   AS-MF-MGSM
+mp-export:      afi ipv6.unicast to   AS31133  2001:7f8:3d::799d:0:1          at      
+Answer from RIR truncated

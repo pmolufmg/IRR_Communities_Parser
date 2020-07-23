@@ -1,0 +1,502 @@
+aut-num:        AS25560
+org:            ORG-rG3-RIPE
+as-name:        RHTEC-AS
+descr:          rh-tec IP Backbone
+descr:          Ringstrasse 36
+descr:          32584 Loehne
+descr:          Germany
+import:         from AS174   80.81.192.63    at 80.81.192.106   accept   AS174:AS-COGENT AND NOT {0.0.0.0/0}
+export:         to   AS174   80.81.192.63    at 80.81.192.106   announce AS-RHTEC
+import:         from AS553   80.81.192.175   at 80.81.192.106   accept   AS-BELWUE AND NOT {0.0.0.0/0}
+export:         to   AS553   80.81.192.175   at 80.81.192.106   announce AS-RHTEC
+import:         from AS680   80.81.192.222   at 80.81.192.106   accept   AS-DFNTOWINISP AND NOT {0.0.0.0/0}
+export:         to   AS680   80.81.192.222   at 80.81.192.106   announce AS-RHTEC
+import:         from AS1901  80.81.192.31    at 80.81.192.106   accept   AS-EUNETAT AND NOT {0.0.0.0/0}
+export:         to   AS1901  80.81.192.31    at 80.81.192.106   announce AS-RHTEC
+import:         from AS2818  80.81.192.59    at 80.81.192.106   accept   AS-BBC AND NOT {0.0.0.0/0}
+export:         to   AS2818  80.81.192.59    at 80.81.192.106   announce AS-RHTEC
+import:         from AS2857  80.81.192.8     at 80.81.192.106   accept   AS-RLP-NET AND NOT {0.0.0.0/0}
+export:         to   AS2857  80.81.192.8     at 80.81.192.106   announce AS-RHTEC
+import:         from AS3209  80.81.192.117   at 80.81.192.106   accept   AS-ARCORGLOBAL AND NOT {0.0.0.0/0}
+export:         to   AS3209  80.81.192.117   at 80.81.192.106   announce AS-RHTEC
+import:         from AS3209  80.81.193.117   at 80.81.192.106   accept   AS-ARCORGLOBAL AND NOT {0.0.0.0/0}
+export:         to   AS3209  80.81.193.117   at 80.81.192.106   announce AS-RHTEC
+import:         from AS3248  80.81.192.85    at 80.81.192.106   accept   AS-SILAT AND NOT {0.0.0.0/0}
+export:         to   AS3248  80.81.192.85    at 80.81.192.106   announce AS-RHTEC
+import:         from AS3257  77.67.75.17     at 77.67.75.18     accept   ANY
+export:         to   AS3257  77.67.75.17     at 77.67.75.18     announce AS-RHTEC
+import:         from AS3291  80.81.192.10    at 80.81.192.106   accept   AS-PSINETEU AND NOT {0.0.0.0/0}
+export:         to   AS3291  80.81.192.10    at 80.81.192.106   announce AS-RHTEC
+import:         from AS3303  80.81.192.183   at 80.81.192.106   accept   AS-SWCMGLOBAL AND NOT {0.0.0.0/0}
+export:         to   AS3303  80.81.192.183   at 80.81.192.106   announce AS-RHTEC
+import:         from AS3303  80.81.193.183   at 80.81.192.106   accept   AS-SWCMGLOBAL AND NOT {0.0.0.0/0}
+export:         to   AS3303  80.81.193.183   at 80.81.192.106   announce AS-RHTEC
+import:         from AS3320  85.199.128.9    at 85.199.128.10   accept   ANY
+export:         to   AS3320  85.199.128.9    at 85.199.128.10   announce AS-RHTEC
+import:         from AS3327  80.81.192.192   at 80.81.192.106   accept   AS-LINXTELECOM-DECIX AND NOT {0.0.0.0/0}
+export:         to   AS3327  80.81.192.192   at 80.81.192.106   announce AS-RHTEC
+import:         from AS3491  80.81.192.50    at 80.81.192.106   accept   AS-CAIS AND NOT {0.0.0.0/0}
+export:         to   AS3491  80.81.192.50    at 80.81.192.106   announce AS-RHTEC
+import:         from AS4589  80.81.192.14    at 80.81.192.106   accept   AS-EASYNET AND NOT {0.0.0.0/0}
+export:         to   AS4589  80.81.192.14    at 80.81.192.106   announce AS-RHTEC
+import:         from AS4589  80.81.193.14    at 80.81.192.106   accept   AS-EASYNET AND NOT {0.0.0.0/0}
+export:         to   AS4589  80.81.193.14    at 80.81.192.106   announce AS-RHTEC
+import:         from AS4766  80.81.192.170   at 80.81.192.106   accept   AS4766 AND NOT {0.0.0.0/0}
+export:         to   AS4766  80.81.192.170   at 80.81.192.106   announce AS-RHTEC
+import:         from AS5089  80.81.192.5     at 80.81.192.106   accept   AS-NTLI AND NOT {0.0.0.0/0}
+export:         to   AS5089  80.81.192.5     at 80.81.192.106   announce AS-RHTEC
+import:         from AS5409  80.81.192.58    at 80.81.192.106   accept   AS-TPL AND NOT {0.0.0.0/0}
+export:         to   AS5409  80.81.192.58    at 80.81.192.106   announce AS-RHTEC
+import:         from AS5427  80.81.192.44    at 80.81.192.106   accept   AS-PRTL-DE AND NOT {0.0.0.0/0}
+export:         to   AS5427  80.81.192.44    at 80.81.192.106   announce AS-RHTEC
+import:         from AS5430  80.81.192.49    at 80.81.192.106   accept   AS-FREENETDE AND NOT {0.0.0.0/0}
+export:         to   AS5430  80.81.192.49    at 80.81.192.106   announce AS-RHTEC
+import:         from AS5430  80.81.193.49    at 80.81.192.106   accept   AS-FREENETDE AND NOT {0.0.0.0/0}
+export:         to   AS5430  80.81.193.49    at 80.81.192.106   announce AS-RHTEC
+import:         from AS5466  80.81.192.19    at 80.81.192.106   accept   AS-EIRCOM AND NOT {0.0.0.0/0}
+export:         to   AS5466  80.81.192.19    at 80.81.192.106   announce AS-RHTEC
+import:         from AS5577  80.81.192.113   at 80.81.192.106   accept   AS-FIDKOM-DECIX AND NOT {0.0.0.0/0}
+export:         to   AS5577  80.81.192.113   at 80.81.192.106   announce AS-RHTEC
+import:         from AS5588  80.81.192.81    at 80.81.192.106   accept   AS-GTS-CE AND NOT {0.0.0.0/0}
+export:         to   AS5588  80.81.192.81    at 80.81.192.106   announce AS-RHTEC
+import:         from AS5605  80.81.192.17    at 80.81.192.106   accept   AS-NETUSE AND NOT {0.0.0.0/0}
+export:         to   AS5605  80.81.192.17    at 80.81.192.106   announce AS-RHTEC
+import:         from AS5669  80.81.192.193   at 80.81.192.106   accept   AS-PSIVIA AND NOT {0.0.0.0/0}
+export:         to   AS5669  80.81.192.193   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6661  80.81.192.204   at 80.81.192.106   accept   AS-PTLU AND NOT {0.0.0.0/0}
+export:         to   AS6661  80.81.192.204   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6667  80.81.192.144   at 80.81.192.106   accept   (AS-EUNETIP RS-EUNETIP) AND NOT {0.0.0.0/0}
+export:         to   AS6667  80.81.192.144   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6666  80.81.192.166   at 80.81.192.106   accept   AS-HEADLIGHT AND NOT {0.0.0.0/0}
+export:         to   AS6666  80.81.192.166   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6695  80.81.192.157   at 80.81.192.106   accept   AS-DECIX AND NOT {0.0.0.0/0}
+export:         to   AS6695  80.81.192.157   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6695  80.81.193.157   at 80.81.192.106   accept   AS-DECIX AND NOT {0.0.0.0/0}
+export:         to   AS6695  80.81.193.157   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6705  80.81.192.121   at 80.81.192.106   accept   AS-PROFI AND NOT {0.0.0.0/0}
+export:         to   AS6705  80.81.192.121   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6724  80.81.192.110   at 80.81.192.106   accept   AS-STRATORZ AND NOT {0.0.0.0/0}
+export:         to   AS6724  80.81.192.110   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6730  80.81.192.141   at 80.81.192.106   accept   AS-GLOBAL AND NOT {0.0.0.0/0}
+export:         to   AS6730  80.81.192.141   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6735  80.81.192.177   at 80.81.192.106   accept   AS-SDTDECIX AND NOT {0.0.0.0/0}
+export:         to   AS6735  80.81.192.177   at 80.81.192.106   announce AS-RHTEC
+import:         from AS6774  80.81.192.12    at 80.81.192.106   accept   AS-BELBONEMEMBERS AND NOT {0.0.0.0/0}
+export:         to   AS6774  80.81.192.12    at 80.81.192.106   announce AS-RHTEC
+import:         from AS6805  80.81.192.89    at 80.81.192.106   accept   AS-TDDE AND NOT {0.0.0.0/0}
+export:         to   AS6805  80.81.192.89    at 80.81.192.106   announce AS-RHTEC
+import:         from AS7575  80.81.192.242   at 80.81.192.106   accept   AS7575:AS-CUSTOMER AND NOT {0.0.0.0/0}
+export:         to   AS7575  80.81.192.242   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8190  80.81.192.102   at 80.81.192.106   accept   AS-VIATEL AND NOT {0.0.0.0/0}
+export:         to   AS8190  80.81.192.102   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8196  80.81.192.86    at 80.81.192.106   accept   AS-CLARANET AND NOT {0.0.0.0/0}
+export:         to   AS8196  80.81.192.86    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8220  80.81.192.61    at 80.81.192.106   accept   AS-COLT AND NOT {0.0.0.0/0}
+export:         to   AS8220  80.81.192.61    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8220  80.81.193.61    at 80.81.192.106   accept   AS-COLT AND NOT {0.0.0.0/0}
+export:         to   AS8220  80.81.193.61    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8319  80.81.193.94    at 80.81.192.106   accept   AS-IXREGIO AND NOT {0.0.0.0/0}
+export:         to   AS8319  80.81.193.94    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8365  80.81.192.6     at 80.81.192.106   accept   AS-MANDA AND NOT {0.0.0.0/0}
+export:         to   AS8365  80.81.192.6     at 80.81.192.106   announce AS-RHTEC
+import:         from AS8365  193.189.82.22   at 193.189.82.10   accept   AS-MANDA AND NOT {0.0.0.0/0}
+export:         to   AS8365  193.189.82.22   at 193.189.82.10   announce AS-RHTEC
+import:         from AS8404  80.81.192.116   at 80.81.192.106   accept   AS-CABLECOMEU AND NOT {0.0.0.0/0}
+export:         to   AS8404  80.81.192.116   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8422  80.81.192.212   at 80.81.192.106   accept   AS-NETCOLOGNE AND NOT {0.0.0.0/0}
+export:         to   AS8422  80.81.192.212   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8422  80.81.193.212   at 80.81.192.106   accept   AS-NETCOLOGNE AND NOT {0.0.0.0/0}
+export:         to   AS8422  80.81.193.212   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8437  80.81.192.24    at 80.81.192.106   accept   AS-UTA AND NOT {0.0.0.0/0}
+export:         to   AS8437  80.81.192.24    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8442  80.81.192.235   at 80.81.192.106   accept   AS-DIG AND NOT {0.0.0.0/0}
+export:         to   AS8442  80.81.192.235   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8447  80.81.192.69    at 80.81.192.106   accept   AS-PTA AND NOT {0.0.0.0/0}
+export:         to   AS8447  80.81.192.69    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8468  80.81.192.238   at 80.81.192.106   accept   AS-ENTANET AND NOT {0.0.0.0/0}
+export:         to   AS8468  80.81.192.238   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8469  80.81.192.109   at 80.81.192.106   accept   AS-PIRONETNDH AND NOT {0.0.0.0/0}
+export:         to   AS8469  80.81.192.109   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8469  80.81.193.109   at 80.81.192.106   accept   AS-PIRONETNDH AND NOT {0.0.0.0/0}
+export:         to   AS8469  80.81.193.109   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8514  80.81.192.47    at 80.81.192.106   accept   AS-INODE AND NOT {0.0.0.0/0}
+export:         to   AS8514  80.81.192.47    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8560  80.81.192.123   at 80.81.192.106   accept   AS-SCHLUND AND NOT {0.0.0.0/0}
+export:         to   AS8560  80.81.192.123   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8560  80.81.193.123   at 80.81.192.106   accept   AS-SCHLUND AND NOT {0.0.0.0/0}
+export:         to   AS8560  80.81.193.123   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8586  80.81.192.34    at 80.81.192.106   accept   AS-REDNET AND NOT {0.0.0.0/0}
+export:         to   AS8586  80.81.192.34    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8648  80.81.192.42    at 80.81.192.106   accept   AS-KAMP AND NOT {0.0.0.0/0}
+export:         to   AS8648  80.81.192.42    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8657  80.81.192.38    at 80.81.192.106   accept   AS-CPRM AND NOT {0.0.0.0/0}
+export:         to   AS8657  80.81.192.38    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8665  80.81.192.182   at 80.81.192.106   accept   AS-AXSP AND NOT {0.0.0.0/0}
+export:         to   AS8665  80.81.192.182   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8674  80.81.192.160   at 80.81.192.106   accept   AS-NETNOD AND NOT {0.0.0.0/0}
+export:         to   AS8674  80.81.192.160   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8674  80.81.193.160   at 80.81.192.106   accept   AS-NETNOD AND NOT {0.0.0.0/0}
+export:         to   AS8674  80.81.193.160   at 80.81.192.106   announce AS-RHTEC
+import:         from AS8708  80.81.192.87    at 80.81.192.106   accept   AS-RDSNET AND NOT {0.0.0.0/0}
+export:         to   AS8708  80.81.192.87    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8741  80.81.192.18    at 80.81.192.106   accept   AS-ECORE AND NOT {0.0.0.0/0}
+export:         to   AS8741  80.81.192.18    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8763  80.81.192.37    at 80.81.192.106   accept   AS-DENIC AND NOT {0.0.0.0/0}
+export:         to   AS8763  80.81.192.37    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8763  80.81.193.37    at 80.81.192.106   accept   AS-DENIC AND NOT {0.0.0.0/0}
+export:         to   AS8763  80.81.193.37    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8804  80.81.192.4     at 80.81.192.106   accept   AS-IX-REGIONET AND NOT {0.0.0.0/0}
+export:         to   AS8804  80.81.192.4     at 80.81.192.106   announce AS-RHTEC
+import:         from AS8804  80.81.193.4     at 80.81.192.106   accept   AS-IX-REGIONET AND NOT {0.0.0.0/0}
+export:         to   AS8804  80.81.193.4     at 80.81.192.106   announce AS-RHTEC
+import:         from AS8859  80.81.192.40    at 80.81.192.106   accept   AS-OSN AND NOT {0.0.0.0/0}
+export:         to   AS8859  80.81.192.40    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8881  80.81.192.80    at 80.81.192.106   accept   AS-VT-TRANSIT AND NOT {0.0.0.0/0}
+export:         to   AS8881  80.81.192.80    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8881  80.81.193.80    at 80.81.192.106   accept   AS-VT-TRANSIT AND NOT {0.0.0.0/0}
+export:         to   AS8881  80.81.193.80    at 80.81.192.106   announce AS-RHTEC
+import:         from AS8939  80.81.192.167   at 80.81.192.106   accept   AS-ADTECH AND NOT {0.0.0.0/0}
+export:         to   AS8939  80.81.192.167   at 80.81.192.106   announce AS-RHTEC
+import:         from AS9044  80.81.192.48    at 80.81.192.106   accept   AS-SOLNET AND NOT {0.0.0.0/0}
+export:         to   AS9044  80.81.192.48    at 80.81.192.106   announce AS-RHTEC
+import:         from AS9063  80.81.192.100   at 80.81.192.106   accept   AS-SAARGATE AND NOT {0.0.0.0/0}
+export:         to   AS9063  80.81.192.100   at 80.81.192.106   announce AS-RHTEC
+import:         from AS9066  80.81.192.90    at 80.81.192.106   accept   AS-BCC AND NOT {0.0.0.0/0}
+export:         to   AS9066  80.81.192.90    at 80.81.192.106   announce AS-RHTEC
+import:         from AS9119  80.81.192.99    at 80.81.192.106   accept   AS-SOFTNET AND NOT {0.0.0.0/0}
+export:         to   AS9119  80.81.192.99    at 80.81.192.106   announce AS-RHTEC
+import:         from AS9189  80.81.192.98    at 80.81.192.106   accept   AS-ACCOM AND NOT {0.0.0.0/0}
+export:         to   AS9189  80.81.192.98    at 80.81.192.106   announce AS-RHTEC
+import:         from AS9505  80.81.192.231   at 80.81.192.106   accept   AS-TWIG AND NOT {0.0.0.0/0}
+export:         to   AS9505  80.81.192.231   at 80.81.192.106   announce AS-RHTEC
+import:         from AS12306 80.81.192.132   at 80.81.192.106   accept   AS-PLUSLINE AND NOT {0.0.0.0/0}
+export:         to   AS12306 80.81.192.132   at 80.81.192.106   announce AS-RHTEC
+import:         from AS12306 80.81.193.132   at 80.81.192.106   accept   AS-PLUSLINE AND NOT {0.0.0.0/0}
+export:         to   AS12306 80.81.193.132   at 80.81.192.106   announce AS-RHTEC
+import:         from AS12337 80.81.192.88    at 80.81.192.106   accept   AS-NORIS AND NOT {0.0.0.0/0}
+export:         to   AS12337 80.81.192.88    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12337 80.81.193.88    at 80.81.192.106   accept   AS-NORIS AND NOT {0.0.0.0/0}
+export:         to   AS12337 80.81.193.88    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12355 80.81.192.240   at 80.81.192.106   accept   AS-HELINET-V4 AND NOT {0.0.0.0/0}
+export:         to   AS12355 80.81.192.240   at 80.81.192.106   announce AS-RHTEC
+import:         from AS12399 80.81.192.92    at 80.81.192.106   accept   AS-SPXS AND NOT {0.0.0.0/0}
+export:         to   AS12399 80.81.192.92    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12399 80.81.193.92    at 80.81.192.106   accept   AS-SPXS AND NOT {0.0.0.0/0}
+export:         to   AS12399 80.81.193.92    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12407 80.81.192.135   at 80.81.192.106   accept   AS-WESTEND AND NOT {0.0.0.0/0}
+export:         to   AS12407 80.81.192.135   at 80.81.192.106   announce AS-RHTEC
+import:         from AS12480 80.81.192.20    at 80.81.192.106   accept   AS-ILK AND NOT {0.0.0.0/0}
+export:         to   AS12480 80.81.192.20    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12611 80.81.192.52    at 80.81.192.106   accept   AS-RKOM AND NOT {0.0.0.0/0}
+export:         to   AS12611 80.81.192.52    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12654 80.81.192.152   at 80.81.192.106   accept   AS12654:RS-RIS AND NOT {0.0.0.0/0}
+export:         to   AS12654 80.81.192.152   at 80.81.192.106   announce AS-RHTEC
+import:         from AS12713 80.81.192.207   at 80.81.192.106   accept   AS-OTEGLOBE AND NOT {0.0.0.0/0}
+export:         to   AS12713 80.81.192.207   at 80.81.192.106   announce AS-RHTEC
+import:         from AS12731 80.81.192.27    at 80.81.192.106   accept   AS-IPHH AND NOT {0.0.0.0/0}
+export:         to   AS12731 80.81.192.27    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12793 80.81.192.107   at 80.81.192.106   accept   AS-ETELGROUP AND NOT {0.0.0.0/0}
+export:         to   AS12793 80.81.192.107   at 80.81.192.106   announce AS-RHTEC
+import:         from AS12859 80.81.192.95    at 80.81.192.106   accept   AS-BIT AND NOT {0.0.0.0/0}
+export:         to   AS12859 80.81.192.95    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12897 80.81.192.15    at 80.81.192.106   accept   AS-HEAGMEDIANET AND NOT {0.0.0.0/0}
+export:         to   AS12897 80.81.192.15    at 80.81.192.106   announce AS-RHTEC
+import:         from AS12989 80.81.192.224   at 80.81.192.106   accept   AS-EWEKA AND NOT {0.0.0.0/0}
+export:         to   AS12989 80.81.192.224   at 80.81.192.106   announce AS-RHTEC
+import:         from AS13030 80.81.192.67    at 80.81.192.106   accept   AS-INIT7 AND NOT {0.0.0.0/0}
+export:         to   AS13030 80.81.192.67    at 80.81.192.106   announce AS-RHTEC
+import:         from AS13101 80.81.192.83    at 80.81.192.106   accept   AS-TNG AND NOT {0.0.0.0/0}
+export:         to   AS13101 80.81.192.83    at 80.81.192.106   announce AS-RHTEC
+import:         from AS13122 80.81.192.68    at 80.81.192.106   accept   AS-MANX AND NOT {0.0.0.0/0}
+export:         to   AS13122 80.81.192.68    at 80.81.192.106   announce AS-RHTEC
+import:         from AS13184 80.81.192.232   at 80.81.192.106   accept   AS-HANSENET AND NOT {0.0.0.0/0}
+export:         to   AS13184 80.81.192.232   at 80.81.192.106   announce AS-RHTEC
+import:         from AS13184 80.81.193.232   at 80.81.192.106   accept   AS-HANSENET AND NOT {0.0.0.0/0}
+export:         to   AS13184 80.81.193.232   at 80.81.192.106   announce AS-RHTEC
+import:         from AS13237 80.81.192.74    at 80.81.192.106   accept   AS-LAMBDANET AND NOT {0.0.0.0/0}
+export:         to   AS13237 80.81.192.74    at 80.81.192.106   announce AS-RHTEC
+import:         from AS13246 80.81.192.169   at 80.81.192.106   accept   AS-INETWIRE AND NOT {0.0.0.0/0}
+export:         to   AS13246 80.81.192.169   at 80.81.192.106   announce AS-RHTEC
+import:         from AS13301 80.81.192.72    at 80.81.192.106   accept   AS-UNITEDCOLO AND NOT {0.0.0.0/0}
+export:         to   AS13301 80.81.192.72    at 80.81.192.106   announce AS-RHTEC
+import:         from AS13301 80.81.193.72    at 80.81.192.106   accept   AS-UNITEDCOLO AND NOT {0.0.0.0/0}
+export:         to   AS13301 80.81.193.72    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15169 80.81.192.108   at 80.81.192.106   accept   AS15169 AND NOT {0.0.0.0/0}
+export:         to   AS15169 80.81.192.108   at 80.81.192.106   announce AS-RHTEC
+import:         from AS15412 80.81.192.64    at 80.81.192.106   accept   AS-FLAGP AND NOT {0.0.0.0/0}
+export:         to   AS15412 80.81.192.64    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15444 80.81.192.71    at 80.81.192.106   accept   AS-NETSERVICES AND NOT {0.0.0.0/0}
+export:         to   AS15444 80.81.192.71    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15517 80.81.192.56    at 80.81.192.106   accept   AS-NETSTREAM-CH AND NOT {0.0.0.0/0}
+export:         to   AS15517 80.81.192.56    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15557 80.81.192.201   at 80.81.192.106   accept   AS-LDCOMNET AND NOT {0.0.0.0/0}
+export:         to   AS15557 80.81.192.201   at 80.81.192.106   announce AS-RHTEC
+import:         from AS15594 80.81.192.75    at 80.81.192.106   accept   AS-NQ AND NOT {0.0.0.0/0}
+export:         to   AS15594 80.81.192.75    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15598 80.81.192.32    at 80.81.192.106   accept   AS-IPX AND NOT {0.0.0.0/0}
+export:         to   AS15598 80.81.192.32    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15598 80.81.193.32    at 80.81.192.106   accept   AS-IPX AND NOT {0.0.0.0/0}
+export:         to   AS15598 80.81.193.32    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15600 80.81.192.138   at 80.81.192.106   accept   AS-LAN AND NOT {0.0.0.0/0}
+export:         to   AS15600 80.81.192.138   at 80.81.192.106   announce AS-RHTEC
+import:         from AS15606 80.81.192.97    at 80.81.192.106   accept   AS-NASK AND NOT {0.0.0.0/0}
+export:         to   AS15606 80.81.192.97    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15703 80.81.192.51    at 80.81.192.106   accept   AS-TRUESERVER AND NOT {0.0.0.0/0}
+export:         to   AS15703 80.81.192.51    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15743 80.81.192.25    at 80.81.192.106   accept   AS-IPH AND NOT {0.0.0.0/0}
+export:         to   AS15743 80.81.192.25    at 80.81.192.106   announce AS-RHTEC
+import:         from AS15772 80.81.192.236   at 80.81.192.106   accept   AS-WNET AND NOT {0.0.0.0/0}
+export:         to   AS15772 80.81.192.236   at 80.81.192.106   announce AS-RHTEC
+import:         from AS15830 80.81.192.103   at 80.81.192.106   accept   AS-GLOBIX AND NOT {0.0.0.0/0}
+export:         to   AS15830 80.81.192.103   at 80.81.192.106   announce AS-RHTEC
+import:         from AS15933 80.81.192.118   at 80.81.192.106   accept   AS-ITH AND NOT {0.0.0.0/0}
+export:         to   AS15933 80.81.192.118   at 80.81.192.106   announce AS-RHTEC
+import:         from AS16097 80.81.192.91    at 80.81.192.106   accept   AS-HLKOMM AND NOT {0.0.0.0/0}
+export:         to   AS16097 80.81.192.91    at 80.81.192.106   announce AS-RHTEC
+import:         from AS16215 80.81.192.143   at 80.81.192.106   accept   (AS-GENOTEC AS-GENOTEC-IPv4) AND NOT {0.0.0.0/0}
+export:         to   AS16215 80.81.192.143   at 80.81.192.106   announce AS-RHTEC
+import:         from AS16276 80.81.192.209   at 80.81.192.106   accept   AS-OVH AND NOT {0.0.0.0/0}
+export:         to   AS16276 80.81.192.209   at 80.81.192.106   announce AS-RHTEC
+import:         from AS20495 80.81.192.122   at 80.81.192.106   accept   AS-WEDARE AND NOT {0.0.0.0/0}
+export:         to   AS20495 80.81.192.122   at 80.81.192.106   announce AS-RHTEC
+import:         from AS20640 80.81.192.23    at 80.81.192.106   accept   AS-TITANNET AND NOT {0.0.0.0/0}
+export:         to   AS20640 80.81.192.23    at 80.81.192.106   announce AS-RHTEC
+import:         from AS20640 80.81.193.23    at 80.81.192.106   accept   AS-TITANNET AND NOT {0.0.0.0/0}
+export:         to   AS20640 80.81.193.23    at 80.81.192.106   announce AS-RHTEC
+import:         from AS20646 80.81.192.45    at 80.81.192.106   accept   AS-CELOX AND NOT {0.0.0.0/0}
+export:         to   AS20646 80.81.192.45    at 80.81.192.106   announce AS-RHTEC
+import:         from AS20676 80.81.192.41    at 80.81.192.106   accept   AS-QSC AND NOT {0.0.0.0/0}
+export:         to   AS20676 80.81.192.41    at 80.81.192.106   announce AS-RHTEC
+import:         from AS20940 80.81.192.28    at 80.81.192.106   accept   AS-AKAMAI AND NOT {0.0.0.0/0}
+export:         to   AS20940 80.81.192.28    at 80.81.192.106   announce AS-RHTEC
+import:         from AS20940 193.189.82.16   at 193.189.82.10   accept   AS-AKAMAI AND NOT {0.0.0.0/0}
+export:         to   AS20940 193.189.82.16   at 193.189.82.10   announce AS-RHTEC
+import:         from AS20804 80.81.192.124   at 80.81.192.106   accept   AS20804 AND NOT {0.0.0.0/0}
+export:         to   AS20804 80.81.192.124   at 80.81.192.106   announce AS-RHTEC
+import:         from AS21263 80.81.192.250   at 80.81.192.106   accept   AS-TELEDATA AND NOT {0.0.0.0/0}
+export:         to   AS21263 80.81.192.250   at 80.81.192.106   announce AS-RHTEC
+import:         from AS21336 80.81.192.189   at 80.81.192.106   accept   AS-IR AND NOT {0.0.0.0/0}
+export:         to   AS21336 80.81.192.189   at 80.81.192.106   announce AS-RHTEC
+import:         from AS21385 80.81.192.79    at 80.81.192.106   accept   AS-TNIB AND NOT {0.0.0.0/0}
+export:         to   AS21385 80.81.192.79    at 80.81.192.106   announce AS-RHTEC
+import:         from AS21409 80.81.192.184   at 80.81.192.106   accept   AS-IKOULA AND NOT {0.0.0.0/0}
+export:         to   AS21409 80.81.192.184   at 80.81.192.106   announce AS-RHTEC
+import:         from AS21473 80.81.192.3     at 80.81.192.106   accept   AS-MANET AND NOT {0.0.0.0/0}
+export:         to   AS21473 80.81.192.3     at 80.81.192.106   announce AS-RHTEC
+import:         from AS22822 80.81.192.221   at 80.81.192.106   accept   AS22822 AND NOT {0.0.0.0/0}
+export:         to   AS22822 80.81.192.221   at 80.81.192.106   announce AS-RHTEC
+import:         from AS24905 80.81.192.185   at 80.81.192.106   accept   AS-TERRALINK AND NOT {0.0.0.0/0}
+export:         to   AS24905 80.81.192.185   at 80.81.192.106   announce AS-RHTEC
+import:         from AS24961 80.81.192.162   at 80.81.192.106   accept   AS-FASTIT AND NOT {0.0.0.0/0}
+export:         to   AS24961 80.81.192.162   at 80.81.192.106   announce AS-RHTEC
+import:         from AS25074 80.81.192.200   at 80.81.192.106   accept   AS-INETBONE AND NOT {0.0.0.0/0}
+export:         to   AS25074 80.81.192.200   at 80.81.192.106   announce AS-RHTEC
+import:         from AS25192 80.81.192.112   at 80.81.192.106   accept   AS-CZNIC AND NOT {0.0.0.0/0}
+export:         to   AS25192 80.81.192.112   at 80.81.192.106   announce AS-RHTEC
+import:         from AS25192 80.81.193.112   at 80.81.192.106   accept   AS-CZNIC AND NOT {0.0.0.0/0}
+export:         to   AS25192 80.81.193.112   at 80.81.192.106   announce AS-RHTEC
+import:         from AS25394 80.81.192.140   at 80.81.192.106   accept   AS-MK-NETZDIENSTE AND NOT {0.0.0.0/0}
+export:         to   AS25394 80.81.192.140   at 80.81.192.106   announce AS-RHTEC
+import:         from AS25462 80.81.192.73    at 80.81.192.106   accept   AS-RETN AND NOT {0.0.0.0/0}
+export:         to   AS25462 80.81.192.73    at 80.81.192.106   announce AS-RHTEC
+import:         from AS29550 80.81.192.215   at 80.81.192.106   accept   AS-POUNDHOST AND NOT {0.0.0.0/0}
+export:         to   AS29550 80.81.192.215   at 80.81.192.106   announce AS-RHTEC
+import:         from AS29562 80.81.192.248   at 80.81.192.106   accept   AS-KABELBW AND NOT {0.0.0.0/0}
+export:         to   AS29562 80.81.192.248   at 80.81.192.106   announce AS-RHTEC
+import:         from AS29686 80.81.192.133   at 80.81.192.106   accept   AS-PROBENETWORKS AND NOT {0.0.0.0/0}
+export:         to   AS29686 80.81.192.133   at 80.81.192.106   announce AS-RHTEC
+import:         from AS33843 80.81.192.219   at 80.81.192.106   accept   AS-INTERSCHOLZ AND NOT {0.0.0.0/0}
+export:         to   AS33843 80.81.192.219   at 80.81.192.106   announce AS-RHTEC
+import:         from AS33873 80.81.192.216   at 80.81.192.106   accept   AS-ARVATO AND NOT {0.0.0.0/0}
+export:         to   AS33873 80.81.192.216   at 80.81.192.106   announce AS-RHTEC
+import:         from AS34115 62.216.182.66   at 62.216.182.65   accept   AS34115 AND NOT {0.0.0.0/0}
+export:         to   AS34115 62.216.182.66   at 62.216.182.65   announce ANY
+import:         from AS34655 80.81.192.142   at 80.81.192.106   accept   AS-JASMIN AND NOT {0.0.0.0/0}
+export:         to   AS34655 80.81.192.142   at 80.81.192.106   announce AS-RHTEC
+import:         from AS34763 80.81.192.252   at 80.81.192.106   accept   AS-VIRGINRADIO AND NOT {0.0.0.0/0}
+export:         to   AS34763 80.81.192.252   at 80.81.192.106   announce AS-RHTEC
+import:         from AS35244 80.81.192.225   at 80.81.192.106   accept   AS-KMS AND NOT {0.0.0.0/0}
+export:         to   AS35244 80.81.192.225   at 80.81.192.106   announce AS-RHTEC
+import:         from AS35364 80.81.192.181   at 80.81.192.106   accept   AS-COMBOTS AND NOT {0.0.0.0/0}
+export:         to   AS35364 80.81.192.181   at 80.81.192.106   announce AS-RHTEC
+import:         from AS35364 80.81.193.181   at 80.81.192.106   accept   AS-COMBOTS AND NOT {0.0.0.0/0}
+export:         to   AS35364 80.81.193.181   at 80.81.192.106   announce AS-RHTEC
+import:         from AS35758 80.81.192.66    at 80.81.192.106   accept   AS-EURONODE AND NOT {0.0.0.0/0}
+export:         to   AS35758 80.81.192.66    at 80.81.192.106   announce AS-RHTEC
+import:         from AS41039 80.81.192.93    at 80.81.192.106   accept   AS-DBD AND NOT {0.0.0.0/0}
+export:         to   AS41039 80.81.192.93    at 80.81.192.106   announce AS-RHTEC
+import:         from AS41039 80.81.193.93    at 80.81.192.106   accept   AS-DBD AND NOT {0.0.0.0/0}
+export:         to   AS41039 80.81.193.93    at 80.81.192.106   announce AS-RHTEC
+mp-import:      afi ipv6.unicast from AS286   2001:7f8::11e:0:1        at 2001:7f8::63d8:0:1       accept   AS-KPNV6
+mp-export:      afi ipv6.unicast to   AS286   2001:7f8::11e:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS553   2001:7f8::229:0:1        at 2001:7f8::63d8:0:1       accept   AS-BELWUE
+mp-export:      afi ipv6.unicast to   AS553   2001:7f8::229:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS680   2001:7f8::2a8:0:1        at 2001:7f8::63d8:0:1       accept   AS-DFNTOWINISP
+mp-export:      afi ipv6.unicast to   AS680   2001:7f8::2a8:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS1273  2001:7f8::4f9:0:1        at 2001:7f8::63d8:0:1       accept   AS-CW6
+mp-export:      afi ipv6.unicast to   AS1273  2001:7f8::4f9:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS2857  2001:7f8::b29:0:1        at 2001:7f8::63d8:0:1       accept   AS-RLP-NET
+mp-export:      afi ipv6.unicast to   AS2857  2001:7f8::b29:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS2914  2001:7f8::b62:0:1        at 2001:7f8::63d8:0:1       accept   AS-VERIO
+mp-export:      afi ipv6.unicast to   AS2914  2001:7f8::b62:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS3248  2001:7f8::cb0:0:1        at 2001:7f8::63d8:0:1       accept   AS-SILAT-V6
+mp-export:      afi ipv6.unicast to   AS3248  2001:7f8::cb0:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS3257  2001:668:0:3::2000:491   at 2001:668:0:3::2000:492   accept   ANY
+mp-export:      afi ipv6.unicast to   AS3257  2001:668:0:3::2000:491   at 2001:668:0:3::2000:492   announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS3303  2001:7f8::ce7:0:1        at 2001:7f8::63d8:0:1       accept   AS-V6SWCMGLOBAL
+mp-export:      afi ipv6.unicast to   AS3303  2001:7f8::ce7:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS3320  2003:0:10:fe::1          at 2003:0:10:fe::2          accept   ANY
+mp-export:      afi ipv6.unicast to   AS3320  2003:0:10:fe::1          at 2003:0:10:fe::2          announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS3327  2001:7f8::cff:0:1        at 2001:7f8::63d8:0:1       accept   AS-LINXTELECOM-DECIX
+mp-export:      afi ipv6.unicast to   AS3327  2001:7f8::cff:0:1        at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS5430  2001:7f8::1536:0:1       at 2001:7f8::63d8:0:1       accept   AS-FREENETDE6
+mp-export:      afi ipv6.unicast to   AS5430  2001:7f8::1536:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS5539  2001:7f8::15a3:0:1       at 2001:7f8::63d8:0:1       accept   AS-SPACENET
+mp-export:      afi ipv6.unicast to   AS5539  2001:7f8::15a3:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS5539  2001:7f8::15a3:0:2       at 2001:7f8::63d8:0:1       accept   AS-SPACENET
+mp-export:      afi ipv6.unicast to   AS5539  2001:7f8::15a3:0:2       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS6666  2001:7f8::1a0a:0:1       at 2001:7f8::63d8:0:1       accept   AS-HEADLIGHT
+mp-export:      afi ipv6.unicast to   AS6666  2001:7f8::1a0a:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS6667  2001:7f8::1a0b:0:1       at 2001:7f8::63d8:0:1       accept   AS-EUNETIP
+mp-export:      afi ipv6.unicast to   AS6667  2001:7f8::1a0b:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS6774  2001:7f8::1a76:0:1       at 2001:7f8::63d8:0:1       accept   AS-BELBONEMEMBERS
+mp-export:      afi ipv6.unicast to   AS6774  2001:7f8::1a76:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS6830  2001:7f8::1aae:0:1       at 2001:7f8::63d8:0:1       accept   AS-AORTA
+mp-export:      afi ipv6.unicast to   AS6830  2001:7f8::1aae:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS7575  2001:7f8::1d97:0:1       at 2001:7f8::63d8:0:1       accept   AS7575:AS-CUSTOMER
+mp-export:      afi ipv6.unicast to   AS7575  2001:7f8::1d97:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC
+mp-import:      afi ipv6.unicast from AS8220  2001:7f8::201c:0:1       at 2001:7f8::63d8:0:1       accept   AS-COLT
+mp-export:      afi ipv6.unicast to   AS8220  2001:7f8::201c:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS8319  2001:7f8::207f:0:1       at 2001:7f8::63d8:0:1       accept   AS-IXREGIO
+mp-export:      afi ipv6.unicast to   AS8319  2001:7f8::207f:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS8365  2001:7f8::20ad:0:1       at 2001:7f8::63d8:0:1       accept   AS-MANDA
+mp-export:      afi ipv6.unicast to   AS8365  2001:7f8::20ad:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS8365  2001:7f8:33::a100:8365:1 at 2001:7f8:33::a102:5560:1 accept   AS-MANDA
+mp-export:      afi ipv6.unicast to   AS8365  2001:7f8:33::a100:8365:1 at 2001:7f8:33::a102:5560:1 announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS8560  2001:7f8::2170:0:1       at 2001:7f8::63d8:0:1       accept   AS-SCHLUND
+mp-export:      afi ipv6.unicast to   AS8560  2001:7f8::2170:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS8665  2001:7f8::21d9:0:1       at 2001:7f8::63d8:0:1       accept   AS-AXSP
+mp-export:      afi ipv6.unicast to   AS8665  2001:7f8::21d9:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS8763  2001:7f8::223b:0:1       at 2001:7f8::63d8:0:1       accept   AS-DENIC
+mp-export:      afi ipv6.unicast to   AS8763  2001:7f8::223b:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS8763  2001:7f8::223b:0:2       at 2001:7f8::63d8:0:1       accept   AS-DENIC
+mp-export:      afi ipv6.unicast to   AS8763  2001:7f8::223b:0:2       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS8881  2001:7f8::22b1:0:1       at 2001:7f8::63d8:0:1       accept   AS8881
+mp-export:      afi ipv6.unicast to   AS8881  2001:7f8::22b1:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS12337 2001:7f8::3031:0:1       at 2001:7f8::63d8:0:1       accept   AS-NORIS
+mp-export:      afi ipv6.unicast to   AS12337 2001:7f8::3031:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS12355 2001:7f8::3043:0:1       at 2001:7f8::63d8:0:1       accept   AS-HELINET-V6
+mp-export:      afi ipv6.unicast to   AS12355 2001:7f8::3043:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS12611 2001:7f8::3143:0:1       at 2001:7f8::63d8:0:1       accept   AS-RKOM
+mp-export:      afi ipv6.unicast to   AS12611 2001:7f8::3143:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS12731 2001:7f8::31bb:0:1       at 2001:7f8::63d8:0:1       accept   AS-IPHH
+mp-export:      afi ipv6.unicast to   AS12731 2001:7f8::31bb:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS12859 2001:7f8::323b:0:1       at 2001:7f8::63d8:0:1       accept   AS-BIT6
+mp-export:      afi ipv6.unicast to   AS12859 2001:7f8::323b:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS13237 2001:7f8::33b5:0:1       at 2001:7f8::63d8:0:1       accept   AS-LAMBDANET
+mp-export:      afi ipv6.unicast to   AS13237 2001:7f8::33b5:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS15444 2001:7f8::3c54:0:1       at 2001:7f8::63d8:0:1       accept   AS-NETSERVICES6
+mp-export:      afi ipv6.unicast to   AS15444 2001:7f8::3c54:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS15598 2001:7f8::3cee:0:1       at 2001:7f8::63d8:0:1       accept   AS-IPX
+mp-export:      afi ipv6.unicast to   AS15598 2001:7f8::3cee:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS15600 2001:7f8::3cf0:0:1       at 2001:7f8::63d8:0:1       accept   AS-LAN
+mp-export:      afi ipv6.unicast to   AS15600 2001:7f8::3cf0:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS16215 2001:7f8::3f57:0:1       at 2001:7f8::63d8:0:1       accept   AS-GENOTEC AS-GENOTEC-IPv6
+mp-export:      afi ipv6.unicast to   AS16215 2001:7f8::3f57:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS20640 2001:7f8::50a0:0:1       at 2001:7f8::63d8:0:1       accept   AS-TITANNET
+mp-export:      afi ipv6.unicast to   AS20640 2001:7f8::50a0:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS20646 2001:7f8::50a6:0:1       at 2001:7f8::63d8:0:1       accept   AS-CELOX
+mp-export:      afi ipv6.unicast to   AS20646 2001:7f8::50a6:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS21385 2001:7f8::5389:0:1       at 2001:7f8::63d8:0:1       accept   AS-TNIB
+mp-export:      afi ipv6.unicast to   AS21385 2001:7f8::5389:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS25074 2001:7f8::61f2:0:1       at 2001:7f8::63d8:0:1       accept   AS-INETBONE-IPV6
+mp-export:      afi ipv6.unicast to   AS25074 2001:7f8::61f2:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS25192 2001:7f8::6268:0:1       at 2001:7f8::63d8:0:1       accept   AS-CZNIC
+mp-export:      afi ipv6.unicast to   AS25192 2001:7f8::6268:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS29686 2001:7f8::73f6:0:1       at 2001:7f8::63d8:0:1       accept   AS-PROBENETWORKS
+mp-export:      afi ipv6.unicast to   AS29686 2001:7f8::73f6:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS35244 2001:7f8::89ac:0:1       at 2001:7f8::63d8:0:1       accept   AS-KMS
+mp-export:      afi ipv6.unicast to   AS35244 2001:7f8::89ac:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+mp-import:      afi ipv6.unicast from AS34763 2001:7f8::87cb:0:1       at 2001:7f8::63d8:0:1       accept   AS34763
+mp-export:      afi ipv6.unicast to   AS34763 2001:7f8::87cb:0:1       at 2001:7f8::63d8:0:1       announce AS-RHTEC6
+remarks:
+remarks:        We utilize an open peering policy.
+remarks:        Contact peering@rh-tec.de for peering requests.
+remarks:        Public peering currently possible at:
+remarks:        DE-CIX, KleyRex
+remarks:
+remarks:        See http://noc.de.rh-tec.net for network details.
+remarks:
+remarks:        ==================================================
+remarks:
+remarks:        Communities advertised to peers
+remarks:
+remarks:        ==================================================
+remarks:
+remarks:        --------------------------------------------------
+remarks:        Communities describing route origin by country
+remarks:        --------------------------------------------------
+remarks:        25560:49   - route learned from peers in DE
+remarks:        --------------------------------------------------
+remarks:        Communities describing route type
+remarks:        --------------------------------------------------
+remarks:        25560:1000 - customer and own routes
+remarks:        --------------------------------------------------
+remarks:        Communities describing route origin by IXP
+remarks:        --------------------------------------------------
+remarks:        25560:2002 - route learned from peers at DE-CIX
+remarks:        25560:2003 - route learned from peers at KleyRex
+remarks:        --------------------------------------------------
+remarks:        Communities describing route origin by ISP
+remarks:        --------------------------------------------------
+remarks:        25560:4001 - route learned from AS3257   Tiscali
+remarks:        25560:4005 - route learned from AS3320   DTAG
+remarks:        --------------------------------------------------
+remarks:
+remarks:        ==================================================
+remarks:
+remarks:        Communities accepted from downstream AS
+remarks:
+remarks:        ==================================================
+remarks:
+remarks:        --------------------------------------------------
+remarks:        Communities triggering some magic stuff
+remarks:        --------------------------------------------------
+remarks:        25560:0    - don't announce to any peer
+remarks:        25560:666  - drop packets on net entry (blackhole)
+remarks:        * Note that we will accept a prefix length up to a
+remarks:        /32 (IPv4) or /128 (IPv6) tagged with 25560:666
+remarks:        --------------------------------------------------
+remarks:        Traffic Engineering by IXP
+remarks:        --------------------------------------------------
+remarks:        25560:2n00 - don't announce/prepend to any IXPs
+remarks:        25560:2n02 - don't announce/prepend to DE-CIX
+remarks:        25560:2n03 - don't announce/prepend to KleyRex
+remarks:        --------------------------------------------------
+remarks:        Traffic Engineering by peer ISP
+remarks:        --------------------------------------------------
+remarks:        25560:4n00 - don't announce/prepend to Upstreams
+remarks:        25560:4n01 - don't announce/prepend to AS3257
+remarks:        25560:4n05 - don't announce/prepend to AS3320
+remarks:
+remarks:        with n = 1,2,3 meaning prepend n times
+remarks:        and n = 9 meaning do not announce
+remarks:        --------------------------------------------------
+remarks:
+remarks:        We don't accpet and announce prefixes more specific than a /24
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         RHTEC-MNT
+created:        2003-01-10T11:48:02Z
+last-modified:  2017-11-15T09:20:27Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

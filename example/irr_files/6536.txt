@@ -1,0 +1,103 @@
+aut-num:    AS6536
+as-name:    CITYNET-AS
+descr:      Citynet
+import:     from AS174   accept ANY
+import:     from AS209   accept ANY
+import:     from AS600   accept ANY
+import:     from AS7332   accept ANY
+import:     from AS10796   accept ANY
+import:     from AS13944   accept AS13944
+import:     from AS17387   accept AS17387
+import:     from AS19151   accept ANY
+import:     from AS23167   accept AS23167
+import:     from AS23361   accept AS23361
+import:     from AS26059   accept AS26059
+import:     from AS26072   accept AS26072
+import:     from AS27270   accept AS27270
+import:     from AS31888   accept AS31888
+import:     from AS32721   accept AS32721
+import:     from AS35990   accept AS35990
+import:     from AS33754   accept AS33754
+import:     from AS40091   accept AS40091
+import:     from AS40098   accept AS40098
+export:     to AS174   announce AS-CITYNET
+export:     to AS209   announce AS-CITYNET
+export:     to AS600   announce AS-CITYNET
+export:     to AS7332   announce AS-CITYNET
+export:     to AS10796   announce AS-CITYNET
+export:     to AS13944   announce ANY
+export:     to AS17387   announce ANY
+export:     to AS19151   announce AS-CITYNET
+export:     to AS23167   announce AS-CITYNET
+export:     to AS23361   announce AS-CITYNET
+export:     to AS26059   announce ANY
+export:     to AS26072   announce ANY
+export:     to AS27270   announce ANY
+export:     to AS31888   announce ANY
+export:     to AS32721   announce ANY
+export:     to AS33754   announce ANY
+export:     to AS35990   announce ANY
+export:     to AS40091   announce ANY
+export:     to AS40098   announce ANY
+remarks:    
++----------------------------------------------------------
+remarks:    | NOTE - Filtering on /24 boundary is applied - we do
+remarks:    |  not reannounce any route more specific than a /24.
+remarks:    |
+remarks:    
++----------------------------------------------------------
+remarks:    | Community Definition -- Local Preference/No-Export
+remarks:    |
+remarks:    | Local-preference control for customer links (to be set
+remarks:    |  by customer)
+remarks:    |
+remarks:    | By default customer routes are assigned a
+remarks:    | local preferences of 100
+remarks:    |
+remarks:    | 6536:70        Set local preference 70
+remarks:    | 6536:80        Set local preference 80
+remarks:    | 6536:90        Set local preference 90
+remarks:    | 6536:100       Set local preference 100
+remarks:    | 6536:140       Set local preference 140
+remarks:    | no-export    Set do not export beyond AS6536
+remarks:    
++----------------------------------------------------------
+remarks:    | Communities to control traffic (to be set by customer)
+remarks:    |
+remarks:    | 6536:20970     Set local preference 70 with Qwest
+remarks:    | 6536:20980     Set local preference 80 with Qwest
+remarks:    | 6536:20990     Set local preference 90 with Qwest
+remarks:    | 6536:20988     "On Qwest Announcement Only" to Qwest
+remarks:    | 6536:17410     Set local preference 10 with Cogent
+remarks:    | 6536:17495     Set local preference 95 with Cogent
+remarks:    | 6536:17400     Set local preference 100 with Cogent
+remarks:    | 6536:17405     Set local preference 105 with Cogent
+remarks:    | 6536:17411     Set local preference 110 with Cogent
+remarks:    | 6536:17499     Set no-export on Cogent network
+remarks:    | 6536:17491     Similar to no-export but does send to
+remarks:    |  Cogent customers
+remarks:    |
+remarks:    | Community values accepted by CITYNET to affect
+remarks:    | traffic flows off-net.
+remarks:    
++----------------------------------------------------------
+admin-c:    SA570-ARIN
+tech-c:     SA570-ARIN
+notify:     ipadmin@citynet.net
+mnt-by:     MAINT-AS6536
+changed:    ipadmin@citynet.net 20071025
+source:     ALTDB
+
+person:     IP Admin
+address:    Citynet
+            113 Platinum Drive Suite B
+            Bridgeport, WV 26330
+            USA
+phone:      +1 304 848 5400
+fax-no:     +1 304 848 5410
+e-mail:     ipadmin@citynet.net
+nic-hdl:    SA570-ARIN
+notify:     ipadmin@citynet.net
+mnt-by:     MAINT-AS6536
+changed:    ipadmin@citynet.net 20060809
+source:     ALTDB

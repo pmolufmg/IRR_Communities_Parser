@@ -1,0 +1,174 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS33792 - AS35839'
+
+as-block:       AS33792 - AS35839
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS35213'
+
+% Abuse contact for 'AS35213' is 'abuse@pcn.com.ua'
+
+aut-num:        AS35213
+as-name:        COMPNETUA-AS
+import:         from AS56404 action pref=10; accept AS56404
+export:         to AS56404 announce ANY
+import:         from AS39667 action pref=10; accept AS39667
+export:         to AS39667 announce ANY
+import:         from AS25256 action pref=10; accept AS25256
+export:         to AS25256 announce ANY
+import:         from AS57498 action pref=10; accept AS57498
+export:         to AS57498 announce ANY
+import:         from AS204384 action pref=10; accept AS204384
+export:         to AS204384 announce ANY
+import:         from AS24812 action pref=10; accept AS24812
+export:         to AS24812 announce ANY
+import:         from AS206513 action pref=10; accept AS206513
+export:         to AS206513 announce ANY
+import:         from AS204485 action pref=10; accept AS204485
+export:         to AS204485 announce ANY
+import:         from AS15169 action pref=60; accept ANY
+export:         to AS15169 announce AS-PCN
+import:         from AS3326 action pref=100; accept ANY
+export:         to AS3326 announce AS-PCN
+import:         from AS6939 action pref=100; accept ANY
+export:         to AS6939 announce AS-PCN
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-PCN-V6
+import:         from AS59613 action pref=70; accept AS-UBNIX
+export:         to AS59613 announce AS-PCN
+mp-import:      afi ipv6.unicast from AS59613 action pref=70; accept AS-UBNIX-V6
+mp-export:      afi ipv6.unicast to AS59613 announce AS-PCN-V6
+import:         from AS6939 action pref=60; accept AS6939:AS-CUSTOMERS
+export:         to AS6939 announce AS-PCN
+mp-import:      afi ipv6.unicast from AS6939 action pref=60; accept AS6939:AS-CUSTOMERSv6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-PCN-V6
+import:         from AS34720 action pref=10; accept AS34720
+export:         to AS34720 announce ANY
+import:         from AS15645 action pref=50; accept AS-UAIX
+export:         to AS15645 announce AS-PCN
+import:         from AS31210 action pref=60; accept AS-DTEL-IX
+export:         to AS31210 announce AS-PCN
+import:         from AS13335 action pref=50; accept AS-CLOUDFLARE
+export:         to AS13335 announce AS-PCN
+import:         from AS43554 action pref=50; accept AS-MYTRINITY
+export:         to AS43554 announce AS-PCN
+mp-import:      afi ipv6.unicast from AS31210 action pref=60; accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-PCN-V6
+import:         from AS8695 action pref=150; accept AS-KS-IX
+export:         to AS8695 announce AS-PCN
+mp-import:      afi ipv6.unicast from AS8695 action pref=150; accept AS-KS-IX-V6
+mp-export:      afi ipv6.unicast to AS8695 announce AS-PCN-V6
+import:         from AS29107 action pref=40; accept ANY
+export:         to AS29107 announce AS-PCN
+import:         from AS50952 action pref=70; accept ANY
+export:         to AS50952 announce AS-PCN
+mp-import:      afi ipv6.unicast from AS50952 action pref=70; accept ANY
+mp-export:      afi ipv6.unicast to AS50952 announce AS-PCN-V6
+remarks:        ------------------------------------------------
+remarks:
+remarks:        BGP communities support for AS35213 BGP customers:
+remarks:        ------------------------------------------------
+remarks:
+remarks:        Communities advertised to customers:
+remarks:        ------------------------------------------------
+remarks:        1. Uplink communities
+remarks:        ------------------------------------------------
+remarks:        35213:101 - DG
+remarks:        35213:102 - HURRICANE
+remarks:        35213:105 - HURRICANE via GigaNet
+remarks:        35213:104 - DG
+remarks:        ------------------------------------------------
+remarks:        2. Exchange communities
+remarks:        ------------------------------------------------
+remarks:        35213:201 - DATA-IX
+remarks:        35213:202 - DTEL-IX
+remarks:        35213:203 - GIGANET
+remarks:        35213:204 - KS-IX
+remarks:        35213:205 - SYNAPSE
+remarks:        35213:206 - UA-IX
+remarks:        ------------------------------------------------
+remarks:        3. Peers communities
+remarks:        ------------------------------------------------
+remarks:        35213:401 - CLOUDFLARE
+remarks:        35213:402 - FACEBOOK
+remarks:        35213:403 - GOOGLE
+remarks:        35213:404 - LATTELECOM
+remarks:        35213:405 - PCH
+remarks:        35213:406 - TRINITY TV
+remarks:        ------------------------------------------------
+remarks:        4. Customers communities
+remarks:        ------------------------------------------------
+remarks:        35213:3XX - customer of AS35213
+remarks:        ------------------------------------------------
+remarks:
+remarks:        ------------------------------------------------
+remarks:        Communities accepted from customers:
+remarks:        ------------------------------------------------
+remarks:        35213:XXXY
+remarks:        XXX - uplink, exchange or peers
+remarks:        Y = 1,2,3,4 - number of prepends
+remarks:        Y = 0 - announce to customers but not to peers
+remarks:        35213:666 - blackhole traffic from customer prefix /32 only
+remarks:        35213:600 - no announce to GGC (Google Global Cache)
+remarks:        ------------------------------------------------
+org:            ORG-Ks10-RIPE
+admin-c:        VGI3-RIPE
+tech-c:         VGI3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         COMPNETUA-MNT
+created:        2005-06-24T10:36:48Z
+last-modified:  2018-11-29T12:14:27Z
+source:         RIPE
+sponsoring-org: ORG-TL48-RIPE
+
+organisation:   ORG-Ks10-RIPE
+org-name:       TOV "Kompjuternie Merezhi"
+org-type:       OTHER
+descr:          Kompjuternie seti
+address:        7, Pobedy ave., office 706
+address:        Nova Kahovka, Ukraine
+phone:          +380 05549 99199
+phone:          +380 50 3158888
+abuse-c:        AR25757-RIPE
+admin-c:        VGI3-RIPE
+tech-c:         VGI3-RIPE
+mnt-ref:        COMPNETUA-MNT
+mnt-by:         COMPNETUA-MNT
+created:        2004-12-16T15:54:32Z
+last-modified:  2017-10-30T14:48:40Z
+source:         RIPE # Filtered
+
+person:         Vitaliy Gennadievich Isaev
+address:        7, Pobedy ave., office 706
+address:        Nova Kahovka, Ukraine
+phone:          +380 05549 99199
+phone:          +380 050 3158888
+nic-hdl:        VGI3-RIPE
+mnt-by:         COMPNETUA-MNT
+created:        2004-12-16T15:48:59Z
+last-modified:  2019-02-12T12:20:21Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

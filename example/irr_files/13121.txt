@@ -1,0 +1,81 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS13121
+as-name:       NAVIGATOR
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS9002 accept ANY
+import:        from AS12837 accept AS12837
+import:        from AS13249 accept ANY
+import:        from AS15645 accept AS-UAIX
+import:        from AS15497 accept AS15497 AS-UAIX AS-ADAM AS-COLOCALL
+import:        from AS21194 accept AS21194
+import:        from AS23456 accept AS23456
+import:        from AS25000 accept AS25000
+import:        from AS28917 accept ANY
+import:        from AS31210 accept AS-DTEL-IX
+import:        from AS31173 accept AS31173
+import:        from AS34056 accept AS-KIEVNET
+import:        from AS29442 accept AS29442
+import:        from AS29389 accept AS29389
+import:        from AS34608 accept AS34608
+import:        from AS39070 accept AS39070
+import:        from AS39693 accept AS39693
+import:        from AS34142 accept AS-MGLINE
+import:        from AS42510 accept AS-WDM
+import:        from AS42512 accept AS42512
+import:        from AS49995 accept AS49995
+import:        from AS57825 accept AS57825
+import:        from AS56399 accept AS56399
+export:        to AS12837 announce ANY
+export:        to AS9002 announce AS-NAVIGATOR
+export:        to AS12837 announce AS-NAVIGATOR-UA
+export:        to AS13249 announce AS-NAVIGATOR
+export:        to AS15645 announce AS-NAVIGATOR-UA
+export:        to AS15497 announce AS-NAVIGATOR
+export:        to AS21194 announce ANY
+export:        to AS23456 announce ANY
+export:        to AS28917 announce AS-NAVIGATOR
+export:        to AS31210 announce AS-NAVIGATOR-UA
+export:        to AS31173 announce AS-UAIX
+export:        to AS34056 announce AS-UAIX AS-NAVIGATOR
+export:        to AS29389 announce ANY
+export:        to AS29442 announce ANY
+export:        to AS34608 announce ANY
+export:        to AS39070 announce AS-UAIX AS-NAVIGATOR
+export:        to AS39693 announce ANY
+export:        to AS34142 announce ANY
+export:        to AS42510 announce ANY
+export:        to AS42512 announce ANY
+export:        to AS49995 announce ANY
+export:        to AS57825 announce ANY
+export:        to AS56399 announce ANY
+remarks:       Navigator Online ISP Autonomous System
+remarks:       Vandi Vasilevskoy 13, Kiev, Ukraine
+remarks:       ------------------------------
+remarks:       Communities to control traffic
+remarks:       ------------------------------
+remarks:       Community Action/Effect
+remarks:       --------- ----------------------------------------
+remarks:       13121:110 do not announce to all upstreams
+remarks:       13121:111 prepend 3x to all upstreams
+remarks:       13121:112 prepend 4x to all upstreams
+remarks:       13121:130 do not announce to UA-IX (AS15645)
+remarks:       13121:131 prepend 2x to UA-IX
+remarks:       13121:132 prepend 4x to UA-IX
+remarks:       13121:150 do not announce to all clients & private peers
+remarks:       13121:151 prepend 2x to all clients & private peers
+remarks:       13121:152 prepend 4x to all clients & private peers
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        NAVEREX-MNT
+mnt-by:        RIPE-NCC-END-MNT
+source:        RIPE
+
+

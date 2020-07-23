@@ -1,0 +1,206 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS61952 - AS62463'
+
+as-block:       AS61952 - AS62463
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS62206'
+
+% Abuse contact for 'AS62206' is 'abuse@pitline.net'
+
+aut-num:        AS62206
+as-name:        PITLINE-AS
+org:            ORG-LA684-RIPE
+remarks:        IP Transit
+import:         from AS174 action pref=600; accept ANY
+export:         to AS174 announce AS-PITLINE
+import:         from AS6939 action pref=600; accept ANY
+export:         to AS6939 announce AS-PITLINE
+import:         from AS28917 action pref=600; accept ANY
+export:         to AS28917 announce AS-PITLINE
+mp-import:      afi ipv6.unicast from AS174 action pref=600; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-PITLINE-V6
+mp-import:      afi ipv6.unicast from AS6939 action pref=600; accept ANY
+mp-export:      afi ipv6.unicast to AS6939 announce AS-PITLINE-V6
+mp-import:      afi ipv6.unicast from AS28917 action pref=600; accept ANY
+mp-export:      afi ipv6.unicast to AS28917 announce AS-PITLINE-V6
+remarks:        IX & Peers
+import:         from AS50952 action pref=500; accept AS-DATAIX
+export:         to AS50952 announce AS-PITLINE
+import:         from AS31210 action pref=400; accept AS-DTEL-IX
+export:         to AS31210 announce AS-PITLINE
+import:         from AS15645 action pref=10; community.append(NO_EXPORT); accept AS15645
+import:         from AS15645 action pref=300; accept AS-UAIX AND NOT AS15645
+export:         to AS15645 announce AS-PITLINE
+import:         from AS15169 action pref=300; accept AS-GOOGLE
+export:         to AS15169 announce AS-PITLINE
+import:         from AS13188 action pref=300; accept AS-BANKINFORM
+export:         to AS13188 announce AS-PITLINE
+import:         from AS34700 action pref=300; accept AS-KHMAXNET
+export:         to AS34700 announce AS-PITLINE
+import:         from AS50581 action pref=300; accept AS-UTG-UA
+export:         to AS50581 announce AS-PITLINE
+mp-import:      afi ipv6.unicast from AS50952 action pref=500; accept AS-DATAIX
+mp-export:      afi ipv6.unicast to AS50952 announce AS-PITLINE-V6
+mp-import:      afi ipv6.unicast from AS31210 action pref=400; accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-PITLINE-V6
+mp-import:      afi ipv6.unicast from AS15645 action pref=300; accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-PITLIINE-V6
+mp-import:      afi ipv6.unicast from AS15169 action pref=300; accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 announce AS-PITLINE-V6
+mp-import:      afi ipv6.unicast from AS34700 action pref=300; accept AS-KHMAXNET-v6
+mp-export:      afi ipv6.unicast to AS34700 announce AS-PITLIINE-V6
+remarks:        Customers
+import:         from AS39728 action pref=100; accept AS-Luganet
+export:         to AS39728 announce ANY
+import:         from AS57100 action pref=100; accept AS57100
+export:         to AS57100 announce ANY
+import:         from AS6807 action pref=100; accept AS-KHONLINE
+export:         to AS6807 announce ANY
+import:         from AS196957 action pref=100; accept AS-CITKH
+export:         to AS196957 announce ANY
+import:         from AS29203 action pref=100; accept AS29203
+export:         to AS29203 announce ANY
+import:         from AS35614 action pref=100; accept AS-TH
+export:         to AS35614 announce ANY
+import:         from AS50772 action pref=100; accept AS-UTT
+export:         to AS50772 announce ANY
+import:         from AS28974 action pref=100; accept AS-INFOSYSUA
+export:         to AS28974 announce ANY
+import:         from AS31561 action pref=100; accept AS31561
+export:         to AS31561 announce ANY
+import:         from AS34323 action pref=100; accept AS-IPCOM
+export:         to AS34323 announce ANY
+import:         from AS197726 action pref=100; accept AS-UKRNAMES
+export:         to AS197726 announce ANY
+import:         from AS56399 action pref=100; accept AS-AYOL
+export:         to AS56399 announce ANY
+import:         from AS48962 action pref=100; accept AS48962
+export:         to AS48962 announce ANY
+import:         from AS21500 action pref=100; accept AS-TNSUA
+export:         to AS21500 announce ANY
+import:         from AS44383 action pref=100; accept AS-KPGIC
+export:         to AS44383 announce ANY
+import:         from AS61384 action pref=100; accept AS61384
+export:         to AS61384 announce ANY
+import:         from AS56526 action pref=100; accept AS56526
+export:         to AS56526 announce ANY
+import:         from AS48897 action pref=100; accept AS-KBAVIA
+export:         to AS48897 announce ANY
+import:         from AS50281 action pref=100; accept AS50281
+export:         to AS50281 announce ANY
+import:         from AS41784 action pref=100; accept AS41784
+export:         to AS41784 announce ANY
+import:         from AS33999 action pref=100; accept AS-GLOBALLOGIC
+export:         to AS33999 announce ANY
+import:         from AS31187 action pref=100; accept AS31187
+export:         to AS31187 announce ANY
+import:         from AS35296 action pref=100; accept AS35296
+export:         to AS35296 announce ANY
+import:         from AS20709 action pref=100; accept AS20709
+export:         to AS20709 announce ANY
+import:         from AS61959 action pref=100; accept AS61959
+export:         to AS61959 announce ANY
+import:         from AS50751 action pref=100; accept AS50751
+export:         to AS50751 announce ANY
+import:         from AS57419 action pref=100; accept AS57419
+export:         to AS57419 announce ANY
+import:         from AS58199 action pref=100; accept AS58199
+export:         to AS58199 announce ANY
+import:         from AS29035 action pref=100; accept AS29035
+export:         to AS29035 announce ANY
+import:         from AS51930 action pref=100; accept AS-AIREXPRESS
+export:         to AS51930 announce ANY
+import:         from AS196939 action pref=100; accept AS196939
+export:         to AS196939 announce ANY
+import:         from AS2601 action pref=100; accept AS2601
+export:         to AS2601 announce ANY
+import:         from AS31016 action pref=100; accept AS31016
+export:         to AS31016 announce ANY
+import:         from AS203430 action pref=100; accept AS203430
+export:         to AS203430 announce ANY
+import:         from AS43266 action pref=100; accept AS43266
+export:         to AS43266 announce AS-PITLINE-LVIV
+import:         from AS47788 action pref=100; accept AS47788
+export:         to AS47788 announce ANY
+import:         from AS205962 action pref=100; accept AS205962
+export:         to AS205962 announce ANY
+import:         from AS41425 action pref=100; accept AS-GDNBGP
+export:         to AS41425 announce ANY
+import:         from AS198491 action pref=100; accept AS198491
+export:         to AS198491 announce ANY
+import:         from AS33927 action pref=100; accept AS-UMK
+export:         to AS33927 announce ANY
+import:         from AS202023 action pref=100; accept AS-LLHOST
+export:         to AS202023 announce ANY
+import:         from AS56600 action pref=100; accept AS56600
+export:         to AS56600 announce ANY
+import:         from AS204875 action pref=100; accept AS204875
+export:         to AS204875 announce ANY
+import:         from AS51738 action pref=100; accept AS51738
+export:         to AS51738 announce ANY
+import:         from AS47513 action pref=100; accept AS47513
+export:         to AS47513 announce ANY
+import:         from AS44863 action pref=100; accept AS-STAR-NET
+export:         to AS44863 announce ANY
+mp-import:      afi ipv6.unicast from AS43266 action pref=100; accept AS43266
+mp-export:      afi ipv6.unicast to AS43266 announce AS-PITLINE-LVIV
+mp-import:      afi ipv6.unicast from AS33999 action pref=100; accept AS33999
+mp-export:      afi ipv6.unicast to AS33999 announce ANY
+mp-import:      afi ipv6.unicast from AS29203 action pref=100; accept AS29203
+mp-export:      afi ipv6.unicast to AS29203 announce ANY
+mp-import:      afi ipv6.unicast from AS41425 action pref=100; accept AS41425
+mp-export:      afi ipv6.unicast to AS41425 announce ANY
+remarks:        Blackhole community, /32 prefixes only: 62206:999
+admin-c:        VD2666-RIPE
+tech-c:         VD2666-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         PITLINE-MNT
+created:        2013-12-24T11:10:09Z
+last-modified:  2018-09-25T15:18:26Z
+source:         RIPE
+
+organisation:   ORG-LA684-RIPE
+org-name:       Pitline Ltd
+org-type:       LIR
+address:        Donets-Zakharzhevskogo, 6/8, 309
+address:        61057
+address:        Kharkiv
+address:        UKRAINE
+phone:          +380675746805
+abuse-c:        PTLN-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        PITLINE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PITLINE-MNT
+created:        2013-12-20T14:28:05Z
+last-modified:  2018-12-10T10:34:32Z
+source:         RIPE # Filtered
+
+person:         Vyacheslav Danik
+address:        Ukraine, Kharkov
+phone:          +380675746805
+nic-hdl:        VD2666-RIPE
+mnt-by:         PITLINE-MNT
+created:        2013-12-20T14:58:58Z
+last-modified:  2013-12-20T14:58:58Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+
+

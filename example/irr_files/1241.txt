@@ -1,0 +1,414 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS1241 - AS1241'
+
+as-block:       AS1241 - AS1241
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:09Z
+last-modified:  2018-11-22T15:27:09Z
+source:         RIPE
+
+% Information related to 'AS1241'
+
+% No abuse contact registered for AS1241
+
+aut-num:        AS1241
+as-name:        FORTHNET-GR
+descr:          Forthnet
+descr:          Greek IP Service Provider
+descr:          GR
+admin-c:        FARO1-RIPE
+tech-c:         FTO1-RIPE
+remarks:
+remarks:        The following BGP policy is applied to all customers
+remarks:
+remarks:        - Private reserved networks and private AS numbers are not
+remarks:        accepted and always filtered.
+remarks:
+remarks:        - Prefixes longer than a /24 are not accepted.
+remarks:
+remarks:        - Prefixes not matching import policy are rejected.
+remarks:        Customers must always have a valid route object.
+remarks:
+remarks:        - Prefix limit is placed upon the number of prefixes
+remarks:        received including a percentage amount for future growth.
+remarks:
+remarks:        - Advertisements tagged with communities other than
+remarks:        the one outlined below are reset by default at ingress.
+remarks:
+remarks:        - We honor well known communities
+remarks:        no-export & no-advertise
+remarks:
+remarks:
+remarks:        Upstream Communities applied at ingress
+remarks:
+remarks:        Upstream Community
+remarks:        ----------------------- --------------
+remarks:        AS3356 1241:30010
+remarks:        AS3356 (path 1) 1241:30011
+remarks:        AS6762 1241:30030
+remarks:        AS6762 (path 1) 1241:30031
+remarks:        AS6762 (path 2) 1241:30032
+remarks:        AS6762 (path 3) 1241:30033
+remarks:        AS6762 (path 4) 1241:30034
+remarks:        AS6762 (path 5) 1241:30035
+remarks:        AS6762 (path 6) 1241:30036
+remarks:        AS6762 (path 7) 1241:30037
+remarks:        AS6762 (path 8) 1241:30038
+remarks:
+remarks:
+remarks:        Upstream Communities applied at ingress Per City
+remarks:
+remarks:        CITY - POP Community
+remarks:        ----------------------- --------------
+remarks:        Athens - ATH 1241:30101
+remarks:        Athens - KLN 1241:30102
+remarks:        Thessaloniki - LSF 1241:30103
+remarks:        Thessaloniki - THR 1241:30104
+remarks:
+remarks:
+remarks:        Peering Communities applied at ingress
+remarks:
+remarks:        EXCHANGE Community
+remarks:        ----------------------- --------------
+remarks:        GRIX/DIRECT(national) 1241:30200
+remarks:        International Exchange (IX) 1241:30201
+remarks:
+remarks:        All Upstream and International IX Prefixes
+remarks:        will be marked with community:
+remarks:        1241:30001
+remarks:
+remarks:
+remarks:        Customer Traffic Engineering
+remarks:
+remarks:        Prepend to all Upstreams
+remarks:
+remarks:        Action (RIPE description) Community
+remarks:        --------------------------------- -----------
+remarks:        Prepend x1 to all Upstreams 1241:20001
+remarks:        Prepend x2 to all Upstreams 1241:20002
+remarks:        Prepend x3 to all Upstreams 1241:20003
+remarks:        Prepend x4 to all Upstreams 1241:20004
+remarks:
+remarks:
+remarks:        Prepend to AS3356 (LEVEL3)
+remarks:
+remarks:        Action (RIPE description) Community
+remarks:        --------------------------------- -----------
+remarks:        Prepend x1 to AS3356 (all paths) 1241:20101
+remarks:        Prepend x1 to AS3356 (path 1) 1241:20111
+remarks:        Prepend x2 to AS3356 (all paths) 1241:20102
+remarks:        Prepend x2 to AS3356 (path 1) 1241:20112
+remarks:        Prepend x3 to AS3356 (all paths) 1241:20103
+remarks:        Prepend x3 to AS3356 (path 1) 1241:20113
+remarks:        Prepend x4 to AS3356 (all paths) 1241:20104
+remarks:        Prepend x4 to AS3356 (path 1) 1241:20114
+remarks:
+remarks:
+remarks:        Prepend to AS6762 (Seabone)
+remarks:
+remarks:        Action (RIPE description) Community
+remarks:        --------------------------------- -----------
+remarks:        Prepend x1 to AS6762 (all paths) 1241:20301
+remarks:        Prepend x1 to AS6762 (path 1) 1241:20311
+remarks:        Prepend x1 to AS6762 (path 2) 1241:20321
+remarks:        Prepend x1 to AS6762 (path 3) 1241:20331
+remarks:        Prepend x1 to AS6762 (path 4) 1241:20341
+remarks:        Prepend x1 to AS6762 (path 5) 1241:20351
+remarks:        Prepend x1 to AS6762 (path 6) 1241:20361
+remarks:        Prepend x1 to AS6762 (path 7) 1241:20371
+remarks:        Prepend x1 to AS6762 (path 8) 1241:20381
+remarks:        Prepend x2 to AS6762 (all paths) 1241:20302
+remarks:        Prepend x2 to AS6762 (path 1) 1241:20312
+remarks:        Prepend x2 to AS6762 (path 2) 1241:20322
+remarks:        Prepend x2 to AS6762 (path 3) 1241:20332
+remarks:        Prepend x2 to AS6762 (path 4) 1241:20342
+remarks:        Prepend x2 to AS6762 (path 5) 1241:20352
+remarks:        Prepend x2 to AS6762 (path 6) 1241:20362
+remarks:        Prepend x2 to AS6762 (path 7) 1241:20372
+remarks:        Prepend x2 to AS6762 (path 8) 1241:20382
+remarks:        Prepend x3 to AS6762 (all paths) 1241:20303
+remarks:        Prepend x3 to AS6762 (path 1) 1241:20313
+remarks:        Prepend x3 to AS6762 (path 2) 1241:20323
+remarks:        Prepend x3 to AS6762 (path 3) 1241:20333
+remarks:        Prepend x3 to AS6762 (path 4) 1241:20343
+remarks:        Prepend x3 to AS6762 (path 5) 1241:20353
+remarks:        Prepend x3 to AS6762 (path 6) 1241:20363
+remarks:        Prepend x3 to AS6762 (path 7) 1241:20373
+remarks:        Prepend x3 to AS6762 (path 8) 1241:20383
+remarks:        Prepend x4 to AS6762 (all paths) 1241:20304
+remarks:        Prepend x4 to AS6762 (path 1) 1241:20314
+remarks:        Prepend x4 to AS6762 (path 2) 1241:20324
+remarks:        Prepend x4 to AS6762 (path 3) 1241:20334
+remarks:        Prepend x4 to AS6762 (path 4) 1241:20344
+remarks:        Prepend x4 to AS6762 (path 5) 1241:20354
+remarks:        Prepend x4 to AS6762 (path 6) 1241:20364
+remarks:        Prepend x4 to AS6762 (path 7) 1241:20374
+remarks:        Prepend x4 to AS6762 (path 8) 1241:20384
+remarks:
+remarks:
+remarks:
+remarks:        Blackholing
+remarks:
+remarks:        Action (RIPE description) Community
+remarks:        ------------------------------ ------------
+remarks:        Blackhole Traffic in AS3356 1241:20910
+remarks:        Blackhole Traffic in AS6762 1241:20930
+remarks:        Blackhole Traffic in DE-CIX 1241:20950
+remarks:        Blackhole Traffic in all Upstreams that support it 1241:20999
+remarks:
+remarks:        Upstreams
+remarks:
+import:         from AS6762 action pref=60; accept ANY
+export:         to AS6762 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS6762 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast to AS6762 announce AS-FORTHNET-V6
+import:         from AS3356 action pref=60; accept ANY
+export:         to AS3356 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS3356 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-FORTHNET-V6
+remarks:
+remarks:        --------------------------------
+remarks:
+remarks:        Peers
+remarks:
+remarks:        DEC-IX (German Internet EXchange)
+remarks:
+import:         from AS6695 action pref=75; accept AS-DECIX
+export:         to AS6695 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS6695 action pref=75; accept AS-DECIX-V6
+mp-export:      afi ipv6.unicast to AS6695 announce AS-FORTHNET-V6
+remarks:
+remarks:
+remarks:        ---------------------------------
+remarks:
+remarks:        AMS-IX (Amsterdam Internet EXchange)
+remarks:
+import:         from AS6777 action pref=75; accept AS-AMS-IX-RS
+export:         to AS6777 action community .= { 6777:6777 }; announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS6777 action pref=75; accept AS-AMS-IX-RS
+mp-export:      afi ipv6.unicast to AS6777 announce AS-FORTHNET-V6
+remarks:
+import:         from AS1200 action pref=79; accept AS1200
+export:         to AS1200 announce AS-FORTHNET
+mp-import:      afi ipv6.unicast from AS1200 action pref=79; accept AS1200
+mp-export:      afi ipv6.unicast to AS1200 announce AS-FORTHNET-V6
+remarks:
+remarks:        ---------------------------------
+remarks:
+remarks:        GRIX (Greek Internet EXchange) PEERINGS
+remarks:
+import:         from AS5408 action pref=85; accept AS5408:AS-TO-AIX
+export:         to AS5408 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS5408 action pref=85; accept AS-GRNET
+mp-export:      afi ipv6.unicast to AS5408 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS6799 action pref=85; accept AS6799:AS-TO-AIX
+export:         to AS6799 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6799 action pref=85; accept AS-OTENET
+mp-export:      afi ipv6.unicast to AS6799 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS25152 action pref=85; accept RS-KROOT-GRNET
+export:         to AS25152 announce AS1241:AS-TO-AIX
+remarks:        ---------------------------------
+remarks:
+remarks:        PRIVATE PEERINGS
+remarks:
+import:         from AS3329 action pref=85; accept AS3329:AS-TO-AIX
+export:         to AS3329 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS3329 action pref=85; accept AS3329
+mp-export:      afi ipv6.unicast to AS3329 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS25472 action pref=85; accept AS25472:AS-TO-AIX
+export:         to AS25472 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS25472 action pref=85; accept AS25472
+mp-export:      afi ipv6.unicast to AS25472 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS6866 action pref=85; accept AS6866:AS-TO-AIX
+export:         to AS6866 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS6866 action pref=85; accept AS6866
+mp-export:      afi ipv6.unicast to AS6866 announce AS1241:AS-TO-AIX-V6
+remarks:
+import:         from AS198477 action pref=85; accept AS198477:AS-TO-AIX
+export:         to AS198477 announce AS1241:AS-TO-AIX
+mp-import:      afi ipv6.unicast from AS198477 action pref=85; accept AS198477
+mp-export:      afi ipv6.unicast to AS198477 announce AS1241:AS-TO-AIX-V6
+remarks:        --------------------------------
+remarks:
+remarks:        Customers
+remarks:
+import:         from AS6674 action pref=100; accept AS6674
+import:         from AS8396 action pref=100; accept AS8396
+import:         from AS8499 action pref=100; accept AS8499
+import:         from AS8522 action pref=100; accept AS8522
+import:         from AS9128 action pref=100; accept AS9128
+import:         from AS13038 action pref=100; accept AS13038
+import:         from AS13153 action pref=100; accept AS13153
+import:         from AS15439 action pref=100; accept AS15439 AS39062
+import:         from AS15536 action pref=100; accept AS15536
+import:         from AS15604 action pref=100; accept AS15604
+import:         from AS15764 action pref=100; accept AS15764
+import:         from AS15853 action pref=100; accept AS15853
+import:         from AS16013 action pref=100; accept AS16013
+import:         from AS197746 action pref=100; accept AS197746
+import:         from AS199375 action pref=100; accept AS199375
+import:         from AS199382 action pref=100; accept AS199382
+import:         from AS20506 action pref=100; accept AS20506
+import:         from AS21291 action pref=100; accept AS21291
+import:         from AS24849 action pref=100; accept AS24849
+import:         from AS28953 action pref=100; accept AS28953
+import:         from AS29052 action pref=100; accept AS29052
+import:         from AS29162 action pref=100; accept AS29162
+import:         from AS29241 action pref=100; accept AS29241
+import:         from AS29353 action pref=100; accept AS29353
+import:         from AS30850 action pref=100; accept AS30850
+import:         from AS34239 action pref=100; accept AS34239
+import:         from AS34516 action pref=100; accept AS34516
+import:         from AS34780 action pref=100; accept AS34780
+import:         from AS35506 action pref=100; accept AS35506
+import:         from AS39245 action pref=100; accept AS39245
+import:         from AS39929 action pref=100; accept AS39929
+import:         from AS41125 action pref=100; accept AS41125
+import:         from AS42680 action pref=100; accept AS42680
+import:         from AS42817 action pref=100; accept AS42817
+import:         from AS43834 action pref=100; accept AS43834
+import:         from AS44036 action pref=100; accept AS44036
+import:         from AS44357 action pref=100; accept AS44357
+import:         from AS47521 action pref=100; accept AS47521
+import:         from AS48168 action pref=100; accept AS48168
+import:         from AS48380 action pref=100; accept AS48380 AS51810
+import:         from AS48489 action pref=100; accept AS48489
+import:         from AS50148 action pref=100; accept AS50148
+import:         from AS51537 action pref=100; accept AS51537
+import:         from AS51810 action pref=100; accept AS51810 AS48380
+import:         from AS56910 action pref=100; accept AS56910 AS39245 AS15853 AS47521 AS42817 AS200128 AS201494 AS41372 AS49582
+import:         from AS60597 action pref=100; accept AS60597
+import:         from AS197534 action pref=100; accept AS197534
+import:         from AS197746 action pref=100; accept AS197746
+import:         from AS198365 action pref=100; accept AS198365
+import:         from AS200744 action pref=100; accept AS200744
+import:         from AS201293 action pref=100; accept AS201293
+import:         from AS8388 action pref=100; accept AS8388
+import:         from AS202684 action pref=100; accept AS202684
+import:         from AS206697 action pref=100; accept AS206697
+import:         from AS42070 action pref=100; accept AS42070
+import:         from AS13153 action pref=100; accept AS13153
+import:         from AS202506 action pref=100; accept AS202506
+export:         to AS6674 announce ANY
+export:         to AS8396 announce ANY
+export:         to AS8499 announce ANY
+export:         to AS8522 announce ANY
+export:         to AS9128 announce ANY
+export:         to AS13038 announce ANY
+export:         to AS13153 announce ANY
+export:         to AS15439 announce ANY
+export:         to AS15536 announce ANY
+export:         to AS15604 announce ANY
+export:         to AS15764 announce ANY
+export:         to AS15853 announce ANY
+export:         to AS16013 announce ANY
+export:         to AS197746 announce ANY
+export:         to AS199375 announce ANY
+export:         to AS199382 announce ANY
+export:         to AS20506 announce ANY
+export:         to AS201494 announce ANY
+export:         to AS21291 announce ANY
+export:         to AS24849 announce ANY
+export:         to AS28953 announce ANY
+export:         to AS29052 announce ANY
+export:         to AS29162 announce ANY
+export:         to AS29241 announce ANY
+export:         to AS29353 announce ANY
+export:         to AS30850 announce ANY
+export:         to AS34239 announce ANY
+export:         to AS34516 announce ANY
+export:         to AS34780 announce ANY
+export:         to AS35506 announce ANY
+export:         to AS39062 announce ANY
+export:         to AS39245 announce ANY
+export:         to AS39929 announce ANY
+export:         to AS41125 announce ANY
+export:         to AS41372 announce ANY
+export:         to AS42680 announce ANY
+export:         to AS42817 announce ANY
+export:         to AS43834 announce ANY
+export:         to AS44036 announce ANY
+export:         to AS44357 announce ANY
+export:         to AS47521 announce ANY
+export:         to AS48168 announce ANY
+export:         to AS48380 announce ANY
+export:         to AS48489 announce ANY
+export:         to AS49582 announce ANY
+export:         to AS50148 announce ANY
+export:         to AS51537 announce ANY
+export:         to AS51810 announce ANY
+export:         to AS56910 announce ANY
+export:         to AS60597 announce ANY
+export:         to AS197534 announce ANY
+export:         to AS197746 announce ANY
+export:         to AS198365 announce ANY
+export:         to AS200128 announce ANY
+export:         to AS200744 announce ANY
+export:         to AS201293 announce ANY
+export:         to AS8388 announce ANY
+export:         to AS202684 announce ANY
+export:         to AS206697 announce ANY
+export:         to AS42070 announce ANY
+export:         to AS13153 announce ANY
+export:         to AS202506 announce ANY
+mp-import:      afi ipv6.unicast from AS200744 action pref=100; accept AS200744
+mp-export:      afi ipv6.unicast to AS200744 announce ANY
+mp-import:      afi ipv6.unicast from AS197746 action pref=100; accept AS197746
+mp-export:      afi ipv6.unicast to AS197746 announce ANY
+admin-c:        FARO1-RIPE
+tech-c:         FTO1-RIPE
+status:         LEGACY
+mnt-by:         FORTHNETGR-MNT
+created:        2002-05-29T11:40:34Z
+last-modified:  2018-09-04T09:51:12Z
+source:         RIPE
+
+role:           Forthnet Administrative Role
+address:        58, Antigonis Str
+address:        104 42, ATHENS
+address:        GR
+phone:          +30 2119557000
+fax-no:         +30 2119557222
+abuse-mailbox:  abuse@forthnet.gr
+admin-c:        CK4191-RIPE
+admin-c:        DK637-RIPE
+tech-c:         FTO1-RIPE
+nic-hdl:        FARO1-RIPE
+mnt-by:         FORTHNETGR-MNT
+created:        2011-05-03T09:51:08Z
+last-modified:  2017-01-11T12:55:11Z
+source:         RIPE # Filtered
+
+role:           Forthnet Technical Operations
+address:        58, Antigonis Str
+address:        104 42, ATHENS
+address:        GR
+phone:          +30 2119557000
+fax-no:         +30 2119557222
+admin-c:        FARO1-RIPE
+tech-c:         DK637-RIPE
+tech-c:         CK4191-RIPE
+nic-hdl:        FTO1-RIPE
+mnt-by:         FORTHNETGR-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2018-01-10T11:23:30Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@forthnet.gr
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

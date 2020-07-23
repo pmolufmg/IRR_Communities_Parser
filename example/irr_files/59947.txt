@@ -1,0 +1,96 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS59392 - AS61439'
+
+as-block:       AS59392 - AS61439
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS59947'
+
+% Abuse contact for 'AS59947' is 'abuse@llhost-inc.com'
+
+aut-num:        AS59947
+as-name:        LL-IX-RouteServers
+org:            ORG-LIS24-RIPE
+sponsoring-org: ORG-AL319-RIPE
+remarks:        -------------------
+remarks:        Looking Glass
+remarks:        -------------------
+remarks:        http://lg.ll-ix.com
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:        BGP Communities
+remarks:        ---------------------------------------------------------
+remarks:        0:<peer-as> - Deny announcing a route to the peer with <peer-as>.
+remarks:
+remarks:        59947:<peer-as> - Permit announcing a route to the peer with <peer-as>.
+remarks:        Permit community has more "weight" rather than deny community.
+remarks:
+remarks:        1:<peer-as> one prepend to <peer-as>
+remarks:
+remarks:        2:<peer-as> two prepends to <peer-as>
+remarks:
+remarks:        3:<peer-as> three prepends to <peer-as>
+remarks:
+remarks:        0:59947 - Deny announcing a prefix to anybody.
+remarks:
+remarks:        59947:59947 (or none) - Announce prefix to all peers.
+remarks:
+remarks:        59947:666 - blackhole trafic to the announced prefix.
+remarks:
+import:         from AS202023 action pref=100; accept AS202023
+export:         to AS202023 announce AS-LL-IX
+import:         from AS203942 action pref=100; accept AS203942
+export:         to AS203942 announce AS-LL-IX
+import:         from AS47200 accept AS-NIXCZ-RSCLIENTS
+export:         to AS47200 announce AS-LL-IX
+admin-c:        VT3093-RIPE
+tech-c:         VT3093-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         LLHOST-MNT
+created:        2017-11-14T08:26:24Z
+last-modified:  2019-01-29T14:13:32Z
+source:         RIPE
+
+organisation:   ORG-LIS24-RIPE
+org-name:       LLHOST INC. SRL
+org-type:       OTHER
+address:        Street DR. Petre Herescu, 12, Parter, apt.2
+address:        050586, Romania, Bucharest
+abuse-c:        LISA1-RIPE
+mnt-ref:        LLHOST-MNT
+mnt-ref:        MNT-PINSUPPORT
+mnt-by:         LLHOST-MNT
+created:        2017-07-26T15:25:52Z
+last-modified:  2018-09-12T10:07:24Z
+source:         RIPE # Filtered
+
+person:         VLADIMIR TASNICENCO
+org:            ORG-LIS24-RIPE
+address:        LLHost Inc. SRL
+address:        Bucharest, Romania
+address:        Street DR. Petre Herescu, 12, Parter, apt.2
+phone:          +40316302361
+nic-hdl:        VT3093-RIPE
+mnt-by:         LLHOST-MNT
+created:        2014-05-17T06:32:54Z
+last-modified:  2018-05-27T06:37:13Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+
+

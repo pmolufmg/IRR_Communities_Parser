@@ -1,0 +1,265 @@
+aut-num:        AS9198
+as-name:        KAZTELECOM-AS
+remarks:        ------------------------------------------------------------
+remarks:        UPSTREAMS:
+remarks:        ------------------------------------------------------------
+import:         from AS12389 action pref=100; accept ANY
+export:         to AS12389 announce AS-KAZTELECOMPEERS
+import:         from AS20485 action pref=100; accept ANY
+export:         to AS20485 announce AS-KAZTELECOMPEERS
+import:         from AS31133 action pref=100; accept ANY
+export:         to AS31133 announce AS-KAZTELECOMPEERS
+import:         from AS60299 action pref=100; accept ANY
+export:         to AS60299 announce AS-KAZTELECOMPEERS
+import:         from AS13094 action pref=100; accept AS-MILECOM-RS
+export:         to AS13094 announce AS-KAZTELECOMPEERS
+remarks:        ------------------------------------------------------------
+remarks:        LOCAL PEERING PARTNERS:
+remarks:        ------------------------------------------------------------
+import:         from AS43999 action pref=150; accept AS-KAZEXCHANGE
+export:         to AS43999 announce AS9198
+import:         from AS8393 action pref=150; accept AS-ASTELPEERS
+export:         to AS8393 announce AS-KAZTELECOMLOCALPEERS
+remarks:        ------------------------------------------------------------
+remarks:        INTERNATIONAL PEERING PARTNERS:
+remarks:        ------------------------------------------------------------
+remarks:        Moscow POP MSK-IX
+import:         from AS8631 action pref=150; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-KAZTELECOMPEERS
+remarks:        Moscow POP DATAIX
+import:         from AS50952 action pref=150; accept ANY
+export:         to AS850952 announce AS-KAZTELECOMPEERS
+remarks:        Moscow POP Google
+import:         from AS15169 action pref=100; accept AS15169
+export:         to AS15169 announce AS9198
+remarks:        Frankfurt POP Google
+import:         from AS15169 action pref=150; accept AS15169
+export:         to AS15169 announce AS9198
+remarks:        Ukraine POP Giganet Peering
+import:         from AS59613 action pref=100; accept ANY
+export:         to AS59613 announce AS-KAZTELECOMPEERS
+remarks:        KvantTelecom Peering
+import:         from AS43727 action pref=100; accept ANY
+export:         to AS43727 announce AS-KAZTELECOMPEERS
+remarks:        ------------------------------------------------------------
+remarks:        TRANSIT CUSTOMERS:
+remarks:        ------------------------------------------------------------
+import:         from AS41284 action pref=150; accept AS41284
+import:         from AS200532 accept AS200532
+export:         to AS200532 announce ANY
+import:         from AS206528 accept AS206528
+export:         to AS206528 announce ANY
+export:         to AS41284 announce ANY
+import:         from AS5434 action pref=150; accept AS-NURSAT AND NOT (AS20578 AS21299 AS29355)
+export:         to AS5434 announce ANY
+import:         from AS20661 action pref=150; accept AS20661
+export:         to AS20661 announce ANY
+import:         from AS61010 action pref=150; accept AS61010
+export:         to AS61010 announce ANY
+import:         from AS51495 action pref=150; accept AS51495
+export:         to AS51495 announce ANY
+import:         from AS199524 action pref=100; accept AS199524
+export:         to AS199524 announce ANY
+import:         from AS15736 action pref=150; accept AS15736
+export:         to AS15736 announce ANY
+import:         from AS200688 action pref=150; accept AS200688
+export:         to AS200688 announce ANY AS9198
+import:         from AS21282 action pref=150; accept as-kaznic-net
+export:         to AS21282 announce ANY
+import:         from AS21299 action pref=150; accept AS-ORBITA-PLUS-CUSTOMERS
+export:         to AS21299 announce ANY
+import:         from AS29355 action pref=150; accept AS29355
+export:         to AS29355 announce ANY
+import:         from AS35104 action pref=150; accept AS35104 AS41007
+export:         to AS35104 announce ANY
+import:         from AS35168 action pref=150; accept AS35168
+export:         to AS35168 announce ANY
+import:         from AS25534 action pref=150; accept AS25534
+export:         to AS25534 announce ANY
+import:         from AS39188 action pref=150; accept AS39188
+export:         to AS39188 announce ANY
+import:         from AS203481 action pref=150; accept AS203481
+export:         to AS203481 announce ANY
+import:         from AS35566 action pref=150; accept AS-SATELCOM
+export:         to AS35566 announce AS9198
+import:         from AS29046 action pref=150; accept AS-29046
+export:         to AS29046 announce ANY
+import:         from AS8430 action pref=150; accept AS8430
+export:         to AS8430 announce ANY
+import:         from AS41124 action pref=150; accept AS41124
+export:         to AS41124 announce ANY
+import:         from AS39824 action pref=150; accept AS39824
+export:         to AS39824 announce ANY
+import:         from AS39433 action pref=150; accept AS39433
+export:         to AS39433 announce ANY
+import:         from AS29555 action pref=150; accept AS29555
+export:         to AS29555 announce ANY
+import:         from AS43994 action pref=150; accept AS-SMARTNET-PEERS
+export:         to AS43994 announce ANY
+import:         from AS35673 action pref=150; accept AS35673
+export:         to AS35673 announce ANY
+import:         from AS47192 action pref=150; accept AS47192
+export:         to AS47192 announce ANY
+import:         from AS47613 action pref=150; accept AS47613
+export:         to AS47613 announce ANY
+import:         from AS48450 action pref=150; accept AS48450
+export:         to AS48450 announce ANY
+import:         from AS48503 action pref=150; accept AS48503
+export:         to AS48503 announce ANY
+import:         from AS49070 action pref=150; accept AS49070
+export:         to AS49070 announce ANY
+import:         from AS39075 action pref=150; accept AS39075
+export:         to AS39075 announce ANY
+import:         from AS39725 action pref=150; accept AS39725
+export:         to AS39725 announce ANY
+import:         from AS20578 action pref=150; accept AS20578
+export:         to AS20578 announce ANY
+import:         from AS20578 action pref=150; accept AS20578
+export:         to AS51192 announce ANY
+import:         from AS51192 action pref=150; accept AS-PLATINUMTELCOPEERS
+export:         to AS50482 announce ANY
+import:         from AS50482 action pref=150; accept AS50482
+export:         to AS57013 announce ANY
+import:         from AS57013 action pref=150; accept AS57013
+export:         to AS56786 announce ANY
+import:         from AS56786 action pref=150; accept AS56786
+export:         to AS57301 announce ANY
+import:         from AS57301 action pref=150; accept AS57301
+export:         to AS198200 announce ANY
+import:         from AS198200 action pref=150; accept AS198200
+export:         to AS51997 announce AS-KAZTELECOMPEERS
+import:         from AS51997 action pref=150; accept AS-ASKET
+export:         to AS33959 announce ANY
+import:         from AS33959 action pref=150; accept AS33959
+export:         to AS51878 announce ANY
+import:         from AS51878 action pref=150; accept AS51878
+export:         to AS51236 announce ANY
+import:         from AS51236 action pref=150; accept AS51236
+export:         to AS51162 announce ANY
+import:         from AS51162 action pref=150; accept AS51162
+export:         to AS50386 announce ANY
+import:         from AS50386 action pref=150; accept AS50386
+export:         to AS41664 announce ANY
+import:         from AS41664 action pref=150; accept AS41664
+export:         to AS39786 announce ANY
+import:         from AS39786 action pref=150; accept AS-SPACEKZ
+export:         to AS41664 announce ANY
+import:         from AS41664 action pref=150; accept AS41664
+export:         to AS49696 announce ANY
+import:         from AS49696 action pref=150; accept AS49696
+export:         to AS48502 announce ANY
+import:         from AS48502 action pref=150; accept AS48502
+export:         to AS51837 announce ANY
+import:         from AS51837 action pref=150; accept AS51837
+export:         to AS15549 announce ANY
+import:         from AS15549 action pref=150; accept AS15549
+export:         to AS51833 announce ANY
+import:         from AS51833 action pref=150; accept AS51833
+export:         to AS60708 announce ANY
+import:         from AS60708 action pref=150; accept as-kaznic-ast
+import:         from AS49095 action pref=150; accept AS49095
+export:         to AS49095 announce ANY
+import:         from AS62111 action pref=150; accept AS62111
+export:         to AS62111 announce ANY
+import:         from AS44854 action pref=150; accept AS44854
+export:         to AS44854 announce ANY
+remarks:        ------------------------------------------------------------
+remarks:        LOCAL CUSTOMERS:
+remarks:        ------------------------------------------------------------
+import:         from AS33878 action pref=150; accept AS33878
+export:         to AS33878 announce AS-KAZTELECOMLOCALPEERS RS-GT-ALM AS25349 AS34609 AS31567
+remarks:        ------------------------------------------------------------
+remarks:        INTERNATIONAL TRANSIT CUSTOMERS:
+remarks:        ------------------------------------------------------------
+import:         from AS12997 action pref=150; accept AS-KTNETPEERS
+export:         to AS12997 announce ANY
+import:         from AS28910 action pref=150; accept AS-INTAL
+export:         to AS28910 announce ANY
+import:         from AS24722 action pref=150; accept AS-BABILON
+export:         to AS24722 announce ANY
+import:         from AS44027 action pref=150; accept AS44027
+export:         to AS44027 announce ANY
+remarks:        ------------------------------------------------------------
+remarks:        COMMUNITIES
+remarks:        ------------------------------------------------------------
+remarks:        External communities may be set by external peers when
+remarks:        talking to AS9198.
+remarks:        Community Meaning
+remarks:        9198:300x When advertising to any upstream
+remarks:        9198:301x When advertising to ROSTELECOM
+remarks:        9198:302x When advertising to SFO-IX
+remarks:        9198:303x When advertising to Google (Peering)
+remarks:        9198:304x When advertising to MSK-IX
+remarks:        9198:305x When advertising to DATAIX
+remarks:        9198:306x When advertising to MMTS
+remarks:        9198:307x When advertising to TransTelecom
+remarks:        9198:308x When advertising to Synterra
+remarks:        9198:309x When advertising to China Unicom
+remarks:        9198:310x When advertising to Giganet Peering
+remarks:        9198:311x When advertising to KvantTelecom Peering
+remarks:        9198:320x When advertising to UzbekTelecom
+remarks:        9198:321x When advertising to Kirgiztelecom
+remarks:        9198:322x When advertising to Babilon-T
+remarks:        9198:323x When advertising to IPNET
+remarks:        9198:324x When advertising to Turkmentelecom
+remarks:        9198:325x When advertising to AGTS
+remarks:        9198:329x When advertising to any international client
+remarks:        9198:399x When advertising to any Kazakhstan client
+remarks:        ...x=0 - do not advertise
+remarks:        ...x=1,2 .. 6 - prepend 9198 1,2 .. 6 times
+remarks:        9198:4090 Full BACKUP. Set local preference to 90,
+remarks:        the lowest value used in the network
+remarks:        9198:4299 Accept from KAZ-IX with local preference 100 and not advertise to any upstream
+remarks:        Communities to filter some prefixes.
+remarks:        9198:5010 Rostelecom peer
+remarks:        9198:5020 SFO-IX
+remarks:        9198:5030 GOOGLE
+remarks:        9198:5040 MSK-IX
+remarks:        9198:5050 Data-IX
+remarks:        9198:5060 MMTS
+remarks:        9198:5070 TransTelecom peer
+remarks:        9198:5080 Synterra peer
+remarks:        9198:5090 China Unicom peer
+remarks:        9198:5100 Giganet Peering
+remarks:        9198:5110 KvantTelecom Peering
+remarks:        9198:5200 Uzbektelecom peer
+remarks:        9198:5210 Kirgiztelecom peer
+remarks:        9198:5220 Babilon-T peer
+remarks:        9198:5230 IPNET peer
+remarks:        9198:5260 AGTS peer
+remarks:        9198:5240 Turkmentelecom peer
+remarks:        9198:5990 Peers originated in Kazakhstan
+remarks:        COMMUNITIES BY REGIONS
+remarks:        9198:5801 Aktau
+remarks:        9198:5802 Aktobe
+remarks:        9198:5803 Almaty
+remarks:        9198:5804 Astana
+remarks:        9198:5805 Atyrau
+remarks:        9198:5806 Karaganda
+remarks:        9198:5807 Kokshetau
+remarks:        9198:5808 Kostanay
+remarks:        9198:5809 Kyzylorda
+remarks:        9198:5810 Pavlodar
+remarks:        9198:5811 Petropavlovsk
+remarks:        9198:5812 Semey
+remarks:        9198:5813 Shimkent
+remarks:        9198:5814 Taldikurgan
+remarks:        9198:5815 Taraz
+remarks:        9198:5816 Uralsk
+remarks:        9198:5817 Ustkamenogorsk
+org:            ORG-KDNA1-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         KNIC-MNT
+created:        2002-09-20T05:59:05Z
+last-modified:  2018-07-17T04:12:03Z
+source:         RIPE
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

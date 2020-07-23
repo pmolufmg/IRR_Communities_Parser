@@ -1,0 +1,109 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS59392 - AS61439'
+
+as-block:       AS59392 - AS61439
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS59954'
+
+% Abuse contact for 'AS59954' is 'abuse@truenetwork.ru'
+
+aut-num:        AS59954
+as-name:        TN-IX-RS
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:        This AS facilitates the TN-IX Route Servers.
+remarks:
+remarks:        All ASes participating in the Route Servers peering
+remarks:        are grouped into the AS-SET: AS-TN-IX
+remarks:
+remarks:        Route Servers
+remarks:        ---------------------------------------------------------
+remarks:        rs1.tn-ix.net is 185.1.64.100 and 2001:7F8:5:185::64:100
+remarks:        rs2.tn-ix.net is 185.1.64.200 and 2001:7F8:5:185::64:200
+remarks:        ---------------------------------------------------------
+remarks:
+remarks:        You may use communities to control outgoing information
+remarks:        via the route server.
+remarks:
+remarks:        BGP Communities recognised for Route Servers:
+remarks:        Do not announce to a certain peer: 0:peer-as
+remarks:        Announce to a certain peer: 59954:peer-as
+remarks:        Do not announce to any peer: 0:59954
+remarks:        Announce to all peers: 59954:59954
+remarks:
+remarks:        ---------------------------------------------------------
+remarks:
+remarks:        Please visit http://tn-ix.net/routeserver/
+remarks:        for more information on the TN-IX Route Servers
+remarks:        and details on the filtering options.
+remarks:
+admin-c:        TN2777-RIPE
+tech-c:         TN2777-RIPE
+status:         ASSIGNED
+org:            ORG-CL261-RIPE
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-TN
+created:        2014-07-25T09:04:50Z
+last-modified:  2018-09-04T11:27:49Z
+source:         RIPE # Filtered
+
+organisation:   ORG-CL261-RIPE
+org-name:       CTV-Belovo LLC
+org-type:       LIR
+address:        Marksa st, 5 B
+address:        652600
+address:        Belovo city
+address:        RUSSIAN FEDERATION
+phone:          +7 499 3482552
+admin-c:        KES40-RIPE
+abuse-c:        AR32222-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        MNT-TN
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-TN
+created:        2014-04-22T08:21:42Z
+last-modified:  2017-12-09T15:50:20Z
+source:         RIPE # Filtered
+
+role:           Network Operation Center
+address:        Russian Federation
+phone:          +7 499 348-25-10
+remarks:        ******************************************
+remarks:        Truenetwork NOC engineers available 24x7
+remarks:        ******************************************
+remarks:        Contact addresses:
+remarks:        Routing & peering: noc(at)truenetwork.ru
+remarks:        Spam & security: abuse(at)truenetwork.ru
+remarks:        mail: postmaster(at)truenetwork.ru
+remarks:        ddos reports: ddos(at)truenetwork.ru
+remarks:        ******************************************
+nic-hdl:        TN2777-RIPE
+mnt-by:         MNT-TN
+created:        2014-06-30T08:26:40Z
+last-modified:  2016-12-19T12:34:06Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@truenetwork.ru
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

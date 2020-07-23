@@ -1,0 +1,632 @@
+aut-num:        AS3344
+as-name:        BURSTFIRE
+descr:          Internet Solutions Provider
+                United Kingdom
+remarks:        +----------------------------+----------------------------+---------+
+remarks:        | Burstfire Networks Limited | http://www.burstfire.net/  | AS3344  |
+remarks:        +----------------------------+----------------------------+---------+
+remarks:        |    Burstfire Networks AS3344 operates an 'open peering' policy    |
+remarks:        |                                                                   |
+remarks:        | Peering requests:                           peering@burstfire.net |
+remarks:        | Transit requests:                           sales@burstfire.net   |
+remarks:        | Abuse complaints:                           abuse@burstfire.net   |
+remarks:        +-------------------------------------------------------------------+
+remarks:        |          We are members of LoNAP - http://www.lonap.net/          |
+remarks:        |          We are members of LIPEX - http://www.lipex.net/          |
+remarks:        |           We are members of UK6X - http://www.uk6x.com/           |
+remarks:        |  We are founder members of UKNOG - http://www.uknog.org/          |
+remarks:        +-------------------------------------------------------------------+
+remarks:        | We accept Private peering in the following locations:             |
+remarks:        |   Telehouse North, London                        TFM10, 3rd Floor |
+remarks:        |   Telehouse East, London                         TFM50, 2nd Floor |
+remarks:        |   TelecityGroup London 3 (SOV), London                  3rd Floor |
+remarks:        +-------------------------------------------------------------------+
+remarks:        | We can offer our Full and Partial Transit services via the above  |
+remarks:        |                       or via LIPEX exchange.                      |
+remarks:        +-------------------------------------------------------------------+
+remarks:        |     All our PoPs and routers are IPv6-ready.  Ask for peering     |
+remarks:        +-------------------------------------------------------------------+
+remarks:
+remarks:        #####################################################################
+remarks:        #                Transit Providers / Private Peering                #
+remarks:        #####################################################################
+mp-import:      afi ipv4.unicast from AS3344:PRNG-TRANSIT action pref=65435; accept ANY AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS3344:PRNG-TRANSIT announce AS-KEWLIO-TRANSIT
+mp-import:      afi ipv4.unicast from AS3344:PRNG-PRVPEERS action pref=64535; accept ANY AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS3344:PRNG-PRVPEERS action med=5; announce AS-KEWLIO
+remarks:
+remarks:        #####################################################################
+remarks:        #                           LoNAP Exchange                          #
+remarks:        #####################################################################
+mp-import:      afi ipv4.unicast from AS3344:PRNG-LONAP action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                accept ANY AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS3344:PRNG-LONAP action med=10;
+                announce community.contains(3344:61000, 3344:61001, 3344:61002) AND AS-KEWLIO AND NOT community.contains(3344:62010, 3344:62020, 3344:62040, 3344:62150)
+remarks:
+remarks:        #####################################################################
+remarks:        #             London Internet Providers EXchange (LIPEX)            #
+remarks:        #####################################################################
+mp-import:      afi ipv4.unicast from AS3344:PRNG-LIPEX action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                accept ANY AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS3344:PRNG-LIPEX action med=10;
+                announce community.contains(3344:61000, 3344:61001, 3344:61002) AND AS-KEWLIO AND NOT community.contains(3344:62010, 3344:62020, 3344:62040, 3344:62100)
+remarks:
+remarks:        #####################################################################
+remarks:        #                             Customers                             #
+remarks:        #####################################################################
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS6911  | Pro-net Internet Services                               |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS6911 193.109.219.132 at 193.109.219.130 action pref=64035; accept AS-PRO-NET AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS6911 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS8457  | ABCnet                                                  |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS8457 195.22.135.181 at 195.22.135.182 action pref=64035; accept AS-ABCNET AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS8457 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS8655  | Adjacent Networks                                       |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS8655 85.116.1.65 at 85.116.1.66 action pref=64035; accept AS-ADJACENT AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS8655 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS12528 | b33f Networks                                           |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS12528 82.136.39.250 at 82.136.39.249 action pref=64035; accept AS-B33F AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS12528 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS15653 | Netsumo Limited                                         |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS15653 85.116.1.1 at 85.116.1.2 action pref=64035; accept AS-NETSUMO AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS15653 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS21321 | Areti Networks                                          |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS21321 85.116.1.73 at 85.116.1.74 action pref=64035; accept AS21321 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS21321 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS24591 | i2 Networks                                             |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS24591 193.109.219.107 at 193.109.219.130 action pref=64035; accept AS-I2 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS24591 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS28814 | Freddyshouse                                            |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS28814 85.116.1.153 at 85.116.1.157 action pref=64035; accept AS28814 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS28814 announce ANY
+mp-import:      afi ipv4.unicast from AS28814 85.116.1.153 at 85.116.1.158 action pref=64035; accept AS28814 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS28814 announce ANY
+mp-import:      afi ipv4.unicast from AS28814 85.116.1.245 at 85.116.1.246 action pref=64035; accept AS28814 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS28814 announce ANY
+mp-import:      afi ipv4.unicast from AS28814 85.116.1.49 at 85.116.1.50 action pref=64035; accept AS28814 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS28814 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS29444 | Reflex Internet                                         |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS29444 85.116.1.53 at 85.116.1.54 action pref=64035; accept AS-REFLEX AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS29444 announce ANY
+mp-import:      afi ipv4.unicast from AS29444 85.116.1.57 at 85.116.1.58 action pref=64035; accept AS-REFLEX AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS29444 announce ANY
+mp-import:      afi ipv4.unicast from AS29444 85.116.1.69 at 85.116.1.70 action pref=64035; accept AS-REFLEX AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS29444 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS30071 | TowardEX Technologies / OCCAID Project                  |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS30071 85.116.11.4 at 85.116.11.2 action pref=64035; accept AS30071 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS30071 announce ANY
+mp-import:      afi ipv4.unicast from AS30071 85.116.11.4 at 85.116.11.3 action pref=64035; accept AS30071 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS30071 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS33847 | Nitrotech Solutions Limited                             |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS33847 85.116.1.41 at 85.116.1.42 action pref=64035; accept AS-NITROTECH AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS33847 announce ANY
+mp-import:      afi ipv4.unicast from AS33847 85.116.1.45 at 85.116.1.46 action pref=64035; accept AS-NITROTECH AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS33847 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS34013 | Maznet                                                  |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS34013 195.22.135.178 at 195.22.135.177 action pref=64035; accept AS34013 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS34013 announce ANY
+mp-import:      afi ipv4.unicast from AS34013 213.160.111.142 at 213.160.111.141 action pref=64035; accept AS34013 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS34013 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS34159 | Camel Network                                           |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS34159 213.160.111.137 at 213.160.111.138 action pref=64035; accept AS-CAMELNETWORK AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS34159 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS34282 | UKdedicated                                             |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS34282 85.116.1.30 at 85.116.1.29 action pref=64035; accept AS34282 AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS34282 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS34442 | Xifos Limited                                           |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS34442 85.116.1.145 at 85.116.1.149 action pref=64035; accept AS-XIFOS AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS34442 announce ANY
+mp-import:      afi ipv4.unicast from AS34442 85.116.1.145 at 85.116.1.150 action pref=64035; accept AS-XIFOS AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS34442 announce ANY
+mp-import:      afi ipv4.unicast from AS34442 85.116.1.61 at 85.116.1.62 action pref=64035; accept AS-XIFOS AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS34442 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS35485 | Berkeley IT                                             |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS35485 85.116.1.5 at 85.116.1.6 action pref=64035; accept AS-BERKELEY-TRANSIT AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS35485 announce ANY
+mp-import:      afi ipv4.unicast from AS35485 85.116.1.9 at 85.116.1.10 action pref=64035; accept AS-BERKELEY-TRANSIT AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS35485 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS39779 | Open Peers                                              |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS39779 193.203.5.168 at 193.203.5.98 action pref=64035; accept AS-OPENPEERS AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS39779 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS41000 | Real Time Management                                    |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS41000 194.117.252.63 at 194.117.252.37 action pref=64035; accept AS-RTM AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS41000 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS41103 | ClearIP                                                 |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv4.unicast from AS41103 85.116.1.206 at 85.116.1.205 action pref=64035; accept AS-CLEARIP AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS41103 announce ANY
+mp-import:      afi ipv4.unicast from AS41103 85.116.1.210 at 85.116.1.209 action pref=64035; accept AS-CLEARIP AND NOT AS3344:fltr-filterlist
+mp-export:      afi ipv4.unicast to AS41103 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS3213  | Bogons Limited                                          |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS3213 2001:7F8:17::C8D:1 at 2001:7F8:17::D10:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-BOGONS
+mp-export:      afi ipv6.unicast to AS3213 announce ANY
+mp-import:      afi ipv6.unicast from AS3213 2001:7F8:17::C8D:2 at 2001:7F8:17::D10:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-BOGONS
+mp-export:      afi ipv6.unicast to AS3213 announce ANY
+mp-import:      afi ipv6.unicast from AS3213 2001:7F8:17::C8D:1 at 2001:7F8:17::D10:2 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-BOGONS
+mp-export:      afi ipv6.unicast to AS3213 announce ANY
+mp-import:      afi ipv6.unicast from AS3213 2001:7F8:17::C8D:2 at 2001:7F8:17::D10:2 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-BOGONS
+mp-export:      afi ipv6.unicast to AS3213 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS8226  | AMNIC                                                   |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS8226 2001:4BD0:D10:1222::1 at 2001:4BD0:D10:1222:2D0:97FF:FE79:A020 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS8226
+mp-export:      afi ipv6.unicast to AS8226 announce ANY
+mp-import:      afi ipv6.unicast from AS8226 2001:4BD0:D10:1223::1 at 2001:4BD0:D10:1223:2D0:B7FF:FEBA:8421 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS8226
+mp-export:      afi ipv6.unicast to AS8226 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS9153  | Burstfire Networks                                      |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS9153 2001:7F8:2:1::E at 2001:7F8:2:1::6 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS9153
+mp-export:      afi ipv6.unicast to AS9153 announce ANY
+mp-import:      afi ipv6.unicast from AS9153 2001:4088:0:3344:260:F5FF:FE06:DFF at 2001:4088:0:3344:2D0:97FF:FE79:A020 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS9153
+mp-export:      afi ipv6.unicast to AS9153 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS16034 | KeConnect Internet                                      |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS16034 2001:7F8:2:1::14 at 2001:7F8:2:1::6 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS16034
+mp-export:      afi ipv6.unicast to AS16034 announce ANY
+mp-import:      afi ipv6.unicast from AS16034 2001:7F8:5::3EA2:1 at 2001:7F8:5::6334:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-KEME
+mp-export:      afi ipv6.unicast to AS16034 announce ANY
+mp-import:      afi ipv6.unicast from AS16034 2001:7F8:5::3EA2:1 at 2001:7F8:5::6334:2 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-KEME
+mp-export:      afi ipv6.unicast to AS16034 announce ANY
+mp-import:      afi ipv6.unicast from AS16034 2001:7F8:5::3EA2:2 at 2001:7F8:5::6334:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-KEME
+mp-export:      afi ipv6.unicast to AS16034 announce ANY
+mp-import:      afi ipv6.unicast from AS16034 2001:7F8:5::3EA2:2 at 2001:7F8:5::6334:2 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-KEME
+mp-export:      afi ipv6.unicast to AS16034 announce ANY
+mp-import:      afi ipv6.unicast from AS16034 2001:7F8:36::3EA2:1 at 2001:7F8:36::D10:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-KEME
+mp-export:      afi ipv6.unicast to AS16034 announce ANY
+mp-import:      afi ipv6.unicast from AS16034 2001:4BD0:D10:1224::1 at 2001:4BD0:D10:1224:2D0:B7FF:FEBA:8421 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS-KEME
+mp-export:      afi ipv6.unicast to AS16034 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS20712 | Andrews & Arnold                                        |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS20712 2001:7F8:5::50E8:1 at 2001:7F8:5::6334:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS20712
+mp-export:      afi ipv6.unicast to AS20712 announce ANY
+mp-import:      afi ipv6.unicast from AS20712 2001:7F8:5::50E8:2 at 2001:7F8:5::6334:2 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS20712
+mp-export:      afi ipv6.unicast to AS20712 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS28814 | Freddyshouse                                            |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS28814 2001:4BD0:D10:1229:20D:65FF:FE84:79A0 at 2001:4BD0:D10:1229:2D0:B7FF:FEBA:8421 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS28814
+mp-export:      afi ipv6.unicast to AS28814 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS29636 | Catalyst2 Services Limited                              |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS29636 2001:7F8:5::73C4:1 at 2001:7F8:5::6334:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS29636
+mp-export:      afi ipv6.unicast to AS29636 announce ANY
+mp-import:      afi ipv6.unicast from AS29636 2001:7F8:36::73C4:1 at 2001:7F8:36::D10:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS29636
+mp-export:      afi ipv6.unicast to AS29636 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS34763 | Virgin Radio                                            |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS34763 2001:7F8:17::87CB:1 at 2001:7F8:17::D10:1 action pref=64035;
+                community.append(3344:61001);
+                med = 0;
+                accept AS34763
+mp-export:      afi ipv6.unicast to AS34763 announce ANY
+remarks:
+remarks:        #####################################################################
+remarks:        #              IPv6 Transit Providers / Private Peering             #
+remarks:        #####################################################################
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS3292  | Tele Danmark (TDC)                                      |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS3292 2001:6C8:1:F001::1 at 2001:6C8:1:F001::2 action pref=65335;
+                community.append(3344:60030, 3344:3292);
+                med = 0;
+                accept ANY
+mp-export:      afi ipv6.unicast to AS3292 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS6175  | Sprintlink                                              |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS6175 3FFE:2900:300:2::1 at 3FFE:2900:300:2::2 action pref=64534;
+                community.append(3344:60000, 3344:60010, 3344:6175);
+                med = 0;
+                accept AS6175
+mp-export:      afi ipv6.unicast to AS6175 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS8298  | Ghost Route Hunter Project                              |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS8298 2001:838:1:1:210:DCFF:FE20:7C7C at 2001:4BD0:D10:1234:260:F5FF:FE06:DFE action pref=65535;
+                med = 0;
+                accept ANY
+mp-export:      afi ipv6.unicast to AS8298 announce ANY
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS11630 | America Online                                          |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS11630 2001:4B0:FFF:1111:2222:3333:4444:9 at 2001:4B0:FFF:1111:2222:3333:4444:A action pref=64534;
+                community.append(3344:60000, 3344:60010, 3344:11630);
+                med = 0;
+                accept AS11630
+mp-export:      afi ipv6.unicast to AS11630 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS30071 | TowardEX Technologies / OCCAID Project                  |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS30071 2001:4830:D1::1 at 2001:4830:D1::2 action pref=64534;
+                community.append(3344:60000, 3344:60010, 3344:30071);
+                med = 0;
+                accept ANY
+mp-export:      afi ipv6.unicast to AS30071 announce AS-KEWLIO-V6
+mp-import:      afi ipv6.unicast from AS30071 2001:4830:D1::3 at 2001:4830:D1::2 action pref=64534;
+                community.append(3344:60000, 3344:60010, 3344:30071);
+                med = 0;
+                accept ANY
+mp-export:      afi ipv6.unicast to AS30071 announce AS-KEWLIO-V6
+remarks:
+remarks:        #####################################################################
+remarks:        #                         IPv6 Public Peers                         #
+remarks:        #####################################################################
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS786   | JANET / UKERNA                                          |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS786 2001:7F8:2:1::7 at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:1752);
+                med = 0;
+                accept AS786
+mp-export:      afi ipv6.unicast to AS786 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS1752  | BTexact Technologies                                    |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS1752 2001:7F8:2:1::1 at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:1752);
+                med = 0;
+                accept AS1752
+mp-export:      afi ipv6.unicast to AS1752 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS8330  | LoNAP Route Collector                                   |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS8330 2001:7F8:17::208A:1 at 2001:7F8:17::D10:1 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS8330
+mp-export:      afi ipv6.unicast to AS8330 announce AS-KEWLIO-V6
+mp-import:      afi ipv6.unicast from AS8330 2001:7F8:17::208A:1 at 2001:7F8:17::D10:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS8330
+mp-export:      afi ipv6.unicast to AS8330 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS8419  | Hotchilli Internet                                      |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS8419 2001:7F8:2:1::16 at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:1752);
+                med = 0;
+                accept AS8419
+mp-export:      afi ipv6.unicast to AS8419 announce AS-KEWLIO-V6
+mp-import:      afi ipv6.unicast from AS8419 2001:7F8:17::20E3:1 at 2001:7F8:17::D10:1 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS8419
+mp-export:      afi ipv6.unicast to AS8419 announce AS-KEWLIO-V6
+mp-import:      afi ipv6.unicast from AS8419 2001:7F8:17::20E3:1 at 2001:7F8:17::D10:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS8419
+mp-export:      afi ipv6.unicast to AS8419 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS9009  | Realroot                                                |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS9009 2001:7F8:5::704B:1 at 2001:7F8:5::6334:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                med = 0;
+                accept AS9009
+mp-export:      afi ipv6.unicast to AS9009 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS15444 | Netservices plc.                                        |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS15444 2001:7F8:2:1::11 at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:1752);
+                med = 0;
+                accept AS15444
+mp-export:      afi ipv6.unicast to AS15444 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS20834 | Caladan Communications                                  |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS20834 2001:7F8:2:1::4 at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:1752);
+                med = 0;
+                accept AS20834
+mp-export:      afi ipv6.unicast to AS20834 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS21155 | ProServe B.V.                                           |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS21155 2001:7F8:5::52A3:1 at 2001:7F8:5::6334:1 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                med = 0;
+                accept AS21155
+mp-export:      afi ipv6.unicast to AS21155 announce AS-KEWLIO-V6
+mp-import:      afi ipv6.unicast from AS21155 2001:7F8:5::52A3:1 at 2001:7F8:5::6334:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                med = 0;
+                accept AS21155
+mp-export:      afi ipv6.unicast to AS21155 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS24587 | InternetOnline                                          |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS24587 2001:7F8:5::600B:1 at 2001:7F8:5::6334:1 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                med = 0;
+                accept AS24587
+mp-export:      afi ipv6.unicast to AS24587 announce AS-KEWLIO-V6
+mp-import:      afi ipv6.unicast from AS24587 2001:7F8:5::600B:1 at 2001:7F8:5::6334:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                med = 0;
+                accept AS24587
+mp-export:      afi ipv6.unicast to AS24587 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS25108 | Blackcat Networks                                       |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS25108 2001:7F8:17::6214:1 at 2001:7F8:17::D10:1 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS-BLACKCAT
+mp-export:      afi ipv6.unicast to AS25108 announce AS-KEWLIO-V6
+mp-import:      afi ipv6.unicast from AS25108 2001:7F8:17::6214:1 at 2001:7F8:17::D10:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS-BLACKCAT
+mp-export:      afi ipv6.unicast to AS25108 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS29452 | Secura Networks                                         |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS29452 2001:7F8:2:1::18 at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:1752);
+                med = 0;
+                accept AS29452
+mp-export:      afi ipv6.unicast to AS29452 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS29527 | Othello Technology Systems Ltd                          |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS29527 2001:7F8:2:1::19 at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:1752);
+                med = 0;
+                accept AS29527
+mp-export:      afi ipv6.unicast to AS29527 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS29636 | Catalyst2 Services Limited                              |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS29636 2001:7F8:2:1::1C at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:1752);
+                med = 0;
+                accept AS29636
+mp-export:      afi ipv6.unicast to AS29636 announce AS-KEWLIO-V6
+mp-import:      afi ipv6.unicast from AS29636 2001:7F8:5::73C4:1 at 2001:7F8:5::6334:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                med = 0;
+                accept AS29636
+mp-export:      afi ipv6.unicast to AS29636 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS30071 | TowardEX Technologies / OCCAID Project                  |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS30071 2001:7F8:36::7577:1 at 2001:7F8:36::D10:1 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:35614);
+                med = 0;
+                accept ANY
+mp-export:      afi ipv6.unicast to AS30071 announce AS-KEWLIO-V6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS34763 | Virgin Radio                                            |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS34763 2001:7F8:2:1::1B at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS34763
+mp-export:      afi ipv6.unicast to AS34763 announce AS-KEWLIO-v6
+mp-import:      afi ipv6.unicast from AS34763 2001:7F8:2:1::20 at 2001:7F8:2:1::6 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS34763
+mp-export:      afi ipv6.unicast to AS34763 announce AS-KEWLIO-v6
+mp-import:      afi ipv6.unicast from AS34763 2001:7F8:17::87CB:2 at 2001:7F8:17::D10:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:8330);
+                med = 0;
+                accept AS34763
+mp-export:      afi ipv6.unicast to AS34763 announce AS-KEWLIO-v6
+remarks:        +---------+---------------------------------------------------------+
+remarks:        | AS35485 | Berkeley IT Limited                                     |
+remarks:        +---------+---------------------------------------------------------+
+mp-import:      afi ipv6.unicast from AS35485 2001:7F8:5::8A9D:1 at 2001:7F8:5::6334:1 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                med = 0;
+                accept AS35485
+mp-export:      afi ipv6.unicast to AS35485 announce AS-KEWLIO-v6
+mp-import:      afi ipv6.unicast from AS35485 2001:7F8:5::8A9D:1 at 2001:7F8:5::6334:2 action pref=64535;
+                community.append(3344:60000, 3344:60020, 3344:21238);
+                med = 0;
+                accept AS35485
+mp-export:      afi ipv6.unicast to AS35485 announce AS-KEWLIO-v6
+remarks:        #####################################################################
+remarks:        #                   367 Total Sessions Configured                   #
+remarks:        #####################################################################
+remarks:
+remarks:        We fully support BGP communities for both IPv4 and IPv6, as listed below.
+remarks:
+remarks:        #####################################################################
+remarks:        #         BGP Communities applied at egress to all customers        #
+remarks:        #####################################################################
+remarks:        Community         Family           Description / Purpose
+remarks:        ----------        ---------        ------------------------------------------
+remarks:
+remarks:        3344:61000        IPv4+IPv6        Internal route
+remarks:        3344:61001        IPv4+IPv6        Transit Customer route
+remarks:        3344:61002        IPv4+IPv6        Partial Transit Customer route
+remarks:
+remarks:        3344:60000        IPv4+IPv6        Peering route (both public and private)
+remarks:        3344:60010        IPv4+IPv6        Private Peering route
+remarks:        3344:60020        IPv4+IPv6        Public Peering route
+remarks:        3344:60030        IPv4+IPv6        Transit route
+remarks:
+remarks:        3344:63000        IPv4 only        Peer router: goblin.sov
+remarks:        3344:63100        IPv4 only        Peer router: hobgoblin.sov
+remarks:        3344:63200        IPv4+IPv6        Peer router: warlock.sov
+remarks:        3344:63300        IPv4+IPv6        Peer router: sorcerer.sov
+remarks:        3344:63400        IPv4+IPv6        Peer router: necromancer.sov
+remarks:        3344:63600        IPv4+IPv6        Peer router: enchanter.sov
+remarks:
+remarks:        3344:1752         IPv6 only        UK6X Exchange
+remarks:        3344:1930         IPv4 only        GIGAPIX (Portugal)
+remarks:        3344:8330         IPv4+IPv6        LoNAP Exchange
+remarks:        3344:21238        IPv4+IPv6        London Internet Providers EXchange (LIPEX)
+remarks:        3344:35614        IPv4+IPv6        SOVereign house EXchange (SOVEX)
+remarks:
+remarks:        3344:9153         IPv4 only        Burstfire Networks (AS9153)
+remarks:        3344:13285        IPv4 only        Opal Telecommunications (AS13285)
+remarks:        3344:15703        IPv4 only        TrueServer BV (AS15703)
+remarks:        3344:20976        IPv4 only        Hotlinks Internet Services (AS20976)
+remarks:        3344:21099        IPv4 only        Game Digital (AS21099)
+remarks:        3344:25137        IPv4+IPv6        NFSi Telecom (AS25137)
+remarks:        3344:28747        IPv4 only        RealRoot (AS28747)
+remarks:        3344:30071        IPv6 only        TowardEX Technologies / OCCAID Project (AS30071)
+remarks:
+remarks:        #####################################################################
+remarks:        #       BGP Communities applied at ingress from all customers       #
+remarks:        #####################################################################
+remarks:        Community         Family           Description / Purpose
+remarks:        ----------        ---------        --------------------------------------------------------
+remarks:
+remarks:        3344:62000        IPv4+IPv6        Don't advertise prefix to any transits
+remarks:        3344:62010        IPv4+IPv6        Don't advertise prefix to any peers (public & private)
+remarks:        3344:62020        IPv4+IPv6        Don't advertise prefix to public peers
+remarks:        3344:62030        IPv4+IPv6        Don't advertise prefix to private peers
+remarks:        3344:62040        IPv4+IPv6        Don't advertise prefix to peers in United Kingdom
+remarks:        3344:62050        IPv4+IPv6        Don't advertise prefix to peers in Europe
+remarks:        3344:62060        IPv4+IPv6        Don't advertise prefix to peers in United States/Canada
+remarks:
+remarks:        3344:62100        IPv4+IPv6        Don't advertise prefix to LIPEX Exchange
+remarks:        3344:62120        IPv6 only        Don't advertise prefix to UK6X Exchange
+remarks:        3344:62130        IPv4+IPv6        Don't advertise prefix to SOVEX Exchange
+remarks:        3344:62140        IPv4 only        Don't advertise prefix to GIGAPIX Exchange
+remarks:        3344:62150        IPv4+IPv6        Don't advertise prefix to LoNAP Exchange
+remarks:
+remarks:        3344:62245        IPv4 only        Don't advertise prefix to AS9153 (Burstfire Networks)
+remarks:        3344:62220        IPv4 only        Don't advertise prefix to AS13285 (Opal Telecom)
+remarks:        3344:62225        IPv4 only        Don't advertise prefix to AS15703 (TrueServer BV)
+remarks:        3344:62235        IPv4 only        Don't advertise prefix to AS20976 (Hotlinks)
+remarks:        3344:62240        IPv4 only        Don't advertise prefix to AS21099 (Game Digital)
+remarks:        3344:62246        IPv4+IPv6        Don't advertise prefix to AS25137 (NFSi Telecom)
+remarks:        3344:62250        IPv4 only        Don't advertise prefix to AS28747 (RealRoot)
+remarks:        3344:62210        IPv6 only        Don't advertise prefix to AS30071 (TowardEX Technologies / OCCAID Project)
+remarks:
+remarks:        #####################################################################
+remarks:        #          null-route / DDoS tags accepted by all customers         #
+remarks:        #####################################################################
+remarks:        Community         Family           Description / Purpose
+remarks:        ----------        ---------        --------------------------------------------------------
+remarks:
+remarks:        3344:62999        IPv4+IPv6        Blackhole / null-route prefix at ALL border routers
+org:            ORG-BNL1-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         BURSTFIRE-MNT
+mnt-routes:     BURSTFIRE-MNT
+created:        2002-01-23T21:23:36Z
+last-modified:  2017-11-15T09:17:45Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

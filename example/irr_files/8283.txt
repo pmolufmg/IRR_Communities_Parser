@@ -1,0 +1,1287 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8192 - AS8523'
+
+as-block:       AS8192 - AS8523
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8283'
+
+% Abuse contact for 'AS8283' is 'abuse@coloclue.net'
+
+aut-num:        AS8283
+as-name:        COLOCLUE-AS
+descr:          Netwerkvereniging Coloclue, Amsterdam, Netherlands
+org:            ORG-NC22-RIPE
+remarks:        -----------------------------------------------------
+remarks:        Transit
+remarks:        -----------------------------------------------------
+remarks:        Atom86
+mp-import:      afi ipv4.unicast from AS8455 action pref=100; accept ANY
+mp-export:      afi ipv4.unicast to AS8455 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8455 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS8455 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        True
+mp-import:      afi ipv4.unicast from AS15703 action pref=100; accept ANY
+mp-export:      afi ipv4.unicast to AS15703 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS15703 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS15703 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Fiberring
+mp-import:      afi ipv4.unicast from AS38930 action pref=100; accept ANY
+mp-export:      afi ipv4.unicast to AS38930 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS38930 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS38930 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Fusix Networks
+mp-import:      afi ipv4.unicast from AS57866 action pref=100; accept ANY
+mp-export:      afi ipv4.unicast to AS57866 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS57866 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS57866 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        Peering
+remarks:        -----------------------------------------------------
+remarks:        AMS-IX Office
+mp-import:      afi ipv4.unicast from AS1200 action pref=100; accept AS1200
+mp-export:      afi ipv4.unicast to AS1200 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1200 action pref=100; accept AS1200
+mp-export:      afi ipv6.unicast to AS1200 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        AMS-IX Routeservers
+mp-import:      afi ipv4.unicast from AS6777 action pref=100; accept AS-AMS-IX-RS AS-AMS-IX-RS-V6 AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6 AS-AMS-IX-RS-SETSFALCON AS-AMS-IX-RS-SETSFALCON-V6
+mp-export:      afi ipv4.unicast to AS6777 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6777 action pref=100; accept AS-AMS-IX-RS AS-AMS-IX-RS-V6 AS-AMS-IX-RS-SETS AS-AMS-IX-RS-SETS-V6 AS-AMS-IX-RS-SETSFALCON AS-AMS-IX-RS-SETSFALCON-V6
+mp-export:      afi ipv6.unicast to AS6777 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        NL-IX Routeservers
+mp-import:      afi ipv4.unicast from AS34307 action pref=100; accept AS-NL-IX-RS
+mp-export:      afi ipv4.unicast to AS34307 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS34307 action pref=100; accept AS-NL-IX-RS
+mp-export:      afi ipv6.unicast to AS34307 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        XS4ALL
+mp-import:      afi ipv4.unicast from AS3265 action pref=100; accept AS-ACCESSFORALL
+mp-export:      afi ipv4.unicast to AS3265 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS3265 action pref=100; accept AS-ACCESSFORALL
+mp-export:      afi ipv6.unicast to AS3265 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        OTEGLOBE
+mp-import:      afi ipv4.unicast from AS12713 action pref=100; accept AS-OTEGLOBE
+mp-export:      afi ipv4.unicast to AS12713 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS12713 action pref=100; accept AS-OTEGLOBE
+mp-export:      afi ipv6.unicast to AS12713 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        TalkTalk
+mp-import:      afi ipv4.unicast from AS13285 action pref=100; accept AS-OPAL
+mp-export:      afi ipv4.unicast to AS13285 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS13285 action pref=100; accept AS-OPAL
+mp-export:      afi ipv6.unicast to AS13285 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Hurricane Electric
+mp-import:      afi ipv4.unicast from AS6939 action pref=100; accept AS-HURRICANE
+mp-export:      afi ipv4.unicast to AS6939 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6939 action pref=100; accept AS-HURRICANE
+mp-export:      afi ipv6.unicast to AS6939 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        InterBox Internet
+mp-import:      afi ipv4.unicast from AS16298 action pref=100; accept AS-INTERBOX
+mp-export:      afi ipv4.unicast to AS16298 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS16298 action pref=100; accept AS-INTERBOX
+mp-export:      afi ipv6.unicast to AS16298 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        OpenCarrier
+mp-import:      afi ipv4.unicast from AS41692 action pref=100; accept AS-OPENCARRIER AS-OPENCARRIER6
+mp-export:      afi ipv4.unicast to AS41692 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS41692 action pref=100; accept AS-OPENCARRIER AS-OPENCARRIER6
+mp-export:      afi ipv6.unicast to AS41692 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Plex
+mp-import:      afi ipv4.unicast from AS21478 action pref=100; accept AS-PLEX
+mp-export:      afi ipv4.unicast to AS21478 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS21478 action pref=100; accept AS-PLEX
+mp-export:      afi ipv6.unicast to AS21478 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        BIT
+mp-import:      afi ipv4.unicast from AS12859 action pref=100; accept AS-BIT AS-BIT6
+mp-export:      afi ipv4.unicast to AS12859 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS12859 action pref=100; accept AS-BIT AS-BIT6
+mp-export:      afi ipv6.unicast to AS12859 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        TNG
+mp-import:      afi ipv4.unicast from AS13101 action pref=100; accept AS-TNG AS-TNG-IPV6
+mp-export:      afi ipv4.unicast to AS13101 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS13101 action pref=100; accept AS-TNG AS-TNG-IPV6
+mp-export:      afi ipv6.unicast to AS13101 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Opteamax
+mp-import:      afi ipv4.unicast from AS48200 action pref=100; accept AS-OPTEAMAX-V4 AS-OPTEAMAX
+mp-export:      afi ipv4.unicast to AS48200 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS48200 action pref=100; accept AS-OPTEAMAX-V4 AS-OPTEAMAX
+mp-export:      afi ipv6.unicast to AS48200 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        IP-Max SA
+mp-import:      afi ipv4.unicast from AS25091 action pref=100; accept AS-IP-MAX
+mp-export:      afi ipv4.unicast to AS25091 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS25091 action pref=100; accept AS-IP-MAX
+mp-export:      afi ipv6.unicast to AS25091 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        info.nl
+mp-import:      afi ipv4.unicast from AS20953 action pref=100; accept AS-INFO
+mp-export:      afi ipv4.unicast to AS20953 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS20953 action pref=100; accept AS-INFO
+mp-export:      afi ipv6.unicast to AS20953 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        MaxiTEL
+mp-import:      afi ipv4.unicast from AS61349 action pref=100; accept AS-MAXITEL
+mp-export:      afi ipv4.unicast to AS61349 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS61349 action pref=100; accept AS-MAXITEL
+mp-export:      afi ipv6.unicast to AS61349 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        MCKAYCOM Ltd
+mp-import:      afi ipv4.unicast from AS50763 action pref=100; accept AS-MCKAY
+mp-export:      afi ipv4.unicast to AS50763 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS50763 action pref=100; accept AS-MCKAY
+mp-export:      afi ipv6.unicast to AS50763 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Packet Clearing House
+mp-import:      afi ipv4.unicast from AS42 action pref=100; accept AS-PCH
+mp-export:      afi ipv4.unicast to AS42 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS42 action pref=100; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS42 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Packet Clearing House
+mp-import:      afi ipv4.unicast from AS3856 action pref=100; accept AS-PCH
+mp-export:      afi ipv4.unicast to AS3856 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS3856 action pref=100; accept AS-PCH
+mp-export:      afi ipv6.unicast to AS3856 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        RUNNet
+mp-import:      afi ipv4.unicast from AS3267 action pref=100; accept AS-RUNNET
+mp-export:      afi ipv4.unicast to AS3267 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS3267 action pref=100; accept AS-RUNNET
+mp-export:      afi ipv6.unicast to AS3267 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Trans-iX
+mp-import:      afi ipv4.unicast from AS30870 action pref=100; accept AS-TRANSIX
+mp-export:      afi ipv4.unicast to AS30870 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS30870 action pref=100; accept AS-TRANSIX
+mp-export:      afi ipv6.unicast to AS30870 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Liquid Telecom
+mp-import:      afi ipv4.unicast from AS30844 action pref=100; accept AS-LIQUID
+mp-export:      afi ipv4.unicast to AS30844 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS30844 action pref=100; accept AS-LIQUID
+mp-export:      afi ipv6.unicast to AS30844 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        MANDA
+mp-import:      afi ipv4.unicast from AS8365 action pref=100; accept AS-MANDA
+mp-export:      afi ipv4.unicast to AS8365 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8365 action pref=100; accept AS-MANDA
+mp-export:      afi ipv6.unicast to AS8365 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Colocenter.nl
+mp-import:      afi ipv4.unicast from AS58291 action pref=100; accept AS-COLOCENTER
+mp-export:      afi ipv4.unicast to AS58291 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS58291 action pref=100; accept AS-COLOCENTER
+mp-export:      afi ipv6.unicast to AS58291 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Interconnect Services
+mp-import:      afi ipv4.unicast from AS9150 action pref=100; accept AS-INTERCONNECT
+mp-export:      afi ipv4.unicast to AS9150 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS9150 action pref=100; accept AS-INTERCONNECT
+mp-export:      afi ipv6.unicast to AS9150 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        SIDN
+mp-import:      afi ipv4.unicast from AS1140 action pref=100; accept AS-SIDN
+mp-export:      afi ipv4.unicast to AS1140 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1140 action pref=100; accept AS-SIDN
+mp-export:      afi ipv6.unicast to AS1140 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        OpenPeering
+mp-import:      afi ipv4.unicast from AS20562 action pref=100; accept AS-OPENPEERING
+mp-export:      afi ipv4.unicast to AS20562 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS20562 action pref=100; accept AS-OPENPEERING
+mp-export:      afi ipv6.unicast to AS20562 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Solcon
+mp-import:      afi ipv4.unicast from AS12414 action pref=100; accept AS-SOLCON AS-SOLCON6
+mp-export:      afi ipv4.unicast to AS12414 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS12414 action pref=100; accept AS-SOLCON AS-SOLCON6
+mp-export:      afi ipv6.unicast to AS12414 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        UNET
+mp-import:      afi ipv4.unicast from AS29396 action pref=100; accept AS-UNET
+mp-export:      afi ipv4.unicast to AS29396 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS29396 action pref=100; accept AS-UNET
+mp-export:      afi ipv6.unicast to AS29396 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        OpenDNS
+mp-import:      afi ipv4.unicast from AS36692 action pref=100; accept AS-OPENDNS
+mp-export:      afi ipv4.unicast to AS36692 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS36692 action pref=100; accept AS-OPENDNS
+mp-export:      afi ipv6.unicast to AS36692 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        KPN
+mp-import:      afi ipv4.unicast from AS286 action pref=100; accept AS-KPN
+mp-export:      afi ipv4.unicast to AS286 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS286 action pref=100; accept AS-KPN
+mp-export:      afi ipv6.unicast to AS286 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Akamai
+mp-import:      afi ipv4.unicast from AS20940 action pref=100; accept AS-AKAMAI
+mp-export:      afi ipv4.unicast to AS20940 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS20940 action pref=100; accept AS-AKAMAI
+mp-export:      afi ipv6.unicast to AS20940 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        RIPE NCC RIS Project
+mp-import:      afi ipv4.unicast from AS12654 action pref=100; accept AS12654:RS-RIS
+mp-export:      afi ipv4.unicast to AS12654 announce ANY
+mp-import:      afi ipv6.unicast from AS12654 action pref=100; accept AS12654:RS-RIS
+mp-export:      afi ipv6.unicast to AS12654 announce ANY
+remarks:
+remarks:        Netflix
+mp-import:      afi ipv4.unicast from AS2906 action pref=100; accept AS-NFLX
+mp-export:      afi ipv4.unicast to AS2906 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS2906 action pref=100; accept AS-NFLX
+mp-export:      afi ipv6.unicast to AS2906 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Media Network Services
+mp-import:      afi ipv4.unicast from AS44654 action pref=100; accept AS-MNS
+mp-export:      afi ipv4.unicast to AS44654 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS44654 action pref=100; accept AS-MNS
+mp-export:      afi ipv6.unicast to AS44654 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        PT Comunicacoes S.A.
+mp-import:      afi ipv4.unicast from AS8657 action pref=100; accept AS-CPRM
+mp-export:      afi ipv4.unicast to AS8657 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8657 action pref=100; accept AS-CPRM
+mp-export:      afi ipv6.unicast to AS8657 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        NTT
+mp-import:      afi ipv4.unicast from AS2914 action pref=100; accept AS2914:AS-GLOBAL
+mp-export:      afi ipv4.unicast to AS2914 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS2914 action pref=100; accept AS2914:AS-GLOBAL
+mp-export:      afi ipv6.unicast to AS2914 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Not Surfnet
+mp-import:      afi ipv4.unicast from AS1101 action pref=100; accept AS-NOTSURFNET
+mp-export:      afi ipv4.unicast to AS1101 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1101 action pref=100; accept AS-NOTSURFNET
+mp-export:      afi ipv6.unicast to AS1101 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Breedband Nederland
+mp-import:      afi ipv4.unicast from AS5524 action pref=100; accept AS-BREEDBANDNEDERLAND
+mp-export:      afi ipv4.unicast to AS5524 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS5524 action pref=100; accept AS-BREEDBANDNEDERLAND
+mp-export:      afi ipv6.unicast to AS5524 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Leaseweb
+mp-import:      afi ipv4.unicast from AS16265 action pref=100; accept AS-LEASEWEB
+mp-export:      afi ipv4.unicast to AS16265 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS16265 action pref=100; accept AS-LEASEWEB
+mp-export:      afi ipv6.unicast to AS16265 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Init7
+mp-import:      afi ipv4.unicast from AS13030 action pref=100; accept AS-INIT7
+mp-export:      afi ipv4.unicast to AS13030 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS13030 action pref=100; accept AS-INIT7
+mp-export:      afi ipv6.unicast to AS13030 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Apple Inc
+mp-import:      afi ipv4.unicast from AS714 action pref=100; accept AS-APPLE
+mp-export:      afi ipv4.unicast to AS714 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS714 action pref=100; accept AS-APPLE
+mp-export:      afi ipv6.unicast to AS714 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Duocast
+mp-import:      afi ipv4.unicast from AS31477 action pref=100; accept AS-DUOCAST
+mp-export:      afi ipv4.unicast to AS31477 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS31477 action pref=100; accept AS-DUOCAST
+mp-export:      afi ipv6.unicast to AS31477 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        iunxi BV
+mp-import:      afi ipv4.unicast from AS34968 action pref=100; accept AS-IUNXI
+mp-export:      afi ipv4.unicast to AS34968 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS34968 action pref=100; accept AS-IUNXI
+mp-export:      afi ipv6.unicast to AS34968 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Dataweb
+mp-import:      afi ipv4.unicast from AS35332 action pref=100; accept AS-DATAWEB
+mp-export:      afi ipv4.unicast to AS35332 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS35332 action pref=100; accept AS-DATAWEB
+mp-export:      afi ipv6.unicast to AS35332 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Strato
+mp-import:      afi ipv4.unicast from AS6724 action pref=100; accept AS-STRATORZ
+mp-export:      afi ipv4.unicast to AS6724 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6724 action pref=100; accept AS-STRATORZ
+mp-export:      afi ipv6.unicast to AS6724 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Tuxis Internet Engineering
+mp-import:      afi ipv4.unicast from AS197731 action pref=100; accept AS-TUXIS
+mp-export:      afi ipv4.unicast to AS197731 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS197731 action pref=100; accept AS-TUXIS
+mp-export:      afi ipv6.unicast to AS197731 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        CAIW
+mp-import:      afi ipv4.unicast from AS15435 action pref=100; accept AS-KABELFOON
+mp-export:      afi ipv4.unicast to AS15435 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS15435 action pref=100; accept AS-KABELFOON
+mp-export:      afi ipv6.unicast to AS15435 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        NORDUNet
+mp-import:      afi ipv4.unicast from AS2603 action pref=100; accept AS-NORDUNET
+mp-export:      afi ipv4.unicast to AS2603 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS2603 action pref=100; accept AS-NORDUNET
+mp-export:      afi ipv6.unicast to AS2603 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Aire Networks del Mediterraneo S.L.U.
+mp-import:      afi ipv4.unicast from AS29119 action pref=100; accept AS-SERVIHOSTING
+mp-export:      afi ipv4.unicast to AS29119 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS29119 action pref=100; accept AS-SERVIHOSTING
+mp-export:      afi ipv6.unicast to AS29119 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        CESNET z.s.p.o.
+mp-import:      afi ipv4.unicast from AS2852 action pref=100; accept AS-CESNET
+mp-export:      afi ipv4.unicast to AS2852 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS2852 action pref=100; accept AS-CESNET
+mp-export:      afi ipv6.unicast to AS2852 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Kabel Deutschland
+mp-import:      afi ipv4.unicast from AS31334 action pref=100; accept AS-KDG
+mp-export:      afi ipv4.unicast to AS31334 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS31334 action pref=100; accept AS-KDG
+mp-export:      afi ipv6.unicast to AS31334 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Internet Systems Consortium, F-Root Operator
+mp-import:      afi ipv4.unicast from AS30132 action pref=100; accept AS30132:AS-SET
+mp-export:      afi ipv4.unicast to AS30132 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS30132 action pref=100; accept AS30132:AS-SET
+mp-export:      afi ipv6.unicast to AS30132 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Telenor
+mp-import:      afi ipv4.unicast from AS2119 action pref=100; accept AS-TELENOR
+mp-export:      afi ipv4.unicast to AS2119 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS2119 action pref=100; accept AS-TELENOR
+mp-export:      afi ipv6.unicast to AS2119 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        T-mobile thuis
+mp-import:      afi ipv4.unicast from AS50266 action pref=100; accept AS-PROJECTJAGUAR
+mp-export:      afi ipv4.unicast to AS50266 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS50266 action pref=100; accept AS-PROJECTJAGUAR
+mp-export:      afi ipv6.unicast to AS50266 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Emirates Telecommunications Corporation
+mp-import:      afi ipv4.unicast from AS8966 action pref=100; accept AS-EMIX
+mp-export:      afi ipv4.unicast to AS8966 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8966 action pref=100; accept AS-EMIX
+mp-export:      afi ipv6.unicast to AS8966 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Gelderland Internet Exchange
+mp-import:      afi ipv4.unicast from AS43190 action pref=100; accept AS-GLIX
+mp-export:      afi ipv4.unicast to AS43190 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS43190 action pref=100; accept AS-GLIX
+mp-export:      afi ipv6.unicast to AS43190 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Afilias
+mp-import:      afi ipv4.unicast from AS12041 action pref=100; accept AS12041:AS-AFILIAS
+mp-export:      afi ipv4.unicast to AS12041 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS12041 action pref=100; accept AS12041:AS-AFILIAS
+mp-export:      afi ipv6.unicast to AS12041 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Jaguar Network
+mp-import:      afi ipv4.unicast from AS30781 action pref=100; accept AS-JAGUAR AS-JAGUAR-V6
+mp-export:      afi ipv4.unicast to AS30781 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS30781 action pref=100; accept AS-JAGUAR AS-JAGUAR-V6
+mp-export:      afi ipv6.unicast to AS30781 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        IP-Only
+mp-import:      afi ipv4.unicast from AS12552 action pref=100; accept AS-IPO
+mp-export:      afi ipv4.unicast to AS12552 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS12552 action pref=100; accept AS-IPO
+mp-export:      afi ipv6.unicast to AS12552 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        A2B Internet
+mp-import:      afi ipv4.unicast from AS51088 action pref=100; accept AS-A2B
+mp-export:      afi ipv4.unicast to AS51088 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS51088 action pref=100; accept AS-A2B
+mp-export:      afi ipv6.unicast to AS51088 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Netnod
+mp-import:      afi ipv4.unicast from AS8674 action pref=100; accept AS-NETNOD
+mp-export:      afi ipv4.unicast to AS8674 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8674 action pref=100; accept AS-NETNOD
+mp-export:      afi ipv6.unicast to AS8674 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        TransIP
+mp-import:      afi ipv4.unicast from AS20857 action pref=100; accept AS-TRANSIP
+mp-export:      afi ipv4.unicast to AS20857 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS20857 action pref=100; accept AS-TRANSIP
+mp-export:      afi ipv6.unicast to AS20857 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        OpenIT
+mp-import:      afi ipv4.unicast from AS20621 action pref=100; accept AS-OPENIT
+mp-export:      afi ipv4.unicast to AS20621 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS20621 action pref=100; accept AS-OPENIT
+mp-export:      afi ipv6.unicast to AS20621 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Iceland Telecom Ltd.
+mp-import:      afi ipv4.unicast from AS6677 action pref=100; accept AS-ICENET
+mp-export:      afi ipv4.unicast to AS6677 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6677 action pref=100; accept AS-ICENET
+mp-export:      afi ipv6.unicast to AS6677 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Viatel Ltd
+mp-import:      afi ipv4.unicast from AS31122 action pref=100; accept AS-DIGIWEB
+mp-export:      afi ipv4.unicast to AS31122 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS31122 action pref=100; accept AS-DIGIWEB
+mp-export:      afi ipv6.unicast to AS31122 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        IT-Ernity Internet Services B.V.
+mp-import:      afi ipv4.unicast from AS49685 action pref=100; accept AS-ITIS
+mp-export:      afi ipv4.unicast to AS49685 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS49685 action pref=100; accept AS-ITIS
+mp-export:      afi ipv6.unicast to AS49685 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        suec // dacor GmbH
+mp-import:      afi ipv4.unicast from AS28876 action pref=100; accept AS-SUEC-DACOR
+mp-export:      afi ipv4.unicast to AS28876 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS28876 action pref=100; accept AS-SUEC-DACOR
+mp-export:      afi ipv6.unicast to AS28876 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        MTS
+mp-import:      afi ipv4.unicast from AS8359 action pref=100; accept AS-MTU
+mp-export:      afi ipv4.unicast to AS8359 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8359 action pref=100; accept AS-MTU
+mp-export:      afi ipv6.unicast to AS8359 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Redraw Internet
+mp-import:      afi ipv4.unicast from AS31595 action pref=100; accept AS-AWELL
+mp-export:      afi ipv4.unicast to AS31595 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS31595 action pref=100; accept AS-AWELL
+mp-export:      afi ipv6.unicast to AS31595 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        1 and 1 internet
+mp-import:      afi ipv4.unicast from AS8560 action pref=100; accept AS-1AND1
+mp-export:      afi ipv4.unicast to AS8560 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8560 action pref=100; accept AS-1AND1
+mp-export:      afi ipv6.unicast to AS8560 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Amazon
+mp-import:      afi ipv4.unicast from AS16509 action pref=100; accept AS-AMAZON
+mp-export:      afi ipv4.unicast to AS16509 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS16509 action pref=100; accept AS-AMAZON
+mp-export:      afi ipv6.unicast to AS16509 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        GTT
+mp-import:      afi ipv4.unicast from AS3257 action pref=100; accept AS-TINET
+mp-export:      afi ipv4.unicast to AS3257 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS3257 action pref=100; accept AS-TINET
+mp-export:      afi ipv6.unicast to AS3257 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        BT
+mp-import:      afi ipv4.unicast from AS5400 action pref=100; accept AS-BT-EU
+mp-export:      afi ipv4.unicast to AS5400 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS5400 action pref=100; accept AS-BT-EU
+mp-export:      afi ipv6.unicast to AS5400 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Core Backbone GmbH
+mp-import:      afi ipv4.unicast from AS33891 action pref=100; accept AS-CORE-BACKBONE
+mp-export:      afi ipv4.unicast to AS33891 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS33891 action pref=100; accept AS-CORE-BACKBONE
+mp-export:      afi ipv6.unicast to AS33891 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Booking.com
+mp-import:      afi ipv4.unicast from AS43996 action pref=100; accept AS-BOOKING
+mp-export:      afi ipv4.unicast to AS43996 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS43996 action pref=100; accept AS-BOOKING
+mp-export:      afi ipv6.unicast to AS43996 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        PCCW Global
+mp-import:      afi ipv4.unicast from AS3491 action pref=100; accept AS-CAIS
+mp-export:      afi ipv4.unicast to AS3491 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS3491 action pref=100; accept AS-CAIS
+mp-export:      afi ipv6.unicast to AS3491 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        BGPMUX / PEERING TestBed
+mp-import:      afi ipv4.unicast from AS47065 action pref=100; accept AS-PEERING-TESTBED
+mp-export:      afi ipv4.unicast to AS47065 announce ANY
+mp-import:      afi ipv6.unicast from AS47065 action pref=100; accept AS-PEERING-TESTBED
+mp-export:      afi ipv6.unicast to AS47065 announce ANY
+remarks:
+remarks:        AS112 Project (Hosted by RIPE NCC at AMS-IX)
+mp-import:      afi ipv4.unicast from AS112 action pref=100; accept AS112
+mp-export:      afi ipv4.unicast to AS112 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS112 action pref=100; accept AS112
+mp-export:      afi ipv6.unicast to AS112 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Claranet Ltd.
+mp-import:      afi ipv4.unicast from AS8426 action pref=100; accept AS-CLARANET
+mp-export:      afi ipv4.unicast to AS8426 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8426 action pref=100; accept AS-CLARANET
+mp-export:      afi ipv6.unicast to AS8426 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        ISP Alliance a.s.
+mp-import:      afi ipv4.unicast from AS47232 action pref=100; accept AS-ISPALLIANCE-CZ
+mp-export:      afi ipv4.unicast to AS47232 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS47232 action pref=100; accept AS-ISPALLIANCE-CZ
+mp-export:      afi ipv6.unicast to AS47232 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Microsoft
+mp-import:      afi ipv4.unicast from AS8075 action pref=100; accept AS-MICROSOFT
+mp-export:      afi ipv4.unicast to AS8075 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8075 action pref=100; accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Linkedin
+mp-import:      afi ipv4.unicast from AS14413 action pref=100; accept AS-LINKEDIN
+mp-export:      afi ipv4.unicast to AS14413 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS14413 action pref=100; accept AS-LINKEDIN
+mp-export:      afi ipv6.unicast to AS14413 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Nextlayer.at
+mp-import:      afi ipv4.unicast from AS1764 action pref=100; accept AS-NEXTLAYER AS-NEXTLAYER-V6
+mp-export:      afi ipv4.unicast to AS1764 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1764 action pref=100; accept AS-NEXTLAYER AS-NEXTLAYER-V6
+mp-export:      afi ipv6.unicast to AS1764 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Serverius
+mp-import:      afi ipv4.unicast from AS50673 action pref=100; accept AS-SERVERIUS
+mp-export:      afi ipv4.unicast to AS50673 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS50673 action pref=100; accept AS-SERVERIUS
+mp-export:      afi ipv6.unicast to AS50673 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Wikimedia Foundation
+mp-import:      afi ipv4.unicast from AS14907 action pref=100; accept AS-WIKIMEDIA
+mp-export:      afi ipv4.unicast to AS14907 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS14907 action pref=100; accept AS-WIKIMEDIA
+mp-export:      afi ipv6.unicast to AS14907 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Hostserver.de
+mp-import:      afi ipv4.unicast from AS29140 action pref=100; accept AS-HOSTSERVER
+mp-export:      afi ipv4.unicast to AS29140 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS29140 action pref=100; accept AS-HOSTSERVER
+mp-export:      afi ipv6.unicast to AS29140 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Automattic Inc.
+mp-import:      afi ipv4.unicast from AS2635 action pref=100; accept AS2635
+mp-export:      afi ipv4.unicast to AS2635 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS2635 action pref=100; accept AS2635
+mp-export:      afi ipv6.unicast to AS2635 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        AFNIC
+mp-import:      afi ipv4.unicast from AS2484 action pref=100; accept AS-AFNIC
+mp-export:      afi ipv4.unicast to AS2484 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS2484 action pref=100; accept AS-AFNIC
+mp-export:      afi ipv6.unicast to AS2484 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        OVH
+mp-import:      afi ipv4.unicast from AS16276 action pref=100; accept AS-OVH
+mp-export:      afi ipv4.unicast to AS16276 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS16276 action pref=100; accept AS-OVH
+mp-export:      afi ipv6.unicast to AS16276 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        I3D
+mp-import:      afi ipv4.unicast from AS49544 action pref=100; accept AS-INTERACTIVE3D
+mp-export:      afi ipv4.unicast to AS49544 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS49544 action pref=100; accept AS-INTERACTIVE3D
+mp-export:      afi ipv6.unicast to AS49544 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Vodafone Group
+mp-import:      afi ipv4.unicast from AS1273 action pref=100; accept AS1273:AS-CWW AS1273:AS-CWW-V6
+mp-export:      afi ipv4.unicast to AS1273 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1273 action pref=100; accept AS1273:AS-CWW AS1273:AS-CWW-V6
+mp-export:      afi ipv6.unicast to AS1273 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        SOCO Network Solutions GmbH
+mp-import:      afi ipv4.unicast from AS12759 action pref=100; accept AS-SOCO
+mp-export:      afi ipv4.unicast to AS12759 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS12759 action pref=100; accept AS-SOCO
+mp-export:      afi ipv6.unicast to AS12759 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Cambrium
+mp-import:      afi ipv4.unicast from AS25596 action pref=100; accept AS-CAMBRIUM
+mp-export:      afi ipv4.unicast to AS25596 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS25596 action pref=100; accept AS-CAMBRIUM
+mp-export:      afi ipv6.unicast to AS25596 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Zayo France
+mp-import:      afi ipv4.unicast from AS8218 action pref=100; accept AS-NEOT AS-NEOT6 AS8218:AS-CUSTOMERS
+mp-export:      afi ipv4.unicast to AS8218 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8218 action pref=100; accept AS-NEOT AS-NEOT6 AS8218:AS-CUSTOMERS
+mp-export:      afi ipv6.unicast to AS8218 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Cloudflare
+mp-import:      afi ipv4.unicast from AS13335 action pref=100; accept AS-CLOUDFLARE
+mp-export:      afi ipv4.unicast to AS13335 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS13335 action pref=100; accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Facebook
+mp-import:      afi ipv4.unicast from AS32934 action pref=100; accept AS-FACEBOOK
+mp-export:      afi ipv4.unicast to AS32934 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS32934 action pref=100; accept AS-FACEBOOK
+mp-export:      afi ipv6.unicast to AS32934 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Esprit Telecom
+mp-import:      afi ipv4.unicast from AS8608 action pref=100; accept AS-QINIP
+mp-export:      afi ipv4.unicast to AS8608 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8608 action pref=100; accept AS-QINIP
+mp-export:      afi ipv6.unicast to AS8608 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Liberty Global
+mp-import:      afi ipv4.unicast from AS6830 action pref=100; accept AS-AORTA AS-AORTA6
+mp-export:      afi ipv4.unicast to AS6830 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6830 action pref=100; accept AS-AORTA AS-AORTA6
+mp-export:      afi ipv6.unicast to AS6830 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Zayo / Abovenet
+mp-import:      afi ipv4.unicast from AS6461 action pref=100; accept AS-MFNX
+mp-export:      afi ipv4.unicast to AS6461 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6461 action pref=100; accept AS-MFNX
+mp-export:      afi ipv6.unicast to AS6461 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Deutsche Telekom
+mp-import:      afi ipv4.unicast from AS3320 action pref=100; accept AS3320:AS-DTAG AS3320:AS-CUSTOMERS-V6
+mp-export:      afi ipv4.unicast to AS3320 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS3320 action pref=100; accept AS3320:AS-DTAG AS3320:AS-CUSTOMERS-V6
+mp-export:      afi ipv6.unicast to AS3320 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        TeliaSonera International Carrier
+mp-import:      afi ipv4.unicast from AS1299 action pref=100; accept AS-TELIANET AS-TELIANET-V6
+mp-export:      afi ipv4.unicast to AS1299 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1299 action pref=100; accept AS-TELIANET AS-TELIANET-V6
+mp-export:      afi ipv6.unicast to AS1299 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        ColocationIX
+mp-import:      afi ipv4.unicast from AS61955 action pref=100; accept AS-COLOCATIONIX
+mp-export:      afi ipv4.unicast to AS61955 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS61955 action pref=100; accept AS-COLOCATIONIX
+mp-export:      afi ipv6.unicast to AS61955 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        NFOrce Entertainment B.V.
+mp-import:      afi ipv4.unicast from AS43350 action pref=100; accept AS-NFORCE
+mp-export:      afi ipv4.unicast to AS43350 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS43350 action pref=100; accept AS-NFORCE
+mp-export:      afi ipv6.unicast to AS43350 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Knipp Medien und Kommunikation GmbH
+mp-import:      afi ipv4.unicast from AS48519 action pref=100; accept AS-IRONDNS AS-IRONDNS-V6
+mp-export:      afi ipv4.unicast to AS48519 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS48519 action pref=100; accept AS-IRONDNS AS-IRONDNS-V6
+mp-export:      afi ipv6.unicast to AS48519 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Qonnected B.V.
+mp-import:      afi ipv4.unicast from AS200023 action pref=100; accept AS200023
+mp-export:      afi ipv4.unicast to AS200023 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS200023 action pref=100; accept AS200023
+mp-export:      afi ipv6.unicast to AS200023 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Computerline Group
+mp-import:      afi ipv4.unicast from AS41913 action pref=100; accept AS-COMPUTERLINE
+mp-export:      afi ipv4.unicast to AS41913 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS41913 action pref=100; accept AS-COMPUTERLINE
+mp-export:      afi ipv6.unicast to AS41913 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Nianet A/S
+mp-import:      afi ipv4.unicast from AS31027 action pref=100; accept AS-NIANET
+mp-export:      afi ipv4.unicast to AS31027 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS31027 action pref=100; accept AS-NIANET
+mp-export:      afi ipv6.unicast to AS31027 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Level3
+mp-import:      afi ipv4.unicast from AS3356 action pref=100; accept ANY
+mp-export:      afi ipv4.unicast to AS3356 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS3356 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Micron21
+mp-import:      afi ipv4.unicast from AS38880 action pref=100; accept AS-M21
+mp-export:      afi ipv4.unicast to AS38880 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS38880 action pref=100; accept AS-M21
+mp-export:      afi ipv6.unicast to AS38880 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Sprint
+mp-import:      afi ipv4.unicast from AS1239 action pref=100; accept ANY
+mp-export:      afi ipv4.unicast to AS1239 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1239 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS1239 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Twitch / Justin.tv
+mp-import:      afi ipv4.unicast from AS46489 action pref=100; accept AS-TWITCH
+mp-export:      afi ipv4.unicast to AS46489 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS46489 action pref=100; accept AS-TWITCH
+mp-export:      afi ipv6.unicast to AS46489 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Global Network Management
+mp-import:      afi ipv4.unicast from AS31500 action pref=100; accept AS-GLOBAL-NET
+mp-export:      afi ipv4.unicast to AS31500 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS31500 action pref=100; accept AS-GLOBAL-NET
+mp-export:      afi ipv6.unicast to AS31500 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Digital Telecommunication Services S.r.l.
+mp-import:      afi ipv4.unicast from AS49605 action pref=100; accept AS-DTSRETEIVO
+mp-export:      afi ipv4.unicast to AS49605 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS49605 action pref=100; accept AS-DTSRETEIVO
+mp-export:      afi ipv6.unicast to AS49605 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        SURFnet
+mp-import:      afi ipv4.unicast from AS1103 action pref=100; accept AS-SURFNET
+mp-export:      afi ipv4.unicast to AS1103 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1103 action pref=100; accept AS-SURFNET
+mp-export:      afi ipv6.unicast to AS1103 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        ZeelandNet
+mp-import:      afi ipv4.unicast from AS15542 action pref=100; accept AS-ZEELANDNET
+mp-export:      afi ipv4.unicast to AS15542 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS15542 action pref=100; accept AS-ZEELANDNET
+mp-export:      afi ipv6.unicast to AS15542 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        NovoServe
+mp-import:      afi ipv4.unicast from AS24875 action pref=100; accept AS-NOVOSERVE
+mp-export:      afi ipv4.unicast to AS24875 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS24875 action pref=100; accept AS-NOVOSERVE
+mp-export:      afi ipv6.unicast to AS24875 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        XO
+mp-import:      afi ipv4.unicast from AS2828 action pref=100; accept AS-XO
+mp-export:      afi ipv4.unicast to AS2828 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS2828 action pref=100; accept AS-XO
+mp-export:      afi ipv6.unicast to AS2828 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Yahoo
+mp-import:      afi ipv4.unicast from AS10310 action pref=100; accept AS-YAHOO
+mp-export:      afi ipv4.unicast to AS10310 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS10310 action pref=100; accept AS-YAHOO
+mp-export:      afi ipv6.unicast to AS10310 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        PCextreme
+mp-import:      afi ipv4.unicast from AS48635 action pref=100; accept AS-PCEXTREME
+mp-export:      afi ipv4.unicast to AS48635 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS48635 action pref=100; accept AS-PCEXTREME
+mp-export:      afi ipv6.unicast to AS48635 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Belgacom International Carrier Services (aka BICS)
+mp-import:      afi ipv4.unicast from AS6774 action pref=100; accept AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv4.unicast to AS6774 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6774 action pref=100; accept AS6774:AS-BICS-TRANSIT
+mp-export:      afi ipv6.unicast to AS6774 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Google
+mp-import:      afi ipv4.unicast from AS15169 action pref=100; accept AS-GOOGLE
+mp-export:      afi ipv4.unicast to AS15169 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS15169 action pref=100; accept AS-GOOGLE
+mp-export:      afi ipv6.unicast to AS15169 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Zain Group
+mp-import:      afi ipv4.unicast from AS59605 action pref=100; accept AS-ZAINGP
+mp-export:      afi ipv4.unicast to AS59605 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS59605 action pref=100; accept AS-ZAINGP
+mp-export:      afi ipv6.unicast to AS59605 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        SIG-Telecom
+mp-import:      afi ipv4.unicast from AS20932 action pref=100; accept AS-SIG-TELECOM
+mp-export:      afi ipv4.unicast to AS20932 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS20932 action pref=100; accept AS-SIG-TELECOM
+mp-export:      afi ipv6.unicast to AS20932 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Bandwidth Technologies
+mp-import:      afi ipv4.unicast from AS25369 action pref=100; accept AS-BANDWIDTH
+mp-export:      afi ipv4.unicast to AS25369 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS25369 action pref=100; accept AS-BANDWIDTH
+mp-export:      afi ipv6.unicast to AS25369 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Vivor
+mp-import:      afi ipv4.unicast from AS34942 action pref=100; accept AS-VIVOR
+mp-export:      afi ipv4.unicast to AS34942 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS34942 action pref=100; accept AS-VIVOR
+mp-export:      afi ipv6.unicast to AS34942 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Tata
+mp-import:      afi ipv4.unicast from AS6453 action pref=100; accept AS-GLOBEINTERNET
+mp-export:      afi ipv4.unicast to AS6453 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6453 action pref=100; accept AS-GLOBEINTERNET
+mp-export:      afi ipv6.unicast to AS6453 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Tele2 SWIPNet
+mp-import:      afi ipv4.unicast from AS1257 action pref=100; accept AS-TELE2
+mp-export:      afi ipv4.unicast to AS1257 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS1257 action pref=100; accept AS-TELE2
+mp-export:      afi ipv6.unicast to AS1257 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Weservit B.V.
+mp-import:      afi ipv4.unicast from AS198203 action pref=100; accept AS-ROUTELABEL
+mp-export:      afi ipv4.unicast to AS198203 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS198203 action pref=100; accept AS-ROUTELABEL
+mp-export:      afi ipv6.unicast to AS198203 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Fastly inc.
+mp-import:      afi ipv4.unicast from AS54113 action pref=100; accept AS-FASTLY
+mp-export:      afi ipv4.unicast to AS54113 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS54113 action pref=100; accept AS-FASTLY
+mp-export:      afi ipv6.unicast to AS54113 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Centurylink
+mp-import:      afi ipv4.unicast from AS3910 action pref=100; accept ANY
+mp-export:      afi ipv4.unicast to AS3910 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS3910 action pref=100; accept ANY
+mp-export:      afi ipv6.unicast to AS3910 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Workonline
+mp-import:      afi ipv4.unicast from AS37271 action pref=100; accept AS-WOLCOMM
+mp-export:      afi ipv4.unicast to AS37271 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS37271 action pref=100; accept AS-WOLCOMM
+mp-export:      afi ipv6.unicast to AS37271 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        PeakFactory
+mp-import:      afi ipv4.unicast from AS49206 action pref=100; accept AS-PEAKFACTORY
+mp-export:      afi ipv4.unicast to AS49206 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS49206 action pref=100; accept AS-PEAKFACTORY
+mp-export:      afi ipv6.unicast to AS49206 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        FusionMediaLimited
+mp-import:      afi ipv4.unicast from AS56647 action pref=100; accept AS56647
+mp-export:      afi ipv4.unicast to AS56647 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS56647 action pref=100; accept AS56647
+mp-export:      afi ipv6.unicast to AS56647 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        ISPrime
+mp-import:      afi ipv4.unicast from AS23393 action pref=100; accept AS-ISPRIME
+mp-export:      afi ipv4.unicast to AS23393 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS23393 action pref=100; accept AS-ISPRIME
+mp-export:      afi ipv6.unicast to AS23393 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Telecom Italia Sparkle
+mp-import:      afi ipv4.unicast from AS6762 action pref=100; accept AS-SEABONE
+mp-export:      afi ipv4.unicast to AS6762 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS6762 action pref=100; accept AS-SEABONE
+mp-export:      afi ipv6.unicast to AS6762 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        packet.net
+mp-import:      afi ipv4.unicast from AS54825 action pref=100; accept AS54825
+mp-export:      afi ipv4.unicast to AS54825 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS54825 action pref=100; accept AS54825
+mp-export:      afi ipv6.unicast to AS54825 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Telxius
+mp-import:      afi ipv4.unicast from AS12956 action pref=100; accept AS-TDATANET
+mp-export:      afi ipv4.unicast to AS12956 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS12956 action pref=100; accept AS-TDATANET
+mp-export:      afi ipv6.unicast to AS12956 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Asteroid Route Collector
+mp-import:      afi ipv4.unicast from AS59964 action pref=100; accept AS-NULL
+mp-export:      afi ipv4.unicast to AS59964 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS59964 action pref=100; accept AS-NULL
+mp-export:      afi ipv6.unicast to AS59964 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Asteroid MLP Route Server
+mp-import:      afi ipv4.unicast from AS41693 action pref=100; accept AS-ASTEROID_RS_AMSTERDAM
+mp-export:      afi ipv4.unicast to AS41693 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS41693 action pref=100; accept AS-ASTEROID_RS_AMSTERDAM
+mp-export:      afi ipv6.unicast to AS41693 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Twitter
+mp-import:      afi ipv4.unicast from AS13414 action pref=100; accept AS-TWITTER
+mp-export:      afi ipv4.unicast to AS13414 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS13414 action pref=100; accept AS-TWITTER
+mp-export:      afi ipv6.unicast to AS13414 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Stefan6 Network
+mp-import:      afi ipv4.unicast from AS205591 action pref=100; accept AS-STEFAN6
+mp-export:      afi ipv4.unicast to AS205591 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS205591 action pref=100; accept AS-STEFAN6
+mp-export:      afi ipv6.unicast to AS205591 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        SPEED-IX route server peers
+mp-import:      afi ipv4.unicast from AS41441 action pref=100; accept AS-IX
+mp-export:      afi ipv4.unicast to AS41441 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS41441 action pref=100; accept AS-IX
+mp-export:      afi ipv6.unicast to AS41441 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        M&M NETWORKS
+mp-import:      afi ipv4.unicast from AS206499 action pref=100; accept AS-MMNETWORKS
+mp-export:      afi ipv4.unicast to AS206499 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS206499 action pref=100; accept AS-MMNETWORKS
+mp-export:      afi ipv6.unicast to AS206499 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        JPBE Network
+mp-import:      afi ipv4.unicast from AS206479 action pref=100; accept AS-JPBE
+mp-export:      afi ipv4.unicast to AS206479 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS206479 action pref=100; accept AS-JPBE
+mp-export:      afi ipv6.unicast to AS206479 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Freifunk Nordwest e.V
+mp-import:      afi ipv4.unicast from AS206313 action pref=100; accept AS-FFNW
+mp-export:      afi ipv4.unicast to AS206313 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS206313 action pref=100; accept AS-FFNW
+mp-export:      afi ipv6.unicast to AS206313 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        e-utp.net
+mp-import:      afi ipv4.unicast from AS56662 action pref=100; accept AS-EUTPNET
+mp-export:      afi ipv4.unicast to AS56662 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS56662 action pref=100; accept AS-EUTPNET
+mp-export:      afi ipv6.unicast to AS56662 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Chinacache
+mp-import:      afi ipv4.unicast from AS63541 action pref=100; accept AS63541
+mp-export:      afi ipv4.unicast to AS63541 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS63541 action pref=100; accept AS63541
+mp-export:      afi ipv6.unicast to AS63541 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Belcloud
+mp-import:      afi ipv4.unicast from AS44901 action pref=100; accept AS44901
+mp-export:      afi ipv4.unicast to AS44901 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS44901 action pref=100; accept AS44901
+mp-export:      afi ipv6.unicast to AS44901 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        BlackGATE BV
+mp-import:      afi ipv4.unicast from AS201290 action pref=100; accept AS-BLACKGATE
+mp-export:      afi ipv4.unicast to AS201290 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS201290 action pref=100; accept AS-BLACKGATE
+mp-export:      afi ipv6.unicast to AS201290 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        T-2 d.o.o.
+mp-import:      afi ipv4.unicast from AS34779 action pref=100; accept AS-T2-CUST
+mp-export:      afi ipv4.unicast to AS34779 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS34779 action pref=100; accept AS-T2-CUST
+mp-export:      afi ipv6.unicast to AS34779 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Canadian Internet Registration Authority
+mp-import:      afi ipv4.unicast from AS55195 action pref=100; accept AS55195
+mp-export:      afi ipv4.unicast to AS55195 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS55195 action pref=100; accept AS55195
+mp-export:      afi ipv6.unicast to AS55195 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Dropbox Inc
+mp-import:      afi ipv4.unicast from AS19679 action pref=100; accept AS-DROPBOX
+mp-export:      afi ipv4.unicast to AS19679 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS19679 action pref=100; accept AS-DROPBOX
+mp-export:      afi ipv6.unicast to AS19679 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Freifunk Rheinland e.V.
+mp-import:      afi ipv4.unicast from AS201701 action pref=100; accept AS-FFRL
+mp-export:      afi ipv4.unicast to AS201701 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS201701 action pref=100; accept AS-FFRL
+mp-export:      afi ipv6.unicast to AS201701 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Amsio B.V.
+mp-import:      afi ipv4.unicast from AS8315 action pref=100; accept AS8315:AS-AMSIO
+mp-export:      afi ipv4.unicast to AS8315 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS8315 action pref=100; accept AS8315:AS-AMSIO
+mp-export:      afi ipv6.unicast to AS8315 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        myLoc managed IT AG
+mp-import:      afi ipv4.unicast from AS24961 action pref=100; accept AS-MYLOC
+mp-export:      afi ipv4.unicast to AS24961 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS24961 action pref=100; accept AS-MYLOC
+mp-export:      afi ipv6.unicast to AS24961 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Redhosting B.V.
+mp-import:      afi ipv4.unicast from AS39647 action pref=100; accept AS-REDHOSTING
+mp-export:      afi ipv4.unicast to AS39647 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS39647 action pref=100; accept AS-REDHOSTING
+mp-export:      afi ipv6.unicast to AS39647 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Chronos
+mp-import:      afi ipv4.unicast from AS202365 action pref=100; accept AS-CHRONOS
+mp-export:      afi ipv4.unicast to AS202365 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS202365 action pref=100; accept AS-CHRONOS
+mp-export:      afi ipv6.unicast to AS202365 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Servperso-Systems
+mp-import:      afi ipv4.unicast from AS205523 action pref=100; accept AS-SERVPERSO
+mp-export:      afi ipv4.unicast to AS205523 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS205523 action pref=100; accept AS-SERVPERSO
+mp-export:      afi ipv6.unicast to AS205523 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Stichting Nationale Beheersorganisatie Internet Providers (NBIP)
+mp-import:      afi ipv4.unicast from AS200020 action pref=100; accept AS-NBIP AS-NBIP6
+mp-export:      afi ipv4.unicast to AS200020 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS200020 action pref=100; accept AS-NBIP AS-NBIP6
+mp-export:      afi ipv6.unicast to AS200020 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Hetzner Online GmbH
+mp-import:      afi ipv4.unicast from AS24940 action pref=100; accept AS-HETZNER
+mp-export:      afi ipv4.unicast to AS24940 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS24940 action pref=100; accept AS-HETZNER
+mp-export:      afi ipv6.unicast to AS24940 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Valve Corporation
+mp-import:      afi ipv4.unicast from AS32590 action pref=100; accept AS-VALVE
+mp-export:      afi ipv4.unicast to AS32590 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS32590 action pref=100; accept AS-VALVE
+mp-export:      afi ipv6.unicast to AS32590 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Parknet F.M.B.A.
+mp-import:      afi ipv4.unicast from AS197301 action pref=100; accept AS-PARKNET
+mp-export:      afi ipv4.unicast to AS197301 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS197301 action pref=100; accept AS-PARKNET
+mp-export:      afi ipv6.unicast to AS197301 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        GitHub Inc.
+mp-import:      afi ipv4.unicast from AS36459 action pref=100; accept AS-GITHUB
+mp-export:      afi ipv4.unicast to AS36459 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS36459 action pref=100; accept AS-GITHUB
+mp-export:      afi ipv6.unicast to AS36459 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        CLOUDITY Network
+mp-import:      afi ipv4.unicast from AS44222 action pref=100; accept AS-CLOUDITY
+mp-export:      afi ipv4.unicast to AS44222 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS44222 action pref=100; accept AS-CLOUDITY
+mp-export:      afi ipv6.unicast to AS44222 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Marlinc
+mp-import:      afi ipv4.unicast from AS60927 action pref=100; accept AS60927:AS-MARLINC
+mp-export:      afi ipv4.unicast to AS60927 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS60927 action pref=100; accept AS60927:AS-MARLINC
+mp-export:      afi ipv6.unicast to AS60927 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        AltusHost B.V.
+mp-import:      afi ipv4.unicast from AS51430 action pref=100; accept AS51430
+mp-export:      afi ipv4.unicast to AS51430 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS51430 action pref=100; accept AS51430
+mp-export:      afi ipv6.unicast to AS51430 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        Rick Bakker
+mp-import:      afi ipv4.unicast from AS204526 action pref=100; accept AS-BAKKER
+mp-export:      afi ipv4.unicast to AS204526 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS204526 action pref=100; accept AS-BAKKER
+mp-export:      afi ipv6.unicast to AS204526 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        BGP Consultancy Pte Ltd
+mp-import:      afi ipv4.unicast from AS64050 action pref=100; accept AS64050
+mp-export:      afi ipv4.unicast to AS64050 announce AS8283:AS-COLOCLUE
+mp-import:      afi ipv6.unicast from AS64050 action pref=100; accept AS64050
+mp-export:      afi ipv6.unicast to AS64050 announce AS8283:AS-COLOCLUE
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        Peering with Coloclue
+remarks:
+remarks:        Coloclue is present at the following exchanges:
+remarks:        AMS-IX: 80.249.211.161 / 2001:7f8:1::a500:8283:1
+remarks:        NL-IX: 193.239.117.111 / 2001:7f8:13::a500:8283:1
+remarks:        NL-IX: 193.239.117.203 / 2001:7f8:13::a500:8283:2
+remarks:        Asteroid Amsterdam: 185.1.94.15 / 2001:7f8:b6::205b:1
+remarks:        SPEED-IX: 185.1.95.16 / 2001:7f8:b7::a500:8283:1
+remarks:
+remarks:        There are two methods:
+remarks:        Modern way:
+remarks:        - Send a pull request on github:
+remarks:        http://github.com/coloclue/peering
+remarks:        - Modify peers.yaml
+remarks:        - Wait for Travis' OK signal
+remarks:        - Peering establishes automatically!
+remarks:        Old-fashioned way:
+remarks:        - Send an email to routers@coloclue.net
+remarks:        - Please do include your as-set or route-set
+remarks:        - Wait for AS8283 engineer to update peers.yaml
+remarks:        -----------------------------------------------------
+remarks:        Abuse issues should be reported to abuse@coloclue.net
+remarks:        Abuse related e-mail to any other address(es)
+remarks:        will *not* be read
+remarks:        -----------------------------------------------------
+remarks:        Routing Policy
+remarks:
+remarks:        - All peering sessions are strictly filtered based on IRR data
+remarks:        - RPKI INVALID prefixes are rejected
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        BGP Communities and Traffic Engineering
+remarks:        =======================================
+remarks:
+remarks:        The following BGP Community scheme draws inspiration from:
+remarks:        draft-ietf-grow-large-communities-usage
+remarks:        https://tools.ietf.org/html/draft-ietf-grow-large-communities-usage
+remarks:
+remarks:        INFORMATIONAL COMMUNITIES:
+remarks:        ==========================
+remarks:        RFC 1997  | Large      | Meaning (Informational)
+remarks:        ----------|------------|-------------------------------------
+remarks:        8283:1    | 8283:0:1   | peering routes
+remarks:        8283:2    | 8283:0:2   | downstream routes
+remarks:        ----------+------------+-------------------------------------
+remarks:        8283:101  | 8283:5:1   | Accepted from peer because of valid IRR entry
+remarks:        8283:102  | 8283:5:2   | Accepted from peer because of valid ROA
+remarks:        8283:103  | 8283:5:3   | matching valid ROA exists
+remarks:        8283:104  | 8283:5:4   | Accepted while RPKI invalid because it is added to our whitelist
+remarks:        ----------+------------+-------------------------------------
+remarks:        8283:10   | 8283:6:10  | received from TRUE
+remarks:        8283:11   | 8283:6:11  | received from Atom86
+remarks:        8283:14   | 8283:6:14  | received from FiberRing
+remarks:        8283:15   | 8283:6:15  | received from Fusix
+remarks:        ----------+------------+-------------------------------------
+remarks:
+remarks:        | Rejection Reasons
+remarks:        ----------+------------+-------------------------------------
+remarks:        -         | 8283:7:1   | More specifics covering AS8283 space are considered hijacks
+remarks:        -         | 8283:7:2   | Somewhere in the AS_PATH a Bogon ASN is present (0, 23456, 64496..65534, 4200000000+)
+remarks:        -         | 8283:7:3   | The prefix is Bogon garbage (rfc1918, rfc4291 etc)
+remarks:        -         | 8283:7:4   | The prefix is an RPKI Invalid and as such rejected
+remarks:        -         | 8283:7:5   | The route's prefix length is unacceptable (too small or too large)
+remarks:        -         | 8283:7:6   | There is no IRR object that covers this route announcement
+remarks:        -         | 8283:7:7   | Coloclue member is not authorized to announce this route
+remarks:        ----------+------------+-------------------------------------
+remarks:
+remarks:        ACTION COMMUNITIES:
+remarks:        ===================
+remarks:        RFC 1997  | Large      | Meaning (Action)
+remarks:        ----------+------------+-------------------------------------
+remarks:        8283:50   | 8283:1:50  | Set LOCAL_PREF to 50 (default is 100)
+remarks:        8283:150  | 8283:1:150 | Set LOCAL_PREF to 150 (default is 100)
+remarks:        8283:202  | 8283:2:0   | Prepend 8283 once to all eBGP peers
+remarks:        -         | 8283:2:nnn | Prepend 8283 once to peer AS nnn
+remarks:        8283:203  | 8283:3:0   | Prepend 8283 twice to all eBGP peers
+remarks:        -         | 8283:3:nnn | Prepend 8283 twice to peer AS nnn
+remarks:        8283:204  | 8283:4:0   | Do not export to eBGP peers
+remarks:        -         | 8283:4:nnn | Do not export to peer AS nnn
+remarks:        65535:0   | -          | G-SHUT [draft-ietf-grow-bgp-gshut]
+remarks:        65535:666 | -          | BLACKHOLE [RFC 7999]
+remarks:        ----------+------------+-------------------------------------
+remarks:
+remarks:        MEMBERS ONLY:
+remarks:        =============
+remarks:        RFC 1997  | Large      | Meaning (Action)
+remarks:        ----------+------------+-------------------------------------
+remarks:        8283:50   | 8283:1:50  | Set LOCAL_PREF to 50 (default is 500)
+remarks:        | *** WARNING: default is 100 for other routes, so your prefixes may be become unreachable!
+remarks:        8283:450  | 8283:1:450 | Set LOCAL_PREF to 450 (default is 500)
+remarks:        8283:550  | 8283:1:550 | Set LOCAL_PREF to 550 (default is 500)
+remarks:        8283:301  | 8283:301:0 | Do not export to other Coloclue members
+remarks:        8283:302  | 8283:302:0 | Do not export to transit providers
+remarks:        8283:303  | 8283:303:0 | Do not export to direct peers
+remarks:        ----------+------------+-------------------------------------
+remarks:
+remarks:        Examples:
+remarks:        ---------
+remarks:        8283:2:3320   - prepend 8283 to AS 3320 (path on export will be 8283_8283_you)
+remarks:        8283:3:200023 - prepend 8283 to AS 200023 (path on export will be 8283_8283_8283_you)
+remarks:        8283:4:198203 - do not announce the route over any BGP sessions with AS 198203
+remarks:        (notice how you can 32-bit ASNs? :-)
+remarks:
+admin-c:        CLUE1-RIPE
+tech-c:         CLUE1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         COLOCLUE-MNT
+created:        2003-06-23T14:40:34Z
+last-modified:  2019-03-07T11:01:19Z
+source:         RIPE # Filtered
+
+organisation:   ORG-NC22-RIPE
+org-name:       Netwerkvereniging Coloclue
+org-type:       LIR
+address:        Frans Duwaerstraat 34
+address:        1318 AC
+address:        Almere
+address:        NETHERLANDS
+phone:          +31651387718
+admin-c:        CLUE1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        COLOCLUE-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         COLOCLUE-MNT
+abuse-c:        CLUE1-RIPE
+created:        2009-01-12T10:50:13Z
+last-modified:  2017-10-30T14:50:15Z
+source:         RIPE # Filtered
+
+role:           Netwerkvereniging Coloclue
+address:        Frans Duwaerstraat 34
+address:        1318AC Almere
+address:        Netherlands
+phone:          +31651387718
+abuse-mailbox:  abuse@coloclue.net
+remarks:        -----------------------------------------------------
+remarks:        Operational issues: routers@coloclue.net
+remarks:        Abuse issues: abuse@coloclue.net
+remarks:        -----------------------------------------------------
+admin-c:        PDW-RIPE
+admin-c:        MWTS1-RIPE
+admin-c:        NT1031-RIPE
+admin-c:        TIJN-RIPE
+tech-c:         NMR5-RIPE
+tech-c:         PDW-RIPE
+tech-c:         PEER-RIPE
+tech-c:         JVI-RIPE
+tech-c:         TIJN-RIPE
+tech-c:         JB17421-RIPE
+tech-c:         JL9785-RIPE
+admin-c:        MS44437-RIPE
+tech-c:         MS44437-RIPE
+tech-c:         mdf-ripe
+nic-hdl:        CLUE1-RIPE
+mnt-by:         COLOCLUE-MNT
+created:        2009-02-24T12:16:45Z
+last-modified:  2018-10-22T10:41:43Z
+source:         RIPE # Filtered
+
+% Information related to 'AS8192 - AS9215'
+
+as-block:       AS8192 - AS9215
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are further assigned to network
+                operators in the RIPE NCC service region. AS
+                assignment policy is documented in:
+                <http://www.ripe.net/ripe/docs/asn-assignment.html>
+                RIPE NCC members can request AS Numbers using the
+                form located at:
+                <http://lirportal.ripe.net/lirportal/liruser/resource_request/draw.html?name=as-number>
+remarks:        data has been transferred from RIPE Whois Database 20050221
+org:            ORG-AFNC1-AFRINIC
+mnt-by:         AFRINIC-HM-MNT
+mnt-lower:      AFRINIC-HM-MNT
+source:         AFRINIC-GRS
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the AFRINIC Database at:
+remarks:        * http://www.afrinic.net/
+remarks:        ****************************
+
+organisation:   ORG-AFNC1-AFRINIC
+org-name:       African Network Information Center - ( AfriNIC Ltd. )
+org-type:       RIR
+remarks:        =======================================
+remarks:        For more information on AFRINIC assigned blocks,
+remarks:        querry whois.afrinic.net port 43, or the web based
+remarks:        query at http://whois.afrinic.net or www.afrinic.net
+remarks:        website: www.afrinic.net
+remarks:        Other Contacts:
+remarks:        ===============
+remarks:        hostmaster@afrinic.net  - for IP resources
+remarks:        new-member@afrinic.net  - for new members and other
+remarks:        inquiries.
+address:        ***
+address:        ***
+address:        Ebne
+phone:          tel:+230.........
+fax-no:         tel:+230.........
+e-mail:         ***@afrinic.net
+admin-c:        CA15-AFRINIC
+tech-c:         IT7-AFRINIC
+mnt-ref:        AFRINIC-HM-MNT
+mnt-ref:        AFRINIC-IT-MNT
+mnt-ref:        AFRINIC-DB-MNT
+notify:         ***@afrinic.net
+mnt-by:         AFRINIC-HM-MNT
+source:         AFRINIC-GRS
+
+% This query was served by the RIPE Database Query Service version 1.93.2 (HEREFORD)
+
+

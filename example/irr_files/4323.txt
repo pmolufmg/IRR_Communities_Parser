@@ -1,0 +1,42 @@
+aut-num:    AS4323
+as-name:    TWTC
+descr:      Autonomous system for tw telecom AS4323.
+admin-c:    James Sella
+tech-c:     James Sella
+remarks:    Report network related issues to support@twtelecom.net or call (800)898-6473.
+            Peering requests should be directed to peering@twtelecom.net.
+            Please use abuse@twtelecom.net to report abuse/SPAM issues.
+remarks:    .
+            ==========================================================
+            Communities accepted from customers
+            ==========================================================
+            ---------------------------------------------------------
+            Local Preference.  (default is 115)
+            ---------------------------------------------------------
+            4323:70    =   Set local preference to 70
+            4323:80    =   Set local preference to 80
+            4323:90    =   Set local preference to 90
+            4323:100   =   Set local preference to 100
+            4323:102   =   Set local preference to 102
+            4323:105   =   Set local preference to 105
+            4323:108   =   Set local preference to 108
+            4323:110   =   Set local preference to 110
+            4323:115   =   Set local preference to 115
+            4323:120   =   Set local preference to 120
+            ----------------------------------------------------------
+            AS Path.
+            ----------------------------------------------------------
+            4323:1   =   prepend one time
+            4323:2   =   prepend two times
+            4323:3   =   prepend three times
+            ---------------------------------------------------------
+            Route Propogation.
+            ---------------------------------------------------------
+            4323:187   =   Blackhole traffic-- Used only for /32 announcements
+            4323:666   =   Only announce to TWTC and TWTC customers
+            4323:12    =    Ignore meds.  Sets med to 0
+            ==========================================================
+notify:     peering@twtelecom.net
+mnt-by:     MAINT-AS4323
+changed:    peering@twtelecom.net 20090406  #19:42:54Z
+source:     RADB

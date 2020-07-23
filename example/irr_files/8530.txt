@@ -1,0 +1,151 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8530'
+
+% Abuse contact for 'AS8530' is 'abuse@excellgroup.com'
+
+aut-num:        AS8530
+as-name:        EXCELL
+remarks:        ****************************************************************
+remarks:        Excell Group PLC
+remarks:        http://www.excellgroup.com
+remarks:        Phone: +442031761024
+remarks:        NOC Email: noc@excellgroup.com
+remarks:        Abuse Email: abuse@excellgroup.com
+remarks:        ****************************************************************
+remarks:        Peering policy is selective; we will peer where we see reasonable
+remarks:        traffic flows and it is beneficial to our business.
+remarks:        The peering policy is subject to change without notice.
+remarks:        ****************************************************************
+remarks:        BGP Communities Set On Ingress
+remarks:        ****************************************************************
+remarks:        Community Route Type
+remarks:        -----------------------------------------------
+remarks:        8530:2100 Local
+remarks:        8530:2110 Transit
+remarks:        8530:2120 Private Peer
+remarks:        8530:2130 IXP
+remarks:        8530:2150 Hosted
+remarks:        Community Transit Providers
+remarks:        -----------------------------------------------
+remarks:        8530:174 Cogent
+remarks:        8530:3356 CenturyLINK
+remarks:        8530:2914 NTT
+remarks:        Community Internet Exchange Points
+remarks:        -----------------------------------------------
+remarks:        8530:12536 Edge-IX
+remarks:        8530:8871 LoNAP
+remarks:        ****************************************************************
+remarks:        Customer Set-Attributes BGP Communities
+remarks:        ****************************************************************
+remarks:        Community Action
+remarks:        -----------------------------------------------
+remarks:        8530:9902 Set AS Pre-Pend X2 on Transit
+remarks:        8530:9903 Set AS Pre-Pend X3 on Transit
+remarks:        8530:9904 Set AS Pre-Pend X4 on Transit
+remarks:        8530:9050 Set Lower Local Preference 50
+remarks:        8530:9220 Set Higher Local Preference 220
+remarks:        8530:9999 Blackhole Route
+remarks:        ****************************************************************
+org:            ORG-EGP1-RIPE
+remarks:        ****************************************************************
+remarks:        Transit BGP Peers
+remarks:        ****************************************************************
+remarks:        ***COGENTCO***
+import:         from AS174 accept ANY
+export:         to AS174 announce AS8530 AS8530:AS-Customers AS8530:AS-Full-BGP-Customers
+remarks:        ***COGENTCO***
+remarks:        ***CENTURYLINK-OLD LEVEL3***
+import:         from AS3356 accept ANY
+export:         to AS3356 announce AS8530 AS8530:AS-Customers AS8530:AS-Full-BGP-Customers
+remarks:        ***CENTURYLINK-OLD LEVEL3***
+remarks:        ***NTT***
+import:         from AS2914 accept ANY
+export:         to AS2914 announce AS8530 AS8530:AS-Customers AS8530:AS-Full-BGP-Customers
+remarks:        ***NTT***
+remarks:        ****************************************************************
+remarks:        Private BGP Peers
+remarks:        ****************************************************************
+import:         from AS15773 accept <^AS15773+$>
+export:         to AS15773 announce AS8530
+import:         from AS43157 accept <^AS43157+$>
+import:         from AS202751 accept <^AS202751+$>
+export:         to AS202751 announce AS8530
+export:         to AS43157 announce AS8530
+import:         from AS200981 accept <^AS200981+$>
+export:         to AS200981 announce AS8530
+remarks:        AS200981 is GRAPEFRUIT
+remarks:        ****************************************************************
+remarks:        Customer BGP Peers
+remarks:        ****************************************************************
+import:         from AS8530:AS-Customers accept <^AS8530:AS-Customers+$>
+export:         to AS8530:AS-Customers announce {0.0.0.0/0}
+import:         from AS8530:AS-Full-BGP-Customers accept <^AS8530:AS-Full-BGP-Customers+$>
+export:         to AS8530:AS-Full-BGP-Customers announce ANY
+remarks:        ****************************************************************
+remarks:        IXP BGP Peers
+remarks:        ****************************************************************
+import:         from AS8530:AS-LONAP-Peers accept <AS8530:AS-LONAP-Peers>
+import:         from AS8530:AS-EDGE-IX-Peers accept <AS8530:AS-EDGE-IX-Peers>
+export:         to AS8530:AS-LONAP-Peers announce AS8530 AS8530:AS-Customers AS8530:AS-Full-BGP-Customers
+export:         to AS8530:AS-EDGE-IX-Peers announce AS8530 AS8530:AS-Customers AS8530:AS-Full-BGP-Customers
+admin-c:        ENOC3-RIPE
+tech-c:         ENOC3-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         EXCELL-UK-MNT
+created:        2006-11-01T10:17:52Z
+last-modified:  2018-09-04T10:19:48Z
+source:         RIPE
+
+organisation:   ORG-EGP1-RIPE
+org-name:       Excell Group PLC
+org-type:       LIR
+address:        UNIT 6 - LANGFORD ARCH LONDON ROAD
+address:        CB22 3FX
+address:        SAWSTON, CAMBRIDGE
+address:        UNITED KINGDOM
+phone:          +441223505050
+fax-no:         +441223505090
+admin-c:        ENOC3-RIPE
+abuse-c:        ENOC3-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        excell-uk-mnt
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         excell-uk-mnt
+created:        2005-07-05T06:47:55Z
+last-modified:  2018-02-23T15:36:33Z
+source:         RIPE # Filtered
+
+role:           Excell Network Operations Centre
+address:        9 Lower John Street, London, W1F 9DZ
+admin-c:        SJ2081-RIPE
+tech-c:         AT14552-RIPE
+tech-c:         LB9973-RIPE
+abuse-mailbox:  abuse@excellgroup.com
+nic-hdl:        ENOC3-RIPE
+mnt-by:         excell-uk-mnt
+created:        2010-02-09T10:57:18Z
+last-modified:  2018-02-23T15:35:55Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (ANGUS)
+
+

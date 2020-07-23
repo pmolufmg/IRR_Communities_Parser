@@ -1,0 +1,219 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS8525 - AS8769'
+
+as-block:       AS8525 - AS8769
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:23Z
+last-modified:  2018-11-22T15:27:23Z
+source:         RIPE
+
+% Information related to 'AS8615'
+
+% Abuse contact for 'AS8615' is 'abuse@cnt.ru'
+
+aut-num:        AS8615
+as-name:        CNT-AS
+descr:          Moscow, Russia
+org:            ORG-Ct3-RIPE
+descr:          ---
+descr:          UPLINKS:
+descr:          ---
+descr:          Rostelecom
+import:         from AS12389 action pref=100; accept ANY
+export:         to AS12389 announce AS-CNTPEERS
+descr:          ---
+descr:          PEERINGS:
+descr:          ---
+descr:          MSK-IX
+import:         from AS8631 action pref=117; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-CNTPEERS
+descr:          Mail.ru
+import:         from AS47764 action pref=119; accept AS-MAILRU
+export:         to AS47764 announce AS-CNTPEERS
+descr:          NetByNet
+import:         from AS12714 action pref=119; accept AS-TI
+export:         to AS12714 announce AS-CNTPEERS
+descr:          ---
+descr:          CLIENTS:
+descr:          ---
+import:         from AS8904 action pref=120; accept AS8904
+export:         to AS8904 announce ANY
+import:         from AS8395 action pref=120; accept AS-EAST
+export:         to AS8395 announce ANY
+import:         from AS15934 action pref=120; accept AS15934
+export:         to AS15934 announce ANY
+import:         from AS13105 action pref=120; accept AS-LUKOIL
+export:         to AS13105 announce ANY
+import:         from AS15682 action pref=120; accept AS-ITERANET
+export:         to AS15682 announce ANY
+import:         from AS21231 action pref=120; accept AS21231
+export:         to AS21231 announce ANY
+import:         from AS33899 action pref=120; accept AS33899
+export:         to AS33899 announce ANY
+import:         from AS34851 action pref=120; accept AS34851
+export:         to AS34851 announce ANY
+import:         from AS35768 action pref=120; accept AS-MSLINK
+export:         to AS35768 announce ANY
+import:         from AS41257 action pref=120; accept AS41257
+export:         to AS41257 announce ANY
+import:         from AS41443 action pref=120; accept AS41443
+export:         to AS41443 announce ANY
+import:         from AS42628 action pref=120; accept AS42628
+export:         to AS42628 announce ANY
+import:         from AS43095 action pref=120; accept AS43095
+export:         to AS43095 announce ANY
+import:         from AS44322 action pref=120; accept AS44322
+export:         to AS44322 announce ANY
+import:         from AS44362 action pref=120; accept AS-PENTABOX
+export:         to AS44362 announce ANY
+import:         from AS44816 action pref=120; accept AS-DELFINTELECOM
+export:         to AS44816 announce ANY
+import:         from AS45013 action pref=120; accept AS-ECONOTEL
+export:         to AS45013 announce ANY
+import:         from AS47260 action pref=120; accept AS47260
+export:         to AS47260 announce ANY
+import:         from AS47925 action pref=120; accept AS47925
+export:         to AS47925 announce ANY
+import:         from AS48379 action pref=120; accept AS48379
+export:         to AS48379 announce ANY
+import:         from AS50045 action pref=120; accept AS50045
+export:         to AS50045 announce ANY
+import:         from AS50212 action pref=120; accept AS50212
+export:         to AS50212 announce ANY
+import:         from AS50435 action pref=120; accept AS50435
+export:         to AS50435 announce ANY
+import:         from AS51077 action pref=120; accept AS51077
+export:         to AS51077 announce ANY
+import:         from AS51199 action pref=120; accept AS51199
+export:         to AS51199 announce ANY
+import:         from AS51860 action pref=120; accept AS-VDNH
+export:         to AS51860 announce ANY
+import:         from AS52096 action pref=120; accept AS52096
+export:         to AS52096 announce ANY
+import:         from AS52184 action pref=120; accept AS52184
+export:         to AS52184 announce ANY
+import:         from AS57512 action pref=120; accept AS57512
+export:         to AS57512 announce ANY
+import:         from AS57923 action pref=120; accept AS57923
+export:         to AS57923 announce ANY
+import:         from AS58072 action pref=120; accept AS58072
+export:         to AS58072 announce ANY
+import:         from AS58190 action pref=120; accept AS58190
+export:         to AS58190 announce ANY
+import:         from AS59412 action pref=120; accept AS59412
+export:         to AS59412 announce ANY
+import:         from AS59446 action pref=120; accept AS59446
+export:         to AS59446 announce ANY
+import:         from AS59801 action pref=120; accept AS59801
+export:         to AS59801 announce ANY
+import:         from AS60773 action pref=120; accept AS60773
+export:         to AS60773 announce ANY
+import:         from AS62286 action pref=120; accept AS-PREMCOM
+export:         to AS62286 announce ANY
+import:         from AS197018 action pref=120; accept AS197018
+export:         to AS197018 announce ANY
+import:         from AS197150 action pref=120; accept AS197150
+export:         to AS197150 announce ANY
+import:         from AS197632 action pref=120; accept AS197632
+export:         to AS197632 announce ANY
+import:         from AS198821 action pref=120; accept AS198821
+export:         to AS198821 announce ANY
+import:         from AS200515 action pref=120; accept AS200515
+export:         to AS200515 announce ANY
+import:         from AS201677 action pref=120; accept AS-TENEX
+export:         to AS201677 announce ANY
+import:         from AS201794 action pref=120; accept AS201794
+export:         to AS201794 announce ANY
+import:         from AS203891 action pref=120; accept AS203891
+export:         to AS203891 announce ANY
+import:         from AS204199 action pref=120; accept AS204199
+export:         to AS204199 announce ANY
+admin-c:        AAP43-RIPE
+tech-c:         VGS76-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+remarks:        This Autonomous System is present at M9-IX (Moscow/RU)
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+remarks:        BGP community support for transit customers.
+remarks:        Please contact noc@cnt.ru
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+remarks:        Routing issues: ipadm@cnt.ru
+remarks:        Peering issues: noc@cnt.ru
+remarks:        DNS issues: nsmaster@cnt.ru
+remarks:        Mail issues: postmaster@cnt.ru
+remarks:        SPAM&SCAN issues (PLEASE ONLY TO): abusedep@cnt.ru
+remarks:        Web issues: webmaster@cnt.ru
+remarks:        News issues: postmaster@cnt.ru
+remarks:        Customer support: helpdesk@cnt.ru
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+remarks:        Community
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+remarks:        Blackhole Community | 8615:666
+remarks:        - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+mnt-by:         CNT-MNT
+created:        2002-07-10T04:53:30Z
+last-modified:  2018-11-12T11:23:10Z
+source:         RIPE
+
+organisation:   ORG-Ct3-RIPE
+org-name:       "Central Telegraph" Public Joint-stock Company
+org-type:       LIR
+address:        7, Tverskaya street
+address:        125375,
+address:        Moscow
+address:        RUSSIAN FEDERATION
+phone:          +74955043810
+phone:          +74955044444
+fax-no:         +74955004644
+mnt-ref:        CNT-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+admin-c:        VVS115-RIPE
+admin-c:        LY10-RIPE
+admin-c:        AAP43-RIPE
+admin-c:        EVK10-RIPE
+admin-c:        VYK9-RIPE
+abuse-c:        CTRU-RIPE
+created:        2004-04-17T11:51:11Z
+last-modified:  2015-08-18T07:57:03Z
+source:         RIPE # Filtered
+
+person:         Alexey A Petrov
+address:        7, Tverskaya st.,
+address:        Central Telegraph, Moscow,
+address:        125375, Russia
+phone:          +7 495 504 3825
+nic-hdl:        AAP43-RIPE
+mnt-by:         CNT-MNT
+remarks:        Network Administrator
+created:        2004-06-17T13:15:46Z
+last-modified:  2017-08-25T12:15:16Z
+source:         RIPE # Filtered
+
+person:         Valeriy Suvorov
+address:        7, Tverskaya st.,
+address:        Central Telegraph, Moscow,
+address:        125375, Russia
+phone:          +7 495 504 4444
+nic-hdl:        VGS76-RIPE
+mnt-by:         CNT-MNT
+remarks:        Network Administrator
+created:        2017-06-24T21:18:39Z
+last-modified:  2017-06-24T21:18:39Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

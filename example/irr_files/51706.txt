@@ -1,0 +1,185 @@
+aut-num:        AS51706
+as-name:        FRANCE-IX-AS
+org:            ORG-FISS1-RIPE
+remarks:        -----------------------------------------------------
+remarks:        Information: http://www.franceix.net/
+remarks:        Peering requests: info@franceix.net
+remarks:        Members technical support: noc@franceix.net
+remarks:        -----------------------------------------------------
+remarks:        The following communities can be used by members on our Route-Servers:
+remarks:        *****************************************************
+remarks:        ** Note: These communities are evaluated
+remarks:        ** on a "first match win" basis
+remarks:        *****************************************************
+remarks:        0:peer-as = Don't send route to this peer as
+remarks:        51706:peer-as = Send route to this peer as
+remarks:        0:51706 = Don't send route to any peer
+remarks:        51706:51706 = Send route to all peers
+remarks:        *****************************************************
+remarks:        ** Note: the community (51706:51706) is applied
+remarks:        ** by default by the route-server
+remarks:        *****************************************************
+remarks:        65101:peer-as = Prepend 1x to this peer
+remarks:        65102:peer-as = Prepend 2x to this peer
+remarks:        65103:peer-as = Prepend 3x to this peer
+remarks:        65201:peer-as = Set MED 50 to this peer
+remarks:        65202:peer-as = Set MED 100 to this peer
+remarks:        65203:peer-as = Set MED 200 to this peer
+remarks:        -----------------------------------------------------
+remarks:        Set peer-as value as listed below for all IXP members:
+remarks:        (Can't be used for 51706:peer-as)
+remarks:        64649 = FranceIX Marseille peers
+remarks:        64650 = FranceIX Paris peers
+remarks:        64651 = SFINX peers
+remarks:        64652 = LyonIX peers
+remarks:        64653 = LU-CIX peers
+remarks:        64654 = TOP-IX peers
+remarks:        64655 = TOUIX peers
+remarks:        -----------------------------------------------------
+remarks:        Set peer-as value as listed below for 32 bits ASNs:
+remarks:        AS197422 -> AS64701 (Tetaneutral)
+remarks:        AS196689 -> AS64702 (Digicube)
+remarks:        AS197133 -> AS64703 (Mediactive)
+remarks:        AS197981 -> AS64704 (Intercloud)
+remarks:        AS196763 -> AS64705 (Key Systems Gmbh)
+remarks:        AS197692 -> AS64707 (Conostix)
+remarks:        AS198335 -> AS64708 (Transatel)
+remarks:        AS198111 -> AS64709 (IP Directions)
+remarks:        AS198290 -> AS64710 (Gits)
+remarks:        AS199660 -> AS64711 (Cloudata)
+remarks:        AS196983 -> AS64712 (Elsynet)
+remarks:        AS198191 -> AS64713 (Gms)
+remarks:        AS198545 -> AS64715 (Flexnetwork)
+remarks:        AS199125 -> AS64716 (Alliance Reseaux)
+remarks:        AS198792 -> AS64717 (Dstorage)
+remarks:        AS200116 -> AS64718 (Ioteo)
+remarks:        AS198287 -> AS64719 (Cnsi)
+remarks:        AS199383 -> AS64720 (Cmrp)
+remarks:        AS198551 -> AS64721 (Rezocean)
+remarks:        AS198184 -> AS64722 (Nexto)
+remarks:        AS198331 -> AS64723 (Premaccess)
+remarks:        AS197551 -> AS64724 (Ameos)
+remarks:        AS198435 -> AS64725 (Edxnet)
+remarks:        AS199396 -> AS64726 (Sameswireless)
+remarks:        AS197922 -> AS64727 (Firstheberg)
+remarks:        AS197696 -> AS64728 (Evolix)
+remarks:        AS199275 -> AS64729 (IPset)
+remarks:        AS202112 -> AS64730 (Ziron)
+remarks:        AS200050 -> AS64731 (ITSVision)
+remarks:        AS201324 -> AS64732 (Interxion Marseille)
+remarks:        AS201703 -> AS64733 (MHZ Bouteiller)
+remarks:        AS199121 -> AS64735 (FlexOptix)
+remarks:        AS197532 -> AS64736 (Oceanet)
+remarks:        AS200955 -> AS64737 (NSC Solutions)
+remarks:        AS200780 -> AS64738 (Appliwave)
+remarks:        AS204207 -> AS64739 (Lacoste)
+remarks:        AS201080 -> AS64741 (PC-Light)
+remarks:        AS201808 -> AS64742 (Blue Infra)
+remarks:        AS196766 -> AS64743 (A0 Labs)
+remarks:        AS201675 -> AS64744 (Saclak Network)
+remarks:        AS198126 -> AS64745 (TelandGo)
+remarks:        AS203547 -> AS64746 (Next2i)
+remarks:        AS203030 -> AS64747 (Kalyst)
+remarks:        AS202069 -> AS64748 (Blablacar / Comuto)
+remarks:        AS132876 -> AS64749 (Symphony)
+remarks:        AS197653 -> AS64750 (Alcatraz)
+remarks:        AS199483 -> AS64751 (Nextira One)
+remarks:        AS203698 -> AS64752 (Moji)
+remarks:        AS206508 -> AS64753 (Talsion)
+remarks:        AS206782 -> AS64754 (GPLExpert)
+remarks:        AS206342 -> AS64755 (Air Liquide)
+remarks:        AS198682 -> AS64756 (Netiwan)
+remarks:        AS206720 -> AS64757 (AIRBUS)
+remarks:        AS197426 -> AS64758 (Ebonyhorizon - Bitcanal)
+remarks:        AS205801 -> AS64759 (Synalabs SARL)
+remarks:        AS201085 -> AS64760 (Antemeta)
+remarks:        AS203554 -> AS64761 (SNC MOET HENNESSY)
+remarks:        AS200129 -> AS64762 (LHISP)
+remarks:        AS203789 -> AS64763 (ikano)
+remarks:        AS202140 -> AS64764 (DIRECT INFO SERVICE)
+remarks:        AS198385 -> AS64765 (Alpine DC)
+remarks:        AS205919 -> AS64766 (ON-X)
+remarks:        AS205555 -> AS64767 (VSC Technologies)
+remarks:        AS328107 -> AS64768 (Guilab)
+remarks:        AS205344 -> AS64770 (Telerys)
+remarks:        AS201699 -> AS64770 (LevelSYS)
+remarks:        AS205705 -> AS64771 (T-systems)
+remarks:        AS197033 -> AS64772 (CPRO NETWORKS)
+remarks:        AS203885 -> AS64773 (SNCF)
+remarks:        AS200780 -> AS64774 (APPLIWAVE)
+remarks:        AS327814 -> AS64775 (ECOBAND)
+remarks:        AS201081 -> 64776 (SMARTADSERVERER)
+remarks:        AS202613 -> 64777 (STARTNIX)
+remarks:        Extended Communities are supported and usage is
+remarks:        encouraged instead of 32b->16b mapping
+remarks:        -----------------------------------------------------
+remarks:        Communities that are in the public range
+remarks:        (1-64495:x) and (131072-4199999999:x)
+remarks:        will be preserved by the route-servers
+remarks:        -----------------------------------------------------
+remarks:        Well-known communities are not interpreted by the
+remarks:        route-servers and are propagated to all peers
+remarks:        BLACKHOLE community is interpreted
+remarks:        65535:666 = BLACKHOLE [RFC7999]
+remarks:        only routes with valid IRR records are accepted
+remarks:        more details at https://www.franceix.net/en/technical/blackholing/
+remarks:        -----------------------------------------------------
+remarks:        The following communities are applied by the route-server:
+remarks:        *****************************************************
+remarks:        ** WARNING
+remarks:        ** You should not set any of these by yourself
+remarks:        ** (from 51706:64496 to 51706:64699)
+remarks:        ** (and 51706:64900 to 51706:65535)
+remarks:        ** If you do so, your routes will be rejected
+remarks:        *****************************************************
+remarks:        51706:64601 = Prefix received from a peer on RS1 Paris
+remarks:        51706:64602 = Prefix received from a peer on RS2 Paris
+remarks:        51706:64611 = Prefix received from a peer on RS1 Marseille
+remarks:        51706:64612 = Prefix received from a peer on RS2 Marseille
+remarks:        51706:64649 = Prefix received from a FranceIX Marseille peer
+remarks:        51706:64650 = Prefix received from a FranceIX Paris peer
+remarks:        51706:64651 = Prefix received from a SFINX peer
+remarks:        51706:64652 = Prefix received from a LyonIX peer
+remarks:        51706:64653 = Prefix received from a LU-CIX peer
+remarks:        51706:64654 = Prefix received from a TOP-IX peer
+remarks:        51706:64655 = Prefix received from a TOUIX peer
+remarks:        51706:65012 = Prefix has ROA status: VALID
+remarks:        51706:65022 = Prefix has ROA status: INVALID
+remarks:        51706:65023 = Prefix has ROA status: UNKNOWN
+remarks:        51706:65011 = Prefix is present in an AS's announced AS/AS-SET
+remarks:        51706:65021 = Prefix is not present in an AS's announced AS/AS-SET
+remarks:        -----------------------------------------------------
+remarks:        You can filters prefixes with our AS-SET :
+remarks:        AS51706:AS-MEMBERS:AS-PAR-RS
+remarks:        AS51706:AS-MEMBERS:AS-MRS-RS
+remarks:        Please make sure to have at least one of theses lines in your aut-num object :
+remarks:        export: to AS51706 announce ASxxxx
+remarks:        export-via: AS51706 to AS-ANY announce ASxxxx
+remarks:        export-via: afi ipv6.unicast AS51706 to AS-ANY announce ASxxxx
+remarks:        mp-export: afi ipv4.unicast,ipv6.unicast to AS51706 announce ASxxxx
+remarks:        (ASxxxx can be your ASN or your AS-SET)
+remarks:        -----------------------------------------------------
+remarks:        We support ADD-PATHS, you will receive extended NLRI,
+remarks:        i.e. several paths for the same destination,
+remarks:        if you have the capability
+remarks:        ---------------------------
+remarks:        Routes with Private ASN in the AS_PATH, bad NEXT_HOP,
+remarks:        IPv4 netmask </8 or >/24, IPv6 netmask </19 or >/48
+remarks:        Martians or RFC1918 ** are rejected ** on Route Servers
+remarks:        -----------------------------------------------------
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-FRANCEIX
+mnt-routes:     MNT-FRANCEIX
+created:        2010-10-22T13:41:27Z
+last-modified:  2018-06-28T15:27:55Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

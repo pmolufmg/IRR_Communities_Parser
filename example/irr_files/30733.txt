@@ -1,0 +1,263 @@
+aut-num:        AS30733
+as-name:        GLOBUS-AS
+org:            ORG-GL4-RIPE
+remarks:        -------------------------------------------------------------------
+remarks:        ****************** IPv4 Routing Policy *******************
+remarks:        -------------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        Upstreams:
+remarks:        --------------------------------------------------------------
+import:         from AS6453 80.231.218.13 at 82.198.160.249 action pref=60; accept ANY
+export:         to AS6453 announce AS-GLOBUS
+import:         from AS1273 208.175.234.233 at 82.198.160.252 action pref=50; accept ANY
+export:         to AS1273 announce AS-GLOBUS
+import:         from AS8342 195.161.157.145 at 82.198.160.253 action pref=60; accept ANY
+export:         to AS8342 announce AS-GLOBUS
+import:         from AS9002 87.245.254.217 at 82.198.160.248 action pref=60; accept ANY
+export:         to AS8342 announce AS-GLOBUS
+import:         from AS20485 217.150.43.54 at 82.198.160.248 and 82.198.160.249 action pref=60; accept ANY
+export:         to AS20485 announce AS-GLOBUS
+import:         from AS8359 195.34.38.57 at 82.198.160.248 and 82.198.160.249 action pref=60; accept ANY
+export:         to AS8359 announce AS-GLOBUS
+import:         from AS8732 213.79.124.33 at 82.198.160.252 action pref=60; accept ANY
+export:         to AS8732 announce AS-GLOBUS
+import:         from AS12389 188.128.90.138 at 82.198.160.253 action pref=60; accept ANY
+export:         to AS12389 announce AS-GLOBUS
+remarks:        --------------------------------------------------------------
+remarks:        MSK-IX-PEERS:
+remarks:        --------------------------------------------------------------
+import:         from AS8631 193.232.244.100 at 82.198.160.253 action pref=80; from AS8631 193.232.246.100 at 82.198.160.253 action pref=80; accept AS-MSKROUTESERVER
+export:         to AS8631 announce AS-GLOBUS
+import:         from AS8402 193.232.244.63 at 82.198.160.253 action pref=80; from AS8402 193.232.246.63 at 82.198.160.253 action pref=80; accept AS-CORBINA
+export:         to AS8402 announce AS-GLOBUS
+import:         from AS35422 193.232.244.130 at 82.198.160.253 action pref=80; from AS35422 193.232.246.130 at 82.198.160.253 action pref=80; accept AS-PETERSTAR
+export:         to AS35422 announce AS-GLOBUS
+import:         from AS8563 193.232.244.68 at 82.198.160.253 action pref=100; from AS8563 193.232.246.68 at 82.198.160.253 action pref=100; accept AS-DIRECTNET
+export:         to AS8563 announce AS-GLOBUS
+import:         from AS31368 193.232.244.226 at 82.198.160.253 action pref=100; from AS31368 193.232.246.226 at 82.198.160.253 action pref=100; accept AS-ASTELNET
+export:         to AS31368 announce AS-GLOBUS
+import:         from AS44200 212.33.14.42 at 82.198.160.253 action pref=100; accept AS-RUSNETLAB
+export:         to AS44200 announce AS-GLOBUS
+remarks:        --------------------------------------------------------------
+remarks:        Customers:
+remarks:        --------------------------------------------------------------
+import:         from AS6870 178.255.238.28 at 82.198.160.249 action pref=100; accept AS6870
+export:         to AS6870 announce ANY
+import:         from AS8595 82.198.161.86 at 82.198.160.252 action pref=100; accept AS8595
+export:         to AS8595 announce ANY
+import:         from AS8905 212.33.14.38 at 82.198.160.253 action pref=100; accept AS-SITEK
+export:         to AS8905 announce ANY
+import:         from AS12836 212.33.6.94 at 82.198.160.252 action pref=100; accept AS12836
+export:         to AS12836 announce ANY
+import:         from AS20630 212.33.14.2 at 82.198.160.253 action pref=100; accept AS-SYNCHROLINE
+export:         to AS20630 announce ANY
+import:         from AS20806 82.198.161.98 at 82.198.160.254 action pref=100; accept AS20806
+export:         to AS20806 announce ANY
+import:         from AS24680 82.198.161.94 at 82.198.160.253 action pref=100; accept AS-COMPNET
+export:         to AS24680 announce ANY
+import:         from AS24762 212.33.14.86 at 82.198.160.253 action pref=100; accept AS-STELCOM
+export:         to AS24762 announce ANY
+import:         from AS28922 82.198.161.102 at 82.198.160.253 action pref=100; accept AS-TELECALL
+export:         to AS28922 announce ANY
+import:         from AS29499 212.33.13.34 at 82.198.160.253 action pref=100; accept AS29499
+export:         to AS29499 announce ANY
+import:         from AS31183 212.33.15.25 at 82.198.160.252 action pref=100; accept AS31183
+export:         to AS31183 announce ANY
+import:         from AS31324 178.255.238.86 at 82.198.160.248 action pref=100; accept AS31324
+export:         to AS31324 announce ANY
+import:         from AS33871 82.198.161.174 at 82.198.160.253 action pref=100; accept AS33871
+export:         to AS33871 announce ANY
+import:         from AS34030 212.33.14.82 at 82.198.160.252 action pref=100; accept AS34030
+export:         to AS34030 announce ANY
+import:         from AS34287 91.123.80.12 at 82.198.160.253 action pref=100; accept AS34287
+export:         to AS34287 announce ANY
+import:         from AS34832 178.255.238.108 at 82.198.160.249 action pref=100; accept AS34832
+import:         from AS34832 178.255.238.108 at 82.198.160.248 action pref=100; accept AS34832
+export:         to AS34832 announce ANY
+import:         from AS34851 178.255.238.116 at 82.198.160.249 action pref=100; accept AS34851
+export:         to AS34851 announce ANY
+import:         from AS35087 212.33.14.54 at 82.198.160.252 action pref=100; accept AS-NTSI
+export:         to AS35087 announce ANY
+import:         from AS38922 82.198.178.198 at 82.198.160.252 action pref=100; accept AS38922
+export:         to AS38922 announce ANY
+import:         from AS39167 82.198.182.30 at 82.198.160.254 action pref=100; accept AS-KALIBR
+export:         to AS39167 announce ANY
+import:         from AS39406 82.198.179.174 at 82.198.160.252 action pref=100; accept AS39406
+export:         to AS39406 announce ANY
+import:         from AS42412 91.123.80.12 at 82.198.160.253 action pref=100; accept AS42412
+export:         to AS42412 announce ANY
+import:         from AS42703 91.123.80.12 at 82.198.160.253 action pref=100; accept AS42703
+export:         to AS42703 announce ANY
+import:         from AS42787 212.33.14.114 at 82.198.160.253 action pref=100; accept AS42787
+export:         to AS42787 announce ANY
+import:         from AS43149 212.33.6.82 at 82.198.160.252 action pref=100; accept AS43149
+export:         to AS43149 announce ANY
+import:         from AS43149 212.33.6.83 at 82.198.160.252 action pref=100; accept AS43149
+export:         to AS43149 announce ANY
+import:         from AS43670 212.33.15.18 at 82.198.160.252 action pref=100; accept AS43670
+export:         to AS43670 announce ANY
+import:         from AS43798 212.33.14.42 at 82.198.160.253 action pref=100; accept AS43798
+export:         to AS43798 announce ANY
+import:         from AS44900 82.198.173.11 at 82.198.160.252 action pref=100; accept AS44900
+export:         to AS44900 announce ANY
+import:         from AS45013 212.33.14.78 at 82.198.160.253 action pref=100; accept AS45013
+export:         to AS45013 announce ANY
+import:         from AS47470 212.33.12.51 at 82.198.160.252 action pref=100; accept AS47470
+export:         to AS47470 announce ANY
+import:         from AS47827 82.198.161.90 at 82.198.160.252 action pref=100; accept AS47827
+export:         to AS47827 announce ANY
+import:         from AS48343 82.198.161.90 at 82.198.160.252 action pref=100; accept AS48343
+export:         to AS48343 announce ANY
+import:         from AS48848 178.255.238.13 at 82.198.160.253 action pref=100; accept AS-MCM
+export:         to AS48848 announce ANY
+import:         from AS48739 212.33.14.46 at 82.198.160.252 action pref=100; accept AS48739
+export:         to AS48739 announce ANY
+import:         from AS50197 82.198.177.150 at 82.198.160.252 action pref=100; accept AS50197
+export:         to AS50197 announce ANY
+import:         from AS50701 82.198.188.190 at 82.198.160.252 action pref=100; accept AS50701
+export:         to AS50701 announce ANY
+import:         from AS50804 212.33.14.94 at 82.198.160.253 action pref=100; accept AS-BESTLINE
+export:         to AS50804 announce ANY
+import:         from AS51230 212.33.14.107 at 82.198.160.253 action pref=100; accept AS-ROSINTEH-GLOBUS
+export:         to AS51230 announce ANY
+import:         from AS51860 212.33.14.118 at 82.198.160.252 action pref=100; accept AS-VDNH
+export:         to AS51860 announce ANY
+import:         from AS56477 178.255.238.9 at 82.198.160.248 action pref=100; accept AS-NTKLtd
+import:         from AS56477 178.255.238.10 at 82.198.160.249 action pref=100; accept AS-NTKLtd
+export:         to AS56477 announce ANY
+import:         from AS57596 178.255.238.164 at 82.198.160.249 action pref=100; accept AS-ITHOLIMPIC
+export:         to AS57596 announce ANY
+import:         from AS57941 178.255.238.220 at 82.198.160.249 action pref=100; accept AS57941
+export:         to AS57941 announce ANY
+import:         from AS58103 178.255.238.244 at 82.198.160.249 action pref=100; accept AS58103
+export:         to AS58103 announce ANY
+import:         from AS59512 212.33.14.82 at 82.198.160.249 action pref=100; accept AS59512
+export:         to AS59512 announce ANY
+import:         from AS60628 178.255.238.82 at 82.198.160.249 action pref=100; accept AS60628
+export:         to AS60628 announce ANY
+import:         from AS61206 82.198.181.198 at 82.198.160.249 action pref=100; accept AS61206
+export:         to AS61206 announce ANY
+import:         from AS51913 212.33.1.86 at 82.198.160.249 action pref=100; accept AS51913
+export:         to AS51913 announce ANY
+import:         from AS202181 178.255.238.44 at 82.198.160.249 action pref=100; accept AS202181
+export:         to AS202181 announce ANY
+import:         from AS201804 212.33.13.42 at 82.198.160.249 action pref=100; accept AS201804
+export:         to AS201804 announce ANY
+import:         from AS61166 82.198.168.162 at 82.198.160.249 action pref=100; accept AS61166
+export:         to AS61166 announce ANY
+import:         from AS48739 178.255.238.188 at 82.198.160.248 action pref=100; accept AS48739
+export:         to AS48739 announce ANY
+import:         from AS9039 178.255.238.76 at 82.198.160.249 action pref=100; accept AS-IIAT
+import:         from AS9039 178.255.238.76 at 82.198.160.248 action pref=100; accept AS-IIAT
+export:         to AS9039 announce ANY
+import:         from AS13105 178.255.238.86 at 82.198.160.249 action pref=100; accept AS-LUKOIL
+export:         to AS13105 announce ANY
+import:         from AS25511 82.198.190.248 at 82.198.160.248 action pref=100; accept AS-NET21
+export:         to AS25511 announce ANY
+import:         from AS201812 178.255.238.116 action pref=100; accept AS201812
+export:         to AS201812 announce ANY
+import:         from AS34500 178.255.238.228 at 82.198.160.248 action pref=100; accept AS34500
+import:         from AS34500 178.255.238.228 at 82.198.160.249 action pref=100; accept AS34500
+export:         to AS34500 announce ANY
+import:         from AS204574 178.255.238.2 at 82.198.160.248 action pref=100; accept AS204574
+import:         from AS204574 178.255.238.1 at 82.198.160.249 action pref=100; accept AS204574
+export:         to AS204574 announce ANY
+import:         from AS61991 178.255.238.164 at 82.198.160.248 action pref=100; accept AS61991
+import:         from AS61991 178.255.238.165 at 82.198.160.248 action pref=100; accept AS61991
+import:         from AS61991 178.255.238.164 at 82.198.160.249 action pref=100; accept AS61991
+import:         from AS61991 178.255.238.165 at 82.198.160.249 action pref=100; accept AS61991
+export:         to AS61991 announce ANY
+remarks:        -------------------------------------------------------------------
+remarks:        ****************** IPv6 Routing Policy *******************
+remarks:        -------------------------------------------------------------------
+remarks:        --------------------------------------------------------------
+remarks:        Upstreams:
+remarks:        --------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS6453 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast to AS6453 announce AS-GLOBUSv6
+mp-import:      afi ipv6.unicast from AS9002 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-GLOBUSv6
+mp-import:      afi ipv6.unicast from AS8342 action pref=60; accept ANY
+mp-export:      afi ipv6.unicast to AS8342 announce AS-GLOBUSv6
+remarks:        --------------------------------------------------------------
+remarks:        MSK-IX-PEERS:
+remarks:        --------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS8631 action pref=80; accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS8631 announce AS-GLOBUSv6
+remarks:        --------------------------------------------------------------
+remarks:        Customers:
+remarks:        --------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS6870 action pref=100; accept AS6870
+mp-export:      afi ipv6.unicast to AS6870 announce ANY
+mp-import:      afi ipv6.unicast from AS51860 action pref=100; accept AS51860
+mp-export:      afi ipv6.unicast to AS51860 announce ANY
+mp-import:      afi ipv6.unicast from AS56477 action pref=100; accept AS56477
+mp-export:      afi ipv6.unicast to AS56477 announce ANY
+remarks:        +------------------------------------------------------------
+remarks:        |
+remarks:        | New-style communities (have to be used instead of old ones)
+remarks:        |
+remarks:        | External communities may be set by external peers when talking to AS30733.
+remarks:        | Communities accepted from customers are in range 30733:2000 - 30733:2999
+remarks:        |
+remarks:        | 30733:200y - when announcing to Rostelecom
+remarks:        | 30733:201y - when announcing to any M9-IX peer
+remarks:        | 30733:202y - when announcing to TTK
+remarks:        | 30733:203y - when announcing to MTU
+remarks:        | 30733:204y - when announcing to AKADO (Comcor)
+remarks:        | 30733:205y - when announcing to TATA Communications
+remarks:        | 30733:207y - when announcing to RETN
+remarks:        | 30733:208y - when announcing to Cables&Wireless
+remarks:        | 30733:209y - when announcing to any of the above peers
+remarks:        |
+remarks:        | y=0 - do not advertise
+remarks:        | y=1,2,4 or 6 - prepend 30733 1,2,4 or 6 times
+remarks:        |
+remarks:        | 30733:28xx Set local preference to xx, where:
+remarks:        | xx=50 - the lowest value used in the network (BACKUP)
+remarks:        |
+remarks:        | 30733:2500 - When announcing to Russian only. (Rostelecom,GT,MTU)
+remarks:        | 30733:2501 - When do not advertise to Russian.
+remarks:        |
+remarks:        | 30733:2666 - BlackHole (discard) traffic
+remarks:        |
+remarks:        |
+remarks:        +------------------------------------------------------------
+remarks:        | TAGGING COMMUNITIES
+remarks:        |
+remarks:        | Internal communities are assigned only internally.
+remarks:        | They may be used by peers to filter some prefixes.
+remarks:        |
+remarks:        | 30733:60XX
+remarks:        |
+remarks:        | XX =
+remarks:        | 00 - All customer and AS30733 routes
+remarks:        | 01 - Originated from AS30733
+remarks:        |
+remarks:        | 60xx - National peers
+remarks:        | 10 - M9-IX
+remarks:        | 11 - Rostelecom
+remarks:        | 12 - TTK
+remarks:        | 13 - MTU
+remarks:        | 14 - GT
+remarks:        | 15 - Comcor
+remarks:        | 16 - RETN
+remarks:        | 17 - TATA Communications
+remarks:        |
+remarks:        +------------------------------------------------------------
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-routes:     GLOBUS-MNT
+mnt-by:         GLOBUS-MNT
+created:        2003-11-20T12:02:37Z
+last-modified:  2018-08-13T08:23:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

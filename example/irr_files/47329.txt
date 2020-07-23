@@ -1,0 +1,90 @@
+aut-num:        AS47329
+as-name:        WDM-AS
+org:            ORG-MJTA2-RIPE
+remarks:
+import:         from AS3356 accept ANY
+import:         from AS6939 accept ANY
+import:         from AS5580 accept ANY
+import:         from AS13030 accept ANY
+import:         from AS48311 accept ANY
+import:         from AS198880 accept ANY
+import:         from AS197295 accept ANY
+import:         from AS60448 accept ANY
+import:         from AS59782 accept ANY
+export:         to AS3356 announce ANY
+export:         to AS6939 announce ANY
+export:         to AS5580 announce ANY
+export:         to AS13030 announce ANY
+export:         to AS48311 announce ANY
+export:         to AS198880 announce ANY
+export:         to AS197295 announce ANY
+export:         to AS60448 announce ANY
+export:         to AS59782 announce ANY
+remarks:
+remarks:        ====================================================
+remarks:        COMMUNITIES IN AS47329
+remarks:        ====================================================
+remarks:        47329:2020 Do not announce to Level3
+remarks:        47329:2021 Prepend 1x to Level3
+remarks:        47329:2022 Prepend 2x to Level3
+remarks:        47329:2023 Prepend 3x to Level3
+remarks:        ====================================================
+remarks:        47329:2030 Do not announce to TATA
+remarks:        47329:2031 Prepend 1x to TATA
+remarks:        47329:2032 Prepend 2x to TATA
+remarks:        47329:2033 Prepend 3x to TATA
+remarks:        ====================================================
+remarks:        47329:2050 Do not announce to AMS-IX
+remarks:        47329:2051 Prepend 1x to AMS-IX
+remarks:        47329:2052 Prepend 2x to AMS-IX
+remarks:        47329:2053 Prepend 3x to AMS-IX
+remarks:        ====================================================
+remarks:        47329:2060 Do not announce to PL-IX
+remarks:        47329:2061 Prepend 1x to PL-IX
+remarks:        47329:2062 Prepend 2x to PL-IX
+remarks:        47329:2063 Prepend 3x to PL-IX
+remarks:        ====================================================
+remarks:        47329:2070 Do not announce to TP-IX
+remarks:        47329:2071 Prepend 1x to TP-IX
+remarks:        47329:2072 Prepend 2x to TP-IX
+remarks:        47329:2073 Prepend 3x to TP-IX
+remarks:        ====================================================
+remarks:        47329:2080 Do not announce to THINX
+remarks:        47329:2081 Prepend 1x to THINX
+remarks:        47329:2082 Prepend 2x to THINX
+remarks:        47329:2083 Prepend 3x to THINX
+remarks:        ====================================================
+remarks:
+remarks:        ====================================================
+remarks:        ENTRY-POINT MARKERS IN AS47329
+remarks:        ====================================================
+remarks:        47329:123 Our customers/our own prefix
+remarks:
+remarks:        47329:1000 Peers
+remarks:        47329:1001 International
+remarks:        47329:1002 Domestic
+remarks:
+remarks:        47329:1020 Level3
+remarks:        47329:1030 TATA
+remarks:        47329:1050 AMS-IX
+remarks:        47329:1060 PL-IX
+remarks:        47329:1070 TP-IX
+remarks:        47329:1080 THINX
+remarks:        ====================================================
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-WDM
+mnt-routes:     MNT-WDM
+created:        2008-06-04T07:47:20Z
+last-modified:  2017-11-15T09:51:50Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

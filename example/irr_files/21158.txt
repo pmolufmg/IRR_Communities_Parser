@@ -1,0 +1,251 @@
+aut-num:        AS21158
+as-name:        AS21158
+status:         ASSIGNED
+remarks:        ------------------- ( historically - msd.net -
+remarks:        msd management solutions development ltd./gmbh)
+remarks:
+remarks:        AS21158 193.109.132.0/23 IPv4-PI-Space OPERATIONS
+remarks:        (historically MSD.NET) Genossenschaft in Gruendung
+remarks:
+remarks:
+remarks:        EBGP Peerings
+remarks:        =======
+remarks:
+remarks:
+remarks:        AS34568 - Connectingbytes/Kambach - Duesseldorf
+remarks:        -------
+remarks:        http://binged.it/11JBQze
+remarks:
+import:         from AS34568 action pref=100; accept ANY
+export:         to AS34568 announce AS21158
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        remarks: 13237:38091 prepend 1 x to AS13237 Lambdanet
+remarks:        -----------------------------------------------------
+remarks:
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        till 20151123: ripe whois AS48039 descr KGT new media
+remarks:        from 20151123: ripe whois AS48039 descr GHOSTNet GmbH
+remarks:        -----------------------------------------------------
+remarks:
+remarks:        AS48039 - KGT new media - DeCIX/Interxion Frankfurt/M
+remarks:        -------
+remarks:        http://binged.it/1F7DqY4
+remarks:
+import:         from AS48039 action pref=100; accept ANY
+export:         to AS48039 announce AS21158
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        the export: statement above should have read (all in
+remarks:        one line) from 20151123 to 20151210 (is changed back)
+remarks:        -----------------------------------------------------
+remarks:
+remarks:        to AS48039 action
+remarks:        community .= {48039:1110, 48039:1130, 48039:1140}
+remarks:        announce AS21158
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        remarks: 48039:1110 not announce to AS174   Cogent
+remarks:        remarks: 48039:1130 not announce to AS12586 GHOSTnet
+remarks:        remarks: 48039:1140 not announce to AS31025 IAG GHOST
+remarks:        -----------------------------------------------------
+remarks:
+remarks:
+remarks:        AS43317 - Fishnet - St. Petersburg Russian Federation
+remarks:        -------
+remarks:        http://binged.it/1sud5nZ
+remarks:
+import:         from AS43317 action pref=100; accept ANY
+export:         to AS43317 announce AS21158
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        remarks: 20764:1580 routing issue Hurricane Stockholm
+remarks:        remarks: 20764:1590 routing issue Hurricane Frankfurt
+remarks:        remarks: 20764:1610 routing issue Hurricane Amsterdam
+remarks:        remarks: 20764:1331 prepend 1 x to AS174 Cogent
+remarks:        -----------------------------------------------------
+remarks:
+remarks:
+remarks:        AS20473 - Choopa - several Locations around the world
+remarks:        -------
+remarks:        https://binged.it/2JJ5H54
+remarks:
+import:         from AS20473 action pref=100; accept ANY
+export:         to AS20473 announce AS21158
+remarks:
+remarks:
+remarks:        AS56630 - Melbicom - near AMSIX Amsterdam Netherlands
+remarks:        -------
+remarks:        https://binged.it/2MEqhR4
+remarks:
+import:         from AS56630 action pref=100; accept ANY
+export:         to AS56630 announce AS21158
+remarks:
+remarks:
+remarks:        IBGP Peerings
+remarks:        =======
+remarks:
+remarks:
+remarks:        AS64514
+remarks:        VPN-Peering upon UMTS/ADSL using dynamic IP-addresses
+remarks:        -------
+remarks:
+remarks:        193.109.133.8/29
+remarks:        193.109.132.3-4   @ dyn.ip.ad.dr/AS64512 pref 100
+remarks:        193.109.133.3-4   @ dyn.ip.ad.dr/AS64513 pref 50
+remarks:
+remarks:
+remarks:        AS64545
+remarks:        zentral-bank.eu central.banktunnel.eu  bad-homburg.eu
+remarks:        -------
+remarks:
+remarks:        193.109.132.8/29
+remarks:        193.109.132.5-6   @ dyn.ip.ad.dr/AS65533 pref 100
+remarks:        193.109.133.5-6   @ dyn.ip.ad.dr/AS65533 pref 50
+remarks:        193.109.132-3.250 @ dyn.ip.ad.dr/AS65534 pref 25
+remarks:
+remarks:
+remarks:        AS64516
+remarks:        DNS/HTTP(S) EtherTunnels UMTS/ADSL dynamic IP-address
+remarks:        -------
+remarks:        http://sch-einesystem.tumblr.com/post/134374540908/
+remarks:
+remarks:        193.109.132.24/29
+remarks:        193.109.132.20-21 @ dyn.ip.ad.dr/AS65532 pref  90/160
+remarks:        193.109.132.22-23 @ dyn.ip.ad.dr/AS65532 pref 100/180
+remarks:        193.109.133.20-21 @ dyn.ip.ad.dr/AS65533 pref  40/ 60
+remarks:        193.109.133.22-23 @ dyn.ip.ad.dr/AS65533 pref  50/ 80
+remarks:
+remarks:
+remarks:        -----------------------------------------------------
+remarks:        iBGP Frankfurt a.M. (65532/64512) AS 20473/48039 eBGP
+remarks:        iBGP Duesseldorf    (65533/64513) AS       34568 eBGP
+remarks:        iBGP St.Petersburg  (65534)       AS       43317 eBGP
+remarks:        -----------------------------------------------------
+remarks:
+remarks:
+org:            ORG-MB75-RIPE
+sponsoring-org: ORG-IG24-RIPE
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:
+remarks:        *****************************************************
+remarks:        historical record up to June 2003
+remarks:        *****************************************************
+remarks:        import: from AS702 action pref=100; accept ANY
+remarks:        import: from AS13129 action pref=100; accept ANY
+remarks:        import: from AS15477 action pref=100; accept ANY
+remarks:        import: from AS15844 action pref=100; accept ANY
+remarks:        export: to AS702 announce AS-MSD
+remarks:        export: to AS13129 announce AS-MSD
+remarks:        export: to AS15477 announce AS-MSD
+remarks:        export: to AS15844 announce ANY
+remarks:        *****************************************************
+remarks:        historical record from June 2003 until September 2014
+remarks:        *****************************************************
+remarks:        import: from AS174 action pref=100; accept ANY
+remarks:        export: to AS174 announce AS-MSD
+remarks:        import: from AS12306 action pref=100; accept ANY
+remarks:        export: to AS12306 announce AS-MSD
+remarks:        *****************************************************
+remarks:        remarks:
+remarks:        remarks: Network entry points:
+remarks:        remarks: ============================================
+remarks:        remarks:
+remarks:        remarks: pl-ffm-de (Mainzer Landstrasse,Frankfurt/M.)
+remarks:        remarks: -------------------------------------------
+remarks:        remarks: AS12306 - FastEth100 - Plusline Frankfurt/M.
+remarks:        remarks:
+remarks:        remarks: coi-ffm-de (Stephanstrasse,Frankfurt/M.)
+remarks:        remarks: -------------------------------------------
+remarks:        remarks: AS174 - FastEth100 - Cogent Frankfurt/M.
+remarks:        remarks:
+remarks:        remarks: ============================================
+remarks:        remarks:
+remarks:        remarks: Peering issues are solely managed and
+remarks:        remarks: decided by MB210775-RIPE (50 percent
+remarks:        remarks: shareholder of msd ltd. in england
+remarks:        remarks: and msd gmbh in germany).
+remarks:        remarks:
+remarks:        *****************************************************
+remarks:
+remarks:        *****************************************************
+remarks:        historical record until September 2014
+remarks:        *****************************************************
+remarks:        as-name: AN-MSD
+remarks:        descr: msd management solutions development GmbH
+remarks:        *****************************************************
+remarks:        belonged to msd management solutions development Ltd.
+remarks:        *****************************************************
+remarks:
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MB19750721
+remarks:
+remarks:        *****************************************************
+remarks:        history as "changed:" is no longer supported by ripe:
+remarks:        *****************************************************
+remarks:
+remarks:        changed:        kieber@gatel.net 20010606
+remarks:        changed:        hostmaster@ripe.net 20010913
+remarks:        changed:        kieber@gatel.net 20010914
+remarks:        changed:        kieber@gatel.net 20010920
+remarks:        changed:        kieber@gatel.net 20011109
+remarks:        changed:        kieber@gatel.net 20020603
+remarks:        changed:        max@msd.net 20030414
+remarks:        changed:        ripe@skyeyeliner.de 20030520
+remarks:        changed:        max@msd.net 20030523
+remarks:        changed:        max@msd.net 20030526
+remarks:        changed:        max@msd.net 20030620
+remarks:        changed:        max@msd.net 20030623
+remarks:        changed:        max@msd.net 20030625
+remarks:        changed:        max@msd.net 20030630
+remarks:        changed:        ukieber@cogentco.com 20050802
+remarks:        changed:        ukieber@cogentco.com 20080207
+remarks:        changed:        hostmaster@ripe.net 20140630
+remarks:        changed:        hostmaster@ripe.net 20140925
+remarks:        changed:        maximilian@baehring.at 20140925
+remarks:        changed:        maximilian@baehring.at 20141001
+remarks:        changed:        maximilian@baehring.at 20141002
+remarks:        changed:        maximilian@baehring.at 20141007
+remarks:        changed:        maximilian@baehring.at 20141027
+remarks:        changed:        maximilian@baehring.at 20141028
+remarks:        changed:        maximilian@baehring.at 20141030
+remarks:        changed:        maximilian@baehring.at 20141106
+remarks:        changed:        maximilian@baehring.at 20141107
+remarks:        changed:        maximilian@baehring.at 20141109
+remarks:        changed:        maximilian@baehring.at 20141110
+remarks:        changed:        maximilian@baehring.at 20141111
+remarks:        changed:        maximilian@baehring.at 20141112
+remarks:        changed:        maximilian@baehring.at 20141113
+remarks:        changed:        maximilian@baehring.at 20141115
+remarks:        changed:        maximilian@baehring.at 20141116
+remarks:        changed:        maximilian@baehring.at 20141117
+remarks:        changed:        maximilian@baehring.at 20141121
+remarks:        changed:        maximilian@baehring.at 20141122
+remarks:        changed:        maximilian@baehring.at 20141208
+remarks:        changed:        maximilian@baehring.at 20141216
+remarks:        changed:        maximilian@baehring.at 20150325
+remarks:        changed:        maximilian@baehring.at 20151123
+remarks:        changed:        maximilian@baehring.at 20151124
+remarks:        changed:        maximilian@baehring.at 20151126
+remarks:        changed:        maximilian@baehring.at 20151128
+remarks:        changed:        maximilian@baehring.at 20151202
+remarks:        changed:        maximilian@baehring.at 20151211
+remarks:        changed:        maximilian@baehring.at 20160417
+remarks:        changed:        maximilian@baehring.at 20160606
+remarks:        changed:        maximilian@baehring.at 20160608
+remarks:        changed:        maximilian@baehring.at 20180618
+remarks:        changed:        maximilian@baehring.at 20180619
+remarks:        changed:        maximilian@baehring.at 20180623
+remarks:        changed:        maximilian@baehring.at 20180701
+created:        2014-06-30T14:06:36Z
+last-modified:  2018-07-01T10:40:30Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

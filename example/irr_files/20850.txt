@@ -1,0 +1,192 @@
+aut-num:        AS20850
+as-name:        VALORKIEV-AS
+org:            ORG-VI4-RIPE
+descr:          Kharkov, Ukraine
+remarks:
+remarks:        world channels
+remarks:
+import:         from AS3257 action pref=65450; accept ANY
+export:         to AS3257 announce AS-VALOR
+import:         from AS20485 action pref=65450; accept ANY
+export:         to AS20485 announce AS-VALOR
+import:         from AS9002 action pref=65450; accept ANY
+export:         to AS9002 announce AS-VALOR
+import:         from AS35297 193.239.75.1 at 193.239.75.2 action pref=65449; accept AS-MSKROUTESERVER
+export:         to AS35297 193.239.75.1 at 193.239.75.2 announce AS-VALOR
+import:         from AS35297 193.239.74.149 at 193.239.74.150 action pref=65448; accept AS-DECIX
+export:         to AS35297 193.239.74.149 at 193.239.74.150 announce AS-VALOR
+import:         from AS8359 action pref=65450; accept ANY
+export:         to AS8359 announce AS-VALOR
+remarks:
+remarks:        Parity channels
+remarks:
+import:         from AS31210 action pref=65440; accept AS-DTEL-IX
+export:         to AS31210 announce AS-VALOR
+import:         from AS15645 action pref=65440; accept AS-UAIX
+export:         to AS15645 announce AS-VALOR
+import:         from AS12294 action pref=65435; accept AS-TSUA-PARITY
+export:         to AS12294 announce AS-VALOR
+import:         from AS43266 action pref=65420; accept ANY
+export:         to AS43266 announce ANY
+import:         from AS59613 action pref=65440; accept AS-UBNIX
+export:         to AS59613 announce AS-VALOR
+remarks:
+remarks:        Customers
+remarks:
+import:         from AS13103 action pref=65415; accept AS13103
+export:         to AS13103 announce ANY
+import:         from AS31427 action pref=65415; accept AS31427
+export:         to AS31427 announce ANY
+import:         from AS34908 action pref=65415; accept AS34908
+export:         to AS34908 announce {0.0.0.0/0}
+import:         from AS35325 action pref=65415; accept AS35325
+export:         to AS35325 announce {0.0.0.0/0}
+import:         from AS28706 action pref=65415; accept AS-STREAM
+export:         to AS28706 announce {0.0.0.0/0}
+import:         from AS42802 action pref=65415; accept AS42802
+export:         to AS42802 announce {0.0.0.0/0}
+import:         from AS43742 action pref=65415; accept AS43742
+export:         to AS43742 announce {0.0.0.0/0}
+import:         from AS43458 action pref=65415; accept AS43458
+export:         to AS43458 announce {0.0.0.0/0}
+import:         from AS44117 action pref=65415; accept AS44117
+export:         to AS44117 announce {0.0.0.0/0}
+import:         from AS43508 action pref=65415; accept AS43508
+export:         to AS43508 announce {0.0.0.0/0}
+import:         from AS42335 action pref=65415; accept AS-ABUA-KH
+export:         to AS42335 announce ANY
+import:         from AS29034 action pref=65415; accept AS-ABUA-KH
+export:         to AS29034 announce ANY
+import:         from AS45045 action pref=65415; accept AS45045
+export:         to AS45045 announce {0.0.0.0/0}
+import:         from AS29062 action pref=65455; accept AS-VOKS
+export:         to AS29062 announce ANY
+import:         from AS49359 action pref=65415; accept AS49359
+export:         to AS49359 announce ANY
+import:         from AS50130 action pref=65415; accept AS-SYNDICATE
+export:         to AS50130 announce ANY
+import:         from AS51387 action pref=65415; accept AS51387
+export:         to AS51387 announce ANY
+import:         from AS47513 action pref=65415; accept AS-SKYLINE-KH
+export:         to AS47513 announce ANY
+import:         from AS51576 action pref=65415; accept AS51576
+export:         to AS51576 announce ANY
+import:         from AS51738 action pref=65415; accept AS51738
+export:         to AS51738 announce ANY
+import:         from AS51903 action pref=65415; accept AS-WEARENET
+export:         to AS51903 announce ANY
+import:         from AS51963 action pref=65415; accept AS51963
+export:         to AS51963 announce ANY
+import:         from AS28773 action pref=65415; accept AS-MASTER
+export:         to AS28773 announce AS-UAIX
+import:         from AS48143 action pref=65415; accept AS48143
+export:         to AS48143 announce ANY
+import:         from AS21437 action pref=65415; accept AS-AVITI
+export:         to AS21437 announce AS-UAIX
+import:         from AS57031 action pref=65415; accept AS57031
+export:         to AS57031 announce ANY
+import:         from AS44319 action pref=65415; accept AS44319
+export:         to AS44319 announce ANY
+import:         from AS8811 action pref=65145; accept AS8811
+export:         to AS8811 announce ANY
+import:         from AS49889 action pref=65415; accept AS49889
+export:         to AS49889 announce ANY
+import:         from AS198491 action pref=65415; accept AS198491
+export:         to AS198491 announce ANY
+import:         from AS41784 action pref=65415; accept AS41784
+export:         to AS41784 announce ANY
+import:         from AS56423 action pref=65415; accept AS56423
+export:         to AS56423 announce ANY
+import:         from AS49727 action pref=65415; accept AS49727
+export:         to AS49727 announce {0.0.0.0/0}
+import:         from AS31016 action pref=65415; accept AS31016
+export:         to AS31016 announce {0.0.0.0/0}
+import:         from AS51959 action pref=65415; accept AS51959
+export:         to AS51959 announce ANY
+remarks:
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:
+remarks:
+remarks:        IPv6 connectivity
+remarks:
+mp-import:      afi ipv6.unicast from AS9002 accept ANY
+mp-export:      afi ipv6.unicast to AS9002 announce AS-VALOR-IPv6
+mp-import:      afi ipv6.unicast from AS3356 accept ANY
+mp-export:      afi ipv6.unicast to AS3356 announce AS-VALOR-IPv6
+mp-import:      afi ipv6.unicast from AS15645 accept AS-UAIX-v6
+mp-export:      afi ipv6.unicast to AS15645 announce AS-VALOR-IPv6
+mp-import:      afi ipv6.unicast from AS31210 accept AS-DTEL-IX-V6
+mp-export:      afi ipv6.unicast to AS31210 announce AS-VALOR-IPv6
+mp-import:      afi ipv6.unicast from AS35297 accept AS-MSKROUTESERVER
+mp-export:      afi ipv6.unicast to AS35297 announce AS-VALOR-IPv6
+mp-import:      afi ipv6.unicast from AS59613 accept AS-UBNIX-v6
+mp-export:      afi ipv6.unicast to AS59613 announce AS-VALOR-IPv6
+remarks:
+remarks:        IPv6 Customers
+remarks:
+mp-import:      afi ipv6.unicast from AS13103 accept AS13103
+mp-export:      afi ipv6.unicast to AS13103 announce ANY
+mp-import:      afi ipv6.unicast from AS43266 accept AS-ABSETv6
+mp-export:      afi ipv6.unicast to AS43266 announce ANY
+mp-import:      afi ipv6.unicast from AS51903 accept AS51903
+mp-export:      afi ipv6.unicast to AS51903 announce ANY
+mp-import:      afi ipv6.unicast from AS43508 accept AS43508
+mp-export:      afi ipv6.unicast to AS43508 announce ANY
+mp-import:      afi ipv6.unicast from AS29062 accept AS-VOKS-V6
+mp-export:      afi ipv6.unicast to AS29062 announce ANY
+mp-import:      afi ipv6.unicast from AS60354 accept AS60354
+mp-export:      afi ipv6.unicast to AS60354 announce ANY
+mp-import:      afi ipv6.unicast from AS57031 accept AS57031
+mp-export:      afi ipv6.unicast to AS57031 announce ANY
+remarks:
+remarks:        =====================================================================================
+remarks:        | Communities may be set by our customers when talking to AS20850, first match wins |
+remarks:        ===================================Exchange Points===================================
+remarks:        | 20850:5500x - advertise or not to All Exchange Points
+remarks:        | 5501x - advertise or not to UA-IX
+remarks:        | 5503x - advertise or not to DTEL-IX
+remarks:        | 5504x - advertise or not to DE-CIX
+remarks:        | 5505x - advertise or not to MSK-IX
+remarks:        | 5508x - advertise or not to UBN-IX
+remarks:        ================================End of Exchange Points===============================
+remarks:        Community meaning 20850:550xy where 'y' is action:
+remarks:        | 0 - Do not advertise
+remarks:        | 1 - advertise and prepend 1 times
+remarks:        | 3 - advertise and prepend 3 times
+remarks:        | 5 - advertise and prepend 5 times
+remarks:        | 7 - advertise and prepend 7 times
+remarks:        ===================================World Uplinks=====================================
+remarks:        | 20850:5100x - advertise or not to All Uplinks
+remarks:        | 5109x - advertise or not to UARNet
+remarks:        | 5115x - advertise or not to TINET
+remarks:        | 5120x - advertise or not to MTS
+remarks:        =================================End of World Uplinks================================
+remarks:        Community meaning 20850:51xxy where 'y' is action:
+remarks:        | 0 - Do not advertise
+remarks:        | 1 - advertise and prepend 1 times
+remarks:        | 3 - advertise and prepend 3 times
+remarks:        | 5 - advertise and prepend 5 times
+remarks:        | 7 - advertise and prepend 7 times
+remarks:        ===================================Other actions=====================================
+remarks:        | 20850:50 will set Local Preference to 50 for use as Backup
+remarks:        | 20850:150 will set Local Preference to 150 for use as Main
+remarks:        | 20850:999 Blackhole (32-bit prefix only) drop traffic for this ip!
+remarks:        | Attention Blackhole will work only with ip from your subnet !
+remarks:        ===================================End Other actions=================================
+remarks:        Looking Glass : http://lg.valor.ua
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         VOLIA-MNT
+created:        2002-04-25T11:03:57Z
+last-modified:  2017-11-09T10:48:09Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

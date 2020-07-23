@@ -1,0 +1,227 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS24737 - AS24756'
+
+as-block:       AS24737 - AS24756
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:29Z
+last-modified:  2018-11-22T15:27:29Z
+source:         RIPE
+
+% Information related to 'AS24745'
+
+% Abuse contact for 'AS24745' is 'abuse@telekom.ro'
+
+aut-num:        AS24745
+as-name:        Balcan-IX
+descr:          Balcan-IX
+descr:          3-5 Piata Presei Libere,City Gate(North Tower),
+descr:          7th-18th floors, 1st District, 013702, Bucharest, Romania
+org:            ORG-AA45-RIPE
+remarks:        ===============================================================
+remarks:        BGP Standard Community (RFC 1997) available to customers
+remarks:
+remarks:        --------------------------DO-NOT-ADVERTISE---------------------------------
+remarks:        24745:24745       Redistribute to all (default)
+remarks:        0:24745           Do not redistribute
+remarks:        24745:$PEER-AS  Redistribute to $PEER-AS (use in combination with 0:24745)
+remarks:        0:$PEER-AS       Do not Redistribute to $PEER-AS
+remarks:
+remarks:        -------------------------NO-EXPORT/NO-ADVERTISE well known-----------------
+remarks:        65535:65281 NO-EXPORT
+remarks:        65535:65282 NO-ADVERTISE
+remarks:        63034:65281 Send NO-EXPORT  to all $PEER-AS
+remarks:        63034:65282 Send NO-ADVERTISE to all $PEER-AS
+remarks:
+remarks:        -------------------------EVALUATION ORDER----------------------------------
+remarks:        1                NO-EXPORT (65535:65281)
+remarks:        1                NO-ADVERTISE (65535:65282)
+remarks:        2           0:$PEER-AS
+remarks:        3            24745:$PEER-AS
+remarks:        4            0:24745
+remarks:        5            24745:24745
+remarks:
+remarks:        -------------------------BGP Community transparency----------------------------------
+remarks:        All BGP Communities  that not mach  (*:24745 )or (24745:*) are not touched
+remarks:        by the route servers and transparently re-distributed. Routes with no
+remarks:        community at all are distributed to all peers
+remarks:        =====================================================================
+import:         from AS2614 action pref=100; accept AS-ROEDUNET
+import:         from AS3223 action pref=100; accept as-voxility-set
+import:         from AS5483 action pref=100; accept AS-MAGYARTELEKOM
+import:         from AS5541 action pref=100; accept AS-ADNET
+import:         from AS5588 action pref=100; accept AS-GTS-CE
+import:         from AS6663 action pref=100; accept AS-PANTEL
+import:         from AS6718 action pref=100; accept AS-NAV
+import:         from AS6910 action pref=100; accept AS-DIALTELECOMRO
+import:         from AS6939 action pref=100; accept AS-HURRICANEv6
+import:         from AS8751 action pref=100; accept AS-MEDIASAT
+import:         from AS8926 action pref=100; accept AS-MOLDTELECOM
+import:         from AS9009 action pref=100; accept AS-GBXS
+import:         from AS9050 action pref=100; accept AS-RTD
+import:         from AS13004 action pref=100; accept AS-SOX-SRB
+import:         from AS13335 action pref=100; accept AS-CLOUDFLARE
+import:         from AS20616 action pref=100; accept AS-NETBRIDGE
+import:         from AS20722 action pref=100; accept AS-ALLNET
+import:         from AS31042 action pref=100; accept AS-SBB
+import:         from AS31210 action pref=100; accept AS-DTEL-IX
+import:         from AS31244 action pref=100; accept AS-ETP
+import:         from AS31252 action pref=100; accept AS-STARNET
+import:         from AS31287 action pref=100; accept AS-IPACCT
+import:         from AS31605 action pref=100; accept AS-CANALS
+import:         from AS32934 action pref=100; accept AS-Facebook
+import:         from AS34224 action pref=100; accept AS-NETERRA-INT
+import:         from AS34304 action pref=100; accept AS-TEEN
+import:         from AS34358 action pref=100; accept AS-Clax
+import:         from AS34772 action pref=100; accept AS-NEOTEL-SET
+import:         from AS39543 action pref=100; accept AS-SPARK
+import:         from AS39668 action pref=100; accept AS-IST
+import:         from AS39737 action pref=100; accept AS-NETVISIONTEL
+import:         from AS39743 action pref=100; accept as-voxility-set
+import:         from AS39756 action pref=100; accept AS-ROHOSTWAY
+import:         from AS42800 action pref=100; accept AS-APPNOR
+import:         from AS43376 action pref=100; accept AS-DOTRO
+import:         from AS43764 action pref=100; accept AS-SEVLUSH
+import:         from AS48067 action pref=100; accept AS-DISTINCT
+import:         from AS50819 action pref=100; accept AS-STAR-STORAGE
+import:         from AS57344 action pref=100; accept AS-57344
+import:         from AS202203 action pref=100; accept AS-D-NET
+import:         from AS2906 action pref=100; accept AS2906
+import:         from AS8075 action pref=100; accept AS8075
+import:         from AS10310 action pref=100; accept AS10310
+import:         from AS12189 action pref=100; accept AS12189
+import:         from AS25198 action pref=100; accept AS25198
+import:         from AS34198 action pref=100; accept AS34198
+import:         from AS34847 action pref=100; accept AS34847
+import:         from AS41095 action pref=100; accept AS41095
+import:         from AS41496 action pref=100; accept AS41496
+import:         from AS47220 action pref=100; accept AS47220
+import:         from AS50604 action pref=100; accept AS50604
+export:         to AS2614 announce AS-BALCANIX
+export:         to AS2906 announce AS-BALCANIX
+export:         to AS3223 announce AS-BALCANIX
+export:         to AS5483 announce AS-BALCANIX
+export:         to AS5541 announce AS-BALCANIX
+export:         to AS5588 announce AS-BALCANIX
+export:         to AS6663 announce AS-BALCANIX
+export:         to AS6718 announce AS-BALCANIX
+export:         to AS6910 announce AS-BALCANIX
+export:         to AS6939 announce AS-BALCANIX
+export:         to AS8075 announce AS-BALCANIX
+export:         to AS8751 announce AS-BALCANIX
+export:         to AS8926 announce AS-BALCANIX
+export:         to AS9009 announce AS-BALCANIX
+export:         to AS9050 announce AS-BALCANIX
+export:         to AS10310 announce AS-BALCANIX
+export:         to AS12189 announce AS-BALCANIX
+export:         to AS13004 announce AS-BALCANIX
+export:         to AS13335 announce AS-BALCANIX
+export:         to AS20616 announce AS-BALCANIX
+export:         to AS20722 announce AS-BALCANIX
+export:         to AS25198 announce AS-BALCANIX
+export:         to AS31042 announce AS-BALCANIX
+export:         to AS31210 announce AS-BALCANIX
+export:         to AS31244 announce AS-BALCANIX
+export:         to AS31252 announce AS-BALCANIX
+export:         to AS31287 announce AS-BALCANIX
+export:         to AS31605 announce AS-BALCANIX
+export:         to AS32934 announce AS-BALCANIX
+export:         to AS34198 announce AS-BALCANIX
+export:         to AS34224 announce AS-BALCANIX
+export:         to AS34304 announce AS-BALCANIX
+export:         to AS34358 announce AS-BALCANIX
+export:         to AS34772 announce AS-BALCANIX
+export:         to AS34847 announce AS-BALCANIX
+export:         to AS39543 announce AS-BALCANIX
+export:         to AS39668 announce AS-BALCANIX
+export:         to AS39737 announce AS-BALCANIX
+export:         to AS39743 announce AS-BALCANIX
+export:         to AS39756 announce AS-BALCANIX
+export:         to AS41095 announce AS-BALCANIX
+export:         to AS41496 announce AS-BALCANIX
+export:         to AS42800 announce AS-BALCANIX
+export:         to AS43376 announce AS-BALCANIX
+export:         to AS43764 announce AS-BALCANIX
+export:         to AS47220 announce AS-BALCANIX
+export:         to AS48067 announce AS-BALCANIX
+export:         to AS50604 announce AS-BALCANIX
+export:         to AS50819 announce AS-BALCANIX
+export:         to AS57344 announce AS-BALCANIX
+export:         to AS202203 announce AS-BALCANIX
+admin-c:        GPN4-RIPE
+tech-c:         CD297-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         CI84-RIPE
+mnt-by:         ARTELECOM-MNT
+created:        2002-08-21T06:40:53Z
+last-modified:  2018-12-27T15:37:11Z
+source:         RIPE
+
+organisation:   ORG-AA45-RIPE
+org-name:       TELEKOM ROMANIA COMMUNICATION S.A
+org-type:       LIR
+address:        P-ta PRESEI LIBERE,Nr.3-5, Cladirea Citygate,
+                Etajele 7-18 din Turnul de Nord
+address:        013702
+address:        Bucuresti
+address:        ROMANIA
+phone:          +40214005682
+fax-no:         +40214005753
+descr:          Romtelecom Local Internet Registry
+mnt-ref:        MNT-ARTELECOM-LIR
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         MNT-ARTELECOM-LIR
+admin-c:        CD297-RIPE
+admin-c:        GPN4-RIPE
+abuse-c:        RA6992-RIPE
+created:        2004-04-17T11:49:40Z
+last-modified:  2018-10-26T08:52:39Z
+source:         RIPE # Filtered
+
+person:         Codita Dragos
+remarks:        Network Engineer
+remarks:        Telekom Romania Communications
+address:        35 Calea Victoriei blvd. Bucharest, Romania
+phone:          +40 76 6443775
+phone:          +40 21 4003099
+nic-hdl:        CD297-RIPE
+mnt-by:         CD297-MNT
+created:        2002-06-20T12:19:26Z
+last-modified:  2017-10-30T21:45:40Z
+source:         RIPE # Filtered
+
+person:         Constantin Iordan
+remarks:        Network Engineer
+remarks:        Romtelecom S.A.
+address:        Bucharest, Romania
+phone:          +40 21.400.30.99
+nic-hdl:        CI84-RIPE
+mnt-by:         CI84-MNT
+created:        2002-07-12T11:50:59Z
+last-modified:  2009-09-02T10:31:11Z
+source:         RIPE # Filtered
+
+person:         George Puiu Nicolae
+address:        P-ta Presei Libere, nr. 3, City Gate, North Tower, Bucuresti, Romania
+phone:          +40-21-4005682
+nic-hdl:        GPN4-RIPE
+mnt-by:         GPN4-MNT
+created:        2006-02-03T11:34:04Z
+last-modified:  2017-10-30T21:47:39Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+
+

@@ -1,0 +1,189 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5537 - AS5631'
+
+as-block:       AS5537 - AS5631
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5606'
+
+% Abuse contact for 'AS5606' is 'abuse@gtstelecom.ro'
+
+aut-num:        AS5606
+as-name:        KQRO
+org:            ORG-GTS2-RIPE
+descr:          Bucharest ROMANIA
+import:         from AS12878 accept ANY
+import:         from AS16170 217.156.30.22 at 217.156.30.21 action pref=10; accept AS-VIPNET
+import:         from AS15471 217.156.30.30 at 217.156.30.29 action pref=10; accept AS-SNRNET
+import:         from AS15471 193.226.139.242 at 193.226.139.241 action pref=10; accept AS-SNRNET
+import:         from AS12302 193.226.139.254 at 193.226.139.253 action pref=10; accept AS-MOBIFON
+import:         from AS21220 80.97.176.250 at 193.226.191.18 action pref=10; accept AS21220
+import:         from AS15520 193.226.130.90 at 193.226.130.89 action pref=10; accept AS-AIG
+import:         from AS8919 193.226.139.154 at 193.226.139.153 action pref=10; accept AS-CANAD
+import:         from AS16170 193.226.159.102 at 193.226.159.101 action pref=10; accept AS-VIPNET
+import:         from AS21224 193.226.159.106 at 193.226.159.105 action pref=10; accept AS-MURES
+import:         from AS8555 193.231.222.100 at 193.226.191.18 action pref=10; accept AS-FX
+import:         from AS6746 193.231.255.253 at 193.231.255.254 action pref=10; accept AS-ASTRAL
+import:         from AS8503 213.154.129.25 at 193.226.191.18 action pref=10; accept AS-PCNET
+import:         from AS20497 193.226.130.222 at 193.226.130.221 action pref=10; accept AS20497
+import:         from AS12764 193.226.130.254 at 193.226.130.253 action pref=10; accept AS12674
+import:         from AS3233 193.226.190.210 at 193.226.190.209 action pref=10; accept AS-RNC
+import:         from AS9064 194.102.118.253 at 193.226.191.23 action pref=10; accept AS-DIGICOM
+import:         from AS8708 193.231.184.161 at 193.231.184.162 action pref=100; accept AS-RDSTRANSIT
+import:         from AS16170 193.230.219.62 at 193.226.158.45 action pref=100; accept AS-VIPNET
+import:         from AS20530 217.156.113.1 at 217.156.113.9 action pref=100; accept AS-ROMANIA
+import:         from AS12439 193.226.130.38 at 193.226.130.37 action pref=10; accept AS12439
+import:         from AS25318 193.226.130.170 at 193.226.130.179 action pref=10; accept AS25318
+import:         from AS15634 193.226.190.78 at 193.226.190.77 action pref=10; accept AS-FORTE
+import:         from AS3233 193.226.190.162 at 193.226.190.161 action pref=10; accept AS-RNC
+import:         from AS15856 193.226.174.250 at 193.226.174.249 action pref=10; accept AS-LASTING
+import:         from AS16156 193.230.192.57 at 193.226.146.253 action pref=10; accept AS16156
+import:         from AS25409 193.226.186.30 at 193.226.186.29 action pref=10; accept AS25409
+import:         from AS12439 193.226.144.242 at 193.226.144.241 action pref=10; accept AS12439
+import:         from AS12920 193.226.181.254 at 193.226.181.253 action pref=10; accept AS12920
+import:         from AS12439 193.226.160.254 at 193.226.160.253 action pref=10; accept AS12439
+import:         from AS8953 193.226.187.230 at 193.226.187.229 action pref=10; accept AS-ORANGERO
+import:         from AS35436 212.146.94.230 at 212.146.94.229 action pref=10; accept AS35436
+import:         from AS39306 193.226.149.10 at 193.226.149.9 action pref=10; accept AS39306
+export:         to AS12878 announce AS-KPNQWESTRO
+export:         to AS16170 217.156.30.22 at 217.156.30.21 announce AS-KQRONIX
+export:         to AS15471 217.156.30.30 at 217.156.30.29 announce AS-KQRONIX
+export:         to AS15471 193.226.139.242 at 193.226.139.241 announce AS-KQRONIX
+export:         to AS12302 193.226.139.254 at 193.226.139.253 announce AS-KQRONIX
+export:         to AS21220 80.97.176.250 at 193.226.191.18 announce AS-KQRONIX
+export:         to AS15520 193.226.130.90 at 193.226.130.89 announce AS-KQRONIX
+export:         to AS8919 193.226.139.154 at 193.226.139.153 announce AS-KQRONIX
+export:         to AS16170 193.226.159.102 at 193.226.159.101 announce AS-KQRONIX
+export:         to AS21224 193.226.159.106 at 193.226.159.105 announce AS-KQRONIX
+export:         to AS8555 193.231.222.100 at 193.226.191.18 announce AS-KQRONIX
+export:         to AS6746 193.231.255.253 at 193.231.255.254 announce AS-KQRONIX
+export:         to AS8503 213.154.129.25 at 193.226.191.18 announce AS-KQRONIX
+export:         to AS20497 193.226.130.222 at 193.226.130.221 announce AS-KQRONIX
+export:         to AS12764 193.226.130.254 at 193.226.130.253 announce AS-KQRONIX
+export:         to AS3233 193.226.190.210 at 193.226.190.209 announce AS-KQRONIX
+export:         to AS9064 194.102.118.253 at 193.226.191.23 announce AS-KQRONIX
+export:         to AS8708 193.231.184.161 at 193.231.184.162 announce AS-KQRONIX
+export:         to AS16170 193.230.219.62 at 193.226.158.45 announce AS-KQRONIX
+export:         to AS20530 217.156.113.1 at 217.156.113.9 announce AS-KQRONIX
+export:         to AS12439 193.226.130.38 at 193.226.130.37 announce AS-KQRONIX
+export:         to AS25318 193.226.130.170 at 193.226.130.179 announce AS-KQRONIX
+export:         to AS15634 193.226.190.78 at 193.226.190.77 announce AS-KQRONIX
+export:         to AS3233 193.226.190.162 at 193.226.190.161 announce AS-KQRONIX
+export:         to AS15856 193.226.174.250 at 193.226.174.249 announce AS-KQRONIX
+export:         to AS16156 193.230.192.57 at 193.226.146.253 announce AS-KQRONIX
+export:         to AS25409 193.226.186.30 at 193.226.186.29 announce AS-KQRONIX
+export:         to AS12439 193.226.144.242 at 193.226.144.241 announce AS-KQRONIX
+export:         to AS12920 193.226.181.254 at 193.226.181.253 announce AS-KQRONIX
+export:         to AS12439 193.226.160.254 at 193.226.160.253 announce AS-KQRONIX
+export:         to AS8953 193.226.187.230 at 193.226.187.229 announce AS-KQRONIX
+export:         to AS35436 212.146.94.230 at 212.146.94.229 announce AS-KQRONIX
+export:         to AS39306 193.226.149.10 at 193.226.149.9 announce AS-KQRONIX
+admin-c:        GTRO1-RIPE
+tech-c:         GTRO1-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+tech-c:         GTRO1-RIPE
+remarks:        +---------------------------------------------------------------------------
+remarks:        | Routing policies are becoming so complex that a complete
+remarks:        | description is beyond the scope of this document.
+remarks:        +---------------------------------------------------------------------------
+remarks:        | NOTE - RADB generated filters are applied on all peers.
+remarks:        | We accept even /32 from most customers.
+remarks:        | Anything longer than /24 will not get past our peers.
+remarks:        +---------------------------------------------------------------------------
+remarks:        | MACROS IN USE
+remarks:        |
+remarks:        | AS-KPNQWESTRO - KPNQwest Romania public
+remarks:        | AS-KQRONIX - KPNQwest Romania transit (to private peers)
+remarks:        | AS-KQROTERRA - KPNQwest Romania terestrial customers
+remarks:        | AS-KQROSAT - KPNQwest Romania satelit customers
+remarks:        | AS-KQROBAK - KPNQwest Romania backed-up customers
+remarks:        +---------------------------------------------------------------------------
+remarks:        | LOCAL PREFERENCE TABLE
+remarks:        |
+remarks:        | 100 Customer route
+remarks:        | 55 Route received from RoNIX
+remarks:        | 50 Route received from RDSNet
+remarks:        +---------------------------------------------------------------------------
+remarks:        | COMMUNITIES - ROUTE TYPE - NOT SETTABLE FROM EXTERN
+remarks:        | 5606:40 Terestrial customer route
+remarks:        | 5606:2040 Private Peer route
+remarks:        +---------------------------------------------------------------------------
+remarks:        | COMMUNITIES - CUSTOMER-SETTABLE
+remarks:        |
+remarks:        | 5606:11 Prepend 5606 once to Private peer
+remarks:        | 5606:12 Prepend 5606 twice to Private peer
+remarks:        | 5606:13 Prepend 5606 three times to Private peer
+remarks:        | 5606:14 Prepend 5606 four times to Private peer
+remarks:        |
+remarks:        | 5606:21 Prepend 5606 once to upstream
+remarks:        | 5606:22 Prepend 5606 twice to upstream
+remarks:        | 5606:23 Prepend 5606 three times to upstream
+remarks:        |
+remarks:        | 5606:66 Block this prefix in the European Backbone (for dDOS attacks)
+remarks:        | 5606:67 Don't announce to Private peers
+remarks:        | 5606:68 Don't announce to Upstreams
+remarks:        |
+remarks:        | 5606:80 Lower local preference to 98
+remarks:        | 5606:90 Increase local preference to 102
+remarks:        |
+remarks:        +---------------------------------------------------------------------------
+mnt-by:         AS5606-MNT
+created:        2002-06-20T11:49:35Z
+last-modified:  2017-11-15T09:15:25Z
+source:         RIPE # Filtered
+
+organisation:   ORG-GTS2-RIPE
+org-name:       GTS Telecom SRL
+org-type:       LIR
+address:        Str Izvor, Nr 92-96, Floor 1-2
+address:        050564
+address:        District 5, Bucharest
+address:        ROMANIA
+phone:          +40214100100
+phone:          +40312200200
+fax-no:         +40312200222
+admin-c:        GTRO1-RIPE
+abuse-c:        GTRO1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        AS5606-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         AS5606-MNT
+created:        2004-04-17T11:49:49Z
+last-modified:  2018-12-07T09:03:09Z
+source:         RIPE # Filtered
+
+role:           GTS Telecom Romania Operations
+address:        GTS Telecom Romania
+address:        92-96 Izvor St.
+address:        050564 Bucharest
+address:        ROMANIA
+phone:          +40 31 220 0455
+fax-no:         +40 31 220 0222
+abuse-mailbox:  abuse@gtstelecom.ro
+admin-c:        ANDY14
+admin-c:        RCB
+tech-c:         ANDY14
+tech-c:         RCB
+nic-hdl:        GTRO1-RIPE
+mnt-by:         AS5606-MNT
+created:        2004-10-07T07:37:34Z
+last-modified:  2018-09-13T14:21:15Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (BLAARKOP)
+
+

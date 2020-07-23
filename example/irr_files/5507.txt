@@ -1,0 +1,333 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS5377 - AS5535'
+
+as-block:       AS5377 - AS5535
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:22Z
+last-modified:  2018-11-22T15:27:22Z
+source:         RIPE
+
+% Information related to 'AS5507'
+
+% Abuse contact for 'AS5507' is 'abuse@nic.hu'
+
+aut-num:        AS5507
+as-name:        HU-BIX-AS
+descr:          BIX - Budapest Internet Exchange
+remarks:        Hungary
+org:            ORG-CHIP1-RIPE
+remarks:        --------------------------------------------------------------
+remarks:        --- IPv4 Members                                           ---
+remarks:        --------------------------------------------------------------
+import:         from AS12301 accept AS12301:AS-ROUTES AS12301:RS-DTC
+export:         to AS12301 announce AS-BIX
+import:         from AS12303 accept AS-ISZT
+export:         to AS12303 announce AS-BIX
+import:         from AS12310 accept AS-INES
+export:         to AS12310 announce AS-BIX
+import:         from AS12594 accept AS-EXTERNET
+export:         to AS12594 announce AS-BIX
+import:         from AS13335 accept AS13335
+export:         to AS13335 announce AS-BIX
+import:         from AS15169 accept AS15169
+export:         to AS15169 announce AS-BIX
+import:         from AS15566 accept AS15566
+export:         to AS15566 announce AS-BIX
+import:         from AS16265 accept AS-LEASEWEB
+export:         to AS16265 announce AS-BIX
+import:         from AS1955 accept AS-HBONE
+export:         to AS1955 announce AS-BIX
+import:         from AS197248 accept AS-DRAVANET
+export:         to AS197248 announce AS-BIX
+import:         from AS20510 accept AS20510
+export:         to AS20510 announce AS-BIX
+import:         from AS20523 accept AS20523
+export:         to AS20523 announce AS-BIX
+import:         from AS206892 accept AS-RENDSZERINF
+export:         to AS206892 announce AS-BIX
+import:         from AS20845 accept AS-DIGICABLE
+export:         to AS20845 announce AS-BIX
+import:         from AS20882 accept AS20882
+export:         to AS20882 announce AS-BIX
+import:         from AS21320 accept AS21320
+export:         to AS21320 announce AS-BIX
+import:         from AS21334 accept AS-VODAFONE-HU
+export:         to AS21334 announce AS-BIX
+import:         from AS24806 accept AS-INTERNETCZ
+export:         to AS24806 announce AS-BIX
+import:         from AS24822 accept AS24822 AS196886
+export:         to AS24822 announce AS-BIX
+import:         from AS29278 accept AS-DENINET AS33947
+export:         to AS29278 announce AS-BIX
+import:         from AS29405 accept AS-VNET
+export:         to AS29405 announce AS-BIX
+import:         from AS29834 accept AS29834
+export:         to AS29834 announce AS-BIX
+import:         from AS30836 accept AS-23VNET
+export:         to AS30836 announce AS-BIX
+import:         from AS31042 accept AS31042
+export:         to AS31042 announce AS-BIX
+import:         from AS3216 accept AS3216
+export:         to AS3216 announce AS-BIX
+import:         from AS3244 accept AS3244
+export:         to AS3244 announce AS-BIX
+import:         from AS34655 accept AS-DDITS
+export:         to AS34655 announce AS-BIX
+import:         from AS34779 accept AS34779
+export:         to AS34779 announce AS-BIX
+import:         from AS35263 accept AS35263
+export:         to AS35263 announce AS-BIX
+import:         from AS35311 accept AS-PRTELECOM
+export:         to AS35311 announce AS-BIX
+import:         from AS39201 accept AS39201
+export:         to AS39201 announce AS-BIX
+import:         from AS39934 accept AS39934
+export:         to AS39934 announce AS-BIX
+import:         from AS41206 accept AS-UNITEDTELECOM
+export:         to AS41206 announce AS-BIX
+import:         from AS41303 accept AS41303
+export:         to AS41303 announce AS-BIX
+import:         from AS41627 accept AS41627
+export:         to AS41627 announce AS-BIX
+import:         from AS42624 accept AS42624
+export:         to AS42624 announce AS-BIX
+import:         from AS42864 accept AS-GIGANET
+export:         to AS42864 announce AS-BIX
+import:         from AS43928 accept AS43928
+export:         to AS43928 announce AS-BIX
+import:         from AS44302 accept AS-IECHU
+export:         to AS44302 announce AS-BIX
+import:         from AS44306 accept AS44306
+export:         to AS44306 announce AS-BIX
+import:         from AS47116 accept AS-INTELLIHOME
+export:         to AS47116 announce AS-BIX
+import:         from AS47169 accept AS-HPC-MVM
+export:         to AS47169 announce AS-BIX
+import:         from AS47381 accept AS-DOCLERWEB
+export:         to AS47381 announce AS-BIX
+import:         from AS50031 accept AS-ZALASZAM
+export:         to AS50031 announce AS-BIX
+import:         from AS50261 accept AS-ACENET
+export:         to AS50261 announce AS-BIX
+import:         from AS51920 accept AS51920
+export:         to AS51920 announce AS-BIX
+import:         from AS5483 accept AS-MAGYARTELEKOM
+export:         to AS5483 announce AS-BIX
+import:         from AS5588 accept AS-GTS-CE AS3340 AS-DATANETBIX
+export:         to AS5588 announce AS-BIX
+import:         from AS57389 accept AS-ZNETTELEKOM
+export:         to AS57389 announce AS-BIX
+import:         from AS59649 accept AS59649
+export:         to AS59649 announce AS-BIX
+import:         from AS60673 accept AS60673
+export:         to AS60673 announce AS-BIX
+import:         from AS62214 accept AS-RACKFOREST
+export:         to AS62214 announce AS-BIX
+import:         from AS62292 accept AS62292 AS47587 AS35828 AS48131 AS204136 AS205448 AS203661
+export:         to AS62292 announce AS-BIX
+import:         from AS6663 accept AS-PANTEL
+export:         to AS6663 announce AS-BIX
+import:         from AS6939 accept AS-HURRICANE
+export:         to AS6939 announce AS-BIX
+import:         from AS8075 accept AS8075
+export:         to AS8075 announce AS-BIX
+import:         from AS8448 accept AS-TELENORHUN
+export:         to AS8448 announce AS-BIX
+import:         from AS8462 accept AS-TARR AS-SAT-TRAKT
+export:         to AS8462 announce AS-BIX
+import:         from AS8708 accept AS-RDSNET
+export:         to AS8708 announce AS-BIX
+import:         from AS8990 accept AS-AH-BIX
+export:         to AS8990 announce AS-BIX
+import:         from AS9009 accept AS-GBXS
+export:         to AS9009 announce AS-BIX
+import:         from AS9050 accept AS-RTD
+export:         to AS9050 announce AS-BIX
+import:         from AS9146 accept AS-BIHNET-ALL
+export:         to AS9146 announce AS-BIX
+remarks:        --------------------------------------------------------------
+remarks:        --- IPv6 Members                                           ---
+remarks:        --------------------------------------------------------------
+mp-import:      afi ipv6.unicast from AS12301 accept AS12301:AS-ROUTES
+mp-export:      afi ipv6.unicast to AS12301 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS12303 accept AS-ISZT
+mp-export:      afi ipv6.unicast to AS12303 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS12594 accept AS12594
+mp-export:      afi ipv6.unicast to AS12594 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS13335 accept AS13335
+mp-export:      afi ipv6.unicast to AS13335 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS15169 accept AS15169
+mp-export:      afi ipv6.unicast to AS15169 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS15566 accept AS15566
+mp-export:      afi ipv6.unicast to AS15566 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS16265 accept AS16265
+mp-export:      afi ipv6.unicast to AS16265 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS1955 accept AS1955
+mp-export:      afi ipv6.unicast to AS1955 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS197248 accept AS197248
+mp-export:      afi ipv6.unicast to AS197248 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS20510 accept AS20510
+mp-export:      afi ipv6.unicast to AS20510 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS206892 accept AS206892
+mp-export:      afi ipv6.unicast to AS206892 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS20845 accept AS-DIGICABLE6
+mp-export:      afi ipv6.unicast to AS20845 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS21320 accept AS21320
+mp-export:      afi ipv6.unicast to AS21320 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS21334 accept AS21334
+mp-export:      afi ipv6.unicast to AS21334 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS24806 accept AS24806
+mp-export:      afi ipv6.unicast to AS24806 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS24822 accept AS24822
+mp-export:      afi ipv6.unicast to AS24822 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS29278 accept AS-DENINET6
+mp-export:      afi ipv6.unicast to AS29278 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS29405 accept AS-VNET
+mp-export:      afi ipv6.unicast to AS29405 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS29834 accept AS29834
+mp-export:      afi ipv6.unicast to AS29834 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS30836 accept AS-23VNET
+mp-export:      afi ipv6.unicast to AS30836 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS31042 accept AS31042
+mp-export:      afi ipv6.unicast to AS31042 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS3216 accept AS3216
+mp-export:      afi ipv6.unicast to AS3216 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS34655 accept AS-DDITS
+mp-export:      afi ipv6.unicast to AS34655 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS34779 accept AS34779
+mp-export:      afi ipv6.unicast to AS34779 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS35263 accept AS35263
+mp-export:      afi ipv6.unicast to AS35263 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS35311 accept AS-PRTELECOM
+mp-export:      afi ipv6.unicast to AS35311 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS39201 accept AS39201
+mp-export:      afi ipv6.unicast to AS39201 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS39934 accept AS39934
+mp-export:      afi ipv6.unicast to AS39934 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS41206 accept AS-UNITEDTELECOM
+mp-export:      afi ipv6.unicast to AS41206 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS41303 accept AS41303
+mp-export:      afi ipv6.unicast to AS41303 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS42624 accept AS42624
+mp-export:      afi ipv6.unicast to AS42624 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS42864 accept AS-GIGANET
+mp-export:      afi ipv6.unicast to AS42864 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS43928 accept AS43928
+mp-export:      afi ipv6.unicast to AS43928 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS44306 accept AS44306
+mp-export:      afi ipv6.unicast to AS44306 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS47116 accept AS-INTELLIHOME
+mp-export:      afi ipv6.unicast to AS47116 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS47169 accept AS-HPC-MVM
+mp-export:      afi ipv6.unicast to AS47169 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS47381 accept AS-DOCLERWEB
+mp-export:      afi ipv6.unicast to AS47381 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS50031 accept AS-ZALASZAM6
+mp-export:      afi ipv6.unicast to AS50031 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS50261 accept AS-ACENET
+mp-export:      afi ipv6.unicast to AS50261 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS51920 accept AS51920
+mp-export:      afi ipv6.unicast to AS51920 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS5483 accept AS-MAGYARTELEKOM6
+mp-export:      afi ipv6.unicast to AS5483 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS5588 accept AS-GTS-CE AS3340 AS-DATANETBIX
+mp-export:      afi ipv6.unicast to AS5588 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS57389 accept AS-ZNETTELEKOM
+mp-export:      afi ipv6.unicast to AS57389 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS59649 accept AS59649
+mp-export:      afi ipv6.unicast to AS59649 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS62214 accept AS-RACKFOREST
+mp-export:      afi ipv6.unicast to AS62214 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS62292 accept AS62292
+mp-export:      afi ipv6.unicast to AS62292 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS6939 accept AS-HURRICANEV6
+mp-export:      afi ipv6.unicast to AS6939 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS8448 accept AS-TELENORHUN6
+mp-export:      afi ipv6.unicast to AS8448 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS8462 accept AS-TARR AS-SAT-TRAKT-V6
+mp-export:      afi ipv6.unicast to AS8462 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS8708 accept AS8708
+mp-export:      afi ipv6.unicast to AS8708 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS8990 accept AS-AH-BIX
+mp-export:      afi ipv6.unicast to AS8990 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS9002 accept AS-RETN6
+mp-export:      afi ipv6.unicast to AS9002 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS9009 accept AS-GBXS
+mp-export:      afi ipv6.unicast to AS9009 announce AS-BIX-V6
+mp-import:      afi ipv6.unicast from AS9146 accept AS9146
+mp-export:      afi ipv6.unicast to AS9146 announce AS-BIX-V6
+remarks:        --------------------------------------------------------------
+remarks:        The BIX route servers uses the following BGP communities:
+remarks:
+remarks:        <nn>:1   Advertise the prefix to AS<nn> Peers
+remarks:        <nn>:2   Prepend 1 x 5507 when advertising to AS<nn> Peers
+remarks:        <nn>:3   Prepend 2 x 5507 when advertising to AS<nn> Peers
+remarks:        <nn>:4   Prepend 3 x 5507 when advertising to AS<nn> Peers
+remarks:        <nn>:10  Do not advertise to AS<nn> Peers
+remarks:
+remarks:        5507:2   Prepend 1 x 5507 when advertising to all Peers
+remarks:        5507:3   Prepend 2 x 5507 when advertising to all Peers
+remarks:        5507:4   Prepend 3 x 5507 when advertising to all Peers
+remarks:        5507:10  Do not advertise to all Peers
+remarks:
+remarks:        All other communities are ignored, and deleted. The default
+remarks:        policy (without any communities) is advertise to all Peers.
+remarks:        --------------------------------------------------------------
+sponsoring-org: ORG-HTM1-RIPE
+admin-c:        BIX-RIPE
+tech-c:         BIX-RIPE
+status:         ASSIGNED
+mnt-by:         AS5507-MNT
+mnt-by:         RIPE-NCC-END-MNT
+created:        2002-07-12T10:58:10Z
+last-modified:  2019-01-26T05:45:52Z
+source:         RIPE
+
+organisation:   ORG-CHIP1-RIPE
+org-name:       Council of Hungarian Internet Providers
+org-type:       OTHER
+address:        Council of Hungarian Internet Providers (CHIP)
+address:        Internet Szolgaltatok Tanacsa (ISZT)
+address:        Victor Hugo u. 18-22.
+address:        H-1132 Budapest
+address:        Hungary
+phone:          +36 1 2380115
+fax-no:         +36 1 2380114
+abuse-c:        AR18440-RIPE
+admin-c:        BM209-RIPE
+admin-c:        ZK106-RIPE
+mnt-ref:        HU-NIC-MNT
+mnt-by:         HU-NIC-MNT
+created:        2005-06-09T15:20:17Z
+last-modified:  2014-02-20T12:35:38Z
+source:         RIPE # Filtered
+
+role:           BIX - Budapest Intenet Exchange
+address:        Council of Hungarian Internet Providers
+address:        BIX Network Operation Center
+address:        Victor Hugo utca 18-22.
+address:        H-1132 Budapest
+address:        Hungary
+phone:          +36 30 626 6745
+fax-no:         +36 30 626 6745
+admin-c:        ANGE11-RIPE
+tech-c:         ANGE11-RIPE
+nic-hdl:        BIX-RIPE
+mnt-by:         AS5507-MNT
+created:        2018-11-05T07:50:48Z
+last-modified:  2018-11-05T07:50:48Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

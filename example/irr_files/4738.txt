@@ -1,0 +1,241 @@
+aut-num:    AS4738
+as-name:    SAARDNET-AS
+descr:      South Australian Academic Research and Development NETwork
+admin-c:    MP151
+tech-c:     ANOC-AP
+import:     protocol STATIC into BGP4
+	           from AS4738
+	           action pref=0; community = { 7575:1000, 7575:2003, 7570:8232 };
+	           accept PeerAS
+import:     protocol STATIC into BGP4
+	           from AS4738
+	           action pref=0; community = { 4738:1, 7575:1000, 7575:2003 };
+	           accept PeerAS^0-30
+import:     {
+	           from AS-ANY
+	           accept NOT { 0.0.0.0/0^25-32 };
+	           } refine {
+	           from AS7476
+	           action pref=0;
+	           accept <^PeerAS+$>;
+	           from AS7569
+	           action pref=0;
+	           accept <^PeerAS+ [AS7573 AS7645 AS10148]~*$>;
+	           from AS7570
+	           action pref=10; aspath.prepend(AS7570);
+	           accept <^PeerAS+ AS7575+ [AS101 AS293 AS668 AS6360 AS6509 AS8075 AS11537]> OR <^PeerAS+ AS7575+ AS703+>;
+	           from AS7570
+	           action pref=0; aspath.prepend(AS7570);
+	           accept <^PeerAS+ AS24101*$>;
+	           from AS7571
+	           action pref=0;
+	           accept <^PeerAS+$>;
+	           from AS7572
+	           action pref=0; aspath.prepend(AS7572);
+	           accept { 192.42.62.0/24 };
+	           from AS7572
+	           action pref=0;
+	           accept <^PeerAS+ [AS4822 AS6262]~*$>;
+	           from AS7574
+	           action pref=0; community.append(7575:1000, 7575:2015, 7570:8232);
+	           accept <^PeerAS+$>;
+	           }
+import:     {
+	           from AS7575
+	           action pref=10;
+	           accept community.contains(7575:1001, 7575:1002, 7575:1003);
+	           from AS7575
+	           action pref=0;
+	           accept ANY;
+	           }
+import:     {
+	           from AS7474 202.139.18.121
+	           action pref=10; community.append(7570:8120, 7575:1003, 7575:6001);
+	           accept NOT { 0.0.0.0/0^25-32 };
+	           }
+import:     {
+	           from AS7474 202.139.139.149
+	           action pref=10; community.append(7575:1003);
+	           accept { 0.0.0.0/0 };
+	           }
+import:     {
+	           from AS-ANY
+	           action community.append(7575:1000, 7575:2003, 7570:8232);
+	           accept <^PeerAS+$>;
+	           } refine {
+	           from AS-ANY
+	           action next-hop=192.168.0.1; community.append(no_export);
+	           accept community.contains(4738:6);
+	           from AS-ANY
+	           accept ANY;
+	           } refine {
+	           from AS-ANY
+	           action pref=30;
+	           accept community.contains(4738:70);
+	           from AS-ANY
+	           action pref=20;
+	           accept community.contains(4738:80);
+	           from AS-ANY
+	           action pref=10;
+	           accept community.contains(4738:90);
+	           from AS-ANY
+	           action pref=0;
+	           accept ANY;
+	           } refine {
+	           from AS1851
+	           accept AS1851^+;
+	           from AS64600
+	           accept { 129.96.0.0/16^+ };
+	           from AS64601
+	           accept { 130.220.0.0/16 };
+	           from AS64631
+	           accept { 192.43.226.0/24^+ };
+	           from AS64652
+	           accept { 203.5.217.0/24^+, 203.10.217.0/24^+ };
+	           from AS65524
+	           accept { 144.110.0.0/16^+, 150.229.160.0/19^+ };
+	           }
+export:     {
+	           to AS-ANY
+	           action aspath.prepend(AS4738, AS4738);
+	           announce community(7575:2003, 7575:2004, 7575:2015) AND NOT community.contains(4738:2, 7570:8115);
+	           } refine {
+	           to AS-ANY
+	           action community = { no_export };
+	           announce community.contains(4738:1);
+	           to AS-ANY
+	           announce ANY;
+	           } refine {
+	           to AS7476
+	           to AS7569
+	           to AS7570
+	           to AS7571
+	           to AS7572
+	           action aspath.prepend(AS4738, AS4738);
+	           announce ANY;
+	           }
+export:     {
+	           to AS-ANY
+	           announce NOT community.contains(4738:2);
+	           } refine {
+	           to AS7575
+	           announce ANY;
+	           }
+export:     {
+	           to AS7474 202.139.18.121
+	           action community = { 7474:70 };
+	           announce <^AS7574+$>;
+	           }
+export:     {
+	           to AS-ANY
+	           announce community.contains(7575:2003) AND NOT community.contains(4738:2, 7570:8132, 7570:8145);
+	           } refine {
+	           to AS-ANY
+	           action community = { no_export };
+	           announce community.contains(4738:1);
+	           to AS-ANY
+	           announce ANY;
+	           } refine {
+	           to AS7474 202.139.18.121
+	           action aspath.prepend(AS4738);
+	           announce ANY;
+	           }
+export:     {
+	           to AS-ANY
+	           action community.append(701:70, 3561:70, 7473:70, 7474:70, 3356:70, 1239:70); aspath.prepend(AS4738, AS4738, AS4738);
+	           announce ANY AND NOT community.contains(4738:2, 7476:1000, 7570:8132, 7570:8145);
+	           } refine {
+	           to AS-ANY
+	           action community = { no_export };
+	           announce community.contains(4738:1);
+	           to AS-ANY
+	           announce ANY;
+	           } refine {
+	           to AS7474 202.139.139.149
+	           announce <^AS7574+$>;
+	           to AS7474 202.139.139.149
+	           announce community.contains(7575:2003);
+	           }
+export:     {
+	           to AS-ANY
+	           announce ANY AND NOT community.contains(4738:2, 7570:8115);
+	           } refine {
+	           to AS-ANY
+	           action community = { no_export };
+	           announce community.contains(4738:1);
+	           to AS-ANY
+	           announce ANY;
+	           } refine {
+	           to AS7574
+	           announce community.contains(7575:1000, 7575:1001, 7575:1002) OR <[AS7570:AS-RNO AS7570:AS-MEMBER AS7570:AS-CUSTOMER]$>;
+	           }
+export:     {
+	           to AS-ANY
+	           announce { 0.0.0.0/0 } OR community.contains(7575:2003,7575:2004);
+	           } refine {
+	           to AS-ANY
+	           action community = { no_export };
+	           announce community.contains(4738:1);
+	           to AS-ANY
+	           announce ANY;
+	           } refine {
+	           to AS1851
+	           announce ANY;
+	           to AS64600
+	           announce ANY;
+	           to AS64601
+	           announce ANY;
+	           to AS64631
+	           announce ANY;
+	           to AS64652
+	           announce ANY;
+	           to AS65524
+	           announce ANY;
+	           }
+remarks:    
+remarks:    Community Description
+remarks:    ---------------------------
+remarks:    7570:8100 Member network
+remarks:    7570:8115 Commodity peer network
+remarks:    7570:8120 Commodity domestic transit network
+remarks:    7570:8132 SCCN attached R&E Network
+remarks:    7570:8145 Commodity international transit network
+remarks:    7570:8232 Export to R&E
+remarks:    7570:8245 Export to Commodity
+remarks:    4738:1  Export external to RNO with "no-export"
+remarks:    4738:2  No export beyond RNO
+remarks:    4738:6  Blackhole traffic
+remarks:    4738:70  RNO local preference 70
+remarks:    4738:80  RNO local preference 80
+remarks:    4738:90  RNO local preference 90
+remarks:    7575:1  Export external to AARNet with "no-export"
+remarks:    7575:2  No export beyond AARNet
+remarks:    7575:3  Prepend AS7575 once
+remarks:    7575:4  Prepend AS7575 twice
+remarks:    7575:5  Prepend AS7575 thrice
+remarks:    7575:6  Blackhole traffic
+remarks:    7575:70  AARNet local preference 70
+remarks:    7575:80  AARNet local preference 80
+remarks:    7575:90  AARNet local preference 90
+remarks:    7575:1000 Originated on member network
+remarks:    7575:1001 Originated on affiliated R&E network
+remarks:    7575:1002 Originated on peer network
+remarks:    7575:1003 Originated on commodity network
+remarks:    
+notify:     irrcontact@aarnet.edu.au
+mnt-by:     MAINT-ASAARNET
+changed:    nobody@aarnet.edu.au 20041118
+source:     RADB
+
+aut-num:        AS4738
+as-name:        AARNET-TEST-AS-AP
+descr:          AARNET Test
+country:        AU
+org:            ORG-AAAR1-AP
+admin-c:        MP151
+tech-c:         MP151
+notify:         noc@aarnet.edu.au
+mnt-by:         MAINT-AARNET-AP
+mnt-irt:        IRT-AARNET-AU
+last-modified:  2017-10-16T00:29:48Z
+source:         APNIC

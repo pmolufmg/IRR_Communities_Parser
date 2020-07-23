@@ -1,0 +1,396 @@
+aut-num:        AS1849
+as-name:        UNSPECIFIED
+descr:          Verizon UK Limited
+org:            ORG-UA24-RIPE
+descr:          Commercial IP service provider
+descr:          Cambridge, England, UK
+import:         from AS702
+                action pref=100;
+                accept ANY AND NOT {0.0.0.0/0}
+import:         from AS786
+                action pref=100;
+                accept AS-JANETPLUS AND {0.0.0.0/0}
+import:         from AS1273
+                action pref=100;
+                accept AS-ECRC AND NOT {0.0.0.0/0}
+import:         from AS1290
+                action pref=100;
+                accept AS-PSINETUK AND NOT {0.0.0.0/0}
+import:         from AS1299
+                action pref=100;
+                accept AS-TELIANET AND NOT {0.0.0.0/0}
+import:         from AS1670
+                action pref=100;
+                accept AS-ANSUK
+import:         from AS2028
+                action pref=100;
+                accept {192.100.101.0/24}
+import:         from AS2529
+                action pref=100;
+                accept AS-DEMON AND NOT {0.0.0.0/0}
+import:         from AS2571
+                action pref=100;
+                accept {198.141.0.0/16,199.40.0.0/16,199.41.0.0/16,195.217.32.0/21,137.98.0.0/16}
+import:         from AS2686
+                action pref=100;
+                accept AS-IGNEMEA AND NOT {0.0.0.0/0}
+import:         from AS2830
+                action pref=100;
+                accept ANY
+import:         from AS2856
+                action pref=100;
+                accept AS-BTTOLINX NOT AS-DIRCON AND NOT {0.0.0.0/0}
+import:         from AS3257
+                action pref=100;
+                accept AS-NACAMAR AND NOT {0.0.0.0/0}
+import:         from AS3286
+                action pref=100;
+                accept AS-IOL AND NOT {0.0.0.0/0}
+import:         from AS3320
+                action pref=100;
+                accept AS-DTAG AND NOT {0.0.0.0/0}
+import:         from AS3328
+                action pref=100;
+                accept AS-NETKONECT AND NOT {0.0.0.0/0}
+import:         from AS3344
+                action pref=100;
+                accept AS-VBCNETGB AND NOT {0.0.0.0/0}
+import:         from AS4000
+                action pref=100;
+                accept ANY AND NOT {0.0.0.0/0}
+import:         from AS4983
+                action pref=100;
+                accept AS4983 AND NOT {0.0.0.0/0}
+import:         from AS5089
+                action pref=100;
+                accept AS-NTLI AND NOT {0.0.0.0/0}
+import:         from AS5378
+                action pref=100;
+                accept AS-INSNETEU AND NOT {0.0.0.0/0}
+import:         from AS5388
+                action pref=100;
+                accept AS-POLGBR AND NOT {0.0.0.0/0}
+import:         from AS5390
+                action pref=100;
+                accept AS-EURONET AND NOT {0.0.0.0/0}
+import:         from AS5413
+                action pref=100;
+                accept AS-XARANET AND NOT {0.0.0.0/0}
+import:         from AS5459
+                action pref=100;
+                accept AS5459 AND NOT {0.0.0.0/0}
+import:         from AS5462
+                action pref=100;
+                accept AS-CABLEINET AND NOT {0.0.0.0/0}
+import:         from AS5500
+                action pref=100;
+                accept {192.153.153.0/24,193.131.247.0/24,195.206.192.0/24,195.206.193.0/24}
+import:         from AS5409
+                action pref=100;
+                accept AS-IPF AND NOT {0.0.0.0/0}
+import:         from AS5551
+                action pref=100;
+                accept AS-MERCURY AND NOT {0.0.0.0/0}
+import:         from AS5557
+                action pref=100;
+                accept AS-ZOO AND NOT {0.0.0.0/0}
+import:         from AS5571
+                action pref=100;
+                accept AS-NETCOMUK AND NOT {0.0.0.0/0}
+import:         from AS5621
+                action pref=100;
+                accept AS-CPSEUROPE AND NOT {0.0.0.0/0}
+import:         from AS5669
+                action pref=100;
+                accept AS-UNET AND NOT {0.0.0.0/0}
+import:         from AS6292
+                action pref=100;
+                accept AS6292 AND NOT {0.0.0.0/0}
+import:         from AS6745
+                action pref=100;
+                accept AS-QUZATRANSIT AND NOT {0.0.0.0/0}
+import:         from AS6757
+                action pref=100;
+                accept {194.203.46.0/24}
+import:         from AS6765
+                action pref=100;
+                accept AS-WISPER AND NOT {0.0.0.0/0}
+import:         from AS8068
+                action pref=100;
+                accept AS8068 AND NOT {0.0.0.0/0}
+import:         from AS8297
+                action pref=100;
+                accept AS-GLOBEINTERNET AND NOT {0.0.0.0/0}
+import:         from AS8406
+                action pref=100;
+                accept {192.67.4.0/24,194.70.94.0/24,195.226.32.0/19,195.248.224.0/19,212.88.32.0/19,212.102.96.0/19,213.130.128.0/19,213.170.128.0/19}
+import:         from AS8718
+                action pref=100;
+                accept {159.104.6.0/23}
+import:         from AS8776
+                action pref=100;
+                accept AS-ANSUK AND NOT {0.0.0.0/0}
+import:         from AS8902
+                action pref=100;
+                accept {194.105.160.0/19}
+import:         from AS8912
+                action pref=100;
+                accept {212.53.64.0/19}
+import:         from AS9011
+                action pref=100;
+                accept {212.100.0.0/19}
+import:         from AS9084
+                action pref=100;
+                accept {204.4.130.128/27,204.4.131.128/27}
+import:         from AS9194
+                action pref=100;
+                accept {194.129.64.0/20}
+import:         from AS9195
+                action pref=100;
+                accept {193.133.197.0/24}
+import:         from AS10530
+                action pref=100;
+                accept {194.128.169.0/24}
+import:         from AS12661
+                action pref=100;
+                accept {194.153.76.0/23}
+import:         from AS12760
+                action pref=100;
+                accept {193.128.126.0/24}
+import:         from AS13037
+                action pref=100;
+                accept {212.23.0.0/19}
+import:         from AS13146
+                action pref=100;
+                accept {194.201.16.0/22,159.63.208.0/20}
+import:         from AS15054
+                action pref=100;
+                accept {63.92.228.0/23,63.92.232.0/23}
+import:         from AS15510
+                action pref=100;
+                accept {194.216.112.0/23}
+export:         to AS702
+                announce AS-UUNETUK
+export:         to AS786
+                announce AS-UUNETUK
+export:         to AS1273
+                announce AS-UUNETUK
+export:         to AS1290
+                announce AS-UUNETUK
+export:         to AS1299
+                announce AS-UUNETUK
+export:         to AS1670
+                announce AS-UUNETUK
+export:         to AS2028
+                announce AS-UUNETUK
+export:         to AS2529
+                announce AS-UUNETUK
+export:         to AS2571
+                announce AS-UUNETUK
+export:         to AS2686
+                announce AS-UUNETUK
+export:         to AS2830
+                announce {0.0.0.0/0}
+export:         to AS2856
+                announce AS-UUNETUK
+export:         to AS2885
+                announce AS-UUNETUK
+export:         to AS3257
+                announce AS-UUNETUK
+export:         to AS3286
+                announce AS-UUNETUK
+export:         to AS3320
+                announce AS-UUNETUK
+export:         to AS3328
+                announce AS-UUNETUK
+export:         to AS3333
+                announce AS-UUNETUK
+export:         to AS3344
+                announce AS-UUNETUK
+export:         to AS4000
+                announce AS-UUNETUK
+export:         to AS4983
+                announce AS-UUNETUK
+export:         to AS5089
+                announce AS-UUNETUK
+export:         to AS5388
+                announce AS-UUNETUK
+export:         to AS5378
+                announce AS-UUNETUK
+export:         to AS5390
+                announce AS-UUNETUK
+export:         to AS5459
+                announce ANY
+export:         to AS5462
+                announce AS-UUNETUK
+export:         to AS5500
+                announce ANY
+export:         to AS5509
+                announce AS-UUNETUK
+export:         to AS5519
+                announce AS-UUNETUK
+export:         to AS5551
+                announce AS-UUNETUK
+export:         to AS5557
+                announce AS-UUNETUK
+export:         to AS5571
+                announce AS-UUNETUK
+export:         to AS5621
+                announce ANY
+export:         to AS5669
+                announce AS-UUNETUK
+export:         to AS6292
+                announce AS-UUNETUK
+export:         to AS6745
+                announce AS-UUNETUK
+export:         to AS6757
+                announce AS-UUNETUK
+export:         to AS6765
+                announce AS-UUNETUK
+export:         to AS8068
+                announce AS-UUNETUK AS-UUNETPIPEXLINX
+export:         to AS8297
+                announce AS-UUNETUK
+export:         to AS8406
+                announce ANY
+export:         to AS8718
+                announce AS-UUNETUK
+export:         to AS8776
+                announce ANY
+export:         to AS8902
+                announce ANY
+export:         to AS8912
+                announce ANY
+export:         to AS9011
+                announce AS-UUNETUK
+export:         to AS9084
+                announce ANY
+export:         to AS9194
+                announce ANY
+export:         to AS9195
+                announce ANY
+export:         to AS10530
+                announce {0.0.0.0/0}
+export:         to AS12661
+                announce ANY
+export:         to AS12760
+                announce {0.0.0.0/0}
+export:         to AS13037
+                announce ANY
+export:         to AS5378
+                announce AS-UUNETUK
+export:         to AS5390
+                announce AS-UUNETUK
+export:         to AS5459
+                announce ANY
+export:         to AS5462
+                announce AS-UUNETUK
+export:         to AS5500
+                announce ANY
+export:         to AS5509
+                announce AS-UUNETUK
+export:         to AS5519
+                announce AS-UUNETUK
+export:         to AS5551
+                announce AS-UUNETUK
+export:         to AS5557
+                announce AS-UUNETUK
+export:         to AS5571
+                announce AS-UUNETUK
+export:         to AS5621
+                announce ANY
+export:         to AS5669
+                announce AS-UUNETUK
+export:         to AS6292
+                announce AS-UUNETUK
+export:         to AS6745
+                announce AS-UUNETUK
+export:         to AS6757
+                announce AS-UUNETUK
+export:         to AS6765
+                announce AS-UUNETUK
+export:         to AS8068
+                announce AS-UUNETUK AS-UUNETPIPEXLINX
+export:         to AS8297
+                announce AS-UUNETUK
+export:         to AS8406
+                announce ANY
+export:         to AS8718
+                announce AS-UUNETUK
+export:         to AS8776
+                announce ANY
+export:         to AS8902
+                announce ANY
+export:         to AS8912
+                announce ANY
+export:         to AS9011
+                announce AS-UUNETUK
+export:         to AS9084
+                announce ANY
+export:         to AS9194
+                announce ANY
+export:         to AS9195
+                announce ANY
+export:         to AS10530
+                announce {0.0.0.0/0}
+export:         to AS12661
+                announce ANY
+export:         to AS12760
+                announce {0.0.0.0/0}
+export:         to AS13037
+                announce ANY
+export:         to AS13146
+                announce ANY
+export:         to AS15054
+                announce ANY
+export:         to AS15510
+                announce ANY
+default:        to AS702
+                action pref=50;
+                networks {146.188.0.0/16}
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:        Pre-defined Communities Available For Customer Signaling
+remarks:        --------------------------------------------------------
+remarks:
+remarks:        The options below are no longer to be used after July 2000
+remarks:
+remarks:        1849:70    Set Local Pref 70 (NO LONGER AVAILABLE)
+remarks:        1849:80    Set Local Pref 80 (NO LONGER AVAILABLE)
+remarks:        1849:90    Set Local Pref 90 (NO LONGER AVAILABLE)
+remarks:        1849:110   Set Local Pref 110 (NO LONGER AVAILABLE)
+remarks:        1849:130   Set Local Pref 130 (NO LONGER AVAILABLE)
+remarks:        1849:9030  Only Advertise these routes in Europe. (NO LONGER AVAILABLE)
+remarks:        1849:9031  Advertise in Europe with prepend elsewhere. (NO LONGER AVAILABLE)
+remarks:        1849:9040  Only Advertise these routes in UK. (NO LONGER AVAILABLE)
+remarks:        1849:9041  Advertise in UK with prepend elsewhere. (NO LONGER AVAILABLE)
+remarks:        1849:9050  Only Advertise these routes to UUNET UK cust base. (NO LONGER AVAILABLE)
+remarks:        1849:9051  Advertise to cust base with prepend elsewhere. (NO LONGER AVAILABLE)
+remarks:        1849:5666  Leak this route out of 1849 (NO LONGER AVAILABLE)
+remarks:
+remarks:        see as702 object for other options.
+remarks:
+remarks:        AS1849 will pass on any communities sent by the customer,
+remarks:        notably the 702:??? options detailed under the AS702 Routing policy.
+remarks:
+remarks:        UUNET UK - BGP Route Flap Dampening Policy
+remarks:        ------------------------------------------
+remarks:        Standard CISCO BGP Damp Parameters applied.
+remarks:
+remarks:        UUNET UK (PIPEX) filters out inbound prefixes longer than /24
+remarks:
+remarks:        MASTER COPY OF THIS ENTRY IS KEPT INTERNALLY
+remarks:
+remarks:        Please send abuse notification to abuse@uk.uu.net
+status:         LEGACY
+mnt-by:         AS1849-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-01-12T08:39:42Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

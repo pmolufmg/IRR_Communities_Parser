@@ -1,0 +1,130 @@
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+ 
+% RIPENCC resource: whois.ripe.net
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS42383 - AS45055'
+
+as-block:       AS42383 - AS45055
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:34Z
+last-modified:  2018-11-22T15:27:34Z
+source:         RIPE
+
+% Information related to 'AS42979'
+
+% Abuse contact for 'AS42979' is 'helpdesk@latnet.eu'
+
+aut-num:        AS42979
+as-name:        ASGLBLCOM
+org:            ORG-SG40-RIPE
+remarks:        --------------------- uplinks ---------------------
+import:         from AS174 accept ANY
+export:         to AS174 announce AS-GLOBALCOM_LV
+import:         from AS9002 accept ANY
+export:         to AS9002 announce AS-GLOBALCOM_LV
+remarks:        -------------------- IXP --------------------
+import:         from AS8545 accept AS-PLIX
+export:         to AS8545 announce AS-GLOBALCOM_LV
+remarks:        -------------------- customers --------------------
+import:         from AS2588 accept AS-LATNET
+export:         to AS2588 announce ANY
+import:         from AS24651 accept AS-BALTICOM
+export:         to AS24651 announce ANY
+import:         from AS39007 accept AS39007 AS33922
+export:         to AS39007 announce ANY
+import:         from AS12993 accept AS-DEAC
+export:         to AS12993 announce ANY
+import:         from AS39301 accept AS-TELEVORK
+export:         to AS39301 announce ANY
+import:         from AS39201 accept AS39201
+export:         to AS39201 announce ANY
+import:         from AS28886 accept AS-OPTRONET
+export:         to AS28886 announce ANY
+import:         from AS12539 accept AS-PENKI
+export:         to AS12539 announce ANY
+import:         from AS8194 accept AS-VITA
+export:         to AS8194 announce ANY
+import:         from AS33922 accept AS-NTT-IN-EX
+export:         to AS33922 announce ANY
+import:         from AS49550 accept AS-NTT-LT-2
+export:         to AS49550 announce ANY
+import:         from AS24607 accept AS-LENET
+export:         to AS24607 announce ANY
+remarks:        +--------------------------------------------------
+remarks:        |       x=0   Announce as is
+remarks:        |       x=1   Prepend +1
+remarks:        |       x=2   Prepend +2
+remarks:        |       x=3   Prepend +3
+remarks:        |       x=4   Prepend +4
+remarks:        |       x=5   Prepend +5
+remarks:        |
+remarks:        |      42979:30x    $x to Cogent (AS 174)
+remarks:        |      42979:60x    $x to RETN (AS 9002)
+remarks:        |      42979:70x    $x to all uplinks
+remarks:        |      42979:81x    $x to PLIX (AS 8545)
+remarks:        |      42979:666 Don't announce (blackhole)
+remarks:        |
+remarks:        |      For more information please use the email address
+remarks:        |         globalcom (at) monitoringacentrs (dot) lv
+remarks:        +--------------------------------------------------
+remarks:
+admin-c:        LN645-RIPE
+tech-c:         LN645-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         LATNET-MNT
+mnt-by:         gclv-mnt
+created:        2007-05-18T13:27:39Z
+last-modified:  2018-12-19T13:54:12Z
+source:         RIPE
+sponsoring-org: ORG-SSN2-RIPE
+
+organisation:   ORG-SG40-RIPE
+org-name:       SIA Globalcom
+org-type:       OTHER
+address:        Pernavas iela 43, Riga, LV-1009
+phone:          +371 7847762
+fax-no:         +371 7847761
+abuse-c:        AR23347-RIPE
+admin-c:        LN645-RIPE
+tech-c:         LN645-RIPE
+mnt-ref:        LATNET-MNT
+mnt-by:         LATNET-MNT
+created:        2007-05-16T11:40:42Z
+last-modified:  2014-11-17T16:29:48Z
+source:         RIPE # Filtered
+
+role:           Latnet HostMaster
+address:        Latnet ISP
+address:        Latvia
+phone:          +371 67855855
+remarks:        trouble: Information -- http://www.latnet.eu
+remarks:        trouble: Questions -- mailto:iproute@latnet.eu
+remarks:        trouble: Abuse reports -- helpdesk@latnet.eu
+org:            ORG-LA12-RIPE
+admin-c:        JJ1652-RIPE
+tech-c:         JJ1652-RIPE
+tech-c:         VTA
+nic-hdl:        LN645-RIPE
+abuse-mailbox:  helpdesk@latnet.eu
+mnt-by:         AS2588-MNT
+created:        2004-10-27T11:48:44Z
+last-modified:  2018-10-23T07:20:22Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (HEREFORD)
+
+

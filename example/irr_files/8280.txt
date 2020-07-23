@@ -1,0 +1,242 @@
+aut-num:        AS8280
+as-name:        SYNAPSECOM-AS
+descr:          AS NUMBER OF SYNAPSECOM
+org:            ORG-SS77-RIPE
+remarks:        ******************************************
+remarks:        * General Enquiries:__info@synapsecom.gr *
+remarks:        * Abuse & Spam:__abuse@synapsecom.gr *
+remarks:        * Peerings Enquiries:__noc@synapsecom.gr *
+remarks:        ******************************************
+remarks:        SYNAPSECOM ROUTE TAGGING:
+remarks:        ******************************************
+remarks:        Default Local Preference for Customers: 200
+remarks:        8280:80 - set Local Preference to 80
+remarks:        8280:220 - set Local Preference to 220
+remarks:        ******************************************
+remarks:        Blackhole Community:
+remarks:        8280:999 - set Blackhole tag
+remarks:        ******************************************
+remarks:        8280:1299 - Don't announce to TELIA
+remarks:        8280:11 - Prepend x1 to TELIA
+remarks:        8280:12 - Prepend x2 to TELIA
+remarks:        8280:13 - Prepend x3 to TELIA
+remarks:        8280:111 - set no-export to TELIA
+remarks:        8280:112 - set no-advertise to TELIA
+remarks:
+remarks:        8280:174 - Don't announce to COGENT
+remarks:        8280:211 - Prepend x1 to COGENT
+remarks:        8280:212 - Prepend x2 to COGENT
+remarks:        8280:213 - Prepend x3 to COGENT
+remarks:        8280:221 - set no-export to COGENT
+remarks:        8280:222 - set no-advertise to COGENT
+remarks:
+remarks:        8280:6866 - Don't announce to CYTA
+remarks:        8280:21 - Prepend x1 to CYTA
+remarks:        8280:22 - Prepend x2 to CYTA
+remarks:        8280:23 - Prepend x3 to CYTA
+remarks:        8280:121 - set no-export to CYTA
+remarks:        8280:122 - set no-advertise to CYTA
+remarks:
+remarks:        8280:574 - Don't announce to NETIX
+remarks:        8280:31 - Prepend x1 to NETIX
+remarks:        8280:32 - Prepend x2 to NETIX
+remarks:        8280:33 - Prepend x3 to NETIX
+remarks:        8280:131 - set no-export to NETIX
+remarks:        8280:132 - set no-advertise to NETIX
+remarks:
+remarks:        8280:507 - Don't announce to GRIX
+remarks:        8280:41 - Prepend x1 to GRIX
+remarks:        8280:42 - Prepend x2 to GRIX
+remarks:        8280:43 - Prepend x3 to GRIX
+remarks:        8280:141 - set no-export to GRIX
+remarks:        8280:142 - set no-advertise to GRIX
+remarks:
+remarks:        8280:6799 - Don't announce to OTE
+remarks:        8280:51 - Prepend x1 to OTE
+remarks:        8280:52 - Prepend x2 to OTE
+remarks:        8280:53 - Prepend x3 to OTE
+remarks:        8280:151 - set no-export to OTE
+remarks:        8280:152 - set no-advertise to OTE
+remarks:
+remarks:        8280:8075 - Don't announce to MICROSOFT
+remarks:        8280:231 - Prepend x1 to MICROSOFT
+remarks:        8280:232 - Prepend x2 to MICROSOFT
+remarks:        8280:233 - Prepend x3 to MICROSOFT
+remarks:        8280:234 - set no-export to MICROSOFT
+remarks:        8280:235 - set no-advertise to MICROSOFT
+remarks:
+remarks:        8280:6507 - Don't announce to RIOT
+remarks:        8280:61 - Prepend x1 to RIOT
+remarks:        8280:62 - Prepend x2 to RIOT
+remarks:        8280:63 - Prepend x3 to RIOT
+remarks:        8280:161 - set no-export to RIOT
+remarks:        8280:162 - set no-advertise to RIOT
+remarks:
+remarks:        8280:607 - Don't announce to O3B NETWORKS
+remarks:        8280:71 - Prepend x1 to O3B
+remarks:        8280:72 - Prepend x2 to O3B
+remarks:        8280:73 - Prepend x3 to O3B
+remarks:        8280:171 - set no-export to O3B
+remarks:        8280:172 - set no-advertise to O3B
+remarks:
+remarks:        8280:133 - Don't announce to CLOUDFLARE
+remarks:        8280:81 - Prepend x1 to CLOUDFLARE
+remarks:        8280:82 - Prepend x2 to CLOUDFLARE
+remarks:        8280:83 - Prepend x3 to CLOUDFLARE
+remarks:        8280:181 - set no-export to CLOUDFLARE
+remarks:        8280:182 - set no-advertise to CLOUDFLARE
+remarks:
+remarks:        8280:505 - Don't announce to HOSTMEIN
+remarks:        8280:91 - Prepend x1 to HOSTMEIN
+remarks:        8280:92 - Prepend x2 to HOSTMEIN
+remarks:        8280:93 - Prepend x3 to HOSTMEIN
+remarks:        8280:191 - set no-export to HOSTMEIN
+remarks:        8280:192 - set no-advertise to HOSTMEIN
+remarks:
+remarks:        8280:577 - Don't announce to HCN
+remarks:        8280:153 - Prepend x1 to HCN
+remarks:        8280:154 - Prepend x2 to HCN
+remarks:        8280:155 - Prepend x3 to HCN
+remarks:        8280:156 - set no-export to HCN
+remarks:        8280:157 - set no-advertise to HCN
+remarks:
+remarks:        8280:26415 - Don't announce to VERISIGN
+remarks:        8280:241 - Prepend x1 to VERISIGN
+remarks:        8280:242 - Prepend x2 to VERISIGN
+remarks:        8280:243 - Prepend x3 to VERISIGN
+remarks:        8280:244: set no-export to VERISIGN
+remarks:        8280:245 - set no-advertise to VERISIGN
+remarks:
+remarks:        8280:19924 - Don't announce to TOPHOST
+remarks:        8280:251 - Prepend x1 to TOPHOST
+remarks:        8280:252 - Prepend x2 to TOPHOST
+remarks:        8280:253 - Prepend x3 to TOPHOST
+remarks:        8280:254 - set no-export to TOPHOST
+remarks:        8280:255 - set no-advertise to TOPHOST
+remarks:        ==================================================+
+remarks:        | ROUTING POLICY for SYNAPSECOM AS8280 |
+remarks:        +=================================================+
+remarks:        +=================================================+
+remarks:        | SYNAPSECOM UPSTREAMS |
+remarks:        +=================================================+
+remarks:        === TELIA SONERA ====
+import:         from AS1299 action pref=230; accept ANY
+export:         to AS1299 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS1299 action pref=230; accept ANY
+mp-export:      afi ipv6.unicast to AS1299 announce AS-SYNAPSECOM-V6
+remarks:        === CYTA ===
+import:         from AS6866 action pref=230; accept ANY
+export:         to AS6866 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS6866 action pref=230; accept ANY
+mp-export:      afi ipv6.unicast to AS6866 announce AS-SYNAPSECOM-V6
+remarks:        === COGENT ===
+import:         from AS174 action pref=230; accept ANY
+export:         to AS174 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS174 action pref=230; accept ANY
+mp-export:      afi ipv6.unicast to AS174 announce AS-SYNAPSECOM-V6
+remarks:        === NETIX ===
+import:         from AS57463 action pref=230; accept ANY
+export:         to AS57463 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS57463 action pref=230; accept ANY
+mp-export:      afi ipv6.unicast to AS57463 announce AS-SYNAPSECOM-V6
+remarks:        +=================================================+
+remarks:        | GR-IX PEERINGS (GREEK INTERNET EXCHANGE - ATHENS |
+remarks:        +=================================================+
+remarks:        === GR-IX ===
+import:         from AS50745 action pref=250; accept ANY
+export:         to AS50745 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS50745 action pref=250; accept AS50745:AS-TO-GR-IX
+mp-export:      afi ipv6.unicast to AS50745 announce AS-SYNAPSECOM-V6
+remarks:        === OTENET ===
+import:         from AS6799 action pref=250; accept AS6799
+export:         to AS6799 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS6799 action pref=250; accept AS-OTENET
+mp-export:      afi ipv6.unicast to AS6799 announce AS-SYNAPSECOM-V6
+remarks:        === MICROSOFT ===
+import:         from AS8075 action pref=250; accept AS8075
+export:         to AS8075 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS8075 action pref=250; accept AS-MICROSOFT
+mp-export:      afi ipv6.unicast to AS8075 announce AS-SYNAPSECOM-V6
+remarks:        === CLOUDFLARE ===
+import:         from AS13335 action pref=250; accept AS13335
+export:         to AS13335 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS13335 action pref=250; accept AS-CLOUDFLARE
+mp-export:      afi ipv6.unicast to AS13335 announce AS-SYNAPSECOM-V6
+remarks:        === O3B NETWORKS ===
+import:         from AS60725 action pref=250; accept AS13335
+export:         to AS60725 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS60725 action pref=250; accept AS-O3B-GR
+mp-export:      afi ipv6.unicast to AS60725 announce AS-SYNAPSECOM-V6
+remarks:        === RIOT GAMES INC ===
+import:         from AS6507 action pref=250; accept AS-RIOT
+export:         to AS6507 announce AS-SYNAPSECOM
+remarks:        === HOSTMEIN ===
+import:         from AS50520 action pref=250; accept AS-HOSTMEIN
+export:         to AS50520 announce AS-SYNAPSECOM
+remarks:        === HCN ===
+import:         from AS57794 action pref=250; accept AS-HCN
+export:         to AS57794 announce AS-SYNAPSECOM
+remarks:        === VERISIGN ===
+import:         from AS26415 action pref=250; accept AS26415
+export:         to AS26415 announce AS-SYNAPSECOM
+remarks:        === TOPHOST ===
+import:         from AS199246 action pref=25; accept AS199246
+export:         to AS199246 announce AS-SYNAPSECOM
+mp-import:      afi ipv6.unicast from AS199246 action pref=250; accept AS-TOPHOST
+mp-export:      afi ipv6.unicast to AS199246 announce AS-SYNAPSECOM-V6
+remarks:        +=================================================+
+remarks:        | CUSTOMER PEERINGS |
+remarks:        +=================================================+
+remarks:        === NETERRA ===
+import:         from AS34224 action pref=300; accept AS34224
+export:         to AS34224 announce ANY
+remarks:        ===NETIX===
+import:         from AS31490 action pref = 300; accept AS31490
+export:         to AS31490 announce ANY
+mp-import:      afi ipv6.unicast from AS31490 action pref=300; accept AS31490
+mp-export:      afi ipv6.unicast to AS31490 announce ANY
+remarks:        === LERTAS-AS ===
+import:         from AS201924 action pref=300; accept AS201924
+export:         to AS201924 announce ANY
+mp-import:      afi ipv6.unicast from AS201924 action pref=300; accept AS201924
+mp-export:      afi ipv6.unicast to AS201924 announce ANY
+remarks:        === MICROBASE-AS ===
+import:         from AS196945 action pref=300; accept AS196945
+export:         to AS196945 announce ANY
+remarks:        === CITIWAVE SYSTEMS LTD ===
+import:         from AS206456 action pref=300; accept AS206456
+export:         to AS206456 announce ANY
+remarks:        === METADOSIS ===
+import:         from AS206529 action pref=300; accept AS206529
+export:         to AS206529 announce ANY
+mp-import:      afi ipv6.unicast from AS206529 action pref=300; accept AS206529
+mp-export:      afi ipv6.unicast to AS206529 announce ANY
+remarks:        === INTERTELECOM-GR ===
+import:         from AS48172 action pref=300; accept AS48172
+export:         to AS48172 announce ANY
+remarks:        === TRIGONON DATA SERVICES LTD ===
+import:         from AS201210 action pref=300; accept AS201210
+export:         to AS201210 announce ANY
+import:         from AS30858 action pref=300; accept AS30858
+export:         to AS30858 announce AS8280
+remarks:        === GREEKSTREAM NETWORKS ===
+import:         from AS206652 action pref=300; accept AS206652
+export:         to AS206652 announce ANY
+mp-import:      afi ipv6.unicast from AS206652 action pref=300; accept AS206652
+mp-export:      afi ipv6.unicast to AS206652 announce ANY
+remarks:        +--------------------------------------------------------------------------+
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-SYNAPSECOM
+created:        2007-06-18T11:49:04Z
+last-modified:  2018-07-25T11:03:32Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

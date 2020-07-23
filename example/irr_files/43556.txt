@@ -1,0 +1,157 @@
+aut-num:        AS43556
+org:            ORG-NG47-RIPE
+as-name:        ASN-NETPLANET-BACKUP
+descr:          AS MAKRO: AS-43556 (customers)
+descr:
+descr:          =========================
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+descr:          =========================
+descr:
+descr:
+remarks:        -------------------------------------------------------
+remarks:        Upstreams
+remarks:        -------------------------------------------------------
+remarks:
+import:         from    AS3257  action      pref=100; accept ANY
+export:         to      AS3257  announce    AS-43556
+import:         from    AS3549  action      pref=100; accept ANY
+export:         to      AS3549  announce    AS-43556
+import:         from    AS20751 action      pref=100; accept ANY
+export:         to      AS20751 announce    AS-NETPLANET
+import:         from    AS25101 action      pref=100; accept ANY
+export:         to      AS25101 announce    AS-NETPLANET
+import:         from    AS24953 action      pref=100; accept ANY
+export:         to      AS24953 announce    AS-NETPLANET
+import:         from    AS33833 action      pref=100; accept ANY
+export:         to      AS33833 announce    AS-NETPLANET
+import:         from    AS43957 action      pref=100; accept ANY
+export:         to      AS43957 announce    AS-NETPLANET
+remarks:
+remarks:        -------------------------------------------------------
+remarks:        Peerings
+remarks:        -------------------------------------------------------
+remarks:        Carrier66
+import:         from AS24953 accept   AS-CARRIER66
+export:         to   AS24953 announce AS-NETPLANET
+remarks:
+remarks:        EUINTERNET
+import:         from AS25101 accept   AS-EUINTERNET
+export:         to   AS25101 announce AS-NETPLANET
+remarks:
+import:         from AS9138 action pref=100; accept AS9318
+export:         to   AS9138 announce ANY
+remarks:
+import:         from AS47692 action pref=100; accept AS47692
+export:         to   AS47692 announce ANY
+remarks:
+remarks:        -------------------------------------------------------------------------
+remarks:        This Autonomous System is present at INTERXION VIENNA,
+remarks:        INTERXION FRANKFURT, INTERXION DUESSELDORF, INCOLOCATE HAMBURG,
+remarks:        SARA AMSTERDAM
+remarks:
+remarks:        Please send peering requests and changes to peering@netplanet.at
+remarks:
+remarks:        We are utilizing BGP route flap dampening according to the
+remarks:        policy recommendations of RIPE-229. For more information,
+remarks:        see http://www.ripe.net/ripe/docs/routeflap-damping.html
+remarks:        -------------------------------------------------------------------------
+remarks:        We are filtering any BGP announcements of prefixes longer than /24.
+remarks:        -------------------------------------------------------------------------
+remarks:        BGP COMMUNITY SYSTEM:
+remarks:
+remarks:        Community    Action
+remarks:        ===========  ======
+remarks:
+remarks:        inbound routes by entry point:
+remarks:        ---------------------------------------------------------------------------------------
+remarks:
+remarks:        43556:43556  route originated by AS43556
+remarks:        43556:2000   route originated via AS43556 - Infra Vienna (VIE)
+remarks:
+remarks:        43556:90     route learned from Transit/Upstream
+remarks:        43556:110    route learned from Peering
+remarks:        43556:120    route learned from Customer
+remarks:
+remarks:        43556:2300   route learned from AS13237/LambdaNet (Vienna)
+remarks:        43556:2100   route learned from AS3257/Tiscali (Vienna)
+remarks:
+remarks:        43556:2500   route learned from VIX (Vienna)
+remarks:        43556:2550   route learned from VIX (Vienna) via AS24953/CARRIER66.NET
+remarks:        43556:2570   route learned from VIX (Vienna) via AS21385/TNIB.NET
+remarks:        43556:2580   route learned from VIX (Vienna) via AS13101/TNG.DE
+remarks:
+remarks:        43556:2600   route learned from DE-CIX (Frankfurt)
+remarks:        43556:2700   route learned from AMS-IX (Amsterdam)
+remarks:        43556:2800   route learned from WORKIX (Hamburg)
+remarks:        43556:2900   route learned from NL-IX (Amsterdam)
+remarks:        43556:3100   route learned from ECIX (Duesseldorf)
+remarks:        43556:3200   route learned from ECIX (Berlin)
+remarks:        43556:3400   route learned from SIX (Bratislava)
+remarks:        43556:3500   route learned from INXS (Munich)
+remarks:
+remarks:        43556:40xxx  route learned from Customer
+remarks:
+remarks:
+remarks:        Outbound Routes:
+remarks:        ---------------------------------------------------------------------------------------
+remarks:
+remarks:        43556:6100   route announced to Tiscali
+remarks:        43556:6300   route announced to LambdaNet
+remarks:
+remarks:        43556:6500   route announced to VIX
+remarks:        43556:6600   route announced to DE-CIX
+remarks:        43556:6700   route announced to AMS-IX
+remarks:        43556:6800   route announced to WORKIX
+remarks:        43556:6900   route announced to NLIX
+remarks:        43556:7100   route announced to ECIX (Duesseldorf)
+remarks:        43556:7200   route announced to ECIX (Berlin)
+remarks:        43556:7300   route announced to SIX
+remarks:        43556:7400   route announced to INXS
+remarks:
+remarks:        outbound routes - controllable by transit customer:
+remarks:        ---------------------------------------------------------------------------------------
+remarks:
+remarks:        43556:5000    do not announce to Peerings (VIX/Vienna only)
+remarks:        43556:5001    do not announce to Upstreams (Global)
+remarks:        43556:5002    do not announce to Peerings (except Vienna)
+remarks:
+remarks:        n = 0 do not announce prefix
+remarks:        1 <= n <= 5 prepend n times to announcement
+remarks:
+remarks:        43556:503n    do not announce/prepend to AS13237 LambdaNet
+remarks:        43556:501n    do not announce/prepend to AS3257 Tiscali
+remarks:
+remarks:        43556:505n    do not announce/prepend to VIX-Peers (via AS43556/MAX4EU)
+remarks:        43556:511n    do not announce/prepend to VIX-Peers (via AS24953/CARRIER66)
+remarks:        43556:512n    do not announce/prepend to VIX-Peers (via AS21385/TNIB)
+remarks:        43556:513n    do not announce/prepend to VIX-Peers (via AS13101/TNG)
+remarks:        43556:506n    do not announce/prepend to DE-CIX
+remarks:        43556:507n    do not announce/prepend to AMS-IX
+remarks:        43556:508n    do not announce/prepend to WORKIX
+remarks:        43556:509n    do not announce/prepend to NLIX
+remarks:        43556:601n    do not announce/prepend to ECIX (Duesseldorf)
+remarks:        43556:602n    do not announce/prepend to ECIX (Berlin)
+remarks:        43556:603n    do not announce/prepend to SIX
+remarks:        43556:604n    do not announce/prepend to INXS
+remarks:
+remarks:        -----------------------------------------------
+remarks:        netplanet.at Official Web-Site: http://www.netplanet.at/
+remarks:        netplanet.at NOC-email: ip-admin@netplanet.at
+remarks:        Peering-Policy: http://www.netplanet.at/peering
+remarks:        -----------------------------------------------
+notify:         noc@netplanet.at
+mnt-by:         MNT-NETPLANET
+mnt-routes:     MNT-NETPLANET
+created:        2007-08-22T12:07:32Z
+last-modified:  2017-11-15T09:49:28Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

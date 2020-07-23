@@ -1,0 +1,108 @@
+aut-num:        AS48424
+as-name:        GLOBITEL-AS
+descr:          POLAND
+org:            ORG-GSzo9-RIPE
+remarks:        -------------------------------------------------------------------
+remarks:        Upstream Peers
+remarks:        -------------------------------------------------------------------
+import:         from AS20804 accept ANY
+import:         from AS49895 accept ANY
+import:         from AS5617 accept ANY
+import:         from AS12968 accept ANY
+import:         from AS42832 accept ANY
+import:         from AS50607 accept ANY
+import:         from AS8545 accept ANY
+import:         from AS24724 accept ANY
+import:         from AS6939 accept ANY
+import:         from AS10310 accept ANY
+import:         from AS29535 accept ANY
+import:         from AS174 accept ANY
+export:         to AS20804 announce AS-GLOBITEL
+export:         to AS49895 announce AS-GLOBITEL
+export:         to AS5617 announce AS-GLOBITEL
+export:         to AS12968 announce AS-GLOBITEL
+export:         to AS42832 announce AS-GLOBITEL
+export:         to AS50607 announce AS-GLOBITEL
+export:         to AS8545 announce AS-GLOBITEL
+export:         to AS24724 announce AS-GLOBITEL
+export:         to AS6939 announce AS-GLOBITEL
+export:         to AS10310 announce AS-GLOBITEL
+export:         to AS29535 announce AS-GLOBITEL
+export:         to AS174 announce AS-GLOBITEL
+remarks:
+remarks:        -------------------------------------------------------------------
+remarks:        BGP Communities - Traffic Control (Customer Settable)
+remarks:        -------------------------------------------------------------------
+remarks:        We do not accept all RFC1997 communities.
+remarks:
+remarks:        48424:2000 Do not announce to any peer
+remarks:
+remarks:        48424:2100 Do not announce to Exatel (AS20804)
+remarks:        48424:210[1-3] Prepend 1-3 times to Exatel (AS20804)
+remarks:
+remarks:        48424:2200 Do not announce to DCENTER (AS49895)
+remarks:        48424:220[1-3] Prepend 1-3 times to DCENTER (AS49895)
+remarks:
+remarks:        48424:2400 Do not announce to TPNET (AS5617)
+remarks:        48424:240[1-3] Prepend 1-3 times to TPNET (AS5617)
+remarks:
+remarks:        48424:2500 Do not announce to NETIA/CDP (AS12968)
+remarks:        48424:250[1-3] Prepend 1-3 times to NETIA/CDP (AS12968)
+remarks:
+remarks:        48424:2600 Do not announce to VOIPPARTNERS (AS42832)
+remarks:        48424:260[1-3] Prepend 1-3 times to VOIPPARTNERS (AS42832)
+remarks:
+remarks:        48424:2800 Do not announce to EPIX (AS50607)
+remarks:        48424:280[1-3] Prepend 1-3 times to EPIX (AS50607)
+remarks:
+remarks:        48424:2900 Do not announce to EP-Global (AS50607)
+remarks:        48424:290[1-3] Prepend 1-3 times to EP-Global (AS50607)
+remarks:
+remarks:        48424:2110 Do not announce to PLIX (AS8545)
+remarks:        48424:211[1-3] Prepend 1-3 times to PLIX (AS8545)
+remarks:
+remarks:        48424:2120 Do not announce to ATM.Global (AS24724)
+remarks:        48424:212[1-3] Prepend 1-3 times to ATM.Global (AS24724)
+remarks:
+remarks:        48424:2130 Do not announce to Hurricane Electric (AS6939)
+remarks:        48424:213[1-3] Prepend 1-3 times to Hurricane Electric (AS6939)
+remarks:
+remarks:        48424:2140 Do not announce to TPIX (AS29535)
+remarks:        48424:214[1-3] Prepend 1-3 times to TPIX (AS29535)
+remarks:
+remarks:        48424:2150 Do not announce to YAHOO (AS10310)
+remarks:        48424:215[1-3] Prepend 1-3 times to YAHOO (AS10310)
+remarks:
+remarks:        48424:2160 Do not announce to COGENT (AS174)
+remarks:        48424:216[1-3] Prepend 1-3 times to COGENT (AS174)
+remarks:
+remarks:        -------------------------------------------------------------------
+remarks:        Contact Information
+remarks:        -------------------------------------------------------------------
+remarks:        general customers service: bok@globitel.pl
+remarks:        bgp and peering issues: bgp@globitel.pl
+remarks:        abuse reports: abuse@globitel.pl
+remarks:
+remarks:
+remarks:
+admin-c:        DUMY-RIPE
+tech-c:         DUMY-RIPE
+remarks:
+remarks:
+remarks:
+remarks:
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         MNT-GLOBITEL
+mnt-routes:     MNT-GLOBITEL
+notify:         jarek.jarzebowsko@globitel.pl
+created:        2008-11-25T16:02:32Z
+last-modified:  2018-03-30T07:54:44Z
+source:         RIPE
+remarks:        ****************************
+remarks:        * THIS OBJECT IS MODIFIED
+remarks:        * Please note that all data that is generally regarded as personal
+remarks:        * data has been removed from this object.
+remarks:        * To view the original object, please query the RIPE Database at:
+remarks:        * http://www.ripe.net/whois
+remarks:        ****************************

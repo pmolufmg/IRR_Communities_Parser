@@ -1,0 +1,135 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to 'AS15400 - AS15474'
+
+as-block:       AS15400 - AS15474
+descr:          RIPE NCC ASN block
+remarks:        These AS Numbers are assigned to network operators in the RIPE NCC service region.
+mnt-by:         RIPE-NCC-HM-MNT
+created:        2018-11-22T15:27:25Z
+last-modified:  2018-11-22T15:27:25Z
+source:         RIPE
+
+% Information related to 'AS15471'
+
+% Abuse contact for 'AS15471' is 'abuse@radiocom.ro'
+
+aut-num:        AS15471
+as-name:        SNR-RO
+org:            ORG-SRS3-RIPE
+import:         from AS5588 accept ANY and not RS-MARTIANS
+import:         from AS174 accept ANY and not RS-MARTIANS
+import:         from AS39737 accept ANY and not RS-MARTIANS
+import:         from AS5483 accept AS-MATAV
+import:         from AS5541 accept AS-ADNET
+import:         from AS6939 accept AS6939
+import:         from AS8751 accept AS-MEDIASAT
+import:         from AS8953 accept AS-ORANGERO
+import:         from AS12310 accept AS-INES
+import:         from AS12723 accept AS12723
+import:         from AS20530 accept AS-ROMANIA
+import:         from AS21007 accept AS-DISYS-UPS
+import:         from AS25378 accept AS25378
+import:         from AS29267 accept AS29267
+import:         from AS29652 accept AS29652
+import:         from AS31282 accept AS-ATNR
+import:         from AS31313 accept AS-STS-RO
+import:         from AS34279 accept AS-TELETRANS-R2
+import:         from AS34711 accept AS-DIGINET
+import:         from AS34808 accept AS34808
+import:         from AS39737 accept AS-NETVISIONTEL
+import:         from AS39770 accept AS39770
+import:         from AS41254 accept AS41254
+import:         from AS41571 accept AS-TELESON
+import:         from AS43376 accept AS-DOTRO
+import:         from AS44875 accept AS44875
+import:         from AS47516 accept AS47516
+export:         to AS174 announce AS-SNRNET
+export:         to AS5483 announce AS-SNRNET
+export:         to AS5541 announce AS-SNRNET
+export:         to AS5588 announce AS-SNRNET
+export:         to AS6939 announce AS-SNRNET
+export:         to AS8751 announce AS-SNRNET
+export:         to AS8953 announce AS-SNRNET
+export:         to AS12310 announce AS-SNRNET
+export:         to AS12723 announce AS-SNRNET
+export:         to AS20530 announce AS-SNRNET
+export:         to AS21007 announce AS-SNRNET
+export:         to AS25378 announce AS-SNRNET
+export:         to AS29267 announce AS-SNRNET
+export:         to AS29652 announce AS-SNRNET
+export:         to AS31282 announce AS-SNRNET
+export:         to AS31313 announce AS-SNRNET
+export:         to AS34279 announce AS-SNRNET
+export:         to AS34711 announce AS-SNRNET
+export:         to AS34808 announce AS-SNRNET
+export:         to AS39737 announce AS-SNRNET
+export:         to AS39770 announce AS-SNRNET
+export:         to AS41254 announce AS-SNRNET
+export:         to AS41571 announce AS-SNRNET
+export:         to AS43376 announce AS-SNRNET
+export:         to AS44875 announce AS-SNRNET
+export:         to AS47516 announce AS-SNRNET
+remarks:        =====================================
+remarks:        Available BGP Communities:
+remarks:        15471:101 Prepend AS15471 once to internet
+remarks:        15471:102 Prepend AS15471 twice to internet
+remarks:        15471:103 Prepend AS15471 3 times to internet
+remarks:        15471:201 Prepend AS15471 once to private peer
+remarks:        15471:202 Prepend AS15471 twice to private peer
+remarks:        15471:203 Prepend AS15471 3 times to private peer
+remarks:        15471:10000 for /32 prefix filtering (in case of dDOS attack)
+remarks:        =====================================
+admin-c:        SN321-RIPE
+tech-c:         SN321-RIPE
+status:         ASSIGNED
+mnt-by:         RIPE-NCC-END-MNT
+mnt-by:         AS15471-MNT
+mnt-lower:      AS15471-MNT
+created:        2006-11-13T12:11:03Z
+last-modified:  2018-09-04T10:20:08Z
+source:         RIPE # Filtered
+
+organisation:   ORG-SRS3-RIPE
+org-name:       S.N. Radiocomunicatii S.A.
+org-type:       LIR
+address:        103 OLTENITEI Street
+address:        041303
+address:        BUCHAREST
+address:        ROMANIA
+phone:          +40315003645
+fax-no:         +40213149798
+admin-c:        SNR999-RIPE
+admin-c:        NOC767-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        RADIOCOM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         RADIOCOM-MNT
+abuse-c:        SNRA
+created:        2005-12-19T06:11:06Z
+last-modified:  2018-04-18T11:48:24Z
+source:         RIPE # Filtered
+
+role:           SNR NOC
+address:        Sos. Oltenitei 103
+address:        Bucharest, RO
+phone:          +40 31 500 31 31
+admin-c:        CRIS
+tech-c:         CRIS
+nic-hdl:        SN321-RIPE
+abuse-mailbox:  abuse@radiocom.ro
+mnt-by:         AS15471-MNT
+created:        2002-04-09T10:09:43Z
+last-modified:  2017-03-07T11:20:30Z
+source:         RIPE # Filtered
+
+% This query was served by the RIPE Database Query Service version 1.92.6 (WAGYU)
+
+

@@ -1,0 +1,105 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS10533
+as-name:       OTTIX
+descr:         OttIX Route Servers 1 and 2, border routers 1 and 2
+admin-c:       SNV2-ARIN
+tech-c:        SNV2-ARIN
+import:        from AS42
+               action community.append (10533:42, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS112
+               action community.append (10533:112, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS10570
+               action community.append (10533:10570, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS21640
+               action community.append (10533:21640, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS3557
+               action community.append (10533:3557, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS3856
+               action community.append (10533:3856, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS7788
+               action community.append (10533:7788, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS13319
+               action community.append (10533:13319, 10533:1000);
+               accept ANY AND {0.0.0.0/0};
+import:        from AS25689
+               action community.append (10533:25689, 10533:1000);
+               accept ANY AND {0.0.0.0/0};
+import:        from AS26230
+               action community.append (10533:26230, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS27299
+               action community.append (10533:27299, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+import:        from AS30123
+               action community.append (10533:30123, 10533:1000);
+               accept ANY NOT {0.0.0.0/0};
+export:        to AS42
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS10570
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS112
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS21640
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS3557
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS3856
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS7788
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS13319
+               announce rs-ottix AND NOT {0.0.0.0/0};
+export:        to AS25689
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS26227
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS26230
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS26531
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS27299
+               announce ANY AND NOT {0.0.0.0/0};
+export:        to AS30123
+               announce ANY AND NOT {0.0.0.0/0};
+remarks:       -
+remarks:       This is the Ottawa Internet Exchange Route Server Policy.
+remarks:       -
+remarks:       Informaton about OttIX and membership is
+remarks:       located at http://www.ottix.net/.  Technical info about
+remarks:       the OttIX is available by writing to noc@ottix.net.
+remarks:       -
+remarks:       Peering co-ordinator email is peering@ottix.net.
+remarks:       Abuse contact email is abuse@ottix.net.
+remarks:       ------------------------------------------------------------
+remarks:       Community definitions
+remarks:       -
+remarks:       Community    Entry Point/Policy
+remarks:       ------------------------------------------------------------
+remarks:       10533:10533  OttIX Services LAN for Internet transit access
+remarks:       10533:1000   OttIX routes learned at Ottawa
+remarks:       10533:2000   Reserved
+remarks:       10533:3000   Reserved
+remarks:       10533:4000   Reserved
+remarks:       10533:6      IPv6 routes
+remarks:       10533:6000   IPv6 unicast routes inbound from Federal GigaPOP
+remarks:       10533:6010   IPv6 multicast routes inbound from Federal GigaPOP
+remarks:       10533:6100   IPv6 unicast routes outbound to Federal GigaPOP
+remarks:       10533:6110   IPv6 multicast routes outbound to Federal GigaPOP
+remarks:       10533:666    reserved for future blackhole community use
+remarks:       -
+remarks:       ------------------------------------------------------------
+notify:        wmaton@ottix.net
+mnt-by:        MAINT-AS10533
+changed:       wmaton@ottix.net 20141027
+source:        OTTIX
+
+

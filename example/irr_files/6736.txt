@@ -1,0 +1,127 @@
+
+% RIPEdb(3.0.0a13) with ISI RPSL extensions
+
+aut-num:       AS6736
+as-name:       IRANET-IPM
+descr:         Tehran, Iran
+admin-c:       DUMY-RIPE
+tech-c:        DUMY-RIPE
+import:        from AS29049 action pref=150; accept ANY
+import:        from AS20965 action pref=150; accept AS-GEANT-EUPEER
+import:        from AS44889 action pref=170; accept AS-AZMA
+import:        from AS42337 action pref=170; accept AS-RESPINA
+import:        from AS35285 action pref=170; accept AS35285
+import:        from AS39200 action pref=170; accept AS39200
+import:        from AS29068 action pref=170; accept AS29068
+import:        from AS41620 action pref=170; accept AS41620
+import:        from AS43965 action pref=170; accept AS43965
+import:        from AS42867 action pref=170; accept AS42867
+import:        from AS56765 action pref=170; accept AS56765
+import:        from AS57745 action pref=170; accept AS57745
+import:        from AS43135 action pref=170; accept AS43135
+import:        from AS25306 action pref=170; accept AS25306
+import:        from AS29577 action pref=170; accept AS29577
+import:        from AS58104 action pref=170; accept AS58104
+import:        from AS60638 action pref=170; accept AS60638
+import:        from AS12660 action pref=170; accept AS12660
+import:        from AS60315 action pref=170; accept AS60315
+import:        from AS59794 action pref=170; accept AS59794
+import:        from AS34592 action pref=170; accept AS34592
+import:        from AS25152 action pref=170; accept AS25152
+import:        from AS35043 action pref=170; accept AS35043
+import:        from AS21341 action pref=170; accept AS21341
+import:        from AS50460 action pref=170; accept AS50460
+import:        from AS56547 action pref=170; accept AS56547
+import:        from AS47558 action pref=170; accept AS47558
+import:        from AS202571 action pref=170; accept AS202571
+import:        from AS5542 action pref=170; accept AS5542
+import:        from AS42990 action pref=170; accept AS42990
+import:        from AS48898 action pref=170; accept AS48898
+import:        from AS34837 action pref=170; accept AS34837
+import:        from AS24707 action pref=170; accept AS24707
+export:        to AS29049 announce AS-IRANET-IPM
+export:        to AS20965 announce AS-IRANET-IPM
+export:        to AS29068 announce ANY
+export:        to AS35285 announce ANY
+export:        to AS39200 announce ANY
+export:        to AS41620 announce ANY
+export:        to AS43965 announce ANY
+export:        to AS42867 announce ANY
+export:        to AS44889 announce ANY
+export:        to AS56765 announce ANY
+export:        to AS57745 announce ANY
+export:        to AS43135 announce ANY
+export:        to AS25306 announce ANY
+export:        to AS29577 announce ANY
+export:        to AS42337 announce ANY
+export:        to AS58104 announce ANY
+export:        to AS60638 announce ANY
+export:        to AS12660 announce ANY
+export:        to AS60315 announce ANY
+export:        to AS59794 announce ANY
+export:        to AS34592 announce ANY
+export:        to AS25152 announce ANY
+export:        to AS35043 announce ANY
+export:        to AS21341 announce ANY
+export:        to AS50460 announce ANY
+export:        to AS56547 announce ANY
+export:        to AS47558 announce ANY
+export:        to AS202571 announce ANY
+export:        to AS5542 announce ANY
+export:        to AS42990 announce ANY
+export:        to AS48898 announce ANY
+export:        to AS34837 announce ANY
+export:        to AS24707 announce ANY
+remarks:       ---------IPv6----------
+remarks:       ==================================================
+remarks:       
+remarks:       Communities accepted from customers
+remarks:       
+remarks:       ==================================================
+remarks:       
+remarks:       -------------------------------------------------------------------------------------------
+remarks:       customer traffic engineering communities - Blackhole
+remarks:       -------------------------------------------------------------------------------------------
+remarks:       6736:9999 - blackhole (discard) traffic
+remarks:       
+remarks:       Traffic destined for any prefixes tagged with this
+remarks:       community will be discarded at ingress to the IPM/IRANET
+remarks:       network. The prefix must be one permitted by the
+remarks:       customer's existing ingress BGP filter.
+remarks:       For some router vendors the peering
+remarks:       must be changed to an eBGP multihop session on the
+remarks:       IPM/IRANET side of the connection.
+remarks:       
+remarks:       ------------------------------------------------------------------------------------------
+remarks:       This Autonomous System is present at IPM - IRANET
+remarks:       ------------------------------------------------------------------------------------------
+remarks:       
+remarks:       For peering request: saeed@ipm.ir
+remarks:       For existing peerings: sadeghi@iranet.ir
+remarks:       
+remarks:       -----------------------------------------------------------------------------------------
+remarks:       customer traffic engineering communities - Announcement
+remarks:       -----------------------------------------------------------------------------------------
+remarks:       6736:9 - Don't announce to our Uplinks
+remarks:       
+remarks:       Prefixes tagged with this community will not be announced
+remarks:       to our uplinks, only announce to peer customers.
+remarks:       
+remarks:       ----------------------------------------------------------------------------------------
+remarks:       
+remarks:       NOTE - Prefixes longer than /24 are not announced.
+remarks:       
+remarks:       IRANET is now mainly announced via Delta Telecom
+remarks:       ----------------------------------------------------------------------------------------
+remarks:       ****************************
+remarks:       * THIS OBJECT IS MODIFIED
+remarks:       * Please note that all data that is generally regarded as personal
+remarks:       * data has been removed from this object.
+remarks:       * To view the original object, please query the RIPE Database at:
+remarks:       * http://www.ripe.net/whois
+remarks:       ****************************
+mnt-by:        RIPE-NCC-END-MNT
+mnt-by:        IPM-MNT
+source:        RIPE
+
+
