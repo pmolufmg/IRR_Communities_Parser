@@ -82,7 +82,7 @@ Defaults can be edited in *./utils/defaults.py*
 **IRR Communities Parse** is designed to be easily extendable. To make it search for a new type of Community, 
 
  1. choose a lowercase term to call your new type (*type_reference_name*),
- 2. create the new type's class with a *parse method* in *./_types/* (you can use *blackhole.py* as a model),
+ 2. extend the class *CommunityTypes* in *./_types/type_parser.py* with a new type class(you can use *blackhole.py* as a model),
  3. add the new type's specific RegEx pattern to the *./_types/commons/patterns.py* file  (assigned to a variable named after the chosen *type_reference_name* ),
  4.  instantiate the new class in *./parse.py*  (assigned to a *type_reference_name* class variable),  
  5. add the *type_reference_name* to the type list in *./parse.py*.

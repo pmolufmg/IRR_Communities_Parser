@@ -6,13 +6,14 @@ IRR Communities Parser: extract communities information from irr files
 This module is used to find "PREPEND" Communities information
 """
 
-from .commons import patterns
-from .commons import preprocess
-from .commons import fetch_values
+from _types.type_parser import CommunityTypes
+from _types.commons import preprocess
+from _types.commons import patterns
 import re
 
-class Prepend:
+class Prepend(CommunityTypes):
     def __init__(self, type_name='PREPEND', max_prepend_number=11):
+        super().__init__(type_name)
         '''
         keywords:
             type_name: name used do identify prepend communities in output
@@ -30,7 +31,7 @@ class Prepend:
         self.prepend_types = [f"{type_name} {str(num)}x" for num in range(1, max_prepend_number+1)]
 
     def parse(self, asn, line):
-        community, new_line = fetch_values.get_community_value(line)
+        community, new_line = super().get_community_value(line)
             
         if not community:
             return None, None, None
@@ -39,7 +40,7 @@ class Prepend:
         _type, new_line = self.get_prepend_number(asn, new_line)
         
         description_line = preprocess.clean_prepend_description(new_line, asn)
-        description = fetch_values.get_community_description(asn, description_line, treshold=5)
+        description = super().get_community_description(description_line, treshold=5)
             
         return community, _type, description
 

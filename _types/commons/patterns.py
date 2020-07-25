@@ -24,7 +24,6 @@ destination = re.compile('(\A|\s)(to|for|through|towards{0,1}|at)(?=\s)', re.IGN
 
 description_noise = re.compile('(\A|\s)(set|apply|communit(y|ies))(?=\s|\Z)', re.IGNORECASE)
 
-
 # Substrings Patterns used to stardardize strings
 special_chars = ['"', 
                 "'", 
@@ -65,6 +64,9 @@ prepend_times_noise = re.compile(r'times{0,1}', re.IGNORECASE)
 # Auxiliary negation patterns used with NO-EXPORT, NO-ADVERTISE and NO-SEND naming patterns
 negation = re.compile('(?:\A|\s)((do(n\s?t|\snot)?)|(no(t|ne|one|body)?))(?:\s|\Z)', re.IGNORECASE)
 
+negated_type_words = ['export', 'advertise', 'send']
+
+negated_types = re.compile('|'.join(negated_type_words), re.IGNORECASE)
 
 # Community type naming patterns
 

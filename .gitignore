@@ -33,6 +33,13 @@ MANIFEST
 *.manifest
 *.spec
 
+# Workspace files
+irrparser.code-workspace
+uml.xmi
+*.json
+*.csv
+.Rhistory
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
