@@ -7,8 +7,6 @@ This module is used to find "PREPEND" Communities information
 """
 
 from _types.type_parser import CommunityTypes
-from _types.commons import preprocess
-from _types.commons import patterns
 import re
 
 class Prepend(CommunityTypes):
@@ -36,10 +34,10 @@ class Prepend(CommunityTypes):
         if not community:
             return None, None, None
         
-        new_line = preprocess.replace_pattern(new_line, patterns.prepend, ' ')
+        new_line = self.preprocess.replace_pattern(new_line, self.patterns.prepend, ' ')
         _type, new_line = self.get_prepend_number(asn, new_line)
         
-        description_line = preprocess.clean_prepend_description(new_line, asn)
+        description_line = self.preprocess.clean_prepend_description(new_line, asn)
         description = super().get_community_description(description_line, treshold=5)
             
         return community, _type, description
@@ -50,12 +48,12 @@ class Prepend(CommunityTypes):
     '''
 
     def get_prepend_number(self, asn, line):
-        for _type in patterns.prepend_synonyms:
-            pattern = patterns.prepend_synonyms[_type]
+        for _type in self.patterns.prepend_synonyms:
+            pattern = self.patterns.prepend_synonyms[_type]
             synonym_pattern = re.compile(pattern, re.IGNORECASE)
             
             if synonym_pattern.search(line):
-                new_line = preprocess.replace_pattern(line, synonym_pattern)
+                new_line = self.preprocess.replace_pattern(line, synonym_pattern)
                 
                 return _type, new_line
 
@@ -73,10 +71,10 @@ class Prepend(CommunityTypes):
         prep_count = len(asn_list)
         
         if prep_count:
-            new_line = preprocess.replace_pattern(line, asn_pattern)
+            new_line = self.preprocess.replace_pattern(line, asn_pattern)
             
             return self.prepend_key_index(prep_count),\
-                    preprocess.remove_extra_spaces(new_line)
+                    self.preprocess.remove_extra_spaces(new_line)
 
         else:
             return self.prepend_types[0], line

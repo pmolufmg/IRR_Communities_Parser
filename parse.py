@@ -8,8 +8,8 @@ IRR Communities Parser: extract communities information from irr files
 from utils.sys_args import GetArgs
 from utils.load_dict import LoadCommunitiesDict
 from utils.output import Output
-from _types.commons import preprocess
-from _types.commons import patterns
+from _types.commons.preprocess import Preprocess
+from _types.commons.patterns import RegExPatterns
 from _types.prepend import Prepend
 from _types.blackhole import BlackHole
 from _types.no_export import NoExport
@@ -22,7 +22,8 @@ class IrrCommunitiesParser:
         
         self.irr_files = irr_file_list
         self.communities_dict = data_dict
-        
+        self.preprocess = Preprocess()
+        self.patterns = RegExPatterns()
         '''
         NO_SEND is an indefinite type of community (based on expressions such as "not send route", 
         "not announce", etc.) that can be interpreted as "NO_EXPORT" or "NO_ADVERTISE". 
@@ -60,12 +61,12 @@ class IrrCommunitiesParser:
                 lines = rpsl_file.read().splitlines()
                 
                 for line in lines:
-                    line = preprocess.remove_extra_spaces(line)
+                    line = self.preprocess.remove_extra_spaces(line)
                     
                     if not self.starts_with_community_or_remarks(line):
                         continue
                     
-                    clean_line = preprocess.remove_remarks_and_special_chars(line)
+                    clean_line = self.preprocess.remove_remarks_and_special_chars(line)
                     
                     for community_type in self.community_types:
                         negation = community_type.startswith('no')
@@ -87,25 +88,24 @@ class IrrCommunitiesParser:
                             
     def fetch_data(self, asn, line, _type, negation):
         if negation:
-            if not patterns.negation.search(line):
+            if not self.patterns.negation.search(line):
                 return False, False, False
             
             second_pattern = _type.lstrip('no_')
-            type_pattern = eval(f"patterns.{second_pattern}")
+            type_pattern = eval(f"self.patterns.{second_pattern}")
         
         else:
-            type_pattern = eval(f"patterns.{_type}")
+            type_pattern = eval(f"self.patterns.{_type}")
 
         if type_pattern.search(line):
             type_parse= eval(f"self.{_type}.parse(asn, line)")
                 
             return type_parse
     
-    @staticmethod
-    def starts_with_community_or_remarks(line):
-        starts_with_remarks = patterns.remarks.match(line)
-        starts_with_community = patterns.community.match(line)
-        invalid_community_format = patterns.invalid_community.search(line)
+    def starts_with_community_or_remarks(self, line):
+        starts_with_remarks = self.patterns.remarks.match(line)
+        starts_with_community = self.patterns.community.match(line)
+        invalid_community_format = self.patterns.invalid_community.search(line)
 
         if (starts_with_remarks or starts_with_community)\
             and not invalid_community_format:    
