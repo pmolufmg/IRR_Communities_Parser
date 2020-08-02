@@ -85,7 +85,7 @@ class RegExPatterns:
         self.advertise = re.compile('advertise(?=\s|\Z)', re.IGNORECASE)
 
         ## NO_SEND
-        self.send = re.compile('(sen(d|t)|announce|route)(?=\s|\Z)', re.IGNORECASE)
+        self.send = re.compile('(sen(d|t)|announce(ment)?)(?=\s|\Z)', re.IGNORECASE)
 
 
         # Equivalent terms (synonyms)
