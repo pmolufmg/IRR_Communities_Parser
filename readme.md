@@ -3,6 +3,7 @@
 
 A RegEx-based parser to collect BGP Communities information from IRR's aut-num objects.
 
+Experimental results: [Communities Dataset](https://drive.google.com/drive/folders/1fWd9M1lbbM7AaaGEQfyRVZpxmr74e0Ww?usp=sharing)
 
 ##  Introduction
 
